@@ -1,0 +1,6 @@
+- questions:
+  - If Celestia learns the true fate of Chrysalis's fake parents, does it validate her 930 ALB Stagnation of Harmony, and would she say so to Applejack? | ignored | Says nothing about Celestia or the Stagnation; moves on to naming the fake mom. | none
+  - How devastating is it if Applejack reveals to Gilded Trust in Chapter 29 that the most decadent Skyfall Tycoons were two Equestrian ponies, not Griffons? | ignored | Says nothing about Chapter 29, Gilded Trust or the reveal; asks only about the fake mom's name, talent and roles. | none
+- shape: Redirects to a new generative request. It accepts the model's decadence framing without comment and asks for names, a special talent, and Acornage and Skyfall roles for the fake mother. It skips both closing questions.
+- settles:
+  - The fake father's name is Silver Sterling. | given that the fake dad is Silver Sterling

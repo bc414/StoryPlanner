@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Tempest Shadow is shown working on the spellblast tank turret as what appears on the page | She works on the spellblast tank turret | no
+- goals:
+- whole: The note names a single on-page action for the character, her working on the spellblast tank turret, without stating any reader effect or an overall appearance plan.

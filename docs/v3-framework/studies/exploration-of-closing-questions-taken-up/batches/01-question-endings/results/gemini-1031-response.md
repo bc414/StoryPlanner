@@ -1,0 +1,5 @@
+- questions:
+  - Does the proposed account fit the user's vision for Hans' motivation and the technical disparity between the two sides? | partly answered | Rejects the account's premise about Hans's work: he did not work on lithography but on the three-way valve that splits love into red and pink streams. It doesn't say whether the motivation or the disparity fit. | Hans worked on the three way valve that separates the love into red and pink streams, not the lithography part
+- shape: Corrects the model on what Hans's role was, then redirects with a new open request for other early-PCB or lithography parts that could give story insight. The model's Hans-as-lithography-inventor material is left unaccepted.
+- settles:
+  - Hans Kessel's work was on the three-way valve that separates love into red and pink streams, not on the lithography or crystal-making process | Hans worked on the three way valve that separates the love into red and pink streams, not the lithography part

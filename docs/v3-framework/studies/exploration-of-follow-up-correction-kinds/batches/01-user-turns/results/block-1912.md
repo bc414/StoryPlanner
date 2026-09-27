@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turns from the model's meta-narrative analysis to a new topic, proposing an arc for Fluttershy's reaction to the battle (retreat to the sanctuary, then recovery of her Grace instincts in chapters 5 and 6) and asking whether it fits.

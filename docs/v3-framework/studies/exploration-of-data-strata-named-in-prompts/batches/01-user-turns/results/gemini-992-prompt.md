@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects and refines the model's proposed arc by stating how the Meritocrats would react to impossible quotas, how Chrysalis twists Trimmel's promise, Trimmel's repentant state at surrender, and the rule that keeps the Statthalters from taking Vanhoover prisoners, without pointing at any body of source material.

@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | plans that this scene is where first-time readers get the reveal that Fluttershy stayed and that Twilight's words worked | First time readers find out Fluttershy stayed, and that Twilight's words worked | no
+- goals:
+  - Readers learn that Fluttershy stayed and that Twilight's words had their effect | WorldInference | First time readers find out Fluttershy stayed, and that Twilight's words worked
+- whole: The note tells the author that this scene is the point where first-time readers discover Fluttershy stayed and Twilight's words worked, a reader-experience plan sitting in a notes-to-self track.

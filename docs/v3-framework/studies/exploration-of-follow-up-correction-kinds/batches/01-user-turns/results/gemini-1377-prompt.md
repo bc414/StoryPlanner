@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about how the debt trap on Zebrican warlords would actually work, offering two candidate mechanisms (consumer addiction to foreign goods versus a pretext for port seizure), without saying anything in the model's turn was wrong.

@@ -1,0 +1,6 @@
+- claims:
+  - History | Kemerskai read The Predator's Dilemma and concluded that Coltbert is right that resource scarcity must be solved before griffons can act morally | Kemerskai read The Predator's Dilemma and realized Coltbert is right | yes
+  - History | Kemerskai came to see his past self as all noise and speeches without logistics, and learned that supply lines matter more than speeches | He realizes in the past he was all noise and speeches; He learns that supply lines are more important | yes
+  - History | Kemerskai changed from an inspiring orator into a competent administrator who listened to and balanced the needs and visions of his supporters in the streets and in parliament | He shifts from an inspiring orator to a competent administrator | yes
+- goals:
+- whole: The note reports, as a past event in Kemerskai's life, how reading Coltbert's book led him to abandon oratory for logistics and to become an administrator of his supporters.

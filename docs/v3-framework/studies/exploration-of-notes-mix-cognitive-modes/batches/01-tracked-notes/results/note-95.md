@@ -1,0 +1,7 @@
+- claims:
+  - Canon | The scene is to be a complete inversion of Mudbeak's tragic arc from the earlier Princess and the Kaiser story, recontextualizing established canon | This is a total subversion of his Princess and the Kaiser tragic arc | no
+  - Canon | Established canon being subverted: Mudbeak ordered the artillery barrage that killed Shining Armor in Flowena during the Reich's invasion of Aquileia | where Mudbeak ordered the artillery barrage that killed Shining Armor in Flowena during the Reich's invasion of Aquileia | no
+  - Canon | Established canon: Grover VI forced Mudbeak to lead an army into changeling-occupied Equestria when he was a year from retirement | Grover VI forces him to lead an army into changeling-occupied Equestria when he was one year out from retirement | no
+  - Canon | Established canon: Mudbeak afterwards lives in abject fear of Flurry Heart while still addicted to morphine | then lives in abject fear of Flurry Heart while still addicted to morphine | no
+- goals:
+- whole: The note tells the author to write this scene as a total inversion of Mudbeak's canonical tragic arc in Princess and the Kaiser, summarizing that arc's key events as the thing being subverted.

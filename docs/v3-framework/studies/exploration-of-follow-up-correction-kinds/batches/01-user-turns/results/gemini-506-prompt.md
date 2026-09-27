@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the prior split of the reveal and moves on to a new request, asking for a map of Applejack's multiple character arcs and how they intersect with these plot points.

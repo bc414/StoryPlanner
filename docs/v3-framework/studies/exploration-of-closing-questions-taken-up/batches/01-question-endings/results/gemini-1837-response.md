@@ -1,0 +1,6 @@
+- questions:
+- shape: The model turn asks the user nothing, so nothing is answered or left open. The user pushes back on the model's proposal. They dispute the idea that the new form leaves her undetectable. They say she keeps her changeling magic in the griffoness form, as she did in the queen form, and that a detection spell would send her back to the griffoness. They conclude that using magic around others would work against her. It is a correction that adds a constraint, not a reply to a question.
+- settles:
+  - Chrysalis keeps access to her changeling magic in the griffoness form, as she kept it in the queen form and as a drone | still has access to changeling magic in her griffoness form, just like she still has access to the same magic in her queen form
+  - A detection spell hitting her would make her go back to the griffoness | If she was hit by a detection spell, she would go back to the griffoness
+  - It is against her interest to use her magic in front of other people, so she has to avoid doing it in public | it would not be in her favor to use her magic in the presence of others

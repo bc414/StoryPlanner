@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an analysis of the Chinese migrants who, around 2022, followed instructions found on Pinduoduo to fly to Quito, cross the Darién Gap and walk across the US border, apparently as a follow-on to the model's discussion of Chinese male frustration and material conditions.

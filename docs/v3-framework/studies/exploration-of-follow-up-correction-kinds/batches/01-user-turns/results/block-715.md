@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the idea to mean only the values of a fixed set of code-defined enums would come from configuration, with most enums left as standard enums. The user meant that the enums describing a connection's properties, apart from the authorial framework ones, should themselves be created through configuration and data entry, not only have their values configured. | "I was thinking the non authorial framework enums" ... "would also be created by configuration and data entry, not just their values" | stated as what the user had in mind, in a mild and flat way, without explicit disagreement or an apology, and with the contrast marked by "not just"
+- about: The user widens the model's proposal, saying that connection-property enums, not only their values, should be defined by configuration and data entry, with the authorial framework enums excluded.

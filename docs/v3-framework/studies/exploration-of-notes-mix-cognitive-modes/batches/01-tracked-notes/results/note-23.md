@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Applejack is paralyzed by debilitating imposter syndrome once industrial war becomes real for her | paralyzed by debilitating imposter syndrome once the reality of industrial war hits | yes
+  - Characterization | Her imposter syndrome is not truly warranted; it arises from the asymmetric material reality of the changelings' military strength rather than any real inadequacy | isn't truly warranted, but she feels it because of the asymmetric material reality | yes
+- goals:
+- whole: The note asserts as psychological truth that Applejack starts TLTT paralyzed by unwarranted imposter syndrome caused by the changelings' asymmetric military strength.

@@ -1,0 +1,6 @@
+- sources:
+  - v1 database | re-read it and pull the relevant notes to ground the analysis | Reread the v1 and v2 databases again and make sure to get the relevant notes | referred-to
+  - v2 database | re-read it and pull the relevant notes to ground the analysis | Reread the v1 and v2 databases again and make sure to get the relevant notes | referred-to
+  - the real data | the analysis must rest on it, not on inference | grounded in the real data | referred-to
+- order:
+- about: The user tells the model to redo the lineage analysis across all 5 axes rather than the 4 partly populated ones, by re-reading the v1 and v2 databases and pulling the relevant notes so the result rests on the real data.

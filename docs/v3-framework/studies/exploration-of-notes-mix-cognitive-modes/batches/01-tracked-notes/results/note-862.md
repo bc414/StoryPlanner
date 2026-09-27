@@ -1,0 +1,5 @@
+- claims:
+  - History | Herzlander names follow a convention: a typical German first name plus a surname compounded from griffon-biology terms | Herzlander names are typical German first names, and the surname is a compound related to griffon biology | no
+  - Characterization | A name such as Steelbeak encodes functional determinism, so the griffon is defined by their family's ambition | A name like "Steelbeak" is functional determinism; the griffon is defined by their family's ambition | no
+- goals:
+- whole: The note states as world truth how Herzlander names are built and asserts that a griffon's biology-compound surname determines them by their family's ambition, without saying anything about what the reader is to get from it.

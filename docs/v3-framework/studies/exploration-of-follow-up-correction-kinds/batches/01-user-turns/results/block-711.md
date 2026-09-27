@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the function-key discussion and asks a new design question about whether markdown exports for an LLM need a separate field explaining each note track or whether an existing field can serve both purposes.

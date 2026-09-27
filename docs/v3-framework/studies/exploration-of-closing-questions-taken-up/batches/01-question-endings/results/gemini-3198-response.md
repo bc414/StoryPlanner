@@ -1,0 +1,4 @@
+- questions:
+  - Is the user more interested in the technical shifts in fan-game engine architectures, or in the custom narrative-tracking tools the writing community builds for lore? | ignored | The user picks neither and asks a separate question about how prominent EaW is in the wider MLP community. | How prominent is EaW within the broader MLP community? Is it niche or mainstream?
+- shape: The user turn redirects. It leaves the model's either/or offer unanswered and asks a new factual question: whether EaW is niche or mainstream in the MLP fandom. It is a request for information, not a story decision.
+- settles:

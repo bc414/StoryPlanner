@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | the fantasy technology MEFO Bills stands for present-day Chinese industrial development and resource imperialism | Chinese industrial development and resource imperialism | yes
+- goals:
+- whole: The note names the real-world condition, Chinese industrial development and resource imperialism, that the fantasy technology MEFO Bills is to stand for.

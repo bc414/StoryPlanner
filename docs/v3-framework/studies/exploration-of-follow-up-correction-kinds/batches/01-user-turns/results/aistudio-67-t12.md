@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the revised 914–930 policy-change timeline as given and asks a new, multi-part planning question: how the thestral backstory should change, what their current narrative purposes are, and how to adapt their history to keep those purposes working.

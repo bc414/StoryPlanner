@@ -1,0 +1,8 @@
+- questions:
+  - Do Snap and Mane resent Celestia for their exile, and does that resentment blind them to the danger of the Skyfall/Changeling economic machine they now work in? | ignored | Says nothing about the parents' feelings toward Celestia or their blindness. It only moves the episode's timing and changes Scootaloo's backstory. | none
+  - How does Applejack react to the expatriate parents trying to take Scootaloo away? | ignored | Never mentions Applejack or how anyone in Ponyville responds to the parents. | none
+- shape: Corrects the model's timeline (the episode comes before the war, since all war plans are set after canon) and replaces the model's backstory for Scootaloo's inability to fly with a harsher one. It does not take up either question the model asked.
+- settles:
+  - The Snap Shutter / Mane Allgood episode takes place before the war, and all the war story plans are set after canon | This episode should happen before the war. All my war story plans take place after canon
+  - Scootaloo was born in New Mareland | while born in New Mareland
+  - Scootaloo cannot fly because of developmental malnourishment, not a plain disability | Scootaloo can't fly due to developmental malnourishment

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author restates and revises the story's occupation politics, recasting Trimmel as a meritocrat whose faction is tied to the results, with surrendered soldiers and civilians in Vanhoover protected from the Statthalters, and the Tall Tale loss leading only to incremental changes, without pointing the model at any body of material.

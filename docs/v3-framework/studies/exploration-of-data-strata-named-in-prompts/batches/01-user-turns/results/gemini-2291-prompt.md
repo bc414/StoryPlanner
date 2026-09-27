@@ -1,0 +1,4 @@
+- sources:
+  - real-world WW2 German fighters (the model's general knowledge of 1940s aircraft) | use as the real-world reference to answer which fighters the mass-produced Changeling swarm should be modelled on | what are the German fighters? | referred-to
+- order:
+- about: The user lays out their four-tier hierarchy of aircraft at the start of the war, plus a mid-war shift to mass-produced simpler magical CAS planes, and asks the model for a pretentious French name for the top tier and for the real German fighters the Changeling swarm would mirror.

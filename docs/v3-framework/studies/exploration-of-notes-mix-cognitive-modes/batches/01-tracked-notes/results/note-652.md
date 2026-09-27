@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Henri and rural Aquileians regard Herzlanders as poseurs who claim honor but are really looters, a belief held by the character | Henri and other rural Aquileians view Herzlanders as poseurs because they claim honor but ultimately are looters | yes
+  - Characterization | Henri's biases originate in stories handed down by parents and elders in childhood, explaining what shaped him | Many of Henri's biases come from stories passed down by parents/elders while they were children | yes
+- goals:
+- whole: The note asserts, as a psychologist would, Henri's prejudice against Herzlanders as dishonorable looters and traces it to childhood stories from elders.

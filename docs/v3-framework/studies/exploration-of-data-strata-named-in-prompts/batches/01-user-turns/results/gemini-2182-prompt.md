@@ -1,0 +1,5 @@
+- sources:
+  - the Star Spade | use as the model for the spectrometer: it takes in nearby earth pony magic, and the spectrometer should do the same | So it takes in earth pony magic like the Star Spade | referred-to
+  - the earlier claim that crops hold ego signatures after the magic | reject and do not use; the magic only drives the weathering process and leaves no signature in the crops | The crops should not hold ego signatures afterwards | referred-to
+- order:
+- about: The user corrects the prior answer by ruling out ego signatures left in crops, requires chemistry-grounded magic, and proposes that the spectrometer be powered by a nearby earth pony as the Star Spade is, asking whether that works.

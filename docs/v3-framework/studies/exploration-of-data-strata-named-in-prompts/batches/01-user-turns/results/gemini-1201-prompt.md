@@ -1,0 +1,5 @@
+- sources:
+  - my story notes | the place where the term Stagnation of Harmony is already used heavily; the model is to take that existing usage as the basis for deciding when and by whom it is coined in the story | I use Stagnation of Harmony extensively in my story notes | referred-to
+  - hoi4 EaW national spirit | the origin the term is based on; given as background on where the term comes from, not as something to follow | it's based on a hoi4 EaW national spirit | referred-to
+- order:
+- about: The user asks the model when in the story, and by which character, the term Stagnation of Harmony should first be coined, noting that the term is used throughout their notes and comes from a Hearts of Iron 4 Equestria at War national spirit.

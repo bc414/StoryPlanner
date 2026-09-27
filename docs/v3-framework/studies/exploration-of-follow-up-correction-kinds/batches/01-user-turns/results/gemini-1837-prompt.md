@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | when Chrysalis made her permanent change: the model's backstory ties it to the conquests and leaves it unplaced or after them, while the user puts it before her 978 return to Vesalipolis so the changelings only ever knew her in the Great Queen form | I feel like she should already have changed her form permanently before she returned to Vesalipolis in 978 | put as a personal preference with a reason (the changelings only know her as the Great Queen), stated as a soft 'I feel like' revision and not as a flat error report
+- about: The user moves the timing of Chrysalis's permanent transformation to before her 978 return and then adds a new ending in which she liquidates the pink-love stockpiles, escapes by submarine and changes form again into a griffoness.

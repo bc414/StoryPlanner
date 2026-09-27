@@ -1,0 +1,6 @@
+- sources:
+  - the weak franc for exports framing (the FJA wanting a weak franc, from the model's previous answer) | doubted and offered up for the model to reconsider; the user asks whether it has any relevance left | Actually I don't think the FJA is considering a weak franc; Does the weak franc have any relevance anymore | referred-to
+  - the author's own account of the 1008 bank run, the FJA's and PNdA's motives, and the core idea of the 2nd revolution (given from memory in this turn) | treat as the settled premise the model should now work from, correcting the earlier framing | The core idea in the 2nd revolution is that the FJA and PNdA snub each other culturally but are economically symbiotic | first-named
+- order:
+  - the author's own account of FJA and PNdA motives and the 1008 bank run | the earlier weak franc for exports framing | Actually I don't think the FJA is considering a weak franc for exports
+- about: The user corrects the model's previous take on FJA motives by restating from memory why the 1008 bank run happened and the mutually snubbing but economically symbiotic FJA and PNdA, and asks whether the weak franc idea still holds.

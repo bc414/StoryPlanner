@@ -1,0 +1,4 @@
+- claims:
+  - History | Applejack's culminating achievement in the world is that she taught her people the courage to govern themselves | Applejack's ultimate triumph: teaching her people how to be brave enough to govern themselves | no
+- goals:
+- whole: The note names, as a bare statement of outcome, the culminating event of the Equestrian Republic's story: Applejack teaches her people the courage to self-govern.

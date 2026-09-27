@@ -1,0 +1,6 @@
+- sources:
+  - the model's earlier options, the name Clear Skies | adopt it as the character's name, chosen over the alternative name offered | I like Clear Skies | referred-to
+  - pegasi of Ponyville in the show, the model's own knowledge | consult it to say whether an existing Ponyville pegasus already has that name | Is there a pegasus from Ponyville with that name? | referred-to
+  - the author's own account of the story, her trauma and the Bluebell River Spearhead rain teams | treat as correct, and use it to fix the model's version, in which she was fine arranging rain before the battle and only the fighting broke her, and the rain teams work out of combat after each engagement is cleared | She was fine arranging the rainfall ahead of the battle | first-named
+- order:
+- about: The user picks the name Clear Skies, asks whether a Ponyville pegasus already has it, and corrects the model's account of her trauma and of how the rain teams work in the Bluebell River Spearhead.

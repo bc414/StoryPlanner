@@ -1,0 +1,6 @@
+- questions:
+  - Do the Wonderbolts develop a deliberate deterrence doctrine, such as firing long wasteful tracer bursts to show the Changelings they have ammo to burn and to break the conscripts' will to engage? | ignored | The user turn says nothing about deterrence doctrine or tracers. It corrects terminology and asks about bullet weight and armor. | none
+- shape: Corrects the model's terminology, then redirects to new factual questions about bullet weight (WW2 versus the story's high-tech round), armor weight, and what armor is for. The user also doubts the 150 lb armor figure. The model's own question is left alone.
+- settles:
+  - The aircraft are called Bf 109s. "Jaeger" is not the plane's name. It is the social class of the pilots. | The planes should be called bf 109s, not to be confused with the pilot who is of the jaeger social class
+  - Changeling pilots are drawn from the jaeger social class at first. Once the jaegers are shredded, conscription takes over as the source of pilots. | until the jaegers are shredded and conscription kicks in

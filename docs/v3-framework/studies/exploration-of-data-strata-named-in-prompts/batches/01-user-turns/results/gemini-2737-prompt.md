@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's previous analysis by correcting its claims about the setting: Celestia disapproves of Twilight reading foreign books, Velvet is only an author, and the Canterlot elite hold no real knowledge, which sits with Aquileian-culture working-class visitors and employees and with new-money tycoons.

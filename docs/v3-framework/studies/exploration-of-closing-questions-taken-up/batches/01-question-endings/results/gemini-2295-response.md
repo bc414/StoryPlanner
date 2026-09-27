@@ -1,0 +1,7 @@
+- questions:
+  - Does the Wonderbolt armor include acoustic insulation or magical sound-dampening, or do the pilots just endure the siren's 'Magical Panic' frequency while lining up shots? | partly answered | Rejects the magical-panic premise, saying the siren is only sound warfare. It never says whether the armor has any acoustic insulation. | There shouldn't be any magical panic, it's just sound warfare
+- shape: Corrects the model's premise: the siren has no magical effect. It then restates the model's aircraft-role breakdown in its own words as a summary to check, and moves on from the siren question without pursuing it.
+- settles:
+  - The Jericho Trumpet sirens have no magical panic effect; they are purely sound warfare. | There shouldn't be any magical panic, it's just sound warfare
+  - The standard Spitfire equivalent is the dogfighting and interceptor plane, and it can also do close support when a unicorn is aboard. | the spitfire equivalent is the plane that usually dogfights and intercepts but can also do close support with a unicorn on board
+  - The armored Spitfire variant is the low-level close-support plane that shrugs off infantry fire. | the armored spitfire can do close support near the ground and shrug off infantry fire

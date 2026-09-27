@@ -1,0 +1,8 @@
+- sources:
+  - the magic system | treat as a binding logic that proposals must fit; the earlier idea is rejected because it would break it | seems to break the logic of the magic system | referred-to
+  - the model's proposal that silk retains the weaver's love | reject and replace; silk should not hold the weaver's love indefinitely | should not hold onto the love of its weaver indefinitely | referred-to
+  - Mage Meadowbrook's friendship plants | use as the model for the new mechanism: they store friendship and are harvested into medicine, so the silk should work similarly | like Mage Meadowbrook's friendship plants | referred-to
+  - the procedure at camp fluttershy for new POWs | treat as an existing element that the new silk-blanket origin should parallel | just like the procedure at camp fluttershy for new POWs | referred-to
+- order:
+  - the magic system over the model's proposal that silk retains the weaver's love | seems to break the logic of the magic system
+- about: The user rejects the model's idea that silk keeps its weaver's emotions, proposing instead that it soaks up ambient friendship like Meadowbrook's plants and releases it slowly, with an origin in ancient hive grub-care that matches Camp Fluttershy's treatment of new POWs.

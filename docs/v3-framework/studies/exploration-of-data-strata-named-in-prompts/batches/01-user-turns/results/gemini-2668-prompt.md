@@ -1,0 +1,4 @@
+- sources:
+  - Alexander Dumas's original work | the model is asked to explain its themes and social commentary, as a published work to draw on for information | What were the themes and social commentary of Alexander Dumas's original work | referred-to
+- order:
+- about: The user asks the model two background questions: what themes and social commentary Dumas's original Monte Cristo work carried, and whether "serialized" means it was released in installments like manga or fanfiction.

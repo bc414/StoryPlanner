@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: gap in the proposed mechanism's logic | the model's claim that the root seal makes the thief fail overlooks that, if the seal is erasable like the other marks, a thief could wipe it and stamp their own sovereign mark | "the sovereign mark needs to somehow be permanent so one can't erase it and put their own sovereign mark" | tentative and constructive, hedged with "it seems like", pointing out the hole by proposing the fix rather than saying the model was wrong
+- about: The user points out that the root-seal design leaves the thief a route, since an erasable sovereign mark could be replaced, and proposes that this one mark must be permanent.

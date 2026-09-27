@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's turn presents "Friendship Shields" as the label for the Charitostatic devices in the Crystal Empire's clandestine, Aquileian-linked production. The user places the name with the Equestrian Army, as a deliberately harmonious cover name, and says the Aquileians would call the handheld device "Crystal Heart". | "I believe the Equestrian Army initially called them" and "The Aquileians should literally call the handheld version" | hedged and offered in passing as a clarification of the world's naming. It is not marked as an error, and the user moves straight on to a French-wording question.
+- about: The user supplies the naming and in-world rationale for the handheld crystal heart devices, with the Army's public name and the Aquileian name kept separate, and then asks how French would express the English sense of "heart".

@@ -1,0 +1,4 @@
+- sources:
+  - the narration already established for chapter 1 of the prequel (unnamed apex jaeger thought to be a starving drone, naming herself Chrysalis in the final line) | treat as settled and fixed; the pros and cons must be weighed against it | I already established the narration in chapter 1 | referred-to
+- order:
+- about: The user asks the model to weigh the pros and cons of a planned narration choice in Chrysalis's prequel, Krista as the close-third focal character in the Skyfall and Herzland chapters and Chrysalis again after 978, while noting that the chapter 1 narration is already settled.

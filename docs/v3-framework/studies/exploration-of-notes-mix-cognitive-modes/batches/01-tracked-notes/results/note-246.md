@@ -1,0 +1,5 @@
+- claims:
+  - History | Chrysalis kills Synovial's attache, not for the first time | Chrysalis dispatches Synovial's attache once again | yes
+  - History | In the battle of Romau Chrysalis strikes the decisive blow that lets Eros defeat Eagleclaw | lands the pivotal blow in the battle of Romau that allows Eros to defeat Eagleclaw | yes
+- goals:
+- whole: The note reports, as in-universe history dated 1007, Chrysalis's part in the battle of Romau: she again kills Synovial's attache and delivers the blow that lets Eros defeat Eagleclaw.

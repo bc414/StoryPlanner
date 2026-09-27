@@ -1,0 +1,10 @@
+- questions:
+  - Do the Wonderbolts use cyan or gold tracers, against the Changelings' green? | ignored | Says nothing about tracer colours. | none
+  - Is running out of ammo (about 15 seconds of trigger time) the mistake that forces Rainbow Dash into her Sonic Rainboom ejection, with a fourth Jaeger surprising her? | ignored | Doesn't address Dash's ammo or the ejection scene. It mentions the 15-second limit only as a Changeling weakness. | none
+  - Where does Applejack get the tungsten or hardened steel for armor-piercing tips without alerting Celestia? | partly answered | Gives a sourcing answer for phosphorus, the incendiary ingredient, from earth pony magic. It says nothing about tungsten or steel for AP tips, or about hiding it from Celestia. | The Wonderbolts get phosphorus from earth ponies
+- shape: The user ignores most of the model's open questions and answers only the sourcing one, sideways, with a new world fact about earth pony magic and phosphorus. It then sets the war's asymmetry: a Changeling swarm of WW2 fighters with short firing time against a few elite Wonderbolt aces. It ends by redirecting to a new question of its own, asking what post-WW2 fighters like the Raptor can teach about making the Wonderbolts extreme aces, with magic to close the tech gap afterwards.
+- settles:
+  - Earth pony magic is accelerated weathering of phosphorus and potassium for fertilizer, and this is where the Wonderbolts get their phosphorus. | earth pony magic is accelerated weathering of phosphorus and potassium
+  - The Changelings are stuck with WW2-style fighters limited to about 15 seconds of firing, but they field a massive swarm. | changelings are stuck with traditional fighters from WW2 which can only fire for 15 seconds
+  - The Wonderbolts are a small force of elite aces, not a mass air force. | The Wonderbolts are limited aces
+  - Plan: draw on post-WW2 fighter design for the Wonderbolts' edge, then use magic to bridge the tech gap. | Then we can use magic to bridge the tech gap

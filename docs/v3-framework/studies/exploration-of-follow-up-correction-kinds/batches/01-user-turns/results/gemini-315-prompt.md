@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Where Grover VI grew up: the model had him raised in Bronzehill under the Dogs, but he was raised in Griffenheim with Eros as regent and an elderly Benito as bodyguard | "Grover VI was not raised in Bronzehill. He was raised in Griffenheim." | flat, direct statement of the right fact, then backed with a dated backstory of Grover V and the regency
+  - fact of the world | Where the Barkingian Guard is based and what it is: the model made it Bronzehill's own police and a lent neutral force, but it lives and works at the palace in Griffenheim | "The Barkingian Guard lives and works at the palace in Griffenheim." | flat, one-sentence statement with no explanation of the error
+- about: The user overturns the model's assumptions about Grover VI's upbringing and the Barkingian Guard's home, supplies the Grover V and VI timeline, and then offers their own plan in which the Equestrian Republic joining the republican pact leads the GR to legislate Bronzehill's self-determination and Bronzehill to join the pact.

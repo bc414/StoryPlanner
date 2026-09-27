@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's framing and restates their own two key story beats within it, then asks a new question about which early-Faust traits of Twilight should return, setting criteria to separate earned character growth from mandate-driven additions.

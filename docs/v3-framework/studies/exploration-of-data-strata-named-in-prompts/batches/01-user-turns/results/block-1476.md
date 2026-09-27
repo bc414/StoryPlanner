@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reflects on the model's chronological-versus-epistemological framing of the axes, proposes walking through all 16 two-value combinations to see what each resulting quadrant shares, asks whether the axes are coupled in meaning rather than orthogonal, and wonders whether the PE/NE axis should instead be about the gap between reader knowledge and truth.

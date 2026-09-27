@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies their bucket-categorizer system instruction as background, telling the model not to run it but to use it in deciding which fact-checking and integration questions belong to each axis, which is new material and a further request rather than a stated fault in the suite.

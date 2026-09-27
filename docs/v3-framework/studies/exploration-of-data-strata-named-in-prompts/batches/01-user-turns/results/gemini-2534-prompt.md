@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user endorses the proposed Storm King anti-slaver motive as the reason Fizzlepop is his second-in-command and can be redeemed, then adds that the horde's momentum before 1002 would make Chrysalis's Statthalter quotas from Zebrica slip, which pushes her into the Canterlot Wedding.

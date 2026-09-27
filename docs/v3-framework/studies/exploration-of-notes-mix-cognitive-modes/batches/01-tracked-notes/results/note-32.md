@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | states the thematic proposition that truth causes pain, as the proposition this character embodies | The truth hurts | yes
+- goals:
+- whole: The note gives, in three words, the thematic proposition that Applejack's character is meant to embody, that truth is painful, and nothing else.

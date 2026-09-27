@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Acornage naming backstory, restates it with the added detail that she later took the Herzlander commoner name Krista, and asks what her drones would call her in Herzlander once she starts conquering the hives.

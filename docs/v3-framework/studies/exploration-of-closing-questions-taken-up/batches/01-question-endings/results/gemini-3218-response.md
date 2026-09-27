@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn moves on to a new subject and puts fresh questions of its own to the model. It asks for an analysis of the Command & Conquer series, its ownership, and what Westwood and EA wanted. It gives personal history with the games and its own reading of the series, including the view that Red Alert and Tiberium fit the materialist-historicism frame, that Generals is the exception, and that C&C 4 was a corporate mandate. It closes by asking whether Kane's arc parallels Kerrigan's. The model turn put no question to the user, so nothing is answered, refused or ignored.
+- settles:

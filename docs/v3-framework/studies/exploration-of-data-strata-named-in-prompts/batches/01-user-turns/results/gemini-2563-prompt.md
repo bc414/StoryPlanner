@@ -1,0 +1,4 @@
+- sources:
+  - what I've established about the griffon pony balance being enforced through asset specificity requirements for the ship | treat as settled worldbuilding and build the gender-balance answer on top of it | I've established that the griffon pony balance is enforced through asset specificity requirements | referred-to
+- order:
+- about: The user asks the model to work out how Coltbert would engineer a gender balance in the naval crews, tentatively through the naval academy, taking their already-settled griffon/pony balance mechanism as given.

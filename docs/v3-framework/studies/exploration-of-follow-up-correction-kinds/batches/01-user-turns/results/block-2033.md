@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user refers back to their earlier correction of the P&K reading, asks for a fresh analysis of Fallout, Fallout: Equestria and its sequel, and wonders aloud whether those older, heavily discussed works are less prone to misreading, without saying anything in the model's turn is wrong.

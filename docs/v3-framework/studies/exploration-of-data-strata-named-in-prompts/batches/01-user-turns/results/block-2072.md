@@ -1,0 +1,4 @@
+- sources:
+  - the charitostatic effect as established | treat as an already-settled part of the design and build on it, as the reason the cooperative faction has higher output per capita | "due to the charitostatic effect as established" | referred-to
+- order:
+- about: The user corrects the model's proposed failure modes and sets out their own design, in which war is driven by citizen demand and export of the revolution, and each faction absorbs neutral villages and compradors at a different speed by its own method, while resting on an effect settled earlier.

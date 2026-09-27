@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's story-versus-discourse and architect-versus-gardener framing and extends it with their own inferences about serialized fanfiction, early generative AI's reputation, and long-context models as an affordable stand-in for a developmental editor.

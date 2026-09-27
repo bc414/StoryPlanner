@@ -1,0 +1,5 @@
+- sources:
+  - the model's conclusion that nothing changed between feudal and warlord Aquileia (this conversation's previous answer) | rejected as unsatisfying; the user offers a different ordering to replace it | I don't like the conclusion that nothing changed between feudal and warlord Aquileia | referred-to
+  - the axis definition and poles (the five-axis framework) | treated as provisional and possibly too imprecise; to be refined so the Tzinacatl Closed reading fits | Perhaps the axis definition and poles need more precision? | referred-to
+- order:
+- about: The user rejects the model's finding that feudal and warlord Aquileia are identical by reordering the timeline around Grover III's empire, and argues that the Tzinacatl should be Closed, which leaves the axis definitions needing more precision.

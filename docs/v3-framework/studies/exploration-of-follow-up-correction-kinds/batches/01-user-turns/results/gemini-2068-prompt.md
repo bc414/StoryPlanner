@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the mechanics of temperature, picking up the parameter mentioned at the end of the model turn, without disputing anything in it.

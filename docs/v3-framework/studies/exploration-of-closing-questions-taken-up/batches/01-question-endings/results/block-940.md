@@ -1,0 +1,10 @@
+- questions:
+  - How does Rarity psychologically process giving up bespoke artisan work for standardized assembly-line uniforms, and how does that sacrifice prove her commitment to the EEEE! workers? | ignored | none | none
+  - How does Rarity use her history of physical labor to expose Gilded Trust as an inheriting Poseur when he paints her a Canterlot elitist in the 1015 ALB election? | ignored | none | none
+- shape: The user turn skips the model's two questions and corrects the model's framing. It says EEEE! should not be read as a generic union, and it gives a rationale for that. It then sets a new task: the model is to say which parts of Tall Tale and Star Energy Harmonic Capitalism depend on the Stagnation of Harmony coming first.
+- settles:
+  - EEEE! is a machinists guild, and the generic 'union' framing is to be mostly stripped out. The framing is a leftover from the earlier grimdark drafts. | 'all notions of "union" should be mostly stripped out and replaced with "machinists guild"'
+  - The guild is tied to right-to-repair. That means owners control the capital they bought instead of renting it, as with John Deere tractors and jailbroken iPhones. It is not about labor-cartel solidarity or blocking scabs. | 'Right to repair is not about solidarity in a labor cartel'
+  - The guild follows the German and Nordic models: high-skill workers aligned with the corporation to keep the sector up against the global market. It is not interchangeable cogs or a labor cartel. | 'align with the German and Nordic union models'
+  - EEEE!'s Harmonic Capitalism was made possible only by Celestia's masterstroke of empathy. This is stated as an 'if', so it may be tentative. | 'If EEEE's harmonic capitalism was only made possible by Celestia's masterstroke of empathy'
+  - The ending synthesis is a Republic that combines Aquileian, GR and Equestrian elements. It is not a copy of Aquileia. | 'Aquileian, GR and Equestria, not a copy of Aquileia'

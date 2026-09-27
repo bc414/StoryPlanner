@@ -1,0 +1,4 @@
+- sources:
+  - the language-caste system just laid out (High Academic Herzlander vs Simplified Herzlander, its rules) | treat as the established premise and reason from it to explain elite psychology and why they don't revolt | this explain why elites don't use their privilege of knowledge; growing up in this system and its rules | referred-to
+- order:
+- about: The user asks the model to extend the linguistic-caste system it just described by explaining why the educated elites don't revolt and what their psychology is growing up under its rules.

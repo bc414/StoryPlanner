@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states their own thesis that a stable post-industrial society needs a actively maintained balance of the two loves because industry and magic can no longer be contained, and asks the model to analyze it.

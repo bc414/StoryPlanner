@@ -1,0 +1,4 @@
+- sources:
+  - NarrativeDesign note tracks from all the subjects that connect to the plot point | material the author would read through and draw on when writing the plot point's reader perception design notes; a later-stage input, not something to use now | I would be reading the NarrativeDesign note tracks from all the subjects that connect to the plot point | referred-to
+- order:
+- about: The user proposes a three-axis, eight-track structure for character and link notes with analogy as a separate track, asks whether it is too simple, and says Reader Perception Design belongs only on the plot point, to be written later from the connected subjects' NarrativeDesign notes.

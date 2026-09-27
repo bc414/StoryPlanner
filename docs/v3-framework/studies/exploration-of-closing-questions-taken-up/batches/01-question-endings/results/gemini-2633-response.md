@@ -1,0 +1,5 @@
+- questions:
+  - How does Celestia physically react to the cake, and does it give her a rush of motivation to do something for herself rather than for the State? | no user turn | none | none
+  - Does Fluttershy deliver her line about not keeping creatures in cages in the context of the Changeling POWs and her rehab work with the Red Love-addicted draftees? | no user turn | none | none
+- shape: none
+- settles:

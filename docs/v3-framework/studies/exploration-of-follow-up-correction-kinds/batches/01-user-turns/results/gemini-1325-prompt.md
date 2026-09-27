@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new question about whether musketeers are the French counterpart of English yeomen, and says they want a Louis XIV-style aesthetic of commoners loyal to the king for Discret's clubs, without saying the model's account was wrong.

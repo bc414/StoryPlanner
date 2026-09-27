@@ -1,0 +1,8 @@
+- sources:
+  - The author's own refinements about the Diamond Dogs (origin on Diamond Mountain in the Riverlands, the 978 white peace, self-governing Bronzehill loyal to the Grover dynasty only, the 1007 Eagleclaw vs Eros civil war, Herzlander speech) | treat as true and as correcting the model's picture of Bronzehill | Some refinements: They were not and never were enslaved | first-named
+  - The model's earlier claim that the dogs were enslaved by Griffon nobles | rejected as wrong, replace with the author's account | They were not and never were enslaved by Griffon nobles | referred-to
+  - the author's earlier work on why GR and 2nd Aquileian Republic are incompatible cultures | treat as settled groundwork that the Bronzehill question must be reasoned from | I spent a lot of time fleshing out why GR and 2nd Aquileian Republic are incompatible cultures | referred-to
+  - GR's federal system | treat as a fixed constraint: it works only where citizens are on equal biological footing, so Bronzehill may not fit | GR's federal system only works when all citizens are on equal biological footing | referred-to
+  - the Aquileian model | offered as a provisional option for Bronzehill, not decided | It seems like Bronzehill should be following the Aquileian model | referred-to
+- order:
+- about: The author corrects the model's account of the Diamond Dogs' history and supplies the true background, then thinks aloud about whether Bronzehill can fit the GR federal system or should follow the Aquileian model or become its own allied republic.

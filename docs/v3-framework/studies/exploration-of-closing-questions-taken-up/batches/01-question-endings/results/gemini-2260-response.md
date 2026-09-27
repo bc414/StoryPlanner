@@ -1,0 +1,11 @@
+- questions:
+  - How does the user plan to execute the reveal about her parents in the present day? | ignored | The turn gives the parents' backstory instead and says nothing about how or when the reveal happens in the present. | none
+  - Does the user want to brainstorm a specific mechanism for the reveal, such as a buyout contract from a Skyfall shell company or an aging former factory worker telling the story? | ignored | Neither takes up nor declines the offered mechanisms. It goes on to correct the setup they would rest on. | none
+- shape: Corrects the model's account of the parents' backstory and supplies the actual sequence of events. It rejects the premise that they led the guild, and it does not answer the closing questions about the present-day reveal.
+- settles:
+  - The parents were not in charge of the Manehattan Preservers Guild and were not part of it. | Her parents are not in charge of the guild or part of it
+  - The parents farmed Sweet Apple Acres until Applejack was 9. | They were farming Sweet Apple Acres until AJ was 9
+  - The parents still resented the Apple-Pear feud. | They still resented the Apple-Pear feud
+  - The parents heard of Skyfall's open offer, from Chrysalis's shell company, for ponies to learn industry. They took it as a way to escape tribal tradition. | heard about The Skyfall open offer... escape the tribal tradition
+  - When Applejack was 11 the parents moved the family, Applejack and Apple Bloom, to Manehattan. | at 11 her parents moved to Manehattan, taking AJ and Apple Bloom
+  - In Manehattan, Applejack meets the existing preservers who work with her parents and are bringing in machinery. | encounters the existing preservers working with her parents who are bringing in machinery

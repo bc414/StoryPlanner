@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | states the expected starting assumption of readers from the source game: they arrive knowing the Griffonian Republic begins under martial law and that several focus tree paths lead to authoritarianism | EaW readers start out knowing the Griffonian Republic starts out in martial law and that several focus tree paths lead to authoritarianism | yes
+- goals:
+- whole: The note sets the baseline of what game-familiar readers already assume about the Griffonian Republic, as the starting point for the reader-opinion design.

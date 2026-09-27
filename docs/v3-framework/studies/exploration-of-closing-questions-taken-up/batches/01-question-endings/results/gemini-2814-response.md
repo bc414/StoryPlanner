@@ -1,0 +1,5 @@
+- questions:
+  - Do any of the suggested machine names (Hermetic Lathe, Resonance Bell, Vacuum-Tap Crucible, Talon-Press and the others) fit the aesthetic wanted for this chapter? | no user turn | none | none
+  - Would the user like to explore a more specific Aquileian or cultural naming convention instead? | no user turn | none | none
+- shape: none
+- settles:

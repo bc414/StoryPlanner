@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the details of the detection spell and Pagala's connection to Acornage, then lays out their own plan for the throne room scene, ending with AJ killing Pagala with a shovel.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects Hans's role in the story (he worked on the three-way valve splitting love into red and pink streams, not the lithography, and is not the inventor of the latest iteration) and asks what other parts of early PCBs or lithography could give insight for the story.

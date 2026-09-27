@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Archon Eros is an elderly man who is the spiritual leader of the Herzlander religion, asserted as his basic identity and standing | Archon Eros is the elderly spiritual leader of the Herzlander religion | yes
+  - Characterization | He holds the office of Archon of Boreas, stated as a fact of who he is | He is the Archon of Boreas | yes
+- goals:
+- whole: The note gives a plain, asserted baseline of Archon Eros's identity at the story's start: his age, his religious leadership and his office as Archon of Boreas.

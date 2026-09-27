@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up a term from the model's analysis, "Stagnation of Harmony", explains that it comes from their notes and an HOI4 mod's national spirit, and asks a new planning question about when and by whom it should be coined in the story.

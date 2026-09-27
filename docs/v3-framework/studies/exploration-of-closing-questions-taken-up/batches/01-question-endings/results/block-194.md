@@ -1,0 +1,11 @@
+- questions:
+  - What does Chrysalis experience during the Canterlot Wedding magical high, does she remember it or black out, and does her narcissism file it as a malfunction rather than a limit in herself (which decides whether it can be anagnorisis) | ignored | nothing said about it | none
+  - Does Trimmel learn he was used in Stalliongrad, and when: during the events, during the later war, or only after capture by Applejack | ignored | nothing said about it | none
+  - Does Chrysalis feel any real regard for Trimmel or is he purely instrumental | ignored | nothing said about it | none
+  - What role do Applejack's parents play in TLTT: named characters who appear, alive, or discovered in retrospect as part of the comprador network | ignored | nothing said about it | none
+  - Where does Actia Pagala come from, what makes her the worst statthalter, and where does she appear or end up | ignored | nothing said about it | none
+  - Where are the Tzinacatl during TLTT, and are they part of a resistance or alliance against the changelings | ignored | nothing said about it | none
+  - When and how does Chrysalis move from the Krista Sterling identity to Kriemhild Von Kristallfels, and does she run both at once | ignored | nothing said about it | none
+  - Does Chrysalis notice, benefit from, or do anything about the patriarchal injustice done to Eagleclaw during their collaboration | ignored | nothing said about it | none
+- shape: An instruction to the model: analyze the additional context and its implications for Chrysalis's story, then name what further context it needs. It doesn't answer the model's eight questions. It hands the work back to the model and asks it to state its information needs again. The turn refers to "additional context" but the text given contains none.
+- settles:

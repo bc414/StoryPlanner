@@ -1,0 +1,12 @@
+- questions:
+  - How do the conventionally trained commanders on the War Council react when Fluttershy presents a tactical report built on animal body language, and does Applejack's Honesty have to force them to trust it? | ignored | none; the user turn does not mention the War Council, the commanders' reaction, or Applejack's Honesty | none
+  - Once the war pushes into the Changeling Lands, can Fluttershy and the Buffalo read the mutated, frozen or hostile fauna there, or does the network go blind outside Equus? | ignored | none; the user turn does not mention the Hives, northern fauna, or the limits of the network | none
+- shape: Redirects. It leaves both Socratic questions alone and steps back to the mane six origin stories. The user lists how most of them are already grounded, then asks the model for canon FiM or related material on why Fluttershy loves animals beyond the falling-and-butterflies cutie mark story. It also notes that the origin of The Stare is already decided and that the animals still need expanding.
+- settles:
+  - Equestria after 930 is the Hasbro Mandate, and the mane six's personalities were smuggled in by Faust, so they count as foreign influences in-universe | Equestria after 930 is the Hasbro Mandate and their personalities were smuggled in by Faust
+  - Twilight's magic and empiricism come from parents who were state employees with access to the Canterlot Archives, plus Aquileian textbooks smuggled in by Shining Armor | Twilight's magical abilities and empiricism comes from her parents being state employees
+  - Applejack's cutie mark story reflects her parents' industrialism, which came from Skyfall | Applejack's cutie mark story is a reflection of her parents' industrialism from Skyfall
+  - Rarity got everything from daytime parlors | Rarity got everything from daytime parloirs
+  - Rainbow Dash idolized the Wonderbolts, who had become driven performers | Rainbow Dash idolized the Wonderbolts who became who driven performers
+  - Pinkie's family were rock farmers who loved their rocks and were contacted by griffon shipping for fertilizer | Pinkie's family were rock farmers
+  - The origin of The Stare is Putting Your Hoof Down, set early | I already determined the origin of The Stare

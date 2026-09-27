@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Fluttershy harm-reduction thread and moves to a new proposed plot beat about Chrysalis harvesting civilian drones in the 2nd Great Leap Forward, asking for an analysis of whether it fits her rational total-war goals.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Aquileian fleet design to ask for a new overview of the baseline Skyfall privateer crew and its culture, without saying anything in the previous turn was wrong.

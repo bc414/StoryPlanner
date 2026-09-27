@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further planning decision, that the growing materialist world history is split into three explicitly planned prequel-sequel stories for Minette, Chrysalis and Celestia, read after the main story, and asks for an analysis of that plan without commenting on the model's previous reply.

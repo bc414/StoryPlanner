@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants React component code that renders the Phase 1 JSON as a collapsible, grouped list in their web app | ignored | none; the turn reports a problem with the Phase 1 run and asks for improvements instead | none
+- shape: Redirects to a fault report. The user says the Phase 1 model's reasoning loop is stuck, pastes a long repetitive thinking trace as evidence, and asks the model to explain what can be improved. It leaves the offered React code unaddressed and goes back to fixing the Phase 1 prompt or schema setup.
+- settles:

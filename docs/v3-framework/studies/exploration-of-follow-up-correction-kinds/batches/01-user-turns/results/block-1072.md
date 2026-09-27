@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, how the generational and cynicism analysis connects to the original 2011 brony wave, without disputing anything in the model's answer.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to explain how Brood War ended, states their limited familiarity with SC2, revises their own description of SC2's premise (artifact and keystone hunt), and adds an observation that this premise already moves away from hard geopolitics, without disputing anything the model said.

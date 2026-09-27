@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's analysis of the sword scene's narration to ask a new design question, whether Chrysalis should keep the broken sword as a symbol and whether that idea is borrowed convention from ASOIAF.

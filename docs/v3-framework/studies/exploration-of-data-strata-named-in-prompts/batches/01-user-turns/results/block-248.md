@@ -1,0 +1,5 @@
+- sources:
+  - canon FiM (Gilda's Cloudsdale exchange program, Cranky Doodle Donkey and Matilda as citizens, Gustav Le Grand as a chef) | treat as supporting evidence that the author's soft-assimilation point for Equestria is consistent with the published show | That would align with canon FiM | referred-to
+  - the model's previous description of the GR (the flaw as inability to accommodate artisans) | treat as too narrow and to be corrected; the flaw is reliance on a trauma engine of existential threat | The flaw of the GR is more acute than just "can't accommodate artisans" | referred-to
+- order:
+- about: The user corrects the model's account of the Griffonian Republic's flaw and adds that both Equestria and Aquileia practice soft assimilation, backing the Equestria point with canon FiM examples.

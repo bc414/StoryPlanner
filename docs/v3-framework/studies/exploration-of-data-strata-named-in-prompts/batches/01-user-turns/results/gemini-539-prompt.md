@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a new backstory detail, that Chrysalis engineered the Stalliongrad revolution and it went wrong for her, and asks when to reveal it and whether it could lead the Soviet council to refuse to run gulags and help reconciliation.

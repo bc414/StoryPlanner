@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model built Colthage's pre-colonial family structure, spirit tradition and history from real-world analogies (Carthage, Tuareg) and earlier conversation records rather than from Colthage's actual source material in the EaW game, which it had not checked | Now check Colthage's source materials from EaW via the story planner mcp server and update | Flat directive to go and consult the proper source and revise; no reason or complaint stated
+  - reading of the plan | The model presented its Colthage account as an audit of what is established and a derivation of what is not, but the user implies the game's own Colthage content was never consulted and so the account may not match canon | I haven't actually played Colthage yet | Brief aside giving the user's own limitation as the reason the source must be checked, stated matter-of-factly without blame
+- about: The user redirects the model to consult the actual EaW Colthage source material through the story planner server and revise its account, noting they haven't played Colthage themselves and so can't vouch for it.

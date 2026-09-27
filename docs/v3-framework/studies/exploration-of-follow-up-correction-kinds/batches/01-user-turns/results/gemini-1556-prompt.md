@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of Rosewing as a native Cloudburian regionalist or traditionalist, ex-bandit warlord, is rejected; the user says Rosewing was Kemerskai's brother in arms from the Imperial military | I thought Rosewing was Kemerskai's brother in arms from the Imperial military | Tentative, worded as recollection ("I thought") after an opening flat rejection, with the alternative fact offered instead of a reason
+  - fact of the world | The model treated Sickleclaw and Rikard Astler as one character, and the user says they are two different characters | Sickleclaw and Astler are two different characters | Flat statement of fact, stated in passing after the first objection, with no reason given
+  - reading of the plan | The model's overall reading of the flavor text and the canon, and the audit scene built on it as a test of left and right dissent, is called off | This does not seem right | Mild, hedged disagreement stated up front, with no apology or irritation
+- about: The user pushes back on the model's canon overview, saying Rosewing is Kemerskai's Imperial military comrade and that Sickleclaw and Astler are separate characters, which undercuts the audit scene the model rebuilt.

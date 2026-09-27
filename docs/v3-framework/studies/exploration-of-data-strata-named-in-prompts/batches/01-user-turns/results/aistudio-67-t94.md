@@ -1,0 +1,5 @@
+- sources:
+  - the model's previous analysis of how Celestia reads Aquileia and the Griffonian Republic | Aquileia reading is corrected and not to be kept; the Kemerskai and GR 'Herzlander Imperialism in a Tricolor' reading is accepted as holding up | 'Celestia cannot logically believe that Aquileia is strictly the pre 914 ALB warlord state' and 'seems to hold up though' | referred-to
+  - the current story plans | treat as the authority for the truths behind the canon episodes that Celestia confesses in the scene | 'all the truths behind the canon episodes, as detailed in the current story plans' | referred-to
+- order:
+- about: The user corrects the model's account of Celestia's view of Aquileia while accepting its view of the Griffonian Republic, proposes a reply letter and an election-eve confession scene that pays it off, and asks for analysis of the sequence and suggestions for the letter's contents.

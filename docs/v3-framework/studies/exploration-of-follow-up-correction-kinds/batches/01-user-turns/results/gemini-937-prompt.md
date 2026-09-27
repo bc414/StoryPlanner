@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's analysis and restates it as AJ's core premise (industry makes corruption easy), then extends it to the story's own material (Star Energy, Comet Shine, Fleur Bloom as the counterexample) without disputing anything the model said.

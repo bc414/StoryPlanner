@@ -1,0 +1,4 @@
+- sources:
+  - the author's own clarification in this turn (pony factory workers chose to be blank flanks) | treat as the settled premise for the setting and apply it to the backstory, replacing the idea of coercion | "To clarify further, I believe the pony factory workers chose to be blank flanks" | first-named
+- order:
+- about: The author clarifies that the pony factory workers chose to become blank flanks out of boredom or weariness and not through coercion, and asks how this changes the backstory.

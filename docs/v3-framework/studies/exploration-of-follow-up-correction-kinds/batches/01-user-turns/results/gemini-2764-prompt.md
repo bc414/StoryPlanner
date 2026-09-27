@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about who drafted the 1935 and 1947 labor acts and what motivated them, building on the model's claim about the legal framework without disputing it.

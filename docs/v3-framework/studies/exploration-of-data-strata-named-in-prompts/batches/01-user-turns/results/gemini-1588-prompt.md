@@ -1,0 +1,4 @@
+- sources:
+  - canon FiM | the published show is the reference the model is asked to answer from, on whether the crystal ponies remember the enslavement | In canon FiM, do the crystal ponies remember enslavement | referred-to
+- order:
+- about: The user asks a factual question about what the show's canon says regarding whether the Crystal Ponies remember Sombra's enslavement, checking a point the previous answer had asserted.

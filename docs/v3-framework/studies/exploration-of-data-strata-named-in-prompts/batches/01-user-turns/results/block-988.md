@@ -1,0 +1,11 @@
+- sources:
+  - early TLTT planning | treat as outdated; its cynical/grimdark language came from limited awareness and is to be replaced by a more focused setup | a lot of the early TLTT planning used the language of cynicism and grimdark because that's all I was aware of | referred-to
+  - more lore and foundational arguments I've built out | treat as the current basis for a more focused, cohesive setup | Now that I've built out more lore and foundational arguments I think I can get a more focused and cohesive setup | referred-to
+  - EEEE as a generic worker's union | treat as superseded by the new version | I recently moved away from EEEE as a generic worker's union | referred-to
+  - EEEE as a machinists guild retrofitting idle tycoon civilian factories into war production | treat as the current, changed plan for this faction, to be explained by the cynicism/resilience framework | made them a machinists guild that wants to retrofit the idle tycoon civilian factories into war production for defense | referred-to
+  - the framework (axis of cynicism versus resilience) | use as the lens to explain the union change and to judge Sanders and his movement | Not it seems I have the framework to articulate it | referred-to
+  - the author's own long-held view of NYC unions versus Sanders and Fain | author's own opinion from memory, offered as a premise the framework should now articulate | I always felt that unions in NYC who vote for Cuomo were rent seekers | first-named
+- order:
+  - more lore and foundational arguments I've built out | over early TLTT planning | Now that I've built out more lore and foundational arguments I think I can get a more focused and cohesive setup
+  - EEEE as a machinists guild | over EEEE as a generic worker's union | I recently moved away from EEEE as a generic worker's union and made them a machinists guild
+- about: The author says the early TLTT planning was framed in cynical grimdark language and has been superseded by more developed lore, then uses the cynicism-versus-resilience framework to ask whether the EEEE change to a machinists guild reflects the difference between American and European unions, and whether Bernie Sanders and his movement are non-cynical builders.

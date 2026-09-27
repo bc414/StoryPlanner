@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks which games reflect the "default" household-budget understanding of the economy, suggesting they are probably non-economic games, and offers a tentative view that Clash of Clans counts as an economic game despite being mass-market.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model for a fresh round of brainstormed spells or magic that would work on the combined-arms principle, going past the list just given, without saying anything in that list was wrong.

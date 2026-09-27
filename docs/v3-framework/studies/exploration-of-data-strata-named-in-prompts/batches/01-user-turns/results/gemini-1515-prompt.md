@@ -1,0 +1,4 @@
+- sources:
+  - my story plans (the Applejack, Henri, Fleur, Coltbert and Aquileia arc laid out in this turn) | provisional proposal for the model to review and give feedback on, including a question about where the PNdA nuance should be revealed | Please review my story plans|first-named
+- order:
+- about: The user asks the model to review their planned story arc for Applejack's journey through Aquileia and Cloudbury, and asks whether the nuance of the PNdA's economic model should be revealed on her return to Aquileia, perhaps through Coltbert.

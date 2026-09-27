@@ -1,0 +1,6 @@
+- questions:
+  - Does the Luna Nova Rifle being a miniaturized "shard of the Crystal Heart" (Amore's city-sized defensive generator turned into an offensive handheld) match the user's vision? | partly answered | Says the Crystal Heart is a good idea and still usable, but says the answer they had in mind is better and different: Chrysalis invented the love harvester. So the Heart is kept as a possible element but not accepted as the origin. | "good idea. I can still used it. But the answer I had in mind is actually better"
+- shape: Redirects the model's proposed origin to the user's own. It keeps the Crystal Heart as a secondary option and puts forward a different inventor for the love-harvesting technology, without elaborating.
+- settles:
+  - The love-harvesting technology behind the rifle was invented by Chrysalis (the "love harvester"). | "Chrysalis invented it: the love harvester."
+  - The Crystal Heart stays available for use in the story, though its role is not fixed. | "The crystal heart is a good idea. I can still used it."

@@ -1,0 +1,5 @@
+- sources:
+  - historical record of lathes bootstrapping to make better lathes | draw on it as factual history to give a breakdown, then use it as the model for the story element | historical breakdown of how bootstrapping was used for lathes to make better lathes | referred-to
+  - griffon vacuum sealed magical stabilizers that they have to build themselves to run appliqués | treat as an existing element of the author's world; apply the historical bootstrapping pattern to it | the griffon vacuum sealed magical stabilizers that they have to build themselves | referred-to
+- order:
+- about: The user asks for a historical account of machine-tool bootstrapping (lathes making better lathes) and for advice on applying that pattern to the griffons' self-built vacuum-sealed magical stabilizers that power appliqués in their world.

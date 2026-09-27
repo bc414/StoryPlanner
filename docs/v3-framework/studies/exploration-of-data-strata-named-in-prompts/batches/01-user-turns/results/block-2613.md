@@ -1,0 +1,5 @@
+- sources:
+  - the author's own account of his parents' immigration (Chinatown in Vietnam and Laos, boats, UN island pipeline, refugee sponsorship, not H1B) | treat as true and as a correction of the model's earlier assumption about his family's background | my parents actually didn't come with H1B visas | first-named
+  - previous analysis (that Taiwan, Japan and South Korea sit closer to the Stagnation of Harmony than to a position 3 Tall Tale synthesis) | not settled; redo the assessment rather than rely on it | Please reanalyze | referred-to
+- order:
+- about: The author corrects the model's assumption about his family's immigration history, then asks a batch of follow-ups on Chinese web-novel and media economics, state and American media influence, a reanalysis of East Asian societies against the story's positions, and the Chinese MLP community, with Chinese terms to be broken into characters and roots.

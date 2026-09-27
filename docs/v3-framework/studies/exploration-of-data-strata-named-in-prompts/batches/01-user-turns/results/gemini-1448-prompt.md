@@ -1,0 +1,4 @@
+- sources:
+  - the story (its themes, and Applejack's character development) | the yardstick the model is to judge the proposed rifle-teleport idea against, to say whether it fits or is too harsh | does it fit the themes of the story well | referred-to
+- order:
+- about: The user proposes an event in which rifles are teleported to every hostage in Canterlot and Vanhoover and asks the model to judge whether it is too harsh and whether it fits the story's themes and Applejack's character arc.

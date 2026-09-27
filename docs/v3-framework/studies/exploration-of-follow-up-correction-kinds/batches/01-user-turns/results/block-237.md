@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the twist discussion and asks for a comprehensive markdown report of all final insights from the whole conversation, including compacted transcripts, to carry into the story plan, without saying anything was wrong in the prior turn.

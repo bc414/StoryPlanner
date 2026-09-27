@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | the Our Town system is the structural link that ties Griffonia's geopolitical macro-conflicts to the local, character-driven conflicts of Equestria | It connects the geopolitical macro-conflicts of Griffonia directly to the localized, character-driven conflicts of Equestria | yes
+- goals:
+- whole: The note states, in the author's planning voice, that the Our Town system serves as the structural bridge between Griffonia's large-scale geopolitics and Equestria's local character-level conflicts, without naming any reader effect.

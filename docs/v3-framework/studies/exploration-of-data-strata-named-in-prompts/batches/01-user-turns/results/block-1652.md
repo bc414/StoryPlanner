@@ -1,0 +1,6 @@
+- sources:
+  - Lauren Faust's interviews, including her G1 toys, made-up personalities, view of the G1 shows, Rescue at Midnight Castle, and the fire_flye username | the author's recollection, offered as probably true but unverified; the model is to take it as a premise to reason from ("If so") and not as confirmed fact | "I am pretty sure that Lauren Faust has said in interviews" | referred-to
+  - The G1 shows and the Rescue at Midnight Castle movie | recalled from memory and hedged; the shows are treated as unsatisfying and Rescue at Midnight Castle as a possible exception | "maybe there's an exception for Rescue at Midnight Castle" | first-named
+  - Other published films and shows: The Little Mermaid, Mulan, Frozen, Tangled, Shrek, The Princess Bride, Monty Python | offered as candidate examples of the same category; the author is unsure of some (Little Mermaid "partly", Tangled unwatched), so they are tentative and open to the model's judgment | "I also think The Little Mermaid does this partly, and Mulan fully" | first-named
+- order:
+- about: The user offers a half-remembered account of Lauren Faust's G1-toy origins for G4 and uses it to propose a broader category of works that rework a stale source with sincerity, asking how it relates to fanfiction and satire.

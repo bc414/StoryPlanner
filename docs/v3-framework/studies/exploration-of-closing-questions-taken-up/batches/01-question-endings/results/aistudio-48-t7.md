@@ -1,0 +1,5 @@
+- questions:
+  - How does Thorax's discovery that the Purge of Acornage was a VOPS false flag break his belief in the Meritocracy and show him Chrysalis is sabotaging Changeling prosperity? | no user turn | none | none
+  - Would the Acornage refugees in the POW camps (Camp Fluttershy) cause friction with the drafted factory Drones, who might see them as class traitors who chose an easy life among ponies? | no user turn | none | none
+- shape: none
+- settles:

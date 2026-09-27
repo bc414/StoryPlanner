@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual question about how much of the ASOIAF books the Game of Thrones series covers and what the meta narrative is around the books and the series with George RR Martin, without pointing the model at any particular body of material to use or avoid.

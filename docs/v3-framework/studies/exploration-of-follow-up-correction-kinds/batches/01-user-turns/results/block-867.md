@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Obama analysis as given and builds on it, proposing their own mapping of Obama, Clinton and Biden onto Celestia's arc in the story, adding facts about 2016, 2020 and Congress, and asking for an assessment of the parallel and how it ties to the protagonists' view of Celestia.

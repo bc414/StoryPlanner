@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, extending the topic of Google AI products to Jules, NotebookLM and lesser-known offerings, without disputing anything the model said.

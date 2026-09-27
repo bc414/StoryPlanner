@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want help formatting the Lioness Google Doc version-history scraper data into a structured Timeline of Changes for upload to a Claude Project? | ignored | Says nothing about the scraper data or the timeline; asks a new question about what Claude costs. | none
+- shape: Redirects to a new, practical question. It asks what it costs to get the Claude capabilities the model just compared (Projects, extended thinking), and it doesn't take up the offered next step.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user broadens the topic from PATCO to a new request, a historical comparison of rent-seeking and profit-seeking unions and how they are perceived, with a hypothesis that American unions are seen as rent seekers while European unions differ, and does not object to anything the model said.

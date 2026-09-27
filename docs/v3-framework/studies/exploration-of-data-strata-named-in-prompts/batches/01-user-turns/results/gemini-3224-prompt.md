@@ -1,0 +1,6 @@
+- sources:
+  - the user's own understanding of the Red Alert / Command & Conquer meta narrative (Einstein and Hitler, Soviet victory leading to Tiberian Dawn, allied victory leading to RA2 and RA3), recounted from memory | provisional, offered as a recollection for the model to confirm or correct | If I understand correctly | first-named
+  - the user's supposition that Red Alert 1 scattered ore to mimic Dune and Tiberian Dawn gameplay without it mattering to the story, and that the conflict is ideological rather than resource driven | provisional guess to be checked against the actual games | I suppose red alert 1 scattered ore | first-named
+  - the actual storylines of Red Alert 1 and Command & Conquer Tiberian Dawn | the material the model is asked to lay out, as the basis for checking the user's account | What was the actual storyline of Red alert 1 and command and conquer Tiberian Dawn | first-named
+- order:
+- about: The user restates from memory how the Red Alert and Command & Conquer timelines connect, then asks the model to explain the real storylines of Red Alert 1 and Tiberian Dawn and whether their conflicts are ideological or resource driven.

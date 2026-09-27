@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | The army's preparation for war is not delusional, and the friendship shields are the reason why | The friendship shields are exactly why the Equestrian army is not delusional | no
+  - History | The army marched to the Vanhoover border carrying bleeding-edge Aquileian/Crystal engineering, not just smiles and good vibes, and has the technology to back its claims | They did not march to the Vanhoover border with just smiles and good vibes; they marched with bleeding-edge Aquileian/Crystal engineering | no
+  - Characterization | The army sincerely believes its friendship will make it superior | They earnestly believe their friendship will make them superior | no
+- goals:
+- whole: The note asserts, as fact about the organization, that the Equestrian army's friendship-based confidence is backed by real Aquileian/Crystal technology, and it states no reader effect and is not written as architecture for the reader's experience.

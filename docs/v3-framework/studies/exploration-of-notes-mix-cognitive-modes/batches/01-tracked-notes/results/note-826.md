@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | The Kurds have historically lived in a mountainous region between great empires (Ottoman, Persian, Arab) without a unified state, named as real-world model for the organization | The Kurds have historically lived in the mountainous region between great empires | yes
+  - Analogies | Kurdish society was organized around the Ashiret, a tribal confederation, offered as the real-world social structure inspiring the organization | Their society was organized around the Ashiret (Tribal Confederation) | yes
+- goals:
+- whole: The note documents the Kurds' stateless mountain existence between empires and their Ashiret tribal confederation as the real-world inspiration for the organization Temberik.

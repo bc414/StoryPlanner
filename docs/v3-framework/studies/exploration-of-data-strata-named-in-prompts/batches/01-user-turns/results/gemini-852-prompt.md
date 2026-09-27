@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states their own thesis, that the West is sliding into authoritarianism because ruthless capitalism is paired with civil rights as a pacifier, and says they want to show it through the harmonic capitalism contrast and the GR–Aquileia split until Equestria enters, without pointing the model at any body of material to use or avoid.

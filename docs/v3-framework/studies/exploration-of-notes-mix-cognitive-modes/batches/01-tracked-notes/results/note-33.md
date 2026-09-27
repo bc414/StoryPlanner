@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Before Ponyville, Twilight's makeup was entirely Red Love, the pure form of that trait | 100% pure Red Love | no
+  - Characterization | She was purely defined by ambition, magic and talent | pure Ambition/Magic/Talent | no
+  - Characterization | She had little Pink Love, being uninterested in friends | very little Pink Love (not interested in friends) | no
+- goals:
+- whole: The note asserts, as a psychological profile rather than a reported event, that Twilight before Ponyville was all Red Love, ambition and talent, with almost no Pink Love or interest in friends.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how LLMs hallucinate in narrative contexts, such as testing whether a model can track an inventory item like a key through a 500-word story? | ignored | Goes on to ask a different question about whether these capabilities are inherent to the trained model or come from supplementary tools in customer-facing products. It says nothing about the hallucination test. | none
+- shape: Redirects to a new, general question about how AI products are built. It asks whether the data-derived skills are inherent to the trained model, whether products add tools such as search and code generation, and what else they add. It takes up neither the model's offered next step nor its story-tracking test.
+- settles:

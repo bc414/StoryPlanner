@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user follows up on the dialect discussion by asking for more detail on how southern French or Occitan speakers talk and whether an English speaker could tell a southern French accent in English from a Parisian one, which adds a question and disputes nothing.

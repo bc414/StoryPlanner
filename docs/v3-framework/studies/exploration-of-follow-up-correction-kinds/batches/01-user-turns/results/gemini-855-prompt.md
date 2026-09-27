@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Turkey and Saudi Arabia discussion and asks a new question about how harmonic capitalism would answer left-behind people who turn to armchair communism and want a command economy instead of turning tribalist.

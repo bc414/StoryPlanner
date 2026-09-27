@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Pagala formula discussion and moves the plan forward, stating when Chrysalis should return to Vesalipolis and thinking aloud about who remembers her original form and how she could secure legitimacy through industry and a claim of being chosen.

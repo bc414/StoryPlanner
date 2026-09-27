@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general conceptual follow-up question about how to judge whether a set of independent-but-correlated axes is too many or too few, without pointing at any body of material for the model to use.

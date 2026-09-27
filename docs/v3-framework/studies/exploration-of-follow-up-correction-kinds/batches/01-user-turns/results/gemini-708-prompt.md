@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model made Starlight stop through her own self-frightening realization, but the plan has Pinkie showing her what would become of her if she kept on the violent path, and not anyone telling her to stop | "I originally noted that Starlight decides to stop" ... "It's because Pinkie offered a window" | restated flatly as a reminder of the earlier note, with no blame
+  - fact of the world | The model's epiphany, in which Starlight notices she is smiling or manic, doesn't fit the character as the user sees her once she has landed and is sitting through the negotiation meeting | "I don't really imagine her smiling or being manic on the ground" | personal, hedged rejection given with a reason, followed by a request for other options
+  - fact of the world | The model set a grim, exhausted Rainbow against a gleeful Starlight in the air. The user says both were manic and egging each other on in the plane | "She and Rainbow were manic while in the plane, egging each other on" | stated in passing as a premise, not flagged as an error
+- about: The user accepts the apex-predator-to-mines pivot, restates that Pinkie's window is what stops Starlight, rejects the smiling-manic realization as out of character on the ground, and asks for other epiphanies that draw on her canon development.

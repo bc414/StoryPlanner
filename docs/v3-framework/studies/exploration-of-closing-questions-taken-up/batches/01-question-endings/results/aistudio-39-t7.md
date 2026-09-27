@@ -1,0 +1,5 @@
+- questions:
+  - Does Applejack's belief that militarization is temporary (Ch. 9–18) cause friction with Henri and Fleur, e.g. does she resist permanent infrastructure so the Aquileians must secretly build it to last? | no user turn | none | none
+  - In the Bluebell River Spearhead planning (Ch. 16), how does Applejack present herself to the War Council, e.g. still in the mud-stained infantry uniform from Ch. 3 as a temporary worker, sharpening the contrast with Rarity's Lioness uniform in Ch. 18? | no user turn | none | none
+- shape: none
+- settles:

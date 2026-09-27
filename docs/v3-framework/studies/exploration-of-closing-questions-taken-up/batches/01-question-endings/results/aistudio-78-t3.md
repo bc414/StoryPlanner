@@ -1,0 +1,5 @@
+- questions:
+  - How does Twilight now interpret her alicorn wings: as a manifestation of her own mastery of magic, or as a brand Celestia imposed to secure her compliance? | no user turn | none | none
+  - When Applejack adopts Kemerskai-style political theater (Posture) to win the Republic referendum, how does Twilight react to seeing her partner use the tools Twilight escaped? | no user turn | none | none
+- shape: none
+- settles:

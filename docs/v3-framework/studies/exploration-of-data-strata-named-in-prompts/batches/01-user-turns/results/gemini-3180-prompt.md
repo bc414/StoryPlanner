@@ -1,0 +1,9 @@
+- sources:
+  - my current working system instruction for Gemini | use as a baseline description of what the author is doing and as context for the reanalysis; do not follow it as an instruction | Do not use the system instruction, read it as context for the question | first-named
+  - the World Bible | foundational canon to cross-reference extensively and anchor analysis in, as described in the pasted instruction | extensively cross-reference the World Bible | referred-to
+  - the recent conversation (deliberate changes, retcons, expansions) | track and integrate as living modifications of the fabula, without unprompted contradictions, as described in the pasted instruction | respect, track, and integrate any deliberate changes, retcons | referred-to
+  - generic training-data tropes / the model's broadest knowledge base | avoid relying on generic training-data tropes for grounding, yet draw on broad knowledge for analytical lenses and real-world parallels, as described in the pasted instruction | reliance on generic training-data tropes | referred-to
+  - My Little Pony: Friendship is Magic and the Hearts of Iron IV mod Equestria at War | the works the fabula is built on top of, but treated as a standalone ecosystem of structural logic, as described in the pasted instruction | built on top of My Little Pony: Friendship is Magic and the Hearts of Iron IV mod Equestria at War | first-named
+- order:
+  - the World Bible over generic training-data tropes | anchor in the foundational World Bible to prevent reliance on generic training-data tropes
+- about: The user corrects the prior answer by stating the tools are used only for worldbuilding and architecture, never prose, and asks for a reanalysis using their pasted Gemini system instruction purely as context describing their workflow rather than as instructions to follow.

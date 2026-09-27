@@ -1,0 +1,5 @@
+- sources:
+  - this setup | the Zebrican arc as the model just laid it out; it is the thing to be analysed and set against the historical record | "this setup" | referred-to
+  - the true horrors of West Africa historically | the real historical record, drawn from the model's general knowledge, used as the benchmark the setup is compared against | "true horrors of West Africa historically" | first-named
+- order:
+- about: The user asks the model to compare the fictional Zebrican slave-trade setup discussed so far with the real history of West Africa.

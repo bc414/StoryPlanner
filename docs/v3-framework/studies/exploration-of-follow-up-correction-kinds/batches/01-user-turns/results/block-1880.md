@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Theme versus Technology discussion and pastes the notes for a new subject, Pridea, asking how to categorize a mix of historical event, motive and demographic psychology, whether the University is an Organization, and how to capture it when the only field is binding logic.

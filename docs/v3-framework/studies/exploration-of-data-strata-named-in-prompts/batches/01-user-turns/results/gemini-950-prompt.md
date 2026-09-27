@@ -1,0 +1,4 @@
+- sources:
+  - these early episodes | the material the model is to draw on to find concrete scenes of the two characters together | point out examples of them together in these early episodes | referred-to
+- order:
+- about: The user asks the model to give concrete examples from the early episodes of the show where the two characters appear together, following up on the model's general argument.

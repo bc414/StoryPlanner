@@ -1,0 +1,11 @@
+- questions:
+  - Would Mali using The Stare on the Cartel leaders violate the Parloir ethos of consensual interaction, or recast it as enforcing the Predator's Dilemma by forcing predators to the table? | refused | Rejects the premise that Mali uses The Stare at all; she only needs to learn from seeing it. | "I don't think Mali needs to use The Stare"
+  - How does Mali's use of The Stare differ from Celestia's Stagnation of Harmony, and what stops her united Tzinacatl from becoming another infantilized nursery? | refused | Not taken up. Rejecting Mali's use of The Stare removes the ground for the comparison, and the user goes on to other matters. | "She just needs to learn a lesson from witnessing it"
+- shape: The user rejects the model's premise that Mali wields The Stare. They restate her role as witness and learner, and correct the model's account of the Cartel negotiation with the actual plot of chapter 12, which comes before Fleur's lesson. They then put their own questions to the model: which scenes of Fluttershy's Stare Mali should witness, and whether Fluttershy or only Fleur feeds the chapter 17 climax.
+- settles:
+  - Mali does not use The Stare herself. Her part is to learn a lesson from witnessing it. | "She just needs to learn a lesson from witnessing it"
+  - In chapter 12 Crash, Mali argues for negotiating in good faith with the drug tribes, but they do not accept her kindness. | "they don't accept her kindness"
+  - In chapter 12 Crash, the drug tribes accept Applejack's offer of dignity for their craft: they sell to Skyfall, and the Wonderbolts provide air transport, in exchange for the three-way valves. | "Applejack's offer of dignity for their "craft""
+  - Chapter 12 Crash comes before Fleur's lesson in chapter 13 Passion. | "chapter 12 Crash, which comes before Fleur's lesson in chapter 13"
+  - The climax of Mali's arc is chapter 17 Breakthrough, where she convinces Luna to democratize the dreamwalking spell. | "climax of her character arc should be in chapter 17 Breakthrough"
+  - Henri and Minette are already shocked by seeing Fluttershy's Stare on the changeling POWs. | "Henri and Minette are already being shocked"

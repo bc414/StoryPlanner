@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, taking the model's endorsed sequence as given, asks a follow-up about what grounds could make Gilded Trust trustworthy enough to be handed the cleanup, offering their own candidate reasons and asking what else could be added.

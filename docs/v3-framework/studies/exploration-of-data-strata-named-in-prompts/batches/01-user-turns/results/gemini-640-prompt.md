@@ -1,0 +1,5 @@
+- sources:
+  - the other reasons I had for the stagnation of harmony | the author's own established reasons; the model is to recall and list them, then check how the new lore interacts with them and whether it duplicates or cheapens them | "I also had other reasons" "list out for me the others" | referred-to
+  - this addition of lore (the Windigo psychic-exhaust motivator for the stagnation of harmony) | offered in the previous model turn, treated as a promising but still-to-be-vetted addition; to be tested for redundancy with the other reasons rather than accepted as settled | "great motivator" "cheapen or be redundant" "this addition of lore interacts" | referred-to
+- order:
+- about: The user likes the Windigo-based motivator for the stagnation of harmony but asks the model to list their other established reasons for it and assess whether the new lore duplicates or cheapens them or interacts with them.

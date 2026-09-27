@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for more information on the epic genre and the editorial process in published series, extending the topic without challenging anything the model said.

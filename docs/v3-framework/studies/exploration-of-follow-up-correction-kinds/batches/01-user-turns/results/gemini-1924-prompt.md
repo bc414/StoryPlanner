@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the worldbuilding discussion and asks an unrelated real-world question about Taoyuan Metro operating hours, without commenting on or disputing anything in the model's comparison.

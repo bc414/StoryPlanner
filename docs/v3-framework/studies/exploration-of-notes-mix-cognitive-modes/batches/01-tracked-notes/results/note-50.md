@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Early Twilight is a logistical savant, not merely book-smart, who handles anxiety by making hyper-detailed checklists and delegating | Early Twilight wasn't just book-smart; she was a logistical savant who processed anxiety by creating hyper-detailed checklists and delegating tasks | no
+  - Canon | The source material later degraded the character's mandate by treating her panic attacks as pure comic relief | Mandate Degradation: Panic attacks as pure comic relief | no
+  - Canon | The source reduced her OCD to a gag of her going crazy over nothing | Her OCD was reduced to "Twilight goes crazy over nothing," | no
+  - Canon | The source outsourced her problem-solving to the Cutie Map, turning her from proactive organizer into passive reactor | her problem-solving was outsourced to the Cutie Map, making her a passive reactor rather than a proactive organizer | no
+- goals:
+- whole: The note contrasts early Twilight's organized, checklist-driven anxiety-coping competence with how the canon later degraded her into a comic, passive figure, without naming any real-world inspiration the Analogies track asks for.

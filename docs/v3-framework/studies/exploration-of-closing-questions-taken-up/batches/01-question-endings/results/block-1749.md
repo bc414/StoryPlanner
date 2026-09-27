@@ -1,0 +1,5 @@
+- questions:
+  - If Chrysalis signs a temporary ceasefire with the Griffonian Republic, how does Vaspier's VOPS react, and does he attempt a soft coup framing her as having lost her nerve, forcing Applejack to navigate a Changeling civil war? | ignored | The user turn asks about the American Left and says nothing about the ceasefire or Vaspier's reaction. | none
+  - When Trimmel surrenders to Applejack, does he use the Guardrail Defense to justify his part in the Great Leap Forward, and how does Applejack's Element of Honesty dismantle it? | ignored | The user turn asks about the American Left and says nothing about Trimmel, Applejack or the guardrail defense. | none
+- shape: Redirects to a parallel request. It leaves the model's story questions alone and asks the model to extend the real-world political mapping, which was done for MAGA, to the American Left.
+- settles:

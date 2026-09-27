@@ -1,0 +1,4 @@
+- sources:
+  - the English/Equestrian label | not wanted; set aside as the outside frame of reference and not to be used for the name being asked for | I'm not interested in the English/Equestrian label since that's the frame of reference | referred-to
+- order:
+- about: The user rejects the Equestrian-perspective label from the model's naming options and asks instead for a name for their own internal reference, and one that Applejack and Blueblood would use.

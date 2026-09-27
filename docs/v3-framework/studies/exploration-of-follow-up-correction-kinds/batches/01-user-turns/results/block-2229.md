@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether using AI to bootstrap one's own learning happens at scale, offering their own experience of moving from competent-but-stagnant to senior-architect skill as a case the model's account didn't cover, without disputing anything the model said.

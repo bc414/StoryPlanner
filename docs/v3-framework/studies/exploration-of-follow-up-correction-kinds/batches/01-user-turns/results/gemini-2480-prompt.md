@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a new "what if" that assigns the Star Swirl interview and the bauleiter protocol to specific named changelings, whose immunity to the Lioness Spell and class-liberation motive they explain, and so builds on the model's synthesis without disputing any part of it.

@@ -1,0 +1,6 @@
+- claims:
+  - Canon | Recontextualizes established canon by setting Mi Amore's use of the Crystal Heart to make Crystal Ponies act in solidarity as parallel to Grover III's use of the Idol of Boreas to trick Griffons into chivalry | Just as Grover III used the Idol of Boreas to trick aggressive Griffons into chivalry, Mi Amore used the Crystal Heart to trick Crystal Ponies into solidarity | no
+  - outside | God-mode statement of a working rule: the Crystal Faire is an engineered cultural tradition that serves as the mandatory refueling mechanism for a decentralized defense grid | She engineered a cultural tradition (The Crystal Faire) to act as the mandatory refueling mechanism for a decentralized defense grid | outside
+  - outside | God-mode statement of the underlying truth of the system: the ponies' niceness is not innate but produced by top-down mandate and cultural engineering | The crystal ponies are not inherently nice, they were told to be nice via a top-down mandate and cultural engineering | outside
+- goals:
+- whole: The note states, as objective world rules, that the Crystal Empire's kindness and the Crystal Faire are a top-down engineered mechanism keeping a defense grid fueled, framed through a canon parallel to Grover III's Idol of Boreas.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Luna and Nightmare Moon timeline as given and moves on to a new question, asking from an outsider's view what makes the 1011 ALB Republican Pact structurally different from earlier eras and able to sustain peace and end feudalism.

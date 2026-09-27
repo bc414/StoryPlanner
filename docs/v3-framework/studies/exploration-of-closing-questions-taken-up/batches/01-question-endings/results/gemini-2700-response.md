@@ -1,0 +1,5 @@
+- questions:
+  - Would the user like to brainstorm the specific 'lesson learned' Applejack writes as the closing thesis of the letter, mapping how she frames the Red Love in farm-pony vocabulary? | ignored | The user turn drops the letter and its closing thesis and moves to a different topic, the Breakthrough chapter and Celestia and Luna's agency. | none
+- shape: Redirects to a different topic. It skips the offered brainstorm on the letter's closing lesson and reports a revision to the plan: Celestia and Luna get agency before the war ends in the Breakthrough chapter. It then asks the model to work out how that affects later plot points.
+- settles:
+  - In the Breakthrough chapter of the revised story plan, Celestia and Luna now have agency before the war is over. | giving Celestia and Luna agency before the war is over

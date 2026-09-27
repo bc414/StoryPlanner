@@ -1,0 +1,5 @@
+- questions:
+  - How does Velvet reconcile her Thatcherite, Iron Lady nationalism with being a subordinate middle-manager paying tribute to Chrysalis/Pagala, and where does her nationalism break with her collaboration? | no user turn | none | none
+  - If Velvet purges the true-believer harmonists to appease the Changelings, how does she keep the loyalty of the bourgeois republicans, and do they embrace the corporate rat-race or see a foreign monopoly replacing Johan's oligarchy? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks which politicians hold a less cynical, policy-optimist view, and questions whether Fetterman's supposed belief that America is back in a Phase 1 predator's dilemma is true, arguing it is false given the country's technological and industrial capacity.

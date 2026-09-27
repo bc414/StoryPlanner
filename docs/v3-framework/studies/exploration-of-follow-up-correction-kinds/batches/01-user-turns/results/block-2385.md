@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches the next fanfic file, The Princess and the Kaiser, and asks the model to sample it strategically and give insights, continuing the comparison series without commenting on the prior analysis.

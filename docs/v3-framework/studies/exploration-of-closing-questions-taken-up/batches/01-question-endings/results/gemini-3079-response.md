@@ -1,0 +1,8 @@
+- questions:
+  - Are Appleloosa's residents legally or economically isolated from Canterlot? | ignored | Nothing said about Appleloosa's legal or economic standing relative to Canterlot. | none
+  - Do they depend on black-market trade with griffon smugglers or Zebrican merchants because Celestia won't build a railway to integrate them? | ignored | Nothing said about trade, smuggling or railways. | none
+- shape: Sets aside the model's closing thought and offers two things of its own. It revises the frontier idea by naming New Mareland as the post-914 ambition sink, and it gives Celestia's motive as confusing bad ponies with frontier spirit. It also corrects the model on canon: Celestia did not send the mane six to Appleloosa, and they went so Applejack could donate a tree.
+- settles:
+  - New Mareland is the ambition sink after 914 ALB. | I guess New Mareland is the ambition sink after 914
+  - Celestia conflated bad ponies with frontier spirit, which is her motive for suppressing it. | Celestia conflated "Bad ponies" and "frontier spirit"
+  - Canon point: Celestia did not send the mane six to Appleloosa. They went so Applejack could donate a tree to the new orchard. | did not canonically send the mane 6 to Appleloosa. They were going there so Applejack could donate a tree

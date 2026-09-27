@@ -1,0 +1,5 @@
+- sources:
+  - the previous explanation being refined (the petrodollar-to-Skyfall Mark/Red Love mapping) | build on and adjust it with the new details rather than discard it | To refine this even more | referred-to
+  - the US dollar and oil (real-world dollar-oil arrangement) | use as the template for how the Skyfall Mark and oil work together, with the fleet protecting shipping | the same way as the US dollar and oil | referred-to
+- order:
+- about: The author refines the petrodollar analogy for their story by adding new premises (Skyfall's stolen Imperial fleet guarding shipping, Chrysalis's submarine blockade, Red Love sold on the black market in Skyfall Marks) and asks the model whether this is coherent.

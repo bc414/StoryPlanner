@@ -1,0 +1,4 @@
+- claims:
+  - History | In 978, second-generation Aquileian Royalists and Skyfall tycoons influenced Captain Spitfire's cohort of the Wonderbolts, spreading a culture of ego and selfish performance | 2nd gen Aquileian Royalists and Skyfall tycoons infect Captain Spitfire's cohort with a culture of ego and selfish performance | yes
+- goals:
+- whole: The note reports, as a dated in-world event, that outside Royalist and tycoon influences corrupted Captain Spitfire's Wonderbolt cohort with a culture of ego and self-serving performance.

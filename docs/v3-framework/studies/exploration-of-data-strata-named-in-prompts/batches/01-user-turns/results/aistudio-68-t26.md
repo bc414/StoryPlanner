@@ -1,0 +1,4 @@
+- sources:
+  - my historical backstories | the author's current working version of the Griffonian and Equestrian timelines, laid out in the turn for the model to analyze; treat as the latest state of the plan, with several parts held as tentative ideas the author is still weighing | So now my historical backstories are looking like this | first-named
+- order:
+- about: The user lays out their revised parallel histories of the Griffonian Empire and Equestria, with some points still marked as tentative, and asks the model for an analysis of them.

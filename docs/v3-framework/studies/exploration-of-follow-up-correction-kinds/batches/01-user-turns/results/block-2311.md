@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the WSB-to-story mapping with a new question, asking whether grifters exist in the community and whether WSB members fall into distinct types, without saying anything in the previous answer was wrong.

@@ -1,0 +1,7 @@
+- claims:
+  - History | The Stagnation is revealed to have begun only about 80 years ago, a recent event rather than an ancient condition | the Stagnation was only recent from 80 years ago | no
+  - NarrativeArchitecture | Across the story, the reader's frame for Celestia moves from a tale of incompetence to a tale of ideological terror, triggered by the characters' realization | Celestia's trajectory throughout The Lioness of Tall Tale shifts from a story of incompetence to a story of ideological terror | yes
+  - Characterization | The truth of Celestia's psychology: her paralysis comes from remembering exactly how the world works, not from having forgotten | She is not paralyzed because she forgot how the world works; she is paralyzed because she remembers exactly how it works | no
+- goals:
+  - The reader comes to see Celestia's paralysis as informed ideological terror rather than incompetence, revising their trope-based opinion of her | NarrativeArchitecture | shifts from a story of incompetence to a story of ideological terror
+- whole: The note plans a reversal in how the reader reads Celestia, from incompetent ruler to terrified ideologue, triggered by the revelation that the Stagnation is recent, and backs it with an assertion of what actually drives her paralysis.

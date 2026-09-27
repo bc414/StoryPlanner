@@ -1,0 +1,5 @@
+- claims:
+  - Canon | the massive thunderstorm in the episode Look Before You Sleep is placed after Winter Wrap Up in the established canon sequence | The massive thunderstorm in Look Before You Sleep comes after Winter Wrap Up | yes
+  - Canon | the canonical storm is recontextualized as the nitrogen fertilizing event within this weather-management technology | is the nitrogen fertilizing event | yes
+- goals:
+- whole: The note ties the weather-management technology to two canon episodes, fixing the Look Before You Sleep storm after Winter Wrap Up and recasting it as the nitrogen fertilizing event.

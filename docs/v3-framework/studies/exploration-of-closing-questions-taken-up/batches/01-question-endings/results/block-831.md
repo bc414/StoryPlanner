@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack's Republic keep Comet Shine's Harmonic Capitalism, with Star Energy's mass-production capacity for spell matrices, rifles and weather manipulation, from hardening into a permanent lobbying war machine once the Changeling Hegemony is defeated? | no user turn | none | none
+  - How do citizens who liked the Nursery (the 30% Celestial Party voters, the unambitious who just want to bake or sleep) react to the new high-energy civic culture, and does the Republic end up shaming passivity as a political failing or as Poseur cowardice? | no user turn | none | none
+- shape: none
+- settles:

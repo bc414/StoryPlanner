@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - the user's own workflow and priorities (my own name for it) | The model presumed the user values the raw .md format and its wikilinks and recommended keeping them for that reason, but the user says they never use either and added the wikilinks only to help the model | I don't actually use the wikilinks or the raw .md at all. I only added the wikilinks to help you | flatly, as a plain statement of fact about their own setup, with the pushback implied by a follow-up question rather than stated as disagreement
+- about: The user sets aside the model's reasoning for keeping the .md format by saying the format and wikilinks were only ever for the model's benefit, and asks whether a Google Doc would work equally well.

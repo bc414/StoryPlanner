@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the final Phase 2 (Sorter) system prompt generated now, using the one-bucket-per-paradigm tagging logic? | ignored | The turn holds only an attached plan export and no written reply, so it neither accepts nor declines the offer. | Plan export attached — 96,720 words, 0 chars
+- shape: The turn is a bare attachment of a large plan export (about 96,700 words) with no accompanying text. It gives no reply, instruction or correction, and it says nothing about why the export was sent.
+- settles:

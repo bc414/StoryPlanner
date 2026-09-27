@@ -1,0 +1,5 @@
+- sources:
+  - chapter 2 opening | treat as the authority on where Applejack and Twilight are; the model's hospital assumption is corrected against it | see chapter 2 opening | referred-to
+  - chapter 4 battle | treated as settled story content that Rainbow and Starlight look back on when praising each other's damage in the planned chapter 5 opening | how much damage they did in the chapter 4 battle | referred-to
+- order:
+- about: The user corrects the model's assumption that Applejack and Twilight are in the hospital by pointing to the chapter 2 opening, then describes their intended chapter 5 opening with Rainbow and Starlight in adjacent hospital beds.

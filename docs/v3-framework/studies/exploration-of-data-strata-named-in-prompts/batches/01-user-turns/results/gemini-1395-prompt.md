@@ -1,0 +1,4 @@
+- sources:
+  - real narcissists (general knowledge of how narcissism develops in real people) | draw on it to explain how narcissism actually arises and to compare against Chrysalis's upbringing | How do real narcissists come about?| referred-to
+- order:
+- about: The user asks the model to explain why Chrysalis is a narcissist, testing whether being raised as an exceptional and talented individual is enough, and to describe how narcissism develops in real people.

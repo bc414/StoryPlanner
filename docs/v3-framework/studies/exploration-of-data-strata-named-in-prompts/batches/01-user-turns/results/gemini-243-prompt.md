@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects and sharpens the model's take on Trimmel's and Pagala's stances (Trimmel wants the rich eaten, rejects Thorax's ideas, and cannot dislodge the loyalist Pagala) and states that the story's theme is how monarchy and nobility fell across its lands as industrialization emerged.

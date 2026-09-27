@@ -1,0 +1,5 @@
+- questions:
+  - How does the CMCs' discovery that their sisters fed them sanitized, state-compliant stories permanently change their approach to political messaging and union propaganda in the EEEE! movement? | no user turn | none | none
+  - How did the Sonic Rainboom's spike in ambient magical radiation affect the monitoring equipment in Twilight's underground lab and the early crystal-matrix prototypes of Fleur Bloom in Pridea? | no user turn | none | none
+- shape: none
+- settles:

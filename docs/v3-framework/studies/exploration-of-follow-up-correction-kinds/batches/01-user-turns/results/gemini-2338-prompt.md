@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that one humiliated cruiser would collapse Skyfall's leverage and free the Riverlands and Equestria from paying insurance left out the established limits of the Aquileian navy: it is smaller than Skyfall's and escorts only Aquileian ships. | The navy doesn't match the numbers of Skyfall and only escorts Aquileian ships. Would the rest of the world still be stuck paying insurance? | Put as a question, with the navy's limits stated as given, and the disagreement left implied rather than stated.
+- about: The user pushes back on the model's conclusion that the humiliation would end Skyfall's insurance racket worldwide, by pointing out the navy's small size and escort-only role and asking whether other nations would keep paying.

@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to be shown how to set up an embedded RavenDB instance in the WPF app so no separate server is needed? | ignored | The user asks a new factual question about how a RavenDB database is stored on disk and whether it is a single file like SQLite. It does not accept or decline the offer. | none
+- shape: Redirects to a follow-up factual question about the technology, asking how RavenDB stores a database and comparing it to SQLite. It skips the model's offer and does not settle anything.
+- settles:

@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Applejack comes to realize she prefers brutal honesty about what must be done over lying to make herself feel better, an inner shift in her values | She realizes she would rather be brutally honest about what needs to be done than lie to feel better | no
+- goals:
+- whole: The note states, as a fact about the character, the realization Applejack reaches: she prefers blunt honesty to comforting lies, and it says nothing about how the reader is to experience it.

@@ -1,0 +1,5 @@
+- sources:
+  - my story plans for an MLP fanfiction in the attached notebook | the body of material the model is to draw on and analyze, examining how it interacts with the video's thesis | my story plans for an MLP fanfiction in the attached notebook | referred-to
+  - the video's thesis | the second body of material the story plans are to be compared against, to see how they interact | the video's thesis | referred-to
+- order:
+- about: The user asks the model to analyze how their MLP fanfiction story plans in the attached notebook relate to the thesis of the video just summarized.

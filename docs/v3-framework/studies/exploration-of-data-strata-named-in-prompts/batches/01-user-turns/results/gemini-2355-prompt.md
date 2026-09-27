@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the model is told to review them again and treat them as the authority on the dates and on Gerad's motives, which correct its previous analysis | Please review my story plans again | referred-to
+  - the author's own statements in this turn about griffon magic (forger's pride, must wield it themself) | correct the model's mistaken premise about how griffon arms work; treat as true | Griffon magical armor and swords are entirely based on griffon pride of the forger | first-named
+- order:
+- about: The user corrects the model's previous analysis on griffon-forging magic and on the timing and motive of Gerad's move against the warlords, and tells it to re-read the story plans for the correct facts.

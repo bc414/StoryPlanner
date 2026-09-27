@@ -1,0 +1,6 @@
+- relations:
+- outward:
+  - Synopsis | The love rations were captured and the changelings taken prisoner in events before this scene | fetches all the captured love rations so that Fluttershy can feed the POWs
+  - Synopsis | The Herzlanders' earlier takeover of Cloudbury and its remaking in their image, a history and people not linked here | invented by the Herzlanders who took over Cloudbury in order to remake it into their image
+  - Synopsis | The Cloudburians' refusal to learn Herzlander, a background matter of the occupation | The Cloudburians didn't want to learn Herzlander
+- whole: The synopsis is one self-contained account of the scene, and the lone thread link about the Griffonian Republic has no text and shares no named subject with it, so the link reads as a separate entry rather than part of one design.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - overlooked real-history parallel (own name) | The model presented the open-borders, friendly-rival settlement with the Soviet-analogue state as smooth and viable without weighing that the real 1945 equivalent broke down, so its optimistic framing is put in doubt | Why did this not work in 1945? | as a terse question that implies the objection without stating it and without giving a reason
+- about: The user turn tests the model's confident 'Vasily Compromise' by asking why the real-world analogue failed in 1945, and it does this as a short question instead of an explicit objection.

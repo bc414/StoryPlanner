@@ -1,0 +1,5 @@
+- sources:
+  - Pinkie Pie's cartoon physics (as in the published show) | treat as the real thing the charitostatic effect is instinctively used for, and as distinct from Pinkie Sense, so the proposed term does not fit it | Pinkie Sense isn't her active cartoon physics which utilizes the charitostatic effect instinctively to break conventional physics to spread joy | referred-to
+  - the charitostatic effect (the author's established lore) | treat as settled premise: the mechanism behind her cartoon physics, used as the test for whether a colloquial term fits | utilizes the charitostatic effect instinctively | referred-to
+- order:
+- about: The user pushes back on the model's proposal to call the charitostatic effect Pinkie Sense, arguing it names the wrong Pinkie trait, and asks for a different Pinkie-related term.

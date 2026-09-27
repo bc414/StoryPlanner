@@ -1,0 +1,8 @@
+- questions:
+  - Does the rifle's magical ammunition behave differently depending on the shooter's species (unicorn, earth pony, pegasus, zebra), or does the rifle standardize all incoming magic into one uniform bolt? | ignored | Says nothing about species or whether output varies by shooter. It describes the rifle's parts instead. The valve is said to stabilize magic flow, but the turn does not link that to species. | none
+- shape: Opens with a correction or expansion of the model's picture of the weapon. It gives a component-level design: barrel matrix, draining crystal, three-way valve. It adds that the matrix can be swapped for civilian functions. It then tells the model to go and review the story plans and analyze themes and contrast against the dynamics established so far. So it is mostly a design correction plus a new instruction, and it does not answer the model's question.
+- settles:
+  - The Luna Nova rifle has three key parts: a spellfire matrix in the barrel, a draining crystal, and a three-way valve | the rifle has three key parts
+  - The draining crystal is a miniaturized version of the love harvester | miniaturized from the love harvester
+  - The three-way valve stabilizes magic flow and separates red from pink | stabilizes magic flow and separate red from pink
+  - The spellfire matrix is swappable, so the same device can carry civilian spell matrices such as cooking, refrigeration or telekinesis instead of the weapon matrix | swapped out for a civilian spell matrix like cooking or refrigeration or telekinesis

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new, related question about where to find Chase credit card referral links, without disputing anything in the model's brokerage comparison.

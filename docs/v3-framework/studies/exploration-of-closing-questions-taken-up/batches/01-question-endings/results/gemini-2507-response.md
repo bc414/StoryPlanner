@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore the Chapter 9 Town Hall scene, where Twilight and Applejack tell a frightened public that the Nursery is dead and they must embrace an adult reality? | ignored | Says nothing about the Town Hall or Twilight's speech. It moves to a question about where the Hasbro mandate comes from in real-world political economy. | none
+- shape: Redirects. It leaves the offered scene aside and asks the model to confirm a thematic reading of its own. The reading is that the Hasbro mandate is the product of rent-seeking capital since the 1980s and 1991, and that it is the second half of a pair with Chrysalis's plain-faced exploitation. It is phrased as a tentative question, not a statement.
+- settles:

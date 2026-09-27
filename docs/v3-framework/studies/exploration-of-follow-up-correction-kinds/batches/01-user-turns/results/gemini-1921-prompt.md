@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the printing-press theory by proposing a detailed backstory for Grover 3 (child-king, peace and science, deliberate scrubbing of church records, delayed heir, early death) and asks whether it holds together with the lore, adding new material rather than disputing the model.

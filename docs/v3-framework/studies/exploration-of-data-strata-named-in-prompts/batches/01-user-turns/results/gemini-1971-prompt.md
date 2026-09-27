@@ -1,0 +1,6 @@
+- sources:
+  - my story plans for the education system I planned for Chrysalis to design | review it and draw on it as the author's existing plan, to be combined with the new linguistic material | review my story plans for the education system | referred-to
+  - her changeling society hierarchy/absolute meritocracy | review it as the author's existing plan and combine it with the new linguistic material | her changeling society hierarchy/absolute meritocracy | referred-to
+  - these new linguistic insights | take as the newly developed material to fold into the plans, not as a replacement for them | synthesize with these new linguistic insights | referred-to
+- order:
+- about: The user asks a worldbuilding question about whether changeling officers like Hans Kessel and Thorax would learn the full High Herzlander but use Simplified with drones, and asks the model to review their existing education and hierarchy plans and synthesize them with the newly discussed linguistic ideas.

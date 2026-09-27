@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's story-world material and Socratic questions aside and asks a new real-world question about how a Georgist system would treat a legitimately dominant firm like TSMC, reasoning through a tentative answer of their own.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user remarks that their Monte Cristo parallel began with Chrysalis but ended up fitting Coltbert and the other Aquileians too, and asks the model whether that is coincidence and how it came about.

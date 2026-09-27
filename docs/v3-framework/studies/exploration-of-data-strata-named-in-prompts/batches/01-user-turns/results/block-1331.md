@@ -1,0 +1,4 @@
+- sources:
+  - the author's own memory of playing Clash Royale in high school and beating classmates | offered as first-hand personal recollection for the model to take as true and use to explain where the Aquileian arrogance in the theme comes from | I remember when Clash Royale went mainstream; I remember crushing my high school peers | first-named
+- order:
+- about: The user adds a personal recollection of beating grade-chasing classmates at Clash Royale through RTS-style understanding, and offers it as a possible origin of the Aquileian arrogance in the honesty vs poseurs theme.

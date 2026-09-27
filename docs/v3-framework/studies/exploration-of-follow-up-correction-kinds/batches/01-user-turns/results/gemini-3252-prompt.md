@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the video summary as given and asks which of their story's factions South Korea maps onto, offering their own tentative blend of two factions and noting that South Korea's strong central state fits neither.

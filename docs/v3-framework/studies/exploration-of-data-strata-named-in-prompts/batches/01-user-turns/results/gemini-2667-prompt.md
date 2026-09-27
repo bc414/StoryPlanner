@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the Diamantberg countess name because Diamond Mountain is already a nation, proposes a Skyfall shell-corporation on a crystal island run by Chrysalis's griffoness persona, and asks whether the satire should take a corporate or a feudal-title form.

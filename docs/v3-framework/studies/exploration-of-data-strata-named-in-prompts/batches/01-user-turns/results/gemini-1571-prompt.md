@@ -1,0 +1,4 @@
+- sources:
+  - the precision cloud busting sport (the model's previous proposal in this conversation) | accepted as good; keep it as the basis and only change the names | The precision cloud busting sport is good | referred-to
+- order:
+- about: The user approves the cloud-busting sport concept from the previous turn and asks for a new round of character name suggestions that sound cuter, more innocent and more idiomatic.

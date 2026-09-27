@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about how to set up live syncing from a Windows machine, without naming any body of material for the model to draw on or avoid.

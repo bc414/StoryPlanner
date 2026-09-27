@@ -1,0 +1,3 @@
+- questions:
+- shape: A reflective remark on the model's Pervitin comparison. The user says the Red Love addiction seemed too ridiculous when they invented it, and that the real historical drug turned out to be more horrifying. It asks for nothing, answers nothing, and sets no next step. It reads as a comment on the material and on how they now see their own invention.
+- settles:

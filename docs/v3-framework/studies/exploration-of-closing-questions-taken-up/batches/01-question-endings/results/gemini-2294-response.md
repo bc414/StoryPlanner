@@ -1,0 +1,4 @@
+- questions:
+  - How does General Trimmel react when the Jaeger class is wiped out in the first week: does he shift to suicide/ramming tactics or to ground-based anti-aircraft flak? | ignored | The user turn does not address it and asks a separate factual question about Ju 87 Stuka armor. | none
+- shape: Redirects to a new factual question about history: whether the Ju 87 Stuka carried about 1000 lbs of armor because of its low dive attacks. It leaves the model's story question unanswered and doesn't react to the model's proposals.
+- settles:

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The answer described the settled four-year military occupation (administration, isolation, requisitions, forced labor) when the user wanted the first phase, the initial advance and first contact with villagers, which got only a brief mention | During the initial rapid German advance ... initially occupied ... initial contact | implied, by re-asking the question narrowed to the initial phase, with no stated disagreement or reason
+- about: The user narrows the topic to the first phase of the invasion and asks again how villages were first occupied and how civilians were treated on first contact, without commenting on the previous answer.

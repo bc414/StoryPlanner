@@ -1,0 +1,5 @@
+- claims:
+  - Canon | Cadance's established special talent of love is recontextualized as the charitostatic effect within the author's materialist magic system | For magic, Cadance's special talent is "love" which in my materialist magic system is the charitostatic effect | no
+  - Characterization | Cadance has conviction for the charitostatic portion of a spell, as in the conception spell that turns romantic love into a baby, which asserts her magical capacity as part of who she is | So Cadance has conviction for the charitostatic portion of a spell, such as the conception spell | yes
+- goals:
+- whole: The note recontextualizes Cadance's canonical talent of love as the charitostatic effect of the author's magic system, then asserts that she has conviction for the charitostatic part of spells such as conception.

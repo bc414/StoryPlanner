@@ -1,0 +1,5 @@
+- claims:
+  - History | After the manticore-tier threats were all eradicated, the jaegers preyed on each other to satisfy their addiction | Once all the manticore-tier threats were eradicated, the jaegers ended up preying on each other | no
+  - History | When other food sources ran out, the jaegers turned on each other for a fix and the drones starved | When all the other food sources were gone, the jaegers turned on each other for a fix and the drones starved | no
+- goals:
+- whole: The note reports, as in-universe historical fact, the collapse of the hive system in which jaegers, having eliminated all other prey, cannibalized each other for their addiction and the drones starved, without stating any reader experience the track is meant to plan.

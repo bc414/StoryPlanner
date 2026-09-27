@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks how to add drop tanks to their fictional aircraft and proposes that the crystal engines might be fuel-and-crystal hybrids, without pointing the model at any body of material.

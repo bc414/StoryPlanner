@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - own name: the model's verdict on the idea | The model said the spell completely fixes the deus ex machina problem, but the user says it still reads as a deus ex machina | "it seems like a deus ex machina" | stated as a doubt, in the form of a conditional, then followed by a how-do-I question
+  - reading of the plan | The model presented the spell as a clean fix without accounting for the later war, in which changelings push Cadance and Shining Armor back. A spell that repels predators with force would contradict that | "I can't have Cadance and Shining Armor blasting changelings miles away constantly, then I can't explain how the changelings can push them back" | flat statement of a constraint from the plan, put as a practical problem and not as blame
+- about: The user pushes back on the model's enthusiastic claim that the spell solves the finale, pointing out that it still looks like a deus ex machina and conflicts with the 1011 industrial war, and asks how to frame it so it fails there.

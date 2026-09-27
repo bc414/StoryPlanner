@@ -1,0 +1,6 @@
+- claims:
+  - History | Chrysalis invented the technology so drones could override their emotion sense and serve as gun-armed conscripts invading other hives | Chrysalis invented it to allow drones to override their emotion sense and be conscripts | no
+  - History | The technology was designed to make conscripts dependent, securing absolute loyalty to the supply chain | designed to make the conscripts dependent to ensure absolute loyalty to the supply chain | no
+  - History | Conscripts who leave the army lose the override and cannot survive alone, since they would feel their victims' hate and fear | If they leave the army, they lose their emotion sense override and can't survive | no
+- goals:
+- whole: The note reports as in-world fact why Chrysalis invented Jaeger Geist and how its built-in dependency binds conscripts to the army and its supply chain, without saying what the reader should take from it.

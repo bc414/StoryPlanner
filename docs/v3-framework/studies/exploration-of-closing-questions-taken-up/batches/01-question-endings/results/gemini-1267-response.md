@@ -1,0 +1,6 @@
+- questions:
+  - Does Henri hate Poseurs because they remind him of his own shameful supremacist past (projection), or because he genuinely loves Aquileian culture now? | no user turn | none | none
+  - Does the Crystal Heart run on intense emotion in general, rather than only Hope and Love? | no user turn | none | none
+  - If the Crystal Heart runs on intense emotion generally, why did Sombra's Fear and Hate disable it? | no user turn | none | none
+- shape: none
+- settles:

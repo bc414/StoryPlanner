@@ -1,0 +1,4 @@
+- claims:
+  - History | The Nova Griffonians taught the Severyanans to mine and burn coal, an event in the system's establishment, dated 870 | Nova Griffonians teach Severyanans how to mine and burn coal | yes
+- goals:
+- whole: The note reports, as a historian would, a single founding event in which one people transferred coal-mining and coal-burning knowledge to another.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a "what if" story idea that Pagala invented the simple elixir to turn her carapace pink and Chrysalis adapted it to remake her whole body to rival Celestia, without pointing to any body of material for the model to use.

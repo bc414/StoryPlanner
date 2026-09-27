@@ -1,0 +1,5 @@
+- questions:
+  - If Twilight hands her moral autonomy to Applejack, how does that power imbalance affect Applejack's imposter syndrome and resentment of leadership burdens in the middle acts of the war? | no user turn | none | none
+  - When the public learns the Luna Nova Rifles run on the same Red Love as the Changeling suicide-charges, how does the Ponies First Party (Gilded Trust) weaponize that truth to argue Equestrians are being turned into soulless bugs? | no user turn | none | none
+- shape: none
+- settles:

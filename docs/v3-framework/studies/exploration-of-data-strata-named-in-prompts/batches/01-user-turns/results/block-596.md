@@ -1,0 +1,8 @@
+- sources:
+  - the whole timeline | review it in full and revise it so it fits the new placement of the reunion | "review the whole timeline" | referred-to
+  - the analysis on Amélie (the model's previous turn) | accepted as good and kept as the base, with the reunion's placement to be adjusted | "This is a good analysis on Amélie" | referred-to
+  - TLTT chapter 19 Entrenchment | fixed placement for the Crystal Empire Reunion; treat as where it happens | "would take place in TLTT chapter 19 Entrenchment" | referred-to
+  - TLTT chapter 16 Combined Arms, the AA flak incidents | established earlier event the reunion must come after and account for | "after the AA flak incidents in chapter 16 Combined Arms" | referred-to
+  - TLTT chapter 18, the shared wound of the Equestrian volunteers over the drugged changeling conscripts they could not save | established earlier event the reunion must come after and account for | "chapter 18 shared wound with all Equestrian volunteers" | referred-to
+- order:
+- about: The user approves the Amélie analysis and asks the model to review the whole timeline again, now placing the Crystal Empire Reunion in chapter 19 Entrenchment, after the chapter 16 flak incidents and the chapter 18 shared wound.

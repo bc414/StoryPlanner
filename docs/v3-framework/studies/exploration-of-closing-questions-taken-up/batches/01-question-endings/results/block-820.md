@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack reconcile her demand for total transparency with the GR-style solidarity that historically relied on martial law and silencing dissidents or anti-democratic actors like Gilded Trust's media apparatus? | no user turn | none | none
+  - How does Gilded Trust use the language of Asset Specificity and Cutie Marks to frame Applejack's safety-net and cooperative-ownership policies as Communist Standardization stripping ponies of identity? | no user turn | none | none
+- shape: none
+- settles:

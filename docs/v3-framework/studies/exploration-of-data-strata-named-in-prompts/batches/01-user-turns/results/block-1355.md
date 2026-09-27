@@ -1,0 +1,7 @@
+- sources:
+  - attached document, the EaW official flavor text for Skyfall | material the model is to draw on and synthesize from in building Genevieve Guichard as a Soros parallel | I have attached the EaW official flavor text for Skyfall | first-named
+  - the expected EaW path, the default behavior, the Skyfall Republic where she becomes leader | the published game's default outcome, named as the baseline that the author is not following | The expected EaW path which is the default behavior | referred-to
+  - the oligarch path in TLTT, a step further to anarcho capitalism | the author's own chosen direction for the story, which the synthesis should follow | the path I'm going with in TLTT is the oligarch path | referred-to
+- order:
+  - the oligarch / anarcho-capitalist path in TLTT over the EaW default Skyfall Republic path | the author says the default is expected but the path they are going with is the oligarch one
+- about: The user asks the model to synthesize, from an attached piece of official Skyfall flavor text, how to use Genevieve Guichard as a Soros parallel who funds Twilight in Ain Trotgourait, while departing from the game's default Skyfall Republic outcome toward an oligarch or anarcho-capitalist path in their own story.

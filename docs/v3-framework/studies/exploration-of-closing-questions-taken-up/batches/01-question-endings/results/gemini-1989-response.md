@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want the model to outline the basic C# WPF code for deserializing the exported JSON file? | ignored | none | none
+- shape: Corrects the model's approach and gives an instruction. The Build prompt should cover only the UI pipeline scaffolding, because the user will perfect the two Gemini prompts separately in Playground. The user asks for a revised master prompt and passes over the model's offer of C# code.
+- settles:
+  - AI Studio Build is used only for the UI pipeline scaffolding, not for the prompt content | I only want to build the scaffolding in AI studio, so the first prompt only focuses on the UI pipeline
+  - The two prompts (bucket generation and sorting) will be developed and perfected independently in Playground, outside the Build prompt | I want to perfect the two prompts in Playground independently

@@ -1,0 +1,5 @@
+- sources:
+  - My current trajectory for the character development for Applejack | treat as the author's current plan and the basis to reason from: the model should test the ash-scooping timing against it, over the prior turn's assumption that she does it earlier | "My current trajectory for the character development for Applejack" | first-named
+  - the chapter Honor (Applejack's talk with Trimmel) | treat as the planned turning point in the story plan where Applejack embraces the Lioness, so the ash-to-weapons choice should come after it | "until the talk with Trimmel where she then scoops it up for weapons" | first-named
+- order:
+- about: The author corrects the prior analysis by giving their own planned arc for Applejack, in which she only becomes the Lioness after the Trimmel talk in Honor, and asks whether the ashes should stay on the farm until then.

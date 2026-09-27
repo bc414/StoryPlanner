@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model treated the skater/subculture slang sense of 'poser' as a problem to get around, and recommended 'Poseur' to avoid it. The user wants that slang sense, meaning someone pretending to belong to a group without its substance, and says it fits their scene exactly. | 'the slang American meaning actually works extremely well. It's exactly what I'm trying to get across' | Stated plainly as disagreement, softened by 'I think', then backed with the changeling and supremacist examples and the planned Henri/Applejack exchange.
+- about: The user pushes back on the model's advice to sidestep the slang meaning, says that meaning is what they want, and explains how it fits the changelings and the supremacists and how the Henri/Applejack 'Poseurs'/'Posers' exchange will go.

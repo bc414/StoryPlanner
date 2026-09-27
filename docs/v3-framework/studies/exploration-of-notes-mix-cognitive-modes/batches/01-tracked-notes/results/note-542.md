@@ -1,0 +1,9 @@
+- claims:
+  - History | After returning and beginning to speak publicly, Luna promised harmony for thestrals | Luna promised harmony for thestrals once she started speaking in public after her return | yes
+  - History | Despite Mali's empowerment, Luna went with Celestia's token reforms rather than real grassroots aquileian parloir-style reforms of the kind EEEE wants | despite Mali's empowerment, Luna still goes with Celestia's token reforms instead of real grassroots aquileian parloir style reforms | yes
+  - History | The failure to tame Velvet is reflected in the Tzinacatl | The failure to tame Velvet is reflected in the Tzinacatl | yes
+  - History | Because Celestia protected both her younger sister and her harmonic system, Luna's reforms ended up merely token | Since Celestia was protective of both her younger sister and her harmonic system, Luna's reforms became only token reforms | yes
+  - History | Luna agreed that parloir operators exemplify the magic of friendship scaled up to adults | Luna agrees that the parloir operators are perfect examples of the magic of friendship scaled up to adults | yes
+  - History | Luna ultimately did not pursue forceful thestral integration and accepted Celestia's token reforms | Luna ultimately did not pursue forceful thestral integration. She took Celestia's token reforms. | yes
+- goals:
+- whole: The note reports, as in-universe history, how Luna's promise of thestral harmony ended in Celestia-shaped token reforms rather than real grassroots integration, and why.

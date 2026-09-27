@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (worldbuilding description of an in-universe organization) | The Cute Intelligence Agency is a spy network made up of animals | The Cute Intelligency Agency (CIA) is an animal spy network | outside
+- goals:
+- whole: The note gives a one-line worldbuilding definition of the CIA as an animal spy network, without saying what the reader is to take from it.

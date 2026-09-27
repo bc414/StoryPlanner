@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-building ontology) | states what the Manifesto, as a thing in the fictional world, advocates: a permanent state of emergency | the Manifesto advocates for a permanent state of emergency | outside
+- goals:
+- whole: The note defines, as a fact about the fictional world, the content of Caramel Marks' Manifesto: it advocates a permanent state of emergency, with no reader effect stated.

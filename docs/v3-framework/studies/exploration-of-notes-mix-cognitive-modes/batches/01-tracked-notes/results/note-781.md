@@ -1,0 +1,9 @@
+- claims:
+  - Analogies | England's peasant food traditions rivaled France's but were destroyed by early industrialization, losing terroir | English had peasant culinary traditions that rivaled French ones, but because England industrialized first | yes
+  - Analogies | The Enclosure Acts closed common land for wool sheep farming and drove millions of peasants into factory cities | The Enclosure Acts - lords closed off the common land for sheep farming | yes
+  - Analogies | WWII-era British rationing from 1940 to 1954 left a generation raised on canned meat and powdered eggs, finishing the loss of traditions | Britain rationed from 1940 to 1954, so an entire generation grew up on canned meat and powdered eggs | yes
+  - Analogies | Herzland, which drove industrialization in the author's world, is cast as the parallel to industrializing England | Since Herzland drove industrialization in my EaW | yes
+  - NotesToSelf | Author's design decision to place the lost English traditions in the memories of Herzlander refugees on the Long March to Cloudbury who found the Griffonian Republic | I'm putting the english traditions lost to industrialization in the memories of the Herzlander refugees | no
+  - Analogies | List of real English foods lost to industrialization to draw on: meat pies, clothbound cheddar, real cask ale, pottage | Lost English traditions: meat pies, clothbound cheddar, "Real cask ale", pottage | yes
+- goals:
+- whole: The note documents how England's loss of peasant food culture to enclosure, industrialization and rationing serves as the real-world model for the Herzlander refugees' remembered food traditions in the Griffonian Republic.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about their worldbuilding, whether changeling rehabilitation would have to include schooling-level instruction in the missing English skills and whether that is taught explicitly or implicitly, without pointing the model at any body of material.

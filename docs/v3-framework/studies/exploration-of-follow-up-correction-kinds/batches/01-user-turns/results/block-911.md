@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the POW timeline to a new question, asking for comparable large event venues and a realistic headcount for the Tall Tale Exposition Center, without saying anything in the prior turn was wrong.

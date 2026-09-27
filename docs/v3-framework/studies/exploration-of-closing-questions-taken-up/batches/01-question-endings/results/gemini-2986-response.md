@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to explain how a Mixture-of-Experts architecture physically routes a prompt to an expert? | ignored | Nothing on MoE. It moves to new questions about who used Gemini Ultra, what the Google AI Ultra subscription is for, and whether Pro Deep Think makes Ultra obsolete. | none
+- shape: Redirects to a new set of follow-up questions about the Gemini Ultra product line, its users, the subscription tier and Deep Think. It turns down the offered MoE explanation by not mentioning it. It is a plain information request, and the topic has no visible link to a story.
+- settles:

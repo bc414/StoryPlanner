@@ -1,0 +1,14 @@
+- claims:
+  - History | The Reich runs a rigid gold standard like Celestia's, because rich nobles do not want their wealth inflated away | The Reich uses a rigid gold standard just like Celestia because rich nobles don't want their wealth to be inflated away | no
+  - ThematicEvidence | The gold standard makes a zero-sum game that fuels the predator's dilemma, and trust under it is physical and hoarded | zero sum game created by the gold standard is what fuels the predator's dilemma. Trust is physical/hoarded | no
+  - History | Skyfall banks lending money out created the fiat Skyfall Mark, which unleashed ambition and made Skyfall a global power | Skyfall banks lending out money creates the fiat currency of Skyfall Marks | no
+  - History | Skyfall Marks are backed by the Trade Federation's credit, meaning its power to enforce debts and control trade routes, and refusal is met with withdrawn protection or raids | Money represents Leverage... Accept this paper or we don't protect your ships; in fact we will raid you | no
+  - ThematicEvidence | Trust under Skyfall's ruthless fiat is extorted | Trust is extorted. | no
+  - History | Banks print money to lend to tycoons, who buy real assets such as land and factories, which produces massive inequality | Banks print monye to lend to tycoons, who use it to buy up real assets | no
+  - ThematicEvidence | Skyfall's system favors predators and is ambition without harmony | It favors predators... ambition without harmony | no
+  - History | Coltbert's fiat is backed by the royal coffers at 1:1 conversion and his royal advisor's word, so money is royal command and a note is worth 10 bits because the king says so | Coltbert takes the mechanic of fiat (printing money) but changes the backer... This paper is worth 10 bits because I am the king | no
+  - ThematicEvidence | Coltbert's harmonic fiat treats money as future trust, and trust is commanded | Money represents future trust... (trust is commanded) | no
+  - History | Kemerskai's Riks are backed by federal law and taxes, the Second Aquileian Republic's Francs by national production and war bonds, and Equestria's war bonds by collective labor and future | Kemerskai's Riks backed by federal law and taxes, the 2nd Aquileian Republic's Francs backed by national production and war bonds | no
+  - ThematicEvidence | Under these collectively backed currencies trust is mutual | Trust is mutual. | no
+- goals:
+- whole: The note lays out how several nations' money works, gold standard, predatory bank fiat, commanded royal fiat and collectively backed currency, and labels each with a kind of trust, so it reads as in-world monetary history and thematic contrast, not a plan for how the reader experiences the technology.

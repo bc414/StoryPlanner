@@ -1,0 +1,4 @@
+- sources:
+  - the whole storyline's events | draw on it as the basis: trace it end to end to derive the split of the casualty total between Camp Fluttershy, gulags and KIA, with the result treated as a first pass the author will revise | Trace the whole storyline's events | referred-to
+- order:
+- about: The user asks the model to trace the story's events and give a first-pass explanation and methodology for splitting the 7.6 million changeling casualties among Camp Fluttershy, the Stalliongrad gulags and KIA, which the user will then revise with missing events and insights.

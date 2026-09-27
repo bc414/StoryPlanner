@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: the model's characterization of the RTS games as rigorous, logic-driven materialist training (harvesters, supply, grounded logistics) | the model presented the C&C and other RTS resource systems as coherent economic simulation that shaped the user's method; the user says supply zones in Generals and ore in RA2 never made sense, that RA3 kept the convenient-resource approach, and that Civ and EU4 are the more real economic models | "I actually always felt that "supply zones" was stupid" and the contrast with Civ and EU4 | put as the user's own long-held view, stated flatly with reasons for each game, in passing while moving on to a question
+- about: The user qualifies the model's praise of RTS games as materialist training by giving their own view of which games' resource systems made sense, then asks whether Tiberium harvesters came from Dune and ties the answer back to TLTT's resource-driven thesis.

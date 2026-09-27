@@ -1,0 +1,4 @@
+- sources:
+  - All TLTT gemini prompts text.txt (attached transcript, in reverse order, of a foundational conversation) | treat as the material to analyze; the model is to read it and give an analysis of how the author leaned into Stagnation of Harmony | Here is a transcript (in reverse conversation order, the top of the file is the end and the bottom of the file is the start) of a foundational conversation | first-named
+- order:
+- about: The user attaches a transcript of an earlier foundational conversation in which they developed Stagnation of Harmony and asks the model to analyze it.

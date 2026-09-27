@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | Wingbardy is modeled on British imperialism as a real-world historical inspiration | Wingbardy = British imperialism | yes
+  - Analogies | Wingbardy's governance draws on early constitutional monarchy, specifically the English Magna Carta | early constitutional monarchy (English Magna Carta) | yes
+  - Analogies | Wingbardy's social order draws on the real-world dominance of the bourgeoisie | bourgeoisie dominance | yes
+- goals:
+- whole: The note lists the real-world historical models (British imperialism, Magna Carta-era constitutional monarchy, bourgeois dominance) that inspired the in-universe civilization Wingbardy.

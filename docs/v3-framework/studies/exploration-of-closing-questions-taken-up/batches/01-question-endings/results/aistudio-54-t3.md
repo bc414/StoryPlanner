@@ -1,0 +1,5 @@
+- questions:
+  - How does the coming soil exhaustion and famine in Vanhoover force Chrysalis to speed up her military timetable against Canterlot and Manehattan? | no user turn | none | none
+  - If Manehattan refugees learn their ancestral soil is being permanently sterilized, how does that move their politics from Celestia's Stagnant Pacifism to Applejack's demand for immediate violent liberation? | no user turn | none | none
+- shape: none
+- settles:

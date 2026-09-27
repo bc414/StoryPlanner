@@ -1,0 +1,6 @@
+- questions:
+  - Is the Storm King's horde (996-1006) relevant to the Great Lakes material conditions, i.e. did it disrupt both the Yeti cattle system and the zebra spirit system, and should the pre-Storm-King baseline be shown? | ignored | Says nothing about the Storm King's horde or the baseline. | none
+  - Is the elder's advantage in spirit replication primarily time (compounding) or primarily skill? | ignored | Does not touch the time-versus-skill question. | none
+  - Are Yeti and zebra clans interleaved in the same territory, or split into Yeti highland and zebra lowland zones? | ignored | Gives no spatial picture of the two species in the Great Lakes. | none
+- shape: Moves on to a new topic. It asks how a recent Zulu-community series, The Polygamist, and its book source relate to the Great Lakes zebra analysis. This brings in an outside comparison and leaves the model's three open design questions unanswered.
+- settles:

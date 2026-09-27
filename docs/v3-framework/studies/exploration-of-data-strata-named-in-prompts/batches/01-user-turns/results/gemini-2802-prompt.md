@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the material to be reviewed and analyzed, including the newly described Crystal Empire tax and Fleur/Twilight friction, put forward as the author's planned direction | Please review my story plans and give an analysis | first-named
+- order:
+- about: The user adds new plot details (Cadance and Shining Armor's covert crystal trade, Twilight's crystal tax for Ain Trotgourait, and the resulting friction between Fleur and Twilight) and asks the model to review these plans and give an analysis.

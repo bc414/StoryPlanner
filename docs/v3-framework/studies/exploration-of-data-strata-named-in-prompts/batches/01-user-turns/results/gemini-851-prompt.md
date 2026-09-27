@@ -1,0 +1,5 @@
+- sources:
+  - harmonic capitalism contrast | a part of the story plan that the model is to use as a vehicle for portraying the thesis that the West can't hold to its own ideals | portray this via the harmonic capitalism contrast | referred-to
+  - the split between GR and Aquileia until Equestria enters | a part of the story plan that the model is to use, together with the harmonic capitalism contrast, as a vehicle for the thesis | the split between GR and Aquileia until Equestria enters | referred-to
+- order:
+- about: The user restates their thesis, that the West is sliding into authoritarianism because capital rights are too weak and so cannot arm grassroots allies, and says they want to portray it through two parts of their story plan.

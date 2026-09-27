@@ -1,0 +1,6 @@
+- claims:
+  - History | Changelings inhabit the frozen, forested, swampy north, where agriculture is poor | Changelings live in the frozen, forested and swampy north. It's not good for agriculture. | no
+  - History | Changelings evolved to metabolize interpersonal connection (pink love/friendship) to supplement scant foraged calories | They evolved to metabolize interpersonal connections (pink love/friendship) to supplement the meager calories from foraging | no
+  - History | The most ancient changeling hives were founded on communal friendship | The most ancient changeling hives were built on communal friendship | no
+- goals:
+- whole: The note states, as plain world facts, the northern environment and changeling biology that led to ancient hives being built on communal friendship, answering the track's causal question without addressing any reader effect.

@@ -1,0 +1,4 @@
+- questions:
+  - Will the user manually trigger the heavy literary and coding evaluations in Claude before logging off, or script the desktop app to batch and send them to the API automatically during off-peak hours? | ignored | Says nothing about manual versus scripted triggering. It moves on to when peak load falls across world time zones. | none
+- shape: Redirects to a new question. It qualifies the model's fixed 9-to-5 premise by noting that the work window moves around the globe, and gives the user's own US East Coast position and a European-coworker overlap observation. It then asks a series of questions about Pacific, Atlantic, Europe, Middle East, India and East Asia load, and instructs the model to write an analysis ending with best EDT times for Gemini and Claude. It does not engage the model's closing question.
+- settles:

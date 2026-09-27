@@ -1,0 +1,12 @@
+- questions:
+  - How does seeing the EEEE! union in Manehattan organize the factory workers they once despised force the Aquileians to re-evaluate what Working Class Solidarity means? | ignored | none | none
+  - How does Minette process the fact that Chrysalis's conscripts are kept compliant by chemical suppression of Emotion Sense (Jaeger-Geist) and not by ambition, given her Skyfall rationalization? | ignored | none; the turn only says the pair still believe Skyfall workers and Zebrican tribes don't want to be saved, which is never linked to the conscripts | none
+- shape: Corrects the model's framing and adds nuance. It fixes their politics as royalist, not republican, and recasts the 1002 retreat as excuses covering a wish to be together. The two Socratic questions are not answered; the user supplies character and world detail of their own.
+- settles:
+  - Aquileia under ego capitalism and the Coltbert Reforms is still a monarchy under Moriset Discret | Aquileia... is still a monarchy under Moriset Discret
+  - Réni and Minette are Royalists, not republicans; to them 'republic' means bourgeois poseurs enabled to the max | They actually are Royalists, not republicans
+  - They were Royalist Chasseurs sniping warlords, with 'king complexes' that favor top-down heroism, which sits ironically against Aquileia's bottom-up asset-specificity culture; they are a blend of both | king complexes... complex blend of both
+  - Their stated excuses for leaving the crusades are cover; the deeper reason is that they miss each other and want a mission they can share | deep down they actually just miss each other
+  - Their next mission is to investigate Equestria for poseurs and train Equestrians in the Aquileian way, which they do with Cadance and Shining Armor | The next mission is 'investigate Equestria for poseurs'
+  - They chose a domestic, low-conflict setting in Equestria to recharge | sought out a domestic, low conflict environment to recharge
+  - They still believe Skyfall workers and tribal Zebricans don't want to be saved in aggregate; this is their individual arrogance | It is their individual arrogance

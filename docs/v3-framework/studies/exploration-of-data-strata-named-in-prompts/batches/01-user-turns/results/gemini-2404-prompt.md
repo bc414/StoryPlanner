@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding suggestion that only elites can afford to fly (the current conversation) | treated as an interesting idea to build on, provisional and open to adjustment (perhaps others still glide), not settled | It's quite interesting if only elites can "afford" to fly | referred-to
+- order:
+- about: The user takes up the model's idea that flight is an elite privilege for griffons, extends it with a proposed geography of wind in Aquileia versus Herzland tied to griffon lords suppressing pegasi, and asks whether that makes sense.

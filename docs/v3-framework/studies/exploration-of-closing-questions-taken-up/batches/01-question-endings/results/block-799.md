@@ -1,0 +1,5 @@
+- questions:
+  - How would Sunglider and Flowing Current coordinate exchange rates between the Rik and an Equestrian civic fiat, and would integration import inflation into Equestria or would Equestria's agricultural surplus stabilize the GR's industrial fiat? | ignored | Nothing on exchange rates, inflation or the Equestrian currency; the turn moves to a different topic. | none
+  - How would Kingfeather politically spin the donation of Equestrian magical weapons to the GR, for example as weakening griffon martial pride and creating dependence on foreign technology? | ignored | Nothing on Kingfeather's reaction or the weapons donation. | none
+- shape: Sets aside the model's Socratic questions and redirects to a new, broader question about the plan. The user asks what really separates Stalliongrad from the Griffonian Republic, restates Stalliongrad's purpose as debunking the Trotskyite myth, and asks whether the GR would also suffer a mass-mobilization slaughter against Chrysalis's hive, wondering whether that might be the point. It is an open probe, not a decision, and it implicitly questions whether the GR design differs enough from Stalliongrad.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the MPA discussion to set out the republic's constitutional setup (proportional representation, a plurality president, a coalition with Vérany at economics) and asks for a plausible four-party seat split and the compromise economic policies for a pre-war setting.

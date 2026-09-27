@@ -1,0 +1,5 @@
+- sources:
+  - historical parallels from pre colonization americas | draw on as real-world precedent for the Tzinacatl tribes' bickering over resources and petty ideology; offered as inspiration, not fixed canon | Give me some historical parallels from pre colonization americas | first-named
+  - the historical Kurdish experience | draw on as inspiration for the Temberik clans, using the Kurds as a nation that has never had a state | I want to draw some more inspiration from the historical Kurdish experience | referred-to
+- order:
+- about: The user asks the model to flesh out two fictional cultures, the quarrelsome jungle Tzinacatl and the communal mountain Temberik, by supplying pre-colonization American parallels for the first and Kurdish stateless history as inspiration for the second.

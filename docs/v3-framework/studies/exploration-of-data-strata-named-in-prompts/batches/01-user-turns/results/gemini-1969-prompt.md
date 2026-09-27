@@ -1,0 +1,4 @@
+- sources:
+  - Equestria at War | the published mod/game whose content the model is asked to check for a Polish-inspired nation; treated as the body of material to answer from | Is there a Polish inspired nation in Equestria at War? | referred-to
+- order:
+- about: The user asks a short factual question about whether the published game Equestria at War contains a nation modeled on Poland.

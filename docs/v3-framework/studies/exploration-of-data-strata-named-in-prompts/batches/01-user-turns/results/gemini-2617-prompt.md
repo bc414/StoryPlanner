@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's assumption that Equestrian soldiers are conscripts, restating that they are volunteers and that the drug trade exists to avoid a draft, then asks whether morale cakes should also go to the burned-out factory civilians as the front line approaches the urban refugee and industrial centers.

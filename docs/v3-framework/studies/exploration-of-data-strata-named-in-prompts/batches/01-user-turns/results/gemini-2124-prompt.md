@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates their understanding that visible consumer giants are already known to be evil and that the PNdA targets hidden profiteers behind them, then asks whether those hidden profiteers or the big retailers would have commissioned the pirates to burn the Aquileian universities.

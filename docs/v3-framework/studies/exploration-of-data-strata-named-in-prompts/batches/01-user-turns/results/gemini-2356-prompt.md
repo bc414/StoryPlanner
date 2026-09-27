@@ -1,0 +1,4 @@
+- sources:
+  - the cutie mark system (Equestria's, Celestia's division of labor) | keep as the model for the setting's system but alter it: swap the harmony morals for passion, negotiation and cross-species no-consequences sex, and treat it as a possible origin of Grover III's artisan ideals | replaces the harmony morals with passion, negotiation and cross-species no consequences sex | referred-to
+- order:
+- about: The user is brainstorming how Coltbert's upbringing and his trip to Equestria could tie Grover III's artisan ideals to a modified cutie mark system, and floats a revision in which Grover III's ideals originally came from Celestia.

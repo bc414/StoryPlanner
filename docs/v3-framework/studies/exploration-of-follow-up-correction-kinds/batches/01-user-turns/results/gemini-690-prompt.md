@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the reason behind the state and local tax exemption the model described, without disputing anything in the model's answer.

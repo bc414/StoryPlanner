@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether Celestia and Grover III should be classed as a Bond and requests a review of the material on the two, adding context that Grover III is offstage but shaped history alongside the immortal Celestia, which extends the analysis without saying anything in it was wrong.

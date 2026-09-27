@@ -1,0 +1,5 @@
+- sources:
+  - the attached Pax Chrysalia chapter ("32 - 31- It's Me"), a different story set in EaW after the changelings occupied Equestria | the material to be analyzed; the model is to read it and assess how it characterizes Twilight and Rainbow Dash | "Give an analysis of how this chapter of Pax Chrysalia" | first-named
+  - our current discussion and framework | the lens or yardstick the chapter's characterization is to be judged against and related to | "in relation to our current discussion and framework" | referred-to
+- order:
+- about: The user attaches a chapter of a different story, Pax Chrysalia, and asks the model to analyze its characterization of Twilight and Rainbow Dash in light of the framework the conversation has been building.

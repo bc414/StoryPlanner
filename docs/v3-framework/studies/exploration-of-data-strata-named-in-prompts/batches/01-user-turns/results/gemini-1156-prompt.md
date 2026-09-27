@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a possible backstory addition, that Comet Shine set up a canning facility, perhaps with help from AJ's parents' company, and stockpiled local produce as canned mash before the war, without pointing the model at any body of material.

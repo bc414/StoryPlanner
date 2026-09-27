@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | The Storm King is not a cartoon villain and not a mastermind, which denies the trope-based picture of him | not a cartoon villain nor is he a mastermind | no
+  - Characterization | He is the head warlord, and his standing rests on effective propaganda | He is the head warlord with good propaganda | no
+  - Characterization | His actions are a rational response to griffonian colonialism, which gives his motive | responding rationally to griffonian colonialism | no
+- goals:
+- whole: The note gives a short account of what kind of figure the Storm King is (a propagandist warlord who reacts rationally to colonialism, not a cartoon villain or mastermind) in the Reader Opinion track, but it does not say what the reader is to feel or how their opinion should change.

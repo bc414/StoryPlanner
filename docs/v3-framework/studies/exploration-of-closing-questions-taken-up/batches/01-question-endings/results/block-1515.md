@@ -1,0 +1,6 @@
+- questions:
+  - Should cross-subject arcs that no single character owns, such as TwiJack, become a Bond or Relationship type of entity with its own subject tracks now that Story Threads are retiring? | ignored | none | none
+- shape: The user turn does not answer the model's question. It corrects the model's reading of the v1 design for Rarity's first scene with Celestia: the misdirection was meant to be off the page and reader-inferred, not put in Rarity's thoughts. It then adds an aside about LLM prose generation and comparative advantage, and reasons aloud about the framework's scope. The user proposes that the O/E/La/En tracks serve only thematic argumentation, asks where thrill and notes-to-self belong, and floats renaming O to H, E to P, and R to T or M. These are tentative questions, not decisions.
+- settles:
+  - In Rarity's first scene with Celestia, 'Celestia is hopelessly out of touch' is not stated on the page. It is a misdirection the reader infers by watching Rarity stop pressing, so it is a two-inference case that seeds the reader's belief. | 'is not for "she is out of touch" to appear on page'
+  - In the next chapter, Rarity tells Applejack over the radio that Celestia is 'like a statue'. | 'Rarity says "she is like a statue"'

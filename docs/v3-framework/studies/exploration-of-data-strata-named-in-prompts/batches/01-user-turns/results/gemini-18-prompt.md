@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to repeat the same kind of account of occupation and civilian treatment for a different historical period, the Napoleonic Wars, without pointing to any body of material to draw on or avoid.

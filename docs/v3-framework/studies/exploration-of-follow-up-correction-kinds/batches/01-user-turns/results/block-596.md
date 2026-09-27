@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Where the Crystal Empire reunion falls in the TLTT timeline, and what sets it up. The model tied it to the aftermath of the Chapter 12 Stalliongrad crash and a retreat there. The user places it in Chapter 19 Entrenchment, after the Chapter 16 flak incidents and the Chapter 18 shared wound of failing to save the drugged changeling conscripts. | would take place in TLTT chapter 19 Entrenchment, after the AA flak incidents in chapter 16 and the chapter 18 shared wound | Flat, as a premise to build on. It comes after praise, is folded into the next task, and gives no reason and no explicit statement that the model was wrong.
+- about: The user accepts the Amélie analysis, then sets the reunion's chapter placement and its preceding events as a fixed constraint and asks the model to review the whole timeline on that basis.

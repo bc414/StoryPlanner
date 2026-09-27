@@ -1,0 +1,6 @@
+- claims:
+  - span | As a filly Rarity heard the kid-friendly version of the FJA chasseur ideal | "As a filly", "heard" | her childhood, before the start of TLTT; no date given
+  - unfixed | The kid-friendly version of the ideal is about self actualization, not about redeeming a violent fascist thug | "which is about self actualization, not redeeming a violent fascist thug" | none
+  - span | She decided to be fashionable, glamorous and, most importantly, ambitious | "She decided to be fashionable, glamorous, and most importantly, ambitious" | made as a filly, after hearing the kid version; the track question frames her as she is at the start of TLTT
+  - unfixed | Her manipulative flirt side is a side effect of that decision | "with a side effect of the manipulative flirt side" | tied only to the decision made as a filly; the note does not say how long the trait lasts
+- beside: Backstory (world date 990) speaks of the same thing in part: her wish for glamour, and how she acted on it by wanting to bring Manehattan parloir glamour home and designing costumes for the school play. This note gives the decision to be glamorous, with no date, and the Backstory note gives a dated instance of it.

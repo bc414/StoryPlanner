@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether other narrative-theory concepts beyond Stakes and Outcome should be added to the export, without disputing anything the model said.

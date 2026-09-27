@@ -1,0 +1,4 @@
+- sources:
+  - MyActivity | reported as absent from the user's export, so it can't serve as the recovery avenue for older watch history | There is no MyActivity | referred-to
+- order:
+- about: The user replies that the MyActivity export file the model suggested as a recovery route isn't there, closing off that option.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for suggestions and analysis of Blueblood's arc from fop to humiliated learner to Mudbeak's recruiter to author of the Dotted Line Report, offering their own tentative story ideas (a failed attempt to buy an education, rejection in Manehattan, an offer of personal medical help) and asking whether money should be a constraint.

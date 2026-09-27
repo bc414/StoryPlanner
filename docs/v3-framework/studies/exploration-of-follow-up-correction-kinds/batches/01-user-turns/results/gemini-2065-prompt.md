@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's reflexivity analysis as a base and proposes, as a tentative question, a theme for the story's social commentary: reflexivity and social networks as real-life magic, tied to ambition.

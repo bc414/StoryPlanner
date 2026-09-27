@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said a Zumidian woman's children belong to her husband's lineage, which contradicts the matrilineal system it was describing, where children belong to the mother's line. | seems like a contradiction. Isn't it matrilineal? Why would her children be of her husband's lineage? | Put as a pointed question that names the contradiction and asks for the reason, with no apology and no irritation.
+- about: The user picks out one internal contradiction in the model's account of matrilineal inheritance, then moves on to ask about real-world land-tenure patterns and to propose a gendered split with male Charger warriors, female spirit-tenders and non-combative zebra magic.

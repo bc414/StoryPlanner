@@ -1,0 +1,6 @@
+- sources:
+  - The relevant constraints for the grown up element of loyalty (the constraints built up over the conversation, plus the new one in this turn) | gather them all into one list and test Kinship, Fellowship and new terms against each | Please collect all the relevant constraints for the grown up element of loyalty and compare | referred-to
+  - Fraternity (the earlier element word and its intended purpose) | treat its original purpose, permitting a veteran a guilt-free extended break from the front, as a requirement the new element must also carry | That is what Fraternity originally was meant to embody | referred-to
+  - Tolkien / the phrase The Fellowship of the Ring | user knows it only by hearing the phrase, so their sense of how fierce Fellowship sounds rests on that and not on the books; not a settled basis for the word's register | I haven't actually read Tolkien but I have heard of the phrase | referred-to
+- order:
+- about: The user pushes back on the model's Fellowship proposal by preferring Kinship and raising concerns about both words, adds a plot direction for Rainbow after Las Pegasus and a new constraint that the element must license soldiers to rest, and asks for a full constraint list with Kinship, Fellowship and other words compared against it.

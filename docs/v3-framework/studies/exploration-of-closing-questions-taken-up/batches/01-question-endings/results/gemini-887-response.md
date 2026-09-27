@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to find a copycat recipe for Dunkin's classic Glazed donut to try at home? | ignored | The user turn is only a plan export attachment with no text, so it says nothing about the recipe offer. | [Plan export attached — 130,218 words, 0 chars]
+- shape: Sends a bare plan-export attachment with no message text. It neither responds to the donut explanation nor gives any instruction or direction.
+- settles:

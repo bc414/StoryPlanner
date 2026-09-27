@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (world-rule ontology) | Chrysalis's centrifuges are brutalist machines that perform fractional distillation on raw, extracted Pink Love | brutalist centrifuges perform fractional distillation | outside
+  - outside all ten (world-rule ontology) | The process mechanically strips the natural impurities from the Pink Love: complex emotions, the donor's context, and the biological friction of the relationship | mechanically strip away all the natural "impurities" | outside
+  - outside all ten (world-rule ontology) | The centrifuge cannot run without magical dampeners, which stabilize the chaotic input from an unwilling, struggling victim | requires magical dampeners to stabilize the chaotic input | outside
+- goals:
+- whole: The note lays out, as fixed rules of the fictional universe, how the Love Harvester's centrifuges distill extracted Pink Love and why they need magical dampeners for unwilling victims.

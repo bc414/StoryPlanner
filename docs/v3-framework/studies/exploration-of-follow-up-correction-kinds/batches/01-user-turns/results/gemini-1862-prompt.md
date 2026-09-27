@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a further feature: the paste command should save a JSON backup of the current notes before it replaces them, which adds to the model's code without saying anything in it was wrong.

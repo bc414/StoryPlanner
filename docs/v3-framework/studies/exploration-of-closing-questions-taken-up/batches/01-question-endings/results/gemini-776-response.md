@@ -1,0 +1,3 @@
+- questions:
+- shape: The user puts new factual questions to the model about the mod: how names are handled in the French and German localizations, and how Equestrian pony names are portrayed. It extends the naming topic without responding to anything the model asked, and the model asked nothing.
+- settles:

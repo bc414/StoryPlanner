@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn doesn't respond to the analysis. It asks a new factual question about the model's Meereenese Knot comparison: whether that section was written in the latest ASOIAF book or is still unwritten. It is a request for information and takes no position on JWAB, the serial-versus-epic argument, or the user's own project.
+- settles:

@@ -1,0 +1,6 @@
+- sources:
+  - my original plan for perspectives within the first few chapters | treat as the author's stated intended POV design (chapters 1-3 Applejack, chapter 4 Twilight, mid-scene bridge in the aftermath) which the model is to analyze for pros and cons | Here was my original plan for perspectives within the first few chapters | first-named
+  - the plans for these chapters | material for the model to look at and base its analysis on | Take a look at the plans for these chapters | referred-to
+  - my notes are scattered | the author's notes on the aftermath scene are incomplete and unreliable, so the design intent is given from the author's plan instead | my notes are scattered but I planned on designing | referred-to
+- order:
+- about: The user describes their planned POV structure for the opening chapters (Applejack for 1-3, Twilight for 4, and a mid-scene sensory-bridge switch in the aftermath) and asks the model to review the chapter plans and analyze the pros and cons.

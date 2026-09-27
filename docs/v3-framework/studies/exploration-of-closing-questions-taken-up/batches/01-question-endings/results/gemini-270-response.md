@@ -1,0 +1,11 @@
+- questions:
+  - Would the user like the model to write the opening scene of Chapter 1 to get started? | ignored | The user does not respond to the offer and continues with a new plot point about Archon Eros. | none
+- shape: Skips the model's offer and adds a new piece of the plot. The user works out how Archon Eros's war ends and why he acted as he did, and this continues the worldbuilding.
+- settles:
+  - Archon Eros surrenders unconditionally about two weeks after the weapons donations and a few pivotal engagements. | "about two weeks after the weapons donations"
+  - The surrender shows Eros is not irrational the way Chrysalis is. | "not irrational the way Chrysalis is"
+  - Eros may apologize for accepting Synovial's help again, calling it a sin and saying Kemerskai was right (tentative). | "he may even apologize"
+  - Eros truly cares about the griffons and believes in peace through strength. He is not a supremacist who uses peasant infighting to divert class struggle. | "true believer in peace through strength"
+  - Eros wanted a strong, stable empire for Grover VI. | "strong and stable empire for Grover VI"
+  - Eros took Synovial's offer to return because he feared the Republic was destroying the griffon spirit, which he saw as incompatible with Grover as emperor. | "feared the Republic was destroying the griffon spirit"
+  - Eros believes Grover should coddle the griffons as Celestia did. | "Grover should coddle the griffons as Celestia did"

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the consolidated notes to ask new questions about whether their plan-first methodology has precedents, whether it merits an article, and who Martin's architects were, without disputing anything the model said.

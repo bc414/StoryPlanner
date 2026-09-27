@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look into the economic margins of process-heavy restaurants compared with standard sit-down menus? | ignored | Says nothing about the margins offer, neither accepting nor declining. It moves to a new question about where these restaurants sit on a quality/price spectrum. | none
+- shape: Redirects. The user drops the model's offer and asks a new conceptual question of their own. They lay out a quality/price spectrum (McDonald's, then fast casual, then diner, then fancy full service) and ask whether the "mother process" restaurants sit on a different axis. It is a request for the model to place the idea within a framework, not a reply to the offer.
+- settles:

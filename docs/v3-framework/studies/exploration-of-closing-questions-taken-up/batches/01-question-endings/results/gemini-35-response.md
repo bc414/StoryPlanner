@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an analysis of the protagonist's romance-novels-versus-reality monologue, or a focus on Celestia's condition? | ignored | Says nothing to either option. It makes a new request for a detailed summary of the attached part 2 text file, and pastes in a part 1 summary as context. | none
+- shape: Redirects to a fresh request. It abandons the offered follow-ups and asks for a detailed summary of the attached part 2 file, with a pasted summary of part 1 and a pasted outline of later events as context. It reads as a restart of the summarizing task, not a reply to the model's offer.
+- settles:

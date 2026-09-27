@@ -1,0 +1,4 @@
+- sources:
+  - chapters 7-9 | read all of it, going through it to look for hidden subjects | Go through all of chapters 7-9 | referred-to
+- order:
+- about: The user tells the model to carry out the top-priority item from its coverage map by going through every part of chapters 7-9 to find hidden subjects.

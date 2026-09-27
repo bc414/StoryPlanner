@@ -1,0 +1,5 @@
+- sources:
+  - all corpora | draw on every corpus the model just compared (notebook, conversations, v1 archive, v2 plan) as the ground for the Minette and Réni analysis | across all corpora | referred-to
+  - areas you didn't fully read | go back and read in full the parts of the corpora the model only skimmed or partly read before writing the analysis | read fully areas you didn't fully read | referred-to
+- order:
+- about: The user asks for a full analysis of the characters Minette and Réni drawing on all the previously surveyed corpora, and tells the model to read in full any areas it had not yet fully read.

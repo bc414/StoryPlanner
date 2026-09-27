@@ -1,0 +1,7 @@
+- sources:
+  - the confrontation between Twilight and Starlight as re-architected in the previous turn | treat as provisional; keep it but move it to after the Our Town breakdown, with the citizens catching Starlight | the confrontation should be after the our Town breakdown where the citizens catch Starlight | referred-to
+  - the show's version of Starlight's arc (escaping into a cave, a season nursing a grievance against the sonic Rainboom) | treat as unnecessary here and drop it, since she is already radicalized | no need for starlight to spend a season nursing a grievance against the sonic Rainboom | referred-to
+  - Caramel Marks' writing | treat as an open design question; the user suggests it may also criticize Coltbert and Aquileia for elitism and asks whether it should | should Caramel Marks' writing also criticize Coltbert and Aquileia for elitism | referred-to
+  - the author's own account of Baltimare, New Mareleans, the Aquileian and Tzinacatl medical tribes and Aquileian expat descendants | treat as true setting facts that justify Caramel Marks' exposure to Aquileia | She is from Baltimare which has contact and proximity with New Mareleans | first-named
+- order:
+- about: The user pushes back on the proposed confrontation, moving it to after Our Town's collapse because Starlight is already radicalized, and asks whether Caramel Marks' writing should also criticize Coltbert and Aquileia, based on Baltimare's ties to New Mareleans.

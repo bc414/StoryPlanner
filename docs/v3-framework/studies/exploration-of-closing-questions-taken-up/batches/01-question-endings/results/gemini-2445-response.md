@@ -1,0 +1,8 @@
+- questions:
+  - Explore what Twilight pivots to doing right after shutting down the school? | answered | Twilight closes the school in order to help Zecora rebuild Ain Trotgourait, with a redeemed Fizzlepop alongside. | I'm thinking Twilight shut down the school so she could help Zecora rebuild Ain Trotgourait, along with Fizzlepop (redeemed)
+  - Map out how Celestia reacts to Twilight's sudden, political act of rebellion? | ignored | Nothing on Celestia's reaction to the closure. Celestia comes up only as a possible reason Twilight held back from the frontline earlier. | none
+- shape: The user picks the first option, the pivot, and gives their own answer instead of asking the model to develop one. That answer turns the closure from a rebellion against Celestia into a move toward reconstruction work. The user then moves to a new problem: how to square that with Twilight's position at the story's start, and why she obeyed Celestia and stayed off the frontline. They offer two candidate explanations for the model to weigh: she is a healer and builder who isn't emotionally equipped to kill, or Celestia's mandates bound her. The turn is both an answer and a redirect to a consistency question.
+- settles:
+  - Twilight closes the School of Friendship so she can help Zecora rebuild Ain Trotgourait. | I'm thinking Twilight shut down the school so she could help Zecora rebuild Ain Trotgourait
+  - Fizzlepop, redeemed, works with Twilight and Zecora on the rebuilding. | along with Fizzlepop (redeemed)
+  - At the story's start Twilight obeyed Celestia and did not go to the frontline. This is treated as an existing fact the plan has to explain. | Why did she still listen to Celestia and not go to the Frontline

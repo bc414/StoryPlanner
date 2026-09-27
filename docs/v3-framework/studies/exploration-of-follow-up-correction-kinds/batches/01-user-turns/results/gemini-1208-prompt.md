@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reports a change to their plan (the Twilight and Applejack romance moved from the end of chapter 4 to the end of chapter 6) and asks how Fluttershy's arrival with Celestia's letter should work now, without saying anything in the model's Fleur discussion was wrong.

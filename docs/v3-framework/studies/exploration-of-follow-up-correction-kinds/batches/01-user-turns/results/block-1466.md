@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking how the 16 track types from the four axes relate to an original document of the planner's modes and functions, and whether they are incompatible or can be synthesized as different angles on the same thing.

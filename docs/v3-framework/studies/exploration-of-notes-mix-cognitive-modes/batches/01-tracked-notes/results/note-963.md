@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | the character's manner of speech is modeled on Donald Trump, a real-world figure | Talks like Trump | yes
+  - Analogies | the Trump-style speech is illustrated by insulting nicknames for canon characters, in the manner of Trump's epithets for opponents | (Sleepy Celestia, Radical Rarity) | yes
+- goals:
+- whole: The note records that the character Gilded Trust speaks like Donald Trump, with example nicknames for canon characters, as a real-world inspiration.

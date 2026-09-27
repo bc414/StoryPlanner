@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | The Jaegers learn Equestrian and understand its idioms, so they are competent outsiders to the language and culture | learn Equestrian and understand the idioms | yes
+  - Characterization | The Jaegers hold the cutie mark system in scorn, judging it as wasted potential, stagnation and decadence | scoff at the wasted potential, stagnation, and decadance of the cutie mark system | yes
+  - Characterization | The Jaegers feel superior and free of the constraint of birth, which is the inner attitude that binds them together | They feel superior, unconstrained by their birth | yes
+- goals:
+- whole: The note asserts, as a psychologist would, the shared attitude that binds the Jaegers: fluent understanding of Equestrian culture combined with scorn for the cutie mark system and a feeling of superiority and freedom from birth.

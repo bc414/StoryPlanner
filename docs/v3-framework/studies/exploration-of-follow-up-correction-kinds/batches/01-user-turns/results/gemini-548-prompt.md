@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the story-worldbuilding comparison to ask a general history question about whether wartime amphetamine use by Axis soldiers and workers is taught in college courses and was well documented, without disputing anything the model said.

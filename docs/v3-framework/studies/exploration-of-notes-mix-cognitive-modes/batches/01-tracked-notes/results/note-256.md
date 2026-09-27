@@ -1,0 +1,8 @@
+- claims:
+  - History | Archon Eros VII was born on 9 December 914 in Griffenheim | Born: 9th December 914 in Griffenheim | yes
+  - History | His birth fell when the Empire was at the height of its power | born when the Empire was at the height of its power | yes
+  - History | As a young man he joined the priesthood of Boreas | At a young age, he joined the priesthood of Boreas | yes
+  - Characterization | His joining came from genuine respect for the Gods, his motive asserted as true | out of genuine respect for the Gods | no
+  - History | He rose quickly to the position of Archon, on the strength of his devotion and humble manner, and all seemed well | has led him to quickly rise to the position of Archon, and all seemed well | yes
+- goals:
+- whole: The note reports in-universe the birth, priestly entry and swift rise to Archon of Eros VII, with a brief assertion of his sincere piety as motive.

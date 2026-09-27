@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short factual follow-up about what real-world close air support bombs were made of, picking up the model's iron-bomb and anvil discussion without saying anything in it was wrong.

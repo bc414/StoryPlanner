@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | names Thomas Paine's Common Sense pamphlet, which ignited the American Revolution, as the real-world model behind the technology | Thomas Paine's Common Sense pamphlet which ignited the American Revolution | yes
+- goals:
+- whole: The note names Paine's Common Sense pamphlet as the historical inspiration for the fantasy technology "Gesunder Menschenverstand".

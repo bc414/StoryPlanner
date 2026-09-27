@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Subject naming by using it in their own class list and moves on to a new question: whether the EF Core models should drop navigation properties in favour of filtered views over in-memory collections, what the metadata-driven paradigm is called, and whether a relational database still suits it better than a JSON document.

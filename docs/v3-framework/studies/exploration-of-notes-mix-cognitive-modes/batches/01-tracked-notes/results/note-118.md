@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Bright Mac and Pear Butter understood their industriousness as a way of being radically autonomous from the Apple-Pear family feud, asserted as the truth of their inner motive | They viewed industry as radical autonomy from the Apple-Pear family feud | yes
+- goals:
+- whole: The note asserts, as psychological truth, that at the start of TLTT the character saw their industry as a means of radical autonomy from the Apple-Pear family feud.

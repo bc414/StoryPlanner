@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to map out the Hostomel-equivalent first battle for Tall Tale, where Applejack's militia breaks the myth of Changeling invincibility? | ignored | The user turn does not take up the offered battle; it asks instead for a broader analysis of parallels between the story plans and the Russia-Ukraine war. | none
+- shape: Redirects from the offered Hostomel battle to a wider request: an analysis of all parallels between the user's story plans and the Russia-Ukraine war. It is a new instruction, not an answer to the model's question.
+- settles:

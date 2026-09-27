@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Equestria, Velvet included, has no vocabulary for real-world suffering and only sanitized foal-suitable stories. The user points out that adult material already exists in-world: Twilight's translated textbooks and Rarity's probable translated Aquileian romances. | However, Twilight Sparkle has read translated textbooks and Rarity probably has translated romance stories | Mild pushback introduced with 'However', backed by counter-examples from the world, then recast as questions about where the friction should sit rather than a flat statement that the model was wrong
+- about: The user tests the model's framing of the Dash and Velvet exchange against existing adult translated books in Equestria, and asks whether the conflict should be about foal books being popular while adult books are hidden, and whether Velvet knows about the smuggled Aquileian books.

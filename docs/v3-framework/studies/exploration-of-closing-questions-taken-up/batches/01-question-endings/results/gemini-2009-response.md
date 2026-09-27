@@ -1,0 +1,5 @@
+- questions:
+  - Should the model now finalize the Sorter (Prompt 2) system instruction and schema, the phase that routes verbatim notes into final buckets? | ignored | Says nothing about the Sorter prompt; asks instead for a different deliverable, a Build tab prompt for a new React SPA section. | none
+- shape: Redirects to a different task. It skips the model's offer and asks for a prompt to paste into AI Studio's Build tab, to vibe-code a React SPA section that visualizes the sorting options. It is a short, direct instruction.
+- settles:
+  - The SPA gets a new section for visualizing the sorting options, to be built through the AI Studio Build tab | give me the prompt for the AI Studio Build tab to vibe code a new section of the React SPA for visualizing the options

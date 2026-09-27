@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | the supply hub is the single bottleneck of the organization, and if it runs out of crystals or is overrun the whole system fails | the supply hub is the bottleneck, if it runs out of crystals or is overrun then the whole thing is doomed | outside
+- goals:
+- whole: The note states, as a rule of how the fictional world works, that the technology's supply hub is a single point of failure that depends on crystals and on not being overrun.

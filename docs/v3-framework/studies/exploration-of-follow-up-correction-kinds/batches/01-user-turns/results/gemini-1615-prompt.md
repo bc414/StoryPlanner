@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's point about potassium-rich compounds and proposes linking it to an existing story element, Fleur's star spade, so it builds on the model's turn and does not correct it.

@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like a walkthrough of exact timing and power settings for the microwave-first (par-cook) method? | ignored | The user turn moves to an unrelated question about daylight saving vs standard time and never touches the offer. | none
+- shape: Drops the chicken-cooking topic and starts an unrelated new question, on whether daylight saving or standard time suits a person who wakes at 8:40 on weekdays.
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to name who the real "mustache twirling villains" are behind the AI-companion and adult-content threat discussed, and to explain why, without pointing at any body of material to use.

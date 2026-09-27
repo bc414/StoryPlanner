@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | Places a beat in the character's arc: during the encirclement section Celestia's state improves after she works with the thestrals | In encirclement, Celestia feeling better after working with the thestrals | yes
+- goals:
+- whole: The note sets one point in Celestia's arc, in the encirclement part of the story, where she feels better after working with the thestrals.

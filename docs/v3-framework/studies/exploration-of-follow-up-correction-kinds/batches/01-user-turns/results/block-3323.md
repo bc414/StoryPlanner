@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the July 29 excitement list from the model's synthesis as a new starting point and asks for a long, multi-step research task tracing what its six items became across every surface of the story planner, without disputing anything in the model's account.

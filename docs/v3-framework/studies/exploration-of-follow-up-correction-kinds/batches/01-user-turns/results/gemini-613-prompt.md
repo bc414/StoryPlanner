@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two new questions, how the drug-recovery pipeline compares with real recovery sites and how Allied WWII reeducation POW camps were organized (cells or open areas), without saying anything in the model's pipeline is wrong.

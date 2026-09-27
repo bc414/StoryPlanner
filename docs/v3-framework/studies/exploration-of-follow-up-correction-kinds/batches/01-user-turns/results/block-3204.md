@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's search went to the archive of conversations dated April and later, when the February 2026 material sits in a separate corpus | This is from a separate corpus from the conversations which are April and beyond | flat redirect with a brief explanation, given as an instruction to retry
+  - reading of the request | The model did not take 'February 2026' to mean the real-world date of the conversations being sought | looking for the real world Feb 2026 | brief, direct clarification of the intended meaning, put as a retry instruction
+- about: The user tells the model to redo its archive search, clarifying that the February 2026 target is a real-world date in a separate corpus from the April-and-later conversations.

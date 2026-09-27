@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a planned story arc in which Coltbert and Fleur's pride-scaling claim is a biased Aquileian view that Twilight later challenges with pink love, and asks how the unified theory of magic should be refined in light of it.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: causal analysis of why the bromance happens | The model said the friendship sits outside the competition framework and gets support the format doesn't incentivize, crediting audience culture. The user says the influencer payoff, worth more than the 100k, is itself a material condition that rewards non-extractive play, and that without it strict rivalry would be the only rational strategy. | "the influencer pipeline is more valuable than the 100k prize money IS a material condition" | Stated as the user's own view, with the reasoning spelled out and a counterfactual. It reads as a mild reframing of the model's thesis, not an outright rejection.
+- about: The user pushes back on the model's account of why Zach and Bryce's friendship exists by naming the influencer incentive as the operative material condition, then asks what contestants can learn from outside and how the show is produced.

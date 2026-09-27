@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a refinement to the invented worldbuilding mechanics, asking whether Twilight and Fleur's logic-gate spell matrix would still need Skyfall's miniature valve, and offering their own idea of the Changeling harvester as a centrifuge, without pointing at any body of material.

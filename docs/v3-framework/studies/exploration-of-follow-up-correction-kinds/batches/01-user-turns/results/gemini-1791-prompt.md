@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model called the Wallflowers/unsealed the silent majority; the user says the mundane Aquileians are not a silent majority and gives the real split: FJA 40%, PNdA 35%, MPA 18% failed fascists, PAT 7% communists rejecting the ego race | To clarify, the mundane Aquileians are not the silent majority. The FJA is 40% and the PNdA is 35% | flat, opened as a clarification and backed with exact percentages
+  - fact of the world | The model's three-faction list omitted MPA and PAT and lumped the unsealed into a Wallflower faction; the user names the two missing factions and says the PAT are left behind with a warm safety net but no dignity | There is 18% MPA, the remaining fascists who failed, and 7% PAT who are communists that reject the ego race. But they are left behind with a warm safety net and no dignity | flat, stated as plain factual supplement
+- about: The user corrects the model's population breakdown of Aquileia by supplying the actual faction percentages, then moves on to a new plot twist (Chrysalis's terror state derived from Coltbert's reforms) and asks for analysis of it.

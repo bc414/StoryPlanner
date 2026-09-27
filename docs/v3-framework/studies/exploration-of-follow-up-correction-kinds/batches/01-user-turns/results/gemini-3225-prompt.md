@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's account of Red Alert 1 as a tentative summary, then asks two new questions about how Kane is used and characterized across both games and what Westwood originally planned apart from C&C3.

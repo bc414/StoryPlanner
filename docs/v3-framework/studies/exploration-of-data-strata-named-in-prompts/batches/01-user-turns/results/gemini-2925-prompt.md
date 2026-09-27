@@ -1,0 +1,5 @@
+- sources:
+  - the canonical events of Sonic Rainboom | treated as the established events that the new wing mechanic explains; the user reads details of the episode (butterfly wings, rainbow colours, the wings burning up) as fitting the mechanic | Now I see a brilliant explanation for the canonical events of Sonic Rainboom | referred-to
+  - the model's previous explanation (the Wings of Dew ignition and sustainment account, including its flew-too-close-to-the-sun reading) | mostly accepted as a good explanation, but its sun/Icarus detail is rejected and replaced with the user's own reading | it is not because she flew too close to the sun | referred-to
+- order:
+- about: The user endorses the model's wing mechanic as an explanation of Sonic Rainboom, adds their own reading of why Rarity's wings were butterfly-shaped and rainbow-coloured, and corrects the model's sun explanation by saying the wings burned up because Rarity's vanity made her forget why she had them.

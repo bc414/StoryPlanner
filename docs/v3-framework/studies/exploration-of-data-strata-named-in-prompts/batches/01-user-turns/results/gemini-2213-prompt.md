@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a fresh, general question about what the Chinese My Little Pony and Equestria at War fan communities are like, without pointing the model at any particular body of material.

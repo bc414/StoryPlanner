@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's worldbuilding and Socratic questions to explain how the other Mane 6 origins are already grounded, then asks whether canon FiM or related material gives Fluttershy's love of animals a deeper origin than the butterfly-catch story.

@@ -1,0 +1,5 @@
+- sources:
+  - this conversation | the material to consolidate: draw every insight from it into one report | all the insights in this conversation | referred-to
+  - a transcript from compaction | check whether it exists and, if so, also synthesize from it alongside the conversation | synthesize from that too | first-named
+- order:
+- about: The user asks the model to produce a single consolidated report of all insights from the conversation, also drawing on a compaction transcript if one exists.

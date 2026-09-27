@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets a new task, asking for a full report of every insight from the whole conversation, including ones later superseded, and does not comment on the thematic proposition the model just wrote.

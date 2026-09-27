@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of why the 24/7 draining exists: as an inherently inefficient process that burns victims to gray and is kept up regardless. The user offers a different design purpose, a low-intensity continuous draw that keeps red love stable. | "Actually maybe the 24/7 slow extraction is by design" | Tentative counter-proposal, hedged with 'maybe' and put as a reversal of the earlier framing, with no reason beyond the stability argument
+  - fact of the world | The model's premise that the harvesters' inefficiency is what forces constant conquest. The user places the scarce resource in the victims, not the harvester hardware, so the low-intensity design spares victims. | "The parts for the love harvesters isn't the bottleneck, it's the victims" | Flat statement of a world constraint, added in passing without naming the model's claim as wrong
+- about: The user revises the rationale for the 24/7 harvesters, proposing that slow continuous extraction is deliberate to keep red love stable and that victims are the scarce input, which cuts against the model's inefficiency-as-engine-of-war explanation.

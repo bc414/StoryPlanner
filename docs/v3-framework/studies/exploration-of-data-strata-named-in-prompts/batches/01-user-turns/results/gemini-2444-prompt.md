@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user lays out two alternative future paths for Zecora, either joining Dr. Fauna at Fluttershy's rehab camp in Tall Tale or returning to Zebrica to help rebuild Ain Trotgourait, without pointing the model at any body of material.

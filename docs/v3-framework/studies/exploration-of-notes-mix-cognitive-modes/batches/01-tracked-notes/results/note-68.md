@@ -1,0 +1,8 @@
+- claims:
+  - History | Minette's parents tell her to stop being cute and helpful because that draws the predator's attention | tell her to stop being cute and helpful because that attracts the predator | yes
+  - History | Her parents reveal her name was meant to be Souris (Mouse), that Westkeep renamed her as a pet, and that they went along with it to avoid confusing her | name was supposed to be Souris (Mouse), Westkeep renamed her as a pet | yes
+  - History | Her parents explain that the older fillies are depressed because their lords abuse them | the reason the older fillies are so depressed is because their lords abuse them | yes
+  - History | Back home Lord Westkeep abused many earth ponies, and they shielded Minette from it | Lord Westkeep abused many earth ponies back home; they shielded her from it | yes
+  - History | Her parents instruct her to keep her head down, avoid Westkeep, keep interaction to the bare minimum, and go make clothes for Lady Gisele | She must put her head down and avoid Lord Westkeep and do the bare minimum interaction | yes
+- goals:
+- whole: The note reports, as in-universe history in 973, the warning and disclosures Minette's parents gave her about the predatory Lord Westkeep, her renaming, and how to stay unnoticed.

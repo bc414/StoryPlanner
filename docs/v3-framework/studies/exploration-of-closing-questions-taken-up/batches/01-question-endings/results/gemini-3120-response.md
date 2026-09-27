@@ -1,0 +1,4 @@
+- questions:
+  - Which dynamic, romantic or platonic, better serves Rarity's eventual role as a ruthless industrialist supplying Applejack's Republican Army? | ignored | Nothing said about it; the user turn moves on to Rainbow Dash's arc in GIYC and its application to TLTT. | What character development does Rainbow Dash go through
+- shape: Redirects to a new topic: asks the model to lay out Rainbow Dash's character arc in GIYC and how it carries into TLTT. It leaves the model's romantic-versus-platonic question unaddressed and gives no reaction to the model's verdict.
+- settles:

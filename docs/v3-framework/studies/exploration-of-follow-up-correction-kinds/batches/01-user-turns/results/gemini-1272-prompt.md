@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Town Hall analysis and moves on, asking for an analysis of the next stretch of the plan, where the two split up and write letters, folded in with the newly established dynamics.

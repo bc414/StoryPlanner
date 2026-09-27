@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the chapter as a deliberate act of injecting the TLTT framework into the episode, a stepping stone toward TLTT. The user says the order ran the other way. They first patched the episode's in-show quirks with materialist explanations while watching, and the TLTT parallels grew out of that implicit process. | "I implicitly internalized universal themes and applied them to the canon FiM setting which then evolve into the parallels" | Tentative, offered as a reflection on their own process. There is no explicit disagreement and no complaint. It is put as a self-observation that quietly replaces the model's account of where the material came from.
+- about: The user steps back from the model's chapter analysis to reflect on their own method, saying the materialist explanations began as ways to keep suspension of disbelief with the canon show and only later became TLTT parallels.

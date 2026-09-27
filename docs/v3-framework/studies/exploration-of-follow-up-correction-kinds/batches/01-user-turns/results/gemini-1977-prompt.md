@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the manufacturing concept and builds on it, asking for Claus Rosewing to be the one who explains the forging process, with his canon backstory and planned fate combined so his group becomes the bilingual cohort that makes the lathes and translators, and setting up a later scene where Applejack and Twilight speak with him.

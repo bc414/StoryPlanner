@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to move on to outlining the Epilogue scenes in detail, with Grover's thesis as the thematic bow tying the history together? | ignored | Nothing about the Epilogue or Grover's thesis. The user stays on the election and asks for analysis of the vote breakdown and how it progresses. | none
+- shape: The user turn redirects. It ignores the offered next step (the Epilogue). It revises the debate by adding its own idea that Celestia is invited but declines to attend, and asks the model to check that idea. It also gives an instruction to analyze the user's existing plot points on the initial vote breakdown and its progression, which stays on the election instead of moving forward.
+- settles:
+  - Celestia is invited to the debate and chooses not to attend, so she is not there to argue the isolationist side. The user presents this as their vision and asks whether it makes sense. | I envisioned Celestia being invited to the debate but choosing not to attend

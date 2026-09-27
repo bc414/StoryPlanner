@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-building ontology, rules of the universe) | Applejack's radio works by spell matrices rather than conventional electronics | Applejack's radio runs on spell matrices | outside
+  - outside all ten (world-building ontology, rules of the universe) | ordinary radios in this world are built on standard WW2-era vacuum tubes | The normal radios are standard ww2 vacuum tubes | outside
+- goals:
+- whole: The note states, as a rule of the fictional universe, that Applejack's radio is powered by spell matrices while ordinary radios use WW2-style vacuum tubes, with no reader effect named.

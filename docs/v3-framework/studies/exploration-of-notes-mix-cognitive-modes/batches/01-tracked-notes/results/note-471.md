@@ -1,0 +1,5 @@
+- claims:
+  - Allegories | Equestria, the Anglosphere counterpart in EaW, stands for the Stagnation of Harmony, i.e. the post-1991 West | Equestria, the Anglosphere equivalent in EaW, is The Stagnation of Harmony aka post 1991 West | no
+  - Allegories | Because Equestria carries the Anglosphere/West, the British real-world stand-ins are not in one place but spread over several different EaW factions | Therefore, British allegories are split across a bunch of different EaW factions | no
+- goals:
+- whole: The note records which real-world entity Equestria and this civilizational system stand for (the post-1991 West) and what follows from it, that British allegories are scattered across several EaW factions.

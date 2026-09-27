@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user responds to the romantasy comparison with their own reading of it as commercialization, gives their own MLP fanfiction experience of opposites-attract pairings with romance serving plot, and asks new questions about the gender of fanfiction and fantasy audiences and whether LOTR, Harry Potter and Sanderson count as noblebright.

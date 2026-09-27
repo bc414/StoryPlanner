@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a fuller System Instruction block for the Lioness of Tall Tale project that enforces these literary standards? | ignored | The user doesn't say yes or no to the offer. They state their goal and ask two new questions: whether their settings preference makes sense, and what else they should consider. | none
+- shape: Redirects. The user states their aim, which is to keep creative control while getting understanding and inspiration. They ask the model to confirm that low-creativity settings suit that aim, and to suggest other angles they haven't thought of. It's a request for validation plus broader ideas, and it doesn't take up the model's offer.
+- settles:

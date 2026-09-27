@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user revises the proposed monster-hunt timeline (decline around 1002, near-dry by 1008), asks whether a gradual decline matters at the scale of a 40-million nation, and proposes that the hunt be openly known as civilizing work rather than hidden, without pointing the model at any body of material to draw on.

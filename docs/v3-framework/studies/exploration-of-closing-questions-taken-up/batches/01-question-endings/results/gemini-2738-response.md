@@ -1,0 +1,7 @@
+- questions:
+  - Does Dash literally take up writing after the war, such as a memoir or a blunt tactical manual, or does she 'write the story' through her actions as a veteran shaping the new Republic? | ignored | Says nothing about whether Dash writes after the war. It moves to a different book and to what she reads before the Bluebell River operation. | none
+- shape: Sets aside the model's closing question and moves to new material. The user asks the model to review their story plans and adds a fresh idea: a Monte Cristo parody that fed Coltbert's ideology. They place Dash's reading in the four-month Ponyville gap, then put a new question to the model: should Reni hand Dash a translated copy as the Aquileian idea of a hero?
+- settles:
+  - A parody of The Count of Monte Cristo is published around 950 ALB and is one of the works that inspired Coltbert's ideology. | parody of The Count of Monte Cristo published around 950 ALB, one of the works that inspired Coltbert's ideology
+  - A four-month gap of preparations in Ponyville separates Combined Arms from the Bluebell River Spearhead. | 4 month gap between Combined Arms and the Bluebell River Spearhead of doing preparations in Ponyville
+  - Rainbow Dash has time to read during that gap, since she promised earlier not to burn out. | gives time for Rainbow Dash to read (since the promised earlier not to burn out)

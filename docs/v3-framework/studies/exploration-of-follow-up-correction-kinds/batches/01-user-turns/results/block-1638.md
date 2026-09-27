@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Analogical versus Source Evidence distinction to bring a new set of thematic notes (the Nursery, puberty and overprotective-mother framing) and asks how to categorize them and whether they have a home.

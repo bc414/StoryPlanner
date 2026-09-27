@@ -1,0 +1,6 @@
+- claims:
+  - ThematicEvidence | world peace is the aim that the system and the story's evidence are pointed at | The goal is world peace | yes
+  - ThematicEvidence | Applejack meets repeated instances of the Predator's Dilemma, which block world peace, as evidence of the obstacle | Applejack encounters multiple examples of The Predator's Dilemma which stops world peace | yes
+  - ThematicEvidence | Harmonic Capitalism is presented as the mechanism that breaks the Predator's Dilemma cycle, supporting the proposition that strength enables mercy | Harmonic Capitalism is the way to break the cycle | yes
+- goals:
+- whole: The note lays out the evidence chain for the theme: peace is the goal, Applejack sees the Predator's Dilemma block it, and Harmonic Capitalism is what breaks the cycle.

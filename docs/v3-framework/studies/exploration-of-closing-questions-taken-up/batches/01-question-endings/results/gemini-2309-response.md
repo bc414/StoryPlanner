@@ -1,0 +1,4 @@
+- questions:
+  - Are the early-war Crystal Hybrid engines, with their violent magical detonations in the cylinders, loud and aggressive compared to standard engines, so that a Wonderbolt Spitfire sounds like a roaring thunderstorm that frightens Changeling pilots before they see it? | no user turn | none | none
+- shape: none
+- settles:

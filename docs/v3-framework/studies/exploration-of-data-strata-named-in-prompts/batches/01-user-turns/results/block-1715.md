@@ -1,0 +1,10 @@
+- sources:
+  - the context of the prior chapter (attached) | use as the new material supplied for this analysis, background for reading chapter 12 and how 13 follows it | I have attached the context of the prior chapter | first-named
+  - The 13.1 scene plan | treat as the author's authoritative statement of what the scene is for: Faust-era memories of Twilight as a callback to simpler times | The 13.1 scene plan is about Applejack pointing out memorable moments | referred-to
+  - readers who remember FiM (Faust-era Twilight) | the show is what readers will recognize the memories from; treat as the basis of the callback | Readers who remember FiM will remember these | referred-to
+  - early fanfics (Twilight and Applejack interactions) | optional bonus references; recognition is not needed for the point to work | whether readers recognize it is just a bonus | referred-to
+  - the planned T version and M version of the chapter | treat as the author's design constraint: T skips the explicit scenes, M dramatizes them, and load-bearing material must not be lost in T | I was planning on having a T version of the chapter that skips the explicit scenes | first-named
+  - the author's own clarifications about the story (fighting Chrysalis's army since chapter 1; Henri as Applejack's tactical commander who teaches that the fascist changelings are performative poseurs) | treat as true; these answer the model's earlier open questions about prior reader knowledge and Henri | They have been fighting Chrysalis's army since chapter 1 | first-named
+  - chapter 12 and chapter 13 | the material to be analyzed again, with focus on the sex ed scene's humor and chapter 12's drug deal | Give another analysis, of both chapter 12 and 13 | referred-to
+- order:
+- about: The user answers several of the model's open questions about chapter 13 (13.1's callbacks, the T/M version plan, the war backstory, Henri's role), attaches the prior chapter, and asks for a fresh analysis of chapters 12 and 13 focused on the sex ed humor and the chapter 12 drug deal.

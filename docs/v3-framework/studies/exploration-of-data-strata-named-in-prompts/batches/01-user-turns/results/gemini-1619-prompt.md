@@ -1,0 +1,6 @@
+- sources:
+  - HOI4 AI behavior (the game's continuous infantry wave) | treated as the model for what the author pictured Synovial doing; the author says the plan matches it | This continuous infantry wave is the AI behavior in HOI4 | referred-to
+  - the infantry-wave plan just given for Synovial (this conversation) | treated as matching the author's own idea of Synovial, taken as a fit | That's exactly what I imagined Synovial doing | referred-to
+  - real life (real-world military history) | the model is asked to say whether this tactic really happened, so answer from general knowledge of history | Is this a thing in real life? | first-named
+- order:
+- about: The user says the model's continuous infantry-wave plan for Synovial matches HOI4 AI behavior and what they imagined, and asks whether such a tactic exists in real life.

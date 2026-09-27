@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies their own process as a screenshot in response to the model's request for the missing text, without saying anything was wrong in the model's turn.

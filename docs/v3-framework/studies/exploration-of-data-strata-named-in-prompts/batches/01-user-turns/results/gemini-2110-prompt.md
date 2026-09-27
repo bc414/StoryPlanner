@@ -1,0 +1,6 @@
+- sources:
+  - how Astler is described (as a democratic socialist) | treat as the correct fact about his ideology and use it in place of the Marxist label | Astler is described as a democratic socialist | referred-to
+  - the earlier Marxist framing of Astler, the user's own earlier statement in this conversation and the model's analysis built on it | treat as a mistake, superseded, no longer to be relied on | Actually I mispoke | referred-to
+- order:
+  - how Astler is described (as a democratic socialist) | over the earlier Marxist framing of Astler | Actually I mispoke, ... not a marxist
+- about: The user corrects Astler's ideology from Marxist to democratic socialist, Bernie Sanders-like, and says this fits the scene better because his politics is capitalism with a safety net rather than rigid control.

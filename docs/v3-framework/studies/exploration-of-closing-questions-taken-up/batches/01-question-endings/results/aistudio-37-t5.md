@@ -1,0 +1,5 @@
+- questions:
+  - If the mass infantry reclaims the word Foyer (Hearth), how does FJA leadership such as Fleur Bloom or Verany react to the working class taking over their cultural branding? | no user turn | none | none
+  - When Applejack meets La Tortue or La Ligne, does she see that her Earth Pony honesty has more in common with the standardized, unambitious infantry than with the individualized Chasseurs who taught her tactics? | no user turn | none | none
+- shape: none
+- settles:

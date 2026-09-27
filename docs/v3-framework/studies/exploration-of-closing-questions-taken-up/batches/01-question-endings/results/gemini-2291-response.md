@@ -1,0 +1,5 @@
+- questions:
+  - After the switch to Spellfire Matrices, do the mid-war planes keep the Spitfire silhouette, or does Star Energy design a plainer, more mass-producible airframe? | ignored | Says nothing about mid-war airframes or the Donator planes. | none
+  - Is the hierarchy solid enough to move on to the tactics of the Bluebell River Spearhead? | ignored | Doesn't say whether to move on. It asks a new question about the same ammunition instead. | none
+- shape: Redirects to a new question. It leaves both of the model's questions alone and asks whether the polynitrogen crystal-tipped white-phosphorus rounds would work against ground targets: tanks, half-track APCs and supply trucks. It also asks whether the rounds should still contain some steel or lead. This stays on the ammunition design and is not a reply to the model's questions.
+- settles:

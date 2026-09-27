@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an analysis of how professional world-builders format Lore Documents so models like Gemini 3.1 Pro process the logical rules without hallucinating? | ignored | Says nothing about lore document formatting; asks for a review of a NotebookLM notebook and an analysis of how it relates to the divide and public perception | Review this notebook lm ... give an analysis of how it relates to the divide
+- shape: Sets aside the model's offered follow-up and redirects to a new task. The user points the model to a NotebookLM notebook, apparently a record of their own path, and asks the model to review it and then analyze how it fits the divide between prose generation and structural logic and the public perception of AI writing. It is an instruction, not an answer.
+- settles:

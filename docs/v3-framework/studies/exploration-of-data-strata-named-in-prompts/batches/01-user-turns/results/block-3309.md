@@ -1,0 +1,5 @@
+- sources:
+  - all the human turns | read them all as the way into the material; the user endorses this as the right direction | Reading all the human turns sounds like it's on the right track | referred-to
+  - block summaries | do not pre-fill; leave blank so the user writes their own directives and meta notes to self in place of summaries | make the block summaries start blank and editing them myself | referred-to
+- order:
+- about: The user endorses the model's idea of reading the human turns and proposes changing the planner's block summaries into blank, self-edited directives or meta notes to self, and asks the model to expand on that.

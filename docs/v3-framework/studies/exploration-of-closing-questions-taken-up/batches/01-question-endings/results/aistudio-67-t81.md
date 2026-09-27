@@ -1,0 +1,8 @@
+- questions:
+  - Does recasting Cutie Marks as nurture make the Cutie Mark Crusaders' triumph about choosing their social and economic role, paralleling Applejack's political awakening? | ignored | Nothing said about the Crusaders or Applejack's parallel; the turn stays on Celestia and the Elements. | none
+  - Does Night Light feel a moment of terrifying pride at the Chapter 16 reunion, seeing his daughter use the restricted physics he left around to build the Luna Nova Rifle? | ignored | Nothing said about Night Light, the reunion, or the Rifle. | none
+- shape: Corrects the model's account of why Celestia can't wield the Elements, replacing its red-love deficit with a pink-love deficit. It then opens new questions of its own: whether Celestia and the audience would misread the cause, whether she would realise it herself, and what that says about her grasp of friendship magic. It skips the model's two closing questions.
+- settles:
+  - Celestia tried to wield the Elements in the present day and it failed, so she knows she can't use them. | she tried and it didn't work
+  - The real materialist cause of her failure is a lack of pink love, meaning the ability to make organic friends. It is not a lack of red love. | actual materialist reason is because she lacks pink love
+  - Celestia has spent 1000 years as a benevolent mother figure and holds real conviction in keeping the toxic positivity going. | a lot of conviction to keep the toxic positivity going

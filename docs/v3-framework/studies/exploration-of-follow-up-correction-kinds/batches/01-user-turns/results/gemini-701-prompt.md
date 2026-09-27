@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new scene idea of their own, the CMCs and Diamond Tiara performing a reworked "Vote for EEEE!" song at a Central Park-style concert with Trixie doing the stage flair, building on the model's analysis without disputing any of it.

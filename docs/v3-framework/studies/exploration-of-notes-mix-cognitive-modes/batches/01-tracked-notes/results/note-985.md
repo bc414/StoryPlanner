@@ -1,0 +1,7 @@
+- claims:
+  - Canon | Equestria's canonical Elements of Harmony are the setup point for the demonstration examples | Equestria has the "Elements of Harmony" | no
+  - Canon | Recontextualizes the canonical Elements as innocent, naive versions of the law's principle | These are the innocent and naive versions | no
+  - History | Reports that the Aquileians in-world regard the Elements as tools of stagnation and suppression of ambition | The Aquileians view them as tools of stagnation, suppression of ambition | no
+  - History | States as world fact that the Griffonian Republic has civic virtues and Herzland has the lion and the eagle as their counterparts | Griffonian Republic has civic virtues, Herzland has the lion and the eagle | no
+- goals:
+- whole: The note lists the world's parallel examples of the law (Equestria's Elements recast as naive and viewed by Aquileians as stagnating, plus Griffonian civic virtues and Herzland's lion and eagle) as world facts and canon reframing, without stating any plan for how the reader experiences them.

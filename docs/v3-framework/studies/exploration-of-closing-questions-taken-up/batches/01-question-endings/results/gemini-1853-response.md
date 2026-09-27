@@ -1,0 +1,5 @@
+- questions:
+  - Would the user like to explore the Paperclip Maximizer thought experiment (why a logic-only AI without values might destroy the world for efficiency)? | no user turn | none | none
+  - Would the user instead like to look at Synthetic Data and how to prevent Model Collapse (AI training on AI output and getting worse)? | no user turn | none | none
+- shape: none
+- settles:

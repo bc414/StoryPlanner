@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a breakdown of the specific technical failures of the Age Prediction system behind the latest delay? | ignored | Says nothing about Age Prediction or the offered breakdown. It asks a new question about who the real villains are. | none
+- shape: Redirects to a new question. Having just heard the model present Altman as a realist and the regulatory vacuum as the root cause, the user asks who the actual villains are and why. The turn is a fresh request for analysis and does not respond to the model's offer.
+- settles:

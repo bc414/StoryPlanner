@@ -1,0 +1,6 @@
+- sources:
+  - Chapter 7's draft, Rarity alone in Canterlot | the author's own view is that it has good third person limited; material to evaluate as a strong example of their prose | Chapter 7's draft where Rarity was alone in Canterlot had some good third person limited | referred-to
+  - chapter 5, stayed strictly in Fluttershy's POV | the author's own view is that it kept a strict single POV and works as a good example; material to evaluate | maybe also chapter 5 when I stayed pretty strictly in Fluttershy's pov | referred-to
+  - early chapters | the author sees these as weaker, jumping between the mane 6 too much; material to evaluate as the problem area | in the early chapters I jumped around the mane 6 too much | referred-to
+- order:
+- about: The author moves from plan-level discussion to asking the model to evaluate their actual prose, pointing to two chapters they think handled POV well and the early chapters they think head-hopped among the six leads.

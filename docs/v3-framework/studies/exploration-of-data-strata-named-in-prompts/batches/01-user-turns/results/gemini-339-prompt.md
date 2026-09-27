@@ -1,0 +1,4 @@
+- sources:
+  - Nightmare Moon taking control and Celestia's fear that Twilight will lose control (events from the published show) | use as the thematic guide for new alternatives to the term, so the word fits losing control to a possessing or corrupting power rather than ruling over others | something that relates more to Nightmare moon taking control or Celestia's fear that Twilight will lose control | referred-to
+- order:
+- about: The user asks for alternatives to the term "Dominion" in the tyranny column that better reflect Nightmare Moon's takeover and Celestia's fear of Twilight losing control, offering "Domination" as a fallback.

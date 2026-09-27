@@ -1,0 +1,4 @@
+- sources:
+  - this (the five-axis framework and lineage just worked out in the conversation) | material to derive the social commentary from; the analysis should follow from it | Now give an analysis on the social commentary that falls out of this | referred-to
+- order:
+- about: The user asks the model to analyze the social commentary that emerges from the axis framework and lineage just completed in the conversation.

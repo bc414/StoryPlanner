@@ -1,0 +1,4 @@
+- sources:
+  - the user's own four-part sorting of Paris dining (Palaces, bistros, bouillons, poseur cafes) | offered as a provisional reading to be tested; the model is to judge whether it is correct, not treat it as settled | There seem to be 4 different things going on; Please analyze the correctness | first-named
+- order:
+- about: The user restates their own four-tier model of Paris dining, with prices and ingredient claims, and asks the model to check whether it is correct.

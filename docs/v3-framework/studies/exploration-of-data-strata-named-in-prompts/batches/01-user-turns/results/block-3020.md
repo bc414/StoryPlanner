@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding account of the 981, 991 and 1001 milestones | treated as wrong on these points; replace with the author's stated version | Correction: she meets the 981 milestone because | referred-to
+- order:
+- about: The author corrects the model's account of which checklist milestones Chrysalis meets or misses, and says the delayed 1001 milestone is where the checklist should hit hardest, since Gilded Lily has died by then.

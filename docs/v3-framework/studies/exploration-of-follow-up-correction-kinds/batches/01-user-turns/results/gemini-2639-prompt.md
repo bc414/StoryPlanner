@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of sleeping oxytocin as a structural advantage for the Stagnation of Harmony and proposes a scene sequence of Twilight and Applejack cuddling on consecutive nights before the chapter 6 kiss, asking whether it would work.

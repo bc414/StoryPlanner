@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks again whether ending the Loyalty chapter with Rainbow Dash agreeing to the Las Pegasus trip resolves her arc and theme, and adds a new possible scene in which Fluttershy has her talk with a captured changeling pilot who fears her as the "blue devil".

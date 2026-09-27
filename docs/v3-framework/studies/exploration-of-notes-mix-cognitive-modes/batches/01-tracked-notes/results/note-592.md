@@ -1,0 +1,5 @@
+- claims:
+  - Canon | In the source episode The Crystalling, the crystaller is an honored ceremonial guide who directs a newborn foal's presentation joy into a crystal shard to renew the Crystal Heart | In the canon episode The Crystalling, the crystaller is an honored ceremonial guide who directs the joy | yes
+  - Canon | TLTT recontextualizes the crystaller role as the ruling class of unicorns who directed love into the crystal heart and filtered out disharmony to keep the shield strong | TLTT recontextualizes the role to mean the ruling class of unicorns | yes
+- goals:
+- whole: The note records the canon meaning of the crystaller in The Crystalling and states how TLTT recontextualizes it as a ruling class of unicorns who filtered the love that fed the Crystal Heart.

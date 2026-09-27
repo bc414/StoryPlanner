@@ -1,0 +1,4 @@
+- questions:
+  - Does this framing correctly capture the FJA's specific flavor of "romantic warfare"? | no user turn | none | none
+- shape: none
+- settles:

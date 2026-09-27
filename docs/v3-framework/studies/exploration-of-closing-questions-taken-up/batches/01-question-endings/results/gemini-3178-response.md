@@ -1,0 +1,4 @@
+- questions:
+  - Has the user found any narrow use case, such as the technical architecture of their database rather than the lore, where GPT-4's logic-first reasoning beats Gemini and Claude? | ignored | Says nothing about it and asks about a different model, DeepSeek in 2026, and other comparable models. | What about DeepSeek in 2026? Or other comparable models?
+- shape: Redirects. It drops the model's closing question about GPT-4 use cases and asks for the same kind of comparison on further models, DeepSeek and similar ones. This continues the run of model-by-model comparisons.
+- settles:

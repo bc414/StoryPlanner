@@ -1,0 +1,5 @@
+- questions:
+  - How does being unable to ship replacement parts and high-grade Temberik crystals through the Changeling blockade raise the tension in Twilight's underground lab? | ignored | none; the user turn moves to the shield's mechanism and does not mention the blockade, the parts or the lab | none
+  - Does Celestia see Cadance and Shining Armor's secret militarization as a necessary survival tactic, or as the Red Love arms race that leads to a Nightmare Moon scenario? | ignored | none; Celestia and her reaction are not mentioned | none
+- shape: The user turn skips both Socratic questions and raises a new one of its own. It proposes a change to the shield's underlying mechanism: miniature crystal hearts converting Pink Love, in place of unicorn spell matrices fueled by Red Love. It is put as a tentative question asking the model to weigh it, not as a ruling, and it builds on the model's point that the shield is a known engineered system.
+- settles:

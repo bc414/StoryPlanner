@@ -1,0 +1,5 @@
+- questions:
+  - How do the Changeling conscripts, shaped by the algorithmic meatgrinder, first take Fluttershy's kindness at Camp Fluttershy: as psychological torture or a trap, because they have no category for non-transactional empathy? | ignored | Nothing on the Changeling conscripts or Camp Fluttershy. The user asks a new question about the real-world fandom. | none
+  - How does Gilded Trust weaponize nostalgic grief for the Golden Age during the Manehattan Referendum to sell his Ponies First individualism? | ignored | Nothing on Gilded Trust or the Referendum. The user moves to the 2011 brony wave. | none
+- shape: The user turn drops both of the model's follow-up questions and asks a new one. It asks how the generational and cynicism analysis connects to the real-world brony fandom that began in 2011. This is a short redirect from the in-story analysis to the fandom's cultural context.
+- settles:

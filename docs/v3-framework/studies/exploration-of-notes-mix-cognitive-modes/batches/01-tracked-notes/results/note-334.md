@@ -1,0 +1,4 @@
+- claims:
+  - History | Gabriella was sixteen years old when Grover V died, a dated fact of her past tied to the year 977 | Gabriella was 16 when Grover V passed away | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, Gabriella's age at the time of Grover V's death.

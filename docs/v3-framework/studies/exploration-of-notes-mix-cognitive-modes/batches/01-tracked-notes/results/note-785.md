@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten: in-universe world building of a technology's origin | Griffonian Republic Food draws on the lost English/German traditions of Herzland and the Nordic traditions of Cloudbury and applies industrial processes to those dishes | They take the lost English/German traditions of Herzland, the Nordic traditions of Cloudbury, and apply industrial processes | outside
+  - outside all ten: in-universe world building of a technology's purpose and effect | the industrial processes enhance the dishes' original purposes, giving the republic caloric security and a cultural melting pot | enhance the original purposes of those dishes, ensuring caloric security and a cultural melting pot | outside
+- goals:
+- whole: The note explains in world-building terms why the Griffonian Republic's food technology exists and what it does, by industrializing Herzland and Cloudbury dishes for food security and cultural blending, without saying what the reader should take from it.

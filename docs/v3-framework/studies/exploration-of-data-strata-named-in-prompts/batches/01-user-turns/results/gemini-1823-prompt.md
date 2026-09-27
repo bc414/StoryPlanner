@@ -1,0 +1,4 @@
+- sources:
+  - the author's own account of the timeline and politics, given as a clarification in this turn | treat as true and settled, correcting the dates and sequence of events the model had laid out | To clarify, Gerad doesn't die in 972 | first-named
+- order:
+- about: The author corrects the model's timeline and supplies the real sequence of events, including Grover IV's death in 970, the regency, independence in 972, the court at Palais du Discret, and the beheading of Gerad after eight years, and adds the political reasoning behind them.

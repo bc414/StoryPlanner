@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user explains why they isolated Applejack at the trench (so Twilight reaches her one-on-one), voices their own doubt that her being alone is believable, and asks for an analysis of that problem, moving on from the burial-timing answer without disputing it.

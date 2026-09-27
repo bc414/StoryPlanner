@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model's Blizzard thesis to Age of Empires, revising their own guess as they go about AoE3 being fantasy-like, and asks for a history of the series, its owners and developers, and whether a corporate mandate shaped AoE3.

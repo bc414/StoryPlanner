@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user approves the Location feature for their story-planning app and asks whether it can also have a place to define systems, such as how a technology works or a nation's core tenets, that recur across chapters without forming a sequential thread.

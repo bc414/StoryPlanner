@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like the model to look into how the Soviet Union or Nazi Germany handled labor mobilization, as a comparison on the totalitarian side? | ignored | The user turn does not take up the offer. It asks a new question about British domestic support for total mobilization and whether propaganda was needed. | none
+- shape: Redirects to a different question. It stays on Britain, drops the model's offered comparison with the Soviet Union and Nazi Germany, and asks about public buy-in versus propaganda. It is a follow-up request for information.
+- settles:

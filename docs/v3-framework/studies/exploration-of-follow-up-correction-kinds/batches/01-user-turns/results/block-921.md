@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shares their own history with the slogan (belief, then toxic positivity and cynicism, then withdrawal after 2024), asks how to turn that testimony into narrative architecture, and offers their own framing of the slogan as a binary answered by Applejack's strong-to-be-merciful and anti-poseur themes, building on the model's analysis without disputing it.

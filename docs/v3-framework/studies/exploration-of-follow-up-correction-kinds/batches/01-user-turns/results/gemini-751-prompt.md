@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further motive for Trimmel announcing his name (asserting authority over the Statthalters), then extends the plan with a new scene beat in which Applejack questions Trimmel and issues her own named ultimatum to Canterlot that mirrors his.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model made the Skyfall optics (Boreas lenses, tungsten collimators) and light-based focusing a required part of the lithography; the user says the process is magical and does not need optics | It doesn't need optics. It's magical. | flat statement of disagreement, with no apology
+  - fact of the world | The model treated the lithography as light projected into a solid crystal, but the user says optics cannot penetrate in 3D, so the light-projection premise is wrong | Optics cannot penetrate 3D anyway | flat, with a short reason added as an aside
+- about: The user rejects the model's optics-based mechanism for 3D lithography, and with it the Skyfall lens dependency, by saying the process is magical and that optics cannot work in 3D anyway.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the drafted opening scene and adds planning material for a later chapter: Mali's tribe joins through pride, but there are twelve more tribes, and the thestral tribes are divided like the changeling hives and were never absorbed by Celestia.

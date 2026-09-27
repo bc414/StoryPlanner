@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts no answer to anything. It gives a new instruction: produce a breakdown of the Democratic and Republican parties by their share of predatory (3A), republic (3B) and stagnation (3C) tendencies, year by year from 1929 to 2026. It moves the conversation from mapping 2026 parallels onto the story to applying the story's three-way scheme to real US party history.
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user makes a reflective remark that the real-world counterpart of their Red Love addiction plot turned out more horrifying than they expected, without directing the model to use or set aside any body of material.

@@ -1,0 +1,6 @@
+- sources:
+  - earlier parts of this conversation about cynicism, resilience | draw on as the frame to relate the slogan to; treat as already established discussion | "earlier parts of this conversation about cynicism, resilience" | referred-to
+  - the timeline and figures from real life 2008-2026 | use as the real-world reference points the slogan is to be related to | "timeline and figures from real life 2008-2026" | referred-to
+  - the in-story parallels | use as the fictional counterparts to connect with the slogan and the real-life figures | "the in-story parallels" | referred-to
+- order:
+- about: The user asks how the slogan "when they go low, we go high" connects to the conversation's earlier themes, its real-life 2008-2026 timeline and figures, and the story parallels, and whether the slogan originates with Michelle Obama or predates her.

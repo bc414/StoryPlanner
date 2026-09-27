@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out their Herzland and Griffonian Republic revolution history as a further foundational pillar of the world and asks the model why their instinct is not to dramatize it in a prequel, offering several candidate reasons of their own.

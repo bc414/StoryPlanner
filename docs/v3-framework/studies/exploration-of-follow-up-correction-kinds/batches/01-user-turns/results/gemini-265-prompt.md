@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the outline's Anti-Nightmare idea by adding a second meaning to Luna's "Friendship is Combined Arms" line and sketching a chapter 19 beat where Twilight tells Luna that Applejack will save her, which extends the plan and does not fix anything in the model's turn.

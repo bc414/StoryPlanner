@@ -1,0 +1,5 @@
+- questions:
+  - How does Comet Shine react when Applejack's demand for economic Integrity forces him to break up Star Energy, his wartime conglomerate? | ignored | Nothing on Comet Shine, Star Energy or breaking up the monopoly. | none
+  - How does Applejack legally codify Integrity in the Constitution so that War Bonds fund public infrastructure and Asset Specificity rather than going to postwar financial speculators? | ignored | Nothing on constitutional mechanisms or War Bonds. The turn asks about real-world governments instead. | none
+- shape: Redirects. The user skips both story questions and asks a new, real-world question: whether Integrity is what Singapore, Poland and the Nordic states run on. It tests the proposed 6th Element against actual governments, using the model's framing without confirming or rejecting it.
+- settles:

@@ -1,0 +1,5 @@
+- questions:
+  - Should we explore how Rainbow Dash handles the aftermath of her realization when she first arrives at the Mount Aris meatgrinder? | ignored | The turn does not pick this option or mention Dash or Mount Aris. It asks a different question about Ain Trotgourait's origins. | none
+  - Should we instead map out the specific details of Twilight and Fizzlepop's 1007 charity work in Ain Trotgourait? | ignored | The turn does not choose this. It stays on Ain Trotgourait but asks what inspired it in the lore, not about the charity work. | What is Ain Trotgourait inspired by in EaW lore?
+- shape: Redirects to a new research request. The user drops both offered next steps and asks the model to look into what Ain Trotgourait is inspired by, and how it was developed, in the EaW lore. The turn gives no reaction to the model's analysis of Celestia's asylum offer.
+- settles:

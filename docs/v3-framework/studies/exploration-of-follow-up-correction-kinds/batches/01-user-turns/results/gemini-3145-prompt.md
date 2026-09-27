@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question about their export setup (a single markdown dump used for brute-force context on Gemini), then proposes a new token-minimizing workflow of linked per-entity markdown files for Cowork and asks whether Claude Code and Cowork are designed that way.

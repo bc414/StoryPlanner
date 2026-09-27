@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds further worldbuilding detail of their own, about Vérany's dream of a pan-Griffonian bourgeois republic with Kemerskai's party and about how Herzland's standardization differs from Aquileia's varied geography and pony minority, without pointing at any body of material to draw on.

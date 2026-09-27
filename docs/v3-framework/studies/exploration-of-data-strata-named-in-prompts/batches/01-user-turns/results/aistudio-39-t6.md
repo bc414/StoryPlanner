@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of Applejack's arc by separating two pivotal moments, saying the Town Hall changes her view of industry while the death of the nursery comes only later, after her talk with Trimmel in the chapter Honor.

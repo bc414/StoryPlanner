@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to confirm a note-track interface design in which each track has a verbose tooltip plus visible helper text stating its one question, and in which tracks are exclusive so that notes not answering that question stay in Unset.

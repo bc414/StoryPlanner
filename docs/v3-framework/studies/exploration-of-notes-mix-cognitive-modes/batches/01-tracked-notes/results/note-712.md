@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten (world-building of an in-universe substance) | Tier 1 is natural red love taken straight from the harvester, raw magic or raw ambition | natural red love, straight from the harvester. It is raw magic/raw ambition | outside
+  - outside all ten (world-building of an in-universe practice) | this is the jaeger high on a manticore hunt; it keeps emotion sense intact and gives alpha-predator confidence against a monster | This is the jaeger high when on a manticore hunt. It keeps emotion sense intact | outside
+  - outside all ten (world-building of in-universe behavior) | for ancient and pre-industrial jaegers the rush keeps them focused and wanting to continue the hunt, and when it fades they feel small, no longer the apex predator | the rush makes them want to continue the hunt because they are focused. If it wears off, they will feel small | outside
+  - outside all ten (world-building of an in-universe condition) | the dependence is psychological, not physiological, a craving to feel like the apex predator | It's a psychological (not physiological) addiction and craving | outside
+- goals:
+- whole: The note describes the first tier of red love as the jaegers' hunting high and the psychological dependence it creates, as world-building of what the organization does and is known for, with no stated reader effect.

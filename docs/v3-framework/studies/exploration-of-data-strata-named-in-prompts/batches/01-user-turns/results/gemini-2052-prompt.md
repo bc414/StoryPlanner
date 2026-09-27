@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about whether the sorter prompt's atomic chunking rule should split strictly by sentence, without pointing the model at any body of material.

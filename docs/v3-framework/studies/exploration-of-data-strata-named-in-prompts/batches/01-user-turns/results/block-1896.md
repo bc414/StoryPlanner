@@ -1,0 +1,6 @@
+- sources:
+  - The Comprador Economy | questioned as to scope; the user doubts it should cover both Equestria/Olenia and Zebrica, treating its current scope as open to change | Should The Comprador Economy apply to both Equestria/Olenia and Zebrica? | referred-to
+  - Skyfall Trade Federation as a Civ System | the user's proposed scoping, offered tentatively as a question: it should cover only its domestic economy and ruling the waves, not the system imposed on Zebrica | Skyfall Trade Federation as a Civ System should apply to its domestic economy and ruling the waves only? | referred-to
+  - Chrysalis's New Order | used as the model for scoping: treated as a domestic system only, and the parallel for the Skyfall scoping | Just like Chrysalis's New Order is domestic? | referred-to
+- order:
+- about: The user asks whether the Comprador Economy should span both home territories and Zebrica, proposing that the Zebrica arrangement be its own civilizational system and that Skyfall's and Chrysalis's systems each stay domestic.

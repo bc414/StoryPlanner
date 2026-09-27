@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user works out when and why Chrysalis would have chosen and kept her Equestrian name given the "puppet/doll" translation problem, asking about the timeline (Acornage, Skyfall in 970, the linguists in 981) and about the show writers' reason for the name, without saying the model's account is wrong.

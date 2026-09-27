@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states their own casting decision for the story: which traits of the two tycoon models go to Applejack's parents, to Comet Shine, and to Rockfeller, without pointing the model at any body of material to use or avoid.

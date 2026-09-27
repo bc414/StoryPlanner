@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's convergence report as a basis and proposes a belief-correction-belief-correction sequence for how readers should come to understand Aquileia, supplies the kingdom-equals-republic point and chapter placements, and asks for an analysis of that architecture and its meaning.

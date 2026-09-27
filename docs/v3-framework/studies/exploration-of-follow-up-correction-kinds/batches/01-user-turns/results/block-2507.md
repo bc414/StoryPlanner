@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated Agency, Tempest and Crash as three separate chapters with their own thematic meanings (Tempest as agency under strain) and declared the sequence locked, when the plan has them as one chapter originally titled Tempest after Mali's alt name, Tempest Wind | were originally one chapter just named Tempest which is from Mali's alt name | supplied as background in passing, then turned into a question about whether the title still works, with no stated disagreement
+- about: The user gives the origin of Tempest, a single chapter later split into three and named for Mali's alt name, and asks whether it still works as the middle title and for a holistic reassessment of the whole sequence.

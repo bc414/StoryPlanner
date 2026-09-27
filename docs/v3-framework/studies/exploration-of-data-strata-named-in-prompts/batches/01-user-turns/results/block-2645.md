@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's picture of first-generation changelings, states the conquest and war dates and how Camp Fluttershy works, asks what ages the native-language-speaking POWs would be, and explains how the Universal Translator works.

@@ -1,0 +1,5 @@
+- claims:
+  - outside (world-builder god-mode system rule) | The industrial machine functions only if the Drones believe the outside world is a hostile wasteland where they would be killed on sight | Chrysalis's entire industrial machine requires the Drones to believe | outside
+  - outside (world-builder god-mode system rule) | The State's monopoly on power depends on the narrative that the Hive is the only source of safety | The State's monopoly on power relies on the narrative that the Hive is the only source of safety | outside
+- goals:
+- whole: The note states, as objective rules of the fictional system, that Chrysalis's industry and the State's power both depend on the Drones believing the outside is deadly and the Hive is the only safety.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a list of localized (German/French-style) names generated for their Bat Pony characters based on their cutie marks? | no user turn | none | none
+- shape: none
+- settles:

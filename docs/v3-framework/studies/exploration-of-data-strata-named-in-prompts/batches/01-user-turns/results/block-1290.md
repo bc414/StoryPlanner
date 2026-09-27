@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a brief personal opinion on real-world history, saying Trotsky and Lenin look like villains though less than Stalin, and comparing it to capitalists replacing aristocrats, without pointing the model at any body of material to use or avoid.

@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Fluttershy is afraid of the front, an inner state asserted as true of her | She is afraid of the front | no
+  - History | Celestia asked Fluttershy to bring Twilight back, reported as a fact of what happened in the world | Celestia asked her to bring Twilight back | no
+- goals:
+- whole: The note states Fluttershy's fear and the duty Celestia gave her as background facts about her arrival, without staging any behavior the reader sees on the page.

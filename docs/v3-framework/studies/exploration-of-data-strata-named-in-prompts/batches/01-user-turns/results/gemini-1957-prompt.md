@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user expresses amazement that their Empire-to-Reich naming idea fits the worldbuilding so well, suggests it came from their subconscious and is no coincidence, and asks the model to analyze why.

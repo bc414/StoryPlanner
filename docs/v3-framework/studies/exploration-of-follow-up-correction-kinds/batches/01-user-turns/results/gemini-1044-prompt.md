@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Red Love itself as the potent, addictive vice paid as royalty, so ending the payment ends the drug trade. The user's lore says plain red love is only as intense as caffeine or adderall, and the addictive strength comes from Tzinacatl additives Chrysalis added. | according to my lore on Red Love Addiction, plain red love is only as intense as caffeine or adderall | Stated as lore, in passing under a 'wrench' framing, with a tentative repair offered ('perhaps') that the Kessler supply carried Tzinacatl additives, rather than flagged as an error.
+- about: The user accepts the Kessler arrest idea, then adds a complication about Kessler getting his own supply and reconciles it with their lore by proposing Tzinacatl-additive Red Love in the original deal, which brings in the jungle drug lords.

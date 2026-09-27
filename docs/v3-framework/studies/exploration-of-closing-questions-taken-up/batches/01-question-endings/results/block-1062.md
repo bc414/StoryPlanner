@@ -1,0 +1,5 @@
+- questions:
+  - How does Starlight's failure in Chapter 5 to grasp the Temberik's 1,000-year religious trauma, which she treats as irrational Luddism, mirror her past failures in Our Town of putting efficient equality above individual emotional reality? | no user turn | none | none
+  - How does Maud Pie handle the ecological violence of blowing the mountain for the Spearhead and future dam, and does she use Earth Pony magic to fracture the rock along natural fault lines so the blast becomes geological masonry? | no user turn | none | none
+- shape: none
+- settles:

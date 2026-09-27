@@ -1,0 +1,9 @@
+- sources:
+  - the event map (the model's previous mapping of events to allegory) | treat as flawed and to be closely re-evaluated and rebuilt in light of the author's corrections, especially on mappings and ordering | "Please closely reevaluate the event map" | referred-to
+  - the faction map (the model's previous mapping of factions to allegory) | accept as good, keep as is | "The faction map is good." | referred-to
+  - the story's own events and chapters (Mount Aris 1006, Vanhoover 1011, chapter 16 Combined Arms, chapter 17 Breakthrough, chapter 22 White Peace, the 1015 ALB election, the Love Drop and republican pact) | treat as the fixed in-story sequence and content that the allegory must be fitted to, including that the election comes before the continued war and Love Drop | "The 1015 ALB Election happens before the continuation of the war and the Love Drop." | referred-to
+  - the author's planned ground truth for Celestia and the no-great-man/no-great-mare premise | treat as settled plan the mapping must respect: leaders such as Trump, Obama, Biden and Celestia reflect the state of the populace and the petitions, not personal design | "what I ultimately plan as the ground truth for Celestia" | first-named
+- order:
+  - the author's own revised mappings | over the model's earlier event map, which is to be re-evaluated against them | "I believe the battle of mount aris in 1006 more cleanly maps"
+  - the story's actual chapter and timeline order | over the event map's ordering of the 1015 election, the war's continuation and the Love Drop | "The 1015 ALB Election happens before the continuation of the war and the Love Drop."
+- about: The author corrects the model's event-to-allegory map with their own revised mappings of story events to 2008–2021 US politics, accepts the faction map, and asks for a close re-evaluation of the event map with the election's story order and forward-looking thesis in mind.

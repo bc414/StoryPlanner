@@ -1,0 +1,4 @@
+- sources:
+  - the dates the author gives for their world's timeline: Mount Aris defense in 1006 ALB, Grover 3's enlightenment from 854 ALB, Grover 4's gilded age from around 914 ALB | treat as true fixed reference points for judging what technology level the Storm King's horde should have | Mount Aris by modern volunteers happens in 1006 ALB; enlightenment began in 854 ALB; gilded age begins around 914 ALB | first-named
+- order:
+- about: The user asks what weaponry level the Storm King's poseur horde should have and supplies the story-world dates of the Mount Aris defense, Grover 3's enlightenment and Grover 4's gilded age as the timeline to calibrate it against.

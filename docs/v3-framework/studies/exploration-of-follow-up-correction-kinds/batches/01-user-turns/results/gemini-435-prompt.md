@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the epilogue planning and asks a new, out-of-story question about whether real-life theory exists that parallels their Coltbert game theory of prisoner's dilemma plus accelerants.

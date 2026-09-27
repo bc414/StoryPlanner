@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model equated Herzland with early-industrial England and built the Republic's revived cuisine on English dishes; the user says Herzlander is the German equivalent | Also Herzlander is the German equivalent | Flat statement of fact, given in passing before moving on to a new question about German food
+  - reading of the plan | The model's picture of what the FJA offers, with the Republic set against poseur artisan cuisine, misses that the FJA exports peasant masterpieces and not poseur haute cuisine | To clarify, the FJA don't export poseur haute cuisine, they export the peasant masterpieces | Flat clarification, opening with a signal that it is a clarification and not a rebuke
+  - fact of the world | The model treated the Republic's population as Herzlander refugees reclaiming a heritage and left out the Cloudburian (Danish) peasants and their Nordic cold-climate traditions | the Griffonian Republic is Herzlander Republican Refugees plus Cloudburian (Danish) peasants | Indirect, built into the premise of a how-do-I question, so the correction is stated as background and not argued
+- about: The user restates who the Republic's people are and what the FJA exports, then asks how to build a rich culinary story from a blend of German, lost English and Nordic traditions.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user floats an alternative version of the rescue scene, with Applejack safe and idle in the trench and Twilight arriving frightened to bring her out, as a fresh option in place of the buried-and-saved setup.

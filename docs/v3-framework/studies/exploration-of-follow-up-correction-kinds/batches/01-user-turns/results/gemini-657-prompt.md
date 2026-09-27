@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated the Awake spell as one that keeps the target awake using external energy, whereas the user's plan was only for it to wake sleepers so the tank crew can rotate sleep, as a sign of trust | I was originally planning on the awake spell to just wake them up | stated flatly as the original plan, with the rotation and trust rationale given
+  - fact of the world | The model's claim that the Awake spell grants alertness with no bodily cost is rejected as a world-mechanics point that makes the spell cheating and removes the cost contrast with pervitin | This seems like cheating that there's no harm to the body | mild doubt, hedged with a reason (I'm not sure this is good narratively)
+- about: The user pushes back on the model's reinterpretation of the Awake spell as costless sustained wakefulness, restates their original wake-only design, and then proposes a new twist in which Rainbow secretly asks Starlight for a flight-extending spell.

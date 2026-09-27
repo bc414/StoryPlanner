@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to say what sources it drew on for its context about Equestria at War, without naming any source themselves.

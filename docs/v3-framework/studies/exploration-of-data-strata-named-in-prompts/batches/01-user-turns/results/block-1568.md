@@ -1,0 +1,6 @@
+- sources:
+  - v2 with v1 data | keep as a separate instance from the clean one; its data model is meant to differ, and work is not to be done in place | I want it separated | referred-to
+  - clean v2 | the separate working instance where subjects get consolidated and new ones created; must not be merged with or synced to the other instance | subjects need consolidation and new ones created | referred-to
+  - v1 | no further software engineering on it, so it is not to be built on or modified as the reference or audit tool | I don't want to do software engineering work on v1 anymore | referred-to
+- order:
+- about: The user rejects the model's suggestion to use the v1 app alongside one v2 instance, insists on two separate v2 instances whose subject models intentionally diverge, and asks for an analysis plus a list of gaps in the model's understanding for them to clarify.

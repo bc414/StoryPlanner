@@ -1,0 +1,10 @@
+- questions:
+  - How would Mali tell her use of The Stare on the cartels apart from Nightmare Moon's top-down, authoritarian pacification of ambition? | ignored | Nothing on Nightmare Moon or on how Mali's use of The Stare would differ from imperial pacification. | none
+  - Would using The Stare, a tool of non-negotiable enforcement, alienate traditionalists like her mother by making Mali look like another Imperial dominator? | partly answered | Does not mention The Stare. It does say Mali has already persuaded her mother and home tribe to end isolationism and join the war effort, in the chapter Tempest, before Fleur's lesson. That undercuts the model's picture of a later confrontation with Meztli. | convinces her mom and her home tribe to stop being an isolationist
+- shape: The user does not answer the Socratic questions. They correct the model's base premise that Mali is a passive, pacifist eagle and give a set of story facts (her parloir background, her army escape with Applejack, the machine-gun scenes, the Tempest chapter's persuasion of her mother). They ask for the whole analysis to be redone on that basis. They also put a new question to the model, whether Mali can be both pacifist eagle and jaguar/eagle synthesis herself but doesn't push others to grow up.
+- settles:
+  - Mali is not a total pacifist at baseline. As an employee of an Aquileian-influenced parloir she already knows the adult world of ambition. | not intended to be a total pacifist eagle as a baseline
+  - Applejack meets Mali in chapter 1, and both are escapees of the army. | Applejack meets Mali in chapter 1 and they are escapees of the army
+  - Mali fires a machine gun alongside Applejack in chapters 1 and 3, something Fluttershy would never do. | fires a machine gun with Applejack in chapter 1 and 3
+  - In the chapter Tempest, Mali convinces her mother and home tribe to give up isolationism and join the war effort. | convinces her mom and her home tribe to stop being an isolationist
+  - The chapter Tempest comes before Fleur's lesson in Passion. | which comes before Fleur's lesson in Passion

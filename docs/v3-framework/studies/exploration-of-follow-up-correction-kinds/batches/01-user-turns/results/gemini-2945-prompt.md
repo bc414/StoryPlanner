@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's "Pinkie Promise" suggestion as the colloquial term for the charitostatic effect and asks for an analysis of how it reinterprets canon show examples, using transcripts in a notebook.

@@ -1,0 +1,3 @@
+- questions:
+- shape: Redirects to a new, practical question about the API's usage limits and whether an AI Pro subscription raises them. The turn follows on from the C# code but answers nothing, because the model turn asked nothing.
+- settles:

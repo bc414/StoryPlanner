@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps sideways from the Resilience-versus-Cynicism discussion to ask, out of curiosity, how George R.R. Martin's boomer background relates to ASOIAF's grimdark outlook and who reads it today, without saying anything in the model turn was wrong.

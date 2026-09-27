@@ -1,0 +1,8 @@
+- sources:
+  - the source code for my story planner from github | read to understand the planner app that writes to the database | I am providing the source code for my story planner from github | first-named
+  - TheLionessOfTallTale.db.md (the output of the GetMarkdown method) | use as the guide to what kind of data is stored in the various fields of the EF Core database | Use the TheLionessOfTallTale.db.md to understand what kind of data I am storing | first-named
+  - Minerva Master Scrolls (file for story writing best practices) | use as guidelines rather than hard rules, with room for genre-specific emphasis beyond it | use the principles in the Minerva Master Scrolls as guidelines (not hard rules but guidelines) | first-named
+  - views of my story planner app (images of the CharacterWindow for Applejack, the PlotPointWindow, and the codex entries) | look at these to see how the data is presented and how codex entries act as a catch-all for different kinds of entities | I have also included some views of my story planner app | first-named
+  - my current System Instructions for Gemini in AI Studio | read as what dictates the kind of analysis wanted and the kind of world building being done with the planner | I have also uploaded my current System Instructions for Gemini in AI Studio | first-named
+- order:
+- about: The user supplies their story planner's code, a database markdown export, screenshots, Minerva Master Scrolls and their AI system instructions, and asks the model to read them all fully, then explain the problem, what professional authors do, and how to arrange the fabula (including epistemology and other genre nuances) so it helps in writing the syuzhet.

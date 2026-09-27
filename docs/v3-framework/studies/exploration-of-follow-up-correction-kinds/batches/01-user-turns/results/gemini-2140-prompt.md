@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the story-analysis thread and starts a new, unrelated software question about serializing ToolDefinition classes and a TreeNode graph, asking for pros and cons of XML versus JSON and other formats.

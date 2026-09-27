@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a new speculation that Celestia judged Nightmare Moon harmless and quietly let Twilight get smuggled books and Cadance's influence, then asks whether the petty trials leading the mane 6 to their elements come from Celestia's influence or from Nightmare Moon's own character, without pointing at any body of material for the model to draw on.

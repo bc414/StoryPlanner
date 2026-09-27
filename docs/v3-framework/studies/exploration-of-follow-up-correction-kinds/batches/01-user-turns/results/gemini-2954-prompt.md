@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own staging of the nursery-rhyme reveal, placing it in the Crash chapter with Minette, Tally Mark, Twilight and Pinkie, and restates the idea that the wings of dew run on trust and friendship rather than romance or passion, as a new proposal and not as a fix to the previous answer.

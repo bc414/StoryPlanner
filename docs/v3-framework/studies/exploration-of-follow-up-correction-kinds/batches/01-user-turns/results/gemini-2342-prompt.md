@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question with their own parent-and-child picture of the two fleet tiers, then sets up the next scene, a first Skyfall encounter with a Royalist crew where Dennis stays professional, and asks how it plays out while saving the ego clash for a later FJA run into Skyfall's docks.

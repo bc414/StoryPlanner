@@ -1,0 +1,3 @@
+- questions:
+- shape: The model turn puts no question to the user, so the user turn answers nothing. It takes the software-engineering parallel further with two new requests. The first is an analysis of the marketing that drew students into CS programs for money, and of how those people now saturate the job market. The second is a question about whether a motivated person can use AI tools to learn first principles and become an honest senior orchestrator. Both ask the model for content and are not story decisions.
+- settles:

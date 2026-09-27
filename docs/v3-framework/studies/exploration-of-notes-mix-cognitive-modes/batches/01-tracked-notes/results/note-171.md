@@ -1,0 +1,4 @@
+- claims:
+  - History | Names an in-world episode or activity of the organization, the Aquileian Cartel operating in Skyfall, without further detail | The Aquileian Cartel in Skyfall | yes
+- goals:
+- whole: The note is a bare label naming an in-universe activity of the organization as the Aquileian Cartel operating in Skyfall.

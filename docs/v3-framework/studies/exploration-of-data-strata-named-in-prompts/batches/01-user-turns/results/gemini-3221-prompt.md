@@ -1,0 +1,5 @@
+- sources:
+  - the author's own recollection of their gaming and writing history (RTS games before 4th grade, Pokemon in 4th grade, Civilization 5 and EU4 in 10th grade, Pokemon stories in 11th grade and after college, then The Princess and the Kaiser and Equestria at War, then TLTT) | treat as true, given from memory; the model is to build on it as the causal chain and confirm or assess whether the method comes from the beginning | To follow the causal chain, I played RTS games first, before 4th grade | first-named
+  - C&C3's Scrin faction and Amon in SC2 (published games) | offered as a comparison the author holds; the model is to weigh the claim that the Scrin are a seed of the corporate mandate as Amon is | Since c&c3's Scrin faction is like the seed of the corporate mandate as Amon in SC2 | referred-to
+- order:
+- about: The user lays out their personal timeline from early RTS games through Pokemon fiction to Equestria at War and TLTT, asks the model to confirm that their materialist-historicism method traces back to the old-way games, and adds a Scrin-to-Amon analogy for the corporate mandate.

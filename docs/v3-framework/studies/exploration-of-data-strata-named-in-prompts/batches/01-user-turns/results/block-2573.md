@@ -1,0 +1,5 @@
+- sources:
+  - a Morning Brew article on Love Island season 8 | treat as evidence that the thesis-adjacent narrative reached mainstream prominence; it is the reason the author looked into the show, so prominence rather than representativeness is what counts | it was an article of morning brew. So it reached that kind of prominence level | first-named
+  - Love Island season 8 USA | treat as a mainstream narrative adjacent to the thesis, to be read for the thesis's relative strength or resonance and not as a representative sample | a narrative adjacent to my thesis that reached mainstream distribution | referred-to
+- order:
+- about: The user answers the model's representativeness objection by saying they picked Love Island season 8 because a Morning Brew article showed it had reached mainstream prominence, so they care about the thesis's relative resonance and not about absolute representativeness.

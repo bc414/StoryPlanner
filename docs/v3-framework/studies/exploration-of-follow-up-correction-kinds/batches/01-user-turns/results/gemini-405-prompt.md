@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the political-nuance analysis to ask for a verdict on who is president and when, weighing three earlier approaches by what each would show about the FJA, compromise and having a voice.

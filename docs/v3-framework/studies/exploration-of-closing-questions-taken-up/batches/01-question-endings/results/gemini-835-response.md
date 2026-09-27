@@ -1,0 +1,3 @@
+- questions:
+- shape: The user asks a new follow-up question, about how obvious or subtle the choice of narrator (POV character) should be to the reader. It builds on the model's advice on choosing a POV character but is not a reply to any question. It is a request for craft guidance.
+- settles:

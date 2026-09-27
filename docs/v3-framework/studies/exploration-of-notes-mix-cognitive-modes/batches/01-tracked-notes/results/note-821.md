@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: civilization description of what the organization is | Temberik is made up of thestrals who live in the mountains | Thestrals who live in the mountains | outside
+- goals:
+- whole: The note gives a bare in-world description of Temberik as a group of mountain-dwelling thestrals, with no stated reader effect.

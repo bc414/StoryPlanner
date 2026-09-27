@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an explanation of how epithets (the Magnificent, the Terrible, the Do-Nothing) were given to rulers? | ignored | The user does not take up the epithets offer and asks a different question about why France had so many kings named Louis. | none
+- shape: Redirects to a new, self-contained factual question that follows on from the model's naming theme (repeated regnal names in France) instead of taking up the offered epithets topic. It is a short follow-up question, not an answer or an instruction.
+- settles:

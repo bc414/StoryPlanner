@@ -1,0 +1,7 @@
+- claims:
+  - Canon | Recontextualizes the canon door scene: Sunburst's brush-off of Starlight is not because he has accomplished nothing, which overturns the surface reading of the canon moment | Sunburst isn't deflecting because he hasn't accomplished anything | yes
+  - Characterization | Sunburst reads the title 'The Princess of Friendship' as a sign Starlight might be an auditor from Celestia, and that suspicion is why he shuts the door | He hears "The Princess of Friendship" and things Starlight could be an auditor from Celestia | no
+  - Characterization | Sunburst is unwilling to reveal his industrial magic work, a motive of secrecy and self-protection | He doesn't want to divulge his work with the Aquileians on industrial magic | no
+  - History | Sunburst's industrial magic work with the Aquileians is what got him expelled from Celestia's school | which got him kicked out of Celestia's school in the first place | no
+- goals:
+- whole: The note recontextualizes Sunburst's canon door-closing on Starlight as fear of a Celestia auditor, tied to a hidden past expulsion over industrial magic, rather than embarrassment at having achieved nothing.

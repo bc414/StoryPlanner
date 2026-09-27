@@ -1,0 +1,8 @@
+- sources:
+  - the literal meaning of the words (democracy vs republic, as the prior answer framed them) | use as the sole basis for the comparison of the two party names | instead the literal meaning | referred-to
+  - historical connotation | do not use; set aside in favour of the literal meaning | not using historical connotation | referred-to
+  - the user's made-up fantasy world, where a popular revolution overthrew the king | hypothetical, invented setting the model is to apply the word comparison to | If I made up a fantasy world | first-named
+- order:
+  - literal meaning | instead the literal meaning
+  - literal meaning over historical connotation | not using historical connotation but instead the literal meaning
+- about: The user asks the model to apply the literal etymological meanings of republic and democracy, without their historical baggage, to two possible names for the ruling party in an invented fantasy world after a revolution.

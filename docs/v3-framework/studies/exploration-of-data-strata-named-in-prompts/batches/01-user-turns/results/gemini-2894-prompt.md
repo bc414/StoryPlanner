@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user says the term "piezomagical" is optional and asks the model what physical mechanism could make the crystal glow (electron transitions or oscillation and shaking under crowd ambition), without pointing at any body of material for the model to draw on.

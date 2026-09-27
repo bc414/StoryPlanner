@@ -1,0 +1,4 @@
+- questions:
+  - Should the model generate the recommended diagram (Subject/Link outer columns, ZF/ND outer rows, O/E and PE/NE inner)? | refused | The user does not say yes. They set aside the premise that Subject/Link is the outer axis and widen the scope to every possible arrangement, so the single recommended diagram is not taken up. | Let's not assume subject and link are outer. I'm curious about all possible setups.
+- shape: Redirects. It sets aside the model's recommended layout and its premise, then asks a new general question: how many ways the four axes can be nested, whether that is a combination or a permutation count, and whether each arrangement is useful or some are inferior. It also offers a guess that they are all useful in different contexts.
+- settles:

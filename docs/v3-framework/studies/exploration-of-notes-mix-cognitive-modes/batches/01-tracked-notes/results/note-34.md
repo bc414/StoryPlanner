@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Twilight's ambition was mostly directed at hoping to please or impress Celestia, asserted as a truth about what drives her | Most of her ambition went into hoping to please or impress Celestia | yes
+- goals:
+- whole: The note asserts, as a psychological truth about Twilight at the start of TLTT, that her ambition was mainly aimed at pleasing or impressing Celestia.

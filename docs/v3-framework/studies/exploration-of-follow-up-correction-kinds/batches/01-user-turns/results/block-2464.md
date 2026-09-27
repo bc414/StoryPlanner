@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the geography-and-agriculture framework as given and asks a new question about how to place Severyana, whether it should have partial weather-vulnerable agriculture and what would separate it from the changelings, noting the plan is silent on their food.

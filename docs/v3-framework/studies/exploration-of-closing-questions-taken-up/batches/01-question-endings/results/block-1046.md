@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack keep her Harmonic Republicanism coalition from fracturing along cultural lines (Earth Pony traditionalists vs. Aquileian-influenced urbanites) once Chrysalis is gone? | ignored | Nothing said about Applejack or the coalition; the user moves to a new topic. | none
+  - How would a Pridea performative-purity activist react to an EEEE! factory floor in Manehattan, and how would Flowing Current use Resilience to dismantle their critique? | ignored | Nothing said about the activist, the factory, or Flowing Current. | none
+- shape: Redirects to a new topic: asks the model to run the same cynic-vs-resilient analysis on the American Right today, mapping its factions onto the spectrum. It carries on from the model's left-side analysis and leaves the two story-world questions untouched.
+- settles:

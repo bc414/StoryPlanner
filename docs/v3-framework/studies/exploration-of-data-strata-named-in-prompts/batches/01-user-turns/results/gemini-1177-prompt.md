@@ -1,0 +1,5 @@
+- sources:
+  - chapter 7 (EEEE in Manehattan fixing the liquidity crisis with war bonds and bank accounts) | treat as settled plan content; the Tall Tale command economy is to be set against it as a contrast | This is in chapter 7 | referred-to
+  - chapters 1 and 2 (AJ initially alienated by Comet Shine) | treat as settled plan content that the new command-economy idea should explain and fit | This should be why AJ is initially totally alienated by Comet Shine in chapter 1 and 2 | referred-to
+- order:
+- about: The user proposes a total-war, no-bits command economy for Tall Tale under Star Energy as a response to economic sabotage, contrasts it with Manehattan's war-bond recovery in chapter 7, ties it to Applejack's early alienation in chapters 1 and 2, and asks for pros, cons or alternatives.

@@ -1,0 +1,5 @@
+- sources:
+  - the hybrid engine mechanics (earlier discussion of them) | set aside and start over; rebuild from first principles rather than building on what was said | Let's restart on the hybrid engine mechanics and build from the ground up | referred-to
+  - the hybrid engine starts as a product for Star Energy tractors | given by the author as the fixed starting premise for the rebuilt mechanics | The hybrid engine starts as a product for Star Energy tractors | first-named
+- order:
+- about: The user asks the model to discard the earlier hybrid engine treatment and rebuild it from first principles, starting from a tractor product, by asking what physics and chemistry would let a moving engine use its exhaust the way a cogeneration plant does, and checks their own understanding of cogeneration.

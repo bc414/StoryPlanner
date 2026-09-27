@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's claim of novelty and asks a follow-up: whether the method depends on AI reasoning models and a software-engineering mindset, and what counterarguments exist, without saying anything in the model turn was wrong.

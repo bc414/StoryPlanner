@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a comparative question about whether China has a manosphere like the Anglo world, a company-man culture like Japan's, something else, or a mix, without pointing the model at any particular body of material.

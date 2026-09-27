@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Mudbeak is shown meeting Shining Armor while he helps develop a direct railroad from Crystal City to Manehattan, the on-page behavior of the character | Mudbeak meets Shining Armor while helping develop a railroad straight from Crystal City to Manehattan | yes
+- goals:
+- whole: The note gives a one-line staging of the action shown on the page: Mudbeak meets Shining Armor while working on the Crystal City to Manehattan rail line, with no stated effect on the reader.

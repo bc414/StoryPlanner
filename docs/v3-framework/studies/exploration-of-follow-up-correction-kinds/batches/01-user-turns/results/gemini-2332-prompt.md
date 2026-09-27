@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Herzland after 978 as having an Imperial fleet with escorts and commerce raiders, when Skyfall seized the fleet in 978 and Herzland has hardly any navy afterward; the user meant the pre-978 period | Herzland from 978 has barelta fleet since Skyfall stole it, so I was referring to pre 978 | flat, stated as a plain factual correction with a brief reason, followed by a clarification of intent
+  - reading of the request | The model read the user's earlier question as about Herzland's navy in the post-978 setup and did not treat it as a pre-978 comparison of eras | so I was referring to pre 978 | stated matter-of-factly, as a clarification of what was meant
+- about: The user corrects the model's assumption that Herzland had a working fleet after 978 by saying they meant the pre-978 period, then asks a new question about whether Skyfall really divides escorts from privateers or uses the same ships and crews.

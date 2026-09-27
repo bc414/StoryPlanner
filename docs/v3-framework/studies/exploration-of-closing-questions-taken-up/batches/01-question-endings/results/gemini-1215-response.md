@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a specific temperature and timing guide for getting the crispiest skin on air-fried chicken thighs? | ignored | Doesn't say yes or no to the guide. It raises a new worry: the chicken drying out in the air fryer before the inside is fully cooked. It also says the user's dad won't tolerate any rawness. | I'm concerned that it's dried out too much
+- shape: Redirects. The user leaves the offered crispiness guide alone and states their own concern, which is drying out versus rawness inside. This is a constraint for the next answer (the dad won't accept any rawness), and the turn is implicitly asking how to avoid both problems. It is not a reply to the model's question.
+- settles:

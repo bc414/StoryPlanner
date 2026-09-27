@@ -1,0 +1,7 @@
+- questions:
+  - How should Celestia's top-down censorship of magical science be balanced against ponies' own bottom-up resistance to change (the last, summarizing question) | ignored | none; the user turn moves to a different topic | none
+  - How does Equestrian history treat Star Swirl the Bearded: does Celestia whitewash him as a wise wizard rather than a magical physicist to hide the empirical nature of his work | ignored | none; nothing about Star Swirl is taken up | none
+  - How much of the stagnation is enforced top-down by Celestia versus self-policed by ponies like Applejack who feel threatened by obsolescence | ignored | none; the user asks about griffon technology instead | none
+- shape: Redirects to a new request: drops the model's Equestria-stagnation questions and asks for a historical account of lathe bootstrapping and how to apply it to the griffons' self-built vacuum-sealed magical stabilizers for appliqués. It is an instruction for research and design help, not an answer.
+- settles:
+  - Griffons must build the vacuum-sealed magical stabilizers themselves, and these stabilizers run appliqués | the stabilizers that they have to build themselves to run appliqués

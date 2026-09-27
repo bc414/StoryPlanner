@@ -1,0 +1,5 @@
+- sources:
+  - my existing meta commentary on real human history | the author's established material that the model should assess and reconcile against the reframing, to see what it changes; neither declared outdated nor settled | existing meta commentary on real human history | referred-to
+  - this reframing | taken as the working premise to apply, the new change whose effects on the existing commentary are to be worked out | With this reframing | referred-to
+- order:
+- about: The user asks the model to work out how the just-discussed reframing of the timeline affects the real-history meta commentary they have already written.

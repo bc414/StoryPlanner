@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's neural-interface idea by proposing that the griffon artisans' plane-forging and the Wings of Dew spell share an origin, then moves on to a new question about how an agile plane handles wind compared with an eagle's flight.

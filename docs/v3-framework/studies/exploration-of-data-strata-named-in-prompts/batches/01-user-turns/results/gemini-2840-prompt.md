@@ -1,0 +1,9 @@
+- sources:
+  - The ideas listed in this message (stagnation of harmony, stallion/mare, mare/mare, stallion/stallion routes, and the scene sequence for Twilight and Applejack) | working ideas the author is still refining and wants analyzed and structured, not yet settled | "refining the following ideas" | first-named
+  - the lore about Celestia making ponies with special talents related to love into alicorns who cast a conception spell | treat as existing lore that supplies the mare/mare route via Cadance | "I had the lore about Celestia making ponies" | referred-to
+  - the gender swap spell Cadance can do (author's original idea) | demoted to one possible option, judged too inefficient to be the main route | "seems too inefficient so maybe it is one option" | referred-to
+  - the New Mareland foals adoption idea (unwanted foals repatriated, tied to the stork bedtime tale and Celestia's policy) | the author's newly preferred, more popular route for stallion/stallion couples, still being decided | "now I am deciding that the more popular option" | first-named
+  - chapter 12's plot about Fleur, Henri and Mali educating Twilight and Applejack | the plan the comedic beat should lead into | "leads into the rest of chapter 12's plot" | referred-to
+- order:
+  - the New Mareland foals adoption idea over the gender swap spell | "the more popular option" and the swap spell "seems too inefficient"
+- about: The user asks for an analysis of how to structure a comedic scene where Fleur asks Twilight and Applejack where foals come from, laying out their own draft reproduction lore and scene sequence, including one older idea they are demoting in favor of a newer one.

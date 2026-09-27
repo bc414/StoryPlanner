@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a plot change, in which Applejack's pink love donation idea at Skyfall becomes the template for the later Vesalipolis drop, weighs it against keeping the drop a surprise at Vesalipolis, and proposes a compromise where Skyfall uses simple trucks or ships and Vesalipolis gets the full aerial drop.

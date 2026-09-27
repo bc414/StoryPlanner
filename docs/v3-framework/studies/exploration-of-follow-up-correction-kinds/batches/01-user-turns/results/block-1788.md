@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - prior agreed finding in the conversation (own name) | The model framed Clash of Clans as the shallowest, simplest economy, the mass-consumer end of an inverse scale-and-depth line, against what the two had already established, that CoC holds more economic depth than most mass-market games | "We identified that although clash of clans is mass market it still captures some depth about the economy that is more than most" | Put flatly as a reminder of what was already settled, with no apology or irritation, in passing before the user's next question
+- about: The user reminds the model of an earlier shared conclusion that Clash of Clans, though mass-market, has real economic depth, and uses that to ask what the default should be.

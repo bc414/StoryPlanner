@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Pridea-survival scenario as a base, restates Dennis Discret's position there as baron of Pridea by Coltbert's deal, and asks whether the Coltbert Reforms could therefore cover urban Pridea as an artisan-pride city.

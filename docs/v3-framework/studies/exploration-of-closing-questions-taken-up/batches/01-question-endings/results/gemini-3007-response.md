@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to analyze how successful Grand Strategy or Hopepunk authors format their tables of contents and chapter notes to reinforce architectural trust? | no user turn | none | none
+- shape: none
+- settles:

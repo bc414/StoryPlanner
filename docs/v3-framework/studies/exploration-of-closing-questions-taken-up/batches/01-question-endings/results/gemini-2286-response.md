@@ -1,0 +1,8 @@
+- questions:
+  - How do the Changeling pilots react to seeing the phosphorus tracer beams cut through their formations? | ignored | The user turn never describes any Changeling reaction. It moves to limiting Earth Pony magic and to whether the chemistry works. | none
+  - Does the psychological shock of the tracers break the Changelings' drug-induced Blitz-Essenz aggression? | ignored | Nothing is said about Blitz-Essenz or Changeling morale. | none
+- shape: The user turn corrects the model's premise and leaves its closing questions unanswered. It rejects the idea of Earth Pony magic making super-dense oxidizer and sets a strict materialist rule. It then asks the model to check whether the tracer and velocity idea still holds under that rule. It also raises a factual objection that saltpeter was superseded by Haber-Bosch nitrogen explosives. The turn is about the world's constraints and the model's accuracy, not the model's narrative prompt.
+- settles:
+  - Earth Pony magic does one thing only: it speeds up weathering for fertilizer purposes. | the only think earth pony magic should do is expedite weathering for fertilizer purposes
+  - The magic of accelerated weathering is not studied until the Coltbert Reforms in Aquileia, 981-1007. | This is not studied until the Coltbert Reforms in Aquileia in 981-1007
+  - Chemistry after that point follows real chemistry laws, as studied in Grover 3's enlightenment of 854-914. | The chemistry that comes after should follow real chemistry laws (studied by Grover 3's enlightenment from 854 to 914)

@@ -1,0 +1,3 @@
+- questions:
+- shape: The user puts no answer to anything and asks a new question of their own. It extends the Polish-history topic to the partitions and the interwar years and asks whether they still matter to Polish national memory. It is a request for more information and gives no direction on the story.
+- settles:

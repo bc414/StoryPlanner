@@ -1,0 +1,7 @@
+- claims:
+  - ThematicEvidence | Asserts that the Manifesto's fatal flaw is epistemological blindness to consent and context, a thematic proposition about the doctrine | The fatal flaw of the Manifesto is its epistemological blindness to Consent and Context | no
+  - History | Reports that Kemerskai instituted the command economy in 986 ALB as a desperate, temporary survival measure to keep Cloudburian refugees and Herzlander exiles from starving in the snow | Kemerskai instituted the command economy in 986 ALB as a desperate, temporary survival mechanism | no
+  - History | Reports that the Republic voted to suspend its own constitution and that Kemerskai let dissenters (Sickleclaw's agrarian communists, Rosewing's bandits) leave the system | the Republic voted to suspend its own constitution, and Kemerskai permitted ideological dissenters | no
+  - History | Reports that Caramel Marks and Fire Angel removed the consent and the emergency context from Kemerskai's martial law and took a state of emergency for a utopian baseline | Caramel Marks and Fire Angel strip away the democratic consent and the existential context | no
+- goals:
+- whole: The note gives an in-universe historical account of the emergency origins of Kemerskai's command economy and of how Marks and Fire Angel misread it, framed by a thematic verdict on the Manifesto's flaw, and it says nothing about how the reader is to experience the technology.

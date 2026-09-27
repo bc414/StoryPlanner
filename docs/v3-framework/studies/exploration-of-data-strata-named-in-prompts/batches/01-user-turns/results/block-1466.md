@@ -1,0 +1,5 @@
+- sources:
+  - the potential 16 track types from the 4 axes | one side of a comparison; the framework just derived, to be set against the document and checked for incompatibility or overlap, with neither placed above the other | "the potential 16 track types from the 4 axes" | referred-to
+  - this original document outlining the different modes and functions of the story planner | the other side of the comparison; the earlier document to be compared with the axis-derived track types to see whether it is incompatible or a different angle on the same thing | "this original document outlining the different modes and functions of the story planner" | first-named
+- order:
+- about: The user asks the model to compare the 16 axis-derived track types with an original document describing the story planner's modes and functions, and to say whether they conflict or can be synthesized as overlapping views of the same thing.

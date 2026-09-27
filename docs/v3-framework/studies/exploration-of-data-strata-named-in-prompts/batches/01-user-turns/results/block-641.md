@@ -1,0 +1,10 @@
+- sources:
+  - my subjective experience in both engineering and writing | offered as first-hand evidence that breaks and task switches produce new insight, set against the idea that continuous immersion is a benefit; the author asks whether it is a real phenomenon | walking away from the task or switching tasks actually can lead to more new insights | first-named
+  - all the entities and scanning their connections to plot points | the author asks whether these work as foreshadowing planners, or whether only story threads do; a question, not an instruction | Do all the entities and scanning their connections to plot points act as foreshadowing planners? | referred-to
+  - story threads | named as the possible sole foreshadowing-planning mechanism, being compared against the entity connections | Or is it just story threads? | referred-to
+  - layer 1 (world truths and mechanics) | planned to be mostly completed first, before the FIDAnchor and irony/gap work | I did imagine mostly completing layer 1 | referred-to
+  - layer 2 (omniscient backstory timeline) | planned to be mostly completed first, before the FIDAnchor and irony/gap work | layer 2 (omniscient backstory timeline) | referred-to
+  - layer 3 (character psychology) | planned to be mostly completed first, before the FIDAnchor and irony/gap work | layer 3 (character psychology) before working on stuff like fidanchors | referred-to
+  - fidanchors and notes about what kind of irony or gap | planned for later, after layers 1-3; the author treats them as design work, not prose, and asks for confirmation | I suppose these are still part of design, not prose. | referred-to
+- order:
+- about: The author pushes back on the model's cognitive-load framing using their own experience that breaks produce insight, asks whether entity-to-plot-point connections plan foreshadowing or only story threads do, and checks that doing layers 1-3 before FIDAnchor and irony/gap notes still counts as design rather than prose.

@@ -1,0 +1,5 @@
+- questions:
+  - How does Rainbow Dash process learning that her identity, built on idolizing the sanitized Daring Do adventures, is a commodified echo of the pioneer ambition her ancestors voted to criminalize? | no user turn | none | none
+  - Does the 30% Celestial Party bloc, led by Mayor Mare, use the 930 ALB-style petition strategy to legally block Star Energy factories, forcing Applejack to defeat the mechanism that created the Stagnation? | no user turn | none | none
+- shape: none
+- settles:

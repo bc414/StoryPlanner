@@ -1,0 +1,7 @@
+- claims:
+  - History | Population growth depleted the easy riverside timber, forcing the Boyars deeper into the frozen taiga | As the population grew, the easy timber along the rivers was depleted. The Boyars had to push deeper | yes
+  - History | Wood scarcity led the Boyars to fight one another over remaining tree lines | Because wood became scarce, the Boyars began fighting each other over the remaining tree lines | yes
+  - History | In 795 ALB the boyars, unable to agree on a Tsar, turned to Celestia to be immortal arbitrator of their disputes | In 795 ALB, the boyars could no longer agree on a Tsar ... turned to Celestia | yes
+  - Characterization | Celestia agreed because the boyars are fundamentally Harmonic given their latitude's need for warmth through unified logistics, asserting the cause of her choice and what the boyars are | Celestia agreed because the boyars were fundamentally "Harmonic" | no
+- goals:
+- whole: The note reports as history how timber scarcity drove the Boyars into conflict and, in 795 ALB, to make Celestia their immortal arbiter, and closes with an assertion of why she accepted.

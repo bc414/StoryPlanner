@@ -1,0 +1,4 @@
+- sources:
+  - episodes (the published show, Pinkie's canon appearances) | draw on it to find further examples beyond the two already given that show Pinkie's understanding | What other episodes demonstrate Pinkie's understanding | referred-to
+- order:
+- about: The user asks the model to search the show's episodes for more canon examples supporting the idea that Pinkie understands the adrenaline and fear mechanics discussed in the previous turn.

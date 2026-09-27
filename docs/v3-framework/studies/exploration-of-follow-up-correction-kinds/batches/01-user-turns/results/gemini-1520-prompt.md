@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - overstated economic reasoning | the model's claim that the 20% gross sales tax wipes out margins and kills the private market outright, when the effect might only be higher costs | Does it destroy the private market or does it just drive up costs? | put as a bare either/or question, with no reason given and no stated disagreement
+- about: The user questions whether the model overstated the tax's effect as destroying the private market, then moves on to two new ideas: wine and cheese as black-market reserve assets like the petrodollar, and a race-to-the-bottom market among thugs.

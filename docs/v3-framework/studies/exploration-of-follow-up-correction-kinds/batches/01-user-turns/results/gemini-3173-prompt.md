@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up questions, whether length preference can be applied from the first generation to save compute, and whether the whole-response Shorter/Longer buttons feed in the current response or roll back to the earlier context, without saying anything in the prior explanation was wrong.

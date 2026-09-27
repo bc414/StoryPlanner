@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model by saying the visual editor has no array option, only object nesting, and asks whether JSON properties and lists correspond to class fields and arrays in C# object-oriented terms.

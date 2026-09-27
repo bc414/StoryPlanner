@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumption about their JSON story planner (it is only a WPF program), then asks what the "LM" in NotebookLM stands for and requests the product's history.

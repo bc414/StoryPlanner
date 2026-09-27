@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | The Temberik as a group are defined by unity and communalism but no ambition beyond survival, Order without Progress | Order without Progress. They have unity (communalism) but no ambition beyond survival | no
+  - Characterization | The Temberik lack and need Ambition (Red Love) to realize they can be more than survivors hiding in the rocks | They need Ambition (Red Love) to realize they can be more than just survivors hiding in the rocks | no
+- goals:
+- whole: The note asserts what the Temberik are as a collective, communal but survival-bound, and what they need in order to grow, without planning how their creation or activities are dramatized or what the reader experiences.

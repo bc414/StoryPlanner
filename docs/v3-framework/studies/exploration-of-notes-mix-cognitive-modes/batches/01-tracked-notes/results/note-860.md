@@ -1,0 +1,5 @@
+- claims:
+  - History | The Aquileians themselves regard their names as ordinary | To the Aquileians, their names are pretty normal | no
+  - History | Equestrians see the Aquileian names as fancy, while Herzlanders see them as snobby or vain | Equestrians perceive them as "fancy" while Herzlanders perceive them as "snobby" or "vain" | no
+- goals:
+- whole: The note records, as an in-world fact, how Aquileians and two outside peoples each perceive Aquileian names, without any plan for dramatizing it or any stated reader effect, so it doesn't do the architecture work its track asks for.

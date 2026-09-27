@@ -1,0 +1,4 @@
+- sources:
+  - Chrysalis's company being from Skyfall and led by a Skyfall griffon on paper | treat as established story fact; the new idea must stay consistent with it, since it is why the normal factories get lumped in with her company | remember Chrysalis's company is from Skyfall and led by a Skyfall griffon on paper | referred-to
+- order:
+- about: The user asks how to give the factory storyline a unifying effect and proposes a revision in which independent Skyfall investors open ordinary factories that draw in the tribes, all Skyfall factories are destroyed once Chrysalis's scheme is exposed, and the Tzinacatl workers leave for Manehattan and form a union.

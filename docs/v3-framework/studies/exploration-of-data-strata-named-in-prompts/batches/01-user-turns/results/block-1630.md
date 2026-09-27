@@ -1,0 +1,5 @@
+- sources:
+  - a v1 note | the material to be sorted; the model is to decide which track its parts belong in, not treat it as settled truth | Here is an example of a v1 note | first-named
+  - the canon episode | a published-show example that the note cites in support of its crystal pony claims; the question is where this example should be filed | Example from the canon episode | referred-to
+- order:
+- about: The user pastes an old v1 note about crystal ponies and asks which track its canon-episode example belongs in, or whether a new kind of track is needed.

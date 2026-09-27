@@ -1,0 +1,7 @@
+- sources:
+  - my current plot point synopses (omniscient, factual authorial plan, content thrown in during data accumulation) | treat as unpolished pasted-in material not meant for design or delivery; author is unsure whether to keep it as a separate layer, restructure it, or move it to notes | Most of my current plot point synopses are written in this manner | referred-to
+  - the existing framework | the structure the author asks whether the omniscient plan sits inside or outside of, and whether the content must be reorganized to fit | separate from the existing framework | referred-to
+  - third person limited layer 4 | not yet begun, so nothing in it to draw on yet | I haven't actually begun the third person limited layer 4 yet | referred-to
+  - Scene 17.1 plot point entry (Luna reveals why she ordered the Tall Tale retreat) | pasted as an example of the current synopsis style; its POV is settled as Mali's, stated as definite | the scene before this one is definitively meant to be in Mali's POV | first-named
+- order:
+- about: The author asks whether their omniscient, factual plot point synopses (which they say were only pasted in during data accumulation) belong in a separate place from the existing framework or need restructuring, and supplies Scene 17.1 as an example with Mali as its definite POV.

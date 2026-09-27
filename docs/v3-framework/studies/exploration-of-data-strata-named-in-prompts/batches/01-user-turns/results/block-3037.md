@@ -1,0 +1,7 @@
+- sources:
+  - The Herzland caloric problem | limit it to griffons; do not apply it to pegasi, since griffons fly by brute force and only pegasi manipulate thermals | The Herzland caloric problem only applies to griffons | referred-to
+  - the winter weather reasoning for why pegasi and unicorns are absent from pre-industrial Severyana | keep as the valid explanation, resting on winter weather for pegasi and no agricultural use for unicorns in the longhouse | the winter weather still applies for why pegasi don't live in pre-industrial Severyana | referred-to
+  - the author's own statements on how earth pony magic and pegasus lightning work in Equestria | treat as settled facts for the model to build on: earth pony magic gives water soluble phosphorus and potassium, and pegasus lightning gives nitrogen | Earth pony magic provides water soluble phosphorus and potassium | first-named
+  - the model's general knowledge of real Russian legumes and crops | draw on it to answer whether legumes fixing nitrogen would be prominent in Severyana and which Russian ones stand out | Are there Russian legumes that are prominent? | first-named
+- order:
+- about: The user corrects the model's earlier argument by limiting the caloric problem to griffons while keeping the winter-weather reasoning for pegasi and unicorns, states how nitrogen works in Equestria, and asks whether Severyana's earth ponies would rely on legumes and which Russian ones are prominent.

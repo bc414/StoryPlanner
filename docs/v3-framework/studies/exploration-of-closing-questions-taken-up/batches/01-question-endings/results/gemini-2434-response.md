@@ -1,0 +1,8 @@
+- questions:
+  - Does the Diamond Dogs' canon slavery of Rarity inside Equestria break the "Nursery" rule, i.e. is it a native Equestrian failure? | partly answered | Calls them native locals who live apart from ponies because of shaming and bad manners, and are left alone. That takes them as native and inside, not imported. It never says how the kidnapping or slave labor fits the rule. | "native locals who live away from ponies due to shaming and bad manners and left alone"
+  - Should the Diamond Dogs be reframed as a foreign subterranean cartel funded by Skyfall tycoons? | answered | Rejects the foreign-cartel option. They stay native, and the cause is pony social exclusion. | "native locals who live away from ponies"
+- shape: The user turn corrects the model's either/or framing by choosing a third option, native but socially marginalized. It adds a backstory plan for the Diamond Dogs and offers Zecora and Zebrica as an example of a foreign influence. It then hands the question back to the model, asking for more foreign-influence examples from seasons 1-4.
+- settles:
+  - The Diamond Dogs are native, not foreign. They live apart from ponies because ponies shamed them for bad manners, and they were left alone. | "native locals who live away from ponies due to shaming and bad manners and left alone"
+  - Backstory: Rarity later helps the Diamond Dogs get jobs in Manehattan. | "planning for Rarity to later help them get jobs in Manehattan as backstory"
+  - Zecora counts as a foreign influence, and Zebrica is derived from her and from intermediate fandom material about zebras. | "Zecora is an obvious one (and Zebrica is basically derived from her"

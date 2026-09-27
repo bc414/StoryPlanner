@@ -1,0 +1,10 @@
+- sources:
+  - Star Wars, Rogue One | user's own account of what they have watched: only Star Wars, not very invested, Rogue One probably favorite; treat as true | Only Star wars but I'm not they invested. I think Rogue One is my favorite | referred-to
+  - City Hunter and Itaewon Class | user says they have watched these; treat as genuine consumed influences | Also City Hunter and Itaewon Class | referred-to
+  - One Piece, Breaking Bad, Lord of the Rings, Game of Thrones | user has not watched or read these; do not treat them as influences on the author | I have not watched One Piece or Breaking Bad. Haven't actually read the Lord of the Rings or Game of thrones | referred-to
+  - the influences the model listed | mostly wrong about what the user consumed; do not rely on that list | Actually I haven't consumed most of these things | referred-to
+  - the fanfics I regularly read (Pokemon, MLP romance and adventure) | do not use this structure, so not a source of the framework | The fanfics I regularly read don't actually utilize this structure either | referred-to
+  - The Princess and the Kaiser and Pax Chrysalia (the two EaW fics read) | do have the reveal structure; the works to improve on, since they read EaW cynically and start after the occupation | have this structure. And I want to do better than them | first-named
+  - the author's own story design (war in Equestria start, reveal of how Chrysalis and others became who they are) | author's stated intent for the project, to be taken as the current plan | I'm starting with the war in equestria but how Chrysalis and many others became who they are is what I'm designing how to reveal | referred-to
+- order:
+- about: The user corrects the model's list of their influences by stating what they have and have not actually watched or read, notes that only two EaW fics share their reveal structure, and restates their aim of a hopepunk EaW with the reveal of Chrysalis's past designed.

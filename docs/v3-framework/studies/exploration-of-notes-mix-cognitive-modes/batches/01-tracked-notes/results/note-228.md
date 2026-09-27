@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology, stated from god-mode) | Wingbardy's governing form is a constitutional monarchy, defined as a rule of the fictional universe | Wingbardy has a constitutional monarchy | outside
+  - outside all ten (world-rule ontology, stated from god-mode) | The system's objective function and purpose: the bourgeoisie, nobility and mafiosos use the monarchy to collude on extracting wealth from the commoners and the colonies | for the bourgeoisie, nobility, and mafiosos to collude on how to extract the commoners and their colonies | outside
+- goals:
+- whole: The note defines, as a rule of the fictional world, what Wingbardy's system is and what it is for: a constitutional monarchy that lets three elite groups collude in extracting from commoners and colonies.

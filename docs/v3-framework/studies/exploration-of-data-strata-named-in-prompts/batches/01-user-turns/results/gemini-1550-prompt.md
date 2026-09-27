@@ -1,0 +1,4 @@
+- sources:
+  - The story's current arrangement of the war bonds and gilded bits, as the author states it | treat as the established fact to build on: Gilded Trust is paid in war bonds and pays workers in gilded bits, so the answer should start from this arrangement | Currently Gilded Trust was paid the war bonds and he gives the workers gilded bits | first-named
+- order:
+- about: The author asks how the story should handle Gilded Trust after Applejack's party wins, and how gilded bits get converted into war bonds, and states the current setup (he is paid in war bonds and pays workers in gilded bits) as the starting point.

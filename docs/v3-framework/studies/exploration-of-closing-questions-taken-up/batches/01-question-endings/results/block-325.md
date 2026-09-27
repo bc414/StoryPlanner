@@ -1,0 +1,5 @@
+- questions:
+  - How does Flowing Current, who once blew up his boss's power plant to claim a Skyfall bounty, process the irony of defending EEEE!'s factories against thugs doing the same to him, and does his bounty-hunter knowledge let him counter their raids? | no user turn | none | none
+  - Do the thugs raiding EEEE! factories demand payment in Gilded Bits, and does that create a shadow alliance with Gilded Trust's Ponies First party that forces Applejack to confront Gilded Trust profiting from violence against her allies? | no user turn | none | none
+- shape: none
+- settles:

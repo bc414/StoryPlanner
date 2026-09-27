@@ -1,0 +1,9 @@
+- claims:
+  - outside all ten: world-law ontology | A cutie mark stands for what a pony loves best at one specific moment in adolescence | The cutie mark represents what they love best in a specific moment during adolescence | outside
+  - outside all ten: world-law ontology | The mark is a beneficial evolutionary trait of the species that induced stronger magic and so led to survival harmony | It is a beneficial evolutionary property of their species which induced stronger magic which led to survival harmony | outside
+  - outside all ten: world-law ontology | A cutie mark does not lock a pony into that path for life | it doesn't make any pony locked in for life | outside
+  - outside all ten: world-law ontology | Parents name the child, and the child generally gets a mark related to the name | parents give their child a name, and the child generally gets a mark related to it | outside
+  - outside all ten: world-law ontology | In rare cases where a pony finds a different talent, they can change their name | In rare cases where they find a different talent, they can change their name | outside
+  - outside all ten: world-law ontology | The name, given or chosen, reinforces the pony's conviction in their talent, with causation running from name to conviction and not the reverse | Their given or chosen name reinforces their genuine conviction in their special talent, not the other way around | outside
+- goals:
+- whole: This note lays down, as flat invariant world law, what a cutie mark is, why it evolved, how it is not fixed for life, and how names and marks relate, without stating any effect on the reader.

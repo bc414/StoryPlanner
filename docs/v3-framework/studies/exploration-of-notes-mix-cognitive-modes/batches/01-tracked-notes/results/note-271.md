@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (world-rule ontology) | Earth ponies, unicorns and pegasi on average share the same capacity for raw magic, which is based on their ambition | Earth ponies, unicorns and pegasi on average share the same capacity for raw magic based on their ambition | outside
+  - outside all ten (world-rule ontology) | Each pony kind's magic has its own manifestation: unicorn magic is flashy and acute, pegasi fly naturally, earth pony magic is latent, long acting and works underground out of sight | Unicorn magic is flashy and acute, pegasi fly naturally, and earth pony magic is latent, long acting, and acts underground | outside
+  - outside all ten (world-rule ontology) | The average unicorn has about the same amount of raw magic as an average pegasus or earth pony (restates the equal-capacity rule) | The average unicorn has about the same amount of raw magic as a pegasus or earth pony | outside
+- goals:
+- whole: The note states, as invariant world law, that the three pony kinds hold equal average raw magic tied to ambition while expressing it in different ways, with no reader effect named.

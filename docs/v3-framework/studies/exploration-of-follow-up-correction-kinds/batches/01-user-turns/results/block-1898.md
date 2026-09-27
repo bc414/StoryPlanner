@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's label 'Colonial Zebrica' for the system imposed on Zebrica is rejected because in the story there are no direct colonies, so the colonial framing misdescribes the arrangement | "I wouldn't consider it \"Colonial Zebrica\" because there are no direct colonies" | stated flatly as a personal judgement with a brief reason given
+  - which material was drawn on | The model's account of this system was built without consulting the planner text in the database, so the user sends it back to the source and asks for a fresh proposal of names and real-world analogies | "Please review the relevant story planner text in the db file" | polite direct instruction, implying the earlier answer was not grounded in the planner
+- about: The user rejects the model's 'Colonial Zebrica' label as inaccurate because there are no direct colonies, and redirects the model to the planner text in the database to propose new names and real-world analogies for the system.

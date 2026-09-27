@@ -1,0 +1,8 @@
+- claims:
+  - History | King Gerad Discret declares independence from the Empire and forces all warlords to relocate to Le Grand Foyer at gunpoint, a public event of the world | King Gerad Discret declares independence from the Empire and forces all the warlords to relocate to Le Grand Foyer at gunpoint | yes
+  - History | Minette and her parents are relocated as part of the forced move | Minette and her parents are relocated | yes
+  - History | Lord Westkeep returns to their quarters at night seething, humiliated by pony drill sergeants, reported as a past event | Lord Westkeep comes back to their quarters at night seething with rage at being humiliated by pony drill sergeants | yes
+  - History | Minette, aged nine, tries to cheer him up and he leers at her, reported as an event that happened | Minette tries to cheer him up, and he leers at her (a 9 year old) | yes
+  - Characterization | Westkeep's leer asserts his intent to use her as an obedient sex slave once she is old enough, a truth about his predatory nature and what awaits her | waiting for her to be old enough to use as an obedient sex slave | no
+- goals:
+- whole: The note reports, as in-universe history in 972, the king's forced relocation of the warlords and a night scene in which Minette's guardian Westkeep reveals his predatory intent toward her as a nine-year-old.

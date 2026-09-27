@@ -1,0 +1,5 @@
+- questions:
+  - How does the formal signing of the Republican Pact happen: a big public cultural event where the Skyfall tycoons watch their fiat currency become worthless, or a quiet pragmatic treaty signed in a boardroom in Canterlot or Aquileia? | ignored | Says nothing about the signing. It goes on to ask for a summary of the plan document and a breakdown of the eras. | none
+- shape: Drops the model's closing question and redirects. It asks the model to re-read the story plan document and give a definitive summary, and it corrects the model's account of what makes the Pact work (love donators, not Leviathan harvesting). It also sets out the eras the breakdown must cover, from pre-alicorn Equestria to the final form, and asks how their economics interact and overlap.
+- settles:
+  - The Pact's key breakthrough is the love donators: magic can be donated by all living creatures, so it no longer depends on any finite resource. This replaces the model's Leviathan-harvesting explanation. | "it's actually about the love donators, since magic can now be donated from all living creatures, not relying on any finite resources"

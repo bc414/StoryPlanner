@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | On her return Luna undergoes an identity crisis, an assertion about her inner state | When Luna returns, she had an identity crisis | no
+  - History | On returning, Luna finds a world in which the Night has been sanitized, a reported state of the world | she finds a world where the "Night" has been sanitized | yes
+  - History | A thousand years earlier ponies had lovers, rivalries and complex lives, whereas now they merely sleep, reported as a before-and-after fact | 1000 years ago, ponies had lovers, rivalries, and complex lives. Now, they just sleep | yes
+  - History | For the last 80 years intimacy has been reduced to a polite, pastoral chore, a dated social fact | For the last 80 years, intimacy has been reduced to a polite, pastoral chore | yes
+- goals:
+- whole: The note reports, as background history, what Luna finds on her return: a sanitized Night and a pony society whose once-rich nightlife and intimacy have dwindled to sleep and chore, and it notes that she has an identity crisis.

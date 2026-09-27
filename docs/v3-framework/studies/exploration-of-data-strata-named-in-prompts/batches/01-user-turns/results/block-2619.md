@@ -1,0 +1,9 @@
+- sources:
+  - My mom's side has Teochew and my dad's side has Cantonese; family language details | treat as true; the author's own account of the family's languages, correcting what the model assumed about the family | My mom only speaks Mandarin and English though the family uses Teochew phrases | first-named
+  - Xhosa / Zulu martial culture | treat as the settled precedent for the pre-industrial hive-war changelings, and as the model for the kind of mapping the author wants for Chinese history | Xhosa made sense also from what I knew about Zulu martial culture | referred-to
+  - the different changeling history parts and triggers for change (harmonic changelings, perpetual hive wars) | the framework the answer must be grounded in; treat as the author's defined canon | Ground the answer in the different changeling history parts and triggers for change | referred-to
+  - the material conditions I defined for them | use as the basis for deciding which Chinese periods match the harmonic hives and hive wars; treat as fixed | based on the material conditions I defined for them | referred-to
+  - Chrysalis's great leap forward as Deng Xiaoping's state capitalist pivot, with the chaebol, Peter the Great and Meiji parallels | treat as already settled; not to be redone, only the earlier eras remain to be mapped | already pretty explicitly Deng Xiaoping's state capitalist pivot | referred-to
+  - periods of Chinese history | the body of material the model is to draw on to find the counterparts of the harmonic hives and hive wars | What periods of Chinese history would these be reflective of? | referred-to
+- order:
+- about: The author corrects the model's assumption about their family's languages, then asks it to map the changelings' pre-industrial harmonic hive and hive-war eras onto periods of Chinese history, grounded in the history and material conditions they defined, with the Deng-era mapping treated as already settled.

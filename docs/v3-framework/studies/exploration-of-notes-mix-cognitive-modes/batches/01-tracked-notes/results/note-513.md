@@ -1,0 +1,5 @@
+- claims:
+  - History | Eros was about to execute Eagleclaw as a traitor but stopped when the child Grover VI asked him not to hurt Aunty Gabriella, and Eros granted the child emperor's plea | Eros is about to execute Eagleclaw as a traitor, but stops when child Grover VI asks him | no
+  - Characterization | From that moment Grover VI understands his power and his duty to his griffons and drives himself to be the best emperor in history, which is what makes him who he is at the start | From that point, Grover VI realizes his power and his duty to his griffons and works hard to be the best emperor | yes
+- goals:
+- whole: The note recounts the childhood incident with Eros and Eagleclaw as a fact of the world, then asserts that it turned Grover VI into a dutiful, driven emperor.

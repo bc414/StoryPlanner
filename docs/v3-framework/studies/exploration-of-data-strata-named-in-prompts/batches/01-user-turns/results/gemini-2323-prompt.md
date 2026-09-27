@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds story facts to correct the model's premise about Applejack's arc, saying she already accepts being a war leader and that Trimmel's talk makes her choose to lead after the war rather than return to farming.

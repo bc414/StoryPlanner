@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's logistics analysis alone and moves to a different thread, adding backstory about the POW prison scene and pitching a plan for the universal translator and Henri's arc, with a reminder of earlier plot as the starting point.

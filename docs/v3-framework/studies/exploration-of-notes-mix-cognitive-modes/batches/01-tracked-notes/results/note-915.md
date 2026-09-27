@@ -1,0 +1,5 @@
+- claims:
+  - History | Synovial is in disgrace and was recalled from Griffenheim, reported as a fact of his past | disgraced Synovial, who was recalled from Griffenheim | no
+  - NarrativeArchitecture | In this appearance in the reading order, Synovial is placed on the static Tall Tale front | takes the static Tall Tale front | yes
+- goals:
+- whole: The note gives a one-line entry in the character's appearance plan: Synovial, in disgrace after being recalled from Griffenheim, appears at the static Tall Tale front.

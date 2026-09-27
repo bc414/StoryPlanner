@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The factory's name, Sweet Apple Provisions, ties it to apples, while in the user's world the company cans all kinds of goods for export, so the name doesn't fit the company's scope | Since it should can all kinds of stuff for export; asks for a name that isn't tied to apples | Put as a request for a replacement name, with the reason given as a short aside; there is no flagged disagreement or apology
+- about: The user leaves the Apple Bloom analysis alone and asks for a new company name that keeps the same initials but drops the apple link, because the company exports many kinds of canned goods.

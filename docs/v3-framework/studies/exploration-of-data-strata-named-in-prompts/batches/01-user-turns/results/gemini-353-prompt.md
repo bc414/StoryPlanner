@@ -1,0 +1,5 @@
+- sources:
+  - the user's own meaning of "Low Red" (meeting new people) and self-description as "pretty Red" | treat as the correct account of what the term means, replacing the reading the model gave; the author's own word on himself | "Low Red is just referring to meeting new people" | referred-to
+  - the themes of my story / this ambitious story being planned | the material to work from; the model is to connect these themes to present-day reality | "how the themes of my story can connect with today's modern day reality" | referred-to
+- order:
+- about: The user corrects the model's reading of his \"Low Red\" trait as being about meeting new people rather than ambition, and redirects the conversation toward how his story's themes relate to modern reality.

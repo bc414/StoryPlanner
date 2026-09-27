@@ -1,0 +1,8 @@
+- claims:
+  - History | Trimmel's Panzers and Stukas strike Applejack's vanguard, and the terror and force spike cortisol in the Equestrian volunteers | When Trimmel's Panzers and Stukas hit Applejack's vanguard... cortisol spike | yes
+  - History | The Friendship Shields, starved of Pink Love (Trust/Calm), short-circuit and shatter | The Friendship Shields, starved of Pink Love... shatter | yes
+  - History | Applejack's sector is overrun and she sees her volunteers vaporized or encircled while following Luna's orders to stand still, because she was believed in | Applejack's specific sector is brutally overrun... orders to stand still | yes
+  - History | She barely escapes the encirclement, loses her General's star in the mud, and flees south toward Tall Tale | barely escapes the encirclement, losing her General's star... flees south | yes
+  - Characterization | Her Imposter Syndrome originates not in cowardice but in realizing her Honesty and Harmony got her soldiers killed against an industrialized enemy | Her Imposter Syndrome is born not from cowardice, but from the realization | no
+- goals:
+- whole: The note reports, as in-universe history, the 1011 battle in which Applejack's vanguard was destroyed and she fled, and closes by asserting the psychological root of her Imposter Syndrome.

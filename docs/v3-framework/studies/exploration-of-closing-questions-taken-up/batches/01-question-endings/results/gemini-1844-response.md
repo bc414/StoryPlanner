@@ -1,0 +1,6 @@
+- questions:
+  - Would the user like examples of polysemantic neurons that track unrelated things, such as knots and programming? | ignored | Says nothing about polysemantic neurons and asks about something else. | none
+  - Does the user want to know whether single neurons exist for specific people, or whether everyone is just a vector (the grandmother neuron)? | ignored | Does not take up the grandmother neuron or single-neuron question. | none
+  - Does the user want to explore sparse autoencoders, the method for untangling the dimensions into readable features? | ignored | Does not mention sparse autoencoders or feature untangling. | none
+- shape: The user turn skips all three suggested next steps and starts a new question. It asks why LLMs are good at programming and code generation, and whether that differs from answering knowledge questions. It is a topic change within the same subject, not a reply to the menu.
+- settles:

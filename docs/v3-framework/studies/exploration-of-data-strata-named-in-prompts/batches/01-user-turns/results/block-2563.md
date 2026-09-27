@@ -1,0 +1,4 @@
+- sources:
+  - what people are talking about (the male friendships) | public chatter the user wants the model to bring in and address as a further case, with no claim about how far to trust it | the male friendships that people are talking about | referred-to
+- order:
+- about: The user asks the model to extend its cooperation-versus-extraction reading of Love Island Season 8 to the male friendships that viewers are discussing.

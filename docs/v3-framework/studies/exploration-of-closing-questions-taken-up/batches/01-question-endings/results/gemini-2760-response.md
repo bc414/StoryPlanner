@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a breakdown of how other unions (AFL-CIO) and airline pilots reacted to the PATCO strike? | ignored | The user neither accepts nor declines the offer and does not mention the AFL-CIO or pilots. They ask for a wider comparison of rent-seeking and profit-seeking unions across history. | none
+- shape: Redirects to a broader topic. Instead of taking up the offered follow-up on other unions' reactions to PATCO, the user asks for a historical comparison of rent-seeking and profit-seeking unions and how each is perceived. They add their own impression that US unions now look like rent seekers while European unions seem fundamentally different, and they say whether that is true can vary. It works as a new research request with a framing hypothesis attached.
+- settles:

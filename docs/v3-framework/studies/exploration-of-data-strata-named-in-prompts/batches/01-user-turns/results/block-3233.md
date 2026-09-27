@@ -1,0 +1,8 @@
+- sources:
+  - Zebra magic as understanding biochemistry patterns (the setting's magic premise) | treat as fixed premise that limits the worldbuilding: truly non-magical agriculture doesn't fit within it | "if Zebra magic is about understanding biochemistry patterns" | referred-to
+  - Skyfall fertilizer and remittance traps (the author's plot mechanism) | treat as settled plan: non-magical agriculture appears only through this, displacing zebra magic and creating dependency | "non magical agriculture is when Skyfall fertilizer enters the picture" | referred-to
+  - The real Great Lakes highlands (real-world history) | draw on general knowledge to say how much of caloric need came from cattle versus hoe agriculture | "the real ones, the highlands" | referred-to
+  - The author's own understanding of bride wealth, set against plow-enabled Europe and East Asia | provisional claim from the author's own recall, put to the model to confirm or correct | "Wasn't the point of bride wealth that the bride's labor is valuable" | first-named
+  - The Great Lakes analogy as manosphere allegory (story purpose) | treat as the main aim that the worldbuilding must arrive at, including older established males taking the young women | "the biggest point of the Great Lakes analogy is the manosphere allegory" | referred-to
+- order:
+- about: The author fixes a Great Lakes bride wealth decision, rejects a non-magical agriculture layer on the grounds of the setting's magic premise, and asks factual questions about real highland Great Lakes food economy, bride wealth, and the origins of the manosphere, steering the worldbuilding toward the elder-monopoly allegory.

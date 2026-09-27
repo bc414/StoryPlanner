@@ -1,0 +1,5 @@
+- sources:
+  - a program to mimic the way the github import tool works | the material under review; the model is to examine it and judge whether it needs further big improvements or is ready | Here is a program to mimic the way the github import tool works | first-named
+  - a sample output | the program's example result, to be examined alongside the program when judging readiness | and a sample output | first-named
+- order:
+- about: The user shares their code-packaging script and a sample of its output and asks the model to say whether any big improvements remain or it is ready to use, without nitpicking.

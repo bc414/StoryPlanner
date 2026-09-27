@@ -1,0 +1,6 @@
+- questions:
+  - Does 'Thymoluminescence' work as the Republic's textbook term for the Idol's light? | answered | Approves it outright as excellent for the Idol of Boreas. | Thymoluminescence is excellent for the idol of boreas
+- shape: Accepts the model's recommended term and moves straight on to a new naming request. It asks for a name for the separate phenomenon behind the universal translator, which turns intent vectors into soundwaves.
+- settles:
+  - Thymoluminescence is adopted as the term for the light phenomenon of the Idol of Boreas | Thymoluminescence is excellent for the idol of boreas
+  - The universal translator works by taking in intent vectors and outputting soundwaves as translated speech, and this is a distinct phenomenon from the Idol's light | It takes in the intent vectors and outputs soundwaves (translated speech)

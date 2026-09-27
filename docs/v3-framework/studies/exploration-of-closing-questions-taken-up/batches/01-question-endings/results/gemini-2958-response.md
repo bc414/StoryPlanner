@@ -1,0 +1,4 @@
+- questions:
+  - Does the user like the Clarion Vow acting as a lie-detector for officers, with Applejack mastering it and proud Aquileian nobles or Skyfall tycoons failing at it? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the model to look up the details of the Garcia v. Character Technologies settlement from January, to see how courts are pushing back | ignored | The user does not mention the settlement or the courts. They ask a different question about who is behind the administration's AI regulatory framework. | none
+- shape: Redirects to a new line of inquiry. It drops the offered follow-up and asks who is really behind the federal AI framework, which the model's third point had just named. It is a fresh factual question, not an answer to the model's question.
+- settles:

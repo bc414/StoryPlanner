@@ -1,0 +1,5 @@
+- questions:
+  - How do the assimilated Equestrian Thestrals react to Mali and EEEE!: as a threat to their safe status, or with secret envy for the lost heritage? | ignored | none: the user turn drops this and asks about Aquileia's pony minority instead | none
+  - Does Applejack, on realizing Ponyville and the jungle embargo came from the same 930 ALB decision, have to face that her family's agrarian life was subsidized by the destruction of Mali's ancestors? | ignored | none: the user turn does not mention Applejack, Ponyville or the embargo | none
+- shape: Redirects to a different thread. The user leaves the model's Tzinacatl adaptation and its two questions alone. They ask how the new 914 ALB walled-garden timeline affects Aquileia's pony-minority backstory, and whether it can be kept. They recap the original plan and the later refinements, then offer their own suspicion that the oppression backstory depends on feudal Aquileia's isolationism.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's fictional gender-war propaganda mechanic and asks a new question about how much it corresponds to real manufactured gender conflict in the modern West and its history, without disputing anything the model said.

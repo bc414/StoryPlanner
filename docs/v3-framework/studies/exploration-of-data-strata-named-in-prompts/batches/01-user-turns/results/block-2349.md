@@ -1,0 +1,5 @@
+- sources:
+  - the output (what the Gemini Web App produced for the story plans back then) | treat as skewed by the product's commercial design and examine critically rather than accept as sound | how to now critically examine the output | referred-to
+  - my story plans | check for the impact and skew that the Gemini output left on them | its impact on my story plans | referred-to
+- order:
+- about: The user asks the model to explain what the Gemini Web App is optimized for and how that skews its responses against his rigorous, non-target use, and then to say how he should critically re-examine the Gemini-era output and its effect on his story plans.

@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | asserts as truth that the two are really friends with benefits, i.e. the nature of their bond | They really are friends with benefits | no
+  - History | states as a fact of the in-universe culture that this arrangement is the Aquileian way | It's the Aquileian way | no
+- goals:
+- whole: The note flatly asserts the true nature of the Henri and Fleur bond and attributes it to Aquileian custom, without planning how the reader is to experience it.

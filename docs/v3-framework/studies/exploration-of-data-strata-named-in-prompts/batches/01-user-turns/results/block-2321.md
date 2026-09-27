@@ -1,0 +1,4 @@
+- sources:
+  - a nuance the user heard, that the auto industry bailout paid off for the government and taxpayers but people aren't aware | treat as an unverified secondhand claim; the model is to evaluate whether it is true, not accept it | One nuance which I heard but need evaluation | first-named
+- order:
+- about: The user asks the model to check a secondhand claim that the auto bailout paid off for taxpayers and to explain what happened to the automakers compared with the banks, since they don't know the banking side.

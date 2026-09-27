@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question, how Chrysalis could exploit the naval proxy war to keep Skyfall dominant, and brings in her red-love reserve asset and secret control of Skyfall banks as background premises without disputing anything the model said.

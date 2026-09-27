@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered by casting existing Equestrian and canon characters (Moondancer, Coco Pommel, Fizzlepop, Oline) as the FAANG defector, when the user wanted a fitting figure and needed a new griffon character, possibly drawn from EaW OCs | These equestrian characters don't fit. I think I need to introduce a new side character | Flat rejection of the whole candidate list, followed by a redirected request
+  - fact of the world | The model assumed the artisan could be a pony or non-griffon; in the user's setting the FAANG-allegory character must be a griffon because the personal magical engineering is griffon magic | This character has to be a griffon in order to have the personal magical engineering griffon magic | Stated as a constraint with a reason given
+- about: The user rejects the model's list of existing pony and canon characters as unsuitable, asks for a new griffon side character (possibly modelled on recognizable EaW OCs found by searching the fandom), and sets out that character's place in the backstory and the constraint on where they can go afterward.

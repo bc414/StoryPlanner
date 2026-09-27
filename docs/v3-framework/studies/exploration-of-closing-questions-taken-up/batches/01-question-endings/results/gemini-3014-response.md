@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a complete .gemini/styleguide.md for the developmental-editor persona? | ignored | The user does not say yes or no to the offer. They move to a different question about pasting the whole bible versus splitting it into files. | none
+- shape: Redirects. The user leaves the offered styleguide draft alone and describes their current method: pasting the whole 300k-character bible into chat for analysis with no prose generation. They float splitting the bible into files so Gemini Code Assist can fetch context across them, and they add that their WPF/sqlite app would make district files easy to export. Then they ask the model to compare the two methods. This is a request for analysis and settles nothing.
+- settles:

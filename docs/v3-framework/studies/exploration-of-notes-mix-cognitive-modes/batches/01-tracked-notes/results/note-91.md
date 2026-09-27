@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Alexander Kemerskai at the story's start is a true believer of Gesunder Menschenverstand, asserted as what defines him | He is the true believer of Gesunder Menschenverstand | yes
+- goals:
+- whole: The note asserts, in a psychologist's voice, that Alexander Kemerskai begins the story as a true believer in Gesunder Menschenverstand.

@@ -1,0 +1,5 @@
+- sources:
+  - the Republican textbook (the text deconstructing Grover III's rule, which Coltbert and Verany each read and which founds the Republican Revolution of 978) | provisional idea floated by the author, not settled; the model is to work out what it would say so that it yields Kemerskai's, Verany's and Coltbert's differing conclusions | Perhaps both he and Verany separately read a Republican textbook | first-named
+  - real world groundbreaking books behind the American Revolution and the French Revolution (the model's general knowledge of history) | draw on to supply the most fitting real-world parallels for the textbook | What are the most fitting real world parallels for groundbreaking books | referred-to
+- order:
+- about: The author proposes that a Republican textbook deconstructing Grover III's divine rule and his thesis of griffon moral deficiency founded the 978 Revolution, and asks the model for real-world book parallels and for what the textbook would say to produce Kemerskai's, Verany's and Coltbert's divergent conclusions.

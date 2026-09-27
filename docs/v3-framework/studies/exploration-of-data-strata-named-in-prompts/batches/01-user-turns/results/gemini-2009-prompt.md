@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about whether a 3-to-5 item limit should be enforced through the system prompt or through the structured output schema, without pointing the model at any body of material.

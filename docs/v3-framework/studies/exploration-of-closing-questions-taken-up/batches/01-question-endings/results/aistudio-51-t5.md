@@ -1,0 +1,5 @@
+- questions:
+  - If Thorax's 1004 ALB message was intercepted or smuggled, does Chrysalis's VOPS know of it, and if VOPS let it through as a test, does Equestria's silence embolden Chrysalis to launch the 1008 Olenian invasion | no user turn | none | none
+  - When Shining Armor realizes in 1008 ALB that Thorax told the truth, how does this intelligence failure change his military doctrine, and does the guilt drive him to a disciplined, casualty-averse retreat in the Great War rather than holding static lines | no user turn | none | none
+- shape: none
+- settles:

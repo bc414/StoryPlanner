@@ -1,0 +1,6 @@
+- questions:
+  - Do the Aquileian aces and Wonderbolts treat their Matrix-Carburetor engines with intense superstition? | ignored | The user turn says nothing about pilot culture or superstition and moves to a chemistry question. | none
+  - Do they refuse to let ordinary Manehattan mechanics touch the Matrix-Carburetors, insisting that only a specialized unicorn artisan tunes the engine before a dogfight? | ignored | Nothing on who is allowed to service or tune the engines. | none
+- shape: Redirects to a real-world chemistry question. It asks how fossil-fuel hydrocarbons differ and how the matrix could plausibly change combustion with only a small magical assumption, in the way earth pony magic is grounded in phosphate weathering. It leaves the model's closing question about engine culture unaddressed and pushes back on the model's own fuel-alteration mechanism, asking for a more realistic footing.
+- settles:
+  - The matrix's fuel chemistry should rest on only a minor magical premise, with the rest following real chemistry, as earth pony magic is tied to phosphate weathering. This is stated as a premise inside a question, not as a firm ruling. | with only minor chemistry mythos (akin to earth pony magic being phosphate weathering)

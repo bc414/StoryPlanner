@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model cast Twilight's early-war Canterlot work as weapons-oriented toolmaking (miniaturized spell matrices, rifles, crystal enhancers), whereas the user's lore has Magical Supply Organization as nonviolent logistics | My lore states that Twilight was in Canterlot working on "Magical Supply Organization" which is nonviolent logistics | flat statement of what the lore says, with no explicit 'you are wrong' and no apology, then moved straight on to a new idea
+- about: The user briefly states what their lore says about Twilight's early-war work, then offers a different psychological driver (a reactive, fix-everything Atlas complex paralleling Rainbow Dash's) in place of the model's builder-versus-killer framing.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps outside the story's magic system to ask real-world questions about the neurochemistry of sex (which molecules, how the phases differ, evolutionary origins), treating the model's three-hormone account as a starting point to check rather than as an error.

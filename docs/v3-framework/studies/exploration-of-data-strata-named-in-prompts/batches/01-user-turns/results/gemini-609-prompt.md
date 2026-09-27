@@ -1,0 +1,5 @@
+- sources:
+  - canon (the show's depiction of changelings) | treat as true; used to correct the model's claim that changelings are big and strong, they are pony-sized | like in canon | referred-to
+  - Fleur Bloom (her account of farming) | treat as true and settled; only earth ponies are optimal at farming because of latent magic, which contradicts the model's changeling farm-labor idea | As detailed by Fleur Bloom | referred-to
+- order:
+- about: The user corrects the model's assumptions that changelings are big and strong and suited to farm labor, pointing to canon and to Fleur Bloom's account as the basis.

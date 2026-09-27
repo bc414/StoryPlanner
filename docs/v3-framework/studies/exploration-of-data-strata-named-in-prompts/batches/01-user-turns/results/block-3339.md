@@ -1,0 +1,8 @@
+- sources:
+  - C1 and B2 as originally constructed | treat as built on an outdated framing; sort into what stays and what gets adjusted, in terms of what is shown on the page and what the reader infers | which were originally constructed in an outdated framing | referred-to
+  - the outdated Gemini phrasings | scrutinize critically rather than accept; not to be taken as sound wording | Scrutinize the outdated Gemini phrasings | referred-to
+  - outdated data and assertions | weigh with pros and cons; some do not hold up and may need to be dropped or changed | some of the outdated data and assertions | referred-to
+  - present-day rigor | the current standard against which the older material is tested | don't stand up to the present-day rigor | referred-to
+- order:
+  - present-day rigor | over the outdated data and assertions, which are judged by whether they stand up to it
+- about: The user asks the model to re-examine the C1 and B2 beliefs, which were built in an older framing with Gemini-written phrasing, and to say what stays, what changes, and the pros and cons of the older assertions that fail current rigor.

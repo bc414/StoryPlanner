@@ -1,0 +1,6 @@
+- claims:
+  - History | Twilight withdrew to her lab and devised magical systems automating her water purification spells, using top-grade Crystal Empire crystals | She retreated to her lab and devised magical systems that would automate her water purification spells using highest grade crystals | yes
+  - History | Twilight conceived a plan for a Magical Supply Organization | Twilight comes up with a plan for Magical Supply Organization | yes
+  - History | Celestia is glad to fund Twilight's project because it keeps her away from the battlefield | Celestia is happy to fund Twilight if it keeps her off the battlefield | yes
+- goals:
+- whole: The note reports, as in-universe history in 1007, that Twilight retreated to her lab, automated her water purification magic, proposed a Magical Supply Organization, and won Celestia's funding as a way to keep her off the battlefield.

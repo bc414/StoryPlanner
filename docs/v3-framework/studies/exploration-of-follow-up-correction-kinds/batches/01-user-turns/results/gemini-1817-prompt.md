@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on to a new question, asking how griffon serfs and miners viewed things across each era of the setting's history, without disputing anything in the model's analysis.

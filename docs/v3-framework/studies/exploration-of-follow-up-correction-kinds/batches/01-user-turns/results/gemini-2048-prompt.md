@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - proposed approach or design choice | The model's suggestion that the AI also return the original sentences in each bucket for the coverage check is turned down as adding to the AI's output load | I don't want to confuse the AI by making it also output originals | stated flatly as a preference with a reason (risk of confusing the AI), then an alternative offered as a question
+- about: The user declines the model's plan to have the AI output original text alongside the sorted notes and proposes instead to run the character-level red/green coverage check on the bucket entries themselves, ignoring pronouns that were changed.

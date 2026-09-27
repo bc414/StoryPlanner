@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model built its answer around Celestia eating the cake and her psychological shift, whereas the user's question is about why the map, dormant with the Mane 6 already seated at their thrones, wakes after the morale cakes in general | restating the scene sequence: thrones, map still dormant, then it activates after the morale cakes | implicit, by restating the scene setup as the frame the answer should fit, with no explicit statement that the model erred
+  - which material was drawn on | The model supplied a freshly invented mechanism (Tree as automated defense, safe mode, Celestia as dampening field, thermodynamic circuit) instead of an explanation drawn from the established world rules | what is the explanation grounded in the world rules? | implicit, as a re-asked question that puts the stress on the phrase grounded in the world rules
+- about: The user restates the scene's sequence (Mane 6 on thrones with a dormant map, activation after the morale cakes) and re-asks for an explanation grounded in the world rules, without acknowledging the model's previous answer.

@@ -1,0 +1,4 @@
+- sources:
+  - the phase 2 system instruction | the existing prompt text that the model is to revise, applying the user's decisions about verbatim output | update the phase 2 system instruction | referred-to
+- order:
+- about: The user settles the open decisions by choosing ugly, total verbatim output with no pronoun replacement, and asks the model to update the Phase 2 system instruction accordingly.

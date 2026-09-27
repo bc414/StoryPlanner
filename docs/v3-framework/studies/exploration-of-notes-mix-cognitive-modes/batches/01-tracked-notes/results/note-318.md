@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | places a later revision in the reading order: a further belief about the unicorn magic law is overturned when Twilight shows other unicorns can be as efficient as she is | Twilight eventually disproves that too, saying other unicorns can be just as efficient as her | yes
+- goals:
+- whole: The note sets out a later step in the sequence of corrections to the unicorn magic law, where Twilight overturns another assumption by saying other unicorns can match her efficiency.

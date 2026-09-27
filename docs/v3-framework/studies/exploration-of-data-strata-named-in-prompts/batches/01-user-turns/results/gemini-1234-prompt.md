@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a what-if variation on the naval proxy-war plot, in which Discret's escort navy protects only Aquileian merchants and the later FJA and PNdA government keeps that fleet for a future war, and it does not point the model at any body of material.

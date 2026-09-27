@@ -1,0 +1,6 @@
+- claims:
+  - History | He refused Skyfall loans because he took them for a foreign griffon invasion | He refused Skyfall loans, thinking it's a foreign griffon invasion | yes
+  - History | He used rhetoric and nationalism he learned from Aquileia (from Moriset Discret) to get his workers to work harder | he uses rhetoric and nationalism learned from Aquileia (Moriset Discret) to get his workers to work harder | yes
+  - History | He got his workers to believe they could become rich and powerful as he is | make them think they can be rich and powerful like him | yes
+- goals:
+- whole: The note reports, as in-world history dated 994, how this character turned down Skyfall loans and instead used Aquileian-learned rhetoric and nationalism to push his workers toward the hope of wealth and power.

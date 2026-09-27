@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's claim that Skyfall would use its fleet to disrupt trade in peacetime, arguing that ruthless capitalists with little manpower and a weak or kleptocratic government would not do this, and asks whether it is plausible.

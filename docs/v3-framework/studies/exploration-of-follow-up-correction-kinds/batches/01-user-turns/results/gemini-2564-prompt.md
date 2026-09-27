@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of Coltbert's naval academy as given and asks a follow-up about whether this naval culture is the precedent leading to the Aquileian cartel in Skyfall.

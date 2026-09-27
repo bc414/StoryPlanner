@@ -1,0 +1,6 @@
+- sources:
+  - the poison option (the model's Poisoned Hearth alternative) | rejected as too hard to coordinate given who lives in occupied Canterlot, so do not use it | The poison seems too hard to coordinate | referred-to
+  - the author's account of occupied Canterlot's demographics (native ponies afraid of change, committed ponies gone as refugees to Manehattan, victims, cynical collaborators) | treat as true and as the setting facts that any scenario has to fit | The demographics of occupied Canterlot are ponies who are mostly native to the city | first-named
+  - the plan to give them rifles (the current rifle plan, with the dawn attack and paradrop) | keep as the working plan and build on it by adding Luna's dream contact | the plan to give them rifles via their dreams | referred-to
+- order:
+- about: The user rejects the poison alternative by explaining the city's demographics, and then extends the existing rifle plan with Luna contacting suffering civilians in dreams before a dawn attack, done at Applejack's request and without Celestia knowing.

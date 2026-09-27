@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only an attached plan export (152,028 words, with no text of its own), so it supplies material and says nothing that corrects the model's analysis.

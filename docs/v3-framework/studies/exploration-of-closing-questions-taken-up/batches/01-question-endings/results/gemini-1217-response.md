@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look up sunrise and sunset times for their New Jersey area, to compare permanent Standard vs. Daylight time? | ignored | The user does not take up the offer. They go on to a general question about the ideal biological schedule relative to the sun. | none
+- shape: The user turn redirects and reframes. It pushes back on the clock-time framing (time zones are arbitrary, the sun is absolute) and asks a broader question instead: what schedule is best relative to the sun, and how the changing day length affects it. It does not take up the offered lookup.
+- settles:

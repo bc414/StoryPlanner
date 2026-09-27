@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up factual question about who designed the 1935 and 1947 labor acts and what motivated them, without pointing the model at any particular body of material.

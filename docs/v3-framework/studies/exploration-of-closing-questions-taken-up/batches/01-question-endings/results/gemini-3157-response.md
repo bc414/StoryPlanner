@@ -1,0 +1,4 @@
+- questions:
+  - Does Chrysalis use that name willingly with Equestrians, to mock their naming conventions, or is it the Equestrian translation of her native Changeling (Xhosa) name that she is trying to run from? | no user turn | none | none
+- shape: none
+- settles:

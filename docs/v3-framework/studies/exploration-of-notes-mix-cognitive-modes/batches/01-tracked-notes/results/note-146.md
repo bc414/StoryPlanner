@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | offers, as something people say, the claim that ponies behave no differently from changelings, a proposition about ponies and changelings put forward for the theme | They say ponies aren't any different from changelings behaviorally | no
+- goals:
+- whole: The note gives a single reported saying that ponies and changelings behave alike, which states a thematic claim and describes no action by Bright Mac or Pear Butter on the page.

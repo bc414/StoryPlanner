@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds their own view of Twilight's central opening conflict (wanting Applejack's grounding while feeling she disappoints Celestia) and says the post-town-hall Twilight building the rifle is free of that guilt and focused on improving things for her friends, without pointing the model at any body of material.

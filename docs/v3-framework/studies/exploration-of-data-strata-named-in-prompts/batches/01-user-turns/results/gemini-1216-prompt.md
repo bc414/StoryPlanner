@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user voices a worry that air-fried chicken will dry out before it is cooked through, noting their dad won't accept any rawness, as a follow-up on the cooking-method comparison.

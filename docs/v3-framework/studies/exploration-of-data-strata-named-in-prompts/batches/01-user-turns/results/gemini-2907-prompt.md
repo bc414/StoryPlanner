@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to propose how the Aquileians would manufacture the thymoluminescent ink and stamp, and to suggest a French name for the stamp with its English meaning, without pointing at any body of material to draw on or avoid.

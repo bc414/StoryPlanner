@@ -1,0 +1,3 @@
+- questions:
+- shape: A short follow-up request that asks for the same walkthrough in C# instead of Python. It answers nothing, because the model turn asked nothing. It only extends the topic to a different language.
+- settles:

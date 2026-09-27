@@ -1,0 +1,8 @@
+- questions:
+  - How would the frontline Changeling generals react when Vaspier's purges set off uprisings that the Heer has to put down? | ignored | Nothing on the generals or the Heer. The user turn moves on to where Vaspier fits in their own political structure. | none
+  - If Vaspier controls what intelligence reaches Chrysalis, how might he use manipulated macroeconomic data to eliminate rivals in Vesalipolis? | ignored | Nothing on data manipulation or purging rivals. The user asks instead how Vaspier fits the existing state structure. | none
+- shape: The user sets aside the model's analysis and its two questions and corrects its expansion of the acronym VOPS. They attach their story plans and ask for help with a new problem: how to place Vaspier in their dual Bauleiter/Statthalter state, given a Chrysalis who is not a cartoon villain. They offer one tentative idea, that he is a Statthalter born into the system.
+- settles:
+  - VOPS stands for Vesalipolis Office of Public Safety, not the model's German-style expansion | VOPS stands for Vesalipolis Office of Public Safety
+  - In the user's story, Chrysalis is revealed not to be a cartoon villain | Chrysalis as revealed to be not a cartoon villain
+  - The story's state is a doppelstaat of Bauleiter and Statthalters (stated as already established) | I established a dopplestaat of Bauleiter and Statthalters

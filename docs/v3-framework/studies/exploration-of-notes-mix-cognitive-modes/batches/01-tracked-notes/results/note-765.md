@@ -1,0 +1,6 @@
+- claims:
+  - History | In peacetime training, Equestrian volunteers powered the shields with ease | In peacetime training, Equestrian volunteers easily powered the shields | yes
+  - History | The ease came from the volunteers' baseline Pink Love (Grace/Trust) being artificially raised by Equestrian harmony | because their baseline Pink Love (Grace/Trust) was artificially inflated by Equestrian harmony | yes
+  - History | On the proving grounds the shields appeared invincible | The shields looked invincible on the proving grounds | yes
+- goals:
+- whole: The note reports, as an in-universe historian, how the shields performed in peacetime training, giving the cause of the easy success and the impression of invincibility it created.

@@ -1,0 +1,5 @@
+- sources:
+  - my lore (Severyana) | the author's established Severyana material is the base to reason from; the earlier determination that they differ from Equestria because they can't control the weather is treated as settled | I determined they are not like Equestria because they can't control the weather | referred-to
+  - the story plan | existing plan text on Severyana that covers burning wood for warmth and is silent on food; treated as the current record with a gap the model should help fill | The story plan talks about burning wood for warmth but doesn't talk about food | referred-to
+- order:
+- about: The user applies the geography-and-agriculture analysis to their Severyana lore, asking whether Severyana should have weather-vulnerable partial agriculture and what would set them apart from the changelings, given that the story plan is silent on their food.

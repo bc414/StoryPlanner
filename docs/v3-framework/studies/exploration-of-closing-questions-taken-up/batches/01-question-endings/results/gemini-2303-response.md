@@ -1,0 +1,6 @@
+- questions:
+  - Do the Wonderbolts realize the Changelings' stationary power plants are their Achilles' heel? | ignored | Nothing on it. The user drops the power-plant strategy thread and goes back to engine mechanics. | none
+  - Does Applejack order her heavy-armored Spitfires to fly low, bypass the front, and strike the Changeling power grids to cut ammunition supply? | ignored | Nothing on it. No word on the strike plan or on Applejack's orders. | none
+- shape: Redirects. The user drops the model's strategic question and asks to restart the hybrid engine mechanics from the ground up. They ask a new physics and chemistry question about how exhaust can become vehicle efficiency. They also state their own understanding for checking: cogeneration captures exhaust heat, but a moving vehicle doesn't.
+- settles:
+  - The hybrid engine begins as a product for Star Energy tractors. | The hybrid engine starts as a product for Star Energy tractors

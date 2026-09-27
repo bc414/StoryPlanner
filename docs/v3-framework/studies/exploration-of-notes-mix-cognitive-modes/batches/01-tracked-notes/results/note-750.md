@@ -1,0 +1,4 @@
+- claims:
+  - History | Twilight and Fleur, through industry, make unicorn magic available to all creatures, stated as a fact of the world | Twilight and Fleur use industry to make unicorn magic available to all creatures | no
+- goals:
+- whole: The note reports, as a plain world fact, that Twilight and Fleur industrialize unicorn magic so all creatures can use it, without saying how the reader is to encounter it or what they are to take from it.

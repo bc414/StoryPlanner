@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pauses story drafting to say they are only building background knowledge, and asks four factual questions about oxytocin versus serotonin, cocaine chemistry, betel nut and the Yemeni chewing drug, and current meth addiction treatment.

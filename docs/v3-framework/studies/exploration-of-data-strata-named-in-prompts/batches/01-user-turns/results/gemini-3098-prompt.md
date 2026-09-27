@@ -1,0 +1,5 @@
+- sources:
+  - existing MLP fanfics | to be drawn on as comparables: the model should name published fanfics that resemble the author's Coltbert's games lore | "existing MLP fanfics that are like" | first-named
+  - my lore about Coltbert's games | the author's own material, used as the yardstick the fanfics are compared against | "my lore about Coltbert's games" | referred-to
+- order:
+- about: The user asks the model to point out existing MLP fanfics that resemble the part of their lore concerning Coltbert's games.

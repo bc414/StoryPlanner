@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author asks whether Trimmel and Henri should accompany the two protagonists in the Cloudbury scene, and supplies the story's timeline (the Cloudbury arc comes after Stagnation and the White Peace, during a proxy war against Chrysalis's volunteers) without pointing to any body of material for the model to draw on.

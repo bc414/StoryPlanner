@@ -1,0 +1,5 @@
+- claims:
+  - History | The Magical Supply Organization was developed by Twilight, for the hospitals and field tents in Ain Trotgourait | Developed by Twilight for the hospitals and field tents in Ain Trotgourait | yes
+  - History | Twilight developed it after she returned home from burnout, a fact of the circumstances of its invention | after she went back home from burnout | yes
+- goals:
+- whole: The note reports as historical fact who invented the Magical Supply Organization, for what purpose and place, and under what circumstances of her return from burnout.

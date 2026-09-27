@@ -1,0 +1,8 @@
+- questions:
+- shape: The user turn puts no question to the model and answers none, because the model turn asked none. It takes the valve and nozzle breakthrough as given and builds on it. It adds a parallel storyline: Applejack and Comet Shine in the jungle, connected to the lab by letters. It uses the breakthrough's problem (the need for many valves and money) to set up the funding solution and a friendship lesson. It is a plan-extending contribution that moves the story on to the next thread.
+- settles:
+  - While Twilight, Fleur and Hans develop the weapon, Applejack is in the Tzincatl jungle with Comet Shine, negotiating with the tribes to cooperate in the war against Chrysalis | Applejack is in the Tzincatl jungle with Comet Shine negotiating with the tribes
+  - The love letters between Twilight and Applejack, modeled on season 1-2 friendship lessons, are the communication bridge between the two storylines | The love letters (modeled after friendship lessons from season 1-2) are the communication bridge
+  - One letter will describe the breakthrough and the problem, and Applejack and Comet Shine will read it and realize the funding solution | one of the letters will describe the breakthrough and the problem
+  - The funding solution is the Tzincatl tribes in class D and E who want to sell drugs again, combined with the donor who supplies Red Love | the Tzinacatl of tribes in class D and E who want to sell drugs again, plus the donator which gives red love
+  - This sequence carries a friendship lesson about the hard reality of what it takes to win | a friendship lesson about the hard reality that it takes to win

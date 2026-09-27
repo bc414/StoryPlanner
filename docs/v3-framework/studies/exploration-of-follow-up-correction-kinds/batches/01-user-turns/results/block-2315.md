@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about the political makeup of the WSB community, adding their own observation that anti-institutional sentiment exists across both parties and among non-voters, without saying the earlier advice was wrong.

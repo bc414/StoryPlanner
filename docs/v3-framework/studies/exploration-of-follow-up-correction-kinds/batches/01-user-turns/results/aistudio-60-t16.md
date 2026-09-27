@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of a pre-built, decentralized Charitostatic shield grid and asks, as a follow-on design question, whether the shield matrices should be miniature crystal hearts running on pink love instead of unicorn magic running on red love.

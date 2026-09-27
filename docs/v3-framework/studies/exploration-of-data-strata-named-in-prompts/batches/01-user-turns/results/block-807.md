@@ -1,0 +1,5 @@
+- sources:
+  - the four axes and anti-poles as laid out earlier in this conversation, especially the 4th axis and the Stalliongrad placement | build on and refine the 4th axis; the Stalliongrad isolationist label is rejected as wrong | Please refine the 4th axis; Stalliongrad is not isolationist | referred-to
+  - the author's own statements about the setting (Aquileia and Coltbert raising the cost of conquest through asset specificity; Stalliongrad intervening in Nova Griffonia as Trotskyites) | treat as true and use as the correction and basis for the refinement | Aquileia and Coltbert solved it by raising the cost of conquest; they intervened in Nova Griffonia for the revolution | first-named
+- order:
+- about: The user asks the model to refine the fourth axis (extraction vs sharing, ego versus harmonic capitalism) and explore its link to classical liberalism and bourgeois revolutions, while correcting the model's earlier labelling of Stalliongrad as isolationist.

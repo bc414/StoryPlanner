@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to begin the assignment pass of all six axes across the 37 systems, with the model building a spreadsheet or interactive artifact for the cross-tabulation checks? | ignored | Nothing on starting the pass or on a spreadsheet. The user goes back to what axes 5 and 6 mean, offering guesses that axis 6 is about opportunity and axis 5 about us versus them. | none
+- shape: Redirects to pin down the meaning of two axes before any assignment. The user offers tentative readings of axis 6 (opportunity) and axis 5 (us versus them, but not nationalism) and asks the model to confirm or refine them. It does not take up the offered next step.
+- settles:
+  - Axis 5 is not about nationalism, though the earlier tribalism-versus-universalism label pointed at an us-versus-them spirit. This is offered as a narrowing of what the axis means, still phrased partly as a question. | it's not nationalism either

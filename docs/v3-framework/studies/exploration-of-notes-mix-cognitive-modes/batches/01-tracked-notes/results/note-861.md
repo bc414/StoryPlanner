@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-builder ontology rule | Names among the Aquileians are simply French names, with surnames drawn from terroir and region | Aquileian names are just French names, with surnames based in terroir and region | outside
+- goals:
+- whole: The note fixes, as a god-mode rule of the fictional world, that Aquileian naming follows French given names and terroir- and region-based surnames.

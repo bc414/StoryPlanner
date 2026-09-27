@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the revised Blueblood and Celestia mapping and moves on, asking for an analysis of the Temberik under that framework and supplying background on their Kurdish inspiration, their non-canon status, their mountain placement and the crystals.

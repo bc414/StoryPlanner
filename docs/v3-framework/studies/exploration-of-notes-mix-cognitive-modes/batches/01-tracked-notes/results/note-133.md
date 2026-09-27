@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | the leaderboard is modelled on Aquileian Royal Fairs and the tableau de chasse, named as its inspiration | Inspired by Aquileian Royal Fairs and the tableau de chasse | no
+  - History | SAA introduced a corporate leaderboard ranking the families by tonnage sold each month (world date 990) | SAA introduces a corporate leaderboard ranking the families on tonnage sold each month | yes
+- goals:
+- whole: The note records SAA's introduction of a monthly tonnage leaderboard of families in 990, while attributing its design to named real-world models.

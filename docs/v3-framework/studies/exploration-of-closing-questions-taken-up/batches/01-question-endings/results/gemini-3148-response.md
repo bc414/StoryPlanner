@@ -1,0 +1,4 @@
+- questions:
+  - Will the Markdown and wikilink export be triggered automatically on every database save, or run manually as a batch before an analysis session? | ignored | Says nothing about the export function or when it runs. It moves to Claude's deferred answers, load on Anthropic and Google compute, and thinking budgets. | none
+- shape: Drops the model's question about the export design and redirects to a new topic. The user reports that Claude free with extended reasoning defers its answer on the world Bible, offers a theory that Anthropic prioritises paying corporate users at peak hours, and asks the model to confirm that cloud compute is limited. It also asks whether Gemini and ChatGPT lower thinking budgets instead, and whether Gemini's occasional delayed thinking start is GCP load. The turn is speculation and new questions about infrastructure, not about the story or the planner.
+- settles:

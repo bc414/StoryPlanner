@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Actia Pagala is a warlord and butcher at the start of the story | She is a warlord/butcher | yes
+  - Characterization | Her way of leading is through fear | She leads through fear | yes
+  - Characterization | She permits looting as a means of keeping her troops' morale high | She allows looting to keep morale high | yes
+- goals:
+- whole: The note asserts as fact who Actia Pagala is at the start of the story: a fear-driven warlord who tolerates looting to keep her troops content.

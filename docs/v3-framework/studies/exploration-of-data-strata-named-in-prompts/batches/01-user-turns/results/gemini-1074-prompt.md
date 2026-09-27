@@ -1,0 +1,5 @@
+- sources:
+  - the story plans for Coltbert's role | the model is to review them and analyze and synthesize the user's new ideas against them | Please review the story plans for Coltbert's role | referred-to
+  - the user's own new ideas about salons, FJA luxury imports, Moriset Discret and Coltbert founding the first salon | offered as speculative suggestions, not settled fact, for the model to analyze and synthesize | I think these salons are also heavy importers of FJA luxury goods | first-named
+- order:
+- about: The user adds speculative worldbuilding about salons, FJA luxury imports and Coltbert founding the first salon, and asks the model to review the story plans on Coltbert's role and synthesize them with these ideas.

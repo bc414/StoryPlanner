@@ -1,0 +1,5 @@
+- sources:
+  - this analysis | the model's preceding generational and audience-reception analysis is the base to be built on and related to the second source; not questioned or ranked | How does this analysis intersect | referred-to
+  - the original brony wave starting in 2011 | the fandom and its historical moment are the material the analysis is to be mapped against, drawn from general knowledge; no trust or doubt attached | the original brony wave starting in 2011 | referred-to
+- order:
+- about: The user asks the model to connect its just-given generational and audience-reception analysis to the original 2011 brony fandom wave.

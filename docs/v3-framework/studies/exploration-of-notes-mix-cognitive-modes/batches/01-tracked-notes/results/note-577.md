@@ -1,0 +1,7 @@
+- claims:
+  - Analogies | the crisis phase of the Republic is modelled on WW1 and revolution | The Crisis (WW1/Revolution) | yes
+  - History | the death of Grover IV set off the collapse of the Republic | Grover IV's death triggers the collapse | no
+  - Analogies | the 978 Republican Revolution (Kemerskai) is modelled on the liberal revolutions of 1848 or 1917 | mimics the liberal revolutions of 1848 or 1917 | yes
+  - History | the revolution was betrayed by the Textile Barons, industrialists who put profit ahead of rights | betrayed by the "Textile Barons" (Industrialists) who preferred profits over rights | no
+- goals:
+- whole: The note records the Republic's crisis and its failed revolution as in-world events while pairing them with the real-world WW1, 1848 and 1917 models they imitate.

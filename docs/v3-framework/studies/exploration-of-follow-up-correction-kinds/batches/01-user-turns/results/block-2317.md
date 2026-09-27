@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up questions, about how much of WSB would join the establishment given the chance and how far its stance comes from material conditions rather than morality, extending the model's analysis without disputing any part of it.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's stated reason for the FJA's distrust of the PNdA and adds new story detail on how Discret used Coltbert to force the sword nobles to free serfs and become regional processors, with rebels beheaded and loyalists enriched.

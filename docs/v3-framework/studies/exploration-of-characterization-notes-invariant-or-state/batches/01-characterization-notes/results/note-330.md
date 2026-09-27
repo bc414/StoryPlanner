@@ -1,0 +1,6 @@
+- claims:
+  - span | She remembers the Canton Canterlot Wedding and berates herself for losing control there | "She remembers Canterlot Wedding and chastises herself for losing control" | present-tense state at the start of TLTT; tied to the Canterlot Wedding event as a past episode
+  - span | She does not dismiss the Canterlot Wedding failure as incompetence | "does not write it off as incompetence" | stance held at the start of TLTT, in response to the Canterlot Wedding event
+  - span | She does not treat the failure as a sign her world view is wrong | "doesn't view it as a sign that her world view is wrong" | stance at the start of TLTT, after Canterlot Wedding
+  - span | She takes the failure as evidence that magic is fickle | "She takes it as evidence that magic is fickle" | conclusion drawn from Canterlot Wedding, held as of the start of TLTT
+- beside: Backstory, note 329 (world date 1002) speaks of the same episode: she got high and foggy after draining Cadance and Shining Armor's love, lost her Machiavellian discipline and reverted to Predator's Dilemma instincts. Note 325 (1002) also speaks of Canterlot Wedding, giving her reasons for going and its outcome. This note is her later reading of that loss of control.

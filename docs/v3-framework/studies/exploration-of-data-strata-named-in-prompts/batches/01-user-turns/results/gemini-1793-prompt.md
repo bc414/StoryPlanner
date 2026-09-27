@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the story's resolution for the 25% of people left behind is for them to immigrate to Equestria after the war, without pointing the model at any body of material.

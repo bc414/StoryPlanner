@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look into other post-dinner habits to avoid, such as exercising or sleeping right after a meal? | partly answered | The user takes up the offer's general direction, post-meal habits, but asks about walking after eating. Walking is not one of the two examples offered, and the user does not say yes or no to the offer itself. | What about walking after eating?
+- shape: A short follow-up that stays on the same health topic. The user picks a neighbouring habit, walking after a meal, in place of the model's suggested examples. It is a new information request and has nothing to do with story planning.
+- settles:

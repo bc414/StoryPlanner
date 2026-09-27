@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the loss-of-insight worry and offers a new observation, that packed mixed v1 notes serve AI planning but not the writer, and asks for an analysis of what that means for the migration and for expansion still to come.

@@ -1,0 +1,5 @@
+- claims:
+  - History | Chrysalis founded a company, Krystallfels Handelsgesellschaft, in 983 to mine crystals from an isolated island | Chrysalis then creates Krystallfels Handelsgesellschaft for mining crystals | yes
+  - History | The mining island is located in a distant sea, far from Skyfall, Olenia and the Changeling Lands | from an isolated island in the sea far away from Skyfall by Olenia and the Changeling Lands | yes
+- goals:
+- whole: This note reports as in-world history that Chrysalis founded a crystal-mining trading company on a remote island far from Skyfall, Olenia and the Changeling Lands.

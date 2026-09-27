@@ -1,0 +1,4 @@
+- sources:
+  - this all (the Skyfall extraction and dependency scheme just discussed) | treated as a proposal under consideration, whose timing in the timeline the user is asking the model to work out, not yet settled | Should this all already be happening | referred-to
+- order:
+- about: The user asks the model to place the Skyfall dependency scheme on the timeline, either already in place in Grover IV's gilded age or escalating after Skyfall declares independence from the Empire, or unchanged business as usual.

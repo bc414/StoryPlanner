@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user announces a newly pasted hypothesis and asks the model to analyze it fully and answer every question in it, moving on without commenting on the model's previous answer.

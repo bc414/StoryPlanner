@@ -1,0 +1,5 @@
+- questions:
+  - How do the Griffonian Empire or the Equestrian Republic interact with the Dragon Lands in the Great War setting? | ignored | Says nothing about the Dragon Lands or the war's geopolitics. It turns to reflect on the user's own process. | none
+  - Do the warring nations weaponize dragon greed biology by funneling gems to dragon mercenaries as living siege weapons, or is dragon magic too unstable for modern warfare? | ignored | Neither option is taken up, and dragon magic in warfare is not mentioned. | none
+- shape: The user does not answer the model's question. They step back and reflect on their own method. While watching, they patched the show's quirks with in-world materialist explanations. In doing so they absorbed universal themes and applied them to canon FiM, and those themes grew into the parallels in their TLTT plans. The turn is an observation about how they work, not a reply to the consultant's prompt.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the model's worldbuilding analysis to their own prose craft, naming chapters 7 and 5 as strong for close third-person limited and the early chapters as head-hopping among the six, and asks the model to evaluate that.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - register or format | The model's answer was framed in the numbered Layer 1/3/4 and Stage 0/2/3 vocabulary, which the user wants set aside in favour of plain descriptions of the work | Let's not be constrained by the arbitrary terms like numbered layers and stages | stated as a preference for dropping the terminology, in passing, with no apology or reproach
+  - register or format | The model used 'story planner' as one umbrella for six different purposes, and the user wants specifics named instead | I don't want to use the umbrella term of story planner or story design to mean specifics | flat statement of preference, with the reason given that a precise mental model is needed for both the data and the blocks of work
+- about: The user uploads a sample of entity notes and asks for a precise account of what those notes are, what the fields should each answer, and what each block of project work needs, while asking the model to drop the layer/stage numbering and the umbrella 'story planner' term.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - technical claim about the tools | The model put NotebookLM alongside AI Studio as loading uploaded documents whole into the context window, and cast RAG as the weakness of the Gem. The user describes NotebookLM as itself vectorizing, chunking and using RAG with strict grounding. | the request names 'Notebook LM's vectorization, chunking and RAG approach' as the thing to set against AI Studio | implicit, by presupposition inside a new request; no disagreement stated and no reason given
+- about: The user asks for a fuller comparison of NotebookLM's retrieval-based, strictly grounded pipeline against AI Studio with the whole story plan pasted in, for developmental-editing use, and in doing so frames NotebookLM differently from the model's grouping of it with direct context injection.

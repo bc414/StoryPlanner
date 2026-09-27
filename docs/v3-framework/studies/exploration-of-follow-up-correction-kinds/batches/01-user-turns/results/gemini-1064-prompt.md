@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's historical mapping and asks whether it implies a story resolution, proposing that the buyout is a stopgap containment measure and that lasting investment in the underclass, in the setting's "harmonic capitalism" mode rather than gentrification or exploitation, is the long-term answer.

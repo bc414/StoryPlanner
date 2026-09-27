@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-rule ontology) | states as an invariant law of the world that a dragon's mass scales with its Greed, Ego, and Hoarding | A dragon’s mass scales with Greed, Ego, and Hoarding | outside
+- goals:
+- whole: The note asserts, as a god-mode rule of the fictional universe, that a dragon's body mass grows with its greed, ego and hoarding, and asks nothing of the reader.

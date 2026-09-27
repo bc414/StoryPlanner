@@ -1,0 +1,6 @@
+- claims:
+  - History | Celestia intended to coddle Velvet and treat her like a child, and Velvet rejected this | Celestia was going to just coddle Velvet and treat her like a child, which Velvet rejects | yes
+  - History | Luna, having reclaimed her identity as Princess of the Night through Mali's therapy, treated Velvet as an adult, listened to her trauma, and tried to bring her to a positive-sum mindset | Luna, fresh from reclaiming her identity as Princess of the Night via Mali's therapy, attempt to treat Velvet as an adult | yes
+  - History | Velvet rejected Luna's approach too and founded the Olenian Resistance | but Velvet rejects this too, and starts the Olenian Resistance | yes
+- goals:
+- whole: The note reports, as in-universe history, how Celestia's and then Luna's differing approaches to Velvet were both rejected and led her to found the Olenian Resistance.

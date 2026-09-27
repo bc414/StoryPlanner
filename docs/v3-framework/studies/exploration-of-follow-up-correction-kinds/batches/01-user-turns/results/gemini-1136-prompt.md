@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, building on the model's list of persisting ideas, to have those still-present ideas scrutinized and possibly reworked, without disputing anything in the list.

@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | Cadance's special talent in magic is love, which in the story's materialist magic system is the charitostatic effect | For magic, Cadance's special talent is "love" which in my materialist magic system is the charitostatic effect | none
+  - unfixed | Cadance has conviction for the charitostatic portion of a spell, for example the conception spell that turns romantic love into reality (a baby) | So Cadance has conviction for the charitostatic portion of a spell, such as the conception spell | none; the note is framed under the display question of who she is at the start of TLTT, but the sentences use present tense with no marker of time
+- beside: none

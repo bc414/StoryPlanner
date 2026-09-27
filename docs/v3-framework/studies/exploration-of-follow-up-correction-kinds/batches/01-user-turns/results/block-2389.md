@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's account of P&K's Chrysalis as a background threat known mainly through her effects on others was not grounded in her actual scenes, and the user sends it back to those scenes to be checked | Review P&K's sparse Chrysalis scenes | implicit and mild: given as a bare instruction after a confirmation-seeking question, with no statement of error and no reason
+- about: The user brings in the fandom's joke about a good Chrysalis versus a bad one, asks the model to confirm that their own Chrysalis differs from both, and directs it to go back to P&K's few Chrysalis scenes before judging.

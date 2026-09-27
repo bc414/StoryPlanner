@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's framing of the Paradrop, restates it in their own terms as the climax of Aquileian ego-capitalism (agency and victory but not peace), and asks for the Aquileians' place in the 2008-2026 allegory, what the "one pillar, not the full synthesis" claim says about the present day, and a full map of factions, events and their allegories.

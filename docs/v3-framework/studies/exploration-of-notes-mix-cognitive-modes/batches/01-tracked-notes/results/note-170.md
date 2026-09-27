@@ -1,0 +1,4 @@
+- claims:
+  - History | the Aquileian Volunteers carried out an activity of bringing the MPA thugs under control during the period 990-995 | Taming the MPA Thugs | yes
+- goals:
+- whole: The note names, as a bare activity entry, the organization's effort to subdue the MPA thugs, reported as a historical fact.

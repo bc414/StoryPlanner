@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to invent name options, a special talent, and Acornage and Skyfall roles for the fake mother of Chrysalis's cover family, taking the fake father as Silver Sterling, without pointing to any body of material to draw on.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: declined suggestion (the user's chosen lore replaces the model's recommendation) | the model's recommended second-tier name, Franc-Tireur, and its stated motive for the rebrand (rejecting the King and the Jaegers), are replaced by the user's own account, in which the veterans clubs swap Chasseur for Voltigeur because of acrobatics | "I think the veterans clubs then swapped chasseur for voltigeur because it's about acrobatics" | stated flatly as the user's own lore with a short reason; Franc-Tireur is never named or rejected outright, and the correction comes after agreement with the first-tier idea
+- about: The user accepts the Chasseur-under-Discret idea and adds lore about Chrysalis copying it and the changeling word for "Protector", then quietly sets aside the model's Franc-Tireur recommendation by saying the clubs moved to Voltigeur.

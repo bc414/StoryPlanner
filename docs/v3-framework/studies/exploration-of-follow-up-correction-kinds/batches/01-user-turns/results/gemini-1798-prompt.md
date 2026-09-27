@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies background on Coltbert, the griffon and pony demographics and the griffonesses' affairs, then asks new questions about whether Coltbert's status should be inherited or earned and whether his cutie mark should point to research or to social connection.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on with a fresh instruction, asking the model to analyze newly supplied context, draw out its implications for Chrysalis's story, and name what further context it needs, without disputing anything in the previous turn.

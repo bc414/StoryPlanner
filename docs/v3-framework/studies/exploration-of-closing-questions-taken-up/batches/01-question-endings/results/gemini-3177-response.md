@@ -1,0 +1,4 @@
+- questions:
+  - How effectively is the user's current JSON serialization and markdown tagging preventing subtle character and lore hallucinations during deep analysis? | ignored | Nothing said about their tagging or hallucination rate; the turn moves on to asking about ChatGPT. | none
+- shape: Redirects to a new topic: asks the model to extend the Claude-vs-Gemini comparison to ChatGPT (raw capabilities for narrative analysis, closing the gap, retrieval/ingestion paradigm), without engaging the question it was just asked.
+- settles:

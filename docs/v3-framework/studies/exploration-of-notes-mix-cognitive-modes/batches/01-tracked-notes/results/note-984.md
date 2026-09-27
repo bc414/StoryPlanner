@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | plans the reader's arc of understanding: late in reading they come to learn that core concepts of the Equestrian, Aquilean, Herzlander and Changeling societies are the same things under different names | Readers eventually find out that concepts that are core to ... are actually the same things with different names | yes
+- goals:
+  - The reader comes to realize that the four societies' core concepts are one and the same, only named differently | WorldInference | Readers eventually find out that concepts ... are actually the same things with different names
+- whole: The note sets out, as a reading-order plan, that the reader gradually discovers that the four societies' core concepts are one unified thing under different names.

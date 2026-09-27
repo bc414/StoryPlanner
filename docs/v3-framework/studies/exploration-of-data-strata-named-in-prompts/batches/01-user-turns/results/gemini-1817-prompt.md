@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to describe how griffon serfs on the land and in the mines would have viewed their situation across five successive periods of the setting's history, from pre-705 feudal Aquileia through the Coltbert Reforms.

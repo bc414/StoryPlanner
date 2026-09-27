@@ -1,0 +1,6 @@
+- questions:
+  - Whether the user wants an analysis of how Mach-5 hyper-velocity gunfire changes dogfight tactics (e.g. Rainbow Dash barely needing to lead targets) | ignored | Nothing on dogfight tactics; the user moves to the Wonderbolts' sustainability and how love donators would fix it | none
+- shape: Skips the offered tactics analysis and moves on. It restates the tech-gap picture in its own terms (Wonderbolts look invincible but can't be sustained), then proposes a resolution: donated love-magic powering spellfire matrices in place of chemically supplied guns. It reads as a proposal put to the model for confirmation, though it has no question mark.
+- settles:
+  - The Wonderbolts' technological edge is framed as invincible-looking but unsustainable, because of the chemical and resource burden of the ammunition | "look invincible but are unsustainable?"
+  - The love donators solve the resource problem: donated magic powers spellfire matrices that replace the high-tech chemical-ammo guns | "replacing high tech guns that need grueling chemical processes for ammo with spellfire matrices that use donated magic"

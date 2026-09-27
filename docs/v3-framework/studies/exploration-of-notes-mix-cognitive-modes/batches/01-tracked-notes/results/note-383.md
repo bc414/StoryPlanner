@@ -1,0 +1,4 @@
+- claims:
+  - Canon | The world law that dragon fire scales with pink love is sourced from a specific canon episode (season 9, Garble, "Sweet and Smoky") | Fire scaling with pink love comes from the canon season 9 episode about Garble, "Sweet and Smoky" | yes
+- goals:
+- whole: The note ties the Dragon Biology world law of fire scaling with pink love to its source in a specific canon episode, anchoring the law in established canon.

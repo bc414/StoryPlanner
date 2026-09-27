@@ -1,0 +1,4 @@
+- claims:
+  - History | The Aquileian Volunteers are ace pilots and magical engineers who fought for the Crystal Empire and Equestria in the Great War, reported as a fact about the organization | ace pilots and magical engineers who fight for The Crystal Empire and Equestria in The Great War | yes
+- goals:
+- whole: The note gives a one-line in-world identification of the Aquileian Volunteers, saying who they are and which war and powers they served, without listing any dated events.

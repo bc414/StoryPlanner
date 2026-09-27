@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the question about Air China's classification to a new comparative question about whether flights to China cost significantly more than flights to Taiwan or Japan, without disputing anything the model said.

@@ -1,0 +1,6 @@
+- sources:
+  - what I established about Equestrian animal husbandry (chickens for eggs, no cows for milk, no cows for plowing) | treat as settled canon of the author's world; it corrects the assumption of dairy and cattle in Equestria | I established that Equestrians take care of chickens for eggs, but they do not raise cows for milk | referred-to
+  - the author's picture of Aquileian food by class, and how it changes after the Coltbert Reforms (lords eat steaks, serfs eat scraps in broths, ponies eat wheat, fruit and eggs, cheaper cattle feed lets all griffons eat better) | provisional; offered as the author's imagining for the model to build on | I imagine the lords get to eat steaks while the serfs eat scraps | first-named
+  - the author's stated setting details on Aquileian ponies after the Coltbert Reforms, and on factory farming in Herzland and Skyfall | treat as the author's direction for the setting; stated flatly, not as a tentative idea | Aqulieian ponies are absolutely not animal rights champions like Equestrians | first-named
+- order:
+- about: The author asks a quick check on the real-world India versus Europe farming contrast, then corrects the model's picture of Equestrian dairy and sets out their own view of Aquileian diets, class, and pony culture before and after the Coltbert Reforms.

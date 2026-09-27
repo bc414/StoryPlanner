@@ -1,0 +1,8 @@
+- claims:
+  - Characterization | Rainbow Dash has always idolized the Wonderbolts' aesthetic of awesomeness, wants fame and has a huge ego | She always idolized the wonderbolts' aesthestic of "awesomeness". She wants fame and has a huge ego | yes
+  - Characterization | Her baseline character instinct is Loyalty | But her baseline character instinct is Loyalty | yes
+  - Canon | The loyalty instinct is anchored in the established Friendship is Magic Part 2 test where she rejects the Shadowbolts' offer of ego and glory to stay with her friends | grounded in Friendship is Magic Part 2's test where she rejects the Shadowbolts' offer | no
+  - Canon | Her loyalty and ego clash with the toxic Wonderbolts culture as shown in the established episodes Wonderbolts Academy, Rainbow Falls and Newbie Dash | This clashes with the reality of the Wonderbolts' toxic culture showcased in Wonderbolts Academy, Rainbow Falls, and Newbie Dash | no
+  - Characterization | The combination of ego and loyalty is corrupted into a heroism complex, stemming from idolizing the ace flyer Reni at Mount Aris | The devasting corruption of this ego and loyalty combination is her heroism complex from idolizing Reni | yes
+- goals:
+- whole: The note asserts who Rainbow Dash is at the start, an egotistical fame-seeker whose core loyalty is corrupted into a heroism complex, while anchoring this in established canon episodes.

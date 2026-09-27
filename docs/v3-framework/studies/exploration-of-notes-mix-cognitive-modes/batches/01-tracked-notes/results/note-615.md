@@ -1,0 +1,7 @@
+- claims:
+  - History | Aquileia's birthrates are declining because the FJA demographic is consumed by artisan craft and tableau de chase | Aquileia has declining birthrates because everyone in the FJA demographic is obssessed | no
+  - History | The PNdA demographic gets good family support, but those left behind cannot find partners or dignity | The PNdA demographic has good support for families but those left behind can't find partners or dignity | no
+  - History | Skyfall and Herzland use Aquileia's demographics as propaganda, sustaining the manosphere grift or loyalty to tradition and the kaiser | Skyfall and Herzland use Aquileia's demographics for propaganda | no
+  - History | The Griffonian Republic alone has respected, dignified childcare, yet its birthrates still fall (below feudalism, above Aquileia) because of the war economy's rigor | only place with respected and dignified childcare, but ultimately still has falling birthrates | no
+- goals:
+- whole: The note reports, as in-world fact, the demographic conditions and birthrate causes in Aquileia, Skyfall, Herzland and the Griffonian Republic, without staging any dramatization or reader experience despite sitting in a narrative architecture track.

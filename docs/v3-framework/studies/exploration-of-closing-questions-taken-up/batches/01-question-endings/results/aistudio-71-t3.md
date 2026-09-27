@@ -1,0 +1,5 @@
+- questions:
+  - How do Gilded Trust and the Skyfall tycoons, who justify hoarding through Extraction or Predation, insulate themselves from the Charitostatic Effect? Are they immune to Pink Love, or does it cause a toxic side effect like Bauleiter burnout? | ignored | Says nothing about it. It goes straight to asking for other words. | none
+  - Does the Griffonian Republic's state-mandated taxation risk becoming its own form of Extraction? How does the narrative tell the GR's taking for the public good from Skyfall's taking for corporate profit, in the eyes of a skeptic like Applejack? | ignored | Says nothing about it. It goes straight to asking for other words. | none
+- shape: Redirects. The user drops both Socratic questions and asks for a new round of naming: words more elegant than Extraction that hit harder emotionally. This implies Extraction is not fully satisfying as the tyrannical counterpart, but it does not reject it or pick anything else.
+- settles:

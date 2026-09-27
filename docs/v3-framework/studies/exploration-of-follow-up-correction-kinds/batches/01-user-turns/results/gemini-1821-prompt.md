@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's caste hierarchy as given and asks a follow-up about which pony groups would be most exposed to sexual abuse by griffon lords, and how griffon serfs compare with ponies.

@@ -1,0 +1,4 @@
+- questions:
+  - Which of the four proposed origins for the Pink Love flora (blast-crater resonance, tribal terroir, jungle symbiosis, Tree of Harmony roots) best fits how the user sees the Tzinacatl's relationship to their jungle? | no user turn | none | none
+- shape: none
+- settles:

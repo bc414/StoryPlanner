@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn does not choose among the three offered sets or the recommended pairing. It asks for more game-theory-inspired terms, so it widens the search for names and leaves the earlier options undecided.
+- settles:

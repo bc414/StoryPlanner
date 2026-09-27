@@ -1,0 +1,4 @@
+- questions:
+  - Which should come next: drafting the scene outline for Chapter 10 (Sabotage, with the Town Hall reveal dialogue), or refining the Chapter 12 romance arc beats? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Applejack question unanswered and moves on to ask for a parallel analysis of Rarity's growth through the Green Is Your Color material and unfinished plans, adding a lore note that her TLTT attitude comes from Aquileia's daytime parlours.

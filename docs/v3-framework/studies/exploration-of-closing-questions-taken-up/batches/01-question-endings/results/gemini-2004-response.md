@@ -1,0 +1,4 @@
+- questions:
+  - Once the schema is saved, does the user want the final 'Part 2: The Sorter' system prompt to complete the set? | ignored | Nothing said about Part 2 or the Sorter prompt; the user asks for a JSON schema explanation instead | none
+- shape: Redirects away from the model's offer and troubleshooting steps to a new request: a from-scratch tutorial on how JSON schema works, so the user can build what they want in the visual editor themselves. It is an instruction to the model about what to explain next, and it sets aside the ready-made fixes.
+- settles:

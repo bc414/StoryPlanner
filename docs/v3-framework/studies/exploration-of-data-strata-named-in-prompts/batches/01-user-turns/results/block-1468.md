@@ -1,0 +1,7 @@
+- sources:
+  - my notes about Applejack | to be sorted and rearticulated into the 16 tracks as a test; treated as likely rich enough to already hold every track type that can exist, so an empty track is read as not applicable | sort/rearticulate all my notes about Applejack | referred-to
+  - the 4 axes / the 16 tracks | provisional working structure being tested; hoped to be suitably exhaustive, with tracks to be titled by axis values and the meaning of some combinations still unclear to the author | put in all 16 tracks titled by their axis values | referred-to
+  - the analysis above | treated as having approved the 4 axes as exhaustive, relied on with some hope rather than certainty | which the analysis above greenlighted | referred-to
+  - the excel sheet | its single claims or assertion types are of uncertain current relevance; the author asks whether they still apply | The excel sheet mentioned single claims or assertion types, is this still applicable? | referred-to
+- order:
+- about: The user, unsure what each of the 16 tracks means for each subject type, proposes sorting all their Applejack notes into the 16 axis-titled tracks to see which stay empty, and asks the model to analyze that plan and its pitfalls, confirm that each track needs one question plus an explanation of use, and say whether the spreadsheet's assertion types still apply.

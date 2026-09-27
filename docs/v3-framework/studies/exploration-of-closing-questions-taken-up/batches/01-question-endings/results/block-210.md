@@ -1,0 +1,15 @@
+- questions:
+  - What does Eagleclaw disclose about herself at the sleepover (grievances, ambitions, wounds) in return for Chrysalis's orphanage allegory, so the friendship's reciprocity is grounded? | ignored | The user turn drops the sleepover and Eagleclaw entirely and moves to a new Prince Blueblood story. | none
+- shape: Changes the subject. It leaves the Chrysalis and Eagleclaw analysis without comment, neither accepting nor disputing it. It introduces a new fourth story about Prince Blueblood. It asks the model two new questions, one on placement in the reading order and one on theme and tone. It also supplies a detailed set of plot notes on how Blueblood recruits Mudbeak.
+- settles:
+  - Blueblood gets his own story, planned as a fourth alongside TLTT, Minette and Chrysalis. | I plan on having another story about Prince Blueblood
+  - Blueblood is an Equestrian Field Marshal, and his path there is already planned out. | In Equestria at War he is an Equestrian Field Marshal. I planned out how he got there
+  - Blueblood recruits Mudbeak by offering total bodily restoration (spinal nerve damage treated by top Equestrian doctors), Tzinacatl herbs to wean him off Panzer-Haut, and an unlimited budget for his dream engineering projects. | Blueblood offers Mudbeak total bodily restoration
+  - Mudbeak's engineering is disguised as Blueblood's vanity railways. The railways and bridges are upgraded for military loads in preparation for a staggered retreat. | disguised as Blueblood's vanity railways
+  - In exchange Mudbeak relocates to Canterlot and teaches Blueblood Kriegsspiel, logistics and the Grand Battleplan. | must relocate to Canterlot and teach Blueblood
+  - Mudbeak meets Shining Armor while developing a Crystal City to Manehattan railroad, built to hide the crystal trade to Aquileia from Celestia. | Mudbeak meets Shining Armor while helping develop a railroad
+  - This story inverts Mudbeak's tragic arc in The Princess and the Kaiser: there he ordered the barrage that killed Shining Armor at Flowena, was forced by Grover VI to lead an army into changeling-occupied Equestria a year before retirement, and lived morphine-addicted and terrified of Flurry Heart. | a total subversion of his Princess and the Kaiser tragic arc
+  - Mudbeak meets toddler Flurry Heart, who sees him as an eccentric uncle with a thick Herzlander accent who loves bridges. | views him as an eccentric uncle
+  - In 1006 Blueblood and Mudbeak attend the Defense of Mount Aris, where Mudbeak, Kemmerich and Hermann Meyer clash. | In 1006, Blueblood and Mudbeak attend the Defense of Mount Aris
+  - The rivalries at Mount Aris. Meyer sees Kemmerich as a soulless cog and Mudbeak as a whipped dog. Kemmerich sees Meyer as a dishonorable turncoat pirate and Mudbeak as a lucky bastard. Mudbeak sees Meyer as vain and selfish and Kemmerich as blind to modern magic. | Meyer views Kemmerich as a soulless cog
+  - Railroads already exist, mostly for friendship tourism, and must be modernized for war. | Railroads exist but they were mostly for friendship tourism

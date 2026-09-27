@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model what the Tzinacatl would have used the horn healing paste for before Aquileian unicorns could use it, given their limited contact with Equestria or Aquileia before Coltbert's Reforms.

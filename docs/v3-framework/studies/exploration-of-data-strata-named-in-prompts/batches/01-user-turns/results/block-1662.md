@@ -1,0 +1,7 @@
+- sources:
+  - this passage from Pax Chrysalia written by Brazen Gauge | the text the examples of the mechanisms are to be drawn from; the main material to work on | Now give examples of the mechanisms from this passage | first-named
+  - the earlier Chrysalis POV chapters | treat as the source of the structural context the reader holds, that Vaspier is outgunned by Chrysalis's supporters and that her cruelty is a mask | due to the earlier Chrysalis POV chapters | first-named
+  - the mechanisms | the framework to apply when producing the examples, as already set out in the conversation | give examples of the mechanisms | referred-to
+  - the user's own account of Pax Chrysalia and the chapter | treat as the author's stated premise and reading: Chrysalis is a harmonist behind a narcissist mask, Vaspier is a supremacist who feels right through FID, and the mindset resembles a 1950s breadwinner or feudal lord; the last comparison is offered tentatively | I guess it shows the earnest mindset of something akin to a 1950s breadwinner father | first-named
+- order:
+- about: The user asks the model to produce En, La and Gap examples from a passage of the fanfiction Pax Chrysalia, in which Vaspier is shown through FID as sincerely right while earlier chapters give the reader structural context, and adds their own tentative reading of his mindset.

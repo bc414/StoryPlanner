@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model put Winter Wrap Up among the songs that need the Magical Resonance explanation and would terrify outsiders; the user places it inside the materialist frame as an ordinary work song | Winter wrap up as a work song | In passing, as the user's own working solution, listed beside Smile Song without any stated disagreement
+  - reading of the plan | The model's framing that every non-Watsonian ensemble song is covered by the Pink Love Resonance explanation; the user says not all of them can be translated into the materialist world, and that At the Gala's personal lyrics fit resonance poorly, so imagination is the best fit | I don't think all of them can be translated | Tentative disagreement stated as the user's own doubt, with a reason given (personal lyrics), and then turned into a request for more cases
+- about: The user asks for a list of the non-diegetic songs and, while doing so, says the model's blanket resonance explanation doesn't cover them all, offering their own workable cases (Smile Song, Winter Wrap Up, At the Gala as imagination).

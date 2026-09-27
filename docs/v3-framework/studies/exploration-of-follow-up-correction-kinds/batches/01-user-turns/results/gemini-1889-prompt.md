@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's central premise that the Lord leaving her behind at 17 is a fresh abandonment that shatters her, when by then she would already have understood the abuse she had been groomed for since childhood and so would not feel abandoned or expect rescue | She shouldn't feel abandoned at age 17 when the Lord leaves | flat statement of disagreement, backed by a reason offered as a rhetorical check question ("right?")
+- about: The user pushes back on the model's analysis of the character's psychology, arguing that by 17 she would have understood the grooming and so would not feel abandoned when the Lord leaves.

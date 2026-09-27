@@ -1,0 +1,5 @@
+- claims:
+  - PageDesign | Applejack appears on the page asking, in dialogue, why creatures couldn't just be nice to each other | "You couldn't just be nice to each other?" Applejack asked. | yes
+  - PageDesign | A reply line appears on the page, spoken to Applejack as "sugarcube", that dismisses the idea as not how creatures are and turns it back by asking whether she has tried asking the changelings to be nice | That's just not how creatures are, sugarcube. Have you tried asking the changelings to be nice? | yes
+- goals:
+- whole: The note stages an exchange of dialogue on the page in which Applejack asks why creatures couldn't be nice and a reply, addressed to her as sugarcube, answers with a rhetorical question about the changelings.

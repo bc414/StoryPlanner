@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author draws out the consequences of the model's "production nationalism" idea, adding their own setting decisions about the Second Republic's tax and interest policy, how its war bonds are funded, and Vérany's shift from pan-Griffonianism to a nationalist industrial party base.

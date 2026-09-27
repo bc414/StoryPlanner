@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's cynicism-versus-resilience mapping of the American Right and asks a follow-up, whether any earnest non-cynical movement exists there and whether independent bids such as Osborn and McMullin embody it, without saying anything in the model's answer was wrong.

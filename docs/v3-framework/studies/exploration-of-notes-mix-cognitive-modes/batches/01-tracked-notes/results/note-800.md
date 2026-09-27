@@ -1,0 +1,5 @@
+- claims:
+  - History | In 978 the civic federalists (Kemerskai) and the Rugged Industrialists (Textile Barons) allied and overthrew the King, with the shared goal of ending feudalism | In 978, the civic federalists (Kemerskai) and the Rugged Industrialists (Textile Barons) united to overthrow the King with a shared Goal: End Feudalism | no
+  - History | The two factions had different underlying motives: the Kemerskai wanted dignity, meaning an end to abuse, and the Barons wanted market access, meaning more customers | Kemerskai wanted Dignity (No more abuse). The Barons wanted Market Access (More customers). | no
+- goals:
+- whole: The note reports, as in-universe fact, the 978 alliance of two factions against the King and the different motives each brought to the shared aim of ending feudalism, and it states no reader effect.

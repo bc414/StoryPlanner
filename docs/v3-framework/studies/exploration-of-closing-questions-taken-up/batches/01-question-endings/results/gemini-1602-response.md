@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a specific scene summary drafted for one of the three options? | ignored | The turn holds only an attached plan export and no text. It doesn't accept or decline the offer and doesn't pick an option. | Plan export attached — 153,897 words, 0 chars
+- shape: The turn is a bare attachment of the plan export with no message. It gives no reply, choice, or instruction, so it reads as supplying material for the model to work from. What it should be used for isn't stated.
+- settles:

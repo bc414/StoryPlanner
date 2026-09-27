@@ -1,0 +1,6 @@
+- sources:
+  - my prime examples (pho, brisket, döner) | treat as the established paradigm of turning cheap beef cuts into masterpieces, which the model should extend with non-beef equivalents | all my prime examples (pho, brisket, döner) are about turning cheap beef cuts into masterpieces | referred-to
+  - Aquileia is French inspired | treat as the design premise for choosing native French food processes, with pho and döner possibly used as well | since Aquileia is French inspired | referred-to
+  - Historically (real French history and food culture, the model's general knowledge) | consult to say whether French elites are the poseur equivalent and whether there is a Paris versus Gascony or other regional divide | Historically, are the French elites the poseur equivalent? | referred-to
+- order:
+- about: The user asks the model to map the cheap-scraps-to-masterpiece cooking paradigm onto real French culinary and regional history, and to add plant-based and non-beef equivalents for Aquileia.

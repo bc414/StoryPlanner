@@ -1,0 +1,4 @@
+- sources:
+  - the timeline (a year of black market bounties for startup capital, then the academy; the public-facing story of Equestrian adoptive parents rising in Skyfall and paying tuition) | treat as the established facts to keep in mind and reason from; the model's earlier name suggestions should be checked against it | Please keep in mind the timeline | first-named
+- order:
+- about: The user corrects the model's name suggestions by restating the story timeline and cover story from their own knowledge, and asks whether the surname and a psychologically charged first name fit that early point.

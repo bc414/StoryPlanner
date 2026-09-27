@@ -1,0 +1,5 @@
+- claims:
+  - History | Fleur is the in-world inventor of the star spade | Fleur invented the star spade | no
+  - outside all ten (worldbuilding rationale for a technology) | The star spade exists as the earth ponies' counterpart to griffon magic, which answers why it was made | as the earth pony version of griffon magic | outside
+- goals:
+- whole: The note states in one sentence who invented the star spade and gives its origin as the earth pony counterpart to griffon magic, and it names no effect on the reader.

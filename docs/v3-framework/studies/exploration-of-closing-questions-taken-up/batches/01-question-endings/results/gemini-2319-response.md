@@ -1,0 +1,4 @@
+- questions:
+  - How does Applejack react to her parents seeing her in military gear, and does she hide the General persona to be their filly again or stand tall as the Republic's leader? | ignored | Nothing on her reaction to being seen in uniform. The user asks two new questions about the munitions idea and the Petain/collaborator theme. | none
+- shape: Redirects. It sets aside the model's closing question and challenges one of the model's suggestions, asking whether the parents proposing to turn the ash into munitions would be tone deaf. It then opens a thematic question about how using the farm for munitions bears on the Petain/collaborator subversion. Both are requests for analysis, and the user gives no answer of their own.
+- settles:

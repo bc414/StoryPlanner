@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reacts with surprise and some relief that their own subplot about Red Love addiction, conscripts and Fluttershy-led rehab turns out to match the real history the model laid out, accepting the model's account without challenging it.

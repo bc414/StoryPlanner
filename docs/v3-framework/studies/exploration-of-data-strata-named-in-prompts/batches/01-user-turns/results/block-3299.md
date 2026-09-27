@@ -1,0 +1,4 @@
+- sources:
+  - Everything so far (the works already listed in this conversation, from the Anglosphere, Japan, China, Western Europe and one Russian example) | treat as already covered; note which regions are over-represented and look beyond them rather than repeat | Everything so far is from the Anglosphere, Japan, China, or Western Europe | referred-to
+- order:
+- about: The user notes that the works suggested so far come from a narrow set of regions and asks the model for more obscure works from other parts of the world.

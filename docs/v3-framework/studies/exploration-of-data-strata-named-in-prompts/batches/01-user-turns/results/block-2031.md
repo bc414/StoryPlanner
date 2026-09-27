@@ -1,0 +1,5 @@
+- sources:
+  - P&K (The Princess and the Kaiser), the user's own account of what it contains | treat as true and correct the earlier reading of it: the story includes an active armed fight for liberation, with Flurry Heart, Grover and the griffons reclaiming Equestria by force | Actually P&K features an active kinetic fight for liberation | referred-to
+  - ASOIAF's stances about power | treat as the frame P&K follows in how the reclamation is won, through overwhelming force and terror | the general asoiaf stances about power | referred-to
+- order:
+- about: The user corrects the model's description of P&K, saying it is not only about life under occupation but also a violent liberation, in which Flurry Heart retakes Equestria after the earlier resistance failed.

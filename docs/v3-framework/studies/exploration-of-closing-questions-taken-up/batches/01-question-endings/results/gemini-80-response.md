@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to brainstorm titles for the following battle chapter (Chapter 4), possibly using HOI4 combat terminology like Entrenchment or Breakthrough? | no user turn | none | none
+- shape: none
+- settles:

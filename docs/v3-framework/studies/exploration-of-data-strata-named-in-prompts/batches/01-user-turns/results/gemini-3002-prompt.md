@@ -1,0 +1,5 @@
+- sources:
+  - The Super Speedy Cider Squeezy 6000, the canonical episode with Flim and Flam's machine | treated as canon to draw the analogy from: the machine is the model for grift, and early AI is compared to it | like Flim and Flam's machine in the canonical episode | referred-to
+  - the story's Skyfall industry, Applejack's perception, Aquileia's Harmonic Capitalism and the Griffonian Republic | used as the story's own frame onto which the real AI history is mapped; put forward as a proposed reading to be confirmed, not settled | Then the story unveils the honest Harmonic Capitalism | referred-to
+- order:
+- about: The user proposes an allegorical mapping in which early AI (ChatGPT, Grok, character.ai) matches the Skyfall industry and Flim and Flam's canonical machine, and reasoning models and Anthropic match Aquileia's Harmonic Capitalism and the Griffonian Republic, and asks whether this fits.

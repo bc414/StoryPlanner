@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the drug-subject recommendation alone and asks a new structural question: whether the Properties of Pink and Red Love World Law should be its own subject or sit inside Unified Theory of Magic, and supports the question with what that subject already contains.

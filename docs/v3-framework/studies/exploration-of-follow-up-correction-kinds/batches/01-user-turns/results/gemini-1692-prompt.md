@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a revision of some earlier material to account for the hives' harmonic past 700 years ago and for a purely oral native changeling language, and wonders aloud whether warm words survived or lingered only in fairy tales.

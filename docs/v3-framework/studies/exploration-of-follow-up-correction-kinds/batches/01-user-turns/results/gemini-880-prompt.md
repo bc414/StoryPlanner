@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a modification to the script so it exports one revision per date instead of the last N revisions, giving the reason that this keeps microedits out while still showing change over time.

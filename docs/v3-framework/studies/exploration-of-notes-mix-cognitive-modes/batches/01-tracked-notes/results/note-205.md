@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (world-rule ontology, god-mode statement of how the universe works) | Crystallization in crystal ponies is a visible sign of caloric surplus together with charitostatic magic | When they crystalize, it's a visual indicator of caloric surplus and charitostatic magic | outside
+  - outside all ten (world-rule ontology) | Crystals are stored magic, and the transparent crystallization is stored friendship | Crystals are stored magic, so the transparent crystalization effect is stored friendship | outside
+  - Canon | Ties the pony crystal mechanic to the source material's windigos, whose thymodynamic magic is likewise stored in crystals, so the new rule builds on that existing canon | adjacent to how thymodynamic magic from windigos are stored in crystals | no
+- goals:
+- whole: The note states as a fixed world rule that crystal pony crystallization shows surplus calories and stored friendship magic, and it parallels this with windigo magic stored in crystals.

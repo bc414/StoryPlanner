@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting a Chinese parallel to add to the list of historical examples of language and identity control, without challenging anything the model said.

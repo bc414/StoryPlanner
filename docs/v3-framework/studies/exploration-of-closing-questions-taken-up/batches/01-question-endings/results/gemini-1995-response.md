@@ -1,0 +1,4 @@
+- questions:
+  - Which of the three ordering frameworks (dialectical, macro-to-micro, narrative arc) fits how the user wants to interact with their notes in the planner? | ignored | The user does not choose among the three; they propose having the AI suggest bucketing methodologies instead of picking one themselves. | none
+- shape: Redirects. It sidesteps the model's menu of three ordering rules and proposes a different workflow, in which the AI suggests bucketing methodologies first. It also asks the model a new question about the pros and cons of one prompt versus two for strategy and bucketing.
+- settles:

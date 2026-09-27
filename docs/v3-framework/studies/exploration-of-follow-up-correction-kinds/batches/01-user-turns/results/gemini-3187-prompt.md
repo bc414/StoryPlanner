@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether ID keys or wiki links are the better way to link exported files, glossing each in their own terms, without saying anything in the model's answer was wrong.

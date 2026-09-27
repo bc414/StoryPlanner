@@ -1,0 +1,5 @@
+- questions:
+  - Does Chrysalis, cornered by the Republican Pact after her scheme collapses, attempt a false surrender in the style of Jang Dae-hee to keep her life and assets, or does her Visionary Tyrant complex make her burn Vesalipolis rather than let the prey dictate terms? | ignored | none; the user turn never mentions Chrysalis, her defeat or Vesalipolis | none
+  - How does the narrative make the audience, and Applejack herself, read her execution of Pagala as necessary geopolitical hygiene and not a slide into the Red Love tyranny she opposes? | ignored | none; the user turn does not touch Applejack, Pagala or the execution | none
+- shape: Redirects away from the model's two design questions to ask for facts about the reference show. It asks for the full structure of Itaewon Class, whether the protagonist bought Jangga stock, and why he was in prison. It reads as a check on the source material behind the comparison, not a response to the story-design discussion.
+- settles:

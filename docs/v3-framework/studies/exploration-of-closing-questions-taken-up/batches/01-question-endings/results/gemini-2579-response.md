@@ -1,0 +1,9 @@
+- questions:
+  - Does the user want to explore the mechanics of the Canterlot Wedding heist, i.e. how the extracted Love Tax would be physically moved from Equestria to the MEFO creditors in the Hive past Celestia's border guards? | ignored | The user turn never mentions the heist or the transport of love. It recaps the 2nd Great Leap plan and asks for more measures. | none
+- shape: The user turn does not take up the model's offered next topic. It restates and consolidates their own plan for the 2nd Great Leap Forward. It floats again, tentatively, the idea that the delay of the Olenia invasion came from a wish for more totalitarian control. It then asks the model for further measures and for a review and analysis of the story plans. It is a redirect back to brainstorming and review, and it does not answer the question put to it.
+- settles:
+  - During the 2nd Great Leap Forward, Chrysalis pushes each sector into overdrive and ends each sector's push with a consolidation performance community/event | orders each sector into overdrive with a consolidation performance community for each sector at the end
+  - Chrysalis stirs up nationalism against the Crystal Empire, headed by Shining Armor and Cadance | nationalism against the crystal empire headed by shining Armor and Cadance
+  - When Thorax promotes harmony, Chrysalis treats it as a casus belli and straps guilty drones to love harvesters to keep the MEFO bills afloat | Chrysalis has a casus belli to strap guilty drones to love harvesters
+  - Chrysalis sells off depreciating assets in Skyfall for liquid cash as part of the plan | She can also start selling off depreciating assets for liquid cash in Skyfall
+  - The aim of these measures is to finish the 2nd Great Leap Forward and invade Olenia in 1008 to secure permanent love taxes | invade Olenia in 1008 to secure permanent love taxes

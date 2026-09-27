@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn does not respond to the model's output. The model turn is a sorted-notes JSON and puts no question to the user. The user turn instead supplies a new input: an attached document, plus a JSON list of paradigms with bucket names for a different body of material. That material covers revolutions, banking and tax systems, factions and coalitions, and Skyfall/Herzland geopolitics. It reads as the next batch in a repeating sorting pipeline, not a reply, correction or instruction.
+- settles:

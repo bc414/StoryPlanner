@@ -1,0 +1,5 @@
+- claims:
+  - History | Twilight earned her cutie mark at the entrance exam when she refused to give up hatching Spike's egg and recklessly grabbed the magic from Rainbow Dash's sonic rainboom without knowing the consequences | She got her cutie mark during the entrance exam because she wouldn't give up on hatching Spike's egg | yes
+  - Characterization | Her special talent is having the ambition to make things happen, which is magic | Her special talent is "having the ambition to make things happen" (magic) | no
+- goals:
+- whole: The note reports how Twilight got her cutie mark at the entrance exam before the story begins and states what her special talent is.

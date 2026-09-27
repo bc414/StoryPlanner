@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack's discovery that her parents built Standard Agricultural Amalgamated make her re-evaluate what a Poseur is, and how does she reconcile her agrarian morality with the fact that their industrial ruthlessness funded the Republic? | ignored | The turn says nothing about Applejack, her parents or the Poseur idea. It moves to a different drama. | none
+  - How does Applejack, as President, defuse the demand of the freed Vanhoover survivors to execute every Changeling POW, conscripts included, without alienating them? | ignored | The turn does not mention Vanhoover, the POWs or retribution. It only asks for a comparison with another drama. | none
+- shape: The user drops the model's two questions and moves on to the next item in a series of drama comparisons. They name Boys Over Flowers as the next drama they watched, note that it predates City Hunter and stars the same actor, and ask how it compares. This is a request for more of the same analysis, not an answer.
+- settles:

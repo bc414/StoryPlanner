@@ -1,0 +1,6 @@
+- sources:
+  - Applejack's arc scenes: refusing Rarity's new general's uniform, the "we are monsters" scene with Twilight, taking the uniform after talking with Trimmel, the talk in the Crystal City | existing plan material to be re-examined; the model is to say how each is affected | What about applejack's arc about initially refusing to wear Rarity's new general's uniform | referred-to
+  - Luna and Celestia running the Dreamscape Aid Network | one of two scenarios the scenes are to be tested against; treated as a live option, not settled | How do these get affected by Luna and celestia winning the dreamscape aid network | referred-to
+  - Luna and Celestia as statues (the earlier version of the plan) | the other scenario to compare against; the baseline the scenes were written for | vs being statues | referred-to
+- order:
+- about: The user asks the model to work out how four existing Applejack character-arc scenes change depending on whether Celestia and Luna run the Dreamscape Aid Network or stay passive statues.

@@ -1,0 +1,12 @@
+- questions:
+  - Do the SAA workers, on implementing Kemerskai's war bond system under the banner of Equestrian Harmony, feel ironic pride that their exported canned mush bought the blueprint that saved Equestria? | ignored | Nothing about the SAA workers' feelings or their irony; the turn goes on to branding, the charter and the 5/6ths rule. | none
+  - After the 83.3% vote and the seizure of Manehattan's factories, does Gilded Trust in Las Pegasus adopt the war bond model or build a rival private war machine? | ignored | Gilded Trust and Las Pegasus are not mentioned; the turn stays on Manehattan, Rarity and Celestia. | none
+- shape: Accepts the model's proposed branding and builds on it with new lore: the nationwide rollout, a buried labor-strike truth behind Hearth's Warming Eve, and the origin of the 5/6ths rule. It leaves both Socratic questions unanswered and closes by asking the model a new research question about the etymology of "bond" and whether it connects to a harmonic sense of bond.
+- settles:
+  - The branding is 'Hearth's Warming Bonds', which the model offered as one option | 'exact branding I want to use'
+  - Hearth's Warming Bonds are adopted nationwide in the chapters after chapter 7 | 'adopted nationwide in the following chapters after chapter 7'
+  - Rarity's final proposal to Celestia is marketed and framed through the canon, sanitized Hearth's Warming Eve windigo story | 'entirely marketed and framed with the canon Hearth's Warming Eve story'
+  - The sanitized windigo tale was made up by Star Swirl's grandparents' generation to teach survival harmony, and Celestia and Luna grew up with it | 'sanitized tale that Star Swirl's grandparents' generation came up with'
+  - Manehattan has an archaic local Hearth's Warming Charter, found in an archive, that records the true Hearth's Warming Eve as a labor strike by the three tribes refusing to cooperate | 'archaic law about a local Hearth's Warming Charter was found in an archive'
+  - The 5/6ths rule comes from that charter and lets the craftsponies, implemented as a war powers board, replace the mayor and city council | 'That's where the 5/6ths rule comes from'
+  - In Rarity's first talk with Celestia the term is 'War Bonds'; by the final proposal it is 'Hearth's Warming Bonds', a deliberate contrast between war and hearth | 'first time, they were talking about "War Bonds"'

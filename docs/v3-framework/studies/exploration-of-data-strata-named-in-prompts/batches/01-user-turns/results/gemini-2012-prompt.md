@@ -1,0 +1,5 @@
+- sources:
+  - my existing system instruction for phase 0 | the base text to be revised, updating it to fit the waterfall approach | Below is my existing system instruction for phase 0. Please update it | first-named
+  - this waterfall strategy / the new way of phase 1 | the design the updated instruction and its JSON output must be adapted to serve | update it for this waterfall strategy | referred-to
+- order:
+- about: The user pastes their current phase 0 system instruction and asks the model to rewrite it for the waterfall extraction approach, and to say what should change in the JSON output to better serve the new phase 1.

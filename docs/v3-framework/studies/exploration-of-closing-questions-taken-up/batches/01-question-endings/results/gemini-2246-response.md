@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a master prompt for a Bucket Categorizer that outputs Gemini chat ideas into their orthogonal-axes note format? | no user turn | none | none
+- shape: none
+- settles:

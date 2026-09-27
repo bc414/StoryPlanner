@@ -1,0 +1,6 @@
+- claims:
+  - History | In 1003 Celestia tries to make the crystal ponies Equestrian in culture by working through Cadance | Celestia attempts to Equestrianize the crystal ponies through Cadance | yes
+  - History | Celestia's reasoning: an intervention while the crystal ponies have minimal memories should succeed, unlike the earlier Severyana case | hoping an intervention while they have minimal memories will work | yes
+  - History | The Severyana episode is reported as an earlier chaotic outcome that Celestia wants to avoid repeating | avoid the chaos of Severyana | yes
+- goals:
+- whole: The note reports, as in-universe history, Celestia's 1003 attempt to Equestrianize the crystal ponies through Cadance and her reasons for timing it while their memories are minimal, so as to avoid a repeat of Severyana.

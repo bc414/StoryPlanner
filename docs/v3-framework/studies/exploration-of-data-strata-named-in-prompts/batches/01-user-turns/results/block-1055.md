@@ -1,0 +1,8 @@
+- sources:
+  - the model's previous analysis of the Temberik ("this") | the thing whose implications for the real PKK the model is asked to draw out | What does this say about the historical PKK movement? | referred-to
+  - the model's own general knowledge of the historical PKK movement | asked to state what is actually true of that movement, beyond the allegory | What is the truth of that movement? | referred-to
+  - TLTT (the author's story plan) | treated as the current state of the plan, which lacks a Turkish-style authoritarian state; used to compare against the real history | In TLTT, there isn't really the Turkish authoritarian factor | referred-to
+  - Celestia's soft assimilation pushes since 930 | tentative idea offered as a possible in-story stand-in for the Turkish state factor, not settled | maybe Celestia has just soft versions of it ever since 930 | first-named
+  - the justification already in the plan for the Temberik agreeing to mine the crystals and to blow the mountain for the Bluebell River Spearhead | to be assessed for whether it is enough or needs more planning and story design | Did I make enough justification or does this shift require more planning | referred-to
+- order:
+- about: The user asks the model to say what the real PKK history shows and how the plan's Temberik differ from it, then to judge whether the plan already gives enough reason for the Temberik to agree to mine the crystals and blow up their mountain for the Bluebell River Spearhead.

@@ -1,0 +1,7 @@
+- sources:
+  - my story plans | the model is to review them and redo its analysis of the build-up phase from them | Please review my story plans and reanalyze | referred-to
+  - the author's corrections about where Twilight and Applejack are during the separation (chapter 9 shedding of the atlas complex, Twilight in Tall Tale, Applejack in the Tzinacatl jungle) | treat as true and correct the earlier premises with them | Twilight is not locked in a lab with atlas complex | first-named
+  - the model's previous analysis | keep the guilt-about-braiding-manes idea, drop the lab, atlas complex and front-line premises as wrong | I like the idea that Twilight and Applejack feel guilty | referred-to
+- order:
+  - the author's corrections about Twilight's and Applejack's whereabouts | the previous analysis's lab and front-line assumptions | Twilight is not locked in a lab ... Applejack is not at the front lines
+- about: The user endorses one idea from the model's analysis, corrects its wrong premises about where Twilight and Applejack are and what state they are in during the separation, and asks the model to check the story plans and redo the build-up analysis.

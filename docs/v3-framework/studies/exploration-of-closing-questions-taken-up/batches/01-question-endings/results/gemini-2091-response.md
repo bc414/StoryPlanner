@@ -1,0 +1,5 @@
+- questions:
+  - Does the 4-axis model match how the user has been observing the economy of the Lioness of Tall Tale world (with its Stagnation of Harmony and effect on specialized craftsmanship)? | ignored | Says nothing about the story world or the parallel; it stays on real-world restaurants. | none
+  - Does the user want a Labor-to-Revenue ratio mapped for the models to see which resists wage inflation best? | partly answered | Does not accept or decline the mapping, but asks its own question about how minimum wage increases affect these models, which covers the same ground in a looser form. | how does minimum wage increases affect them?
+- shape: Moves on to two new real-world questions about the restaurant models (a pandemic-era shift from cities to suburbs, and the effect of minimum wage increases). It takes up the model's wage-resilience offer only indirectly, leaves the story-world parallel alone, and gives no reaction to the 4-axis framework.
+- settles:

@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-building rule of the fictional universe, stated as fact) | the machine mechanically diverts a percentage of the copper bits into a locked internal box as a processing fee | The machine physically sorts a percentage of the copper bits into a locked internal box as a "processing fee." | outside
+  - outside all ten (world-building rule of the fictional universe, stated as fact) | Gilded Trust's armored trucks visit weekly to collect the proceeds, which are the owner's cut of the local economy | Gilded Trust's armored trucks come around once a week to collect his cut of the local economy. | outside
+- goals:
+- whole: The note lays down, as a rule of how the world works, the fee-skimming mechanism of the Gilded Bits machine and the weekly armored-truck collection of the skimmed copper, with no stated reader effect.

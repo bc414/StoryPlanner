@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | the Magical Supply Organization technology runs on crystals first and then on red love canisters as its power source | powered by crystals and then red love canisters | outside
+- goals:
+- whole: The note states, as a rule of the fictional universe, what powers the Magical Supply Organization technology: crystals, then red love canisters.

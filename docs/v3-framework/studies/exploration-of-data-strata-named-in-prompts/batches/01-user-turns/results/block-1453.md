@@ -1,0 +1,4 @@
+- sources:
+  - design notes about Henri and Fleur not being romantically committed, healthy friends with benefits | treat as existing author material that shows the proposed subject type may extend beyond romance; used as evidence when asking whether the type covers non-romantic pairings | "I have design notes about how they are not romantic committed" | first-named
+- order:
+- about: The user refines the proposed relationship subject type by narrowing it to bonds involving a POV character and tied to the main thematic argument, then tests where its boundary lies with several other pairings, asking whether non-romantic ones qualify if both parties are affected.

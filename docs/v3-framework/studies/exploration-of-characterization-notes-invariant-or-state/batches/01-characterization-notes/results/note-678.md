@@ -1,0 +1,3 @@
+- claims:
+  - unfixed | Her cutie mark is a tally stick with 5 tally marks across the split | her cutie mark is a tally stick that has 5 tally marks across the split, stated in the present tense | none in the note's own words; only the track's question, who she is at the start of TLTT, frames it, and the note does not say whether the mark or its count of 5 is fixed or changes
+- beside: none

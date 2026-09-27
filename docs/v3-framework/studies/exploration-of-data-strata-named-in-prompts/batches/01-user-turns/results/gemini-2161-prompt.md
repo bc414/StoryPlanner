@@ -1,0 +1,7 @@
+- sources:
+  - the phosphorus and potassium munitions chemistry and Tall Tale analysis from the previous reply (the current conversation) | adopt as the basis for a new plot point, that this is why Fleur Bloom is in Tall Tale with Star Energy; offered as the author's view, not yet fixed | I think this should be the reason Fleur Bloom is in Tall Tale with Star Energy | referred-to
+  - Fleur Bloom's background as the author states it (research on earth pony magic at the University of Pridea, invention of the star spade) | treat as established facts of the author's world | She researched earth pony magic at the University of Pridea and invented the star spade | first-named
+  - Fritz Haber (real-world chemist) | use as an analogy for Fleur's role in the world, not as data to import | She is basically the Fritz Haber of my world | referred-to
+  - a griffon in Herzland who invented today's industrial process | provisional supposition by the author, to be treated as a likely but unsettled world detail; it makes Fleur the second such figure | or the second one, since some griffon in Herzland must have invented the industrial process we use today | first-named
+- order:
+- about: The author accepts the previous reply's chemistry as the reason Fleur Bloom is in Tall Tale, and adds her backstory as a Haber-like inventor who applies standardized industry to asset specificity.

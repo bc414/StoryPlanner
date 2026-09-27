@@ -1,0 +1,4 @@
+- questions:
+  - Does Discord find the forced order of Celestia's economy boring, or does he find its Rube-Goldberg complexity amusing, and does the user want to explore how he fits in? | no user turn | none | none
+- shape: none
+- settles:

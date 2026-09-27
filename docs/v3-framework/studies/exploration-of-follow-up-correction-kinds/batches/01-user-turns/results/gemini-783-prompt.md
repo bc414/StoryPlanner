@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of Applejack's cameo in the prequel: it has her reassuring the Falldale ponies that the Princesses will keep them safe, when in the document she was urging them to evacuate | This seems to be a hallucination. Applejack was trying to tell the ponies of Falldale to evacuate. | flat, blunt; names the error as a hallucination and states the correct content without elaboration
+  - which material was drawn on | The model claimed to have reviewed the cameo in the Harvest of Falldale text but quoted something the document does not hold, so it did not read or use the source correctly | Check the Harvest of Falldale document again. | direct instruction to go back and re-read the source
+- about: The user rejects the model's analysis of Applejack's cameo as fabricated, states what the document actually shows, and tells the model to re-check the source.

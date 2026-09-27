@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks follow-up historical questions about whether the Ju 87 Stuka was a monoplane, what preceded it, and what air support looked like in WW1, without pointing at any particular source of data.

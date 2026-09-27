@@ -1,0 +1,4 @@
+- questions:
+  - What does the user's subscription list look like (the model's proposed starting point for the analysis)? | answered | The user supplies the subscriptions file itself and asks the model to work out what it shows, instead of describing the list in words. | Attached subscriptions.csv; "What can you get from this?"
+- shape: Follows the model's suggestion by handing over the subscriptions export and asking the model to analyze it. This is a short request that moves the conversation from discussion to working on the data. It does not correct or redirect the model.
+- settles:

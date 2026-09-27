@@ -1,0 +1,6 @@
+- sources:
+  - legal adult age in America (18) | real-world benchmark the author raises and questions; not to be taken over automatically as the volunteer age floor in the story | 18 years old is the legal age for an adult in America, but what if | referred-to
+  - consensus on developmental biology for a fully developed person in post caloric scarcity conditions | offered as a possible basis for setting the volunteer age floor, put forward as a what-if suggestion rather than settled | what if the midterm consensus on developmental biology | first-named
+  - Sonic Rainboom episode | reference for how Wings of Dew works: the target controls the wings, as Rarity flies on her own there; used to correct the model's earlier account | just like in the Sonic Rainboom episode when rarity can fly on her own | referred-to
+- order:
+- about: The author pushes back on the model's treatment of the volunteer age as simply 18 by proposing a biology-based age floor as social commentary, and corrects the model's description of Wings of Dew by pointing to the Sonic Rainboom episode.

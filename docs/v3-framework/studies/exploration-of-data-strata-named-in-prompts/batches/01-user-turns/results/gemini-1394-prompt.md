@@ -1,0 +1,5 @@
+- sources:
+  - my backstory for Chrysalis's biological mom, the Queen of Vesalipolis before her | author's planned backstory to contrast with the fake-parents scene and to reason from; framed as a plan the author intends, not yet settled | My plan is for her mother to have attacked Vraks and died in the field in vain | first-named
+  - the economic schemes (great leap forward, MEFO bills, red love flooding and constricting supply, Chrysalis manipulating the nepo babies) | treat as already in motion and established, used as the timing anchor for when the fake parents die | after all the economic schemes are in motion | referred-to
+- order:
+- about: The user asks whether Synovial should describe Chrysalis as sentimental at her fake parents' deaths, and adds their planned backstory for her biological mother and her early reign as a contrast.

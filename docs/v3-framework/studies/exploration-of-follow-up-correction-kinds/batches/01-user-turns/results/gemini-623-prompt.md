@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model built Additive A (The Blinder) on a Tzinacatl natural precursor (Yolpololi Root) and an export/market history, which the user says the plan does not call for; the Blinder's origin is jaeger training | Actually I think "The Blinder" doesn't need a Tzinacatl precursor. It should be based on jaeger training. | stated flatly as a direct redirect, softened with 'I think', no reason given
+- about: The user rejects the model's Tzinacatl-precursor origin for the Blinder additive and redirects it to be grounded in jaeger training instead.

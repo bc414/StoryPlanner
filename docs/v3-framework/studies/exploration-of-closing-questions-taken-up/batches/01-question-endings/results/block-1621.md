@@ -1,0 +1,6 @@
+- questions:
+  - Is the Love Harvester's mechanical operation (Pillar 3) worth distinguishing from its civilizational role (Pillar 4) within the same Technology subject, or should Technology get one integrated account? | ignored | Says nothing on it. The user reports that Character tracks are built and some character notes should be links, so plot points need creating first. | none
+- shape: Redirects away from the four-pillar naming and Technology split to a migration-workflow problem. The user found that some character notes belong as links, so they will build empty plot points first to give links a target. They flag notes in the v1 archive with where each should land, and they ask for a process that avoids double work. Nothing is said about the pillar names or the Technology question.
+- settles:
+  - Migration order: plot-point subjects are created first, left empty, so character notes that are really links have something to link to | now I think I need to make the plot points first but leave them empty
+  - Working practice: notes in the v1 archive are flagged with a note saying where each should land | flagging them in the v1 archive with a flag note of where I think it should land

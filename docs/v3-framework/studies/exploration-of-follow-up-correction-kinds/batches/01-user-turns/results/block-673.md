@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks how Genette's focalization types relate to the gap configurations just laid out, offers their own mappings of the trench and canned-mush examples to internal and external focalization, and asks whether focalization can vary within a story when the macro architecture justifies it.

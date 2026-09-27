@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up general question about whether AI innovations exist outside America and China, without pointing at any particular body of material for the model to draw on or avoid.

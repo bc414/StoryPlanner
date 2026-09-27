@@ -1,0 +1,6 @@
+- claims:
+  - History | Manehattan undertakes total mobilization, organized around asset specificity | Manehattan total mobilization based on asset specificity | no
+  - History | Pegasi keep doing weather and earth ponies keep farming, but the farming now serves explosives production as well as food | The pegasi still do weather and the earth ponies farm but not just for food but also for explosives | no
+  - History | The meeting among the Aquileian-aligned tribes was a secure transfer of chemistry knowledge from Tall Tale to Manehattan, which mobilized ponies for explosives and is how they begin to stall the northern front | The meeting in the Aquileian aligned tribes is a secure transfer of chemistry knowledge from Tall Tale to Manehattan | no
+- goals:
+- whole: The note reports, as in-world fact, how Manehattan's wartime mobilization and a chemistry-knowledge transfer from Tall Tale let the Equestrian Army begin stalling the northern front, without saying how the reader is to experience it.

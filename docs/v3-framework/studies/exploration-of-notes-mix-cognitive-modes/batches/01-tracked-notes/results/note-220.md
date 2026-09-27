@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | The in-universe Celestia's stagnation of harmony stands for the modern western world of abundance, a real-world condition | represents the modern day western world of abundance | no
+- goals:
+- whole: The note says that the in-universe stagnation of harmony stands for the present-day western world of abundance, which reads as an allegorical equivalence and not as a documented inspiration.

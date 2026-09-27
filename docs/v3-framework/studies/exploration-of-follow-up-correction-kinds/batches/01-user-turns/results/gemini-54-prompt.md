@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the advice to chain prompts and asks a follow-up technical question about how the context window grows (linearly, quadratically or exponentially) as chapters of n tokens are added.

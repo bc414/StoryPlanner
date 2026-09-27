@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a practical technical question about how their C# program, which currently writes markdown files, could output to a Google Doc instead, and how a Google Doc is stored on Windows.

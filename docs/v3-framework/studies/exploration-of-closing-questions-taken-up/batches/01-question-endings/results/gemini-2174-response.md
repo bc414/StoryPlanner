@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want ideas for dynamically generating varied hex colors for paradigms, so colors aren't hardcoded if the AI produces a 5th, 6th or 7th axis? | partly answered | Doesn't say yes or no. It lists seven fixed axes and asks for a specific hex color for each, with reasoning. That narrows the need from open-ended axes to a known set of seven. | These are my 7 axes. Propose hex colors for them
+- shape: Redirects the conversation to a narrower task. The user supplies the full list of seven axes with a description of each and asks for one hex color per axis, with reasoning that ties each color to an instinctive association. It does not take up the dynamic-color offer.
+- settles:
+  - The categorizer uses seven axes: Chronological (Time), Demographic/Actor (The Agents), Concept Evolution (Foundational to Complex), Epistemological (Truth vs. Perception), Dialectical (The Conflict), Ontological/Mechanical (The Systems), and Meta-Narrative (Authorial Intent). Each has the scope the user describes. | These are my 7 axes
+  - Each axis's color should have an invoked or instinctive connection to what the axis means, and the choice should come with reasoning. | they should have some sort of invoked connection or instinctual

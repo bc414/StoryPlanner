@@ -1,0 +1,6 @@
+- sources:
+  - Tempest, Applejack's mission to economically integrate the Tzinacatl tribes through harmonic capitalism | treat as a planned storyline the extraction chapter will run in parallel with, and use it as the setting where the Tzinacatl explain their drugs to Fluttershy and Fleur | "run parallel to "Tempest" which is Applejack's mission" | first-named
+  - the extraction chapter | treat as the author's planned chapter, to be built so it runs alongside Tempest | "I'm planning on the extraction chapter" | referred-to
+  - the model's preceding proposal for Chapters 6 and 10 with the Tzinacatl drug lore | accept as a good base and build on it | "This is excellent because" | referred-to
+- order:
+- about: The user approves the model's Chapter 6/10 restructuring and adds a plan to run the extraction chapter in parallel with Applejack's "Tempest" mission, with a tentative idea that local Tzinacatl from that mission explain their displaced traditional drug trade.

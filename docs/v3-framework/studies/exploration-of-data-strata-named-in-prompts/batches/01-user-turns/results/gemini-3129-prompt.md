@@ -1,0 +1,5 @@
+- sources:
+  - the chapter 7 draft | material to analyze Pinkie in; the object of analysis, to be read for her behavior | Analyze Pinkie in the chapter 7 draft | first-named
+  - TLTT | the story plan the chapter 7 Pinkie analysis is to be applied to, used as the frame for what her behavior means | how it applies to TLTT | referred-to
+- order:
+- about: The user asks the model to carry out the same kind of Pinkie Pie analysis as before, this time on the chapter 7 draft, and to connect it to TLTT.

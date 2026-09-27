@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user redirects the model's revised Audit scene toward Asper Sickleclaw, restating his own account of him as Kemerskai's ally who left to found Skynavia in protest, with Skynavia now reintegrated into the Griffonian Republic.

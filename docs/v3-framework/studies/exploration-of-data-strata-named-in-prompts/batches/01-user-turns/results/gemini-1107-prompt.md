@@ -1,0 +1,6 @@
+- sources:
+  - the whole story plan | read through again in full and use it as the basis for weighing the pros and cons | Please review the whole story plan again | referred-to
+  - how I have structured AJ's character development | look into this part of the plan and let it govern the assessment, especially the point that AJ does not embrace the Lioness title until Trimmel's surrender | Look into how I have structured AJ's character development | referred-to
+  - the AJ arc as the user lays it out in this message (town hall, spearhead, Lioness title, stagnation chapter with white peace) | treat as the author's stated account of AJ's arc and the timing of her beliefs, and reason from it | Up until the town hall AJ is operating under the belief | referred-to
+- order:
+- about: The user asks the model to re-read the whole story plan and weigh pros and cons of Luna explaining her dream data openly versus staying vague until after the war, and whether AJ could still give the hard-truth speech, supplying a recap of AJ's arc from the town hall through the stagnation chapter.

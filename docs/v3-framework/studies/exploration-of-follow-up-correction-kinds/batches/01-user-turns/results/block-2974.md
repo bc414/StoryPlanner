@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's no-mother analysis and moves on to proposing new design: Chrysalis sincerely enjoying her adoptive parents' praise, a disguise-detection spell that spares identities she truly lives in, and the queen form and pink coloring explained without new magic. These are put as questions and suggestions, not as fixes to anything the model said.

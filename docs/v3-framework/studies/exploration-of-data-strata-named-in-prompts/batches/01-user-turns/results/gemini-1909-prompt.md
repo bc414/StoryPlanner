@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the coding topic and asks a worldbuilding question: given that their Aquileian culture is centred on terroir, what would its staple food be, and what was the equivalent among the elites of ancien régime France.

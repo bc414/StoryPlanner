@@ -1,0 +1,5 @@
+- sources:
+  - the story plan about the 3x multiplier | to be revised: the multiplier is to be treated as only Fleur's in-story theory for explaining alicorns within her comparative advantage model, not as ground truth | "should be specifically Fleur's theory" and "It is not the ground truth" | referred-to
+  - the supply log data | in-story evidence that Twilight cites to disprove the multiplier, showing Tally Mark and the other combat mages now casting near her own efficiency | "according to the supply log data" | referred-to
+- order:
+- about: The user corrects the plan so the 3x multiplier is only Fleur's in-story theory, which Twilight refutes with supply log data, and says this makes alicornization read more like an institutional-investment credential and makes Cadance's horn a practical tool for the conception spell.

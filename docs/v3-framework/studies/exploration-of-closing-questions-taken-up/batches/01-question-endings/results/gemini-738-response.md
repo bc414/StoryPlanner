@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an explanation of how to find a Google Drive Folder ID so the app saves the JSON into a dedicated Story Planning folder rather than the root? | ignored | The user turn asks a different question, about whether Google Docs attached to NotebookLM stay in sync. It says nothing about folder IDs or the folder offer. | none
+- shape: Redirects to a new factual question about NotebookLM. It asks whether attached Google Docs stay in sync, which follows from the sync discussion but leaves the offered folder-ID explanation aside. It is a short information request about a tool's behavior.
+- settles:

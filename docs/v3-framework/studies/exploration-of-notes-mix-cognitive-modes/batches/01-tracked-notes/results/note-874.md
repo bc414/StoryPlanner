@@ -1,0 +1,7 @@
+- claims:
+  - Canon | In canon unicorns move the sun and the moon, which is the source fact the world law must handle | Since unicorns "move the sun and the moon" in canon | no
+  - NotesToSelf | The author judges that letting unicorns subjectively move the sun and moon would break the world, a design concern in planning | letting them subjectively move it would be world breaking | yes
+  - NotesToSelf | The author settles on a materialist worldbuilding answer, sun and moon moving only on a fixed path, as the design decision | the materialist world building answer is to make the sun and moon only move on a fixed path | yes
+  - Canon | The fixed path gives fixed climates, which recontextualizes canon's Winter Wrap Up and seasons by explaining them | which leads to fixed climates and explains Winter Wrap Up and seasons | no
+- goals:
+- whole: The author reasons through how to reconcile canon's unicorn-moved sun and moon with a materialist world, choosing a fixed celestial path that yields fixed climates and accounts for Winter Wrap Up and the seasons.

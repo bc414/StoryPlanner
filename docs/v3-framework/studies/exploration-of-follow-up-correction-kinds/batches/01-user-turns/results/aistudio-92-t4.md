@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the Conception Spell was developed by Celestia over 40 years and perfected around 970 ALB, and implied it replaced passion-driven reproduction generally; the user says it is only for two-mare couples and was invented centuries ago | The Conception Spell is strictly for couples of two mare couples. Celestia invented it centuries ago. | flat statement of the correct setting, with no apology, labelled a misconception
+  - fact of the world | The model's account of reproduction omitted how other couples have children: stallion couples adopt orphans from New Mareland, and stallion/mare couples conceive normally, so the spell is not a state-wide replacement for Red Love | Two stallion couples adopt orphans from New Mareland. Stallion/Mare couples have a kid normally. | flat added facts, given as the rest of the correction
+- about: The user corrects the model's account of the Conception Spell's scope and age and how other couples have children, says the rest of the response is acceptable, and asks the model to list the remaining contradictions with the story plan notes.

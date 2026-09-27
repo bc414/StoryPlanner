@@ -1,0 +1,4 @@
+- sources:
+  - the grim reality of Bushido | check the user's proposed drain-for-favor hierarchy against it, to see whether the idea matches the historical reality | Does this line up with the grim reality of Bushido? | referred-to
+- order:
+- about: The user adds two design ideas for Statthalters (mastering and taking pleasure in emotion sense, and juniors letting superiors drain them in hope of doing the same after promotion) and asks whether the second matches the historical reality of Bushido.

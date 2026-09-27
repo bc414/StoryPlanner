@@ -1,0 +1,5 @@
+- sources:
+  - EaW | treat as canon for Sunglider's background and for the NRP-C, NRP-L and NRP-R leadership roles of Sunglider, Rikard Astler and Kemerskai | Canonically in EaW, Sunglider read books about equestrian harmony | referred-to
+  - TLTT | the story plan being adapted; the user's suggestion for grounding Sunglider as the government official who deals with SAA is tentative, an idea to adopt rather than settled | In TLTT to ground it materialism I think Sunglider would be | referred-to
+- order:
+- about: The user proposes, as a tentative what-if, a hidden backstory in which Kemerskai stays in power for 20 years after ending martial law because he thinks Sunglider is too naive, and ties this to Sunglider's canonical EaW party roles and a proposed TLTT role.

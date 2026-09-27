@@ -1,0 +1,12 @@
+- questions:
+  - Does the user want an analysis of how Fizzlepop's hardened, artillery-firing horn becomes the mechanical blueprint for Starlight and Twilight engineering the Luna Nova rifle in Chapter 10? | ignored | Nothing on the rifle or Chapter 10 engineering. The user adds backstory and mechanics, then asks for a general review of the plans. | Review my story plans and give an analysis
+- shape: The user accepts the model's proposal and builds on it. They supply Fizzlepop's backstory as the Storm King's second in command, revise the herbs' purpose to pain relief, and add a rule that she can use spell matrices despite having no horn. They then ask for a general review of the plans, so the conversation moves to a broad analysis and the model's offered next topic goes untaken.
+- settles:
+  - Fizzlepop's artillery bursts gave her migraines from recoil during her time as the Storm King's commander. | Fizzlepop's magical artillery gives her migraines from recoil
+  - She joined the Storm King early and used terrifying magic bursts as intimidation to keep subordinate warlords in line. | joined him early and used her terrifying bursts of magic as intimidation
+  - She was the Storm King's second in command and ran logistical organization, while he supplied the propaganda and the loud, aggressive spirit of the horde. | 2nd in command, was logistical organization
+  - Her logistics skills carry over into rebuilding Ain Trotgourait. | Her logistics skills serve well in rebuilding Ain Trotgourait
+  - After the second battle she is in the hospital because she fired artillery blasts against changelings. Those blasts were meant to be used sparingly, as intimidation. | in the hospital after the 2nd battle after firing magical artillery
+  - The Tzinacatl herbs harden the remains of her horn so it hurts less. The aim is pain relief, not a tactical upgrade. | harden the remains so that it's less painful
+  - Without a horn as her spell CPU, Fizzlepop still has magic and can run spell matrices on her own magic, as earth ponies do. | can use spell matrices with her own magic just like earth ponies
+  - Her horn loss is a disability that the magical tech revolution lets her work around. This parallels Scootaloo flying with the Wings of Dew matrix and becoming a pilot in Chapter 17, Breakthrough, which she couldn't do under the stagnation of harmony. | she has a disability but the magical tech revolution lets her use tech

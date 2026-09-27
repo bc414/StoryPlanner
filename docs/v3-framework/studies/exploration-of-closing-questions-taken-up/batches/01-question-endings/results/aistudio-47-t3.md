@@ -1,0 +1,5 @@
+- questions:
+  - When Luna abandons grassroots integration and accepts the Token Reforms, how does Mali process this as a betrayal, and does Mali see Luna projecting Velvet's failure onto the Thestrals, making this the friction that drives Mali out of the Night Guard into the conventional military? | no user turn | none | none
+  - When Velvet bends the knee to Chrysalis's Statthalters and becomes a collaborator in Olenia, how does Celestia use that intelligence in the Great War, and does she use Velvet's collaboration as a rhetorical weapon against Applejack's demand to liberate the deer ("the Olenians chose tyranny")? | no user turn | none | none
+- shape: none
+- settles:

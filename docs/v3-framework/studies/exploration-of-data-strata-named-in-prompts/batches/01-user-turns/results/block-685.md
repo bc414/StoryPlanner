@@ -1,0 +1,6 @@
+- sources:
+  - my story plan | the body of material the model is to compare mainstream works against, to find the closest alignment | What mainstream work aligns most to my story plan | referred-to
+  - FiM | treat as one of the two origins the story is synthesized from: a commercial toy shell into which real storytelling for kids was injected; weigh it when judging uniqueness | had real story telling for kids injected into it (FiM) | referred-to
+  - EaW | treat as the second origin layered on top: a history simulation paralleling and parodying WW2-era history; weigh it when judging uniqueness | a history simulation that parallels and praodies real WW2-era history (EaW) | referred-to
+- order:
+- about: The user asks which mainstream work is closest to their story plan, or whether it is unique because it synthesizes a toy-commercial origin (FiM) with a WW2-parallel history simulation (EaW).

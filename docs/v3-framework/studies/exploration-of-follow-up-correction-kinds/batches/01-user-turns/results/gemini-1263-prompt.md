@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's fix and asks it to move on to comparing the two documents (the outputs of the old and new code) now that the change is applied.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Rommel comparison and asks a fresh question, wanting the speaker, exact wording and relevance of a half-remembered general's quote from a Hearts of Iron IV loading screen about soldiers understanding the wider picture.

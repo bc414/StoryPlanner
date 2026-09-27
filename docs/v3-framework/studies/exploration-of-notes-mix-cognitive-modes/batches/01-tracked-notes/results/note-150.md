@@ -1,0 +1,4 @@
+- claims:
+  - History | The families put their pride into producing food in order to dominate the SAA Leaderboard, reported as a fact of the world | The families poured their pride into producing food to dominate the SAA Leaderboard | no
+- goals:
+- whole: The note reports, as an in-world fact, that the families channeled their pride into food production to top the SAA Leaderboard, without staging anything on the page or stating an intended reader effect.

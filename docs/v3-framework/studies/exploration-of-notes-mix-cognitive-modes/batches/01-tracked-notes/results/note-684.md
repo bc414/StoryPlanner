@@ -1,0 +1,4 @@
+- claims:
+  - History | Before the story, Pharanx was praised by Chrysalis as a good tank commander | Pharanx gets accolates for being a good tank commander from Chrysalis | yes
+- goals:
+- whole: The note reports a single past fact: Pharanx received accolades from Chrysalis for his skill as a tank commander.

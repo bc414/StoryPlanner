@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user submits a new YouTube link, presumably for the same kind of summary, without commenting on or disputing the previous summary.

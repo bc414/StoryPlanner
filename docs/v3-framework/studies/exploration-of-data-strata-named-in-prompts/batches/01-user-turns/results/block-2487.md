@@ -1,0 +1,5 @@
+- sources:
+  - 5 consolidated reports added to the project documents | treat as new material to read and use to enrich the picture of the user's framework | I added 5 consolidated reports to the project documents | first-named
+  - the framework I've developed | the existing picture of the framework that the reports are to be weighed against and add to | how do they enhance the picture of the framework I've developed | referred-to
+- order:
+- about: The user announces they have added five consolidated reports to the project documents and asks how these reports enhance the picture of the framework they have developed.

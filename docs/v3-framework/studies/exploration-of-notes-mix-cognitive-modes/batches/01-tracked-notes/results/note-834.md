@@ -1,0 +1,5 @@
+- claims:
+  - world-truth ontology (god-mode rule of the world) | Alicorn magic is in truth a placebo effect, with no special power behind it | Alicorns magic is a placebo effect. They don't have special magic. | outside
+  - world-truth ontology (god-mode rule of the world) | Alicorn power levels follow exactly the same rules as unicorns, pegasi and earth ponies | Their magical power levels abide by the exact same rules as unicorns, pegasi and earth ponies. | outside
+- goals:
+- whole: The note states as invariant world truth that alicorns have no special magic, that their apparent power is a placebo effect and that it follows the same rules as all other pony kinds.

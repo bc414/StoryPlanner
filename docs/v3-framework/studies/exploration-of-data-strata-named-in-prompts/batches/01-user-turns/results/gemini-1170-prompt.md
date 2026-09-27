@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a comparative overview of the real-world history of rubber production, covering Southeast Asian plantation rubber against German synthetic and other Western methods, and does not point at any particular body of material to use.

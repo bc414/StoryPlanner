@@ -1,0 +1,5 @@
+- questions:
+  - Does recognizing Pagala's insecurity make Minette drop her arrogant mask and become vulnerable with Equestrian allies, or double down on elitism to prove she is better than the Statthalter? | ignored | Says nothing on it; asks for other dark mirror pairs instead. | none
+  - How does Minette reconcile her binary Chasseur view (redeem misled thugs, destroy grifter captains) with Fluttershy's unconditional Grace when Fluttershy rehabilitates Changeling POWs, some of whom served under Pagala? | ignored | Not taken up; the turn moves to a new request about other dark mirror pairs. | none
+- shape: Redirects to a broader request: drops the Minette/Pagala thread and its two questions, and asks the model to list other dark-mirror character pairs in the story. It is a short prompt for new material, not an answer.
+- settles:

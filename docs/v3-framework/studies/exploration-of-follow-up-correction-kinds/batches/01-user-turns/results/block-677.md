@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn puts forward the third-person-limited conflation, describes their own plan for internal and external focalization, and asks whether the earlier framework assumed strict internal focalization and whether third person's strength lies in variable focalization, paralepsis and paralipsis. It is a new set of questions and does not say the preceding model turn was wrong.

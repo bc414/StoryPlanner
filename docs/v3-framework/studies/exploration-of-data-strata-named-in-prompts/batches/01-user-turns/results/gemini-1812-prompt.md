@@ -1,0 +1,5 @@
+- sources:
+  - Aquileia's population and earth pony magic, as the author states them (80% griffon, 20% pony, griffon serfs, pony abuse, University of Pridea research) | treat as true; corrects what the model just assumed about Aquileia's makeup | To clarify, Aquileia is 80% griffon and only 20% pony | first-named
+  - real history of France, England, Magna Carta and the Black Death | asks the model to explain from its general historical knowledge how the French and English crowns centralized and how the plague changed things | So France is a decentralized state where the king is just the biggest warlord before Louis XIV? | referred-to
+- order:
+- about: The author corrects the model's picture of Aquileia's demographics and adds the scientific basis of earth pony magic, then asks the model to explain real French and English state centralization and the effect of the Black Death.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new worldbuilding detail, that griffon-built crystal stabilizers need vacuum and a nitrogen atmosphere and that Skyfall fails through cutting corners, asks whether it works, and asks for research into the history of nitrogen purging and whether it came from Haber-Bosch.

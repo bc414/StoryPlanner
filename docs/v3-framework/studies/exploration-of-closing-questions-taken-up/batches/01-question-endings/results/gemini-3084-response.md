@@ -1,0 +1,5 @@
+- questions:
+  - How does the user plan to handle the unrepentant VIP-like figures (Skyfall elites, the most brutal Statthalters) in the post-war phase? | no user turn | none | none
+  - Will those figures face a Kemerskai-style Grand Trial, or simply be out-competed by Harmonic Capitalism? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The name the changelings themselves use for their state: the model made the Herzlander Hegemony the definitive name and said Chrysalis erased the hive identity, while the user holds that changelings would say The Hives | I feel like the changelings would refer to it as The Hives | tentative counter-proposal, hedged as a feeling and given without a stated reason
+  - fact of the world | The equestrian name for the state: the model fixed it as The Changeling Lands, a deliberate pacifier used by Celestia, and the user doubts that word and offers Empire as a rival | while the equestrians view it as the Changeling X. Should X be lands? Empire? | put as an open question that reopens the term rather than declaring it wrong, with a real-world comparison (Germany and Japan) as the test
+- about: The user sets aside the model's single official Herzlander name and proposes a two-sided naming scheme, with The Hives used by changelings and a Changeling-plus-noun label used by Equestrians, asking which noun fits by looking at how the West named Germany and Japan.

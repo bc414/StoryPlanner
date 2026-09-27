@@ -1,0 +1,5 @@
+- questions:
+  - How Luna reacts on learning a Zebrican narco-state uses Nightmare Moon as a marketing logo, and whether it pushes her to fully embrace Applejack's interventionist Republic | no user turn | none | none
+  - How Applejack uses the testimony of New Mareland refugees fleeing Wingbardian vassalage in her campaign to destroy Gilded Trust's isolationist argument | no user turn | none | none
+- shape: none
+- settles:

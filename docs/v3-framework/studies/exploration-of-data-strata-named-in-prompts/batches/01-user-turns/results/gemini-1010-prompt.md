@@ -1,0 +1,5 @@
+- sources:
+  - cutie mark discount theory (Twilight's cutie mark discount rather than infinite magic) | treat as true in the story world; Fleur Bloom presents it as scientific fact and the scene is built on it | Fleur Bloom will explain the cutie mark discount theory as scientific fact | referred-to
+  - canon EAW, the pax Chrysalia focus tree (Twilight's fate when the changelings win) | reference for the canon outcome that the new scene directly subverts, not to be followed | This is a direct subversion of her fate in canon EAW when the changelings win, in the pax Chrysalia focus tree | referred-to
+- order:
+- about: The user is asking for a scene in which Twilight learns from Fleur Bloom that her spellcasting comes from a cutie mark discount and not infinite magic, which relieves her fear of being drained by changelings and subverts her fate in the Equestria at War focus tree.

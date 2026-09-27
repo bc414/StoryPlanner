@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user expresses puzzlement that the drug-fueled reality of WWII took about 70 years to be understood despite so many living witnesses, and asks the model to explain why.

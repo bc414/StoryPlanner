@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Charitostatic framework and builds on it, tying the conception spell to Celestia's history and Luna's dreamwalking, proposing that the effect began with earth ponies and Mage Meadowbrook, and asking for several possible mechanics for the Tzinacatl friendship plants.

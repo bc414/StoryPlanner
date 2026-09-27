@@ -1,0 +1,4 @@
+- questions:
+  - How do Twilight or Applejack react when they read Coltbert's original texts, and specifically does Applejack take offense at her peaceful life being called a stagnation or recognize the truth of it after her trench trauma? | no user turn | none | none
+- shape: none
+- settles:

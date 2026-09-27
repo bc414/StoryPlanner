@@ -1,0 +1,10 @@
+- questions:
+  - How do surviving elders of the 930 ALB generation, such as Granny Smith, react when Applejack comes home in a uniform and preaches Aquileian Ego-Capitalism and Passion? | ignored | Nothing about the elders' reaction or Granny Smith. | none
+  - Does Celestia see Twilight and Applejack's return to Red Love as a triumph of character, or her 40-year Conception Spell project as a wasted overreaction? | refused | Does not say how Celestia sees it. It corrects the premise: the spell is centuries old and only for two-mare couples, so it was not a 40-year effort to bypass Red Love in general. | The Conception Spell is strictly for couples of two mare couples. Celestia invented it centuries ago.
+- shape: Corrects one factual error in the model's reasoning (the Conception Spell's scope and age), accepts the rest of the response as sound, and then instructs the model to go through the story plan and list every note that still contradicts the revised timeline. It gives no answer to the Socratic questions.
+- settles:
+  - The Conception Spell is only for two-mare couples. | strictly for couples of two mare couples
+  - Celestia invented the Conception Spell centuries ago, not around 970 ALB. | Celestia invented it centuries ago
+  - Two-stallion couples adopt orphans from New Mareland. | Two stallion couples adopt orphans from New Mareland
+  - Stallion/mare couples have children the ordinary way. | Stallion/Mare couples have a kid normally
+  - The rest of the model's reframing is accepted as canon: the 80-year sociological quarantine, moral terror in place of biological ignorance, the adjusted Henri and Fleur lessons, and nudity as an enforced cultural aesthetic. | everything else in the above response makes sense

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's synthesis to a new, separate question about how much of real-world Greek, Roman and other ancient-civilization imagery is a later fabrication by Enlightenment, Renaissance and print-owning figures, to inform how Grover III will invent the Sparlean myth.

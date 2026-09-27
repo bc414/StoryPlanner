@@ -1,0 +1,5 @@
+- questions:
+  - Does Sunglider's reliance on the former Emperor's endorsement permanently compromise the Republic's ideological purity, and how do first-generation Republican veterans react to a President who owes his seat to a teenage Kaiser? | no user turn | none | none
+  - Does Grover VI feel intense guilt at using feudal posture to sway voters against their immediate economic comfort, and how does he reconcile that manipulation with wanting to be an honest historian? | no user turn | none | none
+- shape: none
+- settles:

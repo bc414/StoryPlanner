@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten: world-rule ontology | Gilded Bits are plain copper currency engraved with Gilded Trust's face, defining what the object is made of | plain copper currency with Gilded Trust's face engraved in them | outside
+  - outside all ten: world-rule ontology | Las Pegasus cashiers accept the bits as payment, defining their standing as currency | Las Pegasus cashiers accept them | outside
+  - outside all ten: world-rule ontology | Bits must be run through a verification machine to confirm they came from Gilded Mint and were not hoof-forged, defining how authenticity works | have to go through a verification machine to ensure the bits came from Gilded Mint | outside
+- goals:
+- whole: The note states, as plain world rules, what Gilded Bits are made of, who accepts them, and how their authenticity is verified, without saying anything about the reader's response.

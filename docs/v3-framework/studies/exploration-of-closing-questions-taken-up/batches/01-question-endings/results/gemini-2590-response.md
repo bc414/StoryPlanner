@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to analyze how Applejack, with her George Washington-style leadership and radical honesty, handles the logistical and cultural friction of merging Equestrian Spell Matrix users and Aquileian Appliqué artisans into one Republican army? | no user turn | none | none
+- shape: none
+- settles:

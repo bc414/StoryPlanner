@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Twilight is a logistical savant, a psychological truth about her core competence and identity | She is a logistical savant | yes
+  - Characterization | She processes anxiety by making hyper-detailed checklists and delegating tasks, asserting the mechanism behind her coping | processes anxiety by creating hyper-detailed checklists and delegating tasks | yes
+- goals:
+- whole: The note asserts, as a psychologist would, who Twilight Sparkle is at the start of TLTT: a logistical savant who copes with anxiety through detailed checklists and delegation.

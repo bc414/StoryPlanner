@@ -1,0 +1,13 @@
+- sources:
+  - Features and Phases.xlsx (feature list, implementation plan, where ideas came from) | read and fold into the synthesis as added insight on the platform's features, phasing and idea origins | I have attached "Features and Phases.xlsx" spreadsheet contains my feature list, implementation plan | first-named
+  - written description sent to a fellow writer | synthesize it with the earlier analysis, as giving more insight than the code alone | a written description I sent to a fellow writer | first-named
+  - model classes and comments (the data model) | the earlier baseline; the description is to add to it | more insight beyond just the model classes and comments | referred-to
+  - "Initial Idea" label in the spreadsheet | marks ideas from November 2023, before Fimfiction and the MLP spree | "Initial Idea" means November 2023 | first-named
+  - "Recent Planning" label in the spreadsheet | marks ideas that came from October 2025 design iterations with Gemini 2.5 Pro | "Recent Planning" means it emerged from architectural design iterations | first-named
+  - the user's own account of how the design was made (2-3 weeks of iteration with Gemini 2.5 Pro) | treat as true and correct the earlier claim that a production database background lay behind the schema | I actually did not operate a production database | first-named
+  - the user's clarification of CommunitySpotlight (limited monthly slots tied to hosting costs, no ads) | treat as the correct description of the feature | To clarify on CommunitySpotlight | first-named
+  - the user's own research on hosting cost ($50 a month on Digital Ocean) | check for accuracy and realism, including whether it reflects 2026 economics | How accurate was my research there? | referred-to
+  - TLTT themes (honesty vs poseurs, love harvester allegory, harmonic capitalism motif) | context that explains the spotlight and open-source decisions; the source of the author's change in view | These two decisions came from a fundamental change in view after TLTT story expansion | referred-to
+- order:
+  - the user's own account of how the design was made | over the model's earlier inference of production database experience | I actually did not operate a production database
+- about: The user supplies a spreadsheet and a description of the platform to be synthesized with the earlier schema analysis, corrects the model's assumptions about their background and the spotlight feature, and asks whether the hosting costs are realistic, why the open-source and no-ads choices, and whether people would actually use the site.

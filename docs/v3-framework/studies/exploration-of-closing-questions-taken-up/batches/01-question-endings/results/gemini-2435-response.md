@@ -1,0 +1,4 @@
+- questions:
+  - Does Zecora become the Republic's chief chemical engineer in the Great War, working with Applejack's provisional government on countermeasures such as anti-venoms or non-lethal defoliants against Changeling hive-resin (an Oppenheimer/Haber figure)? | no user turn | none | none
+- shape: none
+- settles:

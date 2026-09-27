@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the climate-commentary discussion and asks new factual questions about the history and chemistry of the Haber-Bosch process, its place relative to guano islands, and what preceded guano.

@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | The fantasy technology Blitz Essenz corresponds to the real-world stimulant pervitin (methamphetamine) | Equivalent to pervitin/meth | yes
+- goals:
+- whole: The note documents the real-world inspiration for the fantasy technology Blitz Essenz by naming pervitin/methamphetamine as its equivalent.

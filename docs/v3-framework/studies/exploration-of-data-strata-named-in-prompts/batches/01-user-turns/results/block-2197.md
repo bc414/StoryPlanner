@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user steps back from the archive analysis to ask in general terms whether others use AI for deep worldbuilding like theirs, what the state of that practice is in June 2026, and how much of it is low-effort AI slop versus work like their own.

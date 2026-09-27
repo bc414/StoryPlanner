@@ -1,0 +1,5 @@
+- claims:
+  - History | the industrialists took over the Empire's existing machinery of state and put it to their own use | the industrialists repurposed the Empire's machine | no
+  - Analogies | names the Jacobins in France, who took over an existing state apparatus, as the real-world model for this repurposing | just like the Jacobins in France | yes
+- goals:
+- whole: The note names the Jacobins' takeover of France's state apparatus as the real-world parallel for the industrialists' repurposing of the Empire's machine.

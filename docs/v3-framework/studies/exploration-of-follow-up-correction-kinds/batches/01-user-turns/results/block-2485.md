@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether Steam data can show when playtime was accumulated across years rather than only total hours per game, extending the model's list without disputing it.

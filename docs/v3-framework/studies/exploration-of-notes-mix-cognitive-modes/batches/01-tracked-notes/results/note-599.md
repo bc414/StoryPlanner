@@ -1,0 +1,5 @@
+- claims:
+  - History | King Sombra, the mist of terror, drove the other unicorns out and enslaved the crystal ponies | This King Sombra/mist of terror drove all the other unicorns out and enslaved the crystal ponies | yes
+  - History | Sombra set a curse on the Crystal City and all crystal ponies that made them disappear, when Celestia and Luna blasted him with the Elements of Harmony over 1000 years ago | It set the curse on the Crystal City and all the crystal ponies what made them disappear when Celestia and Luna blasted it with the elements of harmony over 1000 years ago | yes
+- goals:
+- whole: The note reports, as in-universe history, how King Sombra conquered and enslaved the Crystal Empire and how his curse made it vanish when Celestia and Luna defeated him over a thousand years ago.

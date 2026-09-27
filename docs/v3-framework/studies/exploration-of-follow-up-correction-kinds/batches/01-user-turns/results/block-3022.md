@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the checklist analysis alone and moves to a new question, proposing a hive-wars defeat that killed Vesalipolis's elite jaegers and Chrysalis's rise as a teenage speed jaeger, then asking how this fits the setup and asking for analysis from existing information because the MCP server is unavailable.

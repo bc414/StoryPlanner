@@ -1,0 +1,4 @@
+- questions:
+  - Does Shining Armor secretly agree with the FJA and Cadance and try to modernize the Guard in the shadows, or is he initially complicit in Celestia's top-down Nursery mentality until the war breaks out? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,5 @@
+- sources:
+  - the author's own extra nuance on Henri, Fleur and Aquileia, given from memory in this turn | add to the existing picture as established backstory: Henri was not a reconquest veteran, came from Ailmont in Verenia, joined the griffon supremacy group and later a martial club in Pridea, and fought in the 1008 2nd revolution; Fleur's family farm came indirectly from the king | I have some extra nuance | first-named
+  - Henri's and Fleur's telling of the glory of the Aquileian way | treat as biased and incomplete; it leaves out that the FJA is only 40% of Aquileia and the royal sponsorship behind their lifestyle, and Applejack only learns the fuller picture after arriving in Aquileia | told through Henri's and Fleur's biases | referred-to
+- order:
+- about: The author adds backstory for Henri and Fleur from their own knowledge of the story, correcting the earlier picture of Henri as a veteran and framing the glory of the Aquileian way as a biased, incomplete account told by the two characters.

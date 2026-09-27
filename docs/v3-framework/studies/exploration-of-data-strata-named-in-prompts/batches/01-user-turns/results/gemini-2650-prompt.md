@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a single open question about what the pony's mane and tail would offer the griffon, without pointing the model at any body of material.

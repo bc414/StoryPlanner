@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to draft a specific AI Studio system instruction to lock in a professional, Claude-like tone for their technical or writing projects? | ignored | Says nothing about drafting a system instruction. It moves on to new comparison questions about multimodality and context window. | none
+- shape: Redirects. It drops the offer to draft a system prompt and asks two new comparison questions about Gemini versus Claude: whether Gemini still leads on native multimodality, and whether Claude 4.6 has caught up on truly using a long context window. It reads as a continued information-gathering exchange about tools.
+- settles:

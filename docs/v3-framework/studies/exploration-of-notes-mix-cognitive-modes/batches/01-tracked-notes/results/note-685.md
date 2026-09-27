@@ -1,0 +1,4 @@
+- claims:
+  - History | Thorax was thrown off Mount Canterhorn by Le Sort de la Lionne, a past event before the story begins | He was thrown off Mount Canterhorn by Le Sort de la Lionne | yes
+- goals:
+- whole: The note reports, as a bare in-world fact, a past event in which Thorax was thrown off Mount Canterhorn by Le Sort de la Lionne.

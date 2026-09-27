@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to learn more about the Marco Polo Bridge Incident? | no user turn | none | none
+  - Does the user want to hear about how the Chinese Communists and Nationalists teamed up against Japan? | no user turn | none | none
+- shape: none
+- settles:

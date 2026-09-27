@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model described Trimmel's early-war conduct in Vanhoover as a ruthless 'No Mercy' approach driven by grief over Ixodida. The user says Vanhoover saw a clean surrender and mercy to surrendering combatants from Trimmel, and that the burning (Acornage) was Pagala's work. | "recall that Trimmel got a clean surrender and gave mercy to surrendering combatants. Pagala burned Acornage to the ground in contrast" | Implicit: offered as a reminder of established events and then used as the basis for a new proposal, with no statement that the model was wrong and no apology.
+- about: The user restates how Trimmel and Pagala actually behaved in Vanhoover, uses that to lay out a timeline in which the mild meritocrat occupation gave way to Statthalter-run camps after the Tall Tale defeats, and asks whether Chrysalis would plausibly make that switch.

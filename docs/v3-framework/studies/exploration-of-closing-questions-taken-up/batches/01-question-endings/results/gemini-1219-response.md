@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look up the exact sunrise times in New Jersey for the next month, to show how much solar alignment an 8:40 AM wake time gets? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want help drafting a specific prompt for comparing two document versions once they have them ready? | ignored | Says nothing about prompt drafting. It asks a new how-to question about writing a program to retrieve the versions. | none
+- shape: Moves past the offer to a new, more technical follow-up. It picks up the programmatic option from the model's alternatives and asks how to build a program that pulls the revisions and saves them in a Gemini-friendly format. It is a request for instructions, not an answer.
+- settles:

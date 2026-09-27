@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting further dark mirror character pairs beyond the Minette–Pagala one, without challenging anything in the model's answer.

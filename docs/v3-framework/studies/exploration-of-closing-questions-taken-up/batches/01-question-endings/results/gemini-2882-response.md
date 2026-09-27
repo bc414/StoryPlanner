@@ -1,0 +1,4 @@
+- questions:
+  - Does the iterative, error-averaging bootstrapping model feel right for the technical pacing of Star Energy's developments in Pridea? | ignored | Says nothing about pacing or Star Energy. It builds on the bootstrapping model as given and asks whether its consequence (each Griffon bootstraps their own machine, so is asset specific) follows. | none
+- shape: A short follow-up that tests an implication of the model's proposal. The user restates it as an inference (each Griffon bootstraps from scratch, so asset specific) and asks for confirmation. It neither approves nor rejects the pacing question, and it moves to the consequences of the mechanism.
+- settles:

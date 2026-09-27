@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user gives the owner a name, adds a contrasting lord (Gaudreau) and his daughter Cecille with the Vinovia backstory, proposes a Vinovian serf as Minette's griffon chasseur partner, and asks for period-appropriate male names, moving on without disputing anything the model said.

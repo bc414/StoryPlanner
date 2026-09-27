@@ -1,0 +1,9 @@
+- sources:
+  - the relevant notes on why Cadance and Shining Armor are at the parloir | check them; they say the two feel like frauds, and this outranks the model's account of them seeking military training | check the relevant notes | referred-to
+  - the model's earlier reply, the "2001" year | treat as a mistake and discard; use 1001 | Don't use the "2001" year which was a mistake | referred-to
+  - the model's earlier reading of Réni | treat as too cold and detached; revise it with more depth | This reading of Réni seems a bit too cold and detached | referred-to
+  - Réni's notes on his foundational psychology, probably in the v1 archive | look them up and use them to build Réni's depth; not yet carried into v2 | Look into his notes (probably in v1 archive and not in v2 yet) | referred-to
+  - the v2 TKOW outline and its empty placeholders about Mane 6 encounters | the author's provisional interpretation of what the placeholders should hold, the language for fixing the nagging problems; to be developed | I think the empty placeholders in the v2 TKOW outline about Mane 6 encounters would be | referred-to
+  - TLTT's story frame by its end | treat as the established world state for the argument: Skyfall dismantled, the Allies exist, Wingbardy, Colthage and the Zebrican warlords remain | By the end of TLTT's story frame, Skyfall has been dismantled | referred-to
+- order:
+- about: The user corrects a year and the reason Cadance and Shining Armor visit the parloir, asks the model to check that against the notes and to rebuild Réni from his v1 psychology notes, and offers their own reading of Minette's arc and of the empty Mane 6 encounter placeholders, asking which Mane 6 conversations would give the language for fixing the village.

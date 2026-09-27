@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's analysis by stating new world-building details of the seal system and the economy of Aquileia, and contrasts feudal Aquileia with the post-Coltbert reforms, without pointing at any body of material to draw on.

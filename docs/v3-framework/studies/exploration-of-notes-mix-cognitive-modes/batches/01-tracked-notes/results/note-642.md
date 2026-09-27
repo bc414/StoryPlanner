@@ -1,0 +1,6 @@
+- claims:
+  - History | Twilight, Fleur, Starlight and Fluttershy redesigned the love harvester to work slowly and gently, so being drained hurts less | Twilight, Fleur, Starlight, and Fluttershy redesigned the love harvester to be slow and gentle, reducing the discomfort | no
+  - History | The gentler process yields higher-quality love | The resulting love is higher quality | no
+  - History | That love powers the Equestrian Army in its fight against Chrysalis | fuels the Equestrian Army against Chrysalis | no
+- goals:
+- whole: The note reports as in-world fact who redesigned the love-harvesting technology, why, and how its higher-quality love now supplies the army against Chrysalis, and it asks nothing of the reader.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user, confused by the model's framing of grimdark cynicism, asks a side question about whether George RR Martin's baby-boom background explains his outlook and whether ASOIAF is more popular with young people or boomers today.

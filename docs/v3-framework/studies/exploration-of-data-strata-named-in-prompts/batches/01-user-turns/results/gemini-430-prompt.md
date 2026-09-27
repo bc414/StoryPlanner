@@ -1,0 +1,4 @@
+- sources:
+  - analysis already given earlier in this conversation | do not repeat it; new analysis must not overlap with what has already been covered | non-overlapping analysis | referred-to
+- order:
+- about: The user asks the model for further analysis that does not duplicate what it has already provided.

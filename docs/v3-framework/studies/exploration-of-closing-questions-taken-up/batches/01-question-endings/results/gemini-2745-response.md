@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts no answer or decision to the model. It asks a fresh, short question about what "Monte Cristo" means inside the story. That is a request for explanation, and it may be about the original novel's title or about the parody's titles. It moves on from the list of parody titles without picking one.
+- settles:

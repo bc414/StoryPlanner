@@ -1,0 +1,9 @@
+- questions:
+  - If the drone's Emotion Sense picks up the ponies' terror while the vocoder outputs flat robotic speech, how does that contradiction affect the drone's psyche? Does it feed the "system crashes" that need Jaeger-Geist to suppress? | ignored | The turn says nothing about the sensory dissonance, the psychological effect, or Jaeger-Geist. | none
+  - How fragile are the miniaturized vacuum-tube translators in trench mud and artillery fire? If one breaks mid-battle and the squad has to rely on unshielded Emotion Sense, how fast does combat cohesion dissolve? | ignored | The turn takes up how the portable device is built, saying it is complex and needs griffon artisans. It says nothing about durability, breakage, or cohesion. | none
+- shape: The user turn corrects the model's ontology and does not answer either question. It rejects the claim that the device is easy enough to mass-produce without artisans. It says a portable version would need griffon artisans, then recasts that as an advantage. Chrysalis's Skyfall shell companies give her a monopoly and a profit stream. The turn expands the technology's origin and economics and does not touch the psychological or battlefield-fragility threads.
+- settles:
+  - The portable Changeling translator is too complex to make without griffon artisans, so Chrysalis needs them to manufacture it. This replaces the model's claim that it needed only copper, magnets and tubes on an assembly line. | "would need griffon artisans to manufacture it"
+  - Chrysalis controls the supply chain through her Skyfall shell companies and holds a monopoly. | "shell companies and can have a monopoly on the supply chain"
+  - Chrysalis trains the griffon artisans herself. | "the griffons she trains"
+  - Chrysalis sells the devices at large profit to other Skyfall tycoons, who use them to exploit Zebrican labor further. | "massive profits selling these devices to other Skyfall tycoons"

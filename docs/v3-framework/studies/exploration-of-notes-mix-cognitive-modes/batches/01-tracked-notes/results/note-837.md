@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Little Strongheart is defined by her role as Fluttershy's mentor, the one who teaches Fluttershy to let the birds free | She is Fluttershy's mentor who teaches Fluttershy to let the birds free | no
+- goals:
+- whole: The note gives a one-line assertion of the character's role as Fluttershy's mentor and what she teaches her, and says nothing about how the reader is to meet or experience her across the project.

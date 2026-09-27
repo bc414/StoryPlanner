@@ -1,0 +1,6 @@
+- sources:
+  - v1 archive | the model is to check whether "nursery" in it is the user's own voice or Gemini's copy-pasted text | In v1, is nursery used in my voice or Gemini's, copy-pasted? | referred-to
+  - v2 | may still contain text copied over from v1, so it is also to be checked for copying | Some v2 may have still had some copying from v1 too | referred-to
+  - the model's previous analysis (14 vs 96 hits, 85% reduction) | treat as mistaken on migration; only about 1/5 of the archive is migrated, so the gap is expected and not evidence of editing | Correction: the migration is not complete. 14 vs 96 is expected | referred-to
+- order:
+- about: The user corrects the model's inference that the 14-vs-96 drop shows editing, explaining that only about a fifth of the archive is migrated, and asks whether v1's uses of "nursery" are the user's voice or Gemini's pasted text and whether v2 also carries copied text.

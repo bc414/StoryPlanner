@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the setup of the town hall scene (it is between Gilded Trust and Comet Shine, with Rockefeller already arrested) and says they like the idea of Gilded Trust bashing the absent Rockefeller while Comet Shine and Fleur Bloom discuss partnership and war bonds.

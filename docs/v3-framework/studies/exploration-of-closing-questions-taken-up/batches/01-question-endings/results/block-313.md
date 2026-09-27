@@ -1,0 +1,9 @@
+- questions:
+  - When Flowing Current and EEEE! rip a DRM out of a Skyfall loom, do they keep the acronym but give it a new meaning as a badge of honor, such as Democratized Repair Mechanics? | ignored | none. The user turn only discusses which Dutch expansion of DRM to use. | none
+  - Does Kessler Jr., whose valves have no DRM, later try to build an unbreakable new DRM crystal to lock Equestria into a post-war subscription trap, starting an arms race with Twilight and Fleur? | ignored | none. The user turn does not mention Kessler Jr., a new DRM, or a post-war arms race. | none
+- shape: The user picks one of the three offered Dutch expansions of DRM, Dienst Resonantie Matrix, and gives lore reasons for it. They add that Dienst is the colloquial name for it. They then stop. The two closing Socratic questions get no reply.
+- settles:
+  - DRM in Skyfall is expanded as Dienst Resonantie Matrix, the feudal-service option, not the Diagnostic or Domain Rights options | I think Dienst Resonantie Matrix makes the most sense
+  - Skyfall people know the DRM is really a subscription fee, so a 'Diagnostic' label would not work as a cover story | everyone in Skyfall knows they are subscription fees so diagnostics doesn't work
+  - Dienst as feudal duty is a corruption of artisan-chivalry ideas found in Grover III era texts, which the Royalists who study magical engineering read | Royalists who study magical engineering are reading Grover III era texts about artisan chivalry
+  - Dienst is the everyday colloquial term for the DRM | Dienst can be the colloquial term for the DRM

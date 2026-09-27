@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general historical question about when and how the US, Britain and the Dutch moved from gold as a value marker to commodity-based currency, without pointing the model at any particular body of material.

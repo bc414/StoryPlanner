@@ -1,0 +1,7 @@
+- sources:
+  - the flower war incentives you came up with | treat as wrong, since the incentives are reversed; replace them with the author's corrected version | I think the flower war incentives you came up with are reversed | referred-to
+  - the story plan | review it again, checking it against the author's corrections | Please review the story plan | referred-to
+  - existing EaW lore | research it as the established baseline that the author's version departs from | do some research into existing EaW lore | referred-to
+  - the Chirropterra mythic lore | do not treat as literal truth; read it as in-world predatory marketing, a mythic skin over industrial extraction, to be subverted with materialist historicist causation | the mythic lore is pure predatory marketing to intimidate Skyfall opportunists | referred-to
+- order:
+- about: The author corrects the model's flower-war and drug-tribe economics with their own revised mechanics and history, and asks the model to review the story plan and research existing EaW lore in order to subvert the Chirropterra myth with materialist causation.

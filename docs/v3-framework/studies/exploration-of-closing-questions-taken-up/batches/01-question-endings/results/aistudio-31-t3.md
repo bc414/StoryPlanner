@@ -1,0 +1,10 @@
+- questions:
+  - Do the liberated serfs see the privileged Palace Brat Chasseurs as genuine liberators, or as a prettier new kind of overlord replacing the Warlords? | ignored | Says nothing about how serfs view the Chasseurs; the turn only corrects who was in the original Chasseur cohort. | none
+  - How does Applejack reconcile the snobbery and exclusivity of the Chasseur/Parloir origins with Equestria's belief in universal dignity when she imports Harmonic Capitalism? | ignored | Says nothing about Applejack or Equestria; it stays on the makeup of the original Chasseurs. | none
+- shape: Corrects the model's premise instead of answering its questions. The model had said the vanguard was purely 2nd-gen royalist and that serfs like Réni were admitted only later. The user narrows this: royalists are the majority, but the two original pair-members the characters meet are outsiders who were there from the start. The message is sent twice, word for word.
+- settles:
+  - 2nd-generation royalists are the majority of the original Chasseurs, not the whole cohort | the 2nd gen royalists are the majority
+  - Réni Ducep is a Vinovian serf, so he does not fit the royalist demographic | Reni (Vinovian serf) ... don't fit that demographic
+  - Minette is a house pony, so she does not fit the royalist demographic either | Minette (house pony)
+  - Réni and Minette are the primary original Chasseur pair the characters meet | primary original chasseur pair the characters meet
+  - Réni and Minette were in the Academy from the start, not admitted in a later phase | They were there from the start

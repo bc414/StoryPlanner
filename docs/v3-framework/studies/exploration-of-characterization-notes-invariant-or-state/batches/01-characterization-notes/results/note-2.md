@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | She hates industry, and the reason is that her parents left the farm for it | "She hates industry because her parents left the farm for it" (present tense, no stated period) | none
+  - unfixed | She views industry as dishonest | "She views industry as dishonest" (present tense, no stated period) | none
+- beside: Yes. Backstory note 3 (world date 990) speaks of the same thing: she disliked the industrializing city life, preferred the honesty of the farm, and believed her parents turned farming into a soulless quota system. Backstory note 126 (990) gives the parents' move to Manehattan to start a canning company, which is the leaving this note points to.

@@ -1,0 +1,6 @@
+- claims:
+  - History | Blueblood takes the broken, retreating remnants of the border vanguard into his secondary lines | Blueblood absorbs the shattered, fleeing remnants of the border vanguard into his secondary lines | yes
+  - History | Blueblood makes the Changeling Heer fight for each mile of the Northern plains | He forces the Changeling Heer to fight for every mile of the Northern plains | yes
+  - History | Blueblood posts troops at a railway junction to hold it until civilian trains from Shire, Marechester, Whinnyapolis and Bales leave, then destroys the tracks behind them | He deploys troops to hold a railway junction just long enough for the civilian trains ... and then blows the tracks behind them | yes
+- goals:
+- whole: The note reports, as in-universe history, how Blueblood's Equestrian Army absorbed the retreating vanguard, contested the Northern plains against the Changeling Heer, and covered a civilian rail evacuation before destroying the tracks in 1011.

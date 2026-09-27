@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to suggest further large concepts from the story that could be seeded early, continuing the previous answer's approach, without naming any source of data to use or avoid.

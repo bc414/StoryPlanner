@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model why the other characters could trust Gilded Trust, lists the story facts they already have in mind (sunken ships, past support for Star Energy, Comet Shine's vouching, nationalist rhetoric, not selling his oil fields to Rockfeller), and asks what more could be added.

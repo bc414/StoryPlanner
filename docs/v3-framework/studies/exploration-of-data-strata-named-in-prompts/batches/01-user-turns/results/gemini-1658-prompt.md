@@ -1,0 +1,4 @@
+- sources:
+  - the author's own statement that harmonic capitalism is not revealed until later and that they are in survival mode | treat as a true constraint on the answer; the model should not lean on harmonic capitalism and should assume survival-mode thinking in chapter 1 | harmonic capitalism is not revealed until later. They are very much in survival mode | first-named
+- order:
+- about: The user asks the model for a verdict on whether Star Energy should dismantle the dam early in chapter 1, and adds a correction that harmonic capitalism is not yet revealed and the characters are in survival mode.

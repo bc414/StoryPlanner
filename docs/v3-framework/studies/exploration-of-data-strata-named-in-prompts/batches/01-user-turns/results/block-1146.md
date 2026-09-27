@@ -1,0 +1,8 @@
+- sources:
+  - this objective backstory (the locked-in Fluttershy/Rockfeller timeline just laid out) | treat as settled fact and use as the lens for reinterpreting the canon material | With this objective backstory locked in | referred-to
+  - the fairy tale Fluttershy tells the CMCs in the canon episode | the published show material to be reinterpreted so it fits the backstory | how can we not interpret the fairy tale Fluttershy tells the CMCs in the canon episode | referred-to
+  - the line 'I had never been to the ground before' | canon dialogue to be read as a euphemism for the wild, offered as a tentative reading | can be a euphemism for "the wild" | referred-to
+  - the user's own assumption about Fluttershy's parents warning her off empty open fields | provisional supposition of the user, not established, to be tested | I guess ... assuming her parents told her | first-named
+- order:
+  - this objective backstory over the fairy tale Fluttershy tells the CMCs in the canon episode | the backstory is locked in first and the canon fairy tale is to be interpreted in its light
+- about: The user takes the locked-in backstory as fixed and asks how to reinterpret Fluttershy's canon fairy tale to the CMCs in its light, offering a tentative reading of "the ground" as "the wild" resting on a supposed parental warning.

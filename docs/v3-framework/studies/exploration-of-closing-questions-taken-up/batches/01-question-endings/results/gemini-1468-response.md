@@ -1,0 +1,3 @@
+- questions:
+- shape: The user puts no answer to anything. They bring up another figure from the primary, Steve Sweeney, and ask where he fits. This continues the mapping of real candidates onto the story's stages. It is a short new request, not a reply to the model's turn.
+- settles:

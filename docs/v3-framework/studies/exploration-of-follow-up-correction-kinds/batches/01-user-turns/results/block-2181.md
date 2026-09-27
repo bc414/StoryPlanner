@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's analysis of the Poseur as evidence rather than a theme and asks for the same test to be run across the other v2 propositions.

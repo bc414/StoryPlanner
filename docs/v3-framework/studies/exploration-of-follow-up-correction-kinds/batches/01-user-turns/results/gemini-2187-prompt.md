@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's post-1991 consensus framing of Celestia as a working premise and asks for a new task: a review of their existing Celestia plans with pros, cons and a comparison against the "traumatized mother" material.

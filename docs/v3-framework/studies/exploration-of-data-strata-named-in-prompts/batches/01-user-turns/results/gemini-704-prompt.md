@@ -1,0 +1,5 @@
+- sources:
+  - fanon characters across the MLP fandom | body of material to survey for other characters named Midnight Oil, to check whether the name matches any of them | dive into whether the name "Midnight Oil" corresponds to other fanon characters across the MLP fandom | first-named
+  - the game (where Midnight Oil is an Equestrian general labeled a night guard) | treated as the origin of the name and the basis for the user's choice; the character as it appears there is the stated reason for the name | I chose the name since that character appears as an Equestrian general in the game and is labeled as a night guard | referred-to
+- order:
+- about: The user asks the model to research whether the name "Midnight Oil" matches other fanon characters in the MLP fandom, explaining that they took the name from an Equestrian general and night guard in the game.

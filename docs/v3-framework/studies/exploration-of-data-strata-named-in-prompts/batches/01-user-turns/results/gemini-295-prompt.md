@@ -1,0 +1,5 @@
+- sources:
+  - the idea that jaegers who get addicted to red love can't even utilize the ambient pink love anymore | an existing premise from earlier in the conversation that the new conscript and withdrawal material must be reconciled with; the user restates it with corrected colour terms (pink is friendship, red is magic/ambition) and offers a softer variant (physically able, psychologically not) | How does this mesh with the idea; Pink love is friendship, not green | referred-to
+  - actual narcotics (real-world knowledge of how addiction and withdrawal work) | to be consulted to check whether the withdrawal-from-red-love analogy matches real drug behavior | Is that how actual narcotics work? | referred-to
+- order:
+- about: The user adds worldbuilding about conscript changelings who need love rations to blunt their emotion sense, the broken prisoners, and the Acornage doctor's biology explanation, then asks how this fits the red-love addiction idea and whether that matches real narcotic withdrawal, including using concentrated pink love to wean addicts.

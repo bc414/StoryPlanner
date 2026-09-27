@@ -1,0 +1,5 @@
+- sources:
+  - your existing info | base the analysis on what the model already has from the conversation so far, without fetching anything new | Give an analysis with your existing info | referred-to
+  - MCP server | do not use it, since it cannot be accessed for now | MCP server won't be accessible for now | referred-to
+- order:
+- about: The user proposes a provisional backstory for Chrysalis's rise, in which a catastrophic hive-war defeat kills Vesalipolis's elite jaegers and previous queen and a teenage speed jaeger takes over and then leaves, and asks the model to analyze how that fits the setup using only what it already knows, because the MCP server is unavailable.

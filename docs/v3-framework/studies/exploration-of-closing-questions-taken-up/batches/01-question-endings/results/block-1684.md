@@ -1,0 +1,5 @@
+- questions:
+  - How does Gilded Trust's Ponies First party weaponize war trauma to convince the frightened agrarian majority that the Top-Right (extraction, xenophobia) is safer than the Top-Left (integration)? | ignored | The user turn asks for something else and says nothing about Gilded Trust or the trauma. | none
+  - What compromises might the conservative Celestial Party demand, as the New Deal's Dixiecrat deal did, that would exclude the Tzinacatl, Buffalo, or rehabilitated Changelings from the safety net? | ignored | The user turn says nothing about the Celestial Party, the safety net, or the excluded groups. | none
+- shape: Redirects. The user leaves both Socratic questions unanswered and gives a new instruction: apply the two-axis framework to real-world history and the present day. This moves from the fiction to real-world analysis, with the framework as the lens.
+- settles:

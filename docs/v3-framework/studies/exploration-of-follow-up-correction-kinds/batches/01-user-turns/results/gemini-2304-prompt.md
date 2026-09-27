@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered with a power-plant versus vehicle efficiency comparison and a magic handwave that the crystal shrinks a combined cycle into an engine block. The user wanted the hybrid engine's mechanics worked out from first principles. | Let's restart on the hybrid engine mechanics and build from the ground up | Flat directive to discard the previous approach and start over, with no reason given.
+  - fact of the world | The model placed the hybrid engine in Wonderbolt fighters as the Pridea-Star Crystal Engine. The user says it begins as a product for Star Energy tractors. | The hybrid engine starts as a product for Star Energy tractors | Stated in passing as the starting premise for the redo, without saying the model was wrong.
+- about: The user discards the model's fighter-engine and magic-handwave answer and resets the topic to a tractor-origin hybrid engine, asking for the physics and chemistry of recovering exhaust energy in a moving vehicle and checking that they have understood cogeneration correctly.

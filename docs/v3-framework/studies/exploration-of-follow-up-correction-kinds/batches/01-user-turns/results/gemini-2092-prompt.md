@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's four-axis restaurant model as given and asks two new follow-up questions, one on whether some models moved from cities to suburbs after the pandemic and one on how minimum wage increases affect them.

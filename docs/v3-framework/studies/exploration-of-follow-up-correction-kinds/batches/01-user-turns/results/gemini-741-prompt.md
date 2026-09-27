@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model described the app's navigation as having a Saved Notes section or tab and a New Note button, but the user's app shows only Sources, Chat and Studio at the bottom, so the described interface does not match what they see | I only see sources chat and studio on the bottom navigation | flat report of what is on screen, given in passing with no complaint, apology or explicit statement that the model was wrong
+- about: The user reports that the app's bottom navigation shows only Sources, Chat and Studio, which does not match the notes location the model described, and implicitly asks how to find notes.

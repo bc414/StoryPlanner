@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to brainstorm a scene where a Skyfall privateer mocks a Chasseur or Aquileian over the contraception practice, and the Aquileian dismantles the privateer's insecurity? | ignored | The user does not respond to the scene offer. They compare the emasculation fear to the changelings' draining spells, then ask real-world questions about vasectomy and testosterone, the pill, and male contraceptive gels. | none
+- shape: The user turn redirects from the offered scene to real-world science. It first links the emasculation fear to the changelings' draining spells. It then asks a run of factual questions: vasectomy and testosterone, whether the pill is a grift, and whether the Indian gels work and are held back by lobbying. In between, it floats a tentative idea for Skyfall's world.
+- settles:
+  - Tentatively, Skyfall gets a hormonal-contraception feature. The city's population is mostly male immigrants and migrants, native women fear the streets, and prostitutes bear the hormonal cost of the pills. | "I suppose this should be a feature in Skyfall"

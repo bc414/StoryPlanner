@@ -1,0 +1,4 @@
+- sources:
+  - the original plan (farmers overthrow the king in 1007 because the export market is saturated and Discret stifles the domestic market through ego and tax policy) | treat as the baseline the author first planned; keep it as the starting point and look for a hybrid with the new ideas that is more poignant | At least that's what I originally planned | referred-to
+- order:
+- about: The author corrects the model's assumption about farmers needing city equipment, restates their original plan for the 1007 revolt, and proposes a new note-and-gold loan mechanism while asking for a more poignant hybrid.

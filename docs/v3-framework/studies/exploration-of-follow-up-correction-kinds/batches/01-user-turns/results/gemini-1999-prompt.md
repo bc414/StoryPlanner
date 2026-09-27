@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a neutral follow-up question weighing the fixed count of three methodologies in the Strategist prompt against letting the AI choose how many, without saying the earlier design was wrong.

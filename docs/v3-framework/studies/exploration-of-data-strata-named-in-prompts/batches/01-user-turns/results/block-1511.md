@@ -1,0 +1,7 @@
+- sources:
+  - C2 (the second conversation's design) | treat as unreliable and not fit to hardcode into story planner v2, since it mixed La and En and over-specified gaps | left me confused and unwilling to hardcode it | referred-to
+  - C1 excerpt on "show don't tell" at 5 scales | use as the framework to map onto the current design, and as the basis for the open questions about Scales 4 and 5 | I pasted in a particular excerpt of C1 | first-named
+  - V1 story threads | treat as a past design, used as the reason to retire the story thread concept, since they had no La and were only Emergent within TLTT | V1 story threads were things that had no La | referred-to
+  - the earlier plan of themes as subjects | treat as outdated and replaced by themes as their own entity type | Themes were planned to be subjects, but now I think | referred-to
+- order:
+- about: The user corrects and clarifies the track counts and entity structure (subject types, retiring story threads, themes as their own entity), explains why the C2 design felt like tunnel vision, asks for rules on plot point content and splitting, and maps C1's five "show don't tell" scales onto their design while asking about the unclear Scales 4 and 5.

@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | the character's in-story development arc is to be about her reconciling with industrial poseurs | Her in-story character development is about reconciling with industrial poseurs | yes
+  - Canon | the reconciliation is modeled on or drawn from the source-material Las Pegasus setting or episode | like in Las Pegasus | no
+- goals:
+- whole: The note gives a one-line statement of the character's development arc, reconciliation with industrial poseurs, tied to a canon reference to Las Pegasus, and names no reader effect and no reading-order beats.

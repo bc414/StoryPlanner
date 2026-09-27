@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to see how to rewrite a standard sentence into Free Indirect Speech or Deep Third to see the mechanics? | ignored | The user does not accept or decline the offer; they ask a new question about examples of deep third that shifts the lens character mid-scene through a bridge. | none
+- shape: Redirects to a new, more specific craft question (examples of deep third that hands off the lens character mid-scene via a bridge) instead of taking up the offered rewrite exercise; it builds on the explanation just given.
+- settles:

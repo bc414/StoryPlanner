@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Plans the reader's starting opinion of Celestia: that she is an overprotective mother whose white-peace attempt is a parent pushing a grown child back into the crib | Readers will think Celestia is an over protective mother ... shove the grown child back into the crib | yes
+- goals:
+  - Readers are to hold the opinion that Celestia is an overprotective mother and that her white-peace move is infantilizing her grown child | WorldInference | Readers will think Celestia is an over protective mother
+- whole: The note sets the reader's initial, trope-driven opinion of Celestia as an overprotective mother whose white-peace attempt is smothering a grown child.

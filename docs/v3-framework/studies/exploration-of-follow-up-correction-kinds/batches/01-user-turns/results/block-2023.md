@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's genre-prison and hopepunk framing and moves on to new questions about grimdark's audiences, what TLTT keeps and adds, hopepunk's origins and peer works, and Itaewon Class as an influence, without disputing anything the model said.

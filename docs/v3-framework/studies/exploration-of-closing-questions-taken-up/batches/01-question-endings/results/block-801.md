@@ -1,0 +1,5 @@
+- questions:
+  - How do surviving Stalliongradian Commissars ideologically process the Luna Nova Rifle: as a tool of proletarian liberation, or as a bourgeois weapon creating a hierarchy between strong and weak magic users? | no user turn | none | none
+  - How does the post-war Republican Pact handle the geopolitical debt owed to Stalliongrad, and does Stalliongrad demand punitive reparations from the Changeling Hives, clashing with the "Strong to be Merciful" rehabilitation policy? | no user turn | none | none
+- shape: none
+- settles:

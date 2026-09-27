@@ -1,0 +1,6 @@
+- questions:
+  - How do the antagonists react to the Love Donator: outlaw it as a public-safety danger, or pervert it into state-mandated patriotism harvesters? | ignored | Says nothing about the antagonists' reaction to the Love Donator. It only corrects the model's picture of Pridea's labor arrangements. | none
+- shape: Corrects the model's premise. The model had pictured management, executives and a labor-union dynamic in Griffon industry. The user replaces that with Pridea's actual arrangement and names it as the core of the Skyfall vs. Aquileia cold war. The turn is short and leaves the model's closing question unanswered.
+- settles:
+  - Pridea has no management; every artisan owns their own workshop | "There is no management in Pridea" / "Every artisan owns their own workshop"
+  - The Skyfall vs. Aquileia cold war is thematically built on this contrast in how labor and ownership are organized | "That's the whole thematic core of Skyfall vs. Aquileia cold war"

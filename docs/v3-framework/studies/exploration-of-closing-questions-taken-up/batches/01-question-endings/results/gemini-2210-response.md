@@ -1,0 +1,8 @@
+- questions:
+  - Does the user want to explore the internal logistics and hierarchy of a purely extractive horde when it is not fighting? | ignored | Nothing said about it; the user maps the parallels onto their own lore and asks a different question about what ISIS can add to Chrysalis. | none
+- shape: Redirects. It skips the offered follow-up, folds the model's parallels (EIC, ISIS) into the user's own factions, states how they fit, and asks a new question about what else ISIS could add to Chrysalis's terror state.
+- settles:
+  - Chrysalis plays the East India Company role: it exploits all of Zebrica for raw resources by selling guns | Chrysalis being the EIC equivalent who exploits all of Zebrica by selling guns
+  - This arms trade culminates in the Storm King, and it is where the warlords got their technical equivalents and guns | culminates in the Storm King (that's where the warlords got the technical equivalents and guns from)
+  - The ISIS-like ideology in the setting corresponds to Grover II's crusades | ISIS ideology should be equivalent to Grover II's crusades
+  - Chrysalis's terror state is built from Nazi Germany, Imperial Japan, Reagan's America, historical Western imperialism and modern China | my lore about Chrysalis's terror state combines the worst parts of

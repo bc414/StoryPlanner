@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the equally detailed System Instruction and Object Schema for Prompt 2, The Sorter, where the verbatim routing happens? | no user turn | none | none
+- shape: none
+- settles:

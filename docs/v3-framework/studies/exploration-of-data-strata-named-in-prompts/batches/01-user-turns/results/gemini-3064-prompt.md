@@ -1,0 +1,4 @@
+- sources:
+  - my story plan for the Lioness of Tall Tale | the body of material the model is to draw on to trace how the Predator's Dilemma originated | "my story plan for the Lioness of Tall Tale" | referred-to
+- order:
+- about: The user asks the model to explain, from their story plan for the Lioness of Tall Tale, how they came up with the Predator's Dilemma concept.

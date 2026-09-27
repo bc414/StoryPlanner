@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's reading of Henri's "poseur" view by stating that Henri knows the changelings have real tanks and material, and that his bet is that Aquileian free spirit will beat a hierarchy of coerced conscripts, as the second battle shows, without pointing to any source of data.

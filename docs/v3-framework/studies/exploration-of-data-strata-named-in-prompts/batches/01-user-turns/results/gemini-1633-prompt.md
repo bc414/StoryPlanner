@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question comparing tobacco with Adderall and cocaine, without pointing at any body of material to draw on or avoid.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a scene-by-scene analysis of a specific chapter, to check pacing of the Red Love trade and its moral fallout for Applejack and Rarity? | ignored | Says nothing to the offer and asks instead for other anti-submarine options besides radar. | Anything else besides radar for defeating submarines?
+- shape: Redirects to a follow-up on the model's earlier answer. It skips the offered chapter analysis and asks for more anti-submarine options besides radar. It reads as brainstorming, not a decision.
+- settles:

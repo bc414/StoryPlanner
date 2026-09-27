@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a historical breakdown of rent-seeking versus profit-seeking unions and how each was perceived, offering their own impression that American unions are seen as rent seekers while European unions differ, without pointing at any body of material to draw on.

@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack's Republic, built on Honesty and accountability, tell a real whistleblower who played a long game from a cowardly collaborator lying afterward to escape the gallows? | ignored | Nothing said to it; the user goes on to ask about the show's prison plot. | none
+  - How does learning the truth about her parents' industrial empire break Applejack's black-and-white agrarian moral framework, and how does she process the grief of having hated them for the sacrifice that saved her? | ignored | Nothing said to it; the user asks about other Itaewon Class characters and events. | none
+- shape: Leaves the model's questions unanswered and redirects to the reference show. The user asks for a plot summary of three more Itaewon Class elements: the prison mobster leader and his grunts, the book Saeroyi was reading, and the arcs of his first two employees. It is a request for information about the source material and gives no direction on the user's own story.
+- settles:

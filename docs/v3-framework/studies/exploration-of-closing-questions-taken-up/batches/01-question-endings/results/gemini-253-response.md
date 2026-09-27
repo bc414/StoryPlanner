@@ -1,0 +1,9 @@
+- questions:
+  - Does the user want a detailed beat sheet for Chapter 1, "Command", built around the trench scene with Henri and Mali? | ignored | Nothing about the beat sheet or Chapter 1. It restates the themes, explains Chrysalis's exit and Trimmel's loss, then asks a new question about Chrysalis's characterization. | none
+- shape: Redirects. The user first confirms and restates the model's thematic split, then adds their own account of why Chrysalis pulled Trimmel's air and why Trimmel loses. It then drops the offered beat sheet and opens a new question: does Chrysalis's motive of inferiority to Griffons cheapen her as a visionary tyrant?
+- settles:
+  - The thematic split is confirmed. "Friendship is Combined Arms" saves Equestria. "Friendship is Magic", meaning concentrated pink love treating red love addiction, saves the changelings. | "Friendship is Combined Arms" is what saves Equestria... "Friendship is Magic"... saves the changelings
+  - Chrysalis takes Trimmel's air support to extract herself because of the world-conquest angle. | world conquest angle definitely explains why Chrysalis took Trimmel's air
+  - Chrysalis had already lost the war through three failures. Synovial's arrogant folly. Pagala's recklessness, which cost the veterans in the South. Her own ego in agreeing to Trimmel's gambit, which then failed. | Synovial's arrogant folly, Pagala being reckless and losing all the veterans in the South
+  - Chrysalis personally does not care about draining the ponies of Canterlot, though Pagala and crew do. | She personally doesn't care about draining the ponies of Canterlot even if Pagala and crew do
+  - Chrysalis's extraction is the reason Trimmel loses. | This is why Trimmel loses.

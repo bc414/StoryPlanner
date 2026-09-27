@@ -1,0 +1,4 @@
+- sources:
+  - a scene planned in the chapter Combined Arms, Applejack seeing her parents over the ruins of burned Sweet Apple Acres | treat as the settled plan and premise the model should write or suggest dialogue for | I have planned a scene in the chapter Combined Arms | first-named
+- order:
+- about: The user describes a scene they have already planned in a chapter and asks the model to suggest what should be said in it.

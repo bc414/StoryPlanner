@@ -1,0 +1,4 @@
+- questions:
+  - Once Starlight or Twilight learns the Rainboom's destiny was only a statistical anomaly and confirmation bias, how does that disillusionment change their approach to building the post-war geopolitical order? | no user turn | none | none
+- shape: none
+- settles:

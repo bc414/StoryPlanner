@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's picture has the Windigos as atmospheric gas that later settled into crystals as a separate state, but the user says that in their setup the Windigos are already crystals, so the gas-to-crystal sequence and the idea of friendship stabilizing them don't fit | "I'm not sure if this works. The windigos are already crystals." | Tentative and hedged, a short flat statement of the conflict with no explanation, made in passing while floating a Celestia idea
+- about: The user floats a Celestia justification for stagnation, doubts it and the model's gas-to-crystal framing because the Windigos are already crystals in their plan, then asks whether the Season 9 finale's Windigos matter to the puzzle since they haven't seen it.

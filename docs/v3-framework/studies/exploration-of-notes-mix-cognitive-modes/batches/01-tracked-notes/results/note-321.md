@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-rule ontology) | Magical capacity in this world grows through training, like a muscle, and through ambition | magical capacity grow with training, like a muscle, and ambition | outside
+- goals:
+- whole: The note states, as a god-mode world rule, that unicorn magic capacity grows with training and ambition, and it asks nothing of the reader.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, who hasn't read Fallout: Equestria, asks follow-up questions about its genre, how much it takes from the Fallout games, and how it and its sequel relate to the ASOIAF-inspired Princess and the Kaiser that shaped their grimdark exposure.

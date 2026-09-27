@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a self-reflection that their worldbuilding skill comes from wanting to write a compelling romance while needing a rigorous overarching plot to justify its high stakes, without pointing the model at any body of material.

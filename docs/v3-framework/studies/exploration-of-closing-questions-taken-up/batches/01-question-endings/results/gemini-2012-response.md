@@ -1,0 +1,4 @@
+- questions:
+  - Should the model draft the Phase 2 (Sorter) system instruction and schema next? | ignored | The user does not say yes or no to it. They ask for the Phase 1 system instruction and input JSON instead, now that Phase 0 has changed. | What shall be the system instruction and input json for phase 1 now?
+- shape: Redirects to a different deliverable. It passes over the offered Phase 2 draft and asks for the Phase 1 system instruction and input JSON, updated for the new Phase 0 and waterfall setup. It is a request for the next piece of work, not an answer to the offer.
+- settles:

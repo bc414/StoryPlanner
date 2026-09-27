@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's claim that the plan lacks detail on the combat drug mechanics, the red love drug distribution chain, and the jaeger-versus-drone substance distinction, when the user says the plan answers these | Review the story plan closer for answers to the questions | flat, terse directive that sends the model back to the material without saying what the answers are
+- about: The user tells the model to go back through the story plan more carefully, because the model listed open questions that the plan already answers.

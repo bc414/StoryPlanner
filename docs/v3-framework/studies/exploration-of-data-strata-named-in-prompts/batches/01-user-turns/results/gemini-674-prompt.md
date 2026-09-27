@@ -1,0 +1,5 @@
+- sources:
+  - The author's own account of Chrysalis's Skyfall shell company recruiting Equestrians, with Comet Shine and Gilded Trust as the exceptions who grew spines in Aquileia | treat as settled story facts from the author that correct the model's backstory, and build the character on them | Chrysalis's Skyfall shell company recruited Equestrians based on their ambition, ruthlessness | first-named
+  - The author's own account of stagnant Equestria around 990, with a wide-open market and no industrial regulation | treat as settled setting facts that make a self-made rise plausible, and use them for the backstory | It was incredibly easy to get super rich in stagnant equestria around 990 | first-named
+- order:
+- about: The author pushes back on the model's inherited-wealth recommendation, argues for a self-made Gilded Trust, and supplies their own setting facts about Skyfall recruitment and the 990 market to justify it.

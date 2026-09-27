@@ -1,0 +1,8 @@
+- questions:
+  - Does Granny Smith secretly know Earth Pony magic is a chemical/thermodynamic process and act the folksy farmer to avoid Celestia's scrutiny? | ignored | Nothing about Granny Smith. The turn says Equestrians believe earth pony magic is folklore and have no rigorous science, which bears on the premise but does not decide what she knows. | none
+  - Does Applejack's Chapter 3 Hard Truth speech invoke the lost Frontier-era Pioneer Spirit to shame the retreating Regular Army? | ignored | The speech and the Pioneer Spirit are not mentioned. The turn goes on to reject the shared Golden Age and to ask about earth pony magic. | none
+- shape: Corrects the model's premise and redirects. It rejects the shared Golden Age with Grover III's Griffonia and restates the story's dependence on earth pony magic being seen as folklore. It then asks the model whether the Coltbert/Aquileian chemistry discovery is a necessary constraint, and what the epistemological gap and its reveals are for. It skips the model's two closing questions.
+- settles:
+  - Equestria did not share a golden age with Grover III's Griffonian Empire. Celestia and the ponies would have been wary of a large knight-and-warlord griffon superstate, and there was only limited cultural exchange. | I don't think Equestria shared a golden age with Grover III's Griffonian Empire
+  - The mix of mostly pre-modern aesthetic with random modern things in MLP:FiM is explained by that limited exchange. | That explains the aesthetic of MLP:FiM
+  - Equestrians believe earth pony magic is just folklore, so Equestria cannot have had rigorous chemistry and physics studies. The story relies heavily on this. | My story heavily relies on Equestrians believing earth pony magic is just folklore

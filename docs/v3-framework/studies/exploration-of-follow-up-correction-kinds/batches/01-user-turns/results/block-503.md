@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short follow-up about how their large body of Applejack notes fits into or gets organized alongside the Chrysalis structure, extending the scope rather than saying anything in the model's answer is wrong.

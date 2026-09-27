@@ -1,0 +1,9 @@
+- claims:
+  - History | The third generation of industrial Boyars inherits the coal mines around 930–950 ALB | 3rd Generation of industrial Boyars inherit the coal mines around 930–950 ALB | yes
+  - History | This generation grew up in steam-heated mansions and never had to ration firewood or fear the blizzard | grew up in steam-heated mansions. They never had to ration firewood | yes
+  - Characterization | Because the machine always guaranteed their survival, they never internalized the biological necessity of the Mir and see communal solidarity as a quaint, outdated peasant tradition rather than a survival tactic | never internalized the biological necessity of the Mir | no
+  - Characterization | The generation's desire is to become global tycoons | They want to be global tycoons | no
+  - History | This generation becomes the demographic that Chrysalis exploits with loans | sets them up as the demographic that Chrysalis exploits with loans | yes
+  - History | Alongside them is a massive workforce that has to compete with Herzlander industry | Meanwhile there is a massive workforce, and they have to compete with Herzlander industry | yes
+- goals:
+- whole: The note reports, as in-universe history, how the comfortable third generation of industrial Boyars inherited the mines, lost the Mir's sense of solidarity, and became targets for Chrysalis loans, with a trailing fragment on the workforce's competition with Herzlander industry.

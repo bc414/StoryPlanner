@@ -1,0 +1,6 @@
+- sources:
+  - The Princess and the Kaiser | earlier work where the detection spell appeared; its framing of Twilight inventing the spell at the start of the war is replaced by a better one, while the spell itself is what the author describes | "This was featured in the princess and the Kaiser" | referred-to
+  - In my story | the author's own version of the spell's origin (invented in Acornage 1002 to expel all changelings after the Canterlot attack, likened to 9/11), to be used as the framing | "In my story, it was invented in Acornage in 1002" | referred-to
+- order:
+  - In my story (spell invented in Acornage 1002 after the Canterlot attack) | The Princess and the Kaiser (Twilight invented it at the war's start) | "I have a better framing"
+- about: The author confirms AJ and Twilight land at the castle, corrects the changeling detection spell to a literal energy wave that burns disguises away in green flames, and replaces its origin from The Princess and the Kaiser with a new one set in Acornage 1002 after the Canterlot attack.

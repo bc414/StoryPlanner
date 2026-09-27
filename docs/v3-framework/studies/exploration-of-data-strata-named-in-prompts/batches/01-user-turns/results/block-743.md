@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether a three-panel layout with an owner control for subject, link and plot point would be a mistake given how their layer scheme divides subjects from plot points, or whether it has a high-intent use case.

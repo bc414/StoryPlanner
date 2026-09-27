@@ -1,0 +1,5 @@
+- sources:
+  - my existing code (the pasted GetOptimizedContextForAINew method) | the basis to convert; its semantic meaning, fields and pruning behavior must be preserved in the new method | Here is my existing code. Please generate a complete alternate method that preserves the semantic meaning | first-named
+  - the pseudo-JSON discussed (the earlier exchange's quote-less, flattened-list format) | the format the new method should output; apply it to the existing code | uses this pseudo-JSON discussed | referred-to
+- order:
+- about: The user pastes their current C# JSON-serializing method and asks for a complete alternate method that keeps its meaning but outputs the pseudo-JSON format discussed earlier.

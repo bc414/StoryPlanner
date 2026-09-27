@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, real-world question about everyday portable devices that contain vacuum environments, apparently to ground the vacuum-valve idea, without disputing anything the model said.

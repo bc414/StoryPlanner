@@ -1,0 +1,7 @@
+- questions:
+  - Would the user like to move on to analyzing the Epilogue sequence next, including how Grover's thesis and the newspaper headlines tie the threads together? | ignored | Says nothing about the Epilogue or what to look at next; it goes straight to correcting how the three positions on the invasion are laid out. | none
+- shape: Corrects the model's framing of the debate. The model had Gilded Trust as the defensive 'Fortress Equestria' isolationist against Applejack's interventionism. The user re-sorts the three positions on the invasion and does not take up the offered next step.
+- settles:
+  - Celestia's stance is the defensive one, the position the model had given to Gilded Trust. | Celestia's stance is the gilded defense
+  - Applejack's stance is to invade the hives in order to liberate them. | Applejack wants to invade to liberate
+  - Gilded Trust's stance is to invade in order to burn the hives, not to turtle up behind a wall. | Gilded Trust's stance is to invade to burn the hives

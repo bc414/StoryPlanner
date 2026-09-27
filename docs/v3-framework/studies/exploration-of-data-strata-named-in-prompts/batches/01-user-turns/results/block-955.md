@@ -1,0 +1,5 @@
+- sources:
+  - the author's own account of the valve artisans (efficiency-minded engineers who awaken morally when the boss announces the drug-monopoly plan against Krystalfels) | treat as the correct version of the artisans' motives and arc, replacing the model's previous framing of them as seduced and betrayed | I think the artisans who made the valves were just solving high level engineering problems | first-named
+  - Skyfall Resolution | the story-plan scene where the artisans realize the Skyfall ecosystem was exploitative; treat as the place where this realization lands | in the Skyfall Resolution they have to process the fact | referred-to
+- order:
+- about: The author corrects the model's account of Kessler's artisans, restating their motives and moral arc from their own plan and tying the Skyfall Resolution realization to a parallel realization by Bright Mac and Pear Butter.

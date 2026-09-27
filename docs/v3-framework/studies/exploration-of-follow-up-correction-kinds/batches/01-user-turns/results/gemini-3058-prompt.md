@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user issues a fresh request for a thorough analysis of how Chrysalis's characterization and motivations evolved across their story plans, without commenting on or disputing the preceding build-by-build summary.

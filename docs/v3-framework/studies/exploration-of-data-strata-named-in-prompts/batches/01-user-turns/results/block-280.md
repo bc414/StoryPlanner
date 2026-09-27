@@ -1,0 +1,8 @@
+- sources:
+  - the original EaW EEEE! (a vague activist group in a pub) | treat as outdated, the starting point that has been replaced by the new machinist guild version | so the original EaW EEEE! was just a vague activist group in a pub | referred-to
+  - the generic worker vs tycoon union version of EEEE! (the author's own earlier elevation) | treat as superseded, no longer the intended version | I probably elevated them to a generic union as an worker vs tycoon narrative | referred-to
+  - the current machinist guild framing of EEEE! (returning New Mareland exiles and Tzinacatl industrial workers who retrofit the rigged machines) | treat as the current, settled version of the group and build the timeline and motives on it | now EEEE! is specifically a machinist guild | referred-to
+  - the story plan's original reasons for Celestia's objections (fiat currency, bank accounts, cutie mark system, industry) | keep and use as the content of Rarity's first talk with Celestia | all the story plan's original reasons | referred-to
+- order:
+  - the current machinist guild framing of EEEE! over the original EaW EEEE! and the generic union version | the turn says the earlier versions were vague or generic and that now EEEE! is specifically a machinist guild
+- about: The user revises EEEE! from a generic worker-vs-tycoon union into a machinist guild, adds new timeline and export details (a gap of weeks before the factories falter, retrofitted machines shipped to the GR until the Dotted Line Report), and lays out a three-conversation arc between Rarity and Celestia.

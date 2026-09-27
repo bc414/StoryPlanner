@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore setting up a NotebookLM workspace to auto-generate data tables from their lore documents? | ignored | Nothing on NotebookLM setup or lore tables; the user asks about Google's staffing and organisation instead. | none
+  - Would the user rather go deeper into how Jules handles repository integration? | ignored | Nothing on Jules or repositories; the turn moves to headcount and corporate structure. | none
+- shape: The user turn drops the offered next steps and redirects to a general-knowledge question about Google. It asks how many people work on Gemini products, how that compares with competitors, whether the products came out of DeepMind and another division, and whether they are now merged under Labs or something else. It is a new topic and not a decision about the story or the project.
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - When Rarity later becomes an industrial titan in TLTT, how does her near-betrayal by Canterlot elite life shape her corporate governance, and does she build anti-aristocratic checks into her factories because she remembers being almost corrupted? | ignored | The user turn does not touch it; it gives a new instruction to review the rest of the story plan and analyze. | none
+- shape: Redirects the conversation to a new task: says the full written story text has been parsed and instructs the model to review the rest of the plan for the unwritten story and analyze it. It does not answer or engage the model's closing question.
+- settles:

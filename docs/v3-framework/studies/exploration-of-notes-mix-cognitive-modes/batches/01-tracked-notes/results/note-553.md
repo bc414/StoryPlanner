@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten: world-rule ontology (god-mode world-builder statement of how the universe works) | Love is a substance-like thing that disperses through any medium, air included | Love disperses through any medium, including air | outside
+  - outside all ten: world-rule ontology (god-mode world-builder statement of how the universe works) | Controlling love's flow, or separating it from the medium, can only be done under vacuum | In order to control the flow or separate the two, it must be done under vacuum | outside
+  - outside all ten: world-rule ontology (god-mode world-builder statement of how the universe works) | Artisan vacuum chambers exist as the technology invented to meet the need for vacuum handling | Artisan vacuum chambers are invented for this purpose | outside
+- goals:
+- whole: The note lays down, as rules of the fictional universe, that love disperses through any medium and can only be controlled under vacuum, hence the invention of artisan vacuum chambers, without saying anything of what the reader is to get from it.

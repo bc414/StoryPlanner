@@ -1,0 +1,5 @@
+- sources:
+  - this Gemini conversation | search it for terms Gemini coined rather than the user, then judge each as adopted and made unique or still generic; treat Gemini's wording as suspect because of its hyperbolic helpful-assistant tendency | came out of this Gemini conversation | referred-to
+  - my story plan | the current plan to audit for surviving Gemini-derived terms, moving away from or replacing the ones that are not load bearing; Stagnation of Harmony is taken as already the plan's own and walled garden as a keeper, while nursery is a candidate to drop | terms still exist in my story plan | referred-to
+- order:
+- about: The user asks the model to list the terms in their story plan that Gemini coined rather than they did, and to judge which have become unique to the story and which are generic and should be removed in plan refinement.

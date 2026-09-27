@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new speculative idea, that changelings as mimics might have copied the Griffonian Empire's whole language and culture, and asks whether it has been explored, building on the model's account without disputing it.

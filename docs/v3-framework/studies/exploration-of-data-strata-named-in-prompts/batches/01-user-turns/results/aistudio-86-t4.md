@@ -1,0 +1,6 @@
+- sources:
+  - my earlier reasoning that concentrated pink love acts as rehab for red love addiction like methadone | put under reevaluation and no longer treated as settled; pink love donations are not a magical antidote | I previous reasoned that concentrated pink love can act as rehab | referred-to
+  - my new categorization of red and pink love (baseline red love as mild stimulant, refined red as blitz-essenz, refined pink as jaeger-geist, extreme pink as panzer-haut) | treat as the current working basis for the model to reason from | I have now categorized refined red love additives as strictly blitz-essenz | first-named
+- order:
+  - my new categorization of red and pink love | over my earlier reasoning that concentrated pink love acts as rehab for red love addiction | But now I need a reevaluation of this premise
+- about: The author retracts an earlier premise that concentrated pink love works as methadone-like rehab, restates the drug taxonomy (blitz-essenz, jaeger-geist, panzer-haut), and reasons toward recovery via friendship and carefully refined Tzinacatl-style medicine while asking the model to reevaluate accordingly.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the story's account of why Celestia can no longer wield the Elements (a lack of pink love, not red love) and asks whether Celestia and the audience would wrongly assume a red-love deficit, whether she would realistically fail to see the real cause until Fluttershy's outburst, and whether that shows she misunderstands the magic of friendship.

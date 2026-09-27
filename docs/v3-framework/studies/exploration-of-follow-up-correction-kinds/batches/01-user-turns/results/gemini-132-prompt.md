@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the suggested chapter title, supplies the in-game "stagnation of harmony" national spirit with its modifiers and description as extra material, and asks how it connects to and can refine the existing plot points and themes.

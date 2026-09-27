@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether English has its own word for the fashion sense of appliqué, without disputing anything the model said.

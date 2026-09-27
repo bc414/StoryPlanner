@@ -1,0 +1,4 @@
+- sources:
+  - Plan export (attached story plan) | supplied as material for the model to draw on; no instruction on how much to trust it or what to do with it | Plan export attached — 121,159 words | first-named
+- order:
+- about: The user turn is only an attachment notice for a large plan export, with no written request or instruction about how to use it.

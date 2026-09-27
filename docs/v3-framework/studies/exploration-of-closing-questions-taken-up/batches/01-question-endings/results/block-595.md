@@ -1,0 +1,8 @@
+- questions:
+  - Does Amélie's Parloir-therapy shift, and her experience of Skyfall's pharmaceutical subscriptions, make her the right logistical architect for Applejack's post-war plan to mass-produce spell-matrix contraceptives and break Skyfall's hold? | ignored | Nothing on her role in the contraceptive plan or Skyfall's hold. The turn moves to a timeline review. | none
+  - When Amélie tells Minette she chose prostitution as a rational economic defense, does that force Minette to rethink agency and victimhood, given her own grooming by Lord Westkeep? | ignored | Nothing on Minette's reaction or on agency and victimhood. Only the reunion's placement in the timeline is addressed. | none
+- shape: The user gives brief praise for the Amélie analysis, then sets a new task: review the whole timeline. The task comes with a placement constraint that corrects the model's loose dating of the reunion. The Crystal Empire reunion is fixed to a specific chapter and anchored to earlier chapter events. Neither Socratic question is taken up. The turn moves the conversation from character-building to timeline consistency.
+- settles:
+  - The Crystal Empire reunion of Amélie with Minette and Réni takes place in TLTT chapter 19, Entrenchment. | the Crystal Empire Reunion would take place in TLTT chapter 19 Entrenchment
+  - The reunion comes after the AA flak incidents of chapter 16, Combined Arms. | after the AA flak incidents in chapter 16 Combined Arms
+  - Chapter 18 gives all the Equestrian volunteers a shared wound: they could not save the drugged changeling conscripts. The reunion follows it. | chapter 18 shared wound with all Equestrian volunteers of not being able to save the changeling drugged conscripts

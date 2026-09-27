@@ -1,0 +1,5 @@
+- sources:
+  - canon episodes of seasons 1-4 | the published show is the baseline the model is asked to describe and fit the parents into: what the vibe is, whether the parents visited Ponyville, whether friends met them | So throughout the canon episodes of seasons 1-4 what is the vibe? | referred-to
+  - this backstory | the setup just built in the conversation is the working base to extend and tie into Applejack's dissonance about Comet Shine, with the parents' character and business adjusted | Can this backstory tie into why Applejack has cognitive dissonance | referred-to
+- order:
+- about: The user asks how the Manehattan-parents backstory fits with canon seasons 1-4 and with Applejack's arc, and proposes making the parents ruthless capitalists with a folksy exterior who run a wartime ration company.

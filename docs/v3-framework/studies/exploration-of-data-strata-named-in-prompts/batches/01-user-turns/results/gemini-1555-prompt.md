@@ -1,0 +1,4 @@
+- sources:
+  - this flavor text | use it as the material to consult for the overview of Sickleclaw's and Rosewing's canon arcs, and as the basis for redoing the audit analysis | refer to this flavor text | first-named
+- order:
+- about: The user supplies flavor text and asks the model to summarize Sickleclaw's and Rosewing's canon story arcs from it, then redo its analysis of how the audit of Kemerskai's words at the party should go.

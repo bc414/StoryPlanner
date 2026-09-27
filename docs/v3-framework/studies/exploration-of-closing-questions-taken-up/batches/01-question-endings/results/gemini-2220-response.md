@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to look closer at how Google DeepMind trains Gemini compared with how OpenAI trains the GPT series? | answered | Agrees to the offered comparison. | "Sure"
+- shape: A one-word acceptance of the model's offered follow-up topic. It sets the next thing to look at and adds nothing else.
+- settles:

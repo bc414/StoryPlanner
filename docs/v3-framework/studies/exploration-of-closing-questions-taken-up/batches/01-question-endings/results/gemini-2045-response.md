@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a set of test author notes generated to try the Phase 1 prompt before running it on the full Part 1 World Bible? | ignored | Nothing said about test notes; the user pastes an example Phase 1 output and moves on to Phase 2. | none
+- shape: Moves the work on to the next stage. The user pastes a sample Phase 1 output, then asks three design questions about Phase 2 (whether it takes the same structure as input, how orphan concepts are treated, whether they belong in the prompt) and asks for the Phase 2 prompt. The user also asks for a list of the requirements captured so far, to which they will add more. The model's closing offer is passed over.
+- settles:

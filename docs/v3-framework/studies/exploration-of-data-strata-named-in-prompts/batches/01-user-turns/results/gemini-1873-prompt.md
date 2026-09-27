@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether there is a smarter alternative to the multi-step consolidation workflow the model just described, without naming any body of material for the model to use or avoid.

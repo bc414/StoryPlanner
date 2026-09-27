@@ -1,0 +1,5 @@
+- questions:
+  - How does Celestia's psychology cope when Fleur Bloom's research shows her 1,000-year Stagnation rested on a misunderstanding of pony biology? | ignored | none; the turn never mentions Fleur Bloom's research or Celestia's reaction to it | none
+  - How does the rural agrarian majority react on learning that the city Parloir ponies hold the science, and does it cause a backlash against the EEEE! movement's elitism? | ignored | none; the turn never takes up rural reaction, the Parloirs or the EEEE! movement | none
+- shape: Sets aside the model's two questions and changes topic. The user pastes earlier notes on why Celestia skips the Applejack vs Gilded Trust debate, then asks the model to check whether those notes are now obsolete given the revised backstory of Celestia's stagnation and psychology. It is a consistency-check request that hands the model a new task. It gives no answer to the model's questions.
+- settles:

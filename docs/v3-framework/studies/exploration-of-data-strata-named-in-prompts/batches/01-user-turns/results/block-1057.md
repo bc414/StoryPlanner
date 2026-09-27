@@ -1,0 +1,4 @@
+- sources:
+  - the allegories of my story plan | use as the framing lens through which the Turkish history and its institutions are presented and mapped | Frame in the allegories of my story plan | referred-to
+- order:
+- about: The user asks for a full account of Turkey's history from the Ottoman collapse to today, covering its Kurdish policy, geopolitics, domestic politics and institutions, and wants it presented through the allegories of their story plan.

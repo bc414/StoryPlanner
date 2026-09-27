@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether a variant of the proposed club name, "Foyer des Joueurs d'Avant-garde", is grammatically sound in French, without pointing the model at any body of material.

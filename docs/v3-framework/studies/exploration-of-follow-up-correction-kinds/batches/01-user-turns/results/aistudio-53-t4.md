@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's economic picture of the islands by proposing and probing how the Statthalters could present themselves to Skyfall and the Aquileians as cultured griffon elites, without disputing anything the model said.

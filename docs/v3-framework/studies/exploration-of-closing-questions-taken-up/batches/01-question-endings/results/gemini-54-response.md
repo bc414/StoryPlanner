@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a detailed prompt template for chapter summarization to maximize coherence in the web chat? | ignored | Nothing said about the template; the user asks a new factual question about how chat history counts toward tokens. | none
+- shape: Redirects to a follow-up factual question about how the tool works (whether the whole chat history counts as tokens on each new prompt). It doesn't take up the offered template.
+- settles:

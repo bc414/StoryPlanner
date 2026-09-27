@@ -1,0 +1,7 @@
+- questions:
+  - What do the donated-magic drop-in batteries physically look like (glass canisters of glowing liquid energy, or a compressed uniform synthetic crystal block), and how does a ground crew load one into a Spitfire? | ignored | The user turn does not describe the battery's form or the loading. It goes back to ammunition and engine weight. | none
+- shape: Redirects. The user drops the model's visual question and asks the model two new ones: whether the Spitfires can still carry far more ammo than the changeling fighters, and whether diamond-like crystal armor-piercing rounds would work in place of tungsten. It also lays out its own reasoning for the weight advantage, which is that crystal engines run on refined crystals instead of aviation fuel.
+- settles:
+  - Spitfire engines are made of crystal and take refined crystals as input in place of aviation fuel. | engines are made of crystal and also need refined crystals as input instead of aviation fuel
+  - The crystal engine and fuel are expensive but light, so Spitfires carry more ammo than changeling fighters for the same thrust. | it's expensive but light, letting them carry more ammo for the same thrust
+  - Spitfire ammo keeps brass casings, and the armor-piercing cores are diamond-like crystal instead of tungsten. The user is still checking whether this holds up. | They use brass casing, but instead of tungsten for armor piercing they use diamond-like crystals (does this work?)

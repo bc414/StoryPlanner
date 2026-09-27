@@ -1,0 +1,5 @@
+- questions:
+  - How does Gilded Trust, leader of Ponies First, weaponize Celestia's campaign silence, does he correctly deduce she is abandoning her followers, and how does he use that to siphon votes from the agrarian 85%? | no user turn | none | none
+  - When Celestia pulls the White Peace emergency brake to stop Applejack becoming a warlord, how does the rank-and-file military, who just watched friends die for the Bluebell River, react to being told their Commander-in-Chief sees them as the emerging monsters? | no user turn | none | none
+- shape: none
+- settles:

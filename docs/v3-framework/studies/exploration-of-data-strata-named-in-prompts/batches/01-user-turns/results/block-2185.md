@@ -1,0 +1,5 @@
+- sources:
+  - how novelists think about themes | the model is asked to measure the proposed theme test against general novelistic craft practice and say whether it matches; used as an external check, not as settled | Is this how novelists think about themes or not? | first-named
+  - this (the theme-proposition test and the sorting of themes the model just gave) | put up for evaluation; the user is unsure whether it is an improvement and does not treat it as settled | Is it an enhancement or am I missing something? | referred-to
+- order:
+- about: The user asks the model to check whether its new criterion for what counts as a theme matches how novelists actually think about themes, and whether it truly improves on their earlier approach.

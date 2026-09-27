@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology) | defines the Love Canister in essence as a canned friendship or magic, a packaged effect that stands in for the relationship or the magic itself | It is really just "Friendship in a can" or "Magic in a can" | outside
+  - NotesToSelf | labels the description as the technology's ambition, an author's remark on what the concept is aiming at | (ambition) | no
+- goals:
+- whole: The note sums up the Love Canister as a one-line \"friendship in a can\" or \"magic in a can\" premise and tags that line as its ambition, without saying how it works or what it is made of, and without naming any effect on the reader.

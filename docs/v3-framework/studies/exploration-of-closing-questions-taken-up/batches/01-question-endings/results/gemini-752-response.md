@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a walkthrough of uploading downloaded NotebookLM files into a podcast app like Pocket Casts? | ignored | Says nothing to it; moves to an unrelated history question about Britain's WW2 home front. | none
+- shape: Changes the subject entirely: drops the Android Auto and NotebookLM topic and asks a new, unrelated factual question about whether WW2 Britain compelled adults to work or relied on incentives. It doesn't respond to the offer.
+- settles:

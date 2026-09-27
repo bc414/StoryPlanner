@@ -1,0 +1,5 @@
+- questions:
+  - Does Fluttershy's fairy-tale origin story leave Rainbow Dash misjudging her competence, and does that feed Rainbow's Atlas Complex, so she exhausts herself protecting Fluttershy? | no user turn | none | none
+  - How does Fluttershy react to Applejack's Kemerskai-style Hard Truth speeches: as a necessary awakening, or as a threat that exposes vulnerable populations (the CMCs, the animals) to trauma? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,5 @@
+- sources:
+  - the original backstory | treat as the established baseline: the isolationist and artisan tribes burned the Krystalfels logging company and the other tycoons' factories; the new material is layered on top of it, not replacing it | in the original backstory, the isolationist and artisan tribes burned down the Krystalfels total logging company | referred-to
+  - the DRM/hit squad paradigm | treat as a newer layer to fold into the original backstory, as an additional reason for the tribes to clear industry from the coast and as the setting for the defecting Tzinacatl managers who break DRM | Now, with the DRM/hit squad paradigm, this seems to be additional reason | referred-to
+- order:
+- about: The user corrects the model's claim that the vacuum valves carry DRM, then supplies their own Tzinacatl and Skyfall history that extends the original backstory with the DRM/hit squad idea and a dated drug-market timeline.

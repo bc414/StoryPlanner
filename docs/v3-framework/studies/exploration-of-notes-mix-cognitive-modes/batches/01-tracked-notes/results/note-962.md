@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | asserts as fact that the character has a blonde toupee and an orange coat color, his physical appearance | Has a blonde toupee and an orange coat color | yes
+- goals:
+- whole: The note flatly asserts the character's physical appearance (blonde toupee, orange coat) as a truth about who he is at the start, with no stated reader effect.

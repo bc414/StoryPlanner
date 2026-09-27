@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author pushes back on the previous answer by asserting their own view that Aquileia gives a basic income and only snubs the unambitious socially, and adds how the Griffonian Republic shames hoarders, predators, cheaters and polluters, without pointing to any body of material.

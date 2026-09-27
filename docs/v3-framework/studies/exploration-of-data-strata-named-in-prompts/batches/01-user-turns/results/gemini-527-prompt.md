@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an analysis of the character Trimmel, covering his development, his impact on the story, whether he is believable, and how he could be improved, without pointing at any body of material.

@@ -1,0 +1,6 @@
+- claims:
+  - unfixed | Her coat is a light beige | "She has a light beige coat" | none; present tense only, the track question frames it as who she is at the start of TLTT but the note itself gives no time
+  - unfixed | Her mane is hazelwood brown | "hazelwood brown mane" | none
+  - unfixed | She wears her mane in two tight french braids so it stays clear of machinery, which shows she works around machinery | "wears her mane in two tight french braids so it doesn't interfere with machinery" | none; present-tense habit with no start, end or phase given
+  - unfixed | Her tail has a dark brown streak down its middle, lined up with the split in the stock and foil | "Her tail has a dark brown streak down the middle to line up with the split in the stock and foil" | none; present tense only
+- beside: none; the owner has no notes in Backstory or Life Phases

@@ -1,0 +1,5 @@
+- sources:
+  - the codex | treated as a hypothetical premise: imagine it built as a complete world reference, and reason about what the main story would still have | Say I built the codex without the scenes | referred-to
+  - the scenes | set aside in the hypothetical: imagine them absent from the codex, and reason about what remains | without the scenes | referred-to
+- order:
+- about: The user pushes back on the model's prequel explanation by asking, under a hypothetical where the codex exists without scenes, what makes the main story and its Applejack starting point special and how its steering point is chosen, or whether the main story is event- and chronology-driven while prequels are theme-driven.

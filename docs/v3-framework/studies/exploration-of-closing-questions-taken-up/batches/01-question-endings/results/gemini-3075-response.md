@@ -1,0 +1,5 @@
+- questions:
+  - How does the Everfree Forest fit into the pioneer-to-suburb timeline? | ignored | The user turn never mentions the Everfree Forest and moves to real-world causes. | none
+  - Is the Everfree Forest the one place Celestia's sterilization magic couldn't reach, a wild preserve of ancient Red Love/Ambition that feeds the Zap Apples? | ignored | Nothing on the forest, the sterilization magic, or the Zap Apples. The user asks about real American history instead. | none
+- shape: The user turn leaves the model's timeline and its closing question about the Everfree Forest, and redirects to a new research question. It asks what real-world economic, social and political forces produced helicopter parenting, toxic positivity and HR bureaucracy in America, which the Stagnation of Harmony parodies. It offers candidate causes (the War on Drugs, racism and white flight, elite class warfare against communism) and asks what else. It is a request for real-world background, not an answer to the model's question.
+- settles:

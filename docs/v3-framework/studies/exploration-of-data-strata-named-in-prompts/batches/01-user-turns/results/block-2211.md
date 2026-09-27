@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks what other uses of AI and what pitfalls to watch for when they eventually write the prose of their story, giving their untrained, imitation-based fanfiction background and arbitrary handling of omniscient versus limited point of view as context.

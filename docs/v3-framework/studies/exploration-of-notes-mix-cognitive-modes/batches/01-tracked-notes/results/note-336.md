@@ -1,0 +1,5 @@
+- claims:
+  - History | The Empire fell to the Republic in 978, reported as a world event | The Empire fell to the Republic in 978 | yes
+  - History | Immediately after the fall, Eagleclaw began planning a counter revolution, a fact of the character's past | Eagleclaw immediately started planning a counter revolution | yes
+- goals:
+- whole: The note reports, as in-universe history, that the Empire fell to the Republic in 978 and that Eagleclaw at once began planning a counter revolution.

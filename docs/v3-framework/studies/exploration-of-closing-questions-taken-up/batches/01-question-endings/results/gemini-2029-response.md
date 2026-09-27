@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the final Phase 2 (Sorter) system prompt with multi-tagging logic that keeps the Kanban UI intact? | ignored | The user turn does not accept or decline the offer. It goes back to the Phase 0 prompt, corrects what "one bucket per paradigm" meant, and asks for a reevaluation. | none
+- shape: The user corrects the model. They say the model worked from the wrong system prompt and misread their \"one bucket per paradigm\" remark. They restate the intended rule, paste the prompt they meant, and tell the model to reevaluate. This redirects the conversation back to Phase 0 and away from the offered Phase 2 prompt.
+- settles:
+  - A note may go into at most one bucket within each paradigm, so the total number of buckets per note is capped at the number of paradigms. For example, one chronology bucket and one sociological bucket at most. | at most one bucket that belongs in chronology and at most one bucket that belongs to sociological

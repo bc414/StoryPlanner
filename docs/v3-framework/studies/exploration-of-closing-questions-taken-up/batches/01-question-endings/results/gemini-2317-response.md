@@ -1,0 +1,4 @@
+- questions:
+  - How visible should the ash-to-munitions use be to rank-and-file soldiers: quiet processing by Twilight and Fleur, or Applejack openly telling volunteers each bullet carries a piece of her home? | ignored | Nothing on visibility or secrecy; the user instead questions whether the burned orchard offers anything special, given other farms already give P and K. | none
+- shape: Challenges the model's premise instead of answering. It points out that other Earth Pony farms already donate phosphorus and potassium, asks what the burning changes, and asks a separate real-world question about whether forest fires help or harm a region's ecosystem. It redirects to fact-checking the idea before any decision on it.
+- settles:

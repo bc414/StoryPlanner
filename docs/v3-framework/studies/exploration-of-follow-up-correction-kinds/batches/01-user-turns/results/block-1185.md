@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, without reacting to the model's analysis, asks (in a message sent twice) for a comprehensive report of all insights from the whole conversation, including ones later superseded, with a suggestion to search transcripts.

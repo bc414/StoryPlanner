@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question to test whether the model's subject-track versus plot-point distinction extends to content like detailed psychology during a historical event that fits neither track, without disputing anything the model said.

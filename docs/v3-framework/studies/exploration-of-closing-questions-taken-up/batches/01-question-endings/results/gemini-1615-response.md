@@ -1,0 +1,10 @@
+- questions:
+  - Should the Unicorns be explored as part of the potassium chemical cycle, for example stabilizing the volatile reaction? | ignored | Nothing about Unicorns or the chemical cycle; the turn moves on to how the weather fits the battle plan. | none
+  - Is the Unicorns' role strictly on the lightning/shield output side? | ignored | Unicorns are not mentioned, so their role stays unaddressed. | none
+- shape: Drops the model's offered branch on Unicorns and turns to a new task. The user restates the elastic defense and backhand blow plan for the third battle of Tall Tale, folding in the potassium-cloud idea as a working step. They ask how the weather fits the plan, and whether mass rain after the enemy is deep in a spearhead would help or would also hinder the enemy's own tanks. They ask the model to review the intel, the plan and the enemy commander Synovial's psychological profile (old guard, arrogant).
+- settles:
+  - The third-battle plan uses an elastic defense with more trenches dug by star spades | "Dig more trenches for an elastic defense with star spades"
+  - Potassium-rich soil from the digging is fed to power plants and boilers to make rapid clouds, so the potassium-cloud link is carried into the plan | "Use the potassium rich soil in power plants and boilers to make rapid clouds"
+  - Clouds are deployed once the enemy crosses, to keep the tanks down, but are not placed over the river | "Deploy the clouds once they cross to keep the tanks down, but not over the river"
+  - Our tanks cut the enemy off along the river as the backhand blow, with rain over the rest of the area | "We'll cut them off with our tanks along the river, and rain over the rest of the area"
+  - Synovial, the enemy commander, is characterized as old guard and arrogant | "Synovial (the enemy commander) psychological profile (old guard and arrogant)"

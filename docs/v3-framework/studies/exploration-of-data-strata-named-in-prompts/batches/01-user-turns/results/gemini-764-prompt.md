@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for several different design examples of a character's cutie mark based on a tally stock and foil, without pointing at any body of material to draw on.

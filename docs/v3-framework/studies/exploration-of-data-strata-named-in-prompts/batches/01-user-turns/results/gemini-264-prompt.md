@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user checks their understanding of the TwiJack relationship as a safeguard against a Nightmare Moon-style corruption and expresses enthusiasm, without pointing the model at any body of material.

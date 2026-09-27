@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants a breakdown of how the wholesaler vs. retailer model affects model update frequency, and why the direct API gets new models weeks before cloud providers | ignored | The user does not take up the offer. They ask a different question, about where Oracle and other major players fit in. | none
+- shape: The user turn redirects. It skips the model's offered follow-up and asks a new, broader question that extends the distribution picture to Oracle and other major players. The conversation is about how AI is distributed, not about a story.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's discussion of precedents and architects by announcing new pasted questions and v1 planner content and asking for a full analysis, without disputing anything the model said.

@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | asserts as a truth that Trixie and Rarity are both creative people at their core | Trixie and Rarity are both creatives at heart | no
+- goals:
+- whole: The note flatly asserts that Trixie and Rarity share a creative nature at heart, stating it as character truth rather than designing what the reader is to infer from the page.

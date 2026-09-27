@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's martial-clubs proposal by asking whether the clubs are where "poseur" became a common FJA insult, and offers a new idea that the nobility abandoned chivalry for guns while free landowners kept real martial honor.

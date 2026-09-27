@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a revision to the game's world design (great powers as a separate species that mines crystals, while the Porygons grow them communally by biology) and asks whether it helps or hurts the thematic payload, without saying anything in the model's turn was wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's analysis by asking whether the ration scene can feed Applejack's imposter syndrome, adding background about her cutie mark and her lifelong rejection of the industrial mantra without saying the model got anything wrong.

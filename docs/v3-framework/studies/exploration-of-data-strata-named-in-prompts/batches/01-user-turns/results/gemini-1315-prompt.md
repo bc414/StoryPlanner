@@ -1,0 +1,5 @@
+- sources:
+  - typical k-12 curriculums | draw examples of free indirect speech and deep third perspective from texts commonly taught in school | from typical k-12 curriculums | first-named
+  - really popular books in modern pop culture | alternative pool to draw the same kind of examples from, widely known popular books | really popular books in modern pop culture | first-named
+- order:
+- about: The user, after a failed reply, re-asks for examples of free indirect speech and deep third person perspective and points the model to school curriculum texts and hugely popular modern books as where to find them.

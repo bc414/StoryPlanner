@@ -1,0 +1,8 @@
+- claims:
+  - outside (world-rules ontology) | The technology disables the changeling emotion sense | It disables changeling emotion sense. | outside
+  - outside (world-rules ontology) | It is made by concentrating, distilling and refining the active oxytocin from pink love, flooding the emotion sense with synthetic good feelings and basking in the hive's appreciation so the changeling cannot feel the hate | made by concentrating and distilling and refining the active oxytocin from pink love | outside
+  - outside (world-rules ontology) | The drug's name comes from the appreciation an old jaeger felt on protecting the hive from a monster and bringing home meat | called jaeger-geist because it is the feeling of appreciation an old jaeger got | outside
+  - outside (world-rules ontology) | The name is a marketing lie: the drug is synthetic and does not make the user a hunter the drones look up to | The name is a marketing lie. It is synthetic | outside
+  - outside (world-rules ontology) | Withdrawal is a crushing, anhedonic realization that the hive's love was a chemical lie | The withdrawal is a crushing, anhedonic realization | outside
+- goals:
+- whole: The note defines, as rules of the fictional world, what Jaeger Geist is, how it is made from pink-love oxytocin, why its name is a marketing lie, and what its withdrawal does, without stating any effect on the reader.

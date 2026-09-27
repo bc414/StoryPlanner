@@ -1,0 +1,8 @@
+- sources:
+  - the analysis I did in this conversation | use as the material that shows what kind of analytical tasks the author is doing, so the model can judge which model suits it | The analysis I did in this conversation was done using Sonnet 4.6 | referred-to
+  - up to date info from June 2026 | base the model comparison on current information as of June 2026 | Use up to date info from June 2026 | first-named
+  - how other people use these models | use the typical creative use cases others describe as a contrast to the author's own usage | typical creative use cases go that are described in how other people use these models | first-named
+  - benchmarks | include them but do not rely on them alone; add practical usage differences | not just benchmarks but practical usage | first-named
+  - practical usage of the three models | wanted alongside benchmarks as the explanation of how Sonnet 4.6, Opus 4.6 and Opus 4.8 differ | not just benchmarks but practical usage | first-named
+- order:
+- about: The user asks for a comparison of Sonnet 4.6, Opus 4.6 and Opus 4.8 for their story-planning analysis work, using current June 2026 information and contrasting their usage with how others use these models for creative work.

@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants to go deeper on how a specific spice, such as nutmeg or pepper, shaped global trade routes | no user turn | none | none
+- shape: none
+- settles:

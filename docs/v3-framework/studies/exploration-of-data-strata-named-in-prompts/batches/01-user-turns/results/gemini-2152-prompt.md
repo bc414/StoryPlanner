@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a revision to the magic-agriculture worldbuilding, splitting the nutrient work so earth ponies handle potassium and phosphorus while pegasi handle nitrogen through lightning and air, and adds cover crops as an Equestrian tradition, without pointing the model at any body of material.

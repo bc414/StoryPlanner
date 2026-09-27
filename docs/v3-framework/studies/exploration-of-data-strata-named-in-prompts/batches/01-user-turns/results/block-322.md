@@ -1,0 +1,6 @@
+- sources:
+  - Krista Sterling as the school griffoness | treat as settled and fixed; keep this persona only for the school role and do not use it for the hitgriff work | Krista Sterling has to stay strictly as the school griffoness | referred-to
+  - real life historical practice of how hitmen claim bounties and prove the kill | draw on the model's general knowledge of history to answer how it worked | how do hitmen claim bounties in real life historically | referred-to
+  - John Wick | use as a comparison point to check whether real bounty-claiming resembles the film's version | Would it be like John Wick | referred-to
+- order:
+- about: The user accepts the sabotage backstory with an added detail that Chrysalis steals the blueprints for long-term use, fixes Krista Sterling as the school persona only and asks for a separate hitgriff persona, and asks how real-world hitmen historically claimed and proved bounties compared with John Wick.

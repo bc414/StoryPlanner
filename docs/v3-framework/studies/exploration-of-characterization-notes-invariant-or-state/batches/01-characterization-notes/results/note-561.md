@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | His manner is quiet and not boisterous | "He isn't boisterous, he is quiet" | none in the note's words; only the track's question frames it as who he is at the start of TLTT, and the present tense gives no span
+  - unfixed | He is cold and calculating in temperament | "cold and calculating" | none in the note's words; only the track's question frames it as who he is at the start of TLTT, and the present tense gives no span
+- beside: none

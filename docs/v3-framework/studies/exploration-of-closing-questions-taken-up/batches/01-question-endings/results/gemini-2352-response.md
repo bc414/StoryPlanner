@@ -1,0 +1,12 @@
+- questions:
+  - Would the user like to explore how King Gerad Discret viewed Grover III's legacy? | ignored | Nothing about Gerad or the pre-revolution monarchy. The turn stays on Grover III's era and motives. | none
+  - Did Gerad admire Grover III for wiping out the monsters, or see the economic trap he left? | ignored | Gerad's view is not addressed. The turn corrects the model's account of Grover III and the Aquileian nobles. | none
+- shape: The user does not answer the model's closing offer. They correct the model's analysis of Grover III and the Aquileian nobles, then revise the world's history and Grover III's character. They correct the crusade history, the nobles' status and motives, and when rent-seeking arises. They also recast Grover III as a pan-griffonian state-builder rather than a Herzlander. They end by asking, half to themselves, whether the legions should be cross-cultural.
+- settles:
+  - By the reign of Grover III's father the crusades are about 70 years old. The knights, believing their own propaganda, now loot pony villages and not just monster reserves. | the crusades have been going on for 70 years or so; looting pony villages
+  - The Aquileian nobles of Grover III's time are protectors, not yet warlords. They defend their land and serfs, and the monster loot is a bonus. | They are not warlords yet, they are protectors
+  - Grover III does not despise the Aquileian nobles. | I don't think Grover III despises the Aquileian warlords
+  - The Aquileian nobles had not united to wipe out the monsters because 150 years of Herzlander imperial rule kept them poor. | the last 150 years of Herzlander Imperial rule has kept them poor
+  - Rent-seeking Aquileian elites appear only in the second generation after the monsters are eradicated. | The rent seekers only come from the 2nd gen
+  - Herzland avoids the second-generation rent-seeking problem because Grover III mandates the ocean hunt, after which the Bessemer process and Haber-Bosch take hold. | doesn't happen in Herzland because Grover III mandates the ocean hunt
+  - Grover III is building a pan-griffonian state and does not hold Herzlander superiority. His predecessors ran feudal rackets, described as a mandala system. This is put tentatively. | maybe Grover III... isn't even thinking of Herzlander superiority... pan-griffonian state

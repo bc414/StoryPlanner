@@ -1,0 +1,10 @@
+- questions:
+  - How does Prince Blueblood get past the Cat Monster persona to find Ahuizotl, e.g. by tracing Krystallfels accounting anomalies to that patch of jungle? | ignored | Nothing said about Blueblood or how he finds Ahuizotl. | none
+  - When Applejack and Rainbow Dash ask for help dismantling Krystallfels in Chapter 12, does Ahuizotl first refuse because he thinks Chrysalis's machine is unbeatable, so that Rainbow Dash has to prove heroism can break a supply chain? | ignored | Nothing said about the Chapter 12 request or whether he refuses. The user turn only asks how he came to be deconditioned. | none
+- shape: Corrects the model's premise about Daring Do's origin, then sets aside both of its questions. It asks a new design question of its own: how a top-ranking hive infiltrator and financier is deconditioned when his ally comes from a drug cartel. It also offers a revised staging of the faked death.
+- settles:
+  - Thestral Daring Do comes from a drug cartel, not a medicinal artisan tribe. | Thestral Daring Do is not from a medicinal artisan tribe, she is from a drug cartel
+  - The cartel's present-day business model, which Rainbow Dash sees in Chapter 12, is sham tourism. | Their present day business model that Rainbow Dash witnesses in Chapter 12 is sham tourism
+  - Ahuizotl ends up a repentant Thestral ally who has friends but is still running the sham tourism. | repentent thestral ally (has friends but still running sham tourism)
+  - Ahuizotl was formerly at the top of the hive's bauleiter/infiltrator/financier class. | top of his bauleiter/infiltrator/financier class in the hives
+  - Faked death: Thestral Daring Do eviscerates the Griffon CEO in front of the middle managers. It hurts as if he were dying, and the blade is laced with strong healing medicine so the slash starts healing at once. | Thestral Daring Do eviscerating the griffon CEO in front of the middle managers

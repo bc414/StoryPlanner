@@ -1,0 +1,4 @@
+- sources:
+  - Réni and Minette's side story (its M-rated events) | material whose events may be referenced in dialogue in the T-rated main story for thematic and narrative impact, but not written out on the page; the user asks whether this approach makes sense | all of the M rated events from Réni and Minette's side story can be mentioned in dialogue | referred-to
+- order:
+- about: The user corrects the model's assumption about how Réni and Minette relate to Equestrian doctrine, saying it was their own doctrine that they taught the Wonderbolts, and then asks whether the M-rated events of their side story can be referenced only in dialogue in the T-rated main story.

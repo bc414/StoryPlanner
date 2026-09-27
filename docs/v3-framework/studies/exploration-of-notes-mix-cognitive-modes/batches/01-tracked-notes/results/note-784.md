@@ -1,0 +1,8 @@
+- claims:
+  - Analogies | the pie is modeled on the real English Melton Mowbray pie combined with German sausage engineering | lost English Melton Mowbray pie crossed with German sausage engineering | no
+  - Ontology (world rules in god-mode, outside all ten) | the pie is produced in a massive steam-powered cooperative bakery | It is made in a massive, steam-powered cooperative bakery | outside
+  - Ontology (world rules in god-mode, outside all ten) | the crust is a structural material made from boiling water and rendered fat | The crust is a structural marvel made with boiling water and rendered fat | outside
+  - Ontology (world rules in god-mode, outside all ten) | the filling is highly spiced cured meat using Nordic/German techniques, sealed from air by a bone-marrow jelly layer | highly spiced, cured meat (Nordic/German techniques) sealed from the air by a layer of bone-marrow jelly | outside
+  - Ontology (world rules in god-mode, outside all ten) | the pie's function is as durable field ration, not salon pastry: it survives three weeks in a rucksack in a frozen trench and stays tasty | designed to be thrown into a soldier's rucksack, survive three weeks in a frozen trench, and still taste incredible | outside
+- goals:
+- whole: The note defines what the Cloudbury Meat Pie is, how it is made and what it is built to endure as a world-rule description of the technology, with a brief real-world model named at the start.

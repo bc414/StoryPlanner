@@ -1,0 +1,3 @@
+- claims:
+  - span | Rasti holds the office of elected communal leader of the Temberik council | "is the elected communal leader of the Temberik council" | present tense, and the track question asks who he is at the start of TLTT; an elected office, so tied to that role and to the start of TLTT, with no dates given
+- beside: none

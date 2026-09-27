@@ -1,0 +1,8 @@
+- claims:
+  - Canon | The changelings are recontextualized: the Equestrian heroes will face smiling, euphoric soldiers chemically convinced they spread love and joy while slaughtering, not silent emotionless bugs | will not be fighting a horde of silent, emotionless bugs. They will be fighting soldiers who are smiling, euphoric, and chemically convinced | no
+  - NarrativeArchitecture | The reader's picture of the changeling army is moved off the generic mindless-swarm trope into something more unsettling | changes the Changeling army from a generic "mindless swarm" into a deeply unsettling | yes
+  - Allegories | The changeling army stands for real-world soldiers who commit atrocities because their system insulates them from their victims' humanity | critique of soldiers who commit atrocities because their system has completely insulated them from the humanity of their victims | no
+- goals:
+  - The reader finds the changeling army deeply unsettling rather than a generic mindless swarm | NarrativeArchitecture | deeply unsettling
+  - The reader takes away a critique of soldiers who commit atrocities while insulated from their victims' humanity | Allegories | critique of soldiers who commit atrocities because their system has completely insulated them
+- whole: The note states that the changeling army will be reworked from a mindless-swarm trope into euphoric, self-deceived killers, and frames this as a reader-facing shift that carries a critique of atrocity-committing soldiers.

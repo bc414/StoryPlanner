@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the "adulthood requires a childhood" idea as key, applies it to their own target audience and to cynical storytelling's origins, and asks whether the toy mandate, which Lauren Faust's G4 grew out of, makes toys the symbol of childhood.

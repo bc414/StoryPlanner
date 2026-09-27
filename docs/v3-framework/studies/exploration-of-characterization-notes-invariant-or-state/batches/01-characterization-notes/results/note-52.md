@@ -1,0 +1,5 @@
+- claims:
+  - span | Twilight has a "Reactive Atlas Complex" at the start of TLTT, a condition she is in when the story opens | "initially has"; display question "at the start of TLTT" | the start of TLTT; "initially"
+  - span | Because she has the power, she feels she must reactively fix destruction | "Since she has the power, she feels she must reactively fix destruction" | the same initial state at the start of TLTT; present tense of the complex; no separate date
+  - span | If she isn't working hard to fix things for suffering creatures, she feels she is a fake princess of friendship | "If she isn't working hard to fix things... she feels she is a fake princess of friendship" | part of the complex held initially, at the start of TLTT; no date of its own
+- beside: Backstory notes on the Ain Trotgourait rebuilding effort (world date 1006) and her burnout (1007) describe her acting as a one-pony construction crew fixing destruction, and Life Phases 1003..1006 describes Celestia steering her toward suppressing ambition. These show the behaviour the complex describes, but none names the "Reactive Atlas Complex" itself or the start of TLTT.

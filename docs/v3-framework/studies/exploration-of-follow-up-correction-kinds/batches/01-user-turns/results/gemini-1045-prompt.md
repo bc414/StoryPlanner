@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new post-war plot beat in which Applejack offers pink love and rehab experts to Skyfall, the Trade Council refuses because the underclass is its profit, and the Patriotten violently overthrow the council and join the allies, building on the drug-trade material without stating that anything in the model's turn was wrong.

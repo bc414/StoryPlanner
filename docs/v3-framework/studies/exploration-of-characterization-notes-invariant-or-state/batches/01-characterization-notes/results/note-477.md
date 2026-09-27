@@ -1,0 +1,3 @@
+- claims:
+  - unfixed | Celestia's worldview holds that ambition is evil | "Celestia's worldview is that Ambition is Evil" in the present tense | nothing in the note's own words; the track's question asks about the start of TLTT, but the note gives no time, origin, or sign that the belief changes or lasts
+- beside: Backstory note at world date 0 speaks of the same thing: after the meltdown, Celestia decided that \"Nuclear Power\" (Ambition/Industrial Magic) was too dangerous to study further. It gives a possible origin for treating ambition as dangerous, but it does not say she called it evil.

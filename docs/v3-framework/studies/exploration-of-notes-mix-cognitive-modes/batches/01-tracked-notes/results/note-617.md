@@ -1,0 +1,7 @@
+- claims:
+  - History | Aquileia trades away family love in order to gain economic efficiency | Aquileia sacrifices family love for economic efficiency | no
+  - History | The GR places honorable families and public chastity first | GR prioritizes honorable families and public chastity | no
+  - History | In the GR, men and women both serve in army and factories, yet keep to their atomic families and away from romance or flirting in public | even though both men and women are in the army and factories they stick to their atomic families | no
+  - NotesToSelf | The author decides that Equestria must be shaped as a synthesis of the two extremes, built on harmony and communal trust | So Equestria needs a healthy synthesis via harmony and communal trust | no
+- goals:
+- whole: The note sets two neighbouring societies against each other as opposite extremes and writes down the author's design decision that the Equestrian Republic should be a harmonious, trust-based middle path, without saying how it will be dramatized or what the reader should get from it.

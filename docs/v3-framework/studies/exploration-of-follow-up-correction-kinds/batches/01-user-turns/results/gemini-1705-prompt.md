@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's engineering-as-magic framing as a jumping-off point to reflect that industrial chemistry like steel refining feels as magical as electronics, and asks a new general question about what other everyday modern things would seem like magic to olden times.

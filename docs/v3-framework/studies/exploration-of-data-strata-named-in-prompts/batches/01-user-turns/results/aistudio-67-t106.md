@@ -1,0 +1,5 @@
+- sources:
+  - the current plan (Flowing Current brings Rarity to the union hall, EEEE hands her the proposal, she goes to Celestia) | treat as the base sequence to keep; the charter and referendum beats are added on top of it | in the current plan, Flowing Current brings Rarity to the union hall | referred-to
+  - the model's earlier suggestion that Celestia tells Rarity about the 930 ALB industry ban and proposes the Hearth's Warming Charter | set aside as too early in the narrative; do not use it as written | too early in the narrative for Celestia to outright tell Rarity | referred-to
+- order:
+- about: The user rejects the model's version of the Celestia-Rarity meeting as too early, lays out a revised two-meeting sequence (a refusal to sign, then a residency-limited referendum under the charter), and asks what Celestia would logically say and whether that is most of it.

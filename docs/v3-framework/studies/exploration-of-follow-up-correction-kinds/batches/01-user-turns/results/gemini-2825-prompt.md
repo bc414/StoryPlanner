@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model concluded the idea likely began in NotebookLM by inferring from the project's structure and the 45/55 split, without looking at the notebook's actual contents | "peruse this specific notebook to determine" | implicit and flat, given as a plain instruction to go to the source, with no stated disagreement or reason
+  - reading of the request | the model treated the question as something to answer by speculation and agreement, and said it could not search the notebooks, where the user wanted it to examine the notebook and establish the origin | "Please peruse this specific notebook" | polite directive that redirects the model to do the check, leaving the earlier answer unacknowledged
+- about: The user redirects the model from its guess about where the idea originated to actually examining the specific notebook to settle the question.

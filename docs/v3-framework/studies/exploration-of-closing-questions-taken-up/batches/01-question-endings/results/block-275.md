@@ -1,0 +1,5 @@
+- questions:
+  - Does the Cloud Walking spell fail locally under contemptuous Tycoons who refuse communal trust, so that EEEE! workers must physically carry them, showing working-class Conscience keeps the elites alive? | ignored | Nothing said about the spell, the Tycoons or the carrying. The turn pastes source text and asks for a comparison. | none
+  - Does Twilight's later realization that EEEE! Unicorns cast a mass Cloud Walking spell further dismantle her Chosen One complex and support democratizing magic via the Luna Nova Rifles? | ignored | Nothing said about Twilight, the Chosen One theme or the Rifles. | none
+- shape: Redirects. The user drops the model's Socratic questions and pastes the official Equestria at War event text for Luna's rally, Flowing Current and EEEE!, and the Lunar Civil War power-station sabotage. They ask the model to compare their new ideas against that canon. It is a request for comparison, and it gives no answer to the model's questions.
+- settles:

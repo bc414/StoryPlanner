@@ -1,0 +1,4 @@
+- sources:
+  - option 3 (Luna democratizes the tech, then casts it herself) from the model's preceding analysis | treated as the settled choice; the model is to build the backstory and the Luna/Celestia conflict on top of it | if I'm set on option 3 | referred-to
+- order:
+- about: The author, having chosen option 3, proposes their own explanation for why Luna democratizes her talent (she cannot connect a million hostages alone) and places the Celestia conflict earlier in the story.

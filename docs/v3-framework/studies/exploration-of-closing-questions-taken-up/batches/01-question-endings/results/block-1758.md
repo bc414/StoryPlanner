@@ -1,0 +1,7 @@
+- questions:
+  - Given a hypothetical major intelligence leak about the captive Twilight Sparkle, how does Vaspier steer information so blame lands on Lacin Cardo's Queen's Guard rather than VOPS, without provoking Chrysalis? | ignored | The user turn does not address the leak scenario or Vaspier's blame-shifting; it moves to asking how Vaspier fits their own project. | none
+  - If the Equestrian resistance adopts decentralized, trust-free cell structures that resist paranoia, how must VOPS adapt its intelligence-gathering? | ignored | Not taken up; the user turn asks about placing Vaspier in a different work and does not discuss resistance cells or VOPS adaptation. | none
+- shape: Redirects away from the model's Socratic questions to a new request: asks the model to advise how the analysed character (Vaspier) could be fitted into the user's own separate project, The Lioness of Tall Tale (attached), and flags that their fanfiction has a different Chrysalis and changeling backstory. Functions as a change of task with new source material supplied, and implicitly qualifies the prior analysis as based on a different canon.
+- settles:
+  - The user's own planned work is called The Lioness of Tall Tale, and it is a separate project from the analysed Pax Chrysalia material | "my plans for The Lioness of Tall Tale, which I have attached"
+  - In the user's fanfiction of EaW, Chrysalis's characterization and the changeling backstory differ from those the analysis assumed | "has a different characterization of Chrysalis and the changeling backstory"

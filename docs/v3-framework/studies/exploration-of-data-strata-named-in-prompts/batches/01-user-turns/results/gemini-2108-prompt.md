@@ -1,0 +1,8 @@
+- sources:
+  - Griffonian Republic flavor text notes | review and draw on to find candidate characters for the culinary-demonstrator role | "review the Griffonian Republic flavor text notes" | referred-to
+  - EaW characters | the pool from which the model is to suggest new candidates, other than Sickleclaw and Rosewing | "suggest other EaW characters" | referred-to
+  - author's own memory of Sickleclaw's narrative purpose | treat as settled: he shows that some griffons want the stagnation of harmony, left to escape martial law, and reintegrated with dignity | "now I remember that Sickleclaw's narrative purpose" | referred-to
+  - author's plan reserving Rosewing as the defector who builds the universal translators | treat as settled and already assigned, so not available for the new role | "I've reserved Rosewing" | referred-to
+  - Kemerskai's mention of Sickleclaw and Rosewing as friends he lost and regained | use as the pattern the new character should follow, a break with Kemerskai followed by dignified reintegration | "Kemerskai mentioned them as his friends that he lost and had to regain" | referred-to
+- order:
+- about: The user confirms Sickleclaw's and Rosewing's roles from memory and asks the model to consult the Griffonian Republic notes and suggest another EaW character, following their break-and-reintegration pattern, to show Applejack's crew the industrialized culinary tradition in Cloudbury.

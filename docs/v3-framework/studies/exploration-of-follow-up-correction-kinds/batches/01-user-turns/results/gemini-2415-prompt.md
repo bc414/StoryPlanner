@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the proprioception-based magi-tech pipeline as a working premise and tests how it fits griffon armor and swords, wondering aloud whether it depends on pneumatics, then asks how early planes were actuated.

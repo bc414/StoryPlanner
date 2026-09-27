@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to describe the baseline culture of a Skyfall privateer crew, as the starting point against which the Aquileian fleet design can be compared, without pointing at any body of material to draw on.

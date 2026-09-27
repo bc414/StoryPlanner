@@ -1,0 +1,4 @@
+- sources:
+  - typical male names from Champagne or a similar area of northern France | draw on real-world regional naming for a list of name suggestions for the Vinovian wine-growing serf | what would be some typical male names for a wine growing serf from Champagne or a similar area of northern France | referred-to
+- order:
+- about: The author renames Minette's owner Lord Westkeep, lays out new backstory for Lord Gaudreau, Cecille and the loyal Vinovian serfs, proposes a Vinovian serf as Minette's griffon chasseur partner, and asks for typical northern French wine-country male names for him.

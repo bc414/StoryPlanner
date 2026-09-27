@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to map out how much Rainbow Dash knows about the Twilight Velvet/Daring Do authorship 'open secret'? | no user turn | none | none
+  - Does the user want to work out how Twilight Velvet feels about her pulp fiction being taken so seriously by an aspiring pegasus soldier? | no user turn | none | none
+- shape: none
+- settles:

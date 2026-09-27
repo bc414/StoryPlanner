@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said Twilight coins "Charitostatic" early in the war, under Celestia's Equestrian worldview; in the plan the term is coined after the war, by Twilight and Fleur together, and not by Twilight alone as Princess of Friendship | Twilight does not come up with charitostatic effect on her own; Twilight and Fleur come up with the term together after the war | flat, plain statement of the right authorship and timing, no apology or explanation, given as a direct amendment
+- about: The user turn corrects the model's assumption about who coined \"Charitostatic Effect\" and when, stating that Twilight and Fleur coined it together after the war.

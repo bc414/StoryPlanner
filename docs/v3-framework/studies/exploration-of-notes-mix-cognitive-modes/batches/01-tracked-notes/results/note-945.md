@@ -1,0 +1,4 @@
+- claims:
+  - History | The Temberik elders turned down Comet Shine's proposal for a cooperative mining deal, as a reported event of the organization (with "too" implying another rejection alongside) | The Temberik elders reject Comet Shine's cooperative mining deal proposal too | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact dated 998, that the Temberik elders rejected Comet Shine's cooperative mining deal proposal.

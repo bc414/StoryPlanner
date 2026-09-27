@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (world-building ontology: god-mode definition of the system's rules) | The Griffonian Republic's motto is fixed as 'For Liberty, For the Griffons, For the Republic!' | The motto is "For Liberty, For the Griffons, For the Republic!" | outside
+  - outside all ten (world-building ontology: god-mode definition of the system's rules) | The system's operating logic makes Liberty the source of morality, so its moral order is grounded there | Liberty as the source of morality | outside
+  - outside all ten (world-building ontology: god-mode definition of the system's rules) | Griffons are those who hold liberty as an inalienable right, and the republic is the physical land belonging to the griffons and to liberty | griffons as the ones who hold liberty as an inalienable right, and the republic which is the physical land | outside
+- goals:
+- whole: The note defines, as a god-mode statement of the world's rules, how the Griffonian Republic's motto maps onto its founding logic of liberty, griffons and land, without saying what the reader should take from it.

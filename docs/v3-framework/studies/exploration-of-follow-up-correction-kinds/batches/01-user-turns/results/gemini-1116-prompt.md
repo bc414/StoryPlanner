@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model explained the slur "Lioness" as a predator-prey insult about a pony abandoning her species' nature; the user says it is specifically about her VOPS profile as a potential collaborator | "Actually the slur is specifically about her VOPS profile as a potential collaborator" | flat, stated directly as a replacement, opened with "Actually", no reason or apology
+- about: The user replaces the model's predator-and-prey account of the slur's meaning with the in-world one, a VOPS collaborator profile, and adds a pointer that Pétain's story belongs to Aquileian history 300 years back, before Aquileia's subjugation to Imperial Herzland.

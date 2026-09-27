@@ -1,0 +1,7 @@
+- claims:
+  - History | She visited parloirs in Manehattan, daytime social clubs of Aquileian glamour | She visited parloirs in Manehattan which were social clubs and are just pure Aquileian glamour during the day | yes
+  - Characterization | She wanted to bring that glamour back to her hometown, which explains her motivation | She wanted to bring some of that glamour back home which is why | no
+  - History | She designed costumes for the school play before the story begins | she was designing costumes for the school play | yes
+  - Canon | The costume-designing is tied to and anchored in the source episode The Cutie Mark Chronicles | as shown in The Cutie Mark Chronicles | no
+- goals:
+- whole: The note reports Rarity's pre-story Manehattan parlour visits and her school-play costume design as backstory, explaining her motive and anchoring it to the canon episode.

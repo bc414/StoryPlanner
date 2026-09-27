@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the System Instruction and JSON Schema for the final Sorter step now, ready for after testing the Strategist? | ignored | Says nothing about the Sorter step. It only reports that the supplied schema still fails. | none
+- shape: Reports that the fix didn't work and pushes back on the model's diagnosis. It gives no new detail such as an error message, and it doesn't take up the offer of a next step.
+- settles:

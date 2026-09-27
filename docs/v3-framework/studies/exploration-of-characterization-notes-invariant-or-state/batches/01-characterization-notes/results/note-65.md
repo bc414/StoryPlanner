@@ -1,0 +1,7 @@
+- claims:
+  - throughout | Her coat is dove gray, a colour that echoes her original name Souris (Mouse) | dove gray coat which reflects her original name | nothing binds it; it reads as a fact of her body from birth, with no phase or date given
+  - throughout | Her original name was Souris (Mouse), which implies she was later called something else | her original name, Souris (Mouse) | only the word original, which marks it as earlier than her current name; no date is given in the note
+  - throughout | Her mane and tail are scarlet/burgundy, and her magic is the same colour | scarlet/burgundy mane and tail, with scarlet/burgundy magic | nothing binds it; it reads as an innate trait
+  - unfixed | She grooms her coat until it shines sleek and metallic like a needle | She grooms her coat to shine sleek and metallic like a needle | present tense habit with no start, end or phase given
+  - unfixed | Her cutie mark is a metallic needle with a scarlet spiraling thread | Her cutie mark is a metalic needle with a scarlet spiraling thread | present tense with no date given for when she got the mark; nothing shows it changing
+- beside: Backstory note dated 973 speaks of the same name: her parents tell her she was supposed to be named Souris (Mouse) and that Westkeep renamed her as a pet. It says nothing about her coat, mane, magic, grooming or cutie mark. No other dated note speaks of those.

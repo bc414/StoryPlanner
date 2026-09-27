@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Twilight begins the war traumatized and utterly grim, because her magic cannot stop the world's suffering | She starts the war traumatized and utterly grim from the fact that her magic can't stop the world's suffering | yes
+- goals:
+- whole: The note asserts as psychological truth that Twilight enters the story's war traumatized and grim because her magic cannot end the world's suffering.

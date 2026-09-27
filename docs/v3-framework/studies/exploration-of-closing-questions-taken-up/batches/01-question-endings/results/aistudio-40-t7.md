@@ -1,0 +1,5 @@
+- questions:
+  - How does Fleur justify consuming centuries of ancestral Earth Pony topsoil for White Phosphorus in Scene 9.19 when Twilight is horrified — does she see the soil as a consumable battery, or feel dissonance at burning the Pride she studied? | no user turn | none | none
+  - How does Fleur react to Pinkie Pie's Pinkie Sense and cartoon physics in Scene 12.7 — does unquantifiable Laughter break her rigid models and force her to accept Aquileian empirical science is incomplete? | no user turn | none | none
+- shape: none
+- settles:

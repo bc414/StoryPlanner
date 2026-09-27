@@ -1,0 +1,6 @@
+- sources:
+  - I was imagining the crystal enhancer that goes around the horn was a crystal | the author's own earlier idea, now set aside as superseded by the composite version | I was imagining the crystal enhancer that goes around the horn was a crystal, but | referred-to
+  - having it be a composite material that griffons have to make | the model's suggestion in this conversation, accepted as the better version and the basis to build on | having it be a composite material that griffons have to make is better | referred-to
+- order:
+  - composite material that griffons have to make | I was imagining the crystal enhancer that goes around the horn was a crystal | having it be a composite material that griffons have to make is better
+- about: The user accepts the model's suggestion that the horn enhancer be a griffon-made composite rather than a plain crystal, and asks the model to describe the material and its manufacturing process.

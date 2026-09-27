@@ -1,0 +1,8 @@
+- questions:
+- shape: Corrects the model's reading of the chapter and asks for a redo. It supplies the actual events, says the model misread them, and narrows the task to the point-of-view analysis of the Helena–Windie conversation. The battle scene is put off for a separate analysis. The turn answers nothing because the model turn put no question to the user.
+- settles:
+  - The author's note at the end of the document is a meta nod to a fellow author. It is not part of the story. | there is an author's note at the end of the document which is not part of the story, it's a meta nod to a fellow author
+  - Chadwyck and Windie do not fight each other. | Chadwyck and Windie don't fight
+  - Helena's team fights a different group and loses. | Helena's team is fighting a different group and loses
+  - Windie is on the opposing side but recognizes Helena. He stabs his arrogant ally in the back and takes Helena to his hut. | Windie is on the opposite side, but he recognizes Helena and stabs his arrogant ally in the back to take Helena to his hut
+  - After the hut is reached, Helena and Windie converse and get to know each other. | Then they get to know each other

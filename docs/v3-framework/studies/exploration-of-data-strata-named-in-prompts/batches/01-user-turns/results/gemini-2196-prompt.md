@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks factual questions about whether Poland, South Korea and the Baltic states sent nearly all their military equipment to Ukraine in 2022, without pointing at any body of material to draw on.

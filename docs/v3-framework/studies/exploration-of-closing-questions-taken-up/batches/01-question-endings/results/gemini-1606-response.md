@@ -1,0 +1,6 @@
+- questions:
+- shape: Corrects the model's proposal. It rejects the competitive, profit-driven "Storm Bonds" framing for wartime and puts the artisanal, local weather craft in the postwar period. It also gives the pegasi a motive for choosing local weather over a rebuilt central factory. It answers no question, because the model turn asked none.
+- settles:
+  - No competition among weather-makers during the war; wartime weather is a commanded, centrally directed effort | There shouldn't be any competition during the war. The war has to be a commanded effort.
+  - The artisanal, local weather craft only develops after the white peace | The artisanry can come after white peace
+  - After the war the pegasi refuse to rebuild a boring central weather factory and want local weather creation instead | the pegasi don't want to rebuild a boring central factory anymore, they want local weather creation

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to elaborate on Taylorism, following up on the model's offered topic, without pointing at any body of material to draw on or avoid.

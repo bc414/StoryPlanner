@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | review them to check the parallels with Zelensky and Ukraine, to be read by the model against the real history | Review my story plans for the parallels | referred-to
+  - Zelensky and Ukraine prior to 2022, the Donbas proxy war, the prior Stagnation and corruption | real-world history for the model to elaborate on and to confirm or correct the framing of naive honesty in 2019, hard truth in 2022, and a new civic identity | Elaborate more on Zelensky and Ukraine prior to 2022 | first-named
+- order:
+- about: The user, impressed by the model's Zelensky-Applejack parallels, asks for more real history of pre-2022 Ukraine, asks whether the framing of Zelensky's arc is accurate, and asks the model to review their story plans for the parallels.

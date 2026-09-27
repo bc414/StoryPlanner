@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user describes their current method of pasting the whole 300k-token story bible, floats splitting it into per-district files from their WPF/sqlite app for Code Assist's cross-file context fetching, and asks for a comparison of the two approaches, without saying anything in the prior turn was wrong.

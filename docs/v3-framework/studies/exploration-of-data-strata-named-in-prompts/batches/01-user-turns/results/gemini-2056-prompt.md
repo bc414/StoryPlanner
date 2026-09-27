@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether Gemini Pro is better than Flash at avoiding reasoning loops, without pointing the model at any body of material.

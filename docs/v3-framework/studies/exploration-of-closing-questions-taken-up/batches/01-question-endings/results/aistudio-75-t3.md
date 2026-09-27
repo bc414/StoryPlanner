@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack logically distinguish Twilight's pipes and optimized logistics as Honest from SAA's conveyor belts as Soulless, what boundary must exist in her mind, and how does Fleur eventually dismantle it? | no user turn | none | none
+  - When Bright Mac and Pear Butter visit and see the optimized chore routes, do they praise Applejack for adopting industrial efficiency, and if so how does that approval trigger her Imposter Syndrome and threaten the episode's psychological progress? | no user turn | none | none
+- shape: none
+- settles:

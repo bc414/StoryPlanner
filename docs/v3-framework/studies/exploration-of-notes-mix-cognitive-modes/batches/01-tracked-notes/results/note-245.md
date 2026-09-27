@@ -1,0 +1,8 @@
+- claims:
+  - History | Chrysalis suffered a failure in Stalliongrad and drew lessons from it | Chrysalis has learned from her failure in Stalliongrad | yes
+  - History | Chrysalis and Eagleclaw once blackmailed the greedy industrialists | the very greedy industrialists who the two of them once blackmailed | yes
+  - Characterization | Chrysalis believes Eagleclaw's government will be weak and industrialist-ridden, and she cannot tolerate it continuing to lead the nation | She cannot allow a weak government like what she believes Eagleclaw will bring | no
+  - Characterization | Chrysalis fears a communist or popular revolution would topple Eagleclaw, the nobles and industrialists and ally with the Griffonian Republic | Chyrsalis fears a communist or popular revolution would overthrow | no
+  - Characterization | Chrysalis prefers that Archon Eros seize an iron grip on Herzland and take the nation to war with Aquileia and the GR | Chrysalis would rather have Archon Eros secure an iron claw | no
+- goals:
+- whole: The note reports Chrysalis's 1007 situation after Stalliongrad, mostly by asserting her beliefs, fears and preferences about Eagleclaw's government, revolution and a war-making Eros, with a little past-event history.

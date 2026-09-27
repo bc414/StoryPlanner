@@ -1,0 +1,4 @@
+- sources:
+  - the author's own statement of the framework's current state (Authenticity removed from the elements, Honesty vs Poseurs now a separate theme) | treat as true and current; corrects the model's assumption that Authenticity belongs to the framework | To clarify, Authenticity is separate from the elements of liberty. It was originally Applejack's element, but I took it out | first-named
+- order:
+- about: The author corrects the model's premise about which elements belong to the framework, rejects "Elements of Conscience" in favor of "Elements of Civic Virtue" or keeping "Elements of Liberty" as a subversion target, and asks whether "Liberty" ever meant civic virtue or was always the cynical bourgeois-revolution term.

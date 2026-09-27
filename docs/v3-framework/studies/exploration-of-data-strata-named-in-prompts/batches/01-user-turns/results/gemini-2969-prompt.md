@@ -1,0 +1,4 @@
+- sources:
+  - the document whose word count was just checked ("It") | no instruction on how to use it; its size is given as a possible cause of poor chat answers, so it is treated as material whose length may overload the chat | It's currently 300k words | referred-to
+- order:
+- about: The user reports that their document is 300k words and asks whether that size is why the standard chat gives poor answers after only two turns.

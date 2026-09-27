@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Readers' starting assumption about Fluttershy is that she is naive and unfit for war or the world's ugly reality, the prior the opinion arc begins from | Readers initially may think Fluttershy is naive and totally not fit for war | yes
+  - NarrativeArchitecture | Readers of The Princess and the Kaiser are expected to hold this prior more strongly, so prior reading shapes where the reader begins | Especially if they read The Princess and the Kaiser | yes
+- goals:
+- whole: The note sets the starting point of the reader-opinion arc for Fluttershy by naming the naive, war-unfit assumption readers bring, made stronger by a prior work, and gives no target effect.

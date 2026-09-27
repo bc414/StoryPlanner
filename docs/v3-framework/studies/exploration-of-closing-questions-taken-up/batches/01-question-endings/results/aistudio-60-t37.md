@@ -1,0 +1,5 @@
+- questions:
+  - If Luna's dream-walking spell was derived from the civilian Unicorn's research, how would Twilight's epistemological framework handle learning that the Luna Nova Rifle's foundational code comes from the architect of the Crystal Empire's slavery? | ignored | none; the user turn moves to asking about existing canon and fanon names and backstories | none
+  - Did the Crystal Ponies, through innate Emotion Sense, pick up the civilian Unicorn's toxic resentment before his meltdown, and did their anxiety speed up his collapse? | ignored | none; the user turn does not touch the Crystal Ponies or the meltdown and asks about outside sources | none
+- shape: Redirects away from the model's proposed civilian names and Socratic questions to a factual research question: what canon or fanon names and backstories (comics, fanfiction) already exist for King Sombra. It gives no reaction to the proposals.
+- settles:

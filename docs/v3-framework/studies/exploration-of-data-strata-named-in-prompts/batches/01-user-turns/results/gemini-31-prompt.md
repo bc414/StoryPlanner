@@ -1,0 +1,4 @@
+- sources:
+  - the story (2 million words long) | the body of material the model is summarizing; the user gives its size and asks whether the model can take in that much, without saying to trust or distrust the earlier summary | The story is 2 million words long | referred-to
+- order:
+- about: The user gives the story's length as 2 million words and asks how many words the model can process in its context window, which puts in question how much of the story the earlier summary could have covered.

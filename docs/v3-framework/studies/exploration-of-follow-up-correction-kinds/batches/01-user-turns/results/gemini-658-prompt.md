@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the sleep-spell idea further with new design questions about swappable matrices, whether non-lethal use should be universal and how to justify lethality later, and whether the sleep spell should cost more than simple spellfire, without disputing anything the model said.

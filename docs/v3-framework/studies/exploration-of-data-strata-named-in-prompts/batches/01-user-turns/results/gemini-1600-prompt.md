@@ -1,0 +1,4 @@
+- sources:
+  - Plan export attached (153,777 words) | supplied as the story plan material for the model to work from; the turn gives no instruction on how to weigh it | Plan export attached — 153,777 words | first-named
+- order:
+- about: The user turn contains only an attachment notice for a story plan export, supplying the plan as material with no further instruction or ranking.

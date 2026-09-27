@@ -1,0 +1,5 @@
+- sources:
+  - TLTT v2-definitions.md (the attached file of tracks) | the object under review: analyse it and say what works, what could improve and what gaps it has, judged against the conversation's principles | Here are the tracks I came up with | first-named
+  - the principles established throughout this conversation | the standard the tracks are compared against when judging them | comparing to the principles established throughout this conversation | referred-to
+- order:
+- about: The user shares a file of tracks they drafted and asks for an evaluation against the principles built up earlier in the conversation, covering strengths, possible improvements and significant gaps.

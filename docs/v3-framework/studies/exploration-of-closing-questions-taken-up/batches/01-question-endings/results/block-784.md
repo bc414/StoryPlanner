@@ -1,0 +1,5 @@
+- questions:
+  - When Twilight reads Grover III's translated texts and learns the Charitostatic Effect was discovered and suppressed by a Griffon Emperor, does that validate Celestia's Noble Lie or show that hiding truth always benefits the oppressor? | no user turn | none | none
+  - How does Kemerskai psychologically replace the Squire-to-Knight ambition when he founds the Republic, and how does he convince a young Griffon that equal citizenship is more honorable than striving to be a Warlord? | no user turn | none | none
+- shape: none
+- settles:

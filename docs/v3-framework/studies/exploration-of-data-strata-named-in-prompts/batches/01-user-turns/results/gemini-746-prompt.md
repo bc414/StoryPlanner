@@ -1,0 +1,8 @@
+- sources:
+  - My original instinctive plan for Trimmel's parting advice ("the ponies look up to you. Don't lose that") | the author's own earlier plan for the parting line, offered as the direction the advice should take, and it is set against the dream | "My original instinctive plan for Trimmel's parting advice" | first-named
+  - the dream (workers scowl at her, Apple Bloom ignores her) | treated as the established nightmare that the parting advice should directly contrast | "directly contrasts the dream, where the workers scowl at her and Apple Bloom ignores her" | referred-to
+  - the direct advice drafted in the model's previous turn ("don't go back to the farm", "don't stagnate") | treated as implausible for Trimmel and doubted, not accepted as it stands | "being too direct, like "don't go back to the farm" or "don't stagnate" doesn't really make sense" | referred-to
+  - the VOPS profile / VOPS reveal | existing story element whose scope limits what Trimmel knows of Applejack; its placement relative to the mercy announcement is put to the model as an open question | "he doesn't really know Applejack outside of the VOPS profile and her tactics" | referred-to
+  - chapter 1 (Trimmel as the radio voice demanding surrender or death) | story fact from the author's plan, given as the pretext for Trimmel expecting execution and being surprised by mercy | "the voice on the radio who demanded surrender or death in chapter 1" | first-named
+- order:
+- about: The author pushes back on the model's overly direct draft of Trimmel's parting advice, restates their own plan, asks whether the VOPS reveal should come after the mercy announcement, and explains Trimmel's mindset as a surrendered enemy who expected execution.

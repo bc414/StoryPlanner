@@ -1,0 +1,10 @@
+- questions:
+  - If Celestia takes in resilience through Pinkie's intervention, does her abdication come from being a defeated relic or from trusting the Republic to handle its own Red Love? | refused | Rejects the premise. She has not absorbed resilience, and the cake is not a switch. What moves her is post-rescue therapy, which convinces her stagnation is better. Abdication is not addressed. | the cake is only a part of it, not a magical switch; therapy convinces Celestia even more than stagnation is better
+  - How does seeing her own toxic positivity change how she treats Twilight, and would she defend or apologize for the 1,000-year curriculum of forced innocence when Twilight confronts her? | ignored | Says nothing about Twilight, the grooming confrontation, or Celestia recognising toxic positivity. | none
+- shape: Corrects the model's arc. The model had Celestia learning resilience and moving toward trusting the Republic. The user reverses this: Celestia's therapy work restores her conviction to bring back the nursery. The user adds the timing and causes of the reversal, then hands the model a new question about how and when this should be revealed.
+- settles:
+  - Celestia gives post-rescue therapy and connects with ponies one by one. This strips away her god-like myth, creates personal bonds, and shows her where she is needed. | removes the god-like myth and also creates personal connections and shows Celestia where she is needed
+  - The therapy work strengthens her belief that stagnation is better, rather than moving her toward resilience or the Republic. | convinces Celestia even more than stagnation is better
+  - The therapy happens shortly after the combined arms meeting and the cake. | shortly after the combined arms meeting and the cake
+  - The cake is only one part of her change and is not a magical switch for her psychology. | the cake is only a part of it, not a magical switch
+  - Celestia really believed she was obsolete, and therapy restored her conviction for bringing back the nursery. | really thought she was obsolete; restored her conviction for bringing back the nursery

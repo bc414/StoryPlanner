@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author proposes their own placement for the Blueblood and Applejack face-to-face meeting, at the start of Encirclement in Ponyville before the paradrop, in place of the radio-reveal idea, without pointing the model at any body of material.

@@ -1,0 +1,6 @@
+- questions:
+  - How does Changeling intelligence (VOPS) exploit the publicly visible wing coloration to identify and assassinate the emotional anchors of high-value Equestrian commanders? | ignored | Nothing said about VOPS, wing colors, or targeting anchors; the user turn moves to a different topic. | none
+  - Does Earth Ponies flying through Charitostatic engineering trigger an identity crisis in biological fliers like Rainbow Dash and the Wonderbolts about their Asset Specificity, or does it reinforce the Republic's egalitarianism? | ignored | Nothing said about fliers' reaction to the wings; the user asks for something else. | none
+- shape: Redirects to a new topic: drops the Wings of Dew discussion and asks the model for name suggestions for the civilian unicorn who becomes the corrupted King Sombra, by analogy with Luna becoming Nightmare Moon.
+- settles:
+  - The civilian unicorn will eventually lose control of his magic and become a corrupted shadow monster who styles himself King Sombra, paralleling Luna's corruption into Nightmare Moon | asks for names for the unicorn 'who would eventually lose control of his magic and become a corrupted shadow monster'

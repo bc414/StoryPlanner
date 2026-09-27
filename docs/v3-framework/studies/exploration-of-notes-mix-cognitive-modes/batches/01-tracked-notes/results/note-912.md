@@ -1,0 +1,5 @@
+- claims:
+  - PageDesign | After the second battle is lost, Trimmel is shown demanding the entire Luftwaffe be requisitioned to swarm Tall Tale, declaring them the fiercest opposition who must be crushed immediately | Trimmel demands to requisition the entire Luftwaffe to swarm Tall Tale, saying they are the most fierce opposition and must be crushed right now | yes
+  - PageDesign | The others laugh off his demand and he is dispatched to Bales to wipe out Blueblood, shown as the on-page outcome of the debate | He is laughed off and sent to Bales to wipe out Blueblood | yes
+- goals:
+- whole: The note stages what Trimmel does on the page in the post-battle debate: he makes an escalating demand for total force against Tall Tale, is laughed off, and is sent to Bales against Blueblood.

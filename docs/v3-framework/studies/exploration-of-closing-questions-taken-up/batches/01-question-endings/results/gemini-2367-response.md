@@ -1,0 +1,6 @@
+- questions:
+  - Who is Coltbert's primary intellectual sparring partner in this era? | answered | Names his intellectual opponents as two: Celestia, who is distant and runs a nursery, and Skyfall's manosphere. It does not offer a single individual or a noble griffoness. | Coltbert's intellectual opponents are the distant Celestia who runs a nursery and Skyfall's manosphere
+  - Is there a specific Aquileian duchess or heiress who first despises his shaming, then becomes his greatest ally and first applies his theories in a workshop? | ignored | Says nothing about a duchess, heiress or ally. It gives opponents only and leaves the ally figure unmentioned. | none
+- shape: A short redirect that swaps the model's framing. The model proposed a personal sparring partner from the Aquileian noble griffonesses who turns ally. The user instead names two opponents, one distant and institutional and one a collective, and does not respond to the ally idea or to the rest of the model's material.
+- settles:
+  - Coltbert's intellectual opposition is Celestia, distant and running a nursery, together with Skyfall's manosphere | Coltbert's intellectual opponents are the distant Celestia who runs a nursery and Skyfall's manosphere

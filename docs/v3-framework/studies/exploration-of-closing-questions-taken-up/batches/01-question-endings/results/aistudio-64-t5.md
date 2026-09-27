@@ -1,0 +1,5 @@
+- questions:
+  - How will the opening chapters mechanically show, for a reader who doesn't know the MLP lore, the societal consequences for a pony who defies their Cutie Mark or expresses Red Love (Ambition) in peacetime? | no user turn | none | none
+  - How does the fabula make Celestia's eventual abdication feel like an earned, tragic realization of her obsolescence, rather than a simple defeat by a younger, more aggressive political generation? | no user turn | none | none
+- shape: none
+- settles:

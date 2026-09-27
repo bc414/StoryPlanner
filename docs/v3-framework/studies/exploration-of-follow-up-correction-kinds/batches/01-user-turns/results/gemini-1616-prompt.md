@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the potassium-cloud idea as settled, lists the four-step elastic defense and backhand blow plan for the third battle of Tall Tale, and asks how weather fits in, including whether mass rain would hinder the enemy's tanks, with a request to check the intel, the plan and Synovial's psychological profile.

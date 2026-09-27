@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - other (staging of the climactic scene) | the model's scene arc put Synovial inside Verdame, on the ramparts and in the command center, with the fortress as the kill box where the battle happens; the user pictures the fighting on the plains around an already taken and probably wrecked fortress, with the surrender and the dialogue on the ground, and the fortress only as backdrop | I imagine the actual battle between them taking place in plains around the taken and probably destroyed historical fortress | offered as the user's own picture of the scene, stated mildly and without saying the model was wrong, then turned into questions about what the fortress can be
+- about: The user replaces the model's fortress-centred staging with their own picture of a plains battle and a ground-level surrender before a ruined fortress, and asks what such a fortress would serve in a WW2 setting, using Verdun as the comparison.

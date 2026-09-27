@@ -1,0 +1,8 @@
+- questions:
+  - How does Fleur Bloom help a defecting Skyfall engineer at Star Energy process the grief and humiliation of having been used, and how do they bond over honest math for a cause they own? | ignored | Says nothing about Fleur or the engineer's arrival at Star Energy; it only says where the allegory should go. | none
+  - How does Applejack bring a laid-off, restructured engineer onto the 1015 ALB election debate stage to dismantle Gilded Trust's Meritocracy Myth? | ignored | Makes no mention of the election, the debate or Applejack. It puts the engineers' story in a different scene. | none
+- shape: The user gives a short placement instruction and moves past the model's two open questions. The allegory of the seduced and discarded engineer is to be attached to an existing group, the artisans who worked for Kesseler, and to surface in a specific scene where Twilight meets them. It redirects the material to a different character group and location than the model proposed.
+- settles:
+  - The engineer-allegory (seduced by the interesting problem, then discarded) is built into the artisans who worked for Kesseler | This allegory should be built into the artisans who worked for Kesseler
+  - Twilight meets these artisans in the Skyfall Resolution scene | Twilight meets them in the Skyfall Resolution scene
+  - That scene sits in the chapter Ambition | in the chapter Ambition

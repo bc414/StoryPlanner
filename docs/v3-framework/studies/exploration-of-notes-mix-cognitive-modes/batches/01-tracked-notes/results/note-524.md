@@ -1,0 +1,10 @@
+- claims:
+  - Characterization | Rainbow's starting loyalty is devotion to friends, assuming it will always be received and honored, assuming reciprocity without checking it | Loyalty originally just means devotion to friends ... assumes reciprocity without verifying it | no
+  - Characterization | In the war version Rainbow believes she must be the sky hero saving helpless ponies, and that they die if she stops | The war version is "Heroism", where Rainbow believes she must be the hero | no
+  - Characterization | Her heroism is a top-down mentality in which the moral top is crushed by the world's weight | It is a top down mentality, where the top is moral but gets crushed | no
+  - Canon | This heroism resembles Eros's vision for Grover, tying it to an established source pairing | It is similar to Eros's vision for Grover | no
+  - Allegories | Heroism stands for a soldier's blind servitude that cuts conscience away, a euphemism for fealty to an abstract country | It is blind servitude, separating a soldier from their conscience | no
+  - ThematicEvidence | The tyrannical variant of loyalty is fealty, a one-way street held in place by threat | The tyranical version is Fealty, where loyalty is a one way street under threat | no
+  - ThematicEvidence | The liberty variant of loyalty is kinship, meaning chosen kin rather than tribalism or blood-kin | The liberty version is Kinship - specifically chosen kin, not tribalism/blood-kin | no
+- goals:
+- whole: The note lays out a four-stage progression of Rainbow Dash's loyalty (friendship, heroism, fealty, chosen kinship) by defining each version, mostly as character and thematic assertions rather than a plan for the reader's experience, and it names no reader effect.

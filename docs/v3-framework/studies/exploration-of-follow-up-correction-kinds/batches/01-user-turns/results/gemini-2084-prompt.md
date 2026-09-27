@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the model's account of bucket-first note-taking by asking it to pull the seven original orthogonal note axes from The Strategist's system instructions and compare them with entities and metrics such as MICE and Freytag, without saying the previous turn was wrong.

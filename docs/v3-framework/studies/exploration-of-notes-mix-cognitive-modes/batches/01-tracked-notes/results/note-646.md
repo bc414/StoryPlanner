@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten: world rule of the fiction | Love donation as a process takes more time than extraction does | Love donation takes longer than extraction
+  - outside all ten: world rule of the fiction | The painlessness of the procedure has more than one cause; Starlight's spell is only part of it | It's not just starlight's spell that makes it painless
+- goals:
+- whole: The note states two rules of how the Love Donator technology works in the fictional universe, that donation is slower than extraction and that its painlessness does not come from Starlight's spell alone, and it sets no reader effect.

@@ -1,0 +1,17 @@
+- questions:
+  - Is 'princess' the right word in Applejack's draft letter, given she hasn't been offered the title yet, or should it be something more grounded like 'the one in charge'? | ignored | none | none
+  - What is Celestia's internal state between her arrival and her closing line in Chapter 16: growing comprehension, shame, grief? | ignored | none | none
+  - Is there a designed Layer 4 moment where the 'Chrysalis doesn't drain anyone, she's seething' revelation lands for the reader and characters? | ignored | none | none
+  - Is the Cutie Mark theory scene given enough room, and is the CMC's parallel discovery arc designed and converging there? | ignored | none | none
+  - What is Spike doing during Chapters 16-17, and what is the designed reader experience of his empty seat at the Mane 6 reunion? | partly answered | Says where Spike is: trapped in the Crystal Empire in a months-long siege with Cadance, Shining Armor and millions of crystal ponies. Says nothing on the reader's experience of his absence. | Spike is trapped in the Crystal Empire in a months long siege |
+  - How does the Grover VI divine-endorsement subplot intersect with the Republic-establishing thread updated in 16.14? | ignored | none | none
+  - What is the plan for when and how Luna's Temberik and Luna Nova Rifle backstory is revealed, and what it recontextualizes? | ignored | none | none
+  - What is the current design state of the two TwiJack beats in Chapter 17, including the reader perception gap in the second? | ignored | none | none
+  - Is the triage-by-ideology at Camp Fluttershy, where statthalders got no care, designed with the reader's moral reaction in mind? | ignored | none | none
+  - Where is Blueblood physically during these chapters, and what is his arc, given that his correctness should land differently depending on whether the reader trusts him? | partly answered | Says he held the line and still commands the front. Gives no arc beyond that and nothing on how the reader is set to trust or distrust him. | Blueblood successfully held the line and is still commanding the front |
+- shape: The user turn answers only the last two of the model's logical-gap questions, Spike and Blueblood, in two terse sentences of story fact. It skips the structural, pacing and Layer 4 questions and the other four gaps. It also adds a piece of world logic: the spearhead choice is what puts the Crystal Empire's siege at stake.
+- settles:
+  - Spike is besieged in the Crystal Empire, and the siege has lasted months | Spike is trapped in the Crystal Empire in a months long siege
+  - Cadance, Shining Armor and millions of crystal ponies are besieged with Spike | along with Cadance and shining armor and millions of crystal ponies
+  - The spearhead was aimed at relieving the Crystal Empire rather than saving Canterlot, and that choice is what the Crystal Empire's siege puts at stake | That's the stakes of doing the spear head to save the crystal empire instead of save Canterlot
+  - Blueblood held the line and still commands the front | Blueblood successfully held the line and is still commanding the front

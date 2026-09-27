@@ -1,0 +1,14 @@
+- questions:
+  - How does Gilded Trust adapt his "Ponies First" rhetoric to win reactionary voters who feel betrayed if Celestia publicly embraces the Thestrals? | ignored | Nothing on Gilded Trust. The turn goes on to say Celestia stays out of the campaign, which sets aside the model's public-embrace premise without addressing his response. | none
+  - Does Celestia's new capacity for friendship restore her ability to wield the Elements of Harmony, or has her 1,000-year reign permanently altered her magical resonance? | ignored | Nothing on the Elements or her magical resonance. | none
+- shape: The user accepts the model's reframing of Celestia as a good evolution and then adjusts it. Her change of heart starts with the Thestrals but stays unconscious, and it is expressed through non-interference rather than public endorsement. The user adds Fluttershy's guilt and reads Celestia's earlier inaction as quiet relief instead of paralysis. The user does not answer either Socratic question. They ask two new ones instead: whether the whole arc holds together, and whether and how Celestia's thoughts should be revealed on the eve of the election results.
+- settles:
+  - Celestia's change of heart begins with the Thestrals, when she leaves statue mode to work as one dreamwalker among many, but she has not yet recognized, voiced or accepted it. | begins with the thestrals ... still doesn't know it yet
+  - Celestia still believes she must act as a helicopter parent, stopping Applejack (or ponies she leads) from burning the hives and stopping the predator's dilemma from the Canterlot paradrop and Vanhoover. | still thinks she has to be the helicopter parent
+  - Fluttershy is wracked with guilt after her outburst, believes she has called Celestia a fraud, and bursts into tears in that scene. | Fluttershy feels extreme guilt ... bursts into tears
+  - Celestia's reaction to Fluttershy is mixed, so she accepts the apology immediately and feels relieved. | accepts Fluttershy's apology immediately and actually feels more relieved
+  - When Applejack and Twilight return from Griffonia and ask for a referendum, Celestia does not refuse. | Celestia doesn't say no
+  - Celestia neither joins the debate nor campaigns for herself, and lets Applejack gain favor without interfering. | doesn't participate in the debate or campaign
+  - Her inaction is reframed from paralysis to quiet relief. Applejack mistakes it for paralysis. | AJ thinks it's paralysis but in reality it's quiet relief
+  - The White Peace was still necessary to calm Applejack down so she could learn from Griffonia. | white peace was still necessary to make Applejack calm down
+  - Unlike in FiM, Celestia has no master plan. She is calm because she trusts the Equestrians to be mature enough to work it out. | doesn't have a master plan ... mature enough to figure it out

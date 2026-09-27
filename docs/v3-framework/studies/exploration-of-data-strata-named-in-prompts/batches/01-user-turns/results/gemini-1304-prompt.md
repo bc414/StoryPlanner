@@ -1,0 +1,4 @@
+- sources:
+  - the lore on the 2nd Aquileian Republic | review it first, then redo the analysis in light of it; the user's corrections about FJA and Coltbert's cutie mark/terroir theory are given as what it says | Please reanalyze after reviewing the lore on the 2nd Aquileian Republic | referred-to
+- order:
+- about: The user asks the model to redo its analysis after reviewing the 2nd Aquileian Republic lore, and corrects its premises: the FJA model fits Equestria and other species, Applejack wants the Aquileian model, and the conditioning friction should be used to expose Aquileian cultural superiority rather than to reject the model.

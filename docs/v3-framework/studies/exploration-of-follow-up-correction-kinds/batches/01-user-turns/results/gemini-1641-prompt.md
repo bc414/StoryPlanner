@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn holds only a plan export attachment with no accompanying text, so it supplies material without saying anything about the model's editorial analysis.

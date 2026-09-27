@@ -1,0 +1,4 @@
+- sources:
+  - the preceding analysis in this conversation (the economic-stability-before-democracy thesis) | use as the framework to test the two new revolution cases against, asking whether it still holds | Does this also track with why | referred-to
+- order:
+- about: The user asks the model to check whether the economic-stability-before-democracy thesis just discussed also explains why the first Herzland revolution and Vérany's first Aquileian Revolution failed while the later Griffonian Republic and second Aquileian Revolution succeeded.

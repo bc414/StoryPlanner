@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (god-mode world-building ontology) | defines what "Mafia" are in the system: not mere street criminals but Private Protection Syndicates | "Mafia" aren't just street criminals; they are Private Protection Syndicates | outside
+- goals:
+- whole: The note sets down, as a rule of the fictional universe, that the Mafia function as Private Protection Syndicates and not just as street criminals.

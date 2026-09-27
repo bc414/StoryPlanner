@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | asserts as fact that Ember's stated friendship with the Mane 6 is the only thing holding her in the room during the plan to retake Canterlot | Only her explicit friendship with the Mane 6 keep her in the room | no
+- goals:
+- whole: The note flatly states the truth of what motivates Ember to stay in the planning scene, which is a character assertion and not a design of what the reader should infer.

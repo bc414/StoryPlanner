@@ -1,0 +1,8 @@
+- sources:
+  - this conversation, already compressed twice | context being carried over into a new conversation; its content is the pool the seed context is drawn from, and it is being replaced rather than continued | "already been compressed twice" | referred-to
+  - note track definitions | proposed as seed context to carry into future sessions, as a candidate the user wants confirmed or added to | "the note track definitions" | referred-to
+  - the themes | proposed as seed context to carry into future sessions, as a candidate | "the themes" | referred-to
+  - the subject list | proposed as seed context to carry into future sessions, as a candidate | "the subject list" | referred-to
+  - jumbled v1 notes | material the user will paste into future sessions for the model to categorize; the input the seed context is meant to serve, not seed context itself | "paste in jumbled v1 notes" | referred-to
+- order:
+- about: The user is planning to start a fresh conversation and asks the model what material from this compressed conversation, beyond the note track definitions, themes and subject list, should be kept as reusable seed context for sessions that categorize pasted v1 notes.

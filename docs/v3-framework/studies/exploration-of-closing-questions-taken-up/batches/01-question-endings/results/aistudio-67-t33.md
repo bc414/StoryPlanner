@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack react on learning from Fleur Bloom that Celestia's Lockdown abandoned the Aquileian ponies, and does it shatter her belief in Celestia's benevolence and Equestria's clean hands? | ignored | Nothing on Applejack or Fleur. The turn asks about Celestia's views of Aquileia in the existing plans. | none
+  - Do the Aquileian Lionesses see Celestia's mandated chastity/asexuality as a coward's retreat from establishing consent and boundaries, rather than as purity? | ignored | Nothing on the Lionesses or chastity. The turn moves to a different question about Celestia's views. | none
+- shape: Redirects. The user skips the model's two closing questions and asks the model to retrieve what the existing story plans say about Celestia's views of Aquileia and their thematic purpose. They then ask whether those views should be preserved or adapted given the 914 ALB timeline change. It is a request to check the proposal against existing material, not an answer.
+- settles:

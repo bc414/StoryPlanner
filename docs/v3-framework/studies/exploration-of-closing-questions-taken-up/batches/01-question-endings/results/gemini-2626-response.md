@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants to explore how Twilight reacts in the background of the reveal scene, balancing pride in Pinkie with Celestia's horror | ignored | Says nothing about the Twilight scene and asks instead for more canon examples | none
+- shape: Redirects the conversation back to the evidence-gathering step. It asks the model for more canon episode examples beyond the four given, and it turns down the offered next scene by not taking it up. It is a request for more material, not a reply to the offer.
+- settles:

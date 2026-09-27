@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore how the Changelings might try to replicate these combined arms tactics mechanically, and fail at it? | ignored | Nothing about Changelings. The turn moves to a different brainstorm request. | none
+- shape: Redirects to a new brainstorm request. It skips the model's offered next step and asks for a different set of ideas, unicorn spells cast on another creature that then run on the target's own Red and Pink Love. The request comes with design constraints.
+- settles:
+  - Wings of Dew, and the spell type the user wants more of, works this way. A unicorn casts it on another creature, and once cast it is powered by the target's combined Red Love and Pink Love. It no longer needs the caster. | once cast, it is powered by the target's combined red love and pink love, not needing the unicorn caster anymore

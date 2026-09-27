@@ -1,0 +1,7 @@
+- questions:
+  - How does Kemerskai handle the transition back to democracy once the 10-year martial law ends in 996 ALB? | ignored | The user turn does not mention the end of martial law or the return to democracy. It moves to a separate topic, a communist manifesto in Herzland. | none
+  - Does the military willingly give up power, or does the new abundance split the Cloudbury Republicans ideologically? | ignored | Nothing about the military, abundance, or a Republican split. The user turn brings in Caramel Marks and Fire Angel's manifesto instead. | none
+- shape: The user drops the model's proposed next step and starts a new thread. They bring in a canon element from EaW, the Caramel Marks and Fire Angel communist manifesto. They say it must also appear in Herzland, then ask the model for the Marx and Engels historical context and for where it should fall relative to Gesunder Menschenverstand. They add their own tentative reading of it as a response to Grover IV's gilded age. The turn is a redirect that also asks the model for information.
+- settles:
+  - A communist manifesto, the counterpart of the EaW canon one by Caramel Marks and Fire Angel, must appear at some point in Herzland | "This must also appear at some point in Herzland"
+  - Tentative, not fixed: the manifesto is read as a direct response to Grover IV's gilded age | "I suppose it's a direct response to Grover IV's gilded age"

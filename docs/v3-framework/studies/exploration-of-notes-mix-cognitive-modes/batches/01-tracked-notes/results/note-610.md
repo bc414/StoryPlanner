@@ -1,0 +1,10 @@
+- claims:
+  - History | Industrialization (Bessemer steel, Haber-Bosch) replaces the finite physical castle with infinite capital accumulation, and risk moves from the battlefield to a zero-sum market of Rugged Individualism | Industrialization (Bessemer steel, Haber-Bosch) replaces the finite physical castle with infinite capital accumulation | yes
+  - History | In Skyfall and the Gilded Age Herzland the Tycoon risks ruin, assassination and burnout to build a monopoly | the Tycoon risks financial ruin, assassination, and stress-induced burnout | yes
+  - History | Because capital can grow without limit, the Tycoon's ego grows without limit | Because capital can grow infinitely, the Tycoon's ego expands infinitely | yes
+  - History | The female griffon's role changes from protecting a cub to incubating the sole heir of a corporate empire, and inheritance anxiety becomes dynastic paranoia | incubating the Sole Heir to a Corporate Empire. Inheritance anxiety metastasizes into Dynastic Paranoia | yes
+  - History | Females are kept out of the boardroom and factory floor not from physical weakness but because market exposure risks contact with other males and a rival's genetics entering the dynasty | locked out of the boardroom and the factory floor not because she is physically weak | yes
+  - History | The female becomes a guarded, gilded asset whose only function is to produce the legitimate heir that validates the male's industrial ruthlessness | a heavily guarded, gilded asset whose only function is to produce the legitimate heir | yes
+  - Analogies | The real-world economic concept of the Veblen good is used as the model for what the female becomes | The female becomes a Veblen good | no
+- goals:
+- whole: The note explains, as in-universe causal history, how industrial capital accumulation and dynastic paranoia led the Gilded Age system to confine female griffons as guarded heir-producing assets, with a Veblen-good comparison.

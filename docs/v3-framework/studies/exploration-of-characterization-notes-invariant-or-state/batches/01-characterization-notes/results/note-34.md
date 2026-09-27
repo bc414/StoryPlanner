@@ -1,0 +1,3 @@
+- claims:
+  - span | Most of her ambition is directed at pleasing or impressing Celestia, rather than at her own ends | "Most of her ambition went into hoping to please or impress Celestia" | the start of TLTT, the point the track's question asks about; the note has no date or time phrase of its own beyond the past tense "went into"
+- beside: Yes, in part. Life Phases (1003..1006) says Celestia started steering Twilight towards suppressing her ambition in favor of bureaucratic friendship, which speaks of her ambition and Celestia's hold on it. Backstory (1006) says she trusts Celestia's judgement after the school is cut back, which is close to the same deference. Neither says her ambition went into pleasing Celestia.

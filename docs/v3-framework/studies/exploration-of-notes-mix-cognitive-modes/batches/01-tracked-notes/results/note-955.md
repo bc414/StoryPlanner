@@ -1,0 +1,6 @@
+- claims:
+  - History | In 998 Henri and Fleur are strictly friends and colleagues, nothing more | They are strictly friends/colleagues | yes
+  - History | At this time Henri does the heavy physical work while Fleur does the scholarly 'nerd stuff' | Henri is doing heavy lifting; Fleur is doing "nerd stuff" | yes
+  - Characterization | Their inner attitude toward each other is no romantic spark, only mutual respect for each other's work ethic | There is no spark yet, just mutual respect for work ethic | no
+- goals:
+- whole: The note reports the state of Henri and Fleur's relationship in 998 as platonic, colleagues with divided labor, and adds an assertion of their mutual respect without romantic feeling.

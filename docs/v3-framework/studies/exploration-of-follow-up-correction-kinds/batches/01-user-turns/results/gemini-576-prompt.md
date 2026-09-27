@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model presented the Hives as resource-starved like Japan, with the war as a forced grab for resources. The user says the Hives do have iron, aluminum and oil, which were unmined until Chrysalis industrialized and conquered the hives, so they are partly autarkic, unlike Germany and Japan. | the hives do have iron, aluminum and oil... unlike both Germany and Japan | Stated flatly as added lore and framed as making the setting 'even more terrifying', so it reads as a refinement of the analogy rather than an objection.
+- about: The user adds world detail that the Hives already hold industrial resources, which undercuts the model's Japan-style resource-trap comparison, and then says the military-industrial complex will be modeled on chaebols and Chinese state enterprises after Deng.

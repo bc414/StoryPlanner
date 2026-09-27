@@ -1,0 +1,7 @@
+- claims:
+  - History | Twilight cast magic on a plow, which went haywire, because she didn't want to disappoint Applejack and was trying to find her role in Winter Wrap Up | used magic on a plow which went haywire because she didn't want to disappoint Applejack | yes
+  - History | Applejack yelled at Twilight after the plow incident | Applejack yelled at her | yes
+  - History | Twilight came to realize that inventing a spell matrix to replace Applejack's applebucking would make Applejack's special talent obsolete | Twilight realizes inventing a spell matrix ... would make Applejack's special talent obsolete | yes
+  - Characterization | Twilight holds the belief that applebucking is Applejack's special talent, an assertion about how she understands Applejack | She thinks Applebucking is Applejack's special talent | no
+- goals:
+- whole: The note reports, as in-universe backstory, the Winter Wrap Up plow mishap, Applejack's angry reaction and Twilight's realization about replacing applebucking, and closes with an assertion of Twilight's belief about Applejack's talent.

@@ -1,0 +1,10 @@
+- questions:
+  - How does the Equestrian Republic defend Cutie Marks and Special Talents against a hardline Cloudburian who says an economy built on specialness will abandon the untalented 'Wallflowers'? | ignored | Nothing on Cutie Marks, Wallflowers or the Griffonian equality objection. The turn goes on to how the anti-poles should be read. | none
+  - If the Republic drops the gold standard for Civic Fiat (War Bonds), what systemic safeguards stop its financial sector from turning into a domestic Skyfall Trade Federation? | ignored | Nothing on currency, Civic Fiat or safeguards against financial predation. | none
+- shape: Redirects the conversation and corrects the model's framing. It leaves both Socratic questions unanswered. It says the anti-poles are not evil but regional responses to problems on other axes. It then sets out a structure: Applejack holds all four synthesis poles, Chrysalis holds all four anti-poles, and other factions mix them. It closes with new requests to the model: confirm whether Chrysalis is the full anti-pole, show how one individual could serve as a good case, and give real-world historical allegories.
+- settles:
+  - The story's end goal and social message is the combination of all four axes' synthesis poles. | "clear synthesis where each of the for axis combined is the end goal"
+  - The anti-poles are not evil in themselves. Each is a regional response to a problem arising on one of the other axes. | "each of the 4 anti poles are not evil on their own"
+  - Applejack's Equestrian Republic holds all four synthesis poles. | "AJ's Equestrian Republic has all 4"
+  - Chrysalis holds all four opposite poles. This is put forward as the user's reading and is also asked as a question. | "Chrysalis has all 4 opposites"
+  - The other factions are mixes. They have learned some lessons and refuted others. | "all the other factions have a mix where some lessons are learned and some are refuted"

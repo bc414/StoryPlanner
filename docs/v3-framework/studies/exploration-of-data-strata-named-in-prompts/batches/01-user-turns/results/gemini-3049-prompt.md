@@ -1,0 +1,4 @@
+- sources:
+  - real life | draw on real-world subcultures as the material for the female-centric equivalents the user asks for | in real life | referred-to
+- order:
+- about: The user asks the model to extend its previous real-world subculture parallels by giving female-centric equivalents.

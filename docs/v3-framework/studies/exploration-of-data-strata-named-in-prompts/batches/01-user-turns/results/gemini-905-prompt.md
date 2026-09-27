@@ -1,0 +1,4 @@
+- sources:
+  - changelings have eggs/cocoons, unlike ponies, griffons, and the real world of humans | treat as a given premise of the author's world and reason from it, contrasting it with the other species and real humans | If changelings have eggs/cocoons, unlike ponies, griffons | referred-to
+- order:
+- about: The user asks a follow-up question on the state-run family-abolition discussion, asking the model to reassess how feasible it is once changelings' egg and cocoon biology is taken into account.

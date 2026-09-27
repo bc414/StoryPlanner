@@ -1,0 +1,6 @@
+- claims:
+  - WorldInference | After the Aquileian Cutie Mark Theory, readers are to work out that Cadance gets a discount on the charitostatic part of a spell, e.g. the conception spell turning romantic love into a baby | readers may infer that Cadance gets a discount for the charitostatic portion of a spell | no
+  - PageDesign | Fleur is shown voicing an in-story theory that alicorns have triple power from the three tribes | Fleur theorizes that alicorns have 3x power from the three tribes | no
+- goals:
+  - Reader infers that Cadance pays less for the charitostatic (love-made-real) part of spells such as conception | WorldInference | readers may infer that Cadance gets a discount
+- whole: The note sets up a reader inference about Cadance's spellcasting discount and pairs it with Fleur's stated alicorn-power theory, in a track meant for planning how the reader's opinion of the character shifts.

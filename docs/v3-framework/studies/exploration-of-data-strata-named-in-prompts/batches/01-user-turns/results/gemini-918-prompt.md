@@ -1,0 +1,5 @@
+- sources:
+  - Skyfall shell company industrial education cohort (Film and Flam, Rockefeller, Comet Shine were all in it) | treat as established story lore and place the parents inside it | I guess they would be in the Skyfall shell company industrial education cohort | referred-to
+  - Rarity's debut chapter in Manehattan and the Apple Bloom chapter | planned chapters in the author's plan where the parents must appear, so the backstory reveal has to fit them | they should be present in Rarity's debut chapter in Manehattan and Apple Bloom | referred-to
+- order:
+- about: The author asks how to reveal the parents' backstory in layers across planned chapters, and adds a provisional idea that the parents run a good, war-serious Manehattan corporation, like Comet Shine, and belong to the Skyfall cohort.

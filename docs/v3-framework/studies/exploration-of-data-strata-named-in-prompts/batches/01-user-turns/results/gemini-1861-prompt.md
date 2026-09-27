@@ -1,0 +1,4 @@
+- sources:
+  - my notes / the original | treat as the full content to be reorganized into a new collection of notes, and everything in it must be retained without loss or duplication | the notes must retain the full amount of what was in the original | referred-to
+- order:
+- about: The user rejects the IsIncorporated logic and the summary framing, and restates the goal as a lossless, concise, non-duplicating reorganization of their existing notes into a new set of notes.

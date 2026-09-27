@@ -1,0 +1,10 @@
+- questions:
+  - How does Applejack view Equestria's "suburbs" once she understands this history? | ignored | Nothing about Applejack's view. The turn moves on to assigning the suburbanization mechanisms to Skyfall and Celestia. | none
+  - When building the Republic, does Applejack try to reverse the isolation by promoting dense, communal living to rebuild working-class solidarity? | ignored | Says nothing on what Applejack does. It only says Skyfall uses these mechanisms to prevent a socialist uprising after independence, so the question is left open. | none
+- shape: The user turn does not answer the model's closing question. It corrects the model's mapping: suburbanization and the capitalist mechanisms belong to Skyfall, not Celestia, because ponies are canonically communal. It sets a division of labour: Skyfall takes rugged individualism, capitalism and privatization, Celestia takes helicopter parenting and risk aversion, and the Stagnation of Harmony takes the therapeutic material. It then instructs the model to redo the 1945–2008 overview along those lines.
+- settles:
+  - Skyfall uses the suburbanization and anti-labor mechanisms to prevent a socialist uprising after independence in 978. | These mechanisms are what I want Skyfall to use to prevent a socialist uprising after independence in 978
+  - Everything tied to rugged individualism, capitalism and privatization folds into Skyfall. | Anything related to rugged individualism and capitalism and privatization should fold into Skyfall
+  - Celestia does not get suburbanization, because ponies are canonically communal and harmonic. | But not suburbanization. The ponies canonically are communal and harmonic
+  - Celestia's share is helicopter parenting and extreme risk aversion. | I imagine the helicopter parenting, extreme risk aversion
+  - The therapeutic material goes under the Stagnation of Harmony, and the blatantly capitalist material goes to Skyfall. | The therapeutic stuff goes to the Stagnation of Harmony, the blatantly capitalist stuff goes to Skyfall

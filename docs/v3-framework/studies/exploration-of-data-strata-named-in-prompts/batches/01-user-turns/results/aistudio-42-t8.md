@@ -1,0 +1,4 @@
+- sources:
+  - the existing plot | ground the suggested Aquileian-word interactions between Mali and Henri in the plot as it already stands, using its events as the setting for them | based on the existing plot | referred-to
+- order:
+- about: The user asks the model to propose a few interactions in which Mali slips Aquileian words into her conversations with Henri during the first half of the story, hinting at her familiarity with Aquileian passion, fitted to the plot as it already exists.

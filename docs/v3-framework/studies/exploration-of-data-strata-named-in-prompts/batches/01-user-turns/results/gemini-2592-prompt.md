@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to analyze the adrenaline aspect of the Lionesses' behavior in both scientific and sociological terms, without pointing at any particular body of material.

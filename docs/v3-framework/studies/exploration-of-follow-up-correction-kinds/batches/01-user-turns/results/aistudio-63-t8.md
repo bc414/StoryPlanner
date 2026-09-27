@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Mudbeak analysis to ask for suggestions tracing Blueblood's arc from fop through failed attempts to buy an education, rejection in Manehattan, finding and treating Mudbeak, and writing the Dotted Line Report, and raises open questions about his money and the need to offer something personal.

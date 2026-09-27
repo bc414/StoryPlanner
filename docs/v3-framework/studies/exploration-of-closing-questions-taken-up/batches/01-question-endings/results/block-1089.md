@@ -1,0 +1,5 @@
+- questions:
+  - Historical anchoring: how does Applejack keep her Harmonic Republicanism coalition from fracturing along cultural lines (Earth Pony traditionalists vs. Aquileian-influenced urbanites) once Chrysalis is gone? | ignored | The user turn says nothing about Applejack, the Equestrian Republic, or coalition fracture; it moves to a new request about the American Right. | none
+  - Dialectical clash: how would a clout-driven University of Pridea activist react to an EEEE! factory floor in Manehattan, would they condemn the workers for capitalist extraction, and how would Flowing Current use Resilience to dismantle that critique? | ignored | The user turn does not touch the scene or the characters; it asks for a real-world analysis of the American Right instead. | none
+- shape: Redirects to a new topic: it skips both story questions and asks the model to apply the same cynic-versus-resilient framework to the American Right today, as it did for the Left, sorting the factions along the spectrum and giving reasons. It is an instruction for a parallel analysis of the real world.
+- settles:

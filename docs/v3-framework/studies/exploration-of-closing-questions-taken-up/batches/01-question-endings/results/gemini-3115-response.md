@@ -1,0 +1,4 @@
+- questions:
+  - How does Rarity's decision to decentralize her business and move her headquarters back to Ponyville affect her ability to supply the Republican Army when the Changelings besiege Canterlot? | no user turn | none | none
+- shape: none
+- settles:

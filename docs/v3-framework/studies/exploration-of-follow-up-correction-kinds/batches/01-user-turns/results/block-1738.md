@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model offered a tiered set of names for different speakers, including an Equestrian label (The Changeling Lands), when the user wanted a name for internal reference and for Applejack and Blueblood, and not the English/Equestrian frame. | I'm not interested in the English/Equestrian label since that's the frame of reference | flatly, as a plain rejection of one part of the output, followed by a restatement of what is needed
+  - reading of the request | The model framed the Equestrian perception as a separate 'external' name, but the user treats Applejack and Blueblood as needing the same non-Equestrian-frame name as the internal reference, so the model's split of who uses which name is redirected. | I need a name for my internal reference and what Applejack and Blueblood would use | flatly, as a restated requirement with no apology or reasoning offered
+- about: The user narrows the request by rejecting the Equestrian-frame label and stating that they need a name usable internally and by Applejack and Blueblood.

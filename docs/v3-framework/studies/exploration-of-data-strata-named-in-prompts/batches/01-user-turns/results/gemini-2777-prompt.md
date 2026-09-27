@@ -1,0 +1,4 @@
+- sources:
+  - chapter 9, the relaxing scene after the Town Hall | the place in the story plan where the user proposes a beat, offered as an insight or suggestion for the model to consider, not as settled | How about this insight: in chapter 9 during relaxing after the Town Hall | referred-to
+- order:
+- about: The user offers a new idea for a chapter 9 scene in which Applejack says the machine gun made her feel useful because she thought she had no magic, and this contrasts with her hiding behind Twilight's shield earlier and with the later discovery that she has powerful magic.

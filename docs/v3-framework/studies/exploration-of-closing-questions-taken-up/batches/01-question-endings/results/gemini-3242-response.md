@@ -1,0 +1,4 @@
+- questions:
+  - How do the old-guard Equestrians, who want to return to Celestia's safe, homogenous, isolated Nursery, react to the new integrated globalism of the Republic? | no user turn | none | none
+- shape: none
+- settles:

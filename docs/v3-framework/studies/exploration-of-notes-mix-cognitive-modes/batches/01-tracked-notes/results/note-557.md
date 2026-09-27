@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten: world-rule ontology | Donated red love is low entropy because giving it is a conscious act | Donated red love is low entropy because it is a conscious act | outside
+  - outside all ten: world-rule ontology | Extracted red love is high entropy from the victim's terror, resistance and coercion, so it would shatter a delicate spell matrix | Extracted red love is high entropy due to the victim's terror, resistance and coercion and would shatter a delicate spell matrix | outside
+- goals:
+- whole: The note states, as invariant world truth, the magical mechanic that willingly donated red love is low entropy and usable while forcibly extracted red love is high entropy and would shatter a delicate spell matrix.

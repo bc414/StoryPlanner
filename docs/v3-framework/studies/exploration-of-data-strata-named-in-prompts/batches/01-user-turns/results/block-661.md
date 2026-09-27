@@ -1,0 +1,4 @@
+- sources:
+  - the third person limited stuff / the things we've selected | treat as the already-decided baseline of elevated designs; explain why these were elevated and use them as the yardstick for finding other candidates | We've singled out the third person limited stuff to be explicit designs | referred-to
+- order:
+- about: The user asks the model to explain why the third-person-limited fields earned dedicated forms in the application, to name any other essential things worth elevating without over-engineering, and to explain the candidates it considers but does not elevate.

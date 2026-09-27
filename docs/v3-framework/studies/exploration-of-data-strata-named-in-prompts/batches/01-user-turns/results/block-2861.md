@@ -1,0 +1,10 @@
+- sources:
+  - v2 (the version describing the Tzinacatl system) | treat as the fuller account of the Tzinacatl system, with extra detail and more open questions, to draw on for that system | the system is described in v2 in full detail with extra detail and more open questions too | referred-to
+  - v1 (the version holding the TLTT plot) | treat as the better, fuller representation of the TLTT plot | the TLTT plot is better fully represented in v1 | referred-to
+  - the original Tzinacatl design from months ago | treat as partly superseded: it made them a full mirror of the pre-Chrysalis changeling hive wars, but the author now wants only one flip, the food-chain material condition leading to unconditional vs transactional | When I originally designed the Tzinacatl months ago, they were to be a full on mirror | referred-to
+  - the rest of AJ's synthesis sources | use as the comparison set against which the Tzinacatl's position on the Door axis is judged; the author feels the Tzinacatl sit at the opposite pole | opposite pole on whatever the Door axis is compared to the rest of AJ's synthesis sources | referred-to
+  - whatever else we've come up with as an orthogonal axis (the axes worked out so far in this conversation) | check whether what the Tzinacatl are missing interacts with or generalizes to these axes, or is just a consequence of the underlying configuration | does it interact or generalize with whatever else we've come up with as an orthogonal axis | referred-to
+- order:
+  - v1 over v2 for the TLTT plot | the TLTT plot is better fully represented in v1
+  - v2 over v1 for the Tzinacatl system detail | the system is described in v2 in full detail with extra detail
+- about: The author pushes back on the model's Door-axis reading of the Tzinacatl, corrects the Grover V ontology, and asks what the Tzinacatl lack relative to the Equestrian Republic and whether it is a new orthogonal axis or a consequence of the existing configuration, pointing to v2 and v1 for where the material lives.

@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn does not respond to the sorted output. It moves on to a new batch of material: an attached document plus a list of categorized bucket names under other paradigms (Epistemology, Demographics, and others). It reads as the next round of the sorting workflow, not an answer, correction, or instruction about the previous result.
+- settles:

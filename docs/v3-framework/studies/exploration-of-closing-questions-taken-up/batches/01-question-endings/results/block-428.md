@@ -1,0 +1,7 @@
+- questions:
+  - Before the 1002 ALB purge, does Celestia know about the Acornage Changeling refugee pipeline, and if so does she see it as a triumph of her Harmony while blind to its cultural trauma? | ignored | none: the user turn moves to a question about Chrysalis's name and says nothing of Celestia's knowledge | none
+  - How does Thorax, in his grassroots Harmonist revolution, view the Acornage pipeline: as a flawed hide-in-disguise method he replaces with honest integration? | ignored | none: Thorax and the pipeline go unmentioned | none
+- shape: Redirects to a new naming question that builds on the model's Acornage backstory. The user takes the backstory's name chain as a premise (Chrysalis first, then Krista) and asks what her drones would call her in Herzlander once she starts conquering the hives. Neither Socratic question is picked up.
+- settles:
+  - Chrysalis began as an Equestrian idiom name, which she took first. It is stated as the premise of the question, in an 'if' clause, not as a separate ruling. | "if Chrysalis came up with 'Chrysalis' first as an Equestrian idiom"
+  - Krista is the Herzlander commoner's name she picked afterwards in order to blend in. This is also stated as a premise. | "then picked 'Krista' as a Herzlander commoner's name to blend in"

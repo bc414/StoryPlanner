@@ -1,0 +1,11 @@
+- sources:
+  - the myth and popular/mass media perception of the New Deal | doubted; the model is asked to test whether the reality matches the legend | "as legendary as the myth and popular/mass media perception" | referred-to
+  - Roosevelt's New Deal | keep as the model for the Griffonian Republic, since it fit 1930s interchangeable labor, and not the German model | "keep the GR as the New Deal" | referred-to
+  - Soziale Marktwirtschaft and Mitbestimmung | not to be the basis of the GR; make them core tenets of the Equestrian factions EEEE! and Star Energy | "core tenets of the Equestrian factions" | referred-to
+  - the story's French and German in-universe words (poseur, blitz-essenz, jaeger-geist) | an established naming convention, given as examples, that looks grand but is literal and is calibrated for an Anglo audience | "my story uses many French and German words" | referred-to
+  - the Singapore element (martial law, the long march, Taiwan, expulsion from Malaysia) | the author's own explanation of what it means in the GR, correcting the earlier reading; treat as what the element is | "The Singapore element refers to martial law" | referred-to
+  - my lore truth (Celestia's Stagnation of Harmony began 80 years before story start; griffon magic as human capital) | treat as the true canon of the world and reason from it | "My lore truth says Celestia began the Stagnation" | first-named
+  - the original plan of a 1000-year Stagnation | superseded as truth, but kept as what the reader is led to believe until Celestia explains | "I originally planned for it to be 1000 years" | first-named
+- order:
+  - my lore truth (80 years) over the original plan of a 1000-year Stagnation | the 1000 years is only what the reader is led to believe until Celestia explains the truth
+- about: The author asks whether the New Deal's reputation is deserved, then decides to keep the Griffonian Republic as the New Deal and give Soziale Marktwirtschaft and Mitbestimmung to the Equestrian factions. They also ask how to handle in-universe language in prequels, clarify the Singapore element, and lay out the 80-year Stagnation lore and griffon magic.

@@ -1,0 +1,4 @@
+- sources:
+  - the very detailed note about Coltbert, the artisans and Dennis as "Baron" (quoted in the turn) | treated as an example of scene-level detail that should not go into any subject track and should instead be kept for a plot point dramatizing the event in Minette's prequel | "a very detailed note like:" and "doesn't belong in a subject track at all" | first-named
+- order:
+- about: The user quotes a highly detailed note and proposes that it belongs in a plot point in Minette's prequel rather than in any subject track, because that level of detail won't surface in TLTT.

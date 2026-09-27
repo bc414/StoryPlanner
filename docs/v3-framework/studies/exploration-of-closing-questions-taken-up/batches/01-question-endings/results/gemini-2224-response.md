@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want an explanation of how GRPO works without a Critic model? | ignored | The user does not pick this offer and asks a new question about innovations outside America and China. | none
+  - Does the user want a deeper look at how model distillation lets a small AI learn from a large one? | ignored | The user does not pick this offer and asks a new question about innovations outside America and China. | none
+- shape: The user turn redirects. It skips both follow-up offers and asks a new, broader question: whether any AI innovations come from outside the US and China. It is a fresh topic question, not a reply to the model's question.
+- settles:

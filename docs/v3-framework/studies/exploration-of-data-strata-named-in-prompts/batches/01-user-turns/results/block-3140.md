@@ -1,0 +1,7 @@
+- sources:
+  - the plot points from v1 archive (Twilight's cut-off note, and the following plot point where Applejack smirks) | treat as the authoritative record of the scene; they show Twilight no longer believes the foal story and Applejack says it smirking but earnestly, which corrects the picture of the scene | "looking at the plot points from v1 archive, Twilight doesn't actually believe the foal story anymore" | referred-to
+  - the canon setting of the show | the frame the foal-story idea must fit within; the author is imagining the design inside it | "I'm imagining, in the canon setting of the show" | referred-to
+  - the stork story from Europe (the model's general knowledge) | asked for as an outside reference: which holiday, if any, the stork story is tied to, to help choose the in-world holiday | "What holiday, if any, is the stork story from Europe associated with?" | referred-to
+  - the author's own experience of sex ed (memory) | offered as a personal analogy for clinical sex ed and learning about passion from illicit sources; the model is asked to check whether it holds generally | "at least that was my experience; is this true generally?" | first-named
+- order:
+- about: The author asks how seriously or satirically to treat the foal story in the Stagnation of Harmony, lays out a proposed holiday-delivery and matching-by-coloration design, asks for real-world parallels (the stork holiday, sex ed), and points to the v1 plot points to correct the model's claim that Twilight still believes the story.

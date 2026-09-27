@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want to explore how Skyfall's Cold War conditioning causes a tactical failure in their first major naval engagement against Aquileia? | partly answered | The user doesn't say yes or no. They move to the first Aquileian–Skyfall encounter anyway, but set the angle themselves: Dennis Discret's past as a Skyfall pirate captain, not the Cold War conditioning. | asks how Dennis's background factors into the first encounter
+- shape: Redirects. It takes up the offered topic of the first Aquileia–Skyfall clash, but supplies a new fact about Dennis Discret and asks the model to work out its effect on the encounter. It is a fresh question, not an answer to the offer.
+- settles:
+  - Dennis Discret, who leads or serves the Aquileian side, is a former Skyfall pirate captain. | Dennis Discret is a former Skyfall pirate captain
+  - The story includes a first encounter between the royal Aquileian fleet and a Skyfall corporate cruiser. | the first encounter between the royal Aquileian fleet and a Skyfall corporate cruiser

@@ -1,0 +1,5 @@
+- sources:
+  - Applejack's P&K collaborator logic | the material being tested: the model is to take Applejack's reasoning as a collaborator in P&K and compare it with Petain's reasoning | Applejack's P&K collaborator logic | referred-to
+  - Petain's thinking back in 1940 | the historical benchmark: the model is to judge whether the P&K reasoning matches what Petain actually thought and argued in 1940 | Petain's thinking back in 1940 | referred-to
+- order:
+- about: The user asks a factual comparison question, whether the collaborator reasoning given to Applejack in P&K parallels Philippe Petain's actual reasoning in 1940, following the model's Henri "Curse of the Lion" scene.

@@ -1,0 +1,4 @@
+- questions:
+  - How does Celestia react on first hearing reports of what Coltbert has done in Aquileia, and is she alarmed at him as a radical corrupting her Cutie Mark ideals with Red Love, or secretly fascinated that he cracked what Grover III couldn't? | no user turn | none | none
+- shape: none
+- settles:

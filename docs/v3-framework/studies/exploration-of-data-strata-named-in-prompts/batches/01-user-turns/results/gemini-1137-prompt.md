@@ -1,0 +1,6 @@
+- sources:
+  - the early idea of Twilight saving Applejack from death in a trench, as her arrival at the front | provisional and under review; the model is asked to analyze it and offer alternatives rather than treat it as settled | "I came up with this idea very early" | referred-to
+  - my story plans, now significantly developed | the current state of the plans is the standard the early idea is to be judged against | "now that I've significantly developed my story plans" | referred-to
+- order:
+  - my story plans (as now developed) | the early idea of Twilight saving Applejack in a trench | the early idea is to be re-examined "now that I've significantly developed my story plans"
+- about: The user asks the model to analyze an early-conceived scene, Twilight rescuing Applejack in a trench on arriving at the front, against their much more developed story plans, and to suggest whether other ways of writing her arrival would serve the narrative better.

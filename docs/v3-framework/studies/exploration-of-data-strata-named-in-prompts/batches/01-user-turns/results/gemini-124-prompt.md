@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user picks "Initiative" as the chapter title over "Superiority" and "Attrition", explaining that it stresses the two characters as the only human-player generals and that the chapter is a swift one-day engagement rather than a battle of attrition.

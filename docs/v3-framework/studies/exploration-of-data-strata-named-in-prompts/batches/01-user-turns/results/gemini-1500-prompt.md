@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates story setup (Discret's instructions to Coltbert, Skyfall's fiat system) and asks the model to come up with Coltbert's in-story reasoning for setting a 1-to-1 peg, offering two possible motives to choose between.

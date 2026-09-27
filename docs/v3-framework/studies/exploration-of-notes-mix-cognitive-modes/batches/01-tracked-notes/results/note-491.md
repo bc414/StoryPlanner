@@ -1,0 +1,6 @@
+- claims:
+  - History | Crystal Enhancers let unicorns teach their special spells to others | Crystal Enhancers allow unicorns to teach others their special spells | no
+  - History | Before the Enhancers there was no point in teaching, because a unicorn could cast a spell only through the cutie mark discount for their own special talent | Previously, there was no point teaching others because they are only able to cast their spell thanks to their cutie mark discount | no
+  - History | With Enhancers unicorns can cast one another's special spells, yet nobody becomes obsolete, because of comparative advantage and personal pride | still no one is obsolete due to comparative advantage and personal pride | no
+- goals:
+- whole: The note lays out, as plain world fact, what the Crystal Enhancer technology changes about spell-teaching and why it leaves no one obsolete, without saying anything about the reader's opinion or feelings that its track asks for.

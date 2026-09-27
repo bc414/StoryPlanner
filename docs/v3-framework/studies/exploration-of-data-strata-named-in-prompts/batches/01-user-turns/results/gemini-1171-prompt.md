@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual question about where rubber is sourced in the present day, following the model's historical overview, without pointing the model at any particular body of material.

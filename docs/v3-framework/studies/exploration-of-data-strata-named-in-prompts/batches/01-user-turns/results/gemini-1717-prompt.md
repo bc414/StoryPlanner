@@ -1,0 +1,5 @@
+- sources:
+  - the author's own statement that Dennis only protects Aquileian ships and that Skyfall stole the Imperial fleet and is unmatched | treat as true and as a correction to the model's previous proposal; Dennis does not attack Skyfall ships and Skyfall's navy is beyond matching | I don't imagine Dennis attacking Skyfall ships, only protecting Aquileian ships. Skyfall stole the Imperial fleet and are unmatched | first-named
+  - the motivations already worked out for Dennis (the bank run) | go back over them and use them to decide whether Dennis defects to the Republic in 1008 and which side he takes | Review the motivations again (bank run) | referred-to
+- order:
+- about: The author corrects the model's previous naval-piracy proposal for Dennis, then asks whether he would defect to the Republic in 1008 (FJA or MPA) and how to explain the Aquileian fleet being unable to help Equestria given Chrysalis's submarines.

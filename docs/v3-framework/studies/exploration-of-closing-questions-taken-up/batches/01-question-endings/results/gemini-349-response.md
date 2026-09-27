@@ -1,0 +1,4 @@
+- questions:
+  - Does the refined data model (dependencies, character payload join, views) feel robust enough for the complexity of the story? | ignored | Says nothing about whether the structure is robust enough. It moves on to ask about a theme relationship. | none
+- shape: Redirects to a new design question. It asks whether the plot point–theme link should carry a payload, the way the character join does. It doesn't evaluate the proposed model, though the question builds on the payload pattern just presented. It is a question, not a decision.
+- settles:

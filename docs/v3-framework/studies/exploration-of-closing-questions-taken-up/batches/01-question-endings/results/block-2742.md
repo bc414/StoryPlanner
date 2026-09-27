@@ -1,0 +1,7 @@
+- questions:
+  - Did Chrysalis know about the camps' systematic atrocity and look away, or genuinely not know? | ignored | nothing said about what she knew or where she sits on that spectrum | none
+  - What is VOPS's relationship to Chrysalis in Pax Chrysalia: a rogue actor she could clean out, or a necessary feature of her own system? | ignored | nothing said about VOPS or Vaspier | none
+  - Is the Pinkie Promise something Chrysalis knew and recovered, or something new to her, and did she know it before the war or learn it earlier? | answered | It is new to her: she had no idea what a Pinkie Promise is. Her line about being in prison a long time was an excuse she gave the child while posing as River Rose, not a forgotten memory. | "She actually had no clue what a Pinkie promise is"
+- shape: The user corrects the model's misreading of the Pinkie Promise scene, which the model had taken as Chrysalis recovering something she'd lost. The user also instructs the model to redo its account of Pax Chrysalia's thesis using the It's Me chapter and other context clues, not just the Dear Princess Chrysalis chapter. The turn does not take up the other two gaps the model raised.
+- settles:
+  - In the story, Chrysalis does not know what a Pinkie Promise is. The child teaches it to her as something new, and the prison line is a cover story spoken as River Rose | "She actually had no clue what a Pinkie promise is"

@@ -1,0 +1,13 @@
+- claims:
+  - Allegories | The Celestial Party stands for the 1991 End-of-History consensus and the pre-2016 establishment | representing the 1991 End-of-History consensus / pre-2016 establishment | no
+  - History | At war's end the Celestial Party believes Chrysalis's defeat ends the anomaly, that they can return to normal life, and that she was a singular evil Great Mare interrupting a peaceful universe | believes that because Chrysalis is defeated, the anomaly is over | no
+  - History | Applejack has to fight this delusion in order to establish the Republic, arguing that the system is what failed | Applejack has to fight this delusion to establish the Republic | no
+  - NarrativeArchitecture | The sequel is planned to show that Applejack was more right than she knew and that the system manufactured Chrysalis, a reframing of the first story's villain | The sequel proves Applejack was even more right than she knew | yes
+  - History | Celestia's enforced Stagnation of Harmony caused Gilded Lily to flee to Skyfall with a grievance | If Celestia hadn't enforced the Stagnation of Harmony | no
+  - History | The Herzlander Nobles' exclusionary, racist bloodline society led Chrysalis to spend 30 years building a war machine to bankrupt them | Herzlander Nobles hadn't built a society based on exclusionary, racist bloodlines | no
+  - History | Skyfall's unregulated hyper-capitalist black market supplied the funding for the Love Harvesters | Skyfall hadn't created an unregulated, hyper-capitalist black market | no
+  - Analogies | Chrysalis is mapped onto Donald Trump as the real-world model | Donald Trump/Chrysalis | no
+  - ThematicEvidence | The sequel argues the Great Man is a symptom, not the disease: history (scarcity, class resentment, alienation) created a vacuum and he was the fluid that filled it | not the disease; they are the symptom of a macroeconomic immune system collapsing | no
+- goals:
+  - The reader is to come to believe that a figure like Chrysalis is a product of systemic conditions rather than a singular evil who bent history | ThematicEvidence | The sequel argues that Donald Trump/Chrysalis is not the disease; they are the symptom
+- whole: The note sets up how the sequel recasts Chrysalis from a singular villain, as the post-war establishment sees her, into a symptom of systemic failure, mapping this onto Trump and the establishment's post-1991 and pre-2016 complacency.

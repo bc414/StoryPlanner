@@ -1,0 +1,6 @@
+- claims:
+  - History | Ancient Equestrian leaders deliberately and culturally enforced the belief that the cutie mark dictates destiny, producing a rigid, self-policing caste system | By culturally enforcing the belief that the mark dictates destiny, ancient Equestrian leaders created a rigid, self-policing caste system | yes
+  - History | Ponies who believed themselves biologically unable to excel beyond their flank's designation felt no status envy, demanded no upward mobility, and did not compete for resources | If a pony believes they are biologically incapable of excelling outside their flank's designation, they will never experience status envy | yes
+  - ThematicEvidence | The mark's destiny worked as a placebo that traded the frightening burden of free will for a comforting illusion of predetermined purpose, offered as a claim about free will versus fate | The placebo effect was the ultimate pacifier, transforming the terrifying burden of free will into the comforting illusion of predetermined purpose | no
+- goals:
+- whole: The note reports as a historical account how ancient leaders used the belief in mark-determined destiny to build a self-policing caste system, and ends with a philosophical claim that this belief was a placebo sparing ponies the burden of free will.

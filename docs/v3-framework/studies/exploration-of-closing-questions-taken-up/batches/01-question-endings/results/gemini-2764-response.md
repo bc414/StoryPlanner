@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an explanation of how Taft-Hartley's right-to-work provision fractured union power at the state level? | ignored | Nothing said about right-to-work or state-level union power; the user moves to Russia in 1917 | none
+- shape: Redirects to a new comparative-history topic. It asks several fresh questions: whether soviets equal unions, how soviets stood against the bourgeoisie under Kerensky, what labor dynamics and legal frameworks existed in Russia, and how these compare to 1935 and 1947. It builds on the model's Wagner/Taft-Hartley framing but does not take up the offered follow-up.
+- settles:

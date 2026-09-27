@@ -1,0 +1,5 @@
+- questions:
+  - What specific legal antitrust mechanisms must Comet Shine and Applejack implement, when Star Energy shifts from wartime command economy to peacetime Harmonic Capitalism, to keep their franchise model from becoming a Disney/Chrysalis-style monopoly that flattens the terroir of Tall Tale's factories? | no user turn | none | none
+  - If Twilight's democratization of magic in Chapter 22 (Wings of Dew, teleportation) removes the biological scarcity of Pegasus flight and Unicorn magic, does it destroy the tribes' asset specificity and risk cultural apathy and loss of identity like late-stage MCU audiences? | no user turn | none | none
+- shape: none
+- settles:

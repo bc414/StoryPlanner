@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the Aquileian cartel in Skyfall should take apprentices, and answers it themselves by proposing a reverse brain drain in which the cartel trains immigrant workers, especially chefs, so they return home and open workshops that buy Aquileian ingredients.

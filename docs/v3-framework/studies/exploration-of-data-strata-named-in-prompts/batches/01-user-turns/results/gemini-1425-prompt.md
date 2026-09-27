@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual follow-up question about how Piłsudski differed from Poland's leader in 1939, without pointing at any body of material to use or avoid.

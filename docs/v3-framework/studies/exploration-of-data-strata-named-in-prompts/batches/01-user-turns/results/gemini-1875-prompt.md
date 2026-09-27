@@ -1,0 +1,5 @@
+- sources:
+  - these cutie marks | the earlier concepts are the candidate set; the model is to pick from them and judge which best fits a wider combat-mage background | Which of these cutie marks works best | referred-to
+  - She will eventually teach Twilight and Starlight combat spells to fire out of a plane | the author's own statement of a planned story development, offered as a fact to take into account when choosing the mark | She will eventually teach Twilight and Starlight combat spells | first-named
+- order:
+- about: The user gives a planned plot point, that the character will teach Twilight and Starlight combat spells fired from a plane, and asks which of the previously offered cutie marks best fits a combat-mage background rather than only rifles.

@@ -1,0 +1,7 @@
+- sources:
+  - the meaning of clothes in my lore | fold into the reanalysis as an established part of the author's lore that the analysis must account for | taking into account the meaning of clothes in my lore | referred-to
+  - Coltbert's deviant motivations as the noblepony who was the loophole | fold into the reanalysis as established character lore that must shape how his motives are read | Coltbert's deviant motivations as the noblepony who was the loophole | referred-to
+  - his evaluation of Equestria (Coltbert's) | fold into the reanalysis as something Coltbert has already concluded in the lore | his evaluation of Equestria | referred-to
+  - the paper about the predator's dilemma | fold into the reanalysis as an existing document in the lore that the analysis must take into account | the paper about the predator's dilemma | referred-to
+- order:
+- about: The user asks the model to redo its previous analysis of the Coltbert and Vérany backstory, this time factoring in several pieces of their existing lore: the meaning of clothes, Coltbert's deviant motives as the loophole noblepony, his view of Equestria, and the predator's dilemma paper.

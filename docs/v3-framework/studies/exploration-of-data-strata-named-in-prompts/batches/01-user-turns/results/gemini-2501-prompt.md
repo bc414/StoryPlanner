@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about how Japanese anime production compares with Western creator-driven and toy-driven animation, and does not point the model at any body of material to use or avoid.

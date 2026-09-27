@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's economic-systems analysis and its Socratic questions aside and asks a new design question, whether EEEE! should end up a union or a guild, supplying their plan for its factories, the tycoons, gold bits and the later seizures so the model can weigh pros and cons.

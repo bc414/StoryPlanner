@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to analyze how the Griffon/Pony size disparity affects the logistics of the second half of the Chasseur Doctrine, the safe initiation of "Red Love"? | no user turn | none | none
+- shape: none
+- settles:

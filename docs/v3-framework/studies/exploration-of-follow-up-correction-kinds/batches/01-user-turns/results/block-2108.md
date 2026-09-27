@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Chrysalis and Eagleclaw bond analysis without comment and starts a new task, asking the model to search the DB for Aquileia and Aquileian history to help decide whether to split the existing Aquileia subjects into three.

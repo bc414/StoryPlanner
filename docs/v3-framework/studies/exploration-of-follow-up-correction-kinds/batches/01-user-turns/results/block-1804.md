@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves to a new question about whether Steam's cut and dominance on PC is as extractive as Apple and Google's mobile app stores, offering their own view that it is a different category, without saying anything in the model's turn was wrong.

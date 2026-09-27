@@ -1,0 +1,4 @@
+- sources:
+  - the paper write-up of the scenarios and our current understanding, typed out as tentative conclusions | treat as provisional working conclusions to be analyzed, not settled | I wrote out the scenarios and our current understanding on a piece of paper, and now I will type out what my tentative conclusions are and need an analysis | first-named
+- order:
+- about: The user sets out their tentative ten-track scheme for character and plot-point-link note tracks, including story-wide reveal-plan summaries and a possible fourth axis, and asks for analysis of it.

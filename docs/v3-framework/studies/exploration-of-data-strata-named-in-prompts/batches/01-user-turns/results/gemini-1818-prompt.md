@@ -1,0 +1,6 @@
+- sources:
+  - the 1st failed bourgeois revolution | treat as context to reanalyze the serfs' perception with, superseding the earlier revolution account | "context of the 1st failed bourgeois revolution" | referred-to
+  - the royalist Coltbert Reforms | treat as context to reanalyze the serfs' perception with, replacing the earlier account of the reforms | "the royalist Coltbert Reforms" | referred-to
+  - my story plans | treat as the authoritative place these events and their details come from | "from my story plans" | referred-to
+- order:
+- about: The user asks the model to redo its analysis of griffon serf perception, using the failed first bourgeois revolution and the royalist Coltbert Reforms as they appear in the user's story plans.

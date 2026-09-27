@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to explore how Baron Dennis Discret interacts with the Skyfall port authorities or Tycoons on landfall, contrasting his aristocratic military pride with their merchant attitudes? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a comprehensive markdown report of all insights from the whole conversation, including any that were superseded, and to search transcripts if they exist. It is a fresh request and doesn't say anything in the preceding report is wrong.

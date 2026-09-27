@@ -1,0 +1,4 @@
+- sources:
+  - This new detail about Celestia and Velvet | treat as an accepted story fact and build on it, using it as the explanation for Equestria's unpreparedness | "This new detail about Celestia and Velvet can explain" | referred-to
+- order:
+- about: The user accepts the newly introduced Celestia and Velvet detail as canon and asks the model to develop it further as the reason Equestria failed to prepare despite seeing the threat coming.

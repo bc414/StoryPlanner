@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Luna's psychology: she already knows her own failure and defers to Celestia because of it. The user rules out survivor-guilt over Celestia giving up a thousand years of progress. Her weight is having turned evil through excess ambition and magic, and her agreement rests on the view that industrialization kills the pony soul | Luna is self aware of her failure 1000 years ago... doesn't necessarily have a survivor complex guilt | flat restatement of the character, with a mild hedge and no mention of the model, stated as a settled fact while walking through the scene
+- about: The user restates the intended beats of the Riverlands argument scene (Celestia's line, AJ's outburst, Luna's 'I tried', the silence) while fixing Luna's inner motive for deferring to Celestia, then adds a new request for the backstory to explain why the bat ponies see Luna as a disappointment.

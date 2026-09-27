@@ -1,0 +1,4 @@
+- claims:
+  - History | Gabriella Eagleclaw was born on 12 February 961 in Readewetter | Born 12th February 961 in Readewetter | yes
+- goals:
+- whole: The note reports as historical fact the date and place of the character's birth.

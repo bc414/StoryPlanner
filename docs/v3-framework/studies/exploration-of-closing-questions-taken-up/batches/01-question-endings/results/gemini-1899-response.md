@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the model to show how to structure a JSON-based local storage system for their WPF story planner? | no user turn | none | none
+  - Is the user leaning toward using a formal database engine rather than JSON storage? | no user turn | none | none
+- shape: none
+- settles:

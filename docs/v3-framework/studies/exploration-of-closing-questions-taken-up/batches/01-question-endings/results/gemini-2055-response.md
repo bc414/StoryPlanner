@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to take the 980 Explosion and Grover IV timeline notes and write a definitive, non-looping summary for their planner? | ignored | Nothing said about the offered summary; the user asks a new, general question about model versions. | none
+- shape: Redirects to a new, general question about tooling: whether Gemini Pro loops less than Flash. It takes up neither the offer nor the loop diagnosis.
+- settles:

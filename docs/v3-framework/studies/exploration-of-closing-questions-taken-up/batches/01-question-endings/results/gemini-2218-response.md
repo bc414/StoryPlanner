@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants more on Antigravity's multi-agent orchestration or on setting up an Opal workflow | ignored | Picks neither; asks about other Google AI products (Jules, NotebookLM, lesser-known ones) | What about Jules and NotebookLM? Any other lesser known Google AI products?
+- shape: Redirects to a new topic. It widens the survey from Opal and Antigravity to other Google AI tools (Jules, NotebookLM, and lesser-known ones). It takes neither offered follow-up.
+- settles:

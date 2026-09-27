@@ -1,0 +1,5 @@
+- sources:
+  - the model's preceding analysis, referred to as "that" | take it as the premise and reason from it to the user's company | How does that position my company | referred-to
+  - the user's own account of their company and project (epitaxy tools for indium phosphide lasers, optical communication replacing copper, lowering compute cost in next-gen data centers) | treat as the facts about the company to apply the analysis to | my company who is making epitaxy tools for indium phosphide lasers | first-named
+- order:
+- about: The user asks the model to apply its preceding analysis of AI pricing and subsidies to their own company, which makes indium phosphide laser epitaxy tools for optical data transmission in data centers.

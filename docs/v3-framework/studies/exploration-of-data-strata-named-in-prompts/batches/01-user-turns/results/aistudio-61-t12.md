@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's claim that Tall Tale workers accept Comet Shine's branding for status, and replaces it with their own account: a shared local identity and a centuries-old casino-versus-harvest rivalry with Las Pegasus.

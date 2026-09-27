@@ -1,0 +1,6 @@
+- sources:
+  - synthesis sources (the other 2 besides the three the Republic is one off from) | material to examine next: the model is asked to say how the remaining two relate to the Republic, which the earlier finding did not cover | What about the other 2? | referred-to
+  - the session's one-off comparison of the Equestrian Republic with the synthesis sources and Chrysalis | treat as an established result to build on, and extend to other cases that share only one thing with the synthesis | Equestrian Republic is one off from 3 synthesis sources | referred-to
+  - my thesis (against isolationism) | the author's own tentative explanation for why the Republic shares the incorporative pole with Chrysalis; offered as a reading of intent, to be considered when looking at other single-match cases | I think this is because my thesis is against isolationism | referred-to
+- order:
+- about: The author follows up on the model's comparison by asking it to account for the two synthesis sources it left out, and to find other systems that share exactly one axis with the synthesis, offering their anti-isolationist thesis as the reason for the Chrysalis overlap.

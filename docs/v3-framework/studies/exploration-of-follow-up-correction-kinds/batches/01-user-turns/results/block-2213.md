@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model framed the user as an architect (versus gardener) whose thorough planning risks making the world bible a prison; the user says they are in fact a gardener who does a lot of revising, just done before the prose stage | I would say I am actually gardening, and doing a lot of it | flat statement of disagreement, backed by a reason (rebuilt the foundation three times) and a note on their prior workflow
+- about: The user pushes back on the model's architect-not-gardener characterization by saying their planning is itself gardening done before prose, and begins to explain their earlier beat-mapping workflow.

@@ -1,0 +1,7 @@
+- claims:
+  - Canon | Reproduces Sunburst's established on-screen dialogue about there being no spell to compel picking up where they left off, as a canon anchor | I know, right? It's not like there's some spell that would magically compel us to pick up where we left off. | yes
+  - Canon | Records the canon detail that Sunburst knows of several spells named for Pillars of Old Equestria (Mistmane, Rockhoof, Flash Prance), with his stammering joke and his sense the princess wants no spell | Well, actually, there's several. Mistmane's Material Amity, Rockhoof's Rapport, Flash Prance's Fellow... ship | yes
+  - Canon | Ties a behavior to how the Pillars of Old Equestria operated, a link back to established lore | That's the way the pillar of old equestria operated | yes
+  - Canon | Builds on canon by giving Sunburst a library of forbidden 'contraband' copied from the Crystal Empire's pre-Celestia library | Sunburst's library is full of "contraband", copied from the Crystal Empire's pre-Celestia library | yes
+- goals:
+- whole: The note collects quoted canon dialogue and lore links for Sunburst, then adds an expansion of his library as contraband from the pre-Celestia Crystal Empire, all as canon anchoring and building.

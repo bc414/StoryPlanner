@@ -1,0 +1,5 @@
+- sources:
+  - the original plan | ideas from it that persist are to be scrutinized and possibly reworked, so treat as provisional and open to revision rather than settled | ideas from the original plan which persist but could be scrutinized and possibly reworked | referred-to
+  - the story plan | the standard the reworked ideas should better suit, so the thing to fit the original ideas to | better suit the story plan | referred-to
+- order:
+- about: The user asks the model to pick out ideas carried over from the original plan that deserve a critical look and possible rework so they fit the story plan better.

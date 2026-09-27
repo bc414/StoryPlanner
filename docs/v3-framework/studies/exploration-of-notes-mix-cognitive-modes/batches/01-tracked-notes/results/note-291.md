@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Rasti holds the position of elected communal leader of the Temberik council, asserted as a fact of who the character is at the start | Rasti is the elected communal leader of the Temberik council | yes
+- goals:
+- whole: The note asserts, as a plain fact of identity, that Rasti begins the story as the elected communal leader of the Temberik council.

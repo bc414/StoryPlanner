@@ -1,0 +1,4 @@
+- sources:
+  - the scheme to drain equestria of bits by abusing the gold standard | use as the model of subtlety and elegance to match, in place of blatant, generic evil | like the elegance of the scheme to drain equestria of bits by abusing the gold standard | referred-to
+- order:
+- about: The user rejects the blatant, generic-evil tone of the proposed scheme and asks for something subtler, holding up the gold-standard bit-draining plot as the standard of elegance to match.

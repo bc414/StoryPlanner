@@ -1,0 +1,10 @@
+- claims:
+  - NarrativeArchitecture | Herzlanders and Skyfall tycoons hold the misreading that Equestria is a nominative-determinism soft caste system steering foals from birth, low in ambition and freedom | Herzlanders and Skyfall tycoons assume Equestria practices "Nominative Determinism" | yes
+  - NarrativeArchitecture | Readers may at first feel that cutie marks as destiny imposes pre-determination, an early stage of their understanding | Readers may also initially feel that "cutie marks are destiny" has pre-determination consequences | yes
+  - Canon | The McDonalds cutie mark comic is an existing canon item that undercuts itself by later showing that pony as a manager | like the McDonalds cutie mark comic (which subverts itself where that pony is later depicted as a manager) | no
+  - NarrativeArchitecture | Aquileian cutie mark theory, which claims a discount for special talent, is another in-world misreading that perpetuates biological determinism | Aquileian cutie mark theory that claims a discount for a special talent pertpetuates biological determinism | yes
+  - NarrativeArchitecture | Late in reading order Twilight states the true law: name, given or chosen, reinforces genuine conviction in the talent, not the reverse | Eventually Twilight articulates the truth | yes
+- goals:
+  - Reader first feels that cutie marks are destiny with pre-determining consequences, a soft-caste reading | NarrativeArchitecture | Readers may also initially feel that "cutie marks are destiny" has pre-determination consequences
+  - Reader ends up understanding that names reinforce genuine conviction in a special talent rather than determining it | WorldInference | Eventually Twilight articulates the truth
+- whole: The note plans the reader's staged understanding of the cutie mark law, running from in-world deterministic misreadings and a canon comic to Twilight's final statement that names reinforce conviction and do not determine it.

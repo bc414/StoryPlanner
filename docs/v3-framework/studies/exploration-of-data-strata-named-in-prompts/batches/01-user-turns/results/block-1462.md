@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the model's assumption that Subject/Link must be the outer axes and asks how many ways the four axes can be arranged in a nested Punnett square, and whether every arrangement is useful or some are inferior.

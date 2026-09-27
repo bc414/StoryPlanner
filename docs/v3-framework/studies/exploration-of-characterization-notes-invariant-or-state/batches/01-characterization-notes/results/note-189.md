@@ -1,0 +1,4 @@
+- claims:
+  - span | He has fallen from grace, having lost standing or favour, and this is his condition as we meet him | "who fell from grace" | past-tense fall that has already happened, and the track question asks who he is at the start of TLTT; no date or event is given for the fall itself
+  - unfixed | He is a bauleiter, a construction site manager, and this is his trade or defining role | "A bauleiter" | nothing in the note says whether he holds the post at the start of TLTT, held it before the fall, or has always been one; only the start-of-TLTT framing of the track question is present
+- beside: none

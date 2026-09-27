@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user clarifies that they use the model only for world-building, logic checks and brainstorming, never for generating story text or roleplay, and asks whether Deep Think suits that purpose better than the old dense Ultra model.

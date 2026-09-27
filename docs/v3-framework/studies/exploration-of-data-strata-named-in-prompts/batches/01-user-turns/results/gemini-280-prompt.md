@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates, as a summary for confirmation, their understanding of the contrast between the Aquileian model (trade) and Herzland (institutions for its own people, a universal translator for others), without pointing at any body of material.

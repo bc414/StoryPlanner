@@ -1,0 +1,5 @@
+- claims:
+  - unfixed | He frames everything as a battle between Winners (himself/Las Pegasus) and Losers (Rockfeller/Chrysalis) | frames everything as a battle between "Winners" and "Losers" | none; the display question places the note at the start of TLTT but the sentence itself carries no time marker
+  - unfixed | He uses nicknames for others | He uses nicknames | none
+  - unfixed | He speaks in absolutes and superlatives, e.g. claims of having the best, beautiful oil | He speaks in absolutes ("We have the best oil, beautiful oil") | none
+- beside: none. The Backstory notes (seminars in 988, refusing Skyfall loans and using Aquileian rhetoric and nationalism in 994) concern earlier history and his method with workers, not the Winners/Losers framing, nicknames or absolutes this note describes, though the rhetoric could be related.

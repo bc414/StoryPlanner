@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the G-force analysis, asks a side question about whether the Spitfire marks the biplane-to-monoplane shift, and adds their own plot rule that Rainbow Dash survives being shot down by Rainbooming back to base for a new plane.

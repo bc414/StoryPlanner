@@ -1,0 +1,4 @@
+- claims:
+  - History | Pre-industrial Severyanan ponies lived in massive, interconnected longhouses, a fact of the world reported as having been the case | Pre-industrial Severyanan ponies lived in massive, interconnected longhouses | no
+- goals:
+- whole: The note states a single plain fact about how pre-industrial Severyanan ponies housed themselves, reported as past fact and not tied to any reader effect.

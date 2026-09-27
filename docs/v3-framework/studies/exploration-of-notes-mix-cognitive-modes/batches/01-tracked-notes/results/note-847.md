@@ -1,0 +1,4 @@
+- claims:
+  - History | The organization cultivates and harvests aggressive magical plants to make stimulants, stated as a plain fact of the world | They cultivate and harvest aggressive magical plants for stimulants | no
+- goals:
+- whole: The note states as a plain world fact that the Tzinacatl Drug Cartel Tribes grow and harvest aggressive magical plants for stimulants, and it asks nothing of the reader.

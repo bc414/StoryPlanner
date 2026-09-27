@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis as a base and extends it with new questions, asking whether the changelings' combat weakness is ironic given solidarity versus conscription, whether changeling and crystal pony biology should be distinguished, and whether the old harmonic hives could have survived predators without jaegers, possibly because of diet.

@@ -1,0 +1,5 @@
+- claims:
+  - History | Gilded Lily launches a new wave of industrialists, financed by loans from Krystalfels Handelsgeselschaft | Gilded Lily starts a new wave of industrialists with loans from Krystalfels Handelsgeselschaft | yes
+  - History | The purpose of the lending was to find the most ambitious, ruthless Equestrians, who embody "capital has no country", and make them tycoons | to find the most ambitious, ruthless Equestrians who embody "capital has no country" to become tycoons | yes
+- goals:
+- whole: The note reports, as an in-universe historical event of 988, that Gilded Lily used Krystalfels loans to seed a new generation of ruthless Equestrian tycoons in the Comprador Economy.

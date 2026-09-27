@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Applejack becomes a strategic leader whom everypony looks up to, and the trait that earns this is her honesty and trustworthiness | steps up as a strategic leader that everypony looks up to for her honesty and trust | no
+- goals:
+- whole: The note asserts, as a fact about who Applejack becomes, that she grows into a trusted strategic leader, and it says nothing about how the reader is to experience that change or what they are to take from it.

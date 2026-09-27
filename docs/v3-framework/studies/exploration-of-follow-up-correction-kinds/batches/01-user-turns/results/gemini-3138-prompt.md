@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's claim that Anthropic dropped long-context premium pricing as given and asks two follow-ups: whether TPU availability on GCP explains it, and whether it also covers consumer-plan usage limits.

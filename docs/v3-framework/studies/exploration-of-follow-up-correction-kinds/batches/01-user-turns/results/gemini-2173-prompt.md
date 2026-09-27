@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Chapter 2 story analysis and moves to a separate software-design question, asking how a wrap-panel layout could handle up to 7 uneven axes and buckets with the bucket name prepopulated in the note.

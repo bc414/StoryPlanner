@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's conclusion that Character and Bond have 8 link tracks and the other subject types have 6, adds that Character also has two POV-conditional tracks, and gives the next task: re-evaluate the Subject Tracks and Project-Wide Tracks for typical subjects, then Bond, then Character, drawing on the transcripts and journal.

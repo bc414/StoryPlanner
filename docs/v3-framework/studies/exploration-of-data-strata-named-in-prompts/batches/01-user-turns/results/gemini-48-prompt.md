@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up about whether Gemini Pro models could be used in place of the Flash models discussed, without pointing at any body of data.

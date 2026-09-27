@@ -1,0 +1,8 @@
+- sources:
+  - chapter 1 (Applejack's meeting with Comet Shine, who asked her to come to the command center) | treat as already established; use as the given basis for judging whether the chapter 2 meeting is still needed | Applejack already met Comet Shine in chapter 1 | referred-to
+  - chapter 2 factory meeting | provisional and under review; may need new content or may be cut | Do I even need it anymore? | referred-to
+  - the Fleur part in chapter 2 | provisional; may be reduced or cut because her theory now goes in chapter 9 | maybe this can be reduced or cut too | referred-to
+  - chapter 9 (Fleur and Comet Shine give the full theory) | treat as the settled place for the full reveal and theory; the chapter 2 material is adjusted around it | she'll be giving the full theory in chapter 9 | referred-to
+  - the earlier discussion of early versus late reveal | accepted as the decision the author now builds on; the delay to chapter 9 is treated as fixed | I am sold on delaying the full reveal until chapter 9 | referred-to
+- order:
+- about: The author accepts the late-reveal recommendation and asks how to rework chapter 2, meaning the factory meeting and Fleur's part, given that chapter 1 already introduced Comet Shine and chapter 9 will carry the full theory.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to pull up focus tree details or event lore for any of the three Polish-inspired nations (Warzena, Gryphus, Longsword) to help with narrative planning? | ignored | The user turn does not accept or decline the offer, and does not name any of the three nations. It just asks again whether Equestria at War has a Polish-inspired nation. | none
+- shape: The user turn repeats the earlier question of whether Equestria at War has a Polish-inspired nation. That is the question the model turn had just answered at length. It reads as a re-ask or resubmission, and it does not respond to the answer or the offer. It moves nothing forward.
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two product-capability questions: whether Claude supports system instructions like Google AI Studio and NotebookLM, and whether a Gemini Gem avoids the limits of the Gemini consumer app's system instructions. They point the model at no body of material to draw on or avoid.

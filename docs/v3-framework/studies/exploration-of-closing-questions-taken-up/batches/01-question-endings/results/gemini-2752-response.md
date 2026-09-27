@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to set up the live-sync of the file first? | answered | Takes up the sync setup by asking how to do it, so that is what they want to look at now. | How do I live-sync it?
+  - Does the user have a new geopolitical development from the current document to pressure-test now? | ignored | Brings up no development and no story content. | none
+- shape: A short follow-up that picks the sync-setup path and asks for how-to steps, narrowed to Windows. It moves the conversation to tooling and does not go back to the story.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, prompted by the proposed named tracks with display questions and tooltips, asks whether fixed track labels are needed and floats a per-entity-type configuration (question, reasoning, index number) that a view model would render, extending the design rather than faulting the model's answer.

@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | The crystal ponies of 1000 years ago are asserted to have ambition and trauma, in contrast to nurtured Equestrians who lack them | Unlike nurtured Equestrians, the crystal ponies from 1000 years ago have ambition and trauma | no
+- goals:
+- whole: The note states as a flat fact of the world that the ancient crystal ponies are psychologically different from nurtured Equestrians, having ambition and trauma, without saying what the reader is to take from it.

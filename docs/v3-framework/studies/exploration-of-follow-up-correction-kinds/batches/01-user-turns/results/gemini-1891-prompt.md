@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - other: clash with an existing character | the model's recommended Gaston, with its earthy, rolls-his-eyes, protective-peasant persona, is treated as the Gascon type. The user already has that type in Henri Gourard | he shouldn't have the Gasçon archetype because I have a character already like that (Henri Gourard) | put flatly as a constraint, in passing among other requests, with a reason given and no explicit mention of the model's suggestion
+- about: The user picks Rémi from the options, gives him the surname Ducep, and sets his age and the serf-reform backstory around Lord Gaudreau and Cecille. They ask for a psychological profile that avoids the Gascon type, and they outline his later career as a chasseur and fighter pilot.

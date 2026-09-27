@@ -1,0 +1,5 @@
+- sources:
+  - real life (WW1 and WW2 pilot training times, real-world g-force mitigation) | draw on actual historical and real-world facts to answer the questions and to ground the fictional case | How long did it take to train a pilot during WW1 and WW2 / How are g forces mitigated in real life | first-named
+  - the biological part (Pegasi used to flying high and at high speeds) | accept as already settled and satisfying; the open problem is what remains beyond it | The biological part makes sense since they are used to flying high and at high speeds | referred-to
+- order:
+- about: The user asks for real-world facts on WW1/WW2 pilot training time and g-force mitigation, and for help making the Wonderbolts convincingly superior to changeling pilots, treating the Pegasus biology point as already accepted.

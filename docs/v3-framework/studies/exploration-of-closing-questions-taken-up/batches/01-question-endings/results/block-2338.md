@@ -1,0 +1,3 @@
+- questions:
+- shape: The user takes the novelty verdict on the Stare scene as given and asks a new question. They want the model to go through the rest of their story plan and say which other parts are as unique, unprecedented and earned. It is a request for further assessment, and the model's suggestion about the stutter escalation is not taken up.
+- settles:

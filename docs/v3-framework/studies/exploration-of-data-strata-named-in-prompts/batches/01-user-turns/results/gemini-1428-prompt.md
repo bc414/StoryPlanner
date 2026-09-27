@@ -1,0 +1,5 @@
+- sources:
+  - the ideas (the previous proposal for Twilight's parents) | keep the astronomer idea for Night Light, but revise the rest: drop the Celestia-voter, stuck-in-Canterlot version; treat as a draft to refine | Let's refine the ideas. I like having Night Light be an astronomer | referred-to
+  - Combined Arms (the chapter where Applejack's parents go to Ponyville to see her) | treat as the established plan and as the model for Twilight's parents; they should visit Twilight in the same way, and it is the point by which they side with Twilight | Just as applejack's parents go to Ponyville in Combined Arms to see Applejack, Twilight's parents would too | referred-to
+- order:
+- about: The author refines the model's proposal for Twilight's parents by keeping Night Light as an astronomer, moving them out of Canterlot early and away from the Celestia vote, mirroring Applejack's parents' Combined Arms visit, and asking whether they should be Celestia supporters who reluctantly woke up.

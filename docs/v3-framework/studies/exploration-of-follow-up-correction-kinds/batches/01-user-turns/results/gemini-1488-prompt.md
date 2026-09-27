@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up on how the three-stage money history feeds into Chrysalis's MEFO bills, supplying the story's own definition of them as loans backed by love to be drained from enemy Queens and changeling nobility, without disputing anything the model said.

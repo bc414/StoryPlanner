@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for out-of-the-box ideas or concepts for the story-planning tool that they haven't considered, without pointing at any body of data.

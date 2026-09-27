@@ -1,0 +1,4 @@
+- claims:
+  - History | The character attended seminars at Skyfall, a past event in their life dated 988 | Went to Skyfall seminars | yes
+- goals:
+- whole: Records as a past fact of the character's history that Gilded Trust attended Skyfall seminars in 988.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the survey of long-context models to ask a new question about the simplest way to rebuild their existing story analysis workflow in Vertex AI/Google Cloud, without disputing anything the model said.

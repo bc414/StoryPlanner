@@ -1,0 +1,7 @@
+- sources:
+  - this conversation's insights | take as the new basis and build the plan's thematic direction on it (corporate feminism, rat race, sanitized predation, collaborators) | "from this conversation's insights, I will be replacing" | referred-to
+  - the generic "Changelings occupy Olenia to get love taxes to pay MEFO bills" premise | treat as outdated and replace with the thematic payload | "I will be replacing the generic" | referred-to
+  - my story plans | review against the new direction and flag details to change or enhance | "review my story plans for any details that need to change or be enhanced" | referred-to
+- order:
+  - this conversation's insights over the generic "Changelings occupy Olenia to get love taxes to pay MEFO bills" premise | "replacing the generic" premise with the thematic payload
+- about: The user announces that the conversation's synthesis (Changelings as corporate predators, MEFO bills as life-or-death 401ks, self-policing Olenians, Johan and Velvet as collaborators) replaces the earlier generic occupation premise, and asks for an analysis plus a review of their story plans for what to change or strengthen.

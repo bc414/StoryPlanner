@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a walkthrough on creating a Master Notebook for one of their complex planning projects, to see cross-referencing in action? | ignored | The user turn doesn't take up the offer. It asks a new question about which ideas from the original planning document survive in the JSON of story plans. | none
+- shape: Redirects. It drops the offered notebook walkthrough and puts a new, concrete request: compare the original planning document with the elaborate story-plan JSON and say which ideas carried over. This is a cross-document task of the kind the model had just described, but the user doesn't say so.
+- settles:

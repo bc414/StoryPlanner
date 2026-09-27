@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Asserts as fact that she is unable to comprehend empathy ("pink love") as something that can drive ambition, a limit in how she understands motivation | She can't comprehend pink love (empathy) as a catalyst for ambition | no
+- goals:
+- whole: The note states flatly, as a truth about the character, that she cannot understand empathy as a driver of ambition, and it does not design any inference for the reader or name an effect on them.

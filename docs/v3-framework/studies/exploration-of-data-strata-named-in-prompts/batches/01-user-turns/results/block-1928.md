@@ -1,0 +1,6 @@
+- sources:
+  - chapter 4 of the story plan, its ending POV | treat the author's correction as right: the POV handoff at the end of chapter 4 goes from Twilight to AJ, replacing the model's account | one correction, at the end of chapter 4, POV changes from Twilight to AJ | referred-to
+  - the week after the battle from chapter 4, Rainbow's hospitalization with Starlight | author's own hedged recollection, to be taken as the working premise: Rainbow was also hospitalized the whole week, so both carry pent-up violence | I think rainbow is also hospitalized with starlight the whole week after the battle | referred-to
+  - the 'trouble sleeping' element in the plan as the model described it | drop it, treat it as cut from the plan | The "trouble sleeping" thing can be cut | referred-to
+- order:
+- about: The author corrects the model's reading of the chapter plan by fixing the POV change at the end of chapter 4, adding that Rainbow was hospitalized with Starlight all week, and cutting the trouble-sleeping element.

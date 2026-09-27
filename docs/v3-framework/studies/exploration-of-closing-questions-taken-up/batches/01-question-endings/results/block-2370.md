@@ -1,0 +1,7 @@
+- questions:
+  - What specifically does the mockery target: prose, romance, pacing, politics, or Twilight's characterization? | answered | The mockery is about nothing happening and the story being very long, which points to pacing and length. The user hedges it as their own impression. | "it's about saying nothing happens and it's so long"
+  - Is JWAB still being updated or has it stalled? | ignored | Nothing said about JWAB's update status. | none
+  - Has P&K's author articulated why they find JWAB mockable, or is it ambient community disdain? | ignored | The user gives the gist of the mockery but does not say whether it comes from the author or the wider community, or whether it is specific or vague. | none
+  - How is JWAB received by its own audience, and do they value it for immersive habitation? | ignored | Nothing said about JWAB's own readership. | none
+- shape: A short, hedged reply that answers the first of the model's follow-up questions by giving the gist of the mockery (nothing happens, too long). It does not take up the other requested details and adds no elaboration or new direction.
+- settles:

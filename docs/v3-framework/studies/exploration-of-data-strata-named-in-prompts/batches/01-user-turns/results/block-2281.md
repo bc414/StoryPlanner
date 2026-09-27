@@ -1,0 +1,10 @@
+- sources:
+  - Lauren Faust's themes / Faust's MLP itself | foundation of position 3 and of the gap between positions 2 and 3; to be carried forward in grown-up form | "Lauren Faust's themes, scaled up to the adult world" | referred-to
+  - the phrase "the truth does not speak for itself, you have to roar" | the author's own line for Kemerskai teaching AJ; treat as too narrow, covering only the step from position 1 to 2, and widen it to include offering dignity | "artificially constrained" | referred-to
+  - Minette and Réni and their dedicated prequel | settled story material; characters made to embody the thesis and dramatize Aquileian history, with the full lived arc told in the prequel | "They get a full prequel dedicated to this arc" | first-named
+  - TLTT | settled story material; carries only the meeting of Twilight and Applejack with Coltbert and the naming of missing unconditional dignity, not the full lived arc | "TLTT features Twilight and Applejack meeting Coltbert" | first-named
+  - Herbert Hoover in 1929 / Rugged Individualism | established historical origin and name for position 1, well understood; the author is unsure the origin stops there | "already established from Herbert Hoover in 1929" | first-named
+  - European institutions/laws: the Nordic model, Mondragon, German co-determination | real-world models that feed position 3 alongside Faust's MLP | "Nordic model, Mondragon and German co-determination" | first-named
+  - the three positions framework | working structure from the conversation, accepted and being refined; positions 2 and 3 are to be named, and position 2 has no clear name yet | "What would be names for the three positions?" | referred-to
+- order:
+- about: The user refines the three-position framework by widening the roar phrase to include unconditional dignity, explains how Minette and Réni and TLTT dramatize it, and asks for names for the three positions, noting what position 1 and position 3 draw on.

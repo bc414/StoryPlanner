@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to learn more about the Turquerie fashion movement at Versailles, or about how the Fronde shaped Louis XIV's psychology? | no user turn | none | none
+- shape: none
+- settles:

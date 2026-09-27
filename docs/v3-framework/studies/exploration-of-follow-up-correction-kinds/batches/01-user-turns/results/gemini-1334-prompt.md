@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether "voltigeur" is the best term for the royal academy's role and invites other historic or modern French alternatives, without saying the earlier choice was wrong.

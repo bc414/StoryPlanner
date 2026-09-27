@@ -1,0 +1,5 @@
+- claims:
+  - span | She is traumatized when the war begins | "starts the war traumatized" | the start of the war, i.e. the start of TLTT; the note gives no date
+  - span | She is utterly grim in outlook when the war begins | "utterly grim" | the start of the war / start of TLTT; a state at that point, not a lifelong trait
+  - span | The cause of her trauma and grimness is her belief or realization that her magic cannot stop the world's suffering | "from the fact that her magic can't stop the world's suffering" | held as she enters the war; the note gives no date for when she came to see it, so the time is the start of the war only
+- beside: Backstory notes 54 (world date 1006, Ain Trotgourait, where she saw destroyed hospitals, poisoned water and starving Zebras), 53 (1006, she tried to fix the city alone with raw Alicorn magic) and 57 (1007, she burned out after a year of trying to fix a city too big for her) plausibly speak of the experience behind this trauma. The note itself gives no city or date.

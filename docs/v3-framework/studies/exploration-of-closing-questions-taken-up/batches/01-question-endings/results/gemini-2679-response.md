@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to brainstorm a specific dialogue scene in which Twilight or Fleur articulates the Engineer vs. Manager frustration to establish the theme early on? | no user turn | none | none
+- shape: none
+- settles:

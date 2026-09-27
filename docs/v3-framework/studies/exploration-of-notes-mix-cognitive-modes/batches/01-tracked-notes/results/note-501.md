@@ -1,0 +1,9 @@
+- claims:
+  - Canon | In the story The Chrysalling, Flurry's uncontrollable magic first reads as ordinary baby magic, which Sunburst calms with his own invented spell, building on the canon characters and their established relationship | In The Chrysalling, Flurry's uncontrollable magic is initially just baby magic, which Sunburst calms down via the spell he invented | yes
+  - History | In ancient times a whole class of unicorn crystallers filtered the city's emotions into the Crystal Heart, reported as a past fact of the world | In ancient times, a whole class of unicorn crystallers would filter the city's emotions into the crystal heart | no
+  - Canon | Ties Flurry's alicorn birth to the canon episode: Cadance alone cast the filtering spell during Sombra's return, so vast love and magic passed through her, which made Flurry an alicorn | Flurry Heart was born an alicorn due to Cadance being the lone crystaller casting the filtering spell for the Crystal Heart during Sombra's return in the canon episode | yes
+  - Canon | Extends the same cause to explain Flurry's emotion sense, likening her to crystal ponies | It's also why Flurry has emotion sense, just like crystal ponies | yes
+  - Canon | States how the Crystal Heart works, taking hope and turning it into a magical shield | The Crystal Heart takes hope and turns it into a magical shield | yes
+  - Characterization | Asserts as truth that Flurry feels emotions and that this is the real cause of her uncontrolled baby magic | Flurry can feel emotions, that's why her baby magic is uncontrolled | no
+- goals:
+- whole: The note sets out how the story reworks canon for Flurry Heart, explaining her alicorn birth, emotion sense and uncontrolled magic through the Crystal Heart and Cadance's role as lone crystaller, with a supporting account of how crystallers worked in ancient times.

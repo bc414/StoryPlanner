@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states the theme they want readers to take from Applejack's synthesis (the difference between people who consume media because they are happy and people who do so because structural barriers such as loneliness shut them out of higher forms of participation) and asks whether it works.

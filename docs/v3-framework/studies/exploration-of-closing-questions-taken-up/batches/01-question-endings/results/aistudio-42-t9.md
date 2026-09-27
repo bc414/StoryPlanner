@@ -1,0 +1,5 @@
+- questions:
+  - When Fleur Bloom pieces together Mali's vocabulary and deduces her Parloir background, how does the power dynamic between them shift, and does Fleur see Mali as a fellow revolutionary or as a subordinate service-worker? | no user turn | none | none
+  - Does Applejack's Honesty heuristic flag Mali as deceitful for hiding her intelligence, or does it reinforce Applejack's view of Mali as a cultured, worldly friend? | no user turn | none | none
+- shape: none
+- settles:

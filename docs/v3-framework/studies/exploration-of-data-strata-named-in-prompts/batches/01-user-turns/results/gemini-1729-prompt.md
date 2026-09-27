@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an overview of recent French party history, checking their own impression that Macron's party broke the two big tents and asking about Le Pen and the new left coalition, without pointing to any body of material to draw on.

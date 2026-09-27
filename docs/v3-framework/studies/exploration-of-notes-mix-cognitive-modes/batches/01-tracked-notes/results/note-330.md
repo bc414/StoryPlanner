@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Chrysalis remembers Canterlot Wedding and berates herself for having lost control | She remembers Canterlot Wedding and chastises herself for losing control | yes
+  - Characterization | She does not attribute the failure to incompetence, nor does she take it as a sign her world view is mistaken | She does not write it off as incompetence, but she also doesn't view it as a sign that her world view is wrong | yes
+  - Characterization | Her interpretation of the defeat is that magic is fickle, which is the lesson she draws | She takes it as evidence that magic is fickle | yes
+- goals:
+- whole: The note asserts, as psychological truth, how Chrysalis at the start of TLTT interprets her Canterlot Wedding defeat: self-blame for lost control, no admission of incompetence or flawed worldview, and a conclusion that magic is fickle.

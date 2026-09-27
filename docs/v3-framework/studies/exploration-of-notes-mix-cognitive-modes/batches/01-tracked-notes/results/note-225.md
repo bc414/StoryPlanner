@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Plans the order of the reader's experience: after their starting assumptions about the system, the reader later discovers that changeling society was re-engineered to block grassroots harmony through atomization | They later learn that | yes
+- goals:
+  - The reader comes to believe that changeling society was fundamentally re-engineered so that atomization prevents grassroots harmony | WorldInference | They later learn that changeling society has been fundamentally re-engineered to prevent grassroots harmony through atomization
+- whole: The note sets one late step in the reader's changing opinion of the system: they learn that changeling society was deliberately re-engineered through atomization to prevent grassroots harmony.

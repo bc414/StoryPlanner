@@ -1,0 +1,6 @@
+- claims:
+  - History | Skyfall destroyed the institutions that were trying to copy its mass-production model | Skyfall destroyed the very institutions that were trying to copy their mass-production model | yes
+  - History | Only the University of Pridea survived, because of Dennis Discret's double cross | With only the University of Pridea remaining due to Dennis Discret's double cross | yes
+  - History | Aquileia turned away from Skyfall's model and brought industrialized griffon and pony magic into the global economy, upending it | Aquileia pivots away from Skyfall's model and breaks the game by introducing industrialized griffon and pony magic | yes
+- goals:
+- whole: The note reports, as in-world history around the year 980, how Skyfall wiped out its imitators, leaving only the University of Pridea, and how Aquileia then changed course and industrialized griffon and pony magic across the global economy.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user takes the Acornage backstory as a premise (Chrysalis first an Equestrian idiom name, then "Krista" as a Herzlander commoner's name) and asks what her drones would call her in Herzlander once she begins conquering the hives.

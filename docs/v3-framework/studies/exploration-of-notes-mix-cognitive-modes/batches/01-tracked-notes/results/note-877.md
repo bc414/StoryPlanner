@@ -1,0 +1,4 @@
+- claims:
+  - Canon | Winter Wrap Up, the established source-material event, is asserted to be what makes Equestria's agricultural abundance possible | Winter Wrap Up is essential for Equestria's agrarian miracles | no
+- goals:
+- whole: The note states in one sentence that the canon Winter Wrap Up event is the essential basis of Equestria's agricultural abundance, without saying why it was invented, who uses it, or what the reader is to take from it.

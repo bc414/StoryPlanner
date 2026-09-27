@@ -1,0 +1,7 @@
+- questions:
+  - Does the coverage-mapping strategy give the user enough trust to proceed? | partly answered | Takes up the red/green coverage map but rejects how it was specified, since the AI would also output the original sentences. Proposes running the map on the bucket entry text instead, ignoring pronouns that were changed. | I don't want to confuse the AI by making it also output originals; run the character-level coverage map to get red and green
+  - Should a Word Count validation property be added to the JSON? | ignored | Says nothing about word counts. It only discusses the coverage map. | none
+- shape: Counter-proposal that corrects the model's design. It keeps the red/green coverage idea, rejects the extra AI output of originals, and suggests a different way to compute the map. It is phrased as a question to the model, which invites confirmation or a check that it works.
+- settles:
+  - The AI will not be asked to output the original sentences alongside its sorted notes, so the sorter's output stays simple. | I don't want to confuse the AI by making it also output originals
+  - The coverage check will be computed in the app from the text of each bucket entry, treating each entry as an atomic thought and ignoring pronouns that de-aliasing may have changed. The result is a red/green character-level map. This is put forward as a proposal, not yet final. | take the text of each entry in a bucket, ignore the pronouns which may have changed, and then run the character-level coverage map

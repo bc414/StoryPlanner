@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts no answer to any of the five scrutinised ideas. It moves on to a sixth early idea, Twilight rescuing Applejack in a trench as her arrival at the front. It asks whether that idea should stay or whether other ways of writing the arrival would serve the story better. It restates the wish for an analysis of an early idea against the more developed plans, so it is a redirect to a new topic that keeps the model's audit approach. It decides nothing about the story. It sets what to examine next.
+- settles:

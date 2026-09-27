@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to run a stress test, applying the Top-P and temperature settings to a specific prompt such as a scene from their story, to see how the prose changes? | ignored | Nothing said about the offer. The user asks a new question about whether standard chat Gemini changes its sampling parameters by context. | none
+- shape: Moves on from the offered stress test to a new follow-up question about how the tool works: whether consumer Gemini adjusts its sampling parameters automatically for code versus creative requests. It is a question about the tool, not about the story.
+- settles:

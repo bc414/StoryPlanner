@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short follow-up question about whether Applejack's combined political-and-battlefield command style is best matched by Napoleon, extending the model's Eisenhower/Rommel comparison rather than disputing it.

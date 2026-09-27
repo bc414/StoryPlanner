@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model framed the Star Energy refinery deal as colonial, exploitative development aid that turns Tribe D into a narco-state, while the user says it is a plain sale of capital equipment that empowers the artisans | The Star Energy investment in the refinery is a sale of capital equipment (empowering the artisan), not an exploitative contract (imperialism) | stated flatly as a definitional clarification, with a short parenthetical contrast and no apology or stated reason, before moving on to new questions
+- about: The user briefly sets right the model's imperialism framing of the refinery deal, then moves on to new questions about tobacco and plantation history as inspiration, addictive processed food, and Tribe D's ending and election allegiance.

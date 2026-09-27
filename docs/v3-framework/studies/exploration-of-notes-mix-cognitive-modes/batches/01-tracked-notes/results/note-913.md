@@ -1,0 +1,4 @@
+- claims:
+  - History | Chrysalis assigns Pagala to the static Tall Tale front as damage control, so she stays away from the mobile front where she would cause chaos | Chrysalis puts Pagala at the static Tall Tale front as damage control to keep her away from causing chaos on the mobile front | no
+- goals:
+- whole: The note reports, as an in-world fact, that Chrysalis stations Pagala at the static Tall Tale front to keep her from causing chaos on the mobile front, and it does not lay out an appearance plan or any reader experience.

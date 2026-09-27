@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to reconsider its proposal for who carried out Tirek's escape by posing a hypothetical in which Synovial, not a VOPS operative under Trimmel, was assigned the task, without pointing at any body of material.

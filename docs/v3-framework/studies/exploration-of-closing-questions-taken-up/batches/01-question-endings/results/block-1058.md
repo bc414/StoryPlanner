@@ -1,0 +1,5 @@
+- questions:
+  - Does Erdoğan's inflation from unorthodox monetary policy map onto the fabula's critique of Gilded Trust's gilded bits, showing a strongman can bend culture and courts but not the laws of macroeconomics? | ignored | none | none
+  - Do the opposition's recent wins in Istanbul and Ankara amount to a Manehattan Referendum moment, where the populace uses the remaining democratic machinery against the populist, or only a temporary swing in a polarized zero-sum system? | ignored | none | none
+- shape: The user turn drops the model's suggested lines of inquiry and goes back to the Turkish history itself. It questions the model's premise that the Ottoman collapse left a diverse mosaic in need of homogenizing. It asks whether Anatolia was already fairly homogeneous, compares that to France and Britain homogenizing only with industrialization, and asks why the Kurds were included in the new state and whether geography explains it. The turn is a set of factual and comparative questions and has no fabula content.
+- settles:

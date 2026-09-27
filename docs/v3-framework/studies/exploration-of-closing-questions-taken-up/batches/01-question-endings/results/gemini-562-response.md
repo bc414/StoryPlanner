@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to go on to analyze the Love Drop scene, including the logistics of how Fluttershy delivers the Pink Love/food cure to a besieged city? | no user turn | none | none
+- shape: none
+- settles:

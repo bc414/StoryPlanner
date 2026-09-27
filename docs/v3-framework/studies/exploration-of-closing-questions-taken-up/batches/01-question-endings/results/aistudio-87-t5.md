@@ -1,0 +1,7 @@
+- questions:
+  - When Twilight explains the Triebkraft/Bindekraft difference to Applejack, how does Applejack map it onto her Earth Pony biology, and does she see her honest farming as Triebkraft anchored by her family's Bindekraft? | ignored | none | the turn only disputes the Bindekraft premise and never mentions Applejack
+  - If the EEEE! movement in Manehattan learns the Changelings call their life force Brennstoff, how does the Union's propaganda change, and do they come to see the conscripts as tragic victims of industrial capitalism? | ignored | none | the turn stays on Chrysalis and the charitostatic effect and never mentions the EEEE! movement or Brennstoff
+- shape: The user corrects the model's worldbuilding. They reject the premise that Chrysalis's engineers had a term for the binding or charitostatic force in 978, and they give the in-world timeline for when it was first recognised. The model's two Socratic questions are left unanswered.
+- settles:
+  - Chrysalis's narcissism means she does not recognise the charitostatic effect. It plays no part in her 978 industrialisation of changeling biology and the draining spell, so Bindekraft is not her engineers' term. | I don't think Chrysalis would use Bindekraft... the charitostatic effect does not exist
+  - The charitostatic effect is first documented in 1003, with the crystal heart, after the Crystal Empire returns and invites Aquileian scientists. | It is not documented until 1003 with the crystal heart after the crystal empire returns and invites Aquileian scientists

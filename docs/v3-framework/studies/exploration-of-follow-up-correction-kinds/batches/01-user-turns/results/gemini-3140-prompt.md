@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The evaluation was built from what the model already knew of the user from earlier chats, not from the Personal Intelligence feature the user wanted used, so the user asks for it to be redone from that source | "Use personal intelligence" | implicit and terse: the same request is re-sent word for word with a one-line directive added, and no fault, reason or apology is given
+- about: The user re-sends their original request to evaluate how their Gemini usage compares with the median Pro subscriber, and adds an instruction to use Personal Intelligence, which redirects the model to a different source without saying what was wrong with the first answer.

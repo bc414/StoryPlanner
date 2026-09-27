@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want a comparison of pricing models for the long-context windows? | ignored | Nothing said about pricing; the user asks about something else. | none
+  - Does the user want an explanation of how to technically implement Prompt Caching in their own projects? | ignored | Doesn't take up caching; asks about recreating their story analysis workflow in Vertex AI/Google Cloud instead. | none
+- shape: Redirects to a new practical question: after the model's survey of large-context models, the user asks for the simplest way to rebuild their existing story analysis workflow on Vertex AI/Google Cloud. It neither takes either offered follow-up nor comments on the survey.
+- settles:

@@ -1,0 +1,4 @@
+- sources:
+  - my existing plans | analyze again and then use as the basis for synthesizing an answer about the factory scene | Please analyze my existing plans again and then synthesize | referred-to
+- order:
+- about: The user works out how the chapter 2 factory tour should reveal or hide the soil-as-input to white phosphorus production, asks whether white phosphorus goes in tank rounds, and asks the model to re-analyze their existing plans and synthesize a recommendation.

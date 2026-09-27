@@ -1,0 +1,5 @@
+- questions:
+  - Do the Aquileians accidentally leave behind downed aircraft or modern weaponry when they wipe out the Storm King's horde and leave? | ignored | nothing said about wreckage or left-behind weapons | none
+  - If they do, does a Zebrican faction or Fizzlepop try to reverse-engineer it, showing Twilight the locals need material industry? | ignored | nothing said about reverse-engineering or about Twilight's lesson from it | none
+- shape: Redirects to a new task. The user drops the model's plotting question and asks for a comparison between the Zebrican setup and the historical horrors of West Africa, which reads as a real-world reference check rather than more story-building.
+- settles:

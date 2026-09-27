@@ -1,0 +1,5 @@
+- claims:
+  - History | The Tzinacatl calcify the stub of her broken horn so that she can fire magic without recoil, reported as a fact of the world | The Tzinacatl calcify the stub of her horn so she can fire without recoil | no
+  - Analogies | The calcified horn stub is likened to the reinforced barrel of a tank, a real-world military model for the mechanism | like the reinforced barrel of a tank | no
+- goals:
+- whole: The note reports an in-world fact about how the Tzinacatl modify Tempest Shadow's horn stub and explains it by comparison to a tank barrel, without planning any reader experience of her appearances.

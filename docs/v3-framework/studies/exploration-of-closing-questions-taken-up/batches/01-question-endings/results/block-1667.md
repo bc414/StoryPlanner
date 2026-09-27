@@ -1,0 +1,4 @@
+- questions:
+- shape: The user takes in the model's explanation and says the eight-track baseline (ten with the POV tracks) makes sense. They then give two new instructions. The first is to analyze why Character has the extra tracks and whether other subject types could have equivalents. The second is to explain how the compressed earlier parts of this conversation can be accessed. The model turn put no questions to the user, so the user turn answers nothing. It moves the conversation on to a new analysis and a question about the model's own access to the record.
+- settles:
+  - The character link track set is accepted as eight baseline tracks plus two POV-conditional ones, ten in all. The earlier compression to six is treated as having lost material. | "Character link has 8 tracks"; "This total, complete expansion and disambiguation makes a lot more sense."

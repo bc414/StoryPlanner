@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | Names the real-world drug crisis and its drivers (community collapse, economic hopelessness, loss of purpose, especially in industrial/rural areas) as the real-world model behind the organization | In the real world, the drug crisis is often driven by the collapse of community, economic hopelessness, and the loss of purpose | yes
+- goals:
+- whole: The note documents a present-day real-world condition, the drug crisis and its social causes, as the inspiration behind the cartel-tribes organization's design.

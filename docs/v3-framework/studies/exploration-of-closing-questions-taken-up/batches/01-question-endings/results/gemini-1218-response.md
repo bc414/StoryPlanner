@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to calculate today's solar noon for their location, to compare with their 8:40 AM wake-up? | ignored | Says nothing about solar noon or the offer; asks a new question about shifting wake time through the year. | none
+- shape: Redirects to a follow-up question of its own: whether moving wake time with the seasons would be harmful, on the stated assumption that bedtime moves too so sleep length stays the same. The model's offer is passed over.
+- settles:

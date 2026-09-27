@@ -1,0 +1,10 @@
+- questions:
+  - When the Blitzkrieg hits Bluebell River, can the Aquileian glass-cannon aces handle the sheer volume of a Changeling swarm's fire, given how much concentration the Unicorn partners need? | ignored | Says nothing about the Bluebell River battle or how the aces fare against swarm volume. It moves on to ranking the planes. | none
+  - Does the active cost of magical shielding drain the Unicorns' crystals until the elite aces have to retreat despite their technical superiority? | ignored | Nothing on shield drain or forced retreat. The turn lists the aircraft tiers and a mid-war plan instead. | none
+- shape: The user redirects. It skips the model's closing question and instead sums up the aircraft hierarchy at the start of the war in four tiers, with a mid-war development. It also hands the model two small tasks: invent a pretentious French name for the Aquileian ace plane, and say what the German fighters were.
+- settles:
+  - The Aquileian ace plane is the top tier at war start. It is a pure-aluminum artisan aircraft that needs both an ace pilot and a unicorn. | "pure aluminum artisan plane that requires an ace pilot and unicorn"
+  - The Wonderbolts Spitfire is the second tier. It is a monoplane with a crystal engine, light Mach 4 bullets from lightning storms, and steel armor. | "monoplane with a crystal engine and Mach 4 bullets"
+  - The third tier is the Changelings' mass-produced swarm of standard 1940s WW2-style fighters. | "Standard WW2 1940s fighters in a mass produced changeling swarm"
+  - The fourth tier is the Changeling Stukas, which dive-bomb and use sirens for psychological warfare. | "Stukas which dive bomb and have sirens"
+  - Mid-war, once the love donators are running, simpler Spitfires are mass-produced for magical close air support and flown by ordinary pilots. | "mid war once the love donators are running they can mass produce simpler spitfire"

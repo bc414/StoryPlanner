@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the image the model just produced could instead be made as a looping animation, extending the request without saying anything in it was wrong.

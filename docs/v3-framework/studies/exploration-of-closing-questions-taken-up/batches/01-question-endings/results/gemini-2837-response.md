@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore the historical Wages for Housework movement of the 1970s? | ignored | The user does not take up the offer. They go back to the model's earlier point about barrier versus desire. | none
+  - Would the user rather look at modern UBI models as a stepping stone? | ignored | UBI is not mentioned. The user asks for an analysis of a claim about why people don't have children. | none
+- shape: The user turn skips both offered directions and goes back to one point in the model's reality-check section. It questions the claim that money removes the barrier but doesn't create the desire, citing studies that say people want children but are held back by economics. It then asks the model to analyze that statement. It works as a mild pushback and a request for fact-checking, and it moves the conversation to a different topic.
+- settles:

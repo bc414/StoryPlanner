@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the character analysis to ask for a few options for Tally Stock's coat color, mane and tail color, and styling, without disputing anything the model said.

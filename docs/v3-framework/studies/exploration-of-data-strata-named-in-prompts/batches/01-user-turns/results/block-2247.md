@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether Anthropic truly fits the Star Energy comparison or whether its responsible-AI talk is a mask, and whether investors bind it, while guessing the answer is somewhere in between.

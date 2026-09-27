@@ -1,0 +1,4 @@
+- sources:
+  - my characterization of Coltbert | the author's existing portrayal of the character is treated as the established reference, already matching the Keynes profile, so a new economist OC looks unnecessary | my characterization of Coltbert is already Keynes in pony form | referred-to
+- order:
+- about: The user observes that their already-existing character Coltbert effectively is the Keynes-style economist the model just described, suggesting a separate new OC isn't needed.

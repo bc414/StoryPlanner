@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets out new timeline details for Mali (her age near Applejack and Twilight, arrival in Manehattan around 997, joining the Night Guard in 1001, and Rarity arriving in 1004) to revise the previous turn's framing of her as part of the original wave, without pointing at any body of material.

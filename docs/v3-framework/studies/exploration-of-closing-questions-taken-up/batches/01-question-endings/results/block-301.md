@@ -1,0 +1,6 @@
+- questions:
+  - How does Rarity, as Generosity, inwardly deal with legally seizing the Tycoons' factories, and how does she use her Aquileian Parloir sensibilities to frame it as Systemic Equity rather than theft or mob violence? | ignored | Nothing on Rarity's inner life or the seizure. The turn moves to Skyfall crystals and Aquileian artisans. | none
+  - When Comet Shine coins Harmonic Capitalism in Chapter 9, does he openly set it against the Stagnation of Harmony, or frame it as the natural evolution of Celestia's ideals so as not to alienate traditionalists? | ignored | Nothing on Comet Shine's speech or how he frames his model. The turn changes subject. | none
+- shape: Redirects to a new worldbuilding thread and leaves the model's two questions unanswered. The user asks whether Skyfall's use of crystals for IP signaling and lock-out is another reason Aquileian FJA artisans hate Skyfall, and whether it connects to the tableau de chasse and the special stamp ink. Most of it is put as tentative questions, but it also states as fact that the tech came from Pridea.
+- settles:
+  - The crystal technology was invented in Pridea and then corrupted by Skyfall tycoons. | Plus the tech was invented in Pridea and corrupted by Skyfall tycoons

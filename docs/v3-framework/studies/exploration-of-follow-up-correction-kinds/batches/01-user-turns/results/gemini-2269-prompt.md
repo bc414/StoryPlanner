@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new, broader worldbuilding question about how naturally flying species (pegasi, griffons, changelings) would shape aircraft development compared to real history, without commenting on the previous answer.

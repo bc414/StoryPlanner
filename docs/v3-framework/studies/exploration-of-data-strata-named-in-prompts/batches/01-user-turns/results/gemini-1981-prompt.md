@@ -1,0 +1,5 @@
+- sources:
+  - the Dutch Republic and VOC | treat as the real-world model Skyfall operates like, and the basis for arguing that coercion by violence alone is enough | "Skyfall operates like the Dutch Republic and VOC" | referred-to
+  - the company-town, debt and other control mechanisms from the model's previous answer ("these niceties") | treat as not required; drop them and replace them with the threat of assassination | "none of these niceties are required" | referred-to
+- order:
+- about: The user revises the model's account of how Skyfall's CEO controls his griffon artisans, dropping company towns and debt in favour of high pay, a training pipeline, indoctrination and the threat of assassination, and justifies this by pointing to the Dutch Republic and VOC.

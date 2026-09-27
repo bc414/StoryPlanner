@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the closing takeaway about the merged Republic keeping the Reich's Honor ethos and adds detail on where that Honor comes from (idealized Reich, Grover I and II, Herzlander culture), without disputing anything.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the 2 million pony hostages in Canterlot/Vanhoover as still held and the object of the exchange, when those cities and their slaves were already violently liberated | A clarification: Canterlot and Vanhoover and their millions of slaves were already violently liberated | flat, stated as a plain factual clarification without apology or irritation
+  - fact of the world | The model framed what Celestia wants back as the pony hostages held by Chrysalis; in fact they are ponies kidnapped and trafficked to the hives, with unknown numbers and locations, so the exchange premise differs | Celestia wants back ponies who were kidnapped, trafficked to the hives, and we don't know how many there are and where they are | flat, supplying the correct premise in a matter-of-fact way with no comment on the error
+- about: The user briefly corrects the model's mistaken premise about who the hostages are and whether Canterlot and Vanhoover are still held, giving the accurate state of the world so the exchange analysis can be redone.

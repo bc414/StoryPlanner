@@ -1,0 +1,6 @@
+- claims:
+  - History | Chrysalis gets funding from Herzlander nobles as reward for helping overthrow the Griffonian Republic in the counterrevolution | secures funding from Herzlander nobles as a reward for helping overthrow the Griffonian Republic | yes
+  - History | Yale scientists and linguists commit labor to the Love Harvester and Simplified Herzlander | She gets labor commitments from Yale scientists for the Love Harvester and Yale linguists for Simplified Herzlander | yes
+  - History | Chrysalis personally travels to Diamond Mountain and makes a deal to buy black market crystals for love harvesters | goes to Diamond Mountain herself and makes a deal to buy black market crystals | yes
+- goals:
+- whole: The note reports, as in-universe historical fact, how Chrysalis assembled funding, labor and crystal supply for her projects in 982.

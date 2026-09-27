@@ -1,0 +1,7 @@
+- questions:
+  - How do Twilight and Applejack plan to bind the diverse species of the world under a shared civic identity without erasing their distinct terroirs? | partly answered | Says the plans already hint at this through economic integration of the Tzinacatl and buffalo, universal translators, and Faust's themes grown up. It gives no detail on how Twilight and Applejack would do it and hands the working-out to a review of the plan. | plans already hint at this via the economic integration of the Tzinacatl and buffalo, universal translators
+- shape: Redirects the conversation from the real-world multiculturalism discussion back to the story plan. It gives a short answer in terms of existing plan elements, then instructs the model to review the plan, analyze it, and point out other elements in it.
+- settles:
+  - The plan's answer to binding diverse peoples together includes economic integration of the Tzinacatl and the buffalo | economic integration of the Tzinacatl and buffalo
+  - Universal translators are part of how the peoples are bridged | universal translators
+  - The story's themes are Lauren Faust's themes in grown-up form | Lauren Faust's themes but grown up versions

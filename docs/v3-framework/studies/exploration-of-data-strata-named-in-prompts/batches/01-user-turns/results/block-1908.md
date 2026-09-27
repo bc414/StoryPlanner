@@ -1,0 +1,4 @@
+- sources:
+  - the DB file (parts about the battle of Mount Aris) | read the relevant parts and analyze them thoroughly, drawing on them as the material for the analysis | Read the parts of the DB file about the battle of Mount Aris | referred-to
+- order:
+- about: The user asks the model to read the sections of the DB file covering the battle of Mount Aris and produce a thorough analysis of them, moving on from the prior track-design discussion.

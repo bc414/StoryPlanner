@@ -1,0 +1,5 @@
+- claims:
+  - History | The Equestrian Army's first policy is to send all magic crystals to teleport the wounded out rather than power destructive magical weapons, and to use friendship shields instead of magical violence. | At first they direct all magic crystals for teleporting wounded out instead of destructive magical weapons and use friendship shields | no
+  - History | The pacifist approach is naive and fails, an outcome reported as a fact of the army's early history. | but this is naive and fails | no
+- goals:
+- whole: The note sets down, as an event in the army's early history, that it first tried a healing-and-shielding pacifist approach and that the approach failed, without saying how the reader should experience it.

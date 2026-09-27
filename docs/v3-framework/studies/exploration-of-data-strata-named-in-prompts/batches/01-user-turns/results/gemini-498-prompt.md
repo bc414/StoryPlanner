@@ -1,0 +1,5 @@
+- sources:
+  - a hoi4 loading screen | the place the quote appears; the model is to identify the speaker and exact wording of a quote shown there | There is a quote on a hoi4 loading screen | first-named
+  - the author's own recollection of the quote | treat as approximate and provisional; the wording is not exact and the model is to find the exact quote | saying something like | first-named
+- order:
+- about: The user asks the model to identify the speaker and exact wording of a half-remembered quote from a hoi4 loading screen about every soldier knowing how their battle fits the wider picture, and to explain how it applies to the ongoing discussion.

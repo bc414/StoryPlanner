@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of Applejack's resentment by adding new plot material: a Trimmel-versus-Applejack merit contrast with a key line at the POW camp, and Comet Shine's backstory of being refused by Celestia's government and self-funding the border defense.

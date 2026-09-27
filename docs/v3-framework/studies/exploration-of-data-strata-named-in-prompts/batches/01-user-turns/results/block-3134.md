@@ -1,0 +1,7 @@
+- sources:
+  - the story plan | consult it and analyse the Tzinacatl timeline against the updated pioneering timeline | Check the story plan and give an analysis | referred-to
+  - Tzinacatl timeline | existing history to be checked for how it changes; Grover III clearing the ocean is treated as a big causal driver in it | Grover III clearing the ocean was a big causal driver in their history | referred-to
+  - this updated timeline of small scale pioneering | premise whose downstream effects on the Tzinacatl history are to be worked out | how would this updated timeline of small scale pioneering impact the Tzinacatl timeline | referred-to
+  - historical material | draw on it if any exists to decide whether hippogriffs should have land-based coastal defenses against monsters | Any historical material to draw from? | first-named
+- order:
+- about: The author sets new rules for hippogriff flight, necklaces and cloud carriers, asks whether hippogriffs need coastal defenses and whether history offers precedent, and asks the model to check the story plan for how the revised pioneering timeline affects the Tzinacatl timeline.

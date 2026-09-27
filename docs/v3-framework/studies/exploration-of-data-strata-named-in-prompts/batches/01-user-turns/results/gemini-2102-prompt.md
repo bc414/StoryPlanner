@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user endorses the idea of exclusive Aquileian clubs in Skyfall and corrects the scale of the Aquileian crusade, saying it aims to humiliate the Skyfall elite and nudge immigrant men back home rather than spark a revolt.

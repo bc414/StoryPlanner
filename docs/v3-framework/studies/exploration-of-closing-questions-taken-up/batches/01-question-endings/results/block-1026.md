@@ -1,0 +1,6 @@
+- questions:
+  - How would the hardened Griffonian veterans (Kemerskai, Astler) psychologically process being saved by ponies who still bake morale cakes and wear sparkly uniforms in the trenches? | ignored | none; the turn moves to real-world generational history and does not mention the Griffons or the ponies' aesthetics | none
+  - How does Twilight's declaration of the Element of Conscience to Celestia in Chapter 26 work as her graduation out of the Toy Box while still honoring the magic she found in it? | ignored | none; the turn does not mention Twilight, Celestia, Chapter 26 or the Toy Box framing | none
+- shape: Drops the model's two story-side questions and redirects to a new set of questions for the model about real-world history and audience. The user asks for a generation-by-generation account of childhood and cynicism since WW2, how much of that cynicism comes from rising income inequality versus other factors, and how different audiences would receive the story compared with mainstream grimdark works (The Princess and the Kaiser, ASOIAF, Squid Game). It is a research and reception request that steps back from the Toy Box thread without engaging it.
+- settles:
+  - The story's allegories are drawn from the period since WW2, so the historical trace should start there | Trace everything since WW2 as those are where my story's allegories come from

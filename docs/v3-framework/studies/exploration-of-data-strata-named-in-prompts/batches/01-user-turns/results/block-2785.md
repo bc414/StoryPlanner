@@ -1,0 +1,4 @@
+- sources:
+  - everything up to the start of season 8 (the show's events, including what the mandate did to the characters) | treat as true, actual in-universe history that really happened in the story's world | "actually happened in-universe history" | referred-to
+- order:
+- about: The user corrects the model's premise that the Mane 6 should be Faust-consistent throughout, saying they begin as mandate-shaped versions and regain scaled-up Faust versions after the war breaks the mandate ones, and that the show's events up to season 8 are real in-universe history.

@@ -1,0 +1,4 @@
+- questions:
+  - How would the user visually distinguish a subjective POV payload from an objective world-truth payload within a single chronological Plot Point card in the UI? | ignored | Nothing on the card design; the user turn asks about something else, importing code from GitHub into Google AI Studio. | none
+- shape: Drops the design discussion and moves to an unrelated practical tooling question, whether Google AI Studio can import code from GitHub. It neither answers, rejects nor comments on the model's proposal. It is a redirect to a new topic.
+- settles:

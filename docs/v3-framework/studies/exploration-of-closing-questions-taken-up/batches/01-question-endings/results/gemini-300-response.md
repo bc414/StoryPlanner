@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want the model to draft a short monologue showing an Applejack-influenced character delivering the takedown? | ignored | Nothing is said about the monologue. The user goes through the offered terms one by one and asks fresh questions about "poser". | none
+- shape: The user pushes back on the model's advice and holds to their original word. They reject each alternative with a reason (too common, too wordy or noble-specific, wrong part of speech, breaks in-universe immersion, too specific). They then ask two new factual questions about \"poser\": whether skaters would object, and whether it is more British or American. The model's closing offer is passed over.
+- settles:
+  - The insult stays as "poser", used as a noun in the form "they are posers" | "Poser still seems right to me"; "I want to say 'they are posers'"
+  - Fraud, Charlatan, Pretender, Hollow, Larper, Grifter and Gaslighter are all rejected as the term | the reasons given for each, e.g. "too simple and common", "too specific"
+  - The wording must fit in-universe and not use real-world terms that break immersion | "Larper is too specific to real life. It doesn't make sense in-universe and breaks immersion"

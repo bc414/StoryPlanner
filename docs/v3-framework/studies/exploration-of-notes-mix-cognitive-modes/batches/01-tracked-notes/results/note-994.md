@@ -1,0 +1,6 @@
+- claims:
+  - PageDesign | Chrysalis reads Coltbert's paper on the page | Chrysalis read Coltbert's paper | yes
+  - PageDesign | In reading it she learns that the 2nd Gen Royalists in Pridea are developing spell matrix technology | learned about spell matrix technology being developed by the 2nd Gen Royalists in Pridea | yes
+  - PageDesign | She decides she wants to build a spell matrix for the changeling draining spell, seeing it as her way to break the Predator's Dilemma | She decides she wants to make a spell matrix for the changeling draining spell | yes
+- goals:
+- whole: The note stages a sequence of Chrysalis's observable behavior in this scene: she reads the paper, learns of spell matrix technology, and resolves to make one for the draining spell to escape the Predator's Dilemma.

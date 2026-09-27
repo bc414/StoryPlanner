@@ -1,0 +1,4 @@
+- claims:
+  - History | From 795 to 870 lumber was moved by massive, slow draft-pony caravans over frozen dirt roads, reported as a fact of the period | From 795 to 870, lumber transport relies on massive, slow, draft-pony caravans over frozen dirt roads | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, how lumber transport worked in Pre-Industrial Severyana between 795 and 870.

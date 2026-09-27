@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | names the Nordic extreme cold-weather survival paradigm as the real-world model for the Griffonian Republic's food technology | Nordic paradigm - extreme cold-weather survival | yes
+  - Analogies | lists concrete real-world Nordic food practices (root cellars, ice fishing, cloudberry foraging, aggressive fermentation) as the specific inspirations | Root cellars, ice fishing, cloudberry foragaing, aggressive fermentation | yes
+- goals:
+- whole: The note documents Nordic cold-weather survival food practices as the real-world inspiration for the Griffonian Republic's food technology.

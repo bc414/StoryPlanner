@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a plot detail from the Combined Arms chapter (Applejack's reconnection with her parents at the burned Sweet Apple Acres and her wish for a simple life after the war) and asks how it shapes her interactions with Celestia in the chapter.

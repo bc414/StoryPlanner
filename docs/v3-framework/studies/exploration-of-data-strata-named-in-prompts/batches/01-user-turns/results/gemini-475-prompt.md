@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether the export format it has just described and extended contains redundancies or elements that could confuse an LLM, without naming any source of data to draw on.

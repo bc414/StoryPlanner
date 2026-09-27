@@ -1,0 +1,4 @@
+- sources:
+  - what we've established earlier in this conversation (RTS market began with Dune 2, its gameplay and story drawn from the book's materialist sci-fi) | treat as settled premise and build the FPS comparison on it | We've established that the RTS market started with Dune 2 | referred-to
+- order:
+- about: The user asks a set of follow-up questions about whether Renegade succeeded and about the history, studios, economics and market scale of the FPS genre compared with RTS, building on a premise already settled earlier in the conversation and offering their own hypothesis about story-driven versus multiplayer-driven lineages for the model to test.

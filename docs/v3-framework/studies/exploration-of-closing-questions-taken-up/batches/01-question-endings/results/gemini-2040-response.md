@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft React/Tailwind component code for the Phase 2 Kanban review board showing how the multi-tagged JSON renders? | ignored | Says nothing about the Kanban offer and moves to a new question about the axes. | none
+- shape: Redirects to a new question. The user skips the Kanban offer and asks whether demographics is the only axis where mutual exclusivity causes friction, or whether other axes have it too. This is a follow-up probe of the axis design that builds on the model's explanation, and it is a request for information.
+- settles:

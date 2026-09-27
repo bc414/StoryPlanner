@@ -1,0 +1,12 @@
+- questions:
+  - Should the Metzli return scene be in Applejack's point of view or in Mali's (perhaps as the one scene where Applejack steps back and watches)? | ignored | Nothing on point of view. The turn goes to worldbuilding corrections and asks for a characterization analysis. | none
+- shape: Corrects the model's worldbuilding about the medicinal tribes and Coltbert, and adds facts about what happened to Metzli's young warriors. It then redirects to what it wants next: characterization analysis of how Metzli would treat Mali and Applejack, in the first clash and after the drug deal. It explicitly rules out scene architecture, so it steps away from the model's structural framing and its POV question.
+- settles:
+  - Young members of Metzli's tribe became private military contractors for the Tzinacatl factory managers, and these do not join EEEE! | there definitely would be young members of Metzli's tribe who became PMCs
+  - The workers and machinists are the ones who become EEEE! members | the workers and machinists do
+  - The warrior-PMCs go one of two ways after the factories fall: global mercenaries for Skyfall firms who leave the continent, or members of the drug cartels that emerge from the factory ashes | become either global mercenaries for Skyfall firms... or they become part of the drug cartels
+  - Chrysalis flooded the common drug market but left a niche in high-end drugs for the richest tycoons | they still have a niche in high end drugs for the richest tycoons
+  - In 1002 Chrysalis restricts supply to fund the 2nd great leap forward, which gives the cartels a real payday | they get a real pay day when Chrysalis restricts supply in 1002
+  - The medicinal tribes are not dependent on Coltbert. Coltbert follows individual asset specificity rather than colonial extraction, so they are trade partners, and the medicinal tribes now look down on the traditionalists | the medicinal tribes are not dependent on Coltbert
+  - The first scene of Ch10 has Applejack confused and amazed at the medicinal tribes' caverns fitted out with modern griffonian amenities and luxuries | first scene of chapter 10 features Applejack being confused and amazed
+  - Metzli sees the drug tribes as corrupted by foreign extractive ideas and as having got what they deserved. She sees the Aquileian-aligned tribes as permanently corrupted by commercial vanity and now foreigners | Metzli would view the drug tribes as having been corrupted

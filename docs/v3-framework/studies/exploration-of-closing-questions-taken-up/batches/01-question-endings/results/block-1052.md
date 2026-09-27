@@ -1,0 +1,11 @@
+- questions:
+  - When Applejack is President, how does she manage Blueblood, and does she keep him as her top military commander because she needs his ruthless competence? | ignored | The user turn does not mention Applejack's presidency or Blueblood's role under her. It moves on to the Temberik. | none
+  - How does keeping Blueblood create friction with idealists like Twilight or Fluttershy? | ignored | Nothing is said about friction between Blueblood and the idealists. The turn is only about the Temberik. | none
+  - How does Applejack defend the dignity of Celestia's peaceful intentions in the debates without endorsing the Stagnation policies Gilded Trust attacks? | ignored | The debates, Gilded Trust and Celestia's defense are not touched. The turn asks for a new analysis of a different group. | none
+- shape: Redirects to a new topic. The user accepts the corrected framework, taking it as given without comment, and asks the model to apply it to the Temberik, along with the cynicism and resilience themes. The user supplies background on the group and points to the scene where Rainbow finds Pinkie. The model's closing questions are left unanswered.
+- settles:
+  - The Temberik are Kurdish-inspired and hold a mountain pass that must be defended to protect Tall Tale. | originally a Kurdish inspired group that held a mountain pass
+  - The Temberik are the user's own addition, not part of EaW canon like the Tzinacatl. They sit on the mountain because of a Lunar Civil War lead-up event about thestrals preparing in the mountains, apart from the jungle. | not part of EaW canon like the Tzinacatl
+  - The Temberik hold the crystals that Star Energy needs for the war effort. | They have the crystals that Star Energy needs
+  - The Kurdish inspiration is a commentary on the West abandoning the Kurds, and in TLTT the Temberik are economically integrated. | social commentary about the West abandoning the Kurds, while in TLTT they are economically integrated
+  - The Temberik's mountain is where Rainbow finds Pinkie. | it is where Rainbow finds Pinkie

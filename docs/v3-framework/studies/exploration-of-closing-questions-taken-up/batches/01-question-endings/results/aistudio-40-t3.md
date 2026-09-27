@@ -1,0 +1,9 @@
+- questions:
+  - How does Fleur, as an abrasive early-Twilight type, deal with the post-arc Twilight, and does Twilight see her own past flaws in her (mentorship, annoyance, pity)? | ignored | Nothing about Fleur and Twilight meeting; the turn stays on Fleur's early life. | none
+  - What are the long-term post-war economic consequences of proving Earth Pony magic is chemical, for example farms valued and traded by the measurable magical output of the ponies who work them? | ignored | Nothing about postwar economics or exploitation; the turn stays on Fleur's origin. | none
+- shape: Skips both questions and adds to the backstory. It gives a different motive for the origin: Fleur left because she was bad at farming, and the books were her parents' way of keeping her at home. It also reframes how she meets Coltbert's theory. This partly corrects the model's version, where ambition and paranoid isolation drive her.
+- settles:
+  - Fleur wanted to leave the farm because she didn't feel good at farming. | wanted to leave the farm because she didn't feel good at farming
+  - Her parents told her not to leave and gave her books to keep her occupied. | told her not to leave the farm so they gave her books to keep her occupied
+  - Coltbert's sociological theory, that earth pony magic is real and correlated with pride, is something Fleur reads. | reads Coltbert's sociological theory about earth pony magic being real and correlated with pride
+  - Reading the theory shows Fleur she has no pride in her parents' farm, while she does love reading more science books. This sets her turn to science. | she doesn't have pride in her parents' farm but does love reading more science books

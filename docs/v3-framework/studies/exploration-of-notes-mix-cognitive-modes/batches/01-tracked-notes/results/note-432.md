@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Cadance, in her pegasus state, understood her special talent to be relationship counseling, which is how she saw her own calling | As a pegasus, Cadance considered her special talent as being a relationship counselor | yes
+- goals:
+- whole: The note asserts, as a fact about who Cadance is at the start, that she thought of her special talent as relationship counseling while she was a pegasus.

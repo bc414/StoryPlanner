@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's "return to form" analysis by proposing an additional story beat, in which Fleur's advice to be herself leads Twilight to write a Season 1-style letter to Applejack, and asks whether it works as another catalyst.

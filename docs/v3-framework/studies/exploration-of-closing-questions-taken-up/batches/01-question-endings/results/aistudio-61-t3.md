@@ -1,0 +1,10 @@
+- questions:
+  - How does the Harmonic Fund incentivize extreme risk-taking for bleeding-edge inventions if returns are capped and steady, and does it rely on the artisan's intrinsic pride/ambition, and is that sustainable without a big financial reward? | answered | Risk-taking is driven by pride and ego in the Aquileian style, because asset specificity is what matters. Tall Tale already had this drive before Star Energy, and it is the reason the valley's capital got its name. | The obsessive risk taking ... is driven by pride and ego (Aquileian style) because asset specificity is what matters
+  - After the war, if a co-op refuses to return to peacetime production because making rifles is more profitable than tractors, how does the decentralized fund enforce discipline without becoming an authoritarian monopoly? | ignored | The turn says nothing about post-war repeal of the Emergency Syndication Act or about a co-op refusing to convert. It only says where the command economy vote comes from. | none
+- shape: Answers the first question briefly with a world-building rationale that includes a new naming origin. It then adds an unrequested instruction about the source and reveal timing of the command economy vote, and leaves the second question untouched.
+- settles:
+  - Bleeding-edge invention is motivated by pride and ego (Aquileian style) tied to asset specificity, not by financial windfall | driven by pride and ego (Aquileian style) because asset specificity is what matters
+  - Tall Tale had this ambition and productivity before Star Energy existed | Tall Tale already had this prior to Star Energy
+  - The capital of Tally Valley is named Tall Tale because its agricultural output was so astronomical the rest of Equestria took it for tall tales | the agricultural output was so astronomical the rest of Equestria viewed it as tall tales
+  - The command economy vote is to be modeled on Kemerskai's 986 martial law declaration | should be inspired by Kemerskai's martial law declaration in 986
+  - The link between the command economy vote and Kemerskai's declaration is revealed later in the story, not at first | But this is only revealed later

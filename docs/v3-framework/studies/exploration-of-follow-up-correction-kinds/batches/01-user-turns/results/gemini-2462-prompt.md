@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model cast the hospital purely as the cost and fragility of war and said Chapter 2 should hold no optimism, but the user says the hospital scene carries an optimistic beat: effective medics using magic bone-healing and alien Tzinacatl herbs, seeding the idea that Equestria needs more than the three tribes and the old ways | "I believe the hospital scene also shows the effectiveness of their medics" and "This is an optimistic point" | stated mildly as a belief and framed as an addition, without saying the model was wrong; the reason is given by describing what the scene contains, and the model's hospital-then-factory order is kept
+- about: The user accepts the hospital-then-factory order but adds that the hospital scene holds a note of optimism and a seed of the diversity theme, which the model's grim-only framing left out, and then names the factory as the backbone reality.

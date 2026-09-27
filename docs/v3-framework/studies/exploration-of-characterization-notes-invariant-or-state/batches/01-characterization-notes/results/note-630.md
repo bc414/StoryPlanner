@@ -1,0 +1,6 @@
+- claims:
+  - unfixed | She is not evil for its own sake. She is a brutal pragmatist. | isn't evil for the sake of it; she is a brutal pragmatist | none in the note's words; the track's question frames it as who she is at the start of TLTT, but the sentence has no time marker of its own
+  - span | She witnessed the Statthalter "merchants" treating Zebrica like a meat market. | She saw the Statthalter "merchants" treating Zebrica like a meat market | past tense, an experience from before she joined the Storm King; no date given
+  - span | She joined the Storm King, and her reason was that his horde could stop the external slaving fleets. | She joined the Storm King because | the past-tense event of joining; no date in the note
+  - span | The Storm King's "Join or Die" horde was the only military force capable of stopping the external slaving fleets. This is her judgement of the situation when she joined. | the only military force capable of stopping the external slaving fleets | tied to the time of her decision to join; past tense "was"; no date
+- beside: Backstory note 619 (world date 998) speaks of the same event, her joining the Storm King, and says she joined early. It gives no reason for joining, so it does not speak of the slaving-fleet motive or the Statthalter.

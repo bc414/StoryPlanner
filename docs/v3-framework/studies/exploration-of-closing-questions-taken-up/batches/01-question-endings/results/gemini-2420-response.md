@@ -1,0 +1,6 @@
+- questions:
+  - What role does Sweetie Belle's unicorn magic play in the Great War (e.g. combat medic or artillery spotter)? | ignored | Nothing said about Sweetie Belle's role; the turn turns to a correction and a request to review plans. | none
+  - What role does Apple Bloom's Earth Pony magic play in the war (e.g. growing thorn-barriers or working as a combat engineer)? | ignored | Nothing said about Apple Bloom's role; the turn does not touch it. | none
+- shape: Corrects the model's premise: the Republic, which its analysis relied on, does not yet exist in chapter 17 Breakthrough. It then tells the model to go back over the stored story plans and produce an updated synthesis. It does not answer the character-role questions, and it moves the conversation from extending the current line to re-grounding it in the plans.
+- settles:
+  - There is no Republic yet at the point of chapter 17, Breakthrough, so analysis assuming the Republic and President Applejack's law there is wrong for that chapter. | "There is no Republic yet in chapter 17 Breakthrough"

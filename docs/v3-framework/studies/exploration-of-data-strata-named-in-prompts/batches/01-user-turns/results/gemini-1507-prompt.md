@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model how the 2nd Aquileian Republic would reform Discret's broken system after overthrowing him, without pointing to any body of material for the answer.

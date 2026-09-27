@@ -1,0 +1,4 @@
+- sources:
+  - these two chapters (the ones that need to be fleshed out) | read closely and dig into their actual content, then reanalyze them from what is there | the actual content of these two chapters | referred-to
+- order:
+- about: The user asks the model to go deeper into the real content of the two underdeveloped chapters and produce a fresh analysis of them.

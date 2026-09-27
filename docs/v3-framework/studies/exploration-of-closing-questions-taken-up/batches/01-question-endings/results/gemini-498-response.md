@@ -1,0 +1,3 @@
+- questions:
+- shape: The user moves on to a new request. They recap that French and German doctrine are covered as the two extremes, then ask the model to explain how British command worked and whether it adapted over the war, and how that could apply to their story. The turn does not react to the Montgomery quote analysis. It is a follow-up research request in the same line of inquiry.
+- settles:

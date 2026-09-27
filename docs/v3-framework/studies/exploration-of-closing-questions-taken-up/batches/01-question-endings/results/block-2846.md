@@ -1,0 +1,9 @@
+- questions:
+  - Should the model draft proposed 5-value definitions for each axis for the user to react to? | refused | The user drops the five-value scale and wants every axis to be strictly two poles. The apparent middle positions are read as evidence of a fifth axis, so no five-value definitions are asked for. | I'm now actually thinking every axis should strictly be two poles
+- shape: Redirects and corrects. It rejects the model's five-value scale and its offer to draft one, and it reverses the user's own earlier wish for middle values. It proposes that the Boundary and Transactional Leverage axes are conflating a hidden fifth axis, which separates conformity from exclusion or enslavement. It corrects the model on Chrysalis's Vanhoover and on Gerad Discret's boundary. It then tells the model to re-reason the last two axes from these nuances.
+- settles:
+  - Every axis is to have exactly two poles, with no middle or neutral values. | every axis should strictly be two poles
+  - Gerad Discret let any creature be a Royalist, but only if they were useful. | allowed any creature to be a Royalist, but only if they were useful
+  - Chrysalis's system admits any species that plays by the rules, kept strictly separate from the statthalter slavery system. | allows any species in if they play by the rules
+  - Early Vanhoover and late Vanhoover with statthalters are different systems. Only the statthalter version arbitrarily hooks ponies up, and the earlier one issued only love taxes. | the Vanhoover at the start vs the Vanhoover at the end
+  - Coltbert's Aquileia and Celestia's Stagnation of Harmony require conformity. Applejack's Equestrian Republic, Comet Shine's Harmonic Republicanism and the Night Economy, and Kemerskai's Griffonian Republic do not. This is a different distinction from the enslavement and war of Warlord Aquileia, Feudal Herzland and the statthalters. | require conformity, while Applejack's Equestrian Republic

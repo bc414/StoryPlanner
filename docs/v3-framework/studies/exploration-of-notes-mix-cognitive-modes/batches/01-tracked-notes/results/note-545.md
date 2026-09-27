@@ -1,0 +1,4 @@
+- claims:
+  - NotesToSelf | a planning reminder that Queen Velvet's negative arc needs to be worked out so it intersects closely with Luna's return and with Mali | Queen Velvet's negative arc should intersect closely with Luna's return and Mali | yes
+- goals:
+- whole: The note is the author's reminder to themselves that Queen Velvet's negative arc still has to be planned so it ties closely to Luna's return and to Mali.

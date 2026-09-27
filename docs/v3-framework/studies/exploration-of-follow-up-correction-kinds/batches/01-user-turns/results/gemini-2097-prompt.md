@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the worldbuilding analysis to ask a new question about what real-life dining experience would parallel Skyfall's expensive, soulless status dining.

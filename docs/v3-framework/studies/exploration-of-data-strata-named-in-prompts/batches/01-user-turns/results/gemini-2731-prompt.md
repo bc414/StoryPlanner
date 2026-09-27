@@ -1,0 +1,4 @@
+- sources:
+  - this proposed idea during the 2nd great leap forward (Thorax's board-game gatherings, Chrysalis harvesting her own citizens, Purge the Weak, ramped-up infantry training and drafting) | a suggestion put forward for the model to analyze, not settled; the model is to test whether it holds up against Chrysalis acting rationally toward total-war militarization | I have this proposed idea during the 2nd great leap forward | first-named
+- order:
+- about: The user pitches a new plot beat for the 2nd Great Leap Forward, in which Chrysalis puts board-game-playing drones into love harvesters, and asks the model to analyze whether this would help or hinder her total-war effort and stay rational rather than cruel.

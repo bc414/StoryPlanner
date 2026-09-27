@@ -1,0 +1,8 @@
+- questions:
+  - If the Republic depends on the Moral Surplus built up during the Stagnation, does bringing back Red Love (trade, military readiness) drain it over the next century, and how does the Republic replenish the Charitostatic baseline once the Nursery is gone? | ignored | none | none
+  - When the 85% agrarian majority votes in the Referendum, how do they handle learning that the Stagnation was subsidized by Skyfall's underclass and the Tzinacatl drug trade, and do they vote for progress or out of guilt? | ignored | none | none
+- shape: The user takes up the model's takeaway ("adulthood requires a childhood") and reflects on it rather than answering the follow-up questions. They read it as describing their own target audience and the project's message, contrast it with cynical storytelling, then open a new tentative line: whether Faust's G4 growing out of G1 toys means the toy mandate, and toys, stand for childhood. The turn ends by asking the model to confirm that reading.
+- settles:
+  - The target audience is the real-world counterpart of the Stagnation of Harmony: people raised safe in suburbs, with asset specificity, like the author | the audience has always implicitly been the Stagnation equivalent
+  - The project's message is to choose civic solidarity, not to be a cog or a poseur | the message is not to be a cog or a poseur but to choose civic solidarity
+  - "Adulthood requires a childhood" is the key insight of the project, set against existing cynical storytelling, which the user sees as coming from deteriorating world conditions | this insight is key; cynic storytelling born of cynicism

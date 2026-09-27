@@ -1,0 +1,4 @@
+- claims:
+  - History | Cadance and Shining Armor publicly unveil the crystal heart for mass production for the army, as a fact of the world in 1007 | Cadance and Shining Armor reveal the crystal heart mass production for the army | yes
+- goals:
+- whole: The note reports as an in-universe historical event that Cadance and Shining Armor revealed mass production of the crystal heart for the army in 1007.

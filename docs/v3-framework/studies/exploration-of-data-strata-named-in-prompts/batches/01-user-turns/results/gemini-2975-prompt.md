@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user replies with a short constraint that the proposed setup needs to be cost effective, without pointing at any body of material.

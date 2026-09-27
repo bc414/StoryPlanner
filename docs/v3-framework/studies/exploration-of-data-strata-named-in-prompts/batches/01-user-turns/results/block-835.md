@@ -1,0 +1,5 @@
+- sources:
+  - the insight "adulthood requires a childhood" (from the model's previous reply in this conversation) | treated as key, taken as the frame for reading the project's audience and message | "I guess this insight" "is key" | referred-to
+  - Lauren Faust's origin of G4 in her own play with G1 toys (the author's recollection of the franchise's history) | offered as a connection under consideration; the user asks whether it means the toy mandate is the origin and toys stand for childhood, so it is provisional and not settled | "The other connection I was thinking about" "So everything started with the toy mandate" | first-named
+- order:
+- about: The user takes the model's \"adulthood requires a childhood\" insight as key, applies it to their own target audience and the project's message, and asks whether the G1 toy origin of G4 fits the same theme of toys as childhood.

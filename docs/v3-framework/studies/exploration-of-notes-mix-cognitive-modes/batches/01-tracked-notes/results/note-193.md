@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Asserts as true of the character that she understands herself as living up to the legend of the Princess of the Night | She sees herself as living up to the legend | yes
+- goals:
+- whole: The note asserts the Parloir Operator's starting self-conception, that she believes she embodies the legend of the Princess of the Night.

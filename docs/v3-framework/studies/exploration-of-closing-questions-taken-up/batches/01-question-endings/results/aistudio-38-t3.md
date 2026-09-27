@@ -1,0 +1,5 @@
+- questions:
+  - How did the remaining officer corps adapt its culture between 995 and 1011 ALB: hyper-compliant bureaucrats, or a resentful faction of Skyfall sympathizers waiting to collaborate? | no user turn | none | none
+  - How does Shining Armor, as Captain of the Royal Guard, handle leading an organization he knows is paralyzed: subtle localized Aquileian reforms in his units, or reliance on his own magic (the Canterlot Shield) as a single point of failure? | no user turn | none | none
+- shape: none
+- settles:

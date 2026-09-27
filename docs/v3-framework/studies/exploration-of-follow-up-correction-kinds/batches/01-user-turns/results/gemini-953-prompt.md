@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's episode-by-episode account of the TwiJack dynamic in later seasons (episodes, plots and scenes it cited) is said to be wrongly described or to describe episodes that do not exist | These all seem highly inaccurate or non existent | flat, blunt verdict given without naming which items are wrong or giving a reason
+- about: The user rejects the model's whole analysis of the ship's later-season episodes as inaccurate or invented, without saying which parts or what is right.

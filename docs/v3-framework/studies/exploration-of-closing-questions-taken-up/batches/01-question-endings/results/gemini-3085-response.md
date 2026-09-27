@@ -1,0 +1,6 @@
+- questions:
+  - How will traditionalist characters like Applejack react to the Parloirs, and does she first see Aquileian Recreational Ambition as a decadent grift before understanding it? | no user turn | none | none
+  - Does engaging in Aquileian passionate romance physically generate a distinct kind of magic that characters can measure or use in magical engineering? | no user turn | none | none
+  - How do you plan to have Applejack or Twilight first encounter the true nature of the Parloirs? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,5 @@
+- questions:
+  - How does the Equestrian working class react to importing Aquileian goods tied to slaughter (leather, cheeses, bone-char sugar) once Applejack and the union integrate the economies, and does it split the Harmonic Republican party into Moral Purists and Economic Pragmatists? | no user turn | none | none
+  - How do Aquileian ponies, who draw the line between citizen and livestock by asset specificity, psychologically process the Changeling conscripts stripped of individuality, language and magic, and do they at first see the drones as closer to cattle than citizens? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user raises a further option, the agent mode in the Gemini Code Assist plugin in VS Code or Rider, as a possible way to automate the chapter summarizing, and asks whether it would work, without saying the model's answer was wrong.

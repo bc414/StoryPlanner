@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to map out the exact sequence of Réni's recovery in Tall Tale? | no user turn | none | none
+  - When Réni first wakes in the Tall Tale infirmary or camp, what is his initial reaction to learning his magical armor failed him when he needed it most? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to analyze the Dreamscape Aid mechanics next, specifically how Luna and the Thestrals navigate the nightmares of the occupied ponies? | no user turn | none | none
+- shape: none
+- settles:

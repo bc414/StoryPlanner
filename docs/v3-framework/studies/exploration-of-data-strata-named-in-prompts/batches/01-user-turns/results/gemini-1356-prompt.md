@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's account of how Thranx died and why Eros lies to Grover, stating new plot facts directly (Grover's asylum, VOPS acting without permission, Eros taking on sins so Grover stays pure) without pointing at any body of material.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an analysis of how Lenin's adoption of Taylorism (scientific management, piece-rate wages) fit into his strategy to restore labor discipline? | answered | Asks to hear more about Taylorism, taking up the offered topic as a request for more explanation | "Tell me more about taylorism"
+- shape: Accepts the model's offered follow-up in a short request for more information on Taylorism; a redirect to a new topic within the same line of inquiry, with no story decisions.
+- settles:

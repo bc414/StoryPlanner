@@ -1,0 +1,6 @@
+- sources:
+  - what we established earlier in the conversation about commercial incentives being at personal scale until the 986-993 Chrysalis scheme | treat as settled ground that the new timeline of drug-tribe behavior builds on | we established that commercial incentives are at personal scale | referred-to
+  - the framing of no friendship plants in drug tribes, from the model's previous synthesis | treat as wrong and drop; rank-and-file drug tribe members may still grow friendship plants | I think the framing of no friendship plants in drug tribes is wrong | referred-to
+  - the model's account of the Traditionalist Confederation forming in 1010 | treat as wrong; it formed in 993 and stayed, with 1010 being an invocation of the emergency clause | not formed in 1010 | referred-to
+- order:
+- about: The user corrects the model's synthesis of the drug deal's product, the drug tribes' friendship-plant cultivation and history, and the Confederation's founding date, and supplies a revised timeline and faction structure for the Tzinacatl.

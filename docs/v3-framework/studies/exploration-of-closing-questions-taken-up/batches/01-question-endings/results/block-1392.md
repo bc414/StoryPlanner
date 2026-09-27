@@ -1,0 +1,5 @@
+- questions:
+  - How does the Equestrian Republic legally and structurally institutionalize the 'taming' of tycoons (Harmonic Capitalism, EEEE! labor laws) so the economy doesn't depend on a farmpony personally fixing each billionaire? | ignored | Says nothing about it. Turns to whether the plot of Boys Over Flowers itself broke its materialist setup. | none
+  - If Applejack's Honesty shows the Canterlot elite collaborators are insecure, dependent poseurs and not calculating traitors, does her tactic change: purge them as enemy combatants, or publicly humiliate them and strip their assets? | ignored | Not taken up. The user asks only about the Korean drama's plot and whether it had a materialist setup. | none
+- shape: Redirects away from the model's two story-planning questions to a new, critical question about the source drama. The user asks whether Boys Over Flowers broke its own materialist setup, and doubts that it had one. This challenges the materialist reading the model just gave, without correcting it outright. It is a request for evaluation, not an answer.
+- settles:

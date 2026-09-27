@@ -1,0 +1,9 @@
+- questions:
+  - Does a victim drained of their Red Love and Pink Love by the Changeling harvester temporarily revert to a non-sentient, animal state? | ignored | none; the turn goes on to the balance of the two loves in society and never mentions the harvester or victims | none
+  - Does a pony fully drained of Red Love become a mindless grey herd animal unable to think independently, so that Chrysalis's camps de-evolve their victims? | ignored | none; the turn does not touch drained individuals or the camps | none
+- shape: Sets aside the model's closing question and adds a further thesis about the world, on how the two loves must be balanced in a post-industrial society. It then asks the model to analyze that thesis. It moves from individual harvesting to society-wide structure, and it hands the model a new task.
+- settles:
+  - A stable post-industrial society needs a healthy balance of both loves | Having a healthy balance of both things is what makes a stable post-industrial society
+  - The balance is not self-sustaining. Society's structure and its creatures must actively maintain it | The balance must be actively maintained by society's structure and its creatures
+  - Industry and magic are accelerants that are always present and will tip a society that fails to keep the balance back into tyranny | the accelerants (industry and magic) are omnipresent to tip society straight back to tyranny
+  - The accelerants cannot be contained or removed any longer, so the balance has to be kept while living with them | But you can't bottle up the accelerants anymore

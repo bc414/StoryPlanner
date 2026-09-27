@@ -1,0 +1,7 @@
+- questions:
+  - Who is the POV character for this scene block, given the model's proposal of Twilight? | partly answered | Doesn't choose a POV for this scene. Says only that the scene before it (17.1) is definitively in Mali's POV, and gives that scene's text. | the scene before this one is definitively meant to be in Mali's POV
+  - What does Twilight get wrong about what she's watching? | ignored | Nothing on Twilight's misreadings or the perception gap. The turn moves to where omniscient synopses belong in the framework. | none
+- shape: The user sets aside the model's scene-by-scene redesign and asks a structural question about the planning framework: whether omniscient, factual synopses like this have a proper home apart from the POV-limited layer 4 (not yet begun), or should be reorganized, or moved to a Note or chapter-notes field. They say the content was pasted in during data accumulation and was never meant to be design-ready. They also add a correction and new information: the preceding scene, 17.1, is Mali's POV, and they paste its full entry.
+- settles:
+  - Scene 17.1 (Luna reveals why she ordered the Tall Tale retreat) is in Mali's POV | the scene before this one is definitively meant to be in Mali's POV
+  - Layer 4, the third-person limited layer, has not yet been started, so the omniscient synopses are not yet built into it | I haven't actually begun the third person limited layer 4 yet

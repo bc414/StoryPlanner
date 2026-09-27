@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Rainbow Dash's baseline character was never tribal; asserted as the truth of her disposition | Rainbow Dash's baseline character was never tribal | yes
+  - Canon | In canon season one Over a Barrel, she sides with the buffalo against Appleloosa after hearing their side, cited as established source-material evidence | In canon season one Over a Barrel, Rainbow Dash actually sides with the buffalo against Appleloosa after hearing their side | no
+- goals:
+- whole: The note asserts that Rainbow Dash starts out untribal and backs that assertion with a canon episode in which she sides with the buffalo.

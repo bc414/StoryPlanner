@@ -1,0 +1,4 @@
+- sources:
+  - Plan export (attached, 117,508 words) | handed over as material for the model to work from; the turn states no trust level, priority, or restriction on it | Plan export attached — 117,508 words | first-named
+- order:
+- about: The user turn only attaches an export of their story plan and says nothing else about how the model should use it.

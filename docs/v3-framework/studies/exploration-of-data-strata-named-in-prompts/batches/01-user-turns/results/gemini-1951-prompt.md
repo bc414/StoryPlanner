@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to work out whether the idol of Boreas becomes obsolete under Grover 3 and what use it would have in his era, floating their own idea that it was left in Griffonstone as an homage, without pointing at any body of material to draw on.

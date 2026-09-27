@@ -1,0 +1,4 @@
+- questions:
+  - What is Rainbow Dash's catastrophic first-command failure in the Great War, and does it take the form of a reckless glory-seeking aerial charge against the Changelings with massive casualties that forces her to drop the Wonderbolt mindset and learn materialist command discipline? | ignored | Nothing about Dash's first command or the Great War; the user asks for a different evaluation of the GIYC plan. | none
+- shape: Redirects. It drops the model's Rainbow Dash thread and its question, and gives a new instruction: assess the user's GIYC plan for where suspension of disbelief was rigorously filled and what can carry over to TLTT.
+- settles:

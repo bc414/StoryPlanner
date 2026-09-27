@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - register or format | the dark, dystopian, state-extraction tone of the analysis (biological determinism, barcode, tribute, command economy) | "This isn't the right tone." | flat, blunt verdict with no reason given at first
+  - fact of the world | how the Manehattan mandate works: the model made it coercive state assignment of ponies to labor by Cutie Mark, but every pony must contribute in support of the front-line volunteers and chooses their own way, by their own view of their asset specificity | "every pony has to contribute (to support the volunteers on the front line), but they get to choose how to contribute" | plain restatement of the rule in place of the model's version, with a parenthetical giving its purpose
+  - reading of the plan | the model's framing of the mandate as a draft that Applejack's volunteer army opposes, and the closing question about the state reassigning ponies with non-combat talents, both built on state-dictated assignment | "they get to choose how to contribute" | implicit, carried by the restated rule and not argued; the premise of the model's foil and question is dropped without comment
+- about: The user rejects the model's dark, dystopian reading of the Manehattan mandate and restates it as a universal duty to support the front-line volunteers, with each pony choosing how to contribute.

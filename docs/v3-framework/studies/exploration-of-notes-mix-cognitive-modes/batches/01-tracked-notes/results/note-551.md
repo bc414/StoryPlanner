@@ -1,0 +1,5 @@
+- claims:
+  - Ontology of world rules (outside all ten) | Pink and Red Love are Friendship and Magic, pulled from a sentient creature by the changeling draining spell or its spell matrix | Pink and Red Love are Friendship and Magic that are pulled out of a sentient creature by the changeling draining spell | outside
+  - Ontology of world rules (outside all ten) | The two come out intertwined, and extracting one without the other is impossible, as an invariant law | They come out of the creature intertwined. It is impossible to extract one without simultaneously extracting the other | outside
+- goals:
+- whole: The note states, as a god-mode world rule, what Pink and Red Love are and that the draining spell always extracts them together and inseparably, without saying what the reader should get from it.

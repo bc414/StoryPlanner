@@ -1,0 +1,6 @@
+- sources:
+  - EaW lore (Equestria at War) | consult it to find the year Grover 1 conquered and turned the empire and beat Aquileia; a fact to be looked up, not supplied by the author | check EaW lore for the year | referred-to
+  - the author's own clarifications on Synovial, the Griffonian Republic, Herzland, Aquileia and the Discret dynasty | treat as true, and let them correct and override the model's earlier framing; build the requested analysis on them | A clarification / Another clarification | first-named
+  - the author's earlier plan of the Republic as a flawed democracy with rampant gerrymandering | set aside; the author judges it ineffective and prefers the free-market, pure-meritocracy, no-corruption version, which they ask the model to test | At first I was going to make them a flawed democracy | first-named
+- order:
+- about: The author corrects the model's picture of Synovial and the Republics' history and geography, answers the SECEF and Celestia questions, and asks for a full analysis of whether Griffonian rugged individualism and Aquileian interspecies harmonic capitalism are true meritocracies and can coexist, plus an EaW lore check on a date.

@@ -1,0 +1,5 @@
+- questions:
+  - Should the model generate the master System Instruction and JSON Schema for Phase 2, the Sorter, to finish the pipeline? | ignored | Says nothing about Phase 2 or the offer. It only asks again for verification of the 6-step process. | none
+  - If the CSV differs from the model's 6-step sequence, will the user paste its text into the chat so it can be refined? | ignored | Refers to the 6-step process as already given and asks for it to be verified. No pasted text or stated differences appear in the turn. | "Here is the 6 step process I outlined. Please verify it"
+- shape: The user turn repeats the original request, to verify their 6-step process. It treats the process as already supplied and ignores the model's stated limit on reading the attachment. It moves nothing forward, and neither takes up nor turns down the Phase 2 offer.
+- settles:

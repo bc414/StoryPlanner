@@ -1,0 +1,6 @@
+- sources:
+  - Mali's current planned character development arc (passive earnest kindness to active pursuer of liberty learned from Fleur Bloom) | the author's standing plan, the frame the new backstory must be fitted into and measured against | My current planned character development arc for Mali | first-named
+  - the Crystal Empire backstory / new additional role for Mali (the therapy connection) | the model's proposal, treated as provisional and under test; author asks how it fits and affects the arc | this new additional role; the addition of the crystal empire backstory | referred-to
+  - the author's own account of how the two line up (trench comfort only, Fleur lesson, Ponyville push to reach Canterlot victims through dreams with a crystal) | author's working reasoning and planned scenes, offered as the starting point for the model's answer | I guess it lines up because | first-named
+- order:
+- about: The author explains their planned arc for Mali and their own attempt to reconcile it with the Crystal Empire therapy backstory the model proposed, then asks how that backstory changes her arc.

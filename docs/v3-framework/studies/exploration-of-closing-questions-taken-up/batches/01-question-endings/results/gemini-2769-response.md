@@ -1,0 +1,4 @@
+- questions:
+  - Would you like help defining the properties or the state machine logic for this class? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the note-categorization thread and asks a new planning-process question about what order to evaluate v1 plot points when building v2, offering their own tentative idea of anchoring on load-bearing points.

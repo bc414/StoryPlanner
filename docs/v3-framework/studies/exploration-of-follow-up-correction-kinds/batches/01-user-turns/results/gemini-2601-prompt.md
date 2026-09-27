@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's analysis of changeling gender equality and moves on to a new question about whether chasseurs would have sex or cuddle after combat versus after long treks without combat.

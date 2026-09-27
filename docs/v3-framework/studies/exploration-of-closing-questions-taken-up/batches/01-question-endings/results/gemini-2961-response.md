@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a walkthrough of setting up a System Instruction in AI Studio to keep story lore or WPF coding standards permanently in context? | ignored | The user turn moves to a different topic, billing for Playground use, and doesn't take up the offer. | none
+- shape: Redirects to a new, follow-up question about how billing works for manual Playground chat as opposed to API requests. It passes over the model's offer and adds no answer or refusal to it.
+- settles:

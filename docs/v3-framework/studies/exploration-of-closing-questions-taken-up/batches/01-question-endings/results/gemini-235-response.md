@@ -1,0 +1,5 @@
+- questions:
+  - Is the user ready to begin drafting Act III? | no user turn | none | none
+  - Is there any final detail about the 'Return home' election the user wants to clarify before drafting? | no user turn | none | none
+- shape: none
+- settles:

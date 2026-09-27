@@ -1,0 +1,8 @@
+- claims:
+  - History | Celestia overcorrected: with widespread detection spells the Equestrian military perfectly solved the last war's problem, the 1002 Canterlot Wedding infiltration, building a flawless magical counter-intelligence net | In fact, Celestia overcorrected... perfectly solved the problem of the last war | no
+  - History | Because Celestia culturally suppressed industrialization and empirical physics, Equestria prepared only for a war of deception and ignored the coming war of mechanized destruction | because Celestia culturally suppressed industrialization and empirical physics... completely ignoring | no
+  - History | The Changeling Heer wins not through infiltrators or magical sabotage but because Trimmel's mission command, Blitz-Essenz logistics and Panzer divisions are superior to Equestrian static-line doctrine | does not win through infiltrators or parlor tricks... They win because Trimmel's Auftragstaktik | no
+  - NarrativeArchitecture | The design of the reader's experience: the victory is to establish the Changeling war machine as a terrifying, undeniable material reality | It establishes the Changeling war machine as a terrifying, undeniable material reality | yes
+- goals:
+  - The reader is to take the Changeling war machine as a terrifying, undeniable material reality, not a matter of infiltration or trickery | NarrativeArchitecture | terrifying, undeniable material reality
+- whole: The note reports in historian's voice why Equestria lost, with its counter-espionage overcorrection and the Changelings' superior mechanized doctrine, and closes by stating the effect that this victory gives the Changeling war machine in the reader's understanding.

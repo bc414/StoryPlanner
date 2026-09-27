@@ -1,0 +1,9 @@
+- sources:
+  - The author's own corrections about Cadance and Helvia, stated from memory | treat as true, correcting the model's reading and its open questions on those points | Cadance definitely doesn't know about River Rose | first-named
+  - Pax Chrysalia, its Chrysalis arc and thesis | still worth reading and not bad, but its thesis is one the author has moved past and it does not fit TLTT | it just makes it orthogonal to what I'm making for TLTT | referred-to
+  - TLTT, the author's own story | the author's current project, the measure by which Pax Chrysalia's thesis is judged as orthogonal | what I'm making for TLTT | referred-to
+  - The next chapter about Roselight | the author still wants to read it next despite disagreeing with the thesis | I am invested in reading the next chapter about Roselight | referred-to
+  - Faust's early seasons of FiM | held up as the good model, where friendship grew from the grassroots | grassroots friendship in Faust's early seasons | referred-to
+  - The later Hasbro-mandate era of FiM | treated as a degradation into moral preaching, which the author says Pax Chrysalia's framing follows | became moral preaching in the Hasbro mandate later era | referred-to
+- order:
+- about: The author corrects the model's guesses about Cadance and Helvia, explains why Pax Chrysalia's trauma-and-kind-mother causation dissatisfies them as a model for TLTT by comparing it to the decline of FiM's later era, and says they still want to read the next Roselight chapter.

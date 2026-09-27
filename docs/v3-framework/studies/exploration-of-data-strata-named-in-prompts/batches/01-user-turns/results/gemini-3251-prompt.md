@@ -1,0 +1,4 @@
+- sources:
+  - YouTube video at the pasted link | material handed over for the model to work on, apparently the next video to process in the same way as the previous one; no further instruction is given | Https://youtu.be/FG0OH4wiqKY | first-named
+- order:
+- about: The user pastes a bare YouTube link with no comment, handing the model another video to process.

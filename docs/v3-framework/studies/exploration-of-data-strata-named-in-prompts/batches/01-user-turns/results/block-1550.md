@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the proposed simplified Gardener Mode display questions, arguing they should stay as rigorous as the Linking Mode question, and suggests routing quick, undisciplined capture to a separate author's notes track.

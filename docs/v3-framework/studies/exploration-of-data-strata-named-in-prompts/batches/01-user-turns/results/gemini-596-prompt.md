@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is probing the story logic of whether Trimmel would plausibly know about, ignore, or deliberately withhold the danger to the pony Bauleiters when he urges Applejack to take Vanhoover, without pointing the model at any body of material to draw on.

@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | treat as settled: they already hold the resolution of Applejack's annoyance at magic (Fleur Bloom reveals earth pony magic 11 years later), so the model should work within it | "this is resolved in my story plans" | referred-to
+- order:
+- about: The user pushes back on the model's take that Applejack is simply humbled, asking for lingering unspoken annoyance that leads into the Winter Wrap Up outburst, and says their story plans already resolve it with the later Fleur Bloom revelation about earth pony magic.

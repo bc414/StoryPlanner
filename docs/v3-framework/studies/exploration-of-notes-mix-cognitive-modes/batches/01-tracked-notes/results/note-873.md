@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology, god-mode statement of what is true in the universe) | the world has zero axial tilt, no obliquity | The world is a zero-obliquity world (no axial tilt) | outside
+  - outside all ten (world-rule ontology, god-mode statement of what is true in the universe) | as a law of the world, latitude alone determines each place's biome, which is perpetual and never changes | Latitude dictates a perpetual, unchanging biome | outside
+- goals:
+- whole: The note states, as an invariant world law, that the planet has no axial tilt and so each latitude holds one fixed biome, with no reader effect named.

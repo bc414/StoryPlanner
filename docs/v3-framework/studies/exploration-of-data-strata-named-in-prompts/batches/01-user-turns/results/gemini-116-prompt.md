@@ -1,0 +1,6 @@
+- sources:
+  - chapter 11, the 3rd battle of Tall Tale, the Canterlot betrayal, and the southern counter blitzkrieg | existing planned story material that the model is to elaborate on | Let's elaborate on chapter 11 | referred-to
+  - the initial plan for how chapter 11 ends (success and moral victory) | earlier plan the author is now revising; treat as outdated in favor of the twist ending | I was initially planning on having the chapter end with success | referred-to
+  - the next chapter | provisional suggestion for how it could go, a montage of the captured tanks rescuing allies and ending at Sweet Apple Acres | Then the next chapter can be a montage | referred-to
+- order:
+- about: The author asks the model to elaborate on chapter 11 and revises its planned ending into a reversal in which the Canterlot betrayal reveals the battle was a sideshow, then proposes a rescue montage for the following chapter.

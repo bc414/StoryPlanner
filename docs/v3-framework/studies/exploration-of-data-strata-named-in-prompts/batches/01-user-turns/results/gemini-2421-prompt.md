@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | review them and base an updated synthesis on them, correcting the model's claim that a Republic exists in chapter 17 | Please review my story plans | referred-to
+  - chapter 17 Breakthrough | used as the point in the story where the model's assumption is wrong: no Republic exists yet at that point | There is no Republic yet in chapter 17 Breakthrough | referred-to
+- order:
+- about: The user corrects the model's assumption that a Republic exists in chapter 17 and asks it to review their story plans and produce an updated synthesis.

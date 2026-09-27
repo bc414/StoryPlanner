@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds new story material to the Gilded Lily and Silver Sterling arrangement: they know of the hive wars through Acornage changelings, treat the changeling lands as an untapped market, keep KHG secretly aimed at Chrysalis's goal of uniting the hives, and die ten years into the Great Leap Forward, without pointing at any body of data for the model to use or avoid.

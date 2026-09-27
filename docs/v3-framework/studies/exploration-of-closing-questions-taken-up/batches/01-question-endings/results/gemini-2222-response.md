@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to go on to the software layer, and why the industry splits between PyTorch on Nvidia and JAX on Google? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states, as plain fact, that Princess Cadance is the Princess of Love and that the love powering the Crystal City shield is the same love changelings passively feed on, and this looks like a correction or addition to the model's synthesis, but it points at no source.

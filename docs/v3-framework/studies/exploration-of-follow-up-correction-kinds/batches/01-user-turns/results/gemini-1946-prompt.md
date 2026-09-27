@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the summary of the Idol of Boreas to a new request, giving a wiki link on the Griffonian Empire and asking for an analysis of how the Equestria at War developers adapted canon FiM lore, without commenting on the earlier answer.

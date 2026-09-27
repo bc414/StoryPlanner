@@ -1,0 +1,7 @@
+- questions:
+  - What the manticore of the title refers to: Blueblood, the neglected military capacity, the book club, or something else | ignored | none; the user turn does not mention the title or its symbol | none
+  - What Orion Star brings to the club and why she stays beyond reading the report | ignored | none; the user turn does not mention Orion Star | none
+  - Whether Sunmarble is a character connected to the wider story universe | ignored | none; Sunmarble goes unmentioned | none
+  - Whether the story is complete or a first installment | ignored | none; the user turn says nothing about the story's scope | none
+- shape: Redirects to the model's own terminology. The user asks for a refresher on the three-layer framework and for the reasoning behind the model's calling the story Layer 0. The request suggests the label was unclear or unexpected to them. It leaves the model's listed gaps about the story untouched.
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - When Rarity meets genuine Aquileian revolutionaries or diplomats in the WWI era, does she recognize them as cultural kindred spirits, or clash with them because their wartime radicalism threatens the Ponyville terroir she built? | no user turn | none | none
+- shape: none
+- settles:

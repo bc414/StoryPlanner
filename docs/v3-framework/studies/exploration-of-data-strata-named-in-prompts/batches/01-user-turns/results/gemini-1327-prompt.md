@@ -1,0 +1,7 @@
+- sources:
+  - the griffon and pony mixture setting of Aquileia | treat as the established setting the voltigeur concept must be fitted to | the griffon and pony mixture setting of Aquileia | referred-to
+  - the image of the voltigeurs | the concept the model just proposed, to be built on and adapted, not replaced | the image of the voltigeurs | referred-to
+  - the Coltbert Reforms | author's stated premise, treat as true: a rejection of social hierarchy that covers male and female griffons and ponies alike | the Coltbert Reforms are a rejection of social hierarchy | referred-to
+  - Coltbert's whole deviant personality | author's own account of the character, treat as true and as the basis for the reforms' gender angle: he is the loophole pony for female noble griffonesses | Coltbert's whole deviant personality is about being the loophole pony | referred-to
+- order:
+- about: The user asks how to work Aquileia's mixed griffon and pony population into the voltigeur concept, and adds the premise that the Coltbert Reforms open the ranks to both sexes and both species because of Coltbert's own character.

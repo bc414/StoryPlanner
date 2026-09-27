@@ -1,0 +1,4 @@
+- questions:
+  - Do the Changelings counter the Wonderbolts' fuel-restructuring advantage with dangerous chemical additives, such as nitrous oxide tanks or methanol-water injection on their Bf 109s, to keep up in speed? | ignored | The user turn asks a general factual question about what an oil refinery does and does not take up the Changeling counter-measures. | none
+- shape: Redirects to a side question: the user drops the offered Changeling-additives branch and asks for a plain explanation of what an oil refinery does, apparently to understand the background the model just used. It is a request for information, not a decision.
+- settles:

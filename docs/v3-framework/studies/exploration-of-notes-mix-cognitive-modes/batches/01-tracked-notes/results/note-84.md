@@ -1,0 +1,4 @@
+- claims:
+  - History | Both Réni and Minette are refused admission to the counterrevolution, stated as a fact of what happens in the world | They are both denied entry into the counterrevolution | no
+- goals:
+- whole: The note bluntly states, as a plain fact of the story's events, that Réni and Minette are both refused entry into the counterrevolution, without any remark on the planning work or any reader effect.

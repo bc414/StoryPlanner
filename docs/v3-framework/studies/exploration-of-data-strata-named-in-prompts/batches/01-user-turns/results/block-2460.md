@@ -1,0 +1,6 @@
+- sources:
+  - the story plan | consult it directly to answer why the changelings differ from the Tzinacatl | Refer to the story plan | referred-to
+  - what we established about the Tzinacatl institution for ecological stewardship | treat as settled premise from earlier in the conversation, the basis of the comparison | We established that the Tzinacatl had an institution for ecological stewardship | referred-to
+  - the changelings' history of harmony then ecological collapse leading to warring hives | take as the premise to be compared and explained against the Tzinacatl case | the changelings had harmony then ecological collapse which led to the warring hives | referred-to
+- order:
+- about: The user asks the model to explain, by consulting the story plan, why the Tzinacatl's ecological stewardship institution differs from the changelings' path of harmony, ecological collapse and warring hives.

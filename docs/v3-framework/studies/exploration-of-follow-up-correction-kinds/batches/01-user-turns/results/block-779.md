@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts "Unbridling" as the term and moves on to design how the Skyfall DRM equivalent works, supplying a large body of new worldbuilding about griffon messenger magic, squires and fealty, the Charitostatic Effect, and how it gets corrupted into a verifier.

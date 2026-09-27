@@ -1,0 +1,7 @@
+- sources:
+  - Claude's product positioning and product design philosophy | the model is asked to describe from its own general knowledge how this differs from the Gemini account it just gave; no weight beyond being the subject of the question | how does Claude's product positioning and product design philosophy differ | first-named
+  - Gemini 2.5 Pro at the time of that conversation | the author's own recollection, offered as a real, valuable boost to their abilities back then, now contrasted with the present | was a huge leap in augmenting my abilities | referred-to
+  - Gemini 3.1 Pro today | the author's current impression that it is unstable, with a tentative guess that its material workings changed; treat as provisional speculation, not established fact | now it's unstable to me, perhaps due to changes | first-named
+  - the model's previous answer about Gemini's design (implicitly built on) | the author reacts to it with a personal reading (Gemini as the stagnation of harmony in retrospect), taking it as a frame to compare against rather than correcting it | Sometimes it feels like Gemini is the stagnation of harmony in retrospect | referred-to
+- order:
+- about: The author asks the model to contrast Claude's product positioning and design philosophy with the Gemini account it just gave, while adding their own recollection that Gemini 2.5 Pro was a great help then and that Gemini 3.1 Pro now feels unstable, possibly because it changed.

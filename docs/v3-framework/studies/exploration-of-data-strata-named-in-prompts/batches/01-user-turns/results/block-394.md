@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user revises the proposed chapter structure by deciding Conscience will not be a chapter title, so the other five elements appear as titles and the sixth stays hidden for readers to discover.

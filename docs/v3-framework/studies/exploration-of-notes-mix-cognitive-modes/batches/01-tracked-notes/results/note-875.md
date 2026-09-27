@@ -1,0 +1,4 @@
+- claims:
+  - Canon | In the established source show (Faust's My Little Pony: Friendship is Magic), ponies deliberately control the weather | Ponies explicitly control the weather in Faust's FiM | yes
+- goals:
+- whole: The note records a single established-canon fact from the source show, that ponies control the weather, as the base the technology builds on.

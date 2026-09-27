@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to walk through mapping a multi-step Google Labs workflow to automate data extraction? | ignored | The user turn asks a new question, about how Gems from Labs differ from AI Studio, and says nothing about the offered walkthrough. | none
+- shape: Redirects to a new comparison question: it moves from Classic Gems vs Labs Gems to Labs Gems vs AI Studio, leaving the offered workflow walkthrough untouched.
+- settles:

@@ -1,0 +1,5 @@
+- questions:
+  - How does the Equestrian Republic communicate the difference between Rockfeller's extractive capitalism and Comet Shine's Harmonic Capitalism to a frightened agrarian electorate, given 80 years of viewing heavy industry as Griffon Greed, without provoking a Luddite backlash? | no user turn | none | none
+  - Once the Republic reintroduces friction through democratic debate, free markets and democratized magic, what structural safeguards stop the liberated population from splintering into the tribalism and resource-hoarding both Celestia and Chrysalis feared? | no user turn | none | none
+- shape: none
+- settles:

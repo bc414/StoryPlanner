@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to move the document to AI Studio to see if it catches the narrative details the Gem missed? | ignored | Doesn't say yes or no; instead raises a different option, using a $300 GCP sign-up credit, as an alternative to the free AI Studio tier. | What about for making use of a $300 sign up credit for GCP?
+- shape: Redirects to a different option. The user skips the offered AI Studio move and asks whether the $300 GCP sign-up credit could be used for the long-document problem. It is a short question back to the model, not an answer.
+- settles:

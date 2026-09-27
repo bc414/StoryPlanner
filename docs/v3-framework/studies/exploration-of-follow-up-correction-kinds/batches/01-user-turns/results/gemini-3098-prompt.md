@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking about existing MLP fanfics that resemble their lore about Coltbert's games, without disputing anything in the model's genre analysis.

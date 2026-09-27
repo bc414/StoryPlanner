@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's closing point about institutions choosing development or extraction and ties it to their story's thesis that material conditions, not moral exhortation, shape behavior and that conscience outperforms extraction, extending the discussion instead of disputing it.

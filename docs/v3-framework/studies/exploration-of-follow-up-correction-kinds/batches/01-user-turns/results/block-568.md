@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's IP discussion and extends it with their own theorizing, asking whether R&D cost anxiety and the pharmaceutical IP rationale come from shareholder capitalism and extractive taxation, and how Harmonic Capitalism would differ, without saying the model was wrong.

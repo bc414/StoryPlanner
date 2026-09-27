@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the punishment for a pony who forgot his place as mere social exclusion (a blacklist) that only foreshadows the later literal spell. The user says that in a non-republic kingdom ruled by nobles it would be legal and violent: arrest, fines, hanging. | "it has to be more sinister than just a blacklist" because "the Kingdom is not a Republic yet" | stated flatly as a needed revision, with the political reason given, and framed as an addition to Part 1 rather than as a rebuke
+- about: The user amends the model's Part 1 analysis by raising the penalty for uppity stallions from a blacklist to state violence, then adds new material: stallions keep their own tableaus as trophy shelves, stamped with the griffonesses' maiden coats of arms, and the user checks whether the husbands would care.

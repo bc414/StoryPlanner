@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | At the start of the story the reader meets her as a resilient, optimistic beacon against the changeling invasion, the opening point of the opinion arc | starts the story as a shining beacon of resilience and optimism in the face of the changeling invasion | yes
+  - History | Early industrialists cheated their customers with weighted scales, a fact of the world's past that she later reveals | later on she reveals how the early industrialists were cheats with weighted scales | no
+  - Characterization | She still carries a grudge against ruthless industrialists, a hidden trait that runs against her sunny surface | she still holds an unharmonic grudge against ruthless industrialists | no
+- goals:
+- whole: The note lays out the character's arc in reading order, from a bright optimistic first impression to a later reveal of industrial-era cheating and her lasting grudge, without saying what the reader is to feel or conclude.

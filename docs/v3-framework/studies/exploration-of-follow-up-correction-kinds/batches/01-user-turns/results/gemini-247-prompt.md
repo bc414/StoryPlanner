@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new question about whether the addiction-and-rehab lore the model just laid out could be shaped into commentary on, or a solution to, the real-world fentanyl and drug crisis, and does not challenge anything in the model's turn.

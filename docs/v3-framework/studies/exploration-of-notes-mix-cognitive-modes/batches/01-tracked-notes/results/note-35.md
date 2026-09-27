@@ -1,0 +1,5 @@
+- claims:
+  - History | Twilight learned the value of friendship in the Everfree Forest, reported as a past event | She learned the value of friendship in the Everfree Forest | yes
+  - Canon | The event is tied to the established source episode, Friendship is Magic part 2, which constrains the backstory to canon | (the canon episode Friendship is Magic part 2) | no
+- goals:
+- whole: The note records a pre-story event in Twilight's past as a historical fact and anchors it to the canon episode it comes from.

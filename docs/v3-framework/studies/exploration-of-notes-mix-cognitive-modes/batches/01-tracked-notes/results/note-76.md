@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Pagala holds an informal leadership position among the statthalters and, as a result, plans further ahead than the others do | As the unofficial leader of the statthalters, Pagala has slightly more long term planning than the rest | yes
+- goals:
+- whole: The note asserts as a truth about the character that Pagala, the unofficial leader of the statthalters, plans somewhat further ahead than the rest.

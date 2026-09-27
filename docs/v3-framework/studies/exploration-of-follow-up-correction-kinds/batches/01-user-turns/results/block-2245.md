@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the subsidy discussion by asking how OpenAI and Google compare to Anthropic, offering their own shifting views on Google's throttling, usage limits, customer bases and ownership without disputing anything the model said.

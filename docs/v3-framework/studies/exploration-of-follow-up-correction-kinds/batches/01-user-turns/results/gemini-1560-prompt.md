@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets the story aside and asks a new factual question about where the city name Tall Tale in the Equestria at War mod comes from, whether the devs invented it or took it from canon or fanon, without saying anything in the model's title analysis was wrong.

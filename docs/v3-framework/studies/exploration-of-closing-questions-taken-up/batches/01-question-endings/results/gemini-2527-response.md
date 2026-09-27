@@ -1,0 +1,8 @@
+- questions:
+  - When Stalliongrad wins in 995 and finds the Love Harvesters in the Boyar gulags, do they publicize it to the world or keep it a state secret to reverse-engineer the technology? | refused | The user does not choose between publicizing and secrecy. They drop the premise: the gulags were never built and the harvesters were never moved there, so there is nothing for Stalliongrad to find. | the gulags "were never built"; Chrysalis "never moved the love harvesters"
+- shape: The user corrects the model's premise and revises the plan. They reject the Severyanan gulag black-site setup that the model built its 995 sequence on. In its place they propose that the Pink Love supply come from Skyfall, either bought prisoners or harvesters run there. They also say the Boyars fled to Skyfall in the Winter Revolution. The model's closing question is left unanswered because it no longer applies.
+- settles:
+  - The Severyanan gulags were never built, and Chrysalis never moved the love harvesters into them. | "gulags (which were never built)"
+  - In the Winter Revolution the Boyars fled to Skyfall rather than staying to run dungeons. | "Boyars ran for their lives to Skyfall"
+  - Even before Severyana, Chrysalis may source Pink Love from Skyfall. Either she pays Skyfall private prisons to ship inmates to the hives, or she runs the harvesters in Skyfall. This is floated as an option, not fixed. | "How about if even before Severyana, Chrysalis pays Skyfall private prisons"
+  - Chrysalis wants her harvester technology kept inside her own borders. This is given as the user's reasoning for the plan. | "she would not want her tech outside her borders"

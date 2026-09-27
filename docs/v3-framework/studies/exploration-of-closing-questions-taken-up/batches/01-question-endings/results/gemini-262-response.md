@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the final polished Chapter Outline, with the thematic notes included as a writing reference? | ignored | The user doesn't say yes or no to the outline offer. They go back to the theme and ask whether it's right. | none
+- shape: The user doesn't answer the offer. They restate the model's thematic conclusion as a question, that the TeiJack relationship is the bulwark against Nightmare Moon-style corruption, and praise it. This checks their own understanding and expresses approval. It moves nothing forward and gives no instruction.
+- settles:
+  - The user accepts the reading that the TeiJack relationship is what guards against Nightmare Moon-style corruption, and treats it as the story's thematic core. The acceptance is phrased as a question plus praise, not as an instruction. | "the TeiJack relationship is the bulwark against the corruption of Nightmare Moon? This is so good."

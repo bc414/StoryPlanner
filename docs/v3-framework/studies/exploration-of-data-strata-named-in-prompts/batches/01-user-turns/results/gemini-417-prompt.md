@@ -1,0 +1,6 @@
+- sources:
+  - this new context (the preceding analysis of King Discret, his delusion and the MPA) | build on it and use it as the basis for the answer | With this new context | referred-to
+  - the author's stated premise that Gaudreau and Vérany have a deal ahead of the revolution and it is a joint, simultaneous FJA and PNdA revolution with no civil war | treat as settled fact of the story that the answer must work within | should have a deal ahead of the revolution. They don't want a civil war. It's a joint FJA PNdA simultaneous revolution | first-named
+  - shared belief in productive meritocracy | tentative idea from the author as the possible basis for the deal, open to being confirmed or changed | I guess it's about shared belief in productive meritocracy | first-named
+- order:
+- about: The user asks the model, building on the Discret analysis, how Gaudreau can offer the city an olive branch after the revolution and how she and Vérany could reach a pre-revolution deal for a joint uprising, tentatively suggesting shared belief in productive meritocracy as the basis.

@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | Rarity stands as the Rehabilitation of Ambition, a thematic role in the story's treatment of ambition | Rarity represents the Rehabilitation of Ambition | none in the note's words; the track question asks about the start of TLTT, but the note does not say the role is limited to that point
+  - unfixed | Her role is defined by contrast with Celestia, who stands for suppressing ambition to prevent abuse, whereas Rarity stands for rehabilitating it | While Celestia represents the Suppression of Ambition (to prevent abuse) | none
+- beside: none

@@ -1,0 +1,4 @@
+- sources:
+  - my Aquileian backstory with the Royalists, Gerad Discret, Coltbert and the lionesses and chasseurs | keep intact; the new Equestria and Grover III material has to fit around it without overwriting it | still is preserved | referred-to
+- order:
+- about: The user proposes New Horseleans as a refugee-settled swamp port tied to the drug tribes and Coltbert's parloir exports, then asks how Celestia and Grover III would handle the abuse of Aquileian ponies while keeping their existing Aquileian backstory intact and Aquileia ignorant of Equestria, and whether that is possible.

@@ -1,0 +1,6 @@
+- sources:
+  - V4 | the prior prompt version to be revised into V5; its framing of characters as real historical figures is rejected, its ban on meta-commentary is only partly kept | explaining what changed from V4 | referred-to
+  - the model's earlier explanation of the V4 meta-commentary ban (You said: ...) | partly disagreed with; keep the ban on 'the story' and 'the reader' and on pacing praise, but reject treating characters as real historical figures and want a literary critic instead | It seems like I want a middle ground | referred-to
+  - V3 | earlier prompt version to be compared against V5 | Also compare V5 to V3 | referred-to
+- order:
+- about: The user corrects the model's V4 prompt by saying he reads and edits the output himself and only wants assistant artifacts and glazing removed, while keeping a helpful, non-textbook tone and a developmental-editor and literary-critic stance toward story characters, and asks for a V5 with changes from V4 explained and a comparison to V3.

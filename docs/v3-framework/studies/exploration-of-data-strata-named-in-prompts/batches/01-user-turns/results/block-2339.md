@@ -1,0 +1,4 @@
+- sources:
+  - my story plan | the body of material the model is to survey and draw on, finding the parts that are unique, unprecedented and earned | other parts of my story plan | referred-to
+- order:
+- about: The user asks the model to go through the rest of their story plan and pick out other parts that are as unique, unprecedented and earned as the Fluttershy Stare scene it has just assessed.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up historical question about whether the collaborator reasoning of Applejack in P&K matches Pétain's actual thinking in 1940, building on the parallel the model drew without challenging it.

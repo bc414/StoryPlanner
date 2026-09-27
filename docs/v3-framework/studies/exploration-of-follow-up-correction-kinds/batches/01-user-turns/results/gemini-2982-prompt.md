@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, wanting to know where Oracle and other major players fit into the distribution picture the model laid out, without challenging anything the model said.

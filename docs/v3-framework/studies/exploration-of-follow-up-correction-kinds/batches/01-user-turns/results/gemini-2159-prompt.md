@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether later, post-black-powder weapons would still depend on potassium, building on the model's saltpeter chemistry without disputing it.

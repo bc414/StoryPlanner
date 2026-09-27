@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the submarine-detection idea as a wide strategic tool for countering the blockade, needing industrial-scale hull matrices. The user meant short-range detection during a naval engagement. | won't be for hunting subs across the ocean but to ... detect subs during naval combat | Soft, understated restatement of the intended scope, hedged with 'I imagine'.
+  - fact of the world | The model put the device on Royal Aquileian destroyers, with Tzinacatl operators inside the hull. The user places thestrals on the new cloud carriers. | to have thestrals onboard the new cloud carriers | Plain substitution of the correct platform and crew, with no reason given and no explicit rejection of the destroyer version.
+- about: The user narrows the model's expansive anti-submarine extension to a tactical use, with thestrals aboard the new cloud carriers detecting subs during fleet combat, and does so briefly and mildly.

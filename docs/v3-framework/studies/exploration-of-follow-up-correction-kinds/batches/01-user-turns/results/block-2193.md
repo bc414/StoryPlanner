@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches an early planning document and asks a new question: how much of the ASOIAF subversion the model described was already present in that early document, and how much of it still follows ASOIAF conventions.

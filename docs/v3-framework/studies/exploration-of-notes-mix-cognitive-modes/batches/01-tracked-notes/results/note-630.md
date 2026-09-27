@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Fizzlepop's villainy is not gratuitous; she is truly a brutal pragmatist | isn't evil for the sake of it; she is a brutal pragmatist | yes
+  - History | Statthalter merchants were treating Zebrica as a meat market, which she witnessed | She saw the Statthalter "merchants" treating Zebrica like a meat market | no
+  - Characterization | She joined the Storm King for a reason: his horde was the only force able to stop the external slaving fleets, so her allegiance comes from pragmatic calculation | She joined the Storm King because his "Join or Die" horde was the only military force capable of stopping the external slaving fleets | yes
+- goals:
+- whole: The note asserts who Fizzlepop is at the start of TLTT, a brutal pragmatist rather than a gratuitous villain, and grounds this in what she witnessed in Zebrica and why she allied with the Storm King.

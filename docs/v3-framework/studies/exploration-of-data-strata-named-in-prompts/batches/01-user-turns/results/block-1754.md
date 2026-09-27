@@ -1,0 +1,4 @@
+- sources:
+  - this context, the model's preceding description of Vaspier as an ascetic 2nd-generation True Believer | the term is to be explained as used in that passage, so treat the previous answer as the frame that sets the word's meaning | What does ascetic mean in this context? | referred-to
+- order:
+- about: The user asks the model to explain what the word ascetic means as it was used in the model's previous description of Vaspier.

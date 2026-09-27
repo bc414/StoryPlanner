@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Thorax's upbringing in the rat race made him a standard jaeger who performed the usual cognitive dissonance to justify his station | Since Thorax grew up in the rat race he would be a standard jaeger who had to do all the typical cognitive dissonance | yes
+  - Characterization | Thorax believed he was objectively superior, deserved his rank over the drones, and deserved to feast on the wedding's love | He believed he is objectively superior and deserves his rank over the drones and to feast on the wedding's love | yes
+- goals:
+- whole: The note asserts, as psychological fact, that Thorax begins the story as a typical jaeger whose rat-race upbringing led him to rationalize his superiority and entitlement over the drones.

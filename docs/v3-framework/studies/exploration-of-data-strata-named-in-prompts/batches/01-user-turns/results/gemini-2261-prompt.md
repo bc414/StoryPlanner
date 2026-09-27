@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumption that Applejack's parents ran the preservers guild, and states their own version of the family's history: farming until AJ was 9, resenting the Apple-Pear feud, taking the Skyfall offer, and moving to Manehattan when AJ was 11.

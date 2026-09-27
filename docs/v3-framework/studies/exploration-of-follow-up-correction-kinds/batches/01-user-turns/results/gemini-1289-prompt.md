@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about how to stage the Aquileian tribes conference, proposing that Rarity and Flowing Current are already there offering war bonds while Comet Shine arrives to sign, and adding the tribes' skepticism about Celestia's token reforms as the central problem.

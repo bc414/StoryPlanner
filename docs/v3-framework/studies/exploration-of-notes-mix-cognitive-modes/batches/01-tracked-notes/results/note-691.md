@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | 2nd-gen pegasi's flight was repressed by their traumatized, flightless 1st-gen parents, so they wanted to fly at all cost | 2nd gen Aquileian Royalist pegasi flight was repressed by their traumatized, flightless 1st gen Royalist parents and therefore wanted to fly at all cost | yes
+  - Characterization | Leaving the Foyer to become stunt flyers is a voluntary weaponizing of their flight | When they voluntarily leave the Foyer to become stunt flyers, they are weaponizing their flight | yes
+  - Characterization | The behavior is 'Ego-Deviancy': they fly not for utility but to display untouchability and vanity aggressively | It is an act of "Ego-Deviancy"—they fly not for utility, but to aggressively display their untouchability and vanity | yes
+- goals:
+- whole: The note asserts as psychological truth what binds the 2nd-gen Royalist pegasi: flight repressed by their parents' trauma becomes a vain, aggressive display of untouchability as stunt flyers.

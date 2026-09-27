@@ -1,0 +1,8 @@
+- sources:
+  - Chapter 1 Acornage visit, as the user now proposes it | provisional suggestion offered as a what-if for the model to consider, not settled | "What if, during the Acornage visit in Chapter 1" | referred-to
+  - pre-industrial changeling lands plan (frozen northern hives, friendship-based feeding, celestia reveals it) | the user's own plan, given as the ground to reason from | "Here is what I planned for pre-industrial changeling lands" | first-named
+  - changeling biology notes (love types, silk, emotion sense, jaeger geist, Predator's Dilemma, hive history) | the user's own planned canon, given as the ground to reason from | "And for changeling biology:" | first-named
+  - reformed changelings of season 7-9 | do not take their reform or their canon; only the colorful-silk look is compared | "I am not taking the reformed changelings at all" | referred-to
+  - imagined state of Chrysalis's upbringing era, with hereditary warlord elites (she was born in 951) | tentative idea of the user's, offered as the premise of the closing question | "I imagined that by the time of Chrysalis's upbringing" | first-named
+- order:
+- about: The user proposes a revised Chapter 1 Acornage scene for Chrysalis, supplies their planned pre-industrial changeling society and biology, and asks whether her meritocratic mother would be an exception or the norm among hereditary warlord elites.

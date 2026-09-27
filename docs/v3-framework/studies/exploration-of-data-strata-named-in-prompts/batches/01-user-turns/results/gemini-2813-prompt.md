@@ -1,0 +1,4 @@
+- sources:
+  - the same principles (the vacuum and air-resistance separation logic behind the three-way valve, from the preceding exchange) | treat as already established and extend to the griffon stabilization machines, asking whether they carry over | The same principles apply | referred-to
+- order:
+- about: The user asks whether the vacuum-separation principle just worked out for the rifle's three-way valve also explains why griffon artisan stabilization machines for low-grade crystals must run in a vacuum, and offers their own distinction between a miniature valve on already-fluid magic and puncturing solid crystal.

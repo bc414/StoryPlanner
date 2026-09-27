@@ -1,0 +1,4 @@
+- sources:
+  - my new system prompt for phase 0 (the pasted Role/Task/Constraints text, called 'the instructions') | the material under review; the model is to examine its wording to judge whether it caused the paradigms to come out too vague or abstract and to leave out chronology | Here is my new system prompt for phase 0 | first-named
+- order:
+- about: The user pastes their revised Phase 0 system prompt and asks whether its instructions made the generated paradigms too vague or abstract, since chronology, which they consider most important, no longer appears.

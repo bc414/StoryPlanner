@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a wiki link for the source empire and asks the model to analyse it and synthesise the Aquileian response, then say which elements best serve the setup they want, without stating that the previous turn was wrong.

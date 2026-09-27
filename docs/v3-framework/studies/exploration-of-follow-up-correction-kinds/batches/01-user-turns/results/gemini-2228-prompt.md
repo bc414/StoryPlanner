@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's advice to read the prequels after the main story as given and asks a follow-up conceptual question about how knowing the outcome changes the effect of a prequel, and whether that effect has a name.

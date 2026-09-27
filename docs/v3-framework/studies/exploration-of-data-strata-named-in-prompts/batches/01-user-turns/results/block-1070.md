@@ -1,0 +1,6 @@
+- sources:
+  - my story's allegories / TLTT | the story whose allegories are said to come from the post-WW2 period, and whose audience reception is to be judged against other works; treated as the subject being analysed | where my story's allegories come from; how will different people feel about TLTT | referred-to
+  - everything since WW2 | the period the model is to trace across generations as the origin of the story's allegories | Trace everything since WW2 as those are where my story's allegories come from | first-named
+  - The Princess and the Kaiser, ASOIAF, Squid Game | mainstream grimdark deconstructions to compare TLTT against for how audiences will react; not material to draw content from | grimdark deconstruction like the Princess and the Kaiser or ASOIAF or Squid Game which are mainstream | first-named
+- order:
+- about: The user asks the model to trace generational childhood conditions and other social factors such as income inequality and cynicism since WW2, the source of the story's allegories, and to predict how different audiences would respond to TLTT versus mainstream grimdark deconstructions.

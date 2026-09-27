@@ -1,0 +1,4 @@
+- sources:
+  - commit history | material to be analyzed by the tool, read-only analysis rather than agent mode, to inform fixing the planner's foundation | analysis of the commit history (not using it for agent mode) | first-named
+- order:
+- about: The user explains that the planner app needs a foundation iteration to organize the story plan's data better, and asks whether Claude Code or another tool could be used to analyze the app's commit history without agent mode.

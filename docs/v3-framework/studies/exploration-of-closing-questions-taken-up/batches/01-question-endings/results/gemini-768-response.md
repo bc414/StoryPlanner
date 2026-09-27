@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look into how different dinner types (high-carb vs. high-protein) change the body's response to a post-meal walk? | ignored | Says nothing about food types or a follow-up; turns to ask about the model's own choice of examples in an earlier sentence. | none
+- shape: Redirects to a new question about the model's wording, asking why it picked coding and writing as its examples of complex projects. It probes the model's reasoning and leaves its offered follow-up alone.
+- settles:

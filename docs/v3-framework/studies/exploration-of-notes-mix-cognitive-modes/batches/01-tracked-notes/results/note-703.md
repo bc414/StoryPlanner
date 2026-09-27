@@ -1,0 +1,4 @@
+- claims:
+  - History | The party's members lynched their tycoons soon after the war started, reported as an event that happened | They lynched their tycoons shortly after the war begins | no
+- goals:
+- whole: The note states as a plain in-world fact that the Baltimare Communist Party lynched its tycoons soon after the war began, without planning how the reader experiences it.

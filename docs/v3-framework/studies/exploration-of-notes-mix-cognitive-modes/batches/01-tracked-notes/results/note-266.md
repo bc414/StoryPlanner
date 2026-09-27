@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | asserts the true binding logic of the Equestrian Army: its strength comes from asset specificity and solidarity, not from conscription or a horde aesthetic | strength is not from conscription or horde aesthetics but from asset specificity and solidarity | yes
+- goals:
+- whole: The note asserts, as a psychologist would, what actually holds the Equestrian Army together: asset specificity and solidarity rather than conscription or horde imagery.

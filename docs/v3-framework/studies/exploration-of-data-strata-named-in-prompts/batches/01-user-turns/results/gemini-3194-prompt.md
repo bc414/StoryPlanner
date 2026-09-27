@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its Sonnet-versus-Opus comparison to Gemini Flash versus Gemini Pro, without pointing at any body of material to use.

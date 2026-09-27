@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's argument about the main story's primacy to list the prequels they plan to tackle after it, and adds their own reservation about doing a Luna prequel.

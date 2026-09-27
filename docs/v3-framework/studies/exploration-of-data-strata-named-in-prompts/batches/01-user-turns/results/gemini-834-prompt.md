@@ -1,0 +1,4 @@
+- sources:
+  - these later chapters | the material the model is to analyze for perspective; the object of the analysis | Please analyze these later chapters for perspective | first-named
+- order:
+- about: The user asks the model to run a perspective analysis on a further set of chapters they are supplying.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adopts the "Hearth's Warming Bonds" branding from the model's turn, builds on it with the sanitized-legend versus archival-strike layer, the 5/6ths rule and the War Bonds to Hearth's Warming Bonds arc across Rarity's meetings with Celestia, and then asks a new question about the etymology of "bond".

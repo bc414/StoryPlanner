@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's picture of rival Skyfall shipping companies openly sinking each other's freighters and fighting corporate naval wars. The user says this doesn't fit the setting's rugged individualism, and that the nation's shared dependence on the Skyfall Mark and its naval superiority would rule it out. | "I don't think the Skyfall rival shipping companies engaging each other in open war would make sense" | Stated as personal doubt, with rhetorical questions about how it could work, a tentative alternative (cold war, mutually assured destruction), and a hedged reason ('I guess') tying it to the Mark.
+- about: The user rejects the model's premise that Skyfall's corporations wage open naval war on each other, and floats a cold-war or mutual-dependence rationale tied to the Skyfall Mark instead.

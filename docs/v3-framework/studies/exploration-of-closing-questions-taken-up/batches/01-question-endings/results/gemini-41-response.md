@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an analysis of the character dynamics between Twilight and Cadance in the Prelude section? | no user turn | none | none
+- shape: none
+- settles:

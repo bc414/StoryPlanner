@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offer and asks for the Phase 1 prompt to be rewritten with the intersection-bucket logic, plus an explicit list of which axes are relational, without disputing anything the model said.

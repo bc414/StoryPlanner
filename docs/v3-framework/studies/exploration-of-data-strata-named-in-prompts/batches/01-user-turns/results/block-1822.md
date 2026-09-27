@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether Chrysalis's New Order should be split into constituent subjects and what criterion keeps related items separate rather than folded into it, without pointing at any body of material to draw on.

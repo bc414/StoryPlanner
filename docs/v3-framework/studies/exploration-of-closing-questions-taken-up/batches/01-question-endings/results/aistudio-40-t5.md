@@ -1,0 +1,5 @@
+- questions:
+  - How do Fleur's parents react to her later success at Pridea and Star Energy: do they embrace her ambition or stay afraid it will draw new predators? | ignored | The user turn says nothing about the parents and moves to real-world inspirations for Fleur. | none
+  - When Fleur meets Applejack, does she feel jealousy or cognitive dissonance at Applejack's organic bond with the soil? | ignored | Nothing about Applejack or Fleur's feelings toward her; the turn asks about historical figures instead. | none
+- shape: Redirects to a new topic: asks the model for real-world historical figures (Fritz Haber, French figures, Marie Curie) who might inspire Fleur. It is a set of open questions put to the model, and it leaves the model's two questions and its backstory analysis unremarked.
+- settles:

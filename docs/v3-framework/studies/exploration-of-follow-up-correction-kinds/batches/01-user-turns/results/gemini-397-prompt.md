@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's timeline as given, asks what it means for Rodier's 1008 platform and his coalition partners, and asks whether the FJA should offer the city workers a reconciliation gesture.

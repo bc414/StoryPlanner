@@ -1,0 +1,7 @@
+- questions:
+  - Does the v2 subject view currently show Unassigned and typed-track notes all at once with no filtering, so that separation within one database is a problem? | ignored | Nothing on what the subject view shows or whether it can filter. The user rejects in-place work and asks for separation whatever the UI does. | none
+- shape: Pushes back on the model's proposal. It rules out more v1 engineering, restates that two separate v2 databases are wanted, and gives the reason: the data models are meant to diverge. It then instructs the model to write an analysis and list the gaps in its understanding for the user to clarify.
+- settles:
+  - No more software engineering work on v1, so the v1 app cannot be extended as the reference or audit tool | I don't want to do software engineering work on v1 anymore
+  - The work stays separated: v2 with migrated v1 data and a clean v2 stay as distinct things, not merged or done in place | I don't want to do this in place, I want it separated
+  - The data model divergence between the two is intentional, because subjects need consolidation and new ones need creating in the clean copy | divergence is intentional between v2 with v1 data and clean v2

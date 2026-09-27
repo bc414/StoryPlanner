@@ -1,0 +1,7 @@
+- questions:
+  - How does Applejack process the guilt of seeing that her defensive victories at Tall Tale and the Bluebell River wiped out a generation of Changelings? | ignored | Says nothing about Applejack's guilt or psychology. It goes to real-world demographics and the Changeling lands' model. | none
+  - How does Twilight use the data on Chrysalis's MEFO bills to show Applejack the collapse was fascism's mathematical inevitability and not a sin of the Republic? | ignored | Does not touch Twilight, the MEFO bills, or the argument about the collapse's cause. | none
+  - How does Applejack, as Harmonic Capitalism's representative, dismantle Velvet's pragmatic-survivor excuse and show that her collaboration subsidized the Stalliongrad meatgrinder? | ignored | Does not mention Velvet, Olenia, or the liberation confrontation. | none
+- shape: Redirects and corrects. The user skips the Socratic questions and asks for a different historical comparison set (China, Japan, Korea, with the continuing civil war and the Korean War). They also push back on the model's picture of a hollowed-out Germany by saying they imagined the Changeling lands as more like the Japanese home islands.
+- settles:
+  - The Changeling lands are conceived as being like the Japanese home islands, not a hollowed-out Germany. | I also imagined the changeling lands being more like the Japanese home islands instead of a hollowed out Germany

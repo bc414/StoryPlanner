@@ -1,0 +1,5 @@
+- claims:
+  - PageDesign | the scene opens on the page with the spoken name Minette, called out by another | Starts with "Minette!" | no
+  - NarrativeArchitecture | the scene is to be experienced from a viewpoint like that of a pokemon being addressed and handled by its trainer, shaping how the reader inhabits the filly's perspective | The perspective is as if she's a pokemon! | no
+- goals:
+- whole: The note gives the author two quick crafting reminders for the head-pat scene: open on the called name "Minette!" and frame the perspective as a pokemon's, without stating any reader effect.

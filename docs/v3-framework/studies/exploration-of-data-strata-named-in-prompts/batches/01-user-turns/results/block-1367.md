@@ -1,0 +1,10 @@
+- sources:
+  - chapters 3 and 4, pasted in | use as the full context for a fresh reanalysis, and read the hard-truth idea from it | I have pasted in the actual context of chapters 3 and 4 | first-named
+  - the Kemerskai and Gilded Trust public debate details, pasted in | use as context for the honesty arc and the Kemerskai lesson | I have also pasted in those details | first-named
+  - my cliff scene reading (Friendship is Magic Part 2) | treat as the new ground truth of Faust's Applejack and build the Kemerskai lesson on it as a scaling-up | If my cliff scene reading is the new ground truth of Faust's Applejack | referred-to
+  - AJ not sure about relational truths | treat as an open question to test against the new material, not as an assertion; keep it only if it holds | Hold that not as an assertion but a question to evaluate | referred-to
+  - what I meant by hard truth | the author's own clarification, to replace the earlier reading: it means some will get hurt and die and they can't keep hiding in the nursery | what I meant by "hard truth" is about | referred-to
+  - the earlier reading of hard truth as perceiving military logistics | treat as wrong for this character; Applejack lacks military logistics and relies on Henri for it | not about perceiving military logistics | referred-to
+- order:
+  - chapters 3 and 4, pasted in over the earlier reading of hard truth as perceiving military logistics | the reanalysis is to use the full context and the author's clarified meaning instead of that reading | Give a reanalysis using the full context
+- about: The user asks for a reanalysis of Applejack's cliff scene, her Kemerskai honesty arc and the \"relational truths\" idea, using the newly pasted chapters 3 and 4 and the debate details, correcting what \"hard truth\" meant and proposing that Kemerskai's lesson scales up her original psychology rather than teaching her something foreign.

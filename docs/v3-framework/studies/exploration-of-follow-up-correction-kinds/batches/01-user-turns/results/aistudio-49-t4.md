@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model set the Apple and Pear families as farmers out in their orchards shipping crops to Manehattan, but the user places them as refugees housed by Bright Mac and Pear Butter at the company headquarters/mansion | Apples and Pears who are refugees at their company headquarters/mansion | flat statement of the setup, offered in passing with no mention of an error
+  - reading of the plan | The model made the competitive leaderboard the thing that turns the feud into productive cooperation, while the user names shared struggle as what unites the two families | Shared struggle unites them | terse flat assertion that replaces the model's mechanism, without saying the model was wrong
+- about: The user gives a short worldbuilding statement that the families are refugees hosted at the company mansion and united by shared hardship, which reframes the setting and unifying mechanism the model had assumed without engaging its questions.

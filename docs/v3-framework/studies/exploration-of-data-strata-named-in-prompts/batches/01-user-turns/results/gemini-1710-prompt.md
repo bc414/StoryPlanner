@@ -1,0 +1,4 @@
+- sources:
+  - EaW lore about Dennis Discret being a pirate and shelling Pridea | existing established lore the model should treat as true and fit the new Skyfall-privateer idea alongside | There is specific lore in EaW about Dennis Discret being a pirate and shelling Pridea | first-named
+- order:
+- about: The user proposes, as a what-if, that Moriset Discret hired Skyfall privateers who leveled Aquileian bourgeois universities to protect Skyfall's industrial monopoly, cites EaW lore about Dennis Discret shelling Pridea as related background, and adds that the royalist-aligned University of Pridea where Coltbert works was the one spared.

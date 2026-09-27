@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn does not respond to the letter-system analysis or the calibration notes. It moves to the next step: which workflow to use now that the track program is built. It asks the model three workflow questions (how to draft subjects against the v1 notes, whether to migrate the v1 notes, and how to handle plot points and links). It then asks what information the model needs from the user to fill gaps without inventing anything. This redirects the conversation to process and tooling.
+- settles:

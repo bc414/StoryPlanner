@@ -1,0 +1,5 @@
+- sources:
+  - official text from EaW about Flowing Current and EEEE!, the Lunar Civil War path (events 206, 207, 226) | treat as the official reference; the model is to measure the user's ideas against it | Here is the official text from EaW | first-named
+  - my new ideas (the user's own EEEE!/Flowing Current material developed in the conversation) | the thing to be assessed by comparison with the official text; not treated as settled | How do my new ideas compare? | referred-to
+- order:
+- about: The user pastes the official Equestria at War event text for Flowing Current and EEEE! on the Lunar Civil War path and asks the model to compare their own new ideas against it.

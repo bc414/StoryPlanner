@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (god-mode world rule) | The rafts' users navigate rapids at night and in darkness and detect submerged rocks by echolocation, stated as a standing fact of how the technology works | They use echolocation to navigate the rapids at night and in the dark and to detect submerged rocks | outside
+- goals:
+- whole: The note states as a plain rule of the fictional universe what the rafts' echolocation lets users do, namely navigate dark rapids and detect submerged rocks, with no reader effect named.

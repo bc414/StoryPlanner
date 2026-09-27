@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants to brainstorm how Applejack counters Velvet's economically grounded argument during the liberation of Olenia | no user turn | none | none
+- shape: none
+- settles:

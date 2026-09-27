@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the full comparative analysis of Pax Chrysalia (what it depicts, what EaW conventions it inherits, how TLTT subverts each, and how that ties to the three-position framework) done now or flagged for a future session | no user turn | none | none
+- shape: none
+- settles:

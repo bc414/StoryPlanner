@@ -1,0 +1,7 @@
+- sources:
+  - the actual story plan | treat as the authoritative ground; the analysis must be anchored in it and corrected against it (e.g. Pinkie is not on the train) | "ground it in the actual story plan" | referred-to
+  - Pinkie's arc about resilience | read it (again) and use it as the basis for how Pinkie is handled in the analysis | "read her arc about resilience" | referred-to
+  - the model's previous analysis | treat as good but needing a reread and revision against the plan | "This analysis is good but please reread" | referred-to
+- order:
+  - the actual story plan over the model's previous analysis | the analysis is to be reread and grounded in the plan, with the Pinkie-on-the-train claim corrected
+- about: The user approves the earlier analysis but asks the model to reread it and rework it so it is grounded in the actual story plan, correcting the error that Pinkie is on the train and drawing on her resilience arc.

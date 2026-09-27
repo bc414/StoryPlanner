@@ -1,0 +1,5 @@
+- questions:
+  - If Chrysalis's story is framed as Grover VI's academic thesis with primary sources (audit logs, ledgers, intercepted letters), how does that change the prose delivery of her grimdark ascent? | no user turn | none | none
+  - How would an Aquileian FJA intellectual reading Grover VI's thesis defend Coltbert's theories against the proof that they were weaponized to create the Love Harvesters? | no user turn | none | none
+- shape: none
+- settles:

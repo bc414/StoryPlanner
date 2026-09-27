@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | names credit card interchange fees as the real-world model inspiring the Gilded Bits technology | Credit card interchange fees | yes
+- goals:
+- whole: The note records credit card interchange fees as the real-world inspiration for the Gilded Bits technology.

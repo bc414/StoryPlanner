@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a data-model design question: whether a codex fact should be able to have one-way dependency links to facts in other codex entries, and it points at no body of material for the model to draw on or avoid.

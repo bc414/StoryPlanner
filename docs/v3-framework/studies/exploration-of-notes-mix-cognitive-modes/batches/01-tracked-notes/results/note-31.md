@@ -1,0 +1,7 @@
+- claims:
+  - NarrativeArchitecture | Applejack's arc opens with her hating industry because her parents left, then moves to respecting it once her earth pony magic is proven | She goes from hating industry because her parents left, to respecting it since she has her earth pony magic proven | yes
+  - NarrativeArchitecture | The next beat in the sequence has her understand that her parents left because they saw the world held more truth | to understanding her parents left because they realized the world had more truth | yes
+  - NarrativeArchitecture | The arc then overcorrects: she rejects Equestria's folklore for the sciences and resents Celestia for keeping ponies in a walled garden and hiding science's truth | swings the other way too far and rejects Equestria's folklore for the sciences, resenting Celestia | yes
+  - NarrativeArchitecture | The planned ending has her reach a middle ground in a conversation with Sickleclaw, finding peace in stagnation and simple farming tradition | by the end she must find a middle ground, when talking to Sickleclaw | yes
+- goals:
+- whole: The note sets out Applejack's arc in reading order, from hating industry through respecting it and then over-rejecting folklore to a middle ground reached with Sickleclaw, and says nothing about what the reader should get from it.

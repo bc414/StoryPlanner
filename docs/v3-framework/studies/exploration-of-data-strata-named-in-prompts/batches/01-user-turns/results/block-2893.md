@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a tentative idea that hierarchy may be the underlying axis from which other axes derive, without pointing the model at any body of material.

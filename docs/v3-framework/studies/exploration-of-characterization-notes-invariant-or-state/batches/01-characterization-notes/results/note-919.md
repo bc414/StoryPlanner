@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | He comes across as an insufferable businessman | "insufferable businessman energy" | none; present tense only, no date, span or event given
+  - unfixed | His way of speaking matches Flim and Flam's | "talks just like Flim and Flam" | none; present tense only, no date, span or event given
+- beside: none. The Backstory note dated 1010 (selling all Skyfall assets to buy weapons ahead of a blockade) shows business dealings, but this note does not speak of that event.

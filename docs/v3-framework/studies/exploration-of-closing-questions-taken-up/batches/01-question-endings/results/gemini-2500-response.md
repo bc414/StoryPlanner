@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how Avatar's shift from agrarian spirituality to industrialized war compares to the modernization of Equestria in their story? | ignored | Says nothing about the Avatar comparison or Equestria. It moves on to how Japanese anime is made and funded. | none
+- shape: Redirects to a new topic and leaves the model's offer untouched. The user asks the model to compare Japanese anime with the Western models just discussed. They ask whether anime is creator-driven to a fault, with overworked studios and weak funding. They also ask whether there are other production models, and whether shonen series like Pokemon are toy-driven the way Hasbro and Disney properties are. All of it is a request for information about the industry.
+- settles:

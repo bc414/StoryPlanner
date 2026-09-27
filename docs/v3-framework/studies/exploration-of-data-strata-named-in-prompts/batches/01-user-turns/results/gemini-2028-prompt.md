@@ -1,0 +1,5 @@
+- sources:
+  - original raw notes | the material being sorted; its copy/paste prompt residue and conversation fluff is to be removed by routing it to the garbage bucket, and the rest kept and consolidated | copy/paste prompt and conversation fluff that bled into the original raw notes | referred-to
+  - output of phase 3's prompt | expected to be 1.5x to 2x the input size because of duplicated notes; the author will consolidate notes within each bucket afterward, so the size is accepted | the output of phase 3's prompt will be 1.5x to 2x the size of the input | referred-to
+- order:
+- about: The user asks whether the multi-bucket duplication approach still serves the workflow's goal of consolidating text and improving clarity, accepting a larger intermediate output because they will consolidate within buckets and the garbage bucket will remove stray prompt and chat residue from the raw notes.

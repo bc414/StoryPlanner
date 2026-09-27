@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a hunch that typical Gemini Pro subscribers use the consumer app very differently from how they do, and asks the model to evaluate that hunch.

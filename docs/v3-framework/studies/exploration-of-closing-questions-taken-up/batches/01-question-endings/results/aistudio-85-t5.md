@@ -1,0 +1,11 @@
+- questions:
+  - How does Henri react on finding Skyfall Griffon artisans' maker's marks inside a captured Changeling translator backpack, given he sees Griffon artisanship as the expression of liberty and soul? | ignored | The user turn never mentions Henri, the captured backpack or the maker's marks. It moves to the love harvesters and Hans Kessel. | none
+  - If the Tycoons learn their leased tech coordinates the slaughter of Equestrians, do they reverse-engineer it to break Chrysalis's monopoly, or keep paying the subscription fees? | ignored | The user turn says nothing about the Tycoons' response, reverse-engineering or the subscription fees. | none
+- shape: The user turn skips both Socratic questions and starts a new worldbuilding thread: the changeling love harvesters and Hans Kessel's backstory. It opens with "What if" but then reasons to a firm "Therefore" conclusion. It revises the earlier picture of changeling tech as crude and inefficient, using a factory-farming analogy, and gives Kessel a new cause for his demotion. It does not react to the translator or subscription-trap material, though it builds on the same Griffon-contractor premise.
+- settles:
+  - By 1011 the changeling love harvesters are not crude, inefficient spell matrices. Chrysalis employs Griffon contractors, paid lavishly in Skyfall currency, who copied Aquileian spell-matrix manufacturing techniques. | "NOT crudely stamped and inefficient spell matrices"
+  - The original 986 harvesters were crudely stamped crystals. | "original love harvesters were crudely stamped crystals"
+  - Changeling inefficiency comes from bad inputs, not bad technology: love extracted from a suffering victim is more unstable than donated love. The user compares this to mistreated factory-farmed chickens. | "not because of horribly inefficient tech, but because of the bad inputs"
+  - Hans Kessel was not demoted to drugged combat engineer for incompetence. | "not because he was incompetent"
+  - Kessel's company in the hives made more efficient stamped extraction crystals, and a paradigm shift made it obsolete. | "made obsolete because of a paradigm shift"
+  - Kessel burned out trying to pivot into other fields where he could not compete with established companies. | "He burned out trying to pivot"

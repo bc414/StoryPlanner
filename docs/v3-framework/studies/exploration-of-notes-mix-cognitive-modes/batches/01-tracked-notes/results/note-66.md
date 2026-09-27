@@ -1,0 +1,7 @@
+- claims:
+  - History | Minette is born in 963 ALB | Minette is born in 963 ALB | yes
+  - History | Lord Westkeep keeps her as a pet-like child, trains her to act high class and subtly insult his rivals at banquets, and rewards her with food and a head pat | treats her like a cute kitty; trains her to act high class and subtly insult his rivals; gives her food and a head pat | yes
+  - History | Westkeep's training is meant to condition obedience through reward, building up his investment for later use | associate obedience with rewards, "fattening" his investment for later use | yes
+  - Characterization | Minette is naive as a child and does not grasp why her parents fear the lord | She's a naive child who doesn't understand why her parents are so scared of the lord | no
+- goals:
+- whole: The note reports Minette's birth and early childhood under Lord Westkeep's grooming, together with her naive inner state, as the opening phase of her life history.

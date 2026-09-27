@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to give a verdict on whether the unicorns should work as evening waitresses, floats the idea that the chef's passion afterward is restorative, and adds that the unicorn must be aggressive on the street to guard the chef's pot from hired thugs, without pointing at any body of material to draw on or avoid.

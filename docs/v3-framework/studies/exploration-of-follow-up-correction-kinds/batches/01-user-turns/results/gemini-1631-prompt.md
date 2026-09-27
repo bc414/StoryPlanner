@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model staged Synovial as a man watching from the fortress balcony and walking down from it to surrender, whereas the user's plan has him in a tank during the battle | I imagined Synovial being in a tank | flat, brief statement of the intended image, with no explicit rejection or reason
+- about: The user briefly tells the model that their own picture of Synovial is of him in a tank, which departs from the model's fortress-balcony and descending-on-foot staging.

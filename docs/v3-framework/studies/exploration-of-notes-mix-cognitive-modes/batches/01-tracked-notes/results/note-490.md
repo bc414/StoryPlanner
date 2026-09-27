@@ -1,0 +1,5 @@
+- claims:
+  - History | The University of Pridea invented the crystal enhancer, following a period of studying unicorn magic | The University of Pridea invented the crystal enhancer after studying unicorn magic | yes
+  - History | The university's research concluded that any pony can cast any spell given enough power, which was the basis for the invention | determining any pony can cast any spell if they have enough power | yes
+- goals:
+- whole: The note reports, as in-universe history, who invented the crystal enhancer and the research finding about magic that led to it.

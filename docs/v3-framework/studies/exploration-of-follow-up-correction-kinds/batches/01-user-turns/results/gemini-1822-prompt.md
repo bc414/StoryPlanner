@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the exploitation hierarchy to a new question about King Gerad Discret's 940–972 centralization plan, supplying their own account of the backstory and their idea of recruiting oppressed ponies as the first Aquileian bureaucrats, without disputing anything the model said.

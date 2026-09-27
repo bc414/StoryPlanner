@@ -1,0 +1,5 @@
+- sources:
+  - my Prompt file which was the original json | treat as the original, full-fidelity version and the baseline to compare against | I have my Prompt file which was the original json | first-named
+  - a Culled Prompt which did some formatting changes to reduce the character count and token size | the reformatted, shortened version to be checked against the original for whether its semantic meaning is retained | now a Culled Prompt which did some formatting changes | first-named
+- order:
+- about: The user introduces two versions of their prompt file, the original JSON and a formatting-reduced Culled Prompt, and asks the model to compare them and judge whether the semantic meaning for Gemini analysis is preserved.

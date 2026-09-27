@@ -1,0 +1,8 @@
+- sources:
+  - My interpretation of Rarity lamenting that the old ways are gone | treated as the author's own earlier reading that was wrong, an artifact of the mandate, so not to be relied on | mandate artifact | referred-to
+  - the Faust Rarity / the Faust version | the standard for how the characters should behave; Rarity would try to fix things and adapt, and Fluttershy would have the courage to talk to Rainbow; used to correct the earlier readings | The Faust Rarity wouldn't groan and begrudgingly follow | referred-to
+  - I felt the act of refusing to engage with rainbow on purpose (my reading of Fluttershy) | treated as the author's earlier reading that flattened her as broken by war, so to be replaced by the Faust version | a broken by war flattening | referred-to
+- order:
+  - the Faust Rarity over My interpretation of Rarity lamenting that the old ways are gone | the Faust Rarity would adapt rather than groan, and the earlier reading is called a mandate artifact
+  - the Faust version of Fluttershy over my reading of her refusing to engage with Rainbow | the Faust version would talk to Rainbow and explain, and the earlier reading is called a flattening
+- about: The author corrects their own earlier readings of Rarity and Fluttershy as mandate artifacts and war-broken flattening that depart from the Faust versions of those characters, while saying the Applejack and Pinkie readings hold up.

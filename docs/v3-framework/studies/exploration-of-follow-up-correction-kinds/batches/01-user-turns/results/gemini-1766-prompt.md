@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's advice to keep Pridea assets so Comet Shine can move weapons and crystals to Tall Tale assumes a supply route that the submarine blockade makes impossible | Comet Shine cannot get any supplies from Pridea to Equestria because of the submarines | flat, stated as a bare fact with no reason, apology or softening
+- about: The user rejects the model's Pridea recommendation by pointing out that the submarine blockade cuts the supply route it relied on.

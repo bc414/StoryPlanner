@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | search them for a character who would know VOPS exists by 1003 and could warn Blueblood; treated as the established cast and timeline the answer must fit | Who in my story plans would know that VOPS exists and can warn Blueblood this early? | referred-to
+- order:
+- about: The user asks the model to expand on how Blueblood is warned off Krystallfels in 1003 and to find, among characters in their story plans, someone who could plausibly know of VOPS that early, offering their own tentative candidates and asking for better ones.

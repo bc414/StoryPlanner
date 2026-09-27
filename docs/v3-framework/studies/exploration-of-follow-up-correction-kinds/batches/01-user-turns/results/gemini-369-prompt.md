@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the literal etymological distinction just given and asks the model to apply it to a fictional post-revolution party name (National Republican vs National Democratic), restating the request to avoid historical connotation.

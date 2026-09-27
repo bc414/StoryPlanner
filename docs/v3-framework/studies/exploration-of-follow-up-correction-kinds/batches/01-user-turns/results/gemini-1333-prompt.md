@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model kept the martial clubs as a separate, differently named layer that only merges with the FJA later, and treated FJA as one social organization. The user says the FJA letters were already established by the end of the wars as the new way of life and are shared by several organizations, so the clubs should carry them. | the martial clubs should have the FJA initials since those letters are already established as "the new way of life" by the end of the reconquest wars (there are other organizations that use the initials too) | stated as a design preference with a reason, folded into a naming request and put matter-of-factly without any note that the model erred
+- about: The user asks for French-inspired names for the pipeline's stages and, in the same breath, sets a constraint that the martial clubs must use the FJA initials because that lettering is already established in the world's history.

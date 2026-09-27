@@ -1,0 +1,4 @@
+- sources:
+  - plot points I have already included | the material to examine and check for whether any scene already has characters revealing Chrysalis's shadow funding of industrialists | "if I have already included plot points" | referred-to
+- order:
+- about: The user asks the model to analyze their existing plot points to determine whether a reveal of Chrysalis's shadow funding of industrialists is already in the story.

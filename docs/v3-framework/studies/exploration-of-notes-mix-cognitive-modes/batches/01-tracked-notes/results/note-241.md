@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Eros's view of Eagleclaw as compromised and fated to repeat its mistakes; a belief that shapes who he is | characterization | He sees Eagleclaw as compromised and doomed to make the same mistakes | yes
+  - Characterization | Eros's desire to mentor Grover VI into a virtuous, morally superior emperor who serves as a moral example for common griffons | characterization | He wants to mentor Grover VI to be a virtuous and morally superior emperor | yes
+- goals:
+- whole: The note asserts, as psychological truth, Archon Eros's starting outlook: his contempt for Eagleclaw as compromised and his wish to mold Grover VI into a moral exemplar emperor.

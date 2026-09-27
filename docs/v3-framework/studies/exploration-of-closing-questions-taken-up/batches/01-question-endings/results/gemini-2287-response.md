@@ -1,0 +1,6 @@
+- questions:
+  - Does Applejack have a moment of horror when she realizes the fertilizer she grows food with is being refined into incendiary to burn Changeling pilots alive? | ignored | Nothing on Applejack or her leadership arc. The turn goes straight to questions about propellant chemistry and muzzle speed. | none
+- shape: Redirects to a technical challenge of the model's own claims. It asks whether nitrocellulose is the standard WW2 propellant and whether it really gives Mach 2. It then points out that this is the Changelings' level too, and asks how the Pegasi get from that baseline to Mach 4. It reads as a correction with a request for a fix, and it leaves the model's story question alone.
+- settles:
+  - The Changelings' technology baseline is WW2-standard, backed by huge Haber-Bosch factories. | "changelings would be using WW2 standards from huge haber Bosch factories"
+  - The Pegasi ammunition is meant to reach about Mach 4, well beyond the Changeling standard. | "How do the pegasi go from standard to Mach 4?"

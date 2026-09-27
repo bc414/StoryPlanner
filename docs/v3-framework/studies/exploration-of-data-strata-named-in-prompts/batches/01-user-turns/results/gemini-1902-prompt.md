@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to name other concepts that run parallel or orthogonal to the materialism versus authorial fiat distinction, without pointing at any body of data.

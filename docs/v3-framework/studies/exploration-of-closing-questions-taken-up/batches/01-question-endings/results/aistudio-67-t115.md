@@ -1,0 +1,7 @@
+- questions:
+  - How does Gilded Trust react to the success of the Hearth's Warming Bonds, and does he launch a rival hyper-nationalist instrument like an 'Equestrian Patriot Bit' for the retribution-minded 25%? | ignored | Nothing on Gilded Trust or a rival bond; the turn moves to a different consequence of the branding. | none
+  - Does Applejack's Honesty bristle when she learns Rarity used a sanitized fairy tale to sell the war economy, or does her Realpolitik let her respect the maneuver? | ignored | Nothing on Applejack or her view of Rarity's manipulation. | none
+- shape: Sets aside both of the model's questions and offers a new idea of the user's own. It builds on the Hearth's Warming branding and adds a dark side effect, framed as a suggestion for the model to fold in.
+- settles:
+  - The Hearth's Warming framing has a devastating side effect: awakened Equestrians come to see the changelings as the windigos. | paint the changelings as the windigos
+  - Because Hearth's Warming Eve has no central villain, the myth gives nothing to tie Chrysalis to. The label lands on all the changeling conscripts collectively. | no big central villain, so all the changeling conscripts become 'windigos'

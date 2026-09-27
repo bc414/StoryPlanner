@@ -1,0 +1,9 @@
+- questions:
+  - Whether to brainstorm the Chapter 10 scene where Fleur confronts Twilight about her Princess mask | ignored | none; the turn moves to the North Zebrican war and asks about Ain Trotgourait | none
+  - Whether to map out Twilight's first major invention at Star Energy once she embraces her inner scientist | ignored | none; the turn never mentions the invention or Star Energy | none
+- shape: The user sets aside both offered next steps and redirects to a new topic. They point to a dev diary on the North Zebrican War, give timeline facts, and ask a fresh question about what theme the Colthage and Chirropterra occupation of Ain Trotgourait should serve. The turn also quietly revises the model's account: Twilight's year of top-down charity only dented the recovery, and she then went back to Ponyville, not Canterlot, to work on the Magical Supply Organization.
+- settles:
+  - The North Zebrican War, the Equestrian-changeling great war and the Reich vs Republican Pact war all take place concurrently in 1011 ALB in standard EaW games | takes place concurrently with the Equestrian changeling great war and the Reich vs Republican Pact war, all in 1011 ALB
+  - In 1007 Twilight spent a year on top-down charity in Zebrica and made only a dent in the scale of the recovery | spent a year in 1007 doing top down charity and only making a dent
+  - Twilight collapsed after that year and went back to Ponyville to work on the Magical Supply Organization | collapsing and going back to Ponyville to work on magical supply organization
+  - During the North Zebrican War, Colthage and Chirropterra occupy Ain Trotgourait | Colthage and Chirropterra occupy Ain Trotgourait. This would take place during the war

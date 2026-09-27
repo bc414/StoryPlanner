@@ -1,0 +1,7 @@
+- claims:
+  - NarrativeArchitecture | The episode Over a Barrel is used at a point in the reading to remind the reader of Rainbow's earlier characterization, as one update to their opinion of her | A reminder from Over a Barrel will show | yes
+  - Canon | In the source episode Over a Barrel, Rainbow's baseline character was never tribal, which constrains how she is portrayed | Rainbow's baseline character was never tribal | no
+  - NarrativeArchitecture | A further opinion-updating beat in reading order: Rainbow forms friendships with griffon pilots such as Reni | Plus she makes friends with griffon pilots like Reni | yes
+- goals:
+  - The reader revises a trope-based assumption that Rainbow is tribal and comes to see that she never was, and is open to friendship across species | NarrativeArchitecture | will show that Rainbow's baseline character was never tribal; makes friends with griffon pilots
+- whole: The note plans two updates to the reader's opinion of Rainbow Dash, a canon reminder from Over a Barrel that she was never tribal and her friendships with griffon pilots like Reni, in order to undo a tribalist assumption.

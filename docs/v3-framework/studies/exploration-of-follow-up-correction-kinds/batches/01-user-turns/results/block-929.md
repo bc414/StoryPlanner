@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the terrified reservist by naming her Golden Javelin, giving her a weather-pony javelin-thrower background, and sketching her viewpoint passages bridging into and closing chapter 7, which adds new material without disputing anything the model said.

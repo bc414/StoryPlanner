@@ -1,0 +1,6 @@
+- claims:
+  - History | Comet Shine liquidated all his assets in Skyfall and used the proceeds to buy weapons, reported as a past event | He sold all assets in Skyfall to buy weapons | yes
+  - History | His motive was that Equestrian shipping insurance rates were rising as the changeling-Equestrian border built up, a causal fact reported about the world's events | when he saw that Equestrian shipping insurance rates were rising as the changeling-Equestrian border built up | yes
+  - History | Insiders knew in advance that a submarine blockade was coming, a fact of the world's events reported as it happened | Insiders knew about submarine blockade coming | yes
+- goals:
+- whole: The note reports, as in-universe history, that Comet Shine sold all his Skyfall assets to buy weapons in 1010 after reading rising insurance rates as a sign of the coming submarine blockade that insiders already knew about.

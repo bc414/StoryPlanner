@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is brainstorming, in a string of alternative proposals, how the tycoons could escape deportation to New Mareland in their story world, and whether Celestia could legally ban guns and drugs but not factories, without pointing the model at any body of material.

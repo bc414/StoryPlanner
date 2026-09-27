@@ -1,0 +1,5 @@
+- claims:
+  - History | The crystal mountains north of Equestria existed but nobody prospected them because it was too infeasible | The crystal mountains existed north of Equestria but no one was willing to prospect there because it was too infeasible | yes
+  - History | After the Crystal Empire returns in 1002, the crystal ponies are willing to mine the mountains, trade with Aquileia, and prepare for threats like Chrysalis | When the Crystal Empire returns in 1002, the crystal ponies are willing to mine it and trade with Aquileia and to prepare for threats like Chrysalis | yes
+- goals:
+- whole: The note reports as in-universe history that the crystal mountains went unprospected until the Crystal Empire's 1002 return, after which the crystal ponies mined them, traded with Aquileia and prepared for threats like Chrysalis.

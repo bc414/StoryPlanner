@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question to check whether the character's name really comes only from the Göring "call me Meyer" quote, which they know as a Hearts of Iron IV loading screen line, without disputing anything the model said.

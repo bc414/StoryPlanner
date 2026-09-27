@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model described the Aquileian plane as having no armor at all, with survival resting only on speed and the unicorn's shield. The user says griffon lore already gives the pilots magical lightweight protection, because they forge the aluminum themselves. | "I established that griffon knights who make their own armor get magical properties" | Implicit and cheerful, presented as a fun extra ('even more hilarious innovation') that supplies the missing lore without calling the model wrong.
+  - reading of the plan | The model had Rainbow Dash getting the keys to an Aquileian plane and flying it with Starlight in the back. The user says only the pilot who forged the plane can fly it. | "only they can fly their plane" | Stated flatly as a lore consequence, in passing, with no mention of the earlier scenario it conflicts with.
+- about: The user offers a griffon-magic lore twist, that pilots forge their own aluminum and so only they can fly their planes, which quietly overrides the model's picture of an unarmored, transferable Aquileian plane.

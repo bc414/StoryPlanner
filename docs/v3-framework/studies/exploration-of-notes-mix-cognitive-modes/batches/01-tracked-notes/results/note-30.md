@@ -1,0 +1,5 @@
+- claims:
+  - History | Applejack departs Mount Aris, an event of 1006 before the story begins | Applejack leaves Mount Aris | yes
+  - Characterization | Applejack's inner conviction on leaving is that the world is cruel and that she is powerless to meaningfully fix it | thinking the world is cruel and she can't do anything meaningful to fix it | no
+- goals:
+- whole: The note records, as a backstory event, Applejack's departure from Mount Aris in 1006 along with the bleak, powerless worldview she carries away.

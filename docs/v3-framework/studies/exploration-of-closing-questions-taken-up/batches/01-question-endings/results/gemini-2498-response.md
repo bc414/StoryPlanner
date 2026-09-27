@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how Chancellor Neighsay and the EEA try to suppress the Mane 6's foreign influences (Twilight's empiricism, Rarity's ambition) in the lead-up to the war? | no user turn | none | none
+- shape: none
+- settles:

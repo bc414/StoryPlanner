@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps aside from the character-study discussion to ask a factual language question about whether Minette means kitty in French and what its English equivalent would be, without saying the model was wrong.

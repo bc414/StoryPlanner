@@ -1,0 +1,7 @@
+- questions:
+  - Whether the model should find the most cited papers that use the "X is All You Need" naming convention | ignored | The user turn drops the subject and asks about companion stories for their Applejack and Twilight storyline. | none
+  - Whether the model should explain the actual attention mechanism behind the Transformer paper | ignored | Nothing in the user turn touches the attention mechanism. | none
+- shape: The user abandons the \"X is All You Need\" thread without comment and starts a new, unrelated request. It concerns the structure of their fan-fiction project: which lore elements would make good prequel companion stories, and what reading order to recommend. It asks two fresh questions of its own and does not respond to the model's offer.
+- settles:
+  - The main storyline centers on Applejack and Twilight. | "main storyline focusing on Applejack and Twilight"
+  - The companion stories are planned to be set chronologically before the main story. | "companion stories that take place chronologically before the main story"

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to unpack and define its terms (Greek tragedy, nihilism, grimdark) and to offer further details on what the TLTT, Minette, Chrysalis reading order would accomplish, without disputing anything the model said.

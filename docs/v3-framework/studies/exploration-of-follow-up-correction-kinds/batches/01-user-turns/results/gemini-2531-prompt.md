@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Statthalter arms-trade dynamic the model laid out and asks whether the Storm King's join-or-die horde could be a reaction to it, since every warlord was armed by the Statthalters, so it is a new speculative question and not a correction.

@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to draft the opening scene of Chapter 1: Command, focusing on the moment Applejack refuses her rank? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to test-drive the Gem now by giving a blank-slate prompt (such as a new crisis for the Aquileian border), so the model can answer as the Gem and the user can check the output against the Bucket Categorizer? | ignored | Says nothing to it. It asks a new question about home networking: how to tell whether a modem uses Xfinity's DNS or Cloudflare's. | none
+- shape: Drops the worldbuilding and Gem-design thread and asks an unrelated practical tech question about modem DNS and data privacy. It neither takes up the offer nor comments on the blueprint.
+- settles:

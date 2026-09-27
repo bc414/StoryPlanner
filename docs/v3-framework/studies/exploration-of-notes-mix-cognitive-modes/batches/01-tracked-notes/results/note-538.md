@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Luna is predicted to resonate with the Aquileian way of thinking and the Bat Ponies much more than with her sister's system | Luna will likely resonate with the Aquileian way of thinking (and the Bat Ponies) far more than her sister's system | no
+  - NarrativeArchitecture | Luna's place later in the story is fixed as a natural ally for Applejack's realization | She becomes a natural ally for Applejack's realization later in the story | yes
+  - Characterization | Luna grasps that Passion is not the same as Evil, a distinction Celestia lost sight of | She understands that Passion is not equivalent to Evil, a distinction Celestia lost sight of | no
+- goals:
+- whole: The note sketches Luna's inner alignment with Aquileian and Bat Pony thinking and her contrast with Celestia, then fixes her later role as an ally in Applejack's realization, without saying what the reader is to take from it.

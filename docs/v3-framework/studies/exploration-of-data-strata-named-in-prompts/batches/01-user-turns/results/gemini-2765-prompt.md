@@ -1,0 +1,4 @@
+- sources:
+  - 1935 and 1947 (the Wagner Act and Taft-Hartley frameworks already discussed in this conversation) | use as the comparison baseline against which the Russian 1917 labor dynamics are set | how do they compare to 1935 and 1947 | referred-to
+- order:
+- about: The user asks a new historical question about soviets, the bourgeoisie and labor law under Kerensky's 1917 government and asks for it to be compared with the 1935 and 1947 U.S. labor frameworks from the previous answer.

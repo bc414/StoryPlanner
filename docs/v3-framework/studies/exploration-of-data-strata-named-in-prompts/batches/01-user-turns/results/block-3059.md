@@ -1,0 +1,6 @@
+- sources:
+  - the new ontology | the standard the model is to test the meat-grinder notes against, treated as the current framework | scrutinized against the new ontology | referred-to
+  - notes about the WW2 meat grinder in the v1 archive | to be searched and scrutinized for conflict with the new ontology | across v1 archive or v2 | referred-to
+  - notes about the WW2 meat grinder in v2 | to be searched and scrutinized for conflict with the new ontology | across v1 archive or v2 | referred-to
+- order:
+- about: The user asks whether the WW2 meat grinder scene witnessed by Réni and Minette still holds under the newly established ontology, and asks the model to find the specific v1 and v2 notes on it that need checking against that ontology.

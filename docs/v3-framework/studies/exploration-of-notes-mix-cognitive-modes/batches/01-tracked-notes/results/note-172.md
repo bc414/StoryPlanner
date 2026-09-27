@@ -1,0 +1,6 @@
+- claims:
+  - History | The Kingdom of Aquileia responds to Queen Novo's call for aid, sending its Royal Navy and ace air force pilots | The Kingdom of Aquileia actually answers Queen Novo's call, bringing the Royal Navy and air force ace pilots | yes
+  - History | The stated purpose of the Aquileian deployment is to hunt poseurs | in order to hunt poseurs | yes
+  - History | The Aquileians help destroy the Storm King's horde | They help destroy the Storm King's horde | yes
+- goals:
+- whole: The note reports, as an in-universe historical event of 1006, that Aquileia answered Queen Novo's call with its navy and ace pilots to hunt poseurs and helped destroy the Storm King's horde.

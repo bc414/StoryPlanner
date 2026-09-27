@@ -1,0 +1,5 @@
+- questions:
+  - How do the Changeling conscripts, shaped by the algorithmic meatgrinder, first read Fluttershy's kindness at Camp Fluttershy: as sophisticated torture or a trap, since they have no category for non-transactional empathy? | ignored | Says nothing about the conscripts or Camp Fluttershy; asks about something else. | none
+  - How does Gilded Trust weaponize nostalgic grief during the Manehattan Referendum, and does he use Golden Age aesthetics to sell Ponies First individualism to voters who want their childhood security back? | ignored | Says nothing about Gilded Trust or the Referendum; moves to the real-world fandom. | none
+- shape: Redirects. It sets aside both of the model's questions and asks a new one: how the generational and cynicism analysis meets the real-world original brony wave from 2011. It's a request for further analysis of audience context, not an answer.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the cost discussion and asks a new question about whether any subreddits exist for using AI on structural analysis rather than prose generation or role play.

@@ -1,0 +1,4 @@
+- sources:
+  - P&K scenario | the existing version of the trench scene, used as the baseline that the without-Mali option repeats exactly and the with-Mali option is set against | exact P&K scenario | referred-to
+- order:
+- about: The user asks whether Mali should stay in the trench scene and lays out the two versions, without Mali (matching the P&K scenario) and with Mali, tracing how each leads to Applejack's farmpony choice at the tent.

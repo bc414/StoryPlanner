@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a worldbuilding inference, checking whether the Aquileian tribes would cast the jaguar as initiator and the eagle as receiver because their default warrior state is night and the eagle stands for day when the bat ponies sleep, without pointing to any body of material.

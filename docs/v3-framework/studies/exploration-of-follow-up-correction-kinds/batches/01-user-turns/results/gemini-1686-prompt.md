@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user raises a new worldbuilding question about the generation of drones freed during Chrysalis's unification wars, such as those who became factory workers or conscripts, and how their language and native changeling roots would show, without correcting any prior model output, which was not captured.

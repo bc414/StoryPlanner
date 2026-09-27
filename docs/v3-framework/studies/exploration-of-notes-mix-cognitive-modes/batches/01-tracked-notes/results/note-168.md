@@ -1,0 +1,5 @@
+- claims:
+  - History | The organization began as chasseurs who hunted warlords with expensive rifles and individual initiative | They started as the chasseurs hunting warlords, using expensive rifles and individual initiative | yes
+  - History | This early practice is the origin of bottom-up mission command / mobile warfare in the world, reported as a historical causal fact | This is the origin of bottom up misison command/mobile warfare | yes
+- goals:
+- whole: The note reports, as in-universe history, how the Aquileian Volunteers began as warlord-hunting chasseurs and how that gave rise to mission command and mobile warfare.

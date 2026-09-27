@@ -1,0 +1,4 @@
+- sources:
+  - the landscape of 2026 April | base the comparison on the state of the models and market as of April 2026, not on older versions | please refer to the landscape of 2026 April | first-named
+- order:
+- about: The user corrects the model's misreading by asking for the general design paradigm separating Gemini Flash from Pro and how it compares to the Sonnet versus Opus split, framed in the April 2026 model landscape.

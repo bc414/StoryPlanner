@@ -1,0 +1,4 @@
+- sources:
+  - EaW lore, the development in EaW | research it and report what Ain Trotgourait is inspired by and how it was developed there; use as the reference for the answer | What is Ain Trotgourait inspired by in EaW lore? Research into the development in EaW | referred-to
+- order:
+- about: The user asks the model to research EaW lore and its development to explain what real-world or other inspiration lies behind Ain Trotgourait, instead of answering the offered next-step options.

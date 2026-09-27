@@ -1,0 +1,5 @@
+- claims:
+  - ThematicEvidence | Unregulated capitalism (rugged individualism) is closer in kind to feudalism than to democracy, offered as a proposition the system's workings support | has more in common with Feudalism than with Democracy | yes
+  - ThematicEvidence | The ground for that likeness is a shared belief that power should belong to the wealthy or strong | Both believe that power should belong to the wealthy/strong | yes
+- goals:
+- whole: The note asserts, in the manner of a philosopher's argument, that unregulated capitalism resembles feudalism more than democracy because both hand power to the wealthy or strong, as a thematic proposition the kleptocracy's rules can serve as evidence for.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model set Fluttershy and Mali's bonding as something arising at the reunion, when in the story's history they already met during Tall Tale, after Fluttershy went to the front to fetch Twilight at Celestia's plea and stayed to look after animals and then POWs | Mali and Fluttershy would have met in Tall Tale because Fluttershy had to go to the front | Flat statement of backstory, supplied as a factual premise with no explicit 'you got this wrong'
+  - fact of the world | The model treated fangs as something only Mali has next to Fluttershy, leaving out that the changelings Fluttershy rehabilitates also have fangs, so she is already around fanged creatures | The changelings she takes care of with rehab also have fangs | Brief added fact in passing, implicit correction with no reason or comment on the suggestion
+- about: The user supplies two pieces of story backstory, how Fluttershy and Mali met and that Fluttershy's changeling charges have fangs, which quietly undercut the premises of the model's suggested scene.

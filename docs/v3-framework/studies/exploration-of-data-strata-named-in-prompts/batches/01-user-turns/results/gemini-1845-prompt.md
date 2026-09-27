@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general follow-up question about why LLMs are good at programming and whether code generation differs from answering knowledge questions, without pointing at any body of material for the model to use or avoid.

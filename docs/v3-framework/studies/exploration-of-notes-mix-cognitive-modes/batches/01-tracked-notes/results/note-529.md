@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten (world-builder ontology of the world's facts and rules) | Pre-historic changelings lived and flourished in hive communities | Pre-historic changelings thrived in hives
+  - outside all ten (world-builder ontology of the world's facts and rules) | Jaeger changelings killed manticore-tier predators, brought back meat, and got a high from hunting, which is the system's food-supply role | The jaegers defeated manticore-tier predators and brought back meat while enjoying the high of the hunt
+  - outside all ten (world-builder ontology of the world's facts and rules) | Changelings got through the cold on two supports, friendship (social bonds) and meat | The changelings survived the cold on both friendship and meat
+  - outside all ten (world-builder ontology of the world's facts and rules) | The harmonic system worked only under a condition: harmony held while external food was plentiful | Harmony worked when external food was abundant
+- goals:
+- whole: The note states in flat world-builder terms how the ancient changeling hive system operated, with jaeger hunting supplying meat and warmth-through-friendship, and harmony depending on abundant external food.

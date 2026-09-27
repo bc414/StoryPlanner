@@ -1,0 +1,6 @@
+- sources:
+  - the princess and the Kaiser, the story I am forking | the origin of the planned feature (crystal ponies fight harder than Equestria); treat the feature as a fixed plan to be explained, not changed | comes from the princess and the Kaiser, the story I am forking | referred-to
+  - my established lore that changeling conscripts need red love drugs to numb the emotion sense | treat as settled; the proposed explanation must stay consistent with it | I've established that Changeling conscripts need red love drugs | referred-to
+  - the premise that crystal ponies have emotion sense like changelings | treat as given in the author's lore; the explanation has to work with it | if they have emotion sense like changelings | referred-to
+- order:
+- about: The user asks for a plausible in-lore explanation of how emotion-sensing crystal ponies can fight effectively, given a planned feature from the story they are forking and their already established changeling drug lore, and offers a tentative idea that hope and fraternity override fear.

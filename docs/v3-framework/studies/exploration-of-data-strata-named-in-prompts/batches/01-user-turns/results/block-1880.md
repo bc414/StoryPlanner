@@ -1,0 +1,4 @@
+- sources:
+  - Pridea entry (Category: Backstory, Notes 0 to 3) | material pasted in for the model to examine and advise on how to categorize; treated as the author's own existing plan content, not as something to be checked or overridden | ### Pridea * **Category:** Backstory | first-named
+- order:
+- about: The user pastes their existing Pridea backstory notes and asks how to categorize the mix of historical event, motivating reasoning and demographic psychology, including whether the University of Pridea counts as an Organization, given that the only field available is binding logic.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for the simplest way to recreate their existing story analysis workflow on Vertex AI/Google Cloud, without pointing the model at any body of material to use or avoid.

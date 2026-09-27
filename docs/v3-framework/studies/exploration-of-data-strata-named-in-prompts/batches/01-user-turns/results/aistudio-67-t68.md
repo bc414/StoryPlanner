@@ -1,0 +1,5 @@
+- sources:
+  - the old plan | earlier version of the story plan, where Nightmare Moon caused both the foreign-policy lockdown and the domestic ambition suppression; used as the baseline the new plan is compared against | in the old plan, Nightmare Moon was the catalyst for the foreign policy lockdown | referred-to
+  - the new plan | current version of the story plan, which splits the two lockdowns: Nightmare Moon keeps only non-intervention abroad, and domestic ambition suppression starts later from petitions; treated as the basis for the themes question | The new plan splits the two | referred-to
+- order:
+- about: The user restates how the old and new story plans differ over the origin of Celestia's foreign and domestic lockdowns, and asks how that split changes the way the story delivers its themes.

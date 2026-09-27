@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to take a quick quiz in which the model gives a word and the user says whether it is an abstract noun or an adjective? | no user turn | none | none
+- shape: none
+- settles:

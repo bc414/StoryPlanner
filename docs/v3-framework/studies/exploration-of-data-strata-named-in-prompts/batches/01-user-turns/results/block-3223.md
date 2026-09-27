@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short confirming question about whether matrilineal family systems arise where tsetse fly in low humid forest rules out cattle, leaving female labor on par with male labor, without pointing the model at any body of material.

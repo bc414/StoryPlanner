@@ -1,0 +1,5 @@
+- sources:
+  - later chapter 12 reveal about the drug tribes | the planned reveal the new scene must foreshadow; treat as fixed later plot that the scene seeds without revealing it now | plants a seed for the later chapter 12 reveal about the drug tribes | referred-to
+  - the material setting | the established world and its stakes; the comic beat must fit inside it and not undercut it | without eroding the stakes of the material setting | referred-to
+- order:
+- about: The user proposes a brief comic drug-dealer scene for Golden Javelin outside the parloir that seeds the Chapter 12 drug tribe reveal, and asks the model for a name for the Dr. Caballeron's drug and for ways to keep it light and in-passing without weakening the setting's stakes.

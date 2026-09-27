@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the recommendation to delay the reveal until chapter 9 and moves on to ask what the chapter 2 factory meeting and the Fleur material should now contain, or whether they can be cut or reduced.

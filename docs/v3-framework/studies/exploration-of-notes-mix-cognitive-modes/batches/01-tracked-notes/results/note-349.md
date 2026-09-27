@@ -1,0 +1,5 @@
+- claims:
+  - History | The Aquileians call the portable device a cœur de cristal, literally crystal heart | The Aquileians call the portable device a cœur de cristal which is literally crystal heart | no
+  - History | In Aquileian/French the word cœur carries more than one sense: love, empathy, solidarity, courage, and the core of a machine | in Aquileian/French, "cœur" not only means love/empathy/solidarity but also courage and the core of a machine | no
+- goals:
+- whole: The note reports, as a fact of the in-world language, what the Aquileians call the device and the range of meanings of "cœur", without saying how the reader is to encounter or respond to it.

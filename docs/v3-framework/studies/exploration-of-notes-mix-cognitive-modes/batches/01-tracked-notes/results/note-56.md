@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Twilight does not want to fight on a front line, her reluctance stemming from having seen a warlord's destruction | She doesn't want to fight on a front line after seeing the destruction of a warlord | yes
+  - Characterization | Twilight's core motivation is only to fix things | She only wants to fix things | yes
+- goals:
+- whole: The note asserts, as a psychologist would, Twilight's starting psychological stance: she is averse to front-line fighting after witnessing a warlord's destruction and wants only to fix things.

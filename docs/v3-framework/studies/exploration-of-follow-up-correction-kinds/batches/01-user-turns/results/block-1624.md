@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: model's diagnosis of the problem | The model described the difficulty as link-level content for the subject being built, which could be linked to a plot point with routing deferred. The user says the line isn't a Minette note but a Coltbert note, and that it implies a WI and T track routing, so it can't be treated as an undifferentiated structural link. | "isn't a Minette note at all, it's a Coltbert note" | Put indirectly through a worked example from the old note. The user never says the model was wrong. The reframing sits inside an answer to the model's gap questions.
+- about: The user answers the model's open gap questions with a concrete tangled v1 note, showing that one line belongs to a different subject (Coltbert) with WI and T implications, and concludes that plot points for Minette's prequel need to be created.

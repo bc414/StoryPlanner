@@ -1,0 +1,5 @@
+- questions:
+  - How does Minette, whose Chasseur persona was built on trauma-fuelled violence against Warlords, process learning that the Changeling conscripts she fights in Equestria are enslaved victims rather than Warlords, and does that break her Élan du Chasseur or does she adapt it? | no user turn | none | none
+  - Do Réni and Minette, given their working-class origins, feel guilt or cognitive dissonance for abandoning the proletariat and looking down on soulless PNdA factory workers while joining Coltbert's cultural elite? | no user turn | none | none
+- shape: none
+- settles:

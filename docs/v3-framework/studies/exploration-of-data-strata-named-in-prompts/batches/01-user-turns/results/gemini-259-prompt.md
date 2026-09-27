@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's reading of Luna, saying she is self-aware of her failure and defers to Celestia without survivor guilt, restates the beats of the Riverlands argument scene, and asks that this backstory also explain why the bat ponies see Luna as a disappointment.

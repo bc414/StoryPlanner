@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question about whether the plot point–theme relationship should also carry a payload like the character join entity, extending the model without disputing anything in the prior turn.

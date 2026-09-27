@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up conceptual question about whether models' reasoning ability comes from training on code and math or from external tools, without pointing the model at any body of material to use or avoid.

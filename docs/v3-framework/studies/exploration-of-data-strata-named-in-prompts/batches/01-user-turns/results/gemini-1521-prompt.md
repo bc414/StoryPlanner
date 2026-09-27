@@ -1,0 +1,5 @@
+- sources:
+  - Discret's notes promise 1 note can be exchanged for 1 gold bit at the royal treasury | treat as a true fact of the setting and fold it into the new analysis, as a premise the earlier analysis lacked | Discret's notes promise 1 note can be exchanged for 1 gold bit | first-named
+  - the vino-standard (the earlier analysis in this conversation) | redo it, giving a fresh take that accounts for the new premise rather than repeating it | Give another analysis of the vino-standard | referred-to
+- order:
+- about: The user adds a setting fact, that Discret's royal notes are redeemable one-for-one in gold bits at the treasury, and asks the model to redo its analysis of the wine-based vino-standard in light of it.

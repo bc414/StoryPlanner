@@ -1,0 +1,7 @@
+- sources:
+  - v1 plot points | the material to be evaluated one by one to populate v2; the user wants a logic for the order of evaluation | "What order should v1 plot points be evaluated to populate v2?" | referred-to
+  - early chapters (in chapter order) | treated as less developed because they were written with later payoffs in mind, so the user is wary of starting with them | "early chapters actually feel less developed" | referred-to
+  - Town Hall plot point | offered as an example of an immovably load-bearing anchor that lays out the thesis; tentatively a candidate to evaluate first | "Like the Town Hall which lays out the thesis" | referred-to
+  - Stagnation chapter | a big turning point but currently disorganized; treated as unsettled, since material could still be added or cut, so it is not a stable anchor | "disorganized mess and could get stuff added to it or cut still" | referred-to
+- order:
+- about: The user asks what logic should decide the order in which v1 plot points are evaluated to populate v2, weighing chapter order against starting with load-bearing anchors, and noting that the Town Hall is stable while the Stagnation chapter is still in flux.

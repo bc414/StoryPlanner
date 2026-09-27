@@ -1,0 +1,6 @@
+- questions:
+  - Does the Tzinacatl healing paste get used up and need reapplying before each battle, like a consumable? | ignored | Nothing said about the paste or how it is applied or replenished; the turn moves to how power gets from crystal to enhancer. | none
+  - Does Starlight recognize the smell or feel of the Tzinacatl medicine in Chapter 4 because she knows it from using the enhancer? | ignored | Nothing said about Chapter 4, Starlight's horn injury, or her familiarity with the medicine. | none
+- shape: Redirects to a new mechanics question the user cares about: how power moves from a high-grade crystal into the enhancer, by an active spell or by direct flow. The user adds a tentative idea of their own, a safety-check spell for crystal purity. Neither of the model's closing questions is taken up.
+- settles:
+  - Tentatively, unicorns should know a spell that checks a power crystal is pure and stable before it is attached to the enhancer, so it doesn't explode | I suppose the unicorn should know a spell that can verify that a power crystal is pure and stable

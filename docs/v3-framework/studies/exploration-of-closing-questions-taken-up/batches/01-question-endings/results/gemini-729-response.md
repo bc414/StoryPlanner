@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a walkthrough of NotebookLM's Deep Research feature for finding extra sources beyond the current notebook? | ignored | The user turn neither accepts nor declines the offer. It asks a different question, whether NotebookLM is useful for literary analysis of a story plan. | none
+- shape: Redirects to a new question. Instead of taking up the Deep Research offer, the user asks whether the tool just described (NotebookLM with the Pro model) is useful for literary analysis of their story plan. The question is about how well the tool fits their project.
+- settles:

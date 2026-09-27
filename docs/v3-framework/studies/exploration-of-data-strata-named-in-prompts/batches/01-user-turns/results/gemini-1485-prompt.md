@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | re-read them and update the earlier analysis of Applejack's arc against them, together with the new framing given in this turn | review my story plans again and update the analysis | referred-to
+- order:
+- about: The user reframes why Applejack first refuses the uniform (she believes she is only a figurehead and fears becoming a tyrant, only later learning she is becoming a democratic president) and asks the model to re-review their story plans and revise its arc analysis accordingly.

@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-building ontology) | Defines the mechanism of the Love Harvester as a specialized draining crystal that mimics a changeling horn, stating how it works and what it is made of as a rule of the universe | It works by using a specialized draining crystal mimicking a changeling horn | outside
+- goals:
+- whole: The note states in god-mode terms the working principle and material of the Love Harvester: a draining crystal modeled on a changeling horn.

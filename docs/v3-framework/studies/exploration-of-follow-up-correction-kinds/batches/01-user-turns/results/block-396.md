@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the chapter-title discussion behind and opens a new line of work, asking the model to analyze the framework of Elements (Harmony, Stagnation, War, Tyranny, Liberty) as a vector space, fill gaps in the naive, war and tyranny variants, and take in the decided Twilight-names-the-elements scene and the Predator's Dilemma origin of Conscience.

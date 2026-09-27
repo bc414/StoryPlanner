@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | read and draw on for the thematic analysis | review my story plans | referred-to
+  - notebook lm in your gem knowledge | read and draw on for the thematic analysis, alongside the story plans | notebook lm in your gem knowledge | referred-to
+- order:
+- about: The user restates how the Aquileians adapted the Idol of Boreas mechanics into the stamp and ink, notes the Griffonian Republic later extends those principles into a universal translator, and asks the model to review their story plans and NotebookLM material in its Gem knowledge and give a thematic analysis.

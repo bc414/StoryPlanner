@@ -1,0 +1,6 @@
+- questions:
+  - Do the backseat Unicorns drop physical iron bombs (thrown clear of the propeller by telekinesis) or use magical payloads? | ignored | none; the user turn moves on to asking about the Stuka's design and history | none
+  - Does Chrysalis's industrial swarm use dive-bomber sirens or enchanted despair-projecting crystals like the Jericho Trumpet? | ignored | none; nothing about Changeling dive bombers or psychological warfare is taken up | none
+  - In a vertical dive at the Bluebell River Spearhead, how does Starlight Glimmer brace herself in the back seat: strapped to the floor or locked in place with magic? | ignored | none; the user asks nothing about Starlight or the Spearhead | none
+- shape: Redirects to a new set of real-world history questions: whether the Ju 87 was a monoplane, what preceded it, and what air support looked like in WW1. It is a side-step to further background research, and it leaves the model's worldbuilding prompts unanswered.
+- settles:

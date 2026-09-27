@@ -1,0 +1,4 @@
+- sources:
+  - the framing (the model's preceding account of how Gilded Lily and Silver Sterling parent Krista) | treat as partly wrong and correct it: the parents would not fret over grades or late nights like 1980s American parents, and would instead praise seed capital and new strategies for exploiting Skyfall | The framing is slightly off | referred-to
+- order:
+- about: The user corrects the model's previous account of Gilded Lily and Silver Sterling's parenting, saying their pride would go to Krista's seed capital and Skyfall-exploiting innovations rather than grades or curfew worries.

@@ -1,0 +1,4 @@
+- sources:
+  - the camp-follower analysis from the current conversation (the pony camp followers as an army's supply train and concubines) | treated as an established premise to build on, with the user drawing new implications from it | This is why Gerad Discret enforces chastity | referred-to
+- order:
+- about: The user takes the camp-follower reasoning just laid out as settled and asks the model to extend it to why Gerad Discret enforces chastity, whether he would recruit from former camp followers, and whether they could staff a standardized, redcoat-style gendarmerie under chastity laws.

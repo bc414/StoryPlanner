@@ -1,0 +1,11 @@
+- claims:
+  - Allegories | Griffonia as a whole stands for human history in accelerated form | represents an accelerated allegory of human history | yes
+  - Allegories | The first two Grovers stand for Antiquity and Rome, a brutal but working order whose legitimacy came from slaying monsters because the threat was external | Grover I and II = Antiquity/Rome. The "Honest Racket." | yes
+  - Allegories | Grover III stands for the Enlightenment: science and centralized statecraft ended the external threat but left an internal vacuum | Grover III = Enlightenment. The "Age of Reason." | yes
+  - Allegories | Grover IV stands for the Industrial Revolution and Gilded Age: with no external threat, elites turned to individualism and accumulation and the public good gave way to private wealth | Grover IV (Industrial Revolution/Gilded Age): The "Rot of Peace." | yes
+  - Allegories | The 978 Republican Revolution after Grover IV's death stands for the 1848 and 1917 revolutions, betrayed by industrialists who put profit above rights | The 978 Republican Revolution (Kemerskai) mimics the liberal revolutions of 1848 or 1917 | yes
+  - Allegories | Grover V stands for the interwar period, with serfs in depression and elites in boom, under an alliance of feudal nobles and Social Darwinist industrialists | Grover V (Interwar Period): The "Great Depression" for serfs and "Roaring 20s" for elites | yes
+  - Allegories | The 1007 breakdown stands for Fascism and WW2, with Eros as the theocratic statist fascist and Chrysalis as the totalitarian modernist visionary tyrant | 1007 (Fascism/WW2): The system breaks. | yes
+  - Allegories | The 1011 Republic stands for the New Deal, an order still unfinished for the present day | 1011 Griffonian Republic represents the New Deal, but is still incomplete | yes
+- goals:
+- whole: The note maps the Griffonian Republic's ruler-by-ruler and era-by-era history onto the stages of real-world history from Rome to the New Deal, as an allegorical key, and it names no effect on the reader.

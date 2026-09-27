@@ -1,0 +1,6 @@
+- questions:
+  - How do the Changeling Jaegers react when Rainbow Dash and Starlight first take the unarmored, shielded plane into the swarm, and do they take it for an easy kill before their bullets shatter on the shield? | ignored | Says nothing about the Chapter 5 scene or the Changelings' reaction. It moves to a separate question about armoring the standard Spitfires. | none
+- shape: Redirects to a new topic. The user sets aside the model's Chapter 5 scene prompt and asks a feasibility question about armoring the standard Spitfires against Bf 109 ammunition. The question comes with a rationale: the Wonderbolts and the Crystal engines are both scarce, and heavier, armored Spitfires would sharpen the contrast with the Aquileian ace plane.
+- settles:
+  - The standard Wonderbolt Spitfires are conceived as armored and somewhat less maneuverable, in contrast to the unarmored Aquileian ace plane. This is offered as a proposal inside a question, not a firm ruling. | "They might have less maneuverability but are armored. And this paints the contrast"
+  - Both the Wonderbolts and the Crystal engines are limited in number, and this is given as the reason the standard planes need to be armored. | "Wonderbolts are limited in number and the Crystal engines are limited"

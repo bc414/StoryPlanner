@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology) | Simplified Herzlander is defined as a functional language with nuance and grammar removed | Simplified Herzlander is a functional language with nuance and grammar stripped out | outside
+  - outside all ten (world-rule ontology) | Changeling translators render everything in maximal literal translation, because they are not programmed with expressive words or proper Herzlander idioms | The changeling translators take literal translation to the max because it is not programmed to have more expressive words and is missing proper Herzlander idioms | outside
+- goals:
+- whole: The note defines, as a fact about how the fictional world works, what Simplified Herzlander is and why the changeling translators produce hyper-literal output, without saying anything about the reader's response.

@@ -1,0 +1,5 @@
+- questions:
+  - How do the FJA and Equestrian volunteers in Skyfall (Scene 29.4) overcome the workers' propaganda-fueled hatred of Harmonic philanthropy, especially if Genevieve is involved in the liberation? | no user turn | none | none
+  - How does Fleur Bloom react to Genevieve offering to fund the FJA's anti-poseur crusade or Star Energy's expansion, given that the money comes from a Skyfall billionaire whose wealth originated with the Iron Chancellor? | no user turn | none | none
+- shape: none
+- settles:

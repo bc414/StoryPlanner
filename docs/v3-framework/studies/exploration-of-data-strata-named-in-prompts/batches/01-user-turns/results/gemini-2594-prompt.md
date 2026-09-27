@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an analysis of the Chasseurs using intimacy after a firefight to restore morale, covering what else it accomplishes and its science, sociology and themes, without pointing at any body of material to draw on or avoid.

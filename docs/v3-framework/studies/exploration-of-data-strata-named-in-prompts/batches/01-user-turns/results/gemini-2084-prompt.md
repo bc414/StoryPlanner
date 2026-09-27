@@ -1,0 +1,6 @@
+- sources:
+  - source code in the system instructions to The Strategist | the place to retrieve the 7 orthogonal axes from; treat as the origin of the original axes | "retrieve them from the source code in the system instructions to The Strategist" | first-named
+  - my entities | an alternative way of organizing notes to compare against the 7 axes in the analysis; not ranked | "using other things like my entities" | referred-to
+  - my metrics like mice, freytag | an alternative way of organizing notes to compare against the 7 axes in the analysis; not ranked | "my metrics like mice, freytag" | referred-to
+- order:
+- about: The user asks the model to pull the original 7 orthogonal note axes out of The Strategist's system-instruction source code and analyze using them versus organizing notes by their entities or by metrics like MICE and Freytag.

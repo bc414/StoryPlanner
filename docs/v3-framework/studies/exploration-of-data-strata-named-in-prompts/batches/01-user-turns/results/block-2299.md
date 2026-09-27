@@ -1,0 +1,6 @@
+- sources:
+  - the model's account that romance as adventure plus sexual journey was the default and Western norms come downstream of the Victorian era | treat as a claim to be confirmed or tested; user restates it as a question and asks the model to confirm it and expand on it | "So the romance as adventure plus sexual journey was the default" | referred-to
+  - the company man -> herbivore male framing of Japanese culture | treat as the user's working inference from the earlier discussion, offered as the artificial part of Japanese culture, for the model to weigh | "the company man -> herbivore male is the artificial part of Japanese culture" | referred-to
+  - the user's own knowledge that nude art exists in Western art | treat as a given premise from memory, and ask the model whether it predates the Victorian era | "I know nude art is a thing in western art" | first-named
+- order:
+- about: The user probes the model's previous account by asking whether Western nude art predates the Victorian era, restating their inference that the West is artificially suppressed while Japan's herbivore male is the artificial part, and asking the model to expand on what the Victorian era did with morality and how it still affects us.

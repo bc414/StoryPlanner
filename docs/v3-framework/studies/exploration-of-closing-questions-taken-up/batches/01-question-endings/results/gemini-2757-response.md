@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants help brainstorming which faction and labor group in the story suffers the PATCO-style watershed strike defeat | no user turn | none | none
+- shape: none
+- settles:

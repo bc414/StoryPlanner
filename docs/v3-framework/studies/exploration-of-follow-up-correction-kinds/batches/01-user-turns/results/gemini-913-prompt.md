@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the "parents alive, outgrew the nursery" premise and builds on it with their own variations (Applejack's Manehattan filly years and cutie mark, a later move to New Mareland, no Apple hostages in the war, evacuation to Manehattan, shared resentment of the princesses) while asking whether the no-hostage reasoning holds.

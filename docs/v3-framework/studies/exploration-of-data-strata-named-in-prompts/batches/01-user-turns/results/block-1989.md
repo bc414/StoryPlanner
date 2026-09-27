@@ -1,0 +1,4 @@
+- sources:
+  - chapters 15 and 16 | read thoroughly, since they were skipped in the earlier file reading; the model is to draw on them directly | go through chapters 15 and 16 thoroughly | first-named
+- order:
+- about: The user directs the model to read chapters 15 and 16 thoroughly because they were skipped during the earlier file reading.

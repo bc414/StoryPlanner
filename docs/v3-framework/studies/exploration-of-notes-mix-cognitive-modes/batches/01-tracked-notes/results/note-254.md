@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | Offers a real-world statement about racial superiority being used to distract poor whites from being exploited as the touchstone for the Gilded Trust character | If you can convince the white man he is better than the black man, he won't notice you picking his pocket | yes
+- goals:
+- whole: The note records a real-world quotation about exploiting racial hierarchy to mask economic theft as the inspiration behind the Gilded Trust character.

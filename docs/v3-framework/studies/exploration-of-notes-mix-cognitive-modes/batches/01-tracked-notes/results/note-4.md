@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Applejack sincerely believed that training hard and sticking together like the Hippogriffs did would let them hold the line | She honestly believed if they trained hard and stuck together | yes
+  - Characterization | At the story's start she feels like a liar because she manufactured hope against what seemed unwinnable odds | At the start of the story, she feels like a liar because she drummed up hope | yes
+- goals:
+- whole: The note asserts Applejack's inner truth at the story's start: she sincerely believed unity and training would hold the line, yet now feels like a liar for having drummed up hope against apparently hopeless odds.

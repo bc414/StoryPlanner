@@ -1,0 +1,5 @@
+- claims:
+  - Allegories | Celestia stands for the suppression of ambition, done to prevent its abuse | Celestia represents the Suppression of Ambition (to prevent abuse) | no
+  - Allegories | Rarity stands for the rehabilitation of ambition, set against Celestia's suppression | Rarity represents the Rehabilitation of Ambition | no
+- goals:
+- whole: The note says what Celestia and Rarity each stand for, as opposed responses to ambition (suppression against rehabilitation), in a symbolic register rather than describing who Rarity is at the start.

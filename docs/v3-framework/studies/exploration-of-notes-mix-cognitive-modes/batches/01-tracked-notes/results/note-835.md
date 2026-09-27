@@ -1,0 +1,5 @@
+- claims:
+  - NotesToSelf | Currently the two characters function as a single unit in the story, with everything about them told through Applejack's framing | Currently they function as a unit and everything is told through Applejack's framing | yes
+  - NotesToSelf | A planning option: if the two are given independent arcs, the character entry can be split into two | But if they have independent arcs they can split | yes
+- goals:
+- whole: The note records an open planning decision: the paired characters are currently treated as one unit seen through Applejack, and could be split into separate characters if independent arcs are developed.

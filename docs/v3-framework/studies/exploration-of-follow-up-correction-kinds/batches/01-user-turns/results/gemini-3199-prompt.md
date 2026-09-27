@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about how prominent Equestria at War is within the wider MLP community, without challenging anything in the model's overview.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's first Socratic question by deciding that Celestia's therapy uses only mundane psychological listening and no magic, which settles an open point without disputing anything the model wrote.

@@ -1,0 +1,8 @@
+- claims:
+  - Analogies | Names German peasant food culture as the real-world model, framed as an 'engineering of survival' paradigm | German paradigm - the engineering of survival | yes
+  - Analogies | Real-world historical claim that German peasants were preservationists needing to survive central European winters | German peasants were preservationsists who needed to survive central european winters | yes
+  - Analogies | Sauerkraut fermentation as a real-world example of preservation through biochemistry | They use preservation and biochemistry for sauerkraut (fermentation) | yes
+  - Analogies | Sausages preserved with salt, nitrates and cold smoke to last for years as a real-world example | sausages with salt, nitrates and cold smoke to make meat last for years | yes
+  - Analogies | Dense rye and pumpernickel sourdoughs that resist mold longer as a real-world example | Dense, complex rye and pumpernickle sourdoughs that take longer to mold | yes
+- goals:
+- whole: The note documents German winter-survival food preservation (fermentation, cured and smoked sausage, dense rye breads) as the real-world inspiration for the Griffonian Republic's food technology, with no stated reader effect.

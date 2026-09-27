@@ -1,0 +1,4 @@
+- claims:
+  - Canon | The organization's secret fighter plane development derives from the Spitfire Research element of the Equestria at War focus tree | Spitfire Research from the EaW focus tree is where the secret fighter plane development comes from | yes
+- goals:
+- whole: The note names the source canon element (the Equestria at War focus tree's Spitfire Research) that the Wonderbolts' secret fighter plane development is drawn from.

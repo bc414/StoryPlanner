@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the prison mob boss character's backstory, going deeper on one figure from the model's breakdown without disputing anything in it.

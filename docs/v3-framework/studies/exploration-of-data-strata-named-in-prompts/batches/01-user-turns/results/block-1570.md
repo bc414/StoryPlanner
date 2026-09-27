@@ -1,0 +1,6 @@
+- sources:
+  - old material (the old/reference instance, v1 notes) | keep it, not deleted; move its notes to a confirmed track to show everything was included in the clean version; decent prose fragments may be moved or copy-pasted into the clean version | Planning for old material to not be deleted but at least moved to confirmed track | referred-to
+  - the old plot points | treat as too broad and not transferable one-to-one, since they were made as data capture in expansion mode without stakes or outcome | If the old ones cover too much in one plot point then that's not transferable | referred-to
+  - the clean instance | currently empty; the target for the rebuilt version, and the model may suggest what to put in it | Clean doesn't have anything right now but if helpful you can suggest | referred-to
+- order:
+- about: The user asks for pros and cons of loading the old and clean instances into one database with separate windows, and answers earlier questions (clean is empty, old material is kept and marked confirmed, consolidations unknown, old plot points too broad), while asking for analysis and gaps on splitting plot points and links.

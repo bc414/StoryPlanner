@@ -1,0 +1,8 @@
+- claims:
+  - ThematicEvidence | Proposition that safe-zone Equestrians are not exempt but obliged to support the volunteers with weapons and donated love | The story argues that the Equestrians in safe zones are not off the hook; they are obligated to support the volunteers | yes
+  - ThematicEvidence | Ponies are given a choice between staying in Canterlot and going to Manehattan to work the home front for the army, a fork that tests the obligation | The ponies have a choice to stay in Canterlot or go to Manehattan to work the home front | yes
+  - ThematicEvidence | Those who stay in Canterlot end up enslaved, the outcome of refusing the obligation | The ones in Canterlot are eventually enslaved | yes
+  - ThematicEvidence | Manehattan mobilizes totally without a top-down mass industrial draft, allocating ponies by asset specificity with CMCs steering them to the right industries, so distributed direction beats central conscription | Manehattan's total mobilization is not a mass industrial draft, it uses asset specificity (CMCs directing ponies to the right industries) | yes
+- goals:
+  - Reader is to conclude that ponies in safe zones are obligated to support the volunteers rather than being off the hook | ThematicEvidence | The story argues that the Equestrians in safe zones are not off the hook; they are obligated to support the volunteers
+- whole: The note lays out the Canterlot-versus-Manehattan choice, its outcomes and Manehattan's asset-specific mobilization as evidence that safe-zone ponies owe support to the volunteers and that bottom-up organization works better than a top-down draft.

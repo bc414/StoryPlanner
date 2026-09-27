@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes earlier planning notes on why Celestia skips the Applejack and Gilded Trust debate and asks whether the revised stagnation-of-harmony backstory makes them obsolete, which is a new question and not a correction of the model's turn.

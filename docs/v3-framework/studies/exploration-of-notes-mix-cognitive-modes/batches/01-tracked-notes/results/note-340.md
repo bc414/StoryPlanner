@@ -1,0 +1,5 @@
+- claims:
+  - Canon | Quotes the canon line from Amethyst Maresbury: the Crystal Faire exists to lift the Crystal Ponies' spirits so their inner light powers the Crystal Heart and protects the Empire | "The whole purpose of the Crystal Faire is to lift the spirits of the Crystal Ponies, so the light within them can power the Crystal Heart" | yes
+  - Canon | Ties the canon librarian's plain-language explanation to the world law, recasting it as what TLTT's scientists call the charitostatic effect | "the librarian Amethyst Maresbury in FiM canon explaining verbally what the scientists in TLTT call the charitostatic effect" | yes
+- goals:
+- whole: The note anchors the world law to a specific line of FiM canon, presenting that line as the in-show verbal version of what the story's scientists name the charitostatic effect.

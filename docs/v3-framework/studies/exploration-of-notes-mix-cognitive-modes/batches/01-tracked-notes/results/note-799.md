@@ -1,0 +1,6 @@
+- claims:
+  - History | In 978 the Meritocrats and sympathizers in the Imperial Army (Kemerskai), the Textile Barons and the peasants united to overthrow the King | In 978, ... united to overthrow the King | no
+  - History | The coalition's shared goal was to end feudalism | with a shared Goal: End Feudalism | no
+  - History | The Kemerskai's particular aim in joining was dignity, an end to abuse, and the Barons' was market access, meaning more customers | Kemerskai wanted Dignity (No more abuse). The Barons wanted Market Access | no
+- goals:
+- whole: The note reports as in-universe fact the 978 coalition of army meritocrats, textile barons and peasants that overthrew the king to end feudalism, and the differing motives of the army and the barons, which answers the track's question about the material conditions behind the system's creation.

@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | In Tall Tale, tally sticks served as a mechanism to get around the gold standard when harvests were big | Tally sticks were a way to circumvent the gold standard for big harvests in Tall Tale | outside
+- goals:
+- whole: The note states as a plain fact of the world's economic rules that tally sticks let Tall Tale get around the gold standard during big harvests, and it asks nothing of the reader.

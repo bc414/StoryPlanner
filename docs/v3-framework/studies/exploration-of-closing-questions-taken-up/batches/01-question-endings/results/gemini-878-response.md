@@ -1,0 +1,4 @@
+- questions:
+- shape: The user gives no answer, since the model put no question to them. They ask for a change to the script the model supplied: export one revision per calendar date instead of the last N revisions. Their stated reason is to keep micro-edits from bloating the dataset while still showing change over time.
+- settles:
+  - The export should keep one version per date, not the last N revisions, so small edits don't inflate the dataset and the timeline still shows change over time | one version per date

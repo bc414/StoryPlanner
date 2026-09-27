@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model put Celestia's horror and the Celestia/Luna conflict over duplicating Luna's power at the rifle-teleport scene. The user says that conflict came earlier, when Luna first put her power into a copyable matrix. | "the conflict point with celestia already happened earlier" | Mild and flat, stated in passing as a consequence of the user's own reasoning, with no reproach or explicit disagreement
+- about: The user accepts Option 3 and supplies their own backstory for it: Luna democratizes her talent because she cannot connect a million hostages alone. That backstory places the Celestia conflict earlier than the model had it.

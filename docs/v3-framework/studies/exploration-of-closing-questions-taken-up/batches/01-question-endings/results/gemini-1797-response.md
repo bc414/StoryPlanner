@@ -1,0 +1,10 @@
+- questions:
+- shape: The user turn doesn't respond to the model's Ancien Régime analysis. It moves to a different subject, Coltbert. It supplies world facts about species demographics, class and Coltbert's affairs, then asks the model three new either/or questions: born status or earned status, which order his status and university came in, and whether his cutie mark is about research or social connection. It reads as a redirect that adds lore and opens new questions.
+- settles:
+  - Aquileia's population is 80% griffons and 20% ponies | "80% griffons and 20% ponies"
+  - The king and nobles are griffons, and Coltbert is a pony intellectual | "nobles and king are griffons, Coltbert is a pony intellectual"
+  - Griffons and ponies share one Aquileian language and culture despite the species difference | "speak the same Aquileian language, so they have the same culture"
+  - Coltbert is Vérany's rival | "Coltbert is Vérany's rival"
+  - Noble griffonesses can sexually abuse pony serfs without consequence, because ponies and griffons can't reproduce | "can sexually abuse pony serfs without consequence"
+  - Coltbert had consenting, passionate affairs with noble griffonesses, which satisfied them more than abusing subjects did, so they can't go back to abuse after a real affair | "consenting passionate affairs" and "can't go back to that"
+  - The current backstory, that Coltbert is a rare noble pony, is stated as the existing baseline that the user wants to revise | "just generically says Coltbert is a rare noble pony"

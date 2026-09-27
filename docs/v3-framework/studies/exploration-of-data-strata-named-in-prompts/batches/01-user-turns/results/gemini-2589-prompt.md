@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual question about whether English has its own word for a fashion appliqué, following up on the model's naming discussion, without pointing at any body of material.

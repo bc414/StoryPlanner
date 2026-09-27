@@ -1,0 +1,4 @@
+- sources:
+  - the story plan | the model is to read it to report what already exists for Applejack's growth from "this feels right" to full love, and treat it as the baseline to be enhanced | "What currently exists in the story plan" | referred-to
+- order:
+- about: The user asks how to develop Applejack's emotional progression from \"this feels right\" to loving Twilight completely, wanting a report of what the story plan already contains and suggestions to strengthen it.

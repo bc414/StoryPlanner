@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the model to generate the System Instruction and Root Object Schema for the Sorter prompt now | ignored | Says nothing about generating the Sorter. It asks a separate question about where to enforce a 3 to 5 limit. | none
+- shape: Redirects to a new technical question. It asks whether a 3 to 5 item limit belongs in the system prompt or in the structured-output schema. It does not accept or decline the offered next step, and it treats the 3 to 5 limit as already established.
+- settles:

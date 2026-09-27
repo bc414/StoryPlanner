@@ -1,0 +1,3 @@
+- questions:
+- shape: The user sends a bare YouTube link with no comment. It moves on to a new item for the same kind of video summary the model just gave, and it doesn't react to the Marxist-critique summary. It is a new request, not an answer.
+- settles:

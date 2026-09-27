@@ -1,0 +1,7 @@
+- claims:
+  - ThematicEvidence | Rarity's role in the story is to teach that wanting to look beautiful is about raising your own self-esteem rather than belittling others (Bad Ambition turned into Self-Esteem) | teaches ponies that wanting to look beautiful isn't about making others feel small; it's about making yourself feel tall | no
+  - WorldInference | Over the course of reading, the reader comes to learn that clothes as social armor descended from Minette making clothes for house ponies | Readers eventually learn that this "clothes as social armor" descended from Minette | no
+  - Characterization | Rarity subverts that inheritance because her Red Love (Ambition) is what drives her Pink Love (Generosity) | Rarity subverts this because she uses Red Love (Ambition) to fuel Pink Love (Generosity) | no
+- goals:
+  - The reader learns that the social-armor idea of clothing descends from Minette making clothes for house ponies | WorldInference | Readers eventually learn that this "clothes as social armor" descended from Minette
+- whole: The note sketches Rarity's thematic lesson about beauty and self-esteem, a later reader reveal of the lineage of her clothes-as-armor idea, and the character truth that her ambition fuels her generosity, rather than laying out how the reader's opinion of her shifts in reading order.

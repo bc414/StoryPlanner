@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want to move on to a detailed outline of Chapter 17 (Intervention), with SECEF arriving in Pridea and Applejack seeing club culture, perhaps through a Pony–Griffon fencing match? | ignored | The user does not take up Chapter 17 or the fencing scene. They ask for French-inspired names for the institutions and give a naming rule for the clubs. | none
+- shape: The user turn redirects to naming. It asks for French-inspired names for the Academy and the Martial Clubs, and it revises the model's structure by requiring that the Martial Clubs carry the FJA initials. The model's offered next step is dropped.
+- settles:
+  - The Martial Clubs will use the FJA initials, because those letters are already established as 'the new way of life' by the end of the reconquest wars | the martial clubs should have the FJA initials
+  - Other organizations in the setting also use the FJA initials, so the initials are not exclusive to one group | there are other organizations that use the initials too
+  - The Royal Academy's name is left open, with no constraint on it | The royal academy can be anything

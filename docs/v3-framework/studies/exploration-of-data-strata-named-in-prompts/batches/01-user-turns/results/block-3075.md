@@ -1,0 +1,7 @@
+- sources:
+  - that initial week long session | origin of terms under audit; terms from it are suspected of being weak and are to be triaged, not trusted by default | what other terms are from that initial week long session | referred-to
+  - v1 archive and v2 | the places the session's terms spread into; to be checked for carried-over terms that are weak to keep | propagated throughout v1 archive and v2 | referred-to
+  - the new analytical framework | the standard terms are judged against; it is constrained by rigorous materialist historicist analysis | weak to carry forward in the new analytical framework | referred-to
+  - tropes or grimdark conventions | not to constrain the framework; terms resting on them count as weak | not tropes or grimdark conventions | referred-to
+- order:
+- about: The user asks which other terms from the early Gemini session are weak to carry forward under the materialist historicist framework, but first tells the model to define and explain the current methodology so he can ratify or correct it before any triage begins.

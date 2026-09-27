@@ -1,0 +1,9 @@
+- sources:
+  - web search results | treat as lossy and not to be relied on alone; do not just use them | Don't just use web search results which can be lossy | referred-to
+  - my MCP server, full EaW flavor text for the expanded mythology | use as the full, authoritative material to draw on instead of the web summaries | My MCP server has the full EaW flavor text for the expanded mythology | first-named
+  - my MCP server, movie transcript | use as full source material on the phenomenon | movie transcript | first-named
+  - my MCP server, transcript of Surf and/or Turf | use as full source material on the phenomenon | transcript of Surf and/or Turf | first-named
+  - my MCP server, other episodes featuring Silverstream | check for any that discuss the phenomenon and draw on them | any other episodes featuring Silverstream that may talk about the phenomenon | first-named
+- order:
+  - MCP server material (EaW flavor text, movie transcript, episode transcripts) | web search results | Don't just use web search results which can be lossy. My MCP server has the full
+- about: The user tells the model not to rely only on lossy web search results and points it to their MCP server, which holds the full flavor text, movie transcript and episode transcripts about the hippogriff-seapony transformation.

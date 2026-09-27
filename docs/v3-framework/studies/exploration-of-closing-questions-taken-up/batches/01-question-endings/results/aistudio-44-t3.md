@@ -1,0 +1,5 @@
+- questions:
+  - How would Pinkie's empathic exposure and execution of an infiltrator affect the regiment: would it breed a paranoid culture where soldiers demand she vet everyone, turning her empathy into a militarized interrogation tool? | ignored | Nothing. The user turn never mentions the regiment's reaction or the vetting idea. | none
+  - When Pinkie meets the rehabilitated Changeling POWs at Camp Fluttershy, how does her memory of executing the infiltrator complicate her acceptance of Fluttershy's Kindness doctrine? | ignored | Nothing. The user turn does not mention Camp Fluttershy, the POWs or the Kindness doctrine. | none
+- shape: The user turn steps back from the model's developed answer and asks for a fresh analysis of whether a regiment pony being a changeling all along is workable. It also asks whether the idea is only a tempting Equestria at War trope that fails their materialist, rational worldbuilding. It works as a redirect and a challenge to the premise the model just built on. It does not engage the model's Socratic follow-ups.
+- settles:

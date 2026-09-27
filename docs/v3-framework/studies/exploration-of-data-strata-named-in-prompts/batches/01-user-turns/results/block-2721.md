@@ -1,0 +1,4 @@
+- sources:
+  - this analysis (the comparison of One Piece, ASOIAF and the author's own series so far) | the existing frame to be extended; new works are to be folded into it, not replace it | fold into this analysis | referred-to
+- order:
+- about: The user asks the model to suggest other popular mainstream works worth adding to the ongoing comparative analysis, and to explain why each is notable.

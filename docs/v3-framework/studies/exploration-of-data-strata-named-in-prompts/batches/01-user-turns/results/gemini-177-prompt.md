@@ -1,0 +1,7 @@
+- sources:
+  - Luna's Tall Tale retreat, called because she was metabolizing ponies' nightmares about the war | treat as established story event and build the Celestia day-time parallel on it | Luna called the Tall Tale retreat because she was metabolizing ponies' nightmares | referred-to
+  - Chapter 4, where Twilight used magic out of love for AJ | treat as established precedent for why Twilight's magic worked without crystals, to be contrasted with her later need for enhancers | It worked in chapter 4 out of love for her best friend and crush AJ | referred-to
+  - Crystal-democratized combat magic and the way Twilight's students use crystal enhancers | treat as established world fact that makes Celestia's spare magic unnecessary and that Twilight should follow | combat magic has been democratized via crystals | referred-to
+  - The model's previous suggested line that Celestia is barely saving herself | do not use; rejected as plot armor that removes Celestia's agency | I don't want something like "she is barely saving herself" | referred-to
+- order:
+- about: The user is revising the plan for Celestia's entrance scene, asking to keep her with spare magic and agency yet traumatized like Luna, and asking whether Twilight should still use crystal enhancers, and the user is checking these points against earlier story events.

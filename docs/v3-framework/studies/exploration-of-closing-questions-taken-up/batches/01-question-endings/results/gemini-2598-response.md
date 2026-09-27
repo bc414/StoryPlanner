@@ -1,0 +1,5 @@
+- questions:
+  - How do the Aquileian Lionesses and Chasseurs view Reformed Changelings: as an enlightened society, or with disgust as a biological extreme that has given up Ambition (Red Love) to survive? | refused | Doesn't say how the Lionesses see them. It rejects the premise: there is no reformed, colorful changeling form in this world, only the holed one. It sends the model back to reanalyze first. | "I'm not using the canon show's split"; "the holed changelings are the only form"; "reanalyze"
+- shape: Corrects the model's premise and gives an instruction. It throws out the parasitic-versus-reformed split the analysis was built on, and it tells the model to redo the analysis using the user's stored story plans on changing biology and evolution. It does not engage with the model's question.
+- settles:
+  - In the world of EaW, changelings have only one form, the holed one. The show's split between holed and colorful changelings is not used. | "the holed changelings are the only form"

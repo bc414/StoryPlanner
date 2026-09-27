@@ -1,0 +1,9 @@
+- questions:
+- shape: The user turn answers no question, because the model turn asked none. It corrects and deepens the model's account of Gilded Lily and Silver Sterling. The user replaces "generic New Mareland traders" with a specific backstory and then draws a causal conclusion from it. That conclusion is that Chrysalis's new order and the comprador economy trace back to the lie of rugged individualism.
+- settles:
+  - Gilded Lily and Silver Sterling are younger siblings who were denied inheritance, glory and favor by their families | "denied inheritance and glory and favor"
+  - Their parents and older siblings told them to pull themselves up by their bootstraps, which is the rugged individualism lie | "pull yourself up by the bootstraps" (rugged individualism lie)
+  - They did not fight the New Mareland rat race from the bottom. They stayed in safe Equestria and became merchants for Acornage, the crack in the walled garden, where they could feel useful and not be bored | "stayed in safe Equestria" and "merchants for Acornage"
+  - They may already have failed in New Mareland, and they are resigned and resentful (offered as a possibility: "Perhaps") | "Perhaps they already failed in New Mareland, actually"
+  - Their resentment and their own ambition let them see that Chrysalis is an ambitious apex, which the Acornage changelings trying to harmonize her fail to see | "able to recognize that Chrysalis is an ambitious apex"
+  - Chrysalis's new order and the comprador economy share the same axes values and come from Gilded Lily and Silver Sterling. Both therefore follow causally from the lies of rugged individualism | "it follows causally from the lies of rugged individualism"

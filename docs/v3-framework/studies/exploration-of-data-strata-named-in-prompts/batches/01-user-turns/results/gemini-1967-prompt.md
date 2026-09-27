@@ -1,0 +1,5 @@
+- sources:
+  - Grover 3 mostly inventing the Sparlean myth | the user's planned lore, taken as the premise the answer should be framed around | In the way I am going to have Grover 3 mostly invent the Sparlean myth | referred-to
+  - our own collective consciousness of ancient Greece and Rome and other old civilizations | the real-world received picture of antiquity, to be examined as probably fabricated in part by Enlightenment, Renaissance and printing-press owners, not taken as reliable | actually likely fabrications from the Enlightenment, Renaissance, and the owners of the printing presses | first-named
+- order:
+- about: The user asks how far the real-world popular image of ancient Greece, Rome and other old civilizations was likely fabricated by later Enlightenment, Renaissance and print-era actors, to inform how Grover 3 will invent the Sparlean myth in the story.

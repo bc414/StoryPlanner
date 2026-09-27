@@ -1,0 +1,4 @@
+- claims:
+  - History | The technology Love Harvester was invented by Chrysalis, with the purpose of ending the hive wars and unifying the hives, stated as a fact of the world | Invented by Chrysalis to end the hive wars and unify the hives | no
+- goals:
+- whole: The note states in one line who invented the Love Harvester and why, as an in-universe fact of origin and purpose.

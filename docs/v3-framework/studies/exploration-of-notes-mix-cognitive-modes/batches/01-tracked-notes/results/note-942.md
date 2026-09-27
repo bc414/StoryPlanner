@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Equestrian customs officials label the crystal shipments with stamps reading "Luxury Goods Trade" and "decorations", an observable detail shown on the page | The Equestrian customs officials stamp the crystal shipments as "Luxury Goods Trade" and "decorations" | yes
+- goals:
+- whole: The note stages a single visible detail, customs stamps that classify the crystal shipments as luxury goods and decorations, to show the system acting on events on the page.

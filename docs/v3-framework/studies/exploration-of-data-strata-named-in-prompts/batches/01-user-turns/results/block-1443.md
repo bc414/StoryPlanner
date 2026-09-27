@@ -1,0 +1,4 @@
+- sources:
+  - other works with a main story plus prequels | asked to draw on general knowledge of published works to find precedents for the read-first-but-chronologically-last setup and for where the author's revelation style could come from; offered as comparison, not as authority | Do other works have this "main story plus prequels" setup | first-named
+- order:
+- about: The user asks the model to name published works that share their structure of a main story read first but set chronologically last, with a prequel that recontextualizes it, and to say where their onion-layer revelation and dramatic-irony approach might come from.

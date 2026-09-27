@@ -1,0 +1,5 @@
+- sources:
+  - the previous scene before the war council meeting | treat as established fact about the story: the Mane 6 sit at their thrones and the map is still dormant, and the explanation must fit this | The previous scene before the war council meeting features the mane 6 sitting at their thrones but the map still dormant | referred-to
+  - the world rules | the standard the explanation must be grounded in; the model is to derive why the map activates after the morale cakes from them | What is the explanation grounded in the world rules? | referred-to
+- order:
+- about: The user restates the preceding scene's established facts (Mane 6 on their thrones, map dormant, then activation after the morale cakes) and asks the model for an explanation of the activation that is grounded in the world rules, implicitly pushing back on the previous answer.

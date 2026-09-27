@@ -1,0 +1,6 @@
+- sources:
+  - TLTT v2-themes.md (themes file) | use as the statement of the themes to analyze for how they subvert Victorian-era and other traditions | I have uploaded a themes file | first-named
+  - TheLionessOfTallTale.db.md (file containing all my notes) | search selectively, not read whole, to understand the plot structure and go deep into Applejack's and Twilight's arcs as co-protagonists | search it selectively to understand the plot structure | first-named
+  - Chapter 34 Blog Posts section (in the notes file) | look at it specifically, and treat it as paratext | Also look at the section Chapter 34 Blog Posts which are paratext | first-named
+- order:
+- about: The user introduces their planned My Little Pony: Friendship is Magic / Equestria at War fanfic by attaching a themes file and a long notes database, directing how to search them, and asking for an analysis of the traditions that fed into the work and how its themes subvert Victorian-era and other traditions.

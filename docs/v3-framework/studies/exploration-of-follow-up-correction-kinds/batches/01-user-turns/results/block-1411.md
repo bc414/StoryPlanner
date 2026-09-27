@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offered plan with a brief go-ahead, without correcting or adding anything to what the model said.

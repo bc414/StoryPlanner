@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to move on now to writing the System Instruction and JSON Schema for the final sorter phase (Prompt B)? | refused | Does not take up the sorter phase. Asks instead for the finished structured-output JSON for part 0, the strategy selection. | Generate the definitive structured output json for part 0 the strategy selection
+- shape: A short instruction that redirects the conversation back to the earlier phase. The user passes over the offered next step (the sorter) and asks for the full, final Phase 0 strategy-selection schema. It does not comment on the five-lens list or the 3-5 bounds.
+- settles:

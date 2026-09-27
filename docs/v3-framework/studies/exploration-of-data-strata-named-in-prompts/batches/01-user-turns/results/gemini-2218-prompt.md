@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual question about whether Google's Opal and Antigravity share backend or internal infrastructure, without pointing the model at any body of material to use or avoid.

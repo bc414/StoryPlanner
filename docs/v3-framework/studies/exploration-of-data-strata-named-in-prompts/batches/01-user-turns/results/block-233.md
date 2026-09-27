@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats the idea of giving Synovial occasional limited point-of-view sections modeled on Trimmel's, and asks whether that would work, without pointing the model at any body of material.

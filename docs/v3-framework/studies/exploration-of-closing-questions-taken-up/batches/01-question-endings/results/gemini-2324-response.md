@@ -1,0 +1,5 @@
+- questions:
+  - How will Applejack explicitly synthesize the flaws of Coltbert's Game, including leaving behind the PAT/Wallflowers, into her final Equestrian Republic? | ignored | Nothing said about Applejack, the Republic, or the Wallflowers; the turn moves to a different topic, the Skyfall cartel. | none
+- shape: Redirects to a new topic. It gives an instruction for a follow-up analysis of what the reformed thugs, lionesses and industrialists do in Skyfall, and asks the model to judge whether that counts as a fourth part of the game. It does not engage with the model's closing question.
+- settles:
+  - In the story, the reformed thugs team up with the lionesses and industrialists to run a nationalist Aquileian cartel in Skyfall. It is stated as a given, not offered as an option. | "the reformed thugs team up with the lionesses and industrialists to run a nationalist Aquileian cartel in Skyfall"

@@ -1,0 +1,5 @@
+- claims:
+  - PageDesign | Ember offers the dragons for the Bluebell River Spearhead, paired with unicorn shielding support, as a shown action in the planning scene | She offers the dragons for the Bluebell River Spearhead with unicorn support for shielding | yes
+  - Characterization | Ember's reasoning and motive: she judges that the offer will placate the elder dragons' egos and benefit the Equestrian Army, asserting what drives her choice | It will sooth the elder dragons' egos and serve the Equestrian Army well | no
+- goals:
+- whole: The note stages Ember's on-page action of offering the dragons, with unicorn shield support, for the Bluebell River Spearhead, and adds the political reasoning behind her offer.

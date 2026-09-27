@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only an attached plan export of about 96,720 words with no accompanying text, so it neither responds to nor corrects the model's advice on hardcoding axes in the prompt.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model defined Stratified as permanent categorical barriers to status or position regardless of capability, and built its fourth-cell example (a welfare state with a hereditary aristocracy) on that. The user says their own definition of stratified is being denied material conditions. | "My definition of stratified is about being denied material conditions." | Flat, brief statement of the user's own definition, made in passing before agreeing and moving on, with no reason, apology or irritation.
+- about: The user restates what their own term \"stratified\" means, accepts the ternary Unconditional/Meritocratic/Stratified axis, and asks whether any other axes should also be ternary and why or why not.

@@ -1,0 +1,5 @@
+- claims:
+  - History | In Baltimare the lynching of the tycoons destroyed the managerial class and damaged capital infrastructure amid the chaos | lynching the tycoons destroys the managerial class and damages the capital infrastructure in the chaos | no
+  - History | The outcome for Baltimare was immediate emotional catharsis through vengeance, paid for with a severe drop in logistical efficiency | Baltimare achieves immediate emotional catharsis (vengeance) but suffers a severe drop in logistical efficiency | no
+- goals:
+- whole: The note reports, as in-world fact, the consequences of Baltimare's lynching of the tycoons (lost managerial class, damaged infrastructure, vengeful catharsis, reduced logistical efficiency) without saying anything about how the reader is to experience or judge the organization.

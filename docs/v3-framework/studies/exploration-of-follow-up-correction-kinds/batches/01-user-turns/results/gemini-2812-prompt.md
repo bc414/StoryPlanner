@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the vacuum idea as a proposed constraint for the valve's red/pink love separator, gives their own reasoning that air resistance would spoil the separation while the raw magic mix has none, and asks for confirmation, but the message is cut off mid-sentence.

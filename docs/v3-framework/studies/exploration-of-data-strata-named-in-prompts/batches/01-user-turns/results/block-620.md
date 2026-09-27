@@ -1,0 +1,4 @@
+- sources:
+  - these two scenes | the material the model is asked to analyze, the subject of the requested analysis | Give an analysis of these two scenes | first-named
+- order:
+- about: The user asks the model to analyze two scenes, introduced with a colon as though the scene material follows, without giving any other instruction or naming any other source.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to see examples of the specific propaganda posters the British public liked versus the ones they mocked? | no user turn | none | none
+- shape: none
+- settles:

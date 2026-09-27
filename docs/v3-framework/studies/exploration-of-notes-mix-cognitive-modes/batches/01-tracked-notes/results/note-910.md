@@ -1,0 +1,4 @@
+- claims:
+  - History | Trimmel commands the opening of the Great War at Vanhoover and the first and second battles of Tall Tale, stated as world fact | He commands the opening of the Great War at Vanhoover and the 1st and 2nd battles of Tall Tale | no
+- goals:
+- whole: The note states as plain world fact which Great War opening and battles Trimmel commanded, without planning how the reader meets him across the project.

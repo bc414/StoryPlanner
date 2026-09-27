@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's conclusion that Trust, reframed by a declaration sentence and a groan-then-accept beat, could be Rainbow Dash's element. The user says canon Rainbow rejects anything that looks uncool, so the element has to make trusting others cool at once, not win her over after a groan. | "Rainbow Dash does not accept anything that looks uncool" and "the element cannot simply be Trust" | Flat, with a canon example (Read It and Weep) as the reason, and after agreeing with the parts of the model's argument the user accepts. The user then sets it as a requirement: cool, full stop and immediate.
+- about: The user accepts the model's Chrysalis-constraint and Atlas Complex reasoning, but rejects Trust as the element on the grounds of Rainbow's canon aversion to uncool things. They also ask which canon episodes show the vulnerability wall and ask the model to work out why Rainbow accepts the demand to rest in Chapter 8.

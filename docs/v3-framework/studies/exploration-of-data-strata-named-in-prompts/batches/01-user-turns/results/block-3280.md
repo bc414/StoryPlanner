@@ -1,0 +1,7 @@
+- sources:
+  - the plane crash over a mass infantry meat grinder (the existing world truth, originally meant as a nazi vs soviet nihilistic meat grinder) | under doubt; the author questions whether it is still the right world truth and whether it has been superseded, without yet discarding it | I'm starting to wonder if the whole plane crash over a mass infantry meat grinder is even the right world truth to use anymore | referred-to
+  - the Stalliongrad/Severyana enhanced ontology | newer development that may supersede the older world truth; treated as a candidate replacement, not yet settled | superceded by newer developments like the Stalliongrad/Severyana enhanced ontology | referred-to
+  - Chrysalis's prequel (the Changeling Empire operates whether she likes it or not) | newer development that may supersede the older world truth; treated as a candidate replacement, not yet settled | Chrysalis's prequel dictating that she Changeling Empire operates whether she likes it or not | referred-to
+- order:
+  - Stalliongrad/Severyana enhanced ontology and Chrysalis's prequel over the plane crash over a mass infantry meat grinder world truth | the author wonders whether the older world truth is superseded by newer developments, tentatively and not as a firm ruling | superceded by newer developments
+- about: The author questions whether the older plane-crash-over-a-meat-grinder world truth, originally a nazi vs soviet nihilistic meat grinder, still belongs now that the newer Stalliongrad/Severyana ontology and Chrysalis's prequel may have superseded it.

@@ -1,0 +1,7 @@
+- questions:
+- shape: Pushes back on the model's proposal to simplify Gardener Mode display questions. The user keeps them tight and rigorous, and offers a separate undisciplined author's-notes track for quick capture. The user also allows that Gardener questions may still differ from the Linking and Scene Design ones. The turn does not answer any question, because the model turn put none to the user. It corrects the model on a design point and does not touch the losing-her-soul dissection.
+- settles:
+  - Gardener Mode display questions are not loosened into a capture-style question. They stay tight and rigorous to prevent mixed-mode entries. | "I don't think Gardener Mode display questions should be simplified"
+  - The link track, even in Unset, should carry the full-precision Linking-style question about what the reader should infer of the subject's internal state from behavioral evidence. | "exactly the kind of content I want in that link track, even in Unset"
+  - Quick, undisciplined capture is to live in a separate author's notes track and not in the Gardener display questions. This is held tentatively. | "I guess if I want a quick capture it should go in a separate, undisciplined author's notes track"
+  - Gardener Mode questions may still differ in wording from Linking Mode and Scene Design Mode questions. This is left open. | "maybe they are still different questions"

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user steps aside from the cynicism discussion to ask, out of confusion, whether George RR Martin's boomer background fits the grimdark worldview and whether ASOIAF appeals more to young people or to boomers today.

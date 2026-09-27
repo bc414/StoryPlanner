@@ -1,0 +1,4 @@
+- sources:
+  - Attached document (id 1HHJqczaOO550EL1yvZbWLQ693JT0Xtkt) | supplied to the model as material to work from; the turn gives no instruction on how far to trust or use it | Attached document | first-named
+- order:
+- about: The user attaches a document and pastes a JSON list of paradigms (Chronology, Demographics, System Mechanics, Dialectics, Orphan Concepts) with named buckets, with no instruction in words about how to use either.

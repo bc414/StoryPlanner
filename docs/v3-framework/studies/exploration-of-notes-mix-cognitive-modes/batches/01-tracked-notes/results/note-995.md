@@ -1,0 +1,5 @@
+- claims:
+  - History | Chrysalis and Gabriella Eagleclaw studied science together in the past, when Gabriella was a teenager | Chrysalis and Gabriella Eagleclaw studied science together when Gabriella was a teenager | yes
+  - History | At that time Chrysalis was in her late twenties and was disguised as a teenage griffoness | Chrysalis was in her late twenties disguised as a teenage griffoness | yes
+- goals:
+- whole: The note reports as past fact that Chrysalis, in disguise as a teenage griffoness, studied science with the teenage Gabriella Eagleclaw, and it states no reader effect.

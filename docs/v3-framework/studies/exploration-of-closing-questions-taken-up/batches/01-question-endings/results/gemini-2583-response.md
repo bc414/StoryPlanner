@@ -1,0 +1,5 @@
+- questions:
+  - How is the Luna Nova rifle mechanically designed to counter the high-maintenance poseur weapons, e.g. rugged, easy to maintain, able to use scavenged ammo, bottom-up design? | partly answered | Gives one design feature: when the user is out of ammo, the rifle draws on the user's own magic as ammunition. Says nothing on ruggedness, maintenance, scavenged ammo, or how it counters the volley guns and similar weapons. | drains the user's own magic to use as ammo if they run out of ammo
+- shape: A short answer that supplies one concrete mechanic for the rifle, a magic-fuelled fallback for ammunition. It doesn't follow the model's suggested framing of ruggedness and bottom-up design, and it adds nothing on the counter-to-poseur-weapons angle.
+- settles:
+  - The Luna Nova rifle can use its wielder's own magic as ammunition when conventional ammo runs out, draining the user | drains the user's own magic to use as ammo if they run out of ammo

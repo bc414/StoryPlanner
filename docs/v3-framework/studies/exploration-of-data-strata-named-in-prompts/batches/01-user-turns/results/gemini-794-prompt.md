@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the proposed scene order for the "Fraternity" chapter, putting the party after the speeches, and revises Trimmel's Ailmont euphoria, his choice between two speeches, and Henri's speech, without pointing the model at any body of material.

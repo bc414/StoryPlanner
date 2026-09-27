@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks an open follow-up question, inviting out-of-the-box ideas beyond what the model laid out, without challenging or fixing anything in the previous answer.

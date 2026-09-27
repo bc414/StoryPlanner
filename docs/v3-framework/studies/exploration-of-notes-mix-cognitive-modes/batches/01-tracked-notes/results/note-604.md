@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | The Griffonian Republic's family structure is modeled on the real-world Anglican model | Family structure is the Anglican Model | yes
+- goals:
+- whole: The note names a real-world model, the Anglican model, as the inspiration for the Griffonian Republic's family structure.

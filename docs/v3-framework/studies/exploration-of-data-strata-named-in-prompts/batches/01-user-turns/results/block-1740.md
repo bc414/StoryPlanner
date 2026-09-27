@@ -1,0 +1,5 @@
+- sources:
+  - the author's own feeling about naming (changelings say "The Hives", equestrians say "the Changeling X") | offered as a tentative suggestion, not settled; the model is to help pick the word for X | I feel like the changelings would refer to it as The Hives | first-named
+  - what the West called Germany and Japan (real-world historical precedent, from the model's general knowledge) | use as a reference point for choosing how the Equestrians name the enemy state | What did the West call Germany and Japan? | first-named
+- order:
+- about: The user offers a tentative naming idea (changelings say "The Hives", Equestrians say "the Changeling X") and asks the model to choose X, pointing it to how the West named Germany and Japan as a model.

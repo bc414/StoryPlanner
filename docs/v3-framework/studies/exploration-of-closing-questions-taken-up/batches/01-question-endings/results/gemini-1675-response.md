@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn asks no answer to anything, because the model turn put no question to the user. It takes the model's account of what Contractor English lacks and builds on it. It infers that changeling rehab may amount to schooling, and it asks the model three new questions: which grade levels that covers, when these language skills are taught, and whether they are taught explicitly or implicitly.
+- settles:

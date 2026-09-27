@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether buffalo magic should be understood as animal communication and coordination in addition to earth-pony-style ecological stomping rituals, contrasting the prairie's approach with Equestria's brute-force weather management.

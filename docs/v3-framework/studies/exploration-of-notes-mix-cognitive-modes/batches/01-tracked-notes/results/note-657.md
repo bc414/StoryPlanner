@@ -1,0 +1,10 @@
+- claims:
+  - Canon | Rarity's canon seamstress job and generosity themes are set up as a subversion of Celestia's cynical conclusions about clothing in the serf Herzland/Riverlands | subversion of Celestia's observations and conclusions on the (cynical) role of clothing | no
+  - Characterization | Rarity uses her talent to help ponies feel beautiful in their own coat; for her clothes are a means of self-esteem, not a status symbol (good ambition, good red love) | help ponies feel beautiful in their own coat... not just a status symbol | no
+  - Canon | This clothing-as-self-esteem idea is an established plot point in specific canon episodes and many others | canon plot point in Suited for Success and Canterlot Boutique | no
+  - Characterization | Rarity is an organic believer of the Aquileian model, like Applejack | Rarity is an organic believer of the Aquileian model, just like Applejack | no
+  - Canon | The shared belief is offered as the explanation for why Rarity and AJ work well together in canon despite different backgrounds, and why Rarity is the most complex mane 6 character | This explains why Rarity and AJ are great characters together | no
+  - NotesToSelf | The author states their aim to bring Rarity's canon message to clear light in the story using the framing of Industrialization and the balance of pink and red love | I want to bring her canon message to clear light within my story | no
+- goals:
+  - The reader is to see Rarity's canon message about generosity and clothing clearly, through the industrialization framing and the balance of pink and red love | ThematicEvidence | bring her canon message to clear light within my story
+- whole: Under a track meant to plan how the reader's opinion of Rarity shifts, this note instead grounds her in canon and asserts her character as an Aquileian believer who subverts Celestia's cynical view of clothing, ending with the author's aim to make her canon message clear.

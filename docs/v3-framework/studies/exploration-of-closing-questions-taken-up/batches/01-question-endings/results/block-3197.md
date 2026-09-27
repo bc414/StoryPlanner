@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the lineage inventory pulled up? | ignored | Doesn't ask for the inventory as such; goes straight to asking for a summary of one layer. | none
+  - Does the user want a search for something specific, and if so what? | answered | Names the target: a thorough summary of the NotebookLM materials. It is a request to summarize a whole layer, not a search term. | Give me a thorough summary of the notebook lm materials
+- shape: Gives a direct instruction that takes up the offer with a new task: summarize everything in the NotebookLM layer of the lineage corpus, and thoroughly. It doesn't comment on the tool descriptions.
+- settles:

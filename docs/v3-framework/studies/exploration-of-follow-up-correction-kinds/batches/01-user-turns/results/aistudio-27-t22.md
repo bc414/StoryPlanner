@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user submits their own Iteration 11 of the system prompt, which reworks several parts of Iteration 10 without saying anything in it was wrong, and asks the model to compare it with Iteration 10 and earlier versions and refine it.

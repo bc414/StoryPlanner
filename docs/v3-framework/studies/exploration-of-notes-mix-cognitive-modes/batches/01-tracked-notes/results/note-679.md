@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Tally Mark is the mentor figure in the story, whose role is teaching resilience | She serves as the mentor for teaching resilience | no
+- goals:
+- whole: The note asserts Tally Mark's role as a mentor who teaches resilience, without laying out any plan for her appearances in reading order.

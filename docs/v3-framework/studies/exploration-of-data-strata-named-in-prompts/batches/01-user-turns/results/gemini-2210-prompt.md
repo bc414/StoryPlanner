@@ -1,0 +1,4 @@
+- sources:
+  - my conversation notes (earlier mentions of Attila the Hun, Vikings, Magyars, and the Mandala system as inspiration for the Storm King's conquest and horde) | treated as the record of the author's earlier stated inspirations, which the new ISIS/Al Qaeda idea is set beside; not overridden or discarded | In my conversation notes, I previously mentioned | referred-to
+- order:
+- about: The user recalls the historical inspirations they previously noted for their story's Storm King conquest and horde and asks whether ISIS and Al Qaeda are the most striking modern parallels and whether other poignant parallels exist.

@@ -1,0 +1,4 @@
+- questions:
+  - Which of the three surname options (D'Entelle, Vionnet, Lamarque) should Minette take? Only implied by the list and the recommendation of D'Entelle | ignored | The user turn says nothing about the surnames and moves to a separate historical question | none
+- shape: Redirects to a new topic. The user drops the naming thread without accepting, rejecting or commenting on any option. They ask for a historical breakdown of how wine serfs in Champagne got food and what feudal taxes the lord demanded, which looks like background research for the setting.
+- settles:

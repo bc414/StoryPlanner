@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author reframes the open/closed participation axis as being about whether everyone a system can come into contact with may participate, walks through their own fictional societies as examples, and asks whether there are five or six axes.

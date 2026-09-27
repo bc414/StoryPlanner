@@ -1,0 +1,8 @@
+- sources:
+  - the DRM crystal mechanics as the model just laid them out (bricking when the link to Skyfall is lost) | treat as wrong and correct: the two mechanics were conflated; machines lock up from local part-mismatch, and the home signal only reports violations | Don't confuse the two mechanics of the DRM crystals | referred-to
+  - the John Deere Tractor | use as the real-world model for how the local, in-machine compatibility check works | it is local checking, like the John Deere Tractor | referred-to
+  - the sceau and tableau | draw on their mechanics to build the local compatibility check and the violation signal | How can the mechanics of the sceau and tableau be used? | referred-to
+  - the honesty vs poseurs theme | treat as the frame under test: asks whether rent-seeking vs ego-seeking is the only Skyfall/Aquileia difference or whether other orthogonal things are missing | the honesty vs poseurs theme | referred-to
+  - Blueblood's magical supply organization network | treat as the author's intended destination for the DRM monitor power crystals; a planned idea to fit in | I do envision the power crystals for the DRM monitors being sent to | first-named
+- order:
+- about: The user asks whether Skyfall and Aquileia differ only in rent-seeking vs ego-seeking, corrects the model's account of how the DRM crystals work (local part-compatibility lockup plus a one-way violation signal, John Deere style), asks how the sceau and tableau mechanics can fit that, says where the crystals end up, and asks for in-universe names for the DRM chips.

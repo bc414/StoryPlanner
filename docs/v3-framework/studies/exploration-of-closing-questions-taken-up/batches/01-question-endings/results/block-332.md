@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack keep her own citizens from deifying her as a new Celestia, and how does she actively undermine her cult of personality so the Republic outlasts her? | no user turn | none | none
+  - Once Chrysalis is defeated and the unifying external threat is gone, how does the Republic sustain the civic momentum of the EEEE! movement through dull peacetime administration, given how real-world wartime solidarity decayed? | no user turn | none | none
+- shape: none
+- settles:

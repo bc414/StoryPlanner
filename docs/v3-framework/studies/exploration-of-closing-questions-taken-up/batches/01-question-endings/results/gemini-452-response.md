@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the model to analyze a specific book they are reading, separating its themes from its historical commentary | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,7 @@
+- questions:
+  - Should the next step be Fizzlepop using the external tech matrices on the battlefield later in the war, for example as a test pilot for Twilight's early tactical gear? | ignored | Nothing on Fizzlepop's later battlefield use. The user moves to a different question about the Mane Six. | none
+  - Or should the next step be how Scootaloo earns her wings in Chapter 17? | ignored | Scootaloo's wings are not taken up. The user asks about Applejack, Twilight and Fluttershy instead. | none
+- shape: The user turn drops both offered paths and starts a new thread. It says the CPU/external-matrix idea explains why Applejack and Twilight must learn from almost nothing while Fluttershy is already ready. It supplies its own explanation, that Rarity's Aquileian roots passed something to Fluttershy early on through Putting Your Hoof Down, and asks the model for an analysis of it.
+- settles:
+  - Fluttershy is already prepared at the start of the story, unlike Applejack and Twilight, who begin from almost nothing and naivety. | this solves the great question of, why do Applejack and Twilight have to learn from almost nothing
+  - The source of Fluttershy's readiness is Rarity's Aquileian roots, which were transferred to Fluttershy early on in the Putting Your Hoof Down episode. | It comes back to Rarity's Aquileian roots and the episode Putting Your Hoof Down

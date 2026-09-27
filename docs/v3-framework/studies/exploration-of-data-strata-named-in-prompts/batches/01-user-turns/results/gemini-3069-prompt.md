@@ -1,0 +1,7 @@
+- sources:
+  - my lore (alicorn magic as 3x standard magic, one for each tribe; Celestia moving the sun through a cutie mark discount) | treat as true and use it to correct the model's assumption about alicorn magic | Alicorn magic in my lore is just 3x standard magic | referred-to
+  - the show's depiction of alicorn magic as infinite | do not use; the author's lore departs from it | It's not infinite like the show depicts | referred-to
+  - canon (the tree giving the chest and rainbow power; Twilight defeating Tirek with three magic of friendship) | keep these events as the baseline that the plot follows, with the author's lore giving them a new reading | Twilight canonically defeated him | referred-to
+- order:
+  - my lore (alicorn magic is 3x, not infinite) | the show's depiction of alicorn magic as infinite | It's not infinite like the show depicts
+- about: The user corrects the model's assumption about Tirek absorbing alicorn magic by restating their lore's limits on alicorn power, then lays out that Synovial never faces Tirek because canon's Twilight defeats him, after which Chrysalis demotes Synovial and he goes to Griffenheim humiliated.

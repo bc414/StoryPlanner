@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model set changeling endurance against pony endurance as purely drug-driven, leaving out coercion as a second source, and its options mostly stressed stamina or tempo without the trust side | "contrasting with the changeling endurance that comes from drugs and coersion" | restated as the key idea, flat and brief, with the missing element added in passing and no stated fault
+  - reading of the request | The title options came from general military, physics and biology vocabulary, where the user wants candidates taken from HOI4 game terms | "Look for HOI4 game terms as other potential chapter titles" | a plain imperative that redirects the search, with no explanation and no comment on the earlier list
+- about: The user restates the chapter's core theme (trust-based endurance against drug- and coercion-based endurance), redirects the title search to HOI4 terms, and offers to rename Blitz-Essenz so the "Essence" pun works.

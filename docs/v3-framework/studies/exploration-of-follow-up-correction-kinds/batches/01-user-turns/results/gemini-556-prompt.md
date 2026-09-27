@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model set Pink Love as a general opioid (heroin/methadone) for pacification, but the user's plan has it as methadone specifically | "So I was planning on pink love being methadone, not opioids." | flat restatement of the plan, given in passing, with the reason in the preceding lines and then used to launch a question
+  - reading of the plan | The model treated Red and Pink Love as pharmacological analogues of drug classes, missing that in the plan Red Love is magic (ambition affecting the physical world) and Pink Love is friendship, a discovery Twilight and Fleur make from the love harvester | "I'm planning on red love to really be \"magic\" and pink love is \"friendship\"" | stated plainly as background, with an explanation of the world's premise, not framed as an error
+- about: The user restates how Red and Pink Love work in their plan (magic and friendship, with Pink as methadone) to fix the model's drug mapping, then asks how methadone works and whether stimulants replaced opioids in the black market history.

@@ -1,0 +1,9 @@
+- questions:
+  - When Fluttershy learns her Expo Center capacity miscalculation led to conscript deaths in withdrawal, how does she process the failure, and does she spiral into thinking Celestia was right? | ignored | none; the turn moves to Stalliongrad and never returns to Fluttershy, Fauna or Fleur Bloom | none
+  - How does Flowing Current use the shared industrial trauma of the Changeling conscripts to persuade EEEE! members to protect the Manehattan POWs from Gilded Trust's lynch mobs? | ignored | none; nothing on EEEE!, Manehattan, Flowing Current or Gilded Trust | none
+- shape: Leaves both of the model's questions alone and starts a new thread. The user asks the model to work out how Stalliongrad, having lost 15% of its people and taken in 1.2 million Changeling prisoners, would stand when it joins the Allies for the final liberation after the year of white peace. The user also adds a new world fact about Changeling prisoners fighting for Stalliongrad.
+- settles:
+  - Stalliongrad runs on Trotsky's global vanguard ideology | Stalliongrad is running on Trotsky's global vanguard ideology
+  - Changeling prisoners in the gulags who are indoctrinated into Caramel Marks's ideology are allowed to fight on the frontlines as class allies | allow changelings who get indoctrinated to Caramel Marks's ideology in the gulags to fight on the frontlines as class allies
+  - Those Changelings are ones who turn against the State that betrayed them | changelings who decide to turn against the State that betrayed them
+  - Premise: Stalliongrad lost 15% of its population in the active war, and then held 1.2 million Changelings in its gulags, with a year of white peace and northern attrition before the final liberation | If Stalliongrad lost 15% of their population during the active war

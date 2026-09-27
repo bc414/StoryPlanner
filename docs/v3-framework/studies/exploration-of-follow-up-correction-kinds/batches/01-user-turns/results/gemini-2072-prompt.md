@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model matched the story project to the high-randomness quadrant, treating story work as wanting surprising, low-probability output. The user says their story planning is synthesis and analysis and should not produce random things. | "When doing story planning, I don't want it to come up with random things." | Implicit and unemphasised: it is stated as a preference and a restatement of need, and then leads straight into a new question without saying the earlier suggestion was wrong.
+- about: The user restates what they actually need from story planning (explaining the nuance behind their instincts, and formal literary analysis), which implicitly pushes back on the chaos-for-creative-writing framing, and asks which temperature and top-p settings fit those two tasks and why.

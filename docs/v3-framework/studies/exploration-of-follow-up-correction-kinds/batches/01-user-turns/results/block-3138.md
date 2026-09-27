@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's ocean-history and Tzinacatl trade expansion as accepted and asks a new question: what the Equestrian hippogriff and seapony foal story, both as myth and as its materialist substrate, should now be, supplying the v1 Passion comedy scene as context and telling the model to drop an older dramatic version.

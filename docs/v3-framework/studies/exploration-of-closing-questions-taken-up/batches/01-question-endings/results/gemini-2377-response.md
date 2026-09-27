@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to map out the specific scene where the synthesis is formally recognized? | no user turn | none | none
+  - Does Coltbert write a final addendum to The Predator's Dilemma in 1011 ALB acknowledging that Kemerskai and the Equestrians had the missing pieces? | no user turn | none | none
+- shape: none
+- settles:

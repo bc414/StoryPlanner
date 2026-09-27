@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's suggested replacement term and asks a run of follow-up questions about whether to adopt it wholesale, where it comes from, what each term implies, and how to separate trope from materialist historicism, without saying anything in the model's analysis was wrong.

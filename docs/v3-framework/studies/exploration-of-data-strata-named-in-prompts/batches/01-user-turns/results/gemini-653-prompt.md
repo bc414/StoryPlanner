@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user clarifies Luna's motivation for ordering the retreat, saying she acts on feeling to protect the ponies' innocence, and does not point at any body of material for the model to draw on.

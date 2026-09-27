@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model put the first public defiance of Celestia, siding with Applejack before the War Council, in Combined Arms. The user places that argument later, in Encirclement, and treats Combined Arms as the first meeting after Passion. | "It's before the argument in Encirclement where Twilight says in front of everyone that she trusts Applejack's judgement over Celestia's" | Indirect and flat. It is given as a fixed point of the timeline while the user sets up a new question, with no explicit "you were wrong" and no apology.
+- about: The user asks a new question about how Twilight and Celestia should meet in Combined Arms, and sets out the surrounding timeline, which also shows that the public confrontation belongs in a later chapter than the model said.

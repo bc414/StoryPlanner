@@ -1,0 +1,5 @@
+- sources:
+  - my story plan, the earlier version from when the army was extremely naive and incompetent (the bulky "Equestrian pure magic prototype" radio idea) | treat as outdated; the radio backstory from that version no longer fits and needs a different reason | back when the army was extremely naive and incomeptent in my story plan | referred-to
+  - whatever the Crystal Empire and Star Energy are using (crystal hybrid radios) | use as the basis for the standard-issue radios of the now-competent Equestrian Army | they would have proper crystal hybrid radios, whatever the Crystal Empire and Star Energy are using | referred-to
+- order:
+- about: The author corrects the model's radio reasoning by saying the competent Equestrian Army would have proper crystal-hybrid radios, drops the old pure-magic-prototype idea from an earlier stage of the plan, and asks for a new reason Applejack's radio differs from standard issue, suggesting it be because she was a general.

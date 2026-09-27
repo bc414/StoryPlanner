@@ -1,0 +1,4 @@
+- sources:
+  - this block | the material the model is to extract notes from and sort into destinations in the planner | what notes come out of this block | referred-to
+- order:
+- about: The user gives a new allegory idea (Celestia's no-calculator schooling standing in for calculators, search engines and LLMs) with its argument, and asks the model to pull out the notes in that block and say where they belong.

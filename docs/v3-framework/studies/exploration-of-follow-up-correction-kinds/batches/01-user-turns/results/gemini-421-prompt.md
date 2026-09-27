@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the story analysis and asks a fresh, standalone question about the formal game-theory term for the cooperate and defect choices, without disputing anything in the model's turn.

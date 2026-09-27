@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reflects with surprise that they are in uncharted territory, reacting to the model's finding that few people use AI cooperatively, without pointing the model at any body of material.

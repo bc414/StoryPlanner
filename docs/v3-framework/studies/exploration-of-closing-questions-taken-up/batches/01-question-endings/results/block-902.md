@@ -1,0 +1,8 @@
+- questions:
+  - When Applejack and Twilight enter Canterlot in the Paradrop, do the elites who ignored evacuation try to pull rank on her as a rural grunt, and how does she use her political leverage to break their delusions? | partly answered | Does not describe the encounter or her leverage. It only corrects the premise: Canterlot's trapped population is not just elites but also ordinary ponies who skipped total mobilization, with some northern evacuees and some natives among them. | Canterlot is not just elites, it is also ordinary ponies
+  - How does Applejack defend the POW transfer and the Tzinacatl drug funding on the 1015 ALB debate stage without sounding like the Skyfall Tycoons she opposes? | ignored | The user turn does not mention the election, the debate, or the wartime compromises. | none
+- shape: The user turn corrects the model's picture of Canterlot's population, adding ordinary ponies to the elites and giving a figure for the evacuated north. It then asks the model a new question about which Yalta-era figure or figures are Blueblood's allegory. It sets the model's two closing questions aside.
+- settles:
+  - Canterlot's trapped population is not only elites. It also includes ordinary ponies who did not join total mobilization. | Canterlot is not just elites, it is also ordinary ponies
+  - About 12 million ponies were evacuated from the north. | The evacuated north would be around 12 million ponies
+  - Some northern evacuees went to Canterlot instead of the eastern cities Blueblood directed, and some Canterlot natives did not evacuate. | Some went to Canterlot instead of the eastern cities like Blueblood directed

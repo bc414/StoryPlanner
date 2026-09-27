@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the revised web-app prompt and the offered C# help to ask for a maximally detailed system instruction for the first Playground step (the Cartographer), without disputing anything in the model turn.

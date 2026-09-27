@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question to pin down whether the term "Pinkie Promise" itself, or only the rhyme, appeared in the debut episode and whether it became an in-universe term later, without stating that anything in the previous answer was wrong.

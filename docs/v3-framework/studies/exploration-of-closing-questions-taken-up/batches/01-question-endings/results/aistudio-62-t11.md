@@ -1,0 +1,7 @@
+- questions:
+  - How does Blueblood being the only pony who grasps Chrysalis's economic side isolate him from Applejack and Twilight, who see the Changelings only as a military or magical threat? | ignored | Nothing said about it. The turn goes straight to who could warn Blueblood. | none
+  - When Trimmel surrounds Canterlot, does he realize the robust Equestrian railway logistics come from Mudbeak's Imperial engineering, and how does that shape his view of Equestrian softness? | ignored | Nothing said about it. The turn stays on the 1003 warning scene. | none
+- shape: Sets aside the model's closing questions and redirects to one beat in its analysis, the VOPS warning to Blueblood. The user asks for more detail on how the warning could happen and who could deliver it. They test a Herzlander noble against the timeline, rule out Eagleclaw, float Thorax or converted jaegers, and ask whether there are better options.
+- settles:
+  - Eagleclaw cannot be the one who warns Blueblood, because the warning falls in 1003, before the 1007 betrayal. | I can't use Eagleclaw because this is before Chrysalis's 1007 betrayal
+  - The warning scene stays around 1003, so the warner must know VOPS exists that early. | This takes place around 1003. Who in my story plans would know that VOPS exists

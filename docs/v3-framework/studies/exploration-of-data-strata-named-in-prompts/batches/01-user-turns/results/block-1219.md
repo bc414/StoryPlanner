@@ -1,0 +1,8 @@
+- sources:
+  - To Hone a Leaf Blade, the attached full text of his first serial story (Nov 2015-Jan 2017) | the main material to read and analyse, as an earlier-era work the author finds flawed yet says resonates most | I have attached the full text | first-named
+  - KU plans | the existing plans to set the old story against in the comparison | comparative analysis to KU and TLTT plans | referred-to
+  - TLTT plans | the existing plans to set the old story against in the comparison | comparative analysis to KU and TLTT plans | referred-to
+  - the earlier, much weaker materialist plot of the first story | treat as superseded, since the author rejected and replaced it after chapter 15 | much weaker gardened materialist plot which I refused wholesale | first-named
+  - the author's own account of the story's history (rewrite of chapters up to 21, two unwritten chapters, a high schooler's rewrite) | treat as true background from the author's memory that frames the comparison | the story is missing two chapters which I never finished | first-named
+- order:
+- about: The author gives the history of his first serial Pokemon romance, attaches its full text, and asks for a comparative analysis against his KU and TLTT plans, while reflecting on the architect-versus-gardener lesson and on being unable to reread the old work.

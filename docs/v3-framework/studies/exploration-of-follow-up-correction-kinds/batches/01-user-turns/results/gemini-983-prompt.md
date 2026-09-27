@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's Celestia analysis unchallenged and moves on to a new design question about how Manehattan's war bond system should be modeled on Britain's WW2 mobilization, and whether it broke the gold standard or ran on future productivity.

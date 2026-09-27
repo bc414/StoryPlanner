@@ -1,0 +1,4 @@
+- claims:
+  - History | The Griffonian Republic obtains the crystals for its universal translators by purchasing them from the Diamond Mountain black market and from Chrysalis's company | They buy crystals from the Diamond Mountain black market and Chrysalis's company for the universal translators | yes
+- goals:
+- whole: The note reports as a plain fact of the world where the Griffonian Republic sources the crystals that power its universal translators.

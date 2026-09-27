@@ -1,0 +1,5 @@
+- claims:
+  - History | At the war's outset the Equestrians assumed Chrysalis's empire would simply collapse from within | At the start of the war, the Equestrians assume Chrysalis's empire will just collapse from the inside | no
+  - Characterization | The Equestrians' assumption stems from projecting their own harmony-based assumptions onto the changeling empire, which is the truth of what shapes their outlook | projecting their own harmonic assumptions | no
+- goals:
+- whole: The note reports what the Equestrians wrongly assumed about Chrysalis's empire at the war's start and why, as an in-world fact, without stating any reader experience or opinion design despite sitting in a reader-opinion architecture track.

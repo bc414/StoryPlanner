@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its audience analysis to bronies and former bronies as a group who have already passed the pony-engagement threshold, without pointing at any material to draw on.

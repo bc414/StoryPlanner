@@ -1,0 +1,7 @@
+- sources:
+  - canon FiM (the current-day Everfree Forest border) | fixed endpoint the invented history must arrive at; the border is treated as where expansion froze around 914-930 | the current day border in canon FiM is where the border froze | referred-to
+  - the canon story from Family Appreciation Day (Ponyville settled by Granny Smith and Stinkin' Rich) | keep as true; Ponyville is the most recent settlement in the frozen border | Ponyville the most recent settlement by Granny Smith and Stinkin' Rich | referred-to
+  - the idea that Luna before her banishment cleared most monsters from most of Equestria | preserve it, now reworked so monsters were driven into a large Everfree Forest | I can still preserve the idea that Luna before her banishment cleared most monsters | referred-to
+  - middle ages Equestria as a walled garden | the author is dropping this framing and replacing it with a parallel to the Griffonian Empire | moving middle ages Equestria away from the walled garden trope | referred-to
+- order:
+- about: The author answers the model's question about Celestia's pre-914 stance by reworking the Everfree Forest, frontier exhaustion, and New Mareland into a revised medieval Equestria, while keeping the canon Everfree border and Ponyville's founding as fixed points.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes their own name for the merged subject, "Coltbert's Aquileia" or "Coltbert Reforms Aquileia", and explains that it covers both the constitutional monarchy and the 2nd Aquileian Republic, without pointing at any body of material for the model to use.

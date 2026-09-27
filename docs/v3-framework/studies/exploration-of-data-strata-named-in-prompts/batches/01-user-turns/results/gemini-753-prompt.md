@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general history question about whether British adults in the WW2 home-front war economy were legally compelled to contribute or motivated only by economic incentive, without pointing at any particular source of data.

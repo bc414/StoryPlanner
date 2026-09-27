@@ -1,0 +1,7 @@
+- sources:
+  - Mane 6 ship popularity in the fandom | to research and report which ships are more and less popular and why; external evidence the model is to find | do some research into which mane 6 ships are most popular and less popular and why | first-named
+  - Fandom perception across the Faust era to the Hasbro mandate era | to research whether fandom views of the ships shifted between the eras, and whether TwiJack was seen as more compelling before the shift | if there was a shift in fandom perception of the ships as the show trended from Faust era to Hasbro Mandate era | referred-to
+  - The show itself, Twilight and Applejack screentime before and after the mandate | to check factually whether the two characters shared more screentime in the Faust era than after | Did the two characters really spend more screentime together before the mandate or not | first-named
+  - The author's own impression that TwiJack was more compatible or compelling earlier | to be tested against the research, treated as an unverified belief rather than settled | or is it just me | referred-to
+- order:
+- about: The user asks the model to research fandom ship popularity, its shift between the Faust and Hasbro-mandate eras, and Twilight and Applejack's screentime, in order to test whether their own belief about TwiJack holds up.

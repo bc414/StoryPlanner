@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Applejack hates industry, and the cause is that her parents left the farm for it | She hates industry because her parents left the farm for it | yes
+  - Characterization | Applejack holds the belief that industry is dishonest | She views industry as dishonest | yes
+- goals:
+- whole: The note asserts, as psychological truth, Applejack's starting attitude toward industry and traces its root to her parents' leaving the farm.

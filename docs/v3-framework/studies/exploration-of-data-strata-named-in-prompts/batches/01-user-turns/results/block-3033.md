@@ -1,0 +1,9 @@
+- sources:
+  - Stalliongrad in the game, including the mismanagement by pegasi | treated as provisional and partly overridable: the author is superseding certain game elements, and the game's origin is called whimsical rather than materialist | 'I'm superceding certain things like the "mismanagement by pegasi"' | referred-to
+  - what people know Stalliongrad as (the core of the game's Stalliongrad) | the standard the earth-pony-only idea has to be checked against, to see whether it is compatible | 'compatible with the core of what people know Stalliongrad as' | referred-to
+  - the research (the model's earlier findings, including Altidiya and Vasily both being earth ponies) | treated as evidence: little sign that Stalliongrad is strongly three-tribe, and the leaders' race leans toward earth ponies being the norm | 'the research is pointing to not that much evidence' | referred-to
+  - real life Russian history (Soviet Union and Peter the Great) | comparison base: the model is to say how the earth-pony-only idea compares, and whether the peasants were diverse and then erased | 'how does this compare to real life Russian history' | first-named
+  - the Industrial Severyana phase as the boyars modernized and centralized | the author's own tentative idea, offered as a possible setting for linguistic erasure and open to the model's assessment | 'Perhaps linguistic erasure between different settlements' | referred-to
+- order:
+  - the author's own earth-pony-only Stalliongrad | over the game's mismanagement by pegasi and similar details, which the author says they are superseding | 'I'm superceding certain things'
+- about: The author asks the model to confirm that an all-earth-pony Stalliongrad fits what the game's Stalliongrad is known as, and to compare it with real Russian history, asking whether a peasantry that was diverse could have been erased through linguistic centralization under the modernizing boyars.

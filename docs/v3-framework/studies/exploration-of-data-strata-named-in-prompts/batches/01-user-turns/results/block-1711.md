@@ -1,0 +1,4 @@
+- sources:
+  - The attached file of instructions (ANALYSIS-PROMPT-claudeai.md) | to be read in full and then carried out as the task to execute | Read the attached instructions in full and then execute them | first-named
+- order:
+- about: The user attaches a file of instructions and tells the model to read all of it and carry it out, without saying anything else about what it contains.

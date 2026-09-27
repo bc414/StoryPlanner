@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a complete, detailed set of system instructions for the new Gem, to copy and paste in? | ignored | Says nothing about the Gem or its instructions. Moves to their existing note organizer and asks for ways to use it. | none
+- shape: Redirects away from the Gem idea to the user's own note organizer tool. Reports that its third step, the Sorter, is weak at completeness. Then gives an instruction: produce many innovative ways to use the organizer to organize, consolidate and analyze the story plan.
+- settles:

@@ -1,0 +1,4 @@
+- claims:
+  - History | Earth ponies in pre-industrial Aquileia were serfs who worked ineffectively, and the cause was that they lacked pride or ownership in the crops they worked | Earth ponies are ineffective serfs in pre-industrial Aquileia because they don't have pride or ownership in their crops | yes
+- goals:
+- whole: The note reports as a world fact, with a stated cause, that earth ponies were ineffective serfs in pre-industrial Aquileia.

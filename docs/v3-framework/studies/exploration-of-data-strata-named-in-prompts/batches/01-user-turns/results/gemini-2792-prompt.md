@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user lays out a timeline and premise for how second-generation Royalist griffons, through artisan machinery and workshops around the University of Pridea, develop a griffon form of asset specificity, and asks the model to analyze how that origin leads into the Coltbert Reforms.

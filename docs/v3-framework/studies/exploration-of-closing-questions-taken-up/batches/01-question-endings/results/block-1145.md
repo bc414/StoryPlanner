@@ -1,0 +1,7 @@
+- questions:
+  - How does Fluttershy process learning in 1011 ALB that Applejack's parents attended the same Skyfall seminar that taught Rockfeller — resentment toward the Apples' wealth, or does she use Grace to separate the Apples' factory from Rockfeller's monopoly? | ignored | Says nothing about Fluttershy's reaction to the Apples' seminar link; moves to the canon fairy tale. | none
+  - Where did the Buffalo stewards fired from the observatory go — did they return to the Badlands and warn Chief Thunderhooves, seeding the Buffalo's militarized response to Appleloosa's founding? | ignored | Does not mention the fired Buffalo, Thunderhooves, or the Appleloosa conflict. | none
+- shape: Accepts the model's timeline and Rockfeller-buyout backstory as settled and uses it as a base to turn to a new topic: how to read the fairy tale Fluttershy tells the CMCs in the canon episode. It offers a tentative reading of its own and does not take up either of the model's questions.
+- settles:
+  - The enclosure backstory (Rockfeller's buyout of the observatory, tied to the timeline) is treated as fixed canon for the project. | "With this objective backstory locked in"
+  - Tentative reading: in Fluttershy's canon fairy tale, "I had never been to the ground before" stands for the wild, because her parents thought open fields with no ponies were dangerous. | "I guess ... can be a euphemism for 'the wild'"

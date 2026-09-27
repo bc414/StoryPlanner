@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Henri finds German names aggressive and imperial, and that perception explains why he uses English translations of them to insult the Germans' pride | Henri thinks the German names sound aggressive and imperial, which is why he uses the English translations as an insult | no
+- goals:
+- whole: The note asserts the psychological motive behind Henri's habit of using English translations of German names, which is character truth rather than a plan for how the reader meets him across the project.

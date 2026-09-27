@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the previous chapter-range findings and moves on, asking the model to run the same hidden-subject search on chapters 18-22 and say whether they hold new subjects or build on existing material.

@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like the model to draft a 'Master Analyst' prompt to paste into NotebookLM's Custom Goal settings, to keep it strictly in world-building analysis mode? | no user turn | none | none
+- shape: none
+- settles:

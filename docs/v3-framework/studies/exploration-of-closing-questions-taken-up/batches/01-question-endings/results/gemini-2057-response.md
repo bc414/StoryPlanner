@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want a Phase 2 schema with a CharacterChecksum or WordCount property for the React verification tool? | ignored | Says nothing about the schema or checksum. It goes straight to a complaint about the prompt. | none
+- shape: Corrects the model. It rejects the drafted Phase 2 prompt as missing a requirement, that all input appears in the output at least once, or else in garbage or authorial directives. It does not take up the offered next step.
+- settles:
+  - The Phase 2 sorter prompt must require that every part of the input data show up in the output at least once, either in a lore bucket, in the garbage bucket, or under the authorial rule (directives). | missing the requirements about including every part of the input data in the output at least once, or in the garbage, or the authorial rule

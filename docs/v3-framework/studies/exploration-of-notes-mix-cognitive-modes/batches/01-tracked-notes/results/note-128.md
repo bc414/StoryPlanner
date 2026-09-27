@@ -1,0 +1,5 @@
+- claims:
+  - History | Bright Mac and Pear Butter return home for visits roughly every one to two months | visit home once a month or two months or so | yes
+  - History | When at home they adopt "country personas", a fact reported about their behavior in that period | They put on "country personas" when they come home | yes
+- goals:
+- whole: The note reports, as in-universe historical fact, how often the couple visited home and that they adopted country personas while there.

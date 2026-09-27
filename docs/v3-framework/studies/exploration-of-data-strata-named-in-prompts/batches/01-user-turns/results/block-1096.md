@@ -1,0 +1,4 @@
+- sources:
+  - a remembered quote from a post-presidency interview, where Obama said he was a decade or two too early | treated as an approximate recollection from the user's memory; the model is to identify where it came from and unpack it, not take the wording as exact | I remember a quote for a post-presidency interview where he said something like | first-named
+- order:
+- about: The user asks for a full analysis of Obama's inner reality, public perception and phases of influence, checks a date fact about the 2008 financial crisis, and asks the model to trace and explain a half-remembered post-presidency quote.

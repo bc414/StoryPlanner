@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - placement of a track in the schema | the model's account made scene-level reader-perception design part of the NarrativeDesign mode alongside character-level tracks; the user narrows it so Reader Perception Design sits only on the plot point and not on the character | Reader Perception Design goes only on plot point, not on character | tentative, stated as own view with a brief workflow reason (it would be written by reading the NarrativeDesign notes of connected subjects), folded into a message that mostly proposes a new structure
+- about: The user offers a simplified three-axis scheme for character and link tracks and asks whether it is too simple, while also narrowing where Reader Perception Design should sit and noting that this stage is far off.

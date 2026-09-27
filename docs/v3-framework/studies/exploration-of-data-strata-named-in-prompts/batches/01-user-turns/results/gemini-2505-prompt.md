@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding analysis of Pinkie's rock farm, the Skyfall extraction framing and its ideas | partly rejected and partly kept: drop the plain industrial-extraction and industrial-horror framing, but keep the Sonic Rainboom as the source of her ambition and the phosphorus-fuelled party cannon as the reason she commands artillery | It should not be about plain-faced industrial extraction; I do agree that the sonic rainboom; I also like the idea that Pinkie's party cannon | referred-to
+- order:
+- about: The user corrects the model's account of Pinkie's rock-farm backstory, replacing industrial misery with a family's proud, boring chosen life that Skyfall quietly exploits. They accept the Rainboom-ambition and phosphorus party-cannon ideas, and add a parallel between the Wonderbolts and the Apple–Pear feud.

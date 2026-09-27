@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to expand on the overt and subtle ways AI is misused (grift, exploitation, social damage, erosion of asset specificity and dignity, and other harms), while keeping traditionalists' dignity and separating honest accelerant use from these abuses.

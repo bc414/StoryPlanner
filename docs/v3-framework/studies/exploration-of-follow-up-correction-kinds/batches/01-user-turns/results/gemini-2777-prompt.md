@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Why Applejack takes to the machine gun: the model gave it as a retreat from failed command and strategy into something tangible, while the user says her own stated reason in chapter 9 is that it made her feel useful because she believed she had no magic, set against hiding behind Twilight's shield | the machine gun made her feel useful because she thought she didn't have magic | offered as a new insight and never called a mistake; the correction is carried by the substitute motive, stated flatly with a chapter reference and a contrast
+- about: The user offers a canon detail from chapter 9 that gives a different origin for Applejack's machine-gun use, tied to her believing she had no magic and later learning she does, and it replaces the model's command-failure explanation without saying so outright.

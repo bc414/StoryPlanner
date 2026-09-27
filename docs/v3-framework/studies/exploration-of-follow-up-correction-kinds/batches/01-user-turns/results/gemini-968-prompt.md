@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model assumed the war effort runs on Red Love extracted from drained ponies in pods (a cannibal economy, burning victims' suffering, 'fracking'); in the story the harvester is tamed into a donator that hurts far less and the war is fuelled by donations | Actually they tame the love harvester into a donator which doesn't hurt as much | flat, offered as a plain statement of how the story works, opened with 'Actually'
+  - fact of the world | The model's picture of the post-war world as a dirty-energy dystopia and Twilight tempted toward becoming consumers of ponies; the user says the civilian economy runs on civilian spell matrices doing nice or productive things | And the civilian economy post war can also run on civilian spell matrices that do nice things or productive things | flat, added in passing as a further clause after the main correction
+- about: The user replaces the model's grim extraction-and-cannibalism reading with the plan's actual setup, where the harvester is tamed into a low-harm donation system that fuels the war and civilian spell matrices power the peacetime economy.

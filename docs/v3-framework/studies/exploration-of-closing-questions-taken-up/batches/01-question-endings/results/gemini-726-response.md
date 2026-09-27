@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the model to find a specific technical breakdown of the SoundStorm architecture, to see how the audio is synthesized | ignored | Says nothing about SoundStorm or a technical breakdown; asks instead for an overview of NotebookLM's other features | none
+- shape: Redirects to a new, broader request: drops the audio-synthesis thread and asks for a general overview of NotebookLM's remaining features. It is an instruction for the next reply and does not respond to the offer.
+- settles:

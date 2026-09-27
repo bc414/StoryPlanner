@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of Chrysalis's names by proposing a new element, an Acornage changeling pipeline that teaches arrivals Equestrian language, names and personas, and asks whether it fits and adds to her hatred of Equestria.

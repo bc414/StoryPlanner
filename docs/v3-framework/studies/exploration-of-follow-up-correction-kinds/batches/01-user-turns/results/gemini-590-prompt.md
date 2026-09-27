@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Vanhoover analysis and asks a new, separate worldbuilding question about how Chrysalis keeps the rival Bauleiter/Jaeger and Statthalter power structures from hurting her war effort, and why she keeps both, with no objection to the model's previous turn.

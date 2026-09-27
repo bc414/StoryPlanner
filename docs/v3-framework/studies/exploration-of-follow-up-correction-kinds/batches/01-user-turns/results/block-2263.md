@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the OpenAI analysis to ask a new comparative question about 1950s suburbanization and whether wealthy suburbs differ genuinely from suburbs elsewhere in America.

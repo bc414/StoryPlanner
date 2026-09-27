@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten: world-rule ontology | Extracted pink love is visibly dull and holds fewer active components than it otherwise would | Extracted pink love is visibly dull and contains less of the active components | outside
+  - outside all ten: world-rule ontology | The cause is that the victim sees their situation as torture by a predator, and that terror taints the pink love | because the victim perceives their situation as being tortured by a predator and that terror taints the pink love | outside
+  - outside all ten: world-rule ontology | The tainted extract has to be processed in a fractional distillation centrifuge, which isolates plain calories, concentrates oxytocin for jaeger-geist and concentrates endorphins for panzer-haut | It must be run through a fractional distillation centrifuge to isolate the plain calories, concentrate the oxytocin for jaeger-geist, and endorphins for panzer-haut | outside
+- goals:
+- whole: The note states, as rules of the fictional universe, why extracted pink love comes out dull and what refining process turns it into calories, oxytocin and endorphins for the two products.

@@ -1,0 +1,4 @@
+- sources:
+  - the story plan doc, specifically my lore about Luna leading the thestrals for monster hunting | treat as the root the culture, norms and institutions are derived from, and reread the relevant parts to ground the analysis | flowing out of my lore from the story plan; Reread the relevant parts of the story plan doc | referred-to
+- order:
+- about: The user asks the model to derive the Tzinacatl culture and institutions from the story plan's lore of Luna's monster-hunting thestrals, with flower wars as warrior training, and asks whether Mali's talk with her mother comes before or after the pitch to the wider body.

@@ -1,0 +1,5 @@
+- claims:
+  - History | the changeling conscripts are high on jaeger-geist and fight the war in a forced, cartoonish euphoria cut off from the material reality of their suffering | changeling conscripts high on jaeger-geist; fighting a war with forced, cartoonish euphoria, entirely disconnected from the material reality of their suffering | no
+  - ThematicEvidence | the euphoric conscripts are set up as the dark manifestation, or mirror, of Pinkie's old worldview, so that her cheerfulness is shown as detachment from suffering | the dark manifestation of Pinkie's old worldview | no
+- goals:
+- whole: The note asserts that the drugged, euphoric changeling conscripts are a dark mirror of Pinkie's old worldview, which is a thematic parallel and not a plan for how the reader will come to understand the organization.

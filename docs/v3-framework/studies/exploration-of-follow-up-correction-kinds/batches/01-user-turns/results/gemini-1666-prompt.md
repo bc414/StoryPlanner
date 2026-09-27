@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's suggestion that Fluttershy choose to stay on her own, sets out their own version of it (Twilight sends her back to Celestia with a message, and she stays anyway), and asks for a fresh analysis, overview and set of suggestions on the chapter 5 Laughter plan.

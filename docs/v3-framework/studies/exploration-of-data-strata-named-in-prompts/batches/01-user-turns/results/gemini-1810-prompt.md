@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding analysis of Vérany's reforms ("that") | treated as a premise; the user draws an inference from it about pre-972 serfs and asks the model to confirm or correct it | Does that mean, before all of this | referred-to
+- order:
+- about: The user asks a follow-up question, checking whether the model's analysis of Vérany's reforms implies that pre-972 serfs in vassal Aquileia were skilled specialty producers forced to pay dues in labor or through sexual abuse under threat of force.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves to a new worldbuilding question, asking for pros and cons of two possible origins for the consent spell (Luna 1000 years ago versus a recent Aquileian invention), without disputing anything in the previous analysis.

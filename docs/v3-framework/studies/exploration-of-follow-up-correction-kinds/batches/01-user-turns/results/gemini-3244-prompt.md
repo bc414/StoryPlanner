@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question to confirm whether the listed restriction on partner models means Claude on Vertex AI can't be run with the free credits, without saying anything in the prior answer was wrong.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's recommendation that Fleur stay with the buffalo, proposing that Twilight and Fleur work together, with AJ feeling light jealousy while apart and Twilight going straight to AJ on reunion, and explains why Fleur is worth keeping close, without pointing the model at any body of material.

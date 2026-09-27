@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the GRRM discussion and tells the model to carry out the instructions in an attached analysis-prompt file, without saying anything about the previous answer.

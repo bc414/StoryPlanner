@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the system-instruction draft to ask two new questions: whether Claude supports system instructions like AI Studio and NotebookLM, and whether a Gemini Gem is still limited by the consumer app's own system instructions.

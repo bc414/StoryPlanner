@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's account of Mount Aris (the Aquileian air force and navy kill the Storm King and most of his warlords), asks whether the lesson against dealing with foreign slavers would survive the return of feudal states, and specifies that Fizzlepop's post-Aris arc is top-down charity with Twilight, with the real bottom-up solution only coming at Star Energy in the Great War.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The analysis was not grounded in the user's own lore from the attached notebook (it leaned on the chat and general canon), so it is to be redone against the notebook | Please redo this analysis while referring to my lore in the attached notebook | flat, brief directive with no reason or complaint stated; the correction is only implied by the redo request
+- about: The user asks the model to redo its analysis, this time drawing on the lore in their attached notebook rather than what it worked from before.

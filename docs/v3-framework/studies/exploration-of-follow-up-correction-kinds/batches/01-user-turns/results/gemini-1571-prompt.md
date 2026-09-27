@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: tone of the character's name | the name Stormbreaker is treated as the wrong tone, too martial and not cute, innocent or idiomatic for a sanitized-sport athlete | "But I want some more name suggestions that are more cute, innocent sounding, and idiomatic" | mild and indirect: praises the sport first, then a "but" redirect asking for more options, without saying the name is bad
+- about: The user approves the cloud-busting sport concept but pushes back on the character's name, asking for further suggestions that sound cuter, more innocent and more idiomatic.

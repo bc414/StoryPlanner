@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | The character believes in rugged individualism, yet stops short of treason — a belief-system assertion about who they are | Believes in rugged individualism but without treason | yes
+- goals:
+- whole: The note asserts, in one line, the character's core belief at the story's start: rugged individualism bounded by loyalty short of treason.

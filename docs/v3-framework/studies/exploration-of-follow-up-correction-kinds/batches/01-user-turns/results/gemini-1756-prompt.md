@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the historical collaborator archetypes to a new craft question about whether Applejack's dream sequences of being a collaborator should use deep third person or an external view.

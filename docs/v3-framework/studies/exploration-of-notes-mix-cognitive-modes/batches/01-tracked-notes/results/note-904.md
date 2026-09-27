@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Asserts as truth that Kemerskai's underlying motive in declaring martial law was to build industrial capacity so the State could later step back and guarantee individual dignity | ultimate goal was to build enough industrial capacity so that the State could eventually step back and guarantee individual dignity | yes
+- goals:
+- whole: The note asserts the true, dignity-oriented motive behind Kemerskai's declaration of martial law, defining who he is at the story's start.

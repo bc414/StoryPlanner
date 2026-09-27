@@ -1,0 +1,7 @@
+- claims:
+  - History | Kemerskai's constituents voted in 986 to suspend their own constitution, a fact the manifesto's readers overlooked | They missed the fact that Kemerskai's constituents voted to suspend their own constitution in 986 | no
+  - History | Dissenters were permitted to leave on a second long march to Skynavia | allowed the dissenters to leave on a 2nd long march to Skynavia | no
+  - History | Kemerskai rehabilitated its bandits instead of punishing them | rehabbed their bandits | no
+  - History | Severyana, oppressed by industrializing boyars, embraced the manifesto as justification for seizing the factories from the boyars, which is the manifesto's effect on the world | Severyana, totally oppressed by the industrializing boyars, ate it up as justification to take the factories | no
+- goals:
+- whole: The note reports in-world events as fact: Kemerskai's voluntary constitutional suspension and peaceful exodus that the manifesto's readers overlooked, and how oppressed Severyana used the manifesto to justify seizing the boyars' factories.

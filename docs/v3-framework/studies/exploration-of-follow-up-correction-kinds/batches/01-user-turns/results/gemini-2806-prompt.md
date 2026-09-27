@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds their own picture of conquered changeling nobles being strapped to harvesters, questions its efficiency themselves, and asks how staffing and guarding of the harvesters would work, which extends the model's centrifuge worldbuilding without disputing it.

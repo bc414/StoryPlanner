@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether verifiable history only begins once the printing press exists, without pointing the model at any body of material.

@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Trixie is shown on the page mocking the industrialists, an available behavior that exposes their hoarding | She can mock the industrialists to reveal their hoarding | yes
+- goals:
+- whole: The note stages a single behavior for Trixie in this scene, mocking the industrialists so that their hoarding is exposed, and says nothing about what the reader is to take from it.

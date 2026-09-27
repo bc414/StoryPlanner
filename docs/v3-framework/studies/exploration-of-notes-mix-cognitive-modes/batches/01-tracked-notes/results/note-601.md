@@ -1,0 +1,4 @@
+- claims:
+  - History | Cadance and Shining Armor secretly disobey Celestia's orders and have Aquileian researchers and unicorns such as Sunburst study the crystal heart and the other spells in the library | covertly defy Celestia's orders and instead get Aquileian researchers and unicorns like Sunburst to study the crystal heart | yes
+- goals:
+- whole: The note reports, as an in-world historical event dated 1003, that Cadance and Shining Armor secretly defied Celestia and set researchers to study the crystal heart and the library's spells.

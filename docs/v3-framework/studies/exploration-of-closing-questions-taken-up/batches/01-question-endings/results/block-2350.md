@@ -1,0 +1,4 @@
+- questions:
+  - For each note in the plan, was it ready to be systematized, or did systematization freeze a thought that needed more time (a review heuristic put to the user) | ignored | The user does not say whether any note was ready or frozen too early. They move on to asking about Claude's product positioning and design philosophy, and comment on Gemini versions. | none
+- shape: Redirects the conversation to a new subject. The user asks how Claude's product positioning and design philosophy differ from Gemini's. They add a personal reflection: Gemini feels like the stagnation of harmony in retrospect, and 2.5 Pro helped a great deal then but the current 3.1 Pro seems unstable. They take up the model's critique of Gemini only as background and do not go on with the review of the plan.
+- settles:

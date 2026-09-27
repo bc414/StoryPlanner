@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a list of other common suffixes that turn adjectives into abstract nouns? | ignored | Says nothing about suffixes. It moves on to a new question about using these words as chapter titles. | none
+- shape: Redirects. The user drops the grammar thread and the model's offered follow-up. They ask a new, two-part question: what using these virtue words as chapter titles would signify, and what other chapter titles could be used. It is a request for explanation and brainstorming, not a decision.
+- settles:

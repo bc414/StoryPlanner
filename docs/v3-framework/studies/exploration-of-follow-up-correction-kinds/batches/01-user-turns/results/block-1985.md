@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user gives the next audit task, pointing the hidden-subject search at Chapters 10 to 17 and describing that stretch of the story, without saying anything in the model's findings or method was wrong.

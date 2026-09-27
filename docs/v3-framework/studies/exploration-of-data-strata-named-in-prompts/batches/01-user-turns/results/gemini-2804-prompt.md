@@ -1,0 +1,7 @@
+- sources:
+  - my story plans | model is to review them and use them as the basis for working out why the Skyfall dependence still holds | Please review my story plans | referred-to
+  - Chapter 12 "Crash" | treat as fixed plan: Applejack and Twilight, not Chrysalis, are forced to depend on Skyfall, which corrects the model's prior framing | Applejack and Twilight are forced to in Chapter 12 "Crash" | referred-to
+  - the valves of 986 ALB stolen IP, and the 1011 ALB miniaturized valves needing griffon artisans | the author's original intent from memory, the baseline the model should test against the new mechanic; the Twilight and Fleur inventing alternative is only a harder possibility | Originally I intended for the valves of 986 ALB to be stolen IP | referred-to
+  - the earlier-introduced point that donated love is more stable than extracted love | new lore to check the plan against, asking whether the dependence still works given it | since I introduced the fact that donated love is more stable than extracted | referred-to
+- order:
+- about: The user corrects the model's assumption that Chrysalis outsources to Skyfall, states that Applejack and Twilight are the ones forced to in Chapter 12, and asks the model to check the story plans and their original valve-IP intent against the new donated-versus-extracted love stability idea to decide whether the Skyfall dependence still works or should move to another part such as the canisters.

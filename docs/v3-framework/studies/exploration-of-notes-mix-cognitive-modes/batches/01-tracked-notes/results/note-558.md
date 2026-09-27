@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | Pink love is modeled on the real-world neurochemistry of oxytocin and endorphins | Pink love is chemically like oxytocin and endorphins | yes
+  - Analogies | Red love is modeled on the real-world neurochemistry of dopamine and adrenaline | Red love is like dopamine and adrenaline | yes
+- goals:
+- whole: The note names real-world neurochemical models (oxytocin/endorphins and dopamine/adrenaline) as the inspiration for the two kinds of love in the world law.

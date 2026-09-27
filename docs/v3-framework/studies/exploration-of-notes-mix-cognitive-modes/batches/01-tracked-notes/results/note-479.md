@@ -1,0 +1,5 @@
+- claims:
+  - outside (world-rules ontology, god-mode) | The system holds that ambition is necessary for society to advance, yet it is regulated so that harmony is kept | Ambition is needed for advancement of society, but regulated to maintain harmony | outside
+  - outside (world-rules ontology, god-mode) | As a rule of the system, harmony and regulated ambition can exist together without conflict | Harmony can coexist with regulated ambition | outside
+- goals:
+- whole: The note states in god-mode terms the working rule and purpose of the Equestrian Republic, which is to channel ambition for progress while regulating it to keep harmony, and it names no reader effect.

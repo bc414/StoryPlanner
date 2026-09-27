@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds to the model's account of why Herzland needs no prequel (Chrysalis also twists Aquileian history and Kemerskai's republic, Kemerskai's prequel is optional, Chrysalis's story is T-rated), then brings in new candidate stories (Applejack's parents, Flowing Current/EEEE, Thorax, Trimmel, the Mount Aris Mane 6 draft, Cadance and Shining Armor) and asks for an analysis of pillar versus character-scope, reading order and criteria for giving a character a story.

@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | He has a blonde toupee, worn as part of his appearance | Has a blonde toupee | none; the note gives no date, phase or tense, and a toupee is something worn that could be put on or dropped, though the words do not show when
+  - unfixed | His coat color is orange | an orange coat color | none; the note gives no date, phase or tense, and a coat color may be a fact of kind, but the words do not say so
+- beside: none; the two Backstory notes (988 Skyfall seminars, 994 refusing Skyfall loans and using Aquileian rhetoric) say nothing about his toupee or coat color

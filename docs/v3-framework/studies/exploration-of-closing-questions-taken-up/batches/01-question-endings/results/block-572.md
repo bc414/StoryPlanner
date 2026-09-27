@@ -1,0 +1,5 @@
+- questions:
+  - How does Minette's adrenaline-addicted psychology survive the shift to a peacetime Equestrian Republic that wants to dismantle the need for the Chasseur's edge? | ignored | Nothing said about her postwar life or her adrenaline addiction; the user turn moves to a different question. | none
+  - How does Minette react to the Griffonian Republic's Standardized Excellence, where a generic factory worker deserves the same dignity as a bespoke artisan? | ignored | Nothing said about Standardized Excellence, Astler or her view of dignity as earned. | none
+- shape: Redirects. It drops both of the model's questions and asks a new one of its own: how Minette should feel about the tales of Pagala, and whether she would see a dark mirror in her. It picks up the model's passing mention of Pagala as the sociopathic path Minette might have taken, and hands the reasoning back to the model.
+- settles:

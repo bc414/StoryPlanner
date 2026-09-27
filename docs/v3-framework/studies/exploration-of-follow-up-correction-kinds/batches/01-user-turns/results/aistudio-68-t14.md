@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Thestral revision and asks a new, broader question about which other major foundations of the story plan should be revised or enhanced by the shifted timeline of harmony's stagnation.

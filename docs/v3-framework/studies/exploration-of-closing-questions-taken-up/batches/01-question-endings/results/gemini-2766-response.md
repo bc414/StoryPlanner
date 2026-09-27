@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how the Kronstadt Rebellion of 1921 finished off grassroots worker autonomy in Soviet Russia? | ignored | The user turn asks for something else, an explanation of Lenin's and Kerensky's views, and does not take up the Kronstadt offer. | Now explain Lenin and Kerensky's respective views
+- shape: Redirects to a different topic: it passes over the offered Kronstadt follow-up and issues a fresh instruction to explain Lenin's and Kerensky's views, presumably in the same comparative format.
+- settles:

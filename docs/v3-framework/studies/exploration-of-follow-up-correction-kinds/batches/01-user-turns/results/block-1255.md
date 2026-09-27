@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - terminology / conceptual framing (own name) | The model's use of 'third person limited' as one label carrying several separate narrative properties, such as focalization, access to information, and the source of the reader's knowledge, so that distinct axes of prose delivery get merged under one term | 'The term "Third person limited" is getting overloaded with so much' | stated flatly as an observation in passing, and used as the reason for the new request; no apology or irritation
+- about: The user sets aside the model's Fabula and dramatic-irony restatement and asks for a fresh foundational overview that separates the term 'third person limited' into independent axes, with examples from the earlier story review and their origins in narratology.

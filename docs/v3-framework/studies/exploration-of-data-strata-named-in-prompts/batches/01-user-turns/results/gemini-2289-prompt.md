@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates the Wonderbolts' tech gap as invincible-but-unsustainable and proposes that the love donators' donated magic, run through spellfire matrices, would replace the chemically costly high-tech ammunition, asking the model to confirm the idea.

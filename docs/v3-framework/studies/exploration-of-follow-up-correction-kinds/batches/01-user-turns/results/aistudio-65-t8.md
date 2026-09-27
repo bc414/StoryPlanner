@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's Crystaller filtering spell idea as the answer for the Luna Nova rifle's valve and asks whether to recast the Skyfall drug-trade plotline as a need for miniature vacuum-grade valves, building on the model turn rather than disputing it.

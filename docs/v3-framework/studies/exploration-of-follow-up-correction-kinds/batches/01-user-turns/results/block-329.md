@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the bottom-up reframing of Chrysalis and builds on it, asking whether Trimmel's advice carries poetic irony, how and when he comes to understand her, and whether Trimmel or Celestia should be the first to have their true nature deconstructed for Applejack, with pros and cons of each order.

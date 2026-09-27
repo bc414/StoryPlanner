@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model credited the prequel/sequel offloading concept to a discussion on the current day, when the user says it originated earlier in a rougher form, probably in a different source such as NotebookLM | I am sure this is came from earlier than today, but perhaps in a less refined form. What about from notebook lm? | hedged assertion of belief, followed by a question that proposes another source to check
+- about: The user pushes back on the model's dating of where the concept came from, saying it predates today and in an earlier form, and asks whether NotebookLM is the source.

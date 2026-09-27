@@ -1,0 +1,4 @@
+- sources:
+  - my story plan | treat as the settled account: Blueblood planned a staggered retreat and it mostly worked, so most of the volunteer army teleported out of bunkers via the network with morale broken and friendship shields failed; the model should work from this and from AJ having been at the worst of it | In my story plan, Blueblood expected a staggered retreat while Luna was naive | referred-to
+- order:
+- about: The user asks how much of Chapter 1's emotional arc depends on AJ being broken and on the in media res opening, states the constraints of a swift, emotional, few-character opening, and corrects the model's premise by restating what their story plan says about the staggered retreat and the network evacuation.

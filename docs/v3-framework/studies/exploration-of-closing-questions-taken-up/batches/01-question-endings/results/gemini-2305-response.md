@@ -1,0 +1,4 @@
+- questions:
+  - Does repeated Boost use in one dogfight drain the crystal battery, leaving Rainbow Dash sluggish on just the liquid-fuel generator while it recharges (a new vulnerability)? | ignored | Says nothing about the boost, battery drain or recharging; asks about agricultural engines instead. | none
+- shape: Redirects to a new topic: asks for a breakdown of engines in big agriculture (diesel or hybrid) with a development history. It does not take up the proposed battery-drain vulnerability, and it reads as a request for worldbuilding information, not a decision.
+- settles:

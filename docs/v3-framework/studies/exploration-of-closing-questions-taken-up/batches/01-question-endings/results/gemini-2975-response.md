@@ -1,0 +1,4 @@
+- questions:
+  - Whether to begin by drafting the system instructions for the story buckets or by setting up the workspace first | ignored | none; the user instead reports that the plan is 300k words and that the custom Gem skips reading to save memory | none
+- shape: Reports a problem from having tried the Gem option: the 300k-word plan is not being fully read. This implicitly pushes back on the model's suggestion that Gems would work, and it leaves the model to respond with a fix. It does not pick either of the offered next steps.
+- settles:

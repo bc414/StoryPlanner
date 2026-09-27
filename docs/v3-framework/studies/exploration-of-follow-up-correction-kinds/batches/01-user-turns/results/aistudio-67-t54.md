@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the summary and the Socratic questions and asks a new question: whether China's history of medieval advancement, later decline and British opium and extractive industry would be a fitting allegory for the story's setting, and requests a comparative analysis and insights.

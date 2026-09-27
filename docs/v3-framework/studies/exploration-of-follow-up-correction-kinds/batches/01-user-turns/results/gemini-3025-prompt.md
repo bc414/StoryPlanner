@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: structural recommendation replaced | the model's advice to put Mount Aris in an opening prologue from Twilight's view alone, keeping AJ out of it, is set aside for flashbacks placed late in the book and given to both AJ and Twilight | "I'm imagining a better delivery" | offered as a counter-proposal in the user's own preference, with no stated reason against the prologue and no comment on the model's analysis
+- about: The user answers the model's closing question by rejecting the prologue idea and laying out their own plan for delivering the 1006-to-1011 material as two flashbacks at set points in the Honor and Entrenchment chapters.

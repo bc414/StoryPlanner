@@ -1,0 +1,5 @@
+- sources:
+  - The author's own clarification of Coltbert, Discret, the firing, the bank run and the 2nd revolution, and of what backs the royal notes (gold imports from Aquileian exports) | treat as settled story fact, and correct the model's earlier framing of Coltbert with it | To clarify, Coltbert is not a Republican or Democrat like Keynes | first-named
+  - the idea that all taxes have to be paid in royal notes (the model's earlier suggestion) | treat as an interesting option still under consideration, not settled | I'm also intrigued by the idea that all taxes have to be paid in royal notes | referred-to
+- order:
+- about: The author corrects the model's picture of Coltbert and states how the royal notes are backed, then asks for pros and cons of two ways Discret could handle taxing the city bourgeoisie in notes or gold, and whether the thugs he hires should be paid in notes.

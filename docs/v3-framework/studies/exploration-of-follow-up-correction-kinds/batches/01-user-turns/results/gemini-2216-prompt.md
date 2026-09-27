@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question comparing Gems from Labs with AI Studio, extending the comparison without disputing anything the model said.

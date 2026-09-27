@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Phase 1 loop fix and asks a fresh question about how to make the paradigm names from the earlier Phase 0 step shorter and more fundamental.

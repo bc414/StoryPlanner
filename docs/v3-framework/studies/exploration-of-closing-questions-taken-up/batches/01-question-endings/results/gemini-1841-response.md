@@ -1,0 +1,4 @@
+- questions:
+  - Is the user asking about a specific scenario from the Equestria at War mod, or about a plot point for a story they are writing? | answered | Says it is about a story they are writing, which picks the second option. | I'm asking about a story that I am writing
+- shape: A short direct reply that picks one of the two offered options and says nothing more about the story. It answers the model's clarifying question and gives no plot details.
+- settles:

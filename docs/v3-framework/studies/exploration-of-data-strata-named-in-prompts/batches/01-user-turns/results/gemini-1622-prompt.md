@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about why the model's previous turn described Verdun as sentimental, without pointing at any body of material to draw on.

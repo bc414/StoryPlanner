@@ -1,0 +1,5 @@
+- claims:
+  - History | Henri Gourard was born in Ailmont, in Verenia, a border region between Aquileia and Herzland | Born in Ailmont in Verenia, a border region between Aquileia and Herzland | yes
+  - History | Vérany released the warlords, who ruled through most of Henri's childhood | Vérany unleashed the warlords who ruled for most of Henri's childhood | yes
+- goals:
+- whole: The note reports, as in-universe history, where Henri Gourard was born and the warlord rule that shaped his childhood.

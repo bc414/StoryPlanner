@@ -1,0 +1,6 @@
+- questions:
+  - How do characters visually react to a Skyfall addict versus an Aquileian artisan, given the jittery, loud poseur against the still, relaxed Lioness? | ignored | none | none
+  - How satisfying is Applejack's moment of realizing the Skyfall tycoons are frightened addicts and not true apex predators? | ignored | none | none
+  - Does this confirm the Tzinacatl are split, with the Caballeron cartel selling hollow chemical fixes to Skyfall and the artisan tribes supplying authentic goods to the Aquileian parloirs? | ignored | none | none
+- shape: Redirects to a new topic. The user drops the model's three story-implementation questions and asks how the Extractive Consumption versus Productive Creation contrast connects to something called "YN" culture. This is a request for the model to extend the framework to another element.
+- settles:

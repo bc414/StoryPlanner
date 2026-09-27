@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the revised 914-ALB timeline as restated and asks a follow-up question about how it shapes Celestia's arc across the main story of TLTT.

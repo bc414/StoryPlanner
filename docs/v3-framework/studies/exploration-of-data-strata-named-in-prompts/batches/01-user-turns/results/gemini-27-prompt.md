@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks in general terms how to build an LLM-based system that analyzes stories, stores what it finds, and supports meaning-based search instead of regex or keyword search, and asks what that is called and whether it has been done, without pointing the model at any particular body of material.

@@ -1,0 +1,4 @@
+- questions:
+  - How does Rarity tip the referendum in Chapter 7, and specifically does she use her social leverage and grasp of Asset Specificity to publicly humiliate the tycoons and rally native Manehattanites to vote with EEEE and the refugees? | refused | Does not say what Rarity does in the referendum. Defers it by asking the model to review the user's existing plans for Rarity's role and character development and then give an updated analysis. | Please review my story plans for Rarity's role and character development and give an updated analysis
+- shape: Redirects the model to a task. It sets aside the open Rarity question and instructs the model to check the user's stored plans for Rarity and redo its analysis from them. It gives no new story content.
+- settles:

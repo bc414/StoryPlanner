@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to check whether Brightspeed Fiber is available in their specific city or zip code? | ignored | The user turn is only an attached plan export note (121,820 words, 0 chars) with no text about Brightspeed, location, or availability. | none
+- shape: The user turn is just a plan-export attachment placeholder with no prompt text. It gives no answer, correction, instruction, or redirection to the model's Brightspeed overview and offer.
+- settles:

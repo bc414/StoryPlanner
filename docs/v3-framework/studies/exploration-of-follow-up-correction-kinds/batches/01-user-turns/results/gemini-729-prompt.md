@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing offer by saying their account shows a PRO badge, then moves on to a new question about how to find out which Gemini model NotebookLM is using.

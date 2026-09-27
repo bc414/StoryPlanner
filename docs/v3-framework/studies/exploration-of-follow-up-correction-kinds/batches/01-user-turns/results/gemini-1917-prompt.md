@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new hypothetical, comparing the Grovers to the Ottoman dynasty, as a fresh angle on the long-reign puzzle without saying anything in the model's explanations was wrong.

@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | plans where in the story the Magical Supply Organization technology appears: in the combat scenes of chapters 1 and 3 | Used during combat scenes in chapter 1 and 3 | yes
+- goals:
+- whole: The note sets out the placement of the technology's use in the story, tying it to the combat scenes of chapters 1 and 3.

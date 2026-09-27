@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want help setting up the Blazor drag-and-drop logic next? | ignored | The turn never says yes or no to the drag-and-drop offer. It takes up Location and then asks about a place to define systems. | none
+- shape: The user turn accepts one of the model's proposals (Location) and says how they would use it. It then redirects to a new feature request: a place to define systems such as how a technology works or a nation's core tenets. The user frames this as a question to the model. They say these things span chapters without forming a sequential thread. The model's offer of Blazor drag-and-drop help is passed over.
+- settles:
+  - Location will be part of the planner, with a view listing all plot points at a given location so the user can check where characters return | I like location. I can have a view to see all the plot points at a location

@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to explore how to configure the GitHub import feature in Google AI Studio to use these models against their codebase? | ignored | The user turn drops that offer and asks for a new, broader comparison of ChatGPT, Gemini and Claude parameter estimates from 2022 to 2026. | none
+- shape: Redirects. The user leaves the model's offer alone and follows up on the parameter-count topic, asking for a wider, comprehensive comparison of ChatGPT, Gemini and Claude over 2022 to 2026. It works as a new instruction and extends the previous answer, which covered only Gemini and Claude.
+- settles:

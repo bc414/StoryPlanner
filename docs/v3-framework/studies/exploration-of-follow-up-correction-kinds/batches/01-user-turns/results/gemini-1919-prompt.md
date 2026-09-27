@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting real European historical parallels to the legend-compression and myth-making pattern the model described, without disputing anything in it.

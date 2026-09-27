@@ -1,0 +1,9 @@
+- questions:
+  - Does the streamlined Zebrica-only supply chain, with the Skyfall prison pipeline dropped, feel like a stronger foundation for the 990–1002 pacing? | answered | Treats the streamlined chain as the working basis and builds the next layer of the setup on it, without stating approval outright. | "So this leads to an interesting dynamic"
+- shape: Accepts the model's verdict by building on it rather than evaluating it. The user lays out a fleet structure for the Jaegers and Statthalters, then puts several new open questions to the model: whether subs can deter privateers, and whether Love harvesters go on ships or to island outposts. It moves the conversation forward into naval and logistics design.
+- settles:
+  - The Skyfall private-prison purchase is dropped, and the slave supply runs through the Statthalters and Zebrica. | builds on the streamlined chain: "So this leads to an interesting dynamic"
+  - The Jaegers begin as submarine captains on a noble mission to make the oceans safe by hunting sea monsters, harvesting Red Love for the economy. | "the jaegers are originally the submarine captains hunting sea monsters"
+  - The Statthalters run a surface fleet of slaver ships and warships, and the warships exist to deter Skyfall privateers. | "The Statthalters operate a surface fleet of slaver ships and warships"
+  - By the great war the slaver ships are obsolete and get repurposed as "honorable" warships and industrial shipping. | "the slaver ships are obsolete and repurposed as \"honorable\" war ships"
+  - In the great war the Statthalters run submarines as cowardly wolfpacks, in contrast to the Jaegers' original noble submarine role. | "The Statthalters run submarines as cowardly Wolfpacks"

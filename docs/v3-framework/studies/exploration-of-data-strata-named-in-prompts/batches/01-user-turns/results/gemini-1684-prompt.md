@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to interpret why Chrysalis runs industrial hatcheries, and offers their own tentative reasoning that a 5% engineer and jaeger tier in an absolute meritocracy, with everyone else as workers and conscripts, makes it fit.

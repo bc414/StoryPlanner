@@ -1,0 +1,7 @@
+- claims:
+  - History | The Communist manifesto was written when Starlight was ten, and she came upon it after Sunburst left | Communist manifesto written when Starlight was 10, she found it after sunburst left | yes
+  - History | During that period Starlight was studying combat magic | And was studying combat magic | yes
+  - Characterization | Starlight's rejection of the Aquileian idea of giving every griffon a seal, as ponies have, is explained by Sunburst's leaving and by her having read the manifesto first | Starlight rejects Aquileian philosophy of giving every griffon a seal like ponies because of Sunburst leaving | no
+  - History | Starlight invented the spell that removes asset specificity | She invented the spell to remove asset specificity | yes
+- goals:
+- whole: The note reports Starlight's formative backstory events (finding the manifesto after Sunburst left, studying combat magic, inventing the spell) and explains her rejection of Aquileian seal philosophy, without stating any reader effect.

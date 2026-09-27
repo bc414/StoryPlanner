@@ -1,0 +1,11 @@
+- sources:
+  - TLTT's ontology | treat as the governing standard; the apocalyptic futures caused by the Mane 6 never meeting are ruled out because they don't fit it, so the Twilight–Starlight confrontation must be redesigned | "does not make sense in TLTT's ontology" | referred-to
+  - Lauren Faust's principles | use as the foundation for TLTT's fabula | "base TLTT's fabula on Lauren Faust's principles" | referred-to
+  - the Hasbro mandate | do not follow; subvert it | "subverting the Hasbro mandate" | referred-to
+  - the Faust-era episode "It's about time" (time travel scroll) | may be used, but only as a local-level time travel precedent; provisional and can be ignored | "only on a local level (but also this can be ignored too)" | referred-to
+  - common fandom criticisms of Starlight | treat as a valid problem to fix: her canon villain motivation (Sunburst getting his cutie mark and leaving her behind) is weak | "common fandom criticisms that starlight's motivation for villainy was weak" | referred-to
+  - TLTT's dictate on Starlight's motivation | treat as settled: the motive was not only Sunburst but also reading the communist manifesto shortly after, so she skipped Celestia's school even with a magic-related cutie mark | "TLTT dictates that it wasn't just that" | referred-to
+  - Caramel Marks' writing (the communist manifesto) | use to reason about Starlight; it would criticize unicorn supremacy institutions like Celestia's school | "Caramel Marks' writing definitely would criticize" | referred-to
+- order:
+  - Lauren Faust's principles over the Hasbro mandate | "base TLTT's fabula on Lauren Faust's principles while subverting the Hasbro mandate"
+- about: The user rejects the previous proposal of apocalyptic alternate futures as incompatible with TLTT's ontology, asks for a different Twilight–Starlight confrontation grounded in Faust's principles, and supplies a stronger, manifesto-based motivation for Starlight to answer fandom criticism of her weak canon motive.

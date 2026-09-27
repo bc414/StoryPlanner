@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user introduces Applejack's magic-crystal radio as a recurring motif, sets out how radio types differ across the factions, and asks whether it works, how to improve it, and how to justify her keeping it, without objecting to anything in the preceding model turn.

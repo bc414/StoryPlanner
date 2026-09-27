@@ -1,0 +1,4 @@
+- sources:
+  - the tracks (the existing track set, for a civilizational system) | check against: the model should say which existing track the Our Town material belongs in, or whether the set lacks a fitting one | What track does this go into, for a civilizational system? Or am I missing the appropriate track? | referred-to
+- order:
+- about: The user gives their reading of Our Town as the Manifesto enacted at small scale and asks where that belongs in their planning structure, whether a civilizational-system track, a missing track, or a claim, storytelling plan, note to self or theme evidence.

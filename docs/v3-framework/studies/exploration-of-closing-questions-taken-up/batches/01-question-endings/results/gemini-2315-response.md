@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to hear more about Haukland's focus tree branches or how Meyer's storyline progresses? | ignored | The user turn doesn't pick either option. It asks a new question about whether the name comes only from the Göring quote. | none
+- shape: The user turn skips the offered follow-ups and asks a short, skeptical question of its own. It checks whether the Meyer name comes only from the Göring quote, which it calls a HOI4 loading screen quote. It seeks confirmation or narrowing of the model's explanation and does not steer toward the mod's content.
+- settles:

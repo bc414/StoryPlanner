@@ -1,0 +1,4 @@
+- sources:
+  - MLP style (My Little Pony naming conventions) | use as the yardstick for judging which name fits better; the analysis should measure both names against how MLP names work | MLP style name | referred-to
+- order:
+- about: The user shares a hunch that the name Tally Mark fits My Little Pony naming better than Tally Stock and asks the model to analyze the two names on that basis.

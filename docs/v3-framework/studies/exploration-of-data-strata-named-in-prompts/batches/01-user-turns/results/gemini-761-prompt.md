@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to propose several options for coat color, mane and tail color, and mane and tail styling for the character Tally Stock, without pointing to any body of material.

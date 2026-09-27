@@ -1,0 +1,6 @@
+- sources:
+  - the rest of the story's propositions | the model is to weigh the private school scenes against it to judge whether they connect or are only there for effect | too disconnected from the rest of the story's propositions | referred-to
+  - TLTT terms | the frame the author reads the scenes through, in which the parents and nepo classmates stand for poseurs; the model is to work within it | In TLTT terms, the parents and the nepo classmates both represent poseurs | referred-to
+  - the author's own current reading of the teacher and the assistant | provisional guess, unsettled, offered for the model to test or refine | Not sure what the complicit teacher and the assistant represent, perhaps | first-named
+- order:
+- about: The user asks how to make the private school scenes depict evidence for a proposition, or whether they are disconnected from the story's other propositions, offering a tentative TLTT reading of the parents, classmates, teacher and assistant.

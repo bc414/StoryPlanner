@@ -1,0 +1,4 @@
+- sources:
+  - the next chapter | the material the model is to read and summarize in detail | Please give a detailed summary of the next chapter | referred-to
+- order:
+- about: The user asks the model to continue the chapter-by-chapter summaries by giving a detailed summary of the following chapter.

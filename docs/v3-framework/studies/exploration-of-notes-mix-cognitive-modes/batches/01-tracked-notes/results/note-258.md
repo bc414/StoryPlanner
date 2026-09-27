@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Eros holds little love for the Empire's nobility and believes them responsible for every misfortune of the Heartlands, asserted as his attitude and belief | has little love for the nobility of the Empire, believing them to be responsible for every misfortune | yes
+- goals:
+- whole: The note asserts, as a truth about the character at the story's start, that Eros resents the Empire's nobility and blames them for the Heartlands' misfortunes.

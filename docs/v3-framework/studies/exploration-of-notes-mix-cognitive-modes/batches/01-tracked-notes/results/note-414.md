@@ -1,0 +1,6 @@
+- claims:
+  - History | The Hives were a frozen, warring wasteland where life was nasty, brutish and short | The Hives were a frozen, warring wasteland. Life was nasty, brutish, and short. | no
+  - History | Red love was more than food for the changelings; it functioned as an escape | Red love isn't just food, it's an Escape. | no
+  - History | Draining a predator or a pony gave a rush of power and euphoria that masked the misery of Hive existence | Draining a predator (or a pony) gave a rush of power and euphoria that masked the misery | no
+- goals:
+- whole: The note reports, as in-world fact, the bleak condition of the Hives and the role of red love as an escape from it, without saying anything about how the reader is to experience or think about it.

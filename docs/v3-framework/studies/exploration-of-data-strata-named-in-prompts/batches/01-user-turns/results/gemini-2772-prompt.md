@@ -1,0 +1,4 @@
+- sources:
+  - fanfics or forums which predate the IDW comic | material to be checked for whether the Twilight Velvet as A.K. Yearling's author idea appeared there before the comic; used as evidence, not treated as canon | Are there any fanfics or forums which predate the IDW comic | first-named
+- order:
+- about: The user asks the model whether fan-made material (fanfics or forums) from before the IDW comic already contained the idea that Twilight Velvet writes the Daring Do books under the pen name A.K. Yearling.

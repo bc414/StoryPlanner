@@ -1,0 +1,5 @@
+- sources:
+  - official canon MLP | draw on the published show to find where magic inhibitors appeared; the model is asked to recall these instances from it | What parts of official canon MLP featured magic inhibitors | first-named
+  - my crystal enhancer | the author's own story device, to be treated as working opposite to canon inhibitors and used as the point of contrast for the answer | which my crystal enhancer works in an opposite way | referred-to
+- order:
+- about: The user asks the model to recall which parts of official MLP canon featured magic inhibitors, as a comparison point for their own crystal enhancer, which works the opposite way.

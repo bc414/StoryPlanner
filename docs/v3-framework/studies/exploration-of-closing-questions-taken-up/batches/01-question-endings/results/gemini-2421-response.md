@@ -1,0 +1,5 @@
+- questions:
+  - Does this synthesis feel more aligned with the heavy, morally complex tone aimed for in the Breakthrough chapter? | ignored | Does not say whether the synthesis fits the tone. It adds a fact about the backdrop, which may imply the synthesis needs that context, but it gives no verdict. | none
+- shape: Adds a piece of world backdrop in place of an evaluation. The user supplies context that the model's synthesis may be missing, and leaves the model to work out how it bears on what was just written. It does not confirm or reject the synthesis.
+- settles:
+  - By the end of chapter 7 (Generosity), Manehattan already mandates that every pony contribute to the war effort in whatever way best fits their special talent | "by the end of chapter 7 Generosity, Manehattan is already mandating that every pony contribute to the war effort"

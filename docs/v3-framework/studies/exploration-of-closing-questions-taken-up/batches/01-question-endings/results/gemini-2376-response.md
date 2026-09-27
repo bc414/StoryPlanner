@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore how Applejack reacts to Apple Bloom's "blank flank" comment in Chapter 10? | no user turn | none | none
+  - Does Applejack agree with her sister's view of the factory floor, or does she defend the unionized workers' right to be anonymous cogs for a while? | no user turn | none | none
+- shape: none
+- settles:

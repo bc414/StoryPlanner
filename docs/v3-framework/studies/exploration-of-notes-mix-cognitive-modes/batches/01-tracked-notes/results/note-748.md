@@ -1,0 +1,7 @@
+- claims:
+  - History | The cure for panzer haut addiction is a slow release from original tzinacatl medicine | The cure for panzer haut addiction is a slow release from original tzinacatl medicine | no
+  - History | The plant matrix binds the Pink Love so the Changeling's body metabolizes the magic slowly over 24 hours | the plant matrix binds to the Pink Love, forcing the Changeling's body to digest and metabolize the magic slowly over a 24-hour period | no
+  - History | The slow release steadily occupies the starved emotional receptors and completely halts the physical pain of panzer-haut withdrawal and the anhedonia of blitz-essenz withdrawal | steadily occupies the Changeling's starved emotional receptors. It completely halts the agonizing physical pain | no
+  - History | Because delivery is slow and buffered by plant matter, it never produces the euphoric rush or the toxic positivity of jaeger-geist | it never produces the euphoric "rush" or the toxic positivity of jaeger-geist | no
+- goals:
+- whole: The note reports, as in-world fact, how the tzinacatl slow-release cure works and what it does and does not do to a Changeling's withdrawal, without any plan for how the reader encounters it.

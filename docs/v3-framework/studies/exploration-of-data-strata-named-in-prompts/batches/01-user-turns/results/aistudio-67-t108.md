@@ -1,0 +1,6 @@
+- sources:
+  - Hearth's Warming Charter | treat the author's account of it as settled: written when Manehattan was a village, no wording about mayor or council, so EEEE!'s reading is fluid; the author proposes it also carry a residency line and archaic wording implying everyone votes | I believe the Hearth's Warming Charter was written when Manehattan was a little village | referred-to
+  - original story plan for chapter 7 | treat as the earlier plan with two referendum rounds; the author asks whether that structure should still be kept, so it is open to revision rather than binding | the original story plan for chapter 7 actually had two rounds of referendum | first-named
+  - Manehattan census from a year ago | use as the benchmark against which the 83% passage is compared, to test whether everyone voted | compare the 83% passage against the Manehattan census from a year ago | first-named
+- order:
+- about: The author refines the model's Chapter 7 Celestia and referendum scheme by fixing what the Charter's wording is, asking how Celestia would read its residency line, and asking whether to keep the original two-round referendum structure with a turnout critique.

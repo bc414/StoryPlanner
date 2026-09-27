@@ -1,0 +1,7 @@
+- claims:
+  - History | Applejack's parents decide to move permanently to Manehattan to found their canning company | Her parents decide to relocate to Manehattan permanently to start their canning company | yes
+  - History | Big Mac remained on the farm with Granny Smith throughout the parents' move | Big Mac stayed on the farm with Granny Smith the whole time | yes
+  - Characterization | Big Mac's settled identity (already had his cutie mark) and quiet temperament are given as what explains why he stayed | because he already had his cutie mark and was soft spoken | no
+  - Characterization | Big Mac already knew inwardly that city life was not suited to him | He already knew the city was not for him | no
+- goals:
+- whole: The note reports the family's split when the parents move to Manehattan for their canning business while Big Mac stays on the farm, and it explains his staying through his temperament and self-knowledge.

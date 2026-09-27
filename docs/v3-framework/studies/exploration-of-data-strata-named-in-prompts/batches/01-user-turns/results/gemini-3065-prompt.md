@@ -1,0 +1,4 @@
+- sources:
+  - my later story planning | draw on it as the material to explore for how the Predator's Dilemma developed further, beyond what was already covered | "further development of the Predator's Dilemma in my later story planning" | referred-to
+- order:
+- about: The user asks the model to follow up its account of the Predator's Dilemma by exploring how the concept develops further in the later part of their story planning.

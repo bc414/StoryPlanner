@@ -1,0 +1,5 @@
+- questions:
+  - How does Baltimare's government handle Cutie Marks under a cog-based Marxist model: are ponies pressured to cover their flanks, and does suppressing biological destiny cause a mental health crisis or 'magical depression' that EEEE! eventually has to cure? | no user turn | none | none
+  - How does Baltimare react to Tzinacatl cartels smuggling refined Red Love or stimulants across its border: does it try to violently purge the jungle and end up in a two-front war? | no user turn | none | none
+- shape: none
+- settles:

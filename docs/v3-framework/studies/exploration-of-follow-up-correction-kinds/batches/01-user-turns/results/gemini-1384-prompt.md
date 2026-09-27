@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model took "Oblivion" to be a literal label for the effect of drug abuse (destruction, emptiness) and treated it as unsubversive. It then offered replacement titles built around drug and rifle horror. The user says the title's purpose in the chapter is an arc: the drug tribes are introduced, then given an economic purpose. | "The point of using oblivion is that" | Flat, plain restatement of the intended purpose. No apology, no irritation, and the model's premise is not argued with directly.
+- about: The user pushes back on the model's dismissal of the title \"Oblivion\" by stating what the chapter actually does with it: it introduces the drug tribes and then gives them an economic role.

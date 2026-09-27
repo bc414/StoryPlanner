@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact about the user's own family (not the story's world) | The model guessed the family's language as a Southeast Asian Chinatown dialect and said the user's family never had Mandarin, treating the native language as wholly lost. The user gives the real picture: mom's side Teochew, dad's side Cantonese, both parents speak Mandarin, and Teochew survives as family kin titles. | "My mom's side has Teochew and my dad's side has Cantonese. My mom only speaks Mandarin and English though..." | Flat factual statement given in passing, with no stated disagreement, as the set-up for the next question.
+- about: The user supplies the actual family language details that replace the model's guesses, then moves on to ask which periods of Chinese history the harmonic hives and the hive wars map to, tied to the material conditions they defined.

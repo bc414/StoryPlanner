@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Celestia parallels to survey the mentor figure assigned to each of the Mane Six, revising Rainbow's mentor and proposing Little Strongheart as Fluttershy's, so it adds planning material and does not correct the model.

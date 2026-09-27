@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (in-universe world-building of a technology's purpose) | the technology was engineered by its makers to be highly addictive so that users stay absolutely loyal to the supply chain | designed to be highly addictive to ensure absolute loyalty to the supply chain | outside
+- goals:
+- whole: The note states the in-universe reason Panzer Haut was invented: its addictiveness is deliberate, built to bind users to the supply chain.

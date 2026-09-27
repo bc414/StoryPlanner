@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the subscription-pricing topic and raises a new worldbuilding design question about whether base magical capacity should grow with training alongside cutie mark discounts, using Twilight as the example.

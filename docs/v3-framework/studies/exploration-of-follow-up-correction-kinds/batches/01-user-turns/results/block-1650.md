@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a set of follow-up questions (whether the two mechanisms are established in scholarship, a fuller account of how each delivers theme evidence compared with P/WI/T, and whether their own WI/T split is right), adding a note on where they think the ideas came from, without saying anything in the model's turn is wrong.

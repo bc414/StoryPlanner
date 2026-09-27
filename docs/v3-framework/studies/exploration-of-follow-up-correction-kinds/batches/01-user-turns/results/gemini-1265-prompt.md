@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes their full existing C# method and asks the model to write a complete alternate version that keeps its meaning but uses the pseudo-JSON format the model proposed, which is a follow-up request and not a correction.

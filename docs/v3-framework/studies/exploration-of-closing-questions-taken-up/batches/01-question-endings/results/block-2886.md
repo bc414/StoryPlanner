@@ -1,0 +1,4 @@
+- questions:
+  - Should the work proceed by building the spreadsheet of full system assignments first and naming the axis poles afterward? | ignored | The user does not say yes or no to the ordering. It asks a new question about whether autarky is an axis pole or something derived from the axes. | none
+- shape: Redirects with a new question of its own. It brings in autarky as a candidate term, which bears on the Axis 5 naming, and asks whether it is a pole or a derived property. It does not respond to the proposed method and does not correct the model.
+- settles:

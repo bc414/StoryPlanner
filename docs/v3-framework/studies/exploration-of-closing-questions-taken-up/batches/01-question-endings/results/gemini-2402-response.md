@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the model to analyze how griffons' caloric needs shape agricultural trade and leverage between the Griffonian Republic and Applejack's Equestrian Republic? | ignored | Says nothing about the trade analysis and moves to how pegasi and griffons fly. | none
+- shape: Redirects. It leaves the offered trade analysis alone, states a new fact about how pegasi fly, and asks a new design question: whether griffons should have a lesser version of that flight magic or only wing muscle.
+- settles:
+  - Pegasi fly, or fly fast, by manipulating air pressure, temperature, currents and similar forces for lift and velocity | "I am going to have pegasi fly fast (or even fly at all) by manipulating air pressure and temperature and currents"

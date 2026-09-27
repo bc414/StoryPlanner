@@ -1,0 +1,8 @@
+- questions:
+  - Would the user like to explore how Twilight Sparkle reacts to watching the crystal being forged? | ignored | Says nothing about Twilight watching the forging. It moves on to the Skyfall valves and to questions of its own. | none
+  - Would the user like to explore whether Twilight's Equestrian magic could interact with the Griffonian Magnetron? | ignored | Never takes up any interaction between her magic and the Magnetron. Twilight comes up only as a co-adapter of the valves. | none
+- shape: The user turn does not answer the model's offer. It takes the translator-asymmetry idea as a premise and applies it to a different piece of the setting, the Skyfall valve supply. It then asks the model for a real-world analog of the company's labor model and a way to stop artisans from spinning off their own firms. It closes with an instruction to review the story plans and synthesize a response.
+- settles:
+  - Applejack and Twilight have to import the miniature three-way valves from Skyfall for the Luna Nova Rifles. | "must import the modern miniature three way valves from Skyfall"
+  - The Skyfall company that makes the valves is not a mass-production, wage-exploitation operation. It employs highly skilled artisans who forged their own tools. | "doesn't operate a mass production line of wage exploitation"
+  - The three-way valves were first made for hydraulic control. Twilight, Fleur and Hans Kessel, a broken bauleiter POW, adapted them for magical flow control. | "originally for hydraulic control, adapted by Twilight, Fleur and Hans Kessel"

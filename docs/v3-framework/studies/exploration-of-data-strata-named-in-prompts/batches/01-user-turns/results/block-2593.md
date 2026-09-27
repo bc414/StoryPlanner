@@ -1,0 +1,4 @@
+- sources:
+  - more web searches | run further searches and draw on what they find to revise the earlier assessment | Do some more web searches | referred-to
+- order:
+- about: The user asks the model to run additional web searches and then give a revised version of its previous assessment of their world bible and methodology.

@@ -1,0 +1,6 @@
+- sources:
+  - The old way (the game's existing framing, where the great powers and the mineral economy are closer to human reality) | Current design that the model is asked to weigh against the new option; credited as nearer to human reality but possibly too on the nose, not yet dropped | The old way is closer to human reality but may be too on the nose | referred-to
+  - The new way (great powers as a separate species that mines crystals, while the Porygons grow them communally as biology, making the charitostatic effect a fantasy element) | Provisional proposal to be evaluated for whether it helps or hurts the thematic payload, not settled | I have a new update to the game's framing, potentially | first-named
+  - TLTT (with its changelings and crystal ponies whose emotion sense lets friendship supplement calories) | Precedent for the biology mechanic that the new way would borrow, treated as a known reference point | like the changelings and crystal ponies with emotion sense where friendship supplements calories in TLTT | referred-to
+- order:
+- about: The user proposes recasting the game's great powers as a separate mining species and the Porygons as biological crystal-growers modeled on the changelings and crystal ponies of TLTT, and asks whether this helps or hurts the thematic payload compared with the current human-realistic framing.

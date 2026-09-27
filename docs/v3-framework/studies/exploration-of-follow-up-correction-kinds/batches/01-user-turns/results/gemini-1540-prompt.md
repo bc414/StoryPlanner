@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Synovial refinement and starts a new request, asking for an analysis of how Prince Blueblood changes from his canon comic role to a fairly competent field marshal in the story.

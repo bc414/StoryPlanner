@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets an earlier plan version (Fluttershy appearing at the end of chapter 4) beside the model's advice and asks whether it works, then floats a new option of Rainbow seeing Fluttershy with unruly animals before the chapter 5 battle, as further options to weigh rather than as a challenge to what the model said.

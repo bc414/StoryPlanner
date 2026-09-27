@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Phantom, a feline Pokemon, has canid anatomy with no explanation, so the knot is a detached genre convention. The user says the story explains his anatomy by making his father a Manectric. | "Phantom's anatomy is explained by saying his dad is a Manectric" | Flat statement of the fact, with no reasons, apology or framing as a correction. It is left to stand against the model's account, and the user moves straight on to another question.
+- about: The user gives a brief factual correction about how the story accounts for Phantom's anatomy, then asks a separate question about what the show Supernatural is about.

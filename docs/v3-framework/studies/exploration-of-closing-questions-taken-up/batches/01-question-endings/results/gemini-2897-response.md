@@ -1,0 +1,5 @@
+- questions:
+  - Whether to brainstorm the architectural or ritual tricks the Archons use in the throne room to inflate the Idol's mild glow | ignored | Says nothing about throne-room staging or deception; it asks about the name of the glow effect instead | none
+  - Whether to look instead at how Republic scientists first discover the lie about the Idol | ignored | Does not take up the discovery plot line; the only concern is the terminology for the effect | none
+- shape: Sets aside both offered directions and redirects to a terminology check. The user asks whether their existing term for the Idol's glow is the right name and asks for alternatives. It is a request for naming help and does not follow the model's analysis.
+- settles:

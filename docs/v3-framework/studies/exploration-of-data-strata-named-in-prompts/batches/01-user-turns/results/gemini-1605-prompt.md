@@ -1,0 +1,4 @@
+- sources:
+  - Plan export attached | supplied as material for the model to have; the turn gives no instruction on how to treat it or how far to trust it | Plan export attached | first-named
+- order:
+- about: The user turn contains only a note that a story plan export was attached, with no instruction or question in words.

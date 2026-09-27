@@ -1,0 +1,6 @@
+- sources:
+  - Europa Universalis IV humanism idea group | the user's existing point of familiarity with 'humanism'; the model should start from it and explain the broader idea relative to it | I am originally familiar with humanism as an idea group from Europa Universalis IV | first-named
+  - historical materialism, the Marxist framework (materialist historicism) | the framework the user's world building is based on; known to them as Marxist, and the model is asked to explain materialism further from it | Materialist historicism is what my world building is based on, I know historical materialism is a Marxist framework | first-named
+  - materialist alignment from Stellaris | the user's other existing association with the word 'materialist', offered as a reference point for the term the model is to explain | materialist is an alignment from Stellaris | first-named
+- order:
+- about: The user asks the model to explain humanism and materialism in more depth, saying where they know each term from (a strategy game's idea group, Marxist historical materialism, a space game's alignment) so the explanation can start from that background.

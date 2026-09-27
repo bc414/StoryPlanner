@@ -1,0 +1,4 @@
+- sources:
+  - the notes | review them and base the analysis on what they say about asset specificity in the named cases, checking the model's Economy-axis claim against them | Review the notes and give an analysis | referred-to
+- order:
+- about: The user pushes back on the model's Economy-axis split by saying Chrysalis's bauleiters, Skyfall's penthouse artisans and the griffonian republic's translator artisans all show asset specificity, and asks the model to review the notes and analyze this.

@@ -1,0 +1,9 @@
+- questions:
+  - Can a Griffoness build and enchant several different machines at once, or is she limited to one complex or connected system at a time? | ignored | Nothing said about how many machines a Griffoness can attune to. | none
+  - Does Aquileia export spell matrices, and is there a cottage industry of Griffonesses making matrices for Ponies who want to escape their talent lock? | ignored | Nothing said about matrix exports or a matrix market. | none
+- shape: Drops the model's stress-test questions and moves to a new topic. The user asks for analysis of a lore beat: Coltbert persuading the hired pirate Dennis Discret to spare the University of Pridea. They add established facts (Pridea predates Gerad's copying of Herzland; Pridea is a merchant town) and the relevant reign dates. They then put their own open design questions to the model: whether the university should date from Grover III's era, and what its origin story would be.
+- settles:
+  - Coltbert convinced the hired pirate Dennis Discret to spare the University of Pridea, while the other pirates on the Skyfall tycoon's payroll leveled the generic bourgeois universities Gerad Discret built | the lore beat as described: how Coltbert convinced Dennis Discret to spare Pridea
+  - The University of Pridea predates Gerad Discret's copying of Herzlander industry and institutions | "I established that the University of Pridea predates"
+  - Pridea is canonically a merchant town | "Pridea canonically is a merchant town"
+  - Timeline anchors: Gerad Discret took the throne and began copying Herzland in 940 ALB, and Grover III ruled 854 to 914 ALB | "940 ALB" and "854 ALB to 914 ALB"

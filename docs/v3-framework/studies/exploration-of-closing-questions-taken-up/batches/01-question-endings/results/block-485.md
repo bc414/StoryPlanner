@@ -1,0 +1,5 @@
+- questions:
+  - How does the societal hierarchy shift, and how do the FJA artisans react, when Fleur Bloom's research shows the Wallflowers' quiet communal empathy actively generates the Charitostatic fuel powering the Republic, making them thermodynamic equals? | no user turn | none | none
+  - How does Twilight use the Strong Nuclear Force versus electromagnetic repulsion metaphor (Red Love as repulsion, Pink Love as binding) to explain to Celestia why an armed, ambitious Republic will not explode into civil war? | no user turn | none | none
+- shape: none
+- settles:

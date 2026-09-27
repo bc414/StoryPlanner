@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the advice to tighten the outline, states their own plan to set the Celestia debate and the family reunions at Twilight's Castle in Ponyville, and asks what further implications that setting would have.

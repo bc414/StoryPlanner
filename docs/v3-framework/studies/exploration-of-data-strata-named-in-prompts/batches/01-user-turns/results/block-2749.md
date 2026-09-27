@@ -1,0 +1,5 @@
+- sources:
+  - The Manticore of Canterlot.txt (the attached new story) | the material to read and analyze for plot, themes and ontology framework; the user has not read it, so the model must draw on it directly | Here is a new story which I have not read yet | first-named
+  - the other stories discussed | the comparison base; the new story is to be related to and compared against them | how does it relate to the other stories discussed | referred-to
+- order:
+- about: The user attaches a story they have not read and asks the model to summarize it, identify its themes and the ontology framework behind them, and give a comparative analysis against the stories already discussed in the conversation.

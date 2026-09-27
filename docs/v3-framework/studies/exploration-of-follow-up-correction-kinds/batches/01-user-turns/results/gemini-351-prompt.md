@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - design choice the user rejects | the model's Intensity property as an integer scale from 1 to 5, which the user finds arbitrary and wants replaced by an enum | I like the idea of intensity, but I don't like the arbitrary numbers | stated plainly as a dislike, softened by first praising the idea and then phrased as a request to change it
+- about: The user accepts the intensity idea but objects to the numeric 1-5 scale, asks for an enum instead, and asks whether character development or involvement should get the same enum-style intensity.

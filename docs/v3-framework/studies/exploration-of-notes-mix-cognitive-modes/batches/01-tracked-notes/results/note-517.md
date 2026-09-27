@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten (world-builder ontology, god-mode rule definition) | the Reich's motto names Boreas, the Kaiser and the Reich as what it stands for | Their motto is "For Boreas, For the Kaiser, For the Reich!" | outside
+  - outside all ten (world-builder ontology, god-mode rule definition) | authority in the system flows downward from the divine to the earthly, and Boreas is the source of all morality and of the divine right to rule | The hierarchy flows from the divine to the earthly. Boreas is the source of all marality and the divine right to rule | outside
+  - outside all ten (world-builder ontology, god-mode rule definition) | the Kaiser is the vessel Boreas chose to shepherd the griffons | The Kaiser is the vessel chosen by Boreas to shepherd the griffons | outside
+  - outside all ten (world-builder ontology, god-mode rule definition) | the Reich is the physical land together with the griffons who are shepherded | The Reich is the physical land and the griffons being shepherded | outside
+- goals:
+- whole: The note defines, as a fact of the fictional universe, the system's motto and its three-tier hierarchy of Boreas, Kaiser and Reich, without stating any effect on the reader.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes new in-world lore, that the Monte Cristo-style novel inspired Coltbert's ideology, was demoted by Gerad Discret's royalists, and was written around 950 ALB by an Aquileian who hated the bourgeoisie, without pointing the model at any body of data.

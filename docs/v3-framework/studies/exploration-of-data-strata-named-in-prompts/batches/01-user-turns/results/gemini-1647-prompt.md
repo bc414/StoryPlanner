@@ -1,0 +1,4 @@
+- sources:
+  - the ending scene (of the episode under discussion) | used as the setting in which the model is to place and answer about a described event, Twilight mass-harvesting a field with a spell | during the ending scene | referred-to
+- order:
+- about: The user asks a follow-up question about how Applejack would react if Twilight used a spell to harvest a whole field at once in the episode's ending scene.

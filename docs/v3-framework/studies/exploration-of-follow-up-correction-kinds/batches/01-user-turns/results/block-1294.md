@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's high-school versus college-level history framing and asks a follow-up about why real readers and the author were given incomplete understandings, extending the idea without disputing anything.

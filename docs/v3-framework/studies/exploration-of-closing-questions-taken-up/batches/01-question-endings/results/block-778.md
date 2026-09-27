@@ -1,0 +1,15 @@
+- questions:
+  - Would unbridling cause a surge in output that leads to mechanical failures or magical blowouts, forcing Twilight and Fleur to design stabilizing spell matrices? | ignored | none | none
+  - Does Applejack, on seeing Flowing Current unbridle a machine, recognize the kinship between a mechanic's repair and a farmer's tending, cementing the rural-urban alliance? | ignored | none | none
+- shape: Accepts the model's primary term in one line, then moves on without answering either Socratic question. It opens a new worldbuilding thread on how the Skyfall DRM works. The user lays out a long origin theory for the messaging magic (griffon fealty magic fused with unicorn techniques, tied to the Charitostatic Effect and Thymodynamic power, with the letter-sending in FiM as its example) and a history of its suppression and revival. They end with a proposed corruption into DRM. They also hand the model a research task on Genghis Khan's messaging network and how to enhance it with magic.
+- settles:
+  - Unbridling is adopted as the in-world term for jailbreaking machines | Unbridling is definitely a good term
+  - Messenger magic is powered by the Charitostatic Effect as a stabilizer for Thymodynamic power, and is a universal law of genuine connection across distance | definitely be powered via the Charitostatic Effect
+  - Cross-ocean communication between Grover III and Celestia used a fusion of unicorn and griffon techniques, with the griffon part originating the friendship-letter magic | fusion of unicorn techniques and griffon techniques
+  - Griffon messaging is built on squire and chivalry fealty: the best warriors had the most loyal squires, and the logistical edge made them the best conquerors | most loyal squires who could send and receive messages
+  - Grover II was the one original, competent, Genghis Khan-like conqueror named Grover, and later warlords were merged into a mythic figure in the Archons' religious texts | Grover II (the original who was actually named Grover
+  - The messaging rule stays squire-to-lord only, with a gentlegriff at Canterlot receiving messages from his squire in Griffenheim | preserve the rule that it must be squire to lord
+  - Grover III banned the telegraph along with the Bessemer and Haber-Bosch processes; Grover IV uncapped it, killing griffon magic except across oceans | Grover III must've banned the telegraph
+  - The pirates of Haukland, with honor among thieves, revive magical messaging to raid Skyfall and Empire ships | pirates of the island of Haukland
+  - Skyfall's DRM equivalent is a proprietary verifier that bricks the machine when replacement parts don't match and messages the company if it is removed or destroyed | proprietary verifier can brick the machine
+  - Skyfall's enforcement: goons smash the factory in Skyfall, while owners in Equestria are blacklisted and smeared in the press, possibly with hired manosphere-influenced stallions | hire goons to smash the factory

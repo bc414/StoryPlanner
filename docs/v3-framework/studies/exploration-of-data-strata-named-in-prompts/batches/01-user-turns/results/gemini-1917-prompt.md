@@ -1,0 +1,4 @@
+- sources:
+  - the Ottomans (their dynastic history as a real-world comparison) | provisional suggestion: model is asked to explore the Grovers' pattern as if it followed the Ottoman model, not settled | What if the Grovers were like the Ottomans | first-named
+- order:
+- about: The user offers a hypothetical, asking the model to consider the Grovers' long reigns through the analogy of the Ottoman dynasty.

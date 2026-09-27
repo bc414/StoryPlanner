@@ -1,0 +1,8 @@
+- sources:
+  - the 65 v1 notes that need further research | outstanding items still needing research, not settled; to be counted alongside the other unresolved material | In addition to the 65 v1 notes that need further research | referred-to
+  - hidden questions/obligations in plot point synopses and link payloads | additional open questions and obligations in v1 that carry no boolean flag, so they are not visible and count as outstanding | hidden questions/obligations in plot point synopses and link payloads which didn't have the boolean flag | first-named
+  - more notes in Google Keep | uncaptured material not yet in v1, still to be brought into the compilation | more notes in Google Keep which I captured and didn't put into v1 yet | first-named
+  - 10+ conversations with Claude or Gemini on story design | later conversations holding new insights from writing v2 code, more material to be compiled | probably 10+ conversations with Claude or Gemini on topics about the story design with new insights | first-named
+  - Story Planner v1 and v2 | both are a world bible and a project management tool, with tracks labeled by their purpose; v2 can still take new questions via Flagged state and Flag Reason | Story Planner v1 and v2 are both a world bible (or attempted to be one) and a project management tool | referred-to
+- order:
+- about: The user adds further unprocessed and unflagged material to the pile the compilation must cover, accepts that scope will keep growing, says v2's Flagged state and Flag Reason can absorb new questions, and asks whether this framing of v1 and v2 as world bible plus project tool makes sense.

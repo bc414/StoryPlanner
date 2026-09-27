@@ -1,0 +1,4 @@
+- questions:
+  - Does highly flammable syngas made by slave labor fit the aesthetic the user wants for the invasion of Mount Aris? | ignored | Nothing on the syngas idea or the aesthetic. It asks a real-world history question about German airships crossing the Channel. | none
+- shape: Redirects to a real-world historical question. It asks how the Germans used flammable airships over the English Channel and whether that was only possible in the dark. It reads as a check on whether the model's flammable-airship premise is plausible. It neither accepts nor rejects the proposal.
+- settles:

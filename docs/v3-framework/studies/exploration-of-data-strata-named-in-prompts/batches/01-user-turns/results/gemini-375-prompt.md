@@ -1,0 +1,6 @@
+- sources:
+  - EaW canon (the craven King Moriset Discret hiring Coltbert to stabilize the country once Vérany went underground) | treated as the established baseline of events that the author's own version builds on and reinterprets, not something to replace | In EaW canon, the craven King Moriset Discret hired a pony named Coltbert | referred-to
+  - my interpretation (Coltbert's academic paper, Discret hiring him to snub Vérany, rural prosperity as the FJA power base, the Young Aquileian Front name, Vérany's rebrand as PdNA) | the author's own planned version, offered as a plan and open to feedback rather than settled, with the naming still uncertain | In my interpretation, I plan on having Coltbert publish an academic paper | first-named
+  - what Marx called the "petty bourgeois" | used as an outside theoretical label to map the FJA's class base onto, with the author noting their universe departs from it because the rural coalition is stronger | what Marx called the "petty bourgeois" (but in my universe the rural coalition is actually stronger | referred-to
+- order:
+- about: The user proposes a class-based breakdown of the three Aquileian parties and lays out their own planned reinterpretation of the canon Coltbert and Discret storyline as the origin of the FJA, asking whether it makes sense.

@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-building ontology) | defines the civilizational system Harmonic Capitalism as a synthesis of two opposed traits, stagnant harmony and ambitious industry | Harmonic Capitalism is the synthesis of stagnant harmony and ambitious industry | outside
+- goals:
+- whole: The note states in god-mode terms what the system fundamentally is, defining it as a synthesis of stagnant harmony and ambitious industry, with no reader-facing aim.

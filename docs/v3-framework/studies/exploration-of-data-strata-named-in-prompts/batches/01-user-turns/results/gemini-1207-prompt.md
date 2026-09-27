@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's proposed characterization by stating that Applejack and Twilight are despondent until the chapter 9 town hall, which is meant to show them a third way in which industry scales up their principles and talents.

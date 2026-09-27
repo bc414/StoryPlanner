@@ -1,0 +1,4 @@
+- sources:
+  - lore for Aquileia | the author's accumulated worldbuilding is noted as large enough to support a prequel; no instruction to rely on, check or set aside | I've built up so much lore for Aquileia | referred-to
+- order:
+- about: The user remarks, without asking for anything, that the amount of worldbuilding they have done for Aquileia is enough to support a whole prequel.

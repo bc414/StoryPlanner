@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want the model to draft the final Broadcast speech that plays over the radios as the food drops? | ignored | The user does not take up the offer of a speech. They ask a different question about predator true believers and add a note about the leaflets. | none
+- shape: The user passes over the offer and redirects to a new problem: what to do with the true-believer predators like Pagala, which the food-drop ending does not obviously cover. While raising it, the user gives some world background on where those predators are and how many are left. They also add a design detail for the leaflets. The user's own question is left open for the model to answer.
+- settles:
+  - The leaflets will be printed in both Herzlander and native Changeling. | the leaflets should be in both Herzlander and native Changeling
+  - Most of the true-believer predators, Pagala's kind, died in Canterlot, so few remain. | Although most died in Canterlot
+  - Any predator still alive would have been feeding somewhere east of the Bluebell River, so the ones who remain are not concentrated in the besieged city. | they would have been feeding somewhere on the east side of trh Bluebell River

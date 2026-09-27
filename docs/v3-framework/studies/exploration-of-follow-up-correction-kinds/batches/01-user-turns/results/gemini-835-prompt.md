@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user explains why they wrote ensemble scenes zoomed out, restates their understanding of limited POV as the model's advice (one anchor character, others seen through that character's biases), and asks the model to analyze and refine that understanding.

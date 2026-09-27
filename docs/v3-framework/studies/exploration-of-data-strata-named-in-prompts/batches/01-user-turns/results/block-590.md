@@ -1,0 +1,6 @@
+- sources:
+  - the author's own imagined sequence for the Canterlot occupation (bombing statthalters, flak-gun hostages, teleport rescue, more hostages, psychological collapse) | treat as the intended plan and the correction to how the scene and its recontextualization work | I imagined that Reni and Minette's initial tactic | first-named
+  - chapter 12 TLTT timeframe, as told near the end of their own story | treat as settled placement: the point where they learn a totalitarian state can remove individual agency through labor militarization and drugs | in chapter 12 TLTT timeframe (but told in their own story near the end | referred-to
+  - chapter 17 TLTT, as told in their own story | treat as settled placement: the point where they realize their romantic heroic anti-poseur crusade made things worse, recontextualizing earlier story | In chapter 17 TLTT (told in their own story) they realize | referred-to
+- order:
+- about: The author corrects and fills in the planned Canterlot occupation sequence for Réni and Minette, specifying the escalating hostage tactic that breaks their heroic paradigm, and pins how chapters 12 and 17 of TLTT figure in their own story's structure and retroactive recontextualization.

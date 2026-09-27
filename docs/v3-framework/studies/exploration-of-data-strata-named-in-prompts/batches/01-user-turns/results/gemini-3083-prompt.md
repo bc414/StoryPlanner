@@ -1,0 +1,4 @@
+- sources:
+  - the harmonic allegories in my story (democratic defense, personal autarky, enhancing asset specificity) versus extraction, pacification, siloing | used as the yardstick: categories the model should sort real-world AI use into when estimating percentages | "the other harmonic allegories in my story" | referred-to
+- order:
+- about: The user asks the model to estimate what share of today's AI users fit the story's constructive "harmonic" uses versus its extractive, pacifying or siloing uses, and to explain the estimates' origin, methodology, sources and the formal statistical name for the population base.

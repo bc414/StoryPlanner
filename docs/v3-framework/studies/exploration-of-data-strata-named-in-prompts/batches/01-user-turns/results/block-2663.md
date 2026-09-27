@@ -1,0 +1,5 @@
+- sources:
+  - my current story plans | review them and report what they already contain about the changeling economy and its exports, as the basis for judging whether an export model belongs | Review what my current story plans have | referred-to
+  - the author's own picture of the hives' trade (goods to Herzland and Skyfall, guns to Zebrican warlords) | the author's own current image, offered from their head as a starting point, whose purpose the model is asked to examine rather than accept | I can see the hives churning out goods to sell in Herzland and Skyfall | first-named
+- order:
+- about: The user asks the model to explain what China's export model does and who it serves, and to check their current story plans to decide whether the changeling economy should model it and what purpose the hives' exports serve.

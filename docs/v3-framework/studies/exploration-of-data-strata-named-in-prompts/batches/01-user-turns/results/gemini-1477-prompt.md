@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to propose a few alternative names for the network it just described, with reasons they work, or to say whether the current name is already the best.

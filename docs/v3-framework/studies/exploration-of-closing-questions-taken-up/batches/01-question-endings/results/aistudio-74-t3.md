@@ -1,0 +1,5 @@
+- questions:
+  - If Applejack's legitimacy is forged bottom-up and she rejects Celestia's top-down mandate, how does she handle the 30% Celestial-voter bloc of her coalition, who see her authority as an extension of the Alicorns' will? | no user turn | none | none
+  - Does Applejack's pre-war celebrity being what let her command the Tall Tale garrison validate Coltbert's Ego-Capitalism, by showing social capital (fame/posture) is needed to mobilize the masses even in a crisis? | no user turn | none | none
+- shape: none
+- settles:

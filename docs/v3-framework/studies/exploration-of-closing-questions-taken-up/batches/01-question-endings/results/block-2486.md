@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the script that pulls Steam achievement timestamps and builds a year-by-year activity heatmap? | ignored | Says nothing about the script or Steam data; moves on to a new request about reports they added to the project. | none
+- shape: Redirects to a new task. The user drops the Steam-history thread without accepting or declining the script. They report adding 5 consolidated reports to the project documents and ask the model how these enhance the picture of the framework they've developed.
+- settles:

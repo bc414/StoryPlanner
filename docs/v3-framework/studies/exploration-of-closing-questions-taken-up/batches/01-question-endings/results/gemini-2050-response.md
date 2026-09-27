@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want to try a stress test, giving a complex pronoun-heavy paragraph so the model can show how Phase 2 de-aliases and shifts it into a standalone JSON note? | ignored | Nothing on the stress test. The user rejects the shifting the test was meant to demonstrate. | none
+- shape: Corrects the model and gives an instruction. The user rejects the word-order-shifting premise of the whole turn and demands rigid, verbatim preservation of the original text, because they don't trust the AI to rearrange it. The user does not answer the offered next step.
+- settles:
+  - The Phase 2 sorter must not shift word order or restructure the text. The original text is kept as written, and the rigid constraint takes priority over the model's proposed grammatical-normalization allowance. | I don't want any shifting. I want my original text.
+  - The user wants rigidity in how the AI handles their notes, with no rearranging left to its judgment. | I don't trust the AI to rearrange stuff. I want rigidity.

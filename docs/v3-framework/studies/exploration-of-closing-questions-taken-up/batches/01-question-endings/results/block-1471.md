@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn does not take up the model's analysis of static versus empirical determination or the collapse test. It moves to a new task. The user describes a nested Punnett square they drew, with ontology vs events and prior-established vs narrative-emergent as the outer axes, and zero-focalization vs narrative-design and project-wide vs scene-specific as the inner axes. The user gives their reasons for the nesting and asks the model to assess whether this is the best configuration for deriving track questions, explanations and uses. It is a redirect that hands the model an evaluation task. The model turn put no question to the user, so there is nothing for the user turn to answer.
+- settles:

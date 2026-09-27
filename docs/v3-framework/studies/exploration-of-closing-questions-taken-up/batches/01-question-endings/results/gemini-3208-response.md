@@ -1,0 +1,4 @@
+- questions:
+  - Which specific part of the data foundation is the user planning to rewrite first, once the historical analysis is run? | ignored | none | none
+- shape: Redirects to a different question: states a dislike of command line tools and asks whether the Claude desktop app can do the read-only history analysis, leaving the model's closing question unaddressed.
+- settles:

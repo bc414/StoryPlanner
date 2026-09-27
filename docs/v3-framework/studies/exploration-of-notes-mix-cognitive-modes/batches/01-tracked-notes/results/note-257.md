@@ -1,0 +1,4 @@
+- claims:
+  - History | Archon Eros saved the young Grover V's life from Republican insurgents' claws, an event in the past (world date 978) | He was responsible for saving the young Grover V's life from the claws of Republican insurgents | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that Archon Eros saved the young Grover V from Republican insurgents in 978.

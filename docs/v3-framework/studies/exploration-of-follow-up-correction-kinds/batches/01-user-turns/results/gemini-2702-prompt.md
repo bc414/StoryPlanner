@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis of Celestia's complicity as a starting point and asks a new design question about whether she should voice a feeling of having been tricked into perpetuating violence, and what that would do thematically and for her arc.

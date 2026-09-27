@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's allegory breakdown as given and asks a new follow-up: what share of real-world AI users fit the story's harmonic uses versus extractive or pacifying ones, with the methodology, sources and the statistical name for the population base.

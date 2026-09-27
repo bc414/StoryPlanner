@@ -1,0 +1,11 @@
+- sources:
+  - the previous answer in this conversation (the elder-stallion / mare incentive analysis) | accepted as internally coherent but not enough, since it does not explain why this structure arose rather than another | "This all makes sense in a vacuum" | referred-to
+  - Zumidia (the matrilineal case) | treat as already worked out, so the matrilineal alternative needs no fresh derivation | "the matrilineal case was already detailed in Zumidia" | referred-to
+  - the Zumidian setup as the communal, Equestria-like society | provisional guess from the user, to be confirmed or corrected | "I guess that's the Zumidian setup?" | referred-to
+  - Equestria | reference point for what a communal society looks like | "communal like Equestria" | referred-to
+  - the griffons | reference case of a monogamous society that the Great Lakes explanation must be contrasted with | "monogamous society (like the griffons)" | referred-to
+  - Great Lakes (clan land scarcity fought over and defended) | the user's own tentative explanation for the Great Lakes structure, offered for the model to test | "Great Lakes comes down to clan land scarcity that has to be fought over and defended?" | referred-to
+  - real-world history (materialist historicist analysis) | to be drawn on as one of two required analyses, including real examples of the opposite paradigm | "materialist historicist of the real world" | referred-to
+  - the user's Zebra world | to be drawn on as the second of two required analyses | "then my Zebra world" | referred-to
+- order:
+- about: The user pushes past the previous answer to ask why elder-hoarding polygyny arises instead of matrilineal, monogamous, communal or reverse-polygamous arrangements, and requests a materialist analysis of both the real world and their Zebra world, checking their own guesses about Zumidia, the Great Lakes and Equestria.

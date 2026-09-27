@@ -1,0 +1,11 @@
+- sources:
+  - Changeling POWs at Camp Fluttershy (the organization the user made in v2) | treat as the existing home for the camp, which the model said was missing; it also covers the bootstrapping process where rehabbed changelings become the harmonist teachers | I made Camp Fluttershy's organization as | first-named
+  - Alicorn Biology and Magic (the World Law the model proposed adding) | treat as the user's correction of what it contains: alicornization is a placebo revealed by the end of the story, and ambition drives all power levels | revealed through the story to be entirely a placebo | referred-to
+  - Bjornling's collaboration state (the user's v2 entry) | treat as the user's own definition: Bjornling as a Peter the Great figure and comprador in Chrysalis's New Order, with no separate polar bear system needed | Bjornling's collaboration state is him as | first-named
+  - Statthalter Slave Trade (v2 CivSys) | treat as the user's definition: the rules of the statthalter island, distinct from the warlord economy | I figured would be the statthalter island's rules | referred-to
+  - Zebrican Warlord Economy (v2 CivSys) | treat as the user's definition: warlords sovereign on paper but really tax collectors for the Skyfall Mark, with the remittance trap | warlords are on paper sovereigns but actually tax collectors | referred-to
+  - Magical Engineering (v2 Technology) | treat as the user's definition: specifically spell matrices and the engineering built around them | Magical Engineering is specifically spell matrices | referred-to
+  - Aeronautical Engineering (v2 Technology) | treat as the user's definition: specifically how the Wonderbolts built 1980s-level planes with the in-universe magic systems | Aeronautical Engineering is specifically how the Wonderbolts | referred-to
+  - Parloir Operator (v2 Character) | treat as a placeholder for a specific thestral not yet named, not a generic type | is a placeholder for a specfic thestral | referred-to
+- order:
+- about: The user answers the model's audit of v2 by explaining, from their own design intent, why the camp organization, alicorn material, polar bear/Bjornling, the Las Pegasus qualifier, the Statthalter and warlord systems, the engineering technologies and the Parloir Operator are as they are.

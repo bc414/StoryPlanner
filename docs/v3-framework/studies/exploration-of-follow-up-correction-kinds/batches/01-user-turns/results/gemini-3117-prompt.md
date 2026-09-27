@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user confirms the model's reading that the small Trenderhoof-rejection beat is the seed of Applejack's larger arc, and answers the model's closing question by placing "hard truth" as the war-era version of honesty and the mature statesmare at the end.

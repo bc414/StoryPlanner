@@ -1,0 +1,4 @@
+- claims:
+  - History | Celestia deliberately tried to recruit Discord, by arranging for Twilight to give up her magic in exchange for her friends, Discord among them | Celestia tried to recruit Discord intentionally by having Twilight give up her magic in return for her friends | yes
+- goals:
+- whole: The note reports as a past event in Discord's backstory that Celestia deliberately tried to recruit him through a deal in which Twilight gave up her magic in exchange for her friends.

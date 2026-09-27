@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Fleur's stance toward the munitions and war role: the model cast her as a reluctant optimist forced to watch her inventions turned to weapons, but she seeks the role | Fleur actively wants this role | flat statement of the character's intent, with the reason (her arc) given straight after
+  - fact of the world | Fleur's motivation for being at Star Energy and in Tall Tale: the model grounded it in scientific opportunity and volatile, lucrative conditions, whereas her drive is to prove earth ponies are not prey animals, rooted in her parents' warnings and Aquileian historical trauma | her character arc is about wanting to prove that earth ponies are not prey animals | explained as backstory, pointing to lore the user says they already built, stated matter-of-factly without irritation
+- about: The user replaces the model's tragic, reluctant reading of Fleur with her actual motivation, wanting to prove earth ponies are not prey, and grounds it in her parents' warnings and the pre-revolution Aquileia lore.

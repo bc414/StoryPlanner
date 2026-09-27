@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the story's changelings, whether psychiatrist therapists enter the picture once a changeling matures enough to grasp what they served and lost, and does not correct anything since the model turn has no captured content.

@@ -1,0 +1,5 @@
+- claims:
+  - Canon | Sets TLTT's Twilight against another work's depiction of her (Pax Chrysalia), where she is an infinite battery to be drained, and rejects that framing | isn't an infinite battery to be drained (like in Pax Chrysalia) | yes
+  - Characterization | Asserts what Twilight is in TLTT: an ordinary pony, not a limitless power source | she's just a pony | no
+- goals:
+- whole: The note recontextualizes Twilight by contrasting TLTT's ordinary-pony version of her with the drainable infinite-battery version in Pax Chrysalia.

@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten: world-building ontology (rules of the universe) | A pony buying bread drops a Gilded Bit in the slot; the machine clunks, whirs, uses electricity for a magical-magnetic scan to verify the bit was minted at Gilded Trust's foundry, then rings a bell to approve the sale | When a pony buys bread, they drop the Gilded Bit into the slot ... rings a bell to approve the sale | outside
+  - outside all ten: world-building ontology (rules of the universe) | Gilded Trust profits by selling these machines to every merchant and store in Las Pegasus | Gilded Trusts makes money off selling these machines to all merchants and stores in Las Pegasus | outside
+- goals:
+- whole: The note defines, as a fixed rule of the fictional world, how the Gilded Slot payment machine verifies a bit and who profits from selling it, without saying anything about what the reader is to get from it.

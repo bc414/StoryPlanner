@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user checks whether their goal of keeping creative control while gaining understanding and inspiration justifies choosing the suggested low-randomness settings over the creative default, and asks for further out-of-the-box considerations.

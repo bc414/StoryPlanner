@@ -1,0 +1,4 @@
+- sources:
+  - European "history" | draw on it for real-world analogues to the composite, legend-laden early emperors; the scare quotes mark it as partly legendary rather than fully reliable record | What would be some equivalent parallels in European "history"? | first-named
+- order:
+- about: The user asks the model to name real-world European parallels for the idea that the first two Griffonian emperors are myth-distorted composites from a pre-printing-press age.

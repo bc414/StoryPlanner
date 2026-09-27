@@ -1,0 +1,8 @@
+- questions:
+  - Does Celestia read the Vanhoover after-action reports as a failure of the soldiers' faith in Harmony, or as proof that her own cultural conditioning doomed the army? | ignored | Nothing said about Celestia or how she reads the reports. | none
+  - How does Trimmel adjust his artillery doctrine once Tall Tale's shields stop shattering under acoustic terror because ponies use Resilience instead of Laughter? | ignored | Nothing said about Trimmel or his doctrine. | none
+- shape: The user corrects the model's framing of the Giggle doctrine, saying it is the spirit of the song and not literal singing, and that the flaw is a category mismatch, not toxic positivity in itself. They then drop the Socratic questions and ask a new one: the pros and cons of showing the failed battle in chapter 1 versus opening on Applejack fleeing and revealing the battle in layers.
+- settles:
+  - The Giggle at the Ghostly doctrine works in its spirit and is not literally sung by the soldiers | I don't think it'll be literally singing the song, but it's the spirit of it
+  - Giggle at the Ghostly is not inherently toxic positivity. Its flaw is a category mismatch between internal psychological fear and kinetic bullets | the flaw is a category mismatch (psychological internal fear versus kinetic bullets)
+  - Toxic positivity as standard protocol is the user's tentative framing of the doctrine, hedged and set beside the category-mismatch point | Or not quite, I think it's more about toxic positivity being standard protocol

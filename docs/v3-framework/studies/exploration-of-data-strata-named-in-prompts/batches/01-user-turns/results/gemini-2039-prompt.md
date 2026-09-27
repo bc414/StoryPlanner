@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects a point in the model's design discussion by saying that each atomic thought should be routed only into the paradigms and buckets relevant to it, not into a bucket in every paradigm, and it points at no source of data.

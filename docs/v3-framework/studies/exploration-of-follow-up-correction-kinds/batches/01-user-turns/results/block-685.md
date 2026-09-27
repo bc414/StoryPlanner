@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Martin comparison to ask a new question: which mainstream work is closest to their story plan, or whether its origin (a toy-commercial show with real storytelling injected, plus a WW2-parallel history simulation) makes it unique.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model's framing that reforming and refining cure the straight-chain gasoline's poor efficiency, which the user sets against an engine efficiency figure of about 35% that still holds after refining | "even after cracking and reforming, the gasoline is still at 35% efficiency?" | put as a short incredulous question, an implied challenge with no explicit statement of disagreement
+- about: The user checks the model's account of what refining achieves against an efficiency figure of about 35% from earlier in the conversation, and asks whether that figure remains the same after cracking and reforming.

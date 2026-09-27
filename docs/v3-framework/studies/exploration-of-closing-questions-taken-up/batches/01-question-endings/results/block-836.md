@@ -1,0 +1,5 @@
+- questions:
+  - How do factions that never had a Nursery (Cloudburian peasants, the Tzinacatl) react to Equestrians exporting their suburban morality, and is there friction in the Republican Pact over Equestrians dictating Harmonic Capitalism terms? | ignored | Says nothing on it; the turn goes to correcting the model's reading and asks about the toy-origin insight. | none
+  - How does the Equestrian Republic manage reconstruction of the Changeling Lands and Skyfall, on a Marshall Plan model, without looking like a neo-imperialist power imposing Nursery values? | ignored | Never touches it; the turn stays on the Hasbro toy origin of FiM and its effect on the meta narrative. | none
+- shape: Corrects the model's reading of the user's earlier point (the model had folded it into the in-story magic system and the Changeling POWs' toys), restates it as a point about the real franchise (Faust was inspired by the original Hasbro toys), and redirects the model to two new questions about what that insight does for the story's meta narrative and thematic payload. The model's two questions are dropped.
+- settles:

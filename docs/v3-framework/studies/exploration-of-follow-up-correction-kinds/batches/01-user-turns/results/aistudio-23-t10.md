@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches two documents and supplies four prioritized extraction sieves (statecraft, coercion instruments, trauma and loyalty, species and class power) to direct the next stage of note organizing, without commenting on or disputing the model's topic list.

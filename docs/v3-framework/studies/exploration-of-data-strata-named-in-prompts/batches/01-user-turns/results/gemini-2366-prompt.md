@@ -1,0 +1,9 @@
+- sources:
+  - your context (what the model has been working from in this conversation) | treat as containing a fallacy about monster loot fuelling griffon magic; find which part keeps producing it and do not carry it forward | What part of your context keeps coming back to this fallacy? | referred-to
+  - my story plans | review them and redo the analysis from them, as the basis for correcting the earlier reasoning | Please review my story plans and give a reanalysis | referred-to
+  - the author's own statements in this message about the setting (pride alone powers griffon magic, Grover III's artisans' children, Love Donator origin with Chrysalis, Applejack and Twilight, Coltbert's ego-capitalism as synthesis) | treat the flat assertions as true and the correction to make; the 'I believe' and 'perhaps' parts about why Grover III failed are offered as tentative hypotheses to test | Monster loot does not fuel griffon magic. Only their pride does. | first-named
+  - Coltbert's Predator's Dilemma paper | treat its conclusion as settled: Coltbert twists griffon morality through ego, negotiation and cross-species synergy rather than harmony or chivalry | This is the conclusion of his Predator's Dilemma paper. | referred-to
+- order:
+  - the author's own statements in this message about the setting over your context | the claim that monster loot fuels magic is called a fallacy and pride is given as the only fuel | Monster loot does not fuel griffon magic. Only their pride does.
+  - my story plans over your context | the model is sent back to the plans for a reanalysis after the fallacy is pointed out | Please review my story plans and give a reanalysis
+- about: The user rejects the model's claim that monster loot powers griffon magic, asks where in its context that error comes from, offers their own corrected account of why Grover III failed and how Coltbert succeeds, and asks the model to review their story plans and reanalyze.

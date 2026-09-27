@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question about Zecora's later role by offering two possible paths for her, joining Fluttershy's rehab camp at Tall Tale with Dr. Fauna or going back to Zebrica to help rebuild Ain Trotgourait, without disputing anything the model said.

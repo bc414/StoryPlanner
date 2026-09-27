@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to list other Gemini usage modes besides Canvas and to say which might be better for analysing a story plan and inspiring new ideas, without pointing at any body of material to draw on or avoid.

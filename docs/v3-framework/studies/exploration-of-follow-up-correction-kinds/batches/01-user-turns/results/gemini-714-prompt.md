@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the dream and P&K adaptation, adds further beats (Rockfeller's plan with a family-perk offer, the Trimmel talk, the uniform and title change to Lioness of Tall Tale), and asks how to callback the collaborator dream in that title-drop chapter.

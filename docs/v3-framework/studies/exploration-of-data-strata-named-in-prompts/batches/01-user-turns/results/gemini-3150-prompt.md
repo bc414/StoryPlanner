@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user infers that Gemini and Claude are complementary and proposes a division of labour, with Gemini for casual knowledge exploration and image attachments and Claude for coding and literary analysis during off-peak hours, without pointing the model at any body of material.

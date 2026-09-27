@@ -1,0 +1,20 @@
+- renderings:
+  - Shane | Shane's own words | his amused certainty on waking that Valerie could not have risen before him | italic thought, "There's no way she managed to get up before me" | yes | opening lines on waking
+  - Shane | Shane's own words | his racing worry over why Valerie left, and his practical decision to ask her | "Well, the surest way to know would be to ask her" | yes | in the kitchen, after learning she left in the night
+  - Shane | Shane's own words | his private correction that she would not leave him even for a good reason | italic thought, "She wouldn't leave me with a good reason either" | yes | mid-argument with his mother
+  - Valerie | Valerie's own words | her tired doubt about whether the far-off capital is really there | "Or maybe she just imagined it..." | yes | on the hill at night
+  - Valerie | Valerie's own words | her scolding of her own exhaustion, comparing it to staying up for a book | "I've stayed awake longer before to read a good book" | yes | on the hill at night
+  - Valerie | Valerie's own words | her sore tails and head, and the tender value of the basket she and Shane earned | "the basket that she and Shane had earned together"; "her tails already had enough" | yes | after she drops the basket
+  - Valerie | mixed | the blanket's pull on her tired mind | "lying there invitingly" is a figure she does not voice; the following thoughts are hers | no | just before she lies down
+  - Valerie | mixed | her fear-coloured view of the Rapidash in the dream | "a flowing banner of purple fur", "wickedly pointed", "maniacal grin" | no | the first waking-up in the dream
+  - Valerie | Valerie's own words | her panic and sense of losing all her senses as the Rapidash close in | "felt like she lost all her senses"; "awful cackling" | yes | end of the dream
+  - Valerie | mixed | her warm relief at seeing Shane's paw and fur | "a soft blue paw accompanied by a cute yellow ring of fur", answering the earlier violet hoof | no | second waking-up, seeing Shane
+  - Valerie | mixed | her calming in his embrace | "heart fluttered", "eyes closed serenely", "the warmth of the moment" | no | the cuddle under the afternoon sky
+  - Valerie | Valerie's own words | the familiar feel of Shane's Helping Hand, and her wish that it be a dream so she needn't leave him again | "the all too familiar wave of energy"; "praying that it was a dream" | yes | when Shane tests whether it is real
+  - Shane | Shane's own words | his idea that a nuzzle might bring her back to reality | italic thought, "Perhaps a nuzzle will snap her back to reality?" | no | after the playful shock
+  - Valerie | Valerie's own words | her dread that the journey and the relationship both end at the castle | "made her mind race"; "Did that mean their relationship would have to end there too?" | yes | seeing the city from the hill
+  - Valerie | Valerie's own words | her anguish over hiding her feelings after the blissful days | "lonely self"; "how * perfect* they were"; "their mutual bond" | yes | the long paragraph after she sights the castle
+  - Valerie | Valerie's own words | her resolve to endure the pain so Shane can become a knight without suspicion | "She had to do it"; "She cared too much for him" | yes | as she looks from the castle to Shane
+  - Shane | Shane's own words | his judgment that he must give up affection too, and his relief at being back in step with her | "he had to do his part too"; "happy to be on the same page once more" | yes | end of the chapter
+- narrator: none in any real sense; the narration is a plain reporting hand that adds only dialogue-tag adverbs like "amusingly" and "placatingly", scene stage directions and a parenthetical "(Galarian)", and it never knows or judges beyond what Shane or Valerie does.
+- whole: The narration stays close to whichever of Shane or Valerie the scene follows, giving their perceptions and judgments almost entirely in their own plain, feeling-led words, with only a few lightly figured touches, such as "invitingly", "flowing banner" and "cute yellow ring of fur", that verge on a voice of its own.

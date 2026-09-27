@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule statement in god-mode) | love, whether raw friendship or raw magic, can only be moved in or out of a canister by the changeling love draining spell or a matrix that replicates it | The only way to move love ... in and out of a canister is using the changeling love draining spell (or a spell matrix that replicates it) | outside
+  - outside all ten (world-rule statement in god-mode) | love has high entropy, so a stable flow needs a vacuum inside the canister or it disperses through the air | Love has high entropy so to keep the flow stable it must be in a vacuum otherwise it will disperse through the air | outside
+- goals:
+- whole: The note states the operating rules of the Love Canister as fixed facts of the universe: how love gets in and out, and why it must be held in a vacuum.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reports that the revised script logged 83 revisions but grouped them all under a single epoch-looking date, and asks the model to fix it.

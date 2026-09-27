@@ -1,0 +1,7 @@
+- claims:
+  - History | The parents sell canned product but do not eat it themselves, and Applejack observes this | Applejack sees how her parents don't eat the canned product they sell | no
+  - Characterization | Applejack judges her parents hypocritical for this, and it is one of the reasons she left Manehattan | thinks it's hypocritical, which is one reason she left Manehattan | no
+  - History | The parents live fancy and eat at nice restaurants | They live fancy and eat at nice restaurants | no
+  - NarrativeArchitecture | The reader first sees the parents' lifestyle as hypocritical excess and only later learns the restaurant meals were patronage of local businesses, so the impression is revised in reading order | later we learn they were patronizing local businesses | yes
+- goals:
+- whole: The note sets out what Applejack sees and concludes about her parents' lifestyle, then marks a later reveal that recasts their fancy dining as supporting local businesses.

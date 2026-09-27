@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how Star Energy and the EEEE! union structure their own business models during the Great War, so they avoid the Aquileian trap of exploiting their own Earth Pony working class? | no user turn | none | none
+- shape: none
+- settles:

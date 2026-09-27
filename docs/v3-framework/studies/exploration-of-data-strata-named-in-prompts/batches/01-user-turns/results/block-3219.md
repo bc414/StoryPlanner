@@ -1,0 +1,8 @@
+- sources:
+  - Equestria at War wiki page on Yetis (equestriaatwar.wiki.gg/wiki/Yetis) | to be reviewed and used as reference for what Yetis are and their race-specific tech | https://equestriaatwar.wiki.gg/wiki/Yetis | first-named
+  - Equestria at War wiki page on Zebras (equestriaatwar.wiki.gg/wiki/Zebras) | to be reviewed and used as reference for Zebras and their race-specific tech | https://equestriaatwar.wiki.gg/wiki/Zebras | first-named
+  - tech tree of race specific tech for the two races in EaW | review it, but treat as a loose guide that need not be followed completely; coherence with material conditions matters more | Review the tech tree of race specific tech to the two races in EaW but they don't have to be completely followed | first-named
+  - real sub saharan Africa materialist historicist analysis | keep applying as an important framework alongside the other material grounding | Real sub saharan Africa materialist historicist analysis is still very important too | referred-to
+- order:
+  - material conditions coherence over the EaW race tech tree | tech tree need not be completely followed; being coherent with material conditions is the most important
+- about: The user gives two Equestria at War wiki links and revises the worldbuilding so that the Storm King is a Yeti and the cattle-hoarding, marriage-market-dominating warlord paradigm belongs to Yetis while Zebras are the matrilineal society, asking the model to review the EaW race tech and re-analyze with material coherence and real sub-Saharan African history as the priorities.

@@ -1,0 +1,5 @@
+- questions:
+  - Does framing the magic as Twilight and Fleur's software needing Skyfall's hardware feel like the right balance of fantasy and materialist logistics? | ignored | Says nothing about the software/hardware framing and moves on to how conquered changeling nobles are used on the harvesters. | none
+- shape: Moves past the model's question to a new worldbuilding problem of the user's own. The user raises a labor and logistics issue: strapping nobles to harvesters around the clock is inefficient. They float rotation and guard options as questions for the model to weigh in on.
+- settles:
+  - Conquered changeling nobles are the human source strapped to the love harvesters, as Twilight was in Pax Chrysalia, and continuous 24/7 strapping is dropped as inefficient | I was imagining conquered changeling nobles to be strapped to love harvesters 24/7, like Twilight in Pax Chrysalia, but this would be very inefficient

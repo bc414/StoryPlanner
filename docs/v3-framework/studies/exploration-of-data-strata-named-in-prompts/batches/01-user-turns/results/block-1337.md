@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user generalizes the model's production-ecosystem analysis into a pattern (long-held creator vision drives outsized popularity), notes it shapes their own project, and asks the model to investigate and explain whether Kpop Demon Hunters fits, what other examples and counterexamples exist, and whether an institutional in-between like Pixar exists.

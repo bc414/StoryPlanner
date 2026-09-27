@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reopens the structural question of whether to split or merge the two chapters and asks how the second-half chapters, which lack Elements of Harmony title anchors, can match the themes and subversion of the first half, so it is a new question and not a correction.

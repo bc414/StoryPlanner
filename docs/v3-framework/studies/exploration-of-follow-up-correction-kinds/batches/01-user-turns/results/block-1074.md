@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the brony and grimdark analysis as it stands and asks a new question about why ASOIAF takes its grimdark position, whether that comes from Martin's own life, and how it differs from their meta narrative.

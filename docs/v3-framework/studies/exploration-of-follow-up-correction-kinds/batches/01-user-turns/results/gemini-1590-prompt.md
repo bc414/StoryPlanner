@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's night-therapy idea and asks how its origin should be sequenced (Cadance knowing the cultures first, or a crisis and a whispered solution from Luna or Mali), then proposes Mali speaking to Luna in the trench with Applejack as an earlier seed for the dreamscape aid network.

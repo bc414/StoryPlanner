@@ -1,0 +1,5 @@
+- sources:
+  - the DB file, its current plot point sequencing of chapters 5 and 6 | read the existing chapter 5 and 6 sequencing and base the placement suggestions on it | Look at the current plot point sequencing of chapters 5 and 6 in the DB file | referred-to
+  - existing plans and pov | fit the suggested placement to what is already planned and to whose point of view the scenes are in | given the existing plans and pov | referred-to
+- order:
+- about: The user asks the model to read the chapter 5 and 6 plot sequence in the DB file and suggest a few places to put Fluttershy's decision to act on her own, fitting the existing plans and point of view.

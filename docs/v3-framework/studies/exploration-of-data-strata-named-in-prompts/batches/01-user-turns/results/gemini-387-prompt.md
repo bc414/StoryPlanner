@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets out new premises for the Aquileian Republic (a proportional system with no majority, Gaudreau as president, Vérany likely economic minister, and a coming war with the Griffonian Empire) and asks for a plausible four-party percentage split forcing compromise, plus the economic policies that would result.

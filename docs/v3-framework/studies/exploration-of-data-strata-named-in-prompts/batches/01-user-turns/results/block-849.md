@@ -1,0 +1,9 @@
+- sources:
+  - early TLTT planning | treat as dated: its cynicism and grimdark language came from the author's limited awareness at the time and is to be refocused | a lot of the early TLTT planning used the language of cynicism and grimdark | referred-to
+  - lore and foundational arguments built out since | treat as the newer, better basis for a more focused and cohesive setup | Now that I've built out more lore and foundational arguments | referred-to
+  - EEEE as a generic worker's union | treat as superseded, the author has moved away from it | I recently moved away from EEEE as a generic worker's union | referred-to
+  - EEEE as a machinists guild wanting to retrofit idle tycoon factories for war production | treat as the current version of the EEEE plan | made them a machinists guild that wants to retrofit the idle tycoon civilian factories | referred-to
+  - the framework (axis of cynicism versus resilience) | use as the lens for explaining the union change and the Sanders question | Not it seems I have the framework to articulate it | referred-to
+- order:
+  - EEEE as a machinists guild | put above EEEE as a generic worker's union, which the author moved away from | I recently moved away from EEEE as a generic worker's union and made them a machinists guild
+- about: The user says the early TLTT plan's grimdark language reflected limited awareness, reports changing EEEE from a generic union to a machinists guild, and asks the model to test the cynicism-versus-resilience framework against American unions and Bernie Sanders.

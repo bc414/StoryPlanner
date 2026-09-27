@@ -1,0 +1,3 @@
+- claims:
+  - unfixed | Using her magical artillery gives Fizzlepop migraines from recoil; the use of it costs her physical pain | "gives her migraines from recoil" | none; the note is in the present tense with no date, event, phase or phrase such as "since" or "by now" fixing when this holds
+- beside: Backstory note 619 (world date 998) speaks of the same thing. Her bursts of magic hurt her, and she could not show it. It does not name migraines or recoil, and it places the pain in her early time with the Storm King.

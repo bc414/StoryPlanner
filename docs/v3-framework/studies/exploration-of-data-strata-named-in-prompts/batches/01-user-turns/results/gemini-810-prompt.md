@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a change to the Vanhoover sequence, dropping the one-hour deadline for immediate rifle teleportation and a tank advance, and backs it with their own reasoning about Applejack's intent for the rifles and the moral standing of the camp's Statthalters.

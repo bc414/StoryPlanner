@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the Elements/Tree were built with a binary algorithm treating red love as a threat; the user says Star Swirl designed the Elements to be wielded only by ponies with a healthy balance of pink and red love, which the model ignored or contradicted | But I established that Star Swirl designed the elements of harmony to only be able to be wielded by ponies who have a healthy balance | Flat, stated as previously established canon, with mild reproach
+  - fact of the world | The model explained Celestia's lockout as her being pure pink love and a dampener of red love; the user says she was locked out because she lost the ability to make genuine connections | And actually, Celestia was locked out not because she was pure pink, but because she LOST the ability to make genuine connections | Flat, with 'actually' and capitalised LOST for emphasis, stated as an outright substitution of the cause
+- about: The user pushes back on the model's account of why the Tree and Celestia were locked out, restating two points of their own established world design that the model's explanation contradicts.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to brainstorm a few options for what company Bright Mac and Pear Butter would run and what it would make, without pointing at any body of material to draw on.

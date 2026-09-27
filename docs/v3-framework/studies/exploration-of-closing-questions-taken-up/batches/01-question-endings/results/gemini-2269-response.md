@@ -1,0 +1,7 @@
+- questions:
+  - How are the seats in a Wonderbolt Spitfire physically designed, for example a slit in the seat back so a Pegasus can tuck her wings during high-G maneuvers? | ignored | none. The turn never mentions seat design or wing accommodation. | none
+  - Do old-guard Griffon purists, such as Henri Gourard, see flying a plane as dishonorable, a 'poseur' hiding in a metal shell? | ignored | none. The turn says nothing about Griffon attitudes or honor. | none
+- shape: The user sets aside both of the model's questions and pushes back on its claim that fast planes need enclosed cockpits. They float a tentative split: sealed cockpits for close air support planes, mostly open-air cockpits for fighters so Pegasi can feel the weather. They cite the Wonderbolts already flying at those speeds, then ask the model what would be needed to make that work. The turn redirects to a new engineering question and does not answer the model's.
+- settles:
+  - Tentative proposal, hedged with 'maybe': close air support planes have sealed cockpits, while fighters stay mildly open-air so Pegasi can feel the weather | Maybe the CAS planes are sealed cockpits but the fighters are still mildly open air
+  - Wonderbolts already fly at close to the speeds of fast monoplanes, which undercuts the claim that speed forces enclosure | Given the Wonderbolts already fly at near those speeds

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model lumped Clash in with games the user dropped as grind-without-depth where surface performance could stand in for understanding. The user says Clash Royale was a simplified RTS where tactics and mechanics knowledge beat grind, so it was a game where structural understanding won. | "fundamentally a simplified RTS" and "despite being several levels behind in the grind" | implicit, offered as a personal anecdote in passing with no stated disagreement, so the model's reading is only revised by what the anecdote shows
+- about: The user answers the model's analysis with a personal memory of beating grind-and-cheat-oriented classmates at Clash Royale through RTS skill, and proposes that this is where the Aquileian arrogance in the honesty vs poseurs theme comes from.

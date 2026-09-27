@@ -1,0 +1,5 @@
+- questions:
+  - Whether the user wants to explore how Aquileia or the Griffonian Republic react to the drop-off in cheap Changeling artillery exports to Zebrica after 1003 | ignored | Goes to a different point: what real-world weapon would suit the export subscription grift. It never says yes or no to the offered direction. | none
+  - Whether those powers notice the missing artillery supply on the global market or are too distracted by internal politics | ignored | Says nothing about foreign notice or reaction. It stays on the design of the exported gun. | none
+- shape: The user turn skips the model's offered next step and asks a new question of its own. It floats the Portuguese organ gun as a model for the exported artillery in the subscription grift, describing it as frightening, ammo-hungry and well suited to a poseur warlord. It builds on the model's export-trap idea and asks the model to confirm or refine it. It is a tentative suggestion put as a question, not a directive.
+- settles:

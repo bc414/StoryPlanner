@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a clarifying question about biplane construction, whether it means two pairs of wings, prompted by the model's wording about a second wing, without saying the model was wrong.

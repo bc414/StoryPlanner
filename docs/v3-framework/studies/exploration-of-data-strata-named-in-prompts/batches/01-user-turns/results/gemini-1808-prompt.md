@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user extends their worldbuilding of the 980 revolution and counterrevolution by asking whether nobles near Aquila favouring absolute monarchy while peripheral nobles went independent makes sense, and by stating their own view of the peasants' motives and Coltbert's role, without pointing the model at any body of source material.

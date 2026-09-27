@@ -1,0 +1,4 @@
+- questions:
+  - Does Applejack try to cut the capital cost by standardizing the chassis, so the same Crystal-Inverter is hot-swapped between the Manehattan tractors and the Wonderbolt Spitfires in an interchangeable supply chain? | ignored | The user turn drops the story thread and asks for a general history of fossil fuel/electric hybrid engines. It says nothing about Applejack or standardization. | none
+- shape: Redirects away from the story to a new real-world request: a full history of fossil fuel/electric hybrid engines. It is a bare instruction that takes up neither the offered story question nor the worldbuilding tie-in.
+- settles:

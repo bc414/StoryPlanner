@@ -1,0 +1,6 @@
+- sources:
+  - existing TLTT notes | look into them and draw on them when proposing origins for the pink love flora | Look into existing TLTT notes | referred-to
+  - FiM canon | look into it and draw on it when proposing origins for the pink love flora | FiM and EaW canon | referred-to
+  - EaW canon | look into it and draw on it when proposing origins for the pink love flora | FiM and EaW canon | referred-to
+- order:
+- about: The user asks the model to brainstorm several alternative explanations for where the pink love flora comes from and how it exists, including whether it resembles friendship plants, grounded in their existing notes and in FiM and EaW canon.

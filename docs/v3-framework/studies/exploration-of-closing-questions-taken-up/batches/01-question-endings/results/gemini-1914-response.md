@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to hear about the "curse" of the name Louis, i.e. how Louis XVI, XVII and XVIII met tragic or difficult ends? | ignored | Says nothing about it; moves to an unrelated request about the Griffonian Empire's rulers. | none
+- shape: Drops the French-kings thread and starts a new request: pastes a wiki link on the Griffonian Empire in the Equestria at War setting and asks for an overview of its rulers named Grover and how long each ruled. It does not respond to the model's offer.
+- settles:

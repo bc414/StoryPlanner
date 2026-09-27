@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis of their process as given and asks a follow-up: whether their approach is a new path built from first principles rather than a guide-following one, and whether it could be presented as a guide in paratext.

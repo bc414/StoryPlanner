@@ -1,0 +1,3 @@
+- questions:
+- shape: The user puts no answer to anything. They say they only loosely remember how their Gemini JSON reader was built. They ask the model to explain in more detail how to use the new classes with the existing ones. This is a request for clarification on the code the model gave.
+- settles:

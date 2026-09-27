@@ -1,0 +1,5 @@
+- questions:
+  - Do any prototype planes explode or crash in the secret Crystal Empire tests due to unstable early crystals, and if a Wonderbolt dies, how does Shining Armor cover it up so Celestia doesn't investigate? | ignored | The user turn moves to a different topic (bullet materials for piercing aircraft armor) and says nothing about test crashes or cover-ups. | none
+  - Does the jointly built Pridea-Star engine have a specific in-universe name or designation? | ignored | Nothing about naming the engine; the turn asks only about bullet composition and kinetic energy. | none
+- shape: Redirects to a new, technical real-world question about ammunition: whether armor-piercing bullets must be heavy steel and lead, and how modern bullets compare. It leaves the model's alliance analysis and both questions unaddressed.
+- settles:

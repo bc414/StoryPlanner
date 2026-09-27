@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a slightly reworded ultimatum, adds a consequence in which civilians read the borrowed Nightmare Moon line as a mandate against collaborators, and asks whether a one-hour deadline at Vanhoover would work better or worse than twelve hours.

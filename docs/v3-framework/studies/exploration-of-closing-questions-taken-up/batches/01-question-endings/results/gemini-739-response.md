@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want help setting up a Sync Log note in the notebook to track when the story files were last updated? | partly answered | Doesn't say yes or no to the Sync Log. Asks how to add a note in the NotebookLM app, which is the basic step the offer depends on. | How do I add a note in the app for notebook lm?
+- shape: A short procedural follow-up. It moves from syncing to a narrower how-to question about adding a note in NotebookLM. It leans toward the model's offer without accepting it, and gives no other direction.
+- settles:

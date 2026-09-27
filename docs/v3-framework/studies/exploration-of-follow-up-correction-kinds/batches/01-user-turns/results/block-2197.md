@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's account of the first week to ask a new, broader question about whether others use AI this way, what the June 2026 landscape looks like, and how much is slop versus work like theirs.

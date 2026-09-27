@@ -1,0 +1,7 @@
+- sources:
+  - The Passion chapter | fixed earlier point in the plan; the scene comes after it, so treat it as already having happened | "It's after passion." | referred-to
+  - The Encirclement chapter (the argument where Twilight says she trusts Applejack's judgement over Celestia's) | fixed later point in the plan; the scene must come before this argument | "before the argument in Encirclement" | referred-to
+  - The author's own account of what Twilight has done before this scene (going to Tall Tale against orders, using violent magic, refusing Fluttershy's letter) | treat as established backdrop that the scene must respond to | "the first time Twilight sees Celestia after going to Tall Tale against orders" | first-named
+  - The author's first instinct for the scene (Twilight wants to hug Celestia) | treat as a tentative suggestion to weigh, not settled | "my first instinct is that Twilight will want to give Celestia a hug" | first-named
+- order:
+- about: The author asks what Twilight and Celestia's first meeting in Combined Arms should be like, giving the plan's timeline anchors, the events leading up to it, and a tentative instinct that Twilight will want to hug Celestia.

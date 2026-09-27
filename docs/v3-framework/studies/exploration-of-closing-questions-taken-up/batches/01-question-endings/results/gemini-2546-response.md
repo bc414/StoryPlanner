@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want to explore implementing one of these numbering schemes in a C# object model, possibly with a design pattern for clean serialization?|ignored|The user doesn't take up the C# or serialization offer. They state the actual goal: labels for backstory codex entries that show chronology to them and to LLMs.|none
+- shape: Redirects from the general survey of tree and DAG labeling to the concrete use case. It gives the requirements a scheme must meet: chronology labels on backstory codex entries, readable at a glance by the user and by LLMs, supporting both parallel entries and strictly-later entries. It asks for no implementation and leaves the choice of scheme to the model.
+- settles:
+  - The labels are for backstory codex entries, and their purpose is to establish chronology.|I want a way to label my backstory codex entries to establish their chronology
+  - The labeling must serve two readers: the user's own at-a-glance organization, and LLMs' understanding of the chronology.|for my own organization at a glance and for LLMs to understand the chronology
+  - The chronology has both parallel backstory entries and entries that come strictly after others, so the labeling must express both.|There can be parallel backstory entries and also entries that come strictly after

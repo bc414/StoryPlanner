@@ -1,0 +1,4 @@
+- sources:
+  - the model's Crystal Pony proposal, the current conversation's last answer | treat as a provisional suggestion to be tested against the changeling comparison and possibly revised, not as settled | How does this relate to changelings | referred-to
+- order:
+- about: The user asks whether the proposed Crystal Pony magic should be reworked so that crystal ponies resemble changelings, with a light emotion sense and love-metabolism, and whether that would explain Flurry Heart's emotion sense.

@@ -1,0 +1,7 @@
+- sources:
+  - wings of dew | already-built invention in the story, used as the precedent for how a tool imitates a pony type's magic in generic form without the personal talent | I already have the wings of dew | referred-to
+  - unicorn horns as dynamic CPUs with a cutie mark discount | established model of how magic works, which the user extends by analogy to earth pony and pegasus magic | like unicorn horns are dynamic CPUs | referred-to
+  - star spade variants | one of two candidate forms for the new tool, offered as an option for the model to weigh in on and not settled | or star spade variants | referred-to
+  - unicorn spells / active spell matrices | the other candidate form, framed by comparison with unicorn spellcasting and not settled | active spell matrices (like unicorn spells) | referred-to
+- order:
+- about: The user asks whether the earth pony fertilizer tool should be an active spell matrix or a star spade variant, and reasons from the wings of dew and the unicorn dynamic-CPU model to a tentative unified account of earth pony and pegasus magic with cutie mark discounts.

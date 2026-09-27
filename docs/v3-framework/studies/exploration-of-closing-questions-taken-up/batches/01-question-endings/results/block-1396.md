@@ -1,0 +1,5 @@
+- questions:
+  - How Fluttershy, who has rehabilitated the Changeling conscripts Applejack ordered killed, processes Applejack's blood guilt on her return to Ponyville, and whether she offers Applejack the same Grace she gives the POWs or there is lasting friction between Lioness and Saint | no user turn | none | none
+  - How Applejack, as the Element of Honesty, reconciles the need for heroic military propaganda in the Cloudbury speeches with the gruesome reality of the trenches she survived | no user turn | none | none
+- shape: none
+- settles:

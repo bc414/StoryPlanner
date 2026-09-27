@@ -1,0 +1,4 @@
+- sources:
+  - Twilight's flashback to the night after the second battle of tall tale | the scene to be analyzed, with its work-related stress tied to her history of spiraling over imaginary goals and to her invention of the sleep spell | give an analysis of Twilight's flashback | referred-to
+- order:
+- about: The user asks the model to analyze a specific flashback scene of Twilight's, with emphasis on linking her work stress to her past pattern of spiraling over imaginary goals and to her invention of the sleep spell.

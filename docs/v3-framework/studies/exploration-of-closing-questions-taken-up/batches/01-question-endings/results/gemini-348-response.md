@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want to see how to model the dependency/causality self-referencing relationship in EF Core? | answered | Yes. They definitely want the dependency/causality self-reference on plot points. They limit it to a few one-off cross-thread links, because order within a thread already implies causality. | "I definitely want the dependency/casuality self referencing relationship"
+- shape: The user accepts the model's offer and narrows the feature's scope. They then ask a follow-up about whether it should be a self-referencing list. They restate the model's basic groupings (threads and chapters, with themes as view-only) and open a new topic: how to model a character-development view.
+- settles:
+  - Plot points get an explicit dependency/causality link. It is only for a few one-off cross-thread connections, since order within a thread already implies causality. | "this list would be for a few one off connections that are cross thread"
+  - The fundamental groupings of plot points are threads and chapters. Themes are view-only. | "The fundamental groupings of plot points are threads and chapters. I established themes as view only."
+  - The project will include a view of characters and their character development. Its modelling is still open. | "I also want a view of characters and their character development."

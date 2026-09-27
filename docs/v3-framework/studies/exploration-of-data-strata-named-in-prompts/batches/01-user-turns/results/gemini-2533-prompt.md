@@ -1,0 +1,4 @@
+- sources:
+  - my existing story plans | review them and synthesize the new Storm King idea with them, treating them as the base to reconcile with | Please review my existing story plans and synthesize | referred-to
+- order:
+- about: The user asks whether the Storm King's join-or-die horde doubles as unity against the Statthalters' slaving, and whether that is a secondary motive that makes the horde structurally stronger, then asks the model to review their existing story plans and synthesize.

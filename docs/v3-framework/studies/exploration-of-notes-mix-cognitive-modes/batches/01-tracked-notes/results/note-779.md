@@ -1,0 +1,9 @@
+- claims:
+  - History | The Vanguard/Border Army is led by Luna | The Vanguard/Border Army is led by Luna | yes
+  - History | Her troops carry Cadance's Friendship Shields as equipment | Her troops are equipped with Cadance's Friendship Shields | yes
+  - History | The troops are ordered to hold a static line and rely on mutual trust to project an impenetrable magical barrier | They are ordered to hold a static line, relying on mutual trust to project an impenetrable magical barrier | yes
+  - History | Luna's stated reason for the order is that giving up ground would start a despair loop as ponies' homes are taken | Luna's reasoning is that giving up ground would start a despair loop | yes
+  - Characterization | Luna accepts the common sentiment that changelings are desperate to have friends, which shapes her thinking | Luna buys into common sentiment about how desperate the changelings are to have friends | no
+  - History | Luna's doctrine is to hold the line: while ponies trust each other the shields hold and Equestria is saved, and the changelings will quickly fall apart, since they are taken to be atomized drones who distrust each other and only want friends | a 'hold the line' doctrine that says as long as the ponies trust each other, their shields will hold | yes
+- goals:
+- whole: The note reports, as in-universe history, how Luna's Vanguard/Border Army is equipped and ordered and the hold-the-line doctrine behind it, with one aside on Luna's belief about changelings.

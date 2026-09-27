@@ -1,0 +1,4 @@
+- sources:
+  - my actual story plans | re-read and treat as the authority for the analysis, in place of what the model produced without them | reviewing my actual story plans again | referred-to
+- order:
+- about: The user rejects the model's previous analysis as invented and tells it to redo the analysis after going back to their actual story plans.

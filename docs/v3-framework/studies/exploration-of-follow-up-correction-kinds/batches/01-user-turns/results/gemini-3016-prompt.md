@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether Antigravity, and not just Gemini Code Assist, could be used for the split-file context-fetching workflow the model just described.

@@ -1,0 +1,5 @@
+- sources:
+  - the non English community | additional place to search, extend the prior search into non-English-language material | look into the non English community | first-named
+  - message boards like space battles and the other equivalents | additional place to search, forum threads rather than blog posts | message boards like space battles and the other equivalents which could be non blog posts | first-named
+- order:
+- about: The user asks the model to extend its search for precedents of their methodology into non-English communities and message boards such as Space Battles, beyond the blog posts already covered.

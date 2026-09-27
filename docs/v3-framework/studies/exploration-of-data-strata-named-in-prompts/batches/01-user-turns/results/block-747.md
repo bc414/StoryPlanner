@@ -1,0 +1,4 @@
+- sources:
+  - this entire conversation, its conclusions and followup iterations of the thoughts | treat as the basis for the report; include the conclusions reached, but leave out any that later followup iteration contradicted | conclusions made throughout this entire conversation (conclusions that are not contradicted by followup iteration of the thoughts) | referred-to
+- order:
+- about: The user asks the model to write a detailed report of the surviving, uncontradicted conclusions from the whole conversation, to be saved as Project Knowledge in Claude Projects so new chats about The Lioness of Tall Tale story design are informed.

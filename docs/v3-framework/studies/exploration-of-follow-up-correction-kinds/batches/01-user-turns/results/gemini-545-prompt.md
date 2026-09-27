@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about what motivated individual soldiers during the Rape of Nanjing, extending the historical-parallel discussion without disputing anything in the model's answer.

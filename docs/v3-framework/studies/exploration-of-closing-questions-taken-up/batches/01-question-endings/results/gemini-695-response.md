@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn contains no message text, only an attached export of the plan (about 121,000 words). It doesn't respond to the Gascon comparison and doesn't ask or instruct anything in words. It reads as a bare file hand-off, and the model turn had put no question to answer.
+- settles:

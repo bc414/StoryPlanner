@@ -1,0 +1,6 @@
+- sources:
+  - Hearts of Iron IV mod Equestria at War (its developers' work, the city Tall Tale) | the published mod is the place where the name appears; the model is asked to say whether the devs invented the name | "the developers made a city named Tall Tale" | first-named
+  - My Little Pony Friendship is Magic canon | one possible origin of the name to check: whether the name comes from a place in the show | "come from some place in canon" | referred-to
+  - fanon | another possible origin of the name to check: whether it comes from fan-made material | "or fanon" | referred-to
+- order:
+- about: The user asks a factual question about where the name of the city Tall Tale in the Equestria at War mod comes from, whether devs invented it or took it from canon or fanon.

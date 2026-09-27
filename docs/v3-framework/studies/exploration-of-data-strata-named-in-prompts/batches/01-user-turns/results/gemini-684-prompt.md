@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up story-design question about whether Rockfeller should confess and beg for mercy, claiming blackmail, rather than act angry, defiant or plead not guilty, without pointing at any body of material.

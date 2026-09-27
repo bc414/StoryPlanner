@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the valve-and-nozzle breakthrough by adding a parallel thread in which Applejack and Comet Shine in the jungle learn of it through letters and see the funding answer, and sets up a friendship lesson about the hard realities of winning.

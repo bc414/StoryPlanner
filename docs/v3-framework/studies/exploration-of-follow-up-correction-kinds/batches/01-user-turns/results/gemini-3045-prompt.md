@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The psychology of the bored Equestrian buyers: the model cast them as thrill-seekers joining a Daring Do adventure, while the user says they would want to identify with the suave villain Caballeron and not the heroic Daring Do | would not want to be heroic daring do and instead want to be suave Dr. Caballeron | Softly, framed as an added thought ('I'm also thinking'), with a reason (bored of the nursery, glimpsed the outside world), but it plainly sets the opposite identification against the model's.
+- about: The user adds a thought about Equestrian clients' motives, which in effect replaces the model's Daring Do roleplay framing with the idea that they want to be the villain Caballeron.

@@ -1,0 +1,7 @@
+- questions:
+  - When Applejack and Twilight learn the Tycoons named their extortion hardware P.A.C.T. or T.R.U.S.T., does it change Applejack's understanding of Honesty, teaching her that oppressive systems hide behind the language of Harmony and Friendship? | ignored | Says nothing about Applejack, Twilight or Honesty; only restates what it wanted from the acronym. | none
+  - Does Gilded Trust use his own proprietary locks (e.g. Gilded Cores), or rely only on his mercenaries' intimidation, making his Ponies First nationalism a lower-tech version of Skyfall's tyranny? | ignored | Says nothing about Gilded Trust, his machines or his mercenaries. | none
+- shape: Corrects the model's misreading. The user did not want a new in-universe acronym to replace DRM; they wanted the acronym to stay DRM. They add a tentative suggestion to make it Dutch, presumably by giving DRM a Dutch expansion. The reply redirects the task and leaves the model's follow-up questions unanswered.
+- settles:
+  - The in-universe term for Skyfall's lock system is to be the letters DRM, not P.A.C.T., V.O.W., S.E.A.L. or T.R.U.S.T. | I want the acronym to be "DRM"
+  - A Dutch-language origin or expansion for DRM is floated as a possibility, not fixed. | But maybe make it Dutch?

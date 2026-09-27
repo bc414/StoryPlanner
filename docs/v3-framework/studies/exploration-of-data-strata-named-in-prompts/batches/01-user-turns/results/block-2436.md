@@ -1,0 +1,4 @@
+- sources:
+  - the story plan | model is told to review it before analysing; treated as the base material to check the new premise against | Please review the story plan and then give an analysis | referred-to
+- order:
+- about: The user proposes a revision in which monster hunting is still a living practice regulated by the Conclave, with flower wars preventing overhunting and Celestia forbidding Equestrian incursion for 1000 years, and asks the model to review the story plan and analyse it.

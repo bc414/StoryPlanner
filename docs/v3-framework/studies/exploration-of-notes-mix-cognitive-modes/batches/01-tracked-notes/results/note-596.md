@@ -1,0 +1,6 @@
+- claims:
+  - History | Before becoming King Sombra he was an ordinary unicorn named Penumbra Spark | King Sombra was once an ordinary unicorn named Penumbra Spark | yes
+  - History | He lived overshadowed by his unicorn peers, at the fringe of the elite unicorn crystallers, and was bullied | lived in the shadow of other unicorn peers, on the fringe of the elite unicorn crystallers ... and was bullied | yes
+  - History | His name Penumbra came from his position on the edge of the crystaller elite | (hence the name penumbra) | yes
+- goals:
+- whole: The note reports, as in-universe history, that King Sombra was once a bullied, marginal unicorn named Penumbra Spark on the fringe of the elite crystallers.

@@ -1,0 +1,3 @@
+- claims:
+  - throughout | Bright Mac and Pear Butter are Applejack's parents, a fact of kinship | "are Applejack's parents" | none
+- beside: Life Phases notes dated 988..990 and 990..1006 refer to Applejack's parents (often away on trips, later visiting home every month or two), so they presuppose the same parent relationship. None of them states it as this note does, and none gives it a time limit.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only an attached plan export (about 136,000 words, no typed text), so it supplies material without saying anything about the model's scene proposal.

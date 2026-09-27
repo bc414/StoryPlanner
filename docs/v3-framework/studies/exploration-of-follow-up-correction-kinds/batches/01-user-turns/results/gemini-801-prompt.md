@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said Chrysalis's magic is extracted, finite and non-renewable without conquest, while Equestria's is renewable. The user says changelings also produce renewable friendship and ambition like ponies. | To be clear, changelings also produce renewable friendship and ambition just like ponies | flat statement of the world's rule, framed as a clarification
+  - reading of the plan | The model located the difference between the two sides in resource type (renewable vs extracted), and so explained the steel-bullet choice as scarcity. The user places it in the sides' goals: conquest for Chrysalis, self-preservation then liberation for the ponies. | The problem is her goal is world conquest. The ponies' goal is self-preservation, and then liberation. | flat, brief restatement of the actual driver, with no comment on the model's analysis
+- about: The user briefly corrects the model's premise that changelings lack a renewable magic source, and gives the real asymmetry as the differing war aims of the two sides.

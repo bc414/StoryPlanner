@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a clarifying question about why the model's text spells the caste name "Jaeger" in one place and "Jäger" in another, without saying either is wrong.

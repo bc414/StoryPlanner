@@ -1,0 +1,5 @@
+- sources:
+  - the story plan on the drug deal details | check the drug deal against the new paradigm (donated love, refined by drug tribes) and judge whether it still holds or should be revised or enhanced | Please review the story plan on the drug deal details | referred-to
+  - the story plan for what the Coltbert crossbow function was for in the old paradigm | read to establish what the crossbow did in the old paradigm, then compare with the new one and decide whether it keeps a historical purpose or is cut; treated as out of date | Please review the story plan for what the Coltbert crossbow function was for | referred-to
+- order:
+- about: The user gives a revised premise for Applejack's drug deal (donated love refined by the drug tribes, with only the medicinal tribes still using ecology), calls the crossbow idea out of date, and asks the model to review the story plan on both and reanalyse the Tzinacatl system from 854 to 981, Coltbert's role, and the medicinal tribes' place relative to the Conclave.

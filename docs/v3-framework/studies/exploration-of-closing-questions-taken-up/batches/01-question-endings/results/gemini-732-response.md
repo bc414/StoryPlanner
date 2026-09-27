@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a comparison prompt for evaluating changes between the last two JSON exports? | ignored | Says nothing about the comparison prompt and asks a separate question about NotebookLM's response-length setting. | none
+- shape: Redirects to a new, unrelated tool question. It asks whether the \"longer\" response-length setting adds real analysis or only more wording. It does not take up the model's offer and does not react to the advice about old versions.
+- settles:

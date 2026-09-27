@@ -1,0 +1,5 @@
+- sources:
+  - my open questions to the author | collect all of them from earlier in the conversation and answer each approximately from the story | all my open questions to the author and what are the approximate answers | referred-to
+  - this story (its word volume and its ending) | the material to explain and draw the answers from, for why it is so long and how the ending makes sense | Why is there such a volume of words for this story? How is the ending comprehensible? | referred-to
+- order:
+- about: The user asks the model to explain why the story is so long and how its ending hangs together, and to gather all the open questions they raised for the author along with rough answers to each.

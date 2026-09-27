@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | Present-day authoritarianism is named as the real-world model: it has moved beyond brute force and works by weaponizing public apathy | Modern authoritarianism has evolved past simple brute force; it weaponizes apathy | yes
+- goals:
+- whole: The note documents the real-world inspiration for the in-universe order by naming modern authoritarianism's use of apathy in place of brute force.

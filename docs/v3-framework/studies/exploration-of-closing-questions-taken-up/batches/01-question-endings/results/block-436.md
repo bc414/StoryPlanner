@@ -1,0 +1,6 @@
+- questions:
+  - Does the Heer's radios being degraded for decades to protect the Queen's ego offend Trimmel more than the war crimes, and does it prove to the Meritocrats that they serve a narcissist rather than a state? | ignored | Nothing said to it; the turn moves to a separate question about Chrysalis's name. | none
+  - How does Comet Shine react to the vanity exception, and does he take it as proof that unfireable-CEO monopolies are self-destructive compared with Harmonic Capitalism? | ignored | Nothing said to it; the turn does not touch Comet Shine or the monopoly comparison. | none
+- shape: Drops the model's two Socratic questions and redirects to a new topic: how Chrysalis's name works. It states that she chose her Equestrian name for its metaphor (in-world) and that there are also out-of-world reasons, then asks the model to derive the equivalent German name and give her official German localization.
+- settles:
+  - Chrysalis chose her Equestrian name deliberately, for its metaphor, so the name has an in-world justification as well as out-of-world reasons | Chrysalis chose her Equestrian name for the metaphor (watsonian justification)

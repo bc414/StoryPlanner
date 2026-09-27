@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for an analysis of using "Foyer des Joueurs d'Avant-garde" as the name of the first and grandest parloir that Coltbert established in Manehattan, without pointing at any body of material for the model to draw on.

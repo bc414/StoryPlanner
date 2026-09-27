@@ -1,0 +1,5 @@
+- questions:
+  - If the 6th Element is Dignity (worth regardless of output), how does it clash with the Aquileian FJA ideology of Asset Specificity, and how do Fleur and Henri react when the Republic guarantees unconditional dignity to the Wallflowers and the unambitious? | no user turn | none | none
+  - How does Applejack, who has always wanted the simple labor of Sweet Apple Acres, process the irony that discovering the ultimate form of Honesty (Sovereignty/Dignity) and rising to the Presidency permanently disqualifies her from a simple life? | no user turn | none | none
+- shape: none
+- settles:

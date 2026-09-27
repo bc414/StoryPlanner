@@ -1,0 +1,7 @@
+- sources:
+  - resonances and vectors (the earlier mechanism in the model's previous turn) | replace it, do not build on it; offered alternative takes its place | "instead of having resonances and vectors" | referred-to
+  - prime number "unfactorable" properties (the earlier public-key scheme) | drop it as unnecessary, since sovereignty cannot be faked and so can be public | "we do not need prime number "unfactorable" properties" | referred-to
+  - the stamp containing the owner's sovereignty vector, with the user's own clarification of Anchor Mode and Intent Mode | treat as the user's proposed redesign and the intended definition of the two modes; offered as a suggestion and tested with a question about Verifier Mode | "How about, instead of" and "To clarify, Anchor Mode is" | first-named
+- order:
+  - the stamp-holds-sovereignty-vector design | over resonances and vectors, per "instead of having resonances and vectors"
+- about: The user proposes replacing the earlier resonance and public-key scheme with a simpler one in which each seal carries its owner's sovereignty vector, clarifies what Anchor and Intent Modes produce, and asks whether Verifier Mode can be universal.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to detail how Taft-Hartley targeted and purged the ideological and political leadership of the labor movement? | ignored | Doesn't take up the offer. It goes back to the causal point about whether the laws shape workers' rent-seeking. | none
+- shape: Skips the offered topic and asks a follow-up that restates the model's argument as a question, to check the direction of causation: the laws shape worker behavior, not worker culture shaping the laws. It works as a request for confirmation, and it stays in the same subject.
+- settles:

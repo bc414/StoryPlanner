@@ -1,0 +1,4 @@
+- claims:
+  - History | Archon Eros's motive for creating the Reich was to stop the nobility from looting Herzland any further, reported as an in-universe fact of cause | Archon Eros did not want the nobility to further loot Herzland | no
+- goals:
+- whole: The note states in a single factual sentence the in-universe motive behind the founding of Eros's Griffonian Reich: Eros wanted to stop noble looting of Herzland.

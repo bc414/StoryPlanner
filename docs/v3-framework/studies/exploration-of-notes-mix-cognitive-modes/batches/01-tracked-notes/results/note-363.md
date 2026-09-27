@@ -1,0 +1,7 @@
+- claims:
+  - NarrativeArchitecture | locates this beat late in the story order, near the end of Chrysalis's Greek Tragedy arc | For near the end of Chrysalis's Greek Tragedy | yes
+  - History | Chrysalis uplifted the drones, reported as a fact of what happened | She uplifted the drones. | no
+  - History | the drones she uplifted are now a force she cannot stop | The drones she uplifted are now the force she cannot stop | no
+  - History | the system she built to end the hive wars has become the engine of a war she cannot prevent | The system she built to end the hive wars has become the engine of a war | no
+- goals:
+- whole: The note marks a late point in Chrysalis's tragic arc and reports, as in-world fact, the reversal in which her uplift system becomes the engine of the war it was built to end, without saying how the reader should feel about the technology.

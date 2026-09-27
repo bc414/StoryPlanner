@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new task, asking the model to analyze drafts of paratext and relate them to the existing discussion, without commenting on or disputing the model's prior turn.

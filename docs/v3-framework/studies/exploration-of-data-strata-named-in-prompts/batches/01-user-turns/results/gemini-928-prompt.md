@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's proposed backstory by asking that the parents' company name tie to Sweet Apple Acres and by stating that the union's nationalization target is factories producing nothing for the war (hidden collaborators), not the parents' company.

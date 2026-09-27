@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | Celestia's in-universe expectations of Twilight are modeled on the real-world Hasbro marketing mandates, read from the out-of-universe (Doylist) side | Celestia's expectations for Twilight in-universe are the doyalist Hasbro marketing mandates | yes
+- goals:
+- whole: The note records a real-world analogue for Twilight's story, equating Celestia's in-universe expectations of her with Hasbro's marketing mandates seen from the Doylist side.

@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Shining Armor is shown saying aloud to Mudbeak that the new rail line is needed to conceal the crystal trade with Aquileia from Celestia | Shining Armor says they need the new rail line to hide the crystal trade to Aquileia from Celestia | yes
+- goals:
+- whole: The note stages a single on-page behavior of Shining Armor, his stated reason for the rail line, without saying what the reader is to take from it.

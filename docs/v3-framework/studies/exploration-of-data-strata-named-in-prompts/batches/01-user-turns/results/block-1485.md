@@ -1,0 +1,5 @@
+- sources:
+  - The author's own account of the story's facts (Minette's chronology and prequel, AJ's hidden wound and the ration can, Chrysalis's told backstory, the Rarity POV chapter) | treat as true and as a correction of the model's earlier handling of Minette; use it to test and reshape the PE/NE distinction | A correction on Minette | first-named
+  - V1 | treat as outdated: it worked until it stopped working, so the new framework must be built so the data never needs another massive refactor | V1 was good enough until it wasn't | referred-to
+- order:
+- about: The author corrects the model's account of Minette using their own knowledge of how the story delivers information, and offers several tentative ideas (FID versus being told, primary versus secondary evidence, reader effect) for what separates PE from NE, while insisting the framework be durable enough to avoid another refactor of the data.

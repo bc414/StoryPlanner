@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model declared it had enough material and was ready to write the report, but the v1 archive data had not actually been pulled into what it drew on | "You must also pull v1 archive data too before writing the report" | flat directive, stated as a requirement with no apology, reason or softening
+- about: The user halts the model before it writes the report and orders it to pull the v1 archive data as well, treating that source as missing from what it has gathered.

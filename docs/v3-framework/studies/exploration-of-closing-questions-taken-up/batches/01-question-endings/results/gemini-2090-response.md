@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look into the geographic density of Mother Process shops to find which types are under-served in the US market? | ignored | The user does not take up the offer. They ask instead whether other axes exist and whether other restaurant types fit on the two axes. | none
+- shape: Redirects. The user leaves the model's offer alone and asks to extend the framework: are there other orthogonal axes, and are there restaurant types beyond the four already mapped that would land somewhere on the two axes. It is a request for more analysis, not a decision.
+- settles:

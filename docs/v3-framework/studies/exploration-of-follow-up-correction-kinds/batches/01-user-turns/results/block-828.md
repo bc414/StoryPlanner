@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the ASOIAF comparison to ask a new question about which other fantasy epics of similar scale exist and what each proposes, without disputing anything in the model's analysis.

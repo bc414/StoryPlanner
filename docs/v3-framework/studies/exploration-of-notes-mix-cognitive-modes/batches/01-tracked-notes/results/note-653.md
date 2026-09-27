@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Henri and other rural Aquileians regard Herzlanders as poseurs whose claimed honor is hollow | Henri and other rural Aquileians view Herzlanders as poseurs | no
+  - Analogies | Herzlander claims to honor are modeled on the Japanese warrior code of Bushido | they claim honor (like Bushido) | yes
+  - Analogies | Herzlanders' actual conduct as looters is modeled on the English chevauchée raiding tactic | ultimately are looters (English chevauchee) | yes
+- goals:
+- whole: The note records Henri's and rural Aquileians' contempt for Herzlanders as dishonorable looters posing as honorable, and ties that contrast to two real-world models, Bushido and the English chevauchée.

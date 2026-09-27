@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether prompts in the regular Gemini web chat or app are also used for training under an AI Pro subscription, extending the model's privacy point about AI Studio without disputing anything it said.

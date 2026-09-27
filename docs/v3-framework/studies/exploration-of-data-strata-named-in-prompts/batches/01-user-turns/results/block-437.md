@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to propose a Herzlander (German) equivalent of Chrysalis's name, based on the in-story metaphor and the out-of-story reasons for the name, and to say what her official German localization is.

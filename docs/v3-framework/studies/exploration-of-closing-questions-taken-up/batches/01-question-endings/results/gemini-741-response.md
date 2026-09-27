@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an explanation of how to pin notes so they stay at the top of the Studio list? | ignored | Says nothing about pinning; it only reports what else appears on their Studio tab. | none
+- shape: The user reports what their own Studio tab shows, probably with a screenshot that isn't visible here. This implicitly checks the model's description of the interface against what they see. It leaves the offered pinning follow-up untouched. It is a short, fragmentary turn about the app screen, not the story.
+- settles:

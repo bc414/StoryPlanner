@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author questions whether Jaegers would hunt sea monsters given their knightly self-image, and proposes that Jaeger submarine crews drain the oceans and then leave for tank and pilot roles, so Chrysalis sends Statthalters to take over the subs as pirates and wolfpacks.

@@ -1,0 +1,5 @@
+- questions:
+  - Does long exposure to the Idol cause 'piezomagical burnout' in the Emperor? | ignored | Says nothing about burnout or the Emperor's exposure; moves to the term and the glow mechanism. | none
+  - Does Grover VI, being empathetic, fail to make the Idol glow as brightly as his greedy ancestors, risking exposure of the Archons' lie? | ignored | Doesn't take up Grover VI or the risk of exposure; the turn stays on the physics of the glow. | none
+- shape: Sidesteps the model's closing story question and redirects to the Idol's physics. It loosens the terminology ('piezomagical' is optional, and it wants to know if a better term exists). It asks what would make the crystal glow, floating electrons falling from higher orbitals. It is unsure whether oscillation fits, and tentatively proposes that the Idol shakes more as a crowd of knights directs ambition at it. It is a set of new questions for the model, not a decision.
+- settles:

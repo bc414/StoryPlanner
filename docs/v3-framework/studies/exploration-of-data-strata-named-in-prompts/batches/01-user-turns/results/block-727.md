@@ -1,0 +1,4 @@
+- sources:
+  - the two pasted constructors (PlotPointViewModel and SubjectViewModel) | treat as the author's current code and the basis for judging whether the divergence is acceptable or can be made cleaner | Here is my current divergence | first-named
+- order:
+- about: The user pastes two view model constructors that load their definitions in different ways, asks whether that divergence is acceptable or has a cleaner fix, and then raises design questions about a UI for adding tracks, properties and subject kinds, and about a plot point subject link definition.

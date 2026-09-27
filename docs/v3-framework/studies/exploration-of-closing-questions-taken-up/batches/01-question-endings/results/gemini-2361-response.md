@@ -1,0 +1,10 @@
+- questions:
+  - Does the user want the model to map out how Chrysalis reacts when her parasitic Love Harvesting empire is out-produced by Coltbert's Love Donator syndicates? | ignored | Nothing about Chrysalis or Love Donators. The user goes back to the early timeline and asks for an analysis of a different framing. | none
+- shape: Redirects. The user leaves the model's offered next step and the macroeconomic summary alone. They lay out a new historical framing, in which both Equestria and Griffonia are reset by the defeat of all monsters. Then they ask for an analysis of that framing and its consequences.
+- settles:
+  - Griffonia is in feudal stasis from 0 ALB to 705 ALB | the world is pretty much in a feudal stasis from 0 ALB to 705 ALB
+  - In 705 ALB a Herzlander warlord defeated Aquileia and Wingbardy. Grover III's canonical history calls him Grover I, so the date is fuzzy | some Herzlander warlord who he called Grover I defeated Aquileia and Wingbardy
+  - Herzland's victory was possible only because Herzland had defeated all its monsters | This was only possible because Herzland defeated all its monsters
+  - Modern griffon history begins with the 705 ALB conquest, and the steady state of monsters changes then | Then modern griffon history begins, and steady state of monsters changes
+  - 0 ALB, the epoch start, is when Luna and the thestrals defeated all the monsters in Equestria | 0 ALB is when Luna and the thestrals defeated all the monsters in Equestria
+  - Both eras are framed as parallel: an epoch begins when monsters are eliminated in a region | Similarly, 0 ALB is when Luna and the thestrals defeated all the monsters

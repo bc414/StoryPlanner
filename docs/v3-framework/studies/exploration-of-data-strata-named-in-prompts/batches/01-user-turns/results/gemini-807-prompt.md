@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's proposal to have Applejack invoke Luna or Nightmare Moon in her ultimatum, explaining that Luna's reveal was private and tragic and that Applejack would not want to offend Luna and Celestia, who are not the enemy.

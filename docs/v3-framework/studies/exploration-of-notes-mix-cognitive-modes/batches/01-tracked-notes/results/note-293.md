@@ -1,0 +1,4 @@
+- claims:
+  - History | Celestia compelled Rasti to adopt the Equestrian name "Midnight Oil" upon joining the night guard in 1000 ALB, a dated in-world event | Celestia made him use an Equestrian name "Midnight Oil" when joining the night guard in 1000 ALB | yes
+- goals:
+- whole: The note reports as a dated in-universe fact that Celestia had Rasti take the Equestrian name Midnight Oil when he joined the night guard in 1000 ALB.

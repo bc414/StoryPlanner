@@ -1,0 +1,4 @@
+- sources:
+  - my lore | the body of worldbuilding the model is to search for other spells or magic that work like a combined arms spell; treated as the basis for the answer | other spells or magic in my lore | referred-to
+- order:
+- about: The user asks the model to search their established lore for further spells or magic that work on the same combined-arms principle as the ones it just listed.

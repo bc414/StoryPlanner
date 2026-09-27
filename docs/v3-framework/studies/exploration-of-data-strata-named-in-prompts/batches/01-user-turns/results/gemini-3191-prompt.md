@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user follows up on the model's list of subreddits by asking whether bloggers, Substack writers or similar outlets have investigated this AI-for-structural-worldbuilding topic, without pointing the model at any body of material.

@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Rarity alone among the Mane 6 actively pursues status, beauty and success | the only Mane 6 member who actively seeks "Status," "Beauty," and "Success" | no
+  - Characterization | Celestia's worldview is cynical, and it judges ambition and display harshly | In Celestia's cynical worldview | no
+  - Canon | Rarity's established traits (wanting to excel, gem-hoarding, making clothes) are recast as villainy when seen through Celestia's lens | Rarity should be a villain—a pony who wants to be better than others, who hoards gems, who creates artificial coverings (clothes) | no
+- goals:
+- whole: The note sets Rarity apart as the one Mane 6 member who chases status and shows how Celestia's cynical view would cast her canonical traits as villainy, without stating any plan for how the reader experiences the system or any effect on the reader.

@@ -1,0 +1,7 @@
+- sources:
+  - hard canon of the show up to season 7 | treat as settled fact that the story follows; the story is set after it and the model's picture must fit it | this entire story take place after the hard canon of the show up to season 7 | referred-to
+  - Castle Sweet Castle (canon episode) | treat as having happened; use its details as fixed, including the castle's separate location and the tree roots used as a chandelier in the cutie map room | So Castle Sweet Castle did happen | referred-to
+  - Feeling Pinkie Keen (canon episode) | use as the depiction showing where the underground lab sits, further below the tree's roots | as depicted in Feeling Pinkie Keen | first-named
+  - the story's own timeline, coming after canon | the lab's reuse happens here, after the canon events; treat as the setting of the author's own events | in my story's timeline which comes after | referred-to
+- order:
+- about: The user corrects the model's assumption about the castle sitting on the old library ruins by fixing the story's place after canon through season 7 and pointing to two canon episodes for where the castle, roots and underground lab are.

@@ -1,0 +1,5 @@
+- sources:
+  - the v1 archive, chapter 17 Breakthrough (its Winter Wrap Up moment/callback) | material to be examined and compared against the new lore for overlap; not said to be true or overriding, just the thing to analyze | "sophisticated Winter Wrap Up moment/callback in the v1 archive in chapter 17 Breakthrough" | first-named
+  - the new lore | the body of lore to be compared against the v1 chapter 17 moment, to see whether they overlap or not | "analyze if there is any overlap with the new lore or not" | referred-to
+- order:
+- about: The user points the model to a Winter Wrap Up moment in chapter 17 Breakthrough of the v1 archive and asks it to analyze whether it overlaps with the new lore built in this session.

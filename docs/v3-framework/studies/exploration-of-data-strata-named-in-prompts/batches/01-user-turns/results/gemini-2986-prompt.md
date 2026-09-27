@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a comprehensive comparison of estimated parameter counts across ChatGPT, Gemini and Claude, covering the full history from 2022 to 2026, without pointing at any particular source of data.

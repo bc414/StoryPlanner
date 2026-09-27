@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reports that the Takeout "Gemini" selection returned only gems and scheduled actions rather than their chat history, without pointing the model at any body of material to use.

@@ -1,0 +1,6 @@
+- questions:
+  - When Henri Gourard sees the Griffonian hunting manuals on Fluttershy's shelf, how does that challenge his view of ponies as soft, uncultured herbivores? | ignored | Nothing on this. The turn rejects the whole response as out of character and points to the attached origin document. | none
+  - If Fluttershy understands predator-prey brutality so well, how does she justify Celestia's Stagnation of Harmony? Is the Nursery a foolish lie or a necessary sanctuary? | ignored | Nothing on this. The turn rejects the response's picture of Fluttershy as a whole and asks the model to read the user's own origin text. | none
+- shape: The user corrects the model, saying its whole Fluttershy origin misses her core character. They redirect it to an attached origin expansion they wrote themselves and ask the model to review that. Neither Socratic question is taken up.
+- settles:
+  - The model's proposed Fluttershy origin is rejected as out of character: the Griffonian-ethologist idea, the Stare as a learned dominance technique, and the shyness as a disguise. The user's own attached origin is the reference instead. | "does not align with the core of Fluttershy's character at all"

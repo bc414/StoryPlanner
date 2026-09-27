@@ -1,0 +1,5 @@
+- questions:
+  - How do the Pegasi pilots communicate over the deafening noise: only visual wing-waggling and hoof signals, or enchanted throat-mics and padded headsets in their flight caps? | ignored | The user turn does not mention pilot communication and moves to a different topic. | none
+  - Does flying the plane drain the Pegasus's stamina because they must sustain the passive slipstream magic, which would explain Rainbow Dash's exhaustion and mistakes and her Rainboom ejections? | ignored | The user turn says nothing about the stamina cost or the slipstream magic and asks about something else. | none
+- shape: Redirects to a new research request: it drops the model's open-cockpit and Pegasus-fairing proposals and asks for a real-world history of CAS dive bombing (technology evolution and tactical motivations). It takes up neither of the model's questions.
+- settles:

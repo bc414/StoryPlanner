@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Fleur states on the page that Celestia nurtured ambition out of her subjects to ensure safety, producing a "Walled Garden" | Fleur says Celestia "nurtured away ambition" to ensure safety, creating a "Walled Garden" | no
+- goals:
+- whole: The note records a character's in-story characterization of Celestia's system as a safety-driven \"Walled Garden\" that removed ambition, without saying how the reader's opinion is to be shaped or updated.

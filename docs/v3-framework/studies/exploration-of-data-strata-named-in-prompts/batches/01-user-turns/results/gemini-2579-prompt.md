@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes their own further plot developments for Chrysalis's Second Great Leap Forward and the 1008 invasion of Olenia, asks why she might have delayed the invasion, and asks the model for other measures she could take, without pointing the model at any body of material.

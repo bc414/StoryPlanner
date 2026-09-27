@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a walkthrough of downloading LM Studio and configuring its Vulkan backend to run a local coding assistant on the 6700 XT? | ignored | Doesn't accept or decline the walkthrough. It asks for a broader overview of local models on AMD hardware, and asks what Vulkan means here. | none
+- shape: Redirects from the offered setup walkthrough to a broader, more basic request. It asks for a survey of running local models on AMD hardware, plus a clarifying question about whether Vulkan is the non-DirectX graphics library. It picks up a term from the model's turn and doesn't commit to any next step.
+- settles:

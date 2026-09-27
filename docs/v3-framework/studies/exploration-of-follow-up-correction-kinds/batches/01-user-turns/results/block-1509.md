@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the plot-point tracks discussion to attach two earlier conversations and ask for a detailed report comparing the earlier principles with the current framework, with their own account of the journey as context, without disputing anything the model just said.

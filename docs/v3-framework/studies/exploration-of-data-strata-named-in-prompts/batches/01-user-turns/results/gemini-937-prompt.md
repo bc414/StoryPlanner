@@ -1,0 +1,4 @@
+- sources:
+  - canon episodes | treat as the established record of Applejack overworking herself, which the author reinterprets as coming from her belief that hard hoof labor is the only soulful and honest way | Applejack pushed herself in the canon episodes | referred-to
+- order:
+- about: The user restates and refines the story's central premise, that Applejack distrusts industry because it makes corruption easy, ties it to her unease with Star Energy and Comet Shine and to her canon overworking, and sets Fleur Bloom as the counterexample.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model turned Earth Pony magic, as the user defined it (phosphorus and potassium weathering), into a munitions and military-industrial capability (saltpeter, incendiaries, changelings capturing ponies for factories), which the user restates as their meaning without those extensions | I meant earth pony magic as in phosphorus and potassium weathering | flat restatement of the intended meaning, with no reason or apology, implying the model's reading drifted
+  - which material was drawn on | The model answered from the user's one-line premise and its own speculation, and even asked how the Town Hall reveal is shown, instead of reading the user's story plans, which the user now asks it to review | Please review my story plans | flat imperative, terse, with no irritation stated, redirecting the model to the plan documents
+- about: The user briefly restates what they meant by Earth Pony magic, implying the model's militarised elaboration missed it, and directs the model to base its answer on their actual story plans.

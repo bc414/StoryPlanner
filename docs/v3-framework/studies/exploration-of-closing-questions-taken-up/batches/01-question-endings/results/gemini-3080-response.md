@@ -1,0 +1,10 @@
+- questions:
+  - Does this trajectory (Appleloosa handled without Celestia, then AJ's clash with her in the Great War) set up Applejack's move from loyal farm pony to First President of the Equestrian Republic? | ignored | The user turn never says whether the trajectory works for Applejack or the presidency. It adds backstory about Rockfeller and Appleloosa instead. | none
+- shape: The user does not answer the closing question. They build on the model's Appleloosa framing by adding earlier history: Rockfeller was already pushing the buffalo off the land with Skyfall-supplied guns before Appleloosa. They also say how Celestia responded, how the town resolved things, and what Rockfeller did afterward. The turn is an addition of story-world facts, with a light correction of the model's picture that Celestia simply ignored the crisis.
+- settles:
+  - Before Appleloosa was founded, Rockfeller was already driving the buffalo off their prairie to build oil wells. | Rockfeller is already driving the buffalo off their prairie
+  - Rockfeller's ponies were armed with guns bought from Skyfall, which is Chrysalis's Krystalfels shell company. | guns bought from Skyfall (Chrysalis's Krystalfels shell company)
+  - Celestia's response to Rockfeller's ponies was to lecture them or ship them to New Mareland. She did not address the root cause of the conflict. | lectures Rockfeller's ponies or sends them to new Mareland but doesn't fix the route cause
+  - The buffalo and the Appleloosans share the land and integrate, as in canon. | share the land and integrate as shown in canon
+  - The town of Appleloosa legally claims the land to block further encroachment by Rockfeller. | town of Appleloosa legally claims the land
+  - Rockfeller keeps attempting bribes and illegal development for the next 11 years, until the war. | still attempts bribes or illegal development for the next 11 years until the war

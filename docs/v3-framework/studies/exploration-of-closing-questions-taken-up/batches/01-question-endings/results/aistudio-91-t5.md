@@ -1,0 +1,5 @@
+- questions:
+  - How do allies like Tally Mark or Henri react to Applejack arriving in a grunt uniform carrying a General-issue command radio, and does Henri recognize the hardware as a strategic asset that exposes her rank? | no user turn | none | none
+  - Do the terrified reservists in Tall Tale first look at the radio with false hope of an Alicorn rescue, and how does learning it only receives Trimmel's voice or Applejack's own voice break their reliance on the Princesses? | no user turn | none | none
+- shape: none
+- settles:

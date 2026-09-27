@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about how the debt trap on local Zebrican warlords would work in their setting, offering two possible mechanisms (addiction to foreign goods, or a pretext for seizing ports), without pointing at any body of material to draw on.

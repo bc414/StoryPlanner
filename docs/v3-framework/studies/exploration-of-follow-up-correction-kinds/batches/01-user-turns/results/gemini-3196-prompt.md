@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about where Claude's smallest tier, Haiku, sits within the Claude/Gemini tier comparison the model just laid out, without disputing anything in it.

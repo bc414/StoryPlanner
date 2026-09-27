@@ -1,0 +1,5 @@
+- sources:
+  - TLTT | the story plan is the frame the model is to interpret the show's events within, so the interpretation has to fit it | how should Twilight's Ascension and Magical Mystery Cure be interpreted in TLTT | referred-to
+  - Twilight's Ascension and Magical Mystery Cure | the published show's events are the material to be given an interpretation, with no stance on their reliability | Twilight's Ascension and Magical Mystery Cure | referred-to
+- order:
+- about: The user asks the model how the show's Twilight ascension and Magical Mystery Cure should be interpreted inside their story TLTT, following the prior discussion of destiny versus conviction.

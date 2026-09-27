@@ -1,0 +1,4 @@
+- questions:
+  - Does the materialist explanation of ambition as biological radiation plus resonant frequency fit the industrial tone intended for the Republic's understanding of magic? | ignored | The user does not say whether the model fits. They ask a new general physics question about other ways of emitting light besides electron drops. | none
+- shape: Redirects to a new, general science question, asking what other mechanisms of light emission exist besides luminescence. It gives no verdict on the proposed model and does not commit to it or reject it. It reads as further exploration of the glow mechanism.
+- settles:

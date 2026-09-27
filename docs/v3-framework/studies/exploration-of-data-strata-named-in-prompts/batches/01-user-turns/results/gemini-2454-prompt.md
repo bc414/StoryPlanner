@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states a revised plot point (Ain Trotgourait stays free under hippogriff stewardship and Chrysalis's submarine blockade cuts off the crystal shipments, forcing the city's magical systems off) and asks how this change affects Twilight's psychology and decisions.

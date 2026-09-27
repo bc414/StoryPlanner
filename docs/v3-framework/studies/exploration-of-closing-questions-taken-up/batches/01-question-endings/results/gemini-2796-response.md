@@ -1,0 +1,7 @@
+- questions:
+  - Does Dennis Discret start outfitting his pirate fleet with the Pridea artisans' enchanted, high-tech weaponry? | ignored | none; the user turn goes to Pridea's pony demographics and never mentions Dennis's fleet or its weapons | none
+  - Does the user want to explore how that technological leap changes naval warfare in the world? | ignored | none; the user turn opens a different topic and does not take up naval warfare | none
+- shape: Redirects to a new topic the user picked. It sets out a canon fact about Pridea's pony population, then floats a tentative backstory for it (retiring griffons bringing pony pets, coerced growth to about 30%, then 40% under the Coltbert Reforms). It puts that backstory to the model as a question. It also tells the model to review the story plans before answering. It leaves the model's own closing question unanswered.
+- settles:
+  - Pridea has the largest pony minority in Aquileia, canonically about 40% against about 20% elsewhere | Canonically, Pridea has the largest pony minority... 40% vs 20%
+  - Gerad Discret's equality principles rested only on loyalty, while the 2nd gen Royalists care about dignity and asset specificity | Gerad Discret only cared about loyalty, but the 2nd gen Royalists care about dignity and asset specificity

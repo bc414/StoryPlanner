@@ -1,0 +1,5 @@
+- questions:
+  - How does Skyfall interact with the Wingbardian Senate, and specifically does Skyfall see the Wingbardian Mafia as kindred spirits and invest in their airplane factories to get early aircraft for the arms trade? | no user turn | none | none
+  - Or do the Skyfall Tycoons see Wingbardy's stable, monopolistic airplane industry as a threat, leading to a shadowy capitalist cold war between Skyfall Mercenaries and Wingbardian Mafiosos? | no user turn | none | none
+- shape: none
+- settles:

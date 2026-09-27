@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for the etymology of Sterling and pound sterling, adds new backstory about Krista's adopted Equestrian parents from Acornage with idiom names (the father's idiom supplying her surname), and requests an analysis of Sterling plus other thematically fitting surname suggestions.

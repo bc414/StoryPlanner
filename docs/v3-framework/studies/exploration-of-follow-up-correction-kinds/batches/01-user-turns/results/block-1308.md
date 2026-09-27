@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user explains their own motives for the Scootaloo origin plan (avoiding the comically abusive-parents trope, using the same materialist and capitalist world-building as TLTT, and giving an in-world reason for the later-season Wonderbolts' behaviour), adding background without disputing anything the model said.

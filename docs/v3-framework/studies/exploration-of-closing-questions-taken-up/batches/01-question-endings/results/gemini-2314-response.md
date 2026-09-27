@@ -1,0 +1,4 @@
+- questions:
+  - Does the pilot suffer a psychological side effect from the crystallized-ambition crystals, such as hearing faint echoes of ancient nightmares through the plane when the engine is pushed to redline and the crystal heats up? | no user turn | none | none
+- shape: none
+- settles:

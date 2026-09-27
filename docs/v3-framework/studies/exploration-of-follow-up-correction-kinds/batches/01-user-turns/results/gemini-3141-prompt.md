@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's point about consumer apps pruning context to save compute and asks, as a comparative follow-up question, whether Claude's same-priced consumer plan avoids pruning and instead limits usage as a proxy for real cost.

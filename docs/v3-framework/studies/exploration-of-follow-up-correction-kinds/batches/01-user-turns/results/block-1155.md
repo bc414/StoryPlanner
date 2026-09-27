@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's remark that the thesis is "Friendship is Magic" upgraded, checks that reading, and asks a run of new questions about Faust's original intentions, fandom and later writers' contributions, tested versus stated propositions, and where the show demonstrates them, and asks for research before answering.

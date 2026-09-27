@@ -1,0 +1,4 @@
+- sources:
+  - the progression laid out in the model's previous turn (Jaeger accusation, Ponytown, Pagala, Stagnation) | accept as the base up to Rainbow comforting and protecting Fluttershy from Celestia after The Stare; keep that part but change it so Rainbow says nothing, and replace the final development with the Synovial fight at Aquileia | I agree with the progression up to | referred-to
+- order:
+- about: The author accepts most of the model's proposed arc for Rainbow Dash but adds nuance about how Fluttershy, Applejack and Rainbow differ in their views of changelings, and asks that Rainbow stay silent in the Stagnation scene and that her final development come from the Synovial fight in Aquileia.

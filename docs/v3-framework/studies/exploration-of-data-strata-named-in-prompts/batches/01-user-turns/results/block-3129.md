@@ -1,0 +1,8 @@
+- sources:
+  - MCP server | look through it for content not yet in the model's context from past server calls, rather than assuming | "Check the MCP server for content that is not yet in your context" | referred-to
+  - the model's GR-Hippogriffia note | treat as wrong on chronology and correct it | "Your GR-Hippogriffia note has the wrong chronology" | referred-to
+  - Griffonian Republic Mitbestimmung, 986 to 996 or so, coming out of martial law | treat as settled in the plan; it means GR economists learned of Hippogriffia before 1006 | "Griffonian Republic already had to have Mitbestimmung from 986 to 996" | referred-to
+  - Chrysalis's Comprador Economy from 988 ALB beneath the Stagnation of Harmony, not deported to New Mareland | treat as an established plan element and use it as the comparison case for Mount Aris | "Chrysalis creates the Comprador Economy starting in 988 ALB" | referred-to
+- order:
+  - Griffonian Republic Mitbestimmung timeline (986 to 996) | over the model's GR-Hippogriffia note, which is called wrong on chronology
+- about: The user turn pushes back on the model's reasoning about hippogriff weapons culture, asks whether a Comprador-style economy would arise on Mount Aris and how it would differ from Equestria's, corrects the GR-Hippogriffia chronology, and tells the model to check the MCP server instead of assuming.

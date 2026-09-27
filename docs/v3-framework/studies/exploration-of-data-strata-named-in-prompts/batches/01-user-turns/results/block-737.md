@@ -1,0 +1,4 @@
+- sources:
+  - layer order from the materialist historicism world building engine | use as the ordering rule for subjects in the plot point window's link selection: world truth first, then character psychology, then threads (goals), then theme propositions | order of subjects should follow the layer order | referred-to
+- order:
+- about: The user raises a left-to-right insight-flow concern about panel placement and hotkeys, proposes chapter-and-scene ordering for subject-window links and world-engine layer ordering for plot-point-window links, and asks whether this works.

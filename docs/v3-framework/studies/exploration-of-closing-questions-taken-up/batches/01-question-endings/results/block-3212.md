@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to restart the unresponsive local MCP server so the conversation and plan reads can continue? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to be shown how to set up a Share-to-Notebook shortcut on iPhone or Android to move data from the story app faster? | refused | The user says the premise is wrong. Their JSON story planner is only a WPF desktop program, so the phone-export workflow the offer rests on doesn't apply. They don't say yes or no to the shortcut itself. | "My json story planner is only a WPF program"
+- shape: Corrects the model's assumption that the planner runs on a phone, then drops the mobile-setup thread and moves to two new information requests: what \"LM\" in NotebookLM stands for, and a history of the product.
+- settles:

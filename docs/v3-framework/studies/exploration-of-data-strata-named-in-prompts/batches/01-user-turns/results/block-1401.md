@@ -1,0 +1,4 @@
+- sources:
+  - my notes | to be read as the input from which each track is built fresh, not cut up sentence by sentence and sorted into tracks | read my notes and build each track cleanly from scratch | referred-to
+- order:
+- about: The user proposes changing the task from splitting existing notes sentence by sentence into categories to reading their notes and writing each track cleanly from scratch.

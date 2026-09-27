@@ -1,0 +1,6 @@
+- questions:
+  - Kemerskai's Republic removes the market's extreme risk and reward; how does the state vent young males' testosterone-driven aggression, and does unspent drive turn into fight clubs, supremacist gangs or depression? | ignored | Says nothing on it; moves to a new topic, inheritance anxiety, property and lineage. | none
+  - During the Gilded Age, when Griffon magic was lost to the masses in Herzland, did women locked out of the rat race secretly keep the artisan forging techniques at home, or did Archon dogma persuade them it was heresy? | ignored | Says nothing on it; asks a different question about inheritance, property and lineage. | none
+- shape: Accepts the model's biology-based patriarchy synthesis as the basis for revising the user's own notes, then drops both Socratic questions and sets a new direction by asking what role inheritance anxiety, property and lineage play. It is praise plus a new prompt, and it settles nothing itself.
+- settles:
+  - The biology-rooted account of the patriarchy (risk-aversion and expendability, not physical strength) will be the basis for revising the user's notes on it | This is an excellent biology-rooted explanation for how I will evolve my notes

@@ -1,0 +1,4 @@
+- sources:
+  - the scene a few chapters later, after Applejack and Celestia agree on a nationwide referendum | the material to analyze; the model is to draw on what the story covers for this scene, where Fluttershy apologizes to Celestia for yelling and says she learned she can't always protect her animals | scene a few chapters later (after Applejack and Celestia agree on a nationwide referendum) | referred-to
+- order:
+- about: The user asks the model for a follow-up analysis, in the manner of the previous one, of a later scene where Fluttershy apologizes to Celestia and says she has learned she can't always protect her animals.

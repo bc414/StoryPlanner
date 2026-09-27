@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks follow-up questions to check whether the tool-embodiment neuroscience is real, to find other examples and whether it is uniquely human, and to learn how the Spitfire and Ju 87 Stuka controlled their wings, while tying the idea back to griffon magic, without pointing the model at any particular body of material.

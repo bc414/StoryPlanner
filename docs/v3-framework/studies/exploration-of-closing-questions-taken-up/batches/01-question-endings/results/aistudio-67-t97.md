@@ -1,0 +1,6 @@
+- questions:
+  - Does Spike, who sends Applejack's Friendship Letter, recognize the irony of the format and share a knowing look with her, marking his shift to an independent actor? | ignored | Nothing about Spike or the reaction to the letter's format. | none
+  - After Celestia confesses she acted out of fear of a second Nightmare Moon, does Applejack forgive her or offer her a dignified retirement as payment of the 930 ALB debt? | ignored | Applejack's response to the confession is not addressed. The turn skips ahead to Celestia's written reply. | none
+- shape: Redirects to a new, adjacent beat. The user skips both of the model's questions and asks about Celestia's return letter. They offer a short draft and ask whether it is enough to imply agreement or needs more. They also add their own leaning that the letter should omit the titles "General" and "Princess." The turn asks for feedback and does not answer anything the model asked.
+- settles:
+  - Celestia's return letter should avoid the titles "General" and "Princess" as a subtle implication. This is stated as what "seems to make sense," so it is a tentative leaning. | "not include 'General' or 'Princess' as a subtle implication"

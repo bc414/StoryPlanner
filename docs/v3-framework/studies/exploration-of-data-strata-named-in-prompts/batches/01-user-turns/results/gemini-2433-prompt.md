@@ -1,0 +1,5 @@
+- sources:
+  - the canon transcript of Boast Busters (mlp.fandom.com Transcripts/Boast_Busters link) | model is to review it and re-evaluate its previous analysis against it | Review the canon transcript and reevaluate | first-named
+  - the user's own reading of the episode (AJ, RD and Rarity mean, Twilight afraid of showing off) | correction the model should apply when reevaluating, replacing the earlier claim that the Mane 6 were bullies and Twilight flaunted privilege | AJ, RD and Rarity were being mean but Twilight was afraid of being a show off | first-named
+- order:
+- about: The user gives a link to the Boast Busters transcript and asks the model to re-check its earlier take against it, correcting it with their own reading that AJ, Rainbow Dash and Rarity were the mean ones while Twilight was afraid of showing off.

@@ -1,0 +1,10 @@
+- questions:
+  - Would you like to brainstorm how Skyfall merchants or cartels react to the influx of Equestrian smugglers fencing Changeling drugs? | ignored | Nothing on how they react; the turn instead rewrites who supplies the drugs and who processes them. | none
+  - Would you like to focus on which specific character is forced to manage the morally gray trade network? | ignored | No character is named or chosen to run the trade. | none
+- shape: Corrects the model's supply-chain premise with a revised mechanism (donated Red Love processed by the Tzinacatl cartels, paid to Kesseler's company), fixes the timeline wording, then gives an instruction to review the story plans and synthesize. It picks neither of the model's offered next steps.
+- settles:
+  - Captured Changeling drugs are not enough to pay for the valves. | Captured changeling drugs isn't enough
+  - During the war the Equestrians pay with donated Red Love, which the Tzinacatl drug cartels turn into drugs. | have to use donated red love and turn them into drugs via the Tzinacatl drug cartels
+  - The drugs are sold to Kesseler's company in Skyfall in exchange for the three-way valves. | sell those to Kesseler's company in Skyfall to get the three way valves
+  - Kesseler's company is the only maker of the precision valves, because of griffon artisanship and a vertically integrated supply chain and processes. This is an impossible moat. | only company that can make the precision valves
+  - The Equestrian side is not yet a Republic during the war. | (not a republic yet)

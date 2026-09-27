@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the historical parallels to propose and test their own story logic, asking whether Celestia's blindness to Chrysalis's shell-company economic attack makes sense and stating that Applejack's Harmonic Capitalism resolves the military and economic problems, without disputing anything the model said.

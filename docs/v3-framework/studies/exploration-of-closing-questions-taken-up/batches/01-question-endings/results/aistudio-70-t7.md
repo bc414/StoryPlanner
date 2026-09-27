@@ -1,0 +1,5 @@
+- questions:
+  - Who makes up the roughly 15% voting against EEEE! in the referendum: only unrepentant Skyfall-aligned industrialists, or also radical pacifists who see war bonds and munitions factories as betraying Equestrian innocence? | no user turn | none | none
+  - How does Applejack learning that Manehattan mobilized through a legal bottom-up labor mandate rather than a top-down draft shape her Chapter 25 debate with Kemerskai, and does the Accord of the Hearth serve as her proof that Equestria's democratic foundations are as robust as the Griffonian Republic's martial law? | no user turn | none | none
+- shape: none
+- settles:

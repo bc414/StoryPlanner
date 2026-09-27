@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new worldbuilding idea, that Gilded Trust minted his own Gilded Bits and paid workers in them, which kept him nationalist and clear of the Skyfall Marks other Las Pegasus tycoons took, and asks the model to consider it, with no fault found in the analysis before it.

@@ -1,0 +1,4 @@
+- sources:
+  - P&K | its ontology is not to be adopted; the story subverts it, so it should not be treated as the basis for TLTT's rules | I am subverting P&K, not adopting its ontology | referred-to
+- order:
+- about: The user briefly corrects the model's framing by reminding it that their story subverts P&K rather than adopting its ontology.

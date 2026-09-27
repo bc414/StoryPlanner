@@ -1,0 +1,7 @@
+- questions:
+  - What happens to the 30% of voters behind the Celestial Party once Celestia abdicates: do they fold into Applejack's coalition, or feel abandoned and get radicalized by reactionaries like Gilded Trust? | ignored | Nothing said about the Celestial Party, the electorate, or radicalization. | none
+  - How is Celestia paid for moving the sun under Harmonic Capitalism (a salary in War Bonds?), and does that mundane economics break the populace's remaining awe of her? | ignored | Nothing said about her pay, the economics of her labor, or public awe. | none
+- shape: Redirects. The user skips both questions and goes back to Celestia's character. They recall the scene where Fluttershy yells at her and she cries, and read it as showing she had only a top-down mandate and no organic pink love. They then put forward a new "what if": in the dreamscape she formed real peer friendships with the thestral parlor operators, who she helped with therapy and who quietly gave therapy back. They ask the model to work out the ramifications. This adds a complication to the model's account of her arc, and it is offered as a hypothesis, not a settled fact.
+- settles:
+  - The Fluttershy confrontation stands as story fact: Fluttershy tells Celestia she doesn't know what it's like to make a friend, and Celestia cries because it is true. | Celestia cries because it's true
+  - Within the story, Celestia could not wield the Elements because she had no organic pink love, only a top-down mandate. | She couldn't wield the elements because she had no organic pink love

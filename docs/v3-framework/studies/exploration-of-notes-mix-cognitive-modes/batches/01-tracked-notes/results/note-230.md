@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology, god-mode definition of what the system does) | The Senate's working rule: it lets Nobility, Bourgeoisie and Mafia divide the economic pie legally, so they don't fight civil wars over it | The Senate allowed the Nobility, Bourgeoisie and the Mafia to divide the economic pie legally rather than fighting civil wars | outside
+  - outside all ten (world-rule ontology, the system's purpose) | The purpose the arrangement serves is a united front of the three ruling powers against the working class | presenting a united front against the working class | outside
+- goals:
+- whole: The note defines, as a fact about how the world works, what the Wingbardy system does and what it is for: it keeps three elite powers from civil war by legalizing their split of the economy so they can stand together against the working class.

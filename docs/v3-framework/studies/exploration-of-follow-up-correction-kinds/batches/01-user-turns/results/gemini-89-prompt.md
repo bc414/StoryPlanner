@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates their request for an analysis of how the story's parts interconnect and supplies the full list of planning notes (themes, Celestia's motives, the Republic, the mane 6 focus, Luna's retreat, the title) without saying the previous analysis was wrong.

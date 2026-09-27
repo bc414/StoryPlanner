@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the AI to just summarize the historical tech-debt analysis in chat, or to generate a standalone Markdown document outlining the proposed new architecture for review | no user turn | none | none
+- shape: none
+- settles:

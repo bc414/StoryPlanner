@@ -1,0 +1,5 @@
+- claims:
+  - History | Under changeling occupation the artificially managed seasons collapse, and this destroys Equestria's rich agricultural yields | Under changeling occupation, the artificial seasons collapse, destroying the rich agricultural yields | no
+  - History | Those yields were the reason Equestria was a valuable target for invasion to begin with | that made Equestria a value target in the first place | no
+- goals:
+- whole: The note reports, as a fact of the story world, that the weather-managed seasons fail under changeling occupation and wipe out the harvests that made Equestria worth invading, without saying how the reader is to encounter it or what they should take from it.

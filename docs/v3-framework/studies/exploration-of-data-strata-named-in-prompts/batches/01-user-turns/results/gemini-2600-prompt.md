@@ -1,0 +1,4 @@
+- sources:
+  - the author's own worldbuilding distinction on reproduction (changelings with eggs and cocoons, griffons the lion mammal way, ponies mammals) | treat as settled fact of the setting and use it as the premise for answering the question | I also made a distinction that changelings reproduce with eggs and cocoons | first-named
+- order:
+- about: The user adds a reproductive-biology decision from their own setting (egg-laying changelings, mammalian griffons and ponies) and asks the model to work out whether female changelings would match males in predatory ambition.

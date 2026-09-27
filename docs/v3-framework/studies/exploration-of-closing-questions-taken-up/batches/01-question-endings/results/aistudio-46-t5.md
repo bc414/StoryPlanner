@@ -1,0 +1,6 @@
+- questions:
+  - When Celestia gives the therapy, does she use Alicorn magic to soothe minds artificially, or rely only on mundane psychological listening? | answered | Says she must use purely mundane, psychological listening, with no magic. | Celestia must use purely mundane, psychological listening
+  - How does Twilight react to the reveal that her rifle caused moral injury in Canterlot: a relapse of Killer Guilt, or does Fleur/Applejack help her defend the rifle? | ignored | Nothing said about Twilight's reaction or the guilt/defense options. | none
+- shape: A short, terse answer to the first question only, phrased as a firm rule for the character. It leaves the second question untouched and adds no elaboration.
+- settles:
+  - Celestia's therapy work is done by mundane psychological listening only, with no Alicorn magic used to soothe minds | Celestia must use purely mundane, psychological listening

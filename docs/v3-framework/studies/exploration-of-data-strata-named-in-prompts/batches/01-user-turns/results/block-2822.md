@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a change to the plot in which Ch'aska and Ahuizotl meet because both are trying to learn more Nahuatl nuances, in place of Ahuizotl asking Ch'aska to teach him Quechua, and it points to no body of material for the model to use or avoid.

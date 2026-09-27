@@ -1,0 +1,9 @@
+- questions:
+  - Does the user want to explore the dialogue or tactics the Lioness uses in a Degradation Ceremony at a bistro table when a Tycoon tries to cross the line or buy her submission? | ignored | Nothing on the bistro ceremony or dialogue. The turn corrects the spell's mechanics, adds a funding and security problem, and asks its own question. | none
+- shape: The user turn corrects the model's description of the Lioness spell (repulses, does not paralyze). It then adds new constraints: night profits go partly to police bribes, and the spell can't stop guns. It ends by asking the model its own open question, whether the security would be police or gangs, and gives Dutch Republic/VOC and predatory-American-capitalism reference points for the answer. It does not take up the model's offered next step.
+- settles:
+  - The Lioness spell repulses its targets and does not paralyze them. It works like Cadance and Shining Armor expelling the changelings in Canterlot Wedding. | "doesn't paralyze, it repulses"
+  - The Canterlot Wedding expulsion, originally a marketing-driven deus ex machina, becomes a driving force of Aquileian society in this story. | "driving force of Aquileian society"
+  - A share of the night-sales profits must go to bribing Skyfall police. | "partially need to go into Skyfall police bribes"
+  - The Lioness spell only works against thugs with clubs or bats. Gangs with guns need actual security. | "only works against thugs with clubs or bats"
+  - In Aquila, urban areas were demilitarized after the counterevolution, so armed street violence was never a problem there. | "demilitarized after the counterevolution"

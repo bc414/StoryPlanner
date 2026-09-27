@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing worldbuilding question by supplying the setup: Cadance and Shining Armor knowingly host the aces and refine the crystals without Celestia's knowledge, and the engines are co-developed by Star Energy Corporation and Aquileians at the University of Pridea.

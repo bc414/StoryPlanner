@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a new story detail to the plan, saying Bright Mac and Pear Butter house the refugee Apples and Pears at their company headquarters and mansion, where shared struggle unites them, without pointing at any body of material for the model to use.

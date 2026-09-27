@@ -1,0 +1,5 @@
+- sources:
+  - my lore on Coltbert's reforms | treat as authoritative; the model is to consult it and refine its analysis to match | Please refer to my lore on Coltbert's reforms | referred-to
+  - the author's own clarification about the practice (private passion, celebration of the other as an individual) | treat as a correction of the model's characterization, not orgies | it's generally not orgies, it's private passion | first-named
+- order:
+- about: The user corrects the model's characterization of the in-world sexual practice as orgies, describing it instead as private passion, and asks it to consult their Coltbert's reforms lore and refine the earlier analysis.

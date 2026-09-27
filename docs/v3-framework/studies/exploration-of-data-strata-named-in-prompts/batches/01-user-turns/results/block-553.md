@@ -1,0 +1,15 @@
+- sources:
+  - L+D notes | hold the evidence for the thematic proposition, not the universal proposition itself; each note should be tagged with which proposition it is evidence for (correction of the model's reading) | "the evidence for the proposition lives in L+D notes" | referred-to
+  - the other Claude conversation "character-reader perception gap" | read it and synthesize its R-layer suggestions, which the author earlier only partly took up and now may understand better | "Please read and synthesize" | first-named
+  - the other Claude conversation "organizing a multi-story fabula for selective syuzhet" | read it and synthesize its R-layer suggestions, which the author earlier only partly took up and now may understand better | "contained a lot of details about the R layer" | first-named
+  - this discussion | the basis of the author's new understanding of what those earlier R-layer suggestions embodied | "after this discussion I think I am in a position to understand" | referred-to
+  - S+R track | boundary with L+R and plot point tracks is unclear to the author; wants clear definitions of what belongs in it | "what should go in a S+R track" | referred-to
+  - L+R track | should detail what the author wants the reader to conclude, delivered by showing evidence rather than telling | "detailing what I want the reader to conclude without telling them" | referred-to
+  - plot point track | boundary unclear; receives from the L+R tracks what must be shown rather than told, but does not say how | "informs the plot point on what needs to be delivered through showing" | referred-to
+  - PE+S+W | asserts established truth | "PE+S+W asserts established truth" | referred-to
+  - PE+S+R | looks at the established truth and decides reveals; author unsure whether it also covers reader feeling or overlaps with PE+L+W; asks to be disambiguated | "PE+S+R looks at that truth and decides reveals" | referred-to
+  - PE+L+W | tentatively the track that decides what to reveal; author asks whether it duplicates PE+S+R | "maybe it's PE+L+W that decides what to reveal" | referred-to
+  - PE+L+R | the design of how the reader's opinion should change, a showing mode where evidence (past actions, the cutie mark story) is given and the conclusion is not stated | "PE+L+R is definitely about what I am designing for the reader's opinion to change" | referred-to
+  - NE+L+R | the design of reader conclusions by showing evidence (mercy producing a stronger war machine, the system leading Chrysalis to tyranny), not telling | "I am showing them evidence that being merciful/cooperative produced a stronger war machine" | referred-to
+- order:
+- about: The author corrects a misreading about where thematic evidence lives, asks the model to read and synthesize two earlier conversations about the reader layer, and asks for clear boundaries and disambiguation between the S+R, L+R and plot point tracks, arguing that the L+R tracks should hold what the reader is meant to conclude through showing.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Chrysalis is the only subject that gets an extensive separate section in the note organization or whether other subjects get one too.

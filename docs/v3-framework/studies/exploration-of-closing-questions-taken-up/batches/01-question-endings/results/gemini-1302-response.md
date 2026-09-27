@@ -1,0 +1,8 @@
+- questions:
+  - Whether to develop the confrontation as dialogue in the Passion chapter, or as its effect on the dynamic in the final battles | ignored | Neither option is taken up. The user brings in new story material and asks how it connects to the confrontation. | none
+- shape: Redirects. It skips the model's either/or offer and asks a new question. The question asks how the confrontation ties to two plot points the user supplies: Applejack finding out Aquileia isn't a monolith, and Gaudreau's post-Cloudbury pitch with Twilight's retort about conditioning. In doing so it adds new world and plot facts and widens the frame from the mentors' paternalism to Aquileian politics and the origin of the mentoring.
+- settles:
+  - On arriving in Pridea, Applejack realizes Aquileia is not a monolith | Aquileia is not a monolith
+  - The FJA, her friends' movement, and the Aquileian influences on Equestria (harmonic capitalism, Star Energy, parloirs and EEEE!, the Tzinacatl allies) represent only about 40% of Aquileia | only represents 40% of Aquileia
+  - After Cloudbury, Gaudreau tells the Equestrians to become a Republic and join the Republican Pact as a counterweight to the Griffonian Republic, and offers the Aquileian parliamentary model | you need to become a Republic and join the Republican Pact
+  - Twilight responds by asking whether they were conditioning Applejack to be president, as Celestia conditioned Twilight to be the princess of friendship | so you were conditioning Applejack to be president

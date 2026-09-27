@@ -1,0 +1,5 @@
+- questions:
+  - Should the next step be mapping the scene where Rainbow Dash and the Wonderbolts find they are outclassed by the Aquileian ace pilots? | ignored | none; the user turn goes to a different question about Celestia and Novo | none
+  - Or should the next step be looking at how Twilight's year in Ain Trotgourait ends? | ignored | none; the user turn does not pick between the two offered directions or mention Twilight's year | none
+- shape: Redirects to a new worldbuilding question that the model's summary raised but did not settle. The user asks whether Celestia would give asylum to Novo, given the idea that she keeps dangerous things out. It reads as a check on how the Celestia setup fits together, and it leaves both offered next steps alone.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for more history on the Dutch rise, whether the spice trade maps onto Red Love in the story, and whether the Dutch could have rivaled Britain at sea, which extends the Dutch analogy without disputing anything the model said.

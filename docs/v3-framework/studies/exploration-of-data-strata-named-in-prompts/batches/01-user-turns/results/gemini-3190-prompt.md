@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether any subreddits exist for using AI for structural analysis of fiction rather than for generating prose or role playing, and names no data source for the model to draw on.

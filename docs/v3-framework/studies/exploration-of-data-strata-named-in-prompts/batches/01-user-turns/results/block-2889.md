@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks an open design question about whether an axis in the framework may be marked not applicable when another axis makes it irrelevant, or whether every axis must always carry a value, and asks for the implications of each option.

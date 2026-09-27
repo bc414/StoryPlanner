@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a fresh factual question about whether King Sombra has canonical or fanon names and backstories in comics or fanfiction, which moves off the model's invented-name proposals without saying anything in them is wrong.

@@ -1,0 +1,8 @@
+- sources:
+  - pasted scenes 9.15 to 9.19 | raw, unrefined, undisciplined notes run together as one continuous narrative; their separation was done by feel and may not be optimal, so treat as provisional and unsorted material | "unrefined and unsorted/undisciplined notes" | first-named
+  - 9.20 | one continuous scene treated as an under-refined mega bucket covering many themes and beats; the author is unsure whether to split it into sub-points, so a provisional judgment | "mega bucket" | first-named
+  - 9.21 and 9.22 | probably well-scoped scenes with clear stakes and outcome, offered as likely representative examples but not confirmed | "probably representative of well-scoped scenes" | first-named
+  - my current themes | author's assertion from their own knowledge that all themes are complementary, which is the intended design | "all my current themes are complementary" | referred-to
+  - Chapters 10-12 (Twilight's magical engineering and Applejack's Tzinacatl diplomacy, seeded by the chapter 9 town hall) | author's own account of intent, stated from memory: two parallel threads that are two sides of the same thing, working toward the ideals of the Equestrian Republic | "two sides of the same time" | referred-to
+- order:
+- about: The user asks whether plot-point design should also cover reader questions and curiosity beyond theme evidence, favours separate entity types over in-place restructuring, says their themes are all complementary, describes the Chapters 10-12 intent, and offers pasted scenes 9.15-9.22 as examples of raw versus well-scoped material while asking the model to analyse and ask questions rather than assume.

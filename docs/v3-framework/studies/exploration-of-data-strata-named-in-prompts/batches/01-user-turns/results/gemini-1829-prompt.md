@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether it serves Gerad Discret's interests to ease the race tensions between ponies and griffons inside the Palais de Discret, and names no source for the model to draw on.

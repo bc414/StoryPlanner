@@ -1,0 +1,11 @@
+- questions:
+  - Does the user want an analysis of how Equestria, Celestia and the early Mane 6 react to the Changeling 'Civilizer' narrative in the 990s and early 1000s, given that Equestria benefits from safe shipping lanes? | refused | Doesn't say yes or no. Rejects the premise that the lanes are safe (Skyfall privateers and the protection racket keep them unsafe) and moves on to more lore. | "To clarify, the shipping lanes are never safe because of Skyfall privateers and the shipping protection racket"
+- shape: Corrects the model's premise about safe shipping lanes, then supplies several more world-lore points. These fix what the monster hunt actually yields and why the food shortage persists, and add a tentative idea for the Severyana revolution as a feed source. The user does not take up the model's offered next topic.
+- settles:
+  - Shipping lanes are never safe, because of Skyfall privateers and the shipping protection racket | "the shipping lanes are never safe"
+  - Aquileians hunt sea monsters for biomass to use as fertilizer and for magical remains to use in magical industry | "hunt sea monsters for biomass to be used as fertilizer"
+  - Chrysalis's subs kill monsters and harvest red love with love harvesters. Monsters have no pink love, so the hunt yields only combat and addictive drugs, not food | "monsters have no pink love"
+  - The changeling food supply is still limited to strapped tyrants' pink love and brutal Haber-Bosch fertilizer farming, which drives the Canterlot Wedding and Olenia | "leading to Canterlot wedding and Olenia"
+  - Tentative: Chrysalis's Severyana puppet-state plan was for the boyars to send revolutionaries to the changeling lands to be hooked to harvesters, which explains why the revolution was needed and so large. Open alternative: harvesters kept in Severyanan dungeons or gulags. Open risk: it embitters Trimmel's true-believer class, and Chrysalis might simply discard Trimmel | "perhaps chrysalis's intended puppet State in Severyana"
+  - Trimmel is not Hivemarshall until after the Canterlot Wedding | "he isn't Hivemarshall yet until after Canterlot Wedding"
+  - The 995 Winter Revolution falls close to the reunification of the hives, and Chrysalis sees she will run out of domestic warlords to drain for pink love | "995 Winter Revolution is close to when the hives are reunited"

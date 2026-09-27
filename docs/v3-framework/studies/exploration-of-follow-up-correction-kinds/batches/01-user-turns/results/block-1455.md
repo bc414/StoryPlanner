@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the bond-subject discussion and starts a new question about ways to lay out four binary axes in two dimensions, such as Punnett squares or game-theory grids, in order to classify the 16 possible track types.

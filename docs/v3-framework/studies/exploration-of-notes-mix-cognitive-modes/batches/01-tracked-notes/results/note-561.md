@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Rockfeller is quiet, cold and calculating by temperament, not boisterous | He isn't boisterous, he is quiet, cold and calculating | yes
+- goals:
+- whole: The note asserts as fact the character's basic temperament at the start of the story: quiet, cold and calculating rather than boisterous.

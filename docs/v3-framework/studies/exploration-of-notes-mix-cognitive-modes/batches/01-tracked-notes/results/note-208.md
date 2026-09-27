@@ -1,0 +1,7 @@
+- claims:
+  - Canon | Poses the puzzle of why changelings and crystal ponies share the same emotion-sense and friendship-as-calories biology, framed as a link to canon | Why do changelings and crystal ponies have the same emotion sense and friendship as calories biology? | yes
+  - Canon | Cites the canon episode Canterlot Wedding, in which changelings feed on Cadance's love | the changeling episode Canterlot Wedding was about changelings feeding on Cadance's love | yes
+  - Canon | Cites the canon episode The Crystal Empire, in which Cadance's love magic must hold the shield up until the faire and heart are recovered | the crystal pony episode The Crystal Empire is about Cadance's love magic needing to keep the shield up | yes
+  - Canon | Concludes from the two episodes that both species run on one mechanic, an out-of-universe (Doylist) explanation grounded in the source material | Doyalist explanation ... therefore it's the same mechanic | yes
+- goals:
+- whole: The note explains the shared emotion-feeding biology of changelings and crystal ponies by pointing to two canon episodes that both hinge on Cadance's love, treating them as one mechanic.

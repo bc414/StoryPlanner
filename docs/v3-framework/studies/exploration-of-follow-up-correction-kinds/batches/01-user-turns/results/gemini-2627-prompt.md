@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for further canon episode examples of Pinkie Pie's understanding of fear and recovery, extending the list without disputing anything in it.

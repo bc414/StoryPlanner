@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question by stating how the Luna Nova Rifle works, namely that it draws on the wielder's own magic as fallback ammo, which adds a design detail without disputing anything the model said.

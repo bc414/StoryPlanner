@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-rule ontology, god-mode statement of what is true) | dragons live about as long as ponies, griffons and the other peer species | dragons have lifespans in line with ponies and griffons and the other peer species | outside
+- goals:
+- whole: The note states a single invariant world rule, that dragon lifespans match those of the peer species, as a plain fact of the fictional universe with no reader effect attached.

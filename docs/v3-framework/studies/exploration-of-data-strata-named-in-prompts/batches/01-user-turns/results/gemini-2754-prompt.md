@@ -1,0 +1,4 @@
+- sources:
+  - the contents of the document (the raw .md file from the user's program) | the material the model reads from; the user asks whether it would work just as well as a Google Doc, and says its wikilinks and raw .md format are not needed by the user, only added as a help to the model | Would the contents of the document be just as effective when saved to a Google Doc? | referred-to
+- order:
+- about: The user says the wikilinks and raw .md format were only added to help the model and asks whether the same document contents would work just as well saved as a Google Doc.

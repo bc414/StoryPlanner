@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Plans the reader's starting impression of the character: a typical brash New Yorker, the "I'm walkin' here!" type | The reader should initially view him as a typical New Yorker "I'm walkin' here!" kind of vibe | yes
+- goals:
+  - Reader starts out seeing him as a stereotypical brash New Yorker | NarrativeArchitecture | The reader should initially view him as a typical New Yorker "I'm walkin' here!" kind of vibe
+- whole: The note sets the reader's opening trope-based impression of Flowing Current as a stereotypical brash New Yorker, as the starting point for later opinion updates.

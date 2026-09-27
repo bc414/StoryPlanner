@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up design question about whether, given their strict Stagnation of Harmony framing, most Season 1 external conflicts should come from foreign influences or the Everfree Forest, building on the model's synthesis without disputing it.

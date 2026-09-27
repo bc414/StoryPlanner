@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general follow-up question about whether "r" is the most complex letter with varied mechanics under one symbol or whether other letters are more complex, without pointing at any body of material.

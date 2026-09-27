@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user revises their own earlier premise about pink love as a methadone-like rehab, restating how the refined drugs map onto red and pink love, and proposes that recovery comes from friendship and careful Tzinacatl artisan refining, without addressing or faulting the model's account of desertion.

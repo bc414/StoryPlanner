@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model set the Coltbert reveal scene before the referendum and the coming war, but the user places it after the war and the white peace | This is after the war and the white peace | Flat, stated as a framing note at the start and not dwelt on
+  - fact of the world | The model cast Coltbert as a neutral bridge who explains why the industrialists changed. The user says his stance began as hostile: Discret's orders were to punish and snub Vérany, and he meant to carry them out as a noble who saw Vérany as soulless. Vérany's base then adapted, which the user describes as a redemption. | His original direction from Discret was to punish and snub | In passing, folded into praise of the idea and given as added backstory, with no signal that it fixes anything
+- about: The user approves the idea of Coltbert analysing Vérany, and in doing so resets the timeline to after the war and white peace and supplies Coltbert's actual hostile origin toward Vérany, which differs from the model's neutral-bridge framing.

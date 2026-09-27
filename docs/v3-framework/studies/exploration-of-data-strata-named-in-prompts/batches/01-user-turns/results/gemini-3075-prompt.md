@@ -1,0 +1,4 @@
+- sources:
+  - the show's canon on Granny Smith founding Ponyville, the Everfree Forest location, and zap apple jam needing Timberwolves nearby | treat as established fact and build the pre-Stagnation reading of Granny Smith on it | Granny Smith canonically founded Ponyville in her youth | first-named
+- order:
+- about: The user corrects the previous turn's timeline so the retreat into the nursery is gradual after 914, grounds Granny Smith's pre-Stagnation freedom in show canon, and asks the model to name the real-world allegory for a freer earlier era.

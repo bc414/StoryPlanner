@@ -1,0 +1,4 @@
+- sources:
+  - all the reviews I ever wrote on fanfiction.net | the material to analyze; the model is to read it and trace how it led to the present | Here is all the reviews I ever wrote on fanfiction.net | first-named
+- order:
+- about: The user supplies their complete set of fanfiction.net reviews and asks the model to analyze how that history led to where they are today.

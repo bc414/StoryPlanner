@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | asserts as a fact of the fictional universe that the Gilded Bits technology is the primary mechanism by which the Gilded Grift operates | They are the primary mechanism of the "Gilded Grift" | outside
+- goals:
+- whole: The note states in god-mode fashion that the Gilded Bits technology is the main mechanism of the Gilded Grift, a bare world-rule about function that fits none of the ten modes and asks nothing of the reader.

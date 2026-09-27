@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how much the analyzed Twilight-breaking-from-Celestia thread overlaps with the TwiJack thread, requesting a comparative analysis without disputing anything in the prior analysis.

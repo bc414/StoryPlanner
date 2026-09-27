@@ -1,0 +1,8 @@
+- claims:
+  - History | Henri and Fleur did not fall in love at first sight; their early relationship had no instant romance | There was no love at first sight | yes
+  - History | Henri had to work for Fleur, at her parents' request | Henri had to work for Fleur on her parents' request | yes
+  - History | Henri visited every pony family whose property he vandalized | He went to EVERY pony family that he vandalized | yes
+  - History | Most families had him do a simple job as repayment | Most of them had them do a simple job to repay them | yes
+  - History | Only Fleur's parents assigned a more complex task: helping their daughter at the University | Only Fleur's parents gave him a more complex one: go help our daughter at the University | yes
+- goals:
+- whole: The note reports, as in-universe history, how Henri and Fleur first came together: after vandalizing pony families' property he made amends, and only Fleur's parents sent him to help their daughter at the University.

@@ -1,0 +1,7 @@
+- questions:
+  - How does Twilight's psychological architecture take in, at the 1011 ALB siege reunion, that Spike spent five years building a militarized Aquileian-backed defense grid against Celestia's laws? | ignored | Nothing on Twilight or the reunion; the turn goes to what the handheld devices are called. | none
+  - How does Sunburst handle the paranoia of working alongside Thorax, a Changeling Jaeger, on the Charitostatic relays? | ignored | Nothing on Sunburst, Thorax or the relays' development; the turn stays on naming the handheld shields. | none
+- shape: Sets aside both Socratic questions and takes up a side detail of the model's text, the Friendship Shields. It refines that detail with an in-world naming layer: the Equestrian Army's euphemism versus the Aquileians' literal French name. It then hands the model a new question, asking for the French idiom for this sense of "heart".
+- settles:
+  - The Equestrian Army initially called the tactical or personal crystal heart replicas 'Friendship Shields', to keep the harmony aesthetic and to avoid stripping the mystique from the original Crystal Heart. This is hedged with 'I believe'. | Equestrian Army initially called them 'Friendship Shields' to keep up the harmony aesthetic
+  - The Aquileians call the handheld version literally 'Crystal Heart' in French, because it is a crystal that takes the user's 'heart' (capacity for friendship, trust and solidarity) and projects a shield. | Aquileians should literally call the handheld version 'Crystal Heart' in French

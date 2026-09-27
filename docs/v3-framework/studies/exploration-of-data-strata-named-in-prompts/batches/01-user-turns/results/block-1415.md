@@ -1,0 +1,9 @@
+- sources:
+  - GetMarkdownContext.txt | use to understand where the data comes from in the old model and how it was mapped into the new model's unset tracks | Use the GetMarkdownContext.txt to understand where the data comes from | first-named
+  - ModelClasses.txt (old EF Core model classes with navigation properties) | use as the description of the old architecture and its pain points; explicitly not the new design, so do not conflate the two | not to be confused with the new design | first-named
+  - ExamplePart1-Subjects.md | analyze as a sample of what the subject data and its text look like, to work out the claims that must go into tracks | what some of the data looks like in the markdown | first-named
+  - ExamplePart2-PlotPoints.md | analyze as a sample of what the plot point data and its text look like, to work out the claims that must go into tracks | what some of the data looks like in the markdown | first-named
+  - the full 300,000 words of notes | not supplied; the two example files stand in for it, and the user does not want it loaded because that would lead to RAG with worse results | not putting the full 300,000 words | referred-to
+  - the migrated data in the new model (notes table, subjects with subject type unassigned) | treat the owner id and owner type links to Subjects, Plot Points, Plot Point Subject Links and Chapters as correct; treat subject types and tracks as not yet set and to be validated manually later | data association integrity is there | referred-to
+- order:
+- about: The user supplies the old model classes, the markdown export method and two sample data files, and asks the model to analyze the nature of the migrated notes and the claims in them so they can later be sorted into tracks, as part of a slow story-design process.

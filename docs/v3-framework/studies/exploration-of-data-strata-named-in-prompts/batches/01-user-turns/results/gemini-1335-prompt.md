@@ -1,0 +1,6 @@
+- sources:
+  - the idea that Discret started them out as Chasseurs (the model's suggestion in this conversation) | welcomed and adopted as part of the plan, with the user's own extension that Chrysalis copied it | I really like the idea that Discret started them out as Chasseurs | referred-to
+  - My lore (the author's own account of the changelings, their native word for the protector role, and Chrysalis's choice of Jaeger) | treat as the established lore and build on it; the user is supplying it as fact | My lore goes: the changelings were once harmonic | first-named
+  - the veterans clubs' switch from chasseur to voltigeur (the user's own proposal) | offered as the user's current thinking, softly framed as a proposal rather than settled | I think the veterans clubs then swapped chasseur for voltigeur | first-named
+- order:
+- about: The user accepts the model's Chasseur idea, then supplies their own lore about the changelings and Chrysalis's Jaegers and proposes that the veterans clubs later switched from chasseur to voltigeur.

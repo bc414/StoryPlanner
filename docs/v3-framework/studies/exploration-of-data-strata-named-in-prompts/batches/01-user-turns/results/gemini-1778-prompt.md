@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a simpler alternative name for the spell, "the lionesses's spell", in place of the elaborate names the model just offered, without pointing at any body of material.

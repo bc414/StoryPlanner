@@ -1,0 +1,5 @@
+- sources:
+  - my established dynamic of bartering for better, more specific equipment | treat as settled canon that stays in place alongside the new master-chef idea | In addition to my established dynamic of bartering | referred-to
+  - a vague statement about flooding the city with food to lower the cost of living | treat as an earlier loose statement to be refined: it holds for wine and cheese, but calorie supply for factory workers should come from master chefs | I previously mentioned a vague statement about flooding the city with food | referred-to
+- order:
+- about: The user asks the model to confirm that master chefs selling cheap gourmet food from scraps should start the FJA/PNdA reconciliation and supply the workers' calories, with wine and cheese as luxuries, and that this sits on top of the bartering dynamic and refines an earlier vague statement.

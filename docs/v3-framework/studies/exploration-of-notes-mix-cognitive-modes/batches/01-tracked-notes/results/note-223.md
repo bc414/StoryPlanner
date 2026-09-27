@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten (world-rule ontology) | The system's function is to prevent individuals from trusting one another | Totalitarian states prevent individuals from trusting each other | outside
+  - outside all ten (world-rule ontology) | The system is defined as the inverse of harmony | It is the opposite of harmony | outside
+  - outside all ten (world-rule ontology) | The mechanism is exhaustion: citizens are kept too drained to connect and are reduced to interchangeable atoms | keep their citizens too exhausted to connect with each other, turning them into interchangeable atoms | outside
+  - outside all ten (world-rule ontology) | The system's legitimacy comes from a lie that the rest of the world is equally cruel, not from selling the state as a utopia | They don't convince their people that the state is a utopia, they lie saying the rest of the world is just as cruel | outside
+- goals:
+- whole: The note sets out, as rules of the universe, how the totalitarian system works: it isolates people by preventing trust and exhausting them, and it holds them by lying that the world outside is just as cruel.

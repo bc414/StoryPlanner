@@ -1,0 +1,4 @@
+- sources:
+  - the episode Sonic Rainboom | canon material to adapt: the wings of dew spell from it is the basis for a spell matrix Twilight would build | turning the wings of dew spell from the episode Sonic Rainboom into a spell matrix | referred-to
+- order:
+- about: The user is working out how fighter and close-air-support roles would split among Wonderbolt pilots, and asks whether a spell matrix adapted from the show's wings of dew spell is needed for downed non-pegasus crews or whether a parachute would do.

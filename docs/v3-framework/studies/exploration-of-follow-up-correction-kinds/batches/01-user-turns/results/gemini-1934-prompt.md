@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Markdown-versus-JSON comparison to a new question, asking what tools come after or alongside NotebookLM for narrative and literary analysis of a story plan.

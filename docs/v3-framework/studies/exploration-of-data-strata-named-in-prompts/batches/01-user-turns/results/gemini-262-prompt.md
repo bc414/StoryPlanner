@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds new plot points to the story (Celestia and Luna's horror at Twilight's excess-magic victory, the ban on Twilight at the front, her later reliance on crystal enhancers) and asks the model to confirm that the selfishness and laziness in the two princesses has been written out, without pointing at any body of material to draw on.

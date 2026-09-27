@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The parents' reason for building the factory: the model cast it as survival and national security feeding the army, and set it against greed, but the plan has them motivated by escaping the Apple and Pear feud, deliberately mashing fruit into uniform mush, with profits funding Manehattan institutions and the wartime role only a later pivot | Also I don't think they explicitly made their factory for national security, although they pivoted | Stated flatly as a mild disagreement, with the actual motive and the funding detail supplied as the reason, and partly conceding the model's point that they pivoted when war was on the horizon
+- about: The user raises a worry that the model's parents-as-adults framing weakens Celestia's necessity and story tension, then corrects the model's account of why the parents built the factory by supplying the real motive of escaping the family feud.

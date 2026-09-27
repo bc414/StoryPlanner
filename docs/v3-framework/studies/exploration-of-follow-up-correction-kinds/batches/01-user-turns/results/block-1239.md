@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the platform-landscape discussion and asks a fresh technical question comparing a Blazor/EF Core/PostgreSQL stack with a JavaScript/MongoDB stack, without correcting anything in the prior turn.

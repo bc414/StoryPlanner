@@ -1,0 +1,5 @@
+- sources:
+  - Into Darkness | the fanfic under discussion; the user restates the model's reading of it as a question to confirm, so it is held as a provisional characterization rather than settled | So Into Darkness is more of the traditional western romance model | referred-to
+  - ASOIAF | published series the model is asked to judge from its own knowledge, on whether it follows the hero-and-reward pattern; no answer is assumed | Is ASOIAF like that or not? | referred-to
+- order:
+- about: The user checks their understanding of the model's analysis by asking whether Into Darkness follows the traditional hero-and-reward romance model, then asks whether ASOIAF follows that same model.

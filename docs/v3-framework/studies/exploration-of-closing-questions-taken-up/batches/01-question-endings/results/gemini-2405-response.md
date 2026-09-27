@@ -1,0 +1,9 @@
+- questions:
+  - Does splitting the ideologies (Birth Hierarchy for the old nobility, Perfection Trap for the Skyfall capitalists) resolve the thematic tension for the user? | ignored | The user does not say whether the split works. They go on to give a different account of where griffons came from. | none
+- shape: Redirects with a worldbuilding correction. The user gives their own origin history for the griffons, which replaces the model's assumption that griffons are native to Herzland. It does not evaluate the model's proposal.
+- settles:
+  - Griffons did not originate in Herzland. They came from the mountains of Griffonstone, and Herzland is not their biological home. | "did not grow up in Herzland"; "alien to Herzland"
+  - Griffons have wings because their mountain homeland of Griffonstone is full of gliding. | "griffons have wings is because their home is mountainous Griffonstone full of gliding"
+  - Griffons developed their iron-working magic in Griffonstone. | "developed their iron working magic"
+  - Griffons first conquered the magical beasts of Herzland, to eat them. | "conquered all the magical beasts of Herzland first (to eat)"
+  - Herzland became the seat of the first empire because it is a flat plain. It was the easiest land to conquer and form a nation state in, and from there the empire could conquer other feudal domains. | "easiest to conquer and form a nation state"; "first empire capable of forming a State"

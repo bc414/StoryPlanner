@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a new worldbuilding question about whether chasseurs would have sex or just cuddle after combat, or after long treks without combat, without pointing at any body of material.

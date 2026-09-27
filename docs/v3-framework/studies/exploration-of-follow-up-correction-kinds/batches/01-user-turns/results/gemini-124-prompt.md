@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's case for Attrition treated the chapter as a slow grinding-down of Trimmel's resources and will, but the chapter is a swift one-day engagement, so the word doesn't match its pace | "this chapter won't feel like a battle of attrition. It will be a swift engagement over in a day" | Stated flatly as a reason for setting the word aside, after granting it partial credit (AJ's spearhead cutting supply)
+- about: The user picks Initiative as the chapter word, explaining that it carries the idea that Trimmel and Applejack are the only two human-player generals, and turns down Attrition because the chapter is a one-day fight.

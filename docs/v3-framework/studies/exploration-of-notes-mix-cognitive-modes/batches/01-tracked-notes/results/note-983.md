@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Gilded Trust's genius is nationalist salesmanship: he markets the dystopian company town as patriotic salvation | What makes Gilded Trust a "nationalist genius" is how he markets this dystopian company town as patriotic salvation | no
+  - History | Gilded Trust publicly rails against the Skyfall Trade Federation for trapping Equestrians in foreign fiat debt, and in a speech calls Skyfall Marks griffon paper and a colonizing trap, and the Gilded Bit Equestrian copper mined, minted and verified locally | he rails against the Skyfall Trade Federation ... "That is griffon paper!" | no
+  - History | He has successfully rebranded Company Scrip as Economic Independence | He has successfully rebranded "Company Scrip" as "Economic Independence." | no
+  - History | Las Pegasus tycoons and workers willingly lock themselves into his proprietary ecosystem because it makes them feel rugged, independent and safe from foreigners | willingly lock themselves into his proprietary ecosystem because it makes them feel rugged, independent, and safe | no
+- goals:
+- whole: The note explains, as a set of asserted facts about the character and his city, how Gilded Trust sells company scrip as patriotic economic independence, without planning any reader experience or stating a reader goal.

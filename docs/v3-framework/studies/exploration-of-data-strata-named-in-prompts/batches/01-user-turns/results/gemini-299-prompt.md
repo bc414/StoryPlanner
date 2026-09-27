@@ -1,0 +1,4 @@
+- sources:
+  - the takeaway (the model's preceding point about the Reich merging into the Republic) | approved and welcomed as something to keep; treated as the direction for how the merged GR is understood | I like the takeaway that once the Reich is integrated into the Republic | referred-to
+- order:
+- about: The user endorses the model's takeaway about the merged Reich and Republic and adds their own gloss that the resulting GR keeps the idealized Reich's ethos, Grover I and II's image and Herzlander culture as its "Honor" element.

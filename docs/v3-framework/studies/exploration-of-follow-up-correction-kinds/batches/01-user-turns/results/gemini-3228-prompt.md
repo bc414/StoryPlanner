@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new hypothesis, that the move to 3D and stronger consumer hardware widened the audience and led to dumbed-down RTS stories in parallel with FPS moving to consoles, and then asks about Black Ops, without disputing anything the model said.

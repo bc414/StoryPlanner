@@ -1,0 +1,5 @@
+- sources:
+  - Equestria at War wiki page on the Griffonian Empire (the link) | the material the model is to read and analyze, to see how the mod's developers wrote their lore | Https://equestriaatwar.wiki.gg/wiki/Griffonian_Empire please analyze | first-named
+  - canon FiM lore | the show's established lore, used as the baseline against which the developers' adoption of it is examined | how the developers of Equestria at War adopted the canon FiM lore | referred-to
+- order:
+- about: The user gives a link to the Equestria at War wiki page on the Griffonian Empire and asks the model to analyze how the mod's developers adapted canon My Little Pony: Friendship is Magic lore into their own setting.

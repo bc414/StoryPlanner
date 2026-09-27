@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's summary by proposing a new element: independent Skyfall investors run ordinary extractive factories alongside Chrysalis's scheme. Those factories draw tribal workers, get destroyed in the backlash, and lead the workers to unionize in Manehattan. The user asks how to get the factory's unifying effect.

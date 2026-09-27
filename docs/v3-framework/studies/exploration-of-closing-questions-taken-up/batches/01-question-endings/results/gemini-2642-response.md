@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want to analyze how the shift from the face-to-face hug to the Chasseur spoon plays out in the stalled initiation scene in Chapter 13.11? | ignored | Says nothing about Chapter 13.11. It moves back to the night after the second battle of Tall Tale in chapter 4 and describes a different pose. | none
+- shape: Redirects to a different scene. The user skips the offered Chapter 13.11 follow-up and describes their own chapter 4 post-battle cuddling pose. They then ask the model to analyze what it accomplishes and to compare it with the other poses.
+- settles:
+  - In chapter 4, the night after the second battle of Tall Tale, Applejack lies on her back and Twilight lies face down on top of her. Twilight's head rests on Applejack's chest floof, tucked under her chin. | Applejack lying on her back and Twilight snuggled on top, face down
+  - In that pose Applejack's forehooves rest on Twilight's back, Twilight's forehooves wrap around the back of Applejack's neck, and a blanket covers them. | Applejack's forehooves resting on twilight's back with a blanket on top; Twilight's forehooves would wrap around applejack's back neck

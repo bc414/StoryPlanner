@@ -1,0 +1,9 @@
+- sources:
+  - Read it an Weep (the episode) | treat as the definitive lore for Daring Do; the books are just a popular in-world series | as if Read it an Weep was the definitive lore (it's just a popular book) | referred-to
+  - Daring Don't and the episodes from it onwards about her | treat as not having happened; discard because they don't hold up against the author's own world | Daring Don't didn't happen | referred-to
+  - Hasbro logic | reject; the author's world logic is a rejection of it and should not be applied | my world logic is a rejection of "Hasbro logic" | referred-to
+  - the Tzinacatl as the author has made them (bickering society, 3 blocs of stagnation, ruthless capitalism and artisans) | treat as established in the author's world and as the reason the canon episodes are dropped | if I've made the Tzinacatl the way they are | referred-to
+- order:
+  - the Tzinacatl as the author has made them | over the Daring Don't onwards episodes | episodes from Daring Don't onwards about her don't seem to hold up if I've made the Tzinacatl the way they are
+  - Read it an Weep | over Daring Don't | definitive lore ... Daring Don't didn't happen
+- about: The user narrows the Twilight Velvet pen-name idea to invented entertainment with no real Daring Do, keeping Read it and Weep as lore and discarding Daring Don't onward because it conflicts with their own Tzinacatl design and their rejection of Hasbro logic.

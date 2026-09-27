@@ -1,0 +1,9 @@
+- questions:
+  - How does the high calorie cost of griffon muscle-powered flight change their infantry and armor divisions in the Griffonian Republic? | ignored | The user says nothing about ground forces, infantry or armor. | none
+  - Is powered flight an elite, aristocratic privilege because feeding a whole flying army is too costly, pushing the lower classes into ground-based ironworking and trench warfare? | partly answered | The user finds the elite-only flight idea interesting and builds on it. They hedge that non-elites might still glide, and they leave the ground-based lower-class roles untouched. | It's quite interesting if only elites can "afford" to fly (although perhaps others still glide?)
+- shape: The user picks up the model's elite-flight idea with a hedge, then uses it to build new geography and politics: griffon lords suppress pegasi out of jealousy, and mountains in Aquileia and flat land in Herzland set where gliding is possible. They finish by asking the model whether this holds together. The model's question about infantry and armor gets no answer.
+- settles:
+  - Powered flight is tentatively an elite privilege among griffons, and others may still glide. This is offered with a question mark. | It's quite interesting if only elites can "afford" to fly (although perhaps others still glide?)
+  - Jealousy among griffon lords drives their suppression of pegasi in Aquileia. | This adds to the jealousy of griffon lords suppressing pegasi in Aquileia
+  - Aquileia has mountains and hills that supply the wind needed for gliding. | Since Aquileia has mountains, hills, and other stuff, they have wind for gliding
+  - Herzland is a flat plain with little wind, so gliding there is hard. | Herzland as a flat plain does not have much wind

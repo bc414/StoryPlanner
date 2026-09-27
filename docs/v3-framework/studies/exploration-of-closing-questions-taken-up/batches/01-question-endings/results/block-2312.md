@@ -1,0 +1,5 @@
+- questions:
+- shape: The user turn does not respond to the model's WSB character mapping. It moves to a new question of its own: how a hopepunk story can reach the nihilistic WSB audience without alienating them. It also states three of the story's themes as the premise for that question.
+- settles:
+  - The story's tone is hopepunk, and the user sees that as at odds with the audience's nihilism | "My story is inherently hopepunk which is at odds with the nihilism"
+  - The story has strong anti-corporate themes, obvious anti-fascist themes, and a deconstruction of the professional class | "strong anti corporate themes but also obvious anti fascist themes while also deconstructing the professional class"

@@ -1,0 +1,4 @@
+- sources:
+  - other fanfics where Fluttershy scolds Celestia | model is asked to draw on its general knowledge of published fanfiction to find comparable examples of this scene, as a check on how original the idea is | Are there any other examples of fanfics doing this? | first-named
+- order:
+- about: The user shares pride in their own climax idea of Fluttershy using The Stare on Celestia and asks the model whether other fanfics have done the same.

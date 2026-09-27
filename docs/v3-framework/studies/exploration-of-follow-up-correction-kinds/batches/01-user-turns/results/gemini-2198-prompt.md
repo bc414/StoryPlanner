@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's thematic analysis to new questions: how the changeling conscript victims should be portrayed, whether real-world totalitarian states could fall to grassroots movements, and whether Chrysalis's terror state works as an allegory for them.

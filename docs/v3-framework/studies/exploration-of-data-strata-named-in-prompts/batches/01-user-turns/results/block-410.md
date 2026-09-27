@@ -1,0 +1,5 @@
+- sources:
+  - this (the Chapter 12 and Rainbow kinship arc synthesis just given) | use as the basis for informing and improving the Chapter 16 scene | "How does this inform and improve" | referred-to
+  - Chapter 16 Combined Arms, Rainbow Dash's conversation with Twilight's mom, author of the Daring Do books | the existing planned scene that the synthesis is to be applied to and improve | "Rainbow Dash's conversation with Twilight's mom who authored the Daring Do books in Chapter 16 Combined Arms" | referred-to
+- order:
+- about: The user asks the model to apply its Chapter 12 Rainbow kinship-arc synthesis to improve the planned Chapter 16 scene where Rainbow talks with Twilight's mother, the Daring Do author.

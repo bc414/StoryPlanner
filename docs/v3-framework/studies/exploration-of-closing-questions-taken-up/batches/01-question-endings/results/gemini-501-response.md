@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to go on to analyze how Fleur Bloom reacts to the tank failure in the same scene (horrified by the danger or excited by the science)? | no user turn | none | none
+- shape: none
+- settles:

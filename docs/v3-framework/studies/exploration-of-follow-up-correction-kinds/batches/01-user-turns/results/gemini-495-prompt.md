@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's beat sheet has Henri (or Twilight) baffled by how Trimmel coordinated the assault, which sits badly with Henri being a volunteer tactical commander from the FJA who would already know decentralized, flexible doctrine | shouldn't he be familiar? | put as a question, with a possible reconciling reason (he thinks changelings are drones and copycats of boring Herzland) and a check on plausibility
+- about: The user questions whether the model's scene, with Henri baffled by the changelings' flexible tactics, fits his background, offers a way to make it plausible, and asks two follow-ups on the command style of chapter 4 and Henri's future orders to Applejack.

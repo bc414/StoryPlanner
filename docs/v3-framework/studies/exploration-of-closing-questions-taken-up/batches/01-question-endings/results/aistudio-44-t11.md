@@ -1,0 +1,5 @@
+- questions:
+  - How do the surviving veterans of the initial rout, whom Applejack trained in the trench dogma, regard her when they regroup at Tall Tale: resentment over the false promise, or trauma-bonded loyalty because she fought beside them? | no user turn | none | none
+  - Once Applejack accepts that industry is the shell for friendship, do her tactical orders to Henri Gourard change from sacrificial infantry holding actions to aggressive mechanized maneuvers? | no user turn | none | none
+- shape: none
+- settles:

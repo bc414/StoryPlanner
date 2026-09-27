@@ -1,0 +1,8 @@
+- questions:
+  - What do the hand-forged Aquileian planes look like, and would they skip standard camouflage? | ignored | none | none
+  - Does each Griffon ace polish the aluminum to a mirror shine and engrave family crests, making the planes shining beacons that dare the Changelings to shoot? | ignored | none | none
+- shape: Skips the closing visual question and returns to the model's Chapter 5 'Starlight Bypass' idea. It revises that idea: the plane's owner is resting, not dead, and lends the plane to Rainbow. It also corrects the model's assumption that the ace would need to be fallen, and the model's picture of Rainbow's view of aces.
+- settles:
+  - The Aquileian plane Rainbow flies in the Chapter 5 bypass belongs to a living ace who is resting, not a fallen one. | How about if the ace isn't fallen but is resting?
+  - Responsible aces do not fly around the clock, so a bonded plane sits idle while its owner rests. This runs contrary to what Rainbow Dash first assumes. | a responsible ace doesn't fly 24/7 the way Rainbow Dash initially thinks
+  - The lender is a peer who taught Rainbow to fly. They trust her with their plane, and Starlight's magic is part of the arrangement. | a peer who taught rainbow how to fly and trusts her with their own plane and Starlight's magic

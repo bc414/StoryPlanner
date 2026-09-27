@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user points the model to newly added notes in the pep talk scene and asks a follow-on design question about whether Chrysalis would keep a progress ledger and how that differs from the broken sword, without saying the earlier answer was wrong.

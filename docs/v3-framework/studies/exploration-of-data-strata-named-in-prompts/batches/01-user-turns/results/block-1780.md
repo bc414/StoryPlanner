@@ -1,0 +1,9 @@
+- sources:
+  - C&C and CoC as compared earlier in the conversation | take the summary as the working framing to build on: C&C covers colonial and spatial extraction, CoC covers productive, renewable, positive-sum, and neither is complete | "C&C has the colonial and spatial extraction side of things, while CoC has the productive/renewable/positive sum side" | referred-to
+  - Offworld Trading Company | the user's own play experience, offered as confirmation that it models financialization and pure economic warfare, and as the point of comparison for the games asked about | "I have indeed played Offworld Trading Company" | referred-to
+  - Hoi4 | a game the model is to analyse for its economic model; the user's recollection that it has no money, only production and material troops, is given as a premise | "Hoi4 doesn't use money at all, only production and material troops" | first-named
+  - Eu4 | a game the model is to analyse; the user's tentative view that its debt is a mercantilist fantasy rather than reality is a suspicion for the model to assess | "Eu4 has debt but it's more like a mercantilist fantasy rather than reality?" | first-named
+  - Stellaris | a game the model is to analyse; the user's hedged recollection is that it has no debt and splits society into separate aspects instead of one money measure | "I think Stellaris doesn't have debt" | first-named
+  - Civ 5 | a game the model is to analyse, which the user thinks works like Stellaris in separating society into different aspects, so it is held as a tentative claim | "Same for civ 5" | first-named
+- order:
+- about: The user summarises the C&C versus CoC comparison, says Offworld Trading Company's financialization now makes sense to them, and asks the model to analyse the economic models of EU4, HOI4, Stellaris and Civ 5 against their own tentative recollections of how each handles money and debt.

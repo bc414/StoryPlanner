@@ -1,0 +1,5 @@
+- questions:
+  - Can a spell matrix be etched into common glass or cheap quartz, or does it need a specific rare crystalline lattice (Temberik/Diamond Mountain) to survive the thermodynamic load of Red Love? | no user turn | none | none
+  - Does Fleur see Twilight's use of Changeling Red Love canisters, bypassing the artisanal flow-stabilizer work, as a triumph of Harmonic Capitalism, or does she feel Aquileian resentment that her nation's artisanal tradition has been made obsolete? | no user turn | none | none
+- shape: none
+- settles:

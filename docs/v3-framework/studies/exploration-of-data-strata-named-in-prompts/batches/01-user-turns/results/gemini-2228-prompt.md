@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general craft question about how reading prequels after a tightly themed main story, with its outcome already known, changes the narrative effect, and asks whether there is a name for that phenomenon.

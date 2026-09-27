@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumptions about safe shipping lanes and what the monster hunt yields, then adds new worldbuilding ideas about the Changeling food supply, the Severyana revolution and the 995 timeline, without pointing at any body of material for the model to draw on.

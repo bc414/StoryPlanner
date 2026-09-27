@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated VOPS as Eros's/Herzland's own secret police, whose killing of Thranx is Eros's tool and a betrayal of Grover; the user says VOPS belongs to Chrysalis's state, not Herzland's | VOPS is not Herzland's state police. It is Chrysalis's state police! | flat, blunt assertion with emphatic exclamation, no reason or explanation given
+- about: The user briefly rejects the model's premise by stating that VOPS is Chrysalis's state police rather than Herzland's, leaving the model to redo its analysis.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about what constitutional status Bronzehill and Grover would have, whether a Commonwealth-style ceremonial monarchy, and adds in brackets that the GR is a monarchless republic, as a constraint on the answer and not as a correction of anything the model said.

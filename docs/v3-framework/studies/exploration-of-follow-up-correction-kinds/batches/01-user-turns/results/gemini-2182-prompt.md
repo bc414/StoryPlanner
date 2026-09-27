@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model claimed the spectrometer reads an ego or pride resonance left in the crops after the weathering; the user says crops hold no ego signatures and the magic only drives the weathering process | The crops should not hold ego signatures afterwards. The magic is just for the weathering process. | flat statement of the rule, given as a direct correction with no apology
+  - register or format | The model's framing of the magic in high-fantasy terms (ego broadcast, wavelengths of the psyche, emotional activation) instead of chemistry | It should be grounded in chemistry, not high fantasy tropes. | flat directive stating the desired register, given as a general requirement
+- about: The user corrects the model's ego-signature and high-fantasy framing of the magic, then moves on to propose that the spectrometer needs a nearby earth pony to power it, and asks whether that can work.

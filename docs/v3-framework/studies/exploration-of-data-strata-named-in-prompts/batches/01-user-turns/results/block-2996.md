@@ -1,0 +1,5 @@
+- sources:
+  - historical precedents | draw on real history to supply precedents for the proposed backstory of the two failed would-be capitalists | What historical precedents are there? | first-named
+  - the setup and material conditions leading to Chrysalis inheriting the corporate empire | check the new backstory against it for alignment, as the existing story structure that has to fit cleanly | Does this align everything from material conditions to the setup | referred-to
+- order:
+- about: The user proposes a backstory in which Gilded Lily and Silver Sterling were skilled capitalists denied startup capital, and asks the model to judge whether it makes sense, to find historical precedents, and to check that it fits the material conditions and Chrysalis's legal inheritance of the empire that funds the Great Leap Forward and the wars.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's clarification that the direct flight uses PEK and asks a follow-up about the weekly schedule of the JFK to PEK route.

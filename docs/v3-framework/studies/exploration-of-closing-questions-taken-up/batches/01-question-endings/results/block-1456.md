@@ -1,0 +1,5 @@
+- questions:
+  - Should the model generate the nested Punnett square visual now?|ignored|The user does not say yes or no. They ask their own questions: whether the K-map is only for Boolean simplification, and whether the second outer axis should be ontology vs events or fabula vs syuzhet. So the layout is still open.|none
+- shape: The user does not answer the offer to generate the visual. They check their understanding of why the K-map is the wrong tool and tentatively accept the nested square. They fix one outer axis, leave the other open, and ask for the implications of outer versus inner placement. They state their own rule of thumb: put an axis inner to see differences within it, or outer to hold it fixed while the other axis is compared side by side. This is a request for further explanation before any visual is made. Much of the text is pasted in repeated blocks.
+- settles:
+  - The outer left/right split of the grid is Subject vs Link.|The left and right outer split definitely is subject vs link

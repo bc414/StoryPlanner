@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to map out how to use a local script to automatically sync the WPF app's export folder to Google Drive so NotebookLM works almost seamlessly? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten: world-rule ontology | Changeling evolved to metabolize interpersonal connection (pink love/friendship) as a calorie supplement to meager foraging | They evolved to metabolize interpersonal connections (pink love/friendship) to supplement the meager calories | outside
+  - outside all ten: world-rule ontology | Pink love can be absorbed latently because friendship is energy directed at someone else | Pink love can be absorbed latently because friendship is an energy directed at someone else | outside
+  - outside all ten: world-rule ontology | The metabolic ability has a side effect of also metabolizing personal ambition (red love) | came with a side effect of also metabolizing personal ambition (red love) | outside
+  - outside all ten: world-rule ontology | Red love is energy directed as personal ambition, and taking another's or a monster's predatory ambition requires draining it | Red love is energy directed as personal ambition. To steal someone else's ambition... it must be drained | outside
+- goals:
+- whole: The note states, as invariant in-world fact, how changeling metabolism works, covering absorbing pink love latently and needing to drain red love, without any reader-facing aim.

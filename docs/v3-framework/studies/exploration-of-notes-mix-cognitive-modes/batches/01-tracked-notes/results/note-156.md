@@ -1,0 +1,4 @@
+- claims:
+  - History | SAA, at the world date, requires large industrial growth and recruitment of ponies in order to solve world hunger, stated as an in-world fact about the organization's aim and needs | They need a lot of industrial growth and recruitment of ponies to solve world hunger | yes
+- goals:
+- whole: The note records, as an in-world fact for the year 990, that SAA needs heavy industrial expansion and pony recruitment to pursue solving world hunger.

@@ -1,0 +1,6 @@
+- questions:
+  - How does Rainbow Dash react to the Mount Aris lecture on fraternity doctrine? | refused | Does not say how she reacts. Points the model to the user's existing Rainbow arc plans and asks it to fold the new ideas into them. | review my story plans for Rainbow's arc
+  - Does she first side with the arrogant Aquileian artisans and their glory-seeking dogfighting? | refused | Gives no answer. The question is left to whatever the existing arc plans already say. | review my story plans for Rainbow's arc
+  - Does her arc in the Breakthrough chapter turn on suppressing her ego (Red Love) and embracing Pink Love to protect a wingpony, perhaps Scootaloo? | refused | Does not confirm or reject the proposed arc or the Scootaloo pairing. Asks for the existing plans to be synthesized with the model's new analysis. | synthesize with the new insights
+- shape: An instruction that redirects. The user does not answer the model's questions about Rainbow. It hands the work back, asking the model to review the user's stored plans for her arc and merge the new doctrine analysis into them. This treats the existing plans as the authority on her arc.
+- settles:

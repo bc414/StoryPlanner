@@ -1,0 +1,5 @@
+- sources:
+  - My MCP server has the full show transcripts | treat as the material to review; read the Family Appreciation Day episode from it | "My MCP server has the full show transcripts" | first-named
+  - this new lens | apply as the framework for reviewing the episode; the Doyalist/Watsonian loophole reading just discussed | "with this new lens" | referred-to
+- order:
+- about: The user directs the model to use their MCP server's show transcripts to re-examine the episode Family Appreciation Day through the loophole idea from the previous turn.

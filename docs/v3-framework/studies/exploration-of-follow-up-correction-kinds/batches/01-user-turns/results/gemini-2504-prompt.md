@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The rock farm's bleakness was presented as generic agrarian scarcity outside the coddled Nursery; the user assigns it to Skyfall's influence, with a fertilizer-industry rationale and Pinkie's family cutie marks tied to rock-breaking | I think the rock farm and its bleakness is a Skyfall influence | stated flatly as the user's own view, with a supporting in-world reason, while opening with thanks
+  - fact of the world | Pinkie's reality-bending was described as a field fueled purely by empathy and solidarity; the user says it is fueled by ambition, as a magical side-effect of recovering from Skyfall-induced misery | is exactly the ambition that fuels her reality-bending abilities in-universe | put in passing as agreement with the model's insight, quietly swapping the source of the power from empathy to ambition
+- about: The user thanks the model and folds its Pinkie analysis into their own lore, re-attributing the rock farm to Skyfall and the source of her reality-bending to ambition, while keeping the model's core insight.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to try opening a Canvas for a specific coding task right now, to test whether the workspace triggers? | ignored | Says nothing about the offer. It moves on to a new question about the Canvas length slider and whether longer responses are possible outside Canvas. | none
+- shape: Redirects to a new, related question about the tool. The user drops the model's offer and asks whether the longer-response control seen in Canvas can be had in ordinary chat. It is a question about how the tool behaves, and it does not touch the story.
+- settles:

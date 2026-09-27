@@ -1,0 +1,6 @@
+- claims:
+  - History | Chrysalis became high and mentally fogged after draining the intense love of Cadance and Shining Armor, reported as a past event | got high and brain fog after draining Cadance and Shining Armor's intense love | yes
+  - Characterization | She lost her Machiavellian discipline and fell back on the baser instincts of the Predator's Dilemma, which asserts the psychological drive behind her behavior | forgot her own Machiavellian discipline and reverts to the baser instincts of the "Predator's Dilemma" | no
+  - Characterization | Her behavior shifted from calculating geopolitical leader to a ravenous, starving bug, a figurative description of her mindset and conduct | stops acting like a geopolitical CEO and starts acting like a starving bug | no
+- goals:
+- whole: The note reports Chrysalis's intoxicated state after feeding on Cadance and Shining Armor's love and then explains, in psychological terms, how it made her abandon strategic discipline for raw predatory hunger.

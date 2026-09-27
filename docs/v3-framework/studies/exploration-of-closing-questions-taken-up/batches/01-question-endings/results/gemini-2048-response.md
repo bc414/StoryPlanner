@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like a mock JSON output of the Phase 2 sorter logic, using a snippet of the Applejack/Twilight notes, to check pronoun replacement and structural stripping? | ignored | The user turn does not accept or decline the mock output. It moves to a different proposal, pre-sanitizing the input for all phases. | none
+- shape: The user redirects. It drops the model's plan of having the Phase 2 sorter prompt do the pronoun replacement and formatting stripping. It proposes doing that as a preprocessing step on the input for every phase. It also asks the model whether this would hurt performance because the text would read as unnatural. The turn is a proposal plus a question, not a decision.
+- settles:

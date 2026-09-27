@@ -1,0 +1,4 @@
+- questions:
+  - Which of the light-generating mechanisms (incandescence, Cherenkov, bremsstrahlung, synchrotron) best fits how the user imagines Grover III or Applejack eventually industrializing this magic? | no user turn | none | none
+- shape: none
+- settles:

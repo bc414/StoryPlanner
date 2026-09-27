@@ -1,0 +1,4 @@
+- questions:
+  - Does splitting the physics into Thymodynamics (Griffon magic/weapons) and Volodynamics (Republic communications/infrastructure) give the user the materialist framework needed for the technological arms race? | no user turn | none | none
+- shape: none
+- settles:

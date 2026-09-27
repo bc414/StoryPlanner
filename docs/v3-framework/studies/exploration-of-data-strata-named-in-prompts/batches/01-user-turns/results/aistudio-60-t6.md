@@ -1,0 +1,4 @@
+- sources:
+  - Owl's Well that Ends Well and Dragon Quest (published show episodes) | treated as the basis for the correction: they establish that Spike, raised in the nursery, has no dragon or apex predator instincts and need not be a brute because he is a dragon | the point of Owl's Well that Ends Well and Dragon Quest, that he doesn't have to be a brute just because he is a dragon | referred-to
+- order:
+- about: The user corrects the model's framing of Spike as having predator instincts, pointing to two show episodes as the basis, and adds a new story link: Twilight needs Crystal Empire crystals for her charity systems, so Spike would organize that supply chain for her.

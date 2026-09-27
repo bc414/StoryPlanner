@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look into the supply chain logistics of specialized ingredients (bones, spices) for these restaurants in the NJ area? | ignored | Says nothing about the supply chain offer and asks a different question about where else these restaurants are viable. | none
+- shape: Redirects to a new question of its own. It asks whether these specialized restaurants are viable only in the NYC, San Francisco and Los Angeles metro areas or whether the paradigm is prominent elsewhere. It leaves the model's offered next step unaddressed.
+- settles:

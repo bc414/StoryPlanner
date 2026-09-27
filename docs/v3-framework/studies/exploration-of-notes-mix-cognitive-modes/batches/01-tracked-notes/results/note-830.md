@@ -1,0 +1,5 @@
+- claims:
+  - History | Temberik's village practice is that when one family's roof collapses, the whole village repairs it | If one family's roof collapses, the whole village fixes it | no
+  - Canon | Ties this communal custom to Applejack's "Barn Raising" sensibility from the source material, that being what it appeals to | This appeals to Applejack's "Barn Raising" sensibility | no
+- goals:
+- whole: The note reports a communal roof-repair custom of Temberik as a fact of the world and links it to Applejack's canon "Barn Raising" sensibility, without planning any dramatization or reader experience.

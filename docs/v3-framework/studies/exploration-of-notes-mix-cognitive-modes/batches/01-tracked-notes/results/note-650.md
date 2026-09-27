@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | The Aquileians as a people hold a bias against the Griffonian Republic and Herzlander culture, explained by their past subjugation and rivalry | Aquileians are also biased against the GR and Herzlander culture because of their subjugation and rivalry | no
+- goals:
+- whole: The note asserts, as a fact about the world, that the Aquileians are biased against the Griffonian Republic and Herzlander culture because of subjugation and rivalry, without stating any reader response and in a mode other than the track's architecture planning.

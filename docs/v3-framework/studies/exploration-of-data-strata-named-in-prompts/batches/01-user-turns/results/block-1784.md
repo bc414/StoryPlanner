@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to suggest further games that carry notable economic insights about the real world, without pointing at any body of material to use or avoid.

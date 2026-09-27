@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Chrysalis's worldview rests on Pink Love not existing for her (she models a universe without it) is amended: she witnessed Pink Love at Acornage, though among changelings who chose to live as ponies | One clarification, she saw that pink love existed, at Acornage. But those changelings voluntarily lived as ponies | Mild, flat clarification stated as a plain fact with a brief qualifying reason, no apology or irritation
+- about: The user supplies a short clarification of a world fact, that Chrysalis did see Pink Love at Acornage though only among changelings living voluntarily as ponies, to adjust the model's account of her worldview.

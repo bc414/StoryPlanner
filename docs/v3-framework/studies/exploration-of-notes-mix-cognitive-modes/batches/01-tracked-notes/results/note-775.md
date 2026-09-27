@@ -1,0 +1,8 @@
+- claims:
+  - Analogies | Equestrian defeat is modeled on the 1940 Fall of France | Equestrian defeat with the Fall of France in 1940 | yes
+  - Analogies | The real French military was not cowardly or undone by sabotage, and had good equipment, high morale and strong defenses like the Maginot Line | not inherently cowardly, nor were they defeated by massive internal sabotage | yes
+  - Analogies | France lost because its centralized, methodical top-down command was paralyzed by German speed, decentralization and radio-coordinated combined arms | top-down, methodical, centralized command structure was paralyzed | yes
+  - Analogies | Mirroring this history makes the Equestrian defeat a tragedy of obsolete doctrine, not a farce of incompetence | By mirroring this, the Equestrian defeat becomes a tragedy | yes
+- goals:
+  - The reader is to see the Equestrian defeat as a tragedy of obsolete doctrine, not a farce of cartoonish incompetence | NarrativeArchitecture | a tragedy of obsolete doctrine rather than a farce of cartoonish incompetence
+- whole: The note names the 1940 Fall of France as the real-world model for the Equestrian Army's defeat, explains why France really lost, and says mirroring that makes the defeat tragic rather than farcical.

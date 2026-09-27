@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Chrysalis/Eros/Eagleclaw analysis without comment and moves to a new topic, asking how Coltbert (a Keynes-inspired character) devises royal fiat and what real-world history of fiat money, gold standards and fractional banking lies behind it, revising their own framing partway through.

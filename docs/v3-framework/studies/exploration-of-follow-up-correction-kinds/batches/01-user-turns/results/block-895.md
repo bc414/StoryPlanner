@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the revised demographic baselines as a foundation and asks for two new analyses, the year after the white peace and the chapters Resilience and Grace, adding a note on how the northern Stalliongrad front should be understood.

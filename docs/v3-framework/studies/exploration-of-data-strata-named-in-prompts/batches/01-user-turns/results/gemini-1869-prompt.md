@@ -1,0 +1,5 @@
+- sources:
+  - this json of notes (the original notes) | the material to be rearranged and consolidated into new notes; every concept in it must be kept, while verbosity and duplication are cut | Rearrange and consolidate this json of notes ... All the concepts from the original notes must exist in the final answer | first-named
+  - the first 9 notes | treat as the chronological order of the story being told, and generally keep that order in the result | The first 9 notes represent the chronological order of the story being told | first-named
+- order:
+- about: The user asks the model to reorganize and condense a supplied JSON array of story notes into a shorter set in the same format, keeping every concept and roughly keeping the story order of the first nine notes.

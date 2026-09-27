@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the Skyfall Resolution as the single decisive campaign moment that wins the election, overlooking that the plan already has Applejack's head-on debate win over Gilded Trust as the pivotal swing moment | "I had the pivoting swing moment for the election be Applejack thrashing Gilded Trust in a head on debate" | Stated as a reminder of what the plan already holds, then folded into a question about how to divide the two events' roles; mild and without irritation
+- about: The user reminds the model that the plan already has the debate as the election's swing moment and asks how to split the electoral work between the debate and the Skyfall Resolution, including whether Skyfall should be what wins Luna's support.

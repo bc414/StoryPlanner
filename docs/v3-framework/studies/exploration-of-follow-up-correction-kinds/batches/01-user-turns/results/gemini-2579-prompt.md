@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's 1002 crisis account by laying out the 2nd Great Leap Forward's domestic measures (sector overdrive, anti-Crystal Empire nationalism, the Thorax casus belli, asset sales) leading to an Olenia invasion in 1008, then asks why she waited and what other measures might fit.

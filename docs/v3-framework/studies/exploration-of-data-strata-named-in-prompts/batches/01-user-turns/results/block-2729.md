@@ -1,0 +1,6 @@
+- sources:
+  - the canon Shadowbolts scene in the two-part opener, the Everfree Forest adventure | treat the author's recollection as the correction to the model's account: Rainbow can't hear Twilight, the six were not yet friends, and the forest is the wild outside the nursery, made before Hasbro mandates | I'm pretty sure I'm the canon scene, Rainbow can't actually hear Twilight | referred-to
+  - the author's own account of Ahuizotl's story (befriending the thestrals in the cartel while managing them for Chrysalis's shell company, then choosing them over the hive) | treat as correct and use in place of the model's reading of what corresponds to the bridge-tying moment | Ahuizotl makes friends with the thestrals in the cartel | referred-to
+  - Rainbow's arc and Ahuizotl's story as a planned tie-in | treat as a provisional proposal, with the explicit-versus-implicit version left open | I think there should be a tie in between Rainbow's arc and Ahuizotl's story | referred-to
+- order:
+- about: The author corrects the model's account of the canon Shadowbolts scene and of the Ahuizotl parallel from their own memory and plan, then proposes that Ahuizotl's story lead Rainbow to see that her canon loyalty was really kinship.

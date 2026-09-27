@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | review and use as the base for the summary of Coltbert's Reforms and motivations, with the refinements applied | review my story plans | referred-to
+  - these refinements (the clarifications given in this message about Coltbert, the FJA, the notes, the export market and the city barter) | treat as true and fold into the summary of the reforms and their motivations | To clarify, after these refinements | first-named
+- order:
+- about: The user clarifies Coltbert's role, values and the three trade channels of the FJA, then asks the model to review their story plans and summarise Coltbert's Reforms and motivations with those clarifications applied.

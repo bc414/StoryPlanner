@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to provide the system instruction and input JSON for Phase 1 of their pipeline, given the updated Phase 0 design, without naming any source of data to draw on.

@@ -1,0 +1,17 @@
+- sources:
+  - the old notions that the whole army was encircled | treat as outdated and throw out, replaced by most volunteers retreating through the magical supply organization | I need to throw out the old notions | referred-to
+  - the existing story plan (chapter 1 ending at the first battle of Tall Tale, AJ at the machine gun) | keep the battle and its purpose as the base, but recalibrate the ending beat | Another part of the existing story plan | referred-to
+  - the original ending beat (AJ feeling she failed as a general despite the victory) | no longer right and does not meet the materialist rigor; replace it | This is not the right beat anymore | referred-to
+  - the history of the era between Napoleon and WW1 (American Civil War, War of Austrian Succession, western front parlay) | supply realistic casualty and capture statistics and judge how accurate the user's claim about the era is | What would be realistic statistics from that era | referred-to
+  - the model's own knowledge of the era's warfare | rely on it to check the assertion about gentleman's-war conduct | how accurate is the assertion about the era | referred-to
+  - the WW2 parallels (Griffonia) and the modern-day West parallels (Equestria) | treat as the fixed allegorical mapping; victims of Equestria must not be read through WW2 destitution | The Griffonia parallels are the WW2 parallels | referred-to
+  - the grimdark, totally naive interpretation of EaW | contrast to avoid; the story should show Equestria fighting as a peer nation instead | unlike the grimdark totally naive interpretation of EaW | referred-to
+  - asoiaf and p&k as grimdark reenactments | not a model to follow; the story should be a debate, not these | not a grimdark asoiaf or p&k reenactment | referred-to
+  - the author's own and Obama's reactions after 2016 and 2024 | basis for making AJ's initial cynicism realistic | just as Obama felt and myself after 2016 and 2024 | referred-to
+  - the materialist framework | standard the new ending beat must meet | stacks up to materialist framework rigor | referred-to
+  - the imposter syndrome beats | existing plan element that should intertwine with the cynicism versus resilience beat | sits alongside and intertwines with the imposter syndrome beats | referred-to
+  - Faust's original themes | foundation; carry these children's themes to adult conclusions without compromise | Faust's themes for children taken to their logical adult conclusions | referred-to
+- order:
+  - the magical supply organization allowing volunteers to retreat | the old notions that the whole army was encircled | in favor of the magical supply organization
+  - the new ending beat (AJ slipping into kick them in the teeth mindset with Tally Mark and Mali as counterweights) | the original ending beat (AJ feeling she failed as a general) | This is not the right beat anymore
+- about: The user asks how to shape chapter 1 so it avoids both mythic fable and grimdark, by revising the Vanhoover defeat and casualty realism with era statistics, replacing the chapter's ending beat with AJ's cynicism balanced by her friends, and tying that to the imposter syndrome beats and Faust's themes grown up.

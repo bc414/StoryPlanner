@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model why it is framing its analysis of the character in programming metaphors, questioning its style without naming any source of data.

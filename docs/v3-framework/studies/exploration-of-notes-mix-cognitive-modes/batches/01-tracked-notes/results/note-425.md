@@ -1,0 +1,4 @@
+- claims:
+  - History | Wings of Dew give Scootaloo the ability to fly whenever she chooses in the period after the war, stated as a fact of the world | Wings of Dew let Scootaloo fly whenever she wants post war | no
+- goals:
+- whole: The note records a single in-world fact, that after the war Scootaloo can fly at will through Wings of Dew, and says nothing about how the reader's opinion of her should change.

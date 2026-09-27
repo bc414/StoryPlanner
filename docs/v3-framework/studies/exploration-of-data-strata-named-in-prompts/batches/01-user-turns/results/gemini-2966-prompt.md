@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about what safeguards Google has to stop people from repeatedly creating new accounts to claim the $300 free credit, without pointing at any data source for the model to use.

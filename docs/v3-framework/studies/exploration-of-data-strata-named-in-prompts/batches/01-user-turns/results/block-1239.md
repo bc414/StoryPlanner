@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general technical question comparing a Blazor, EF Core and PostgreSQL stack against a JavaScript and MongoDB stack, without pointing the model at any particular body of material.

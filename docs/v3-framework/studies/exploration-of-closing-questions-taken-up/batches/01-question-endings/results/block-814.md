@@ -1,0 +1,15 @@
+- questions:
+  - How do Astler and the Cloudburian industrial working class react if Sunglider wins on a platform of integration with Equestria, and do they see cheap Equestrian farm goods as a threat to domestic farming and food industry? | answered | Astler is not opposed to Sunglider but sits inside his coalition, only making sure labor rights are not displaced by globalism. Opposition to the platform comes from the agrarian communalists on the left and Kingfeather's protectionist tariffs on the right. | Astler is part of Sunglider's coalition, just making sure labor rights are not replaced with globalism
+  - How does Applejack come to terms with the fact that the ruthlessness she feels guilty about is what convinced Kemerskai to trust democratic process? | ignored | Nothing said about Applejack's guilt or her reaction to Kemerskai's resignation. | none
+- shape: Corrects the model's picture of the GR's factions (no Marxist labor party, Astler an ally rather than a rival) and then supplies the actual political lineup, ages and backstory for the main figures. It also floats a new role for Sunglider as designer of the Riks. It sets the model's second question aside without comment and moves on to filling in canon.
+- settles:
+  - The GR has no Marxist party because it has no tycoons. | The GR doesn't have a Marxist party because there are no tycoons
+  - Astler belongs to Sunglider's coalition and acts as its guard for labor rights against globalism, as a coalition partner would. | Astler is part of Sunglider's coalition
+  - The left opposition is agrarian communalists who detest central authority, formerly led by Sickleclaw. | left opposition are agrarian communalists
+  - The right opposition is Heinrich Kingfeather: conservatism, protectionist tariffs and religious traditionalism as the source of morality (formerly Rosewing's view). He runs against Sunglider in the post-war election and represents stagnation. | right opposition is Heinrich Kingfeather
+  - Kingfeather is the alternative, conservative and defensive way of playing the GR in the game. | alternative conservative, defensive approach to playing the GR
+  - Sunglider was an officer in the Long March, aged about 20 then and about 50 now. | canonically was an officer in the long march
+  - In the game Sunglider is the idealist who believes the revolution should bring freedom to all, and he introduces more fiat currency and social programs. | In game, he is the idealist
+  - Tentatively, Sunglider is the architect of the GR Riks, designed after reading the Predator's Dilemma, which is why he is the minister who issues Riks to SAA. | Maybe he can be the architect of the GR Riks
+  - Kemerskai was 40 during the first revolution and the Long March, so he is in his 70s now. Rosewing, Sickleclaw and Kingfeather are the same age. | Kemerskai was 40 when leading the first revolution
+  - Astler was born a peasant in Cloudbury and is in his 40s now. | Astler was born in Cloudbury as a peasant

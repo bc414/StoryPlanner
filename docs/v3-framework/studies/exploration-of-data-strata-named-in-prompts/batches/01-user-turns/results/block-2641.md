@@ -1,0 +1,5 @@
+- sources:
+  - German activity in China | real-world history to analyze and draw on as the material for enriching the story dynamic | Give me an analysis on German activity in China | first-named
+  - the Simplified Herzlander bulldozing over east asian languages dynamic | existing story element, taken as settled, that the analysis is meant to add depth to | Simplified Herzlander bulldozing over east asian languages dynamic | referred-to
+- order:
+- about: The user asks the model for a historical analysis of German activity in China to be used to deepen the already-established story dynamic of Simplified Herzlander overriding the East Asian-modelled changeling languages.

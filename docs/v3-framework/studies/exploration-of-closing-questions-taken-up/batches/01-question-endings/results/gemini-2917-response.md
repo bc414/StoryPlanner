@@ -1,0 +1,9 @@
+- questions:
+  - What happens to the Pink Love when Chrysalis's machines separate it from the Red Love: is it dumped like toxic waste? | ignored | Says nothing about the separated Pink Love. | none
+  - Can weaponized Pink Love force empathy or cause psychological collapse in Chrysalis's enemies? | ignored | Does not touch the idea of Pink Love as a weapon. | none
+  - Does Chrysalis realize she must keep manufacturing grander ambitions and existential crises for her people to fuel her industry? | ignored | Nothing on Chrysalis's awareness or the ambition-as-fuel dynamic. | none
+  - Was Luna on the moon sustained by its magic, or mutated by it? | ignored | Luna and the moon are not mentioned. | none
+  - Does Celestia refuse hard power against Gilded Trust because force would shatter the illusion of the Harmonic Utopia? | ignored | Does not address Celestia's restraint or motives. | none
+  - Should the next step be Applejack as the anti-Pétain figure navigating failing Equestrian institutions, or the military logistics of the Changeling threat? | ignored | Picks neither. Asks for a fresh review of the story plans for contradictions. | Review my story plans again and point out the next set of non overlapping contradictions
+- shape: Redirects. It skips the model's secondary questions and both offered next steps. It gives a new instruction: re-audit the story plans and list further contradictions that don't overlap with the ones already found. The user treats the model's analysis as a step in a contradiction-fixing loop, not something to discuss.
+- settles:

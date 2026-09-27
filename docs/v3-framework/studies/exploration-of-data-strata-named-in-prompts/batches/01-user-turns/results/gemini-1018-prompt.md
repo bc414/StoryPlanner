@@ -1,0 +1,6 @@
+- sources:
+  - chapter 15 "combined arms" | treat as established story fact and use it to correct the model's reading of Applejack: she disagreed with Celestia's plan and ran her own supply-line campaign | "in chapter 15 combined arms, Applejack explicitly disagreed" | referred-to
+  - VOPS profile of AJ | treat as the in-story basis for the slur; it says she would collaborate if her family was in danger | "because VOPS profile of AJ says she would collaborate" | referred-to
+  - Aquileian history in my lore (Pétain's story, The Lion of Verdun) | treat as established lore that supplies the historical referent for the nickname and shows who coined it | "Pétain's historical story is part of Aquileian history in my lore" | first-named
+- order:
+- about: The user corrects the model's account of Applejack's Chapter 17 nickname and prior conduct by pointing to what Chapter 15, the VOPS profile and Aquileian lore establish about Applejack's disagreement with Celestia and who coined "Lioness" and why.

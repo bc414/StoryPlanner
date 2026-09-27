@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model placed the traumatized royalist ponies in the city after the reforms, as fortified-neighborhood administrators and middlemen. The user proposes they would instead leave for the countryside as artisans and reform administrators. | "would they simply leave the city and become artisans and administrators of the reforms in the countryside?" and "I don't see them returning" | Put as a question, backed by the user's own reasoning (trauma in the city, opportunity in the countryside), with a mild statement of disagreement at the end.
+- about: The user asks for more development of the Palais de Discret ponies and their work for a statist king, pushes back on where the model put them after the reforms, and adds Moriset's paranoid, ego-driven character and his rural royal fairs.

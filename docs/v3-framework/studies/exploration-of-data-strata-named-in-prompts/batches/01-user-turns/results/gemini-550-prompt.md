@@ -1,0 +1,5 @@
+- sources:
+  - my potentially too clean subplot about red love addiction to justify the conscripts and Fluttershy-led rehab | the author's own story plan element, held as provisional and possibly too tidy, but now seen as backed up by the historical comparison | potentially too clean subplot about red love addiction | referred-to
+  - real life, once the "Allies scrubbing" is washed away | the real historical record of wartime drug use, treated as true and used as the benchmark that the subplot is measured against | actually reflective of real life once the "Allies scrubbing" is washed away | referred-to
+- order:
+- about: The user reacts with surprise that their own red love addiction and rehab subplot, which they feared was too neat, matches the real history the model just described.

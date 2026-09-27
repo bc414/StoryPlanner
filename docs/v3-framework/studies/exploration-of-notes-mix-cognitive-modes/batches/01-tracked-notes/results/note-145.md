@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | The organization's action of turning a zero-sum game into a positive-sum one is set down as evidence of a tool amplifying its user's morality | Standard Agricultural Amalgamated turned a zero sum game into a positive sum game | yes
+- goals:
+- whole: The note deploys one action of the organization, turning a zero-sum game into a positive-sum one, as evidence for the theme that accelerants amplify the morality of whoever uses them, and it says nothing about what the reader should take away.

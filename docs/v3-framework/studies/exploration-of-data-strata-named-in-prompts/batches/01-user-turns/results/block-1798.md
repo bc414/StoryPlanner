@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a deep analysis of Pokémon Go and then Ingress in terms of game economics and societal effects, without pointing to any body of material to draw on or avoid.

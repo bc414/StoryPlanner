@@ -1,0 +1,5 @@
+- questions:
+  - How does Fluttershy show the isolated Changeling POWs that the Harmonic world outside really works, so their rehabilitation rests on empirical reality and not camp indoctrination? | ignored | Nothing on the camp or the POWs. The user turn asks about the mob boss in Itaewon Class. | none
+  - How would the legacy Canterlot elites react to the sudden wealth and status of the Tzinacatl and Earth Pony laborers once Applejack and Comet Shine adopt efficiency-wage policies? | ignored | Nothing on the elites, the war economy, or wages. The user turn stays with the drama's mob boss. | none
+- shape: Redirects to a follow-up about the source show. The user asks whether the mob boss in Itaewon Class has a backstory or is only a force of nature or institution. It is a factual question about the comparison material, not an answer to either Socratic question. It also questions how the model's breakdown framed the boss.
+- settles:

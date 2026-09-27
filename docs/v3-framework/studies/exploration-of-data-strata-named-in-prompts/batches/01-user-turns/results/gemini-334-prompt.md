@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes how each Element's wartime subversion could be turned toward the Republic's ideals, offering their own draft ideas for each (leaving Laughter unresolved), and asks how Pinkie will recover from the gray.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's Skyfall proxy-war outline by adding lore (Ahuizotl's credibility, Kessler's patent grievance against Chrysalis, Skyfall's resentment of Krystalfels' monopolies) and asks whether EEEE! and the cartel should direct Kessler's profits at Krystalfels' assets as a pre-emptive strike.

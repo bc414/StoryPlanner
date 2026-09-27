@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's framing of Costco versus Walmart, saying Costco isn't a cynical extractor but asking who spreads the prevalent story of Costco's moral superiority and who gains from it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user gives a new instruction to trace the full origin and propagation history of three of the labels the model just classified, without saying anything in the model's inventory was wrong.

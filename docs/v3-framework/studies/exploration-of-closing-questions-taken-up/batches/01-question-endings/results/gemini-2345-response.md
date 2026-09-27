@@ -1,0 +1,5 @@
+- questions:
+  - How do the traditionalist Herzlander nobles react to the FJA crews hunting sea monsters and reviving Grover III's artisan magic? | no user turn | none | none
+  - Do the Archons in Griffenheim see Coltbert, a pony, as a heretic for claiming Grover III's legacy, or are they secretly humiliated that Aquileia acts more like the legendary Imperial Knights than the actual Empire does? | no user turn | none | none
+- shape: none
+- settles:

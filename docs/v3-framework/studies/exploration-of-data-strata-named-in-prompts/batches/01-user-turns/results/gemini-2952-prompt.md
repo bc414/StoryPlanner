@@ -1,0 +1,5 @@
+- sources:
+  - "Green Isn't Your Color" episode | treat the user's account as correct: it introduces the nursery rhyme but not the term "Pinkie Promise", so the model's earlier claim is corrected | Green isn't your color debuts the nursery rhyme, but not the actual term | referred-to
+  - The Last Roundup (season 2) | treat as the user's tentative observation of the first in-universe use of the term, to build the question on and not to be relied on as settled | It seems like The Last Roundup in season 2 is the first time the show used them term in-universe | first-named
+- order:
+- about: The user corrects the model's claim about where the term \"Pinkie Promise\" first appeared in the show, based on their own knowledge of two episodes, and asks whether the fandom or the season 2 writers coined the term.

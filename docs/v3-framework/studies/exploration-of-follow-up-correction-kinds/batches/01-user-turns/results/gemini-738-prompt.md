@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offer with a one-word "Yes", asking for the C# snippet that pushes JSON updates to Google Drive.

@@ -1,0 +1,8 @@
+- sources:
+  - my world (its fixed sun and moon, no seasons, permanent snow pattern in Cloudbury) | treat as true; corrects the model's talk of harsh winters | There are no seasons in my world because the sun and moon have a fixed path | referred-to
+  - Winter Wrap Up and Equestrian seasons | cited as the basis for why the survival-harmony tradition is dominant; treat as the in-world explanation | Winter Wrap Up and Equestrian seasons is why they are dominant | referred-to
+  - Applejack's Parents having no risk (author's clarification of Equestria) | treat as true; overrides the model's framing of the parents taking a high-risk bet | To clarify, Applejack's Parents have no "risk" | first-named
+  - the model's proposal that SAA buys industrial equipment from the early GR and the PNdA | accept as fitting the world, and extend it with the subscription-trap and soulless-aesthetic reasoning | It definitely makes sense that SAA would purchase industrial equipment | referred-to
+  - the model's proposal that SAA is the fiat currency validator | accept, but limited: Skyfall still refuses Riks and Aquileia ignores the early GR | It makes sense that SAA is the fiat currency validator, but | referred-to
+- order:
+- about: The author answers the model's SAA scaling proposal by correcting its world assumptions (no seasons or winters, no risk for Applejack's parents), accepting the equipment-purchase and fiat-validator ideas, and limiting how far Skyfall and Aquileia go along with them.

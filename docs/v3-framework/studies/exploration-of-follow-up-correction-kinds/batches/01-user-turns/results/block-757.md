@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Stalliongrad was placed on the isolationist pole, but it is interventionist: it backed the revolution in Nova Griffonia, and its ideology is Trotskyite (permanent revolution) | Stalliongrad is not isolationist, they intervened in Nova Griffonia for the revolution. They are Trotskyites | flat, added as a separate note after the main request, with the Nova Griffonia intervention given as the reason
+- about: The user asks the model to refine the fourth axis (extraction versus sharing) as the gap between Aquileian ego capitalism and Equestrian harmonic capitalism, and asks whether classical liberalism and the bourgeois revolutions fit it, then adds a short flat correction of how Stalliongrad was classified.

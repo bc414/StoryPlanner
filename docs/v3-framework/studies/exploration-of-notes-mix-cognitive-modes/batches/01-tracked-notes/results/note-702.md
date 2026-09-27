@@ -1,0 +1,4 @@
+- claims:
+  - History | The character was born in Baltimare, a fact of her past reported at world date 950 | Born in Baltimare | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that Caramel Marks was born in Baltimare.

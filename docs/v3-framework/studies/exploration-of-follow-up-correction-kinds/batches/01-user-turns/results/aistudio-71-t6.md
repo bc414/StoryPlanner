@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: word choice / fit of the proposed term | the model's suggested term Parasitism is judged awkward as a name even though its meaning is accepted, so a synonym is wanted | "it's a little clunky" and "What else works to evoke the same thing?" | mild and understated, offered after agreeing with the concept, with no reason beyond the word being clunky and turned into a request for alternatives
+- about: The user accepts parasitism as the right concept, restates it as tycoons being rent seekers who live off workers' labor, says the word itself is clunky, and asks for other terms that evoke the same idea.

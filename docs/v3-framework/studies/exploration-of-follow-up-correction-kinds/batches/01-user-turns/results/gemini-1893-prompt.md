@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new request, asking for more detail on the etymology of the character's name Rémi, without challenging anything in the model's account of his manners.

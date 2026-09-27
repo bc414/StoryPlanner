@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about what other categories of media or knowledge exist beyond code and Wikipedia-style articles, extending the discussion without disputing anything the model said.

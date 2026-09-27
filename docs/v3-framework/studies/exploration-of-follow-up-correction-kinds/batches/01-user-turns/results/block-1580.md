@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - the model's claim about what it was given (own name: claim that the material was missing) | the model said the content of scenes 9.15 to 9.22 hadn't come through and asked for it to be pasted, and the user says it was pasted and asks for the analysis to proceed | "I have pasted in 9.15 to 9.22. Do the previously specified analysis." | flatly, as a short statement of fact followed by an instruction, with no apology or explanation
+- about: The user answers the model's request for scenes 9.15 to 9.22 by saying they were already pasted and asking for the analysis, then moves on to open design thinking about whether chapters should carry links and payloads like subject tracks, how permanent plot points are, and a chicken-and-egg problem in planning, and asks for analysis and questions about gaps.

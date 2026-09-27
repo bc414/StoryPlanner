@@ -1,0 +1,7 @@
+- claims:
+  - History | At the 4th Battle of Tall Tale, Elvir Roland surrenders to Applejack almost immediately | 4th Battle of Tall Tale, Elvir Roland surrenders to Applejack almost immediately | no
+  - History | The battle is nearly bloodless and all the POWs are saved | it's near bloodless. All the POWs are saved | no
+  - Characterization | Elvir is in truth a plant, a planted agent whose surrender is not what it seems | He's essentially a plant | no
+  - History | Elvir joins Trimmel at the camp afterward | Elvir joins Trimmel at the camp | no
+- goals:
+- whole: The note sets down what happens to Elvir Roland at the 4th Battle of Tall Tale (quick surrender, no bloodshed, POWs saved, his role as a plant, and his placement at Trimmel's camp) as a run of story events, without saying how the reader is to experience them.

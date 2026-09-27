@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects several points of the model's arc reanalysis, stating on their own authority that Acornage already shows individual identity, that the Acornage changelings never learn Chrysalis is an apex, that Gilded Lily and Silver Sterling tell her about Skyfall at Acornage, that Acornage belongs to the Stagnation of Harmony rather than being the five-axis synthesis, and that the Lioness spell is similar to but not the same as the detection spell.

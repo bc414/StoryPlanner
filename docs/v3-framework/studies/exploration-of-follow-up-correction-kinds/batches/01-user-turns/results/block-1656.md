@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's statement that the WI+La and WI+En tracks are already separated is narrowed: the separation exists only for characters, not for the other subjects | The WI+En and WI+La tracks are separated for characters, but not for the other subjects | flat factual restatement, in passing, leading straight into a question about whether to extend the split
+  - register or format | the model's abstract account of the La tracks did not settle what belongs in WI+La versus T+La, so a worked example is needed | I'm still confused about what should actually go into WI+La versus T+La ... Give an example | stated confusion, mild and unheated, with a concrete request supplied by the user's own scenario
+- about: The user turn qualifies the model's claim about track separation as covering only characters, asks whether the tracks and the narrator perception gap need separating elsewhere, and asks for a worked WI+La versus T+La example using their Stagnation of Harmony scenario.

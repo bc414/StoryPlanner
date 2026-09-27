@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the locked-in timeline and builds on it, proposing that the canon fairy tale's line about never having been to the ground can be read as a euphemism for the wild, and asking the model to work out that interpretation.

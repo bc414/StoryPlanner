@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an analysis of the story's title, "The Lioness of Tall Tale", without pointing to any body of material to draw on or avoid.

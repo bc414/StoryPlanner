@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's Trimmel warning about the Queen trading prisoners for time assumed he knew about the white peace, but he does not know of it; only a general never-trust-Chrysalis warning is kept | Trimmel doesn't know about the white peace. But I like the idea of him saying never trust Chrysalis | flat, stated plainly in passing, with the correction softened by approval of the part of the idea being kept
+- about: The user approves the intact-Vanhoover idea and adds lore for it (the clean surrender against ruined Acornage, the slave-labor system, and Pagala's disgrace), and briefly limits what Trimmel knows while keeping his warning to distrust Chrysalis.

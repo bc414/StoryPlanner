@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model suggested Filthy Rich might stand for the ruthless-capitalist faction opposing the referendum, with Diamond Tiara defecting from her class against him or her mother. The user says Filthy Rich is a benevolent, harmonic capitalist, and Spoiled Rich is the villain who made Diamond Tiara a bully. | To clarify, Filthy Rich is actually more of a harmonic capitalist... Spoiled Rich is the villain | Calm and flat. Put as a clarification, with a short reason (the canon show already subverts the wealthy-dad trope), and stated as settled.
+- about: The user corrects the model's guess about the Rich family by setting out the canon roles of Filthy Rich and Spoiled Rich, and does not comment on the rest of the analysis.

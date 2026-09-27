@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's treatment of Severyana and Stalliongrad as two separate places by stating that they are one and the same, with Stalliongrad as the post-revolution name of the region.

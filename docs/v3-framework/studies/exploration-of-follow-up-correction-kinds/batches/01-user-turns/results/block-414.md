@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Velvet and Ahuizotl chapter discussion to a new question, offering a pattern of "outgrowing" parallels across several characters and asking what single thematic proposition they support, grounded in the story plan document.

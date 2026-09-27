@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's picture of pony physiology and diet, in which ponies are strict herbivores who need a tincture against animal fats and marrow broths and who eat rough, weathered root vegetables. The user sees ponies as cognitively demanding, non-cellulose eaters closer to a human vegetarian culture with dairy and some hay | "I don't imagine the ponies with massive cognitive requirements would eat a lot of cellulose heavy plants" | Put mildly as the user's own imagining, with no explicit rejection. It is set against real-world herbivore biology and then moved on to a new question
+- about: The user offers their own view of how ponies eat, a vegetarian culture like India's with some hay, which departs from the model's framing, and then asks a real-world question about why India is vegetarian and where else is like it.

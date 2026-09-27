@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's colour map hardcoded four axis names (Chronology, Demographics, System Mechanics, Dialectics) and treated the remaining axes as unknown 'potential' extras. The user has a fixed set of seven named axes, which differ from the model's names | These are my 7 axes | Flat and implicit: the full list is pasted in and labelled as the real set, with no mention of the model's earlier placeholders and no apology or irritation
+- about: The user pastes their actual seven axes and, in place of the offered dynamic colour generation, asks for a fixed hex colour for each with an instinctive or evocative rationale.

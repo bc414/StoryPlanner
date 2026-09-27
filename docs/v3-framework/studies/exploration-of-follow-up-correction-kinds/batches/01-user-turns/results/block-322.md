@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model had Chrysalis read the startups' blueprints and learn industrial concepts from them while burning the labs; the user says she takes the blueprints without being able to read them yet and keeps them for later use | Chrysalis definitely should steal the blueprints ... even though she can't read them yet | flat directive, with a short reason given ("It's a long game")
+  - fact of the world | The model used Krista Sterling as the assassin persona (hired by Kessler Sr. and Gilded Trust); the user says that name is only the school griffoness and the hitgriff needs a separate persona | Krista Sterling has to stay strictly as the school griffoness. I need another persona | flat, firm constraint stated as a rule, with a request for a replacement
+- about: The user amends the assassin-origin proposal by fixing how Chrysalis handles the stolen blueprints and keeping the Krista Sterling identity separate, then asks a new research question about how hitmen historically claim and prove bounties.

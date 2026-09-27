@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the format recommendation to ask general background questions about Markdown: its core features, where it is used, its history, and whether standards exist.

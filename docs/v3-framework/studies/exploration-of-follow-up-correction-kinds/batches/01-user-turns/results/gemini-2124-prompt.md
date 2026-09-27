@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates their understanding of the B2B/B2C split as visible retailers versus hidden industrial profiteers and asks a follow-up about which group would have commissioned the pirates who burned the universities.

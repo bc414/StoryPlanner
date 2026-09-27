@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a synthesizing reframe, that the village versus company-town distinction makes the game mechanics about how accelerants are introduced, and checks it against TLTT's Grover, Stalliongrad and Stagnation-of-harmony story, without disputing anything the model said.

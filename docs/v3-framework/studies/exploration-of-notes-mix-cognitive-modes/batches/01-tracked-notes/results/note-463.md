@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-rule ontology, stated in god-mode) | The Federation's stolen Imperial Fleet guarantees secure shipping, and because of that guarantee its currency, the Skyfall Marks, is honored across the global economy; this states how the system works and why | The stolen Imperial Fleet guarantees secure shipping, thus the Skyfall Marks are honored across the global economy | outside
+- goals:
+- whole: The note states in a single causal rule how the Skyfall Trade Federation works: a stolen fleet secures shipping, and that security is why its Marks are accepted worldwide.

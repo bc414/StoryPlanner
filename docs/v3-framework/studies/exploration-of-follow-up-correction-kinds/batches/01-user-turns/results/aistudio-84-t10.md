@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model defined the 6th Element Magic straight from the user's own materialist lore (Applied Ambition) and presented it as the truth, without first grounding it in what Magic meant in Lauren Faust's fabula, which the user treats as the base to extrapolate from | asking what Magic meant in Faust's fabula, and how it extrapolates to the user's own | implicit, put as a plain question that redirects to the skipped source step, with no stated disagreement or reason
+- about: The user asks for Faust's original meaning of Magic first and then its extrapolation to their own fabula, redirecting the model away from its direct assertion of a materialist definition.

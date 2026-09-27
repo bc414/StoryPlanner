@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a parallel analysis of the American Right on the cynic versus resilient spectrum, using the same framework, without commenting on or disputing the model's analysis of the Left.

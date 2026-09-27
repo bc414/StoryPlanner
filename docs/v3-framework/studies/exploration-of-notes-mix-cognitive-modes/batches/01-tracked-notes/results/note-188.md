@@ -1,0 +1,5 @@
+- claims:
+  - History | Friedrich is a conscript who attacked Hans Kessel, reported as a fact of what happened in the world | A conscript who attacked Hans Kessel | no
+  - Canon | Fluttershy, the established source-material character, rehabilitates him, bringing her canon role into the story | Fluttershy rehabs | no
+- goals:
+- whole: The note gives a terse capsule of Friedrich's arc, an attacking conscript who is then rehabilitated by Fluttershy, and it names no order of appearances or reader experience.

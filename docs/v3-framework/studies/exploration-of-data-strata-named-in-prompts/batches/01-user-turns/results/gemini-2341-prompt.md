@@ -1,0 +1,4 @@
+- sources:
+  - the model's previous account of the 1st gen Royalist crews, that they keep their heads down and work because they are told to | treated as too dire and partly wrong; to be corrected by the author's clarification | it's not as dire as "they keep their heads down and work because they are told to" | referred-to
+- order:
+- about: The author corrects the model's account of the 1st gen Royalist crews and Dennis Discret's defection by stating how the crews' motives, pay, Coltbert's approach and the origin of new crews actually work.

@@ -1,0 +1,7 @@
+- claims:
+  - PageDesign | Bright Mac is shown speaking the backstory aloud in the scene, so the reader gets it through his dialogue | Bright Mac says how back then | yes
+  - History | In the past, jam and fruit sales were a zero-sum game between the Apple and Pear families, and that produced a feud | sales were a zero sum game, leading to a feud | no
+  - History | Every jam sale the Pears made was a sale the Apples lost | If the Pears sold more jam, the Apples missed those sales | no
+  - History | The families came to care more about the feud than about growing fruit | Their families cared more about the feud than growing fruit | no
+- goals:
+- whole: The note has a character tell, in dialogue, the in-universe history of how zero-sum sales set the Apple and Pear families feuding at the expense of their farming, with no stated reader effect.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up factual question about the weekly schedule pattern of flights from JFK to Beijing Capital Airport, without pointing at any source of data.

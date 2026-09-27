@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the classification examples to a new design question about what extra note metadata is worth adding, restating which changes are mandatory and asking for alternative terms for Verified, without disputing anything in the model's examples.

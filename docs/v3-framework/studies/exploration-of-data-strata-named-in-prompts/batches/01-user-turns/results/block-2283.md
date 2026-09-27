@@ -1,0 +1,5 @@
+- sources:
+  - db.md file | review it and analyze the prequel plan, Aquileia design and terms in it | review my db.md file | referred-to
+  - story plan (parts of it that are old artifacts or old thinking) | check against the thesis and flag parts that should be revised | old artifacts/thinking that should be revised to fit the thesis | referred-to
+- order:
+- about: The user asks the model to review their db.md file, analyze the prequel plan, Aquileia's design and the terms, and flag story-plan parts that are outdated and need revising to fit the thesis.

@@ -1,0 +1,4 @@
+- claims:
+  - History | reports, as hearsay from unnamed in-world speakers, that Applejack's parents were not good farmers | They say they were not good farmers | no
+- goals:
+- whole: The note gives a single in-world hearsay statement about Applejack's parents' poor farming, stated as reported fact rather than as staging of what appears on the page.

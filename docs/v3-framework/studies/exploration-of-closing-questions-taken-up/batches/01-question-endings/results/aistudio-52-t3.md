@@ -1,0 +1,8 @@
+- questions:
+  - If Caramel Marks lives to see the Great War, how does she take Stalliongrad, the purest form of her ideology, being destroyed by Chrysalis while the compromising Harmonic Capitalists hold the line? Does she have a crisis of faith or double down and call Stalliongrad not radical enough? | ignored | Says nothing about her reaction to the war or to Stalliongrad's fate. It moves to an earlier point in the timeline, her position in Skyfall and the revolt there. | none
+  - When the Equestrian Republic has to open relations with post-war Stalliongrad, how does its belief in Asset Specificity handle a treaty with a state whose founding document demands that belief's violent eradication? | ignored | Nothing on the Republic, Stalliongrad, treaties or post-war diplomacy. | none
+- shape: The user sets aside both open questions and supplies their own plot placement. Caramel Marks and Fire Angel are underground agitators in Skyfall throughout, they are present at the revolt in the chapter Ambition, and Harmonic Capitalism sidelines them. It works as a redirect that adds a concrete story fact, and it is a decision about the work itself.
+- settles:
+  - Caramel Marks and Fire Angel stay in Skyfall the whole time, running underground communist agitation | are in Skyfall the whole time, running underground communist agitation
+  - They are present when Skyfall revolts after its trade council refuses Equestria's blanket aid, in the chapter Ambition | there when Skyfall revolts after the trade council refuses the blanket aid
+  - Harmonic Capitalism completely sidelines them, so their agitation does not carry the revolt | harmonic capitalism completely sidelines them

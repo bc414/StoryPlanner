@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Her coat is light beige and her mane is hazelwood brown | She has a light beige coat and hazelwood brown mane | yes
+  - Characterization | She keeps her mane in two tight french braids so it stays clear of machinery, which shows she works around machines and is practical about it | wears her mane in two tight french braids so it doesn't interfere with machinery | yes
+  - Characterization | Her tail has a dark brown streak down the middle, which lines up with the split in the stock and foil | Her tail has a dark brown streak down the middle to line up with the split in the stock and foil | yes
+- goals:
+- whole: The note states as fact Tally Mark's coat, mane and tail coloring and how she wears her mane for work with machinery, which fixes who she is at the start of the story.

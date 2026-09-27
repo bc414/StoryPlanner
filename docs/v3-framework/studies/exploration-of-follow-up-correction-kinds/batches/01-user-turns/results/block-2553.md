@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - attribution of authorship | the model turn used the Position 1/2/3 scheme as if it were the user's own framework and a settled feature of their thinking, when the user says the model itself came up with it over several iterations | "I didn't invent the 3 positions, you did over a few iterations" | flat, brief statement of fact, made in passing as a lead-in to the next questions, without irritation
+- about: The user disowns authorship of the three-positions framework the model leaned on, then uses that as the starting point to ask the model to state what the positions fundamentally are, propose better labels, and say what they are positions about.

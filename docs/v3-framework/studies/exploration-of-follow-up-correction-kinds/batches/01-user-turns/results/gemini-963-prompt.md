@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's account of the tally sticks and asks a follow-up about how Chrysalis's shell companies and banks in Skyfall and New Mareland get around the bit standard, adding their own reading that Stagnation left Equestria exposed to the global debt economy even before the war.

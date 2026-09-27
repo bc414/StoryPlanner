@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the game-theory terminology as background and lays out their plan for mapping a predator's dilemma onto the Elements of Harmony, with three versions: war, tyranny and liberty. This adds new material and does not dispute anything the model said.

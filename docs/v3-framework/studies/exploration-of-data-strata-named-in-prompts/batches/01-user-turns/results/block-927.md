@@ -1,0 +1,4 @@
+- sources:
+  - the chapter 1 scene design the model just proposed | treated as the base draft to be kept and amended; the author adds changes on top of it rather than replacing it | Another enhancement | referred-to
+- order:
+- about: The user adds further changes to the proposed Chapter 1 battle scene: the crystal-heart shield set up and paid off through Tally Mark's logistics cheer, Mali comforting the reservist throughout, and Applejack's unspoken cynicism shown as mild dismissiveness toward Tally Mark in free indirect discourse.

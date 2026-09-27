@@ -1,0 +1,5 @@
+- questions:
+  - When Twilight learns Cadance's submission was a calculated political performance, how does she process that Cadance put political camouflage ahead of her psychological safety, and does she conclude that even good leaders treat friends as geopolitical collateral? | no user turn | none | none
+  - How does Shining Armor, a direct and transparent military commander, reconcile his duty as a brother with co-building the shadow state, and does he have a crisis of conscience over the dishonesty when Cadance strips herself of power and leaves Twilight holding the bomb? | no user turn | none | none
+- shape: none
+- settles:

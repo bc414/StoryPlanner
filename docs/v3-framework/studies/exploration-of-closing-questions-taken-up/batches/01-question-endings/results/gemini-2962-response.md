@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look up specific token pricing for Gemini 3.1 Pro and Flash so they can estimate how long the $10 credit would last? | ignored | The user turn asks about a different topic, the Google Cloud sign-up credits, and does not say yes or no to the pricing offer. | What about the credits given when first signing up for Google cloud?
+- shape: Redirects with a follow-up question about billing. The user asks whether the Google Cloud new-signup credits are another source of funds, alongside the monthly AI Pro credit the model described. It is a request for information and does not respond to the model's offer.
+- settles:

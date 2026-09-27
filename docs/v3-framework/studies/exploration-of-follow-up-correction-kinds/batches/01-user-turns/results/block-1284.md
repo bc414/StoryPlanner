@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the pony blueprint and asks a new research question about real Marxist leaders who changed their minds and whether vanguard elites knew they were elites, narrowing the scope to Lenin and Trotsky rather than Stalin.

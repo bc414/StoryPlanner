@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is reasoning through their note-tracking framework and asking the model for a big-picture analysis of which framework cells hold told versus shown content, and whether the reader-display cells should be split into separate tracks, without pointing the model at any body of material to use or avoid.

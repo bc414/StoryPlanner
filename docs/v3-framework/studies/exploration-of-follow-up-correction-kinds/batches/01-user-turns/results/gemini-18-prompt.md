@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the WWI German occupation of northeastern France to ask for the same kind of account for the Napoleonic wars, without disputing anything in the model's answer.

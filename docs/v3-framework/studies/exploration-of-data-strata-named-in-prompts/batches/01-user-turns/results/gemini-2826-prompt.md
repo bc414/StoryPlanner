@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user changes topic from story planning to ask for an analysis of how accurate or mistaken their own claims are about OpenAI adding an adult-content mode to ChatGPT, its profit motives, whether it will be paid, and how it compares to social media attention harvesting.

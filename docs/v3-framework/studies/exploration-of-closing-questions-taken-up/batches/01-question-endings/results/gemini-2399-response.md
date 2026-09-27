@@ -1,0 +1,4 @@
+- questions:
+  - Does Fluttershy, through her Cute Intelligence Agency investigation with the Buffalo, discover the extent of the Skyfall drug epidemic first, and so confront Applejack about poisoning griffons to save ponies? | no user turn | none | none
+- shape: none
+- settles:

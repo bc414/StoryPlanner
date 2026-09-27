@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a new story beat, that Applejack says she wants "world peace" and Celestia visibly flinches, without pointing at any body of source material.

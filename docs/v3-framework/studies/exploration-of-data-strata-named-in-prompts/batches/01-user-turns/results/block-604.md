@@ -1,0 +1,5 @@
+- sources:
+  - the data for one of my most bloated scenes | material the model is to analyze; the scene's data is the subject of the analysis and what the principles are applied to | Here is the data for one of my most bloated scenes | first-named
+  - the principles discussed | the framework from the earlier discussion in this conversation, to be used as the lens for the analysis and drawn on for examples | how to utilize the principles discussed | referred-to
+- order:
+- about: The user supplies the data for an overloaded Act 2 climax scene (Celestia declaring white peace) and asks the model to analyze it and give examples of applying the principles from the earlier discussion.

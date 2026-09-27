@@ -1,0 +1,5 @@
+- questions:
+  - How can Applejack and Comet Shine structure Star Energy's post-war economy so it mimics New Hollywood-style Asset Specificity rather than consolidating into a Disney/Chrysalis-style monopoly? | ignored | Nothing said about it; the user asks for background on the MCU instead. | none
+  - How do the Celestial Party loyalists defend the Nursery formula in the referendum debates, and what materialist arguments do they use to persuade traumatized refugees that predictability is safer? | ignored | Nothing said about the referendum or the loyalists' arguments. | none
+- shape: The user sets the model's questions aside and asks for background. They say they don't know the MCU because they skipped blockbusters over ticket cost. They ask for a history of it, whether the heroes began as self-contained stories, how they share a setting, and what Avengers is about. This is a request for information needed to follow the model's analogy. It is not an answer to the worldbuilding questions.
+- settles:

@@ -1,0 +1,6 @@
+- questions:
+  - How do Twilight and Fleur legally or culturally regulate crystal enhancers in peacetime, to prove Celestia's fear of local tyrants wrong? | ignored | Nothing on peacetime regulation or Celestia's fear; the user moves on to what the enhancer is made of. | none
+  - Does magical overheating from heavy enhancer use visibly change the color of the unicorn's magic, as a signal to the squad to cycle out? | ignored | Nothing on overheating, color change or squad signaling; the user asks about the material and how it is made. | none
+- shape: Redirects to a new topic. The user accepts the model's change from a plain crystal to a griffon-made composite, then asks the model to work out what that composite is like and how it is made. Neither consultant question is taken up.
+- settles:
+  - The enhancer worn around the horn is a composite material that griffons have to make, not a plain crystal as the user first imagined. | "having it be a composite material that griffons have to make is better"

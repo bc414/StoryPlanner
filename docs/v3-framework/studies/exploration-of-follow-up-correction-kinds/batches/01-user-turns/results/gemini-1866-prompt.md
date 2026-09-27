@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - your own name: scope and complexity of the proposed solution | the model's filtered design (more than 2 notes, top 5 only, fragmentation candidates) is set aside for an unfiltered list of all entities sorted by note character count | "let me just start really simple" and "sorts all the entities by character count in notes" | mildly, as a personal preference to simplify, with no explicit statement that the model was wrong
+  - register or format: form of the deliverable | the model gave a dashboard GroupBox list with a candidate model and an Open button, where the user wants a separate window with a collection view of cards that can be added to a screen | "a window" and "a collection view that can be in a card collection viewer and added to a screen" | in passing, as a restated request with a question about how to do it
+- about: The user scales back the model's fragmentation-filtered dashboard proposal and restates a simpler starting point: a window listing all entities sorted by note character count in a card collection view, and asks how to build it.

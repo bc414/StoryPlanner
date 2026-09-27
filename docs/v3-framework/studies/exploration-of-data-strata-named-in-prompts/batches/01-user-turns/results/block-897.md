@@ -1,0 +1,10 @@
+- sources:
+  - my TLTT story plans for the Crystal Empire (the existing plans for them) | analyze as the baseline and judge whether they still stand once the new material is added | analyze the existing plans for them | referred-to
+  - EaW in-game population of 12.6 million spread across the northern plains | treat as contradicting the lore and do not adopt it, since it would make the Crystal ponies too strong for Chrysalis | seems to contradict the lore | referred-to
+  - the lore (which also appears in game): Sombra gathered all crystal ponies in the Crystal City and made it vanish for 1000 years, return in 1003 ALB | treat as the true basis, and reconcile the population to it | lore (which also appears in game) | referred-to
+  - the 5 million in the Crystal City in game | adopt as the population figure, with perhaps a few settlements added in the 8 years before the war | should actually just be the 5 million in the Crystal City in game | referred-to
+  - the established analysis from this conversation | use as the standard the plans are checked against | still stand against the established the analysis from this conversation | referred-to
+  - the user's proposals in this message (return in 1003 ALB, hidden mobilization under Celestia's watch, tactical retreat like Blueblood, Crystal Heart shield, Changelings bypassing to Stalliongrad) | synthesize with the existing plans; offered as the user's current thinking and partly tentative | synthesize with the following | first-named
+- order:
+  - the lore (Sombra, the vanishing for 1000 years, return in 1003 ALB) | over EaW's 12.6 million population figure | seems to contradict the lore
+- about: The user asks the model to check the existing Crystal Empire plans against the conversation's established analysis, merge them with a revised proposal that cuts the in-game 12.6 million population to the 5 million in the Crystal City on the strength of the game's own lore, and explain the Crystal Empire's themes and allegories.

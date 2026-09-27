@@ -1,0 +1,8 @@
+- claims:
+  - NarrativeArchitecture | the reader discovers the fact about Applejack at a later point in reading order, after holding a prior assumption | The reader later learns that | yes
+  - Characterization | Applejack is in truth familiar with industry, having grown up with industrialist parents | Applejack IS familiar with industry | no
+  - Characterization | as a filly she deliberately rejected her parents' industrialism | she deliberately rejected her parents' industrialism as a filly | no
+  - Characterization | her simple farm life is a chosen stance, not ignorance or default | Her "simple farm life" is a deliberate choice | no
+- goals:
+  - The reader comes to believe that Applejack's farm life is an informed, deliberate choice rather than naivety about industry | WorldInference | The reader later learns that Applejack IS familiar with industry
+- whole: The note plans a later reveal that overturns the reader's trope-based assumption of Applejack as unworldly, by asserting the character truth that she knows industry and chose farm life deliberately.

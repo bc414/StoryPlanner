@@ -1,0 +1,4 @@
+- claims:
+  - span | Cadance was a pegasus, a kind of pony she was in earlier and no longer is | "As a pegasus" and the past tense "considered" | the pegasus phase of her life, the time before she is described otherwise; no date given
+  - span | During that time she took her special talent to be relationship counselling, a self-understanding she held then | "considered her special talent as being a relationship counselor" | the pegasus phase ("As a pegasus") and the past tense; no date or end given
+- beside: none

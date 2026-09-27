@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question extending the discussion to AI companies beyond the three big ones, without challenging anything the model said.

@@ -1,0 +1,5 @@
+- questions:
+  - If Flurry Heart's Alicorn physiology comes from fetal adaptation to extreme Charitostatic voltage, is Celestia's ascension of adult ponies a controlled, artificial version of the same irradiation, and how could she safely replicate a city-scale thermodynamic event in a lab? | no user turn | none | none
+  - How does Cadance, who knows the materialist truth about her daughter's biology, handle the Crystal Ponies' worship or fear of Flurry Heart as a divine blessing or omen? | no user turn | none | none
+- shape: none
+- settles:

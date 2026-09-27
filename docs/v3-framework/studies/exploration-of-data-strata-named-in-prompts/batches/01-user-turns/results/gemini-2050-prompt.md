@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks why a phrase about word order and pronouns shifting was used and why word order can shift, questioning the wording without pointing the model at any body of material to use or avoid.

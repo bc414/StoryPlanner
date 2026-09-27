@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the name of the theory that Earth's conditions suit life because life evolved there, adds the world's fixed-sun, no-natural-seasons premise, and decides from the model's nitrogen-and-seasons analysis to drop the cynical jobs-for-pegasi note about Celestia's seasons.

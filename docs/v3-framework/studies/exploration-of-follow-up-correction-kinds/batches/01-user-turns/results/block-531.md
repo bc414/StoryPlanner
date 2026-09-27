@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - craft principle asserted as general rule | The model's claim that a chapter must end in a forward-unstable state that makes continuing feel necessary; the user says their own practice and conclusion run the opposite way, with local resolution and a satisfied reader at chapter end | "I've actually historically come to the opposite conclusion" | stated as disagreement from personal experience, with a reason given (bad memories of cliffhanger-driven serialized fanfiction) and a tongue-in-cheek aside, softened by calling the definition interesting
+- about: The user pushes back on the model's forward-pressure chapter-ending rule by describing their own resolution-first practice and its origin, then asks what keeps readers returning in that mode and whether cliffhangers are fundamental or a product of attention and financial incentives.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the Academy's first phase admitted only 2nd Gen Royalist Griffons and Ponies, with serfs like Réni arriving later. The user says Réni (a Vinovian serf) and Minette (a house pony) were in the original cohort from the start and are the main pair the characters meet, though they don't fit the palace-brat demographic. | I believe the 2nd gen royalists are the majority, but Reni (Vinovian serf) and Minette (house pony) don't fit that demographic ... They were there from the start. | Stated flatly as a hedged belief ('I believe'), conceding that the model's demographic is true of the majority while giving the counterexample; repeated verbatim in two messages.
+- about: The user qualifies the model's claim of an exclusively Royalist founding cohort by saying the majority is Royalist but the two main original Chasseurs, Réni and Minette, were non-Royalists present from the start.

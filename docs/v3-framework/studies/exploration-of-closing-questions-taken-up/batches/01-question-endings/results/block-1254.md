@@ -1,0 +1,3 @@
+- questions:
+- shape: The user does not respond to the model's restatement of dramatic irony at all. They step back and give a new instruction: the term "third person limited" is carrying too much, so the model should lay out the separate, independent dimensions that together produce a prose delivery style. They want each component unpacked, the examples from this chat's review of their past stories used, and the narratological origins traced (Genette, Austen and others). It is a request for a teaching overview that redirects the conversation to terminology and framework.
+- settles:

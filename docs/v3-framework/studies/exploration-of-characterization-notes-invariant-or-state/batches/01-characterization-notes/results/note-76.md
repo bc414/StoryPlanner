@@ -1,0 +1,4 @@
+- claims:
+  - span | Pagala is the unofficial leader of the statthalters | "As the unofficial leader of the statthalters" | the start of TLTT, per the display question; no date or role-end given
+  - unfixed | She has slightly more long term planning than the rest of the statthalters | "slightly more long term planning than the rest" | none; present-tense comparison with the other statthalters, tied to her leading role but not dated
+- beside: none

@@ -1,0 +1,4 @@
+- sources:
+  - my story plan / my story plans | the model is to review them and draw from them to identify which elements lead to Chrysalis's scheme, and to check the user's proposed origin (Gerad Discret's gunpowder monopoly) against them | Please review my story plans | referred-to
+- order:
+- about: The user asks whether Chrysalis's slave-trade scheme grew out of Gerad Discret's gunpowder monopoly over the Aquileian warlords and her wish for bodies for pink love, and asks the model to review their story plans to find what other elements lead to it.

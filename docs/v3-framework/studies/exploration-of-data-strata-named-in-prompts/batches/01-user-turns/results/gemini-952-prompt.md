@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to continue its season-by-season breakdown of the TwiJack dynamic by covering the remaining seasons, without pointing at any body of material to use or avoid.

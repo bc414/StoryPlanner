@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend the previous comparison of structural peers to non-fantasy stories with the same kind of narrative setup, without pointing at any particular body of material.

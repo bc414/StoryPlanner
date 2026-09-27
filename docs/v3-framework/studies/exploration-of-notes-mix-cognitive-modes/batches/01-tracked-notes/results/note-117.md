@@ -1,0 +1,4 @@
+- claims:
+  - History | After Apple Bloom's birth, the couple got the chance to go to Skyfall to learn about industry in a seminar hosted by Gilded Lily, the greatest Equestrian tycoon there | After Apple Bloom was born, they got the opportunity to go to Skyfall ... seminar hosted by Gilded Lily | yes
+- goals:
+- whole: The note reports, as an in-world historical fact, that after Apple Bloom's birth Bright Mac and Pear Butter got to attend an industry seminar in Skyfall hosted by the tycoon Gilded Lily.

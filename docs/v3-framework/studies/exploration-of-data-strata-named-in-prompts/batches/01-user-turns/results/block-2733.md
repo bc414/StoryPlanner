@@ -1,0 +1,6 @@
+- sources:
+  - the three layers of Faust's original design | the model's earlier analysis is taken as the framework; the user asks the model to confirm whether later production reduced it to the first layer | flattened the three layers of Faust's original design into just the first layer | referred-to
+  - the show's production course (Hasbro and the new writers, the school of friendship, the cutie map) | treated as the evidence for the claim; the model is asked to judge whether the later show kept only the mandate-compliant layer | during the show's production course, Hasbro and the new writers flattened | referred-to
+  - my story (the EaW setting version) | the author's own plan, said to make the flattened elements true in universe, separate Faust's design from the mandate and show a grown-up version; the model is asked to confirm this description | my story makes all of that true in universe and dissects the original Faust design | referred-to
+- order:
+- about: The user asks the model to confirm a summary of the previous analysis: that later show production reduced Faust's three-layer design to the mandate layer alone, and that their story makes that reduction true in-universe while separating Faust's design from the mandate in a grown-up EaW setting.

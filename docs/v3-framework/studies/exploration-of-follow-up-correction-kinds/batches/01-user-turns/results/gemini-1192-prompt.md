@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only a note that a large plan export was attached, with no written message, so it says nothing for or against the model's summary of the two fuel-tech models.

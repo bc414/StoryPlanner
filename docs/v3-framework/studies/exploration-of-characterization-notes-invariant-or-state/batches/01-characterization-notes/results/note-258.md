@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | Eros has little love for the nobility of the Empire | "has little love for the nobility of the Empire" (present tense, no time marker) | none
+  - unfixed | Eros believes the nobility are responsible for every misfortune that has plagued the Heartlands | "believing them to be responsible for every misfortune" | none; the note sits under the question of who he is at the start of TLTT, but no date or phase is stated in its own words
+- beside: Backstory note dated 1007 speaks of the same attitude in action: he declares the traitorous noble industrialists heretics, executes them and redistributes their wealth. It shows hostility toward nobles at that date, but it does not state the belief that they caused every misfortune. The other notes (birth 914, saving young Grover V 978, sparing Eagleclaw 1007) do not speak of it.

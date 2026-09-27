@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the next published chapter of Pax Chrysalia and asks the model to extend its earlier analysis from where "It's Me" left off, without disputing anything the model said.

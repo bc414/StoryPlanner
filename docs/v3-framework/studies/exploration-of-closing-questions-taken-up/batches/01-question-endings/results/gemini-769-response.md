@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore other ways to maintain focus during long sessions of deep work? | ignored | Says nothing about focus techniques or deep work. Asks instead whether their user profile explains why the model picked coding and writing as examples. | Is there something in my user profile that correlates to those specific examples being chosen?
+- shape: Redirects. The user drops the offered next topic and asks about the model's own reasoning, specifically whether stored profile information about them led to the coding and writing examples. It probes the model's personalization and does not answer its offer.
+- settles:

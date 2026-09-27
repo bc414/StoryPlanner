@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to start the full assignment pass now? | ignored | The user turn doesn't say whether to begin. It asks a new conceptual question about how to tell whether the set of axes is too large or too small. | none
+- shape: Redirects to a follow-up conceptual question. Taking the model's independent-but-correlated framing as a premise, the user asks how to judge whether there are too many or too few axes. The user is still working out the method and hasn't moved on to the assignment work.
+- settles:

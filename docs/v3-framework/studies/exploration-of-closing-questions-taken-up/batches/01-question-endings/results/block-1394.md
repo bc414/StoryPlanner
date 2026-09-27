@@ -1,0 +1,5 @@
+- questions:
+  - How does the narrative structurally guarantee Applejack, as President wielding Star Energy and the state, doesn't become a benevolent absolute dictator like Chairwoman Kang and keeps the Republic's democratic friction? | ignored | The user turn says nothing about it and moves to a different drama. | none
+  - What are the immediate chaotic physiological or societal side effects of the Love Drop's sudden Pink Love abundance on Vesalipolis drones, and how does the Republic handle the mass withdrawal? | ignored | The user turn says nothing about it and moves to a different drama. | none
+- shape: Drops the model's two follow-up questions and redirects to a new comparison case, asking the same kind of analysis for another Korean drama (Descendants of the Sun), following the pattern of the Itaewon Class and Boys Over Flowers comparisons. It is a short prompt with no answer or correction.
+- settles:

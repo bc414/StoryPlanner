@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's mapping of the moral-preaching pattern onto the story's characters (Aquileia and Coltbert rather than Celestia) and directs that the story treat the professional class's advice as true but insufficient, so that the cooperation-beats-extraction thesis is tested against that nuance.

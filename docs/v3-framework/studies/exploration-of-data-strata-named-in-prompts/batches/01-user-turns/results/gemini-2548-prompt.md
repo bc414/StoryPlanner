@@ -1,0 +1,5 @@
+- sources:
+  - History codex entries | describes them as separate eras; not the material the ordering is about, so the model should not treat them as what needs sequencing | The History codex entries are different eras | referred-to
+  - backstory codex entries | the material to be ordered: plotlines of varying length all inside the single era just before the main plot, with characters who appear in the main plot | the backstory codex entries all occur within the immediate preceding era | referred-to
+- order:
+- about: The user corrects the model's assumption by saying the ordering problem concerns parallel backstory plotlines of varying length within one pre-story era, not the sequence of History eras.

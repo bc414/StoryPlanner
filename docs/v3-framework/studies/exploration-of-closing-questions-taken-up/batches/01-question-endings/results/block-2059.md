@@ -1,0 +1,4 @@
+- questions:
+- shape: The user turn puts no question of the model's to rest, because the model asked none. It reacts to the romantasy discussion with its own view: commercial romantasy is commercialization and tropes that have taken over an underserved audience. It gives a personal reading history of opposites-attract MLP pairings from 2010-2014, and says it wants romance to serve the materialist plot. It then moves to a new set of questions about the gender skew of fanfiction and fantasy audiences, how that relates to romantasy, and whether LOTR, Harry Potter and Sanderson count as noblebright.
+- settles:
+  - Romance in the planned work should serve the materialist plot, not the reverse. This is a stated preference about the work's structure. | "wanted it to serve the materialist plot rather than the other way around"

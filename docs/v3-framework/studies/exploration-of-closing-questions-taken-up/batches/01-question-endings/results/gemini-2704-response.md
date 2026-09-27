@@ -1,0 +1,5 @@
+- questions:
+  - Does Twilight have a Eureka moment watching a Griffon hammer metal, realizing Griffon pride is the property needed to stabilize her crystals? | no user turn | none | none
+  - When the enhancer is activated in combat, does it emit a distinct mechanical whine or hum that sets it apart from silent traditional Equestrian casting? | no user turn | none | none
+- shape: none
+- settles:

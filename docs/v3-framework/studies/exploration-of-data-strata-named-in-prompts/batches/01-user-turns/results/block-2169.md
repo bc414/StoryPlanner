@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user settles on Rainbow Dash's third-person limited point of view for the scene and gives thematic reasons: Alouette's found-family backstory mirrors Rainbow's liberty, and the pegasus peers' air-show ego explains Rainbow's showboating.

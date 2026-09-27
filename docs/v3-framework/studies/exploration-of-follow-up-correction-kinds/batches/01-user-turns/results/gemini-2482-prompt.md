@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out again their view of Starlight Glimmer (the Chasseur protocol, the Caramel Marks misreading, the EEEE! union, the subversion of the P&K trope) and asks for a fresh review and updated synthesis of their story plans, without saying anything in the previous reply was wrong.

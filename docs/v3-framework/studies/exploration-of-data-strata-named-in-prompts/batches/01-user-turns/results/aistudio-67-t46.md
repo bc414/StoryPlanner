@@ -1,0 +1,6 @@
+- sources:
+  - the old story plans (the 1,000-year stagnation version of Celestia and the Tree) | keep their spirit as the characters' and readers' initial, default perception of Celestia, while the revised timeline is the underlying reality uncovered in layers; a perceived layer, not the truth | the spirit of the old story plans should be preserved as the initial perception | referred-to
+  - canon FiM lore and Hasbro Mandates | material the Tree of Harmony design was built to explain, and Tree deterrence of Discord, Nightmare Moon and Tirek still works with it; its portrayal of Celestia is what the author does not want to imitate | developed as a means to explain the canon lore and Hasbro Mandates | referred-to
+  - canon FiM and grimdark iterations of EaW (as portrayals of Celestia) | contrast cases to avoid; the author wants a more empathizable Celestia than these give | unlike in canon FiM or grimdark iterations of EaW | referred-to
+- order:
+- about: The user accepts the audit's loss of Celestia's mythic weight as a benefit, argues for a more empathizable reactionary-politician Celestia whose old-plan image survives only as initial perception, and works through revised details (pioneers as a minority, majority buy-in, Luna's guilt, Celestia's cautious stance until 930 ALB) while asking the model whether they are plausible.

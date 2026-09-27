@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's chapter numbering and sequence: it put the Tzinacatl/Mali material in Chapter 11 in places, then gave a revised flow with different chapter contents (Momentum, Encirclement, Victory). The user says the Tzinacatl are chapter 10 and chapter 11 is the Manehattan visit, so the real outline differs. | Some clarification: chapter 10 is about the Tzinacatl. Chapter 11 I am planning on making it | Mild and flat. It is framed as a 'clarification' rather than a disagreement, and the user then lays out the actual chapter plan without saying what was wrong.
+- about: The user restates where the Tzinacatl chapter and the following chapters actually sit in their outline, then gives the rest of the plan (chapters 11 to 17) and asks for thoughts on redundancy, splitting chapters, and avoiding repetition and scope creep.

@@ -1,0 +1,5 @@
+- questions:
+  - How should the Equestrian or Aquileian liberators break the Changeling spell over Olenia? | no user turn | none | none
+  - Does the user want to brainstorm a specific scene where an Olenian buck and doe realize Pagala is playing them and turn their combined Asset Specificity against the Statthalters? | no user turn | none | none
+- shape: none
+- settles:

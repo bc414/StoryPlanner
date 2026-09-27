@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Fabula/Syuzhet mapping onto software engineering as given and extends it with a new request for analysis of marketing that drew money-motivated students into CS, plus a further question about whether an earnest learner can build first principles using AI tools.

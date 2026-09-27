@@ -1,0 +1,6 @@
+- sources:
+  - Gemini in AI Studio, as the user has observed it (full 1 million context window, token counter showing 490k) | treat as the user's firsthand observation and the baseline to compare against; it shows full context use | Gemini in AI Studio uses the full 1 million context window and displays how many tokens you are at | first-named
+  - Gemini consumer app, as the user has observed it (pop up saying the file may be too large) | treat as the user's firsthand evidence that the app does retrieval and truncation well below the context limit | I get a pop up saying "your file may be too large for the best results" which signals rag and truncation | first-named
+  - the story bible pasted into both apps | the same test material used in both apps, held constant so the two can be compared | When I paste that same story bible | referred-to
+- order:
+- about: The user, drawing on their own side-by-side observations of Gemini in AI Studio versus the Gemini consumer app with the same story bible, asks whether the Claude consumer app behaves like either one when handling a large document.

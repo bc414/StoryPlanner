@@ -1,0 +1,6 @@
+- sources:
+  - these 7 axes | the set under question; the model is asked whether it is complete or has more axes than the seven listed | Are these the only 7 axes or are there more? | referred-to
+  - formal literary theory | outside body of knowledge to check the axes' origin against, to say whether they derive from it | Do they come from formal literary theory? | first-named
+  - the metrics | the existing narrative metrics, to be compared with the axes for overlap or mapping | Do they overlap with or map to the metrics? | referred-to
+- order:
+- about: The user asks three follow-up questions about the seven worldbuilding axes just listed: whether the set is complete, whether it comes from formal literary theory, and how it relates to the narrative metrics.

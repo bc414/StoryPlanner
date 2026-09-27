@@ -1,0 +1,4 @@
+- sources:
+  - Camp Fluttershy | use as the template for the proposed change: the model is asked to judge whether the EEEE! meeting hall complex should be made into a POW rehab center like it | just like Camp Fluttershy | referred-to
+- order:
+- about: The user asks the model whether their story's organization EEEE! should convert its original parloir meeting hall complex into a POW rehab center modeled on Camp Fluttershy, and gives their own reason that parloirs are about empathy and that is in the organization's name.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turns away from the fabula's Resilience-versus-Cynicism framework to ask new questions about George R.R. Martin's generation, whether he saw reality or fell through the cracks, and who reads ASOIAF today, without saying the model turn was wrong.

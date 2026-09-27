@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new task, asking the model to review their NotebookLM material about how they arrived at their current approach and to relate it to the writing-with-AI divide and public perception, without saying anything in the previous answer was wrong.

@@ -1,0 +1,6 @@
+- questions:
+  - Which flavor of mockery for the redeemable griffons (Housecats, Pinfeathers/Molters, Cubs, or Sauvageons) feels most natural to how the Aquileian ponies speak? | answered | Picks Sauvageon as the term, calling it great. Also stays interested in the molting/pinfeather idea and asks for French versions of it. | Sauvageon seems to be great
+- shape: Picks one of the offered terms, adds a world fact that bears on another option (griffons already call their young cubs), and then asks for more work: French equivalents of the molter/pinfeather idea, with an analysis of the options.
+- settles:
+  - The redeemable griffons will be called Sauvageon(s), the Aquileian-coded term | Sauvageon seems to be great
+  - Griffons call their young 'cubs', in the same way ponies call their young 'foals' | the griffons call their young "cubs" like how ponies call their young "foals"

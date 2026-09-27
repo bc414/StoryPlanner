@@ -1,0 +1,4 @@
+- claims:
+  - Canon | Twilight eventually demonstrates, as the source material's own lesson, that any unicorn can cast any spell through practice and self-belief, which undercuts the technology's necessity | But eventually Twilight proves any unicorn can cast any spell if they practice and believe in themselves | no
+- goals:
+- whole: The note places, late in story order, the canon fact that Twilight proves any unicorn can cast any spell through practice and belief, as a turn against the Crystal Enhancer, without saying how the reader should feel about it.

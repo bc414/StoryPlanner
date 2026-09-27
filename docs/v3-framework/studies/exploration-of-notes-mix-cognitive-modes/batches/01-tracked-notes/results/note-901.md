@@ -1,0 +1,5 @@
+- claims:
+  - Allegories | The technology stands for modern authoritarian-leftists who idolize the brutalist aesthetics, price controls and purges of historical regimes while ignoring what those regimes cost or came from | modern authoritarian-leftists often idolize the brutalist aesthetics, price controls, and purges | yes
+  - Analogies | The historical regimes such as the USSR are the real-world model, and they were forged in civil war and famine, a context the idolizers leave out | historical regimes (like the USSR) ... forged in the apocalyptic fires of civil war and famine | no
+- goals:
+- whole: The note names a present-day real-world group, authoritarian-leftists who idolize Soviet-style aesthetics, price controls and purges while ignoring the civil war and famine those regimes came from, as what the fantasy technology stands for.

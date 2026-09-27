@@ -1,0 +1,4 @@
+- questions:
+  - When a note is flagged as needing further analysis, what is usually the missing piece: economic justification, magical mechanics, or historical precedent? | ignored | The user turn does not say what the flagged notes are usually missing. It moves on to proposing an order for the work. | none
+- shape: Redirects from the model's question to the user's own proposed order of work. The user offers a layered sequence (materialist baseline and themes first, then breadth, then character development and plot threads) and asks the model to confirm it. It is a proposal put as a question, not an answer to the model's question and not a firm instruction.
+- settles:

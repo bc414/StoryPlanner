@@ -1,0 +1,6 @@
+- sources:
+  - the reality of the actual Aztec Flower Wars | the model is to compare the story's Flower Wars traditions against the real historical practice, using its own historical knowledge as the reference | Please compare this to the reality of the actual Aztec Flower Wars | first-named
+  - the "pacifist" framing (of the tribe) | treat as outdated, or as true only of the period after the burning; not a description of the warrior tribes before it | either outdated or it is only descriptive of post burning | referred-to
+  - the in-game start of the changeling Equestria war (1011) | use as the fixed anchor for the present day, from which Mali's 980 birth year and the Mane 6's age of 31 follow | typically starts in 1011 in-game | referred-to
+- order:
+- about: The user refines Mali's backstory with their own reasoning (a hollow warrior upbringing, a 980 birth year, a 993 burning, and the years of failed unity work before she left), and asks the model to compare the story's Flower Wars with the real Aztec ones and to say whether warrior-then-isolationist should define the Tzinacatl tribes.

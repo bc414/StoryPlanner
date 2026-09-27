@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user abruptly leaves the story discussion to ask an unrelated practical question about identifying a physical connector whose other end is USB-C, naming no source of data.

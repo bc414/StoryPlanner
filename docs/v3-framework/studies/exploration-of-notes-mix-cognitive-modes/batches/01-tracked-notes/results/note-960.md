@@ -1,0 +1,7 @@
+- claims:
+  - NarrativeArchitecture | plans the first beat of the reader's experience: Harmonic Capitalism is presented to the reader as controlled industrial ambition serving society's mutual benefit | First we sell them Harmonic Capitalism as controlled industrial ambition for society's mutual benefit | yes
+  - NarrativeArchitecture | plans the second beat, after the first: Aquileian Passion is presented as controlled sexual ambition serving mutual personal benefit, so the bond echoes the earlier idea in order | Then we sell them Aquileian Passion as controlled sexual ambition for mutual personal benefit | yes
+- goals:
+  - The reader is to accept Harmonic Capitalism as controlled industrial ambition that benefits society mutually | ThematicEvidence | we sell them Harmonic Capitalism as controlled industrial ambition for society's mutual benefit
+  - The reader is to accept Aquileian Passion as controlled sexual ambition that benefits both people, on the pattern of the first idea | ThematicEvidence | Then we sell them Aquileian Passion as controlled sexual ambition for mutual personal benefit
+- whole: The note sets the order in which the reader is led to accept two parallel ideas, Harmonic Capitalism and then Aquileian Passion, each as controlled ambition for mutual benefit.

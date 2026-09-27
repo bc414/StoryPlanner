@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual question about whether another leader nicknamed "king of the castle", with a name beginning in "I", existed, without pointing the model at any particular body of material.

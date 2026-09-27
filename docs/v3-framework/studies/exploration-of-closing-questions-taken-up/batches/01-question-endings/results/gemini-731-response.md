@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to create a Revision Checklist note or list for tracking changes made in the app based on NotebookLM feedback? | ignored | Nothing about the checklist; the user asks a separate practical question about whether old JSON versions must be deleted or can stay in NotebookLM. | Do I need to delete old versions or can I just leave them there?
+- shape: Redirects to a new practical question about the tool workflow (whether old uploaded versions must be deleted), following up on the model's delete-and-re-upload advice and leaving the offered checklist unmentioned.
+- settles:

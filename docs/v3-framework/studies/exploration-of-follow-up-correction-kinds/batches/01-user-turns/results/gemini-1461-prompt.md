@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's supply-network and siege framing and asks whether it resembles the Berlin Airlift, how to draw on it, and what other real-world parallels exist, such as leaflet drops in Korea and Iraq, so it extends the discussion without disputing anything.

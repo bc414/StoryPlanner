@@ -1,0 +1,4 @@
+- sources:
+  - the source | treat its text as fixed: the model's reduction suggestions must not cut text from it or lose its meaning | without losing semantic meaning or cutting out text from the source | referred-to
+- order:
+- about: The user asks for further ways to shrink the character count of their prompt because they are hitting limits, on the condition that no meaning is lost and no text is removed from the source.

@@ -1,0 +1,8 @@
+- sources:
+  - the Changeling Trident from the previous proposal | drop it, do not use it | We can ditch the trident | referred-to
+  - Ahuizotl's warning | keep as settled and sufficient to turn Blueblood from investigation toward building and leading an army | Ahuizotl's warning is enough | referred-to
+  - established trajectories of the backstories and main story requirements | new ideas must fit with and enhance these and not take anything away from them | enhance and not take away from established trajectories | referred-to
+  - Kemmerich's and Meyer's defection histories as the author states them (Kemmerich a true-believer defector to the Griffonian Republic; Meyer defector to the Republic, then Haukland pirate, then Discret's Royal Aquileian Fleet) | treat as given facts to build the scenes on | Kemmerich defected to the Griffonian Republic as a true believer | referred-to
+  - a shared Imperial-officer history between Kemmerich and Mudbeak | provisional suggestion offered for the model to evaluate, not settled | Perhaps Theodore Kemmerich and Mudbeak can have a shared history | first-named
+- order:
+- about: The author drops the trident, accepts Ahuizotl's warning as Blueblood's turning point, and asks the model to brainstorm 1006 Defense of Mount Aris interactions among Blueblood, Mudbeak, the Mane 6, the Republicans, the Aquileians, Kemmerich and Meyer, and what those interactions achieve for theme and arc.

@@ -1,0 +1,12 @@
+- sources:
+  - TheLionessOfTallTale.db.md (the attached document on TLTT) | main body of material to draw on for the analysis of how TLTT subverts P&K and ASOIAF; long, so to be read in a planned order | "The document is long and is arranged with subject notes first and then scene notes second" | first-named
+  - the section about themes (in the document) | read first, and use what it says to decide which scenes to look up | "Start by reading the section about themes" | first-named
+  - scene notes (in the document) | search these second for specific scenes that help the analysis, guided by the themes | "use that info to search for specific scenes that would be helpful" | first-named
+  - other subjects the scenes are connected to (subject notes in the document) | optional extra material to follow up from scenes, possibly helpful | "Scenes are connected to other subjects which may be helpful too" | first-named
+  - P&K | the work TLTT began as a fork of and departs from; the model is to analyse how TLTT subverts it, drawing on its reading of P&K from earlier | "started as a \"fork\" of P&K where Applejack decides not to collaborate" | referred-to
+  - ASOIAF | the genre and work to compare against; the author has not read it, so the model supplies what it knows of it and argues TLTT subverts its conventions by way of P&K | "unknowingly subverted ASOIAF and its genre conventions despite not having read ASOIAF" | referred-to
+  - FiM and EaW | the published show and the Equestria at War material that TLTT reinterprets, as context for the story's approach | "rigorous materialist historicist interpretation of FiM and EaW" | referred-to
+  - the author's own statement of TLTT's theme, magic system and tone (given in this message from memory) | treat as the author's stated framing of the story: cooperation and conscience beat extraction, magic is measurable physics, friendship is literal magic, hopepunk not grimdark | "the central theme is the grown up version of Faust's original theme" | first-named
+- order:
+  - the section about themes over scene notes | themes are read first, then used to pick out scenes | "Start by reading the section about themes and then use that info to search for specific scenes"
+- about: The user attaches their TLTT planning document and asks for an analysis of how their story subverts P&K and, through it, ASOIAF's genre conventions, telling the model to read the themes section first and then look up relevant scenes and connected subjects.

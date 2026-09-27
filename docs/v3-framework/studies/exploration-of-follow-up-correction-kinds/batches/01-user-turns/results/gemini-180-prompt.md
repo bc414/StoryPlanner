@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the Elements of Harmony are gone and that this is why Celestia is straining to hold the sun and solar system up; the user says the Elements are the Mane 6, and only the Luna-purifying magic is unusable for war, and that none of this should bear on her power or on diverting magic to the sun | "which they aren't, the elements are the mane 6" | flat correction with the right version supplied in a parenthetical, and a reason given for why the link shouldn't exist
+  - fact of the world | The model had Celestia packing the archives in Manehattan to save Equestria's memory; the user says she is looking into the factory smog and raising the sun, in shock | "Celestia is not packing up archives while in Manehattan" | flat denial followed by the correct scene, stated as settled fact with no softening
+- about: The user pushes back on two story details the model got wrong (the Elements being gone and Celestia packing archives), then uses this to ask whether her power strain is better handled as plain shock and trauma or as speculated harmony-linked burden.

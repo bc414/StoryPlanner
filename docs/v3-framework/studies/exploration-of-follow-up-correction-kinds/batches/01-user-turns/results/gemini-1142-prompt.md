@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user floats an alternative staging for the burial scene, with Mali and Tally Mark present until one is hurt and the other takes them to the bunker, and asks a new question about whether Applejack's radio should still work while she is buried and Henri tells her to stay put.

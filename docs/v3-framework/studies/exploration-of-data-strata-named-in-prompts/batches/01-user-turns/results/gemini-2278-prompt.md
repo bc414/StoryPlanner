@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets aside the story discussion to ask a general factual question about how fighter planes aim their guns and what ammunition they carry.

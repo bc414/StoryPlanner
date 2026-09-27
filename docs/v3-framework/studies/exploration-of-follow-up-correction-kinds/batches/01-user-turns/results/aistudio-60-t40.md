@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a new worldbuilding idea, that the emotion-filtering unicorns called themselves crystallers, and asks how it compares to the canon use of the word in The Crystalling and to Sunburst's role, without challenging anything the model said.

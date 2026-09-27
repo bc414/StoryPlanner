@@ -1,0 +1,7 @@
+- questions:
+  - Do the Aquileians or Equestrians actively recruit or exploit Griffon engineers to build their factory assembly lines? | no user turn | none | none
+  - Does the Tzinacatl Cartel avoid selling into the Equestrian heartland so as not to wake Celestia, exporting only to Griffonia and Skyfall in a mutual blind-eye arrangement? | no user turn | none | none
+  - How does Chrysalis react when her extractive technology is turned against her as a voluntary, consent-based power source? | no user turn | none | none
+  - Does the user want a final stress-test of a specific chapter's sequence of events (such as the Chapter 9 Buffalo Town Hall or Twilight's mid-war breakthrough), or to move on to another aspect of the lore? | no user turn | none | none
+- shape: none
+- settles:

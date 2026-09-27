@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's brand-eclipse synthesis, restates it with a city parallel, adds a new worldbuilding detail about wine-tasting seals, and asks a new sequencing question about whether the seal swap or Discret's crackdown comes first.

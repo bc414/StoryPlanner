@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user, working through a planned story change that moves Rarity to the jungle, asks how to keep Applejack unaware of the sexual-liberty side of Aquileian culture and whether to present the parloirs as strictly luxury social clubs, without pointing the model at any body of material.

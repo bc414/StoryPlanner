@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the Idol of Boreas parallel in their own terms, adds that the stamp and ink principles later lead to the Griffonian Republic's universal translator, and asks for a thematic analysis drawn from their story plans and notebook material.

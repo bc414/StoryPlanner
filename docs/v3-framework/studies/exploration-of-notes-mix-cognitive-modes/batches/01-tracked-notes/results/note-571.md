@@ -1,0 +1,4 @@
+- claims:
+  - Canon | identifies the kinds of spells in the Canterlot Archives as those featured in the source episode It's About Time, tying the scene to established canon | These are the kinds of spells in the Canterlot Archives featured in It's About Time | no
+- goals:
+- whole: The note anchors the scene's Canterlot Archives spells to what the canon episode It's About Time showed, and it names no inference for the reader to draw.

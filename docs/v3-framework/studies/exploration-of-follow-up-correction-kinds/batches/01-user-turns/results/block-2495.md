@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes splitting chapter 9 so a new chapter 10 holding the harmonic capitalism thesis is titled Conscience, reversing their earlier decision to keep the sixth element out of chapter titles, and asks for an analysis, with a pointer to reread the planner file if needed.

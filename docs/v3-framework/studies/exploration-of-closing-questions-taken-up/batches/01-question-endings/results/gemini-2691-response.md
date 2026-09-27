@@ -1,0 +1,11 @@
+- questions:
+  - Who is the boots-on-the-ground character who helps Applejack break the Olenians' psychological spell when the liberators land? | ignored | The user turn never names or describes such a character. It only says the ordinary Olenians have no champion and no ability to organize. | none
+  - Should a new grassroots Olenian character be created, an exhausted ordinary worker who rejects both Johan and Velvet, to voice the underclass? | ignored | The user turn neither accepts nor declines the character. It goes on to restate the themes and asks for an analysis and a review of the plans. | none
+- shape: The user turn does not answer the model's question. It restates the synthesis as a list of decisions (the corporate-feminism replacement, the changeling and Olenian roles, the collaborators). It then gives an instruction: analyze it and review the existing story plans for details that need changing or strengthening.
+- settles:
+  - The generic motive of Changelings occupying Olenia to collect love taxes to pay MEFO bills is replaced by a thematic payload about corporate feminism and how it does not fix the rat race. | I will be replacing the generic ... with a thematic payload about corporate feminism
+  - For the changelings, MEFO bills are life-or-death 401ks. | The MEFO bills for changelings are life or death 401ks
+  - Changelings are corporate predators, sanitized and financialized, and not solely starving bugs or bug Nazis. | they are corporate predators (sanitized, fianancialized predation)
+  - Olenians are the misled underclass of the rat race. This is why they do not revolt and must be liberated, and they police themselves or help the changelings police. | Olenians are simply the misled underclass of the rat race
+  - Both Johan and Velvet are collaborators. | Both Johan and Velvet are collaborators
+  - The ordinary buck and doe work 80 hours a week and are drained by love taxes. They are desperate, with no champion and no ability to organize. | working 80 hours a week and getting drained by love taxes but no champion

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user extends and corrects the worldbuilding of EEEE!, Flowing Current, Skyfall IP enforcement, the Manehattan parloirs, the mayor and Aquileian currency, and asks whether EEEE! being a machinists guild follows materially from the setup and lets it mobilize all of Manehattan industry.

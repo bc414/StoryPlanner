@@ -15,7 +15,7 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 
 - type: exploration
 - artifacts present: directions (2) definition (2) index (2) items (2) calls (2) results (2)
-- batches: 01-chapters [-, directions-1, executing (24/1116)] 02-chapters-directions-2 [-, directions-2, executing (602/1116)]
+- batches: 01-chapters [-, directions-1, executing (24/1116)] 02-chapters-directions-2 [-, directions-2, executing (802/1116)]
 - furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
 
 ### exploration-of-humor-warmth-prior-belief-setups
@@ -24,6 +24,132 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - artifacts present: directions (3) definition (3) index (3) items (3) calls (3) results (3) tally leads
 - batches: 01-tltt-plot-points [-, directions-1, executing (54/379)] 02-tltt-plot-points-directions-2 [-, directions-2, executing (20/379)] 03-tltt-plot-points-directions-3 [-, directions-3, tallied]
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-v1-theme-commentaries-content
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-theme-commentaries [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-characterization-notes-invariant-or-state
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-characterization-notes [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-working-plan-theme-notes-content
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-theme-tagged-notes [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-v1-subject-notes-as-scene-sequences
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-archive-subjects [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-v1-scene-notes-content-kinds
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-tltt-plot-points [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-tltt-plot-points [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-v1-seed-and-withholding-directives
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-tltt-plot-points [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-notes-mix-cognitive-modes
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-tracked-notes [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-working-plan-note-relationships-in-prose
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-owners [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-narrator-register-or-focalizer-voice
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-own-fiction-chapters [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-v1-archive-note-relationships-in-prose
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-tltt-plot-points [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-closing-questions-taken-up
+
+- type: exploration
+- artifacts present: directions definition index items calls results leads
+- batches: 01-question-endings [-, directions-1, executing (1617/1619)]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-data-strata-named-in-prompts
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-user-turns [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-follow-up-correction-kinds
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-user-turns [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-decisions-against-assistant-leans
+
+- type: exploration
+- artifacts present: directions definition index items calls results tally leads
+- batches: 01-session-decisions [-, directions-1, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-own-voice-registers-mixed
+
+- type: exploration
+- artifacts present: directions definition index items calls results
+- batches: 01-own-voice-loci [-, directions-1, executing (633/641)]
+- furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
+
+### exploration-of-prompts-behind-copied-responses
+
+- type: exploration
+- artifacts present: directions definition index items calls results
+- batches: 01-lineage-prompts [-, directions-1, executing (662/3934)]
+- furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
+
+### exploration-of-v1-analysis-loop-pattern
+
+- type: exploration
+- artifacts present: directions definition index items calls results
+- batches: 01-lineage-threads [-, directions-1, executing (746/909)]
+- furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
 
 ## Iterations
 

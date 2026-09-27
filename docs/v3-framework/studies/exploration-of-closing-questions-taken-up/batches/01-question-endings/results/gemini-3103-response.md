@@ -1,0 +1,6 @@
+- questions:
+  - How does the Sonic Rainboom giving all six their Cutie Marks at once fit your hard-magic physics, and is it a rupture in the magical vector space that triggered their Asset Specificity early? | no user turn | none | none
+  - What is going on in the Everfree Forest, given Earth Pony magic as accelerated weathering and Pegasus thermal management, and is it a pocket of ancient pre-Hearth's Warming ecology driven by wild monsters' ambient Red Love/Ambition? | no user turn | none | none
+  - How does Tartarus, holding Tirek and Cerberus, work in a geopolitically realistic setting, and is it a classified deep-underground containment facility Star Swirl built with early unstable spell matrices? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | the character's name is a real-world Kurmanji word meaning honesty, documenting the real-language source of the name | Rasti means "Honesty" in Kurmanji | yes
+- goals:
+- whole: The note records the real-world Kurmanji origin and meaning of the character's name as an inspiration source, and asks nothing of the reader.

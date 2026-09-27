@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - other: unsupported praise / unverified evaluative claims|The model's superlative assessments of the world bible (most structurally sound anywhere, rigorous, coherent, unprecedented) are called unverified platitudes with no grounding in the material|"unverified platitude"; "give a grounded analysis here instead"|flatly, as a direct challenge quoting the offending lines and asking for a redo with evidence
+  - register or format: flattering tone instead of analysis|The model wrote sweeping complimentary generalities where the user wanted a concrete, evidence-based assessment of the bible|"grounded analysis here instead of"|flat instruction, mildly critical in tone, without apology or elaboration
+- about: The user quotes the model's praise of their world bible, rejects it as an ungrounded platitude, and asks for a grounded analysis in its place.

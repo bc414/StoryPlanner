@@ -1,0 +1,5 @@
+- questions:
+  - Does Celestia's exposure as a fallible, traumatized pony mirror the audience's need to give up on a single Great Creator or Leader and rely on horizontal solidarity, given how the fandom elevated Lauren Faust? | ignored | none; the user turn moves to a new subject and does not take up the Celestia or Faust parallel | none
+  - How can Applejack, on the debate stage against Gilded Trust, dismantle the idea that empathy is weak without conceding his premise that strength comes from dominance? | ignored | none; the user turn does not mention the debate, Applejack or Gilded Trust | none
+- shape: Drops the model's two suggested lines of expansion and starts a new topic. The user asks three linked questions of their own: why ASOIAF holds its grimdark thesis, whether that comes from Martin's life, and how it differs from the user's own meta narrative. This is a comparative side-inquiry, not an answer to the model's questions.
+- settles:

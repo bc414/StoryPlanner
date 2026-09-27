@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Twilight's magic is so far beyond Flim and Flam's contraption that a contest would not have been close | could have easily outmagicked Flim and Flam's titular contraption. It wouldn't have even been close | no
+  - History | At the cider contest against Flim and Flam's machine, Twilight did not use her magic to win | But she didn't | yes
+  - Characterization | She held back because winning by magic would insult Applejack and defeat the point that the Apple family's hard work, love and care make their cider best; this is her respect and values | would be a huge insult to Applejack and defeat the whole point | no
+  - History | Twilight learned a lesson from the earlier Winter Wrap Up incident, which shaped her later restraint | Twilight learned from the winter wrap up incident | yes
+- goals:
+- whole: The note reports Twilight's restraint at the Flim and Flam cider contest as a past event, explains it as her respect for Applejack's family and her learning from Winter Wrap Up, and names no reader response.

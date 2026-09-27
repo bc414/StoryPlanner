@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting the same kind of interaction analysis for Blueblood and Rarity at Mount Aris, extending the model's set of pairings without disputing anything in it.

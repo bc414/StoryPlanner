@@ -1,0 +1,8 @@
+- claims:
+  - Characterization | Rarity's formative experience: as a child she heard sanitized stories of glamorous Aquileian seamstresses who turned rough, angry griffons into princes by sewing them a beautiful coat | Rarity heard kid-friendly stories of glamorous Aquileian seamstresses | yes
+  - Characterization | She missed the adult sexual and political content and the violence of those stories, taking away only the Result | She didn't understand the sexual/political nuance... She just understood the Result | yes
+  - Characterization | Her core belief is that clothing heals the soul and a good suit can turn a monster into a gentlecolt | Clothing can heal the soul. A good suit can turn a monster into a gentlecolt. | yes
+  - Characterization | Her Generosity is more than fashion: for her, making someone beautiful is an act of moral salvation | This is why Rarity is Generosity, not just "Fashion." | yes
+  - Characterization | She believes that dressing Spikey-Wikey or the Diamond Dogs as gentlemen will make them act like gentlemen | She believes that if she makes Spikey-Wikey or the Diamond Dogs look like gentlemen, they will act like gentlemen | yes
+- goals:
+- whole: The note asserts, as a psychologist would, that Rarity's childhood misreading of sanitized Aquileian seamstress tales gave her a belief that beautiful clothing morally redeems rough people, and that this belief is what her Generosity actually is at the start of TLTT.

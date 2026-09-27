@@ -1,0 +1,8 @@
+- questions:
+  - Does Granny Smith know that Stinkin' Rich's line will eventually become the Stagnation-era commercial class, and should the plan make that tension explicit? | ignored | The user turn never mentions Stinkin' Rich, his descendants, or what Granny Smith knew. It moves on to when Ponyville was founded and why Granny Smith settled there. | none
+- shape: The user turn revises the model's chronology with a counter-proposal. The model had Ponyville founded at the end of the pioneer era, before the border freeze. The user moves the founding to after the freeze, around 940 ALB. The user offers this as a fix for Granny Smith's age and gives a new motive for her: settling beside a closed forest to harvest Zap Apples, as a terroir play rather than an ambition sink. It does not take up the model's open question. The proposal is hedged with "maybe" but is worked out with its reasoning.
+- settles:
+  - Ponyville was founded after the Everfree border froze, tentatively around 940 ALB, not before the freeze | "Ponyville's founding is AFTER the forest borders froze, somewhere around 940 ALB"
+  - Granny Smith's age is made plausible by the later founding date | "resolves Granny Smith's age as not as crazy"
+  - Granny Smith is an ambitious pony who, with the forest closed and pioneers sent to New Mareland, chooses to settle next to the forest to harvest Zap Apple Jam | "settle next to the forest, for Zap Apple Jam harvesting"
+  - Ponyville's Everfree-edge settlement is terroir (Aquileian-style place-specific produce), not survival harmony functioning as an ambition sink | "This isn't survival harmony as an ambition sink, it's terroir (like the Aquileians)"

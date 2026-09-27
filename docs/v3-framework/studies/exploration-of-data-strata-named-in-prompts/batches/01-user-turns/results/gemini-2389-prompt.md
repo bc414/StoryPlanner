@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | reread and reanalyze against them; they are the authority that the model's biological-switch claim must be checked against | Reread my story plans and reanalyze | referred-to
+- order:
+- about: The user tells the model to go back to their story plans and redo its analysis, correcting its claim that the empathy switch is innate biology by stating that Changelings learn it as an act of agency.

@@ -1,0 +1,5 @@
+- sources:
+  - the conversation log (the earlier iterative conversation being read) | material the user reads through, to be treated as a log the user took part in, not as an unfamiliar or random one | not reading a random log of a conversation | referred-to
+  - the user's own memory of the conversation (done the same day) | recollection the model should treat as existing context that the reading order analysis must account for | I was the one doing it the same day and remember things | first-named
+- order:
+- about: The user asks the model to redo its comparison of reading orders, this time assuming the reader took part in the conversation the same day and remembers it.

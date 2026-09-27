@@ -1,0 +1,6 @@
+- sources:
+  - my relational sqlite database | the underlying store of the lore; the model should be given its structure so it can pull only what a question needs, though the user leans toward not having the tools read it directly | "not have Claude Code or Cowork read directly from sqlite" | referred-to
+  - single markdown document (whole database flattened) | the earlier brute-force approach, fed whole into a large context; being moved away from as a poor fit for token-minimizing | "single markdown document and brute forcing" | first-named
+  - individual markdown files with wikilinks to each other in a folder | proposed, tentative new export for Cowork to browse by following links so it reads only the relevant parts; a suggestion not yet settled | "maybe not have Claude Code or Cowork read directly from sqlite" | first-named
+- order:
+- about: The user is reconsidering their workflow, from flattening their sqlite lore database into one large markdown file to exporting linked per-entry markdown files, and asks whether that matches how Claude Code and Cowork are designed to work.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for an analysis of the character Synovial and supplies new details about him (his contempt for Pagala and Trimmel, his slow Griffonian-style warfare, his command in the 981 counterrevolution, and a hedged guess that he ran Vesalipolis while Chrysalis was away), without pointing at any body of material for the model to draw on.

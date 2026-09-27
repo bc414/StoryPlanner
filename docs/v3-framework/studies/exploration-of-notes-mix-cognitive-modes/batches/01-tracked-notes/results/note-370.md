@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Discord's special talent, in the cutie mark sense, is chaos itself, which defines what he is naturally good at | Discord's "special talent" is chaos | no
+  - Canon | Within the cutie mark theory as applied to established canon, Discord's power is bounded: he is cheap at chaotic mayhem but gets no discount on malice or on organized resistance against an army | gets a discount on chaotic mayhem but not malice and not an organized resistance against an army | no
+  - NotesToSelf | The rule is flagged as applying to a particular chapter of the planning project, a scoping remark for the author | (For Chapter 8) | no
+- goals:
+- whole: The note sets a limit on Discord's abilities under the cutie mark theory (chaos comes easily, malice and organized military resistance do not) and tags it for Chapter 8, without saying how the reader's opinion of him should change.

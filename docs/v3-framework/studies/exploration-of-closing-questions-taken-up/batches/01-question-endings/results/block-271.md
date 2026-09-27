@@ -1,0 +1,11 @@
+- questions:
+  - How does Applejack defend her alliance with EEEE! in the Chapter 29 debates if Gilded Trust exposes Flowing Current as a deported domestic terrorist, without losing the fearful, safety-seeking Stagnant voters? | ignored | none | none
+  - How do the Returnees of EEEE! handle their own frustration, and keep their Empathy, with the naive agrarian ponies who complain about factory work? | ignored | none | none
+- shape: Skips both Socratic questions and moves on to a new worldbuilding idea. The user builds on the EEEE! backstory by adding a naval and logistics layer: an escort fleet that ends the need for SAA to pay Skyfall insurance. The turn also sets up how the fleet ends in the war. It reads as the user extending the setting on their own initiative, with a tentative note on where the design comes from.
+- settles:
+  - SAA does not pay Skyfall shipping-insurance extortion, because EEEE!'s membership of humbled former industrialists makes that unrealistic | it would be unrealistic for SAA to have to pay Skyfall shipping insurance extortion
+  - EEEE! built a massive bespoke cloud carrier to escort SAA food shipments and the retrofitted industrial equipment, strong enough to deter Skyfall privateers | built a massive, bespoke cloud carrier to escort SAA's food shipments
+  - The carriers were publicly disguised as a tourist attraction, like a cruise ship, so they could exist under the stagnation of harmony | sold to the public as a tourist attraction like a cruise ship
+  - In the opening week of the war Chrysalis sank most of the cloud carriers with submarines | Chrysalis sank most of their cloud carriers with subs
+  - Equestria therefore had a navy of a kind, which replaces the earlier idea that it had none | replaces the naive idea that Equestria didn't have a navy
+  - The carrier design draws on the Aquileian Royal Navy, stated tentatively | I suppose they would have inspiration from the Aquileian Royal Navy

@@ -1,0 +1,5 @@
+- sources:
+  - list of popular French names pasted in the turn (Emma, Louise, Jade ... Estelle) | candidate pool for the model to choose from and suggest the best thematic fits for the griffoness's birth name | Suggest the best names that fit this griffoness character thematically | first-named
+  - TLTT timeline | fixed main timeline that the Réni and Minette side story runs parallel to; the griffoness's placement at the Crystal Empire siege is set against it | during TLTT timeline, this griffoness would be at the Crystal Empire during the siege | referred-to
+- order:
+- about: The author lays out a new griffoness prostitute-turned-tailor-turned-therapist character and her backstory, world-building for schooling and contraceptives, and her role in the Skyfall Resolution, then asks the model to pick a fitting French birth name from a pasted list.

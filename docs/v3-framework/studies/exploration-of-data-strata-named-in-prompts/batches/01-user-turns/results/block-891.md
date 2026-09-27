@@ -1,0 +1,6 @@
+- sources:
+  - actual demographic death and casualty rates in WWII (real history, for the US, UK, France, Germany, USSR, Japan, China, colonial Korea, plus the civil wars that followed in China and Korea) | the factual baseline the model is to supply from its own knowledge and evaluate, covering mobilization, draft and death rates | What were the actual demographic death and casualty rates in WWII | first-named
+  - HOI4's Scraping the Barrel (25%) and All Adults Serve (20%) | the game's mobilization-law figures are the yardstick to compare the real WWII rates against; the user notes they measure share of the population in the army | how does it compare to HOI4's Scraping the Barrel (25%) and All Adults Serve (20%) | first-named
+  - the fabula of TLTT | premise to take as true: male and female ponies, griffons and changelings all carry the same military and home-front obligations, unlike WWII where armies were mostly men | In the fabula of TLTT both male and female ponies, griffons, and changelings have the same obligations | referred-to
+- order:
+- about: The user asks the model to give real WWII and civil-war mobilization, draft and death figures for major countries, compare them with HOI4's mobilization laws, and consider that the fabula's society mobilizes both sexes equally.

@@ -1,0 +1,9 @@
+- questions:
+  - Before the war, did Star Energy get Temberik crystals through a covert black-market ring with rogue miners, or build prototypes from Diamond Mountain crystals and switch to Temberik ones later to scale up? | no user turn | none | none
+  - Do the Zebrican warlords tax only a percentage of remittances so families survive and the workers keep believing the Marks have value, or does Skyfall control communications and lie to workers about their families' safety? | no user turn | none | none
+  - Is the permanent loss of Tall Tale's soil, from refining its phosphorus into munitions, a deliberate tragic sacrifice, or does Earth pony magic draw trace phosphorus up from bedrock to replenish the topsoil? | no user turn | none | none
+  - Does shared trauma and trench solidarity in the Crystal City siege produce a denser kind of Pink Love that keeps the shield up, or is the shield running on stored surplus from nine years of peace, as a countdown clock? | no user turn | none | none
+  - Do the Olenian deer need a specific engineered Red/Pink ratio that differs from the raw alloy, or is raw soul-alloy too volatile for non-Changelings so it must be refined and dosed separately? | no user turn | none | none
+  - How does the user want to resolve these five contradictions (timeline, economic incentives, chemical constraints to adjust)? | no user turn | none | none
+- shape: none
+- settles:

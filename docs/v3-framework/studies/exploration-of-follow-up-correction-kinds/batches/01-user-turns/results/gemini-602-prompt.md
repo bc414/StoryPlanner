@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes a further changeling economic contribution, stitching ponies' cutie marks onto uniforms with dyed silk for pride and morale, building on the model's camp economics without correcting anything in it.

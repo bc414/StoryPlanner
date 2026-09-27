@@ -1,0 +1,5 @@
+- sources:
+  - these other paradigms we've discussed | the earlier conversation's frameworks are the frame the model should use to place Romantasy in relation to | how it stands in relation to these other paradigms we've discussed | referred-to
+  - TLTT | the author's own account of their story, that the Twilight and Applejack romance is heavy, mirrors the themes and is load bearing, to be taken as given and compared against the Romantasy trend | TLTT also has a heavy romance arc between Twilight and Applejack | referred-to
+- order:
+- about: The user asks who else has expanded on Rowland's concept in recent years, asks for an explanation of SFF and Romantasy and how they relate to the paradigms already discussed, and describes TLTT's load-bearing romance to ask how it compares with the Romantasy trend.

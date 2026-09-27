@@ -1,0 +1,6 @@
+- sources:
+  - my story plans | review them and ground the analysis in them, as the body of plans the model is to read | review my story plans | referred-to
+  - how earth pony magic is accelerated weathering of phosphates and potassium | review this existing account of Earth Pony magic and factor it into the analysis of the Charitostatic Effect and Meadowbrook's plants | review how earth pony magic is accelerated weathering of phosphates and potassium | referred-to
+  - As established, Luna already used the charitostatic effect for dreamwalking | treat as settled, already-fixed fact that need not be re-argued | As established, Luna already used the charitostatic effect for dreamwalking | referred-to
+- order:
+- about: The author affirms the idea that the Conception Spell is the apex of the Charitostatic Effect, and asks for several explanations of how Meadowbrook's Tzinacatl friendship plants connect to it as the Earth Pony origin, after a review of their story plans and the earth pony weathering-of-phosphates-and-potassium magic.

@@ -1,0 +1,7 @@
+- claims:
+  - Allegories | Names the social forces around women that the character stands for: ostracism, the manosphere demanding subservience, and corporate and toxic-positivity interests pushing women into the rat race and using grievance to divide them for more labor and profit | Women felt ostracized, the manosphere wants them subservient, the capitalist/corporate class and toxic positivity want women to enter the rat race | no
+  - NotesToSelf | States a need still open in the planning: a bottom-up, healthy balance that respects asset specificity | Need bottom up healthy balance and respect for asset specificity | yes
+  - Allegories | Social commentary that not everyone should have to climb into a predatory management role | Not everyone has to rise to be a vulture manager | no
+  - Analogies | Cites the author's own lived experience, wanting to be an engineer rather than a manager and resenting the pressure to manage or be walked over, as the real-world source of the character | I have always felt this as someone who wants to be an engineer and not a manager | no
+- goals:
+- whole: The note lists the social pressures on women that the character embodies, records a need for a bottom-up balance that respects specialization, and grounds it in the author's own resistance to being forced into management.

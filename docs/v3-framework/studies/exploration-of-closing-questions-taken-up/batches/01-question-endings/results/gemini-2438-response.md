@@ -1,0 +1,10 @@
+- questions:
+  - How much do Aunt Holiday and Auntie Lofty know about why Scootaloo was sent to them, and do they resent Snap and Mane for coming back to claim her? | ignored | The user turn says nothing about the aunts. It only restates what the parents did. | none
+  - Does Scootaloo secretly resent her parents for her physical condition, or does she treat her lack of flight as a logistical hurdle she has already overcome? | ignored | Her feelings about her parents or her wings go unmentioned. The turn only describes the parents' conduct. | none
+- shape: Corrects the model's sympathetic reading of the parents (trauma-driven, life-saving evacuation, overcompensation). It restates their backstory and role as the user intends them, and leaves the model's closing questions unanswered.
+- settles:
+  - Snap Shutter and Mane Allgood are antagonists, not moral protagonists. | "not moral protagonists, they are antagonists"
+  - The parents were exiled to New Mareland because of their own ambitions. | "exiled to New Mareland to pursue their ambitions"
+  - Scootaloo was born in New Mareland. | "had a child there"
+  - The parents noticed she was malnourished and sent her to her aunts. | "realized their child was getting malnourished and sent her to her aunts"
+  - After sending her away, the parents kept up their hustle and did not care about Scootaloo. | "continued their hustle without caring for scootaloo"

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model open questions about what the story must show of the changeling conscript victims, whether real-world totalitarian states like Russia and China could fall to grassroots civic movements, and whether Chrysalis's terror state is a fitting allegory, without pointing to any body of material.

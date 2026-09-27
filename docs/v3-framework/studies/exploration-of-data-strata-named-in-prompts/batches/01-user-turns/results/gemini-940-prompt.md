@@ -1,0 +1,4 @@
+- sources:
+  - the model's previous analysis in this conversation (the framing that becoming a wartime general feels like a betrayal of her soul) | treat as mistaken on this point and replace with the author's correction: the imposter feeling is about lying to others, not betraying herself | I think it's not becoming a Wartime General... feels like a betrayal of her soul | referred-to
+- order:
+- about: The user corrects the model's reading of Applejack's imposter syndrome, saying it comes from believing her soul can't be a wartime general and so feeling she is lying to others, not from betraying herself.

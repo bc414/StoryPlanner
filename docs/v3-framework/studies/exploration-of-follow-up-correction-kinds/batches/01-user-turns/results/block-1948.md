@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the seventeen propositions can be ordered intellectually or shown as a dependency graph, and what the edges would mean, without disputing anything in the model's list.

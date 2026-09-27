@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's evidence leans on WW2-era parallels (Versailles, Marshall Plan, Speer, Arsenal of Democracy) as the story's allegorical referent, but the plan has since moved to present-day allegory | while iterating on the story plan I gradually moved away from WW2 allegory and into present day allegory | mild, offered in passing while agreeing with the analysis, framed as the plan's own history rather than as a fault
+  - reading of the plan | The model's synthesis treats the preconditions for cooperation as something the story must build from scratch, whereas the user says they already exist in the real-world 2026 referent and are now under attack | The preconditions and precedent do exist in 2026 (or they did, but are under attack now) | a flat, hedged qualification added on top of the agreement, with a reason given through the 1940 versus 2026 contrast
+- about: The user accepts the precondition analysis and uses it to place the story's allegory in the present day instead of WW2, saying the preconditions were missing in 1940 but exist in 2026 and are under attack.

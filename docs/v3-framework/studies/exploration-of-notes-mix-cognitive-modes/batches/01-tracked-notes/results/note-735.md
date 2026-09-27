@@ -1,0 +1,4 @@
+- claims:
+  - History | the drones feel no pain from broken or hurt limbs while the effect lasts, and when it wears off they suffer agony | the drones don't feel their broken and hurt limbs until it wears off, and then they are in agony | no
+- goals:
+- whole: The note states as a plain fact of the world how the Panzer Haut technology numbs its drones' injuries and then leaves them in agony, without planning how the reader is to experience it.

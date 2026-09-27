@@ -1,0 +1,5 @@
+- questions:
+  - Does the Buffalo's stomping act as a kinetic catalyst for a similar chemical reaction, such as fracking sediment to release hydrocarbons | no user turn | none | none
+  - Is there a risk of Earth Ponies permanently depleting the soil's mineral base by pushing too hard for the war effort, leading to a post-war ecological crisis | no user turn | none | none
+- shape: none
+- settles:

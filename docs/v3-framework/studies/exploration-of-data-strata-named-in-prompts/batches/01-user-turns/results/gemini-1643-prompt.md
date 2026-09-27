@@ -1,0 +1,7 @@
+- sources:
+  - mlp.fandom.com wiki transcript of Where the Apple Lies | the canon episode text the model is to analyze and reinterpret through the author's backstory | Give an analysis on how this canon episode gets recontextualized | first-named
+  - my back story about AJ's parents | the author's own story material, to be used as the lens that recontextualizes the canon episode | using my back story about AJ's parents | referred-to
+  - Skyfall education | a story-world framework the model is asked to test against Filthy Rich's behavior in the episode, treated as a possible explanation, not settled | Is filthy Rich here using Skyfall education? | referred-to
+  - Family Appreciation Day | the following canon episode, which the author recalls and presents as the payoff, with Filthy Rich as an ethical Harmonic Capitalist despite Diamond Tiara being a bully, to be tied into the analysis | he later embodies a Harmonic Capitalist in Family Appreciation Day | referred-to
+- order:
+- about: The user shares a fandom transcript link and asks the model to analyze how the canon episode is recontextualized by their Applejack's-parents backstory, asking whether Filthy Rich reflects Skyfall education and proposing that his arc pays off in Family Appreciation Day as a Harmonic Capitalist.

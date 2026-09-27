@@ -1,0 +1,6 @@
+- questions:
+  - How does Fluttershy, as Spymaster, handle the Changelings' use of Gray Love (fear and submission)? | ignored | The user turn does not say anything about how she deals with Gray Love. | none
+  - Does she use her espionage network to starve the Statthalters of their food source by teaching the occupied working class to hide their fear, turning her own trauma recovery into a weapon? | ignored | The user turn does not touch this idea, either to accept it or to reject it. | none
+- shape: A correction paired with an instruction to redo the work. The user restates that Pinkie Pie is not the spymaster and Fluttershy is, then asks the model to reanalyze from the user's actual story plans. It leaves the model's closing question unaddressed and sends the model back to the plans instead.
+- settles:
+  - In TLTT, Fluttershy is the spymaster and Pinkie Pie is not. | Pinkie Pie isn't the spymaster in TLTT, Fluttershy is

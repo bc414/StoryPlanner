@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new story idea, that once the donated-red-love dreamwalking system is running, hostages' families and friends can visit Ponyville through dreams with Luna and the thestrals acting as organizers, without pointing the model at any body of material.

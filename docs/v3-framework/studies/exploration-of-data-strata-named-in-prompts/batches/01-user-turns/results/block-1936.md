@@ -1,0 +1,4 @@
+- sources:
+  - v1 themes section | keep reading it fully, since it has more than 8 entries, but its entries are not the organizational structure wanted for v2 | "Keep reading that section" | referred-to
+- order:
+- about: The user corrects the model's count of the v1 themes entries, tells it to keep reading that section while not treating its structure as the v2 model, and asks whether thematic propositions should be universal and about human nature or something broader.

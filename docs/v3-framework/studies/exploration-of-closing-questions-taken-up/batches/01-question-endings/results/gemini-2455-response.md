@@ -1,0 +1,6 @@
+- questions:
+  - After Twilight helps break the stalemate at Tall Tale, does she stay on the front as a combatant beside Applejack, or go back to the lab to invent better offensive weapons (like the Luna Nova Rifle) for the Republic? | ignored | Nothing on it. The user turn disputes the model's picture of the battle and asks for a reanalysis. | none
+- shape: Corrects the model's premise and tells it to redo its analysis. The user says the line at Tall Tale is an elastic defense, not a static hold, and that Applejack was overrun and had to be pulled out of the dirt. They then tell the model to review the story plans and reanalyze. The user leaves the model's pacing question alone.
+- settles:
+  - The defense at Tall Tale is an elastic defense, not a static line held by Star Energy artillery and Aquileian aces | They are not holding the line, it is an elastic defense
+  - Applejack was overrun in the battle, and Twilight had to rescue her from the dirt | Applejack was overrun and Twilight had to rescue her from the dirt

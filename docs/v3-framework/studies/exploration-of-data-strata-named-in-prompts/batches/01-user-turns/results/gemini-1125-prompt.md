@@ -1,0 +1,5 @@
+- sources:
+  - what Henri says about Chrysalis and the changelings | treat as the correct account, correcting the model's reading: Henri calls Chrysalis a poseur of Imperial Herzland and is there to fight that, and she is still dangerous; the model is to work out what the poseur label implies | Actually Henri says Chrysalis is a poseur of Imperial Herzland and he is here to fight that | referred-to
+  - the plan | re-read and check the model's account against it; the plan has Twilight defy Celestia's orders and go to the front to save AJ with violence against the changelings | Please review the plan again | referred-to
+- order:
+- about: The user corrects the model's account of what Henri says about Chrysalis, asks what the poseur label implies for negotiating with the changelings, and tells the model to review the plan again, in which Twilight defies Celestia and saves AJ with violence.

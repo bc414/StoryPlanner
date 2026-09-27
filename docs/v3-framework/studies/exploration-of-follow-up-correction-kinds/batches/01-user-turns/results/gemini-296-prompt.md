@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the conscript and Harvester material behind and lays out a new set of worldbuilding ideas: Celestia's view of serfdom and patriarchy, low libido as pink and red love in balance, why Equestrians go unclothed, a weather and seasons puzzle for Griffonia, and Rarity as a believer in the Aquileian model.

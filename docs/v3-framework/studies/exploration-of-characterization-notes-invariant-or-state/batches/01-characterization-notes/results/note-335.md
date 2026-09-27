@@ -1,0 +1,6 @@
+- claims:
+  - unfixed | She resents the patriarchal culture of Herzland with great passion | "She resented the patriarchal culture of Herzland with a great passion" | the track question frames it as who she is at the start of TLTT, but the note gives no date or event; past tense is narrative framing only
+  - throughout | She is the most shrewd, intellectual and passionate griffoness of them all, given as the reason for her resentment | "the most shrewd, intellectual, and passionate griffoness of them all" | nothing binds it; stated as a trait with no time marker
+  - unfixed | She has a big ego | "She had a big ego" | past tense only; no date or phase given, though the track question points to the start of TLTT
+  - throughout | She has the skills to back up her ego | "the skills to back it" | nothing binds it; stated as ability with no time marker
+- beside: none of the dated notes speaks of the same thing; the Backstory notes give her birth in 961, her age at Grover V's death in 977, the Empire's fall in 978, counter-revolution planning and her take-over of Griffenheim in 981, none of which is her resentment, ego or skills

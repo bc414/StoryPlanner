@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took dropping the infiltrator plot to mean the stab-in-the-back myth vanishes from the story, so Applejack has no scapegoat and the cheat-code excuse dies. The user wants the myth kept as a false belief held in-world and later refuted. | "What if the trope still exists in the minds" and "not merely ignored from this story, but utilized" | Tentative and suggestive, put as a "what if" and a "maybe". It revises the model's framing without saying it was wrong, and builds toward a new design.
+- about: The user turns the model's removal of the infiltrator trope into a proposal to keep it as an in-world false belief, spread by arrogant Aquileian volunteers, defeatist Equestrians and VOPS propaganda, and later refuted, so that it works as social commentary.

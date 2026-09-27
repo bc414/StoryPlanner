@@ -1,0 +1,5 @@
+- sources:
+  - this analysis (the model's preceding generational-psychology and audience-reception analysis) | use as the framework to be connected with the brony wave; treated as the base being extended, not questioned | How does this analysis intersect | referred-to
+  - the original brony wave starting in 2011 (the original wave of the fandom) | draw on as the subject to be mapped against the analysis; the model is to bring what it knows of this fandom | the original brony wave starting in 2011 | referred-to
+- order:
+- about: The user asks the model to connect its just-given analysis of generational cynicism and grimdark versus hopeful reception to the original 2011 brony fandom wave.

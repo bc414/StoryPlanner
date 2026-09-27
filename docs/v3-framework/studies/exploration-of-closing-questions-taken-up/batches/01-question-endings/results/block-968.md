@@ -1,0 +1,9 @@
+- questions:
+  - How does Genevieve explain her advanced Skyfall knowledge to Twilight in the Star Energy lab without blowing her cover, and does Twilight subconsciously overlook the inconsistencies? | refused | Rejects the premise. The hidden-tycoon setup fails because Twilight already knew Genevieve in Ain Trotgourait, so there is no cover to explain. It offers a different placement instead. | doesn't meet narrative rigor. Twilight knew her in Ain Trotgourait
+  - When Genevieve's identity is revealed at the Skyfall Resolution, how does she use her months of anonymous labor at Star Energy to answer Minette's charge that she is a Poseur hiding from her uncle's regime? | partly answered | Keeps a Minette clash but pushes it to a later point in the story. It does not say how the clash goes, and the anonymous-labor reveal it was premised on is gone. | There can still be a clash with Minette in story later on
+- shape: Corrects the model and replaces its plot. It rejects the hidden-identity plan on continuity grounds, proposes a different placement for Genevieve, and keeps only the later Minette conflict. It does not engage with the model's two questions directly.
+- settles:
+  - Genevieve does not go undercover at Star Energy with a disguise or linguistic camouflage, because Twilight already knows her from Ain Trotgourait | Twilight knew her in Ain Trotgourait
+  - Blueblood hires Genevieve to oversee deployment of Twilight's teleportation network for the bunkers | Blueblood hires her to oversee the deployment of Twilight's teleportation network for the bunkers
+  - Genevieve works with Mudbeak, kept apart from the Aquileians | She works with Mudbeak, away from the Aquileians
+  - A clash between Genevieve and Minette stays in the plot, at a later point | There can still be a clash with Minette in story later on

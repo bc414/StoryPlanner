@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's Elixir mechanics have her cut off from changeling magic in the griffoness body, so she is undetectable and can't shapeshift or 'bug out'. The user says she keeps her changeling magic, as she did as queen and as a drone, and a detection spell would strip it back to the griffoness form. | I feel like she still has access to changeling magic in her griffoness form | Offered as a personal impression ('I feel like'), backed by an analogy to her earlier forms, and then a consequence for how she would behave, with no explicit 'you're wrong'.
+- about: The user pushes back on the model's idea that the Elixir leaves Chrysalis without changeling magic. They say she keeps it, and that this makes using it in public risky for her because detection would expose her.

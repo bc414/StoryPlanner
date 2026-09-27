@@ -1,0 +1,6 @@
+- claims:
+  - History | Twilight did not sit down with the Zebra alchemists or engineers to work out with them how they could rebuild their own city | doesn't sit down with the Zebra alchemists or engineers to figure out how they can rebuild their own city | yes
+  - History | Twilight instead acted alone as a one-pony construction crew, lifting rubble, purifying water and healing the sick | Instead, she acts as a one-pony construction crew. She lifts the rubble, purifies the water, and heals the sick | yes
+  - History | Her means was raw, top-down Alicorn magic, applied by her own power rather than through the Zebras' methods | using her raw, top-down Alicorn magic | yes
+- goals:
+- whole: The note reports as past fact how Twilight helped rebuild the Zebra city in 1006, by imposing her own Alicorn magic alone rather than working with the Zebras' experts.

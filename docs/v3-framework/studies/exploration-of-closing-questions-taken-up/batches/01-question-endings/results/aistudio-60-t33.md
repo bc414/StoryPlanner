@@ -1,0 +1,5 @@
+- questions:
+  - How does the Skyfall Trade Federation counter or counterfeit the mass-produced Cœur de Cristal, given its mercenaries run on transactional Red Love and lack the Pink Love needed to ignite it? | ignored | Says nothing about the Skyfall Trade Federation or counterfeiting; moves on to a different naming question. | none
+  - When Equestrian infantry drop 'Friendship Shield' and adopt Cœur de Cristal, how does Celestia read the shift: loss of innocence or dangerous radicalization of her military? | ignored | Does not mention Celestia or how she reacts to the terminology; asks about another spell's name. | none
+- shape: Redirects to a new naming task: drops both of the model's questions and asks what the Aquileian/French name for the Wings of Dew spell should be, continuing the French-naming thread the model's turn was built on.
+- settles:

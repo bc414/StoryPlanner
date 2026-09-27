@@ -1,0 +1,7 @@
+- questions:
+  - Does the framing of the Changeling economy as one interconnected global system help settle how Twilight and Applejack will come to realize they are fighting a macroeconomic system and not just evil? | ignored | Nothing is said to it. The user turn restates the model's own points about the Storm King and the Statthalters as questions of its own, then asks for a synthesis of the existing plans. | none
+- shape: Redirects. It does not answer the model's closing question. It restates the model's own Storm King and Statthalter framing as fresh questions and leans toward one reading of it. Then it instructs the model to review the existing story plans and synthesize.
+- settles:
+  - All the Zebrican warlords got their guns from the Statthalters. | "All the warlords got their guns from Statthalters."
+  - The Statthalters are disguised as other creatures, so the warlords may not know about changelings. This is offered tentatively. | "Perhaps they don't even know about 'changelings'"
+  - The Storm King's horde is in part a unified front against external slavers. This is a secondary motive to looting, but it makes the horde structurally stronger than past warlord hordes. It is a leaning, not a firm decision. | "Seems like secondary, to 'join or die'"

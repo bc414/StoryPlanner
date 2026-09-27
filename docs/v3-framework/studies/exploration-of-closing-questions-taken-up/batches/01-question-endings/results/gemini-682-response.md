@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts a new question to the model instead of answering anything. It asks whether the shell company should approach Rockfeller with the threat and the collaboration offer before the war starts or after it starts. It builds on the shell-company setup the model just recommended, but it does not say outright that the setup is accepted. It moves the planning on to the timing of that approach.
+- settles:

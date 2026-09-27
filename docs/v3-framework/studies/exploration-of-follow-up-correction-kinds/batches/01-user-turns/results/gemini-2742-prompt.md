@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the raft naming to propose a new story element, a crystal matrix invented by Fleur Bloom to amplify Tzinacatl echolocation like the Star Spade, asking for a name and whether it could extend to sonar against changeling submarines.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user lays out a proposed design for their desktop story planner, with id-only EF Core models, in-memory collection views and metadata-driven note tracks and properties. They ask for analysis of that plan, the name of the paradigm, and whether a relational database or a JSON document fits better.

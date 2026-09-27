@@ -1,0 +1,4 @@
+- claims:
+  - History | The organization exports medicine and contraceptives to the global market, reported as a fact of the world at the dated year | They export medicine and contraceptives to the global market | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that the Tzinacatl Medicinal Tribes export medicine and contraceptives to the global market.

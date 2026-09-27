@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | The organization's membership is workers and representatives from every farming clan, which makes it standardized yet in solidarity across all families | accept workers and representatives from all farming clans, so it is standardized but has solidarity | yes
+  - Characterization | The organization is at root a rebellion against ancient feuds, which is what it stands on | It is a rebellion against ancient feuds | yes
+  - Characterization | Its members deliberately chose standardization in order to dissolve artificial divisions between them | deliberately chose standardization to dissolve artificial divisions | yes
+- goals:
+- whole: The note asserts as fact who makes up SAA and why its members hold together: an all-clan membership joined by deliberate standardization, as a rebellion against old feuds.

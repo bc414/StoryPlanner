@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | How cutie marks come about in this world: the model's analysis treats the mark as destiny imposed by magic ("because magic says so", destiny tattooed on the flank), whereas the user says it is partly shaped by childhood experience and upbringing, including family and idiomatic names | ponies don't just get their cutie marks by magic. It's partly their lived experience as a child (nurture) | Flat, framed as a "clarification" added onto the previous one, backed by examples (Apple Fritter, Apple Bumpkin, Granny Smith) and no comment on the model's analysis
+- about: The user adds a worldbuilding clarification that cutie marks are partly nurture-driven, which undercuts the model's premise that marks are magically assigned destiny.

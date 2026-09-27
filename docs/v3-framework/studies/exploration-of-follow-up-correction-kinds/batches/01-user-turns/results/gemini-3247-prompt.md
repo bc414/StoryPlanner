@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model-tier and Vertex AI credits topic and starts a new request for a comprehensive history of formal studies of third person limited narration, its origins and key figures, without reacting to the model's self-correction.

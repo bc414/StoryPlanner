@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's offer and asks it to write the master prompt to paste into the AI Studio Build tab for the 5-step web app, without pointing at any body of material for the model to draw on.

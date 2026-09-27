@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to take one specific entity (such as Harmonic Capitalism or Applejack) and demonstrate formatting it into the Structure > Note > Plot Point layout for the Bible? | no user turn | none | none
+- shape: none
+- settles:

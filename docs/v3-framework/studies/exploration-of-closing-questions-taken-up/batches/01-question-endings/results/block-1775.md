@@ -1,0 +1,4 @@
+- questions:
+  - Is the user drawn to this from a 'how does power actually operate' angle or a 'how should things be organized differently' angle? | partly answered | Gives a personal motive, not a choice between the two angles. As a young adult they want to think about the economy as a system rather than individual choices, and they think the childhood lesson that money doesn't grow on trees is wrong at that level. | not individual choices but the system
+- shape: Redirects to a new task. It asks for an analysis of the Clash of Clans economy and supplies its own thesis: resources that generate over time are closer to how a real economy works than the zero-sum money lesson children get. It works as an instruction with a stated stance, and it does not pick either angle the model offered.
+- settles:

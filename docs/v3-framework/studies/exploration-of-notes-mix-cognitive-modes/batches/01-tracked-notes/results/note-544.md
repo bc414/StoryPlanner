@@ -1,0 +1,5 @@
+- claims:
+  - History | Luna goes along with Celestia's continuation of the Luna doctrine, reported as something that happened before the story | Luna goes along with Celestia's continuation of the Luna doctrine | yes
+  - History | Celestia relies on deus ex machina figures such as Discord, and the note points to the reason behind this reliance as part of the past | why Celestia relies on deus ex machina like Discord | yes
+- goals:
+- whole: The note records, as backstory fact, that Luna went along with Celestia's continuation of the Luna doctrine and that Celestia came to rely on deus ex machina figures like Discord.

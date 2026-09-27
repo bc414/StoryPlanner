@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is supplying new plot and worldbuilding details for their story, a chapter 10 beat where Mali's tribe joins via pride and a twist about twelve more divided thestral tribes, without pointing the model at any body of material.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the pension analysis and builds a new parallel between Chrysalis's hive conquest and the Discret/Coltbert chasseur-to-jaeger lineage, proposing a naming split between the old protectors and her new soldiers, with a passing self-revision of Discret to Coltbert.

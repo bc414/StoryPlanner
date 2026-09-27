@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how names appear in the French and German localizations of the mod and how Equestrian pony names are portrayed, extending the naming discussion without disputing anything the model said.

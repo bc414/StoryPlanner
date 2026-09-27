@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Twilight begins with a "Reactive Atlas Complex", a named psychological pattern of being driven to reactively fix destruction because she has the power | Twilight initially has a "Reactive Atlas Complex". Since she has the power, she feels she must reactively fix destruction | yes
+  - Characterization | Her self-worth is contingent on constant effort: if she is not working hard to fix things for suffering creatures, she feels she is a fake princess of friendship | If she isn't working hard to fix things for suffering creatures, she feels she is a fake princess of friendship | yes
+- goals:
+- whole: The note asserts, as psychological truth, Twilight's starting-state complex: a compulsion to fix suffering because she has power, with her sense of being a real princess of friendship depending on it.

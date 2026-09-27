@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a replacement name for the Porygon-based species in their design, because Porygon is trademarked by the Pokemon company.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's suggestion about the mercenaries by imagining most as cowardly poseurs who surrender at once, then asks whether a minority of true believers in Chrysalis is needed so the scene isn't comic.

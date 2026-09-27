@@ -1,0 +1,4 @@
+- questions:
+  - Which direction does the user want: deeper detail on implementing JSON structured outputs for the Gemini AI API, or more on the Gemini network protocol? | no user turn | none | none
+- shape: none
+- settles:

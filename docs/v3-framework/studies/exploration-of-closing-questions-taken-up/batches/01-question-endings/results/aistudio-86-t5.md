@@ -1,0 +1,5 @@
+- questions:
+  - How would Equestria's conservative anti-Changeling factions (e.g. Gilded Trust's Ponies First party) react to citizens being asked to donate love for drugs given to enemy combatants, and how does Applejack defend that supply chain politically? | ignored | Nothing on the politics of donated love or Applejack's defense. It moves to a new analysis request. | none
+  - How does a recovering Changeling take in the fact that real friendship includes sharing pain, when jaeger-geist masked all negative emotion? | ignored | Nothing on the recovering Changeling's emotional processing. It asks for a comparison of the drugs instead. | none
+- shape: Redirects to a new task. The user drops the model's two follow-up questions and asks for a consistency audit: compare the three drugs and their real-world equivalents against the chemistry already set out in the chasseur doctrine, and say whether the red/pink usage lines up with it. This is a request for analysis, not a decision.
+- settles:

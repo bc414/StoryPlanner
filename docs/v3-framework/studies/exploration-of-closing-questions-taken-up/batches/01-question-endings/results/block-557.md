@@ -1,0 +1,9 @@
+- questions:
+  - How do Fleur Bloom and the Aquileian elites, whose identity rests on terroir, react to a Land Value Tax that socializes the baseline value of their prime land? | ignored | Nothing on Aquileian reaction; the turn only corrects the magical-land premise and moves to the Manehattan tax mechanism. | none
+  - How does Gilded Trust exploit the working class's epistemological gap to frame the transparent magical land-value accounting as a Canterlot Deep State trick? | ignored | The turn does not take up Gilded Trust's framing. Its correction that land has nothing magical removes the ambient-magic auditing premise the question rested on, but it does not address the question itself. | none
+- shape: Corrects the model's premise that land carries ambient magic, then redirects the conversation to an existing in-universe plot mechanism (EEEE!'s tax-on-output with factory collateral in Manehattan). It asks for an analysis of that mechanism as a bridge to Georgism. It gives new world facts and leaves both Socratic questions unanswered.
+- settles:
+  - Land is not magical in this world. Magic comes from the earth pony, and magic crystals and plants are treated as natural resource deposits like iron ore, coal and oil. | There is nothing "magical" about land in my world
+  - EEEE! in Manehattan legally gains control of the tycoons' factories by assigning a tax proportional to each factory's output, with the factory as collateral if the tax goes unpaid. | assign a tax proportional to the factory's output, with the factory as collateral
+  - The tycoons were underproducing because Equestria ran on a gold standard and the treasury was nearly empty, due to Aquileia and Chrysalis's economic scheme. | underproducing because Equestria ran on a gold standard
+  - The tycoons are willing to collaborate because their wealth is held in Skyfall Marks. | tycoons want to collaborate because their wealth is in Skyfall Marks

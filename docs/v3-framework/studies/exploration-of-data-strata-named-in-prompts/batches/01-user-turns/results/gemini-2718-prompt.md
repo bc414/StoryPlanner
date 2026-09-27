@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to pick, from the names it just proposed, the one that seems harmless on the surface to greedy Skyfall tycoons but hides a clever insult on deeper reading.

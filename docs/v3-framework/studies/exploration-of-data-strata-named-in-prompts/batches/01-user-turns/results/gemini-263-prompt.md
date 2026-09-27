@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates the model's thematic framing as a question, checking that the TeiJack relationship works as a bulwark against Nightmare Moon-style corruption, and says they like it, without pointing the model at any body of material.

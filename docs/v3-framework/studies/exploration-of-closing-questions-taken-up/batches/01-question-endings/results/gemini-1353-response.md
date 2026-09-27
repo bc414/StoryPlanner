@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore the specific scene where Thranx and Eagleclaw discuss Chrysalis without Thranx realizing the truth, for dramatic irony? | no user turn | none | none
+- shape: none
+- settles:

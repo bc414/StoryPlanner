@@ -1,0 +1,6 @@
+- sources:
+  - modern China | real-world parallel offered as the reason to keep the name Great Leap Forward; treat as a live reference point for Chrysalis's predator state | parallels between Chrysalis's predator state and modern China | first-named
+  - the author's established plot points, the Skyfall 3 way valve IP theft and the synthetic drugs copying the Tzinacatl | treat as settled story facts that back the China parallel | IP theft of the 3 way valve from Skyfall | referred-to
+  - the regimes Chrysalis studied in Griffonia | treat as settled lore that she takes the worst parts of each, supporting keeping the name | takes the worst parts of all the regimes she studied in Griffonia | referred-to
+- order:
+- about: The user pushes back on the advice to drop "Great Leap Forward", explaining that the name fits because Chrysalis's state mirrors modern China through IP theft and copied drugs and because she sells industrialization to her drones as a revolution.

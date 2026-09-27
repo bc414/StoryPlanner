@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's eight-mode list as a base and asks it to weigh keeping the modes strictly separate against combining some within a track, noting the apparent overlap among Political Scientist, Economist and Sociologist, and asks for clarifying questions rather than assumptions.

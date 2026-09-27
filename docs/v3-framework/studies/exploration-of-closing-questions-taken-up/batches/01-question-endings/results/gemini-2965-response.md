@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft system instructions tailored to checking the logic of the Tall Tale magic or political system? | ignored | Nothing on it. The user asks a separate question about how Google stops people from making new accounts to claim the $300 credit again. | none
+- shape: Redirects to a side question about the platform. It asks how Google prevents repeat sign-ups for the free credit, and it leaves the offered system-instruction draft untouched.
+- settles:

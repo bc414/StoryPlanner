@@ -1,0 +1,9 @@
+- claims:
+  - NarrativeArchitecture | the reader is to update their view of Twilight: her magical genius is not merely a product of loving magic | Reader learns that Twilight isn't just a magical genius just because she loves magic | yes
+  - Characterization | the true cause of her spell-matrix genius is Applebuck Season with Applejack, and before that she invented spells only for herself | sparked specifically by Applebuck Season with Applejack. Prior to that she only invented spells for herself | no
+  - Characterization | Applebuck Season made her think about sharing magic with others, until being yelled at in Winter Wrap Up ended that impulse | got Twilight thinking about sharing magic with others, until getting yelled at in Winter Wrap Up canned that | no
+  - WorldInference | her not using magic in Cider Squeezy is the on-page evidence from which the reader can infer her withdrawal | as shown by her not using magic in Cider Squeezy | no
+  - Characterization | her fascination with magic-sharing was revived by necessity in 1007, through the Dotted Line Report and Rebuilding Ain Trotgourait | Until necessity brought back her fascination in 1007 | no
+- goals:
+  - The reader comes to believe Twilight's magical genius stems from a specific formative experience with sharing magic, not simply from loving magic | NarrativeArchitecture | Reader learns that Twilight isn't just a magical genius just because she loves magic
+- whole: The note lays out the reader's opinion revision about Twilight's magical genius, mostly by asserting a character-history of what sparked, stifled and revived her interest in sharing magic.

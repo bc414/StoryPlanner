@@ -1,0 +1,4 @@
+- questions:
+  - Will one named ace (Rainbow Dash, Réni, or Hermann Meyer) strike the Storm King's flagship, or will a combined squadron effort break his line? | no user turn | none | none
+- shape: none
+- settles:

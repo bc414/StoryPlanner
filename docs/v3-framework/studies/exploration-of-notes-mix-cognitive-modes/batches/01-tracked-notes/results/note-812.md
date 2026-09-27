@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten: world-building ontology | The Boyars' authority rested on logistical necessity, not divine right | The Boyars did not rule by divine right; they ruled by logistical necessity | outside
+  - outside all ten: world-building ontology | The Boyars organized the massive, generational logging expeditions into the deep taiga, which is what the system objectively does | They organized the massive, generational logging expeditions into the deep taiga | outside
+  - outside all ten: world-building ontology | Peasants took the labor as a sacred, collective duty to Keep the Fire Burning, not as exploitation | The peasants did not view this as exploitation; they viewed it as a sacred, collective duty | outside
+  - outside all ten: world-building ontology | The Boyar's role within the Mir is defined as chief logistician | The Boyar was merely the chief logistician of the Mir | outside
+- goals:
+- whole: The note defines, as rules of the fictional world, how the Boyar-led logging system works and how its participants understand it, without stating any reader effect.

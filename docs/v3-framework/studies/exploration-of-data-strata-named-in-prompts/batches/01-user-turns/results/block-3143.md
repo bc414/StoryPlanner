@@ -1,0 +1,7 @@
+- sources:
+  - the canon episode Winter Wrap Up | treat as established canon: the day is variable and differs per village, so it supports the hippogriff delivery timing | establishes that the day is variable (Mayor Mare says spring will be late this year | referred-to
+  - the MCP server's data on the canon Winter Wrap Up episode | consult it and check the episode claims against it | Check the MCP server's data on the canon Winter Wrap Up episode | referred-to
+  - the song lyrics (of Winter Wrap Up) | use as supporting evidence tying the holiday to stork migration | bringing home the southern birds | referred-to
+  - a popular fimfiction story, attached as maidens-day.epub | possible source for synthesis, provisional; the user does not remember it well and asks whether it relates to midsummer's eve or Winter Wrap Up | Another potential source for synthesis | first-named
+- order:
+- about: The user corrects a point about Midsummer's Eve, proposes that the hippogriff foal delivery happens after Winter Wrap Up, asks the model to check the canon episode via the MCP server and to look in an attached fanfiction epub for relevance, and clarifies which ponies do not know about New Mareland's role in adoption.

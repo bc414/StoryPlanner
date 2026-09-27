@@ -1,0 +1,5 @@
+- claims:
+  - History | Eros was about to execute Eagleclaw as a traitor but stopped when the child Grover VI asked him to stop hurting Aunty Gabriella, and he accepted the plea | Eros is about to execute Eagleclaw as a traitor, but stops when child Grover VI asks him not to hurt "Aunty Gabriella" anymore; Eros accepts the child emperor's plea | yes
+  - Characterization | Eros feels deep pride in the child emperor, and the child's words kept Eros from being too much of a tyrant, which asserts a truth about his inner nature and its limit | Eros is very proud of the child emperor whose words managed to save Eros from being too much of a tyrant | no
+- goals:
+- whole: The note reports a 1007 event in which the child emperor's plea stops Eros from executing Eagleclaw, and adds an assertion about Eros's pride and his tendency toward tyranny.

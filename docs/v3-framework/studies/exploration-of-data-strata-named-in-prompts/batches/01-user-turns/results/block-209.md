@@ -1,0 +1,6 @@
+- sources:
+  - end of TLTT, Synovial's summary of Chrysalis's history | treat as true and as what the reader already holds when chapter 1 begins: the mother's death, her taking over, the Ditrysium incident as the cause of going to Acornage, and the 'herding idiots' wording, with no mention of meritocracy | at the end of TLTT, Synovial mentions Chrysalis's mother dying | first-named
+  - the author's account of how griffon forging magic works | treat as settled fact about the setting: the sword and armor glow purple with the forger's conviction, and Chrysalis's illusion and metallurgy imitation still shatters because griffon magic is ontologically superior here | glow an enchanted purple when wielded by its forger | first-named
+  - the author's belief about the sleepover's timing and the order of events | treat as the author's working plan, hedged: the sleepover is early, and the changeling insult and forging class come well after it, so the orphanage story fits her alibi | I believe the sleepover happens early on | first-named
+- order:
+- about: The author corrects and extends the model's assumptions about the backstory structure by stating what the reader already knows from the end of TLTT, how the griffon forging magic works, and the sleepover's early timing, and concludes that Chrysalis's orphanage alibi is itself an allegory of her upbringing.

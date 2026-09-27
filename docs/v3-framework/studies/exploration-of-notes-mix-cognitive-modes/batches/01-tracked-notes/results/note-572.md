@@ -1,0 +1,6 @@
+- claims:
+  - Canon | recalls the source-canon line in which the character says that reading about magic differs from having been at magic school, knowing much and being unable to do any of it | "reading about magic is one thing, but you don't know what it was like at magic school!" | yes
+  - Canon | recontextualizes that canon line: he does not mean basic approved spells but Aquileian texts he lacks the magic to perform, and he was expelled for attempting them | "he's not referring to basic approved spells. He's referring to Aquileian texts" | yes
+  - History | reports the next event in his life: after the expulsion he goes to the parlours | "Then he goes to the parloirs" | no
+- goals:
+- whole: The note takes a canon line about magic school and reinterprets it as referring to forbidden Aquileian texts he couldn't perform and was expelled for attempting, then points to his move to the parlours.

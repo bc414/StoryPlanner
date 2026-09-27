@@ -1,0 +1,5 @@
+- sources:
+  - my story plan (recently updated with backstory about the GR in Cloudbury failing, Kemerskai reading Coltbert's paper, and martial law) | treat as the current, settled plan; the new backstory is the premise the model should build its answers on | I recently updated my story plan to include backstory | first-named
+  - what I previously established (Chrysalis took the worst parts of Kemerskai and Discret/Coltbert for herself) | treat as already-settled story fact; the martial-law change is to be reconciled with it | I also previously established that Chrysalis took the worst parts | referred-to
+- order:
+- about: The user reports a newly updated plan detail (Kemerskai's martial law) and asks the model to work out its consequences for his monetary policy (ending the gold standard, disciplined paper money versus Discret's ego notes) and for Chrysalis, given what was previously established about her.

@@ -1,0 +1,7 @@
+- sources:
+  - The Conception Spell facts the user states (mare couples only, invented by Celestia centuries ago, stallion couples adopt orphans from New Mareland, stallion/mare couples have kids normally) | treat as true and authoritative; use to correct the model's wrong assumption about the spell | The Conception Spell is strictly for couples of two mare couples | first-named
+  - the above response (the model's previous answer) | accept as sound and consistent with the author's intent, apart from the one misconception about the Conception Spell | everything else in the above response makes sense | referred-to
+  - my story plan (its notes) | check against the accepted response and list every note that still contradicts it | point out all the notes in my story plan that still contradict | referred-to
+- order:
+  - The user's Conception Spell correction over the above response's account of the spell | Other than that misconception, everything else in the above response makes sense
+- about: The user corrects the model's misconception about the Conception Spell, accepts the rest of its reply, and asks it to find every note in their story plan that still contradicts that reply.

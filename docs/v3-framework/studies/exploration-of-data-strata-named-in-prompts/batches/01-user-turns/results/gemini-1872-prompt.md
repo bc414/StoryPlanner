@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about what happens with the proposed consolidation workflow if Gemini's output token limit is smaller than the length of their text, without pointing the model at any body of material to use or avoid.

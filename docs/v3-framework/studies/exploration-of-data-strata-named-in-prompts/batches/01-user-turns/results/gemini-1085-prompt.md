@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh the pros and cons of two story options for the mayor, a stagnant well-meaning figure versus a Skyfall puppet, without pointing at any body of material to draw on.

@@ -1,0 +1,6 @@
+- questions:
+  - If Twilight and Applejack uncover that the parents were tragic idealists, like Fluttershy now, does it shatter Twilight's confidence and show that good intentions plus industrial magic can't prevent catastrophe in a flawed geopolitical structure? | ignored | none; the turn only corrects the parents' cause of vice | none
+  - If Applejack uses this truth in the Chapter 29 debate, does it dismantle Gilded Trust's "Ponies First" narrative by showing that hero versus collaborator is set by systemic pressure and not by species? | ignored | none; the turn does not mention the debate or Gilded Trust | none
+- shape: A short correction of one detail in the model's backstory for the fake parents. It changes the cause of their vice and their deaths. It does not take up the model's questions or the themes they raise, and it moves on without them.
+- settles:
+  - The fake parents did not turn to vice to cope with stress. Their excess came from partying too much with other tycoons. This replaces the model's account of a stress-driven descent into vice. | did not need the vices to cope with stress. They partied with other tycoons too much

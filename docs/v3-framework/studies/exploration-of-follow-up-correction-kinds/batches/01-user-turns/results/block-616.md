@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user tentatively floats splitting structural truth into its own payload track apart from the reader-experience fields, and asks whether the two always need to appear together or whether a character or codex entry can have structural truth reported with no reader-experience plan, as an open design question and not a rejection of what the model laid out.

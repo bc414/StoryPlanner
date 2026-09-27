@@ -1,0 +1,5 @@
+- questions:
+  - Does mass distribution of the Luna Nova Rifles, which makes users drain their own Red Love, permanently change the Equestrian species' biological and psychological baseline, and can a 'toy' that has pulled a trigger integrate into a peaceful Republic or does the rifle bring the Predator's Dilemma into the genome? | no user turn | none | none
+  - When the Republic exports Harmonic Capitalism and magical technology to the Griffonian Republic and Aquileia, how does Applejack keep Equestria from becoming a new 'Skyfall', a corporate superpower that turns foreign nations into consumers of its brand? | no user turn | none | none
+- shape: none
+- settles:

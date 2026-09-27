@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Applejack will not ask others to do what she would not do herself; a fixed trait of her conduct | She won't make others do what she won't do herself | yes
+  - Characterization | Applejack needs to lead from the front, as the tip of the spear, in order to feel honest; the psychological root of her behavior | She has to be the tip of the spear in order to feel honest | yes
+- goals:
+- whole: The note asserts, as psychological truth, that Applejack refuses to ask of others what she won't do herself and needs to lead from the front to feel honest.

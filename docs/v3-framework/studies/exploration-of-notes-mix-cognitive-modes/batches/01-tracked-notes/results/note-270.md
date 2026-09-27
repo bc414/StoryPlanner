@@ -1,0 +1,6 @@
+- claims:
+  - History | Imperial Herzlander armies began as conscripted serf lines with noble knights for the breakthrough, then changed into mass-produced musket volleys | Imperial Herzlander armies were originally lines of conscripted serfs plus noble knights; Then they became mass produced musket volleys | no
+  - Analogies | the disciplined volley armies are modelled on the British Redcoats | strict dicipline like Redcoats | no
+  - outside all ten (world rule stated as a standing fact of the system) | this conscript-and-volley model is the system's established way of raising an army and its overall battle plan | That's the traditional way to raise an army. It's the grand battleplan. | outside
+- goals:
+- whole: The note defines how the Herzland system raises and fights its armies, giving their development from serf-and-knight levies to Redcoat-like musket lines and stating that this is the traditional battle plan.

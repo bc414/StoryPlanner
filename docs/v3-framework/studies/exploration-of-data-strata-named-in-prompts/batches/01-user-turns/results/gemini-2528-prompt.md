@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes revising the plot so that Chrysalis sources Pink Love from Skyfall's private prisons or harvesters kept in Skyfall, and so that the Severyanan gulags were never built because the Boyars fled to Skyfall, without pointing at any body of material for the model to draw on.

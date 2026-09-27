@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short question about where the model's coder-persona framing came from, whether it was pulled from Gemini's personal-context feature, without saying anything in the model's turn is wrong.

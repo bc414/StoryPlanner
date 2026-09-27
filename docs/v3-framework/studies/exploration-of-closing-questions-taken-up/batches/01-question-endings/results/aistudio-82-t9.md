@@ -1,0 +1,5 @@
+- questions:
+  - How does the Celestial Party's 30% of voters read Celestia's absence from the debate if they still think she is a flawless goddess? Do they take it as a silent divine protest against Applejack, and so feed the polarization she wanted to avoid? | ignored | none | none
+  - If Gilded Trust knows Celestia is doing grassroots therapy, how does he use that against her? Does he frame her empathy as weakness to win reactionary voters who want a strongman? | ignored | none | none
+- shape: Sets the model's questions aside and repeats the same kind of task on a new batch of notes. It pastes in older notes about Celestia's two-tiered view of Equestrians versus Buffalo, Rockfeller and Appleloosa, and asks whether they still hold under the new paradigm. It is an instruction to continue the audit, not a reply to what the model asked.
+- settles:

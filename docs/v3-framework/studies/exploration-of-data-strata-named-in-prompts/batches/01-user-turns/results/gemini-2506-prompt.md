@@ -1,0 +1,6 @@
+- sources:
+  - canon (the show), including Secret of My Excess | the model is to draw on it to say whether other instances exist beyond the one the user recalls; user's memory is treated as incomplete | "Are there other instances in canon that I don't remember?" | first-named
+  - user's story plans regarding the defense of Mount Aris | the model is to consult them and use them to determine the Wonderbolts' state by the 1011 war | "refer to my story plans regarding the defense of Mount Aris" | referred-to
+  - the user's own account of Rainbow, Spitfire and Theodor Kemmerich | treat as settled story content that the model should build on | "Spitfire as the leader was humbled by the Griffonian Republic's air force leader Theodor Kemmerich" | first-named
+- order:
+- about: The user corrects the model's claim that the Wonderbolts never face real threats by citing canon, asks for more canon instances and their implications, and directs the model to their Mount Aris story plans for how the Wonderbolts are by 1011.

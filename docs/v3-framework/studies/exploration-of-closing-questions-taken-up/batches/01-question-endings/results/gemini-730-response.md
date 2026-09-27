@@ -1,0 +1,4 @@
+- questions:
+  - Would you like me to draft a set of Critic prompts for finding weak points in your current story outline? | ignored | The user does not respond to the offer and instead asks a new question about uploading JSON output from their own story planner app to NotebookLM. | none
+- shape: Redirects to a new practical question: the user moves from the model's feature overview to whether their custom planner app's JSON export can be uploaded to NotebookLM, swapped for a new export after edits, and whether that would work well. It is a request for information about a workflow, and it does not take up the offered prompts.
+- settles:

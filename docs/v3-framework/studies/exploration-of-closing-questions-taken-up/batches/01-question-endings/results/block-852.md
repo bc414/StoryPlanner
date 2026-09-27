@@ -1,0 +1,5 @@
+- questions:
+  - How do the EEEE! Machinists Guilds turn wartime co-determination into peacetime law, and does Gilded Trust use the return to normalcy to strip their board seats, forcing Applejack to write Harmonic Capitalism into the new Constitution? | ignored | Nothing on postwar codification, Gilded Trust's counter-move, or the Constitution. | none
+  - How does mass proliferation of the Love Donator (democratized renewable magic) permanently destroy the centralized extractive business models of Rockfeller and Chrysalis and change the geopolitical balance? | ignored | Nothing on the Love Donator, Rockfeller, Chrysalis, or the balance of power. | none
+- shape: The user drops both of the model's closing questions and moves to a different topic. They ask whether "Resilience" is the right opposite pole to Cynicism among the Elements of Liberty, and for the runner-up terms with reasons. They say they chose the word early and thoughtfully, and want to re-test it now that they understand the failure mode precisely. This is a redirect to a naming and terminology audit, and it asks the model for evaluation rather than giving any instruction.
+- settles:

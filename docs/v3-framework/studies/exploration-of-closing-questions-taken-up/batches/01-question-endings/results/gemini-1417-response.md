@@ -1,0 +1,3 @@
+- questions:
+- shape: Moves on to a new request. The user does not respond to the Polish-history mappings or the closing summary. Instead they ask the model to assess whether modern Poland is a more "harmonic capitalism" republic than the US, Britain, France and Germany. It is a real-world comparison, a fresh analysis request that builds on the story's "harmonic capitalism" theme.
+- settles:

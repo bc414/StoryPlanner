@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore a scene where Applejack and Twilight negotiate with the Skyfall CEO, and how they handle the moral dilemma of funding the dual economy to get parts? | refused | Says the premise is wrong: AJ and Twilight do not go to Skyfall because they have a war to direct at home. | AJ and Twilight don't go to Skyfall, they have a war to direct domestically
+- shape: Corrects the model's premise about where the protagonists go, then redirects to a new question: whether the Skyfall dual economy is what Chrysalis builds her New Order on during the Great Leap Forward. It also tells the model to reread the story notes and analyze.
+- settles:
+  - Applejack and Twilight do not travel to Skyfall in the story; they are occupied directing a domestic war | AJ and Twilight don't go to Skyfall, they have a war to direct domestically

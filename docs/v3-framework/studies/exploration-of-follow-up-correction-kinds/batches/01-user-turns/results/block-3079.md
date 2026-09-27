@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model built its methodology definition from a limited set of notes and did not search the v1 archive and earlier conversations, especially the paratext sections of the v1 archive presented as chapter 34 | "You need to also search for relevant notes in v1 archive and conversations" | flat directive, stated as a missing step with a pointer to where the material is, no apology or reason
+- about: The user redirects the model to widen its source search to the v1 archive and past conversations, especially the paratext sections hidden as chapter 34, before its methodology definition is treated as complete.

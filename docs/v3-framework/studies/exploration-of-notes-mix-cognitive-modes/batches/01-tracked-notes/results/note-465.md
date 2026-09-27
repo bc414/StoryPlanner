@@ -1,0 +1,4 @@
+- claims:
+  - History | Chrysalis used the Skyfall Mark as the reserve currency for her red love drug trade, a fact reported as having happened | Chrysalis used the Skyfall Mark as the reserve currency for her red love drug trade | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that Chrysalis used the Skyfall Mark as reserve currency for her red love drug trade.

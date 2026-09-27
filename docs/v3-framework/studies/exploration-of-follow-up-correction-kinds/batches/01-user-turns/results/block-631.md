@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: how much the design stage should specify (over-specification of gap mechanics) | the model's turn works out the dual-readable gap for the donation scene and the AJ lie in fine detail, anchors and stakes field included, at the story-design stage; the user says this should instead be left to prose drafting, with design stating only what the scene wants to achieve | "approaching overkill", "Shouldn't the story design define what the scene wants to achieve", "The gap serves higher purposes but is not the higher purpose itself" | hedged pushback that gives a reason, put as a question and an invitation to weigh both approaches rather than a flat order
+- about: The user questions whether the model's very detailed gap design belongs in the design phase rather than in prose drafting, and asks it to say whether their view is right and to compare the two approaches.

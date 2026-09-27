@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user clarifies the intended moral distinction in their own story logic, that rational or circumstantial behavior such as banditry or combat differs from war crimes and abuse, which come from a lack of morality, and does not point the model at any body of material.

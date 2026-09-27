@@ -1,0 +1,5 @@
+- questions:
+  - How does the discovery that Chrysalis's Alicorn-like body was surgically manufactured from stolen magic change Twilight's understanding of her own ascension, and does it make her doubt whether Celestia's Ascension Spell works on similar, consensual, Charitostatic principles? | no user turn | none | none
+  - Does the Soryth Metamorphosis, which permanently alters base form, also permanently sever the Changeling's Emotion Sense, so that the Pink Love binder overwriting their biological registry leaves them unable to passively detect emotions? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up worldbuilding question about whether venting nearly all the steam for weather has any industrial side-benefit beyond making clouds, without pointing at any body of material.

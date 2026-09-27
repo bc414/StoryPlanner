@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the fabula's structure to ask an outside-world question about George RR Martin's generation, whether he saw reality or missed it, and who reads ASOIAF today, prompted by the model's use of ASOIAF as the cynicism baseline, without saying the model was wrong.

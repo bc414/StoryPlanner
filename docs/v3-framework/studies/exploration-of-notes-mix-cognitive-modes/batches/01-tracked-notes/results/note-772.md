@@ -1,0 +1,5 @@
+- claims:
+  - History | VOPS does not spend high-value jaegers on military espionage, which it treats as petty and suicidal | VOPS does not waste high-value jaegers on petty, suicidal military espionage | no
+  - History | Chrysalis has turned her intelligence apparatus wholly toward civilian, corporate and political targets | Chrysalis redirects her intelligence apparatus entirely toward the civilian, corporate, and political sectors | no
+- goals:
+- whole: The note reports as world fact how VOPS deploys its jaegers and intelligence apparatus, in the voice of a historian rather than an author planning the reader's experience, and it states no reader effect.

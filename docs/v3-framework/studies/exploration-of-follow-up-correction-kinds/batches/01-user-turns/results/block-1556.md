@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's closing claim that the 12-track structure is correct for all subject types and generalizes structurally; the user says only the principles behind the tracks generalize, and the La/En split is not clean because the two sometimes merge, come in two variants, or one is missing | "I don't think the \"12\" track structure generalizes. Only the principles of the tracks." | flat statement of disagreement, hedged as "I don't think", backed by a short list of ways La and En fail to separate cleanly, and placed as the last item after unrelated material
+- about: The user mostly adds new material: a tooling requirement for note tracks, a theory about reader-expectation loss across seasons, a Rainboom recontextualization example, and a question about editors. They restate their Three Little Pigs proposal and close by disagreeing that the 12-track structure generalizes.

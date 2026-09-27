@@ -1,0 +1,7 @@
+- sources:
+  - the story's synthesis of the four axes (the axis framework from the previous answer) | treat as the settled end goal and social-commentary message, and build on it | The story has a clear synthesis where each of the for axis combined is the end goal | referred-to
+  - the author's own belief that the four anti-poles are not evil but regional responses to problems from other axes | treat as the author's premise the answer should work within and reflect | I believe each of the 4 anti poles are not evil on their own | first-named
+  - the story's factions (AJ's Equestrian Republic, Chrysalis, the other factions) as the author describes their axis positions | treat as the author's intended structure: AJ holds all four poles, Chrysalis all four opposites, others a mix of lessons learned and refuted | AJ's Equestrian Republic has all 4, Chrysalis has all 4 opposites | referred-to
+  - real life history | draw on it to supply allegories for the axes, factions and an individual good case | give the allegories to real life history | first-named
+- order:
+- about: The author affirms the four-axis synthesis, adds their own view that the anti-poles are regional responses rather than evils, and asks whether Chrysalis embodies all four anti-poles, how one individual could be a good case, and for real-history allegories for the factions.

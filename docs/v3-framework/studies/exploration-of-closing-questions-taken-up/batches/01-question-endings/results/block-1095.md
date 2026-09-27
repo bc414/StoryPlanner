@@ -1,0 +1,6 @@
+- questions:
+  - When Applejack becomes President, how does she manage Blueblood, and does she keep him as her top military commander because she needs his ruthless competence? | ignored | none; the turn moves to a real-world figure and never mentions Applejack, Blueblood or the post-war Republic | none
+  - How does that arrangement create friction with idealists like Twilight or Fluttershy? | ignored | none; nothing about the story's characters or their conflicts is taken up | none
+  - During the debates, how does Applejack defend the dignity of Celestia's peaceful intentions without endorsing the Stagnation policies Gilded Trust is weaponizing? | ignored | none; the turn does not return to the debates, Celestia or Gilded Trust | none
+- shape: Leaves the story analysis and starts a separate real-world thread. The user asks for a thorough analysis of Barack Obama (inner reality, public perception, and phases of influence), a factual check on whether the 2008 financial crisis came before his November 2008 election, and the source and meaning of a remembered post-presidency quote about being a decade or two too early. It accepts the model's Blueblood/Celestia remapping without comment and does not touch the model's questions.
+- settles:

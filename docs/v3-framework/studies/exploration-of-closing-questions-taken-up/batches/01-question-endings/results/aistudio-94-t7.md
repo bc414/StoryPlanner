@@ -1,0 +1,6 @@
+- questions:
+  - Does the Tree's updated acceptance of Red Love change how the Elements work as weapons, so they could power industrial or defensive infrastructure and not only turn villains to stone? | ignored | Nothing said about the Elements' function or their possible new uses. | none
+  - How does Celestia read the expanded Map: as the Tree corrupted by the cake's Red Love, or as Star Swirl's artifact outgrowing her thousand-year-old policies? | ignored | Nothing said about Celestia's reaction to the Map or its expansion. | none
+- shape: The user sets aside the model's questions and re-poses the underlying problem. They restate the scene order: the Mane 6 sit at their thrones in the preceding scene with the Map still dormant, and the Map activates after the morale cakes. They then ask for an explanation grounded in the world rules. This reads as a redirect that asks the model to try again, and it implies the earlier answer did not supply a rule-based reason. It offers no answer to the model's questions.
+- settles:
+  - Scene order: in the scene before the war council the Mane 6 sit at their thrones and the Map stays dormant, and it activates only after the morale cakes are eaten. | The previous scene has the mane 6 at their thrones but the map still dormant; the map activates after the morale cakes.

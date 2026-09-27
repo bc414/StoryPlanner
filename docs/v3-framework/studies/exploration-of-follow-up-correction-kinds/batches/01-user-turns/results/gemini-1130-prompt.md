@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the speech analysis behind and asks a new question about how real lion social structure and hunting roles relate to their poseur and ambition themes and might inform griffon psychology and the predator's dilemma.

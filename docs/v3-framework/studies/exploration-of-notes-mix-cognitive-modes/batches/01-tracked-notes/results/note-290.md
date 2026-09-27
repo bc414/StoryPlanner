@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Before the war, Rainbow Dash never had to rest when facing problems; she was never made to pause or yield to difficulty | She never had to rest in the face of problems before the war | yes
+  - Characterization | Any problem needing brute force was one she could overpower, which defines her competence and self-conception as a character | Anything that required brute force, she could surpass | yes
+- goals:
+- whole: The note asserts as psychological truth that Rainbow Dash entered the story as someone who had never needed to rest or yield, because brute force always overcame her problems before the war.

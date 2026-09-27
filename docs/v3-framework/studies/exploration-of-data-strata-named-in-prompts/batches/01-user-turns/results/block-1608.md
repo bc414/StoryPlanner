@@ -1,0 +1,9 @@
+- sources:
+  - v1 data, including tangled v1 paragraphs and plot point text | evaluate closely and dissect for nuance into the right tracks; skip it or flag it where remembered undocumented decisions show it is outdated; hidden flags in its plot point text become flag questions in v2 | "v1 data is outdated from undocumented data" | referred-to
+  - the archive's notes | evaluate each note so all its statements and nuances are in v2, which lets it move to Confirmed; its flagged notes carry into v2 as flagged notes | "Flagged notes in the archive become flagged notes in v2" | referred-to
+  - memory (the author's own recall) | use it to prepopulate the tracks as a starting point before the tangled v1 paragraphs are evaluated; also the basis for knowing v1 is outdated | "prepopulated from memory as a starting point" | referred-to
+  - Google Keep and AI chat notes | hold undocumented decisions that often contradict v1; enter them into v2 before the v1 evaluation pass so they take precedence over contradicting v1 content | "google keep and AI chat note entry into v2 should come before the v1 evaluation pass" | referred-to
+  - the chat where EEEE! was decided to be a machinist's guild | treat as the settled decision; v1 notes calling EEEE! a combative union are not put into v2 | "EEEE! is a machinist's guild, not a combative union" | first-named
+- order:
+  - Google Keep and AI chat notes (e.g. the EEEE! machinist's guild chat) over v1 data | where v1 contradicts them, the v1 material is skipped or flagged, and their entry into v2 comes before the v1 evaluation pass
+- about: The user clarifies how flagged notes, tangled v1 paragraphs, subject consolidation, undocumented Google Keep and AI chat material, and the rigorous standard work in the v2 transmutation, and says they want a few subjects into v2 to test export with real data while deferring the export software work.

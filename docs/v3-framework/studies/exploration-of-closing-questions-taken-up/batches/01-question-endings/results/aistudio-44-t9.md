@@ -1,0 +1,11 @@
+- questions:
+  - Does Celestia subconsciously enable the infiltrator myth because it absolves her anti-industrial Luna Doctrine of blame for the army's collapse? | ignored | Nothing about Celestia or the Luna Doctrine; the turn goes on to the pre-war dogma and Applejack's arc. | none
+  - Does Pinkie's trauma change if the 'infiltrator' she shot was really a victim of VOPS-induced paranoia, a friendly-fire death showing that fear of the enemy destroys Harmony faster than bullets? | ignored | Pinkie and the friendly-fire idea are not mentioned; the turn stays with Applejack and the army's dogma. | none
+- shape: The user does not answer the model's Socratic questions. They extend the model's synthesis with new story material of their own: a pre-war Equestrian dogma, Applejack's belief in it, and how her arc resolves at the Chapter 9 Town Hall. The turn is framed as an addition ('Let's enhance this by saying'), and it changes the myth's centre from spies to the dogma about friendship in the trenches.
+- settles:
+  - The Equestrian Army's premier pre-war dogma was that they would survive because they had friends side by side in the trenches, while the changelings all distrust each other. | premier dogma of the Equestrian Army before the war
+  - Applejack believes the dogma and is also skilled with the machine gun. | Applejack buys into this, alongside machine gun skills
+  - Applejack accepted the general's position because the troops looked up to her, both as an Element of Harmony and because she mastered the machine gun first and taught others. | she worked hard to master the machine gun first, and taught others
+  - The changelings win anyway because machine guns are mostly obsolete against armored tanks. | machine guns are mostly obsolete against armored tanks
+  - In chapters 1 to 9 Applejack feels she must rip out her soul and use industry to survive, and that empathy is a weakness (the grimdark trope). | rip out her soul and use industry to survive
+  - The chapter 9 Town Hall introduces harmonic capitalism. It shows the original dogma is true but must be backed by industrial capacity. | Town Hall in chapter 9 introduces harmonic capitalism

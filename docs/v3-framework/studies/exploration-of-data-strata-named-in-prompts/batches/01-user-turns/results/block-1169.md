@@ -1,0 +1,4 @@
+- sources:
+  - TLTT | the framework within which the model is to interpret Twilight's Ascension and Magical Mystery Cure; the interpretation should fit its setting and premises | how should Twilight's Ascension and Magical Mystery Cure be interpreted in TLTT | referred-to
+- order:
+- about: The user asks, in a single short question, how Twilight's Ascension and Magical Mystery Cure should be interpreted within their story project TLTT.

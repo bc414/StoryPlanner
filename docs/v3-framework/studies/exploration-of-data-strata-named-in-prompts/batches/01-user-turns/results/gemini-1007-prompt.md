@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to review them and revise its earlier analysis in light of them | Please review my story plans and update the analysis | referred-to
+- order:
+- about: The user asks the model to review their story plans and update its previous analysis accordingly.

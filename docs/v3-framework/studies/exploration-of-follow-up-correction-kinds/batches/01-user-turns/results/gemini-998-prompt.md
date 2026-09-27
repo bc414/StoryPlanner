@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model built the three invented crops as a component-for-component copy of milk (fat, sugar, protein), whereas the user wants the world grounded in real vegan dairy alternatives, their shortcomings and their chemistry, with magic only fixing the gap | Instead of exactly copying the specific mechanics of dairy | Put as a redirect that opens with 'instead of', then asks a run of direct questions about real alternatives; flat, with no apology or stated reason
+- about: The user steers away from the model's milk-mimicking three-crop invention toward real vegan dairy alternatives and their chemical shortcomings, so that earth pony magic can be the fix that Fleur Bloom explains later, in the way she already explains the sediment-to-phosphate mechanism.

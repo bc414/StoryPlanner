@@ -1,0 +1,11 @@
+- questions:
+  - Who is driving the push to bring the Elements back: Celestia, Luna, or Twilight? | ignored | none | none
+  - Does Applejack know she is being used to try to jumpstart the Tree of Harmony? | ignored | none. The turn's account of her rise never mentions the Tree or a plan to use her. | none
+- shape: The user turn does not answer the model's questions. It moves to a new task and asks the model to analyze a note on how Applejack became a general and what that does to her imposter syndrome arc. The note restates and expands the canon the model had already cited: Applejack did basic training, became a teacher, and accepted Luna's second offer. It also drops the user's earlier "friendship mission" idea. It leaves the Elements-revival agenda and the model's Path A and Path B unaddressed.
+- settles:
+  - Applejack turned down Luna's first offer of a general's star and went through ordinary basic training first | didn't let Luna slap a general's star on her uniform right away; volunteered for basic training
+  - Her motivation came from seeing the warlords in Ain Trotgourait and feeling useless behind Twilight's shield | highly motivated after seeing the warlords... useless behind Twilight's shield
+  - She mastered the machine gun quickly, became a natural teacher, and believed hard training and sticking together like the Hippogriffs would hold the line | mastered the machine gun fast... naturally became a teacher
+  - Luna asked her a second time, after the troops already looked up to her, and Applejack accepted | Luna asked Applejack again to be a general, and this time she accepted
+  - Applejack becomes a general by merit and honesty, with some celebrity status involved. This replaces the earlier idea of Luna simply pinning on a star for a friendship-mission army. | Now I'm going with Applejack becoming a general by merit, and honesty
+  - Her imposter syndrome is unwarranted but felt, caused by the asymmetric material reality against the changelings | imposter syndrome is not warranted but felt, simply because of asymetric material reality

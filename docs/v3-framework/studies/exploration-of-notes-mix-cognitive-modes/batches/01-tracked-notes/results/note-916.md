@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | Synovial appears in the 3rd Battle of Tall Tale, and his role in that appearance is to be manipulated by others | 3rd Battle of Tall Tale, Synovial played like a fiddle | yes
+- goals:
+- whole: The note logs a single entry in the character's appearance sequence: he shows up at the 3rd Battle of Tall Tale, where he is manipulated.

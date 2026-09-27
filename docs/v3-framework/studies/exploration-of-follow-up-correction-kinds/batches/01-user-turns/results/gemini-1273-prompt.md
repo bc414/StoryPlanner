@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Twilight's location and role in the separation phase: the model put her in Canterlot/Cloudsdale fighting the Old Guard, when she is back at Tall Tale doing research | "Twilight doesn't go to Canterlot, she is back at Tall Tale doing research" | flat, direct statement of the right location with no reason or apology
+  - fact of the world | Applejack's location and mission: the model put her at the front in the Riverlands/Marshes doing logistics and war, when she is in the Tzinacatl jungle on a diplomatic mission for economic integration for the war effort | "Applejack is not at the front, she is at the Tzinacatl jungle on a diplomatic mission" | flat, direct statement with the correct setting supplied
+  - which material was drawn on | The model built the analysis from a summary (the Super Culled Prompt and the described Town Hall Pivot) and its own extrapolation rather than the actual attached story plans | "Please refine the analysis using the actual story plans attached" | directive, mildly reproachful in stressing 'actual', no apology or reason
+- about: The user tells the model to redo its Separation Phase analysis from the attached story plans, fixing where each protagonist is and what she is doing.

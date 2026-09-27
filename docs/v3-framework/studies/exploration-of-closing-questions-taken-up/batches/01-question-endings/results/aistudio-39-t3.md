@@ -1,0 +1,8 @@
+- questions:
+  - Do the Earth Ponies keep stamping Cutie Marks and farm names on the White Phosphorus munitions (embracing the Lioness ethos), or stop, and does the resulting anonymity bring the alienation Applejack hates in the canning factory? | ignored | The user turn says nothing about munitions stamping or branding; it moves to Applejack's view of Comet Shine. | none
+  - If Tall Tale stops fertilizer exports to Aquileia to make munitions, how does the nutrient deficit hit the Aquileian FJA, and could it destabilize Gaudreau's coalition with the PNdA and the 2nd Aquileian Republic? | ignored | Nothing on Aquileia, fertilizer exports, or the coalition; the turn is only about Applejack and Comet Shine. | none
+- shape: Drops the model's industrial and economic thread and redirects to a different topic. It states the user's own characterization of Applejack's hostility to Comet Shine (he embodies the death of her agrarian world, and he is right, which she resents) and its duration until the Sabotage town hall. It then asks the model for an analysis of the narrative factors that delay her understanding.
+- settles:
+  - Applejack's initial hatred of Comet Shine comes from him representing the cold, mechanical reality that her peaceful agrarian world is dead, not from him being a tyrant | not because he is a tyrant, but because he represents the cold, mechanical reality
+  - Comet Shine is doing what needs to be done, and Applejack hates him for it | He is doing exactly what needs to be done, and she hates him for it
+  - Applejack's perception of Comet Shine lasts until the Town Hall in the chapter Sabotage, which is fixed as a pacing point of the story | This perception continues until the Town Hall in the chapter Sabotage

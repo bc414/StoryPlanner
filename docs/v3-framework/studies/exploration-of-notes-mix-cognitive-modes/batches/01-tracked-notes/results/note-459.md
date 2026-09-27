@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Trixie comes from New Horseleans and carries Aquileian influences, as an origin that shapes her | She is from New Horseleans, with Aquileian influences | yes
+  - Characterization | Because of that background she has a big ego, asserted as a trait and its cause | Hence why she has a big ego | yes
+  - Characterization | She is trying to use her asset specificity to put on a show, asserted as her present motive and behavior | trying to use her asset specificity to put on a show | yes
+- goals:
+- whole: The note asserts, in a psychologist's voice, who Trixie is at the start: a New Horseleans native with Aquileian influences whose origins give her a big ego and drive her to put on a show with her asset specificity.

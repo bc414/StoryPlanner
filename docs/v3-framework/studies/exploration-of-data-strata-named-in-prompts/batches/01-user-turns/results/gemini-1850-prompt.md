@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates their understanding of how LLMs moved from natural-language mimicry to logic mimicry, asks whether that means models are capped at the level of existing human ingenuity, and requests an analysis, without pointing the model at any body of material to use or avoid.

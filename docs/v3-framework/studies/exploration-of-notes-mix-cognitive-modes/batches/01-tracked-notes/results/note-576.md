@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | Grover IV is modeled on the real-world Industrial Revolution and Gilded Age | Grover IV (Industrial Revolution/Gilded Age) | yes
+  - History | In-universe, an era called the Rot of Peace occurred: with no monsters left to fight, the elite turned to rugged individualism and accumulation | The "Rot of Peace." With no monsters to fight, the elite turned to Rugged Individualism and accumulation | no
+  - History | The Imperial Legions, which stood for the public good, vanished and private wealth replaced them | The "Imperial Legions" (Public Good) vanished, replaced by private wealth | no
+- goals:
+- whole: The note names the Industrial Revolution and Gilded Age as the real-world analog for Grover IV and then reports, as in-universe history, how peace led the elite to abandon public-good institutions for private accumulation.

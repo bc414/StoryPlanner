@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Vanhoover analysis as a base and asks new design questions: whether Trimmel would know or voice the statthalter/bauleiter distinction, whether Thorax would agree, and how Thorax's harmonist movement could run from 1002 to 1007 as an economic vision of an abundance economy.

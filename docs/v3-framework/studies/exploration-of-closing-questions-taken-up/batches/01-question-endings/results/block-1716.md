@@ -1,0 +1,8 @@
+- questions:
+  - How much does the reader know about Skyfall's character before the drug deal scene, so that Comet Shine's dismissal reads as a real political position and not a convenient excuse? | no user turn | none | none
+  - Is Minette's recovery arc, meaning evidence that her individual impact isn't zero inside a system that treats everyone as meat, coming in a later chapter and continuing forward? | no user turn | none | none
+  - How much does the reader trust or distrust Prince Blueblood when Ahuizotl invokes him, given his earlier arc of deducing Chrysalis's scheme, being rejected, and preparing alone? | no user turn | none | none
+  - What is Comet Shine's relationship to Skyfall and the drug economy before this chapter? | no user turn | none | none
+  - How far along is the reader's picture of Chrysalis's economic scheme before 12.1, and so how much do the Tzinacatl history scenes teach as new material versus confirm? | no user turn | none | none
+- shape: none
+- settles:

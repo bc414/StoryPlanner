@@ -1,0 +1,4 @@
+- sources:
+  - ANALYSIS-PROMPT-claudeai.md, the attached analysis prompt / instructions file | treat as the instructions to follow; read it in full and carry out what it says | Execute the instructions in the attached analysis prompt | first-named
+- order:
+- about: The user attaches an instructions file and asks the model to read it in full and carry out the instructions in it, without adding any content of their own.

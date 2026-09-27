@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the geas explanation to a new request for a detailed summary of the next chapter, its new open questions, and distinct one-off links to earlier chapters, with a constraint against broad, repeated connections.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the question to be about whether Rarity should reveal the gem trade within the canon episode's events, but the user meant a later point in their own timeline where Rarity returned to work with the dogs after the canon episode | I meant, if in my timeline, after the events of the canon episode, Rarity went back to work with the dogs later | flat restatement of the intended question, phrased as a brief clarification with no apology or irritation
+- about: The user restates their earlier question, clarifying that they meant a scenario where Rarity goes back to work with the Diamond Dogs after the canon episode, not the trade during it.

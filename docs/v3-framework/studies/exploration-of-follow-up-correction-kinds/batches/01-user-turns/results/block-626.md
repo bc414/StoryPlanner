@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out their POV plan for chapters 5 through 12, including the varied Element-of-Harmony chapters and the alternating AJ/Twilight run in 10-12, and asks for an analysis of it, without disputing anything the model said about the first four chapters.

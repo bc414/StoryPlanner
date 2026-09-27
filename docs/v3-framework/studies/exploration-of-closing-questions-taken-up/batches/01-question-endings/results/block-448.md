@@ -1,0 +1,5 @@
+- questions:
+  - Does Chrysalis secretly respect her fake mother's manipulative skill, and does she later see Cadance as just another Gilded Lily, a soft pony using charm as a weapon? | ignored | Says nothing about Chrysalis's feelings toward the fake mother or about Cadance. It moves to the mother's name and family ties. | none
+  - How would Applejack and Twilight react to learning that a pony named Gilded Lily ran the PR machine behind Chrysalis's empire, and does it show that the Magic of Friendship can be corrupted into networking or lobbying? | ignored | Does not mention the heroes' discovery or the friendship-versus-lobbying theme. It asks about a different thematic impact, that of a family relationship. | none
+- shape: Sidesteps both Socratic questions and redirects. It raises a naming worry: Gilded Lily may be confused with another character, Gilded Trust. It floats a new idea, that she be an aunt or second cousin of Silver Sterling instead of his wife. Then it asks the model to assess whether that works and what it implies. It is a tentative what-if, not a decision.
+- settles:

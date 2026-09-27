@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user relays their own observations of Claude's deferred responses and Gemini's occasional delayed thinking, and asks the model to confirm their theories about peak-hour load prioritisation, limited cloud compute, and thinking-budget trade-offs.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a specialized prompt drafted for comparing exported document versions to analyze how pacing has changed? | ignored | Says nothing about the prompt or version comparison; goes on to ask about a different workflow, generating new ideas and then checking them against lore. | none
+- shape: Redirects to a follow-up question of its own. The user restates the model's tool breakdown as a workflow (brainstorm new ideas in Chat with a Notebook attached, then run them against existing lore in NotebookLM) and asks the model to confirm it. The offered prompt-drafting task is left alone.
+- settles:

@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding explanation of Crystal Pony emotion-sense mechanics ("this explains why") | accepted as settled and used as the basis for further plot deductions about the war | "Great, so this explains why" | referred-to
+- order:
+- about: The user accepts the model's Crystal Pony emotional-resonance explanation and builds on it by laying out the resulting war deployments, Shining Armor's retreat pattern, and how Flurry Heart stabilizes the crystal heart with jaeger-style emotion filtering.

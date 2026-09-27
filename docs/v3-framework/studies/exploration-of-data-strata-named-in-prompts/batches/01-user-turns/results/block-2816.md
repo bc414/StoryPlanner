@@ -1,0 +1,8 @@
+- sources:
+  - the original note ("honor among thieves") | earlier framing the user wants reconciled with the newer lore; its drug-cartel solidarity and its assumption that Ch'aska belonged to a drug tribe that crashed after the market flood are not to be taken as settled | the original note was about "honor among thieves" which pointed towards the solidarity of a drug cartel, not a factory | referred-to
+  - the old framing | partly assumes drug tribe and poverty and partly a factory setting; it conflicts with the new lore, so it must be reconciled rather than followed as it stands | Parts of the old framing assumed drug tribe (and poverty, which seems to contradict my new lore | referred-to
+  - the warrior framing / my new lore about the factories and traditional warriors and the cocoltic yaoyotl | the user's current direction, judged better than the note's drug-tribe assumption; the reconciliation should build from it | the warrior framing seems better | referred-to
+  - My timeline (Chrysalis's build-up in Vesalipolis 981-986, the 986 Vraks invasion, love harvesters taking until 986) | the user's own dates, held loosely as an abrupt placeholder history that could become gradual; open to revision so Thorax and Ahuizotl can be older | my placeholder history being abrupt and jarring and framed by hard event dates | referred-to
+- order:
+  - the warrior framing | over the original note's drug-tribe assumption | But the warrior framing seems better
+- about: The user asks the model to reconcile the older drug-cartel \"honor among thieves\" framing with their newer factory-and-warrior lore, while also loosening their placeholder 981-986 timeline so Thorax and Ahuizotl can be older, and floats several options for Ahuizotl's disguise.

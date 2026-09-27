@@ -1,0 +1,5 @@
+- sources:
+  - my Faust vs Hasbro meta narrative | the author's own planned framing, to be analyzed as the subject; treated as an existing part of the plan the model already knows | Also analyze my Faust vs Hasbro meta narrative | referred-to
+  - in this context | the preceding discussion in the conversation, the comparison of TLTT's canon-character approach with FoE, PtK and EaW, is the frame within which the analysis should be done | in this context | referred-to
+- order:
+- about: The user asks the model to extend its ongoing comparison by analyzing their Faust-versus-Hasbro meta narrative, specifically how Hasbro elements imposed retroactively on Faust's vision are treated seriously as the Stagnation of Harmony governing system.

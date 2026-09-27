@@ -1,0 +1,14 @@
+- questions:
+  - Whether the user wants to go on to detail the mechanics of the 1008 ALB bank run | ignored | none; the turn goes to correcting the model's account of scarcity and never mentions the bank run | none
+  - What triggers the financial collapse of the Crown in 1008 ALB | ignored | none; nothing about the trigger or the crash is given | none
+  - How Coltbert uses the panic to move Aquileia peacefully into a Republic | ignored | none; the turn says nothing about the transition or Coltbert's part in it | none
+- shape: Corrects the model's synthesis. It rejects the premise that Aquileia and Herzland were in scarcity, restates what Coltbert's paper targets, and moves Kemerskai's martial law to a different setting (conquered Cloudbury), where scarcity really applies. It gives the world facts behind that and leaves the model's proposed next topic, the bank run, untouched.
+- settles:
+  - Aquileia and Herzland are not in material scarcity, because they have Bessemer and Haber-Bosch, plus exploited Aquileian terroir | not in a material reality of scarcity because they have bessemer and haber-bosch
+  - Coltbert's paper targets hoarding and the soullessness or cog-like nature of the urban bourgeoisie and of Gerad Discret's Le Grand Foyer, not scarcity | Coltbert focuses on the hoarding and soullessness/cog nature
+  - When the paper is published, Le Grand Foyer has already been burned to the ground by Skyfall privateers | has been burned to the ground by Skyfall privateers
+  - Kemerskai and the true-believer Republicans are betrayed in Herzland and leave it | leave Herzland where they were betrayed
+  - The Republicans conquer Cloudbury from its local nobles and free the Cloudburian peasants | conquer Cloudbury from the local nobles, freeing the Clouburian peasants
+  - Cloudbury is the frozen north, unlike flat temperate Herzland, so Kemerskai's society is in real resource scarcity for the first time | Cloudbury is the frozen north, not the flat temperate Herzland
+  - Kemerskai's people must build coal mines, oil fields, Bessemer converters and Haber-Bosch from scratch | have to build the coal mines, oil fields, bessemer converters and haber-bosch from scratch
+  - Kemerskai's martial law exists to make the griffons cooperate under scarcity, using a fiat currency backed only by labor, with price controls and rationing, because of the predator's dilemma | needs martial law to get all the griffons to work together

@@ -1,0 +1,10 @@
+- questions:
+  - Does Star Energy have to invent a new Equestrian alloy so Spitfire wings survive the magically induced Cobra-type maneuvers? | ignored | Nothing about airframe stress or a new alloy. The user turn moves to ammunition capacity. | none
+  - Does Trimmel change his swarm doctrine, for example flying walls of lead, once he sees he is up against magical F-22 equivalents? | ignored | Nothing about how Trimmel or the swarm would respond. | none
+- shape: The user trims the model's proposals: they keep the situational awareness and the updraft evasion, and reject wind-bent bullets as too much of a stretch. They then drop the model's side questions and set the agenda themselves. They dismiss the Celestia illusion concern, add an Aquileian alliance detail, and restate their real need. That need is far more than 15 seconds of ammo through modern chemistry, and they ask whether lighter ammo or a stronger engine would help. It is a partial correction combined with a redirect.
+- settles:
+  - Bullet control through wind magic is rejected as too much of a stretch. | I don't think control of bullets works, it's too much of a stretch
+  - Pegasus situational awareness (feeling pressure wakes) and the updraft to shake a tail are accepted. | Situational awareness makes sense and updraft to avoid being tailed
+  - The Wonderbolts can do whatever they want at their HQ, so hiding magical weapons from Celestia is not a constraint there. | Don't worry about Celestia, the Wonderbolts can do whatever they want at their HQ
+  - Aquileian aces work with the Wonderbolts because they want to destroy the poseur stukas. | I imagine the Aquileian aces are working with the Wonderbolts because they want to destroy the poseur stukas
+  - High-grade crystals from the Crystal Empire are available for the ammunition. | They have access to high grade crystals via the crystal empire

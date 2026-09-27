@@ -1,0 +1,5 @@
+- questions:
+  - How do factions that never had a Nursery (Cloudburian peasants, the Tzinacatl) react to Equestrians exporting their suburban morality, and does this cause friction inside the Republican Pact? | ignored | Nothing on it. The user turn moves to what they meant about the toy origin of the franchise. | none
+  - How does Applejack's Republic manage reconstruction of the Changeling Lands and Skyfall (the Marshall Plan parallel) without looking like a neo-imperialist power imposing Nursery values? | ignored | Nothing on it. The user turn sets it aside and restates their earlier point about Hasbro and Faust. | none
+- shape: The user turn corrects the model's reading of their earlier insight. They say they meant that Lauren Faust drew on the original Hasbro toys, not the child-at-play framing the model built on. It then redirects the conversation with two new questions for the model: how this informs the meta narrative and thematic payload of TLTT, and how it interacts with the meta narratives and payloads already established. It drops the model's two Socratic questions without engaging them.
+- settles:

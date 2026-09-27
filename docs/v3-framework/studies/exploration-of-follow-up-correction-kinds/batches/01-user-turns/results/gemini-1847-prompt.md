@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the capabilities just described belong to the trained model alone or whether commercial products add tools such as search and code generation, and asks what else is added.

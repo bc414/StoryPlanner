@@ -1,0 +1,4 @@
+- questions:
+- shape: The user gives an instruction to redo the analysis. They tell the model to look again at the circumstances and add a story fact the model did not have: the Equestrian army lost on day 1. This implicitly corrects the model's earlier framing of the dam decision as a panicked gamble. The turn does not reply to anything the model asked.
+- settles:
+  - In the story's circumstances, the Equestrian army was defeated on day 1 of the conflict | The Equestrian army lost on day 1

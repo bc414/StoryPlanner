@@ -1,0 +1,4 @@
+- sources:
+  - this phase 2 prompt | the drafted Phase 2 prompt from the conversation is the material to be turned into a structured output | give the structured output for this phase 2 prompt | referred-to
+- order:
+- about: The user asks the model to produce the structured output for the Phase 2 prompt that was just drafted in the conversation.

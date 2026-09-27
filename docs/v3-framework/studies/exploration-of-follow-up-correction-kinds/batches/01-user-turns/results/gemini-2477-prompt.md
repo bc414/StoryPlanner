@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model built its analysis from what the user had said in the conversation and then asked the user an open question about Discord. The user redirects it to the stored story plans as the source for answering and extending the theme. | review my existing story plans | implicit, as a plain imperative with no reproach, and the redirect is only implied by the instruction
+- about: The user skips the model's Discord question and tells it to go through the planning documents and find more places where the Hasbro-versus-Faust dynamic shows up in the story.

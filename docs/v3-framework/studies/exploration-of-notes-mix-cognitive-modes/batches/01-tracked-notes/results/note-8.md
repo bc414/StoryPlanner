@@ -1,0 +1,5 @@
+- claims:
+  - ThematicEvidence | Applejack's stepping down from the presidency by the end of TLTT is laid down as evidence that she does not become the next benevolent monarch, supporting the bottom-up over top-down proposition | steps down from the presidency by the end of TLTT as a demonstration of not becoming the next benevolent monarch | yes
+- goals:
+  - The reader is to take Applejack's relinquishing of office as a demonstration that power is not consolidated in a benevolent ruler, arriving at the bottom-up thematic proposition | ThematicEvidence | as a demonstration of not becoming the next benevolent monarch
+- whole: The note sets Applejack's resignation from the presidency at the end of TLTT as the piece of evidence showing she refuses to become a benevolent monarch, in support of the refutation of Great Mare Theory.

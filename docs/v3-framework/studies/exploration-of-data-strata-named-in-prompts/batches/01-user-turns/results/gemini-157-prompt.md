@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is revising the planned "Combined Arms" chapter by asking whether to add the Aquileian earth pony Fleur Bloom alongside Henri, asking whether a changeling POW friend of Fluttershy's would work, and asking to have Celestia say the closing line aloud to Luna in a corner instead of thinking it.

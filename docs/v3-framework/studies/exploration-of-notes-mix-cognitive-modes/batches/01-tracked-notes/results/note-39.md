@@ -1,0 +1,7 @@
+- claims:
+  - Canon | Twilight is established in the source show as a student of magic who follows the scientific method | Twilight studies magic in canon. She also follows the scientific method | no
+  - Canon | Canon shows her with a lab in the basement of her library tree home, in the episode Feeling Pinkie Keen | She had a lab in the basement of her library tree home featured in Feeling Pinkie Keen | no
+  - Canon | The canon lab was played for laughs and the mad-scientist absurdity, so its weight as evidence is qualified | although it was more for laughs and the absurd element of a mad scientist | no
+  - Canon | In that episode she says magic is something you study, not something that just happens, unlike Pinkie Sense | She even says in that episode that magic is something you study | no
+- goals:
+- whole: The note collects and qualifies canon evidence from the show, her study of magic, her basement lab and her line in Feeling Pinkie Keen, to ground Twilight's scientific approach to magic, instead of reporting in-universe history as a historian would.

@@ -1,0 +1,5 @@
+- questions:
+  - Are the fake parents from Acornage actual Equestrian ponies sympathetic to the changeling cause, or non-harmonic changelings who kept pony disguises for decades? | no user turn | none | none
+  - Does the user want to map out how Chrysalis smuggles the industrial output out of Skyfall into changeling lands without the other tycoons or the Griffonian Empire noticing? | no user turn | none | none
+- shape: none
+- settles:

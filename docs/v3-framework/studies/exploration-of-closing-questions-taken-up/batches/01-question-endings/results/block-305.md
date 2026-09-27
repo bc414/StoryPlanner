@@ -1,0 +1,5 @@
+- questions:
+  - How does Flowing Current justify smashing the Fidelity Cores to the agrarian refugees raised to respect harmony and property, and do they see it as breaking chains or as vandalism? | ignored | Says nothing about it; asks for a summary of new lore and ways it interacts with existing plans. | none
+  - How do Kessler Jr. and the Skyfall Trade Council react to the flood of destroyed-asset signals, and do they realize Equestria is industrially awakening and threatening their post-war monopoly? | ignored | Says nothing about it; asks for a summary of new lore and ways it interacts with existing plans. | none
+- shape: Sets aside the model's Socratic questions and gives a new instruction: consolidate the new lore from this exchange into a summary, then propose ways those elements could connect to and strengthen existing plans. It shifts to synthesis and review rather than answering or deciding anything.
+- settles:

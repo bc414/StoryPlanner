@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about whether the plot point to theme relationship in the data model should carry a payload like the character join entity, without pointing the model at any body of material.

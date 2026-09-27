@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up historical-materialist question about what material conditions produced the Anglo model, contrasted with the Song dynasty's abandonment of its ocean-going capability, without pointing to any body of material for the model to draw on or avoid.

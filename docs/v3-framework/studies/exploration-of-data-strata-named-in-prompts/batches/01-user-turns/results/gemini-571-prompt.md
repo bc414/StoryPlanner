@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's donation-high mechanic with a values-and-Stare incentive explanation, sets out how the old nobility and captured ponies are drained and how their red degrades, and asks how to design a safer red stimulant for the elite Bauleiters, possibly using a walled garden of donation among themselves alongside the terror state.

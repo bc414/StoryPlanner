@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for formal rules on how third-person limited works, what to avoid, when to switch POV, and whether third-person modes form a spectrum, building on the model's recommendation without disputing it.

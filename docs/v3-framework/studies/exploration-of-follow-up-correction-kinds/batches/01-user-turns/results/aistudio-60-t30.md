@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's analysis to supply a new batch of plan notes from rewatching The Crystalling, covering Sunburst's Aquileian work, the Crystal Heart, and Spike's break from Celestia's worldview, and asks for an analysis of them.

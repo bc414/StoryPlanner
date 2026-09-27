@@ -1,0 +1,5 @@
+- questions:
+  - Burden of the Roar: after Applejack unlocks Authenticity and wins the Republic, how does the narrative handle the exhaustion of maintaining the Posture, and can she take the Lioness uniform off privately with Twilight or must she permanently embody the State? | no user turn | none | none
+  - Poseur's counter-attack: at the debate, how does Gilded Trust weaponize her new Posture, e.g. by framing her charisma as proof she has become a corrupt, Aquileian-influenced businessgriff who abandoned her farmpony roots? | no user turn | none | none
+- shape: none
+- settles:

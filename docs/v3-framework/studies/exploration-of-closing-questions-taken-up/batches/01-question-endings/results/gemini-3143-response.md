@@ -1,0 +1,5 @@
+- questions:
+  - Is the lore already organized in a central local directory Cowork could monitor, or scattered across several files? | answered | Neither: the bible is a generated artifact from their WPF story planner, and the underlying data lives in a SQLite database rather than in files. | story Bible is a generated artifact from my WPF custom story planner; data is actually represented in a sqlite database
+- shape: Answers the model's closing question with a correction of its premise (the bible is generated from a database, not a folder of files), then asks two new questions: how this changes the tool advice, and whether Cowork is broadly the tool for working on data (instances) while Code is for software architecture (classes). The user offers this as a tentative guess and asks the model to confirm it.
+- settles:
+  - The story bible is not a hand-kept document. It is generated from the WPF planner, and the source data is stored in a SQLite database. | story Bible is a generated artifact from my WPF custom story planner. The data is actually represented in a sqlite database

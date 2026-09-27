@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a revised account of the story's Sixth Element logic, in which Magic/Ambition was hidden in the nursery and the other five elements unlock it, and the hidden element is the one the real world lacks, without pointing the model at any body of material.

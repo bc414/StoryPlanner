@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to map out the specific clauses of the predatory loan contract that binds the bankrupt nobles to work in the Vraks Love Harvesters? | ignored | Says nothing about the loan contract or a next step. It moves to two questions about Dumas's original novel. | What were the themes and social commentary of Alexander Dumas's original work?
+- shape: A redirect to background research. The user leaves the story-planning thread and asks for general knowledge about the source novel: its themes and social commentary, and whether serialization means it came out in installments like manga or fanfiction. The user does not react to the Countess of Crystal-Rock alias or the Corporate-Feudal proposal.
+- settles:

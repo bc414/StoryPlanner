@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - overclaiming beyond the evidence (my own name) | the model's conclusion that the user's approach is absent from the discourse and unprecedented, drawn from a survey of prose-generation tools and one academic paper, is doubted as too strong to be plausible | I am always skeptical that anything I do is exceptional or unprecedented. How is this possible? | put as a question, framed as the user's habitual self-doubt, with a request for more targeted searches to check the claim
+- about: The user voices doubt that their method could really be unprecedented, asks how the model's conclusion can hold, and asks for further targeted web-search approaches to test it.

@@ -1,0 +1,5 @@
+- questions:
+  - How does Trimmel adapt his artillery and psychological warfare at the 3rd Battle of Tall Tale, if VOPS saw the shields fail under stress and he now faces Resilient Equestrian forces? | ignored | Says nothing about Trimmel, VOPS or Tall Tale. It moves to a different question about shield doctrine. | none
+  - Does Applejack, on learning the Crystal shields held because of processed trauma, have to face the idea that Celestia's thousand years of peace engineered Equestria's military vulnerability? | ignored | Does not address Applejack's realization. It asks a separate question about whether Giggle at the Ghostly would be standard protocol. | none
+- shape: The user turn redirects. It skips both of the model's questions and asks its own follow-up. The follow-up tests an implication of the model's argument: if the crystal-heart-inspired shields were standard issue, would the Giggle at the Ghostly doctrine be official protocol? It is a request to the model to work out how the shield technology and Celestia's doctrine connect, not a decision.
+- settles:

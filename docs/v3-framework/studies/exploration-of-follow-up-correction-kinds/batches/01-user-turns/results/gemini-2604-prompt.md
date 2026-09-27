@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for more history on how common and how paid camp followers were, then extends the model's framework to Aquileia's 80/20 griffon-pony population and draws a dark implication, without disputing anything the model said.

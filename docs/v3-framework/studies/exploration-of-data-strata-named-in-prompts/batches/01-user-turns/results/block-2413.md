@@ -1,0 +1,6 @@
+- sources:
+  - story plan's details about Luna's strategy versus Blueblood's strategy | consult it for the exact details of what Metzli thinks is naive about the Equestrian army; treat as the authority on that point | refer to the story plan's details about Luna's strategy versus Blueblood's strategy | referred-to
+  - the user's own statements about Luna as field marshal and the tribes' refusals and the medicinal tribes' reasons for joining | treat as stated facts to build on (Luna herself asked, refusal devastating, medicinal tribes joined via Star Energy, parloirs, EEEE!) | It would definitely be Princess Luna herself who asked | first-named
+  - the earlier analysis in this conversation (the model's luddite-misread framing) | user partly rejects it; keeps the luddite framing and asks the model to re-test the original idea | I still think the luddite framing works | referred-to
+- order:
+- about: The user redirects the model to the story plan's Luna-versus-Blueblood strategy for what Metzli finds naive, adds facts about Luna's request and the medicinal tribes' reasons for joining, and asks whether the original idea of Metzli being misread as a luddite and xenophobe and then joining with conviction after the drug tribe deal still works.

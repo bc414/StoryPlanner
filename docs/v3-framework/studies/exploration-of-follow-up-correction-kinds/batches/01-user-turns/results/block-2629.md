@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user links the model's language-and-power discussion to the plan's idea of language as a tech accelerant and to the universal translator, adds a real-world point about LLM translation quality across languages, and asks the model to reread the relevant plan parts before analyzing.

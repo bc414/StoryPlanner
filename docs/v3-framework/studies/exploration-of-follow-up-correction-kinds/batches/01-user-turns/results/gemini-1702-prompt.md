@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the origin-of-the-spell comparison to a broader question about making the story's magical engineering plausible, supplying new lore (a research timeline at the University of Pridea, the love harvester, its three-way valve, crystals as crude raw power, Chrysalis's love drugs) and asking the model to organize it.

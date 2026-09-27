@@ -1,0 +1,4 @@
+- claims:
+  - History | After Stalliongrad falls, the Baltimare Communist Party cooperates with the rest of Equestria, stated as an in-world event and sequence | After Stalliongrad's fall, they cooperate with the rest of Equestria | no
+- goals:
+- whole: The note reports, as a bare in-world fact, that the Baltimare Communist Party cooperates with the rest of Equestria after Stalliongrad falls, without saying how the reader is to experience it.

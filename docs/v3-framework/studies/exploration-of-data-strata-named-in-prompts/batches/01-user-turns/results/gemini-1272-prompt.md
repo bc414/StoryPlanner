@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | draw on the plans for what follows the Town Hall, where the two split up and exchange letters | analyze from my story plans what comes after the Town Hall | referred-to
+  - new insights/dynamics | fold into the analysis, so the post-Town Hall material is combined with the dynamics just developed | Synthesize with the new insights/dynamics | referred-to
+- order:
+- about: The user asks the model to analyze what their story plans hold for the period after the Town Hall, when the two leads separate and write letters, and to merge it with the insights just developed.

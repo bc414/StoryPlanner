@@ -1,0 +1,4 @@
+- sources:
+  - the story | the model is asked to judge its writing quality and whether it is worth reading as inspiration, so it is the material under evaluation and not something to treat as true | Is the story well written and worth reading | referred-to
+- order:
+- about: The user asks the model for a verdict, with reasons, on whether the story under discussion is well written and worth reading as inspiration for their own project TLTT.

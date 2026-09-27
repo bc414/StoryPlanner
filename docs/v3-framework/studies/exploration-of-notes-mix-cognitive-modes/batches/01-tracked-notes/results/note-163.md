@@ -1,0 +1,5 @@
+- claims:
+  - Allegories | a shovel ordinarily stands for servitude, the baseline symbolic meaning | Normally a shovel is a symbol of servitude | no
+  - Allegories | the Star Spade inverts that symbol, standing against servitude because serfs are barred from using it | The Star Spade subverts this because serfs can't use it | no
+- goals:
+- whole: The note explains the Star Spade's symbolic meaning by setting the shovel's usual link to servitude against its inversion in the story, without saying how the reader is to feel about the technology.

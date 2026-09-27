@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (world-rule ontology) | Simplified Herzlander has had nuance stripped from it, so Equestrian names are rendered as literal translations | Because nunace is stripped from the language, Equestrian names are translated literally | outside
+  - outside all ten (world-rule ontology) | Chrysalis's propaganda and translators use these literal translations as their standard practice | Chrysalis's propaganda and translators use literal translations | outside
+  - outside all ten (world-rule ontology) | as a consequence, ordinary drones can see Equestrian ponies as objects, with ponies labeling themselves as inventory | so that is why ordinary drones can view the Equestrian ponies as objects (self-labeled inventory) | outside
+- goals:
+- whole: The note states, as a rule of the fictional world, how the nuance-stripped language and literal name translation lead ordinary drones to treat ponies as objects, and asks nothing of the reader.

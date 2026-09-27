@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's proposed Phase 2 wording assumes every note is routed into a bucket in every paradigm. The user says a note should only go into the paradigms and buckets that are relevant to it. | I don't think every atomic thought must go in a bucket in every paradigm | flat statement of disagreement, softened by 'I don't think', with the relevance principle as the only reason and no apology
+- about: The user pushes back on the model's assumption that each note must be placed in a bucket for every paradigm, and says routing should be selective and based on relevance.

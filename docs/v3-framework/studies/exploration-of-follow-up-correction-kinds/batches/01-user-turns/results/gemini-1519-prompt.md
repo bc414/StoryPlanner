@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a focused analysis of the crown-exemption mechanic and puts forward their own readings as questions (plow as real value, tax as a lever for monopsony buying power, barter as the fair-trade way around it) without saying the model's turn was wrong.

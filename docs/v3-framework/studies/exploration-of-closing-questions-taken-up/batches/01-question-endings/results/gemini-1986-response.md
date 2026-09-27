@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to see a C# snippet of the GenerationConfig setup using the Google GenAI SDK to enforce the schema? | ignored | The user turn doesn't say yes or no to the snippet. It asks a conceptual question about how a JSON schema differs from JSON that holds data. | none
+- shape: Redirects to a conceptual clarification. The user asks what separates a JSON schema from a JSON document holding data, which is a follow-up on the model's explanation of how schemas work. It leaves the offered code snippet unaddressed and doesn't move the plan forward.
+- settles:

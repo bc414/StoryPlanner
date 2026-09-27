@@ -1,0 +1,5 @@
+- questions:
+  - How does Twilight, reforming education post-war, reconcile her devotion to empirical truth with the need for a civic fable, and does she deliberately sanitize the history of the Luna Nova Rifle to keep future generations from weaponizing their magic? | ignored | The user turn does not mention Twilight, education reform, or the Rifle; it moves to a question about readers. | none
+  - How does Gilded Trust use the revelation of Celestia's sanitized history to argue the Republic is another elite conspiracy, forcing Applejack to defend the system she deconstructed? | ignored | The user turn says nothing about Gilded Trust, Applejack, or the populist use of hidden history; it turns to the readers' level. | none
+- shape: Redirects. The user leaves both Socratic questions unanswered and asks a new question of their own: how the insight (the mythic fable as a deliberate, necessary construct) affects the paratextual level of TLTT for its readers. This moves the discussion from in-story characters and plot to the work's framing and reception.
+- settles:

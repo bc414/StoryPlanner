@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | the reader who arrives from Equestria at War is expected to start with the assumption that Equestria is industrialized | An EaW player comes in thinking Equestria is industrialized | yes
+  - Canon | the story takes the entire canon show wholesale as its basis in TLTT, contrary to the industrialized assumption | Instead, the entire canon show is taken wholesale in TLTT | no
+- goals:
+- whole: The note sets the expected starting assumption of an Equestria at War player and contrasts it with the canon-faithful Equestria that TLTT actually adopts, without stating any effect the reader is meant to take away.

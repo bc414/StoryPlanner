@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an analysis of how the Ghost Division concept could shape the pacing of the Bluebell River Spearhead chapter? | ignored | Nothing about the chapter or the offer. The user moves to a new question about a quote on a hoi4 loading screen. | none
+- shape: Redirects to a new factual lookup. The user asks who said a half-remembered quote from a game loading screen, what the exact wording is, and how it applies. It is a side question on military thinking, and it drops the offered chapter-pacing analysis without accepting or declining it.
+- settles:

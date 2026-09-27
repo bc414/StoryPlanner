@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want to explore the history of jailbreaking and how system-prompt security has evolved? | ignored | Says nothing about jailbreaking or system prompts; asks about how training on code and math relates to reasoning. | none
+  - Does the user want to see what the silent chain-of-thought process looks like in a modern reasoning model? | ignored | Doesn't ask to see an example of the thinking. It asks a nearby conceptual question, whether logic ability comes from training on code and math, and whether it sits in the model or in a tool. That touches the same subject but doesn't accept the offer. | none
+  - Does the user want an explanation of how attention over a million-token context works without crashing? | ignored | Doesn't mention context windows or the cost of long context. It moves to a separate question about where reasoning lives. | none
+- shape: The user skips the offered menu and asks their own follow-up. They check an inference (that training on code and math let the "parrot" apply itself to logic rather than only to text) and ask whether the reasoning ability lives inside the model or in a tool that directs it. This is a request for clarification on how the technology works, and it has nothing to do with the story.
+- settles:

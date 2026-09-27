@@ -1,0 +1,5 @@
+- questions:
+  - At what specific moment does Twilight realize she is dangerously close to adopting Supremacy, and does her intellectual superiority over the Changeling engineers like Hans Kessel tempt her to see them as lesser? | no user turn | none | none
+  - How does the concept of Supremacy distinguish the Herzlander Nobles' biological essentialism from the Changeling Bauleiters' meritocratic ruthlessness, and how does Applejack's Honesty dismantle both? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,5 @@
+- sources:
+  - Chapter 4 - The Best Garden Ever.pdf (chapter 4, the attached file) | the material to be analyzed; the subject of the analysis rather than a reference to check against | Here is chapter 4 | first-named
+  - the same kinds of analysis (the analysis already given earlier in this conversation for the earlier chapters) | use as the template for method and scope in analyzing chapter 4 | apply the same kinds of analysis | referred-to
+- order:
+- about: The user supplies the chapter 4 file the model had asked for and asks the model to analyze it the same way it analyzed the earlier chapters.

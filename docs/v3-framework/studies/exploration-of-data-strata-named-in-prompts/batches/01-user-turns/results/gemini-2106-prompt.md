@@ -1,0 +1,5 @@
+- sources:
+  - real history of culinary traditions (French haute cuisine and regional processes, English traditions lost to Industrialization, the German question) | draw on as real-world reference for what German food traditions were, taking the user's summary of French and English history as the premise | It seems real history features French culinary traditions | referred-to
+  - the author's own clarification of the setting (FJA exports peasant masterpieces, Republic is Herzlander refugees plus Cloudburian Danish peasants, Herzlander equals German) | treat as settled corrections to the model's earlier framing and build on them | To clarify, the FJA don't export poseur haute cuisine | first-named
+- order:
+- about: The user corrects the model's earlier picture of the Griffonian Republic's food culture and asks it to use real culinary history, especially German, alongside lost English and Nordic traditions to develop a richer story.

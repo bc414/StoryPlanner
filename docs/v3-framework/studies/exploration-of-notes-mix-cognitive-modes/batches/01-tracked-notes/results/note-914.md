@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | Pagala's placement in the appearance sequence shifts: the character is relocated to Canterlot at this point in the reading order | Pagala is moved to Canterlot | yes
+- goals:
+- whole: The note gives a single terse entry in the character's appearance plan, stating that Pagala is relocated to Canterlot, with no stated effect on the reader.

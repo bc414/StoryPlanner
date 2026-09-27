@@ -1,0 +1,4 @@
+- sources:
+  - Chisa Mikan and their work (the author of the Zenn workflow post discussed in the prior turn) | the subject to be analyzed for scope, scale, commercial or hobbyist status, established presence and background hints; material to examine, not to be taken as settled | what his work scope and scale is, is it commercial or hobbyist | referred-to
+- order:
+- about: The user, pleased that the Japanese author uses the same LLMs, asks the model to profile that author's work scope and scale, commercial or hobbyist status, track record, and background.

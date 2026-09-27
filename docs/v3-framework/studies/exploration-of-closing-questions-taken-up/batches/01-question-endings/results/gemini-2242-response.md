@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want help setting up a specific prompt for analyzing real-world parallels of the story's political factions? | ignored | Says nothing about the offered prompt. It moves to a broader request for a guide to which tool to use for which task. | none
+- shape: Redirects. It sums up the model's explanation in its own words (three methods, each with different use cases), checks that reading, and asks the model to widen the comparison to every way the user might use the suite for the story. It is a request for more explanation, and it passes over the offered prompt.
+- settles:

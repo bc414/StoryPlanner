@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question by choosing the affectionate, symbiotic option for the Griffon–Unicorn relationship, then adds a new plot element (the love donator) and explains why Griffon bootstrappers would be able to shift to other industries.

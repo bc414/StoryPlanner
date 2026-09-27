@@ -1,0 +1,8 @@
+- sources:
+  - the world Bible | the body of materialist history that grew so detailed it forced the split; treated as the origin of the material the plan is built from | as the world Bible grew with materialist history they informs present day | referred-to
+  - The Lioness of Tall Tale (TLTT), the main story | the main story to keep from getting bloated; it holds the present-day plot, Applejack never meets Chrysalis in it, and the other stories are read after it | otherwise the main story would get bloated | referred-to
+  - Minette's bildungsroman | planned prequel-sequel, treated as settled, dramatizing the Aquileian history behind the forces that support Equestria, with its last act inside the TLTT timeline | These would be prequel-sequels that are explicitly planned | first-named
+  - Chrysalis's Greek tragedy | planned prequel-sequel, treated as settled, covering her whole arc with materialist historical logic; she is never dramatized in TLTT | Chrysalis would get a Greek tragedy | first-named
+  - Celestia's story of the Stagnation of Harmony | planned prequel-sequel, treated as settled, dramatizing how and why she created the Stagnation, with its last act inside the TLTT timeline from her POV | Celestia would have a story dramatizing how and why | first-named
+- order:
+- about: The user adds a further planning decision, that the growing materialist world Bible is split into three explicitly planned prequel-sequels (Minette, Chrysalis, Celestia) read after TLTT so the main story stays lean, and asks the model to analyze that plan.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn sets a fresh, terse request for an analysis of Cadance's and Shining Armor's roles in the Stagnation of Harmony, moving on from the model's Parloir and "Une Lionne" scene discussion without saying anything in it was wrong.

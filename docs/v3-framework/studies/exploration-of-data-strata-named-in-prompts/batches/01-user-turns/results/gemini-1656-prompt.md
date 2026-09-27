@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding analysis of what happens if the Changelings destroy the dam ("this") | taken as a conditional premise to reason from, not confirmed as settled | If this is what would happen | referred-to
+- order:
+- about: The user reasons from the model's dam-destruction scenario, conditionally, to conclude that Star Energy's decision was made on a worst-case assumption.

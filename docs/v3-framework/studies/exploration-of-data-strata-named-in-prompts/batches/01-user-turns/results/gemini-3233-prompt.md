@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates and refines their own story's thesis in their own words, asking the model to confirm that Skyfall has no overt dictator and that Celestia's Equestria reflects the ponies' own choice of a low-friction society, without pointing the model at any body of material.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turns from the coal-boom analysis to a new worldbuilding question about what rank the boyars should hold, asks for Muscovite and other pre-industrial parallels, and offers their own inference from Celestia's arbitration.

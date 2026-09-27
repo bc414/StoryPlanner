@@ -1,0 +1,5 @@
+- questions:
+  - If Earth Pony magic is shown to be as potent and pride-driven as Griffon magic, how does that change Applejack's view of her parents leaving Sweet Apple Acres for the Manehattan factory: abandoning their magic, or applying their ambition at larger scale? | no user turn | none | none
+  - When Celestia learns Twilight and Fleur equate Earth Pony agricultural magic with Griffon warlord artisanship, how does she react: does it confirm her fear that the Star Spade leads Equestrians toward a feudal Aquileian hierarchy? | no user turn | none | none
+- shape: none
+- settles:

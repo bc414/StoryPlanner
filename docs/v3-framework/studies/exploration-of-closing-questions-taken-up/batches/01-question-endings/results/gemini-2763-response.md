@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how the adversarial legal framework contributed to the decline of American manufacturing in the late 20th century? | ignored | Says nothing about manufacturing decline and asks a different question, about who designed the 1935 and 1947 acts and what motivated them. | none
+- shape: Redirects. It turns down the offered next topic without comment and asks a new, short factual question. The question goes back to the model's claim that Congress designed the framework, and asks who was behind the two labor acts and what they wanted. It is a follow-up that probes the premise of the answer rather than an answer to the offer.
+- settles:

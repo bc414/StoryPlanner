@@ -1,0 +1,4 @@
+- sources:
+  - Itaewon Class | the published show is the material the model should draw on to answer factual questions about its full narrative structure, the protagonist's purchase of Jangga stock, and the reason for his imprisonment | What was the full structure of the narrative in Itaewon Class? | referred-to
+- order:
+- about: The user asks the model to lay out the full plot structure of the show Itaewon Class and to answer two specific factual questions about it, whether the protagonist bought Jangga stock and why he was imprisoned.

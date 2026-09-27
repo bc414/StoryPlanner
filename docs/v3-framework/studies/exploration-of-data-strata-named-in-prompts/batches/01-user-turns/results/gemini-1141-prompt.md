@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author explains why they placed Applejack alone at the trench, says that isolation feels flimsy, and asks the model to analyze whether it holds up.

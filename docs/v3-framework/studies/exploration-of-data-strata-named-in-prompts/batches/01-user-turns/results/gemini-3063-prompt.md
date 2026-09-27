@@ -1,0 +1,4 @@
+- sources:
+  - my story planning history for The Lioness of Tall Tale | the material to draw on and trace the concept's development through, across its whole span | in my story planning history for The Lioness of Tall Tale | referred-to
+- order:
+- about: The user asks the model for a thorough account of how the concept of "The Stagnation of Harmony" developed over their story planning history for The Lioness of Tall Tale.

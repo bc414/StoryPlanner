@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about where rubber is sourced in the present day, moving from the historical overview to current supply without challenging anything in it.

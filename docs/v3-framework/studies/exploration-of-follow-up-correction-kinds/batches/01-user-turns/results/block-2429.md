@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the Moonspeaker Conclave the model mentioned as background and asks what it would actually be and do, and whether its P&K portrayal owes to ASOIAF conventions and should instead be grounded in Aztec materialist history, which is a new question and not a correction.

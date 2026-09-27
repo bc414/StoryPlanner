@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn ignores the model's analysis and Socratic questions and adds new worldbuilding for a griffoness prostitute-turned-therapist (her backstory, the Tzinacatl contraceptives, Minette's link to her, how she leads Réni and Minette to Manehattan and the Crystal Empire side story), then asks follow-up questions about schooling and about her name.

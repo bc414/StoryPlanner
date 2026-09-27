@@ -1,0 +1,9 @@
+- claims:
+  - History | Minette and other royalist stallions, aided by the griffonesses, helped the house ponies demand respect from the warlords | Minette and other royalist stallions help the other house ponies demand respect | yes
+  - History | Minette made nice clothes for all the house ponies | She makes nice clothes for all the house ponies | yes
+  - History | Being dressed as proper ladies and gentleponies gave the house ponies confidence to demand respect and refuse verbal abuse | gives them the confidence to demand respect and refuse verbal abuse | yes
+  - Characterization | Minette adopts a Royalist Swagger, the smugness of Coltbert and peers, as social armor projecting invincibility so warlords hesitate to attack | adopts a "Royalist Swagger", the judgemental smugness of Coltbert and his peers, because it is social armor | no
+  - History | Before this, the abused house ponies walked slumped, heads down, in rags, which marked them as prey and enabled the warlords | Before, the abused house ponies walked around slumped, heads down, wearing rags | yes
+  - Characterization | Minette holds that dignity is a choice you wear | Minette says dignity is a choice you wear | no
+- goals:
+- whole: This note reports, as in-universe history, how Minette's clothing and Royalist Swagger helped abused house ponies stop looking like prey and demand respect from the warlords, with a couple of assertions about her character mixed in.

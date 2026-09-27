@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Gabriella is a very ambitious duchess, asserting her defining drive and rank | very ambitious duchess | yes
+  - History | Gabriella is the older cousin of Grover V, a kinship fact reported as having held in the world | the older cousin of Grover V | no
+- goals:
+- whole: The note gives a one-line baseline for Gabriella Eagleclaw, asserting her ambition and ducal rank and stating her family tie as the older cousin of Grover V.

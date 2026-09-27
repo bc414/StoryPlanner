@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | Rainbow Dash's baseline character was never tribal, i.e. she does not side reflexively with her own group | never tribal; baseline character | none
+  - unfixed | In canon season one Over a Barrel, Rainbow Dash sides with the buffalo against Appleloosa after hearing their side, offered as evidence of her not being tribal | in canon season one Over a Barrel, actually sides with the buffalo after hearing their side | the canon season one episode Over a Barrel, a past canon event not dated in the story world
+- beside: none

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user re-asks whether Celestia would offer Novo asylum and offers their own rationale, that the Hippogriffs are harmonic but their accounts of destruction would unsettle the pony hosts, as a follow-up question without saying the earlier answer was wrong.

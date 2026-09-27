@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want the React/Tailwind Kanban board code written for the Phase 2 output? | ignored | Nothing about the Kanban UI. It moves on to pasting a Phase 0 sample output and its current Phase 1 system prompt, and asks for that prompt to be revised. | none
+- shape: Redirects to a different task. It supplies material (a Phase 0 sample output and the current Phase 1 system prompt) and instructs the model to rewrite the Phase 1 prompt to fit the web app's new output requirements. The offered Kanban UI and the Phase 2 prompt just delivered get no comment.
+- settles:
+  - Phase 1 output is to be JSON organised by strategy, with the buckets listed under each strategy, and a final set of orphan buckets. This is a pipeline-format decision, not a story-world fact. | update the phase 1 prompt for the json sorted by strategies with buckets under them, and lastly the orphan buckets
+  - Phase 0 output format is fixed as an array of strings, each a numbered priority strategy with a name and an extraction directive. This is shown as an example and not stated as a decision. | Here is an example of the output from phase 0

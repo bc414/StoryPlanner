@@ -1,0 +1,4 @@
+- sources:
+  - Castle Story plan (temporarily "Secret for a Secret") | the material the model is to analyze in depth; the subject of the analysis, not a source ranked against others | Do a deep dive analysis on the Castle Story plan | referred-to
+- order:
+- about: The user asks the model for a deep-dive analysis of their Castle Story plan and gives it a temporary working title, "Secret for a Secret".

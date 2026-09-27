@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Twilight is unwilling to replace anyone's special talent with a magical device, a disposition that stems from Applejack yelling at her during the first Winter Wrap Up | She doesn't want to replace anypony's special talent with a magical device after Applejack yelled at her | yes
+- goals:
+- whole: The note asserts, as a truth about Twilight at the start of TLTT, that she refuses to substitute magic for others' special talents because Applejack scolded her at the first Winter Wrap Up.

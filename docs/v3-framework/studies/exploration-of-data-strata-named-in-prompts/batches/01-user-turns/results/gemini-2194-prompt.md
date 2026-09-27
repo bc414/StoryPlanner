@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | re-read thoroughly first, then use them as the basis for finding parallels to the 2022-2024 US aid events and for possible additions | Please review my story plans again thoroughly before responding | referred-to
+  - the user's own summary of US events (Biden aid, post-midterm Republican blocking, Trump 2024) | starting framing for the analysis; the earnestness of the aid and its dependence on Zelensky's survival is left open as a question to be tested, not settled | was it earnest? Was it only after Zelensky proved Ukraine could survive miraculously? | first-named
+- order:
+- about: The user asks for an analysis of US aid to Ukraine from 2022 through Trump's 2024 election and for parallels or new additions in their story plans, telling the model to re-read the plans thoroughly first.

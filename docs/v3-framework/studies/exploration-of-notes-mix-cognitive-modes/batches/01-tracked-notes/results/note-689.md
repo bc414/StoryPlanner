@@ -1,0 +1,5 @@
+- claims:
+  - History | The Wonderbolts served as air reconnaissance scouting for monsters during voyages to and from New Mareland | Historically, the Wonderbolts were air recon for scouting monsters for the voyages to and from New Mareland | yes
+  - History | Between voyages the Wonderbolts performed air shows | and in between voyages they performed air shows | yes
+- goals:
+- whole: The note reports as historical fact the Wonderbolts' activities: monster-scouting air recon for New Mareland voyages and air shows between voyages.

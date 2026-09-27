@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user grants the model's point that Claude cannot ingest everything, then moves to a new question: why Gemini dilutes answers to deep questions compared with Claude's exhaustive output, whether system instructions can close the gap, and whether the cause is the consumer layer or the model itself.

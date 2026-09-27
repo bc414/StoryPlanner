@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user builds on the prior political-economy analysis by asking whether PNdA rank and file don't want to destroy the FJA, and then lays out their own plan for AJ's three-stage realization about Aquileia, the population split between FJA and Aquileian nationalists, and Kemerskai's changed view on annexation and the limits of the pan-Griffonian dream.

@@ -1,0 +1,4 @@
+- claims:
+  - Canon | Twilight's return-to-form in this story is to be anchored to her early-season characterization in the source show as Lauren Faust wrote it | return-to-form is a return to how Lauren Faust wrote her in the early seasons | no
+- goals:
+- whole: The note constrains Twilight's return-to-form to match her early-season source-material portrayal under Lauren Faust, rather than naming a real-world figure as inspiration, so it sits in Canon inside an Analogies track.

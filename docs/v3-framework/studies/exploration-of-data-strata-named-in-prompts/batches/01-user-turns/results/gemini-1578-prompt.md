@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model an open worldbuilding question about whether Celestia's Equestria should permit alcohol (light drinks, none, or only a black market), without pointing to any body of material.

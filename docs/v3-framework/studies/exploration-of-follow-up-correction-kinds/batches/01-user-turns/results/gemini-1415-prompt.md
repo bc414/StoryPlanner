@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model tied the Gilded Bits to the blockade and Chrysalis's economic warfare, and to the later war. The user sets their origin around 1001, as resistance to Skyfall Mark colonization, which puts them before the 1011 war bonds. | "Also note that the gilded bits (maybe around 1001, as resistance against the Skyfall Mark colonization) exist before the war bonds (1011)." | Put in passing as an added note, hedged with "maybe". No explicit statement that the model was wrong.
+- about: The user takes up the Gilded Bits idea by asking whether they work like stock, and how they should relate to the Equestrian war bonds and to Gilded Trust's workers' pay. They also add the timeline point that the Bits predate the bonds.

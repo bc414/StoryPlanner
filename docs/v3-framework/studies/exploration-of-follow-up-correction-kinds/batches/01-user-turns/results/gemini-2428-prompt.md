@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's Trixie and Manehattan Referendum synthesis and its closing question unanswered, and asks a new question about how to work Bitcoin social commentary into the narrative through their materialist framework, including a review of Bitcoin's history.

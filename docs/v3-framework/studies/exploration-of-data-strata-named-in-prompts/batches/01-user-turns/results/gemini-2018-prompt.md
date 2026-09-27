@@ -1,0 +1,4 @@
+- sources:
+  - a screenshot of my process | the user's own written process, supplied in place of the text the model said was missing; the model is to read it and review it against the pipeline | Here is a screenshot of my process | first-named
+- order:
+- about: The user answers the model's request for the missing process text by supplying a screenshot of their process for the model to review.

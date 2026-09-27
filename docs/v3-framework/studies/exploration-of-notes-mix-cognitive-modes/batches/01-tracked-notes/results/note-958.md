@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Henri and Fleur each try to teach the other their own domain and become frustrated with one another, a truth about how they relate | They try to teach each other their domains, but get frustrated with each other | yes
+  - Characterization | A settled dynamic between them: whoever sees the other too frustrated initiates a cool-off by offering their body | They develop a dynamic where when one sees that the other is too frustrated, they initiate by offering their body to help the other cool off | yes
+  - Characterization | The offerer gives the frustrated one the choice of being the lion or the eagle for the cool-off session, a specific feature of their shared ritual | The offerer offers the one who is frustrated to choose if they want to be the lion or the eagle for the cool off session | yes
+- goals:
+- whole: The note asserts, as psychological truth about the bond, how Henri and Fleur's frustrated teaching leads to a reciprocal body-offering cool-off ritual in which the frustrated one chooses lion or eagle.

@@ -1,0 +1,5 @@
+- claims:
+  - PageDesign | The character's voice on the page should come across as loud, brutish and abrasive | He should sound like a loudmouth, a brute | no
+  - Analogies | The voice is modeled on the stock New York type, with the pop-culture line "I'm walkin' here!" as the reference | a typical New Yorker "I'm walkin' here!" kind of vibe | no
+- goals:
+- whole: The note gives a directive on how the character should sound, a loud brutish voice, and points to a stock New Yorker type as the model. It does not assert who he is at the start, which is what its track asks.

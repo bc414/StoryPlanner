@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis of the Stagnation of Harmony as a premise and asks a new worldbuilding question about why volunteers in the army raised against the changelings would enlist and what mentality they would have.

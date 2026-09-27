@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the "Pinkie Promise" as a universally understood cultural contract that the whole city of crystal ponies would recognise by that name; the user says the rhyme is universal but only Pinkie Pie's close friends call it a Pinkie Promise | "only Pinkie Pie's immediate friends call it a Pinkie Promise" | tentative and hedged ("I suppose"), stated as a settled point of the world in passing while asking an unrelated etymology question, with no reason beyond the name being a play on Pinkie Pie
+- about: The user asks a real-world etymology question about \"pinky promise\" and, while musing on how the name works for ponies, quietly narrows the model's claim by saying the rhyme is universal but the name \"Pinkie Promise\" belongs only to Pinkie Pie's circle.

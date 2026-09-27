@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is working through the design of their note-track schema, asking whether the project-wide Narrative Architecture tracks are top-down or two-way iterative (and so editable in audit mode), whether Theme Plan and Arc Thesis can be merged into one track, and where thematic evidence from the gap plan should be placed.

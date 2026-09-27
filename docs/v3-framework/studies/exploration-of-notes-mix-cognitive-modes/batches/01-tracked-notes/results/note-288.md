@@ -1,0 +1,10 @@
+- claims:
+  - Canon | In the canon two-part premiere, Rainbow Dash has both ego and loyalty, and loyalty prevails | Rainbow Dash in Friendship is Magic Part 2 had both ego and loyalty, and loyalty won out | yes
+  - Canon | In later canon seasons her ego wins out, which is labeled the Hasbro Mandate | Later seasons display her ego winning out. It is the Hasbro Mandate | yes
+  - Canon | The canon drift in Dash parallels canon Twilight turning from empiricist into friendship preacher | This is just like Twilight becoming a friendship preacher instead of an empiricist | yes
+  - Canon | TLTT's Twilight recontextualizes canon by shattering the Hasbro Mandate and returning to her original characterization, scaled up, matured and with empathy learned | just as TLTT's Twilight features the Hasbro Mandate being shattered and necessitating a return to her original characterization | yes
+  - Characterization | In TLTT Dash's ego is shattered because she cannot keep up her fight yet refuses to rest | Rainbow Dash has her ego shattered in TLTT because she cannot keep up her fight but doesn't want to rest | no
+  - Characterization | Her loyalty is to the vague abstraction of Equestria, which is replaced by loyalty to her friends | Her Loyalty is to the vague abstraction of "Equestria" which gets replaced with her friends | no
+  - Canon | TLTT's ego-versus-loyalty conflict for Dash is the same clash as in the canon premiere | It's the same clash as Friendship is Magic Part 2 | yes
+- goals:
+- whole: The note explains Rainbow Dash's TLTT arc as a return to and recontextualization of her canon ego-versus-loyalty conflict, paralleling the reversal of the Hasbro Mandate for Twilight.

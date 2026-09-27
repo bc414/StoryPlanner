@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's tycoon-loophole breakdown and moves on to a new question about Celestia's pre-914 posture, then works out their own revised history of the frontier, the Everfree Forest, New Mareland and sea monster hunting, and the shift toward a Griffonian-Empire parallel.

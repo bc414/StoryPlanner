@@ -1,0 +1,7 @@
+- claims:
+  - History | After the defense of Mount Aris, the Aquileian volunteers taught the Wonderbolts how to harvest chemicals for munitions | After the defense of Mount Aris, the Aquileian volunteers teach the Wonderbolts how to harvest chemicals for munitions | yes
+  - History | Nitrocellulose is the smokeless powder, one of the munition chemicals taught | Nitrocellulose = smokeless powder | yes
+  - History | TNT is among the chemicals harvested and taught | TNT | yes
+  - History | Nitroglycerin is among the chemicals harvested and taught | Nitroglycerin | yes
+- goals:
+- whole: The note records, as an in-universe historical fact dated 1006, that Aquileian volunteers taught the Wonderbolts to harvest munitions chemicals after Mount Aris, listing nitrocellulose, TNT and nitroglycerin.

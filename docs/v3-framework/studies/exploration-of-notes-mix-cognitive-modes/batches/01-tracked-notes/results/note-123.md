@@ -1,0 +1,4 @@
+- claims:
+  - History | During Applejack's young childhood the family made frequent trips to Manehattan and her parents were often away for days at a time | Throughout Applejack's young childhood, the family went on frequent trips to Manehattan, and her parents were often gone for days at a time | yes
+- goals:
+- whole: The note reports as historical fact that during Applejack's early childhood her family often travelled to Manehattan and her parents were regularly away for days.

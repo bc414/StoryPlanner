@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about the underlying reasons Japan attacked China, extending the history topic without disputing anything the model said.

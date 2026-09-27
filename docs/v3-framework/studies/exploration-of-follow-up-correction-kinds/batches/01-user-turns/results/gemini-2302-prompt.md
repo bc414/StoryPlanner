@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the hybrid engine and drop tank discussion to ask a new factual question about the burning efficiency of aviation fuel, diesel and gasoline in WW2 and today, inviting further related information, without disputing anything the model said.

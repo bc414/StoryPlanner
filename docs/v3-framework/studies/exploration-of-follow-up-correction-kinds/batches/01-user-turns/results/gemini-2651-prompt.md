@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up hypothetical, what would change in effectiveness and use if the spooning roles were reversed with the Pony as big spoon and the Griffon as little spoon, extending the model's analysis without disputing any of it.

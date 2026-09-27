@@ -1,0 +1,4 @@
+- sources:
+  - Herzland's fleet situation from 978, after Skyfall stole it (the author's own statement of the timeline) | treat as true; the author's clarification that the earlier convoy-escort discussion refers to the period before 978, when Herzland still had a fleet | Herzland from 978 has barely any fleet since Skyfall stole it, so I was referring to pre 978 | referred-to
+- order:
+- about: The user clarifies that their earlier point about Herzland's fleet concerned the pre-978 era, then re-asks whether Skyfall separates dedicated escorts from privateers or uses the same ships and crews for both.

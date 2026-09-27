@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's analysis rests on older model generations and their specs (Claude 3.5 Sonnet with a 200k window, Gemini 1.5 Pro with 2M), which the user treats as out of date for the present | Redo this analysis for April 2026 | flat terse directive; the error is implied by asking for a redo at a stated date and is not named or explained
+- about: The user asks the model to redo its comparison of Claude and Gemini long-context behavior so that it reflects the state of things in April 2026, without engaging its closing question.

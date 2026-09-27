@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the material the model is asked to review, with the new ideas (the parody, the four-month gap, Reni's gift) offered as proposals to be assessed against it | Please review my story plans | referred-to
+- order:
+- about: The user asks the model to review their story plans and gives a new idea, an in-story Count of Monte Cristo parody that Reni might hand to Rainbow Dash during the four-month gap in Ponyville, and asks whether that should happen.

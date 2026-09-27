@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the 2022 analysis to new questions, asking for parallels between Zelensky and their Applejack, his background before the war, and whether his rise answered Crimea, without disputing anything the model said.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the accepted refinement by proposing a new worldbuilding detail (a griffon-made crystal stabilizer needing vacuum and nitrogen atmosphere, which explains Skyfall's failure through corner-cutting), asks whether it works, and requests research into whether nitrogen purging came from Haber-Bosch.

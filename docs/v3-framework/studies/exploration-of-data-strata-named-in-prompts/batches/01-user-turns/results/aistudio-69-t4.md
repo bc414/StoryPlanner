@@ -1,0 +1,5 @@
+- sources:
+  - my materialist fabula | the standard the Tantabus is being tested against; the user doubts it fits and wants it weighed as a constraint | Maybe the tantabus is too worldbreaking for my materialist fabula? | referred-to
+  - that episode (the published show episode the Tantabus comes from) | recall its themes from general knowledge and relate them to the fabula | What were the themes of that episode and how do they relate? | referred-to
+- order:
+- about: The user questions whether the Tantabus fits their materialist fabula and asks the model to recall the canon episode's themes and connect them to the story.

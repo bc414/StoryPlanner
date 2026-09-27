@@ -1,0 +1,5 @@
+- sources:
+  - the game (Colthage's in-game description) | treated as established canon that the Colthage design starts from; Colthage is a plutocracy based on Carthage | In game, Colthage is described as a plutocracy based on Carthage | referred-to
+  - Skyfall | used as an existing model in the plan for what New Mareland should be like (anarcho-capitalist manosphere) | New Mareland is anarcho capitalism manosphere like Skyfall | referred-to
+- order:
+- about: The user assigns the Chinese-model parallels to specific nations (Wingbardy as British history with Beakolini as Xi, New Mareland as an anarcho-capitalist pressure valve, Colthage under Zarca as a Chrysalis copycat with the full 户口, export economy and consumption trap) and asks whether Nigeria and other countries follow the Chinese model.

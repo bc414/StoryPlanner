@@ -1,0 +1,5 @@
+- sources:
+  - the earlier conversation about economics in games and mass market vs niche | connect the new report to it; the report must intersect with what was discussed there | how this intersects the earlier conversation about economics in games and mass market vs niche | referred-to
+  - the author's own recollection of growing up in the 2000s (public opinion on Call of Duty, games that taught economic decision making, then mobile games like Candy Crush) | offered as personal testimony and a claim to be checked, not settled; the model is asked whether it was true | When I was growing up in the 2000s ... Was this true or not? | first-named
+- order:
+- about: The user shares their own memory of 2000s attitudes toward games and the later rise of mobile games, and asks for an objective report on whether their view holds, where the sentiment came from, and how it ties to the earlier economics and mass-market-versus-niche discussion, with example games.

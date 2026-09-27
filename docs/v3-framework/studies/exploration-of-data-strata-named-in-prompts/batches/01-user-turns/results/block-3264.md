@@ -1,0 +1,8 @@
+- sources:
+  - notes across v1 archive | search and read for the Aquileian backstory of taking in Zebrican migrants and the chasseurs flying planes to kill warlords and bring families to Aquileia | Look into the notes across v1 archive | referred-to
+  - v2 (notes) | search and read alongside v1 for the same Aquileian/Zebrican migrant and chasseur backstory | notes across v1 archive and v2 | referred-to
+  - the original discussions and notes as they stand now | treat as the baseline that probably implies one warlord killed per one family extracted and a power vacuum; to be enhanced and made more sophisticated, not as final | original discussions and notes as they stand now probably imply | referred-to
+  - the new lore we've built on the decaying Mazwi empire's warlords corrupting the old prestige economy | treat as established lore to build on and use to deepen the backstory | With the new lore we've built | referred-to
+  - the story planner mcp server | pull all relevant context from it on Coltbert and Moriset Discret's reconquest of the periphery after the 1st Aquileian Revolution | be sure to get all the relevant context from the story planner mcp server | referred-to
+- order:
+- about: The user asks the model to gather the existing Aquileian/chasseur/Zebrican-migrant backstory from the notes and story planner, then proposes a revised version in which whole clans and their spirit magic migrate to Aquileia and are placed with communities the chasseurs freed during the reconquest, and asks about its destabilizing effect on the Great Lakes.

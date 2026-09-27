@@ -1,0 +1,5 @@
+- questions:
+  - When Pinkie returns with Resilience and a recovering Jaeger at Camp Fluttershy uses cynicism as a defense, how does her Trench Chaplain persona break it down without toxic positivity? | ignored | Nothing said on Pinkie, Camp Fluttershy or the Jaegers; the turn moves to a question about George RR Martin | But I'm a little confused about George RR Martin
+  - In the debate, how does Applejack use Resilience to expose Gilded Trust's cynicism as cowardly surrender to the Predator's Dilemma rather than hard-nosed patriotism? | ignored | Nothing said on Applejack, Gilded Trust or the debate; the turn asks about Martin's generation and ASOIAF's readership | Isn't he from the baby boom, the most prosperous?
+- shape: Sidesteps the model's two expansion questions and turns to a real-world tangent. The user says they are confused about the grimdark comparison and asks about George RR Martin's generation, whether he fell through the cracks or saw reality, and whether ASOIAF is more popular with young readers or boomers. It is a curious side question about the author and the book's audience, not a reply to the model's questions.
+- settles:

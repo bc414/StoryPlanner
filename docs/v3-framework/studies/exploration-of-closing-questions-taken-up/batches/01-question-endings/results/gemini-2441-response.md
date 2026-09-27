@@ -1,0 +1,5 @@
+- questions:
+  - Whether the user wants help with something else instead (the offer after the model says it can't fulfil the request) | ignored | The user does not take up the offer. They send a fresh, specific request about the character's backstory. | none
+- shape: The user retries or restates the request after the model's error and refusal. They give a transcript link and ask for a backstory for a character's departure from Zebrica and arrival at the Everfree Forest. They tell the model to review the episode and their story plans. They then put forward two tentative hypotheses as questions (a link to Nightmare Moon's return, or to Chirropterra). This is a new instruction with proposed directions, not an answer to anything the model asked.
+- settles:
+  - The story needs a backstory covering how she left Zebrica, why she went to the Everfree Forest, and why that place rather than other refugee destinations | "I need to come up with a backstory for how she left Zebrica and went to the Everfree Forest and why there out of all the other destinations"

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an explanation of how to use LM Studio or Ollama to run a local open-source model inside their C# WPF application? | partly answered | Shows interest in running Llama locally but doesn't accept the offered walkthrough. Asks for an overview of the Llama models and whether they can handle the 300k-word plan first, and adds that the GPU is an AMD RX 6700 XT. | Give an overview of the llama models and whether they can handle my 300k word story plan document
+- shape: Redirects. It doesn't answer the offer directly. It asks for a different, more basic piece of information (a Llama overview and a feasibility check against the 300k-word document). It also corrects the model's implied hardware assumption by stating an AMD GPU rather than Nvidia, with a defensive note on price and purpose.
+- settles:

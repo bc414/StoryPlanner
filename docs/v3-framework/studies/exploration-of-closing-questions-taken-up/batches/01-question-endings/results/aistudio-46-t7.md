@@ -1,0 +1,5 @@
+- questions:
+  - How does Celestia's passive, listening-based mundane therapy contrast with the Aquileian Parloirs that EEEE! uses, where trauma is processed through active socialization, debate and reclaiming adult agency? | no user turn | none | none
+  - Does Celestia see Fluttershy's Camp, which uses concentrated Pink Love to ease Changeling POWs through withdrawal, as a necessary medical intervention, or condemn it as another dangerous use of industrialized magic? | no user turn | none | none
+- shape: none
+- settles:

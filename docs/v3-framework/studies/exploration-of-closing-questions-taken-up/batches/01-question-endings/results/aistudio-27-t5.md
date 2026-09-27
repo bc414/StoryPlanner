@@ -1,0 +1,4 @@
+- questions:
+  - How would you like to begin testing the V2 prompt, for example on a specific chapter such as the Bluebell River Spearhead or the Aquileia negotiations? | ignored | The user does not pick a chapter or start a test. They critique V2 line by line, describe their workflow, and ask for a V3 prompt. | none
+- shape: The user turn corrects the model and gives an instruction. It sorts V2 into parts to keep (materialism, no deus ex machina, rational actors) and parts that are too specific or conditional (the logistics, shockwave and character-continuity lenses). It rejects the clinical tone in favor of an engaging, encouraging one without unsupported praise. It explains the stateless-per-topic workflow and why the Gem failed. Then it asks for a V3 prompt with an explanation of what changed. It moves the conversation from testing V2 to revising the prompt, and it adds two questions of its own about conditional instructions.
+- settles:

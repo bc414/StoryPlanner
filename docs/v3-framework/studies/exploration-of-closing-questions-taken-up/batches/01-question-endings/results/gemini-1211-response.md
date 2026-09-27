@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a deeper look at how these authors handle transitions between perspectives without confusing the reader? | answered | Says yes, accepting the offer to go deeper on transitions. | Yes
+- shape: A one-word acceptance of the model's offer; it sends the conversation on to the transitions topic and adds no direction of its own.
+- settles:

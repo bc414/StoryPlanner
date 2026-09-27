@@ -1,0 +1,4 @@
+- sources:
+  - the author's notes in the story | material to analyze and report on, with where they appear in the story | please analyze the author's notes in the story and report on where they appear | referred-to
+- order:
+- about: The user asks a new question about the story's character Fenara's final fate and asks the model to analyze the story's author's notes and report where they appear.

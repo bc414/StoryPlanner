@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to analyze, within the story's setting, how Chrysalis keeps the bauleiters/jaegers and the statthalters from causing inefficiency in her war effort against Herzland, and why she doesn't abolish one of them, without pointing at any body of material to use or avoid.

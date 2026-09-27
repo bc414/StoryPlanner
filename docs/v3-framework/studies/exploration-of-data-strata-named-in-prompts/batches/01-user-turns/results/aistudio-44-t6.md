@@ -1,0 +1,4 @@
+- sources:
+  - typical EaW stories' "total innocence" narrative, with infiltrators in the Equestrian army the whole time | treated as the convention to throw out and replace, not to follow; the model is asked to assess the effects of dropping it | "threw out the typical" "total innocence" narrative of typical EaW stories | referred-to
+- order:
+- about: The user pushes back on the model's sleeper-agent-exposure premise and asks it to work out the story consequences of discarding the usual Equestria at War trope, so that Equestria's defeat comes from inexperience and a stronger mechanized enemy rather than from infiltrators betraying the army from within.

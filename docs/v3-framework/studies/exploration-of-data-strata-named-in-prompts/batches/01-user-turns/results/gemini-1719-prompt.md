@@ -1,0 +1,4 @@
+- sources:
+  - my lore about the Aquileian parties | treat as authoritative and reread it; the party descriptions given (FJA farmers and artisans from Coltbert, PNdA urban industrialists, MPA bonapartist/fascist thugs) override the model's previous characterization of the FJA when deciding where Dennis Discret goes | Reread my lore about the Aquileian parties | referred-to
+- order:
+- about: The user corrects the model's placement of Dennis Discret in the FJA by telling it to reread their lore on the three Aquileian parties, restating what each stands for, and asking which party he actually belongs to.

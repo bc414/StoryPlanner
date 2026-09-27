@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author answers the model's two flagged gaps by explaining from their own plan how Laughter's irony plays out in the air battle and the closing song, what Essence originally was and now refers to, and what Resilience means for the changelings and for morale, without pointing the model to any body of material.

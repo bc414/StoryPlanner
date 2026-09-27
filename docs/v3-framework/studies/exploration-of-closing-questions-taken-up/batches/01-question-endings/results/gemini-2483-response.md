@@ -1,0 +1,4 @@
+- questions:
+  - In Chapter 10, does Starlight explicitly tell Twilight that the Luna Nova rifle is a mechanical version of her old Cutie-Mark-stripping spell, forcing Twilight to accept they are using dark magic to save the world? | no user turn | none | none
+- shape: none
+- settles:

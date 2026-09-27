@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (world-rule ontology, god-mode) | The Empire runs a rigid gold standard, and its purpose is to protect rich nobles' wealth from being inflated away | The Empire uses a regid gold standard because rich nobles don't want their wealth to be inflated away | outside
+  - outside all ten (world-rule ontology, god-mode) | The gold standard makes the economy a zero-sum game, and that zero-sum structure is what drives the predator's dilemma | The zero sum game created by the gold standard is what fuels the predator's dilemma | outside
+  - outside all ten (world-rule ontology, god-mode) | In this system trust exists as a physical thing that can be hoarded | Trust is physical/hoarded | outside
+- goals:
+- whole: The note states, as world rules, what the Empire's gold standard does and why it exists, how it produces the predator's dilemma, and that trust is physical and hoardable, with no stated reader effect.

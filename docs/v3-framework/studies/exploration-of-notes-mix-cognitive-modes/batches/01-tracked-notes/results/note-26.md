@@ -1,0 +1,7 @@
+- claims:
+  - History | Applejack refuses the "White Peace" and the extradition demand, an event reported as having happened in the story world | Applejack defies the "White Peace" and the extradition demand | no
+  - Characterization | This defiance shows Applejack has a moral spine, asserted as the truth of her character | proving she has the moral spine | no
+  - Analogies | The real Philippe Pétain is the historical model, and he lacked the moral spine she has, so she is drawn as his counterpart | that the real Pétain lacked | yes
+  - Analogies | Applejack is cast as the Lioness figure who did not turn traitor, the inverse of the real-world figure's path | Applejack is the Lioness who didn't turn traitor | yes
+- goals:
+- whole: The note names Pétain as the real-world foil for Applejack, pairing an in-story act of defiance and a claim about her moral spine with the contrast that she is the Lioness who did not turn traitor.

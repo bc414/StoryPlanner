@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to assess how true the "manufactured gender war" idea is in the present-day West and in modern Western history, without pointing to any particular body of material to draw on.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's synthesis by stating setting facts directly: Aquileia and Herzland are not scarce because they have Bessemer and Haber-Bosch, Coltbert's target is hoarding and cog-like soullessness, and Kemerskai's martial law and fiat currency arise from scarcity in frozen Cloudbury.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's analysis and chapter titles and lays out a long timeline of the new Griffonian Reich (Grover IV to VI, Eagleclaw, Eros, Chrysalis, Thranx, the Rottendedam surrender), ending with a question about the order of the motto.

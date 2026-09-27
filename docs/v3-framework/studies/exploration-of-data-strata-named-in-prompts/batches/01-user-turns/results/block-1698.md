@@ -1,0 +1,9 @@
+- sources:
+  - story plan (Aquileia, Griffonian Republic as New Deal allegory, Equestrian harmony and the P4 thesis) | current revised version, in which Aquileia is one part of the answer combined with the other two, is what the author describes as the plan's present shape | "After story plan revisions, I made them only 1 part" | referred-to
+  - earlier version of the story plan (Aquileians as foreign saviors) | outdated, replaced by the revisions | "I started with the Aquileians as foreign saviors with all the right answers" | referred-to
+  - the faction breakdown from the model's previous turn (Faction 1, Faction 2) | accepted as the frame the author uses to place themselves and their views | "So it feels like my stances sit somewhere in a synthesis zone between Faction 1 and Faction 2" | referred-to
+  - author's own life experience (former Faction 2 media consumption, growing up in a safe suburb) | explains where Aquileia and the Equestrian harmony element came from, so it is background for reading the plan | "where I actually grew up - a safe suburb" | first-named
+  - author's recollection of the 1947 Taft-Hartley Act as the origin of American union structure | provisional, an uncertain memory that needs checking | "I think it's this, not 100% sure" | first-named
+  - author's assumptions about employers such as Walmart, Amazon, ShopRite, Trader Joe's and Costco | provisional, offered as assumption rather than verified fact | "This is what I assume for Walmart and Amazon at least" | first-named
+- order:
+- about: The author explains how their own politics and the story plan's shape came from leaving Faction 2 progressive media after 2024, then sets out a critique of American unions as rent-seeking, and places their stance between Faction 1 and Faction 2.

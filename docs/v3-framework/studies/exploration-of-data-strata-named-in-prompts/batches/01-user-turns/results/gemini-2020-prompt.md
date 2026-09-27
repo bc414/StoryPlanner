@@ -1,0 +1,6 @@
+- sources:
+  - Raw story data | the material each pipeline phase takes in and works on: strategies are drawn from it, buckets are built from it, and its notes are sorted into buckets | Raw story data | first-named
+  - list of strats/extract | the strategies and extraction directives from Phase 0 that the cartographer takes in alongside the raw story data to come up with buckets | Raw story data, list of strats/extract | first-named
+  - flattened list of buckets | the bucket list from Phase 1 that the sorter takes in alongside the raw story data to put all thoughts into buckets | Raw story data, flattened list of buckets | first-named
+- order:
+- about: The user pastes a table laying out their three-phase pipeline (strategy selection, cartographer, sorter), giving each phase's input, system instruction and output plus the web app step where a human reviews it, so the model can review the workflow it asked to see.

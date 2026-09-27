@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model where it got its background on Equestria at War, a neutral question about sourcing that does not say or show anything in the previous answer is wrong.

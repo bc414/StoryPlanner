@@ -1,0 +1,3 @@
+- questions:
+- shape: The user answers nothing, because the model turn put no open question to them. They give their own account of how they came to the method: RTS games before 4th grade, then Pokemon, then Civilization 5 and EU4, then Pokemon fiction, then medieval Pokemon stories, then The Princess and the Kaiser and Equestria at War, then TLTT. They ask the model to confirm that the method traces back to those early games and to critical thinking. They end with a new claim that C&C3's Scrin are the seed of the corporate mandate, as Amon is in SC2. The turn is a bid for validation that also extends the discussion. It is not a decision about the story.
+- settles:

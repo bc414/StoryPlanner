@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | She deeply resented Herzland's patriarchal culture, a passionate animosity that is part of who she is | She resented the patriarchal culture of Herzland with a great passion | yes
+  - Characterization | Her resentment is grounded in her being the most shrewd, intellectual and passionate griffoness of all | because she was the most shrewd, intellectual, and passionate griffoness of them all | yes
+  - Characterization | She has a big ego, backed by real skills | She had a big ego and the skills to back it | yes
+- goals:
+- whole: The note asserts, as a psychologist would, the truth of Gabriella's starting character: a brilliant, egotistical griffoness whose passion and intellect fuel her resentment of Herzland's patriarchy.

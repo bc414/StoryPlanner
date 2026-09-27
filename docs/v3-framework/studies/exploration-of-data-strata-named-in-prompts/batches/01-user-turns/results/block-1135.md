@@ -1,0 +1,8 @@
+- sources:
+  - mane 6 origin stories I rigorously grounded (Twilight, Applejack, Rarity, Rainbow Dash, Pinkie) | settled, already worked out by the author; the model is to treat them as the finished pattern and not redo them, with Fluttershy being the one still open | I rigorously grounded most of the mane 6 origin stories | referred-to
+  - the origin of The Stare (Putting Your Hoof Down) | already determined and settled; not to be reopened, and the work needed is on the animals instead | I already determined the origin of The Stare | referred-to
+  - canon FiM | to be searched for material on why Fluttershy loves animals and works to understand them, beyond what is already known | anything in canon FiM or surrounding materials | referred-to
+  - surrounding materials (material around canon FiM) | to be searched along with canon for more on Fluttershy's animal bond | canon FiM or surrounding materials that go beyond | referred-to
+  - the Cutie Mark Chronicles story of Fluttershy falling and being caught by butterflies | known baseline that is not enough by itself; the model should look for more beyond it | beyond just the cutie mark Chronicles story | referred-to
+- order:
+- about: The user explains how they have already grounded the other mane 6 origins and The Stare, then asks the model to find canon or surrounding FiM material, beyond the Cutie Mark Chronicles story, to build a more rigorous origin for Fluttershy's love and understanding of animals.

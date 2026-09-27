@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want the model to map out how the doctrines clash in the opening hours of the Bluebell River Spearhead? | ignored | The user does not take up the offer and asks about a different plot beat, Rainbow Dash and the Aquileian plane. | none
+  - What goes wrong in that opening clash that causes Vanhoover to fall? | ignored | Nothing is said about the Spearhead or why Vanhoover falls. The turn stays on Rainbow Dash's aircraft. | none
+- shape: The user turn sidesteps the model's offer and its open question about the Spearhead. It redirects to a character-level idea and asks the model to react to it: Rainbow is drawn to the unarmored Aquileian plane and is refused for her safety, until Starlight flies with her in chapter 5 and shields her. The question form is a tentative proposal, but the chapter 5 detail is stated as a plan.
+- settles:
+  - Starlight flies with Rainbow Dash and provides the shield in chapter 5, which resolves the armor problem for Rainbow | Until chapter 5 when Starlight flies with rainbow and provides the shield
+  - Rainbow Dash is tempted by the zero-armor Aquileian plane, and the Aquileians refuse her for her safety until then (proposed as a question, not firmly asserted) | Would rainbow Dash be tempted to fly an Aquileian zero armor plane and the Aquileians have to tell her no

@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-builder god-mode rule statement) | during the harmony phase from 0 ALB to 914, 85% of the population runs on harmony | During the harmony phase from 0 ALB to 914, the 85% run on harmony | outside
+  - outside all ten (world-builder god-mode rule statement) | the system objectively converts pioneers' ambition into survival harmony, serving to tame the wilderness and defend against monsters | pioneers' ambition is turned into survival harmony to tame the wilderness and defend against monsters | outside
+- goals:
+- whole: The note states, as an objective rule of the fictional universe, how the Pioneer Equestria system operates in its harmony phase, with most people running on harmony and ambition redirected into survival harmony for taming the wilderness and defending against monsters.

@@ -1,0 +1,8 @@
+- claims:
+  - outside all ten (world-rule ontology) | Pure predators are driven by an Ambition to Consume rooted in hunger, territory and survival of the fittest, and cannot form complex societies without pink love | Pure predators posses the Ambition to Consume; Without pink love they can't form complex societies | outside
+  - outside all ten (world-rule ontology) | Pure herbivores have an Instinct to Herd, huddling for communal survival and safety in numbers | Pure herbivores posess the Instinct to Herd | outside
+  - outside all ten (world-rule ontology) | Ponies, Griffons and Changelings are sentient because their high Encephalization Quotient lets them hold both conflicting drives at once | What makes Ponies, Griffons, and Changelings sentient is that their high Encephalization Quotient | outside
+  - outside all ten (world-rule ontology) | Red love supplies the drive to invent, build and conquer the environment, while pink love supplies the capacity to share, trust and make laws | Red love gives them the drive to invent the wheel; Pink love gives them the capacity to share the warmth of the fire | outside
+  - outside all ten (world-rule ontology) | Society is defined as the constant tension between the desire to stand out (Ego/Red) and the desire to belong (Community/Pink) | Society is the constant, vibrating tension | outside
+- goals:
+- whole: The note lays down, as invariant world law, how predator and herbivore drives combine through red and pink love into sentience and society, without stating any reader effect.

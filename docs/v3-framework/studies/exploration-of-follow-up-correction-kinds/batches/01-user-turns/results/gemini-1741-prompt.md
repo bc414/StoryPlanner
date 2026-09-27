@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up grammar question about a new variant of the proposed club name, swapping in "d'Avant-garde" for "d'Aquilée", without saying anything in the model's answer was wrong.

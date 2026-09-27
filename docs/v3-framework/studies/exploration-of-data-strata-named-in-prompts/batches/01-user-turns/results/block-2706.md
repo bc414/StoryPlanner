@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two follow-up factual questions arising from the model's previous answer: why the network's founders couldn't use the initials "WC", and whether Eric Kripke acknowledged slash writers the way Lauren Faust acknowledged bronies.

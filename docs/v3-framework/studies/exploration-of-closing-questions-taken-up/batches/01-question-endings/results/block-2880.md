@@ -1,0 +1,4 @@
+- questions:
+  - Should the model draft the 6 axis property definitions with candidate pole names so the user can react to the terminology before the full assignment pass? | ignored | Says nothing about the drafting offer or the terminology. It goes back to whether the axes need to be orthogonal at all. | none
+- shape: Redirects to the framework underneath the plan. It questions the orthogonality premise behind the 6-axis check and asks whether a 2×2 with only 3 populated cells is still valid. It asks for a first-principles mathematical answer rather than moving on to naming or the assignment pass. It is a short reply made of questions, not an instruction.
+- settles:

@@ -1,0 +1,5 @@
+- questions:
+  - If Gabriella formally refuses to marry and produce a Lion heir, how does the succession crisis destabilize her leverage among Herzland nobles, and how does Archon Eros weaponize her spinsterhood as defiance of Boreas's will? | no user turn | none | none
+  - When Gabriella confesses the intimate manipulation to Applejack, Twilight and the public in Griffenheim, how does her vulnerability shatter the Rugged Individualist myth held by the surviving industrialists? | no user turn | none | none
+- shape: none
+- settles:

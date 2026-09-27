@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to run a specific analysis of Chapter 17 (Stagnation), checking that the Celestia/Luna/Applejack dialogue arguments carry the thematic weight of the White Peace moment? | no user turn | none | none
+- shape: none
+- settles:

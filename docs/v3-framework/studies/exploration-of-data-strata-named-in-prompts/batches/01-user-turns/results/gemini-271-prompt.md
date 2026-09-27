@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a new story beat, in which Archon Eros surrenders unconditionally about two weeks after the weapons donations and apologizes, and explains his motives as a sincere believer in peace through strength, without pointing the model at any body of material.

@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Night Light states aloud on the page that Archive-held "dark magic" is really just things like spell matrices that can disrupt survival harmony | Night Light says what's classified as "dark magic" and kept in the Canterlot Archives is really just things like spell matrices | yes
+- goals:
+- whole: The note stages a single beat in which Night Light tells the reader that the Archives' so-called dark magic is really just spell matrices that could disrupt survival harmony.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to rewrite the current conversation as a deep-dive long-form response to compare the difference? | ignored | none; the user turn moves to a different scenario (uploading story JSON and using Canvas with the slider) and never accepts or declines the offer | none
+- shape: Redirects to a new, related question: the user proposes a concrete workflow (upload story-metadata JSON, use Canvas, slider on longer) and asks the model to judge whether it would give a more complete analysis. It leaves the model's offer unanswered and gives no instruction.
+- settles:

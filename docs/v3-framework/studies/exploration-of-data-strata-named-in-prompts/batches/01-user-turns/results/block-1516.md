@@ -1,0 +1,12 @@
+- sources:
+  - the author's intended plan for Rarity perceiving Celestia, including the next chapter's Rarity and Applejack radio call | treat as the true account of what is on the page and what is inferred; it overrides the conclusion the model reached | my intended plan for rarity perceiving Celestia | referred-to
+  - the author's intuition and memory | treat as the check that showed the model's conclusion was wrong; trust it over the model's reading | my intuition and memory didn't align | referred-to
+  - V1 notes | outdated on the on-page versus off-page distinction, which is why the model went wrong; they also hold notes-to-self on making scenes thrilling and on what the author wants | V1 did not distinguish that this was to be off the page | referred-to
+  - v2 design | the place where the on-page versus off-page distinction is to be fixed; offered tentatively | That's what the v2 design is for, I suppose | referred-to
+  - the model's earlier example (AJ's hand, the uniform) | treat as a flawed illustration that got the subject matter wrong and shows the limit of using the model for prose | your example said "AJ's hand" and something about a uniform | referred-to
+  - the model's knowledge of My Little Pony | expected to be applied without prompting; the example failed to use it (hooves, not hands) | You know the subject matter is My Little Pony | referred-to
+  - the story planner's note tracks (O/E/La/En, the R tracks, the O+W tracks, the E+W tracks) | provisional; being rescoped so the R and O+W tracks serve thematic argumentation and the E+W tracks serve both the content plan and thematic argumentation, with other tracks covering the rest of storytelling | the whole story planner is only for designing show don't tell for themes | referred-to
+  - garden notes or a metatextual note-to-self track | proposed, as a question, as the home for notes on thrill and emotional strength that emerge from prose rather than from the governed tracks | garden notes or some metatextutal note to self track | referred-to
+- order:
+  - the author's intended plan for Rarity perceiving Celestia | over the model's conclusion drawn from the V1 notes | which is why you came to a conclusion that my intuition and memory didn't align with
+- about: The user corrects the model's reading of the Rarity/Celestia scene from their own plan and memory, then works out that the planner's O/E/La/R tracks exist only for thematic argument, proposes renaming O, E and R, and asks whether the renamed R covers what R was meant to hold.

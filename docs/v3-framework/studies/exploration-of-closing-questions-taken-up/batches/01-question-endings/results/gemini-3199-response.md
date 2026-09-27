@@ -1,0 +1,4 @@
+- questions:
+  - Is the user trying to gauge the potential audience size for a specific piece of EaW-related content, or just curious how the fandom's demographics split? | no user turn | none | none
+- shape: none
+- settles:

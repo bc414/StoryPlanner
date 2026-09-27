@@ -1,0 +1,7 @@
+- claims:
+  - span | He is not a soft bug; he is hard, predatory in temperament | "He is NOT a soft bug", answering the question of who he is at the start | the start of TLTT, from the display question; the note gives no other time
+  - span | He is a jaeger, a hunter type of changeling | "He is a jaeger" | the start of TLTT, from the display question; no other date or event in the note
+  - unfixed | He is a "brother" to Pharanx, in quotes so a close bond rather than literal kinship | "alongside his \"brother\" Pharanx" | none
+  - span | He and Pharanx were the top of the class in the drone kindergarten | "They were the top of the class" | past tense, in Chrysalis's brand new drone kindergarden, an early stretch before the start of TLTT
+  - span | The kindergarten was new and run by Chrysalis, so he was among its first pupils | "Chrysalis's brand new drone kindergarden" | "brand new", the time of that first class
+- beside: Backstory note 687 (world date 1002) speaks of the same matter from a later point: he learns empathy and consent and no longer wants to be a predator. That contrasts with the jaeger, non-soft identity here. Notes 682 (born 987) and 685 (thrown off Mount Canterhorn, 1002) do not speak of it.

@@ -1,0 +1,9 @@
+- sources:
+  - historical societies, even hyper collectivist ones | use real history as the plausibility test; since none abandoned individual names, drop the numbered-worker idea | "no historical societies, even hyper collectivist ones, that abandoned individual names" | referred-to
+  - newspeak/dystopian sci-fi | do not draw on it; the numbered-worker trope comes from there and does not belong in materialist historicist analysis | "trope comes from newspeak/dystopian sci-fi" | referred-to
+  - The fabula notes | true as the objective account of earth pony magic, pride and community, but only at the author level; Severyanan characters do not know it | "fabula notes talk about earth pony magic/pride/community objectively" | referred-to
+  - Severyanan folklore | what Severyanans and the post-995 State actually go by instead of knowing the mechanism; it is about the collective and the State respects it | "Severyanan folklore would be about the collective" | first-named
+  - Equestrian folklore | the contrasting folk belief, about love of the land and cutie marks; use it for the culture clash with Severyanan farmers | "Equestrian folklore is about love of the land and cutie marks" | first-named
+  - Tall Tale (published show episode) | cite as canon support that earth pony magic works through tractors and needs only pride and care, not hooves | "That's why Comet Shine's tractors succeed in Tall Tale too" | referred-to
+- order:
+- about: The user corrects the model's Stalliongrad analysis by rejecting the numbered-worker trope, separating what the notes say objectively from what Severyanan characters know as folklore, and adding that mechanized Severyanan farming still runs on earth pony magic that outsiders do not recognize as magic.

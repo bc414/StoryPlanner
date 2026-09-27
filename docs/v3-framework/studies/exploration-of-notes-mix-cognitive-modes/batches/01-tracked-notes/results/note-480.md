@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | Ambition stands as magic and is literally the fuel of magical engineering, standing for how human ambition is consumed as an energy resource in the real world, like fossil fuels | Ambition is equivalent to magic, and it is literally the fuel to power magical engineering technology, just like oil and coal | yes
+- goals:
+- whole: The note sets up the spell-matrix technology as an allegory in which ambition is the extracted, burned fuel of industry, paralleling oil and coal.

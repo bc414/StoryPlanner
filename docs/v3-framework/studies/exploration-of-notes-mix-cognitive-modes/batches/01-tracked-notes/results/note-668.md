@@ -1,0 +1,4 @@
+- claims:
+  - Canon | In the established canon episode, the character learns the value of asset specificity, a fact about her canon arc that the story builds on or recontextualizes | She learns the value of asset specificity in the canon episode | yes
+- goals:
+- whole: The note records what the character learns in the canon episode, anchoring her portrayal to the source material through an economic reading of that lesson.

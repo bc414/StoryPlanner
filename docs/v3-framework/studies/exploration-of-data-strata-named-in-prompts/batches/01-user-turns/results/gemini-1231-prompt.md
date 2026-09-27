@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general economics question about whether fractional reserve lending against vaulted gold is a separate concept from fiat currency or the same thing with a variable ratio, without pointing the model at any particular source of material.

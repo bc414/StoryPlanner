@@ -1,0 +1,5 @@
+- claims:
+  - History | Chrysalis's propaganda characterizes the starving times as a society of prisoners and love addicts, which it calls the Predator's Dilemma | Chrysalis's propaganda describes the starving times as a society of prisoners and love addicts, a "Predator's Dilemma" | no
+  - History | The propaganda's stated logic is that a soft changeling who tries to make friends will be drained by predators addicted to the thrill of harvesting red love | If you are soft and try to make friends, predators who are addicted to the thrill of harvesting red love will drain you | no
+- goals:
+- whole: The note reports, as an in-world fact, how Chrysalis's propaganda frames the starving times as a Predator's Dilemma, and it does not say how the reader is to experience or update their opinion of it.

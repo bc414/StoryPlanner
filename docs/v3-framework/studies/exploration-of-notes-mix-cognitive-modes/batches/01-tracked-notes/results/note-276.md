@@ -1,0 +1,4 @@
+- claims:
+  - History | the charitostatic effect is a physical mechanism of the world that makes the Equestrian Republic materially superior to pure Aquileia, beyond being morally preferable | the charitostatic effect is the physical mechanism by which the Equestrian Republic is materially superior to pure Aquileia | no
+- goals:
+- whole: The note states as a fact of the world what the charitostatic effect is and what it does for the Republic over Aquileia, without planning any demonstration examples or the reader's experience of them.

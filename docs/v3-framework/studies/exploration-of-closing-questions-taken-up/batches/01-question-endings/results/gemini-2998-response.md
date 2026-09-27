@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts no question to the model turn to answer, because that turn asks the user nothing. It moves away from the story and its analogy to the user's day job in software engineering. It asks the model to carry over the same themes (truth vs lies, accelerants) to software engineering after LLMs. It names two contrasts: code generation vs architecting and learning first principles, and prose generation vs the same. It also asks the model to first look at what coding bootcamps and CS programs promise compared with what they deliver. It is a new request and a change of subject, not a reply to anything.
+- settles:

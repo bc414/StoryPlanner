@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Chrysalis's psychology: the model's account rests her grievance on an innate biological inadequacy (the shattered blade, being 'mathematically inferior'), and the user asks whether an inferiority complex belongs in her character at all, or whether her grievance comes only from assimilation in Acornage and aristocratic bullying in Griffenheim | 'Is Chrysalis having an "inferiority complex" still accurate or needed?' | a question that doubts the framing and proposes an alternative source for the grievance, without saying outright that the model is wrong
+- about: The user steps back from the model's forge-humiliation analysis to ask whether Chrysalis's motivating psychology should be an inferiority complex or should come only from social experiences of assimilation and bullying.

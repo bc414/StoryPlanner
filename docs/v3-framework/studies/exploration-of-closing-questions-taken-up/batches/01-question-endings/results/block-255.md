@@ -1,0 +1,14 @@
+- questions:
+  - If SAA broke the Skyfall blockade by accepting the Rik, how did Skyfall retaliate against SAA's supply lines before the Great War, and did that push SAA to use Tzinacatl balsa rafts or Aquileian naval escorts before the Changeling submarines? | ignored | Says nothing about retaliation against SAA or its shipping. It only limits Skyfall's dealings with the GR (gold or Marks, never Riks) and says Aquileia would ignore the early GR. | none
+  - How does Applejack, whose element is Honesty, reconcile her parents' support of the GR being cold corporate contracts and currency speculation rather than simple charity? | ignored | Does not say how she reconciles it. It does correct the premise that her parents took a risk, and says she misjudges the soulless aesthetic, but it never addresses her reconciliation. | none
+- shape: The user turn corrects the model's premises: there are no winters, and the parents took no real risk. It accepts some of the proposal (SAA as Rik validator, SAA buying industrial equipment) and adds a reason, the subscription trap. It also limits the proposal by ruling that Skyfall and Aquileia would not go along with it. It does not take up either Socratic question and instead offers its own worldbuilding rulings.
+- settles:
+  - The world has no seasons, because the sun and moon follow a fixed path, so there are no winters. | There are no seasons in my world because the sun and moon have a fixed path
+  - Winter Wrap Up and Equestrian seasons are a dominant tradition of survival harmony, not a natural cycle. | it's the tradition of survival harmony
+  - It is always winter in Cloudbury, as a permanent pattern of snow rather than permanent snow cover. | always winter in Cloudbury (not permanent snow but a permanent pattern of snow)
+  - Applejack's parents and SAA's workers face no real risk in the venture, because they could go back to the farm without consequence. That is how Equestria is. | if their company failed they could go back to the farm
+  - SAA would buy industrial equipment from the early GR and from the PNdA in Aquileia, because Skyfall parts are a subscription trap. | SAA would purchase industrial equipment from the early GR and also the PNdA
+  - The GR's and SAA's soulless aesthetic is one Applejack misjudges, because the ruthless Manehattan tycoons share it. | all the ruthless capitalist tycoons in Manehattan also have the same aesthetic
+  - SAA is the fiat currency validator for the Rik. | It makes sense that SAA is the fiat currency validator
+  - Skyfall would still not trade with the GR for Riks, and accepts only gold or Marks. | Skyfall would still not do business with GR for Riks (only gold or Marks)
+  - Aquileia would probably ignore the early GR for being soulless. | Aquileia would probably ignore the early GR for being soulless

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the arrow-key reordering implementation to a new question about showing a light blue border on the selected note, explaining that they have to click outside the textbox to select it.

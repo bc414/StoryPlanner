@@ -1,0 +1,5 @@
+- questions:
+  - How do Shining Armor and the Crystal Ponies, on learning the Love Harvesters run on a stolen industrialized copy of the Crystal Heart filtering spell, take it culturally, and does it shatter their belief in the purity of Crystal Magic? | no user turn | none | none
+  - How do the Skyfall Tycoons like Kessler react when they realize the mini-vacuum chambers they sold Equestria built an open-source magical economy that bypasses their subscription monopolies? | no user turn | none | none
+- shape: none
+- settles:

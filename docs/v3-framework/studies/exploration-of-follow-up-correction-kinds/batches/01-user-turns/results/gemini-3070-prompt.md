@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast the Tree of Harmony's rainbow power as a general automated WMD or defense grid that could defeat Synovial's forces and be depleted, but in the user's world it only pacifies magical monsters driven by "red love" and has no effect on machines or drugged soldiers | "only pacifies magical monsters riding on red love. It doesn't do anything to a mechanical tank or a conscript on combat drugs" | flat, unapologetic statement of the mechanism's limits with concrete counterexamples, no reason beyond the limits themselves
+- about: The user pushes back on the model's picture of the Tree of Harmony as a general-purpose automated weapon by stating what its power can and cannot affect.

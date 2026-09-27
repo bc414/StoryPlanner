@@ -1,0 +1,7 @@
+- claims:
+  - History | earth ponies can grow anything, stated as a plain fact of the world | earth ponies can grow anything | no
+  - WorldInference | given that earth pony magic is weathering, the capacity to grow anything follows scientifically and should be plain to the reader | which should be obvious scientifically, if their magic is weathering | no
+  - WorldInference | the fact sets up a contradiction within the theories Fleur holds, for the reader to see | This is a contradiction in the theories Fleur espouses | no
+- goals:
+  - the reader sees that growing anything follows from weathering magic and so notices that Fleur's theories contradict themselves | WorldInference | should be obvious scientifically; a contradiction in the theories Fleur espouses
+- whole: The note records that earth ponies' ability to grow anything follows from weathering magic and so exposes a contradiction in Fleur's theories, for the reader to catch, rather than laying out how the reader's understanding changes across reading order.

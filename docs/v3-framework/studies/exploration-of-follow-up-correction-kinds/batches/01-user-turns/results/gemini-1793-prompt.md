@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's synthesis and asks a follow-up question about whether the 25% left behind in Aquileia should emigrate to Equestria after the war, extending the plan without disputing anything the model said.

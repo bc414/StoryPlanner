@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want an analysis of how Rasti's interaction with Maud Pie, given her connection to rocks and mountains, could bridge the crystal negotiation scene? | ignored | Says nothing about Maud Pie or the crystal negotiation. It asks for a different investigation, into the name Midnight Oil across fanon. | none
+- shape: Redirects to a new research request: whether other fanon characters share the name \"Midnight Oil\". It also adds background on why the user chose the name, which quietly corrects the model's reading of it as a pony idiom Celestia imposed. The model's offered next step is passed over.
+- settles:
+  - The name Midnight Oil was taken from the character of that name in the game, an Equestrian general labeled as a night guard. | "I chose the name since that character appears as an Equestrian general in the game and is labeled as a night guard"

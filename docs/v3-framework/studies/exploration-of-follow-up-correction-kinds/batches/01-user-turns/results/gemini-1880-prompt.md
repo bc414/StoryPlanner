@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's suggestion that the parents named her Souris and the Lord calls her Minette, asks whether the Lord's ironic renaming fits a sadistic griffon, and adds detail about the family's situation, where the Lord abuses other ponies and they escape it by doing housework.

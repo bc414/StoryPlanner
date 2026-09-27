@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question about Applejack's climax by laying out a three-arc structure for the main story, each with its own climax and "final boss", and asks for a review and analysis of those plans.

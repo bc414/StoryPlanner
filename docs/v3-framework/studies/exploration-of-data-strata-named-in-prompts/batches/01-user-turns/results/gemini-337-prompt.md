@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the civic virtues versus Elements of Liberty split and then lays out their own further worldbuilding, in which Celestia's Elements of Harmony are the naive pure-love versions, a pure-ambition set drives Chrysalis's and feudal societies, and the Elements of Liberty sit between them like the Republic.

@@ -1,0 +1,6 @@
+- questions:
+  - When the Changeling POWs at Camp Fluttershy learn the truth about Puppe, how does it recontextualize their trauma, and does replacing terror with pity speed their rehabilitation? | ignored | The user turn says nothing about the POWs, the camp, or rehabilitation. | none
+  - How did Trimmel, a rational Herzlander-fluent tactician, justify serving a leader whose name means Doll? Did he see her as a useful puppet, only to find she held the strings? | ignored | The user turn says nothing about Trimmel or his motives. | none
+- shape: Redirects. The user skips both Socratic questions and raises a new mechanism question about the world. The changeling translators convert Equestrian into simplified Herzlander and translate idiom names literally, so would they be hardwired to handle Chrysalis's name? The Musk/Twitter analogy, in which engineers were forced to boost the owner's account, suggests a deliberate override in the system. The user turn is a question and a proposal, not a settled decision.
+- settles:
+  - The changeling translators are set up to convert Equestrian into simplified Herzlander and to translate idiom names literally. The user states this as the premise for the question. | The changeling translators are set up to convert Equestrian into simplified Herzlander and does literal translation of idiom names

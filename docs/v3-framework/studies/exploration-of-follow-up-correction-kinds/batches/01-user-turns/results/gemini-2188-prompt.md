@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Celestia analysis to ask whether their earlier Poland-as-model-republic mapping still holds, how it ties to Russia, 1991 and the end-of-history thesis, and asks for help finding a link between Applejack and Poland.

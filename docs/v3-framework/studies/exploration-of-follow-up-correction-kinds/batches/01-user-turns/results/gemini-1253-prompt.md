@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model claimed Applejack hopes Celestia holds a magic third option and only discovers at the reunion that there is just fire or factory. The user says she already knows a third way, harmonic capitalism, from Fleur, Star Energy and the buffalo, Tzinacatl, Temberik and Tall Tale examples. | At the point of Ponyville, Applejack already knows the third way | Flat statement of what the story already established, given with supporting examples, without saying the model was wrong; then moves on to a follow-up question
+- about: The user corrects the model's premise that Applejack lacks a third option by pointing to the harmonic capitalism she has already seen demonstrated, then asks the model to reconsider why she wants Celestia to wake up, offering leadership burden as one guess and asking what else.

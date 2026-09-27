@@ -1,0 +1,4 @@
+- sources:
+  - Aquileian principles of asset specificity and investment | the framework the model is to reason from in answering whether Rarity should reveal the trade; treated as the governing basis for the decision | if I'm going based on Aquileian principles of asset specificity and investment | referred-to
+- order:
+- about: The user asks a plot-design question, whether Rarity should reveal afterwards that she traded gems to the dogs for glamour, and asks for the answer to follow the Aquileian principles of asset specificity and investment.

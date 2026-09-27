@@ -1,0 +1,6 @@
+- claims:
+  - History | The Herzlander Republicans fled north to Cloudbury in 981 to found the Griffonian Republic, seeking to reclaim their stolen heritage as well as build a better government | When the Republicans (who are Herzlanders) flee north to Cloudbury in 981 to establish the Griffonian Republic, they don't just want to build a better government; they want to reclaim their stolen heritage | yes
+  - History | Unlike the snobbish Aquileians, the Republicans did not revive Haute Cuisine but revived the lost working-class masterpieces of the English tradition | Because they are not "Snobs" like the Aquileians, they don't revive Haute Cuisine. They revive the Lost Working-Class Masterpieces of the English tradition | yes
+  - Analogies | The Republic's food production is modeled on the real-world In-N-Out approach of cooperative, high-quality industrialization | they execute them using the "In-N-Out" model of cooperative, high-quality industrialization | no
+- goals:
+- whole: The note reports how Griffonian Republic food arose from the 981 flight to Cloudbury as a revival of lost working-class English dishes, and names In-N-Out as the real-world model for how they were produced.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author revises the model's proposal by stating that Star Energy already funds military-grade rubber from the medicine tribes' artisan production, that the conflict is getting the bickering tribes to cooperate, and that Mali and Tally Mark each have a backstory of choosing the Aquileian way, without pointing at any body of material for the model to use.

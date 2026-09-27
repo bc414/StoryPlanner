@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user explains that they chose to have Applejack buried so Twilight's arrival at the right moment isn't coincidental, and asks whether that reasoning makes sense.

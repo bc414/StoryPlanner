@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want the Phase 2 (The Sorter) system instruction and JSON schema now? | ignored | Says nothing about Phase 2. It asks for a change to the Phase 1 output instead. | none
+- shape: Redirects to the Phase 1 design just delivered and gives a revision instruction. Each bucket in the output must carry which paradigm it came from, and orphans must be identifiable. The model's offer to move on to Phase 2 is passed over.
+- settles:
+  - Phase 1 output must label every bucket with the paradigm it falls under, so the output is no longer a flat list of bucket names | clearly show what paradigm each bucket falls into
+  - Phase 1 output must mark which buckets are orphans | which ones were orphans

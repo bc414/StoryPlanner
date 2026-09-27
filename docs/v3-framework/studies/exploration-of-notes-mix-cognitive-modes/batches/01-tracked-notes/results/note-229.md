@@ -1,0 +1,4 @@
+- claims:
+  - History | the constitutional monarchy was set up as a deliberate measure to forestall a bourgeois revolution, stated as a fact of the world's past | The constitutional monarchy was established to prevent a bourgeois revolution | no
+- goals:
+- whole: The note states in a single plain assertion the in-world reason Wingbardy's constitutional monarchy was founded, namely to head off a bourgeois revolution, and asks nothing of the reader.

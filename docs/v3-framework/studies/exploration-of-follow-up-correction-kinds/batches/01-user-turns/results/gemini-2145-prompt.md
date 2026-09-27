@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about how the Griffonian Republic contrasts with Aquileia's ego-driven ideology, and remarks with amusement that their own original good-Aquileia and flawed-Republic plan has flipped, without faulting anything the model said.

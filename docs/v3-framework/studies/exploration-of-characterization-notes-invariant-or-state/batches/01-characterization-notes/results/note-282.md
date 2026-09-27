@@ -1,0 +1,8 @@
+- claims:
+  - throughout | She idolizes the Wonderbolts' aesthetic of "awesomeness" | "always idolized" | always, no other binding
+  - unfixed | She wants fame and has a huge ego | present-tense statement "wants fame and has a huge ego" | none
+  - throughout | Her baseline character instinct is Loyalty | "baseline character instinct" | none; it is stated as a standing disposition
+  - span | She rejected the Shadowbolts' offer of pure ego and glory and stuck with her actual friends, the test that grounds her loyalty | "Friendship is Magic Part 2's test" | the named episode Friendship is Magic Part 2
+  - span | Her loyalty and fame-seeking ego clash with the toxic culture of the Wonderbolts as it is shown | "clashes with the reality of the Wonderbolts' toxic culture" | the named episodes Wonderbolts Academy, Rainbow Falls and Newbie Dash
+  - unfixed | She has a heroism complex, a devastating corruption of the ego and loyalty combination, arising from idolizing Reni the ace flyer | "devastating corruption", "heroism complex" | tied to Mount Aris and her idolizing Reni there; no date or end given
+- beside: none

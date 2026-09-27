@@ -1,0 +1,9 @@
+- questions:
+  - How would Chrysalis's regime process learning that its Love Harvester's three-way valve depends on tungsten-carbide cutters imported from Skyfall, given its goal of hostile autarky? | ignored | none | none
+  - How would Kemerskai react when Applejack insists on protecting inefficient Earth Pony farming from Cloudbury's standardized agricultural exports in the Republican Pact treaties? | ignored | none | none
+- shape: The user turn does not answer the model's two questions. It redirects to the user's own agenda: it asks the model to refine the fourth axis, offers a reading of it, and poses new questions about libertarianism and the bourgeois revolutions. It also corrects the model's placement of Stalliongrad on the isolationism axis.
+- settles:
+  - The fourth axis (extraction versus sharing) is what Aquileia lacks and Equestria has. It is the distance between ego capitalism and harmonic capitalism, i.e. Equestrian conscience. | it is what Aquileia is lacking and Equestria has
+  - Aquileia and Coltbert solved the extraction problem by raising the cost of conquest, empowering everyone with asset specificity. | Aquileia and Coltbert solved it by raising the cost of conquest
+  - Stalliongrad is not isolationist. It intervened in Nova Griffonia to support the revolution there. | Stalliongrad is not isolationist, they intervened in Nova Griffonia
+  - Stalliongrad is Trotskyite. | They are Trotskyites

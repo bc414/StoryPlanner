@@ -1,0 +1,6 @@
+- claims:
+  - History | Eros declared the traitorous noble industrialists heretics who had abandoned Boreas's morals, executed them and redistributed their wealth | He declared the traitorous noble industrialists as heretics ... executes them and redistributed their wealth | yes
+  - History | His actions weaponized Grover III's religious moral containment strategy to the extreme, reported as a historical characterization of what he did | weaponizing Grover III's religious moral containment strategy to the extreme | yes
+  - History | He replaced capitalist exploitation with absolute obedience to the child-emperor Grover VI, demanding a loyalty slogan | replaced capitalist exploitation with absolute obedience to the child-emperor Grover VI, demanding loyalty | yes
+- goals:
+- whole: The note reports as in-universe history how Archon Eros in 1007 purged the noble industrialists as heretics, redistributed their wealth, and installed absolute loyalty to the child-emperor Grover VI.

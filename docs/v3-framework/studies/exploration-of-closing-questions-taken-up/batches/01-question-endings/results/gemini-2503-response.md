@@ -1,0 +1,8 @@
+- questions:
+  - Does this help clarify how to write Pinkie Pie in the war-torn setting? | answered | Implicitly yes. The user thanks the model and adopts its Pinkie insight as the source of her reality-bending. The turn does not say anything about writing her in the war setting. | "Thank you for reminding me"; "exactly the ambition that fuels her reality-bending abilities"
+- shape: The user thanks the model, accepts its reading of Pinkie, and builds on it with their own lore. The rock farm is tied to Skyfall's fertilizer demand, and her reality-bending is tied to recovering from Skyfall-induced misery. It is a worldbuilding contribution and does not redirect or correct the model.
+- settles:
+  - Pinkie's rock farm and its bleakness are an influence of Skyfall | "the rock farm and its bleakness is a Skyfall influence"
+  - Skyfall wants mass fertilizer, and earth ponies use earth pony magic to break rocks down into phosphorus and potassium compounds for it | "break down the rocks into phosphorus and potassium compounds for fertilizer"
+  - Pinkie's family have cutie marks related to breaking down and curating rocks | "Pinkie's family has cutie marks related to breaking down and curating rocks"
+  - Pinkie's special talent comes from realizing she has to make joy happen. That ambition fuels her reality-bending in-universe, as a magical side-effect of rebounding from Skyfall-induced misery | "a supreme, magical side-effect of rebounding from Skyfall-induced misery"

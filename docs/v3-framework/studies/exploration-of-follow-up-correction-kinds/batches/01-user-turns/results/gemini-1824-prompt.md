@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's picture of Gerad's cause as resting on himself and the Pony bureaucrats, with every noble either a humiliated court ornament or a laughing bystander at his fall, is widened: other competent nobles share his vision of a strong Aquileian monarchy and also hate the petty lords. | Gerad isn't the only competent nobility, there are other nobles who believe in his vision | Flat statement of a stipulation, tacked on near the end as a constraint on the options and not flagged as a fix.
+- about: The user turn takes the model's arc as a base and asks for options on the gaps: how Gerad gets hold of the lords' serf-worked lands, what happens to the Ponies, and what the 980 revolution and the counterrevolution under Moriset look like. It supplies its own developments, and in passing it adds that other noble supporters of Gerad exist.

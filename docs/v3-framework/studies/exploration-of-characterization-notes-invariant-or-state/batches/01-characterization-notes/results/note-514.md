@@ -1,0 +1,4 @@
+- claims:
+  - span | Eros is humbled and grounded to other griffons' suffering as a result of the child emperor's intervention | Because of child Grover VI's moral intervention to save Eagleclaw's life, Archon Eros is humbled and grounded | bound to the aftermath of the intervention that saved Eagleclaw, and the question's start of TLTT; the intervention itself is the event the beside note dates to 1007
+  - throughout | Eros is not an irrational fascist or nationalist like Hitler | He is not an irrational fascist or nationalist like Hitler | none; stated in the present tense with no time marker
+- beside: Backstory note 512 (world date 1007) speaks of the same thing: Eros is about to execute Eagleclaw but stops when child Grover VI asks him not to hurt her, and he accepts the plea and is proud of the child emperor for keeping him from being too much of a tyrant. Backstory note 511 (1007) gives the tyrannical regime context, but does not speak of the humbling itself.

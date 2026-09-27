@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the final Chapter Outline document created now, with these clothing-lore notes folded into the relevant chapters (for example the Textile Baron backstory in Chapter 23's conference)? | no user turn | none | none
+- shape: none
+- settles:

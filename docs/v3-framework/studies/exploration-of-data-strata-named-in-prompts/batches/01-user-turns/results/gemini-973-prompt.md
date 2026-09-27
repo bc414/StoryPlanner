@@ -1,0 +1,4 @@
+- sources:
+  - red love of my story / rugged individualist merchants of death | the author's own story elements, used as the thing the Dutch history is checked against for fit, not as something to change | is spices from the spice islands the "red love" of my story? ... does it match up with rugged individualist merchants of death? | referred-to
+- order:
+- about: The user asks the model to expand on the rise of the Dutch and to test whether the Dutch Republic, the spice trade and its naval standing against England fit the story's Red Love and its merchants-of-death faction.

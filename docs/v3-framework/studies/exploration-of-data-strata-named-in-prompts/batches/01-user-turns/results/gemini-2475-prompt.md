@@ -1,0 +1,5 @@
+- sources:
+  - my plan | one side of a comparison; the model is to analyze it against the EaW plan, with neither treated as the authority | my plan | referred-to
+  - the EaW plan | the other side of the comparison; the user's plan is to be analyzed against it, with neither treated as the authority | the EaW plan | referred-to
+- order:
+- about: The user asks the model to compare their own story plan with the Equestria at War plan in an analysis.

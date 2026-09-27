@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the blank-line fix should be applied to all four scene payload sections and elsewhere in the method, without saying anything in the model's answer was wrong.

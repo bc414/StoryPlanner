@@ -1,0 +1,5 @@
+- claims:
+  - WorldInference | the reader's existing belief that changelings are fundamentally different from ponies is posited as the prior opinion in play | The reader may still believe that changelings are fundamentally different from ponies | no
+  - ThematicEvidence | Bright Mac and Pear Butter state that ponies are just as capable of not being harmonic as changelings, supplying a revelation that cuts against the prior belief | Bright Mac and Pear Butter assert that ponies are just as capable of not being harmonic as changelings | yes
+- goals:
+- whole: The note pairs a presumed reader prejudice (changelings are essentially different from ponies) with the parents' assertion that ponies can be just as non-harmonic, setting up the belief clash as evidence.

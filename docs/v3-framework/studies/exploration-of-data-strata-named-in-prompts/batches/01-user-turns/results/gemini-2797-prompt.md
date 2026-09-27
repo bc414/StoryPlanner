@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | review before answering; consult them first as the basis for the reply | Please review my story plans before answering | referred-to
+  - canon (Pridea's pony minority at 40% vs 20% elsewhere in Aquileia) | treat as established fact of the story world that the new proposal must fit | Canonically, Pridea has the largest pony minority | referred-to
+- order:
+- about: The user proposes a backstory for why Pridea has a large pony minority, with retiring griffons bringing ponies as pets and later 2nd gen Royalists raising the share, asks whether it fits, and tells the model to review their story plans first.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model mapped the Jonasi figure onto the desperate Skyfall worker or village-wife dynamic at the bottom of the class spectrum, when the user's plan had the Jonasi equivalent as a powerful Great Lakes warlord-patriarch with many wives and a large estate, who sells raw materials and buys guns and Skyfall goods | I figured the Jonasi equivalent would be a warlord with multiple wives and a big estate | stated flatly as what the user had already planned, offered mildly in passing with no apology or irritation, contrasting 'not a desperate worker or desperate farmer'
+- about: The user redirects the model's mapping of the show's central polygamist figure by stating that in their design the equivalent is a wealthy Great Lakes warlord trading raw materials for guns and Skyfall goods, not a poor worker.

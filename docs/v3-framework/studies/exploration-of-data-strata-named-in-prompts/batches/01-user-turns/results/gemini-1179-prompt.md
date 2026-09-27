@@ -1,0 +1,4 @@
+- sources:
+  - original chapter 7 to 8 bridge (Rarity saying Celestia is a statue, Rainbow drops her heroism/atlas complex) | earlier version of the plan; still stands as a bridge, but the war bond material is now added as a second necessary bridge alongside it | Originally the bridge from chapter 7 to 8 was | referred-to
+- order:
+- about: The author revises the chapter 7 to 8 plan, keeping the earlier Rarity/Rainbow bridge while adding a new meeting plot in which Rockfeller refuses war bonds, Fluttershy and the buffalo find his hoarded oil, and he is arrested so harmonic capitalism and war bonds can be unveiled.

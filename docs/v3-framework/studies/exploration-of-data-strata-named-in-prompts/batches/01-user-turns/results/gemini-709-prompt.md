@@ -1,0 +1,8 @@
+- sources:
+  - every little thing she does, a royal problem, no second prances | treated as the canon pattern of Starlight brute-forcing magic without weighing consequences, which the author now maps onto her killing in the air | leaning into the idea that she quits flying because she used to brute force magic without considering the consequences | referred-to
+  - the 2nd battle of tall tale | treated as settled story fact: her rampage there was motivated by seeing Maud in a trench with a broken spine | her motivation for unleashing the rampage in the 2nd battle of tall tale was because she saw Maud in a trench | referred-to
+  - the mine negotiation | offered as a tentative idea that it made her step back toward methodical, constructive, community work | Maybe the mine negotiation made her take a step back | referred-to
+  - Maud is healed and wants Starlight to help with the mine (the crystal mine) | treated as the current story state, a fit for rocks and magic | Now Maud is healed and wants Starlight to help her with the mine | referred-to
+  - the canon show (Starlight and Maud's dynamic) | to be drawn on as the basis for how the two understand each other, feeding Starlight's decision | in the canon show, they "get" each other | referred-to
+- order:
+- about: The author offers a revised reason for Starlight to quit flying, tied to her canon habit of brute-forcing magic and to Maud's healing and mine, and asks how the canon Starlight–Maud dynamic could shape her decision not to fly back with Rainbow.

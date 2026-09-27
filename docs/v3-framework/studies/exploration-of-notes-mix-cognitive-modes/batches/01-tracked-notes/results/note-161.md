@@ -1,0 +1,5 @@
+- claims:
+  - ThematicEvidence | Star Spade fundamentally breaks the economic predation model, offered as evidence that distributed power is structurally superior | Star Spade fundamentally breaks the economic predation model | yes
+  - ThematicEvidence | The technology is used solely to improve human capital, and the note sets enhancement against automation as the reason it defeats predation | solely used as human capital improvement. It is not automation, it is enhancement | yes
+- goals:
+- whole: The note presents Star Spade's use as pure human enhancement rather than automation as evidence that it breaks economic predation, supporting the bottom-up-over-top-down proposition.

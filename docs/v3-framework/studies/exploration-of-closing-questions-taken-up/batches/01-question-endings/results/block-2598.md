@@ -1,0 +1,3 @@
+- questions:
+- shape: The user doesn't answer anything, because the model turn asked nothing. They push back on the model's claim that their method is absent from the discourse. They say they distrust any claim that their work is exceptional, ask how that could be true, and ask for other targeted web search approaches to test or verify it. This is a redirect toward checking the claim, and it puts new questions to the model.
+- settles:

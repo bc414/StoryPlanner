@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user endorses the model's account of Applejack's parents' canning business and adds their own story details (the preservers guild's dates, Chrysalis's Skyfall shell companies introducing better canning, and a tragic misunderstanding revealed in the present day) without pointing the model at any body of material.

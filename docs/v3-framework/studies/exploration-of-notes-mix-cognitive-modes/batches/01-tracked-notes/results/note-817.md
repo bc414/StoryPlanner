@@ -1,0 +1,6 @@
+- claims:
+  - History | Grover III's scientists discover and prove the Bessemer process for making commodity steel from iron and coal without griffon magic | Grover III's scientists discover and prove the bessemer process | yes
+  - History | Grover III bans the process as blasphemy against Boreas | bans it as "blasphemy against Boreas" | yes
+  - History | The educated Severyanan Boyars read the papers and industrialize steam engines and railroads | The Severyanan Boyars who are educated read the papers and industrialize steam engines and railroads | yes
+- goals:
+- whole: The note reports, as an in-universe historian, how Grover III's scientists proved the Bessemer process, how he banned it as blasphemy, and how educated Boyars industrialized anyway.

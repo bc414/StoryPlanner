@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the earlier assessment of the systematic approach was made without the user's note track definitions, which the user now says should be the basis of the analysis | Look into my note track definitions and give a reanalysis | flat imperative, implicit; the correction lies in asking for a redo and gives no reason or reproach
+- about: The user asks the model to redo its effectiveness-and-downsides assessment by reading their note track definitions, and adds a note that a previous tool call failed and should be retried.

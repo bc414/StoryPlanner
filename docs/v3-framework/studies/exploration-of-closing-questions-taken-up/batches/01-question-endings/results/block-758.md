@@ -1,0 +1,12 @@
+- questions:
+  - How does Applejack's Equestrian government legally and economically handle a domestic faction, such as the Gilded Trust's Ponies First supporters, that exploits the unconditional safety net to hoard wealth and refuse the war-bond system? | ignored | Nothing on this. The turn goes on to reworking the axes. | none
+  - How does Fleur Bloom reconcile Coltbert's Ego-Capitalism with the historical pattern of bourgeois revolutions alienating the rural peasantry and opening the way to communist or fascist reaction? | ignored | Nothing on Fleur Bloom, Coltbert or the peasantry. The turn stays on axis design. | none
+- shape: The user sets aside the model's two questions and its axis scheme, and redesigns the axes themselves. They give a new anti-pole for axis 1, offer a re-pairing of axes 3 and 4 with a "maybe", then drop the isolation-versus-intervention axis for in-group versus universalism, with examples from the factions. It is a structural correction of the model's framework, not an answer to it.
+- settles:
+  - The anti-pole of axis 1 (standardization) is the industrial revolution itself, not a reaction to ego. Standardization is the default foundation of society, as feudal and agrarian societies also rest on standard food and standard child-rearing practices. | better represented by the industrial revolution itself, default foundation of society
+  - Tentative: axis 3 becomes extraction versus conscience, and axis 4 becomes leverage versus conscience. | Maybe axis 3 should be extraction vs conscience? While axis 4 is leverage vs conscience?
+  - Isolation versus intervention is dropped as an axis. The replacement axis is in-group tribalism versus universalism, with the axis itself still tentative. | I don't think isolation vs intervention has to do with it. Actually maybe it has to do with in group versus universalism
+  - Chrysalis is the extreme of tribalism, changelings against everyone else. | Chrysalis is the ultimate tribalism, changelings against others
+  - Equestria shows universalism by integrating the buffalo and Tzinacatl. | Equestria integrates the buffalo and Tzinacatl
+  - The Griffonian Republic shows universalism through combined arms and universal translators. | represented by the combined arms and universal translators for GR
+  - Aquileia is universalist too, since both griffons and ponies are welcome. | Aquileia also has this because both griffons and ponies are welcome

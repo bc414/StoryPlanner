@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes a long run of their own story-theme notes and asks what ordering rules would suit that material, extending the earlier discussion of ordering instructions without saying anything in the model's reply was wrong.

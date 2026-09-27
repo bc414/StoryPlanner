@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | The army's members hold together because harmony means recognizing each other's special talents and working together, not merely being nice | Harmony isn't just being nice to each other, it's recognizing each others' special talents and working together | yes
+  - Canon | Recasts the source material's friendship-centered idea as combined arms, reframing canon's friendship theme in military terms | (Friendship is Combined Arms) | no
+- goals:
+- whole: The note asserts the army's binding logic as harmony understood as complementary talents working together, and tags it with a slogan that recasts the source's friendship idea as combined arms.

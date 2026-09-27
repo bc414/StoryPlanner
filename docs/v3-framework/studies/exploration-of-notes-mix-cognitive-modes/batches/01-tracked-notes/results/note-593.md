@@ -1,0 +1,8 @@
+- claims:
+  - outside all ten: world-rule ontology | Because the Crystal Ponies alone can operate the Heart, the Unicorns hold an absolute monopoly on survival | Because the Crystal Ponies could not operate the Heart without them, the Unicorns held an absolute monopoly on survival | outside
+  - outside all ten: world-rule ontology | The system's division of function: Crystal Ponies generate the charitostatic output while Unicorns take the political and social glory of 'protecting' the Empire | The Crystal Ponies generated the charitostatic output while the Unicorns claimed the political and social glory | outside
+  - Characterization | The Unicorns are poseurs, an assertion of what they truly are beneath their claimed role | They are poseurs | no
+  - outside all ten: world-rule ontology | The Unicorns refuse to let anyone study the Crystal Heart, a standing rule of how the system is kept | refused to let anyone study the Crystal Heart | outside
+  - Characterization | The Unicorns lack the emotion sense, so they cannot know or relate to what a common crystal pony's life is like, which is the psychological truth of why they are as they are | Also they don't have emotion sense so they really don't know what it's like to be a common crystal pony and can't relate | no
+- goals:
+- whole: The note sets out how the Crystal Empire's system works, with Unicorn monopoly over a Heart that Crystal Ponies power, and adds a psychological verdict on the Unicorns as poseurs who cannot relate to common ponies.

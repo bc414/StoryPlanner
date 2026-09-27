@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered about how Deep Think and Canvas interact and the quality risk of Canvas quick-action buttons, when the user's concern is whether the first Deep Think response gets cut off and whether Canvas lets it output more | My goal is for the first response of the deep think engine to not be truncated | restated goal followed by a direct question, with no explicit disagreement or complaint, so the correction is implied by the redirect
+- about: The user restates their actual aim, avoiding truncation of the first Deep Think response, and asks the question the previous answer did not address, whether Canvas raises the output token limit.

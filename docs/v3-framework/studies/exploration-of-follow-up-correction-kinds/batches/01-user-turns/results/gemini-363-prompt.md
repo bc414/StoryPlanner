@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model wrote a generic story/chapter/scene/character schema, as if the project were being described for the first time, instead of building on the Narrative Loom plan already worked out earlier in the conversation and its Equestria at War fanfiction setting | re-asking for the classes for the app "that I just planned with you in this conversation" for the "Equestria at War fanfiction" | implicit and unstated as a fault: restates the request with a pointer to the earlier planning, flat and without irritation or apology
+- about: The user repeats the request for the model classes, pointing back to the plan already made in the conversation and the specific fanfiction it is for, which implies the previous generic answer did not use them.

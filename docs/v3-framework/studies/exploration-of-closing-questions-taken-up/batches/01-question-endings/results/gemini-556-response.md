@@ -1,0 +1,5 @@
+- questions:
+  - Is the user ready to execute, i.e. move on to drafting? | answered | Says no: not planning to draft or write now, only building background knowledge | not planning on drafting or writing right now
+  - Which scene or chapter from the plan should be tackled first? | refused | Picks no scene or chapter; since no drafting is happening, the choice doesn't arise | working on expanding my knowledge base
+- shape: Turns down the offer to start writing and redirects to research. States that this is a knowledge-gathering session, then asks four real-world questions: oxytocin vs. serotonin, cocaine chemistry, betel nut and the Yemeni chewing drug (khat), and current treatment of meth addiction. It neither accepts nor challenges the model's story proposals.
+- settles:

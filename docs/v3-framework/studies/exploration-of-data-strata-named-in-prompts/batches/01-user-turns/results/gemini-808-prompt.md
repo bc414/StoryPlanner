@@ -1,0 +1,6 @@
+- sources:
+  - Trimmel's radio line in chapter 1 ("This is Hivemarshal Trimmel. Surrender and you will be spared...") | treat as the true record of what Trimmel said, and reuse it verbatim as the opening of Applejack's ultimatum | "Trimmel never used" and "His line through the radio in chapter 1 was" | referred-to
+  - the model's earlier claim that Trimmel threatened "the sky will fall" | treat as wrong, do not build on it | "A clarification: Trimmel never used "the sky will fall"" | referred-to
+- order:
+  - Trimmel's radio line in chapter 1 | over the model's earlier claim that Trimmel threatened "the sky will fall" | "Trimmel never used" the phrase, and the chapter 1 line is given as the actual wording
+- about: The user corrects the model's misattribution of a \"sky will fall\" line to Trimmel by quoting his actual chapter 1 radio line, then proposes that Applejack echo that line and add a \"night will fall\" ultimatum, and asks for analysis of it.

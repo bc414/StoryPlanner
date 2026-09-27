@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to fold the love harvester into the established Chrysalis-as-dark-mirror analysis, supplying their own account of its function and a reverse-irony idea that a tool of tyranny becomes the instrument of Twilight's liberating magical revolution.

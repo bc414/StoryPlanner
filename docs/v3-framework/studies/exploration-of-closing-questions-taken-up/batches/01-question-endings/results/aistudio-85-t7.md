@@ -1,0 +1,5 @@
+- questions:
+  - Does Fleur seeing Skyfall Griffon craftsmanship of Aquileian technique in a torture device change her view of her own culture, and make her realize Coltbert's Ego-Capitalism is amoral without Equestrian Solidarity? | ignored | The user turn says nothing about Fleur's reaction or her view of Coltbert's capitalism. | none
+  - If the public learns the Harvesters were made by Skyfall Griffon corporations, how does that affect Applejack's campaign, and does Gilded Trust use it for xenophobic Ponies First rhetoric against all Griffon alliances? | ignored | The user turn says nothing about the campaign, public reaction or Gilded Trust. | none
+- shape: Redirects to a new task: the user drops the model's two Socratic questions and asks for a component-by-component review of the Love Harvester and the donation device. The review should say which parts the Changelings copied and which Twilight and her friends must newly develop mid-war. It is an instruction for the model's next output.
+- settles:

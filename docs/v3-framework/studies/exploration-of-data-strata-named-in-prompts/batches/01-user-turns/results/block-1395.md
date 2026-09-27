@@ -1,0 +1,4 @@
+- sources:
+  - Descendents of the Sun (the published show) | the next work the model is asked to examine, in the same comparison the previous turn did for Boys Over Flowers; no trust or priority stated | What about Descendents of the Sun? | first-named
+- order:
+- about: The user asks the model to extend its comparison of TV dramas against their story to a further show, Descendents of the Sun, in a single short question.

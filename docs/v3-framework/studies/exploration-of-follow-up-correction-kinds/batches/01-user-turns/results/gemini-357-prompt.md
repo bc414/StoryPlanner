@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's explanation of a Codex and asks a follow-up design question about whether entries should hold multiple fact bullets that plot points can link to with a relationship payload, using a unified theory of magic as an example.

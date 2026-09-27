@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a worldbuilding what-if in which Gilded Trust minted his own "Gilded Bits" to pay workers and stay nationalist, and asks the model to consider it, without pointing at any body of material to draw on or avoid.

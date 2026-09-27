@@ -1,0 +1,10 @@
+- questions:
+  - Do the Equestrians prioritize sending Wonderbolt aces to strafe the Changeling forward dirt airstrips while the Stukas are being rearmed? | ignored | Says nothing about strafing airstrips. It only says the Wonderbolts' fighters exist to wipe out Stukas. | none
+  - Do the Changelings give Starlight's plane a nickname, and does Trimmel put a bounty on her? | partly answered | Does not name or bounty her. It does put a condition on her role: she is kept from the front until Twilight disobeys Celestia, so she is not a battlefield terror early on. | starlight isn't allowed to go to the front until Twilight disobeys Celestia
+- shape: Corrects the model's premise instead of answering its questions. The model had assumed the Wonderbolts field dive bombers and a loitering Starlight from the start. The user replaces this with a pre-war Equestrian force of fighters only, with almost no anti-tank capability, and uses that to explain why Vanhoover and the first army fall to blitzkrieg.
+- settles:
+  - The Wonderbolts do not use dive bombing at all, because they cannot mass-produce planes and pilots before the war. | they wouldn't use dive bombing at all
+  - Before the war the Wonderbolts build only Spitfire-style fighters, whose job is to wipe out Stukas. | They only make spitfire fighters to wipe out stukas
+  - Equestria has no anti-tank capability except the Aquileian volunteer aces paired with ace unicorns. | no anti tank capabilities outside the Aquileian ace volunteers who have ace unicorns
+  - Starlight Glimmer is not allowed at the front until Twilight disobeys Celestia. | starlight isn't allowed to go to the front until Twilight disobeys Celestia
+  - Vanhoover and the initial Equestrian army fall to a Changeling blitzkrieg even though the Equestrian fighters shred many Stukas. | Vanhoover and the initial equestrian army falls to a blitzkrieg despite all their fights and stukas getting shredded

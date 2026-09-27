@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates their understanding of how Claude is accessed, either through cloud platforms like Vertex AI or AWS directly or through Anthropic's own services, and asks the model to confirm it.

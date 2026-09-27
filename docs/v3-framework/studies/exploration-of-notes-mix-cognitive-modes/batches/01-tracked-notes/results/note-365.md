@@ -1,0 +1,6 @@
+- claims:
+  - Canon | The out-of-universe production reason for the cutie map in the source show was to let Hasbro produce formulaic episodes where the mane 6 teach friendship to one-off strangers | The doyalist reason for the cutie map was for Hasbro to make formulaic episodes | yes
+  - Canon | Within the story's world, the cutie map is recontextualized as a response to harmony stagnating under assault from the Comprador Economy | My watsonian reason is that the stagnation of harmony is under assault from The Comprador Economy | yes
+  - Canon | The canon map missions are reframed as the mane 6 going to remind ponies about harmony, an escalated form of friendship seminar for the most acute cases of disharmonic rot | The map missions are for the mane 6 to go and remind the ponies about harmony; escalated version of friendship seminars | yes
+- goals:
+- whole: The note gives the show's production reason for the cutie map and then recontextualizes the map and its missions in-universe as a response to harmony's decay under the Comprador Economy.

@@ -1,0 +1,8 @@
+- questions:
+  - Should Phase 2 output the verbatim original text (better for the coverage map) or de-aliased text with pronouns replaced by proper nouns (better for the C# planner nodes)? | answered | Chooses total verbatim with no pronoun replacement, and says they will review the buckets themselves anyway. | total verbatim without pronoun replacement is fine
+  - Should the AI output the ugly verbatim string, with tabs and bullets kept, to satisfy the diffing tool, or a cleaned string for the database? | answered | Chooses the ugly verbatim string, keeping the original formatting. | Ugly verbatim
+  - Would the user like the React logic for the Character Coverage Map generated now, using this JSON structure? | ignored | Does not respond to the offer. It asks instead for the Phase 2 system instruction to be updated. | Please update the phase 2 system instruction
+- shape: Settles the model's two open decision points in one short reply, then gives an instruction to rewrite the Phase 2 system prompt to match. It passes over the offer to build the React coverage tool and asks for the prompt update instead.
+- settles:
+  - Phase 2 output stays fully verbatim, with no pronoun-to-proper-noun replacement in the extracted text | total verbatim without pronoun replacement is fine
+  - Original formatting such as tabs and bullet markers is preserved in the output strings, not cleaned | Ugly verbatim

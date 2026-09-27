@@ -1,0 +1,7 @@
+- questions:
+  - How do the conscripts in the trenches think of their own country? Do they grasp "Hegemony", or do they call it something like "The Factory" or "The Queen's Will"? | ignored | none | none
+  - What term do Applejack and the Equestrian Republic use in the declaration of war, and how does she get past the trap between the Herzlander title and the Equestrian label? | partly answered | It rejects the Equestrian/English label as the outside frame of reference. It says the name needed is one that Applejack and Blueblood would use, and gives no term itself. | "not interested in the English/Equestrian label"; "what Applejack and Blueblood would use"
+- shape: Redirects and narrows. It turns down the Equestrian-label branch of the model's tiered naming scheme. It restates what is wanted: one name for internal reference, which Applejack and Blueblood would also use. It picks none of the five options and answers neither Socratic question directly.
+- settles:
+  - The Equestrian/English label ("The Changeling Lands") is not wanted as the name, because it is the outside frame of reference | "not interested in the English/Equestrian label since that's the frame of reference"
+  - The name to be chosen is one for the author's internal reference that Applejack and Blueblood would also use | "a name for my internal reference and what Applejack and Blueblood would use"

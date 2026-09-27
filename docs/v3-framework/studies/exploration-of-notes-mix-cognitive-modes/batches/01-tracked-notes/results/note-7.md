@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | Applejack's development at the town hall serves as evidence for the proposition: she comes to distinguish the accelerant as a tool from the tyrannical people who use it, so the tool is not itself the evil | Applejack learns to separate the accelerant from the tyranical users at the town hall | yes
+- goals:
+- whole: The note gives a single beat of character learning, Applejack separating the accelerant from its tyrannical users at the town hall, as evidence for the theme that accelerants amplify their users' morality and are not good or evil in themselves.

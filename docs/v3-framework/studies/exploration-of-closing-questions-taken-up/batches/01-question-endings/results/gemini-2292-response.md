@@ -1,0 +1,5 @@
+- questions:
+  - Does the materialist limit on tank-killing make the early-war losses feel more earned and tragic? | ignored | Says nothing about the tank-killing limit or the early-war losses; goes on to ask for a weight breakdown. | none
+  - Should the Wonderbolts have a dedicated tank-killer Spitfire variant, like the Hurricane Mk IID with 40mm cannons, before the Love Donators arrive? | ignored | Never mentions a tank-killer variant; asks instead for a Bf 109 weight breakdown and a Spitfire comparison. | none
+- shape: The user turn drops the model's tank-armor thread and gives a new instruction. It asks for a component-by-component weight calculation for the Bf 109 (fundamentals, armor, engine, ammo, fuel) and how that weight translates to the 15 seconds, then a matching breakdown proposed for the Wonderbolts Spitfire. It answers neither of the model's closing questions. It reads as a change of subject to aircraft weight and endurance.
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a brief follow-up question about how the real-world fact of Poland being an apple exporter could fit into the Applejack political commentary just laid out, without pointing to any body of material to use or avoid.

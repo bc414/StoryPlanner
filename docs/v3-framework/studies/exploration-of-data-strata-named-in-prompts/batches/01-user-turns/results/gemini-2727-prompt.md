@@ -1,0 +1,5 @@
+- sources:
+  - my story's framework and themes about honesty vs poseurs and other significant themes | the lens the model is told to use for the analysis; apply it to the religious history and draw on its themes | using the lens of my story's framework and themes | referred-to
+  - the user's own sketch of religious history (Protestant Reformation, Old Catholicism, Enlightenment and secularism, New Catholicism or grassroots spiritualism) | the material to be analyzed; the user's own tentative reading, partly posed as questions, offered as a proposal to be examined and not as settled fact | Give an analysis of this | first-named
+- order:
+- about: The user offers a personal reading of the arc from Catholicism through the Reformation and Enlightenment to a grassroots spiritual revival, and asks the model to analyze it through the honesty-versus-poseurs framework and other themes of their story.

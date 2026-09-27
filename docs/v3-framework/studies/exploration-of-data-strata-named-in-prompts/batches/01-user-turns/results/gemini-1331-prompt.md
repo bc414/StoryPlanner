@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's account of Fleur's backstory by stating that she was kept on the farm by her parents out of fear of supremacist griffons manipulated by Herzlander agents, and that her family was middle class and not rich.

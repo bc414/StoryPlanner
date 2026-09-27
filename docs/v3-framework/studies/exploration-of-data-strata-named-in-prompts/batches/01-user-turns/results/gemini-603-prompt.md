@@ -1,0 +1,8 @@
+- sources:
+  - EaW (its mention of changeling silk, Acornage, and the peaceful pre-1002 changeling presence) | treat as the established baseline for silk, which is thin: a luxury product from Acornage, so new details must build on it and not contradict it | EaW only mentions it as a luxury product found in Acornage | referred-to
+  - FiM episodes To Where and Back Again parts 1 and 2, To Change a Changeling, and the Pharynx episode | possible inspiration for silk's properties and how changelings make it, offered as places to look | Are there inspirations that can be drawn from the show | referred-to
+  - real world silk worms | possible inspiration for the chemistry, look and production of changeling silk | or from real word silk worms | referred-to
+  - world war 2 uniforms | the reference the author has in mind for the uniforms in the story, in place of the medieval armor framing | I'm imagining world war 2 uniforms | first-named
+  - the model's previous answer, with its armor framing | corrected and not to be followed on this point, since the uniforms are not medieval armor | not medieval armor | referred-to
+- order:
+- about: The user corrects the model's armor framing to World War 2 uniforms and asks what such uniforms were for, then asks what the chemical and visual properties and the making of changeling silk should be, given how little EaW says and what the show and real silkworms might offer.

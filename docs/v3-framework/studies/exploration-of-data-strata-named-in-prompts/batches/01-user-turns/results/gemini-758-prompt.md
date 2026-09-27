@@ -1,0 +1,4 @@
+- sources:
+  - the next chapter, Combined Arms (a reunion and planning chapter with the title drop "Friendship is Combined Arms") | treat as the settled plan for the following chapter; use it as the contrast when judging how abstract or quiet the Essence title can be | the next chapter is called Combined Arms | first-named
+- order:
+- about: The author answers the title analysis by asking about "Trust" as an option, accepting a quieter "Essence" because the next chapter's title contrasts with it, and saying Blitz-essenz will be mentioned in the chapter so the title has a place there.

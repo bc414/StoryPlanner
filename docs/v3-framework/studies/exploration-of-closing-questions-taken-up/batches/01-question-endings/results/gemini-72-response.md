@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to learn how to tell an abstract noun (idea) apart from an adjective? | answered | Accepts the offer with a one-word yes. | Sure
+- shape: A bare acceptance of the model's offer, which sends it on to the explanation it proposed. It adds no content of its own.
+- settles:

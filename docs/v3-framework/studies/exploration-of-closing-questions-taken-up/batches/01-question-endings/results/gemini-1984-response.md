@@ -1,0 +1,8 @@
+- questions:
+  - Does the user want the model to write the strict System Instruction that enforces the sorting behavior and JSON structure? | ignored | Doesn't say yes or no. It goes on to ask design questions about the system instruction (one or several, and how to pass ordering guidance) and does not ask for it to be written yet. | none
+- shape: Redirects to further design questions about the pipeline. These cover whether to pass a natural-language ordering description with the notes, whether to use separate prompts per note type, and whether to split concept discovery from sorting. It also restates the user's own plan for the workflow and confirms the human-controlled consolidation approach.
+- settles:
+  - Step 1 identifies the top-level major concepts. Step 2 chunks the verbatim notes into atomic thoughts or concepts and places them in those concept buckets. | need a top level "major concept" split, then chunk them into "atomic thoughts/concepts"
+  - Each major concept bucket gets a suggested consolidation. | each major concept bucket gets a suggested consolidation
+  - A miscellaneous bucket holds anything that doesn't fit the concepts found in step 1. | "miscellaneous" bucket for anything that doesn't fit
+  - The AI acts only as a sorter. The user does the consolidation and verbosity reduction. The output is accepted as larger than the input. | verbosity reduction will be entirely controlled by me, and the output will be larger than the input

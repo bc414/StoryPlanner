@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | MEFO Bills as a fantasy technology stands for the real-world condition of AI-driven productivity acceleration and the spiral in which that productivity creates new demand, pinned to 2026 | AI productivity acceleration and the demand-creation spiral (2026 specific) | yes
+- goals:
+- whole: The note names a single present-day real-world condition, AI productivity acceleration and its demand-creation spiral in 2026, as what the MEFO Bills technology allegorically represents.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks their understanding of the model's bootstrapping proposal by asking whether it implies each Griffon must rebuild their machine from scratch and so be asset specific, which is a clarifying inference question and not a challenge to anything stated.

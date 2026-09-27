@@ -1,0 +1,9 @@
+- sources:
+  - my story plan document | read it and review the Rainbow Dash arc against it as the reference for the analysis | Please review my story plan document | referred-to
+  - Rainbow Dash's arc as told in this turn (Battle of Mount Aris in 1006 ALB, Reni, burnout by Chapter 8 "Loyalty", two shoot-downs and Sonic Rainbooms) | treat as the author's fixed intent, what the framework must fit; Loyalty must be tied to it | Loyalty needs to be tied to Rainbow Dash's arc | first-named
+  - the new framework where each of the grown up elements are related to Conscience | the standard to test the Rainbow Dash arc and its lesson against for compatibility | compatible with the new framework | referred-to
+  - Fraternity as the mature version of Loyalty | provisional, not required; may be kept if it still proves most suitable, otherwise replaced | does not have to be the mature version of Loyalty (but if we still determine it is most suitable, that is fine too) | referred-to
+  - Rainbow Dash's canon character | the reference for how she would react to the onset of a war, which the arc is meant to portray | how her canon character would react to the onset of a war | referred-to
+- order:
+  - Rainbow Dash's arc | Fraternity as the mature version of Loyalty: Fraternity is optional, while Loyalty needs to be tied to Rainbow Dash's arc
+- about: The author loosens the Fraternity-as-mature-Loyalty mapping, describes Rainbow Dash's Loyalty arc from Mount Aris to burnout in Chapter 8, and asks the model to review the story plan and analyse whether that arc fits the framework that ties each grown-up element to Conscience.

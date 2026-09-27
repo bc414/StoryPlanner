@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Twilight/Applejack analysis and asks a fresh worldbuilding question about how the Storm King would source hydrogen or helium for his airship armada, without commenting on the previous answer.

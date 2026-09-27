@@ -1,0 +1,4 @@
+- questions:
+  - Does the idea of an Aquileian family looking like two entirely different species (tall post-reform son, stunted serf-born father) help you visualize the before and after of Coltbert's policies? | no user turn | none | none
+- shape: none
+- settles:

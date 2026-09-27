@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's idea by noting that other earth pony farms already donate phosphorus and potassium, asks what the orchard burning adds that is different, and asks a general question about whether forest fires help or harm an ecosystem.

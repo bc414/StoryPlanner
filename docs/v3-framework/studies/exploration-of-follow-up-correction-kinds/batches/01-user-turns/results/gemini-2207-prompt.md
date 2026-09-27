@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a factual question about the mountain where Yazidi refugees were stranded, which they link to the US intervention, and asks whether it is the real-world counterpart of Mount Aris, without saying the model's earlier mapping was wrong.

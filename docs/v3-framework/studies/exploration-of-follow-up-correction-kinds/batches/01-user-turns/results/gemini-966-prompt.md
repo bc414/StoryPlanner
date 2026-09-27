@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a world detail (Chrysalis's lands use the Skyfall currency and she exports red love as a vice drug) and asks whether red love works like oil against the dollar, with the Skyfall Mark priced against a vial of red love.

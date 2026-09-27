@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's open decision questions by choosing ugly, fully verbatim output with no pronoun replacement, gives a brief reason, and asks for the Phase 2 system instruction to be updated.

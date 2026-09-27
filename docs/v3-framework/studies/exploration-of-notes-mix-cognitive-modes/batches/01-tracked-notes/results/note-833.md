@@ -1,0 +1,5 @@
+- claims:
+  - History | The camp scales because the first rehabilitated changelings become the new harmonist teachers, a bootstrapping mechanism | The whole reason the camp works at scale is because the changelings first rehabbed become the new harmonist teachers, like bootstrapping | no
+  - History | Fluttershy and the tzinacatl medics are the ones who begin the bootstrapping process | Fluttershy and the tzinacatl medics start the bootstrapping process | no
+- goals:
+- whole: The note states as world fact how the camp scales, through rehabilitated changelings becoming teachers, and who starts that cycle, without planning how the reader experiences or dramatizes it.

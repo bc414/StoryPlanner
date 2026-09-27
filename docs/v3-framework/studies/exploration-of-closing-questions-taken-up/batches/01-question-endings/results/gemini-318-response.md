@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to detail the Pridea Landings, the arrival of the Equestrian Expeditionary Force in pony-heavy Pridea to stabilize the front after Skyfall collapses? | no user turn | none | none
+- shape: none
+- settles:

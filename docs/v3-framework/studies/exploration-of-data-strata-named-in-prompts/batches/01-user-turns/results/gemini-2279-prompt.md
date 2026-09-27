@@ -1,0 +1,6 @@
+- sources:
+  - earth pony magic is accelerated weathering of phosphorus and potassium for fertilizer | author's own setting fact, to be treated as settled lore explaining where the Wonderbolts get their phosphorus | The Wonderbolts get phosphorus from earth ponies since earth pony magic is accelerated weathering | first-named
+  - traditional fighters from WW2 which can only fire for 15 seconds | accept as the premise for the Changelings' technology level, carrying over the earlier 15-second ammunition limit | I imagine the changelings are stuck with traditional fighters from WW2 which can only fire for 15 seconds | referred-to
+  - post WW2 fighters (like a raptor?) | draw inspiration from them, as real-world aircraft that could make the Wonderbolts extreme aces against a swarm, with magic then closing the tech gap | What inspiration from post WW2 fighters (like a raptor?) | first-named
+- order:
+- about: The user gives a setting fact about earth pony magic supplying phosphorus, sets the Changelings as a WW2-tech swarm and the Wonderbolts as elite aces, and asks the model to draw on post-WW2 fighters for ideas, with magic bridging the tech gap.

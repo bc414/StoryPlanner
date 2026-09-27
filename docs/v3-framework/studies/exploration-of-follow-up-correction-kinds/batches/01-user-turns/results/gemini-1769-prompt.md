@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the previous structure and moves on to a new question, asking how Beijing and other horrific real-world examples could inspire the depiction of Skyfall's pollution and hyper-capitalism, and proposing a pollution-driven weather feature with class divides.

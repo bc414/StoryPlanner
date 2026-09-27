@@ -1,0 +1,4 @@
+- sources:
+  - this, the changeling addiction lore just discussed (the Rush, Chrysalis's industrialized supply, the Republic as Rehab) | treat as the existing story material to be tested for whether it can carry a real-world drug-crisis commentary and possible solution; asked about, not settled | Is it possible for me to make this a commentary | referred-to
+- order:
+- about: The user asks whether the changeling addiction lore just developed could be turned into a commentary, and possibly a solution, on the fentanyl and wider Western drug crisis.

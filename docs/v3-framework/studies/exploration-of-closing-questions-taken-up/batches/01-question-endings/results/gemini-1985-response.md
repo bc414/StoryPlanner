@@ -1,0 +1,4 @@
+- questions:
+  - Would you like the model to draft the two separate System Instructions for the chained workflow, showing how the JSON schemas hand off between steps? | answered | Yes, asks for the System Instructions and also the JSON schemas. | Yes, give the System Instructions, and also the json schemas
+- shape: Accepts the model's offer and widens the request: asks for the system instructions plus the JSON schemas, and adds a new conceptual question about how JSON schemas are created and used for structured output. It does not comment on the chaining recommendation.
+- settles:

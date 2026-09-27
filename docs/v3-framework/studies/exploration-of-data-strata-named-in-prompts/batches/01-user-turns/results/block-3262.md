@@ -1,0 +1,6 @@
+- sources:
+  - source materials for Kingdom of Zarhay (flavor text and focus tree) | go and read it, as it has real content to draw on for a state next to Mazwi | Look into the source materials for Kingdom of Zarhay | first-named
+  - Imperial Mazwi, the rump state (its source material) | treated as thin, with no flavor text or focus tree, which is why Zarhay is being looked at instead | unlike Imperial Mazwi, the rump state | referred-to
+  - the model's own general knowledge of real-world cultures | use it to say which real-life culture Mazwi and Zarhay are modeled on | what culture is "Mazwi" drawing from in real life | referred-to
+- order:
+- about: The user asks the model to research the Zarhay material, which is richer than the Mazwi rump state's, and to say which real-world cultures Mazwi and Zarhay are based on.

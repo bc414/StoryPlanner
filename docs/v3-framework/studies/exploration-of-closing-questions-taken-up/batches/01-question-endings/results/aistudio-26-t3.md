@@ -1,0 +1,4 @@
+- questions:
+  - Does the biological-to-industrial pipeline (resin burls in bogs, then the crystal-cored canister) fit how the user wants Twilight and Fleur to deconstruct the technology? | no user turn | none | none
+- shape: none
+- settles:

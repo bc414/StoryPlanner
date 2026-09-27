@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Readers who played the game EaW arrive with the prior belief that the Storm King ravaged Zebrica | Readers who played EaW have the mental model that the Storm King "ravaged Zebrica" | yes
+  - NarrativeArchitecture | Readers who only saw the movie arrive with the prior view of him as a cartoon villain | Readers who only saw the movie think he is a cartoon villain | yes
+- goals:
+- whole: The note sets out the two starting assumptions about the Storm King that different reader groups bring, as the baseline for later opinion updates, without yet stating any change or intended effect.

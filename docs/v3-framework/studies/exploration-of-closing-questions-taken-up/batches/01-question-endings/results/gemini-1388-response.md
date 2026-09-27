@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want more on the specific substances associated with oblivion? | answered | Takes up the offer by asking whether the term applies to opioids and to stimulants, and for more synonyms. It says yes to more information without stating it. | "Is this term for the opioids? What about for the stimulants?"
+  - Is the user looking for addiction-support resources? | ignored | Says nothing about seeking help or resources. It only asks for more vocabulary and substance links. | none
+- shape: A follow-up request for more information. It widens the topic to synonyms and to how the term maps onto opioids versus stimulants. It takes the model's first offer implicitly and passes over the second. It is a conversational information request, not a story decision.
+- settles:

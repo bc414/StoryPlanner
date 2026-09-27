@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user settles the open Grover V question by confirming he is Distributed and affirms that the Ancient Harmonic Changeling Lands matching the final answer is the intended thematic point.

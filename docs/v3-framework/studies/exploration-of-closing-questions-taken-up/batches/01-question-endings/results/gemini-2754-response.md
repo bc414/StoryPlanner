@@ -1,0 +1,4 @@
+- questions:
+  - What piece of lore, geopolitical development, or character arc should be analyzed today? | ignored | Says nothing about what to analyze. It stays on the sync setup and asks how the C# code can output to a Google Doc and how a Google Doc is stored on Windows. | none
+- shape: Redirects to a practical follow-up on the model's advice. The user asks how their C# program, which currently writes md files, could write straight to a Google Doc, and how Google Docs are stored on Windows. It does not move on to story work.
+- settles:

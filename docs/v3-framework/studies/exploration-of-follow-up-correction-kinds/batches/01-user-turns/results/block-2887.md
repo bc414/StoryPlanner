@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether autarky is a pole of the proposed Axis 5 or something derived from it, extending the model's discussion without challenging anything in it.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question, wanting the etymology of the English word "dollar" as a counterpart to the previous discussion of "franc", without pointing at any body of material to use or avoid.

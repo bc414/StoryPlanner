@@ -1,0 +1,7 @@
+- questions:
+- shape: The user turn does not answer anything, because the model turn put no real question to the user. It adds new worldbuilding: a Zonican diaspora in Aquileia, the reason for it, and a second group of Zonican citizens. It then instructs the model to check the story plan for these details and give an analysis.
+- settles:
+  - Aquileia has a sizeable Zonican population, comparable to Chinese Americans | a good amount of Zonicans in Aquileia, just like Chinese Americans
+  - Aquileia waged cultural warfare against Skyfall and tried to brain drain it | Aquileia washed cultural warfare against the Skyfall and tried to brain drain Skyfall
+  - Aquileia admitted Zonican professionals on results and asset specificity, not unconditional dignity, like the H1B program and unlike the UN program the user's parents came in on | accepting all with asset specificity but based on results not unconditional dignity
+  - Some Zonican former slaves from the Statthalter islands became Aquileian citizens | Zonican former slaves from Statthalter islands who become Aquileian citizens

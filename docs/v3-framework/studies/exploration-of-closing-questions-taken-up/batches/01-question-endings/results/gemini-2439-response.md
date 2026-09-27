@@ -1,0 +1,5 @@
+- questions:
+  - Do the Aunts know the real reason Scootaloo was dumped on them, and do they confront Snap and Mane about the developmental malnourishment? | no user turn | none | none
+  - Does Applejack step in to verbally eviscerate Snap and Mane when she sees them treating Scootaloo like a commodity? | no user turn | none | none
+- shape: none
+- settles:

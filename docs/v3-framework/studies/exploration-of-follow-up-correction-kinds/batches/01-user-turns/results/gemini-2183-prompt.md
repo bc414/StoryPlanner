@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the Earth Ponies as Equestrian and set them against the Aquileian elites (Aquileian elites respecting Equestrian Earth Ponies, Equestrian morality joined to Aquileian capitalism), when in the user's world the Earth Ponies are themselves Aquileians | "To clarify, the earth ponies are also Aquileians" | flat, one-line clarification with no reason or apology, given before moving on
+- about: The user briefly fixes the model's split between Aquileian elites and Equestrian Earth Ponies, then moves on to a new worldbuilding question about whether Equestria lacks formal science institutions and whether Celestia would suppress them as griffon-linked disharmony from Grover 3's enlightenment.

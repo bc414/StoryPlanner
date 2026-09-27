@@ -1,0 +1,4 @@
+- sources:
+  - the original plan for the IP enforcement | treated as superseded in part: the assault bounty is kept, but its purpose is revised from vengeance or extracting the machine to capture for ransom and looting easy lootables | This was the original plan for the IP enforcement. Actually I don't think | referred-to
+- order:
+- about: The user restates IP violation among tycoons as an opportunity-cost matter settled by hired thugs and bribes, then revises the earlier enforcement plan so assault bounties aim at ransom and looting rather than vengeance or seizing heavy machines.

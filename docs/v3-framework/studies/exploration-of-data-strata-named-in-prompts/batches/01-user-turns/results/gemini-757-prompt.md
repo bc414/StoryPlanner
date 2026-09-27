@@ -1,0 +1,4 @@
+- sources:
+  - HOI4 game terms | Search this published game's vocabulary for candidate chapter titles; treat as a pool to draw suggestions from | Look for HOI4 game terms as other potential chapter titles | first-named
+- order:
+- about: The user restates the chapter's key theme of endurance through trust versus drug-driven changeling endurance, asks the model to look to HOI4 game terms for alternative chapter titles, and offers to rename the drug so the "Essence" title reference lands.

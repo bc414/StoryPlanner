@@ -1,0 +1,4 @@
+- sources:
+  - v1 archive | also include it in the analysis; the model must analyze it in addition to what it is already searching | v1 archive must also be analyzed | first-named
+- order:
+- about: The user tells the model to extend its ongoing excavation to also cover the v1 archive.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's Repo-economy proposal by restating Krista Sterling's age and Chrysalis's limits, then offers their own version of Flowing Current's turbine sabotage and his change of heart in New Mareland, without pointing to any body of material.

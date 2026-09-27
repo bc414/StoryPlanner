@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of the Severyana revolution by stating what actually happens: Chrysalis never told Trimmel her plan, the jaegers only assist the communists, the Statthalters fail to steer the boyars, and Trimmel learns the other side only after the great war.

@@ -1,0 +1,6 @@
+- sources:
+  - the elastic defense and backhand blow plan for the 3rd battle of Tall Tale (the four listed steps: star-spade trenches, potassium soil for clouds, clouds held short of the river, tanks along the river) | review it and work out how weather fits into it, including whether mass rain after a deep spearhead helps or hinders the enemy's tanks | review the intel and plan | referred-to
+  - the intel | review it and take it into account when assessing the plan and the weather question | Please review the intel and plan | referred-to
+  - Synovial's psychological profile (old guard and arrogant) | review it and use it to judge how the enemy commander would act against the plan | Synovial (the enemy commander) psychological profile (old guard and arrogant) | referred-to
+- order:
+- about: The user asks how weather (potassium-seeded rapid clouds and possible mass rain) would fit into their elastic-defense and backhand-blow plan for the third battle of Tall Tale, and asks the model to review the intel, the plan and the enemy commander Synovial's psychological profile.

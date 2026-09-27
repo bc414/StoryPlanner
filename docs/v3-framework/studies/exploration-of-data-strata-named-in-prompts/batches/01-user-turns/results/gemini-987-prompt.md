@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's account of where pre-war Red Love comes from and lays out Chrysalis's regime, her aims toward Griffonia, Equestria, the Crystal Empire, Stalliongrad and Herzland, and the collaborators' bet on the Statthalters, without pointing at any body of material to draw on.

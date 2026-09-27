@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model framed its closing section as new open questions about what will happen next, as if the story continued past this chapter, when this is the final chapter and the user wants the threads left unresolved at the end | "This is the last chapter of the story. What is left unresolved?" | implicit and flat: states the chapter's status as a plain fact, then restates the ask as a new question, with no explicit disagreement, apology or irritation
+- about: The user tells the model this is the story's final chapter and redirects it to list what the ending leaves unresolved, in place of the forward-looking open questions it gave.

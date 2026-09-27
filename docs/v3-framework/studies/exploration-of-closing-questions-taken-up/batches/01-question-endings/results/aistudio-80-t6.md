@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack keep her new volunteer army (SECEF) from suffering the same ideological rot the Royal Guard did, e.g. by structuring the officer corps (Henri, Twilight, Mali) around Grace and Fraternity over Dominance and Glory? | ignored | Nothing said about SECEF, its officers or ideological rot; the turn moves to a new request. | none
+  - Does Gilded Trust at the Town Hall praise the rogue Royal Guards of 995 ALB as true patriots unfairly punished, using historical revisionism to appeal to radicalized workers? | ignored | Nothing said about Gilded Trust, the Town Hall or the Guards' revisionist framing. | none
+- shape: Redirects to a new task: drops both of the model's questions and asks the model to compare the refined Severyanan backstory with actual Russian history for further insights. It gives no feedback on the model's analysis.
+- settles:

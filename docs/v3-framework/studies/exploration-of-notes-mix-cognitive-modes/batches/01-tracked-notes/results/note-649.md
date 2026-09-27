@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Applejack and Equestrians generally start out predisposed to think the Griffonian Republic is evil, setting the initial assumption to be updated later | will be predisposed to think the GR is evil | yes
+  - History | The GR's language, Herzlander, is also the military language of the predatory changelings, which is the cause of the prejudice | their language, Herzlander, is also the military language of the predatory changelings | no
+- goals:
+- whole: The note sets the expected starting assumption of Applejack and Equestrians about the Griffonian Republic, a bias against it, and grounds that bias in Herzlander's shared use as the changelings' military language.

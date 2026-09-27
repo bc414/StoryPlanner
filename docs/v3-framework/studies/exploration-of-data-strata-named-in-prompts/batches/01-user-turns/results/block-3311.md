@@ -1,0 +1,5 @@
+- sources:
+  - Princess and the Kaiser's ASOIAF inspirations | use as the worked example when redoing the analysis of the directive approach | Reanalyze using Princess and the Kaiser's ASOIAF inspirations as an example | first-named
+  - Political axes of the fabula | treat as an atypical conversation, not a representative example; stop relying on it as the basis of the analysis | Political axes of the fabula is a bit abnormal of a conversation | referred-to
+- order:
+- about: The user asks the model to redo its analysis of the blank-directive annotation approach using a different, more typical conversation as the example, because the one it used is unusual.

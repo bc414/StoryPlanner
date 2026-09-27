@@ -1,0 +1,8 @@
+- questions:
+  - When Twilight learns Chrysalis's empire was seed-funded by assassinating independent scientists and engineers, how does it change her view of her own privilege, and does she realize Celestia's stagnation kept assassins out of Equestria? | ignored | Nothing on Twilight or privilege. The turn moves to Chrysalis's blueprint theft, persona naming and bounty practice. | none
+  - If Applejack finds out Gilded Trust hired 'Krista Sterling' to sabotage his early competitors, how does she use it against his self-made patriot persona in the Chapter 29 debates? | ignored | Nothing on Applejack, Gilded Trust or the debates. The turn does say Krista Sterling must not be the assassin, which removes the name the question relies on. | Krista Sterling has to stay strictly as the school griffoness
+- shape: The user accepts the startup-sabotage origin and builds on it with a long-game detail. They correct the model's conflation of the assassin with the school persona, and ask a new real-world research question about how hitmen claim and prove bounties. They pass over both Socratic questions.
+- settles:
+  - Chrysalis steals the startups' blueprints even though she can't yet read them, because she expects them to be valuable later, as a long game | steal the blueprints of the startups even though she can't read them yet
+  - Krista Sterling is only the school griffoness and is not the assassin persona | Krista Sterling has to stay strictly as the school griffoness
+  - Chrysalis needs a separate persona for her work as a flawless hitgriff, still unnamed | I need another persona for Chrysalis as the flawless hitgriff

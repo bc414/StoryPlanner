@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offer and asks it to elaborate on the hardware differences (TPUs versus Nvidia GPUs) and how they change things, without disputing anything in the previous answer.

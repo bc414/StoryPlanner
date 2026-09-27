@@ -1,0 +1,16 @@
+- sources:
+  - old notes the model was operating on | treated as outdated, not replaced; the mythical-alicorn premise in them is superseded by the author's spell-based ascension | Some notes you were operating on were old notes that haven't been replaced | referred-to
+  - codex entry section on alicorn magic | consult it as the current authority on how alicorns and ascension work | Refer to the codex entry section on alicorn magic | referred-to
+  - the author's decision about alicornization (spell-caused ascension, family-planning alicorns, Twilight as successor, crystals, Star Swirl's spell, Luna and Nightmare Moon backstory) | treat as the author's current settled backstory and materialist explanation, replacing the earlier version | I actually replaced this with ascension being caused by a spell | first-named
+  - the initial setup where Celestia mined the moon for a thousand years | treat as replaced and no longer in use, superseded by the Luna dream-spell version | I replaced this with Luna using up the remaining crystals | first-named
+  - canon episodes (Canterlot Wedding part 2, Friendship is Magic part 2, Magical Mystery Cure) | canon depictions the author's backstory is built to explain; Nightmare Moon's canon tricks and trials are kept as-is | depicted in Canterlot Wedding part 2 | first-named
+  - Cadance's children's book backstory | canon source used to ground Cadance's special talent of empathy and fixing relationships | based on her backstory from her children's book | first-named
+  - Fleur's comparative advantage theory (the earlier internal layer 1 truth) | the previous layer 1 truth, to be tested for whether it still works and can be adapted after being enhanced with Twilight's new theory | When Fleur's comparative advantage theory was my internal layer 1 truth | referred-to
+  - Twilight's new theory (the enhanced layer 1 truth, a better allegory for human capital in 2026) | the newer layer 1 addition against which the older theory is to be checked and adapted | after enhancing my layer 1 truth with Twilight's new theory | referred-to
+  - the story plan, relevant parts | to be reviewed by the model as the basis for the analysis | Please review the relevant parts of the story plan | referred-to
+  - the model's previous analysis | treated as built on outdated notes and wrong on alicorns being mythical, to be corrected | The above analysis assumes alicorns are mythical | referred-to
+- order:
+  - codex entry section on alicorn magic over old notes the model was operating on | old notes haven't been replaced, so refer to the codex entry instead
+  - the author's spell-based alicornization decision over the model's previous analysis | the analysis assumes alicorns are mythical, but I replaced this with ascension being caused by a spell
+  - Luna dream-spell backstory over the initial setup of Celestia mining the moon | I replaced this with Luna using up the remaining crystals
+- about: The user corrects the model's prior analysis by pointing out it relied on outdated notes, lays out their replacement spell-based alicorn and Nightmare Moon backstory from memory, and asks the model to review the codex and story plan and assess whether the comparative-advantage layer 1 truth still works when adapted with Twilight's new theory.

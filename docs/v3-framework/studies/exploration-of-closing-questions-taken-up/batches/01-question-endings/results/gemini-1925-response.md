@@ -1,0 +1,3 @@
+- questions:
+- shape: A new follow-up request that varies the previous search: it asks about flights to Daxing, the other Beijing airport. The model turn asked the user nothing, so the user turn answers nothing. It continues the flight lookup and has no visible link to any fiction project.
+- settles:

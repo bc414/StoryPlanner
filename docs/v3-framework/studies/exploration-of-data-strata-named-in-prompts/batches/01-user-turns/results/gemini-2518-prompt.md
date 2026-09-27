@@ -1,0 +1,7 @@
+- sources:
+  - the idea that stolen red love through torture is unstable while donated red love is stable | author's own recent new rule, offered as a candidate premise to test for whether it makes the Aquileians' earlier invention plausible, not yet settled | I just recently came up with the idea | referred-to
+  - my initial plan to have Twilight invent it all | earlier plan, now being reconsidered in light of the new rule; its stated reason is that Aquileian prior invention leaves no breakthrough needed | I think I initially planned to have Twilight invent it all | referred-to
+  - Chrysalis's red love with additives on the global markets as drugs since 986 | established existing lore, treated as true and checked against the new rule to see if it now explains why no one used it | has been on the global markets as drugs since 986 | referred-to
+  - the existing dynamic of earth pony magic being tied to pride/ownership/agency | established existing lore, treated as true and as the thing the donated vs extracted distinction mirrors | mirrors the existing dynamic of earth pony magic | referred-to
+- order:
+- about: The user tests whether their newly conceived rule that stolen red love is unstable and donated red love is stable makes it plausible for the Aquileians to have already invented the matrices, reconciling it with their original plan and existing lore, and asks for an analysis.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new analogy question, whether the Pillars resemble Grover III and the archons who invented a sanitized founding myth, with the Hearth's Warming Eve story covering over labor strikes, and this extends the lore without disputing anything the model said.

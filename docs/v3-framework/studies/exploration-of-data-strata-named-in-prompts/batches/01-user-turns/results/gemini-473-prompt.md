@@ -1,0 +1,4 @@
+- sources:
+  - my plot point model | treat as the authoritative reference for which fields a plot point has; look at it and bring the JSON export in line with it by adding the Stakes and Outcome text fields | If you look at my plot point model, I also have Stakes | referred-to
+- order:
+- about: The user points the model to their plot point model to note that Stakes and Outcome fields exist alongside Synopsis, and asks for them to be added to the JSON export.

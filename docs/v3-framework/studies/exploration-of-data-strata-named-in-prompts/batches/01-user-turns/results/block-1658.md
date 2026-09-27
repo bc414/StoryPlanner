@@ -1,0 +1,5 @@
+- sources:
+  - P+La note | treat as the place that already holds the clashing fact, so the WI+La note need not restate it and can just give the prior belief and the reader's updated understanding in response to it | when the P+La note has that fact already | referred-to
+  - Granny Smith's founding of Ponyville story in Family Appreciation Day | treat as source-material canon that the author reads as Lauren Faust reaching for something, which TLTT recontextualizes as the pre-stagnation era; whether it counts as source reference, reader prior gap, or both is left open as a question | Lauren Faust reaching for something. TLTT expands on it | referred-to
+- order:
+- about: The user proposes showing the narrator-gap WI track only when a link's subject is the plot point's POV character, asks what is special about the POV character and whether the conditional is worth it, asks whether the WI+La note can lean on the P+La note instead of restating the clash, and asks whether the Granny Smith founding story is source-material recontextualization, a reader prior-belief gap, or both.

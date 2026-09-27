@@ -1,0 +1,4 @@
+- questions:
+- shape: The user turn ignores the model's finished sorted output and starts a new sorting task. It attaches two documents that were never captured. It requires at least 95% of the notes to land in a bucket or in garbage. It then gives a new list of target paradigms and buckets: Chronology, Demographics, System Mechanics, Dialectics and Orphan Concepts. This is an instruction to redo the sort under a different scheme.
+- settles:
+  - The organizing scheme for the notes is fixed: five paradigms (Chronology, Demographics, System Mechanics, Dialectics, Orphan Concepts), each with named buckets. These cover eras from Gerad's reign to the 1007 Harmonic Revolution, factions, economic mechanisms, ideological oppositions and orphan concepts. | TARGET PARADIGMS & BUCKETS list

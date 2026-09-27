@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up science question about other mechanisms of light emission besides electron-drop luminescence, extending the model's physics discussion without disputing anything in it.

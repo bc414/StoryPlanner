@@ -1,0 +1,9 @@
+- claims:
+  - History | The Equestrian Army began on survival harmony and friendship shields and was defeated by brutal industrial force | ran on just survival harmony and friendship shields at the start and were defeated by brutal industrial force | yes
+  - Characterization | The army lost because it was psychologically unprepared for industrial total war | simply were not psychologically prepared for industrial total war | no
+  - History | Enemy tanks were unaffected by machine guns and Stuka dive bombers with Jericho trumpets were too terrifying for the army | The tanks shrug off machine guns, and the Stuka dive bombers with jericho trumpets | yes
+  - History | When Ju 87 Stukas sounded their Jericho Trumpets, the acoustic terror broke the army's illusion | When the Ju 87 Stukas activate their Jericho Trumpets, the acoustic terror shatters this illusion | yes
+  - Characterization | Their friendship had never met material friction, so their Pink Love turned instantly into panic | Because their "Friendship" was untested by material friction, their Pink Love instantly converts to panic | no
+  - History | The shield destabilized and left the army exposed to artillery | The shield destabilizes, exposing them to the artillery | yes
+- goals:
+- whole: The note reports, as an in-universe account, how the Equestrian Army's friendship-based defence collapsed under tanks, Stuka Jericho Trumpets and artillery, with an explanation of the psychological cause woven in.

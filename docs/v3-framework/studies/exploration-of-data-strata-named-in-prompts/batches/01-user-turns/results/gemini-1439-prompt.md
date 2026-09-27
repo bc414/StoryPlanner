@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh, as open worldbuilding questions, whether solidarity rather than conscription would let changelings override emotion-sense in combat, whether changeling and crystal pony biology should differ, and whether harmonic hives could have survived predators without jaegers.

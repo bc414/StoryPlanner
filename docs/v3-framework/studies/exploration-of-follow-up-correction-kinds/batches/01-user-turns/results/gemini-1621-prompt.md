@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, requesting a comparison between the elastic defense just described and the historical Battle of Verdun, without challenging anything in the model's turn.

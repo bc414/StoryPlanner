@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain WPF thumbs and templates from first principles, without pointing at any body of material to draw on or avoid.

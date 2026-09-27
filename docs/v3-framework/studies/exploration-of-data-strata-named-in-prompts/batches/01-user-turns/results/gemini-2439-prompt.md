@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's sympathetic reading of Scootaloo's parents and states their own intended version, in which the parents are antagonists who sent her to her aunts and carried on with their ambitions without caring for her, without pointing to any body of material for the model to draw on.

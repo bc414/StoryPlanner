@@ -1,0 +1,5 @@
+- sources:
+  - the high pass filter (its vector space) | treat as an established constraint of the magic system; the owner's-seal intent vector must fall inside it | It should lie within the vector space of the high pass filter | referred-to
+  - the dramatic flaking or turning ashen (the model's previous proposal for a stolen Tableau) | drop it, do not use it, since it would ruin the Tableau for its owner | We don't need the dramatic flaking or turning ashen | referred-to
+- order:
+- about: The user rejects the previous turn's flaking and ashen-ink theft defense as over-engineered, and proposes an owner's seal at the top of each page that must resonate, asking whether its intent vector should be sovereignty or something else within the high pass filter's vector space.

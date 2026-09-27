@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turns away from the timeline analysis to a new question about whether young people today exaggerate or fetishize disability and mental illness, and asks how the story could treat this respectfully, with a request to review the plans, the conversation and outside research.

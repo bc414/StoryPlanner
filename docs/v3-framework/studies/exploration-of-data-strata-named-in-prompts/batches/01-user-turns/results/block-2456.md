@@ -1,0 +1,5 @@
+- sources:
+  - the existing story plan details about these topics | read and review it, then analyze how the proposed windigo-framing realization, Mali's anxiety and the chapter 13 Mali/Fleur scene fit with it | Review the existing story plan details about these topics | referred-to
+  - the model's prior account of the 1002-1008 raiding as progressive marginal theft driving Confederation resentment | keep as a partial cause but treat as secondary; the author's own view is that resentment from clashing attitudes (autarky versus global trade) is stronger | I think the progressive nature is a source of resentment but the stronger resentment comes from | referred-to
+- order:
+- about: The user proposes a plot beat in which the Moonspeakers' hunt-share framing of the war bonds makes Rarity and Applejack realize that Equestria's Hearth's Warming story casts the changelings as windigos, seen from Mali's view and feeding the chapter 13 Mali/Fleur scene, asks for the existing story plan to be reviewed and analyzed on this, and corrects the model's account of the source of Confederation resentment.

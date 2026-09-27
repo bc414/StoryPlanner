@@ -1,0 +1,4 @@
+- questions:
+  - Does this dynamic fit how the user envisions Trimmel executing the Olenian blitzkrieg while Aquileia watches helplessly? | no user turn | none | none
+- shape: none
+- settles:

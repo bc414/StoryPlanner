@@ -1,0 +1,5 @@
+- sources:
+  - Option 1 (the Meat Shield framing from the model's three options) | adopt as the basis for Trimmel's warning, with Trimmel explicitly saying Chrysalis used him; the user then adjusts its message | Option 1 seems great with Trimmel explicitly saying Chrysalis used him | referred-to
+  - Twilight's earlier voiced notion that Celestia conditioned her to perpetuate the stagnation of harmony | treat as already established in the story and as parallel to what Option 1 says about Celestia using Applejack | Twilight at this point already has voiced a notion that Celestia has conditioned her | referred-to
+- order:
+- about: The user picks the model's Option 1 for Trimmel's parting warning, justifies it with story material already established, redirects the warning's message toward being someone ponies look up to, and restructures when Applejack's nightmare occurs and what fear drives it.

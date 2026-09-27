@@ -1,0 +1,4 @@
+- sources:
+  - my own familiarity with Gemini and Claude as a user, not ChatGPT | treat as the author's stated first-hand experience and baseline; explain ChatGPT and the divergences relative to it, since the author lacks first-hand knowledge of ChatGPT | I am familiar with Gemini and Claude as a user but not ChatGPT | first-named
+- order:
+- about: The user, following a discussion of Claude's effort settings and transparency, asks the model to explain ChatGPT's usage limits and business strategy compared with Claude and Gemini, and to give OpenAI's losses in relatable comparisons and the meaning of an IPO.

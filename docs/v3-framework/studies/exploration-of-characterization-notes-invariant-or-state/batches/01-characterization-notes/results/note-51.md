@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | she is a logistical savant, exceptionally gifted at logistics and organizing | She is a logistical savant | none in the note's own words; only the track question frames it as who she is at the start of TLTT
+  - unfixed | she handles her anxiety by making hyper-detailed checklists and delegating tasks | processes anxiety by creating hyper-detailed checklists and delegating tasks | none in the note's own words; present tense, with the track question's start of TLTT as the only frame
+- beside: none; the nearest is the Backstory note dated 1007 about her Magical Supply Organization plan and automated purification systems, but it does not speak of checklists, delegating or anxiety

@@ -1,0 +1,5 @@
+- questions:
+  - When Applejack hears Henri dismiss the Changelings as a mere Cartel or Syndicate, does it comfort her by demystifying the enemy, or alienate her by minimizing the trauma of the slaughtered Equestrian soldiers? | ignored | Says nothing about Applejack's reaction to Henri's terminology; moves to a new topic about Vaspier's birth timing. | none
+  - If Blueblood insists on calling it the Changeling Empire in official dispatches, how does he react when the Aquileian volunteers mock his term and refuse to treat Chrysalis as a legitimate head of state? | ignored | Does not address Blueblood's reaction or the terminology dispute; asks about Vaspier's birth options instead. | none
+- shape: Drops the Aquileian-vocabulary thread without engaging it and redirects to a new worldbuilding request: asks the model to lay out options for when Vaspier is born, given his intended origin story, compared against Chrysalis, Trimmel and Thorax. It is a fresh request for analysis, not an answer, correction or instruction on the prior material.
+- settles:

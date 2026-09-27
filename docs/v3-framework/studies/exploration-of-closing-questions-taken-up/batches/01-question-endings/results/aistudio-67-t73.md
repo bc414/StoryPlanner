@@ -1,0 +1,5 @@
+- questions:
+  - When Twilight learns the Dragon Egg was a rigged test, does she feel betrayed that her life rested on failing a moral test, or validated that her Ambition broke Celestia's rules? | ignored | Says nothing about Twilight's reaction to the rigged egg; moves to a separate question about dragon lifespans in fandom | none
+  - How does Spike react when Applejack and Twilight return from Griffonia to dismantle Celestia's authority: does he back the Republic because he knows Celestia wants to retire, or warn that removing the Mother Figure will panic the 85% majority? | ignored | Does not address Spike's stance on the Republic or Celestia's authority; asks where the fandom idea of long-lived dragons comes from | none
+- shape: Sidesteps both Socratic questions and turns to an outside research question: where the fandom idea of centuries-long dragon lifespans comes from. It notes the grimdark habit of having Spike live long with an immortal alicorn Twilight and then putting him in hibernation. It gives no reaction to the model's analysis and leaves the discussion of Spike and Celestia unresolved.
+- settles:

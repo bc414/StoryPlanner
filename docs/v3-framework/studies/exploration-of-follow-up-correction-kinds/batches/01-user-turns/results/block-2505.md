@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks Agency from the model's options over its recommended Exchange, justifying it with Hans Kessel's and the medicinal tribes' choices, the chapter's all-goes-right position and a pun on the Cute Intelligence Agency, and raises Cooperation as one more candidate.

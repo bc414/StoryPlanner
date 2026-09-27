@@ -1,0 +1,5 @@
+- claims:
+  - History | Equestrian customs officials habitually see crystals only as decorative jewelry or palace building material, so they do not grasp crystals' industrial and military value | so used to viewing crystals as mere "decorative jewelry" or "palace building materials" that they literally do not comprehend | no
+  - History | Cadance and Shining Armor are quietly arming another nation's magical industry, and the customs officials fail to see it | completely blind to Cadance and Shining Armor quietly arming another nation's magical industry | no
+- goals:
+- whole: The note states as in-world fact that Equestrian customs officials misread crystals as decorations and so fail to notice Cadance and Shining Armor arming a foreign magical industry, and it says nothing of what the reader is to take from this.

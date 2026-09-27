@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's analysis by proposing a brief, comic drug-dealer encounter outside the parloir that seeds the Chapter 12 reveal, and asks for a name for the drug and advice on tone.

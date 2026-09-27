@@ -1,0 +1,7 @@
+- questions:
+  - How do the Aquileian aces culturally clash with the Wonderbolts in the mess hall (disciplined unit versus prideful, individualistic glory-hounds)? | ignored | Nothing about the mess hall or any Aquileian–Wonderbolt friction; the turn goes to engine, crystal and ammunition questions. | none
+  - Does Rainbow Dash butt heads with the Aquileians over their refusal to fly in formation? | ignored | Rainbow Dash, formation flying and the Aquileians are not mentioned. | none
+- shape: Skips the model's closing story question and goes back to the physics. It asks two factual questions, on whether engine weight or fuel weight affects thrust-to-weight, and on whether caseless ammo exists today and why brass matters. It also adds a short note on how the user pictures the crystals: as light stores of magic, with inert diamond crystals kept for armor-piercing rounds.
+- settles:
+  - Crystals in the world are conceived mainly as a lighter-weight way to store magic (potential energy). | I was thinking of the crystals in terms of their ability to hold magic (potential energy) with less weight
+  - Inert or diamond-type crystals are accepted as a lighter armor-piercing munition material than tungsten and lead. | the diamonds/inert crystals is a great angle for armor munitions that are lighter than tungsten and lead

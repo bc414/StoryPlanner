@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Stuka payload figures as new information that changes their view, builds on it with a unicorn-ace idea for the story's aircraft, and asks a follow-up question about whether the Germans used large swarms rotating back to base.

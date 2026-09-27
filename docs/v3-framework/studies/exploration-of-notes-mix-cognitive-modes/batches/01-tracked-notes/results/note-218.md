@@ -1,0 +1,4 @@
+- claims:
+  - History | names an event in the character's pre-story past, the Last Crusade, dated to the track's world year 1006 | The Last Crusade | yes
+- goals:
+- whole: The note is a bare title-style entry that records a past event in the character's backstory, the Last Crusade, without giving detail or any reader goal.

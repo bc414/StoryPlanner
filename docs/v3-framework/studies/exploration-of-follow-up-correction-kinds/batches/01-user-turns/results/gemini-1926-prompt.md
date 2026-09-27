@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about whether there are flights from Beijing's other airport, Daxing, to New York, extending the search without saying the earlier answer was wrong.

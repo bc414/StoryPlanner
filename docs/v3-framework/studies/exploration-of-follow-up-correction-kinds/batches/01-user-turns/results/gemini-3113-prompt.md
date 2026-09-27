@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's point by reflecting on how their Rarity and Fluttershy romance ended up carried by a main plot, asks whether the same holds for Twilight and Applejack in TLTT, and mentions their reading and writing preferences, without disputing anything the model said.

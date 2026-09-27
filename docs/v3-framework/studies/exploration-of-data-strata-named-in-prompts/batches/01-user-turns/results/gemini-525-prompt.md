@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to analyze whether Fluttershy's Stare scene against Celestia undermines Applejack's standing as the story's main character, without pointing to any body of material to draw on.

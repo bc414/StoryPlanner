@@ -1,0 +1,6 @@
+- claims:
+  - PageDesign | Apple Bloom and the CMCs finish the campaigning day at her parents' mansion, shown as the scene's ending location | end the day of campaigning at her parents' mansion | yes
+  - PageDesign | The mansion is visibly also the family company's headquarters, a setting detail for the page | which is also their company headquarters | yes
+  - PageDesign | Apple Bloom and the CMCs host both Apples and Pears, who are refugees and are shown getting along with each other | They host both the Apples and the Pears who are refugees and getting along | yes
+- goals:
+- whole: The note stages the closing setting of the campaign day, with the CMCs hosting Apple and Pear refugees who get along at the parents' mansion-headquarters, entirely as observable page behavior.

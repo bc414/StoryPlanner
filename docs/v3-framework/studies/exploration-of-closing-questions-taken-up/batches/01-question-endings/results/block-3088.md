@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn gives a new instruction and doesn't respond to anything in the model turn. It asks the model to widen the audit: look at other distinct words, especially nouns, and sample more of the v1 archive for Gemini-voice passages that should be scrutinized before they enter v2. It takes the model's sweep as the method and asks for another pass. It neither agrees with nor disputes the model's specific verdicts.
+- settles:

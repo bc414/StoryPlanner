@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The Crystal Enhancer was shown as a headset; in the world it is a ring worn around a unicorn's horn | The crystal enhancer should be a ring the unicorn wears around their horn | flat statement of the right design, given as a direct instruction with no reason
+  - reading of the request | Tally Stock was drawn in a grim trench-post mood, and the user wanted her energetic and morale-raising; the model's top pick and options 1 and 3 are also rejected as not fitting her southern roots | She should be energetic, raising morale. Options 1 and 3 I can't imagine lining up with her southern roots. | stated as a preference with a brief reason, plain and unapologetic; the rejection of the earlier recommendation is put in a first-person 'I can't imagine' form
+  - register or format | The model's tone and mood for the depiction (grim, at her post) is redirected to a morale-raising mood, grounded in truth and numbers | show her in a morale raising mood (grounded in truth and numbers) rather than grim | flat instruction with a contrast ('rather than grim'), given as part of the next request
+- about: The user corrects the enhancer design, rejects the model's recommended option and the grim mood in favour of an energetic, southern-rooted Tally Stock like option 2, and asks for more variations of it.

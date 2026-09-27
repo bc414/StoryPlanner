@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the origin-tracing and asks for a new report comparing P&K's ontology and storytelling framework with their planned one, meant as input for a later session that will analyze audience resonance from P&K comments.

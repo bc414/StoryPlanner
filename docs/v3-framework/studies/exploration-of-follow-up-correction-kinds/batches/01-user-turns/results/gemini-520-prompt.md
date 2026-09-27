@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented Fleur's arc as her development in the story, but the material it drew on describes changes that occur before the story begins (her backstory), not during it | But that character development happens before the story (it's her backstory) | Stated flatly as a factual observation about timing, then followed by a question asking what the model left out
+  - reading of the request | The model answered with her overall or backstory arc when the user wanted her change during the story's events, so it missed the intended scope of the question | What about during the story? | Put as a redirecting question, with a hedge that there may simply be little change
+- about: The user points out that the arc the model described is Fleur's backstory rather than change within the story, and asks what happens to her during the story or whether she changes little.

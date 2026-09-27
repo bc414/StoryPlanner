@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want an analysis of how the line 'The Night falls when I say it falls' affects Celestia's decision to call for the White Peace, including her fear that Applejack has usurped the natural order? | refused | The user does not take up the offer. They reject the premise behind it: Applejack should not invoke Luna or Nightmare Moon at all, so a line built on Luna's motto is ruled out. | I don't think Applejack should mention Luna or Nightmare Moon
+- shape: Corrects the model's direction. It vetoes the whole Luna/Nightmare Moon framing of the ultimatum and gives the reasons: the reveal was private and tragic, and Luna and Celestia are not the enemy. It offers no replacement phrasing and does not respond to the dawn-timing recommendation.
+- settles:
+  - Applejack's ultimatum will not mention Luna or Nightmare Moon, so Luna's motto is not adapted for it | I don't think Applejack should mention Luna or Nightmare Moon
+  - Luna's reveal is treated as a tragic, private discussion that Applejack should not use publicly | Luna's reveal was a tragic and private discussion
+  - Celestia and Luna are not the enemy. They are overprotective mother figures, and Applejack does not want to offend them | they are overprotective mother figures

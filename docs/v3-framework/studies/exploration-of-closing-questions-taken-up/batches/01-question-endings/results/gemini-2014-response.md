@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to now generate the master System Instruction and JSON Schema for Phase 2, the Sorter, which routes each atomic sentence of the notes into the buckets? | no user turn | none | none
+- shape: none
+- settles:

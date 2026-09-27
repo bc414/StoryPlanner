@@ -1,0 +1,7 @@
+- sources:
+  - the chasseur protocol | apply as the standing rule for judging redeemability: warlords and grifters who choose to be mean are irredeemable, while Starlight, who sincerely believes in equality, is not | Going by the chasseur protocol, warlords/grifters who choose to be mean are irredeemable | referred-to
+  - post-redemption Starlight Glimmer episodes of the show, including No Second Prances | treat as evidence for the author's reading that Starlight became good and brought adult lessons, and that No Second Prances criticises Twilight's stagnation of harmony | post Starlight redemption, she actually brought a lot of genuine adult lessons | referred-to
+  - My story | treat as settled author canon: its answer to Starlight's cult is that the ponies should join EEEE!, a solidarity union, and Starlight is violent, self-aware and nation-building during the war | My story says their actual solution is to join EEEE! | referred-to
+  - P&K, the grimdark fanfiction where Chrysalis takes over Equestria | treat as an existing work whose claim, that Starlight's harmonic conditioning kept her from fighting and caused mass suffering, is to be subverted rather than followed | P&K suggests that Starlight didn't give her all in violence | first-named
+- order:
+- about: The author defends Starlight Glimmer as a character and explains how their story treats her, as a redeemable, violent, nation-building figure who subverts the fanfiction P&K's portrayal of her.

@@ -1,0 +1,4 @@
+- questions:
+  - Whether the model should adjust the JSON schema to add a CharacterCount property to each VerbatimNote, to speed up the React diffing tool | ignored | says nothing about the schema change or CharacterCount and moves to asking whether earlier requirements were missed | none
+- shape: Redirects. It leaves the offered schema tweak alone and asks the model to audit the revised prompt against the requirements from earlier in the conversation and report any it missed. This is a request for a check, not a reply to the offer.
+- settles:

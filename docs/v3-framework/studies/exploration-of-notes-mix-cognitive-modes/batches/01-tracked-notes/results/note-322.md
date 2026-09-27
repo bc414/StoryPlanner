@@ -1,0 +1,7 @@
+- claims:
+  - History | Celestia historically made ponies whose special talent is love-related into alicorns, to help two-mare couples with chaste family planning | Celestia historically always made ponies whose special talent is love-related into alicorns | no
+  - Canon | Within the backing lore, the established alicorn status is recontextualized so it is not implied to bring immortality | Being an alicorn in my backing lore is fanonically not implied to bring immortality | no
+  - NotesToSelf | The author judges that this backing lore resolves the alicorn-gate and the cynical 'Twilight will outlive her friends' reading in an idealistic, self-consistent way rather than criticizing Hasbro's marketing requirements | This solves the 'alicorn-gate' and the 'Twilight will outlive her friends' cynical interpretation | yes
+  - NotesToSelf | The author remarks with approval that the choice subverts chastity norms and clopfics | And subverts chastity and clopfics so well | yes
+- goals:
+- whole: The author records and praises a backing-lore decision that decouples alicorn status from immortality by giving it a love-related, family-planning history, presenting it as a neat fix for fan controversies.

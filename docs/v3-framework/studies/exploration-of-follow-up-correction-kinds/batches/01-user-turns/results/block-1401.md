@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - method or direction of the task | the model's approach of dissecting the note sentence by sentence into claim types to sort into tracks is set aside as the wrong way to proceed, in favour of reading the notes and building each track fresh | Maybe the task forward should not be trying to break up notes into sentences that go here or there, but rather to read my notes and build each track cleanly from scratch | tentative, hedged suggestion framed with 'maybe', no reason given and no blame placed, redirecting rather than objecting
+- about: The user, after seeing the sentence-level claim-type breakdown, proposes dropping the split-and-sort approach and instead having each track built cleanly from their notes.

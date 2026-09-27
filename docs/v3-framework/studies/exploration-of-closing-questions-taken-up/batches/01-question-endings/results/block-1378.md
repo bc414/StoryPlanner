@@ -1,0 +1,5 @@
+- questions:
+  - How does Chrysalis's Visionary Tyrant psychology handle the macroeconomic checkmate: a kinetic, irrational strike to save her ego, or a retreat to Skyfall to reinvent herself as a grifter? | ignored | none; the user turn only asks about the show's ending | none
+  - How does Applejack structurally stop Star Energy Corporation from becoming a chaebol, so that Harmonic Capitalism doesn't rot into the system it defeated? | ignored | none; the user turn stays on the Itaewon Class ending | none
+- shape: Sets aside both of the model's questions and asks a factual check on the model's account of the comparison show. The user doubts the claim that Saeroyi kneels to Jang and recalls it the other way round. It works as a mild challenge to the model's claim and moves the conversation to a side point about the source material.
+- settles:

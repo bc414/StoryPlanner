@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user brainstorms two alternative story scenarios for how Pinkie's trauma with a changeling infiltrator in her regiment arises, questions whether detection spells would plausibly go unused, and asks whether the impersonated pony should be dead or alive in a field hospital.

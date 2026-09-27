@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Asserts as truth who makes up the organization: Chrysalis's scientists are drones, singled out by the trait of scientific curiosity | Chrysalis's scientists are drones who showed scientific curiosity | yes
+- goals:
+- whole: The note states flatly who the organization's members are, drones picked out by their scientific curiosity, and it asks nothing of the reader.

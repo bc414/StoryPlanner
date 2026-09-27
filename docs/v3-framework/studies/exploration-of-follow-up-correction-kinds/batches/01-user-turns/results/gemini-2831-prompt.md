@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's allegorical analysis by adding the story's intended reveal structure (assumed occupation, then collaborator complicity, then the Pink Love subversion) and asks for a fresh analysis of it, without disputing anything the model said.

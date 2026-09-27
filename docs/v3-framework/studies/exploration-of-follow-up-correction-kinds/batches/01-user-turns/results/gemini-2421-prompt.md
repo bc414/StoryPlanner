@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Applejack as President of an existing Equestrian Republic with a Harmonic Republicanism and a passed volunteer-age law, but in chapter 17 (Breakthrough) no Republic exists yet | There is no Republic yet in chapter 17 Breakthrough | flat, brief statement of fact with no apology or elaboration
+  - which material was drawn on | The model built its analysis on its own running assumptions and the conversation's earlier thread instead of the user's story plans, so the user asks for a review of the plans and a fresh synthesis | Please review my story plans and give an updated synthesis | direct imperative, polite, stated as a redirect to the source material
+- about: The user briefly corrects the model's premise that a Republic and President Applejack exist at chapter 17, and directs it to go back to the story plans and produce an updated synthesis.

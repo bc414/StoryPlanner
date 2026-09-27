@@ -1,0 +1,5 @@
+- questions:
+  - How does Flowing Current handle class friction when wealthy Skyfall engineers join the Machinists Guilds, how do the Manehattan mechanics react to voting alongside them, and how does the Guild build solidarity? | ignored | Nothing on the Guild, Flowing Current, or mechanic-versus-engineer friction. The user asks about casting instead. | none
+  - How does Twilight use her own past as an elite, ivory-tower academic to connect with the Skyfall artisans? | ignored | Nothing on Twilight's approach or empathy with the artisans. The user moves to finding a character for the defector role. | none
+- shape: Redirects. The user leaves the model's two expansion questions alone and asks a new, narrower one: whether an existing character in the story plan could fill a defecting Skyfall penthouse artisan who grew a conscience, left for NGO charity, and still feels lost. It is a request to search the plan for a candidate, not an answer to the model's questions.
+- settles:

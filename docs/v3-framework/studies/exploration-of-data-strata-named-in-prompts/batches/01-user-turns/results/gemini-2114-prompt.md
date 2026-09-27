@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes how the Skyfall food scene should look in the story (fake tier-4 restaurants upselling imported goods, reformed thugs displacing them and the fast-food chains), using a real-world wagyu comparison as an analogy, without pointing the model at any body of material.

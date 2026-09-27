@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumption that the pony soldiers are conscripts, stating that they are volunteers who could have worked in the factory instead, and so would not be bored or terrified in the way the model described.

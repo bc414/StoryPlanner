@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the track table to ask for methodology recommendations on how to start interpreting the v1 notes to populate v2, saying the task feels arduous, without disputing anything the model said.

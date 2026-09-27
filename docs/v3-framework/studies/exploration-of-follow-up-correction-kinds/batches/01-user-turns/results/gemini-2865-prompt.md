@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's medical supply chain framing and moves on, stating the red love flora comes from windigos and asking for several possible origins of the pink love flora, with a check against the TLTT notes and FiM and EaW canon.

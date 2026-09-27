@@ -1,0 +1,4 @@
+- sources:
+  - my original plan of Chrysalis revealing her true self to Eagleclaw ahead of the counter-revolution in 981 | treated as superseded; the author wants a different version in which Eagleclaw deduces the truth herself, so the model should not build on the reveal-to-gain-leverage version | instead of my original plan | referred-to
+- order:
+- about: The user corrects the model's account of Gabriella Eagleclaw by making her Chrysalis's best friend, and revises their own earlier plan so that Eagleclaw deduces Chrysalis is a shapeshifter and only says so when Chrysalis returns with tanks to help with the counter-revolution.

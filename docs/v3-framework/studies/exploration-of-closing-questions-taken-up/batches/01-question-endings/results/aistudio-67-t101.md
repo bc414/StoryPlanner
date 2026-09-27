@@ -1,0 +1,5 @@
+- questions:
+  - Does Twilight, on hearing Celestia admit she expected them to fail, feel pride at beating the odds that cures her imposter syndrome? | ignored | Says nothing about Twilight's reaction. It moves on to a new analysis request. | none
+  - How does Applejack take the confession: anger at being used as an exhaust valve, or respect for Celestia's pragmatism because of what Kemerskai taught her? | ignored | Says nothing about Applejack's reaction to the confession. | none
+- shape: Leaves the model's analysis and its two questions unaddressed and sets a new task. The user asks the model to compare the changes made to Celestia's psychology and the stagnation timeline against the original plan. The model is then to assess whether the early idea of Celestia as a "statue" once war breaks out should stay, and what thematic purpose it would serve now. The user frames the idea as a leftover from when Celestia was the enemy, and asks about it open-endedly.
+- settles:

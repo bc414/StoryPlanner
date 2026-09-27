@@ -1,0 +1,8 @@
+- claims:
+  - Characterization | Scootaloo's parents see life as a zero-sum economic game | Her parents treat life as a zero-sum economic game | no
+  - Characterization | The parents regard Scootaloo as an asset, not a daughter, and see her as a failed investment | they view her as an asset | no
+  - History | The parents dumped her into the Stagnation of Harmony so they could return to their hustle unburdened | They dumped their "failed investment" into the Stagnation of Harmony | no
+  - History | After reaching the top of the New Mareland ladder, the parents try to take Scootaloo back | try to takes her back because they reached the top of the New Mareland ladder | no
+  - Characterization | Their reason for reclaiming her is to get a trophy and the social capital of being parents without doing the labor of raising her | wanted a trophy to show they are "successful family ponies" | no
+- goals:
+- whole: The note asserts the truth of Scootaloo's parents' mercenary mindset and motives for abandoning and later reclaiming her, in character-psychology and backstory terms, rather than recording any planning work to be done.

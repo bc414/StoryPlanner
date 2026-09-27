@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Sparlean-vocabulary lore and extends it with an idea about haughty linguists aiding Chrysalis, asking the model to review the story plan on Simplified Herzlander and synthesize it with the new lore.

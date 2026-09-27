@@ -1,0 +1,6 @@
+- sources:
+  - v1 entries about each individual element of liberty | treat as theme entities from the older version, so they do not carry over as subjects in the new structure | The different entries in v1 about each individual element of liberty were theme entities | referred-to
+  - themes in v2 | treat as the governing rule: themes are spread across all subjects and links in the note field for theme evidence, so they are cross-cutting and need no subjects | Themes in v2 are spread across all subjects and links in the note field for theme evidence | referred-to
+  - track questions/usage text | check against: compare the World Law and Organization track questions and usage text to decide which subject type fits, and explain | Please compare the track questions/usage text to see what is more suitable and explain | referred-to
+- order:
+- about: The user rejects the model's World Law answer and its per-element subject split, arguing themes are cross-cutting in v2 and that the Elements of Liberty are commentary on human nature rather than invented mechanics. They ask the model to compare the track questions and usage text for an Organization ("Element Bearers") against a World Law to decide where one cohesive tracking place should go.

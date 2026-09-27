@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model made Gilded Trust the isolationist 'Fortress Equestria' candidate who wants to hide behind a wall, when in the plan he also wants to invade, aiming to burn the hives | Gilded Trust's stance is to invade to burn the hives | flat, terse restatement of the correct stance with no reason or softening
+  - reading of the plan | The model made Applejack the only interventionist, so that she outflanks Gilded by being 'more' interventionist. The user places the defensive posture with Celestia and sets all three positions apart: Celestia defends, Applejack invades to liberate, Gilded invades to burn | Celestia's stance is the gilded defense. Applejack wants to invade to liberate | flat, set out as a short list of three positions, leaving the model to work out the consequences
+- about: The user briefly resets the model's mistaken three-way alignment on the war question by stating where Celestia, Applejack and Gilded Trust each stand.

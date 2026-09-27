@@ -1,0 +1,5 @@
+- sources:
+  - the forest borders freezing (the Everfree border closure, as the model's reanalysis set it) | taken as the fixed starting point, with Ponyville's founding date moved to come after it | after the forest borders froze, somewhere around 940 ALB | referred-to
+  - the Aquileians' terroir | used as a comparison model for what Granny Smith's settling next to the forest is like, in place of an ambition sink | it's terroir (like the Aquileians) | referred-to
+- order:
+- about: The user proposes, tentatively, revising the timeline so Ponyville is founded after the Everfree border freeze, around 940 ALB, which eases Granny Smith's age and recasts her Zap Apple settlement as terroir-driven rather than survival-harmony frontier ambition.

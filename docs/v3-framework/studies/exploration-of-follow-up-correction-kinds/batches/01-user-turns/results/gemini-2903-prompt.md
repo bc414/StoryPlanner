@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes folding the verifier into every stamp, with checking of existing stamps running during each new stamping so a tableau is wholly legitimate or wholly fake, and asks for the pros and cons of that redesign.

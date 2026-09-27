@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | the story's ending should leave a world in which not everyone has conformed to the system | By the end, not everyone has to conform | yes
+  - ThematicEvidence | asserts the thematic proposition that industry and magic need not replace special talents but can enhance them | Industry and magic does not have to replace special talents. It can enhance them | no
+- goals:
+  - come to believe that industry and magic can enhance special talents rather than replace them, and that conformity is not required | ThematicEvidence | Industry and magic does not have to replace special talents. It can enhance them
+- whole: The note sketches the ending of the system's arc as one where conformity is not universal and a thematic proposition that industry and magic can enhance rather than replace special talents.

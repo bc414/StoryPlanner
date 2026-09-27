@@ -1,0 +1,8 @@
+- sources:
+  - The quoted line 'I lied to Grover to protect him. He surely deduced it...' (the model's reading of it, 'drawn from out of context text') | treat as misattributed: it belongs to Archon Eros about Grover VI, so the Celestia-shame conclusions built on it are wrong and should not be used | 'This is the words of Archon Eros and referring to Grover VI. Not Celestia and Grover III.' | referred-to
+  - new lore for Chrysalis's backstory | new material to use alongside the existing notes; supplies Chrysalis's 971 wish to learn why Equestria is harmonic and her choice not to talk to Celestia, as a parallel for Coltbert | 'In my new lore for Chrysalis's backstory (not in the v1 db)' | first-named
+  - v1 db | the existing notes, which do not contain the new Chrysalis backstory lore | '(not in the v1 db)' | referred-to
+  - EaW | use as the dating anchor: it puts the start of Grover III's reign at 854, which fixes the Grover III and Celestia first meeting around 854-870 | 'EaW uses 854 as the start of Grover III's reign' | referred-to
+  - this new information (the author's corrections and lore in this turn) | apply as authoritative correction and addition when redoing the reanalysis | 'Now do the same reanalysis procedure with this new information' | first-named
+- order:
+- about: The user corrects the model's misattributed quote and several lore points (the Grover III and Celestia meetings, Coltbert and Chrysalis, Celestia's knowledge, the Riverlands, the Manehattan charter), asks two historical and terminology questions, and tells the model to redo its reanalysis with this new information.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user welcomes the model's "revolution by example" framing as less cynical than their earlier Stalliongrad critiques and asks for expansion on its historical basis, its difference from Marxism and ASOIAF conventions, its implications for the post-war order, and which old notes it invalidates.

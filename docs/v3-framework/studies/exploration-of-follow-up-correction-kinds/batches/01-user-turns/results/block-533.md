@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the cliffhanger and resonance discussion and lays out a new worldbuilding method, using naive trope-based plans as the characters' initial beliefs and the revised world truth as onion layers to reveal, then asks whether it is unique and what its benefits and downsides are.

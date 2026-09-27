@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | The unicorn charges the crystal enhancer by casting a simple on/off spell that switches on its magic intake, like a circuit breaker | The unicorn uses a simple on/off spell to turn on the crystal enhancer's magic intake (like a circuit breaker) to charge the crystal enhancer | outside
+- goals:
+- whole: The note states, as a rule of the fictional universe, how the crystal enhancer is charged: the unicorn casts an on/off spell that opens its magic intake.

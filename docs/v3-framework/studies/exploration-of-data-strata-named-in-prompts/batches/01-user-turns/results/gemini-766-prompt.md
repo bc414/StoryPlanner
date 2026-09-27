@@ -1,0 +1,6 @@
+- sources:
+  - classic MLP 2D animation style | keep as the art style for the new cutie mark examples | I want some more examples in the classic MLP 2D animation style | referred-to
+  - the current iteration | treat as a draft to change: drop its glow and avoid its look of matching equal signs | The current iteration looks too much like the equal signs | referred-to
+  - Starlight's cult | show imagery of equal signs that the new design must not resemble | too much like the equal signs from Starlight's cult | referred-to
+- order:
+- about: The user asks for more classic MLP 2D-style cutie mark options for the tally stick, with revisions: no glow, big tally marks running across both wooden pieces, and non-uniform pieces so it does not look like the equal signs from Starlight's cult.

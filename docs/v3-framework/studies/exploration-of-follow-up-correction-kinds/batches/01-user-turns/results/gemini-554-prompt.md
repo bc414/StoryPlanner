@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the history of methamphetamine to a new, broader request for an explanation of the chemistry of different drug types and how meth compares with opioids, caffeine, alcohol and THC, without disputing anything the model said.

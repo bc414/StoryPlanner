@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the cynicism-versus-resilience framing and applies it to map each faction and its Equestrian parallel, then asks the model to help work out whether Aquileia sits in between, still somewhat cynical, as part of a planned synthesis with the Griffonian Republic and Equestria.

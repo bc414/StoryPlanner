@@ -1,0 +1,5 @@
+- sources:
+  - Vanhoover occupation events as already established (Trimmel's clean surrender and mercy, Pagala's burning of Acornage, Trimmel's stated love-tax efficiency reasoning) | treat as established story facts and the base for the new reasoning | recall that Trimmel got a clean surrender and gave mercy to surrendering combatants | referred-to
+  - the author's own proposed timeline for the meritocrat plan, Tall Tale battles, and the Statthalter pivot | provisional new ideas offered for the model to test from Chrysalis's point of view, not settled | I think the pivot to making Vanhoover a concentration camp run by Statthalters came later | first-named
+- order:
+- about: The author lays out a proposed sequence in which Vanhoover's mild meritocrat occupation turns into a Statthalter-run camp after Trimmel's military failures at Tall Tale, and asks whether that makes sense from Chrysalis's point of view.

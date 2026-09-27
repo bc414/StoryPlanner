@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets out their own story decision that Chrysalis returns as queen only once permanently eight feet tall, and brainstorms who would remember her original form and how she could secure legitimacy, without pointing at any body of material.

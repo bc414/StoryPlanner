@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new piece of world history (Herzland's Kaiser as overlord of Aquileia from 705 to 972, then the 972, 978 and 980 breaks and revolts) and asks whether it gives the king a nationalist motive to empower the bourgeoisie and what a feudal vassal relationship would mean for the setup.

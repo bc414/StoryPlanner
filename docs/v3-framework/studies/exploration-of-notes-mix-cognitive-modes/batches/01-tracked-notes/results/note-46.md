@@ -1,0 +1,5 @@
+- claims:
+  - NotesToSelf | the author states one of their original motivations for writing the story: to depict Twilight fighting on the front lines | One of my original motivations to write this story is to depict Twilight | yes
+  - Canon | in EaW canon Twilight is passive, captured and tortured when the changelings win, and this story departs from and recontextualizes that | not being passive and getting captured and tortured as in EaW canon when the changelings win | no
+- goals:
+- whole: The author records, as a note to self, the motivation for the story: to replace canon's captured-and-tortured Twilight with one who fights on the front lines.

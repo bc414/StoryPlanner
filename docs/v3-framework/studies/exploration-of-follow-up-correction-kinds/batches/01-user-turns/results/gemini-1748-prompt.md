@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from Celestia's reasons for skipping the debate and asks a new planning question about how Gilded Trust should argue in the Ambition debate, covering fear of buffalo and thestrals, family values, and the affairs and prostitution accusations Applejack may raise.

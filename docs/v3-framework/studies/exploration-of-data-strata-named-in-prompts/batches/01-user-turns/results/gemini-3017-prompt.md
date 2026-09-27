@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a comparison between Gemini Code Assist and NotebookLM as tools for their story-planning workflow, without pointing the model at any body of material to use or avoid.

@@ -1,0 +1,6 @@
+- sources:
+  - the world bible stored in a sqlite database | the underlying store the bible is kept in and the structure to be preserved; treated as the true form from which the documents are made | actually stored in a sqlite database | first-named
+  - the world bible compiled into markdown | the current derived output of the database, the existing form of the bible that the proposed split would replace or be compared with | compiled into markdown for the world bible | referred-to
+  - a folder of separate compiled documents mirroring the sqlite structure, with wikilinks or explicit sqlite ids | proposed, hypothetical source for Claude Cowork to search; the user asks whether it could find all the relevant context from it | Claude Cowork on a folder | first-named
+- order:
+- about: The user explains that their world bible lives in a sqlite database compiled to markdown and asks whether Claude Cowork, given a folder of separate documents that keep the database structure with wikilinks or explicit ids, could reliably find all the relevant context.

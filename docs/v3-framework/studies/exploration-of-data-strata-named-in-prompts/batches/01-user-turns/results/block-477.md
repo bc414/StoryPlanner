@@ -1,0 +1,5 @@
+- sources:
+  - all this expansion of Chrysalis's backstory | treat as the current, elaborated backstory that the old Academy detail now has to be reconciled with; the conflict with it is what creates the plot hole | After all this expansion of Chrysalis's backstory | referred-to
+  - the Griffenheim academy for nobles, from when I originally made up Chrysalis's subversive backstory arc | treat as the author's early, generic choice that was not carefully reasoned; provisional, and open to a materialist explanation or revision | I picked the Griffenheim academy for nobles as a generic choice | referred-to
+- order:
+- about: The user is asking the model to find a materialist explanation for why Chrysalis stayed at Griffenheim Academy until the Republican Revolution, treating the academy as an early generic choice that now looks like a plot hole next to the expanded backstory.

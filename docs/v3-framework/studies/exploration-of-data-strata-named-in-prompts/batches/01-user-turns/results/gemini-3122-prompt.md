@@ -1,0 +1,4 @@
+- sources:
+  - my GIYC plan | the material to be evaluated: the model is to assess it for where suspension of disbelief was rigorously filled and what carries over to TLTT | "evaluate my GIYC plan" | referred-to
+- order:
+- about: The user asks the model to evaluate their GIYC plan for the places where they rigorously filled suspension of disbelief and to say which of those can be carried over into TLTT.

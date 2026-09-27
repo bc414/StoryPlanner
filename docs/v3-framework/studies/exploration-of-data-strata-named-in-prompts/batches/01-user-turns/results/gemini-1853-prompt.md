@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to continue its mapping of human historical eras onto stages of AI development by supplying the remaining parallels, without pointing at any particular body of material to use.

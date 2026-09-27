@@ -1,0 +1,6 @@
+- questions:
+  - Does the Tree's WMD have a cooldown after it fires? | ignored | Nothing about recharge or timing; it only limits what the Tree's effect can act on. | none
+  - Did firing it deplete Equestria's ambient defense grid, leaving a window for Trimmel's invasion? | refused | Rejects the premise of a general defense grid: the Tree's output only pacifies magical monsters driven by red love and does nothing to tanks or drugged conscripts, so there is no shield to be knocked down. | only pacifies magical monsters riding on red love
+- shape: Corrects the model: rejects its framing of the Tree as an automated WMD or general defense system, and gives a narrower rule for what the Tree's power affects in place of the model's cooldown-and-window idea.
+- settles:
+  - The Tree's rainbow power only pacifies magical monsters driven by red love; it has no effect on mechanical tanks or on conscripts on combat drugs. | doesn't do anything to a mechanical tank or a conscript on combat drugs

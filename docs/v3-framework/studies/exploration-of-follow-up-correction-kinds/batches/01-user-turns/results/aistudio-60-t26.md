@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn drops a long set of rewatch notes on The Crystal Empire and asks for an analysis of how they fit the established fabula and Spike/crystal pony planning, plus a comparison with other fan interpretations, without responding to or amending the model's opening-structure analysis (the one self-revision about Spike versus Applejack is the user's own earlier statement, not something in the model turn).

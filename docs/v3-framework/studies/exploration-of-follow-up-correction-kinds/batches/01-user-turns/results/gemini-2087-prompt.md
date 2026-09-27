@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for one more naming scheme for the seven axes, this time drawn from My Little Pony, as a terse follow-up to the three themes offered without saying those were wrong.

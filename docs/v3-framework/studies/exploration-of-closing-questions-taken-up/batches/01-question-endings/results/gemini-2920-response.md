@@ -1,0 +1,9 @@
+- questions:
+  - Does the griffon artisan regard the stabilizer machine itself as their own tool, so their pride sustains the factory rather than the product, or does mass production cause the rotting of pride into greed? | no user turn | none | none
+  - Do the Changeling harvesters leave no physical trace of the sea monsters, and do they sink a few ships each year to fake the monster threat and keep insurance rates stable? | no user turn | none | none
+  - Is the Tzinacatl jungle cut off from Equestria by an impassable mountain range, or does Celestia heavily militarize her southern border against narco-violence? | no user turn | none | none
+  - Is teleportation limited by conservation of mass/energy, so it costs enormous Red Love and only suits high-value special ops rather than mass army logistics? | no user turn | none | none
+  - Were the Griffon lords blinded by Lion/Eagle theology that made cruelty a divine mandate, or did Monster Loot make agriculture irrelevant until the monsters went extinct? | no user turn | none | none
+  - How would the user like to adjust these five contradictions structurally? | no user turn | none | none
+- shape: none
+- settles:

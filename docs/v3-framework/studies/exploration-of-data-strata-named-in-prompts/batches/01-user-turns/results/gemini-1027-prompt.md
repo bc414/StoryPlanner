@@ -1,0 +1,5 @@
+- sources:
+  - the optics requirement / boreas glass lenses (the lens-based lithography from the earlier breakdown) | do not use for now; treat as dropped, since the etch spell works in 3D without optics, and the Griffonia component is left for later | I'm not going to stick to the optics requirement; Drop the boreas glass lenses for now | referred-to
+  - harmonic capitalism (the story's thematic point) | treat as the governing premise: it is political rather than technological, so Twilight may invent once and walk away or let other unicorns continue; answer the P2/P3 question within it | The thematic point with harmonic capitalism IS the fact that Twilight can invent it once and walkaway | referred-to
+- order:
+- about: The user overrides the model's optics-based reasoning and its claim that Twilight remains a bottleneck, restates the political meaning of harmonic capitalism, and asks whether P3 is needed to complete the system or P2 is enough.

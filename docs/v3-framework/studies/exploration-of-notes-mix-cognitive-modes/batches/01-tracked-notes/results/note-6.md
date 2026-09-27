@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Applejack changes as a person: through Fluttershy's influence she comes to be merciful | Applejack learns from Fluttershy to be merciful | no
+- goals:
+- whole: The note asserts, in one short line, a character-arc fact about Applejack acquiring mercy from Fluttershy, without laying out evidence or saying what the reader should take from it.

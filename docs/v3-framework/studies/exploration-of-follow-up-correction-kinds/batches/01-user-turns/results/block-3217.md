@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's conditional suggestion by assigning the chiefs-hoarding-women model to a Great Lakes savanna region and the matrilineal model to Zumidia (Zecora's home), admits uncertainty about the pre-colonial economy, and asks for an analysis of zebra magic drawn from the story plan's species-magic precedents, Zecora tropes and canon potions.

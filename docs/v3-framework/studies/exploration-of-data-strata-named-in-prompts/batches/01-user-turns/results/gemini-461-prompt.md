@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's misreading of their question, clarifying that they meant shortening the JSON field names such as "Synopsis" and "ThreadTrajectory" rather than the descriptor content, and names no source of data for the model to use.

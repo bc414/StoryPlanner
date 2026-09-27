@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to suggest further sleeping poses for Twilight and Applejack and what purpose each would serve, without pointing at any body of material to draw on or avoid.

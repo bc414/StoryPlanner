@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Fluttershy takes Celestia's request to be a command from her sovereign rather than a favor asked | Fluttershy views Celestia's request as an order from the monarch | no
+- goals:
+- whole: The note asserts as fact how Fluttershy perceives Celestia's request, as an order from the monarch, without designing what the reader is to infer or take away.

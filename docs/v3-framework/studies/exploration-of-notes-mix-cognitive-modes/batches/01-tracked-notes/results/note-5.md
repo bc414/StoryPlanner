@@ -1,0 +1,4 @@
+- claims:
+  - Canon | Applejack is identified as the Element of Conscience, restating her established canonical Element role in the project's own terms | Applejack IS the Element of Conscience! | no
+- goals:
+- whole: The note asserts, as a canon-anchored identity, that Applejack is the Element of Conscience, and it lays down no thematic evidence and names no reader response.

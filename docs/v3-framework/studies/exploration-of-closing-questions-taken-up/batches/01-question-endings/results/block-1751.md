@@ -1,0 +1,5 @@
+- questions:
+  - Dialectical: how does Applejack keep the Radical Vanguard (Stalliongrad sympathizers in Baltimare) from hijacking the coalition without using the authoritarian suppression Celestia used in the 930 ALB lockdown? | ignored | Says nothing to it; the user asks for a different mapping instead. | none
+  - Psychological: could Caramel Marks's ideology let her accept Applejack's Harmonic Capitalism as a working-class victory, or would she condemn Applejack as a Poseur? | ignored | Says nothing to it; the user moves on to a new mapping request. | none
+- shape: Redirects to a new task. The user leaves both Socratic questions unanswered and asks the model to map the changeling divisions onto the American Left, or to explain why that can't be done. This extends the mapping the model just gave and does not respond to its questions.
+- settles:

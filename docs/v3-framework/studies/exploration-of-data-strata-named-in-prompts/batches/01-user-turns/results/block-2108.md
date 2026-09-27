@@ -1,0 +1,6 @@
+- sources:
+  - the db file | search it for details about Aquileia and Aquileian History; the material to draw on | Search the db file for details about Aquileia and Aquileian History | referred-to
+  - my current subjects (Gerad Discret's Aquileia and Coltbert's Aquileia) | existing structure to be considered against the DB details; may be reorganized, not yet fixed | My current subjects have Gerad Discret's Aquileia and Coltbert's Aquileia | referred-to
+  - proposed distinction (Feudal Aquileia, Gerad Discret's Aquileian State, Coltbert's Aquileia) | provisional idea being considered, not settled | But I'm considering making a distinction between | first-named
+- order:
+- about: The user asks the model to search the DB file for Aquileia and Aquileian history so they can decide whether to split their two existing Aquileia subjects into three (Feudal, Gerad Discret's centralized state, Coltbert's).

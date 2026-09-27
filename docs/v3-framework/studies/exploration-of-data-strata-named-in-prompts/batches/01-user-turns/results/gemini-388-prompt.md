@@ -1,0 +1,4 @@
+- sources:
+  - the idea of the FJA artisans selling their luxury products (the model's export and trade suggestion in this conversation) | accepted as liked and to be kept, with the buyer changed to the Skyfall Trade Federation, which sells weapons to both sides | I like the idea of the FJA artisans having to sell their luxury products | referred-to
+- order:
+- about: The user endorses the model's idea that FJA artisans export luxury goods and builds on it by naming the Skyfall Trade Federation as the buyer, a merchants-of-death power arming both sides of the war.

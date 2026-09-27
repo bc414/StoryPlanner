@@ -1,0 +1,4 @@
+- sources:
+  - earth pony magic being phosphate weathering | use as the precedent for how much invented magic to allow: a minimal mythos on top of real chemistry, so the spell matrix explanation should follow the same pattern | akin to earth pony magic being phosphate weathering | referred-to
+- order:
+- about: The user asks the model to explain real hydrocarbon chemistry and then to rework the spell matrix's fuel-improving effect so it rests on real combustion chemistry with only a small magical premise, in the way earth pony magic was handled with phosphate weathering.

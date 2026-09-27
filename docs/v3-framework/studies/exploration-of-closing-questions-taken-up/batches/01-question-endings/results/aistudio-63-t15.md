@@ -1,0 +1,5 @@
+- questions:
+  - Does Réni Ducep, present and flying with Minette, view Meyer's pirate-derived individualism as a threat, and does this split the Aquileian volunteers over what true Asset Specificity looks like in the air? | ignored | Nothing on Ducep, Meyer or an Aquileian schism; the turn asks about a different pairing. | none
+  - Does Blueblood, watching Twilight parley with Tempest Shadow, recognize Tempest as the Storm King's quartermaster, so that he alone sees her danger as her supply-line organization and not her broken horn? | ignored | Nothing on Tempest or Blueblood's read of her; the turn asks about Blueblood and Rarity instead. | none
+- shape: Redirects. The user leaves both of the model's questions alone and asks for the next pairing to be analysed in the same way, Blueblood and Rarity. It is a short open request that extends the list of Mount Aris interactions and settles nothing itself.
+- settles:

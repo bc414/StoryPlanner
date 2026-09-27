@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said Kemerskai steps down immediately after victory; the user's account has him ending martial law but staying in power for about 20 more years | he "could have stepped down but chose to continue leading the country for 20 more years" | flat restatement of the canon, framed as a hidden backstory and set against the wrong model ("not George Washington")
+  - fact of the world | The model gave Kemerskai's psychology as self-aware: he knows his Iron Marshal persona is a product of the Trauma Engine and leaves for that reason. The user says he did not know how to end his rule until he met Applejack, and that staying implies he thought Sunglider naive or the country unready | "he really didn't know how to end his rule" and "too naive or the country is not ready" | offered as a "What if" suggestion, then stated as settled backstory, with no mention of the model's version
+- about: The user replaces the model's tidy account of Kemerskai stepping down after the war with a darker one, a long-ruling strongman like Lee Kuan Yew or Atatürk, and adds the EaW party roles and Sunglider's TLTT function.

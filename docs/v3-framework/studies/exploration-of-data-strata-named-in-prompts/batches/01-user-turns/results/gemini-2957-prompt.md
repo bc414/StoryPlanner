@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to brainstorm further spells or magic that would work as "combined arms" spells like the ones just listed, without pointing at any body of material to draw on or avoid.

@@ -1,0 +1,5 @@
+- questions:
+  - How would the Celestial holdouts, who see all industry as corrupting, react to the Equestrian Republic becoming an industrialized mega-corporation under Harmonic Capitalism? | ignored | Says nothing to it. The user asks about a character in the reference show. | none
+  - How would Chrysalis's 'Visionary Tyrant' epistemology break when she finds Star Energy has cornered the market on Tzinacatl rubber and Skyfall crystal valves? | ignored | Says nothing to it. The user asks about a character in the reference show. | none
+- shape: The user drops the model's comparison and its two questions. They turn to a factual question about the reference show: a side story about Saeroyi's female friend who worked for Jangga. It is a redirect to more source-material recall, not a reply to the model's questions.
+- settles:

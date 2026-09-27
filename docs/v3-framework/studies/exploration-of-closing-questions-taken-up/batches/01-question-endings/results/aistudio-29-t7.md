@@ -1,0 +1,7 @@
+- questions:
+  - How does Applejack reconcile Aquileia's industrialized livestock farming with Celestia's vegetarian, pacifist Equestrian ideals when integrating the two economies? | ignored | Says nothing about Applejack, livestock farming or economic integration; moves to ponies' diet and real-world vegetarianism. | none
+  - Does Tzinacatl export of digestive supplements give the Cartels dangerous political leverage over the Republican Pact's supply lines? | ignored | Says nothing about supplement exports, the Cartels or supply-line leverage. | none
+- shape: Sidesteps both follow-up questions and redirects. The user first offers their own view of pony diet: not cellulose-heavy, closer to an Indian-style vegetarian society, with hay as an equine touch. That partly pushes against the model's meat-broth and dairy framing. The user then asks a general real-world question, why India is vegetarian and which other regions are like it, apparently as reference material for that diet.
+- settles:
+  - Ponies' diet is imagined as a vegetarian culture like India's, with equine touches such as enjoying hay, and not as cellulose-heavy grazing despite their herbivore nature | I imagine their diet being much closer to a vegetarian society like Indians, but with some equine flairs like enjoying hay
+  - Ponies' large cognitive demands are treated as the reason they would not live on cellulose-heavy plants | I don't imagine the ponies with massive cognitive requirements would eat a lot of cellulose heavy plants

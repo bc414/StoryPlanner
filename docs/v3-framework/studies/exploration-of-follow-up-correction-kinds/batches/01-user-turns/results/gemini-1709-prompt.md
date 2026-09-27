@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Skyfall's political nature: the model pictured it as a militarized police state with walls, assassins and state-enforced secrecy, whereas the user sees a weak-state merchant republic | I do not imagine Skyfall having a strong state like Britain. They are like the Dutch Republic of 1580 and I guess Venice too | flat statement of disagreement, with a counter-analogy offered and a hedged partial nod to Venice
+  - fact of the world | Skyfall's collective psychology: the model assumed disciplined, ruthless long-term protection of secrets, while the user says greed is the sole motivator and short-term thinking is their typical failure | Greed is the only motivator and short term thinking is a classic failure mode for them | flat, terse assertion of the intended trait, with no apology or explanation
+- about: The user pushes back on the model's picture of Skyfall as a ruthless, efficient secret-keeping state, restating it as a greedy, short-sighted merchant republic like the Dutch Republic or Venice.

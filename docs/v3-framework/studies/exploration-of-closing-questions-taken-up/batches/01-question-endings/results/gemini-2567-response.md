@@ -1,0 +1,5 @@
+- questions:
+  - Which fits better for the Skyfall characters: the Hawala-style ledger system or the physical smuggler courier system? | ignored | The user turn doesn't choose between the two. It goes on to a challenge about remittance economics and a request for historical comparisons. | none
+- shape: Corrects the model's analysis and redirects. The user rejects the claim that remittances reshape the predator's dilemma in the home village. It then asks a real-world economics question about how a remittance-heavy economy works, plus a request to compare Ireland, Naples and Qing or warlord China. The model's closing choice between Hawala and couriers is left untouched.
+- settles:
+  - Remittances don't change the predator's dilemma at the Zebrican village, because the labor and the value it creates all stay in Skyfall | The immigrant laborers in Skyfall sending money back don't change the nature of the predator's dilemma at their village

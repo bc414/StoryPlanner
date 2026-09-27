@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model made the fake Equestrian parents the ones who control the cover story and the name, as adopters who impose a pet name or keep her street name. In the story Chrysalis recruits them herself, so she controls the whole arrangement. | Chrysalis is the one who recruits the fake parents, so she would have total control over everything | flat, brief statement of the correct fact, with a short consequence given as the reason and no apology or elaboration
+- about: The user turn pushes back on the model's premise that the parents dictate her cover identity, restating that Chrysalis recruits and controls them, without saying what should follow from that.

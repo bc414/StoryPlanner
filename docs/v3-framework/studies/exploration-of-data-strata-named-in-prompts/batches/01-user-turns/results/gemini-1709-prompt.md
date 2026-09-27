@@ -1,0 +1,6 @@
+- sources:
+  - Britain (the strong-state model from the model's Slater/textile-ban parallel) | do not use as the model for Skyfall; the user says Skyfall lacks a strong state like it | I do not imagine Skyfall having a strong state like Britain | referred-to
+  - the Dutch Republic of 1580 | use as the main historical analogue for what Skyfall is like | They are like the Dutch Republic of 1580 | first-named
+  - Venice (the Murano glass model from the model's answer) | accept as a secondary analogue, tentatively rather than firmly | and I guess Venice too | referred-to
+- order:
+- about: The user pushes back on the model's industrial-secrecy parallels, saying Skyfall is a decentralised, greed-driven, short-sighted mercantile republic like the Dutch Republic of 1580 and somewhat like Venice, not a strong state like Britain.

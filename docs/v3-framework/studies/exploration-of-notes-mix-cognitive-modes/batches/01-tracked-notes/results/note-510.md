@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Asserts as true that Archon Eros holds the belief that capitalist rot destroyed the Empire by causing it to abandon spiritual purity, defining his worldview at the start | Archon Eros believed the capitalist rot destroyed the Empire because it abandoned spiritual purity | yes
+- goals:
+- whole: The note states, as a psychological fact about the character, the ideological belief about the Empire's fall that defines Archon Eros at the story's start.

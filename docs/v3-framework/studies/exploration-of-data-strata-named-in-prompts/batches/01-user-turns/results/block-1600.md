@@ -1,0 +1,10 @@
+- sources:
+  - v1 plot point lists in chapters | scan them and use own judgement to build the new plot point list | I'll scan v1 plot point lists in chapters and make a judgement | referred-to
+  - own memory, for the plot point list | do not use it to build the plot point list | Plot point list won't come from memory | referred-to
+  - v1 plot point synopses (read while auditing plot points) | read them to create subject links from what they contain; they hold subject-level data and material that belongs on tracks or links | links should be created from me reading plot points (auditing them) | referred-to
+  - AJ's v1 subject tracks | describe as holding backstory, arc plans, theme relations and research directives, with little plot-point-scope data | AJ's v1 subject tracks don't really have plot point specific data | referred-to
+  - GIYC | treat as having shown that plot points can cover a large scope of text, so no separate beat capture is needed; its word-count parallels do not carry over to TLTT | GIYC revealed that plot points do have large scope of text | referred-to
+  - v1 (about 300k words of planning content) | too large to send whole; make subjects, links and plot points selectable for export instead | 5 months of story planning content sitting in v1 | referred-to
+- order:
+  - v1 plot point lists in chapters over own memory | plot point list comes from scanning v1 lists, not from memory
+- about: The user answers the model's questions about the v1-to-v2 rebuild by saying links will come from auditing plot points, dropping the separate beat-capture idea, building the plot point list from v1 scans, giving expected counts, and planning selective export to avoid sending all 300k words to Gemini or Claude.

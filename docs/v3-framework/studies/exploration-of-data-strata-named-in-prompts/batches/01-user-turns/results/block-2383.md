@@ -1,0 +1,7 @@
+- sources:
+  - Pax Chrysalia.txt (the attached fanfic Pax Chrysalia) | the text to be read and assessed; the thing being placed on the scale | Attached file: Pax Chrysalia.txt; How does this fanfic, Pax Chrysalia | first-named
+  - the Pax Chrysalia focus tree in EaW | the fic is built on it, but it is a different thing; do not conflate it with the fic or assess it as the fic | not to be confused with the focus tree itself | first-named
+  - TLTT | one end of the scale, the measuring reference the fic is placed against | the TLTT versus ASOIAF scale | referred-to
+  - ASOIAF | the other end of the scale, the measuring reference the fic is placed against | the TLTT versus ASOIAF scale | referred-to
+- order:
+- about: The user attaches a new fanfic text, clarifies that it is the fic and not the game focus tree it builds on, and asks the model to place it on the previously used TLTT-versus-ASOIAF scale.

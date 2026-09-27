@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's picture of where monsters remain to hunt after the land ones are gone treats the open ocean as the only option, leaving out the Scheißwald forest as a second, equally unwanted hunting ground | "In addition to the open ocean, they can also go into the Scheißwald forest, but no one wants to do that" | in passing, as an added detail at the start of the message with no objection stated, and the model's framing is left to be adjusted implicitly
+- about: The user adds the Scheißwald forest as another unwanted hunting ground, then moves on to ask how monsters as an economic incentive would change the era of pre-Grover III warlords leaving Aquileia's monsters alone for taxes, and what that does to the honest racket feudal arrangement.

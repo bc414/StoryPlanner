@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to go on to how to manage information tracking in their planning, so a secret meant for the reader is not accidentally revealed to a character? | no user turn | none | none
+- shape: none
+- settles:

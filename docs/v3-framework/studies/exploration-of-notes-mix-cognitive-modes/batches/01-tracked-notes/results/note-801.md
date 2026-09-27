@@ -1,0 +1,6 @@
+- claims:
+  - History | Kemerskai and many other intellectuals read Gesunder Menschenverstand and became true believers in Grover III's vision of a pan-griffonian, post-feudal, enlightened civic state | Kemerskai and many other intellectuals read Gesunder Menschenverstand and became true believers | no
+  - History | These intellectuals held that a Federal Republic could achieve what Grover III's enlightened emperorship could not | believed a Federal Republic could achieve what Grover III's enlightened emperorship could not | no
+  - History | The founders' aim was a state in which no griffon could be violated | They wanted to build a state where no griffon could be violated | no
+- goals:
+- whole: The note reports, as in-universe cause, that intellectuals inspired by Grover III's book came to believe a federal republic could realize his enlightened civic vision and set out to build a state where no griffon could be violated.

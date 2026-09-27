@@ -1,0 +1,5 @@
+- claims:
+  - Allegories | the fictional civilizational system stands for the real-world West, which fails to adapt to a changing world | represents the West's failure to adapt to a changing world | yes
+  - Allegories | the West leans on past glory while ignoring its internal decay, as the social commentary the system carries | relying on past glory while ignoring the rot | yes
+- goals:
+- whole: The note names the real-world group and condition, the West's complacent failure to adapt, that the fictional system Stagnation of Harmony stands for.

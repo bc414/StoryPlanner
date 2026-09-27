@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | names the Anthropic Principle as a real-world model: observed conditions must permit an observer to exist | The Anthropic Principle - the universe's observed conditions must allow the observer to exist | yes
+  - Analogies | applies the principle to real seasons: their suitability for our biology is no miracle but observer selection, offered as the real-world parallel for the fantasy seasons technology | The seasons in real life that make the perfect chemical conditions for our biology isn't a miracle | yes
+- goals:
+- whole: The note documents the Anthropic Principle and its reading of Earth's hospitable seasons as a real-world inspiration for the fantasy weather-and-seasons technology.

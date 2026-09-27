@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the running analysis and asks for a new, comprehensive report of every insight from the whole conversation, including the ones later superseded, without saying anything about the preceding turn being wrong.

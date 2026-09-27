@@ -1,0 +1,7 @@
+- claims:
+  - History | Thorax first distributed naive pamphlets asking ponies for help against Chrysalis after Celestia refused | Thorax originally distributed naive pamphlets asking ponies for help against Chrysalis after Celestia refused | no
+  - History | The pamphlets described the changelings as atomized drones who distrust each other and just want friends | describing how the changelings are all atomized drones who don't trust each other and just want friends | no
+  - History | VOPS carried on the pamphlet effort as propaganda, seamlessly, in the lead-up to the war | VOPS continues this as propaganda seamlessly in the lead up to the war | no
+  - History | The propaganda produced Luna's false optimism and hold-the-line doctrine, which enabled Trimmel's blitzkrieg | This leads to Luna's false optimism and hold the line doctrine, which enables Trimmel's blitzkrieg | no
+- goals:
+- whole: The note recounts in-universe history of VOPS, from Thorax's pamphlets to wartime propaganda to Luna's misplaced doctrine and Trimmel's blitzkrieg, as a causal chain of events rather than planning how the reader experiences it.

@@ -1,0 +1,4 @@
+- sources:
+  - my definitions of the Aquileian lion and eagle and the tableau de chasse meanings | review them and use them as the reference for working out the stamper's intent vectors in the scarce and abundant scenarios | Please review my definitions of the Aquileian lion and eagle and the tableau de chasse meanings | referred-to
+- order:
+- about: The user extends the fling-verification system by asking for intent vectors under the trophy-shelf and hunting-log readings of the tableau de chasse and for eagle and lion counterparts, asks the model to review their stated definitions, and restates their objection that the verifier must check for intent tied to the specific stamp owner's identity rather than a generic fling.

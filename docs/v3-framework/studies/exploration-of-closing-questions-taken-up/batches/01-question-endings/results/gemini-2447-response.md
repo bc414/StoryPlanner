@@ -1,0 +1,7 @@
+- questions:
+  - Is Twilight clashing with Celestia's bureaucracy over resource allocation, or is Celestia deliberately steering her into logistics work so she stays away from the frontline? | answered | Takes the second option: Celestia is deliberately keeping Twilight on the task so that she doesn't go and fight. | Celestia is actively keeping Twilight on the task so that she doesn't go fight
+- shape: Answers the model's either/or question directly, then revises the user's own earlier plan. Twilight will no longer resent the order not to fight. Her research is instead driven by her own experience of exhausting herself rebuilding in Ain Trotgourait. It also confirms the model's analysis of her.
+- settles:
+  - Celestia keeps Twilight on logistics and research work on purpose, so that she does not go to fight | Celestia is actively keeping Twilight on the task so that she doesn't go fight
+  - Twilight's resentment of the order not to fight is dropped from the earlier plan | I originally had Twilight feel resentful of the order to not fight, but it seems ... is better
+  - Twilight is the driving force of her own research, motivated by her exhausting attempt to do the rebuilding herself in Ain Trotgourait | having Twilight be the driving force of her research after her experience trying to do as much rebuilding herself and getting exhausted

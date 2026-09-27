@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user raises a new angle, Poland's real-world role as an apple exporter, and asks how it fits the apple-based social commentary, without saying anything in the model's breakdown was wrong.

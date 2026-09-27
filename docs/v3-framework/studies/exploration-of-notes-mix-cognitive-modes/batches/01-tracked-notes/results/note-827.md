@@ -1,0 +1,4 @@
+- claims:
+  - History | Temberik refused Chrysalis's offer to mine the crystals in their mountains for her love harvesters in return for material wealth, an event of the world reported as having happened | They reject Chrysalis's bid to mine the crystals in their mountains for her love harvesters in exchange for material wealth | yes
+- goals:
+- whole: The note records, as an in-universe historical event dated 990, that the organization Temberik turned down Chrysalis's offer of material wealth for mining rights to its mountain crystals.

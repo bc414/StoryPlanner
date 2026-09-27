@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Rockefeller breakdown and moves on to the next historical figure, asking for the same kind of profile of Andrew Carnegie.

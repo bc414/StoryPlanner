@@ -1,0 +1,6 @@
+- claims:
+  - History | In preparation for the war following the dotted line report, all remaining high grade crystals in the Canterlot reserves were allocated to the magical supply organization | In preparation for the war after the dotted line report, all remaining high grade crystals ... are allocated for magical supply organization | yes
+  - History | A debate occurred over whether the crystals should go to weapons | There is a debate about whether they should go to weapons or not | yes
+  - History | Celestia authorized friendship shields and Twilight's magical supply organization instead of weapons | Celestia authorizes friendship shields and Twilight's magical supply organization instead of weapons | yes
+- goals:
+- whole: The note reports, as a historian would, the 1007 allocation of Canterlot's remaining high grade crystals to magical supply rather than weapons, after a debate settled by Celestia's authorization.

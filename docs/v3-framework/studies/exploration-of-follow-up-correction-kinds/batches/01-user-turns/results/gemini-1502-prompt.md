@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further world detail, a note-funded fleet protecting Aquileian export ships from the Skyfall racket as part of Coltbert's plan, building on the model's export analysis without disputing any of it.

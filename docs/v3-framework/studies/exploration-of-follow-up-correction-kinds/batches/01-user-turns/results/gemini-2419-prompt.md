@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question about Rainbow Dash's arc by pointing it to their existing story plans and asking it to review them and combine them with the new doctrine analysis, without disputing anything the model said.

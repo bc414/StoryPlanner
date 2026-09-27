@@ -1,0 +1,4 @@
+- sources:
+  - My lore | treat as true and settled; the model's assumption should be corrected to match it (Twilight was doing nonviolent logistics in Canterlot at the war's start) | My lore states that Twilight was in Canterlot working on "Magical Supply Organization" | referred-to
+- order:
+- about: The user corrects the model's account of Twilight's wartime role by citing their established lore, then proposes a new idea, an atlas complex about fixing civilian suffering, to extend Twilight's characterization.

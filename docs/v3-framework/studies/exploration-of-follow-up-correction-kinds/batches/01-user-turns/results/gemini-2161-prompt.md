@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's phosphorus chemistry analysis by proposing that it explains why Fleur Bloom, the inventor of the star spade, is in Tall Tale, and casts her as a Fritz Haber figure applying standardized industry to asset specificity.

@@ -1,0 +1,4 @@
+- sources:
+  - YouTube video at youtu.be/PCypBUVhff8 | handed over as material with no instruction about how to treat it; no weight stated | Https://youtu.be/PCypBUVhff8?si=1xr2FWzsTVRo-0it | first-named
+- order:
+- about: The user posts a bare YouTube link with no instruction or comment, leaving the model to infer what to do with it.

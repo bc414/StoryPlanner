@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user notes the geographic range of the recommendations so far and asks for more obscure works from other parts of the world, extending the search rather than saying anything in the list was wrong.

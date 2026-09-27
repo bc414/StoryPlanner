@@ -1,0 +1,10 @@
+- questions:
+  - How does Celestia come to terms with her pacification program having produced the industrial vanguard now undermining her authority? | ignored | The user turn never touches Celestia's reaction. It does add a rule about how the repatriation program judges ponies, but says nothing about her response to the result. | none
+  - How does Flowing Current keep native Manehattan Earth Ponies in the Guild from resenting the Thestrals once the wartime emergency ends? | ignored | Nothing about Guild internal relations, Thestral integration or peacetime competition. | none
+- shape: The user skips both Socratic questions and adds two worldbuilding details of their own. The first is a rule for the repatriation program. The second corrects the model's reading of the Flowing Current and Rarity scene: they already know each other, so he has no need to appeal to her, and he is offering her an alternative to her guilt-driven overwork.
+- settles:
+  - Re-entry to Equestria for repatriating ponies depends on the judgment of the orphaned foals they care for. If most of the foals cry in a rough caretaker's presence, that pony is sent back to New Mareland. | whether the repatriating ponies get to reenter Equestria must be contingent on the judgment of the baby orphaned foals
+  - The babies' reaction is the program's intended foolproof test of genuineness, and it is meant to fit FiM's comic aesthetic. | The babies are the most genuine foolproof test
+  - Flowing Current and Rarity are already acquaintances. | I think Flowing Current and rarity are already acquaintances
+  - Rarity wanted to help remodel the parloir, where she first learned couture as a filly. | rarity would have wanted to help remodel the parloir
+  - Flowing Current does not need to appeal to Rarity. He is offering her an alternative to working herself to the bone out of guilt for not being at the front. | an alternative to working herself to the bone out of guilt for not being at the front

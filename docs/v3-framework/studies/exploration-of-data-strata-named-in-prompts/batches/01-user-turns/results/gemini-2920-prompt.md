@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the material to review again for new logical contradictions; the model is to re-read it and analyze it | Review my story plans again | referred-to
+- order:
+- about: The user asks the model to re-review their story plans and produce a fresh analysis of logical contradictions that are orthogonal to and do not overlap with those already covered.

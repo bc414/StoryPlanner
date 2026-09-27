@@ -1,0 +1,6 @@
+- sources:
+  - the Aquileian paternalism confrontation, as "this" | the proposal just made, which the model is to connect the user's plot points to | "How does this tie into" | referred-to
+  - Applejack's realization in Pridea that Aquileia is not a monolith, with the FJA and all the Aquileian influences being only 40% of Aquileia | story-plan facts the author supplies, to be treated as settled and worked into the answer | "Aquileia is not a monolith" | first-named
+  - the scene back from Cloudbury where Gaudreau tells them to become a Republic and Twilight asks if Applejack was being conditioned | story-plan scene the author supplies, to be treated as settled and tied to the paternalism idea | "so you were conditioning Applejack to be president" | first-named
+- order:
+- about: The user asks the model to connect its proposed Aquileian-paternalism confrontation to two plot points they supply: Applejack learning in Pridea that Aquileia is not a monolith, and the Gaudreau and Twilight exchange after Cloudbury about conditioning Applejack to be president.

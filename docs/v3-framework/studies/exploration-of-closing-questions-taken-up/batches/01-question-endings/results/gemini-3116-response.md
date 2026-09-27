@@ -1,0 +1,7 @@
+- questions:
+  - When Applejack takes power in TLTT, how does the nuance she learned in the side story affect her statecraft: phased, compromised transitions for the old Canterlot elites, or does the war push her back to a rigid, uncompromising stance against the Poseurs? | partly answered | Does not choose between the two options or speak of the elites or policy. Does say her honesty element matures from wartime 'hard truth' to a mature statesmare at the end, which points to the nuanced outcome rather than a return to rigidity. | matures from 'hard truth' (war version of honesty) to the mature statesmare at the end
+- shape: The user confirms the model's reading and reframes it in their own terms. They say the small side-story beat, which they had planned as a minor detail, is the foundation of Applejack's whole honesty arc in TLTT. They also quietly correct the model on who Applejack's blunt advice concerned (Trenderhoof, not Spike). They do not take up the model's statecraft question directly.
+- settles:
+  - Applejack's honesty arc across TLTT runs from 'hard truth', a war version of honesty, to a mature statesmare at the end. | matures from 'hard truth' (war version of honesty) to the mature statesmare at the end
+  - The side-story beat, where Applejack tells Rarity to be blunt and then finds it hard when rejecting Trenderhoof, is the foundation of that maturation. | seems to be the foundation of Applejack's element maturing
+  - In the planned side story, the rejection Applejack finds hard is of Trenderhoof, not Spike. | when rejecting Trenderhoof

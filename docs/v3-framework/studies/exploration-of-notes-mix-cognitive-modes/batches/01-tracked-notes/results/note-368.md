@@ -1,0 +1,5 @@
+- claims:
+  - History | In an ambitious society such as Aquileia, political and economic friction is natural and produces negotiation, unions and progress | In an ambitious society (like Aquileia), political and economic friction is natural; it leads to negotiation, unions, and progress | no
+  - Canon | The Tree of Harmony, taken from the source material, is recast as treating all friction (Skyfall individualism, labor disputes, ambition) as a dangerous spark of Red Love, which makes it an algorithmic pacifier | the Tree of Harmony views all friction ... as a dangerous spark of Red Love | no
+- goals:
+- whole: The note opens a civilizational-impact entry on the Tree of Harmony as an "algorithmic pacification" technology, setting a society where friction drives progress against a Tree that reads all friction as dangerous, and it does not say what the reader should get from this.

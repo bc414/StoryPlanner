@@ -1,0 +1,4 @@
+- sources:
+  - the plot point about Trimmel setting up Chrysalis to sit on Celestia's throne and gloat after the statthalters' southern blitz failure | existing planned story beat the model should check the Chapter 12 reveal proposal against, to see whether the proposal weakens it | Does this detract from the plot point about Trimmel | referred-to
+- order:
+- about: The user asks whether the proposed early Krystallfels reveal undermines an already planned Trimmel and Chrysalis throne-gloating beat, and floats the idea that the protagonists might simply not believe Ahuizotl.

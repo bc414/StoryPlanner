@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the comment analysis and asks a new question: whether anyone online has written about using AI for fiction writing in the way they have been doing as of June 2026.

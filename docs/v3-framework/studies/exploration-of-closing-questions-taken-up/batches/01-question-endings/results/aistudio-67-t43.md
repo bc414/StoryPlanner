@@ -1,0 +1,5 @@
+- questions:
+  - How do New Mareland's working class react to Caramel Marks and Fire Angel's Communist Manifesto: reject it out of Skyfall Dream aspiration, or does it take hold in the slums and threaten a Baltimare-style uprising near Aquileia? | ignored | Nothing said about the working class, the Manifesto, or New Mareland's reaction; the user turns to a different topic. | none
+  - Does New Mareland view Applejack's Equestrian Republic as a liberator, or do the Tycoons see War Bonds and Unionized Labor as a socialist threat and secretly fund Gilded Trust's Ponies First movement? | ignored | Nothing said about Applejack, the Republic, the Tycoons, or Gilded Trust; the user asks a broader question about the timeline shift. | none
+- shape: Sets aside both of the model's questions and redirects to a new, broader question: what the story plans lose by making the Stagnation of Harmony a recent policy rather than a thousand-year one. It asks for an audit of costs and gives no decision.
+- settles:

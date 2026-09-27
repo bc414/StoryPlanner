@@ -1,0 +1,4 @@
+- sources:
+  - my backstory about Chrysalis running Skyfall shell companies | the material the model is asked to analyze; the author's own backstory, taken as given content to examine | Please analyze my backstory about Chrysalis running Skyfall shell companies | referred-to
+- order:
+- about: The user asks the model to analyze their own backstory in which Chrysalis runs Skyfall shell companies that recruit ambitious and craven Equestrians as CEOs and future wartime collaborators.

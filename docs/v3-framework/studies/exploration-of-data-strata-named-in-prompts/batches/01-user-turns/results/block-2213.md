@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's architect-versus-gardener framing by saying their heavy planning is itself gardening done before the prose, and starts describing their older workflow of mapping beats in a linear Google doc.

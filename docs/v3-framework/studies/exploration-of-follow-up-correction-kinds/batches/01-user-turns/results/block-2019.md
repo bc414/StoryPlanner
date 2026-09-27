@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves away from the Our Town filing question to explain how the story's ending changed from a Japan-style bombing of Vesalipolis to the love drop, and asks for a review and analysis of chapter 32 Grace.

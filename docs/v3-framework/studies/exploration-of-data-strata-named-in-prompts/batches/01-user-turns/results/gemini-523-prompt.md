@@ -1,0 +1,5 @@
+- sources:
+  - this story plan | the material to analyse; draw Fluttershy's development and role from it | in this story plan | referred-to
+  - her canon personality | the benchmark to compare the plan's Fluttershy against, to judge whether she fits | whether it fits her canon personality | referred-to
+- order:
+- about: The user asks for the same kind of analysis just given for Mali, now for Fluttershy, drawn from the story plan and checked against her canon personality.

@@ -1,0 +1,4 @@
+- sources:
+  - The lore | treat as established fact the new proposal has to fit with: Grover 3 was traumatized by his father's crusades | The lore says Grover 3 was traumatized by his father's crusades | referred-to
+- order:
+- about: The user takes the established lore about Grover 3's trauma and proposes a tentative backstory for him (child king, early-dead father, peace, printing press, scrubbed church records, late heir, an undisciplined Grover 4), asking the model whether it makes sense.

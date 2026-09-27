@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | Twilight's dependence on the valve monopoly is modeled on fabless chip designers like Nvidia and Apple depending on TSMC's monopoly on tooling | is like chip designers Nvidia/Apple and TSMC with the monopoly on tooling | yes
+- goals:
+- whole: The note names a real-world model, chip designers' reliance on TSMC's manufacturing monopoly, as the inspiration for Twilight's dependence on the valve monopoly behind the Luna Nova Rifle.

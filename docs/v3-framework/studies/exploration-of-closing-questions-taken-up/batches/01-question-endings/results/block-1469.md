@@ -1,0 +1,6 @@
+- questions:
+  - Should the model draft display questions and explanations for all 11 existing character tracks as the starting point for the exercise? | ignored | The user does not accept or decline the drafting offer. It disputes the premise of a fixed set of 11 existing tracks and asks for a different analysis. | none
+- shape: Corrects the model's framing: the tracks were not deferred elsewhere, so all 16 may hold meaning. It states a working rule, that two tracks collapse when their differentiating axis doesn't apply. It then asks for an analysis of whether first-principles reasoning can settle this without data. It sets aside the model's proposed next step.
+- settles:
+  - All 16 tracks can possibly hold meaning for a subject. The earlier idea that some tracks were deferred to other areas is dropped, following the realignment or removal of 'story thread'. | all 16 tracks can possibly hold meaning
+  - Two tracks can collapse into one for a given subject when the axis that distinguishes them does not apply to that subject, given the context of the other three axes. | two tracks can collapse into one if the axis that makes them differ doesn't apply

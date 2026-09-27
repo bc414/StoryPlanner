@@ -1,0 +1,4 @@
+- sources:
+  - the jaeger story | treat as the established account to answer from: hives formed from changelings sharing friendship and jaegers hunted to protect them from manticore-tier predators; use it to test whether non-jaeger changelings were thriving | "According to the jaeger story" | referred-to
+- order:
+- about: The user questions whether the previous turn's picture of pre-industrial drones as starving husks fits the jaeger story, in which hives began in friendship and were protected by hunters, and adds their own idea that jaegers turned on each other once the big predators were gone.

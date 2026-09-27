@@ -1,0 +1,13 @@
+- questions:
+  - How do the sheltered, xenophobic agrarian refugees react to taking orders from batponies (Tzinacatl) and former exiles on the seized factory floors, and does shared labor cure their xenophobia or cause severe friction? | ignored | none; the user turn never touches refugee reactions or xenophobia on the factory floor | none
+  - Who legally underwrites the Hearth's Warming Bonds that EEEE! issues to pay refugee labor in the seized factories? | ignored | none; the bonds and their backing are not mentioned | none
+  - If the Mayor refuses to recognize the bonds, does EEEE! become the de facto sovereign government of Manehattan, so that Applejack must retroactively federalize its debt when she founds the Republic? | ignored | none; nothing about the Mayor, sovereignty or Applejack's later federalization | none
+- shape: Does not answer the model's questions. It reacts to the model's Union/Guild/Syndicate framing: endorses the multi-factory branded structure as a mirror of Star Energy, keeps the elitist-Guild perception as thematically useful, and questions the word "Syndicate" (asks its origin and why it sounds like crime or mafia). It then hands the model a new task: analyze how the EEEE! rework enhances the Star Energy story and Harmonic Capitalism, with added facts about Comet Shine, the equipment mix and Star Energy's FJA ties.
+- settles:
+  - EEEE!'s structure of many worker-owned factories under one cool brand (Equestrian Equality, Empathy, and Education!) mirrors Star Energy Corporation beneath Comet Shine's cutie-mark logo, before the command economy | perfectly mirrors the actual reality of Star Energy Corporation
+  - Comet Shine's true nature stays hidden until Chapter 9, the buffalo and oil-worker town hall on redistributing Rockfeller's oil drills | true nature is withheld until Chapter 9
+  - The Machinists Guild is kept as perceived-elitist; this heightens Celestia's bias and hides the GR connection behind Aquileian aesthetics | Machinist Guild as perceived as elitist actually strengthens the story's themes
+  - For most of the war Henri and Fleur have Applejack and Twilight believing the GR is soulless Herzlander imperialists | Henri and Fleur have Applejack and Twilight believing the GR is Herzlander soulless imperialists
+  - Comet Shine popularized the exact term Harmonic Capitalism in Tall Tale, and it also describes how EEEE! runs | popularized the exact term "Harmonic Capitalism" in Tall Tale
+  - EEEE! uses both Aquileian PNdA and GR industrial equipment | EEEE uses both Aquileian PNdA and GR industrial equipment
+  - Star Energy is closely aligned with FJA terroir, chemistry and magical engineering | Star Energy is closely aligned with FJA terroir/chemistry/magical engineering

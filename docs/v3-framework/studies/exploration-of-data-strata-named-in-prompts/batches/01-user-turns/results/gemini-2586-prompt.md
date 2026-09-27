@@ -1,0 +1,7 @@
+- sources:
+  - my existing story plans | read and use to ground the answer before responding | Please review my existing story plans to ground the answer before responding | referred-to
+  - Coltbert's predator's dilemma paper | treat as an existing in-story document that Chrysalis could read and weaponize; the user proposes this as a plot move and asks whether it fits | should Chrysalis come up with this ultimate perversion after reading Coltbert's predator's dilemma paper | referred-to
+  - the Common Sense paper | treat as an existing in-story work of tyrannical economics that Coltbert's paper debunked | debunking the tyrannical economics of the Common Sense paper | referred-to
+  - computer/smartphone today, software, closed source, open source, free with ads/data collection | real-world tech as the model of comparison for the allegory; map the crystal, valve, canister and matrices onto it and use it to show closed vertical integration against open, ad-funded models with hidden costs | are the draining crystal/three way valve/canister equivalent to a computer/smartphone today and the swappable spell matrices are software | referred-to
+- order:
+- about: The user reacts to the model's asset-specificity analysis by proposing that Chrysalis weaponized Coltbert's paper, asks whether the Luna Nova hardware and matrices map onto smartphones and software, asks how to make that allegory land, and tells the model to review their story plans first.

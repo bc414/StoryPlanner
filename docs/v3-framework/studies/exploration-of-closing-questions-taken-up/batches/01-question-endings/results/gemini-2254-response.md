@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to do a test run of the Canon Consultant persona, pitching a raw story idea for the model to answer as that Gem would? | no user turn | none | none
+- shape: none
+- settles:

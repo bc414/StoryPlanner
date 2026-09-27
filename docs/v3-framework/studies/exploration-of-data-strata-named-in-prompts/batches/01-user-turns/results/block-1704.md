@@ -1,0 +1,7 @@
+- sources:
+  - 1848 German Revolution (the alliance of Iron and Rye, the forty-eighters fleeing to America) | the real model for the Long March and the GR's origin; treat as the actual basis, replacing the model's earlier analogy | I actually modelled the Long March more on the 1848 German Revolution | referred-to
+  - Taiwan or Singapore (the model's earlier analogy) | not the model for the GR's economics; keep only for the Long March's look and feel | I'm not really going with Taiwan or Singapore economically, only the long march aesthetic | referred-to
+  - the origin story I am using (the GR as self-selected republican idealists after the failed revolution, betrayed bourgeoisie, martial law, Markism inversion) | the author's settled story premise; the GR's adoption of codetermination and a social market economy follows from it | Based on the origin story I am using, it makes perfect sense | first-named
+- order:
+  - 1848 German Revolution over Taiwan or Singapore | the author says the Long March is modelled more on 1848, with Taiwan and Singapore used only for aesthetic | I actually modelled the Long March more on the 1848 German Revolution
+- about: The user corrects the model's Taiwan/Singapore reading of the Griffonian Republic's backstory by pointing to the 1848 German Revolution as the real model, and adds new plot ideas: New Deal laws in 978 provoke the bourgeois betrayal, and the GR later adopts codetermination and a social market economy.

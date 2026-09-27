@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general craft question about whether the point-of-view character should be the one who undergoes development while characters who show their virtues are only observed, or whether the matter is more nuanced, without pointing at any body of material.

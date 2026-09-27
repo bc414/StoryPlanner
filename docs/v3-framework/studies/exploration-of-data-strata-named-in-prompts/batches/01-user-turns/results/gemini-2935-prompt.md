@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's conflation of the medicinal friendship plants with the transport rafts and gives a new design direction for Mage Meadowbrook's plants as a generalized charitostatic-effect capture that underlies the Tree of Harmony.

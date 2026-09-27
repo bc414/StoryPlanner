@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short factual follow-up about whether the Meereenese Knot was resolved in the latest ASOIAF book, picking up the model's analogy without challenging anything it said.

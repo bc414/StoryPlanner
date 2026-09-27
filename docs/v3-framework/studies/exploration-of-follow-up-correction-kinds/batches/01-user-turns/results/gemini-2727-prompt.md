@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Pétain analysis to offer their own sketch of Reformation, Catholicism, Enlightenment and a new grassroots spirituality as a parallel, and asks for an analysis of it through the story's honesty-versus-poseurs framework.

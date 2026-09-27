@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to hear more about the real-world figures who inspired characters like Big Brother or Emmanuel Goldstein? | ignored | Says nothing to the offer and asks a different factual question about when Orwell wrote Animal Farm. | When did he write animal farm?
+- shape: Drops the model's offer and moves to a new, separate factual question about Orwell's other book, Animal Farm. It is a short follow-up lookup, not an answer to the offer.
+- settles:

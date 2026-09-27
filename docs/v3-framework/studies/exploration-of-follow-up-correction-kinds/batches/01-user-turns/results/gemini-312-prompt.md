@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Griffonian religion thread and offers new worldbuilding on how Twilight's crystal spell matrices let Fizzlepop cast despite her broken horn, explaining the mechanism by analogy to lithography and printed circuit boards, without disputing anything the model said.

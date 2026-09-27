@@ -1,0 +1,4 @@
+- claims:
+  - History | The Love Canister was invented by Chrysalis as a container for pink love and red love, which are extracted from victims by the love harvester | Invented by Chrysalis to store pink love and red love that are extracted from victims via the love harvester | no
+- goals:
+- whole: The note reports as in-world fact who invented the Love Canister and what it stores, and it does not say what characters use it for, what effect it has on the world, or what the reader should take from it.

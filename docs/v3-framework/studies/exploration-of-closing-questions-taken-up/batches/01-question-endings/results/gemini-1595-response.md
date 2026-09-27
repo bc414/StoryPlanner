@@ -1,0 +1,4 @@
+- questions:
+  - Whether to move on to refining the Dreamscape Aid mechanics now that the military context is locked in | no user turn | none | none
+- shape: none
+- settles:

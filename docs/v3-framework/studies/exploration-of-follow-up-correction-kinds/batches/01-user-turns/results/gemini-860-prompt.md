@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a new story detail, a magical telegraph between Star Energy devices at Applejack's mission and the Tall Tale lab, as the way the letters are delivered, with reasons of secrecy and contrast with the show's scrolls, and does not challenge anything in the model's analysis.

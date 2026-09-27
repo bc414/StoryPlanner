@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes an alternative version of the rescue scene in which Applejack is unhurt and idle in the trench when a scared, desperate Twilight arrives to take her to safety, and asks the model to consider it.

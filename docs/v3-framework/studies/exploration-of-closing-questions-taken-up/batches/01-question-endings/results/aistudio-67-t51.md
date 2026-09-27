@@ -1,0 +1,5 @@
+- questions:
+  - Does Twilight confront Celestia about why the unsanitized history was left out of the public School of Friendship curriculum, and does she realize her curriculum teaching Harmony as a default state perpetuates the Stagnation? | ignored | The user turn does not take up the question; it asks for a summary of the conversation instead. | none
+  - When Twilight Velvet admits she doesn't know the real world, does Rainbow Dash feel profound betrayal on learning that Daring Do was written by a sheltered Canterlot aristocrat? | ignored | The user turn does not touch this question; it asks for a summary of the conversation instead. | none
+- shape: Redirects away from the model's open questions and the current thread. The user asks for a summary of the whole conversation, tracking what changed, what should change in the story plan and why, and how those changes affect delivery of the themes. It is an instruction to consolidate and does not continue the design discussion.
+- settles:

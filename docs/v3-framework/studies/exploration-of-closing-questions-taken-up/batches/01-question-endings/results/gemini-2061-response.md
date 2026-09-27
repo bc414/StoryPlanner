@@ -1,0 +1,6 @@
+- questions:
+  - Should the model update the Phase 2 System Prompt to reference the new three-part root structure (SortedParadigms, AuthorialDirectives, Garbage) so the AI routes data into the correct JSON keys? | answered | Yes, by instruction: the user pastes the current system prompt and tells the model to modify it so it directs authorial directives and garbage to their own areas. The user adds a new requirement that the output preserve the order of the buckets it was given. | Now modify the below system instructions to include the directions for putting authorial directives and garbage in their respective areas
+- shape: The user accepts the offered next step and turns it into a direct editing instruction. They supply the full current system prompt as the text to revise and add one further requirement, that bucket order be preserved.
+- settles:
+  - The revised system prompt must tell the AI to put planning questions, meta-notes and to-do items in the Authorial Directives area, and prompt residue and noise in the Garbage area | include the directions for putting authorial directives and garbage in their respective areas
+  - The AI must preserve the order of the buckets it was given in its output | include a direction to preserve the order of the buckets it was given

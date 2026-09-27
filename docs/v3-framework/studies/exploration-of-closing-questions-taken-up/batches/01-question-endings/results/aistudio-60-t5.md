@@ -1,0 +1,8 @@
+- questions:
+  - When Ember enters the war and her dragons are slaughtered, how does Spike use his Quartermaster status to push her into accepting Combined Arms doctrine, given she sees him as an Equestrian pet? | ignored | Nothing about Ember, the war, or Combined Arms. The turn corrects Spike's nature and adds a crystal supply link. | none
+  - How does Spike's five years of knowledge of Aquileian smuggling and Ego-Capitalism change how he sees Applejack's Harmonic Republicanism when they reunite? | ignored | Nothing about Applejack, Aquileia, or the reunion. The crystal supply-chain point concerns Twilight's charity systems, not this. | none
+- shape: The turn corrects the model's premise, saying Spike has no dragon or apex-predator instincts. It then adds a new plot connection. It answers neither Socratic question and moves on to its own points.
+- settles:
+  - Spike has no dragon or apex-predator instincts. He was raised entirely in the nursery, and this is the point of Owl's Well That Ends Well and Dragon Quest: he doesn't have to be a brute just because he is a dragon. | Spike would not have any dragon instincts in him or apex predator instincts
+  - Twilight needs crystals from the Crystal Empire to power the systems she built for charity. | Twilight needs crystals from the crystal empire to power the systems she built for charity
+  - Spike is tied into organizing that crystal supply chain for Twilight. | Spike would naturally be tied into organizing that supply chain for her

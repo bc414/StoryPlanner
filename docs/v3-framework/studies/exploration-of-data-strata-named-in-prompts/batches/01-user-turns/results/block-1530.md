@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's assumption that they are about to write prose, saying they are still only expanding the story material, and points to no source of data.

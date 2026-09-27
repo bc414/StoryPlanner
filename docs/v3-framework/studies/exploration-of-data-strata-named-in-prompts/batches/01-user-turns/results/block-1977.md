@@ -1,0 +1,5 @@
+- sources:
+  - TLTT v2-subjects.md (the v2 instance's subject types) | material to be analyzed, subject types of the current v2 instance; no trust or priority over the other is stated | Here are my subject types across the v1 archive instance ... and the v2 instance | first-named
+  - TLTT v1 Archive-subjects.md (the v1 archive instance's subject types) | material to be analyzed; notes imported from v1 and only partly migrated into proper tracks, so treated as in mixed, in-transition states | imported from v1 and in various states related to migrating v1 notes into proper tracks | first-named
+- order:
+- about: The user attaches the subject-type files from their v1 archive instance and their v2 instance and asks the model for an analysis of them.

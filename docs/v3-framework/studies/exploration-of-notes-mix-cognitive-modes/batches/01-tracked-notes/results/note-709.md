@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-building fact about an in-universe organization) | The Baltimare Communist Party, and Baltimare with it, adheres strictly to the ideology Markism | Baltimare is strictly following Markism | outside
+- goals:
+- whole: The note states as a plain world-building fact that the Baltimare Communist Party, and Baltimare, adheres strictly to the doctrine of Markism, with no reader effect named.

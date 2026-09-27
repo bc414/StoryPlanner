@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shares their own views on recent Western betrayals of allies (SDF, Venezuela, Ukraine, Taiwan) and then asks a follow-up question about whether the model's willing-ally framing means the West can't help in Myanmar, Tigray, Palestine and Darfur.

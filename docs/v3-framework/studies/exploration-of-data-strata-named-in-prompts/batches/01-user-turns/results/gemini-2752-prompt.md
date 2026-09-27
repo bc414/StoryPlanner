@@ -1,0 +1,5 @@
+- sources:
+  - This .md file generated from my custom program and saved as a file on my desktop | the current export of the author's material, which the author wants kept up to date so the model works from the latest version | best way to keep it up to date | referred-to
+  - a google doc in your Gem Knowledge | proposed as a copy of the file attached to the Gem; the author is asking whether the model would read its latest version automatically or whether it has to be re-updated by hand | will you pull the latest version or I have to update it | first-named
+- order:
+- about: The user asks a practical question about how to keep their program-generated markdown file current for the Gem, and whether attaching it as a Google doc would let the model pull the latest version automatically.

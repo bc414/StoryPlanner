@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast Shining Armor and Cadance as the Old World, traditional monarchy and family unit, to whom Rarity's Aquileian phrase would be a foreign code needing a safe space. The user says they should be somewhat familiar with Aquileian culture, through Cadance's love and empathy role and time at the parloirs, and that this explains their more competent, adult-to-adult army. | Actually, I wonder if Shining Armor and Cadance should be somewhat familiar with Aquileian culture | tentative and hedged, put as a wondering about plausibility, with supporting reasons given, and a soft redirect rather than a stated disagreement
+- about: The user, opening with "Actually," proposes and argues for revising the world so that Shining Armor and Cadance know Aquileian culture, which implicitly departs from the model's framing of them as Old World figures, and asks whether that is plausible.

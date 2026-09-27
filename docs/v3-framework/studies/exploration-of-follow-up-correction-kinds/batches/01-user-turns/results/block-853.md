@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the industrial-history analysis and asks a new question: whether "Resilience", their own earlier-chosen name for an Element of Liberty, is the right opposite of Cynicism now that the failure mode is clearer, and what runner-up terms there are.

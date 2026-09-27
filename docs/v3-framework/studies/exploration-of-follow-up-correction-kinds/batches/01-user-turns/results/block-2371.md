@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's request for what the mockery actually targets, giving a short, hedged account that it is about nothing happening and the story's length.

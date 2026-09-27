@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's Aquileian fairy-tale reading and asks for the French word for lioness, planning to have Rarity say it in a later chapter so Applejack links it back to the Gala.

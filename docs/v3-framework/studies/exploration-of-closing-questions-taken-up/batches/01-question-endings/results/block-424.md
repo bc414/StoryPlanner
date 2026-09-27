@@ -1,0 +1,10 @@
+- questions:
+  - How do the Acornage 'parents', who are salaried employees, react on seeing the 20-year-old Queen bullied by 11-year-old griffons? Do they feel pity, or stay cynically detached? | ignored | none | none
+  - When Chrysalis drops the Krista Sterling facade in 978 ALB and buys the Gräfin von Krystallfels title, is she assimilating into the Herzlander elite or mocking their aristocracy with a fake title? | ignored | none | none
+- shape: Sets aside the model's three persona options and its questions. The user reframes the naming from a different angle, adding a layered account of changeling names: a native Xhosa-based name, an Equestrian idiom name, and a griffon name. It is worldbuilding that redirects and corrects the model's premise, and it answers neither Socratic question.
+- settles:
+  - Native changeling language is based on Xhosa | Native changeling language is based on Xhosa
+  - Chrysalis is not her original phonetic name. At Acornage the changelings dropped their old names for English idioms, and the parents first knew her by her native changeling name | So what if Chrysalis is not even her original phonetic name; changelings ditched their old names for English idioms; parents originally knew her by her native changeling name
+  - Chrysalis is her Equestrian name, chosen in the idiom paradigm. It means a pupa about to become a butterfly that dominates the world | She follows the Equestrian idiom paradigm and chose Chrysalis as her Equestrian name, a pupa who is about to become a butterfly
+  - Her griffon name is Krista, which must be a common German name and carries a hidden English parallel | She picked Krista as her griffon name (must be common German) but with the hidden benefit of the English parallel
+  - Krista is a commoner's name, used to blend in, deceive and misdirect. This takes the place of the model's Krista Sterling or Golder surname-and-money framing, and comes after the Chrysalis name is locked in | Once that is locked in she goes with Krista as a commoner's name to blend in and deceive and misdirect

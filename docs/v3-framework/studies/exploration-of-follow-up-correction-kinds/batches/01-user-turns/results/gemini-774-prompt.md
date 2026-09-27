@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new follow-up question, asking for English vowels in IPA and how they relate to the short and long vowels taught in school, without disputing anything in the previous answer.

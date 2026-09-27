@@ -1,0 +1,5 @@
+- sources:
+  - what I established (Star Swirl designed the Elements of Harmony to be wielded only by ponies with a healthy balance of pink and red love) | treat as settled canon of the author's own story; the model's account must conform to it | But I established that Star Swirl designed the elements of harmony | referred-to
+  - the author's own correction about why Celestia was locked out (she lost the ability to make genuine connections, not because she was pure pink) | treat as true and replace the model's explanation of the lockout | And actually, Celestia was locked out not because she was pure pink, but because she LOST the ability to make genuine connections | first-named
+- order:
+- about: The user corrects the model's previous account by restating what they had already established about how Star Swirl designed the Elements and by giving the actual reason Celestia was locked out.

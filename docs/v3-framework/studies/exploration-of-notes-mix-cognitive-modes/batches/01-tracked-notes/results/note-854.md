@@ -1,0 +1,4 @@
+- claims:
+  - History | Aquileia's weather and climate are diverse, owing to ocean wind dynamics and varied ecology, reported as a plain fact of the world's material conditions | Aquileia has diverse weather an climate thanks to ocean wind dynamics and varying ecology | no
+- goals:
+- whole: The note states as a world fact that Aquileia's diverse climate comes from ocean winds and varied ecology, giving one material condition behind the system, and it asks nothing of the reader.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a breakdown of how to optimize system instructions to maintain better context in a Chat prompt? | ignored | Says nothing to the offer; asks instead how to make prompts fully independent of past answers, which is the opposite of keeping context | none
+- shape: Redirects to a new question on the same topic. Having heard how context works in AI Studio, the user asks how to make each prompt stand alone with no carry-over from earlier answers. It is a request for how-to guidance about the tool, and it passes over the offered direction without comment.
+- settles:

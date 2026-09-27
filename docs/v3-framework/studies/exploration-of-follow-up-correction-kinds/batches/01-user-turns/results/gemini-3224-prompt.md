@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves off the RA3/Uprising analysis to lay out their own understanding of the Red Alert and Command & Conquer meta-timeline and asks a new set of questions about the actual storylines of RA1 and Tiberian Dawn and whether ore or ideology drives the conflict.

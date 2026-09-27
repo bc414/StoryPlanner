@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to explore how Celestia internally rationalizes or reacts to no longer being Applejack's moral compass in these chapters? | ignored | The user does not take up the offer. They ask a new question about Pétain's attachment to honest soil and peasant life, and how it ties to Leonce du Roc and to Applejack. | none
+- shape: Redirects to a new line of inquiry. The user asks a historical question about Pétain's peasant-soil ideology, then asks the model to link it to Leonce du Roc's hatred of the warlord elite and to Applejack's scaling of farm ethos into industrial military. It builds on the previous exchange without answering the model's offer.
+- settles:

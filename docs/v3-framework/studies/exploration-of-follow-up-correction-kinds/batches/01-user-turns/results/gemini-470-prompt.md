@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, having accepted the advice to map their own terms to academic frameworks, says they can't recall which frameworks besides MICE and Freytag were discussed earlier, asks for them to be reconstructed, and adds a tentative note that their phase model is a Freytag-plus-pacing hybrid.

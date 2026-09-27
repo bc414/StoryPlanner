@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's proposed replacement for the shaking (a blinding glare, infrasonic hum, and crushing psychological weight) went beyond what was needed; the user wants only a mild glow that scales with ambition | I think it doesn't need to be blinding. It just needs to glow mildly | flat, understated, a plain statement of preference with no apology
+  - fact of the world | The model treated the Idol's wrath as a physical or sensory effect that enforces fear (glare, hum, weight), whereas in the user's world the fear-inducing spectacle is Archon storytelling rather than a property of the Idol | The rest of the propaganda is Archon storytelling | flat, offered in passing as a brief closing clause
+- about: The user trims the model's dramatic glare-and-hum proposal back to a mild glow proportional to ambition and assigns the intimidating part to in-world Archon propaganda.

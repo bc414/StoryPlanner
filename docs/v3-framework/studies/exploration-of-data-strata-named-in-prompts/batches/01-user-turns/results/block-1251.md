@@ -1,0 +1,5 @@
+- sources:
+  - KU (the author's earlier story, its battles and omniscient narration) | treat as a different mode from TLTT: its italics-and-tags and omniscient narration came from having no fabula or prequel plan, and its battles were spectacle where Pokemon move creativity is the point; do not carry these over to TLTT | "In KU the battles were s spectacle like an action adventure story" | referred-to
+  - TLTT (the planned work) | treat as the governing design going forward: it will differ from KU, with one chosen focal character per battle and battles serving character arcs as crucibles rather than showcasing tactics | "This is going to be different in TLTT" | referred-to
+- order:
+- about: The author explains that KU's italics, thought tags and omniscient narration came from lacking a fabula or prequel plan, and says TLTT will differ, with a single chosen focal character per battle and battles that serve character arcs rather than spectacle.

@@ -1,0 +1,4 @@
+- sources:
+  - this notebook lm | read it to understand how the author reached where they are today, and use it as the basis for the analysis of the divide and public perception of AI for writing | Review this notebook lm to understand how I got to where I am today | first-named
+- order:
+- about: The user asks the model to review their NotebookLM notebook to understand their path to their present approach and to analyze how it relates to the divide in AI writing use and public perception of it.

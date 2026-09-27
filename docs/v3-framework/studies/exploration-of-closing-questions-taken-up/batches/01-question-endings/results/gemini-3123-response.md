@@ -1,0 +1,4 @@
+- questions:
+  - Which character's POV (Applejack's Luddite grounded view, Twilight's academic detachment, or another) is hardest to write for the TLTT geopolitics? | ignored | The user does not name any character. They give their own explanation for the head-hopping and ask a different question. | none
+- shape: Redirects. The user drops the model's question and offers their own diagnosis: in the earlier project they deleted their notes as they wrote prose, so they had nothing to track the gap between what a character knows and what is true in the world. They then ask the model whether a detailed TLTT world Bible in their WPF planner would make third-person limited more comfortable. The turn moves from craft advice to a question about their tooling and process.
+- settles:

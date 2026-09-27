@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's premise that Skyfall's submarines cut off the rubber and crystal supply, so that Equestria depends on outside trade to survive, is set aside, since both resources are in Equestria | The rubber and crystals are in Equestria, so that's not the issue | flat statement of fact, given with a brief reason and no apology, and made in passing before moving on
+  - your own name: choice of proposed item | The model's pick of sonobuoys as the essential Skyfall import is passed over in favour of centimetric radar for the cloud carriers around Vanhoover before the white peace | But I agree with centimatic radar for the cloud carrier | mild, stated as the user's own preference; there is no explicit rejection, and the user simply chooses radar and moves on
+- about: The user corrects the model's supply-line premise about rubber and crystals, settles on centimetric radar over sonobuoys, and asks for other essential non-submarine military components that must come from Skyfall.

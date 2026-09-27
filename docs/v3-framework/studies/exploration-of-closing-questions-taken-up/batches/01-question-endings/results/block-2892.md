@@ -1,0 +1,4 @@
+- questions:
+  - Does reading the Stagnation of Harmony as Unconditional dignity plus Stratified (a permanent, enforced ceiling on who can lead) feel right, which would fill the empty cell and make the two axes independent? | ignored | The user turn never says whether the Stagnation fits that cell. It offers a different structure: hierarchy itself might be the axis, with other things derived from it. | none
+- shape: Redirects. The user floats a tentative alternative framing, hierarchy as a primary axis with other axes derived from it. This turns the model's derivation worry around and doesn't respond to the Stagnation reading it asked about. It is a suggestion to explore, not a decision.
+- settles:

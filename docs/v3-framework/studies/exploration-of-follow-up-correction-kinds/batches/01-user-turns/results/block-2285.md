@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's framework analysis to a new question, asking which of the real-world examples raised in the chat already have implicit allegories in the story plan and which do not.

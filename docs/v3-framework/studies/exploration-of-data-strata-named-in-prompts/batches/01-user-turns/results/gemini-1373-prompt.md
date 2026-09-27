@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author adds a revision to their own story plan, saying Chrysalis's immediate goal shifted to humiliating the "nepo children" and that the occupation of Olenia restored her ego and made the war with Equestria inevitable, without pointing the model at any body of material.

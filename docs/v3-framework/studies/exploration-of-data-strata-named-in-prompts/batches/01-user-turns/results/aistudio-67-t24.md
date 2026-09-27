@@ -1,0 +1,11 @@
+- sources:
+  - canon FiM's current-day Everfree Forest border | treat as the fixed end-state that the new backstory has to explain: the border froze around 914-930 | "The current day border in canon FiM is where the border froze" | referred-to
+  - the canon story from Family Appreciation Day (Granny Smith and Stinkin' Rich founding Ponyville) | use as canon, the most recent settlement on the forest frontier | "Ponyville the most recent settlement by Granny Smith and Stinkin' Rich" | referred-to
+  - Grover III and Grover IV story (knights' children, industrial bans, sea monster hunting) | reuse as the precedent and template: same ambition calculation, Grover III's sea monster hunt as an alternative frontier | "the exact same calculation the children of Grover III's knights made" | referred-to
+  - the idea that Luna before her banishment cleared most monsters from Equestria | keep as settled, adjusted so the monsters were driven into a large Everfree Forest southeast of Canterlot | "I can still preserve the idea that Luna before her banishment cleared most monsters" | referred-to
+  - New Mareland as containment zone (with Friendship Seminars and the return-voyage foal care) | keep as the established containment mechanism, now also tied to sea monster hunting | "sent the uncompromising ponies to New Mareland as a containment zone" | referred-to
+  - the Griffonian Empire | use as the parallel for middle-ages Equestria | "a parallel with the Griffonian Empire" | referred-to
+  - the walled garden trope for middle-ages Equestria | drop; the author is moving away from it | "moving middle ages Equestria away from the walled garden trope" | referred-to
+  - the pre-914 Celestia the model has been describing (infantilizing, helicopter-parent) | treat as too strong and revise toward a cautious, hands-off Celestia who acts only on plain-faced harm | "It seems like she would still be cautious, just not infantilizing" | referred-to
+- order:
+- about: The author revises the pre-914 Equestrian timeline, arguing for a hands-off Celestia, a frontier that runs from Acornage and the buffalo lands to the Everfree Forest and New Mareland, and a shift away from the walled garden toward a Griffonian parallel, while asking how active Celestia should have been.

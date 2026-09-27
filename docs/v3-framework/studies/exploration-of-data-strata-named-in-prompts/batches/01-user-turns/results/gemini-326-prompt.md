@@ -1,0 +1,6 @@
+- sources:
+  - The crystal heart (the model's proposal in the previous turn) | Good idea and still usable, but no longer the main answer; kept as secondary | "The crystal heart is a good idea. I can still used it." | referred-to
+  - The answer the author had in mind (Chrysalis invented it: the love harvester) | Author's own answer from memory, to be taken as the better one and the one to go with | "the answer I had in mind is actually better: Chrysalis invented it" | first-named
+- order:
+  - The answer the author had in mind (Chrysalis invented the love harvester) | over the crystal heart | "is actually better"
+- about: The user accepts the model's Crystal Heart suggestion as still usable but replaces it as the main answer with their own planned one, that Chrysalis invented the love harvester.

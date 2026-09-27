@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches a Pokémon fanfic and asks where its inspiration comes from and how it compares to the earlier discussed works, adding their own mixed opinion of it, which is a new question rather than a correction of the model's report.

@@ -1,0 +1,6 @@
+- sources:
+  - Fleur Bloom's explanation of earth pony magic at the town hall (the Aquileian earth pony scientist) | treat as established in the story; earth pony magic already does the fertilizer chemistry, so it rules out the fertilizer option | Option 1 fertilizer doesn't work because earth pony magic IS a chemical reaction | first-named
+  - Comet Shine's backstory | treat as already taken; the tractor idea overlaps it, so it is not free for this company | it's already Comet Shine's backstory | referred-to
+  - the canon To Where and Back Again alt universe canning facility | use as the basis for the company in the canning option; the company can be that same facility | can be the exact canning facility featured in the canon To Where and Back Again alt universe | referred-to
+- order:
+- about: The user rejects the fertilizer option because it conflicts with their established earth pony magic explanation, sets aside the tractor option because Comet Shine already has it, and picks the canning option by tying it to a canon alt-universe facility.

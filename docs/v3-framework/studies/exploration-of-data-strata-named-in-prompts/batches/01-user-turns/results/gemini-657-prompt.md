@@ -1,0 +1,5 @@
+- sources:
+  - my original plan for the awake spell (it just wakes the target so the driver can wake the sleepers when combat is imminent, then rotate out to sleep) | treat as the author's intended design; the model's version departs from it and is what the author is measuring against | I was originally planning on the awake spell to just wake them up | first-named
+  - the awake spell keeping the target awake using external energy, as put in the model's previous answer | treat as a suggestion the author is doubtful about, seen as cheating with no bodily cost and not clearly good narratively; not accepted as settled | This seems like cheating that there's no harm to the body | referred-to
+- order:
+- about: The author pushes back on the model's reading of the awake spell as giving cost-free wakefulness, restates their original wake-only design tied to trust and harmony, and proposes a new twist in which Rainbow secretly has Starlight cast a fly-longer spell on her.

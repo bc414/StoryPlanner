@@ -1,0 +1,4 @@
+- sources:
+  - the conversations corpus | model is to also search it, in addition to the archive and working plan it already searched | Also look into the conversations corpus | referred-to
+- order:
+- about: The user asks the model to extend its search of the six-excitements analysis to include the conversations corpus.

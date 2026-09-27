@@ -1,0 +1,5 @@
+- sources:
+  - the setting's 1900-1940 era, as the author states it | treat as fixed; the ships must fit steel-hulled early twentieth-century naval technology, not sailing ships | This is 1900-1940 era, I'm imagining 1900s steel menaces, not 1600s caravels | referred-to
+  - the Dutch East Indiaman comparison from the model's previous answer | reject the cargo-carrying part for this era; escorts do not haul cargo, separate cargo ships do | I don't imagine the privateer/escort ships carry cargo like the Dutch east indiaman | referred-to
+- order:
+- about: The user corrects the model's Dutch East Indiaman framing by saying that in the 1900-1940 setting the escort/privateer ships would be steel warships escorting separate cargo ships, and asks what classes such as destroyers, cruisers and battleships they would be.

@@ -1,0 +1,11 @@
+- questions:
+  - Does Twilight, when repurposing harvested Dienst crystals for her teleportation network, cleanse or shatter the original matrix with the Charitostatic Effect, or overwrite the Skyfall signature with Applejack's resonance? | ignored | The turn never mentions Twilight, the teleportation network, or how the crystals get repurposed. | none
+  - Does Archon Eros use a state-mandated Dienst crystal in Reich factories, showing fascism and Anarcho-Capitalism share the same tools? | ignored | The turn never mentions Eros, the Reich, or a state version of the crystal. | none
+- shape: The user sets aside both Socratic questions. They correct and rework the model's bounty mechanic: bounties are for reclaiming machines, not for smashing factories, and they are modelled on feudal lords looting a vassal who won't pay tribute. They then add the resulting knock-on effects: black-market resale, rules for when bounties are issued, who works in the raided factories, and the injuries and deaths. The turn ends by putting a new question to the model about how this changes Chrysalis's seed-money accumulation for Krystalfels.
+- settles:
+  - Bounties on Dienst violators pay for reclaiming the machine, not for smashing a factory, and the payment is funded by the reclamation. The model is asked whether this came from the Pinkertons parallel. | bounties on dienst violators aren't a reward for smashing a factory
+  - The bounty structure parallels feudal lords looting a rebellious vassal who doesn't pay tribute, as Grover I and II did to the Aquileian lords. | feudal lords coming in to loot a rebellious vassal
+  - Bounty hunters also seize other machinery from the bountied factory and sell it on the black market. | grab whatever other machinery they can steal
+  - A company issues a bounty over stolen DRM-marked equipment only if the black-market buyer breaks the DRM. If the buyer pays to keep it running, the company doesn't care who pays. | only if the black market buyer breaks the DRM
+  - Injuries and deaths in raids are a side-effect, not the aim. Most workers flee when a raid comes. | Injuries and deaths are a side-effect
+  - Factories with many bounties and too little security lose their workers. Longtimers saving up or fighting drug addiction avoid them, and new Zebrican immigrants fill the gap. | new immigrants from Zebrica come in

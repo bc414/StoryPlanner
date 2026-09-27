@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the material the model is asked to review again, with the author's corrections here fixing how Arc 3 and its closing chapters are to be understood | Please review my story plans | referred-to
+- order:
+- about: The author asks the model to review their story plans again and corrects its reading of Arc 3, stating that it is an active war with the Reich versus the Republican Pact and that the election is the climax, followed by three resolution chapters.

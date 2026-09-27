@@ -1,0 +1,7 @@
+- claims:
+  - History | Sombra invented a reverse filtering spell | He invented a reverse filtering spell | yes
+  - History | The inhibitor crystals are black crystals that prevent magic and corrupt the land | the black crystals that prevent magic and corrupt the land | yes
+  - History | The crystals take the victim's magic and send it to Penumbra Spark, letting him cast more ambition-draining spells | take the victim's magic and sends it to Penumbra Spark, which allows him to cast more ambition draining spells | yes
+  - History | He placed black crystals first on all his peers and then on the crystal ponies | placing black crystals on all his peers and then crystal ponies | yes
+- goals:
+- whole: The note reports, as in-world history, how Sombra invented a reverse filtering spell and used inhibitor crystals to feed victims' magic to Penumbra Spark while spreading the crystals from his peers to the crystal ponies.

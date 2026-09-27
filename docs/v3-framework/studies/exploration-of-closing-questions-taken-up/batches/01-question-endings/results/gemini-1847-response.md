@@ -1,0 +1,7 @@
+- questions:
+  - What would you like to explore next? (open choice of direction) | answered | The user picks a direction of their own: how the system around the model, and the model itself, differed when ChatGPT first launched compared with now. It is not one of the listed options. | what was the state of that "cyborg" compared to cyborgs now
+  - Would you like to see leaked examples of real system prompts? | ignored | Nothing about system prompts or leaked examples. | none
+  - Would you like to know how jailbreaking works (the DAN exploit)? | ignored | Jailbreaking is not mentioned. | none
+  - Would you like to hear how vector databases let memory find relevant past conversation without re-reading everything? | ignored | Vector databases and embeddings are not taken up. | none
+- shape: Redirects. It skips the model's menu of follow-ups and asks a new question of its own, a historical comparison of early ChatGPT with current systems, built on the model's brain-in-a-vat and cyborg metaphor. It is a request for information and is not connected to any story.
+- settles:

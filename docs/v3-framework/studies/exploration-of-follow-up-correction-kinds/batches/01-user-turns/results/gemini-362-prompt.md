@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's offer of DTOs and AutoMapper profiles and asks for a similar set of model classes for their own Blazor app, "narrative loom", which is a new request and not a correction.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states a revised lineage of economic systems, running from Stagnation of Harmony through Comprador Economy and two branches to the Equestrian Republic, and asks the model to analyze the incremental flips between the stages and the reasons for them.

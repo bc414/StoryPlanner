@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reflects on why they prefer GitHub Copilot's hands-on style over agentic tools like Antigravity, Jules and Claude Code, and explains their work and free-time goals for using AI coding tools, without pointing the model at any body of material.

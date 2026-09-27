@@ -1,0 +1,5 @@
+- questions:
+  - After the war, does Star Energy Corporation launch a crash program to build domestic Equestrian tooling and break the Skyfall monopoly, or try to buy Kessler Dynamics outright? | no user turn | none | none
+  - When Celestia learns the miracle rifles are assembled with parts bought with drug money, how does that affect her Chapter 22 argument, and does she use it as proof that global trade is inherently corrupting? | no user turn | none | none
+- shape: none
+- settles:

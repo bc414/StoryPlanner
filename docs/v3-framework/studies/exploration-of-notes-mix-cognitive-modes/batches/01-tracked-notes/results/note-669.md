@@ -1,0 +1,6 @@
+- claims:
+  - Canon | The Cutie Remark is to be treated as not applicable in TLTT, because time travel would break the worldbuilding | TLTT has to treat The Cutie Remark as not applicable because time travel breaks the worldbuilding | yes
+  - Canon | In TLTT Starlight is caught at the end of The Cutie Map by Double Diamond and friends, rehabilitated on the spot and brought to Twilight's castle, which changes her canon path | Starlight is caught at the end of The Cutie Map by Double Diamond and friends; rehabilitated on the spot | yes
+  - Canon | The canon season-long revenge arc is not carried over, because the Hasbro mandate that required it does not apply to TLTT | There's no Hasbro Mandate requirement of a season-long revenge arc | yes
+- goals:
+- whole: The note sets out how TLTT departs from Starlight Glimmer's canon by dropping The Cutie Remark, rewriting her capture and rehabilitation at the end of The Cutie Map, and skipping the revenge arc that production requirements imposed on the show.

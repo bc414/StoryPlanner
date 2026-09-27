@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the cryptographic-stamp discussion to ask two fresh questions, the etymology of "piezoelectric" and what visual glow the Idol of Boreas should show in the presence of ambition (defined as magic from a living creature), without disputing anything the model said.

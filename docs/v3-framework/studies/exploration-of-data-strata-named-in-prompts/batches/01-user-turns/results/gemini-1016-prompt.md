@@ -1,0 +1,5 @@
+- sources:
+  - my story plan from chapter 17 Honor | review it and analyze it as the main subject, including the Celestia/Trimmel scene the user adds | Please review my story plan from chapter 17 Honor | referred-to
+  - chapter 6 Kindness | use as the comparison point; analyze how chapter 17 contrasts with it | analyze the contrast to chapter 6 Kindness | referred-to
+- order:
+- about: The user adds a detail about Applejack's uniform and new title in chapter 17 and asks the model to review the chapter 17 Honor plan and contrast it with chapter 6 Kindness.

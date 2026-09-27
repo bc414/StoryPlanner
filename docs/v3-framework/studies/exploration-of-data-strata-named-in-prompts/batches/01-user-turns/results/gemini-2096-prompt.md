@@ -1,0 +1,4 @@
+- sources:
+  - my sources on Aquileian history | model is told to review them and, by implication, draw on them for the idea being laid out | Please review my sources on Aquileian history | referred-to
+- order:
+- about: The user asks the model to review their Aquileian history sources and then lays out a new story idea in which the FJA trains reformed thugs as master chefs to culturally invade Skyfall, paralleling the PNdA's market dumping against Skyfall rivals who had backed the privateers that destroyed Aquileia's universities.

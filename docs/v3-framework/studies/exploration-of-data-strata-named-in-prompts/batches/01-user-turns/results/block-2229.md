@@ -1,0 +1,4 @@
+- sources:
+  - my own experience of learning to be a senior architect from AI, being competent but stagnant before AI | offered as first-hand personal testimony that the model should weigh against the scale evidence, a case of using AI to bootstrap learning that depends on mindset | I learned a lot about how to be a senior architect from AI | first-named
+- order:
+- about: The user pushes back on the model's pipeline-crisis picture by asking whether using AI to bootstrap one's own learning happens at scale, offering their own experience of growing from stagnant to senior-architect skill with AI as a data point that depends on mindset.

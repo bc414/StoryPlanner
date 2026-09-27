@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model cast the Pears as industrial and mercantile (the city/business half) versus agrarian Apples, and built Granny Smith's resentment, AJ's shame and Grand Pear's role on that split; the user says the plan makes both clans agrarian | I don't view the pears as industrial or mercantile. They are agrarian just like the apples | flat statement of the user's own view, then a brief reason (the feud is petty because the clans are alike), no apology or irritation
+- about: The user rejects the model's premise that the Pears are the industrial/mercantile side, stating that both clans are agrarian and that this similarity is what makes the feud petty.

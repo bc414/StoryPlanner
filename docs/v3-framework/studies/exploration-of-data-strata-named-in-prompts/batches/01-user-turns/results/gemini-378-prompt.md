@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets out their own premises about Aquileia's demographics and why Vérany's urban movement fails to appeal to ponies and rural griffons, then asks what else Coltbert's reforms would cover beyond land reform and how rural lords would be handled, without pointing at any body of material.

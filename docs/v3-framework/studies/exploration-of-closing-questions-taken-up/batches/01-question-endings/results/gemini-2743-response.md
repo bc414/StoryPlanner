@@ -1,0 +1,4 @@
+- questions:
+  - What are your thoughts on the Dipping Sonar mechanic (Tzinacatl echolocating through a lowered crystal pod from low-flying Pegasi craft, keeping them on the cloud carriers)? | no user turn | none | none
+- shape: none
+- settles:

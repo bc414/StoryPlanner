@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is giving a story revision: Luna's "Friendship is Combined Arms" line should also hint that Nightmare Moon can be avoided, and in ch 19 Twilight should answer Luna's revelation by saying Applejack will save her.

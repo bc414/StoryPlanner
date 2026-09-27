@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the scene analysis and asks a new, practical question about whether a Google Doc's full version history can be obtained for Gemini to analyze changes over time.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to brainstorm the dialogue for the Canterlot confrontation scene where Twilight refuses Celestia's order? | ignored | The user turn asks a general question about whether LLMs capture meaning and says nothing about the confrontation scene. | none
+- shape: Changes the subject to a general question about how language models work, unrelated to the story. It leaves the model's offer unanswered and does not react to the summary of Twilight's break from Celestia.
+- settles:

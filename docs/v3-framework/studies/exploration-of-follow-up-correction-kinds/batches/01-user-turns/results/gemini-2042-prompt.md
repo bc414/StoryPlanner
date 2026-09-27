@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user floats their own design for the relational axes, with separate buckets for each atomic side and one for their intersection, and asks the model whether that makes sense and whether each bucket should also carry both sides of the bridge, without saying the model's earlier advice was wrong.

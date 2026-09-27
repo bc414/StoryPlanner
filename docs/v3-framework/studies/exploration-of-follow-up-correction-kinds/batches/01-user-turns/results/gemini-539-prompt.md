@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds new backstory about how Chrysalis engineered the Stalliongrad revolution and it backfired, then asks when to reveal it and whether it could lead the Soviet council to refuse to run the gulags, so it extends the model's analysis without disputing it.

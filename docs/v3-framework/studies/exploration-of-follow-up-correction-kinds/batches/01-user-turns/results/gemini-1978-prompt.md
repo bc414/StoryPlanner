@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes refining the lathe into an intent-collecting and projecting machine, restates their view of griffon armor magic as alignment with the creator's ambition, and asks which WW2-era industrial processes and materials could carry magical intent vectors in the same way.

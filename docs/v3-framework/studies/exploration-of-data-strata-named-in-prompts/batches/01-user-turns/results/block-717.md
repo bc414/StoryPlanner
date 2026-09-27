@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes collapsing the data model into a single StoryEntity table with one view model and window, plus PlotPoint, PlotPointEntityLink and Notes tables, with configuration tables defining entity types and link types and their connection properties.

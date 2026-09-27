@@ -1,0 +1,5 @@
+- claims:
+  - History | Applejack's friends know that her parents live in Manehattan, a fact reported as established | Applejack's friends know her parents live in Manehattan | yes
+  - History | Her friends have never asked why the parents are there, and Applejack keeps silent on the subject, which they respect; reported as past-standing fact | but never ask why, respecting Applejack's silence on the matter | yes
+- goals:
+- whole: The note reports, as in-universe backstory fact, that Applejack's friends know her parents live in Manehattan and have never pressed her about it out of respect for her silence.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the alliance analysis and asks a new technical question about whether armor-piercing bullets need heavy steel and lead, and how modern bullets compare.

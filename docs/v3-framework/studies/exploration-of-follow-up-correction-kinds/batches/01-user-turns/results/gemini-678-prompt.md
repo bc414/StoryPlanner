@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model staged a face-to-face debate round in which Celestia attends and argues isolationism against Applejack, whereas the user pictures her invited and declining to attend | I envisioned Celestia being invited to the debate but choosing not to attend | put as the user's own vision, followed by a soft question asking whether it makes sense, with no explicit statement that the model was wrong
+  - reading of the request | The model built new stances, debate rounds and a winning majority instead of analysing the plot points the user has already set, especially the initial vote breakdown and how it progresses | Give me an analysis on my existing plot points of the initial vote breakdown and the progression | flat directive that redirects the model to the user's own material, with no reason given and no irritation
+- about: The user offers a different version of Celestia's role in the debate (invited but absent) and asks the model to analyse their existing vote-breakdown plot points rather than the ones the model invented.

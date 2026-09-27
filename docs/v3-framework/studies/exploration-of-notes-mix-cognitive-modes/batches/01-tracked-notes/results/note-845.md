@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | names the Inca/South American balsa raft as the real-world inspiration for the rubber rafts | Inspired by the Balsa Raft (Inca/South American) | yes
+  - Analogies | describes the real balsa rafts as massive, unsinkable, seagoing and river-capable vessels, documenting the real-world model's traits | These were not flimsy rafts. They were massive, unsinkable vessels made of balsa logs, capable of navigating both the ocean and rough rivers | yes
+  - Analogies | explains the real-world engineering principle, buoyant logs lashed together rather than a solid hull, so the raft flexes over rapids where a rigid boat would shatter | Because the logs are naturally buoyant and lashed together (rather than a solid hull), they flex over rapids | yes
+- goals:
+- whole: The note documents the historical balsa raft and its flexible lashed-log construction as the real-world model behind the fantasy rubber rafts.

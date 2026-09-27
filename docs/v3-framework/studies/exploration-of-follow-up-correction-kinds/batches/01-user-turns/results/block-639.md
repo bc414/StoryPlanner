@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's framing and moves on, asking it to work out what being a free-time, unpaid, serially published fanfiction writer with no editor changes compared to a professional novelist, and supplying four constraints for it to expand.

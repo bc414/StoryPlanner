@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn asks the model to summarize the conversation history, tracking the changes made and what should change in the story plan, why, and how that affects the delivery of themes, without disputing anything in the model's preceding turn.

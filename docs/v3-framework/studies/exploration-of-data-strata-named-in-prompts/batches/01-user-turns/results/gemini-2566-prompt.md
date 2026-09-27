@@ -1,0 +1,5 @@
+- sources:
+  - part 3 of Coltbert's game | the material to analyze; the model is to draw on what it establishes about the lionesses and how they dress and show their cutie marks | the lionesses of part 3 of Coltbert's game | referred-to
+  - the meaning of clothes in Aquileian society | the interpretive frame for the analysis; the model is to treat what is established about clothing's meaning as the context for reading the lionesses' choices | given the context of the meaning of clothes in Aquileian society | referred-to
+- order:
+- about: The user changes the subject from the FJA acronym and asks for an analysis of how the lionesses in part 3 of Coltbert's game dress and show off their cutie marks, read through what clothing means in Aquileian society.

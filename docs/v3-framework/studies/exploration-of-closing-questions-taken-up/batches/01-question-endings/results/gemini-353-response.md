@@ -1,0 +1,4 @@
+- questions:
+  - Does the framing of the protagonist as an awakened realist among sleepwalking people (creator vs. consumer, high-Red ambition in a Pink society) fit the vibe wanted for the protagonist? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sends an attached document and a compact JSON listing the same five paradigms and their bucket names, without consolidations or notes, apparently as input for the next step, with no stated disagreement with the model's sorting.

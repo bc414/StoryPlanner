@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the context-window discussion and asks a fresh, broader question about running local models on AMD hardware, plus a clarifying question on whether the Vulkan backend the model mentioned is the non-DirectX graphics library.

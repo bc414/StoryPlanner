@@ -1,0 +1,5 @@
+- sources:
+  - Tally Mark's talk about her cutie mark and her handling of tally sticks in Tall Tale during big harvests | treated as an existing part of the story plan; the model is asked to connect it to the Chrysalis scheme | Tally Mark talks about the meaning of her cutie mark and how she managed tally sticks in Tall Tale | referred-to
+  - Chrysalis's economic scheme | treated as an existing part of the story plan; the model is asked to tie it to the tally-stick material to explain the missing bits | connected to Chrysalis's economic scheme to explain what happened to all the bits | referred-to
+- order:
+- about: The user is checking whether two elements of their story plan, Tally Mark's tally-stick backstory and Chrysalis's economic scheme, can be linked to explain the missing bits and the ponies' honesty-based fix.

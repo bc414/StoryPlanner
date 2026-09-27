@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology) | The system enforces a strict gold standard with no debt creation through fractional banking and no interest profit | enforces a strict gold standard, with no debt creation via fractional banking and no interest profit | outside
+  - outside all ten (world-rule ontology) | The gold standard capped the Equestrian economy because the money supply followed metal, not productivity | effectively capped the Equestrian economy. The money supply was tied to metal, not productivity | outside
+- goals:
+- whole: The note states, as fact from the world-builder's own vantage, what the Stagnation of Harmony does: it holds the economy to a strict gold standard, and that caps growth because money follows metal and not productivity.

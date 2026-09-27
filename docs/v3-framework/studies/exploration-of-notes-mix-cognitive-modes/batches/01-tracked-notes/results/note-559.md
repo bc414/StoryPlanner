@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Rockfeller habitually uses mercenaries as a tool of intimidation against his own workers as well as against the buffalo | He uses mercenaries to threaten his workers too, not just the buffalo | no
+- goals:
+- whole: The note asserts a fact about Rockfeller's character, that his mercenaries threaten his workers as well as the buffalo, and says nothing about how his appearances are to be arranged or experienced in reading order.

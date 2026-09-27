@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | What the Republican Pact is: the model framed it as something whose payoff is an alliance against the Changelings, and the user says it is an alliance against Eros's Reich in Herzland, a threat to both Aquileia and Cloudbury | "To clarify, the Republican Pact is an alliance against Eros's Reich in Herzland" | stated flatly as a clarification, with the correct enemy and the reason it matters to both parties, no criticism of the model, and the user moves straight on
+- about: The user briefly fixes what the Republican Pact is aimed at, accepts the Aquileian aces idea and ties it to Rainbow Dash's backstory, asks whether the hippogriff commander's "animals" rhetoric should also come from Aquileia, and sketches their own picture of the Storm King's warlord army and the Mount Aris battle.

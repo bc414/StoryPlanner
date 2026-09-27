@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks follow-up factual questions about whether usage limits are explicit in Gemini CLI and Claude Code and whether Gemini CLI bundles software-engineering system instructions, without pointing the model at any body of material to use or avoid.

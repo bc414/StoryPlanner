@@ -1,0 +1,6 @@
+- questions:
+  - How would the user like Twilight to react to meeting Felix (assuming the success option)? | ignored | The turn does not mention Twilight or Felix; it turns to what the Celestia and Velvet detail explains about Equestria. | none
+  - Does meeting Felix help trigger Twilight's realization that she must shut down the School of Friendship and focus on material infrastructure? | ignored | Nothing is said about Twilight's realization or the School of Friendship. | none
+- shape: Redirects the conversation. It skips the Felix and Twilight questions and the success-or-failure choice for Felix. It takes up the Celestia and Velvet material from the model's first section and asks the model to develop it further, as an explanation for Equestria's unpreparedness. It is an instruction to explore, not an answer.
+- settles:
+  - Celestia's isolationism after Velvet's betrayal is the reason Equestria was unprepared even though it saw the threat coming. | This new detail about Celestia and Velvet can explain why Equestria was so unprepared despite seeing the threat

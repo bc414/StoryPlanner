@@ -1,0 +1,5 @@
+- sources:
+  - Hearth's Warming Eve (the holiday story as the show tells it) | treat as true that it has no big central villain, so the model should reason from that gap about what Chrysalis can be tied to | Hearth's Warming Eve doesn't have a big central villain | referred-to
+  - the framing (the Hearth's Warming Bonds rebranding just discussed in the conversation) | treat as the accepted premise to build on; the user adds a further consequence to it | the framing would paint the changelings as the windigos | referred-to
+- order:
+- about: The user proposes extending the just-discussed Hearth's Warming Bonds rebranding with a dark side effect, in which the holiday myth's lack of a central villain leads awakened Equestrians to see all changeling conscripts as windigos.

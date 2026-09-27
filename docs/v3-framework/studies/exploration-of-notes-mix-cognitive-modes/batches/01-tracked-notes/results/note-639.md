@@ -1,0 +1,5 @@
+- claims:
+  - History | The Acornage Changelings deliberately rendered the life forces as "love", a demure, innocent-sounding translation, and used it to assimilate | intentionally demure and innocent translation that the Acornage Changelings used to assimilate | no
+  - Canon | Chrysalis took up that innocent word and used it as misdirection during the Canterlot Wedding, recontextualizing the canon episode's talk of love | which Chrysalis weaponized as misdirection during Canterlot Wedding | no
+- goals:
+- whole: The note explains, as in-world fact and a recontextualization of canon, that calling changeling life forces "love" was a deliberately innocent cover the Acornage Changelings used to assimilate and that Chrysalis later exploited as misdirection at the Canterlot Wedding.

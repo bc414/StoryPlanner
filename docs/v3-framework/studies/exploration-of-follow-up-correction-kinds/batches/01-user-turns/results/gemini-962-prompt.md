@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the general history of debt to a new question, asking the model to check their story plan on whether Tally Mark's tally sticks get around Celestia's "bit standard", without saying anything in the previous answer was wrong.

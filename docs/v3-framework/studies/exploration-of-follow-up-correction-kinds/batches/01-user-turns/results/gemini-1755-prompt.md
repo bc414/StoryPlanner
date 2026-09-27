@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the analysis of Chrysalis's economic takeover to ask a new question about what real-life Nazi-era collaboration governments could offer as inspiration, without disputing anything in the model's answer.

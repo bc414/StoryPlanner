@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's economic analysis and its closing question and opens a new topic, asking whether Fluttershy would argue for harm reduction over prohibition and what purpose, theme and core meaning that would carry.

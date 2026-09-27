@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reports that the NotebookLM app's bottom navigation shows only the sources, chat and studio tabs, so they cannot find the notes option the model described.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model framed Vertex AI as a tool for producing story text (wilder plot twists, several versions of a scene, planning and writing novels on the credit), but the user wants it only for analysis of specific questions and ideas and for world-building help, with no story text generated | "I don't want it to generate text for the story at all" | flat statement of the intended use, stated as a preference with no apology, and the narrower scope given right after ("Only analyze...")
+- about: The user narrows what they want from the tool, ruling out any story-text generation and limiting it to analysis of particular questions and ideas and to world-building help, which corrects the generative slant of the model's pitch.

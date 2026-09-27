@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn sends a new YouTube link with no comment. It appears to ask for the same kind of summary again on a different video. It does not respond to the previous summary, and it does not correct it or add an instruction. It moves on to the next item.
+- settles:

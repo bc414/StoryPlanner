@@ -1,0 +1,5 @@
+- questions:
+  - Does the user prefer consumer web UIs for ideation, or have they moved fully to API-driven tools and Workspaces to enforce analytical behaviours? | partly answered | It never states a preference. It does reveal that the story bible is loaded in AI Studio (490,000 tokens) and that Claude is used through the consumer app, so both kinds of tool are in use. | for context, the story bible is 490,000 tokens in AI studio
+- shape: Sets the model's question aside and asks a new one: whether Gemini Pro with system instructions in AI Studio can close the gap with Claude Sonnet, and why or why not. It also pushes back on the model's account by asserting that Claude in the consumer app greps the context instead of reading it all, while Gemini ingests the whole bible. It grants that Gemini can still miss a needle in the haystack.
+- settles:
+  - The story bible is about 490,000 tokens and is held in AI Studio. | the story bible is 490,000 tokens in AI studio

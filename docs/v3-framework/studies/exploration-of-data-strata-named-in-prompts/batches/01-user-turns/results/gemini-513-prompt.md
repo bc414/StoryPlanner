@@ -1,0 +1,4 @@
+- sources:
+  - the passion chapter after the TwiJack reunion (AJ in the jungle, Twilight developing the rifle) | part of the story plan taken as the existing draft placement; the model is to judge whether Twilight's full break from Celestia there is too early, so it is treated as open to question rather than settled | Is it too early for Twilight to fully abandon Celestia by the passion chapter | referred-to
+- order:
+- about: The user asks the model to judge whether Twilight fully abandoning Celestia at the passion chapter after the TwiJack reunion is too early, and to say where Twilight disagrees with Celestia in the chapters that follow.

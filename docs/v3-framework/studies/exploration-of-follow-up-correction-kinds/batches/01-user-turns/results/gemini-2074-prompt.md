@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the "creative maverick" settings are what goes viral with general users while the consultant-style uses are for power users, extending the model's framing without disputing it.

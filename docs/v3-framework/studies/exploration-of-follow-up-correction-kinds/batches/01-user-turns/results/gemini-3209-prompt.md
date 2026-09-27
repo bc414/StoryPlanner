@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user states a preference against command line tools and asks whether the Claude desktop app can do the read-only history analysis, which is a follow-up question with a new constraint rather than a correction.

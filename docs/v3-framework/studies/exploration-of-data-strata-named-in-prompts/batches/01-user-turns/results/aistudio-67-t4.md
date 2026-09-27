@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user recalls a story beat in which Fluttershy confronts Celestia, proposes a hypothetical change (Celestia forming real peer bonds with thestral parlor operators during the dreamscape) and asks the model to work out its ramifications, without pointing to any body of material.

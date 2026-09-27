@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user clarifies a plot detail of the speech scene: Trimmel speaks mostly in Herzlander, with only a short closing passage in native changeling, which should be a traditional jaeger motto about protecting hives, family and friends from manticores or the equivalent.

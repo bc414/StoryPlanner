@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general factual question about what an oil refinery does, following the model's talk of refineries and fuel chemistry, without pointing at any source of data.

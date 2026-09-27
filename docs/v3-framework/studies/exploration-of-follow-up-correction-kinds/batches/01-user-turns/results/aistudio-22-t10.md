@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches two documents and gives the same four prioritized extraction filters (statecraft, coercion instruments, trauma and loyalty, species-class power) for each, moving on to a new extraction task without saying anything was wrong with the model's list of section titles.

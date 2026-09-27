@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Fluttershy is shown on the page saying that Celestia begged her to bring Twilight home, a spoken behavior the reader observes | Fluttershy says Celestia begged her to bring Twilight home | yes
+- goals:
+- whole: The note stages a single observable action on the page: Fluttershy tells Twilight's circle that Celestia begged her to bring Twilight home.

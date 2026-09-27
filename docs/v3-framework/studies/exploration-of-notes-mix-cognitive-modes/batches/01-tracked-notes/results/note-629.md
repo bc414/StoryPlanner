@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | She joined the Storm King early because she was persuaded by his rhetoric of uniting the continent against foreign slavers, a motive that shapes who she is | joined the Storm King early based on his rhetoric of uniting the continent against foreign slavers | yes
+  - Characterization | She believed that holding power was the only way to avoid being abused in a zero-sum, predator-eat-or-be-eaten environment, which is her core drive | felt being in charge was the only way to avoid being abused in a zero sum predator's dilemma environment | yes
+- goals:
+- whole: The note asserts, as psychological truth, what motivated Tempest Shadow to join the Storm King and the survival logic of power and abuse that she held at the start of the story.

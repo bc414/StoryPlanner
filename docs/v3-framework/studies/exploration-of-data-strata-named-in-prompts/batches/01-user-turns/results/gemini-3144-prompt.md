@@ -1,0 +1,6 @@
+- sources:
+  - story Bible | derived output of the planner rather than the underlying data; the user corrects the model's assumption that it is the file to work from | my story Bible is a generated artifact from my WPF custom story planner | referred-to
+  - sqlite database | the actual place where the story data lives, and the material the user wants the tool to work on | The data is actually represented in a sqlite database | first-named
+  - software architecture of the planner (its code) | not the thing the user wants analysed; the data is the target, not the code | not asking for analysis of the software architecture but rather the data itself | referred-to
+- order:
+- about: The user corrects the model's assumption by saying the story Bible is generated from a sqlite database, and asks whether that changes the advice and whether Claude Cowork rather than Claude Code suits working on the data itself rather than the code.

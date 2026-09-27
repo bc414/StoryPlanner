@@ -1,0 +1,6 @@
+- sources:
+  - Chrysalis does not own Skyfall's government, just companies there; Skyfall is not her subject | author's corrected story fact, to be taken as true and used as the premise for re-checking the mechanic | To clarify, Chrysalis does not own Skyfall's government | first-named
+  - The Marks are paper in Rockfeller's house, not in a bank in Skyfall | author's stated story fact about where the money is held, to be taken as true and applied to the mechanic | The Marks are paper in Rockfeller's house | first-named
+  - the extortion mechanic from the previous answer | provisional, to be re-tested against the two clarified facts to see whether it still holds | Does this still work? | referred-to
+- order:
+- about: The author corrects two story facts (Chrysalis owns only companies in Skyfall and not its government, and Rockfeller's Marks are physical paper at home rather than bank deposits) and asks whether the earlier currency-extortion explanation still holds.

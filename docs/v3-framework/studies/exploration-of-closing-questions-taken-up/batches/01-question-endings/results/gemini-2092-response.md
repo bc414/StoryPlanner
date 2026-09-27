@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an analysis of storefront versus food truck economics for a Mother Process startup, to see which breaks even faster in the current NJ market? | ignored | Says nothing about the offer and asks a new question about why diners and fast food were once the only suburban options. | none
+- shape: Redirects to a new follow-up question on the same topic. It asks whether menu breadth or other reasons explain the historical dominance of diners and fast food in the suburbs. It passes over the model's offer and settles nothing.
+- settles:

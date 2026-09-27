@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reacts to the account of the PATCO strike, remarks that they don't recall it from their US History class, and asks a follow-up factual question about what share of workers went on strike.

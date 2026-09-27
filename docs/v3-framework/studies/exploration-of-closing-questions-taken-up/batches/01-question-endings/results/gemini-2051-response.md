@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the React code for the Kanban board and the Character Coverage Tool now? | ignored | Says nothing about the React code and asks a new question about how the Sorter prompt defines atomic chunking. | none
+- shape: Redirects to a clarifying question about the Sorter prompt just delivered. It asks whether atomic chunking should be strictly one sentence per chunk, and it doesn't take up the offered React code.
+- settles:

@@ -1,0 +1,5 @@
+- claims:
+  - Canon | In the canon episode, crystal ponies regain color in their dull coats after hearing about the crystal faire, which the world law's biology is tied to | Example from the canon episode: the crystal ponies literally get color back to their dull coats after hearing about the crystal faire | yes
+  - Canon | The big blast at the crystal faire gives even non-crystal ponies the crystallization effect, extending the canon event to tie into the biology law | The big blast at the crystal faire makes even non crystal ponies get the crystalization effect | yes
+- goals:
+- whole: The note ties the Crystal Pony Biology law to two canon episode depictions, the color returning to crystal ponies and the faire blast crystallizing non-crystal ponies, as anchors the law must fit.

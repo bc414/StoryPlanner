@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the next batch of input for the sorting pipeline, an attached document and a fresh list of paradigms with bucket names, without commenting on or challenging the model's previous sorted output.

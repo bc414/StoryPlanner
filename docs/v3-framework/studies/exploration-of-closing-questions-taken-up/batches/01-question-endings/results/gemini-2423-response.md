@@ -1,0 +1,4 @@
+- questions:
+  - How does Manehattan or the early Equestrian military (Applejack) solve the coordination problem of ponies choosing jobs freely, so that needed work like artillery shells gets done? Via wage/price incentives, or via honest radio broadcasts stating needs | no user turn | none | none
+- shape: none
+- settles:

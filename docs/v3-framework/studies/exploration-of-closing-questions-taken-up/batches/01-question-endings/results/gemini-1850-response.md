@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a real-world example of Genetic Prompting, the generate, verify, evolve loop applied to make Gemini write better code? | ignored | The user turn never accepts or declines the offer. It restates the user's own takeaway and asks about paradigm shifts and formal terms. | none
+- shape: Redirects. The user restates the model's argument in their own words (synthesis across existing engines is enough to make new things within the rules). They then push back with a historical counterpoint, that paradigm-shifting new engines such as writing and code have appeared over 2000 years. They close with two new requests: formal terms for the concept, and examples. The offered next step is dropped in favour of a new line of inquiry.
+- settles:

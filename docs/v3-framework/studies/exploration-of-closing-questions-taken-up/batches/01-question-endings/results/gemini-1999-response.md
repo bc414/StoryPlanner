@@ -1,0 +1,5 @@
+- questions:
+  - Lock in the bounded JSON Schema (minItems 2, maxItems 4) for the Strategist? | partly answered | Takes up the bounded-array idea but won't accept 4 as the upper bound. Wants the maximum set from data, and supplies a complex sample of notes to test it against. | I want to set the upper bound based on data, not a guess on 4
+  - Move on to finalizing the System Instruction for Prompt 2 (The Sorter)? | ignored | Doesn't mention Prompt 2. The turn stays on the Strategist's bound and asks a new question about it. | none
+- shape: Redirects. It doesn't confirm the proposed schema. It supplies a large sample of its most complex notes and asks the model to work out how many distinct, low-overlap sorting strategies those notes support. That number is meant to decide the maxItems bound. The turn is a conversational and pipeline-design step, not a story decision.
+- settles:

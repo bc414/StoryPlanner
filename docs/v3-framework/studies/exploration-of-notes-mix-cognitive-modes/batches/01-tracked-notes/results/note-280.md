@@ -1,0 +1,7 @@
+- claims:
+  - History | VOPS actively feeds the Equestrian stab-in-the-back myth as an ongoing wartime practice | VOPS actively feeds the Equestrian "Stab-in-the-Back" myth | no
+  - History | VOPS broadcasts fake radio intercepts and drops leaflets thanking loyal friends within the pony ranks | They broadcast fake radio intercepts, drop leaflets thanking "our loyal friends within the pony ranks" | no
+  - History | VOPS deliberately leaves empty Changeling resin cocoons near Equestrian command tents as planted evidence | intentionally leave behind empty Changeling resin cocoons near Equestrian command tents | no
+  - History | Equestrian unicorns drain their magical reserves casting paranoid detection spells on their own comrades hourly, leaving them exhausted when the tank assaults come | Equestrian unicorns exhaust their magical reserves (Red Love) casting paranoid detection spells on their own comrades every hour | no
+- goals:
+- whole: The note reports as in-world fact how VOPS's deception campaign feeds Equestrian paranoia and drains its unicorns, and does not plan how the reader experiences it, despite sitting in a NarrativeArchitecture track.

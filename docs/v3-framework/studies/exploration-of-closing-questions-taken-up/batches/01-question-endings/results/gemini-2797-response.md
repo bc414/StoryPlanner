@@ -1,0 +1,6 @@
+- questions:
+  - How does Pridea's architecture reflect its large pony population, given that griffon cities are built vertically and that would disenfranchise earth ponies? | ignored | Nothing said about the city's architecture or its physical design. The turn moves to a separate premise about predators, herbivores and sentience. | none
+  - Do the 2nd Gen Royalists force a redesign of Pridea with ramps, elevators and ground-level promenades for their pony partners? | ignored | Nothing said about a redesign or about the 2nd Gen Royalists' role in shaping the city. | none
+- shape: Drops the model's architecture prompt and the demographic history without comment. Puts forward a new, more foundational premise about the emotional (love) basis of predator and herbivore psychology and of sentience and society. Asks the model to analyze that premise. The predator/herbivore half is put as a tentative question; the sentience claim is stated flatly.
+- settles:
+  - Offered as a premise for analysis rather than a closed decision: a creature is sentient, and capable of forming a society, only if it has both pink love and red love, not just one. This is what separates it from an animal. | Having both pink love and red love is what makes a creature sentient

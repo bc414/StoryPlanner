@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the model to explain how the Taft-Hartley Act of 1947 locked the US into the adversarial union model | ignored | The user neither accepts nor declines the offer. They ask their own question, checking whether legal frameworks, and not only cultural or moral failings, explain the American-European difference. | none
+- shape: The user turn restates the model's account in their own words and asks for confirmation: is the difference legal as well as cultural or moral? It is a new clarifying question, not a reply to the offered follow-up. It also pushes back on the culture-based explanation the user seems to have held before.
+- settles:

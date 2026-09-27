@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's Socratic questions and offers their own new material (New Horseleans as a refugee and black-market port, Aquileian refugees who grow bored of the Stagnation), then asks how Celestia and Grover III would handle the friction and whether Aquileia can be kept in the dark while their Aquileian backstory is preserved.

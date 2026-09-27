@@ -1,0 +1,4 @@
+- sources:
+  - my story plan | handed over for the model to read and use; no further weight stated | Here is my story plan | first-named
+- order:
+- about: The user hands the model their story plan, with no further instruction, after the model's analysis of the fanfics.

@@ -1,0 +1,4 @@
+- sources:
+  - The model's earlier account of the bully-to-plantation pipeline (that the bullied, antisocial drones are kidnapped and made into statthalters) | treat as wrong on this point and replace with the user's version: the emergent bullies are taken, not the bullied | One very crucial correction | referred-to
+- order:
+- about: The user corrects the model's account of the drone kindergarten pipeline, stating that the statthalter slavers take the emergent bullies rather than the bullied, and that this is structural determinism because every drone starts as a blank slate.

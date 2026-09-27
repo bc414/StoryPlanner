@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the model to write the final system instruction for Prompt 2, the Sorter, now? | ignored | Says nothing about the offer. It pastes the editor's JSON schema next to the earlier suggested schema and asks for an explanation of the differences. | none
+- shape: Redirects to a troubleshooting request. The user pastes the schema now in the editor, built from the visual declaration, beside the schema the model had earlier suggested, which gave an error. It asks the model to explain how the two differ. It carries an implied correction, since the model's earlier paste-in failed. It leaves the offer of the next prompt untouched.
+- settles:
+  - The working schema in the editor is a root object holding a SortingStrategy array. Each item is an object with MethodologyName, Reasoning, ObjectiveAchieved and an ExampleBuckets array of strings. All four fields are required and the property order is fixed. | Above is what is in the code editor, corresponding to my visual declaration

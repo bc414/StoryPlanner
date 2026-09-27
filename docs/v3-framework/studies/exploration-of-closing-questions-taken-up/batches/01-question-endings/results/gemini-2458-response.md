@@ -1,0 +1,8 @@
+- questions:
+  - Does this historical framework help solidify the tactical mechanics of the Mount Aris air battle for you?|answered|The user says "Got it" and restates the framework in their own terms. Against warlords armed with muskets, the armada flies too high and punctures wouldn't ignite it. Against fighter planes firing white phosphorus, the airships burn and fall into the ocean. This shows the framework has settled the mechanics for them.|Got it, so against other impoverished warlords... the moment they face fighter planes with white phosphorus
+- shape: The user confirms they understand and restates the model's explanation as their own summary of the battle. They swap in their own details: musket-armed warlords as the foil, and white phosphorus fighters as the incendiary counter. They also say the warlords burn and fall into the ocean. It works as a confirmation that adds detail, and it asks nothing new.
+- settles:
+  - The Storm King's rivals are impoverished warlords armed only with muskets, who can't reach his airships at their cruising height.|against other impoverished warlords, The Storm King's armada flies so high that musket can't reach
+  - Ordinary hits wouldn't ignite the armada's airships, so they are effectively invulnerable to the warlords.|even if they did puncture, it would not ignite
+  - The heroes' counter is fighter planes firing white phosphorus. This replaces the model's crystal-tipped bullets and incendiary rounds with a specific incendiary agent.|the moment they face fighter planes with white phosphorus
+  - In the Mount Aris battle the warlords' airships burn and fall into the ocean.|all the warlords start burning and falling into the ocean

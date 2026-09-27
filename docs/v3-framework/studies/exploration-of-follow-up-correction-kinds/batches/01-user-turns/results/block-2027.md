@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about a further audience segment, bronies and former bronies who have already got past the pony barrier, to extend the audience sizing, without saying anything in the model's analysis was wrong.

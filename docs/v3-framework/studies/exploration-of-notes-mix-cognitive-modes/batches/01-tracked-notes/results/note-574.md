@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | The Grover I and II eras of the system are modelled on Antiquity and Rome | Grover I and II = Antiquity/Rome | yes
+  - History | The system's legitimacy rested on slaying monsters, and it was nicknamed the Honest Racket | The "Honest Racket." Legitimacy via Monster Slaying | no
+  - History | The system was brutal but functional, because the threat it faced was external | It was brutal but functional because the threat was external | no
+- goals:
+- whole: The note records that the early Grover eras of Feudal Herzland are modelled on Antiquity and Rome, and adds a short in-world account of how the system drew legitimacy from monster slaying and worked because its threat was external.

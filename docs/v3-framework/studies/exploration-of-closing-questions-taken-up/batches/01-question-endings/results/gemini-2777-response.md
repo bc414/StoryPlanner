@@ -1,0 +1,6 @@
+- questions:
+  - What happens at the Town Hall that proves to Applejack and the others that she has powerful magic (a morale aura, a counter to a changeling spell, or something else)? | partly answered | It gives no event. It narrows what the magic is: earth pony magic, understood as phosphorus and potassium weathering, not the Liberty or leadership aura the model proposed. | I meant earth pony magic as in phosphorus and potassium weathering
+  - How does Twilight react to seeing Applejack manifest this magic? | ignored | Nothing about Twilight's reaction. The turn only corrects what kind of magic it is. | none
+- shape: A short correction. The user rejects the model's reading of Applejack's new magic as an emotional or leadership force (Liberty, morale). They restate it as earth pony magic in the materialist sense of mineral weathering, phosphorus and potassium. They do not take up the model's drafting prompts.
+- settles:
+  - The magic Applejack realizes she has at the Town Hall is earth pony magic grounded in phosphorus and potassium weathering. It is not a Liberty, leadership or charisma magic. | I meant earth pony magic as in phosphorus and potassium weathering

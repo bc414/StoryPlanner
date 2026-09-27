@@ -1,0 +1,5 @@
+- sources:
+  - Hasbro (the published show's version of Pinkie) | Drop its toxic positivity from Pinkie; the rest is not addressed | strip out the toxic positivity from Hasbro | referred-to
+  - Faust's emotional radar (the Faustian Intelligence trait discussed earlier) | Keep it as part of Pinkie's characterization in the chapter | keep Faust's emotional radar | referred-to
+- order:
+- about: The user checks their reading of the previous analysis by proposing that Pinkie's chapter 5 characterization can avoid a depressed husk by removing the show's toxic positivity and keeping her Faustian emotional radar.

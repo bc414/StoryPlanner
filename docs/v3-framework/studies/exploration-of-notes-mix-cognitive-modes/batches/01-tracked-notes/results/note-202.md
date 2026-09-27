@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten: world-rule ontology | Vivid coat, plumage, eye or carapace color in ponies, griffons and changelings is the visible sign of working life forces, friendship and magic | A pony's pastel coat color or griffon's plumage or changeling's eye color/carapace shine reflects the fact that they have working life forces | outside
+  - outside all ten: world-rule ontology | A victim drained of all friendship and magic goes gray and their mane deflates | If a victim has been drained of all their friendship and magic, they go gray and their mane deflates | outside
+  - Canon | Ties the drained-gray effect to the established show precedent of Pinkie Pie in the episode Party of One | just like Pinkie in Party of One | no
+- goals:
+- whole: The note states, as an invariant world law, that vivid coloration signals a living force of friendship and magic and that draining it turns a victim gray, anchoring the rule to the Party of One canon precedent.

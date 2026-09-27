@@ -1,0 +1,4 @@
+- sources:
+  - my lore about Skyfall's protection racket on shipping and Moriset Discret's grand Aquileian fleet led by Baron Dennis Discret | material for the model to review and analyze; the user's own lore, treated as the basis for the analysis | Please review my lore about Skyfall's protection racket on shipping | referred-to
+- order:
+- about: The user asks the model to review their existing lore on Skyfall's shipping protection racket and the Aquileian fleet under Baron Dennis Discret, and to analyze how Aquileian luxuries reach Skyfall, whether shipping companies and independent pier owners would allow the fleet to escort and dock given that capital has no loyalty.

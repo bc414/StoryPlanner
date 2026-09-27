@@ -1,0 +1,7 @@
+- claims:
+  - History | Henri and Fleur are in a friends-with-benefits arrangement and must keep it hidden from the Equestrians | They can't let the Equestrians know about their friends with benefits dynamic | no
+  - Canon | Equestrians in this telling do not understand sexual passion and equate it with being a predator | Equestrians literally do not understand sexual passion. It is equated with being a predator | no
+  - History | The two role-play as lion and eagle, and must avoid being caught at it by Applejack | can't let Applejack catch them role playing as lion and eagle | no
+  - Canon | Applejack would take them for predators like changelings if she saw the role play, drawing on the source material's changelings | AJ will think they're predators like changelings | no
+- goals:
+- whole: The note gives in-world reasons, drawn from Equestrian canon, why Henri and Fleur must hide their sexual relationship and role play from the Equestrians, and says nothing about how the reader is to experience it.

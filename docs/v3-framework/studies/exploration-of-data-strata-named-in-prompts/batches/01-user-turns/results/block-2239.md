@@ -1,0 +1,4 @@
+- sources:
+  - my story (Chrysalis's red love drug trade) | held up as a parallel for the model to compare the AI-investor subsidy pattern against; not something to check facts against | Just like Chrysalis's red love drug trade in my story | referred-to
+- order:
+- about: The user asks the model to confirm whether the extraction problem was a lie sold by venture capital, with investors subsidizing costs until usage-based billing could profit from dependency, and likens this to Chrysalis's red love drug trade in their story.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether established academic frameworks exist for classifying conflict type and how conflict is presented in stories, or whether these categories are simple enough to need none.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's Hasbro-mandate framing by asking whether it traces back to rent-seeking since the 1980s and 1991, and whether it forms the second half of the exploitation pairing that Chrysalis represents, which extends the thread without disputing anything.

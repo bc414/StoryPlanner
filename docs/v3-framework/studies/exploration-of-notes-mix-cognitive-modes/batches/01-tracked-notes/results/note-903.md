@@ -1,0 +1,4 @@
+- claims:
+  - History | Severyanan workers read the Manifesto and use it to justify slaughtering the industrializing Boyars, reported as an in-world event | When the Severyanan workers read the Manifesto, they use it to justify the slaughter of the industrializing Boyars | no
+- goals:
+- whole: The note reports, as a fact of the story world, how Severyanan workers use the Manifesto to justify killing the industrializing Boyars, without saying how the reader is to experience it.

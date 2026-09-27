@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks whether Mali should be present at the trench and lays out the without-Mali and with-Mali versions of the scene, including how Luna's metaphors and mist would lead into AJ's wine, her shed uniform and the bet, as a design choice to weigh rather than a repair of the analysis.

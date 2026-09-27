@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the love-as-magic discussion to ask for a plausible in-world explanation of why crystal ponies with an emotion sense could still fight effectively, offering their own tentative idea that hope and fraternity override fear.

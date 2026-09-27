@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (world-rule ontology) | Unicorn magic depends on the caster's belief in it; a unicorn who doesn't believe will have trouble casting | A unicorn who doesn't believe in their magic is going to have trouble casting | outside
+  - outside all ten (world-rule ontology) | Pegasus flight and cloud-moving depend on the pegasus wanting to fly; without that desire they struggle | a pegasus who doesn't want to fly will struggle to fly and move the clouds | outside
+  - outside all ten (world-rule ontology) | The same mental-state principle holds for earth pony slow-acting magic: without pride in their crops the magic fails and the crops don't grow | The same principle applies to earth ponies' slow acting magic. If they don't have pride in their crops, their magic is ineffective | outside
+- goals:
+- whole: The note states, as a flat law of the world, that each pony type's magic works only when the pony holds the matching inner state (belief, desire, pride), giving one example for each of the three types.

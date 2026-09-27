@@ -1,0 +1,8 @@
+- sources:
+  - scenes 9.15 to 9.22 (the v1 notes the user says are now pasted in) | material for the model to analyze, applying the analysis specified earlier | I have pasted in 9.15 to 9.22 | referred-to
+  - My notes as they are | treat as too macro and unrefined to design stakes, outcome or takeaways from, since new fundamental shifts could invalidate them; provisional | can't think about stakes or outcome | referred-to
+  - subject tracks and their link tracks | the working model to reason from and possibly copy for chapters; wide-spanning plans whose link tracks should sum to the subject track | subject tracks are wide spanning plans | referred-to
+  - plot points (as currently held in chapters) | uncertain permanence, may be invalidated or heavily rearranged; currently carry no payload on the chapter connection | not even sure how permanent | referred-to
+  - from memory (the author's own recall) | offered as a possible basis for writing plot points that are properly scoped, instead of deriving them from the notes | make the plot points from memory | first-named
+- order:
+- about: The user supplies the requested scene notes and asks for the earlier analysis, while explaining that their macro-level notes are too unstable to fix stakes and outcomes on, and asks for analysis of whether chapters should get payload-bearing links like subjects and whether plot points need a two-step design or should be rewritten from memory, asking the model to raise gaps rather than assume.

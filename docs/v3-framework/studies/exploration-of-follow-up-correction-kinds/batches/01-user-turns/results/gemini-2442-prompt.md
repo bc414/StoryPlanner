@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: After the model's error and refusal message, the user restates their request, giving the episode transcript link, asking for a backstory for Zecora's move from Zebrica to the Everfree Forest, and proposing links to Nightmare Moon's return or Chirropterra, without commenting on the failed reply.

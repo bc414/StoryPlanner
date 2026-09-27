@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the battle-scene discussion to a new task, asking for a few title options for the chapter being renumbered from 10 to 11, informed by the existing details of chapters 10-12 and their position after the new "Conscience" chapter.

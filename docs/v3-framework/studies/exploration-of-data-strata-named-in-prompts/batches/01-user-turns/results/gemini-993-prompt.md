@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author approves the dream-contrast idea and corrects the prior analysis by stating their own plot decisions: Bauleiters may resign, Trimmel stays loyal to Chrysalis until surrender, and he turns fully only after the enemy's mercy and the news of Thranx's killing.

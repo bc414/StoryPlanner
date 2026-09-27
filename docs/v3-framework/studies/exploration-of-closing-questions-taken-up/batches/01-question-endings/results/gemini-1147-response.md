@@ -1,0 +1,4 @@
+- questions:
+  - Next step: should we work through the dialogue beats of the barracks Choice scene, or look at how Henri reacts to the radio call? | no user turn | none | none
+- shape: none
+- settles:

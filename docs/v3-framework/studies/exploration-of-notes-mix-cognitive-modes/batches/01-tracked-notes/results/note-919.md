@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Comet Shine's basic personality comes across as an insufferable businessman | insufferable businessman energy | yes
+  - Canon | Comet Shine's manner of speaking is tied to the established canon characters Flim and Flam, using them as the voice model | He talks just like Flim and Flam | no
+- goals:
+- whole: The note sketches Comet Shine's starting personality as an insufferable businessman type and anchors his speech to the canon salesmen Flim and Flam.

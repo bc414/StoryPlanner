@@ -1,0 +1,5 @@
+- sources:
+  - my story plans / the story plan | the author's own plan, which they say already hints at the answer; the model is to review it, analyze it and point out other elements in it | "my story plans already hint at this" and "Review the story plan" | referred-to
+  - Lauren Faust's themes | the thematic basis the story plan builds on, in grown-up form; the author offers it as part of the answer | "Lauren Faust's themes but grown up versions" | referred-to
+- order:
+- about: The user answers the model's closing question by saying their story plans already address it through economic integration, universal translators and grown-up Faust themes, and asks the model to review the story plan, analyze it and point out other elements in it.

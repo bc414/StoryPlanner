@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of the ending, where friends harvest by hand and magic is shown as tainting the harvest, leaves out or conflicts with Twilight using a spell to harvest a whole field at once, and with how Applejack reacts to it | What is this asks about Twilight's mass-harvest spell in the ending scene and Applejack's reaction to it | Implied, as a direct question that assumes the scene, with no stated disagreement, no reason and no apology
+- about: The user asks what Applejack does when Twilight uses a spell to harvest a whole field in the ending, which tests the model's analysis of magic and the ending against that scene without saying it is wrong.

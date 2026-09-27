@@ -1,0 +1,10 @@
+- sources:
+  - The Princess and the Kaiser(1).txt (P&K, full text) | read and analyze, but only the portions about Twilight, Applejack, Rainbow Dash, Rarity, Fluttershy and Pinkie Pie, to judge whether they descend from the Hasbro Mandate versions | I'm uploading the full text of P&K and Pax Chrysalia. Selectively analyze only the parts about | first-named
+  - Pax Chrysalia(1).txt (Pax Chrysalia, full text) | read and analyze, but only the portions about the six named characters, to judge whether they descend from the Hasbro Mandate versions | I'm uploading the full text of P&K and Pax Chrysalia. Selectively analyze only the parts about | first-named
+  - Piece by Piece | treat as the story under test: the model's earlier claim that it does the Faust level is to be examined, not taken as settled | if Piece by Piece is really doing the Faust level | referred-to
+  - Hasbro Mandate versions | the baseline the characters are compared against, to see whether the two uploaded stories descend from it | whether these two stories are decending from the Hasbro Mandate versions | referred-to
+  - Faust level / Faust version | the standard the characters are measured against, and what TLTT is aiming for | is really doing the Faust level | referred-to
+  - the model's training data | use it first for the Faust vs Hasbro differences, but treat it as possibly not detailed enough | If your training data is not high fidelity enough | referred-to
+  - a search on Faust vs Hasbro differences and nuances | use as supplementary grounding if training data falls short | also search the Faust vs Hasbro differences and nuances to ground the analysis | first-named
+- order:
+- about: The user uploads the full texts of two other stories and asks the model to analyze only their treatment of the Mane 6, judging whether they descend from Hasbro-Mandate characterization and whether Piece by Piece really reaches the Faust level, with a web search as fallback if the model's own knowledge is too thin, to inform the user's own approach.

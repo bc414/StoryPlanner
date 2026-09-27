@@ -1,0 +1,4 @@
+- sources:
+  - my personal use experience with AI tools | the author's own hands-on background, offered as what qualifies them to be the first trial user and set expectations; context for the model's advice, not something to check or override | I already have experience from personal use | first-named
+- order:
+- about: The user applies the model's three-faction framing to their own workplace, where they are the first Copilot pilot user, and asks whether they must set the cultural expectations so the company moves from stagnation to cooperation rather than extraction.

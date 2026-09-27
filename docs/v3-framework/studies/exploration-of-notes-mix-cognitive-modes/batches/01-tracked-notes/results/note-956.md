@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Henri and Fleur each respect the other's work ethic, a mutual trait that forms the basis of their bond | Mutual respect for work ethic | yes
+- goals:
+- whole: The note asserts, as a fact about the two characters, that their bond rests on each respecting the other's work ethic.

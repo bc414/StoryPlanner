@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether Gemini Pro handles looping better than Flash, taking the model's loop diagnosis as given and moving on without disputing anything in it.

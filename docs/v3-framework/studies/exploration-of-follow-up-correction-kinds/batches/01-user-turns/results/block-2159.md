@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: overstated strength of the name-to-Scootaloo link | the model presented the Alouette 'lou' echo and the Trottelou trottinette chain as strong, airtight Easter eggs; the user says Alouette barely carries the username link and Trottelou may not reach scooter or the Scootableu parallel | 'doesn't closely have the easter egg' and 'may not exactly work to reach the Scootableu parallel' | mild and conceding, hedged with 'may or may not' and 'that's okay', folded into stating a preference rather than argued
+- about: The user asks for the full Alouette song lyrics and how they apply, while stating they prefer Alouette for the character, playing down the Easter egg links the model stressed, and adding their own reasoning about royalist bureaucrat parents and on-the-nose French names.

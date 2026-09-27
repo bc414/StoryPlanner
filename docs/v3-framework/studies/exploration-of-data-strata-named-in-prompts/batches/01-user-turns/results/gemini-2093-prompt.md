@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether diners and fast food dominated suburban restaurant options because of menu breadth or other reasons, without pointing to any body of material for the model to use.

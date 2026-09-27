@@ -1,0 +1,5 @@
+- questions:
+  - Does Shining Armor give Twilight the Aquileian books because he suspects Celestia's Stagnation is leaving Equestria scientifically defenseless against the Changeling buildup? | no user turn | none | none
+  - When Fleur explains the chemistry of pride, does Twilight realize that Celestia's Stagnation of Harmony has been stunting Equestrian magical potential for 1,000 years? | no user turn | none | none
+- shape: none
+- settles:

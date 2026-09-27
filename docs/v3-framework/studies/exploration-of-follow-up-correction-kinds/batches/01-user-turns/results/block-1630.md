@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user brings a concrete v1 note about crystal ponies and asks which track its canon-episode example belongs in, or whether a new track is needed, which extends the track-boundary discussion without disputing anything the model said.

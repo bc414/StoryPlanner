@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's Stage 3B classification by noting that Poland is the only large example, then asks for other large cases, how Poland managed its post-Soviet path and the refugee burden, how Czechia compares, and whether early America could count as 3B.

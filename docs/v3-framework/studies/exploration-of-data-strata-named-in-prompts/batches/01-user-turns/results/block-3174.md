@@ -1,0 +1,4 @@
+- sources:
+  - the genealogy and oral-tradition analysis just given in the conversation ("this") | treat as the premise to build on; the model is to work out its effect on the imposter-syndrome thread | How does this enhance her imposter syndrome | referred-to
+- order:
+- about: The user asks the model to extend the just-developed Applejack genealogy analysis by explaining how it strengthens her imposter syndrome as a narrative driver.

@@ -1,0 +1,4 @@
+- questions:
+  - Does this distinction (standardized/one-size-fits-all Herzland vs. specialized/custom-fit Aquileia) make sense for the Cold War setup? | no user turn | none | none
+- shape: none
+- settles:

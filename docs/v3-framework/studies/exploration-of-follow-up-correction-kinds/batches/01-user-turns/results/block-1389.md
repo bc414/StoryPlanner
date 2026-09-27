@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new comparison, asking about the Kdrama City Hunter as the first Korean drama they watched, without challenging anything the model said about Itaewon Class or the story.

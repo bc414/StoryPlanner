@@ -1,0 +1,6 @@
+- sources:
+  - Chapter 3 (Applejack stepping up to be a proper general) | use as a parallel for how Grover VI is pushed into a role whether he likes it or not | This mirrors how Applejack had to step up be a proper general in Chapter 3 | referred-to
+  - the author's theme that democracy isn't the source of morality but a privilege earned by industrial capacity and maintained | the analysis should fit with it | This should go hand in hand with my theme | referred-to
+  - standard democracy tropes (anyone can be president, royalty become private citizens) | treat as the convention to subvert, not follow | This should be a subversion of typical "democracy tropes" | referred-to
+- order:
+- about: The user asks the model to analyze teenage Grover VI's psychology and role as a supporter of Sunglider in the new Republic, framed as a subversion of democracy tropes, tied to an earlier chapter's Applejack parallel and to the author's theme about democracy as an earned privilege.

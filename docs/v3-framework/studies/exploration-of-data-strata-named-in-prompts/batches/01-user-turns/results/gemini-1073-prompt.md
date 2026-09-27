@@ -1,0 +1,4 @@
+- sources:
+  - EEEE's acronym (what it stands for, a pony worker and thestral alliance) | treat as established story detail and the basis for judging whether EEEE would align with the harmonic salons | Given what their acronym stands for. It's a pony worker and thestral alliance | referred-to
+- order:
+- about: The author proposes that Rarity was already a salon designer before the war, so EEEE members already know her, and asks whether EEEE's worker-and-thestral alliance identity means it fully backs the harmonic Aquileian-style salons.

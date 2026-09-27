@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of Henri's role and moves on to ask what role Mali plays now, as a new question.

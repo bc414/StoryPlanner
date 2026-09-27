@@ -1,0 +1,5 @@
+- sources:
+  - what I established (Applejack does NOT take the bait; cold military logic; group plans the Bluebell River spearhead) | treat as settled canon that corrects the model's assumption about how Applejack reacts | Actually, I established that Applejack does NOT take the bait | referred-to
+  - Chapter 12 Crash and Chapter 16 Combined Arms | existing chapters of the plan, used as the frame for a proposed restructuring of Applejack's reasoning; the new arrangement is offered as a suggestion, not settled | So how about, Applejack accuses Ahuizotl of being defeatist and cowardly in Chapter 12 Crash, but in Chapter 16 Combined Arms | referred-to
+- order:
+- about: The user corrects the model's assumption about Applejack's response to the bait by restating what they already established, and proposes a Chapter 12 to Chapter 16 arc in which Applejack dismisses Ahuizotl and later recalls his testimony, with Blueblood's approval, to reject the bait.

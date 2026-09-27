@@ -1,0 +1,6 @@
+- questions:
+  - Is the v1 subject content in Google Drive, or mainly in the v2 SQLite database? | ignored | Says nothing about where the v1 content is stored. It goes straight to how the notes should be written and how Gemini is used. | none
+- shape: Pushes back on the proposed workflow. It rejects the idea of AI-drafted notes that the user only reviews, and gives two constraints: the notes are in the user's own author-to-self voice, and Gemini is for inspiration only. It leaves the model's question unanswered.
+- settles:
+  - The notes are to be written in the author's own author-to-self voice, not drafted by an AI | the notes need to be written in my author to self voice
+  - Gemini is used only for inspiration, never to supply answers or draft the notes, which rules out the draft-and-review migration workflow | I only use Gemini for inspiration, not answers

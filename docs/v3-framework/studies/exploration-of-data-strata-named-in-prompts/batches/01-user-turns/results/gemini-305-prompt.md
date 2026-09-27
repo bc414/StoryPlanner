@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author lays out new plot and backstory material for a side plot and for the mentor figures Coltbert and Gaudreau, showing how Aquileia, the changelings and Equestria are intertwined, and does not point the model at any body of source material.

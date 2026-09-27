@@ -1,0 +1,5 @@
+- questions:
+  - How does Twilight and Applejack's realization that Celestia is a fallible, traumatized pony mirror the audience's need to stop relying on a single Great Creator or Leader and turn to horizontal solidarity? | ignored | Nothing said to it; the user turn moves to a different subject. | none
+  - How can Applejack rhetorically dismantle the idea that empathy is weak in the debate with Gilded Trust without validating his premise that strength comes from dominance? | ignored | Nothing said to it; the user turn asks about another work instead. | none
+- shape: The user turn drops the model's suggested lines of expansion and redirects to a new comparative topic. It asks why ASOIAF arrives at its grimdark thesis, whether that comes from Martin's life, and how it differs from the user's own meta-narrative. It is a fresh information request, not a reply to the model's questions.
+- settles:

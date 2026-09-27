@@ -1,0 +1,6 @@
+- questions:
+  - How does permanent industrial infrastructure like derricks and pipelines threaten the Buffalo's nomadic magic, and how would they adapt the Stomping Rituals to a partly industrialized prairie? | ignored | none | none
+  - Does Twilight, on seeing the Buffalo's balance without weather factories or grid-farming, come to see the Everfree Forest as the only remaining unforced natural ecosystem in Equestria rather than a magical anomaly? | ignored | none | none
+- shape: Corrects the model on one detail of its own proposal. The model wrote that the Buffalo don't speak to animals like a fairy tale. The user says they do talk to animals as Fluttershy does in canon, but through nonverbal body-language understanding and not literal comprehension of sounds. It doesn't answer the two questions and moves on without addressing them.
+- settles:
+  - Buffalo communicate with animals in a fairy-tale way like canon Fluttershy, but as nonverbal understanding through body language, not literal comprehension of animal sounds | I do imagine the buffalo talk to animals like how Fluttershy does in canon FiM

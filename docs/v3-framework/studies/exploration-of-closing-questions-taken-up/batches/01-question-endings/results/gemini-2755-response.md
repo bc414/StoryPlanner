@@ -1,0 +1,6 @@
+- questions:
+  - Is building the automated Google Drive/Docs API pipeline the best use of the user's time right now, or does it distract from writing the lore? | no user turn | none | none
+  - Does the user want the model to outline the C# steps to get the Drive API running? | no user turn | none | none
+  - Which front to advance on: build the API pipeline, or stay with the .md setup and manual Sync and start analyzing Applejack's Lion of Verdun arc or Twilight's logistical failures? | no user turn | none | none
+- shape: none
+- settles:

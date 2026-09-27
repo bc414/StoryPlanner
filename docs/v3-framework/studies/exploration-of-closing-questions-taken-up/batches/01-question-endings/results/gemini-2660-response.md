@@ -1,0 +1,4 @@
+- questions:
+  - Does making flight a caloric nightmare help the user structure the specific aerial engagements between the Wonderbolts (agile pegasi using thermals) and the Griffon aces (heavy interceptors relying on muscle and engines)? | no user turn | none | none
+- shape: none
+- settles:

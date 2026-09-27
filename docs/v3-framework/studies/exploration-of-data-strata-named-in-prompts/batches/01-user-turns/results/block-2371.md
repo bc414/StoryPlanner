@@ -1,0 +1,4 @@
+- sources:
+  - the author's own recollection of what the mockery says | offered as a tentative answer to the model's question; treat as the author's best guess from memory, not confirmed content | I think it's about saying nothing happens and it's so long | first-named
+- order:
+- about: The user gives a brief, hedged answer from memory to the model's question about what the mockery targets, saying it is about nothing happening and the story's length.

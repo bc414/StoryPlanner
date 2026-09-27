@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user lays out their personal chronology of games and writing, from early RTS through Pokemon, Civilization 5, EU4, Pokemon fiction, The Princess and the Kaiser and Equestria at War, to TLTT, then asks the model to confirm that their method traces back to the beginning and adds a comparison of the Scrin faction to Amon as seeds of the corporate mandate.

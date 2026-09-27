@@ -1,0 +1,7 @@
+- sources:
+  - the earlier setup (Pinkie depressed, Fluttershy bringing her to Sugarcube Corner to bake for the changeling POWs and handing her pink love canisters), including the "where did you get that" line | treat as outdated, no longer valid as a basis for the reveal setup | "kind of outdated. That setup assumed Pinkie was still depressed" | referred-to
+  - the new setup (Pinkie already peppy and resilient) | treat as the current premise the new reveal setup must fit | "in the new setup, Pinkie is already peppy and resilient" | referred-to
+  - the R&D kitchen scene and the secret-ingredient part of the plan | treat as provisional, an idea to be reshaped: only mention the kitchen and hold the ingredient back from the audience until the Celestia moment | "How about if the R&D kitchen is only mentioned, not shown in detail" | referred-to
+- order:
+  - the new setup over the earlier setup | the earlier one is called outdated and the new one is what the answer must fit
+- about: The user proposes keeping the R&D kitchen offscreen and saving the secret-ingredient reveal for the Celestia scene, and asks for a new way to set up "from my rifle, duh!" now that the old depressed-Pinkie setup no longer holds.

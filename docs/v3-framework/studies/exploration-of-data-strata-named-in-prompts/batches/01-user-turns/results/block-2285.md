@@ -1,0 +1,5 @@
+- sources:
+  - the real world examples identified in this chat | the set of items to be sorted; the model is to check each against the story plan | Of all the real world examples identified in this chat | referred-to
+  - the story plan | the body to check against, to find which examples already have implicit allegories in it and which do not yet | already have allegories in the story plan implicitly | referred-to
+- order:
+- about: The user asks the model to sort the real-world examples raised earlier in the conversation into those the story plan already allegorizes implicitly and those it does not yet.

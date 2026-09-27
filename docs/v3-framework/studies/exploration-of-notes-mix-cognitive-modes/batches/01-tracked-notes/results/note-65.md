@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Minette's coat is dove gray, which reflects her original name Souris (Mouse) | She has a dove gray coat which reflects her original name, Souris (Mouse) | yes
+  - Characterization | Her mane, tail and magic are scarlet/burgundy | a scarlet/burgundy mane and tail, with scarlet/burgundy magic | yes
+  - Characterization | She grooms her coat until it is sleek and metallic like a needle, a habit of self-presentation | She grooms her coat to shine sleek and metallic like a needle | yes
+  - Characterization | Her cutie mark is a metallic needle with a scarlet spiraling thread | Her cutie mark is a metalic needle with a scarlet spiraling thread | yes
+- goals:
+- whole: The note asserts as fact Minette's starting-point appearance and self-presentation (coat, name-linked coloring, scarlet mane, tail and magic, needle-like grooming, needle-and-thread cutie mark) with no stated reader effect.

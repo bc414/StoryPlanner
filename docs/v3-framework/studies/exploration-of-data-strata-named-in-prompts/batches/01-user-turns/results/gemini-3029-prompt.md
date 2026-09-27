@@ -1,0 +1,4 @@
+- sources:
+  - YouTube video at the youtu.be link (44JBZwAsfJI) | material handed over to be worked on, presumably in the same way as the previous video; the turn states no instruction beyond supplying it | Https://youtu.be/44JBZwAsfJI | first-named
+- order:
+- about: The user sends only a new YouTube link, with no wording, so the video is the material for the model to process next.

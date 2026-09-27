@@ -1,0 +1,7 @@
+- questions:
+  - Does Applejack ever consciously connect what Discord did to her (her 'I couldn't handle the truth so I started lying' diagnosis) to her stance at the machine gun, as an interior scene, or does it stay implicit for the reader to build? | ignored | The user turn only tells the model to read an attached instructions file and carry it out. It says nothing about this. | none
+  - Does Standard Agricultural Amalgamated survive into the war, and does Applejack meet it again and have to reckon with what her parents built? | ignored | Nothing on SAA or the war economy. The turn only points to the attached file. | none
+  - What does recovery look like for a changeling biochemically trained to extract love rather than exchange it, and what is the mechanism of Fluttershy's rehabilitation? | ignored | The turn does not take up the rehabilitation mechanism. It only points to the attached instructions. | none
+  - Is there a direct scene between Celestia and Fluttershy about the POW camp, or is the parallel left structural? | ignored | The turn does not mention Celestia, Fluttershy or the camp. It only says to read and execute the attachment. | none
+- shape: The user turn sets aside the model's analysis and gap list and hands over an attached instruction file (ANALYSIS-PROMPT-claudeai.md) with the order to read it in full and execute it. It gives no reaction to the analysis and no story content of its own. It changes the task and gives an instruction. The attachment's contents are not visible, so what it asks for is unknown.
+- settles:

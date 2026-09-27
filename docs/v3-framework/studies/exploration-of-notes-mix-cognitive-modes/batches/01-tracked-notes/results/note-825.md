@@ -1,0 +1,4 @@
+- claims:
+  - History | The Temberik are warriors who cut themselves off from others as a result of Luna's banishment, reported as a fact of the world | They are the warriors who self-isolated after Luna's banishment | yes
+- goals:
+- whole: The note reports in-universe that the Temberik organization consists of warriors who self-isolated after Luna's banishment.

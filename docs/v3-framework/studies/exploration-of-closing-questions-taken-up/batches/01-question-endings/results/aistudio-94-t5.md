@@ -1,0 +1,5 @@
+- questions:
+  - How does Fleur process the failure of her diagnostic equipment on Pinkie's mane, and does she accuse Pinkie of hiding a teleportation spell matrix? | ignored | Says nothing about Fleur's equipment or her reaction; moves to a different point about the cutie map. | none
+  - How does Celestia react to Fleur trying to quantify and dissect Pinkie's cartoon physics, and does she see it as a Griffon-style corruption? | ignored | Doesn't address Celestia's reaction to Fleur's dissection; asks only about Celestia's own worldview cracking from the cake. | none
+- shape: Redirects to a new question of its own. The user leaves the model's Socratic questions alone and asks whether a specific plot mechanism makes sense: the cutie map reactivating because Celestia's worldview cracks after eating the cake and Pinkie reveals it contains red love. It is a proposal put up for the model to check, not an answer.
+- settles:

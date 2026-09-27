@@ -1,0 +1,5 @@
+- questions:
+  - Donor fatigue: how does the Republic keep community infrastructure like water filtration running once post-war zeal fades, without forcing donations and breaking the Anti-Commodification Law? | ignored | Nothing said about donor fatigue or voluntary magic donations; the turn moves to a real-world Georgist question about TSMC. | none
+  - Circumvention: how do Skyfall cartels try to get around the wall between magic and fiat, e.g. a black market in smuggled Love Canisters, with Applejack's Cute Intelligence Agency deployed against corporate magic-traffickers? | ignored | Nothing said about Skyfall, black markets, or the CIA; the turn is about how Georgism treats TSMC. | none
+- shape: Drops the story's setting and both of the model's questions, and moves to a real-world policy question about how a Georgist system treats a deserved, IP-backed monopoly like TSMC. The user reasons toward a tentative answer and asks the model to confirm it. No story-world content is addressed.
+- settles:

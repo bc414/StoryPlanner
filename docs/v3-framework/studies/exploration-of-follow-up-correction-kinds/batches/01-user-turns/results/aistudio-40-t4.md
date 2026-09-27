@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's analysis by supplying their own account of Fleur's motive, in which she wants to leave the farm because she is bad at farming, her parents give her books to keep her occupied, and reading Coltbert shows her she lacks pride in the farm but loves science.

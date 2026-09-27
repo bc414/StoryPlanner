@@ -1,0 +1,9 @@
+- questions:
+  - Gap 1: does 'separate windows' mean two side-by-side instances of the library or Definitions panel (needs UI code), or just opening individual CommonWindows per subject (already possible)? | ignored | none | none
+  - Gap 2: is a 'Legacy' SubjectDefinition group enough visual separation, or is a harder boundary needed? | ignored | none | none
+  - Gap 3: leave old plot points untouched in the legacy layer and build new ones in clean, or reuse the existing plot point records and correct them in place? | refused | Doesn't choose. Says the prior question is what a plot point is. Notes only that it used plot points as summaries to revise later, and that they began as a single note before becoming scene level. | "I think I really need to drill down on what makes a plot point a plot point"
+  - Gap 4: is the user willing to write a small SQL script copying chapters and plot points (titles and ordering only) into clean, or would they rather create them by hand as they reach them? | ignored | none | none
+  - Gap 5: where do the prose fragments in v1 live: synopsis fields, character analysis notes, or elsewhere? | ignored | Asks the model to analyze existing v1 notes to see what went into them, rather than saying where the prose fragments are. | none
+  - Gap 6: will subject consolidations be found lazily as the user works, or via a full consolidation audit first? | ignored | none | none
+- shape: Redirects away from the model's migration and separation gaps to a more basic question: what a plot point is. It asks for a first-principles analysis grounded in the existing subject and plot-point-link design, plus an analysis of v1 note examples. It also tells the model to ask clarifying questions instead of assuming. It answers none of the six gaps and gives only background on how plot points were used before.
+- settles:

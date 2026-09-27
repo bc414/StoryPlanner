@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | Plans the reader's impression of Comet Shine as desperate to be liked, preachy and inauthentic | It should feel like Comet Shine is desperate to be liked, like he is preachy and inauthentic | yes
+  - Characterization | Asserts as true of the character that he is desperate to sound like a pony of the people, while in fact he genuinely is one | He is desperate to sound like a pony of the people (even though he really is) | no
+- goals:
+  - The reader feels Comet Shine is desperate to be liked, preachy and inauthentic | NarrativeArchitecture | It should feel like Comet Shine is desperate to be liked, like he is preachy and inauthentic
+- whole: The note sets the reader's intended impression of Comet Shine as a desperate, preachy, inauthentic-seeming figure, and adds the underlying truth that he really is a pony of the people.

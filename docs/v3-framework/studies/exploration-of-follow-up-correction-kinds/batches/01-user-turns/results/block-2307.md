@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's survey of traditions and the Victorian framework and generalizes it into a broader historical question, asking whether the Victorian architects were ultimately driven by aristocratic contempt and colonial extraction.

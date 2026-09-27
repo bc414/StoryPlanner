@@ -1,0 +1,4 @@
+- claims:
+  - History | Henri visited each pony family whose property he had vandalized, a past event reported as fact | He went to every pony family that he vandalized | no
+- goals:
+- whole: The note reports, as a plain past fact of the world, that Henri visited every pony family he had vandalized, without staging it on the page or stating any reader effect.

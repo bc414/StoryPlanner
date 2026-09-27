@@ -1,0 +1,5 @@
+- questions:
+  - Were the Tzinacatl and Thestrals integrated participants in the Frontier Era who were marginalized by the lockdown, or always isolated in the jungle because of their link to Nightmare Moon? | ignored | Says nothing about the Tzinacatl or Thestrals. | none
+  - Does Twilight, on finding the hidden textbooks in her lab (Chapter 17), realize Celestia erased the progress made under Grover III, and how does that realization of censorship shape her final break from Celestia? | ignored | Does not mention Twilight, the textbooks or the break. It asks about Celestia's arc in the main story instead. | none
+- shape: Redirects. It skips both of the model's questions and asks a new one of its own: how the revised timeline, in which Celestia only began suppressing ambition after 914 to brake a golden age, plays out in her trajectory during the main story of the novel. It takes the revised timeline as its premise.
+- settles:

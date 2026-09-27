@@ -1,0 +1,4 @@
+- sources:
+  - this new premise, perhaps instinctual before but explicit meta narrative now | treated as accepted and now foundational to the story plan; it settles the worry about foreign influences and makes them essential | makes it all essential | referred-to
+- order:
+- about: The user accepts the premise just developed as the explicit meta-narrative of the story, saying it resolves their worry that foreign influences distract from Equestria, and frames the Mane 6 as growing from kid-friendly themes into adult versions, with Faust's original personalities as the good foreign influence against Hasbro's mandate.

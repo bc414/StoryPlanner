@@ -1,0 +1,6 @@
+- sources:
+  - chapter 1 | treat as established story fact and the basis for the argument: Applejack starts despondent and suicidal after failing the captured ponies | she was down in the dumps in chapter 1, ready to throw her life away at a machine gun | referred-to
+  - chapter 2 and 3 | treat as established story fact: the point where Applejack decides to take responsibility again | in chapter 2 and 3 she decided to suck it up, and take up responsibility again | referred-to
+  - chapters 5-10 | treat as established story fact: the stretch where Applejack learns generalship from Trimmel and governance through the Rockfeller and Temberik events | she spent chapters 5-10 learning how to actually be a general (Trimmel's tactics) and a governor | referred-to
+- order:
+- about: The author corrects the model's reading of the "us" line, restates what they meant by pointing to earlier chapters of the plan as the basis, and asks whether the corrected version makes sense and supports the themes.

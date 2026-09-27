@@ -1,0 +1,4 @@
+- sources:
+  - my lore in the attached notebook | use as the basis for redoing the analysis; the analysis should refer to it | referring to my lore in the attached notebook | first-named
+- order:
+- about: The user asks the model to redo its previous analysis of their worldbuilding revisions, this time grounding it in the lore contained in an attached notebook.

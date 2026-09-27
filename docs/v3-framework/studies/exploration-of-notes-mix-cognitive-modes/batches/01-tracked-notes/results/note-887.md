@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world ontology, a god-mode statement of how the system is structured | Every village in Ancient Equestria was self-sustaining because each held all three tribes, and monsters roamed the land between villages | all the villages were self sustaining with all three tribes, and monsters roamed in between | outside
+- goals:
+- whole: The note states in one line the basic structure of the ancient system: each village was self-sufficient with all three tribes, and monsters lived in the spaces between villages.

@@ -1,0 +1,6 @@
+- sources:
+  - the values I filled in / my currently selected ones (the axis values assigned to civ systems) | treat as high-confidence, high-signal; analyze these; empty values are uncertain or neutral, not errors | those are the values I'm pretty certain of | referred-to
+  - the notes of the system (notes on the civilizational systems) | compare the selected values against them | compare to the notes of the system | referred-to
+  - the conversation about it (the political axes deliberation, arguments and deliberations) | use as the benchmark to assess how the assignments stack up against its arguments | how my assignments stack up to the arguments and deliberations in the conversation | referred-to
+- order:
+- about: The user clarifies that their filled-in axis values are high-confidence while blanks mean uncertainty or neutrality, and asks the model to analyze those selections against the civ system notes and against the arguments in the earlier axes conversation.

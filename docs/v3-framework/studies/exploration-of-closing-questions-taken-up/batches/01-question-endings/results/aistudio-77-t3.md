@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack's free indirect discourse in 1011 ALB tell apart the disorganized, performative brutality of the Zebrican warlords from the cold, industrial efficiency of Trimmel's Panzers, given her 1006 ALB sense of cowardice? | no user turn | none | none
+  - How do Twilight's prose delivery and internal monologue show her shift from seeing magic as a mystical tool for harmony to seeing it as a thermodynamic resource under material constraints? | no user turn | none | none
+- shape: none
+- settles:

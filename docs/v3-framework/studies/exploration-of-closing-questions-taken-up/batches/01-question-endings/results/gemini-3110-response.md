@@ -1,0 +1,5 @@
+- questions:
+  - How does Celestia's eventual realization of the damage her Nursery-style rule caused shape her role during the Great War? | ignored | Nothing on Celestia or the Great War. The turn moves on to a different episode. | none
+  - Does Celestia willingly give up her absolute power to Applejack's Republic because she sees that being a god keeps her from being a true leader? | ignored | Not addressed. The turn asks for analysis of another episode and says nothing about Celestia's surrender or the Republic. | none
+- shape: Redirects to the next item. It drops the model's follow-up and asks the model to analyze the user's framing of the next episode, Secret of My Excess. It's a short instruction that moves the conversation on and adds no story content.
+- settles:

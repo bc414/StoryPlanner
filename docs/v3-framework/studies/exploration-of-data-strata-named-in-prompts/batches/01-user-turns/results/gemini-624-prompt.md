@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general language question about the difference between the spellings "jaeger" and "jäger", without pointing the model at any body of material.

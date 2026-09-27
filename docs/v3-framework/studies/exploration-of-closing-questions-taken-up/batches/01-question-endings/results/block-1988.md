@@ -1,0 +1,5 @@
+- questions:
+  - Which of the six untried audit strategies (Codex grep, antagonist organizations, Bond subjects, Chapter Notes, v1 Deferred categories, representative demographic characters) should be pursued next; implied by offering the list, not asked outright | ignored | The user picks none of the six and asks for a different task, a thorough read of chapters 15 and 16 | none
+  - Whether recurring unnamed demographics (Terrified Reservist, Skyfall Working Class, the drone who didn't reach Camp Fluttershy) have enough content for their own Character subjects, or belong as WorldInference notes in a CivSys subject | ignored | Nothing said about these demographics or where they should be housed | none
+- shape: Redirects. The user sets the strategy list aside and gives an instruction for a different task: read chapters 15 and 16 in full, since they were skipped in the earlier file reading. It is a correction of the model's coverage and a decision about what to look at next.
+- settles:

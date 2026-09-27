@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, requesting further causal consequences of Grover III's choices that shaped Equestria up to the war, without challenging anything in the genealogy just given.

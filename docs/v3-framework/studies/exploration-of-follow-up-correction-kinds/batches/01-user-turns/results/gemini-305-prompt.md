@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the word-choice discussion to lay out new planning material: a side plot of Fleur and Henri teaching AJ and Twilight about sex, the backstories of Fleur, Henri, Coltbert and Gaudreau, and the Act 3 themes of globalization, without disputing anything the model said.

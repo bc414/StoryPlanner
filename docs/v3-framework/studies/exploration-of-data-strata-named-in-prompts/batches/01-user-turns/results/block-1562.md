@@ -1,0 +1,6 @@
+- sources:
+  - v1 notes on the subject | undecided; the user asks whether to draft from scratch and then read them and revise while marking them off, and whether to migrate them to v2 as an unset track (provisional) or leave them in v1 | read through v1 notes on the subject and revise while marking off v1 notes | referred-to
+  - display questions and usage directives for each track | treated as already built and in hand, the program the workflow is to be decided around | I have the display questions and the usage directives for each track | referred-to
+  - info from the user to fill gaps in logic | the model should ask the author for this rather than guess, so as to avoid hallucinating | What info do you need from me to fill gaps in logic for the reasoning without hallucinating | first-named
+- order:
+- about: The user, having built out the track program, asks the model how to sequence the workflow between fresh drafting and the v1 notes, whether to migrate those notes to v2, how to handle plot points and links, and what the model needs from them to avoid guessing.

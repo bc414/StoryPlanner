@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | The Magical Supply Organization is a teleportation supply network linking hubs and bunkers, stated as a fact of how the fictional universe works | Magical Supply Organization is a teleportion supply network between hubs/bunkers | outside
+- goals:
+- whole: The note defines in a single flat statement what the Magical Supply Organization technology is, a teleportation supply network between hubs and bunkers, and asks nothing of the reader.

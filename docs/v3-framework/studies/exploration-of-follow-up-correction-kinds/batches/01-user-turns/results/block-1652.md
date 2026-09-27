@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of Faust's prior-belief-clash mechanism by recalling her childhood re-imagining of G1 toys, proposing it is a fanfiction-like reworking of a stagnant IP, and listing other works (Mulan, Frozen, Shrek and others) that might share it, without disputing anything the model said.

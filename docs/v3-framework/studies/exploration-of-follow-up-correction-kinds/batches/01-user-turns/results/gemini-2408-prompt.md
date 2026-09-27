@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's Aquileian airplane question and moves to a new one, asking how Herzland approaches inventing the airplane and whether it counts as heresy.

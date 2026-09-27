@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the proposed vacuum-tube resource by suggesting a second one, a lithography-like machine smuggled from Yale in Herzland, so the Luna Nova Rifle owes something to espionage and vice dealing as well as Twilight's genius.

@@ -1,0 +1,6 @@
+- claims:
+  - History | The Griffonian Republic invades the Sunstriker Mountains in order to secure domestic crystal production | They invade the Sunstriker Mountains to secure domestic crystal production for the Republic | yes
+  - History | High-grade crystals are kept domestic, used for universal translators | High grade crystals stay domestic for universal translators | yes
+  - History | Lower-grade crystals are sold on the market | Lower grade crystals are sold on the market | yes
+- goals:
+- whole: The note reports as in-universe historical fact the Republic's invasion of the Sunstriker Mountains for crystal supply and how the crystals are allocated by grade.

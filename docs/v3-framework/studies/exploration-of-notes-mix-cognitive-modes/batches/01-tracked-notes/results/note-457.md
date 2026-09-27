@@ -1,0 +1,4 @@
+- claims:
+  - NotesToSelf | The author judges Trixie a good fit to serve as EEEE!'s mouthpiece and public face, setting it against Flowing Current's stale, repetitive ideological rhetoric | Trixie is great for being the mouthpiece and optics of EEEE! to contrast Flowing Current's stale or repetitive ideological rhetoric | no
+- goals:
+- whole: The note is the author's planning remark that Trixie works well as EEEE!'s mouthpiece and optics against Flowing Current's stale rhetoric. It says nothing about her psychology, which is what its track asks for.

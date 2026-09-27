@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Comet Shine's physical appearance is asserted as fact: he is yellow with a brown mustache | He's yellow and has a brown mustache | yes
+  - Characterization | His cutie mark, the emblem of who he is, is asserted to be the Star Energy logo | His cutie mark is the Star Energy logo | yes
+- goals:
+- whole: The note states as fact Comet Shine's coat colour, mustache and cutie mark, giving a bare identity baseline for the character at the start of the story.

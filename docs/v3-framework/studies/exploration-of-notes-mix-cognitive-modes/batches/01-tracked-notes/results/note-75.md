@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Actia's true preference is to drain the Olenian Resistance rather than cooperate | She would rather drain the Olenian Resistance | no
+  - History | In 1008 Actia persuaded Velvet to collaborate, in order to prove her loyalty and usefulness to Chrysalis | but she convinces Velvet to collaborate to prove to Chrysalis that she is loyal and helpful | yes
+- goals:
+- whole: The note reports a past event in which Actia persuades Velvet to collaborate to win Chrysalis's trust, and it adds a short assertion of what she would have preferred to do.

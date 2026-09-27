@@ -1,0 +1,4 @@
+- claims:
+  - Canon | The story's civilization is built on bottom-up democratized rule and democratized magic, recontextualizing the source's top-down imperial order (Pax Chrysalia), which depends on Jachs and Chrysalis being benevolent | TLTT establishes a bottom up democratized rule and democratized magic instead of top down imperialism that relies on Jachs and Chrysalis being nice like in Pax Chrysalia | yes
+- goals:
+- whole: The note states how the Equestrian Republic recontextualizes established canon by replacing the benevolent-ruler top-down imperialism of Pax Chrysalia with democratized rule and magic.

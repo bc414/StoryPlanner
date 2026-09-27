@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's earlier Tzinacatl analysis by asserting from their own view that the Tzinacatl already sold medicine and stimulants to hippogriff/seapony pioneers, and by adding how Henrik's knights and Chrysalis's submarines cleared the ocean, without pointing at any body of material for the model to draw on.

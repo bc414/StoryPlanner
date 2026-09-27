@@ -1,0 +1,10 @@
+- questions:
+  - Does Coltbert ever reach a Dantès-like realization that his Anti-Poseur Crusade is cruel, or does it take Applejack and the FJA's crisis to show him | ignored | Says nothing about Coltbert's self-realization or the later crisis; it stays on the in-world novel's protagonist and title | none
+  - Would the user like the title suggestions tailored further to what Coltbert's ideology entails | partly answered | Asks for more title options, narrowed to the simplest French and griffon parodies. It gives a constraint on the novel's premise, not a discussion of Coltbert's ideology | "What would be the simpliest French and griffon parodies of the title"
+  - Does the user want help brainstorming the name of the in-world author who wrote the book in 950 ALB | ignored | Author name is not mentioned | none
+- shape: Redirects and narrows. The user turns down the model's Pony-protagonist option and the ideology-heavy title ideas. They fix the novel's premise as a straight griffon-betrayal story like Monte Cristo, then ask for a new, simpler set of funny French and griffon title parodies. The model's follow-up questions go unanswered.
+- settles:
+  - The in-world Monte Cristo parallel has a betrayed griffon as its protagonist, following the original plot, not a Pony | "the original story should just be a griffon who was betrayed, just like the actual Monte Cristo"
+  - The griffon/pony specialization dynamics are attributed to Coltbert himself, not to the in-world novel | "keep most of the griffon and pony specialization dynamics attributed to Coltbert himself"
+  - The novel serves as the foundation for asset specificity and poseur/anti-poseur | "lays the foundation for asset specificity and poseur/anti-poseur"
+  - The title should be a simple parody, with a French version and a griffon version, that makes the Monte Cristo connection clear and is funny | "simpliest French and griffon parodies of the title that make the connection clear and funny"

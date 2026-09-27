@@ -1,0 +1,5 @@
+- questions:
+  - How does Celestia reconcile the industrialized Pinkie Promise defense grid, once Crystal City's survival is broadcast, with her belief that industry destroys innocence? | ignored | Nothing on Celestia or her beliefs. The turn turns to how the shield's backstory affects the Applejack/Twilight plot. | none
+  - How does Trimmel's Auftragstaktik psychology process finding that the shield is held by a democratic collective and not a centralized monarch? | ignored | Nothing on Trimmel or his reaction. The turn stays on how the mane 6 would learn of the siege. | none
+- shape: The user sets aside both Socratic questions and steps back to check the proposal against their own plan. They had imagined the shield's holding as a mystery and a source of dread for the mane 6 and the Aquileians. They note that the prepared, materialist defense turns that mystery into tension over whether it will hold. They then ask the model to assess the impact and say whether it works. This is a request for evaluation and a mild pushback, not an answer or a decision.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the tungsten-modulator discussion to a new question about how Chrysalis would mass-produce love harvesters, supplying setting constraints (changeling magic limits) and a new POW character, Hans Kessel, as material for the answer.

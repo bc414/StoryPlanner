@@ -1,0 +1,6 @@
+- sources:
+  - later parts of FiM (Applejack as a background pony) | canon show observation the user wants explained through the fabula's logic; treated as a fact to analyze, not questioned | "Applejack gets sidelined in the later parts of FiM as a background pony" | referred-to
+  - canon Friendship is Magic Part 2 (Twilight on the five known elements and the mysterious sixth, magic) | canon scene offered as a parallel to draw on and compare with the user's structure | "in canon Friendship is Magic Part 2, Twilight says her friends' five elements are known but the 6th (magic) is a mystery" | referred-to
+  - my "adult version of Faust's themes" (the user's own story, with mature elements of liberty found early by five friends and Applejack's last one found later) | the user's own design, taken as the framework to expand and analyze the parallel against | "In my 'adult version of Faust's themes', the mature versions of the other 5 elements of liberty are 'discovered' and adopted early" | referred-to
+- order:
+- about: The user asks whether Applejack's element is the hardest to actualize and whether that explains her canon sidelining, and requests an expanded analysis of a parallel between canon's mysterious sixth element and their story's late-found sixth element of liberty.

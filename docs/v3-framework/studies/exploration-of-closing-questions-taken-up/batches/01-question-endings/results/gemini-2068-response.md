@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants to see how temperature interacts with other settings like Top-P (nucleus sampling), which also filters the probabilities | answered | Asks what Top-P is, taking up the offered topic and asking for an explanation of it | What is top p?
+- shape: A short follow-up that accepts the model's offer and asks for an explanation of the next concept, Top-P. It is a request for information and continues the topic. It gives no instruction and no correction.
+- settles:

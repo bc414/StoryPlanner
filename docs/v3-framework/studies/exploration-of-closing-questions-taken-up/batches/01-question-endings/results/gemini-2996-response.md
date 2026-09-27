@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to formalize a set of Hopepunk and Honesty constraints for their AI Studio system instructions, so the model audits characters' choices against that moral framework? | no user turn | none | none
+- shape: none
+- settles:

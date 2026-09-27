@@ -1,0 +1,5 @@
+- sources:
+  - the republics in the story, already an idealistic commentary on real world democracy in two flavors | treated as an established precedent in the story that the new commentary should be consistent with and justified by | Since the republics are already an idealistic commentary on real world democracy | referred-to
+  - this, the Changeling love-addiction allegory just discussed in the conversation | the material the user wants to reshape into an idealistic commentary on the drug crisis; treated as the working base | Is it possible for me to make this an idealistic commentary | referred-to
+- order:
+- about: The user asks whether the Changeling addiction allegory can be made an idealistic commentary on the fentanyl and wider Western drug crisis, citing the story's republics as an existing idealistic commentary on real-world democracy.

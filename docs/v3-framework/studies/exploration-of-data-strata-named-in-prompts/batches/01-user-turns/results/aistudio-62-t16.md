@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend the previous analysis of character interactions at Mount Aris to a Blueblood and Rarity pairing, without pointing at any body of material.

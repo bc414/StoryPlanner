@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about Google's Jules and NotebookLM and requests other lesser-known Google AI products, without pointing the model at any particular body of material.

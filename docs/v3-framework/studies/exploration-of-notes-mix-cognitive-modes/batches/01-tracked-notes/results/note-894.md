@@ -1,0 +1,7 @@
+- claims:
+  - History | Caramel Marks, a bored Baltimare baker, accepted the offer of Chrysalis's shell company to learn and leave the walled garden for Skyfall | Caramel Marks was a bored pony (a baker) from Baltimare who took Chrysalis's shell company's offer | no
+  - Characterization | On seeing Skyfall she was horrified by the elites' abuse of workers, the structural trap and the lack of solidarity, which is what shaped her | she was horrified by the elites' abuse of the workers and the structural trap and lack of solidarity | no
+  - History | Fire Angel is a griffon native to the rural land around Skyfall from before the revolution, independence and maximal capitalism | Fire Angel is a griffon native to the rural land around Skyfall from before the revolution | no
+  - History | Fire Angel was displaced and had to work in a factory to survive | She was displaced and had to be a factory worker to survive | no
+- goals:
+- whole: The note gives the backgrounds of the technology's two figures, Caramel Marks the horrified outsider baker and Fire Angel the displaced griffon factory worker, as the in-world people behind it, without saying what the technology is or does or what the reader should take from it.

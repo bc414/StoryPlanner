@@ -1,0 +1,5 @@
+- claims:
+  - History | Applejack became expert with the machine gun at boot camp and went on to train other recruits | Applejack mastered the machine gun at boot camp and trained others | yes
+  - History | Applejack built real solidarity among the Equestrian volunteers | She fostered genuine solidarity amongst the Equestrian volunteers | yes
+- goals:
+- whole: The note reports, as in-universe historical fact, Applejack's boot-camp machine-gun mastery, her training of others, and the solidarity she built among the Equestrian volunteers.

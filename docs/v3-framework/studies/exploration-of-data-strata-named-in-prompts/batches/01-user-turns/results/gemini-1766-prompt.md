@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's suggestion by stating that the submarines make it impossible for Comet Shine to ship supplies from Pridea to Equestria, without pointing at any body of material.

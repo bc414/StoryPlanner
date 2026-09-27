@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new story idea, that Gilded Trust offered the buffalo guns against Rockfeller and they declined in favour of animal sabotage but appreciated the gesture, as an extra strand for his alliance case, without disputing anything the model said.

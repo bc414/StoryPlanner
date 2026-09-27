@@ -1,0 +1,5 @@
+- questions:
+  - Does Mali have to reassure nervous unicorns like Starlight that putting Bat Pony paste on their horns is safe? | ignored | Says nothing about Mali or Starlight's reaction; asks for paste names instead. | none
+  - Does applying the paste give the unicorn a brief, dizzying head rush from a hypersensitive horn? | ignored | Says nothing about the paste's effect on the user; goes straight to a naming request. | none
+- shape: Redirects to a new task: asks the model to brainstorm many English and Aztec (Nahuatl-style) names for the paste. It doesn't take up either consultant question and gives no reaction to the proposed origin.
+- settles:

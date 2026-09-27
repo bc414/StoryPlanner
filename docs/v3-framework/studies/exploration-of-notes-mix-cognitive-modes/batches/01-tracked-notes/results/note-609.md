@@ -1,0 +1,10 @@
+- claims:
+  - History | Grover III's legions wiped out the monsters, so the arena of risk moved from the wilderness to the economic market | When Grover III's legions eradicated the monsters, the arena for risk shifted | no
+  - History | Under Grover IV and the Skyfall Trade Federation the Honest Racket gave way to Bessemer steel and Haber-Bosch agriculture | the "Honest Racket" was replaced by Bessemer steel and Haber-Bosch agriculture | no
+  - outside | World-building causal account: the evolutionary framework of risk explains why male griffons accept sweatshop and gang conditions, as a response to the world's ontology | This evolutionary framework perfectly explains why male griffons willingly endure | outside
+  - Analogies | Real-world sociology and evolutionary psychology's 'Male Variance' is named as the model for men tolerating bottom-of-hierarchy suffering for a small chance at Apex status | Real-world sociology and evolutionary psychology refer to this as "Male Variance" | no
+  - Characterization | Male griffons' testosterone drives them to gamble on Rugged Individualism, which makes them compliant cogs for the Tycoons | Their testosterone demands they play the lottery of Rugged Individualism | no
+  - outside | World-building causal account: mass production severs the worker from the forge and the Red Love ambition needed to enchant steel, redirecting ambition to capital accumulation | Because mass production alienates the worker from the forge, the personal Ambition (Red Love) required to enchant steel is severed | outside
+  - outside | World-building causal account: magic dies in Herzland and Skyfall because the economy needs only a spreadsheet, not a soul | Magic dies in Herzland and Skyfall because the economy no longer requires a soul | outside
+- goals:
+- whole: The note explains, as a world-building account of why Grover IV's Gilded Age system arose, how the end of monsters turned risk-taking toward the market and how industrial production, driven by male griffons' status-gambling, killed enchanted craft and magic.

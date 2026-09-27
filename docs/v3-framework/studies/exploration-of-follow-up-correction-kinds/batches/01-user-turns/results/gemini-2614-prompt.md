@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies new backstory about the cross-jealousies over the previous three chapters and the impulsive Fleur and Mali affair, and asks how that backdrop improves the character dynamics and lessons, without disputing anything in the model's analysis.

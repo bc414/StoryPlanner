@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the historical-parallels discussion to ask how the story should handle the remaining predator true believers like Pagala, giving their own world reasoning about why few are left, and adds a detail that the leaflets be printed in both Herzlander and Changeling.

@@ -1,0 +1,4 @@
+- questions:
+  - Does this campaign fit how the user wants Dennis Discret to posture himself, as someone who sees it as his crowning achievement and doesn't realize he bankrupted his nation and did Chrysalis a favor? | refused | Does not say whether Dennis Discret's posture fits. It rejects the model's analysis as not based on the actual plans and FJA characterization, and asks for it to be redone. | Reevaluate using my actual story plans, reread the document. Using the actual characterization of the FJA
+- shape: A correction and instruction. The user rejects the model's whole analysis as not grounded in their documented plans, especially its portrayal of the FJA. They order it to reread the planning document and redo the analysis. They give no answer or new story content of their own.
+- settles:

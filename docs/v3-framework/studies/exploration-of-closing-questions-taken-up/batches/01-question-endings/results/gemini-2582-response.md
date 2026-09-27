@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore a scene where Twilight or Applejack meets one of these organ guns in Zebrica, showing the weapon as a sign of the warlord's dependence on Skyfall's ledgers? | ignored | The user does not take up the scene offer. They go back to whether the organ gun is the best weapon for the grift and ask for other options. | none
+- shape: Redirects. The user skips the offered scene and steps back to the design question. They restate the organ gun as the ammo-wasting weapon for a poseur warlord, ask whether it is the best model, and ask for alternatives with reasons. It is a request to compare options, not a decision.
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a general explanation of the chemistry of different drug types, comparing meth with opioids, caffeine, heroin, morphine, fentanyl, alcohol and THC, without pointing at any particular body of material.

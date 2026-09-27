@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model built its analysis without properly consulting the user's planning document, relying on invented or assumed material instead of what the plan actually holds | reread the document; reevaluate using my actual story plans | flat directive, terse, no reason spelled out
+  - fact of the world | the model's portrayal of the FJA (its motives, behavior, financing and role as bored glory-seeking pirate liberators underwritten by the Royal Bank) does not match how the FJA is actually characterized in the plan | Using the actual characterization of the FJA | flat directive fragment, implicit rebuke without saying what is wrong
+- about: The user rejects the model's analysis as not grounded in their planning document and tells it to reread the document and redo the evaluation using the real characterization of the FJA.

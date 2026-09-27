@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | states as a fact of the fictional universe that withdrawal from the Panzer Haut technology causes physical pain and vomiting | Withdrawl symptom: physical pain and vomitting | outside
+- goals:
+- whole: The note sets down, as a rule of the world, that withdrawal from the Panzer Haut technology brings physical pain and vomiting, and it asks nothing of the reader.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user softens their own earlier stance by offering a revised premise (competitive arms race, regulatory failure, Altman as reactive rather than villainous) and asks the model to analyze it and evaluate how real its assertions are, without saying the model's previous answer was wrong.

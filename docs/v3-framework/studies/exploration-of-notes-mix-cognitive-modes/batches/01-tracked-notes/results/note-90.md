@@ -1,0 +1,4 @@
+- claims:
+  - History | Around 986 Kemerskai learned from experience that inspiring speeches cannot make things happen and that administration must be taken seriously | Kemerskai learned that inspirating speeches can't make things happen. Administration has to be taken seriously. | yes
+- goals:
+- whole: The note reports, as a backstory fact dated 986, the practical lesson Kemerskai took from experience: rhetoric achieves nothing without serious administration.

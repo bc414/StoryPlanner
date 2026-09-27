@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's suggested sequence, proposing that Applejack take the name because Trimmel told her to lead rather than be Celestia's puppet, and that Synovial explain the VOPS profile and the name later at the Aquileia surrender as the Petain connection, and asks for analysis of that.

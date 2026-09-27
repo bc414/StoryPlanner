@@ -1,0 +1,4 @@
+- claims:
+  - History | Rockfeller purchased control of Las Pegasus's government, paying with Skyfall money, as a past event | He bought out Las Pegasus's government using Skyfall money | yes
+- goals:
+- whole: The note reports in-universe, as a past fact, that Rockfeller bought out Las Pegasus's government with Skyfall money.

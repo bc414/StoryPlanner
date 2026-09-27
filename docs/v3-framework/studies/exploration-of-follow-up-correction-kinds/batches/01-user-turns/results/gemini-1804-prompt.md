@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a further, broader explanation of Versailles' historical dynamics, extending the topic without challenging anything the model said.

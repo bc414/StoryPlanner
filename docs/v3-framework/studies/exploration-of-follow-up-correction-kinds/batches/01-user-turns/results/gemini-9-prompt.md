@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether every major browser must implement web standards across operating systems, without challenging anything in the model's history of HTML, CSS and JavaScript.

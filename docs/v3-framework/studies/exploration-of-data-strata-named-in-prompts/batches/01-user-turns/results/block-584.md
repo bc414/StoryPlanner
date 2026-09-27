@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reasons about their own story that Réni and Minette must realize their methods are ineffective without calling it failure, and asks the model to explain the arc they are designing, its fundamentals and its meaning, and how to keep the weight of the Stalliongrad revelation, without pointing at any body of material for the model to use.

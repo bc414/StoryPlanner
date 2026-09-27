@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a conceptual outline of a scene where Applejack verbally defends the 'Roots vs. The Machine' philosophy to an industrialized, Aquileian-style character like Henri? | no user turn | none | none
+- shape: none
+- settles:

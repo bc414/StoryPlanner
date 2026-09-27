@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | a dull visual indicator and colorful coats and manes appear on the page as signs that show when soldiers should rotate out and rest | Visual dull indicator and colorful coats and manes signify when soldiers are supposed to rotate out and rest | no
+- goals:
+- whole: The note names a visible cue, a dull indicator and colorful coats and manes, that marks when soldiers rotate out and rest, and it serves as an example of the law's demonstration.

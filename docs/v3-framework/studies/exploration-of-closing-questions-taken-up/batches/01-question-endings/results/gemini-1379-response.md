@@ -1,0 +1,4 @@
+- questions:
+- shape: Redirects to an unrelated task. The model turn was a summary of a video, and it put no question to the user. The user drops that subject, states a plan for their own story, and asks for suggested names for the second half of a split chapter. They want the names to follow the patterns and feel of the existing chapter names.
+- settles:
+  - The chapter called Tempest will be split into two chapters, so the second half needs its own name | planning on splitting the chapter Tempest into two

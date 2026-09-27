@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want a C# example showing how to configure Newtonsoft.Json to serialize the polymorphic TreeNode subclasses and preserve graph references? | ignored | Nothing is said about the offered example. The user gives their deployment context and asks about a flat-list storage design with custom reconstruction instead. | none
+- shape: Redirects. The user ignores the offered code example. They correct the model's assumptions by saying this is fab equipment software loaded once at startup, so performance doesn't matter. They lean tentatively toward XML, then propose a different design (a flat node list with reference IDs, rebuilt in C#) and ask whether JSON would then be fine and whether a better paradigm exists.
+- settles:
+  - The software is control software for semiconductor wafer fab equipment, not an internet microservice. | This is not for internet micro services, it is for semi wafer fab equipment control software
+  - Files are saved and loaded into memory only once, at startup, so parsing speed and file size are not criteria. | only saved and loaded into memory once during software startup, so performance is irrelevant
+  - Provisional lean toward XML because of its type support. This is not final, since the user then asks whether JSON is okay. | Seems like xml is the way to go due to type support

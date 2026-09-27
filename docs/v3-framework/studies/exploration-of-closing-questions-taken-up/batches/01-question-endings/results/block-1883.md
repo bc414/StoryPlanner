@@ -1,0 +1,3 @@
+- questions:
+- shape: The user builds on the model's explanation by asking a follow-up of their own. They test the principle on an edge case: content that fits neither the history track nor the psychology track, such as detailed psychology during a historical event. They ask whether that content should then be treated as something to dramatize. The turn asks for clarification of the method and does not answer any question, because the model turn put none to the user.
+- settles:

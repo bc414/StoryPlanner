@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's closing question about scale plus depth and extends it into a new question: whether a non-extractive, non-harmful, cognitively beneficial mass-market game is possible, has ever come close, and whether today's media incentives rule it out.

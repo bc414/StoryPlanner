@@ -1,0 +1,9 @@
+- questions:
+  - How do Canterlot's aristocratic collaborators and industrialists like Gilded Trust react to Starlight, a known Marxist who attempted a decapitation strike, when she is at the Great War front lines wielding unrestrained combat magic? | ignored | Nothing about how the aristocrats or industrialists react to her at the front. | none
+  - How does Starlight's Equalization ideology clash with the FJA/Aquileian emphasis on terroir and artisan pride when she works with Fleur Bloom in the Star Energy labs? | ignored | Nothing on Starlight and Fleur Bloom or the lab friction. The user's Aquileia remark concerns what Caramel Marks's writing criticizes, not Starlight's interactions. | none
+- shape: The user turn amends the model's blueprint without answering its questions. It first moves the confrontation to after the Our Town breakdown, with the citizens catching Starlight, and drops the cave-and-grievance stretch as unnecessary. It then puts a new question to the model, whether Caramel Marks's writing should also criticize Coltbert and Aquileia for elitism, and supports it with her Baltimare origin and its ties to New Mareleans and Aquileian expats.
+- settles:
+  - The confrontation between Twilight and Starlight comes after the Our Town breakdown, not as a separate escape and pursuit. | confrontation should be after the our Town breakdown
+  - In the Our Town breakdown, the citizens catch Starlight rather than her escaping to a cave. | citizens catch Starlight instead of her escaping in a cave
+  - Starlight has no season of nursing a grievance against the Sonic Rainboom, because she is already radicalized. | no need for starlight to spend a season nursing a grievance
+  - Caramel Marks is from Baltimare, which is close to New Mareleans, where Aquileians and Tzinacatl medical tribes trade, and it has Aquileian expat descendants. | She is from Baltimare which has contact and proximity with New Mareleans

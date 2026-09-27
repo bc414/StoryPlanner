@@ -1,0 +1,7 @@
+- questions:
+  - Are there dedicated Geopolitical chapters between the early defensive phase and the counter-offensives that show Chrysalis reacting to Equestria's industrialization and her totalitarian model failing? | answered | Says no by implication. Chrysalis gets no perspective in the main narrative, so her side is not shown from inside. Her development happens before the story and belongs to a separate sequel. | Chrysalis is not given a perspective during the main narrative
+- shape: Answers the model's question by stating a structural fact about the work. It rejects the premise of Chrysalis-perspective chapters and places her arc in a prequel-timed sequel. It then turns the conversation around and asks the model whether her absence makes sense and whether she should change during the main timeframe.
+- settles:
+  - Chrysalis has no point-of-view chapters in the main narrative | Chrysalis is not given a perspective during the main narrative
+  - Chrysalis's character development takes place before the main story's timeframe | Her character development happens before the main story
+  - A separate sequel will tell her story, with her as its protagonist and the villain of the world | would have to be told in a separate sequel where she is the protagonist

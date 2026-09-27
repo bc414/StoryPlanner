@@ -1,0 +1,9 @@
+- sources:
+  - the previous analysis ("this analysis") | to be redone; its baseline of Mali as a passive, pacifist eagle is treated as wrong and needs revising | Redo this analysis | referred-to
+  - the author's clarification about Mali's baseline | treat as true and as governing the redo: Mali is not a total pacifist eagle, and her Aquileian-parloir work means she knows the adult world of ambition | with the clarification that Mali is not intended to be a total pacifist eagle as a baseline | first-named
+  - chapter 1 and chapter 3 (Mali and Applejack, escapees of the army, firing a machine gun) | treat as settled story facts and use as evidence that Mali is not pacifist, in contrast to Fluttershy | Mali fires a machine gun with Applejack in chapter 1 and 3 | first-named
+  - the chapter Tempest (Mali convinces her mom and home tribe to end isolationism and join the war effort) | treat as settled story fact and use to place her development; it comes before Fleur's lesson | Mali convinces her mom and her home tribe to stop being an isolationist | first-named
+  - Fleur's lesson in Passion | treat as a fixed point in the timeline that comes after the Tempest chapter | which comes before Fleur's lesson in Passion | referred-to
+- order:
+  - the author's clarification about Mali's baseline over the previous analysis | the analysis is to be redone in light of the clarification
+- about: The author corrects the model's earlier analysis by saying Mali is not a baseline pacifist, citing her machine-gun scenes with Applejack and her persuading her tribe in the Tempest chapter before Fleur's lesson, and asks the model to redo the analysis and work out whether she can be both eagle and jaguar without pushing others to grow up.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user shares an observation, from their own knowledge of the fandom, that the P&K author and readers often mock JWAB, and says they don't understand why, without pointing the model at any body of material to use or avoid.

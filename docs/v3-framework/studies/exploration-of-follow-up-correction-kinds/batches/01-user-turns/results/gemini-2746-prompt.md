@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about what "Monte Cristo" signifies within the novel's story, moving on from the proposed parody titles without saying anything in them was wrong.

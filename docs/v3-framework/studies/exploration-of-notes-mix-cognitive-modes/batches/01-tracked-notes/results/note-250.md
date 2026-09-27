@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | a social-commentary stance that people of both genders who balance ambition with grace should be promoted over those driven by purely toxic ambition | we should promote and elevate men and women who have a healthy balance of ambition and grace instead of pure toxic ambition | no
+- goals:
+- whole: The note states a real-world social value, that balanced and graceful ambition should be elevated over toxic ambition, instead of naming any planning work still to be done for the character.

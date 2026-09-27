@@ -1,0 +1,11 @@
+- questions:
+  - How does Starlight Glimmer, having evaded Celestia's quarantine and self-educated on radical theory, see Twilight: as a victim of state indoctrination, or with class resentment over Twilight's privileged Canterlot education? | ignored | Says nothing about Starlight or her view of Twilight; the turn stays on Rainbow Dash and Twilight's foal-era exam. | none
+  - How do the Griffon observers, and Henri and Kemerskai, react when the Bluebell Spearhead shows the big dragons to be weak Poseurs and the small ones to have the real firepower, and does it make them rethink their definitions of strength? | ignored | Says nothing about griffons, dragons in battle, or cultural definitions of strength. | none
+- shape: Sets aside both closing questions and corrects the model's account of the Sonic Rainboom. The model had cast it as a burst of Red Love (Ambition), and the user says it must be Pink Love. The user backs this with canon examples, then reworks Twilight's part of the exam story to fit. It is an unprompted revision of the model's framework, not an answer to what was asked.
+- settles:
+  - Rainbow Dash's Sonic Rainboom is powered by the charitostatic effect (Pink Love), not by ambition. | Rainboom must be powered by the charitostatic effect
+  - The two canon Rainbooms were driven by protecting others: defending Fluttershy's honor against bullies, and saving Rarity from falling. | first one was defending Fluttershy's honor... needed to save Rarity
+  - Dash could not reproduce the Rainboom because she was trying for ego, to win the young fliers competition. | trying to do it for ego
+  - As a foal Twilight had read magical theory and viewed it clinically. Tentatively, she instinctively grabbed some of the Rainboom's Pink Love, combined it with her heating spell, and that hatched Spike's egg. | maybe even as a foal she read up on some magical theory
+  - Twilight then lost control, as in the flashback, and Celestia intervened, telling her she must learn to control the power. | lost control as shown in the episode flashback
+  - Twilight's loss of control mirrors Luna losing control and becoming Nightmare Moon. | already a mirror of Luna

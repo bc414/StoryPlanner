@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model presented the Chapters 10-17 reading as covering the mid-story chapters and drew its evidence and strategies from it, but chapters 15 and 16 were skipped in the file reading, so that basis was incomplete | Please go through chapters 15 and 16 thoroughly since those seemed to be skipped in file reading | Polite request that gives a reason, hedged with 'seemed', and implies the gap without saying the model was wrong
+- about: The user sets aside the list of six new strategies and redirects the model to read the two chapters, 15 and 16, that the earlier reading passed over.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the Equestria at War discussion and asks a general question about whether NotebookLM can handle a document, such as a 650k-word story, that exceeds context window limits.

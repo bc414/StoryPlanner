@@ -1,0 +1,4 @@
+- sources:
+  - AJ's speech | treat as fixed story content; the new trench-digging mechanism should fit what her line says, so the line stays as written and is literally true | when AJ's speech mentions digging up trenches on our farms to survive, it is exactly what she observed | referred-to
+- order:
+- about: The user proposes replacing the strip-mining premise with backup trenches dug on the farms whose spoil goes to the munitions factory, so that AJ's speech is literally accurate while Comet Shine wrongly assumes she is repeating Fleur's chemistry, when she is really speaking about Honesty.

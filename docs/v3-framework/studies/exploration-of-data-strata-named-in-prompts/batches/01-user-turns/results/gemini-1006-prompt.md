@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short worldbuilding question: whether the plains occupied after the changeling invasion would turn into a dry, sterile landscape like Herzland.

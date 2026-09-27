@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's analysis and Socratic questions to ask a fresh side question about the fandom origin of dragons' long lifespans and how grimdark stories handle Spike's longevity, without saying anything in the model's turn was wrong.

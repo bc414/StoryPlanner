@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Steam-history question without answering the script offer and asks a new question about how five newly added consolidated reports extend their framework.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for an analysis of the "no tax to the crown" mechanic, posing questions about whether it shows the plow is the real value, whether it creates a monopsony, whether bartering is the fair alternative, and whether the sales tax is really about buying power rather than squeezing wealth.

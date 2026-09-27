@@ -1,0 +1,5 @@
+- questions:
+  - Should the card be removed from the Categorizer after a successful drop into a note collection, or should the drag stay a copy-only operation? | answered | Says yes, the note should be removed from the categorizer when moved to a note collection viewer, so it is a move rather than a copy. | Yes, it should remove the note from the categorizer
+- shape: Answers the model's closing question with a short confirmation and, in doing so, gives an implied instruction to change the drag from copy to move. It adds no other direction.
+- settles:
+  - Dragging a card from the Categorizer into a note collection viewer moves it: the card is removed from the Categorizer once it lands in the collection, not copied. | it should remove the note from the categorizer when moving to a note collection viewer

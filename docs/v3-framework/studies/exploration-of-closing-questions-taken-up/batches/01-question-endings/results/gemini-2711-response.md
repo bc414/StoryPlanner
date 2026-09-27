@@ -1,0 +1,5 @@
+- questions:
+  - Which angle (echolocation, healing, or hunting) fits best when Applejack or Twilight first encounters the paste? | ignored | The user turn does not pick an angle or mention the paste's names. It moves to a separate question about canon. | none
+- shape: Redirects to a new topic. The user asks the model a factual question about official MLP canon: which parts featured magic inhibitors, the opposite of what the crystal enhancer does. The name suggestions and the first-encounter question are left alone.
+- settles:
+  - The crystal enhancer is framed as working in the opposite way to canon magic inhibitors. It is a magic amplifier, not a suppressor. | which my crystal enhancer works in an opposite way

@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | The pegasi's power to make thunderstorms is modeled on facilitating the natural, original Haber-Bosch process | Their ability to create thunderstorms is the ability to facilitate the original, natural haber bosch process | yes
+  - Analogies | The real-world mechanism that inspires it: lightning splits N2, the atoms bond with oxygen, and nitrates fall in rain to fertilize soil | The lightining splits N2 molecules which bond with oxygen and rain down as nitrates, fertilizing the soil | yes
+- goals:
+- whole: The note documents the real-world natural nitrogen-fixation by lightning as the inspiration for the pegasi's thunderstorm magic.

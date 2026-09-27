@@ -1,0 +1,5 @@
+- questions:
+  - Do Trimmel and his VOPS agents, when inciting the 995 ALB Winter Revolution, explicitly weaponize the cultural memory of the Mir and the broken winter pact to justify seizing the furnaces? | no user turn | none | none
+  - Does Celestia's 500 ALB view of the Boyars as necessary logistical managers explain her horror when the Royal Guard fired on strikers in 995 ALB, and did she realize too late she was protecting Skyfall-backed rent-seekers? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- sources:
+  - Twilight's situation at the beginning of the story | the new plot idea must stay consistent with it; treat it as the established baseline to check against | keep things in line with Twilight's situation at the beginning of the story | referred-to
+- order:
+- about: The user proposes that Twilight closes the school to help Zecora and a redeemed Fizzlepop rebuild Ain Trotgourait, and asks how to keep that consistent with her opening situation and why she still obeyed Celestia instead of going to the frontline.

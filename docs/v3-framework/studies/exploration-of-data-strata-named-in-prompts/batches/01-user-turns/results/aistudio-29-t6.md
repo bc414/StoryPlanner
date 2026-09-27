@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the enzyme-and-magic idea should be balanced against keeping the sharing of different parts of a meal, and corrects the setting fact that chasseurs and Aquileians are terroir farmers, including animal farming, and that their "hunt" means hunting warlords rather than animals.

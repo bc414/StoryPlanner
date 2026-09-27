@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's previous timeline and premise by clarifying which war and which incident are meant, and by supplying new story facts about how Twilight learned magical engineering and why her water filtration system depends on Crystal Empire crystals, without pointing the model at any body of source material.

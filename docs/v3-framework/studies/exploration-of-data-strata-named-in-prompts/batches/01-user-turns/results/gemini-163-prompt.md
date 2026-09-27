@@ -1,0 +1,4 @@
+- sources:
+  - chapter 8, "this" (the Rainbow, Fluttershy and Discord scene just drafted in the conversation) | use as the base scene to build on and extend with new material; not to be replaced | In chapter 8, let's expand this | referred-to
+- order:
+- about: The user asks the model to extend the drafted Chapter 8 scene by adding a Rainbow Dash rant about Celestia and Luna, and offers two optional directions for Twilight's reaction, either agreeing and revealing that Celestia begged her to stay out of harm's way, or realizing she was used, as Discord felt used.

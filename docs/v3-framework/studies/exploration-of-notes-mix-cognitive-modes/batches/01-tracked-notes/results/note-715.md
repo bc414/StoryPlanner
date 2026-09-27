@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-rule ontology, god-mode statement of how the universe works) | raw magic serves as the fuel input for spell matrices, magical engineering, and the Luna Nova Rifle, apart from being consumed directly | Outside of direct consumption, raw magic is the fuel input for spell matrices, magical engineering, and the Luna Nova Rifle | outside
+- goals:
+- whole: The note states as a rule of the fictional universe that raw magic is the fuel input for spell matrices, magical engineering and the Luna Nova Rifle, without saying anything about what the reader is to take from it.

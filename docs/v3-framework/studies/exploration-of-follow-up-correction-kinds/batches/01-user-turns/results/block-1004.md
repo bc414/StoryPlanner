@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Blueblood/Celestia mapping and moves to a new task, asking for a full analysis of Obama, a check on the timing of the 2008 crisis, and the source of a remembered quote, without disputing anything in the model turn.

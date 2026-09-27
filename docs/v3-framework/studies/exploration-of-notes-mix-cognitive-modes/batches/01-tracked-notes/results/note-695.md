@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | The Wonderbolts are nominally defense forces but actually function as a pressure valve for ambitious pegasi | on paper defense forces, but really are a pressure valve for ambitious pegasi | yes
+  - Characterization | The organization's culture is toxic, a cutthroat hazing-obsessed frat house, because its only outlet is limited fan attention and the contest to be lead pony | They have a toxic culture, like a cutthroat, hazing-obsessed frat house, because their only outlet | yes
+  - Characterization | Membership is a zero-sum competition, structurally like the Apple/Pear family feud | It is a zero sum game, much like the Apple/Pear family feud | yes
+  - Analogies | The hierarchy's ladder-pulling dynamic is modeled on the influence of the film Skyfall | The hierarchy is a Skyfall influence of ladder pulling | no
+- goals:
+- whole: The note asserts what really binds and drives the Wonderbolts, a competitive pressure-valve organization with a toxic zero-sum culture, and names Skyfall as the influence behind its ladder-pulling hierarchy.

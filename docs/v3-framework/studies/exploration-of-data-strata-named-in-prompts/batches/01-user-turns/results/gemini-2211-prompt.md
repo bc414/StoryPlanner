@@ -1,0 +1,7 @@
+- sources:
+  - my lore about Chrysalis's terror state, including the plan that Chrysalis is the EIC equivalent selling guns to Zebrica, the Storm King as its culmination, and ISIS ideology matched to Grover II's crusades | treat as the established base the model must build on, with the new additions fitted to it | I imagine Chrysalis being the EIC equivalent; my lore about Chrysalis's terror state | referred-to
+  - ISIS | mine for any further traits worth adding to the terror-state mix, with the possibility that nothing is needed, since its ideology is already covered by the crusades | what else can be added to the mix from ISIS, if any | referred-to
+  - the EIC equivalent | use as the model for Chrysalis exploiting Zebrica for raw resources through gun sales | I imagine Chrysalis being the EIC equivalent | referred-to
+  - Nazi Germany, Imperial Japan, Reagan's America, historical Western Imperialism, and Modern China | treat as what the lore already combines, so new additions should not repeat them | combines the worst parts of Nazi Germany, Imperial Japan, Reagan's America | referred-to
+- order:
+- about: The user accepts the EIC parallel for Chrysalis, assigns ISIS-style ideology to Grover II's crusades, and asks what, if anything, from ISIS could still be added to Chrysalis's terror state that already blends several historical regimes.

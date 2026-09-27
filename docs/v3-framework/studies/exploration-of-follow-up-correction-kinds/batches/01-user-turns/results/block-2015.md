@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reconsiders their own plan to seed new sessions with the categorization-decisions document, explains their view of Claude as an accelerant rather than a doer, and asks for an analysis of what fundamentally differs between including that document and leaving it out, without saying the model's notes were wrong.

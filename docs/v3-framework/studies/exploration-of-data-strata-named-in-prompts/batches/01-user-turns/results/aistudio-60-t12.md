@@ -1,0 +1,6 @@
+- sources:
+  - the new expansion of the fabula | use it as the foundation for rebuilding the whole Crystal City siege lore from the ground up | redo the whole crystal city siege lore from ground up using the new expansion of the fabula | referred-to
+  - The Crystal Empire Part 1 and 2 (the show, the "Hasbro Mandate") | treat as the published baseline of Cadance singlehandedly holding the shield, which the author's lore reinterprets rather than follows | depict Cadance singularly holding the line | referred-to
+  - my lore's interpretation of Cadance and Shining Armor | treat as the authority on how the two characters behave, correcting the model's claim that they share Twilight's atlas complex | My lore's interpretation of her and Shining Armor would dictate | referred-to
+- order:
+- about: The user corrects the model's characterization of Cadance and Shining Armor and asks to rebuild the siege lore so that a democratized Crystal Heart system already exists before the war, with Spike, Flurry Heart and Thorax supplying the psychological solidarity that keeps it running.

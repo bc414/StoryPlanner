@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a question about whether the Claude consumer app at the same $20 price avoids context pruning and how it handles compute cost, and points the model at no body of material to use or avoid.

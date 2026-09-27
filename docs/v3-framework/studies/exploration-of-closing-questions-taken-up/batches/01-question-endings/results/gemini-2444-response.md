@@ -1,0 +1,8 @@
+- questions:
+  - Should Zecora's main role be an active character influencing the main Equestrian cast (Path 1, rehab camp) or a worldbuilding device expanding the southern continents' lore (Path 2, rebuilding Ain Trotgourait)? | answered | Leans toward Path 2, giving the reason that Path 1's role is already filled by Dr. Fauna. | I'm leaning towards path 2 because path 1 already has Dr. Fauna
+- shape: Answers the model's either/or by leaning to one path, then supplies new backstory canon (Twilight closes the School of Friendship after Mount Aris; why the group goes there) and redirects to a new question about how Zecora's staying in Ain Trotgourait affects Twilight's psychology.
+- settles:
+  - Zecora takes the Path 2 direction (staying in Zebrica to rebuild Ain Trotgourait), tentatively, since Dr. Fauna already covers the Path 1 role | I'm leaning towards path 2 because path 1 already has Dr. Fauna
+  - After Mount Aris, Twilight shuts down the School of Friendship because she realized it wasn't solving real problems, due to Celestia's restrictions | Twilight shuts down the School of Friendship because she realized it was not solving real problems
+  - Cozy Glow does not exist in this setup | Cozy Glow doesn't exist in my setup
+  - The group goes to Mount Aris because Rainbow Dash follows Silverstream, one of their students, to protect a friend's home | The original reason they go to Mount Aris is because of Rainbow Dash following Silverstream

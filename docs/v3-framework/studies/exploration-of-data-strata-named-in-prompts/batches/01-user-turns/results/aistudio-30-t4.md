@@ -1,0 +1,10 @@
+- sources:
+  - oral traditions passed down from the elders of the ancient changeling hives before the hive wars | treat as the traditional, in-world origin of the C-tactile afferent idea and build the silk analysis on it | "oral traditions passed down from the elders" | referred-to
+  - Acornage tradition | treat as the traditional origin of the C-tactile afferent concept, to ground the analysis | "traditionally from Acornage" | referred-to
+  - the lore that harmonic changelings make artisan silk, versus martial or depressed starving-times changelings making resin | use as the premise for why the silk can activate C-tactile afferents; that the silk is magical is only probable, not settled | "Going off of the lore" | referred-to
+  - my lore on changelings (only black carapaced, holed creatures; harmonic ones stay unchanged in TLTT but make colorful silk) | treat as fixed for this story and follow it over the show | "in my lore, changelings are only the black carapaced" | referred-to
+  - To Where and Back Again (Thorax, changelings turning colorful through love) | do not apply to the author's changelings; it is a Hasbro mandate, not the author's lore | "that is a Hasbro mandate" | referred-to
+  - charitostatic magic system | provisional hypothesis that the silk ability is tied to it; the model is to analyze it | "probably tied to a charitostatic magic system" | referred-to
+- order:
+  - my lore on changelings (black carapaced only, no colorful transformation) | To Where and Back Again (Thorax, show canon) | "in my lore, changelings are only the black carapaced" and "that is a Hasbro mandate"
+- about: The user asks the model to analyze why silk from harmonic changelings at Camp Fluttershy could activate C-tactile afferents and how it ties to a charitostatic magic system, while fixing their own changeling lore over the show's canon.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model for historical parallels to the economic scheme it just laid out, extending the discussion without challenging anything in it.

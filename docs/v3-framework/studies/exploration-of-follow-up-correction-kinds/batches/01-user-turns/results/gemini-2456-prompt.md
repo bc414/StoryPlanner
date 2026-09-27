@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model described the Tall Tale situation as a static, successfully held trench line with a stalemate, when the plan has an elastic defense | They are not holding the line, it is an elastic defense | flat, direct statement of the correct setup, no apology
+  - fact of the world | The model had Twilight arrive to find Applejack in a secure position and ask her to leave, when in the story Applejack was overrun and Twilight had to pull her out of the dirt | Applejack was overrun and Twilight had to rescue her from the dirt | flat, terse, stated as a plain event correction
+  - reading of the plan | The model built its analysis on the user's plans, but its account conflicts with them, so the user says it did not properly draw on the plans and must reread them | Please review my story plans and reanalyze | direct instruction to redo the work, without irritation stated or an apology
+- about: The user rejects the model's premise of a static, successfully held trench line, restates the actual scenario of an elastic defense and an overrun Applejack, and tells the model to review the plans and redo its analysis.

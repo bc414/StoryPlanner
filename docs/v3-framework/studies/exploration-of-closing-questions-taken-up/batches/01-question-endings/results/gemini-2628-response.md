@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to brainstorm the specific dialogue for this scene, focusing on how Pinkie explains the biological reality of fear to Rainbow Dash without breaking her spirit? | no user turn | none | none
+- shape: none
+- settles:

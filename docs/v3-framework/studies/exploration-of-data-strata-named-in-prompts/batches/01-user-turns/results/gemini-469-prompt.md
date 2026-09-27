@@ -1,0 +1,6 @@
+- sources:
+  - the enum values I perfected into words that make sense to me | the author's own display wording, used in the plot point window and future windows; whether it should also go to the LLM is open, and it is leaning toward not being what the JSON uses | I spent a decent amount of time perfecting the enum values into words that make sense to me | referred-to
+  - standard "academic" terms | proposed as the wording for the JSON sent to the LLM; the author is asking whether to use them, so it is a suggestion and not settled | for the json to the llm, should I use the standard "academic" terms? | first-named
+  - the academic concepts (what the enums map to) | possible reference the legend would point to, so the LLM reads the enum values as those concepts; the author asks whether to say so, not yet decided | should I include in the legend something about saying that these map specifically to the academic concepts? | first-named
+- order:
+- about: The user asks whether the JSON sent to the LLM should use standard academic terms in place of their own custom enum wording, and whether the legend should state the mapping to the academic concepts.

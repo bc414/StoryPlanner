@@ -1,0 +1,11 @@
+- questions:
+  - How do training and apprenticeship work in a society where every Griffon must build their own machine from scratch? | answered | The apprentice learns to build the Gen 0 vacuum chamber by hand with a hammer from first principles, as the griffon knights forged their own armor. | has to learn to build the gen 0 vacuum chamber with a hammer from first principles
+  - Does a Master let an apprentice use the Apex machine just to cut Gen 1 parts, or is that a strict taboo? | answered | The loan is not possible, not merely taboo, because the master's machine would fall apart in anyone else's hands. | cannot loan the apprentice their apex machine because it would fall apart
+  - If a Master lets a student skip the agony of Gen 0, do older Griffons see the younger generation as soft? | partly answered | The skipping scenario is ruled out. The user gives the culture's attitude in other terms: earnest, hard-working apprentices are not shamed or hazed, and only poseurs are shamed. Softness is not addressed directly. | no culture of shaming or hazing apprentices who are earnest and hard working
+- shape: The user answers the model's questions and in doing so rejects the premise of the loan-or-taboo choice, because the machine's asset-specificity makes a loan physically impossible. They tie apprenticeship to the knights' armor-forging origin of griffon magic. They add a cultural norm of their own, that shame falls only on poseurs, which the model had not proposed.
+- settles:
+  - A master's Apex machine cannot be loaned to an apprentice, because it would fall apart if anyone else used it. | cannot loan the apprentice their apex machine because it would fall apart
+  - Apprentices must build their own Gen 0 vacuum chamber by hand with a hammer, from first principles. | learn to build the gen 0 vacuum chamber with a hammer from first principles
+  - Griffon knights forging their own armor was the original application of griffon magic, and apprenticeship parallels it. | the original application of griffon magic
+  - Earnest, hard-working apprentices are not shamed or hazed. | no culture of shaming or hazing apprentices who are earnest and hard working
+  - The only social shame is for poseurs who claim strength or talent without the asset specificity or grit to back it. | The only shame is for poseurs

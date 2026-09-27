@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a comparison of the world of 1984 with Orwell's Animal Farm? | ignored | Says nothing about Animal Farm or the comparison. It asks a new, briefly worded question about the circumstances in which 1984 was written. | none
+- shape: Sets aside the offered comparison and asks a fresh, garbled follow-up about the book itself. It reads as a question about when, where, or why 1984 was written. It gives no instruction and no answer.
+- settles:

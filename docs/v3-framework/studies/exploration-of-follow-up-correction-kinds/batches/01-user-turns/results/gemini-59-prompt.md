@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the chapter summary as given and asks for a detailed summary of the next chapter, moving the task forward without objecting to anything.

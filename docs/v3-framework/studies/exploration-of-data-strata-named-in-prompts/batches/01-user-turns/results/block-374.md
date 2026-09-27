@@ -1,0 +1,6 @@
+- sources:
+  - my story plan / current plans | the existing plan is the baseline being tested; fraternity and other parts may be edited if the change fits the themes, and the Trimmel-throws-out-the-speech beat is put up for the model to judge | I can be flexible if an edit aligns with the themes | referred-to
+  - elements of harmony (FiM) | reference frame for the parallel; treated as the naive set that assumes a good conscience, with the element of magic in everyone's heart as the model for how conscience sits in TLTT | Each of the "naive" elements of harmony assume a good conscience | referred-to
+  - elements of liberty | the grown-up set under analysis; Grace, Equity and Resilience are taken as fitting the conscience idea while Fraternity and Ambition are open to adjustment or renaming | The grown up elements of liberty don't assume the other has a good conscience | referred-to
+- order:
+- about: The user asks for a follow-up analysis of how the naive Elements of Harmony and the grown-up Elements of Liberty relate to conscience, whether Fraternity and Ambition or the conscience link should be adjusted, and where the unveiling and the speech-rejection beat should fall in the plan.

@@ -1,0 +1,4 @@
+- claims:
+  - History | Gilded Lily recruited Bright Mac and Pear Butter, a fact of the story world reported as having happened | Gilded Lily recruited Bright Mac and Pear Butter | no
+- goals:
+- whole: The note states in a single bare sentence the in-world fact that Gilded Lily recruited Bright Mac and Pear Butter, as the history to be disclosed, without staging it on the page or saying what the reader should take from it.

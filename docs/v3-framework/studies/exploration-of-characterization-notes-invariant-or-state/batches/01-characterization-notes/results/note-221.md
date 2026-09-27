@@ -1,0 +1,4 @@
+- claims:
+  - span | She lived through the disappearance of the Empire (Sombra), i.e. she was alive and present for that event | "She lived through the disappearance of the Empire (Sombra)" | the named event, the disappearance of the Empire under Sombra; past tense, no date given
+  - unfixed | She knows what it's like to lose a nation to dark magic, a lasting experiential understanding she carries | "She knows what it's like to lose a nation to dark magic" | present tense "knows", tied by implication to the Empire's loss but no date or phase stated; the question frames it as her state at the start of TLTT
+- beside: none

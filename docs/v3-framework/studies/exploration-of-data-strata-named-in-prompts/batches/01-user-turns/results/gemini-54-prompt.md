@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a technical follow-up question about how the context window grows (linearly, quadratically or exponentially) when sending chapters one prompt at a time, without pointing the model at any body of material to draw on or avoid.

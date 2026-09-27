@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Stagnation of Harmony overview to a new question about how they originally came up with the Predator's Dilemma concept, without disputing anything in the model's answer.

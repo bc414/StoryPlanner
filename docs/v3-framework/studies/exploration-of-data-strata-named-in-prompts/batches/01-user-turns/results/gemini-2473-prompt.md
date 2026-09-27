@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Celestia would offer asylum to Novo given her habit of keeping dangerous things out, and raises the worry that harmonic Hippogriff refugees would still tell their pony hosts how their home was destroyed.

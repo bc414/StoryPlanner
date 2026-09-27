@@ -1,0 +1,10 @@
+- questions:
+  - Does Rainbow Dash reject Ahuizotl's story aggressively because accepting it would mean the villains are smarter than the heroes, and how does that denial drive her need to prove herself in the later air battles? | ignored | The user turn says nothing about Rainbow's psychology or her later battles. It gives a different reading of why the ponies dismiss Ahuizotl. | none
+  - How does Blueblood react if he meets Ahuizotl and finds his only intellectual peer in uncovering the conspiracy is a disgraced Cartel accountant in a fursuit? | ignored | Blueblood and any meeting with Ahuizotl go unmentioned. | none
+- shape: The user sets aside both Socratic questions and rewrites the premises the model's analysis rested on. They offer their own mechanism for the dismissal and their own account of Chrysalis's position and Trimmel's motive. Chrysalis on the throne is no longer vanity or a corporate takeover. It is now a strategic bait Trimmel imposed on her. The turn adds new world and plot facts and does not answer the model's prompts.
+- settles:
+  - Applejack and Rainbow Dash misread Ahuizotl's 'macroeconomic god' claims as his excuse for why the drug tribes aren't helping the war. | misinterpret Ahuizotl's wild 'macroeconomic god' claims as his justification for why the drug tribes aren't helping
+  - Chrysalis owning Equestria no longer matters, because the factories have been seized and the war economy runs on Hearth's Warming Bonds. | Chrysalis owning Equestria is meaningless now that they've seized the factories
+  - Chrysalis is unhappy on Celestia's throne, because she cannot control her statthalters, who run inefficient and sadistic fiefdoms. | Chrysalis is not actually happy sitting on Celestia's throne
+  - Trimmel made Chrysalis sit on the throne to bait the emotional Equestrians into assaulting the mountain, as the only way to turn the war around. | Trimmel made her sit there because he believes baiting the emotional Equestrians
+  - Equestria lost many troops in the Southern Blitz and is now fully armed with luna nova rifles. | lost so many troops in the Southern Blitz and Equestria is fully armed with luna nova rifles

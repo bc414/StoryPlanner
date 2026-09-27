@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Poland-to-story mapping in a new direction by asking for an analysis of whether modern Poland really is a more harmonic-capitalism republic than the US, Britain, France and Germany, without disputing anything the model said.

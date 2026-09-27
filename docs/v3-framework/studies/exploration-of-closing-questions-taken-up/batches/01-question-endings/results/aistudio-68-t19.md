@@ -1,0 +1,8 @@
+- questions:
+  - How does the Equestrian public view the tycoons who stayed behind, such as Rockfeller: as glamorous celebrities who beat the system, or with suspicion by the agrarian majority? | ignored | none | none
+  - How does Applejack reconcile her parents' canning operation with its initial funding from Chrysalis/Skyfall loans, and does she have to accept that dirty money can become good infrastructure? | ignored | none | none
+- shape: The user turn does not answer either question. It redirects to a new worldbuilding thread about what Celestia knows. It asks whether she should understand chemistry at all and floats a way for her to know it only as a danger. It then adds a further premise about fiat currency. Most of it is tentative, phrased as a question, a "maybe" or an "I suppose".
+- settles:
+  - Celestia knows chemistry can be used for evil and knows earth pony folklore, but does not realize chemistry is earth pony magic. This is stated as the intended gap, though the turn opens by asking whether she should understand chemistry at all. | knows that chemistry can be used for evil, but has no clue that chemistry IS earth pony magic
+  - Tentative: Grover III sent Celestia letters explaining how he cut the cord, which is how she learned chemistry's dangers. He may also talk about studying the idol of Boreas. | Maybe Grover III sent letters explaining how he cut the cord
+  - The story relies on Celestia and most Equestrian mayors and bureaucrats not understanding fiat currency. | the story also relies on Celestia and most Equestrian mayors, bureaucrats, etc. not understanding fiat currency

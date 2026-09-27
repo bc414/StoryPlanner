@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's brief mention of the Drive API revisions approach and asks a follow-up on how to write a program that retrieves document versions and saves them in a form suited to Gemini comparison, without disputing anything the model said.

@@ -1,0 +1,4 @@
+- sources:
+  - I have plot points about the changeling POWs at Camp Fluttershy | treat as the established story facts the question is built on: POWs are creating a written language, teaching it to younger conscripts who know only simplified Herzlander, and are the democratic authority over how it is written | I have plot points about the changeling POWs at Camp Fluttershy working to create a written language | first-named
+- order:
+- about: The user introduces their own plot points about changeling POWs at Camp Fluttershy creating a written language and asks whether those POWs, as its democratic authority, would choose Isi-Bumbano as the official endonym for the language.

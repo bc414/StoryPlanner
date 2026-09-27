@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user revises and extends their worldbuilding of EEEE!, Flowing Current, Skyfall IP enforcement, the Manehattan parloirs, the mayor and Aquileian currency, and asks whether the machinists-guild framing and the stagnation-tax mobilization follow materially rather than by authorial fiat.

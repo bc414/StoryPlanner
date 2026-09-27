@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a factual history question about whether musketeers match English yeomen as a French counterpart, and shares the aesthetic they have in mind (king-loyal commoners in the style of Louis XIV) for Discret's martial clubs, without pointing the model at any particular body of material.

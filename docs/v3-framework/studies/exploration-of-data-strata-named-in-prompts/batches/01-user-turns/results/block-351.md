@@ -1,0 +1,5 @@
+- sources:
+  - canon Friendship is Magic Part 2 (the show as a children's show/mythic fable) | the episode to be analyzed; the user's own impression that it expressed Honesty poorly is the starting point, and the show is treated as the children's-fable side of a contrast | In canon Friendship is Magic Part 2, I felt that the show didn't do that good of a job | referred-to
+  - the rigourous real world grown up version discussed here for TLTT | the comparison point; the model is to set the canon episode against it, drawing on what has already been discussed in this conversation | the rigourous real world grown up version discussed here for TLTT | referred-to
+- order:
+- about: The user gives their own critique of how canon Friendship is Magic Part 2 handled Honesty and asks the model to analyze the episode and contrast the show's children's-fable approach with the more rigorous adult version already discussed for TLTT.

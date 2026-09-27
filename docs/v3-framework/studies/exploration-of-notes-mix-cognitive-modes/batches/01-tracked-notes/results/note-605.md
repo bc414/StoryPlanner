@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten: world-rule ontology | The family is defined as a private fortress of virtue, and a person relies on their partner rather than on a Lord or Clan | The family is a private fortress of virtue. You don't rely on a Lord or a Clan; you rely on your partner | outside
+  - outside all ten: world-rule ontology | The Republic legally mandates paternity leave and gender equality | they mandate paternity leave and gender equality | outside
+  - outside all ten: world-rule ontology | The system's purpose: the family is the state's atomic building block, so both parents must be strong for the state to be strong | If the "Atomic Unit" is the building block of the state, both pillars (Mom and Dad) must be strong | outside
+- goals:
+- whole: The note states, as god-mode world rules, how the Republic treats the family as its atomic unit, with partner-based reliance and mandated gender equality and paternity leave, and why that serves the state.

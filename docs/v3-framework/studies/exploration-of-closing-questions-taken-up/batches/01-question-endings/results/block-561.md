@@ -1,0 +1,10 @@
+- questions:
+  - How would the rural Earth Pony majority's fear of losing the family farm to the government keep them from seeing the benefits of the Cutie Mark Exemption? | ignored | Nothing on rural fear or the farm voters. The turn rejects the proposed tax names and restarts from the chapter 7 laws. | none
+  - How would the Aquileian volunteers, who built their superiority on Terroir, react when the Blank Earth's baseline value is socialized? | ignored | Nothing on the Aquileians or their reaction. The turn stays on what the tax should be called and how it works. | none
+- shape: Corrects the model: the three proposed framings are rejected because they don't name the tax itself. The user then restarts from first principles on EEEE!'s chapter 7 laws, sets out how the mobilization act should be framed, floats and doubts a "disharmony tax", and opens new questions to the model. These are whether LVT covers automation, whether automation is a separate kind of capital, and how longshoremen's pensions fit as past rent. The Socratic questions are left unanswered.
+- settles:
+  - The total mobilization act, in which every pony contributes to the war according to their asset specificity, on the model of Britain's total mobilization, is framed as "Survival Harmony" | should be framed as "Survival Harmony"
+  - Survival Harmony is how Equestrian settlements were founded, needing the three tribes' cooperation and asset specificity to defend against monsters and be agriculturally self-sufficient | how Equestrian settlements were founded
+  - Early settlements needed no income, sales or property taxes because village expenses were zero, with Winter Wrap Up and barn raising done communally | state's expenses were zero
+  - In-universe, Herzland's taxes funded infrastructure during the great depression and the new deal, which is separate from the settlements' no-tax origin | separate from real life and Herzland in-universe
+  - Hearth's Warming Bonds serve as fiat currency and deferred payment as trust, letting citizens' labor feed the war effort and enabling mobilization | as established, Hearth's Warming Bonds as fiat currency

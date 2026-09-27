@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's Mali and Luna arc and asks a follow-up on how to explain Mali leaving the Night Guard for the regular army despite her closeness to Luna, offering a tentative idea of leaving the Stagnation.

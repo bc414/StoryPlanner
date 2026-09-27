@@ -1,0 +1,6 @@
+- claims:
+  - History | Fleur's professional term for the technology is La Phénylpipéridine (Phenylpiperidine) | Fleur's professional term is "La Phénylpipéridine" | no
+  - History | The Tzinacatl name for it is Xochimil-Pahtli, meaning Flower-Field Medicine, a peaceful death | Tzinacatl name is Xochimil-Pahtli ("Flower-Field Medicine" - peaceful death) | no
+  - History | Fluttershy calls it The Fuzzy | Fluttershy calls it "The Fuzzy" | no
+- goals:
+- whole: The note lists the different names that Fleur, the Tzinacatl and Fluttershy use for the technology, stating them as in-world facts and giving no plan for how the reader is to experience them.

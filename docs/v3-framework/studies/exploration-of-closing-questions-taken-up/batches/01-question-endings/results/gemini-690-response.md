@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to see how much they would save in their state by choosing a T-bill over a high-yield savings account? | ignored | The turn says nothing to it. It only shows a plan export attachment with no text of its own. | Plan export attached — 121,207 words, 0 chars
+- shape: The turn is a bare attachment of a planning export (about 121,000 words) with no message text. It doesn't respond to the tax-exemption explanation or the offered savings comparison. What the export is for isn't stated.
+- settles:

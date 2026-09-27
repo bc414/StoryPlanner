@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's verdict on where the Stagnation of Harmony idea came from and how far it goes rested on web searches about the game and on what it assumed of the story, not on the user's own record of developing it; the user hands over that record as the source to analyse | "transcript ... of a foundational conversation" and "give an analysis" | implicit, no disagreement stated; the user attaches the missing source and asks for the analysis again
+  - reading of the plan | The model's picture of the user's work as a small borrowed term, with the substance said to lie in the later material, is met with the claim that the user actually leaned heavily into the concept in that foundational conversation | "where I ended up really leaning into Stagnation of Harmony" | in passing, as context for the request; the pushback is only implied
+- about: The user attaches a reversed transcript of an earlier foundational conversation and asks for an analysis of how heavily he built on Stagnation of Harmony, which quietly redirects the model from its assessment based on outside searches to his own record.

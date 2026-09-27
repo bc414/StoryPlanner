@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a set of real-world biology questions about which chemicals are involved in sex, how they differ across intercourse, orgasm and afterward, and how evolutionary theory explains those systems, without pointing at any body of material for the model to use or avoid.

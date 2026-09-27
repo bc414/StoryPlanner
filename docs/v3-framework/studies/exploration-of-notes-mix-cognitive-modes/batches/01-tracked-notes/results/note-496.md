@@ -1,0 +1,5 @@
+- claims:
+  - PageDesign | In the scene the dragons are told they may not attack Canterlot because of collateral damage | Dragons forbidden from attacking Canterlot because of collateral damage | yes
+  - PageDesign | Ember reacts on the page by being insulted and readying to leave | Ember is insulted and ready to leave | yes
+- goals:
+- whole: The note stages what happens in the planning scene: the dragons are barred from attacking Canterlot, and Ember shows she is insulted and about to leave.

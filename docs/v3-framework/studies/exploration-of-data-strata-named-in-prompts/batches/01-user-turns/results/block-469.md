@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh the pros and cons of a planned plot reveal in Chapter 12, Crash, covering its timing, its effect on Gabriella Eagleclaw's testimony, and its effect on themes and other mysteries, without pointing at any body of material to draw on.

@@ -1,0 +1,9 @@
+- sources:
+  - the canon School of Friendship | criticized as bad storytelling and as cultural colonization; the story's version is meant to depart from it and its flaws (one student per race, no bat ponies) are treated as plot holes | The canon School of Friendship yielded bad episodes and storytelling (in my opinion) | referred-to
+  - my original notes about the school of friendship | the author's own planned sequence of events for the school, Celestia's limits, the Storm King war and Twilight's arc, given as the intended plan to build on | Here were my original notes about the school of friendship | first-named
+  - the episode | followed as the model for the beat where Neighsay shuts down the school and Starlight encourages Twilight | like the episode | referred-to
+  - playing as them (the Hippogriffs) | the place to look up the Hippogriff commander's name, still to be found | find name from playing as them | referred-to
+  - EAW | the author's story world, whose established facts (deer as raiding vikings, no bat ponies, industrializing world) are stated as true and as the frame for judging the canon school | Deer are vikings who raid and pillage in EAW | referred-to
+  - This all (the preceding discussion of Harmonic Capitalism and the proving ground) | taken as the accepted reasoning that explains why the school failed and why other creatures are absent | This all explains why Twilight's School of Friendship failed | referred-to
+- order:
+- about: The user ties the preceding worldbuilding discussion to why the canon School of Friendship fails in their story, criticizes the canon version, and pastes their original notes for an alternate school, Storm King and Celestia-Twilight arc for the model to work from.

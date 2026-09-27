@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn moves on to a new task. It attaches a revised definitions file (TLTT v2-definitions.md) and instructs the model to evaluate it against the principles established earlier in the conversation. It does not take up the model's Themes-track reasoning, either to approve or to object.
+- settles:

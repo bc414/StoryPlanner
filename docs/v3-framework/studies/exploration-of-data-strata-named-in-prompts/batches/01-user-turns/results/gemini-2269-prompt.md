@@ -1,0 +1,5 @@
+- sources:
+  - my world (the author's setting, in which pegasi, griffons and changelings naturally fly) | treat as the setting to reason about; take its natural-flyer premise as given and work out how aircraft development differs | "Since pegasi and griffons and changelings naturally fly" and "in my world" | referred-to
+  - the real world (real-world aircraft development) | use as the baseline to compare against, drawing on general knowledge of how planes developed | "compared to the real world" | referred-to
+- order:
+- about: The user asks an open worldbuilding question about how the presence of naturally flying species would change aircraft development in their setting relative to real-world history.

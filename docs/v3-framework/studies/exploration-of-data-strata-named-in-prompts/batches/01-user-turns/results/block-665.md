@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether every text field on plot points and across the other models could become a Note within a track, so the data structure is unified and the UI varies, and they describe how Synopsis would then work as a track whose notes carry Flagged or Evaluated state and decide whether the plot point is complete.

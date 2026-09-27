@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for story-design input on whether Trimmel would distinguish pony bauleiters from statthalters, whether Thorax would agree, and how Thorax's harmonist movement could last from 1002 to 1007, offering his own sketch of an expanded donation ring, without pointing the model at any body of material.

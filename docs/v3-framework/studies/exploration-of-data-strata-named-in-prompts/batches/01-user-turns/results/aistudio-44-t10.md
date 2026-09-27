@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding synthesis ("this") | treat as the base to build on and extend with the new material, not to replace | Let's enhance this by saying | referred-to
+- order:
+- about: The user is adding new story material to the model's previous analysis: a pre-war Equestrian dogma about friendship in the trenches, Applejack's belief in it and her machine-gun mastery, its failure against tanks, and its restoration in the chapter 9 Town Hall as harmonic capitalism.

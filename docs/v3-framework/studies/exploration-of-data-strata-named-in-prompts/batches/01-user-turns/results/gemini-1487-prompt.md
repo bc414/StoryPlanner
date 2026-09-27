@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author refines the in-world history of paper money by saying Skyfall was first to leave the gold standard with its bank-printed Marks backed by a stolen fleet, and that Discret's royal notes and Kemerskai's law-grounded currency both came as reactions to it.

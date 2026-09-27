@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Chasseur/Jaeger/Voltigeur analysis to ask for a French name for the royal academy, and adds their own idea that Coltbert founds it for Discret so griffons and ponies mix in the king's service.

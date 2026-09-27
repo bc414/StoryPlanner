@@ -1,0 +1,5 @@
+- questions:
+  - How does the Rarity and Sweetie Belle conflict over custom work versus the assembly line resolve during the Chapter 7 referendum? | ignored | Nothing on Sweetie Belle or Rarity's custom-work conflict; the turn moves to Trixie's hometown. | none
+  - Does Sweetie Belle first buy into the Sassy Saddles/Skyfall 'volume saves lives' logic, so that Rarity has to show her a soldier treated as a faceless cog will break? | ignored | Not taken up; no mention of Sweetie Belle, the assembly-line logic, or the proposed framing. | none
+- shape: Drops the model's Rarity and Sweetie Belle question and opens a new topic. The user asks where the fan headcanon of Trixie being from New Mareleans comes from, how to tie it into Aquileia as the ego-capitalist center, and how that fits with Trixie's poseur act in Boast Busters and the meta-criticism that the Mane 6 upstaged her. It ends with an open request to weave these together.
+- settles:

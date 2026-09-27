@@ -1,0 +1,4 @@
+- sources:
+  - the bootstrapping account the model just gave, Griffon machines built up in iterations | taken as the working premise; the user draws an implication from it and asks the model to confirm it follows | So this means every griffon must bootstrap their own machine iterations from scratch | referred-to
+- order:
+- about: The user checks whether the model's proposed bootstrapping process entails that each Griffon has to build their own machine from scratch and so that the machines are asset specific.

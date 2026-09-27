@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds new worldbuilding premises about a stable Olenian love-tax economy and Zebrican slave supply and Zebrican-origin Skyfall immigrants, and asks whether Chrysalis should have the Statthalters buy slaves from Zebrican warlords instead of buying Skyfall prisoners.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's character-beat discussion and asks a new factual research question about whether fan works or forums before the IDW comic already proposed Twilight Velvet as A.K. Yearling's author.

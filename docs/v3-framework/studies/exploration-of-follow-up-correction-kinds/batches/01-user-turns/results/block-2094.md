@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model chose species-name candidates on the basis of crystal biology and smooth-surface imagery (Geodin, Selenin, Vitrian, Prismian). The user's aim is a name that bridges ponies and porygons, and those candidates don't do that. | "I want a name that bridges ponies and porygons" | Flat restatement of the actual goal, with no mention of the model's candidates. The correction is implied by the restated aim and the art-style explanation that follows, and it carries no apology or irritation.
+- about: The user redirects the naming discussion to their real criterion, a pony-porygon blend name, and explains the pastel 2010 Flash-vector look, with Porygon2 as the default form and Porygon as the warrior/industrial form, to anchor it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn sets a new task, asking the model to read their db.md file and analyze the prequel plan, Aquileia's design and the terms, and to flag outdated parts of the plan, without saying anything in the previous answer was wrong.

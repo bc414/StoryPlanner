@@ -1,0 +1,4 @@
+- questions:
+  - Should the model draft the exact JSON schema for Prompt A so the React app can render the suggested methodologies as selectable buttons? | answered | Yes, asks for the Prompt A schema to be given. | Yes, give the prompt A schema
+- shape: A short go-ahead: accepts the model's offer and asks for the Prompt A schema, with no additions or changes.
+- settles:

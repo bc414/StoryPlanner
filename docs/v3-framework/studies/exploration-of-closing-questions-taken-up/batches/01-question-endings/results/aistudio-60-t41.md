@@ -1,0 +1,5 @@
+- questions:
+  - How does the traumatized Crystal Pony working class react in 1003 ALB when Shining Armor and Cadance, foreign Unicorn/Alicorn elites, give Sunburst the loaded, oppressive title of Crystaller? | no user turn | none | none: the conversation ends here
+  - When Twilight and Applejack arrive in 1011 ALB and find Sunburst and Thorax have decentralized the Crystal Heart's interface, does Twilight see the end of the Unicorn monopoly as a triumph of Harmonic Capitalism, or does it stir her Celestia-conditioned anxieties about democratizing dangerous magical infrastructure? | no user turn | none | none: the conversation ends here
+- shape: none
+- settles:

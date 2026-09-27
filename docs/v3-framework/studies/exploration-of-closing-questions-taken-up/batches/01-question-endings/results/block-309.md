@@ -1,0 +1,5 @@
+- questions:
+  - When Twilight sees her friendship-based teleport network sustaining Applejack's lethal siege, how does she handle the dissonance: accept friendship as a weapon of war, or struggle with guilt over militarizing Celestia's peaceful magic? | ignored | Says nothing about Twilight's reaction; goes on to a naming issue about DRM. | none
+  - After the Patrotten take Skyfall and nationalize the factories, do Aquileia and the GR force a long painful economic restructuring, or pragmatically accept Skyfall's industrial output for rebuilding? | ignored | Nothing on Skyfall's postwar treatment or the Republican Pact. | none
+- shape: Sidesteps the model's questions and raises a new point of its own. The user admits they habitually call the lock system DRM and asks for an in-universe acronym for it. This is a brief request for the model to produce a name, not an answer to what was asked.
+- settles:

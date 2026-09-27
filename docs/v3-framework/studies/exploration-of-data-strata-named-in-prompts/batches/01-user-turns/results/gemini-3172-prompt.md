@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the story-database discussion and asks, as a separate question, for a full technical explanation of what the "retry shorter/longer" buttons in the Gemini web app do, without pointing the model at any body of material.

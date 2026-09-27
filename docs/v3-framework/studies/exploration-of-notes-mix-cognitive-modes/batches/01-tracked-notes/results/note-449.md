@@ -1,0 +1,8 @@
+- claims:
+  - History | Survival Harmony was the means by which ancient Equestria survived | "Survival Harmony" is how ancient Equestria survived | no
+  - History | In the harmony phase from 0 ALB to 914, 85% of the population ran on harmony, and pioneers' ambition was turned into survival harmony to tame the wilderness and defend against monsters | harmony phase from 0 ALB to 914, the 85% run on harmony | no
+  - History | The stagnation of harmony removed even survival harmony, because of the threat of industrial tyranny | stagnation of harmony removes even survival harmony | no
+  - History | The Equestrian Army began running on survival harmony and friendship shields and was defeated by brutal industrial force | Equestrian Army ran on survival harmony and friendship shields | no
+  - ThematicEvidence | The arc resolves in a synthesis of resilience and harmonic capitalism | The synthesis is resilience and harmonic capitalism | no
+- goals:
+- whole: The note recounts the system's rise, stagnation and defeat as in-world historical fact and ends on a synthesis, without planning how the reader is to experience any of it.

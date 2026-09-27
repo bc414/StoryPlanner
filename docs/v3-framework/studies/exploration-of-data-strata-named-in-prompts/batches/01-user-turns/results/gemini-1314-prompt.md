@@ -1,0 +1,5 @@
+- sources:
+  - typical k-12 curriculums | draw examples from the books commonly taught in school | Give some examples from typical k-12 curriculums | first-named
+  - really popular books in modern pop culture | draw examples from widely read current popular books | really popular books in modern pop culture | first-named
+- order:
+- about: The user asks the model to supply further examples of free indirect speech and deep third person, drawn from school-curriculum books or hugely popular modern books.

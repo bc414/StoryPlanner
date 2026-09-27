@@ -1,0 +1,4 @@
+- sources:
+  - P&K | offered as background that explains History Student's mix of materialist military detail and great-man storytelling; the model is to read the stories' framework in light of it, not as an instruction or ranking | avid follower and commenter on P&K (like me) | referred-to
+- order:
+- about: The user adds an explanation to the model's analysis, saying that History Student's history with P&K, which the user shares, and his username account for the materialist military treatment alongside the ASOIAF great-man framing elsewhere.

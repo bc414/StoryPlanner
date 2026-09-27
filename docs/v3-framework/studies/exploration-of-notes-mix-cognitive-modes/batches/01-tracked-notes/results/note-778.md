@@ -1,0 +1,9 @@
+- claims:
+  - History | Blueblood is posted behind the front, managing the Northern and Eastern operational reserves and the rail hubs | Blueblood is stationed further back, managing the Northern/Eastern operational reserves and the rail hubs | yes
+  - History | He works under Mudbeak's logistical doctrine | He is operating under Mudbeak's logistical doctrine | yes
+  - History | He judged the static line would fail and prepared by pre-positioning trains and rigging bridges for demolition | He knows the static line will fail, so he has pre-positioned trains and rigged bridges for demolition | yes
+  - History | His aim was to get as many ponies as possible to the eastern cities and keep casualties low | goal is to ensure as many ponies as possible make it to the eastern cities, minimize casualties | yes
+  - History | Equestria's one edge over the changeling lands at the war's start was Wonderbolt air superiority, backed by Crystal Empire and Star Energy research, and he relied on it to bleed changeling supply lines | rely on the Wonderbolts' unshakable air superiority (the only thing Equestria has over the changeling lands | yes
+  - History | He expected the eastern cities to recover from shock, abandon the stagnation of harmony and mobilize | expecting the eastern cities to wake up out of the shock, abandon the stagnation of harmony and mobilize | yes
+- goals:
+- whole: The note reports, as in-universe history, Blueblood's wartime posting, his preparations, his aims and his strategic expectations in 1011, and it asks nothing of the reader.

@@ -1,0 +1,13 @@
+- questions:
+  - Whether the user wants the model to analyze the Chapter 17 'Intervention' chapter (Battle of Ailmont) with the Discret Doctrine context, Henri's Liberation Skirmishers against Synovial's Imperial Line Infantry | ignored | The user turn does not say yes or no to the offer. It goes on to add backstory about Henri, Fleur and the FJA, and never mentions Chapter 17 or the Battle of Ailmont. | none
+- shape: The user turn adds backstory that qualifies the model's framing. It does not answer the offered next step. Henri is not a reconquest veteran, and the Aquileian 'glory' story is filtered through Henri's and Fleur's biases and omissions. The turn also supplies his history, his motives and his shame, and details of how the Aquileian view reaches Applejack.
+- settles:
+  - Henri is not a veteran of the reconquest wars. He comes from Ailmont in Verenia, the furthest Peripherie province, on the border of Herzlander speakers, so he would be among the last to be liberated. | Henri himself is NOT a veteran of the reconquest wars
+  - As a child Henri was roped into griffon supremacy and went to Pridea to bully ponies. He stopped once his home was liberated and got investment. | went to Pridea to bully ponies. He stopped once his home was liberated and got investment
+  - Henri joined a martial club in Pridea while repenting, and that is where he honed his skills. | would have joined a martial club in Pridea while repenting
+  - Henri's tactical command skills come from coordinating the supremacy group's raids. He was a big blue griffon who gave the directions and did none of the punching, which makes him even more of a poseur. | coordinator of the supremacy group on raids
+  - Henri helped Pridea in the 1008 second revolution, and that is his only real combat experience before Tall Tale. | helped Pridea in the 1008 2nd revolution
+  - The glory of the Aquileian way is told through Henri's and Fleur's biases. They leave out that the FJA is only 40% of Aquileia and that their lifestyle rests on royal sponsorship. | told through Henri's and Fleur's biases
+  - Applejack learns that the FJA is only 40% of Aquileia only after arriving in Aquileia as part of SECEF, after the Equestrian white peace. | doesn't learn that until arriving in Aquileia as part of SECEF
+  - Fleur was bored on her family farm, which her parents got from the king indirectly. | Fleur was bored on her family farm
+  - Henri is ashamed of his conduct from before the Coltbert Reforms reached his home, the last province. | Henri is ashamed of his conduct before the Coltbert Reforms

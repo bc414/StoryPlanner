@@ -1,0 +1,7 @@
+- questions:
+  - Town hall 9.15-9.19: does Gilded Trust speak and then Comet Shine speak in one continuous session, or is there a scene break between them (deciding one scene or two)? | ignored | none; the turn moves to a question about how big the v2 entities should be | none
+  - Scene 9.20: is it disclosing the AJ/Twilight backstory to the reader for the first time, or only between the characters while the reader already knows both sides? | ignored | none; nothing about what the reader already knows | none
+  - Chapter arc notes: should they live as new tracks on the Chapter entity itself, like subject tracks, or as a separate kind of note above the plot point level? | ignored | none; chapters are not mentioned, though the size question could bear on it | none
+  - When a world-building shift invalidates a plot point note, what gets invalidated: the Outcome, the Delivery Blueprint, or the link notes? | ignored | none; volatility of plot point notes is not discussed | none
+- shape: The user does not answer the model's clarifying questions. They redirect to a broader design question about the v2 entities that inform prose writing: should they be large, with the detail split out into track links, or granular? They also float that large text may stop being a problem once it is structured. It is put as a tentative question, not a decision.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the World Law classification and moves on to a new task, asking for a review of the v1 notes and possible better names for "Elements of Liberty", and gives two reasons the name may no longer fit their evolved plan.

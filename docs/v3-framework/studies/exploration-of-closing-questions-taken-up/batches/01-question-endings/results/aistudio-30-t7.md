@@ -1,0 +1,5 @@
+- questions:
+  - If the silk absorbs ambient emotion toward equilibrium, what happens when a soldier in a depleted silk uniform is captured and taken into a terror-dense Statthalter black site: does the silk soak up the agony and become a psychological hazard? | no user turn | none | none
+  - How does Harmonic Capitalism stop the emotional-capacitor silk from being commodified after the war, so the wealthy can't simply buy stored happiness woven by lower-class Changelings? | no user turn | none | none
+- shape: none
+- settles:

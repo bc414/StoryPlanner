@@ -1,0 +1,6 @@
+- questions:
+  - Does the Statthalter slave-trade escalation, with Chrysalis discovering it and shrugging, work as the friction to build up before the Olenian invasion? | partly answered | The user doesn't say yes or no. They build on the Statthalter looting and the warlords' dependence on them as a given and ask what follows from it. | none
+  - Should the Olenian invasion be where the Jaegers step in because the slave trade can no longer feed the Hive? | ignored | The user says nothing about the Olenian invasion or the Jaegers. They turn to the Storm King's horde instead. | none
+- shape: The user redirects to a new idea instead of answering. They propose that the Storm King's join-or-die horde is a response to the Statthalters looting the continent, and they ask the model to confirm it. In doing so they take the model's Statthalter framing as accepted.
+- settles:
+  - The warlords all got their guns from the Statthalters. The user states this as a fact of the world. | All the warlords got their guns from Statthalters

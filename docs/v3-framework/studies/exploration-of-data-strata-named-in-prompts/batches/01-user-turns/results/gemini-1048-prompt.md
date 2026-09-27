@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the Skyfall resolution should come before the Equestrian referendum so that it shows Celestia, Luna and the public that industry can bring peace, and then asks a separate question about the political alignment of the Patriotten of 1795.

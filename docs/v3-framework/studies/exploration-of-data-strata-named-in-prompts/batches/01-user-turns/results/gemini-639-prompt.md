@@ -1,0 +1,4 @@
+- sources:
+  - the model's ambient-Windigo idea (ambient chaotic magic, windigos just existing) | treat as a provisional suggestion the user is questioning and leans against; revise it so windigos come from creatures who hate each other, not as settled | I'm not sure I like the idea of the windigos just existing | referred-to
+- order:
+- about: The user pushes back on the model's proposed ambient-Windigo theory, offers a replacement in which windigos arise from hatred between creatures, and works out what that would mean for Celestia's motives and Luna's dream spell.

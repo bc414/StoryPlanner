@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a comparison between thestral dreamwalking therapy for pony refugees and PTSD volunteers and Fluttershy's animal-caretaker style rehabilitation of the changeling POWs, adds their own ideas (buffalo helping Fluttershy) and asks whether thestrals would be a category mismatch for the non-verbal changelings, with no prior model response to correct.

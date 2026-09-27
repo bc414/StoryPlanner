@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how Celestia's or Twilight's Harmony administration would react to a decentralized, ideologically driven domestic terror threat that can't be fought with a friendship beam? | ignored | Nothing said about it; the user asks about the Chinese MLP and EaW community instead. | none
+- shape: Changes the subject. The user drops the terror-faction thread and asks a fresh, general question about the Chinese MLP and EaW fan community. It doesn't answer, correct or instruct.
+- settles:

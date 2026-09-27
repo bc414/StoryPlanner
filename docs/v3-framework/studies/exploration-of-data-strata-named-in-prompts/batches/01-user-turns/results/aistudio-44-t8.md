@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a revision to the model's suggestion: rather than dropping the infiltrator "stab in the back" trope, keep it in-world as a false belief held by arrogant Aquileian volunteers and spread by Equestrians and VOPS propaganda, later refuted, so it works as an epistemological device and social commentary.

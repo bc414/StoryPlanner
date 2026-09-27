@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the parents-as-tycoons setup the model just analysed and asks a new question about whether it is plausible, and whether it has precedent in American history, for parents to leave three kids with Granny while running businesses in Manehattan.

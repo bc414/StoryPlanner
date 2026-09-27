@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model cast Skyfall as a mere middleman/merchant oligarchy that sells Griffenheim steel and trades in Aquileian tungsten and tech, when the user sees it as a capitalist paradise with its own industrial capacity to manufacture guns | "I was imagining Skyfall as a ruthless capitalist paradise that has the industrial capacity to make guns" | stated flatly as what the user had in mind, with no reason given and no explicit rejection
+  - fact of the world | The model's trade scheme assumed Imperial submarines and a blockade threatening shipping, but the Empire has no navy because Skyfall took the Imperial Navy when it declared independence | "the Empire has no navy because Skyfall stole the Imperial Navy when they declared independence" | flat statement of a world fact, with the causal reason for it given, added in passing with 'Also'
+- about: The user pushes back on the model's picture of Skyfall's economy and of Imperial naval threat by restating their own established conception of Skyfall as an industrial capitalist power that holds the former Imperial fleet.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the model's Falldale-based opening analysis to ask whether the Falldale "clueless" segment is a leftover from an earlier grimdark conception and whether the retreat should go straight to Tall Tale, which is a new structural question rather than a correction.

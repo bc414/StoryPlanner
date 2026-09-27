@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's cooperation-versus-extraction framing by adding a new observation that Copilot's move to usage-based billing acts as a material constraint against extractive use, without disputing anything the model said.

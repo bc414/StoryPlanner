@@ -1,0 +1,5 @@
+- sources:
+  - the playground scene, Scootaloo defends a classmate from two meaner classmates | material to analyze: work out what proposition it tests or gives evidence for; the author's own plan, not yet justified | This was my instinctual scene plan | first-named
+  - the previous scene with the math test | context the playground scene follows; the fact that all three classmates laughed at her there is the contrast to weigh | despite all 3 of them laughing at her in the previous scene with the math test | referred-to
+- order:
+- about: The user asks the model to say what proposition their instinctively planned playground scene, where Scootaloo defends a classmate from two others who laughed at her in the math-test scene, tests or shows evidence of.

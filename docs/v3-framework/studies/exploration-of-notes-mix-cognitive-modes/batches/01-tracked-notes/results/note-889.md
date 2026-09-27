@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology asserted from god-mode) | Canterlot was the largest capital because it was the crystal mining operation and sat physically nearer the sun | Canterlot was the biggest capital because it was the crystal mining operation and physically closer to the sun | outside
+  - outside all ten (world-rule ontology asserted from god-mode) | Cloudsdale began as Canterlot's pegasus retinue, whose job was defending Canterlot from dragons | Cloudsdale was originally Canterlot's pegasus retinue, and they had to defend Canterlot from dragons | outside
+- goals:
+- whole: The note states, as objective world facts, why Canterlot was the largest capital and how Cloudsdale originated as its pegasus defenders against dragons, without naming any reader effect.

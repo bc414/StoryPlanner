@@ -1,0 +1,7 @@
+- claims:
+  - History | The communal hive collapsed because Latent Feeding needs the feeder to be vulnerable | The communal hive broke down because Latent Feeding requires Vulnerability | no
+  - History | Passively absorbing love requires lowering one's guard and opening the heart in trust | To absorb love passively, you have to let your guard down and open your heart (Trust) | no
+  - History | As a result every changeling is forced into being a predator | So everyone is forced to be a predator | no
+  - History | Harmony as a stable arrangement fails because the situation is a prisoner's dilemma | Harmony doesn't work due to the prisoner's dilemma | no
+- goals:
+- whole: The note states, as a matter of in-world fact, the causal chain by which the communal hive collapsed into universal predation, without saying anything about the reader's experience or opinion despite sitting in a reader-experience track.

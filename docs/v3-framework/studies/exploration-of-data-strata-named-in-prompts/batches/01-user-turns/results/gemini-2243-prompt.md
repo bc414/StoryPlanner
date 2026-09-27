@@ -1,0 +1,6 @@
+- sources:
+  - Chat+raw doc | one of three ways of giving the model the story material; no weight set, the user wants to know which task it suits | the three methods of Chat+raw doc | referred-to
+  - Chat+Notebook attachment | one of three ways of giving the model the story material; no weight set, the user wants to know which task it suits | Chat+Notebook attachment | referred-to
+  - Notebook LM itself | one of three ways of using the material, working in the notebook directly; no weight set, the user wants to know which task it suits | Notebook LM itself | referred-to
+- order:
+- about: The user checks their understanding that three ways of using their story material (raw document in chat, notebook attached to chat, NotebookLM alone) have different uses, and asks for a fuller guide to which to choose for every kind of story-help task.

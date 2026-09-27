@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to be walked through a specific prompt to test saving a chat response as their first note? | no user turn | none | none
+- shape: none
+- settles:

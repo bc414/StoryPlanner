@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Where Twilight went after collapsing: the model had her retreat to Canterlot to run the MSO, whereas the user has her go back to Ponyville | going back to Ponyville to work on magical supply organization | restated as established setup in passing, without saying the model was wrong
+  - fact of the world | The timing and nature of Ain Trotgourait: the model framed her burnout there as caused by the demands of a global war, but the user places her year of top-down charity in 1007 as recovery work, with the Colthage and Chirropterra occupation as a separate event during the 1011 war | spent a year in 1007 doing top down charity ... This would take place during the war | stated flatly as premises for the next question, so the correction is implied and not called out
+- about: The user supplies the North Zebrican War overview and restates the actual timeline of Twilight's 1007 charity effort and the later occupation of Ain Trotgourait, then asks what thematic role that occupation should serve.

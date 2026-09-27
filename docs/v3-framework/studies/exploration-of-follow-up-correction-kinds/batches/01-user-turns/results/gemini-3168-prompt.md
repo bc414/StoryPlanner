@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shares the output produced by running the model's script and asks for a review of it, whether it contains unnecessary information and what to change in the script, without disputing anything the model said.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds context on Altman's district change, sets out their own view of Israel and Gaza (voting out Netanyahu's coalition, strong to be merciful), and asks whether Hamawy's and Altman's Israel-Gaza positions are calibrated to mass-market narratives.

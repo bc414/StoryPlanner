@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Fizzlepop's fighting is driven by survivalism, not cruelty, which is asserted as the truth of her motive | Fizzlepop is fighting not out of cruelty but survivalism | no
+  - Characterization | Under the armor Fizzlepop is a broken filly, and Twilight's perception of this is correct | Twilight correctly recognizes the broken filly inside the armor | no
+- goals:
+- whole: The note asserts the truth of Fizzlepop's psychology, that she is a survivalist and a broken filly rather than a cruel fighter, and that Twilight sees this correctly, all in a characterization voice rather than as a design of what the reader should infer.

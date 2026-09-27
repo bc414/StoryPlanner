@@ -1,0 +1,4 @@
+- questions:
+  - Does Twilight leave Celestia a physical letter before leaving for Mount Aris (echoing her Season 1 letters), or does Celestia only learn of the trip when the Wonderbolts start requisitioning transport airships? | no user turn | none | none
+- shape: none
+- settles:

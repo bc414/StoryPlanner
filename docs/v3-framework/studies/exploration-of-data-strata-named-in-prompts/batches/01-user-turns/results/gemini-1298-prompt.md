@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether "parloir" is the correct French word for the kind of institution under discussion, what it means, and what alternative terms exist.

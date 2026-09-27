@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model's account that German marks the Changeling Lands specifically, as a deliberate Nazi-Germany parallel, is challenged because another faction, the Griffonian Empire, also uses German | "also speaks German?" | as a short question, with the challenge left implicit and no reason or objection stated
+- about: The user asks whether the Griffonian Empire also uses German, which puts pressure on the model's explanation that German was chosen for the changelings as a Nazi-Germany analog.

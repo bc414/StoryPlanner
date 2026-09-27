@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model offered Coltbert's sparring partners as Aquileian noble griffonesses, a duchess or heiress who starts hostile and becomes his ally. The user names his intellectual opponents as a distant Celestia who runs a nursery and Skyfall's manosphere. | Coltbert's intellectual opponents are the distant Celestia who runs a nursery and Skyfall's manosphere | flat, terse statement of the right answer, given in place of the model's proposal with no acknowledgement or reason, so the correction is implicit
+- about: The user answers the model's closing question by naming Coltbert's real intellectual opponents, which replaces the model's picture of a noblewoman sparring partner turned ally.

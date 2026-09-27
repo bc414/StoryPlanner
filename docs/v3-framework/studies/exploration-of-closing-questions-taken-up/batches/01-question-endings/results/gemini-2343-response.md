@@ -1,0 +1,5 @@
+- questions:
+  - Would you like to explore how Dennis Discret officially graduates an FJA crew and hands them their first combat-ready ship? | no user turn | none | none
+  - What is the cultural ceremony that marks their transition from rural students to Lords of the Sea? | no user turn | none | none
+- shape: none
+- settles:

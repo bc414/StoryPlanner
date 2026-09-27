@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a batch of further planning material (thematic notes on stagnation versus ambition, the cycle of strong and weak griffons, the Adult Harmony synthesis, and pasted analyses) without reacting to the model's list of section titles.

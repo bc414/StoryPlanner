@@ -1,0 +1,6 @@
+- claims:
+  - History | Blueblood decides, in a cold calculation drawing on Mudbeak's example, to write off Vanhoover | Blueblood makes the cold, Mudbeak-inspired calculation to write it off Vanhoover | yes
+  - History | Blueblood keeps his operational reserves back and does not try to break the encirclement of Vanhoover | He does not waste his operational reserves trying to break the encirclement | yes
+  - History | Blueblood uses the time Trimmel spends securing Vanhoover to mobilize his trains | he uses the time Trimmel spends securing Vanhoover to mobilize his trains | yes
+- goals:
+- whole: The note reports, as an in-universe historical event of 1011, Blueblood's decision to abandon Vanhoover and use the delay while Trimmel secures it to mobilize the Equestrian Army's trains.

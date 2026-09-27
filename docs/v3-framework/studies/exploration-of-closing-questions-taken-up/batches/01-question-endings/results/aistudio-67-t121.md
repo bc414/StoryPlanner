@@ -1,0 +1,15 @@
+- questions:
+  - When Applejack meets Vasily Wheatin, does she first judge him a ruthless dictator and then realize his rigid communist system is the only reason Severyanan ponies didn't freeze after the betrayal? | ignored | none | none
+  - How do modern Manehattan EEEE! union workers view Celestia, given she brokered the 500 ALB treaty: as a class traitor, making Rarity's job of winning their trust in the Hearth's Warming Bond referendum much harder? | ignored | none | none
+- shape: The user turn skips the model's closing questions and corrects the model's timeline: Bessemer steel can't exist before 854 ALB, so the coal and iron boom has to be re-sequenced. It then supplies its own revised history (a Grover III ban, Severyanan advances, the unbanning under Grover IV, river-based logging before coal). It closes with two new asks for the model: what transport fits pre-coal logging, and a Russian term for the furnace-maker class that predates 500 ALB and isn't "industrialists".
+- settles:
+  - Bessemer steel-making cannot be invented before 854 ALB, the start of Grover III's rule | The bessemer process is not invented until at least after 854 ALB
+  - Grover III banned Bessemer steel, then only theoretically proven, as soulless heretical blasphemy against Boreas; the real reason was his fear that it would uncap griffon greed and destroy society | Grover III banned the bessemer steel making process ... calling it soulless and heretical
+  - The science reached Severyana across the ocean, and Severyanan ponies developed it further into railroads and steam engines that brought more coal and lumber to their cities | the science reached Severyana across the ocean ... furthered the research
+  - Around 914–930 ALB, after Grover III's death, Herzland industrialists cite Severyana's advances to persuade Grover IV to lift the ban | industrialists of Herzland see that Severyana has wildly advanced ... unbanning it to Grover IV
+  - Grover IV, living in his father's shadow, wants a golden age of his own, or feels he sins by holding griffons back | lives in the shadow of his father and wants a golden age boom of his own
+  - Before 854 ALB there is no coal or steel; Severyanan industry is cooperative logging, with the elites' asset specificity lying in organizing it | before 854, there would be no coal or steel. It would be "cooperative" logging
+  - Boyars must be capable fighters because logging expeditions to remote untouched forests meet winter monsters | the boyars must be capable of combat too
+  - Before 500 ALB Severyanans moved timber by river, clearing all forests near rivers, which set up the tragedy of the commons | before 500 ALB ... the Severyanans used river transport
+  - From 500 to 854 ALB, with Celestia as arbiter, they build transport networks to forests away from the rivers | from 500 to 854, with Celestia as arbitrage, they build networks
+  - Once coal, railroads and steam engines arrive, Severyana's population explodes because the river lands were already cleared, and anyone whose land holds coal becomes godlike | Severyana explodes in population ... anyone who had coal in their land instantly becomes a God

@@ -1,0 +1,4 @@
+- sources:
+  - my story plan document/notebook (my story plans note) | read and review it first, and treat its notes on Fleur Bloom's belief and arc and on Aquileian earth pony magic study as the settled basis for the term suggestions | Please review my story plan document/notebook | referred-to
+- order:
+- about: The user asks the model to review their story plan notebook and then propose several Aquileian-coined terms from around 980-990 ALB, rooted in passion, hunter's spirit and sovereignty rather than grace, which Twilight's later coinage "charitostatic" in 1011 ALB would correct.

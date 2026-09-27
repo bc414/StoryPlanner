@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the model to write the exact master prompt to paste into the AI Studio Build tab to generate the 5-step React web app? | answered | Yes. It asks for the exact master prompt for the Build tab, for the 5-step web app. | Yes, generate the exact master prompt for AI Studio Build tab
+- shape: A short acceptance that takes up the model's offer and gives an instruction to produce the prompt. It adds no new information and raises no objection to the refined workflow.
+- settles:
+  - The note-sorting stage will be built as a separate 5-step web app, generated in AI Studio Build, rather than inside the C# program. | for the 5 step web app

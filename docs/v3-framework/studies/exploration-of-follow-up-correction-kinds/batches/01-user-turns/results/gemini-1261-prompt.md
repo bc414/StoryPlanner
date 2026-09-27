@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn gives a new task, asking for a check of whether a trimmed prompt file keeps the meaning of the original JSON prompt for Gemini's analysis, and it says nothing about the model's earlier analysis.

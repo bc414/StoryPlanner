@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's resonant-feedback explanation and builds on it, deriving Chrysalis's deployment of troops, Shining Armor's retreat pattern, and Flurry Heart's use of jaeger-style emotional filtering to stabilize the crystal heart.

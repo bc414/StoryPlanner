@@ -1,0 +1,5 @@
+- questions:
+  - Does Trimmel, a true believer in the meritocracy, read corporate titles like Die Vorsitzende as a progressive break from feudalism and miss the cynical vulture-capitalist reality behind them? | ignored | none; the user turn never mentions Trimmel or the titles | none
+  - When Equestrian forces liberate the Hives, how do the drones react on learning that Chrysalis is just a soft word for a butterfly's sleeping bag, and does that revelation break her mystique faster than a military defeat? | ignored | none; the user turn moves to when she learned the meaning of her own name and never covers the drones' reaction or the liberation | none
+- shape: Redirects. The user leaves both closing questions alone and asks new ones about the name-and-translation problem the model's answer raised. They ask when Chrysalis chose the name, when she found out its Herzlander meaning, and why she wouldn't change it. They then step outside the fiction to ask why the show's writers chose the name.
+- settles:

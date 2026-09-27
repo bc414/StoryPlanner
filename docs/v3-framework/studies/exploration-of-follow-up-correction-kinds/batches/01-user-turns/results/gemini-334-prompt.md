@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the translator and prison-scene structure alone and turns to a new topic: how each Element of Harmony was subverted for war and might be re-subverted for the Republic's ideals, ending with a question about how Pinkie recovers from the gray.

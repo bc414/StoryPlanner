@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shares that they have only read Pokemon stories before and asks the model to expand on the light novel traditions it mentioned as influences on such fanfics, which is a follow-up question and not a correction.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the story-planning thread and asks a general, separate question about whether language models capture meaning or only process tokens, without saying anything is wrong in the model's summary.

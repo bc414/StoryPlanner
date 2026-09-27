@@ -1,0 +1,4 @@
+- questions:
+  - Has the planner already got a robust export function that turns the database into readable documents, or does the lore live only in the database tables? | answered | The lore is already exported from the sqlite database into one large markdown document, which they feed whole to the model on a flat-rate subscription because of the 1M-token context. | turning my relational sqlite database into a single markdown document and brute forcing
+- shape: Answers the model's closing question in passing by describing the current single-file export workflow. It then moves on to a new tentative proposal: export separate markdown files linked by wikilinks so the agent reads only the relevant parts and uses fewer tokens. It ends by asking the model whether Claude Code and Cowork are designed to work this way. A new question, not a correction or an instruction.
+- settles:

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model described threads as mere groupings and proposed dependencies as the way to capture cause-and-effect, but the user's threads already order plot points and carry implied causality, so the dependency link is only for a few cross-thread exceptions | "Plot points that are after the ones in threads are implied causality" | stated flatly as a clarification of how the plan works, folded into accepting the suggestion
+  - proposed data model shape | The model offered a single self-referencing DependsOnId foreign key, one dependency per plot point; the user points to needing several one-off links and questions whether it should be a list | "Should it be a self referencing list?" | put as a question, implicit rather than stated as disagreement
+- about: The user accepts the dependency suggestion while clarifying that threads already imply causality and that the link is for a few cross-thread cases, then asks how to model a character-development view alongside threads, chapters and view-only themes.

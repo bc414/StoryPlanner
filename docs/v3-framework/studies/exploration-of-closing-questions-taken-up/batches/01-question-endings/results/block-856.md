@@ -1,0 +1,5 @@
+- questions:
+  - How would Fleur Bloom and Henri Gourard's Aquileian conditioning make them read Applejack's policies of honoring unambitious ponies, and would they see them as a regression to the Stagnation of Harmony? | ignored | none; the turn moves to real-world American politics and never mentions Fleur, Henri or Applejack's policies | none
+  - In peacetime, with the Poseurs gone, how does the 2nd Aquileian Republic cope, does Verany's PNdA invent a new internal culture war, and does Applejack step in? | ignored | none; nothing about post-war Aquileia or Verany is taken up | none
+- shape: The user drops the model's two proposed story branches and starts a new line. They test the cynicism/resilience framework against the real world, offering Bernie Sanders as an example of the resilience spirit hemmed in by cynical unions and armchair communists. They ask for more real-world examples that fit the two categories, and ask whether the two are a continuous spectrum rather than a binary.
+- settles:

@@ -1,0 +1,10 @@
+- questions:
+  - Does 'predisposition' sound like the word the user was looking for? | answered | Never says yes or no outright, but goes on to use 'predisposed' in describing griffons as predisposed to greed, which reads as taking the word up. | predisposed to be greedy
+- shape: Moves on from the word-finding exchange without comment. The user gives a block of worldbuilding clarifications (Griffonia's industrial history, griffon magic, the ideology of the Aquileian Republic) and then makes two new requests: how to structure Twilight's learning at Star Energy, and better names for the patterned crystals. It also gives a framing instruction for the whole thing.
+- settles:
+  - Griffonia has already had the first industrial revolution (steam power and division of labor) and the second (electromagnetism, electromechanical motors, telegraphs, radios). Its tech level is vacuum tubes, as in World War 2. | the first industrial revolution ... already happened on Griffonia
+  - Griffon magic consists of flying magic, since pegasi and griffons can't fly naturally, and steel-working magic. Steel-working was used for knight armor, which led to perpetual strife and lords and serfs. | Griffon magic consists of flying magic ... and steel working magic
+  - In canon, griffons are predisposed to greed. | predisposed to be greedy
+  - The second Aquileian Revolution aims to make industry serve harmony (capitalism for good) rather than greed and war. The Aquileian Republic's ideology is harmonic Republicanism, comparable to modern social democrats. | industry serves harmony (capitalism for good) instead of greed and war
+  - Twilight's studies before Ponyville were for herself, and in Ponyville she focused on friendship. Star Energy now gives her the chance to spread magic to all unicorns through crystal enhancers and to all creatures through patterned crystals, which work like lithography. | her studies were for herself pre Ponyville
+  - The Star Energy material should be framed as a process already known across the ocean in mechanical engineering and electromagnetism, now being applied to magic. | already a known process across the ocean

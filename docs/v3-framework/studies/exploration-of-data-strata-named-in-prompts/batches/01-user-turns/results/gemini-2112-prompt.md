@@ -1,0 +1,4 @@
+- sources:
+  - the places my friends went to in France (the friends' experience of French food) | treated as the given account to be explained; the user offers a tentative reading that it may reflect a tourist-trap bubble rather than authentic French food, and asks the model to test that | My friends were referring to places they went to in France. Perhaps they were in a tourist trap bubble | referred-to
+- order:
+- about: The user clarifies that their friends' French food experiences were at places in France itself, floats a tourist-trap explanation, and asks the model to explain whether tourist areas cater to Anglo perceptions, whether authentic places are English-unfriendly, and to expand on Bistronomy and whether it serves tourists or locals.

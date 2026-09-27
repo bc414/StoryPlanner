@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the crystal-matrix and Fizzlepop discussion unaddressed and opens a new topic, supplying Bronzehill diamond dog lore and asking how such loyal dogs would affect Herzland's history, the Reich's social structure and the GR.

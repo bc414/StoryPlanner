@@ -1,0 +1,5 @@
+- claims:
+  - History | Applejack contributed, before the story's start, to breaking Fizzlepop's worldview | She actually played a part in breaking Fizzlepop's worldview | yes
+  - Characterization | Applejack is unaware of her own effect on Fizzlepop because she judges it worthless next to the many mindless warlords, which shows how she sees the value of her own actions | doesn't realize it because it's worthless against all the other warlords who are mindless | no
+- goals:
+- whole: The note reports that Applejack helped break Fizzlepop's worldview in the past, and asserts that she does not know it because she thinks her effect counts for nothing against the mindless warlords.

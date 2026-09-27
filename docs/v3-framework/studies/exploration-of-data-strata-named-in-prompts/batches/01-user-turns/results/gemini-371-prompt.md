@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for French equivalents of the party names under discussion, without pointing at any body of material to draw on or avoid.

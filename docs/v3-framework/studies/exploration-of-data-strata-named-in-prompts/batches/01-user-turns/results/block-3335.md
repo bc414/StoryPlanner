@@ -1,0 +1,10 @@
+- sources:
+  - the fabula | treat as the ground truth; older partial or flawed ideas are no longer ground truth there and are kept only as reader beliefs | no longer the ground truth documented in the fabula | referred-to
+  - the conversation about political axes of the fabula, the 2nd one with Claude | recall it and draw on it for the claim that Moriset's Coltbert-designed monarchy and the 2nd Aquileian Republic of 1008 are the same civilizational system, and that the PNdA and FJA share fabula positions | Recall from the conversation about political axes of the fabula (the 2nd one with Claude | referred-to
+  - the 1st conversation about political axes, with Gemini | do not use it; the 2nd conversation is the one meant | not the 1st with Gemini | referred-to
+  - the current plan | use it to find where the C2 correction would land, near the end of the chapter Dilemma and after the Griffonian Republic/Cloudbury/Kemerskai chapters | In the current plan, this would land near the end of the chapter | referred-to
+  - V1 (of the plan) | check it for where the Intervention and Dilemma chapters fall | check both V1 and V2 | referred-to
+  - V2 (of the plan) | check it for where the Intervention and Dilemma chapters fall | check both V1 and V2 | referred-to
+- order:
+  - the conversation about political axes of the fabula, the 2nd one with Claude over the 1st with Gemini | the 2nd one with Claude, not the 1st with Gemini
+- about: The user proposes a three-step belief/correction structure for how readers learn about Aquileia (model, then non-monolith, then same underlying system across factions), tied to chapter placement in the plan, and asks the model to analyze that narrative architecture and its meaning.

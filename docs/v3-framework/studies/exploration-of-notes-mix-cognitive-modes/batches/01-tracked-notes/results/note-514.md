@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Eros is humbled and grounded in other griffons' suffering because child Grover VI morally intervened to save Eagleclaw's life | Because of child Grover VI's moral intervention... Archon Eros is humbled and grounded | yes
+  - Characterization | Eros is not an irrational fascist or nationalist; his character is rational and not driven by ideological fanaticism | He is not an irrational fascist or nationalist | yes
+  - Analogies | Hitler is named as a real-world figure to contrast Eros against, marking what he is not modeled on | like Hitler | no
+- goals:
+- whole: The note asserts the truth of Archon Eros's starting character: humbled and empathetic through Grover VI's childhood intervention, and explicitly not a Hitler-style irrational fascist.

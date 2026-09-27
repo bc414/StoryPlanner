@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two technical questions about how the Gemini web app's whole-response "longer" and "shorter" buttons work: whether longer output can be requested from the start, and whether the button regenerates from the earlier context or feeds in the current response.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's offer with a one-word yes to hear how abstract nouns differ from adjectives, correcting nothing.

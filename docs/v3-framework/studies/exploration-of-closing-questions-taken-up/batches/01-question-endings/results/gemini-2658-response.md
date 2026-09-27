@@ -1,0 +1,4 @@
+- questions:
+  - Will the user share the XAML for CommandNodeView.xaml or DiagramEditor.xaml so the drag failure can be tracked down? | ignored | The user does not share any XAML and does not say yes or no. They ask for an explanation of thumbs and templates from first principles. | none
+- shape: Redirects to a request for teaching. The user drops the debugging offer and asks the model to explain the underlying WPF concepts (thumbs and templates) from first principles. This is a decision about what to look at next in the conversation.
+- settles:

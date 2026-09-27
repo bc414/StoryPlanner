@@ -1,0 +1,12 @@
+- questions:
+  - Would Rainbow Dash learning her hero Daring Do is a cynical cartel enforcer running a tourist trap shatter her Atlas Complex and the heroes-versus-monsters binary, preparing her to accept Applejack's logistical view of war? | ignored | Says nothing about Rainbow Dash, Daring Do or Applejack; moves to the academy storyline. | none
+  - Does Fleur Bloom study the residue of Ahuizotl's scars, and could the cartel's coagulant technology be the missing link for the numbing agents in the Love Donator machines? | ignored | Says nothing about Fleur Bloom, the scars, or the Love Donator machines. | none
+- shape: Redirects to a different thread. The user skips the Ahuizotl/cartel material and its two questions. They return to the Chrysalis/Krista/Gabriella academy backstory. They restate Chrysalis's motive against the nobles, add the new-money bullying, and propose how Gabriella deduces Krista is a changeling. They then lay out three unresolved options for the mandatory or optional forging class.
+- settles:
+  - Chrysalis's motive against the nobles stays as in the original plans: she asked them what they thought of changelings and they answered 'manticore-tier predators' and 'bugs'. | original story plans cite Chrysalis's motivation
+  - Krista Sterling is systematically bullied at the academy for being new money from Skyfall rather than an aristocrat. | new expansion says Krista Sterling was bullied systemically
+  - Gabriella Eagleclaw deduces Krista is a changeling through a biology class lesson at the Herzlander noble academy in Griffenheim. | it would come down to a lesson in biology class
+  - The professor and textbooks present griffons as supreme over ponies, zebras and minotaurs. A footnote calls changelings savage bugs in the frozen north, and the class laughs. | footnote about changelings as 'savage bugs'
+  - The students adopt 'changeling' as an insult for poseur behavior, though they are poseurs themselves. | starting using 'changeling' as an insult of contempt
+  - Gabriella proposes to Krista that they call classmates changelings for incompetence. Krista shuts it down and Gabriella never raises it again. | Krista shuts that down and Gabriella doesn't bring it up again
+  - The academy has a martial arts and iron-forging class where nobles learn to make enchanted armor and swords like griffon knights. | definitely have a martial arts/iron forging class

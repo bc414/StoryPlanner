@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how to tie the model's analysis of Applejack's arc to the Gala and to her cutie mark backstory of going to Manehattan and returning home, without disputing anything the model said.

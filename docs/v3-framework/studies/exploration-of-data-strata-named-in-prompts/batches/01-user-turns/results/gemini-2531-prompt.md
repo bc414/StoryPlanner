@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the Storm King's "join or die" horde could be read as a way to stop the Statthalters from looting the continent, given that the warlords' guns all came from the Statthalters.

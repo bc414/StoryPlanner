@@ -1,0 +1,5 @@
+- sources:
+  - the text already provided (the start of the story) | treated as only a partial excerpt, so the earlier summary based on it does not cover the whole story | This is only the start of the story | referred-to
+  - the whole story | the material the model is now asked to summarize in full, beyond the excerpt already given | Can you summarize the whole story? | referred-to
+- order:
+- about: The user tells the model its summary covered only the opening of the story and asks for a summary of the entire story.

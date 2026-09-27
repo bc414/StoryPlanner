@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - register or format | the model's coder/engineering persona and framing of the story bible as a compiled codebase or logic engine (compiling, executing, architecture, system runs) | Do not treat the story bible as a comprehensive code base or respond with a coder persona | flat directive, stated as a prohibition with no reason or apology, extended to other chats
+  - reading of the plan | the model's characterization of the story bible as a comprehensive code base whose output is just compiled logic, rather than planning material | Do not treat the story bible as a comprehensive code base | flat, put as an instruction about how to regard the bible
+- about: The user tersely rejects the model's coder-style framing of the story bible and instructs it not to use that persona or metaphor in this or other chats.

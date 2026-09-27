@@ -1,0 +1,4 @@
+- claims:
+  - History | Bright Mac and Pear Butter, in the past, were set on ending the family feud whatever it cost | They wanted to end the family feud at all costs | no
+- goals:
+- whole: The note reports as a plain in-universe fact that the parents' past aim was to end the family feud at any cost, without staging how this appears on the page or saying what the reader should take from it.

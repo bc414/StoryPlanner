@@ -1,0 +1,4 @@
+- sources:
+  - Plan export | attached to the turn, but the turn states no weight and no instruction for how the model should use it | Plan export attached | first-named
+- order:
+- about: The user turn consists only of an attachment marker for a plan export and gives no instruction or request about it.

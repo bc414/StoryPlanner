@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's premise by stating that Chrysalis herself recruits the fake parents and therefore controls the cover story completely, without pointing to any body of material.

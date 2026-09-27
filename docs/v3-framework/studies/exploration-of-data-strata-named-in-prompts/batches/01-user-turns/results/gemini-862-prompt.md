@@ -1,0 +1,6 @@
+- sources:
+  - the letters that serve as transitions, and the section preceding the bridging letter | the author's planned design (positive-only reports, with the reader knowing what is going wrong), put forward as a proposal for the model to judge, so provisional | I also plan on only positive reports going into the letters | referred-to
+  - the reunion, war-council line and the morning scene with Fleur and Henri | new plan details given as a proposal to evaluate, not settled | Does this work? | first-named
+  - the Passion chapter | planned chapter that the morning scene is meant to lead into, stated as the author's intent | leads to the Passion chapter connecting personal body liberty with economic liberty | referred-to
+- order:
+- about: The author adds further planned beats (positive-only transition letters, a reunion that turns into intimate confession rather than sex, and a morning scene leading into the Passion chapter) and asks the model whether this works.

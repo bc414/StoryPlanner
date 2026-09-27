@@ -1,0 +1,8 @@
+- claims:
+  - Allegories | her accent stands for the urbanization of the rural, a real-world social condition | represents the urbanization of the rural | no
+  - Characterization | she keeps a local twang but speaks faster, sharper and more precisely because she works in logistics | speaks faster, sharper, and with more precision since works in logistics | no
+  - Canon | her voice is country but high-energy and commercial like Pinkie Pie, in contrast to Applejack, who is earthy and traditional | like Pinkie Pie ... whereas Applejack is earthy and traditional | no
+  - Analogies | the real-world inspiration for her speech is Texan | The inspiration is Texan | yes
+  - Characterization | she drops the g and uses Reckon and Y'all, mixed with commercial and industrial vocabulary such as quota, inventory, spec | drops the g and uses Reckon and Y'all but mixes them with commercial and industrial vocab | no
+- goals:
+- whole: The note explains the design of the character's accent as a rural-to-urban blend, contrasting it with canon characters and naming Texan speech as its real-world inspiration.

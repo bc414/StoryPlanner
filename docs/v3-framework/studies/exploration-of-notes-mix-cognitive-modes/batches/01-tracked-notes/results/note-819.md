@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | the system's moral decay sets in at the very moment the existential threat ends, offered as evidence that conditions rather than teaching govern morality | The rot begins exactly when the existential threat ends | yes
+- goals:
+- whole: The note gives one line of thematic evidence from Industrial Severyana, tying the onset of moral rot to the end of the existential threat, in support of the proposition that material conditions drive morality.

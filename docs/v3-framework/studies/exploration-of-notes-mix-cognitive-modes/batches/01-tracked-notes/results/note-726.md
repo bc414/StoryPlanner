@@ -1,0 +1,6 @@
+- claims:
+  - History | Fleur's professional term for the substance is the French "Le Chlorhydrate de Méthamphétamine" or "Les Amines Éveillantes" (the Wakefulness Amines) | Fleur's professional term is ... | no
+  - History | The Tzinacatl name for it is Huitzil-Pahtli, Hummingbird Medicine, glossed as fast, vibrating energy | Tzinacatl name is Huitzil-Pahtli ("Hummingbird Medicine" - fast, vibrating energy) | no
+  - History | Fluttershy calls the substance "The Jitters" | Fluttershy calls it "The Jitters" | no
+- goals:
+- whole: The note lists the different names by which Fleur, the Tzinacatl and Fluttershy refer to the Blitz Essenz technology, stating them as in-world naming facts rather than planning how the reader meets the technology.

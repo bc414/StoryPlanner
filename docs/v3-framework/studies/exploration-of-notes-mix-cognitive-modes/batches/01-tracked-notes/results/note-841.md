@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten: world-truth ontology rule | Thestral fangs evolved so they could eat the dense, magically saturated meat of jungle monsters | They developed fangs to consume the dense, magically-saturated meet of jungle monsters | outside
+  - outside all ten: world-truth ontology rule | Omnivory is required to sustain thestrals' big brains | Being omnivores is necessary to maintain their big brains | outside
+  - Canon | Contrasts thestrals with canonical Equestrian ponies, who did not need meat because their symbiotic agriculture supplied what they needed | which Equestrian ponies didn't need thanks to their symbiotic agriculture | no
+- goals:
+- whole: The note states, as invariant world fact, why thestrals have fangs and need an omnivorous diet for their big brains, contrasting them with canonical Equestrian ponies.

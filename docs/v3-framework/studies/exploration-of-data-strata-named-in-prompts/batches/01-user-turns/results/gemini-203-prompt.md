@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks what real historical commanders actually do to lead armies and then asks how that carries over to the story's characters Applejack, Trimmel, Pagala, Synovial and Kemerskai, without pointing at any body of material to use or avoid.

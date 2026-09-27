@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Applejack withholds the full truth of her cutie mark story from her friends | She does not tell her friends the full truth of her cutie mark story | yes
+  - Canon | The version her friends hold is the established canon account: she went to Manehattan, disliked it, and came home | they only get the canon version that she went to Manehattan, didn't like it, and came home | no
+  - Characterization | The real truth is that she had already spent years making trips to Manehattan before that, so the canon story understates her history | The reality is she had already spent years taking trips to Manehattan | yes
+  - Characterization | Her friends never pressed her about it, so the concealment has held | Her friends never pressed her on it | yes
+- goals:
+- whole: The note asserts a hidden truth about Applejack, that she concealed years of Manehattan trips behind the canon cutie mark story, and that her friends never questioned it.

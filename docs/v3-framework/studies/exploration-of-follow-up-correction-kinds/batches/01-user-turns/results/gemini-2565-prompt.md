@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user gives background on what FJA means in their lore (a party that began as an acronym for Gaudreau's social clubs and came to mean the new Aquileian way of life) and asks the model to review the plans for existing FJA usages and propose FJA-based names for the monster-hunting ship class, or other ways to tie the acronym into naval culture.

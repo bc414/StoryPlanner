@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | The fantasy technology MEFO Bills stands for present-day quantitative easing and the asset price spirals it produces | Quantitative easing and asset price spirals | yes
+- goals:
+- whole: The note names the real-world condition, quantitative easing and asset price spirals, that the MEFO Bills technology stands for.

@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | The shovel is introduced early, handed to Applejack by Henri in chapter 1 for trench digging, as an ordinary tool | Henri gives Applejack a shovel in chapter 1 to help dig the trenches | yes
+  - NarrativeArchitecture | Later in the story Applejack learns the shovel is magical and bound to earth pony pride, a mid-story reveal of its true nature | Later on, Applejack discovers that it's magical and tied to earth pony pride | yes
+  - NarrativeArchitecture | The shovel's payoff is Applejack using it to kill Pagala on Celestia's throne, the culmination of its arc | Applejack uses it to kill Pagala on Celestia's throne | yes
+- goals:
+- whole: The note lays out the Star Spade's path through the story in three beats: mundane introduction, magical reveal, then use as the killing weapon on Celestia's throne.

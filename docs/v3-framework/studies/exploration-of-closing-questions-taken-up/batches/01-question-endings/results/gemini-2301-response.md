@@ -1,0 +1,5 @@
+- questions:
+  - Does the mass jettisoning of drop tanks over Vanhoover become a hazard to the ponies on the ground? | ignored | none; the user turn moves to a factual question about fuel efficiency and never mentions drop tanks or Vanhoover | none
+  - Do the Wonderbolts use the half-full drop tanks on purpose, dropping them onto advancing Changeling tank columns as improvised napalm? | ignored | none; the user turn asks for real-world fuel data instead and does not take up the napalm idea | none
+- shape: Redirects to a real-world research request. The user asks for the burning efficiency of aviation fuel, diesel and gasoline in WW2 and today, and adds an open invitation to include anything else relevant. It does not react to the model's hybrid-engine and drop-tank material or to its closing question.
+- settles:

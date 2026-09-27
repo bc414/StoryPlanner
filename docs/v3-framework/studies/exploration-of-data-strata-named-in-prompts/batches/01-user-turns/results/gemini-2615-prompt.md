@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the material to review and analyze; the model is to read the plans and assess how the new backdrop affects them | Please review my story plans and give an analysis | referred-to
+  - the previous three chapters where Twilight and Applejack were separated | the established stretch of the story that the new jealousy backdrop is built on and is to be analyzed against | Throughout the previous three chapters where Twilight and Applejack were separated | referred-to
+- order:
+- about: The user restates the mutual-jealousy backdrop and the Fleur and Mali affair after the reunion, asks how it improves the character dynamics and lessons, and asks the model to review their story plans and give an analysis.

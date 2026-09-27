@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the proposed chapter synthesis by stating new plot constraints: only royal guards can speak to Celestia and Luna, Celestia refuses to sign because she is paralyzed, and a popular referendum under an old obscure law should resolve the conflict.

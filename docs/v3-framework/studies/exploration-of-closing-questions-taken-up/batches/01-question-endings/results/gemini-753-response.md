@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look into the specific penalties people faced for slacking or refusing labor directions? | ignored | The user turn asks about the US and France before occupation instead, and does not say yes or no to the penalties offer. | none
+- shape: Redirects to a new but related topic: asks for a comparison of wartime labor mobilization in the US and pre-occupation France, extending the Britain overview rather than taking up the offered follow-up.
+- settles:

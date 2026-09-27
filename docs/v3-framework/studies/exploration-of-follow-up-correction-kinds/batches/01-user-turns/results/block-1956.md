@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks again, in near-identical wording (the second copy with the contrast clause bracketed), which framework label to use for the worldbuilding so it isn't mistaken for strict historical materialism, without saying anything is wrong in the model's answer.

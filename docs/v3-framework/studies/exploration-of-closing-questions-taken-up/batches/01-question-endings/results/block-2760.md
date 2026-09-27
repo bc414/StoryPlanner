@@ -1,0 +1,4 @@
+- questions:
+  - What is Princess and the Kaiser actually about, so the model can correct its comparison from the user's description? | refused | The user gives no description of the work. They say a consolidated report of that conversation is in project knowledge, sending the model to read it there. | There's a document in the project knowledge which is a consolidated report
+- shape: Redirects the model to a source instead of describing the work. It points out that a consolidated report of the other conversation is in project knowledge, which answers the model's claim that it can't reach that chat.
+- settles:

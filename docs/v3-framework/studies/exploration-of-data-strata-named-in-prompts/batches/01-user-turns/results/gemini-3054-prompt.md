@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an extensive breakdown of how they came to the axiom that magic is ambition that affects the physical world, without naming any source of data to draw on.

@@ -1,0 +1,7 @@
+- sources:
+  - the whole Aquileia backstory | review in full as the material to analyze | "review the whole Aquileia backstory" | referred-to
+  - Minette and Réni's character arcs | review and analyze, taking the author's corrected account of their divergence and return as the frame | "Minette and Réni's character arcs and analyze" | referred-to
+  - part 3 of Coltbert's game | treat as already established: it shows the safety net and the deprogramming of thugs into gentlegriffs, a visible kinetic victory that leaves the wallflowers behind | "part 3 of Coltbert's game already demonstrates" | referred-to
+  - the later part (of Coltbert's game) | treat as the planned portion about dignity for all and reaching the mass market, not only the professional class | "The later part is about dignity for all" | referred-to
+- order:
+- about: The author corrects the model's account of Minette and Réni's divergence and return to Skyfall, explains how part 3 of Coltbert's game differs from the later dignity-for-all part, and asks for a review of the whole Aquileia backstory and both characters' arcs.

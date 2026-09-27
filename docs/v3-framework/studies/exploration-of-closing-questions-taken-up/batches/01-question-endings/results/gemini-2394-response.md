@@ -1,0 +1,5 @@
+- questions:
+  - How does the standard-issue Spitfire physically feel to Réni compared with his enchanted custom plane? | no user turn | none | none
+  - Does Réni feel the heavy, sluggish weight of live-recording physics in the Spitfire, or does he find a grounded comfort in relying on a Republic-built machine instead of his own ego? | no user turn | none | none
+- shape: none
+- settles:

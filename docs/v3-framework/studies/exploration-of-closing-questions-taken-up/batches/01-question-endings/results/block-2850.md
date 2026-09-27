@@ -1,0 +1,6 @@
+- questions:
+  - Whether to work out names for the two poles of the proposed 5th axis (identity preserved vs. erased) | ignored | Says nothing about naming the poles. | none
+  - Whether to then run a pass assigning values on all axes, including the 5th, to test whether the single-flip pattern holds more cleanly | partly answered | Wants the lineage analysis done, but on all 5 axes instead of the 4 first-pass axes with only partial values. It must be grounded in the real data, with the v1 and v2 databases reread for the relevant notes. It doesn't say yes to the model's own framing. | do this analysis using 5 axes, grounded in the real data, reread the v1 and v2 databases
+- shape: An instruction that also corrects the model. The user treats the model's lineage analysis as not yet valid, because it used only the partly populated first-pass axes and wasn't checked against the source data. The user tells it to redo the work on five axes after rereading both databases, and doesn't discuss the 5th axis's definition or the Coltbert refinement.
+- settles:
+  - The lineage and axis-flip analysis is to use five axes, not the four from the first pass | using 5 axes (not just what's populated of the 4 from first pass)

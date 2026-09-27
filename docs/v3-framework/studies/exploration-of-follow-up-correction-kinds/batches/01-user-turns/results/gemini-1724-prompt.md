@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds further worldbuilding, grounding the Aquileia and Griffonian Republic contrast in climate, geography and thirty years of war economy, and says where Applejack's synthesis comes from in Equestria's own history, without disputing anything the model said.

@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Celestia believes she has achieved the perfect society, a state the note labels the stagnation of harmony | She believes she has achieved the perfect society (Stagnation of Harmony) | yes
+  - Characterization | Celestia interprets every threat as a mere misunderstanding or anomaly rather than a real danger | all threats are just "misunderstandings" or "anomalies" | yes
+- goals:
+- whole: The note asserts Celestia's starting psychology: she is convinced her society is perfect and explains away every threat as a misunderstanding or anomaly.

@@ -1,0 +1,4 @@
+- sources:
+  - the existing plan in chapter 5 Laughter (including the beat where Twilight tells Fluttershy to stay in Tall Tale and help animals) | material to analyze and summarize, then evolve; the stay-in-Tall-Tale beat is to be replaced by the user's new version, and the rest is a base to be revised to fit the themes and arcs | analyze the existing plan in chapter 5 Laughter, give an overview | referred-to
+- order:
+- about: The user asks the model to change a beat so that Twilight sends Fluttershy back to Celestia and Fluttershy chooses to stay on her own, and to analyze and summarize the chapter 5 Laughter plan and suggest how to evolve it to fit the themes and arcs.

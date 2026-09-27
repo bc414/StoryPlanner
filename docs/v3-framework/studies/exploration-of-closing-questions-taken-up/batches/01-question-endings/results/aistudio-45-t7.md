@@ -1,0 +1,6 @@
+- questions:
+  - How does the steady influx of Skyfall-indoctrinated thugs from the New Mareland pipeline affect New Mareland's political stability when it secedes during the submarine blockade? | ignored | none | none
+  - When Applejack learns Celestia knew about the Predator's Dilemma and gaslit the Buffalo, how does that break Applejack's idea of Honesty and push her toward Kemerskai's realpolitik? | ignored | none | none
+- shape: The user skips the Socratic questions and gives an instruction. They declare the latest explanation the definitive version. They paste seven statements that restate it, covering Celestia's trap, the Luna parallel, her economic blind spot, the litigation and bribery loop, the amnesty and rogue-contractor cycle, and the Appleloosa confirmation bias. They ask the model to judge which are still relevant and which should be scrapped. This is a consolidation and pruning request, not story development.
+- settles:
+  - The most recent explanation of Celestia's paralysis and the Rockfeller/Buffalo dynamic is adopted as the definitive canon, replacing earlier versions. Which of the seven listed statements survive is left for the model to evaluate. | This recent expaination is what I want definitively

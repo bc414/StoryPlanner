@@ -1,0 +1,5 @@
+- questions:
+  - How does the shared trauma of their Gilded Ages (Mudbeak a victim of nepotism, Genevieve a beneficiary who rejected it, under Blueblood) create a cynical-but-functional camaraderie between the Griffon general and the Skyfall CTO in the bunkers? | no user turn | none | none
+  - During the Skyfall Resolution, when radicalized Patrotten workers recognize Genevieve as the Iron Chancellor's niece and demand her execution, how does Blueblood use realpolitik to protect her and make the revolutionaries accept they need her crystal-valve knowledge more than a guillotine? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user builds on the accepted gun-offer idea by adding a plot consequence: Gilded Trust would learn the Buffalo's sabotage secrets after the fact, while the public would credit his knowledge to genius.

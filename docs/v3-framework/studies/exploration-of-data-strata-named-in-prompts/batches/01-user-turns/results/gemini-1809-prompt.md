@@ -1,0 +1,4 @@
+- sources:
+  - the setting as the user restates it in this turn (Gerad's pre-972 rise, 972-980 rule, the 980 revolt and the nobles' response) | treat as the established premise; build the peasant reforms and the analysis on it | So the setting is | first-named
+- order:
+- about: The user restates their own timeline of Gerad's rule, the 980 revolution and the noble factions' responses, then asks the model to devise the peasant rights and reforms of Vérany's six months and to analyze the remaining events.

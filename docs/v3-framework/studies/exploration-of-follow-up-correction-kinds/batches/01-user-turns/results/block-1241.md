@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for further explanation of SEO/SSR need, SPA versus MPA paradigms in JavaScript, and how they map to Blazor's rendering modes, without disputing anything in the model's prior answer.

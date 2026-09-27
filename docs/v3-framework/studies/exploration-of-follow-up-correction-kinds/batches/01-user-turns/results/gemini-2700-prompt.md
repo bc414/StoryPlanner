@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's prescribed letter (a cold, sovereign, peer-to-peer notice that subverts the parent-child friendship-letter dynamic) misstates how Applejack stands toward Celestia at this point; the user says she writes as a student admitting she can't run a country yet and must go learn, in the old friendship-letter form | I believe the tone of the letter should actually be similar to a season 1-3 friendship letter | Stated as a personal belief with a reason, softened by a closing question asking whether it would be more impactful
+- about: The user counters the model's recommended cold, sovereign letter tone by proposing a season 1-3 style friendship letter with mature content, grounded in Applejack admitting she needs to learn, and asks whether that would land harder.

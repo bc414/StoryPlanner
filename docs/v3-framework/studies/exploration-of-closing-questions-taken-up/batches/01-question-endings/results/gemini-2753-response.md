@@ -1,0 +1,5 @@
+- questions:
+  - Set up the Google Drive folder now, or assume the attached document is current and go straight into analysing a piece of lore? | ignored | Doesn't pick either. It asks a new question about whether the content would work as well in a Google Doc, which bears on the setup route but doesn't decide it. | I don't actually use the wikilinks or the raw .md at all. Would the contents of the document be just as effective when saved to a Google Doc?
+- shape: Redirects with a clarifying counter-question. It gives a correction to the model's premise: the wikilinks and .md format aren't used by the user and were added only for the model's benefit. It then asks whether a Google Doc would work equally well. It moves toward the model's Option B without choosing it, and it leaves the "set up now or dive in" choice open.
+- settles:
+  - The lore document's wikilinks and raw .md format are not something the user uses. The wikilinks were added only to help the model, so the format isn't a constraint on the work. | I don't actually use the wikilinks or the raw .md at all. I only added the wikilinks to help you.

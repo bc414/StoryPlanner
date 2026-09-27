@@ -1,0 +1,6 @@
+- sources:
+  - The Kitty of Westkeep | treat as containing Réni's POV as well as Minette's, correcting the model's assumption about its viewpoint | "has Réni's POV too, not just Minette" | referred-to
+  - TLTT | treat as settled that the reader already knows from its epilogue that Minette survives and accepts solidarity, and use that to judge the frame story; also keep its Mane 6 pacing tight, with extra Mane 6 scenes going to the Minette story | "The reader already knows Minette lives to tell the tale" | referred-to
+  - notes about Fleur and Henri | attached material to consider when judging that they may not need a prequel, since TLTT features them heavily | "I attached some notes about Fleur and Henri" | first-named
+- order:
+- about: The user corrects the model's reading of what they meant by Aquileian history and of The Kitty of Westkeep's viewpoints, asks whether the parloir frame story is still useful given the TLTT epilogue, and lays out a new option of Mane 6 scenes that appear only in Minette's story, along with why Fleur and Henri need no prequel while Minette, Reni and Chrysalis do.

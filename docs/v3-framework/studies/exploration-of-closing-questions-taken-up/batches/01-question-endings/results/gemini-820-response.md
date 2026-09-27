@@ -1,0 +1,10 @@
+- questions:
+- shape: The user turn does not answer anything, since the model turn put no question to the user. It moves the conversation to a new task. The user pastes Rommel excerpts from Wikipedia and asks the model to compare them with their existing Trimmel plans and suggest ways to enhance his arc. Between the excerpts, the user's own notes work out how Trimmel maps onto Rommel, which sets several character and plot points for Trimmel.
+- settles:
+  - Trimmel is an unapologetically idealized version of Rommel, and his second arc is an idealistic commentary on Rommel | Trimmel's second arc will be an idealistic commentary on Rommel; Trimmel is an unapologetic idealism of Rommel for fun
+  - Trimmel is introverted and shy underneath, and this shows when he removes the mask | when Trimmel removes the mask, he is actually pretty introverted
+  - Trimmel can influence Chrysalis's decisions, for example advising her to stay in Canterlot | Trimmel is able to influence Chrysalis's decision making, like telling her to stay in Canterlot
+  - The Trimmel–Chrysalis relationship mirrors the pre-war Rommel–Hitler bond, made stronger because Trimmel was picked up as a teenage drone | Rommel and Hitler relationship pre war is literally what I thought about Trimmel and Chrysalis
+  - Trimmel's long complicity with Chrysalis, despite his principles, is confirmed as plausible and is framed as looking the other way | makes my story for Trimmel more than valid; Look the other way
+  - Tentative idea: between the Stalliongrad Winter Revolution and Olenia, Trimmel teaches tactics, as Rommel taught at academies between the wars | Maybe Trimmel does too between Stalliongrad Winter Revolution and Olenia?
+  - Tentative idea: Trimmel's turn toward the Allies happens while Chrysalis is not yet defeated, echoing Rommel's postwar image as a good German | Propaganda? Or this is Trimmel joining the allies since Chrysalis isn't yet defeated

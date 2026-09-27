@@ -1,0 +1,8 @@
+- questions:
+  - Does Attrition work as the chapter word, or would the user rather have the more aggressive Superiority? | answered | Turns down both. Picks Initiative, the option the model had called the perfect fit, as the favourite. Says Superiority carries the same idea and links to air support, but Initiative is cleverer, subtler and more subversive. Says Attrition doesn't suit a swift engagement over in a day, though it does reflect AJ cutting off supply. | I really like Initiative the most
+- shape: Picks a third option the model had floated, Initiative, over both it asked about. Gives reasons for it: the two are the only human players and the highest-stat generals. Also explains why the other two fall short. Attrition doesn't fit a one-day battle, and Superiority is less subtle.
+- settles:
+  - The title word for this chapter (Ch 15 in the model's sequence) is Initiative, not Attrition or Superiority | I really like Initiative the most
+  - Theme: Trimmel and Applejack are the only two human players, the generals with the highest stats in their countries | they are the only two human players
+  - The chapter's engagement is swift and over in a single day, not a prolonged battle of attrition | swift engagement over in a day
+  - AJ's spearhead cuts off enemy supply | AJ cut off supply with the spearhead

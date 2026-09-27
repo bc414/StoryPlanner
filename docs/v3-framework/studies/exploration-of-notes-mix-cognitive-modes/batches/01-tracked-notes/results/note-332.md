@@ -1,0 +1,6 @@
+- claims:
+  - History | Chrysalis told Thorax "Go! Feed!" and Thorax followed the order | Chrysalis said to "Go! Feed!" and Thorax followed | no
+  - Characterization | Thorax obeyed because he had been starved of love all his life, which is what drove him | because he was starved of love all his life | no
+  - History | Chrysalis never made another slip-up; this was the single time | That was the only time Chrysalis ever slipped up | no
+- goals:
+- whole: The note reports a past event between Chrysalis and Thorax, explains his motive, and adds that it was her only error, so it states history and character truth instead of staging what the reader sees on the page.

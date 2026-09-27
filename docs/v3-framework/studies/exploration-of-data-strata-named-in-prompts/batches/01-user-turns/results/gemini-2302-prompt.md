@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks an open factual question about how efficiently aviation fuel, diesel and gasoline burned in WW2 versus today, and invites any further related information, without pointing the model at any particular body of material.

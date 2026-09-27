@@ -1,0 +1,3 @@
+- questions:
+- shape: The turn asks nothing and answers nothing. It is a pipeline hand-off. It attaches a document and pastes a JSON listing of the same six paradigms with the same bucket names, stripped of the consolidations and verbatim notes. It reads as the next stage's input or format. It doesn't respond to, correct or accept the sorter output in words.
+- settles:

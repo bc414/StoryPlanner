@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user passes on an observation from running the script, that the revision history only covered everything once they had scrolled down to the oldest revision in the doc, without disputing the rate-limit fix.

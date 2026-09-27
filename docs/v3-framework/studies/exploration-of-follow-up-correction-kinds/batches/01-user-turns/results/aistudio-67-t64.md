@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model asserted as a core tenet that ponies are inherently harmonic, communal and good, and rebuilt the 930 ALB story on that; the user says the running thesis before this chat's rethinking was that ponies are not inherently good, have ambition, and were kept behaving by top-down mandates | "the running thesis is that ponies are not inherently good" and "I'm not sure if saying 'Ponies are inherently harmonic, communal, and good' is correct" | stated as a recollection of the standing plan, hedged with 'I think' and 'I'm not sure', with the 85%'s actual motive restated as the reason, and turned into a question about what the truth should be
+- about: The user pushes back on the model's claim that ponies are inherently good by restating the plan's thesis that ponies are ambitious and needed top-down mandates, and asks what version of the 930 ALB truth best serves the themes.

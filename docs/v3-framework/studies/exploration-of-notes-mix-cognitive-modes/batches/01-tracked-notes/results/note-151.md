@@ -1,0 +1,5 @@
+- claims:
+  - History | Applejack's parents turned the division among their families into a tool that produced maximal, standardized solidarity | weaponized their families' division to produce ultimate, standardized solidarity | no
+  - History | Applejack's parents channeled ambition into pride rather than extractive greed | funneled ambition into pride instead of extractive greed | no
+- goals:
+- whole: The note flatly reports, as settled in-world fact, how Applejack's parents used their families' division to build solidarity and redirect ambition into pride, without designing any inference for the reader to draw.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects and revises the worldbuilding picture of Grover III, his father's era, and the Aquileian protectors, and proposes that he was building a pan-griffonian state, without pointing at any body of material to draw on or set aside.

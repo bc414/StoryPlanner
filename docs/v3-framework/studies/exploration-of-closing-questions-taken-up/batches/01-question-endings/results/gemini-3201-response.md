@@ -1,0 +1,4 @@
+- questions:
+  - Are the rival changeling band (Twilight, Rarity, Rainbow Dash) using their concerts to siphon fans' emotional energy, or do they have a bigger plan to hijack the sun-moving ritual for themselves? | no user turn | none | none
+- shape: none
+- settles:

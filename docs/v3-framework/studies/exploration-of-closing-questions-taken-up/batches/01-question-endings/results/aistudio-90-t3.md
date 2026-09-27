@@ -1,0 +1,5 @@
+- questions:
+  - How do the conservative Diwan elders react, and does a generational schism open, when young militia like Rasti agree to mount the 'cursed' crystals on their rifles? | no user turn | none | none
+  - How do the Temberik adapt their 1,000-year-old low-tech mountain survival tactics to counter Trimmel's Panzer divisions and Stuka bombers if the Changeling Heer pushes through the passes to cut off the Bluebell River Spearhead? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- sources:
+  - Rat Park (the chemistry and biology of Rat Park) | treated as the scientific basis the model is asked to confirm Fluttershy's approach against; used as the standard for checking the story's solution, not yet accepted as settled | backed by the chemistry and biology of Rat Park? | referred-to
+- order:
+- about: The user asks for confirmation that Fluttershy's gentle rehab approach in the story is supported by the science of the Rat Park experiment that the model just cited.

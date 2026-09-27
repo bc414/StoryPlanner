@@ -1,0 +1,10 @@
+- questions:
+  - How does Spike deal with Flowing Current and the EEEE! movement's War Bond system once the Crystal City is liberated and folded into the Republic's war economy? | ignored | Nothing said about Flowing Current, war bonds or the post-liberation economy; the turn moves to the siege-era Crystal Empire plot. | none
+  - How does Celestia square Spike's peaceful administrative competence, as proof that nurture works, with her belief that the adult world of industry and geopolitics is corrupting? | ignored | Celestia and her beliefs are not mentioned; the turn is about Spike, Thorax and Flurry Heart. | none
+- shape: Redirects. It sets aside both Socratic questions and opens the user's own agenda. The user asks how to work in canon's Spike the Great and Powerful and The Times They Are a Changeling, given Spike now sits in the Crystal Empire. The user then proposes a revised Thorax-discovery scene and asks the model how to synthesize it with the current plans. The model's Crystal Empire placement is taken as settled, and the turn builds on it.
+- settles:
+  - Spike is stationed in the Crystal Empire rather than following Twilight, and this is treated as a given. | now that I have placed Spike in the crystal empire
+  - The canon episode The Times They Are a Changeling can be kept almost entirely intact in the new setup. | can be kept almost entirely intact
+  - Flurry Heart is five when she meets Thorax. She finds him through her emotion sense after slipping out of the Crystal City to the frozen north to practice controlling her magic. | Flurry Heart finds Thorax via her powerful emotion sense
+  - Tentative: Flurry Heart, not Spike, is the one who discovers Thorax, replacing canon's chance find. | perhaps the discovery is by Flurry Heart instead of Spike
+  - Tentative: Spike is the first to accept Thorax, because of his outsider status and his past trauma over accidentally being a monster (Secret of My Excess). Five-year-old Flurry Heart couldn't grasp what Thorax is going through. | Spike can be the one who first accepts Thorax

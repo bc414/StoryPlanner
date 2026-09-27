@@ -1,0 +1,5 @@
+- sources:
+  - the FJA's decentralized command model, Trimmel's mobile warfare based on the FJA, and Henri as an Aquileian FJA volunteer leading magical combined arms attacks | the author's own planned design, given as settled plan details to be fitted to the true-leadership theme and tested against the historical comparison | I also planned for the FJA's decentralized command sent model | referred-to
+  - the German army in WW2 and the actual German initiative based army, as a real-world reference | the model's general historical knowledge is to be used to check whether the planned FJA model matches how the real German army beat the French | Is this how the German army defeated the French in WW2? | first-named
+- order:
+- about: The user adds planned details of the FJA's decentralized command, Trimmel's mobile warfare and Henri's role as a parallel to the true-leadership theme, then asks the model to say from history whether it matches how the German army actually beat the French in WW2.

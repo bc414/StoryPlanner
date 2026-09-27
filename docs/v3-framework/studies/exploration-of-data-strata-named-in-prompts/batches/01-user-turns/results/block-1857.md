@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates their question about their rainbow color scheme, asking whether the purple categories (canon and analogies) belong to the left of the red foundational ontology or at the far right because they aren't page content.

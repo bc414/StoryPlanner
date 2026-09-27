@@ -1,0 +1,5 @@
+- sources:
+  - my story's setting, a WW2 era | treat as the fixed era the answer must fit; the author states it as a constraint on the earlier 1950s comparison | My story takes place in a WW2 era | first-named
+  - real-world history of cars in that era (the model's general knowledge) | draw on it to say how developed cars were then | What was the development level of cars back then? | referred-to
+- order:
+- about: The user states that their story is set in a WW2 era and asks the model how developed cars were at that time, questioning the fit of the 1950s-style car-suburb model just proposed.

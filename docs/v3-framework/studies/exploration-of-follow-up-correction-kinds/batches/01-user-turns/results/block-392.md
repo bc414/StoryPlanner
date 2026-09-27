@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: judgment of a word's fit (recommendation) | The model's recommended word Kindred, which it said passes the modern-English and constraint tests and rated above Kinship, is rejected as obscure, mythical and grammatically odd, and Kinship is chosen instead | Kindred sounds to obscure, mythical or grammatically odd, but I think Kinship can have a lock | flat, brief verdict with the reason folded into the same sentence, then moves straight on to building the case for Kinship
+- about: The user rejects the model's Kindred recommendation in favor of Kinship, backs that choice with canon and backstory evidence against tribalism, and plans to use Kinship as a chapter title and the six Liberty Elements as the last chapter titles.

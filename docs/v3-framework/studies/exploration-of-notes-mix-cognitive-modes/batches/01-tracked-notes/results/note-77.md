@@ -1,0 +1,5 @@
+- claims:
+  - History | Actia Pagala carried out the Sack of Acornage in 1011, with the aim of indoctrinating drones to become junior statthalters | She carried out the Sack of Acornage to indoctrinate drones to become junior statthalters | yes
+  - Characterization | What drove her was the thrill of draining real love, which she preferred to eating bland rations, an assertion of her inner appetite | from the thrill of draining real love instead of eating bland rations | no
+- goals:
+- whole: The note reports, as a historian would, that Actia Pagala carried out the Sack of Acornage to turn drones into junior statthalters, and it adds the appetite for draining real love that motivated her.

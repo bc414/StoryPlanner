@@ -1,0 +1,4 @@
+- sources:
+  - the tree of harmony part | treat its current placement in the chapter plan as a probable accidental misplacement, not as settled | probably misplaced by accident | referred-to
+- order:
+- about: The user proposes splitting the confrontation into a prosecution plot point, a counter-interrogation plot point and a following Fluttershy's Stare moment, and asks whether another way of delivering the required story-shifting content beats one long soundproof-bubble interrogation.

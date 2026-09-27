@@ -1,0 +1,5 @@
+- questions:
+  - When the diehard loyalists who retreated to Vesalipolis realize Chrysalis abandoned them, do they become the most compliant prisoners out of spite, or do they lose their minds? | no user turn | none | none
+  - When Applejack and the SECEF forces breach the central spire and find an empty throne room and a drained Love Harvester, how do they react, and how does the anticlimax validate her earlier view of Chrysalis as a Poseur? | no user turn | none | none
+- shape: none
+- settles:

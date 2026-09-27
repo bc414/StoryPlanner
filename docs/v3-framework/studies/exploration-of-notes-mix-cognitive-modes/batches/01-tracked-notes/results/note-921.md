@@ -1,0 +1,4 @@
+- claims:
+  - Canon | the character's visual design is derived from an existing default portrait used for pony regiment commanders in the source material | His look comes from one of the default portraits for pony regiment commanders | yes
+- goals:
+- whole: The note ties Comet Shine's appearance to a default regiment-commander portrait from the source material, anchoring his design in established canon.

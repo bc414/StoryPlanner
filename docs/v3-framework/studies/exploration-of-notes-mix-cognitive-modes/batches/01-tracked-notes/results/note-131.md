@@ -1,0 +1,5 @@
+- claims:
+  - History | SAA is an industrial canning company in Manehattan owned by Bright Mac and Pear Butter, stated as a plain fact of the world | Standard Agricultural Amalgamated is Bright Mac and Pear Butter's industrial canning company in Manehattan | yes
+  - Canon | The organization's acronym is the same as that of Sweet Apple Acres, an established canon location, so the invented company is tied to and echoes the source material | It has the same acronym as Sweet Apple Acres | no
+- goals:
+- whole: The note defines SAA as Bright Mac and Pear Butter's Manehattan canning company and points out that its acronym matches Sweet Apple Acres.

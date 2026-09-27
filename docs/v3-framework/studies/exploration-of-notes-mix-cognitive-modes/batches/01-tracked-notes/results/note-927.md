@@ -1,0 +1,7 @@
+- claims:
+  - Analogies | The character's ethos is partly modeled on the real-world figure Dario Amodei | His ethos should be partially inspired by Dario Amodei | yes
+  - Characterization | The character truly believes technology is good and that it empowers people | Believes in the goodness of technology and empowerment | no
+  - Characterization | Opponents and alienated traditionalists may perceive him as having a god complex, which is part of how he is seen and who he is | may come off as having a "god complex" by opponents and alienated traditionalists | no
+  - Canon | Established canon figures Flim and Flam are recast as unscrupulous dark mirrors of the character who burned the traditionalists | burned by unscrupulous dark mirrors of Comet Shine, such as Flim and Flam | no
+- goals:
+- whole: The note names Dario Amodei as partial inspiration for Comet Shine's ethos while also asserting his techno-optimist beliefs and framing how canon figures Flim and Flam act as dark mirrors that lead others to see him as having a god complex.

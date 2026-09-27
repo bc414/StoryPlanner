@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts no answer to anything and instead sets a new line of inquiry. It asks the model to test its framework against familiar analogies: calculators in math class, in-between tools such as Google and Wikipedia, and any others the model can think of. It is a request for comparison and further examples, not a correction or an instruction. The model turn put no question to the user, so nothing is left unanswered.
+- settles:

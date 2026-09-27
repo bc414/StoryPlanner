@@ -1,0 +1,3 @@
+- claims:
+  - span | She sees herself as living up to the legend of the Princess of the Night; a self-image she holds at the story's opening | the note's display question asks who she is at the start of TLTT, and the note says she sees herself as living up to the legend | the start of TLTT, the story's opening; nothing else in the note shows whether she held it before or keeps it after
+- beside: none

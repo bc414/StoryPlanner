@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's analysis with a new "what if" idea, having Applejack's parents' canning company put Pinkie's Pink Love recipe into army rations so the donated love serves morale as well as changeling rehab.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Gem-building discussion and asks an unrelated practical question about how to check whether their modem's DNS goes to Xfinity or Cloudflare, without commenting on the model's blueprint.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question by saying the planner has been in ship mode for three months and now needs a foundation rework, then asks whether Claude Code (outside agent mode) or another tool could analyze the commit history.

@@ -1,0 +1,4 @@
+- sources:
+  - attached document (id 1cLtB9rGUOmNeCqHDHXPvkvHwD-kW8OTR, contents never captured) | supplied as input material for the model to work from; the turn gives no instruction on how much to trust it or how to rank it | Attached document | first-named
+- order:
+- about: The user hands the model an attached document together with a JSON listing of the bucket names grouped under each paradigm, with no accompanying instructions, apparently as the next input for the sorting task.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds outside background about the author (a P&K commenter whose username points to a history bent) to explain the mix of materialist military detail and great-man storytelling the model described, without saying anything in the analysis was wrong.

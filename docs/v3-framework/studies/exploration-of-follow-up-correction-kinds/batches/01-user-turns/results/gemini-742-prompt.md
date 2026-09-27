@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: description of the app's interface | the model's account of the Studio tab (a Notes section with a add-note control, and its layout) is set against what the user actually sees on their screen | this is also I see on the studio tab | implicit and understated, showing what is on screen in place of stating any disagreement, with no explanation or apology
+- about: The user reports, tersely and apparently by showing their screen, what their Studio tab actually contains, in response to the model's step-by-step description of where Notes live.

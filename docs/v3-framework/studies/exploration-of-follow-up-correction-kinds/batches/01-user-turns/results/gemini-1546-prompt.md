@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the dollar etymology as a starting point and asks a new worldbuilding question, what to name the civic currency of Kemerskai, a country made of Herzlander (German) refugees and Cloudbury (Denmark) natives, without challenging anything the model said.

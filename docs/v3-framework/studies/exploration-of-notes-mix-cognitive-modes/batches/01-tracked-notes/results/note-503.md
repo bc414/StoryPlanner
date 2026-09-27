@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Flurry Heart's cutie mark, a crystal heart with changeling wings, stands for her ability to turn chaotic, raw emotion into understanding, and this is asserted as the truth of who she is | Her Cutie Mark (The Crystal Heart with Changeling Wings) represents her ability to take chaotic, raw emotion and "crystallize" it into understanding | no
+- goals:
+- whole: The note asserts what Flurry Heart's cutie mark means about her capacity to crystallize raw emotion into understanding, which is a statement of character truth and not evidence laid out for a thematic proposition, and it names no reader response.

@@ -1,0 +1,4 @@
+- sources:
+  - the dutch or german localizations of EaW | consult as a reference for what the published work's Dutch and German versions call the entity, as a comparison point for the model's proposed endonyms | What do the dutch or german localizations of EaW call it? | referred-to
+- order:
+- about: The user asks what the Dutch or German localizations of EaW call the entity the model just proposed endonyms for, seeking the published work's own naming.

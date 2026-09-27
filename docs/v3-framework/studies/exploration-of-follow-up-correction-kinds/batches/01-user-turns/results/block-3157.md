@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets a new task, pointing to an existing Winter Wrap Up callback in the v1 archive's chapter 17 and asking whether it overlaps with the new lore, without saying the preceding report was wrong.

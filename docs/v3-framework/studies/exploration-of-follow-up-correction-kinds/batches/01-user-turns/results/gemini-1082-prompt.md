@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model placed Gilded Trust as a political player in Manehattan (Nativist challenger to the Mayor and Tammarey Hall), when in the story's world he controls Las Pegasus | Gilded Trust is not involved in Manehattan. He is in control of Las Pegasus. | flat, stated as a plain fact with no reason or apology, then moved straight on to the next question
+- about: The user briefly corrects the model's placement of Gilded Trust in Manehattan politics, then drops the three-way struggle and asks a new question about the mayor's powers under Celestia's Stagnation of Harmony and how Chrysalis manipulates them through Skyfall shell companies.

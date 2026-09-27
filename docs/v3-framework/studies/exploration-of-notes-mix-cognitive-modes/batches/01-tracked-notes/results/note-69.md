@@ -1,0 +1,6 @@
+- claims:
+  - History | Minette witnessed Gisele hurting stallion house ponies and tried to mend their clothes | Minette watches Gisele hurt stallion house ponies and tries to fix their clothes | yes
+  - History | Apart from that small effort, Minette sank into a quiet depression | otherwise falls into a quiet depression | yes
+  - Characterization | Minette's depression is explained by what she inwardly came to understand, the reality of her situation and the world's cruelty | having learned the reality of her situation and the cruelty of the world | no
+- goals:
+- whole: The note reports, as in-universe history in 973, how Minette responded to seeing Gisele abuse stallion house ponies and how she withdrew into quiet depression after grasping her situation.

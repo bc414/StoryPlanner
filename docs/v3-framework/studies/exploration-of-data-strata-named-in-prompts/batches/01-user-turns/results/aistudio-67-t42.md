@@ -1,0 +1,4 @@
+- sources:
+  - EaW canon | treat as established fact: New Mareland was founded in 649 ALB, and the author builds the rest of the reasoning on that date | EaW canon says New Mareland was founded in 649 ALB | referred-to
+- order:
+- about: The user takes the founding date of New Mareland from EaW canon and uses it to propose and ask the model to test their own reasoning about why Equestrians settled there, why Celestia hid Aquileia from them, and how New Mareland's three phases parallel Aquileia's and explain its refusal of Aquileian pony refugees.

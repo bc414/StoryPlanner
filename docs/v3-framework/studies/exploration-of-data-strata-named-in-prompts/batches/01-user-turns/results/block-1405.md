@@ -1,0 +1,4 @@
+- sources:
+  - all the conversations in this Claude Project "The Lioness of Tall Tale Story Design" | read through and draw the overview of conclusions about the tracks from them | Look through all the conversations in this Claude Project | first-named
+- order:
+- about: The user, returning after 2-3 weeks away, asks the model to search all conversations in the named Claude Project and summarize the conclusions about the claims, tracks and the goal of note track separation.

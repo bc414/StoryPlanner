@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's clicks-and-chittering detail as inspiration and announces a new worldbuilding decision, basing native Changeling on Xhosa and related languages, without disputing anything the model said.

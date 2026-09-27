@@ -1,0 +1,6 @@
+- sources:
+  - my v1 notes | treated as facts-only notes whose meaning and nuance depend on inference, since they never spell out what the reader should feel; offered as the reason older models failed and newer ones help | a lot of the meaning and nuance requires inference because I wrote them as just facts | referred-to
+  - the Google docs that came back | grouped with the v1 notes as material whose meaning must be inferred because the reader's feeling is not spelled out | In my v1 notes, and the Google docs that came back that | referred-to
+  - ChatGPT 3.5 from November 2022 (its training data) | treated as a weak source that reaches for the most common tropes when facts are not spelled out, used as a contrast with newer models | would fail or reach for the most common tropes in the training data | referred-to
+- order:
+- about: The user restates why the S/L and W/R axes are exclusive and orthogonal, says the La+L+R track should hold the reader's prior belief as well as the conclusion, and asks whether their fact-only v1 notes explain why 2022 models failed while current models help.

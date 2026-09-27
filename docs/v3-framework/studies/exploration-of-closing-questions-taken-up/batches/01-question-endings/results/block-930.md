@@ -1,0 +1,10 @@
+- questions:
+  - When the CMCs match Golden Javelin to a factory role, how do they handle the gap between her javelin/athletics cutie mark and industrial requirements, and does this bear out Twilight's Chapter 17 theory that a cutie mark is flexible rather than a cage? | ignored | Nothing said about the CMC evaluation, her role, or Twilight's theory; the turn moves to a separate drug-scene idea. | none
+  - If Golden Javelin, later a unionized factory worker, learns her job is subsidized by the same cartels that preyed on refugees, how does that hypocrisy test her loyalty to the Republic? | ignored | Nothing said about her later loyalty or learning of the subsidy. The turn does bring up the Chapter 12 drug-tribe reveal, but only as something the new scene should seed. | none
+- shape: Sets aside both of the model's questions and moves to a new, smaller scene idea. The user proposes a brief drug-dealer encounter for Chapter 7, then asks the model two fresh questions of their own: what the drug should be called, and how to keep the moment comic and in passing without weakening the stakes.
+- settles:
+  - Chapter 7 gets a very brief drug scene outside the max-occupancy parloir. | a very brief drug scene ... outside the max occupancy parloir
+  - A thestral tries to sell Golden Javelin a red love-derived drug. | a thestral tries to sell Golden Javelin a red love derived drug
+  - Golden Javelin has no bits left, which is played for comedy, and the thestral moves on. | she comically doesn't have any bits left so the thestral moves on
+  - The drug's label carries the name Dr. Caballeron's followed by a product name that is still undecided. | It's labeled Dr. Caballeron's (something)
+  - The scene is a planted seed for the Chapter 12 reveal about the drug tribes. | plants a seed for the later chapter 12 reveal about the drug tribes

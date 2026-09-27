@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to write the React function for the Character Coverage Map (green/red highlighting of the original text from the VerbatimNotes array)? | ignored | Nothing said about the React function or the coverage map. The user pastes a long thinking trace from a run and asks whether it was stuck in recursion. | none
+- shape: Redirects away from the offered next step to a question about the tool's behaviour. The user pastes a 154-second thinking trace from a Phase 2 run over the Aquileia notes and asks whether it was stuck in a loop and why. The trace itself keeps returning to the same topics, such as serfdom, generations and the 980 Explosion. The turn is a diagnostic question about the pipeline run, not a reply to the offer.
+- settles:

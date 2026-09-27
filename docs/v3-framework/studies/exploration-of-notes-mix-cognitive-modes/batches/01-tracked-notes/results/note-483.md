@@ -1,0 +1,6 @@
+- claims:
+  - Allegories | the matrices' openness stands for transparent technology, set against opaque real-world tech | Transparent Code: Twilight's matrices are transparent | yes
+  - History | a fact of how the technology works in-world: using the Luna Nova drains the user's own internal energy (Red Love/Ambition), and the pony knows the cost exactly | they know exactly what it costs—it physically drains their own internal energy (Red Love/Ambition) | no
+  - Allegories | by contrast, names the real-world practice of hidden subscription fees that this technology does not have | There are no hidden subscription fees | yes
+- goals:
+- whole: The note presents the transparency and self-paid energy cost of Twilight's spell matrices as a fantasy counterpart to, and implicit criticism of, hidden costs in real-world technology.

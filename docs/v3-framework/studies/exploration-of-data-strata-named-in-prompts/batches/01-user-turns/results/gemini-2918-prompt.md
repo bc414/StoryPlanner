@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the material to re-read and check for contradictions, which the model is to report | Review my story plans again | referred-to
+  - the earlier contradictions (implied by the words next set) | already raised, so the new set must not repeat or overlap them | next set of non overlapping contradictions | referred-to
+- order:
+- about: The user asks the model to go through their story plans again and list a new set of contradictions that do not repeat the ones already raised.

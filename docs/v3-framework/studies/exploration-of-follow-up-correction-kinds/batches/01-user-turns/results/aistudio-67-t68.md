@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's split of the old and new plan in their own words, adding the detail that industry became the easy route for ambition once monster hunting and frontier settlement were used up, and asks how this changes the way the story delivers its themes.

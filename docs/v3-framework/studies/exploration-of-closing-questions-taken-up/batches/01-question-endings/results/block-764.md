@@ -1,0 +1,16 @@
+- questions:
+  - How do Astler (NRP-L) and the Cloudburian industrial working class react to Sunglider's integration platform, and do they see cheap Equestrian agricultural goods as a threat to domestic farming and food industry? | answered | Astler is not a rival but sits inside Sunglider's coalition, only making sure labor rights aren't traded away for globalism. There is no Marxist party because there are no tycoons. Protectionist tariffs are the right opposition's position, under Kingfeather, and the left opposition is agrarian communalists. | Astler is part of Sunglider's coalition, just making sure labor rights are not replaced with globalism
+  - How does Applejack process the fact that the ruthlessness she feels guilty about is what convinced Kemerskai to trust the democratic process? | ignored | The turn never mentions Applejack's guilt, her inner conflict, or Kemerskai's resignation. | none
+- shape: The user corrects the model's factional map and fills in the GR's political landscape from their own canon: who sits in which coalition, who the opposition is, and how old each figure is. They also float a tentative extension of Sunglider's backstory. The turn answers the first question by reframing it. It skips the Applejack question and never comments on the model's Kemerskai resignation arc.
+- settles:
+  - The GR has no Marxist party, because it has no tycoons | The GR doesn't have a Marxist party because there are no tycoons
+  - Astler is a member of Sunglider's coalition, acting as the guardian of labor rights against globalism, and is not a rival | Astler is part of Sunglider's coalition
+  - The left opposition is agrarian communalists who detest central authority, formerly led by Sickleclaw | agrarian communalists (formerly led by Sickleclaw)
+  - The right opposition is Heinrich Kingfeather, standing for conservatism, protectionist tariffs, stagnation and religious traditionalism as the source of morality (formerly Rosewing's view) | Heinrich Kingfeather who represents conservatism and protectionist tarriffs
+  - The post-war election is contested between Sunglider and Kingfeather | in the post war election against Sunglider
+  - Sunglider was an officer in the Long March, about 20 then and about 50 now | canonically was an officer in the long march
+  - In-game Sunglider is the idealist who believes revolution brings freedom to all, and introduces more fiat currency and social programs | he is the idealist who believes in the revolution to bring freedom to all
+  - Kingfeather is the conservative, defensive alternative way of playing the GR in-game | the alternative conservative, defensive approach to playing the GR
+  - Kemerskai was 40 during the first revolution and Long March, and he, Rosewing, Sickleclaw and Kingfeather are all in their 70s now | Kemerskai was 40 when leading the first revolution
+  - Astler was born a peasant in Cloudbury and is in his 40s now | Astler was born in Cloudbury as a peasant
+  - Proposed, not yet fixed: Sunglider is the architect of the GR Riks after reading the Predator's Dilemma, which is why he is the minister who issues Riks to SAA | Maybe he can be the architect of the GR Riks?

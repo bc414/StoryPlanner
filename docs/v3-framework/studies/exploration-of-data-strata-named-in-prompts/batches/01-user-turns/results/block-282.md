@@ -1,0 +1,4 @@
+- sources:
+  - the Hearth's Warming Eve story | treated as the story-parallel the user is building on; the user takes it as a working analogy for the plan and says it is strengthened by the factories failing, not as something to check against or override | the analogy to the Hearth's Warming Eve story is made stronger | referred-to
+- order:
+- about: The user briefly agrees with the model's framing and adds that the Hearth's Warming Eve analogy is strengthened because the blockade makes the factories, the hearth of the war effort, fail slowly.

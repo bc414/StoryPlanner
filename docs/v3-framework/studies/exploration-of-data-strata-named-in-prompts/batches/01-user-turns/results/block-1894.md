@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on treating the organ gun as its own subject, saying it is one example of a broader system and speculating that it would appear only in Minette's story and in Chrysalis's story, not in the main TLTT narrative.

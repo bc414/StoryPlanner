@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the worldbuilding discussion and asks for a new task, a comprehensive report of all insights across the whole conversation, including ones that were later superseded, without saying anything about the preceding model turn being wrong.

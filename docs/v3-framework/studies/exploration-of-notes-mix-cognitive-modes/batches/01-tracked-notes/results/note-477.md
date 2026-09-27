@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Celestia holds, as the truth of who she is at the start, a worldview in which ambition is evil | Celestia's worldview is that Ambition is Evil | yes
+- goals:
+- whole: The note asserts, as a psychologist's statement of fact, that Celestia's starting worldview is that ambition is evil.

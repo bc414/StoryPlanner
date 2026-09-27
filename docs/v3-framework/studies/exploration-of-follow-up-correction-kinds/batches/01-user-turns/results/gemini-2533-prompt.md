@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user re-poses, as a tentative question, the idea that the Storm King's horde unites warlords against the Statthalters as a secondary motive beneath looting, then asks the model to review their existing story plans and synthesize, without saying anything in the prior answer was wrong.

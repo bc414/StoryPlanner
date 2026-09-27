@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the philosophy explanation without comment and starts a new task, asking for an editor's analysis of proposed additions to their story plan about Comet Shine, Star Energy, Skyfall and Pridea.

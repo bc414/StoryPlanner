@@ -1,0 +1,5 @@
+- claims:
+  - NotesToSelf | the Griffonia parts must not be built to imply Applejack ever made a wrong rational decision; a guard on how the author writes them | The parts in Griffonia are not about saying Applejack ever made a wrong rational decision | yes
+  - NotesToSelf | the purpose the author sets for the Griffonia parts: they are there so Applejack comes to understand Celestia's viewpoint | It is about letting her understand Celestia's viewpoint | yes
+- goals:
+- whole: The author reminds themselves what the Griffonia sections for Applejack are for: not to fault her reasoning, but to bring her to understand Celestia's viewpoint.

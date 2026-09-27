@@ -1,0 +1,6 @@
+- questions:
+  - If the PSA becomes the indispensable shield in the war, how does it use that authority against the FJA and PNdA after the war: demand dismantling the Tableau de Chasse culture, or just a large expansion of the welfare state? | ignored | Nothing said to it; the user only turns to the name of the infantry force. | none
+  - When Applejack realizes Aquileian freedom rests on a poverty draft, how does that change her view of Gaudreau and Coltbert, and does it speed her realization that we are all monsters? | ignored | Nothing said to it; the user goes straight to asking for other terms for the infantry. | none
+- shape: Sidesteps the model's questions and redirects to a narrow naming point: rejects the label "Phalanx" for the infantry and asks for alternative terms. It gives no engagement with the poverty draft, the PSA, or the model's proposals otherwise.
+- settles:
+  - The term "Phalanx" is rejected as the name for the Aquileian infantry (a naming decision about the work; the replacement is left open) | I don't like the term phalanx

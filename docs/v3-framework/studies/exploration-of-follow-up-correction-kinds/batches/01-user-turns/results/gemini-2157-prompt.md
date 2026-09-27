@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new request, asking for a history of gunpowder for muskets, cannons and later weapons and its link to fertilizer, without disputing anything in the model's fertilizer history.

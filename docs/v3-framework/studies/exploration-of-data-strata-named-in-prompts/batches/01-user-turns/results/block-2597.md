@@ -1,0 +1,5 @@
+- sources:
+  - the framing that standardized AI products are red herrings and bespoke systems are asset specific | take as the working premise and carry it into the research | with this framing in mind, that the standardized AI products are red herrings and the bespoke systems are asset specific | referred-to
+  - AI augmentation discourse and attention media landscape, the fringes of it | search externally to find out whether the user's approach already exists there; treat as the thing to be researched, not as settled | do some research into whether my approach is out there in the world, in the fringes of the AI augmentation discourse and attention media landscape | first-named
+- order:
+- about: The user asks the model to research, with the earlier bespoke-versus-standardized framing as a premise, whether their AI-augmented approach to building a story system already exists in fringe AI-augmentation discourse and media.

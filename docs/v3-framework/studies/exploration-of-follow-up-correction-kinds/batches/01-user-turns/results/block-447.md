@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's decadent-parents framing and moves on, asking for name suggestions, a special talent, and Acornage and Skyfall roles for the fake mother, given that the fake father is Silver Sterling.

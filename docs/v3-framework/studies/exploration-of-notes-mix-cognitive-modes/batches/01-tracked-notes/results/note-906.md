@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | Stalliongrad is set up as the inverted counterpart of Star Energy's Harmonic Capitalism, a paired structure in the story world | It is the dark mirror to Star Energy’s Harmonic Capitalism | no
+- goals:
+- whole: The note gives a one-line authorial framing of Stalliongrad as the inverted twin of Harmonic Capitalism, and states no thematic proposition or evidence for one, though its track asks for them.

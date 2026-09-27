@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | The organization is modeled on the Kurdish people as its real-world inspiration | inspired by the Kurdish people | yes
+  - Analogies | The organization's name is borrowed from Sorani Kurdish, where the word means pony, tying the name to the same real-world source | "Temberik" means "pony" in Sorani | yes
+- goals:
+- whole: The note documents the Kurdish people, and the Sorani meaning of the organization's name, as the real-world inspiration behind Temberik.

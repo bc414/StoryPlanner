@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a clarifying, summarizing question to check whether their understanding is right, that the planner's growing complexity is meant to match what high-quality long-form writing demands, without disputing anything in the model's explanation.

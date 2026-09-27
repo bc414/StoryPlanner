@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn restates the world clarification about Griffonia's industrial revolutions and repeats the request for a Twilight learning arc and better crystal names, and it also corrects an earlier chapter-plan framing of Twilight's trauma and Trimmel's role, which are not in the model turn just before it.

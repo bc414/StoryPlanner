@@ -1,0 +1,6 @@
+- claims:
+  - NotesToSelf | the scene must be driven by the need to get as far away as possible | Must get as far away as possible | yes
+  - NotesToSelf | a plane home to Aquileia is not available, which closes off the obvious route as a constraint on the scene | No plane to go home to Aquileia | yes
+  - NotesToSelf | the decision that the characters travel to Tall Tale | They go to Tall Tale | yes
+- goals:
+- whole: The note is the author's terse reminder of the motive, the constraint and the destination that put the characters on the train to Tall Tale, with no stated reader effect.

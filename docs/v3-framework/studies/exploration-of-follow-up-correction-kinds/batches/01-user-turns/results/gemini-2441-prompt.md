@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the refugee-from-Zebrica idea and asks for help building the backstory of why and how Zecora left and why she settled in the Everfree Forest, which is a new request and not a correction.

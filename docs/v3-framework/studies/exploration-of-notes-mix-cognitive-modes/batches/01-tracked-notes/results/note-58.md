@@ -1,0 +1,4 @@
+- claims:
+  - History | Celestia yelled at Twilight at some point before the story begins, reported as a past event | Celestia yells at Twilight | yes
+- goals:
+- whole: The note reports, as a bare in-universe historical fact dated to 1006, that Celestia yelled at Twilight before the story begins.

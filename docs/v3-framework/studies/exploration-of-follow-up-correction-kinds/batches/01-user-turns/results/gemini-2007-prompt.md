@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to confirm whether what they now have, presumably shown in an attachment, matches the structure the model just described, without saying anything in the model's turn was wrong.

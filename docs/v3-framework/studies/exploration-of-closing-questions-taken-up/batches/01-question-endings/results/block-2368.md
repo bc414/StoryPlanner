@@ -1,0 +1,8 @@
+- questions:
+  - Is JWAB complete or abandoned, given that chapter 129 ends mid-arc on a cliffhanger? | ignored | none | none
+  - What is the user's relationship to JWAB: reading for pleasure, studying it as a comparable work, using it as a negative example, or knowing the author? | partly answered | The user gives only a sideways hint of their position: they know the P&K author and readers mock JWAB and are puzzled by it. It doesn't say whether they read it, like it, or use it as a comparison. | "mock JWAB all the time. I'm not sure why."
+  - How does JWAB handle the EaW source material, whether as custom worldbuilding or as EaW mod canon? | ignored | none | none
+  - Does Gulheru's batpony cultural system have materialist roots, or is it anthropological decoration? | ignored | none | none
+  - Does the story trace the Soleera Cruziate's causes in materialist terms, or is it only a backstory wound? | ignored | none | none
+- shape: The user turn doesn't take up the analysis or the model's list of gaps. It moves to a different topic: the social reception of JWAB in the P&K community, which mocks it. The user says they don't understand why, which implicitly asks the model to explain it. It is a short redirect that also shows where the user stands in relation to JWAB.
+- settles:

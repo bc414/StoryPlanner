@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's crystal-versus-Red-Love framing by asking how to parallel the history of iron and aluminum refining for crystal purification, adding a new worldbuilding constraint and a further question without disputing anything the model said.

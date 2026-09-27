@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the B2B and Aquileian analysis and starts a new question about how to write Celestia and Luna as benevolent in the Combined Arms chapter while keeping the white-peace gut punch, reporting their own revisions to an earlier suggestion and asking for analysis.

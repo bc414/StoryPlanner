@@ -1,0 +1,7 @@
+- questions:
+  - How does the 85% agrarian majority, raised on Celestia's sanitized history, absorb the shock when the hidden history of power crystals and Earth Pony magic is revealed? | ignored | Says nothing about it; moves on to a new topic. | none
+  - Do they see Twilight as a liberator of truth or as someone rewriting their religion? | ignored | Not touched; the turn asks about other fantasy epics instead. | none
+  - How does the Celestial voting bloc (30% of the electorate) react to permanent Star Energy factories, trade routes and democratized spell matrices once Chrysalis is defeated? | ignored | Not addressed; the turn does not return to the post-war Republic. | none
+  - Does the loss of an external enemy make the Republic's fragile coalition fracture? | ignored | Left alone; the user turn asks for a survey of comparable fantasy epics. | none
+- shape: Redirects to a new line of inquiry. It sets aside the model's stress-test questions and asks for a survey of other large-scale fantasy epics and what each proposes, widening the comparison beyond ASOIAF.
+- settles:

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's split treated the tycoon/comprador system as centred on Las Pegasus and the Manehattan system as a separate one, but the compradors also operate in Manehattan, where Chapter 7's plot is the seizure of their idle factories, so a Manehattan-based name does not separate the two systems | the compradors also operate in Manehattan. The plot of chapter 7 is seizing their idle factories | stated flatly with a reason, as the ground for rejecting Manehattan in the name, while weighing options and asking further questions
+- about: The user picks The Comprador Economy, leans toward The Night Economy, asks whether Gilded Trust and SAA should be their own systems or fold into others, and rules out a Manehattan-based name because the compradors operate there too.

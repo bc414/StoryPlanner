@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new design question, asking whether an Aquileian griffon ace paired with a unicorn shield-caster could fly a lighter-armored plane for more ammo, speed and range, without disputing anything in the model's Love Donator breakdown.

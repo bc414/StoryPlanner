@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to confirm and explain how Colbert's 981–1008 reforms fix the Aquileian economy, why he succeeds where Grover III failed, and whether Grover III's golden age depended only on the last monsters in griffon lands, without pointing at any body of material.

@@ -1,0 +1,4 @@
+- sources:
+  - the Fedex shooter Applejack example | an example already raised earlier in the conversation, which the model is asked to expand on and give more detail about | Tell me more about the Fedex shooter Applejack example | referred-to
+- order:
+- about: The user asks the model to elaborate on a specific example, the Fedex shooter Applejack example, that came up earlier in the conversation.

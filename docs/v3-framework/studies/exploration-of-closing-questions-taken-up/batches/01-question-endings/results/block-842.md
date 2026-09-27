@@ -1,0 +1,5 @@
+- questions:
+  - Does Celestia's revealed fallibility, as Twilight and Applejack see it, mirror the audience's realization that no single Great Creator or Leader can save them, so that they must rely on horizontal solidarity? | ignored | Says nothing about Celestia, Lauren Faust, or the audience's realization; moves to a question about ASOIAF. | none
+  - How can Applejack, on the debate stage against Gilded Trust, dismantle the idea that empathy is weak without conceding that strength comes only from dominance? | ignored | Does not mention the debate, Applejack, or Gilded Trust; the turn is about ASOIAF. | none
+- shape: Redirects to a new topic. It leaves both of the model's follow-up questions alone and asks the model three new ones: why ASOIAF has the grimdark thesis it has, whether that thesis comes from Martin's own life, and how it differs from the user's meta-narrative. It is a comparison with an outside work, used to sharpen the user's own project by contrast.
+- settles:

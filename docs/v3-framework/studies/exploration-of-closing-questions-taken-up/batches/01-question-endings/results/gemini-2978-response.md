@@ -1,0 +1,8 @@
+- questions:
+  - Should the purple-wings realization come in the heat of combat, or with space for the two to talk about it before a battle? | partly answered | It doesn't pick between the two. It moves the reveal out of battle to an earlier travel scene, a flight up the mountain the day after the doctrine lesson and the night they applied it. It doesn't say whether they discuss it. | "let's go even earlier"; "fly up the mountain"; "the day after the chasseur doctrine"
+- shape: Redirects with a counter-proposal. It first corrects a fact about the model's Option 3 (the tank crew), then drops all three offered slots. In their place it restructures the opening of Coordination so the reveal comes right after the lesson and the night that follows it.
+- settles:
+  - In the 3rd Battle of Tall Tale, Twilight and AJ are in a tank together with Tally Mark and Mali. | "in a tank (with tally Mark and Mali too)"
+  - The long-distance teleport to Diyarbecolt at the start of Coordination is scrapped. | "Let's scrap that"
+  - The party takes a train to the base of the Temberik Mountains, then flies up the mountain. | "take a train to the base of the Temberik Mountains, and then fly up the mountain"
+  - The wing reveal happens at the start of Coordination, on the flight up the mountain. It comes the day after the chasseur doctrine and passion lesson and the night they apply those lessons. | "the wing reveal happens the day after the chasseur doctrine and passion lesson"

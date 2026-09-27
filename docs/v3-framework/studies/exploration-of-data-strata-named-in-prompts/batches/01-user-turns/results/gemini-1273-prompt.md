@@ -1,0 +1,8 @@
+- sources:
+  - the actual story plans attached | treat as authoritative; refine the analysis to conform to them, overriding the model's prior assumptions | "using the actual story plans attached" | referred-to
+  - the model's previous analysis (Twilight in Canterlot, Applejack at the front) | treat as wrong on these points; correct it with the plans | "Twilight doesn't go to Canterlot" / "Applejack is not at the front" | referred-to
+  - the author's own statement of where Twilight is (back at Tall Tale doing research) | treat as true, a correction to apply | "she is back at Tall Tale doing research" | first-named
+  - the author's own statement of where Applejack is (Tzinacatl jungle, diplomatic mission for economic integration for the war effort) | treat as true, a correction to apply | "she is at the Tzinacatl jungle on a diplomatic mission" | first-named
+- order:
+  - the actual story plans attached | over the model's previous analysis | refine the analysis using the actual plans, with the specific corrections given
+- about: The user asks the model to redo its Separation Phase analysis so it matches the attached story plans, correcting the locations and roles it wrongly assumed for Twilight and Applejack.

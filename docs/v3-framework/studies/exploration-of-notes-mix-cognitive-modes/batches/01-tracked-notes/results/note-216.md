@@ -1,0 +1,4 @@
+- claims:
+  - History | Scootaloo was born in New Mareland in the year 988, a fact of her pre-story past | Born in New Mareland in 988 | yes
+- goals:
+- whole: The note reports as a historian's fact that Scootaloo was born in New Mareland in 988.

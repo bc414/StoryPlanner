@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's admission that it lacks knowledge of the mod and asks it to research the mod's history and lore and analyze the German language usage of both factions, which is a new task and not a correction.

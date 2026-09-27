@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | at this point in the reading order the character takes control of Las Pegasus and becomes a real help in the war | Takes over Las Pegasus and actually helps in the war | yes
+- goals:
+- whole: The note lists a single entry in the character's appearance plan, in which the character takes over Las Pegasus and becomes a real help in the war, and it states no reader effect.

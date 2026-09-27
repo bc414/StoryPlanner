@@ -1,0 +1,5 @@
+- sources:
+  - Chrysalis had Trimmel and other meritocrats incite the winter revolution against the Boyars on purpose, then prop up a counter-revolution for a puppet | existing plan element, treated as the standing version; the user asks whether it is still coherent and is testing it against the new arc, not discarding it | still make sense that Chrysalis had Trimmel and other meritocrats incite the winter revolution | referred-to
+  - Severyana is technically part of Equestria, so she needs them to secede from Celestia | the author's own statement of a setting fact, treated as true and used as the premise for the challenge | Because Severyana is technically part of Equestria. She needs them to secede | referred-to
+- order:
+- about: The user asks whether an earlier plan point, in which Chrysalis deliberately engineered the Severyana revolution to gain a puppet state, still fits, since Severyana is part of Equestria and would have to secede.

@@ -1,0 +1,5 @@
+- sources:
+  - the Phase 1 Task | the existing prompt text to be regenerated as the base, revised rather than discarded | Regenerate the Phase 1 Task | referred-to
+  - the intersection buckets nuance (from the preceding discussion) | content to fold into the regenerated task as settled design | include the nuance of the intersection buckets | referred-to
+- order:
+- about: The user asks the model to rewrite the Phase 1 prompt so it incorporates the intersection-bucket logic just agreed on, and to state exactly which axes count as relational.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Astler's ideology: the model cast him as a Marxist and communist opposition leader whose factory is worker-owned, when he is a democratic socialist (Bernie Sanders type) whose politics is capitalism with a social safety net | Actually I mispoke, Astler is described as a democratic socialist, not a marxist | flat restatement of the fact, framed as the user's own earlier slip rather than the model's error, then softened by saying the scene still works, even better
+- about: The user fixes Astler's ideology from Marxist to democratic socialist, owning the earlier slip, and says the scene works better because his politics is a social-safety-net capitalism rather than rigid control.

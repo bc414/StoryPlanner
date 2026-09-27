@@ -1,0 +1,11 @@
+- sources:
+  - the first conversation (character reader perception gap) | asks the model for a summary of it; treated as the deepest, advanced material the author only now understands after the foundational tracks | do you have a summary? | referred-to
+  - TLTT story plans | evidence that the author already applied the reader prior belief clash implicitly; cited as background, not directed as material to use | it's all over my TLTT story plans | referred-to
+  - Lauren Faust and Green Is Your Color | the author's own past learning and writing, cited as where the implicit grasp of prior belief clash came from | learning from Lauren Faust and writing green is your color | referred-to
+  - the old advice | treat as deficient: naive, conflating the different ways to deliver themes with note-taking, built without iteration | old advice conflated the menu different ways | referred-to
+  - the P/WI/T pipeline (witness/infer/theme evidence, the theme track constructs have) | reference baseline for contrast; presumed default and available in omniscient; also asked whether it should apply to observed characters and whether infer and theme evidence should stay separate | The P/WI/T pipeline is the default, available in omniscient? | referred-to
+  - the theme tracks | treated as the planning mechanism that makes third person limited choices intentional | The theme tracks were the planning mechanism | referred-to
+  - my current system | provisional; to be tested for whether it is correct or too deficient and will need another rework | What makes my current system "correct" or not? | referred-to
+  - Three Little Pigs | starting point, the simplest rung, from which the taxonomy of sophistication levels is to be derived | starting from Three Little Pigs | first-named
+- order:
+- about: The author reflects that the advanced reader-character perception gap only made sense after learning the foundational tracks, then asks the model to contrast it with prior belief clash and the P/WI/T pipeline, derive a taxonomy of sophistication levels, settle how observed characters like AJ are handled, and say how to know the current system is not deficient.

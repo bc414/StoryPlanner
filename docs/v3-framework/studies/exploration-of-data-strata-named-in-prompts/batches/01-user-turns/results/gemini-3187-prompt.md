@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about whether explicit IDs or wiki links are the better way to cross-reference the exported files, without pointing the model at any body of material to use or avoid.

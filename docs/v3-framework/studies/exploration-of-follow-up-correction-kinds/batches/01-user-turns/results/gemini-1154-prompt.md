@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Tall Tale as a forward base cut off from fresh fruit, where mass-canned apple mush would be the only apple and fresh apples a luxury. The user says Tall Tale is a farming area and a pre-war food-processing hub for the fields around it, and that Star Energy made farm tractors. | But Tall Tale is a farming area. Before the war it was the food processor hub | Put as a check question with the contradicting setting facts given as the reason, pushing back without saying the model was wrong outright
+- about: The user offers setting facts about Tall Tale and Star Energy that cut against the model's supply-logistics justification for the gray apple mush, and asks whether the idea still holds.

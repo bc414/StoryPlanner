@@ -1,0 +1,6 @@
+- questions:
+- shape: Redirects to a new design question. It doesn't respond to anything the model asked, because the model turn asks nothing. Instead it takes the history-to-stage mapping as given, adds the user's own reading of the present (3C as drugs, pacification, culture wars, hollow civil rights), and asks how the story can allegorize a path from 3C to 3B that avoids 3A.
+- settles:
+  - The story's allegorical goal is to move from 3C stagnation to 3B (New Deal-style) without passing through 3A | asks how the story can go from 3C back to 3B without going to 3A
+  - In the allegory, present-day 3C is characterized by drugs, pacification, distracting culture wars, and civil rights without economic dignity | 3C (drugs, pacification, distracting culture wars and "fake" democracy
+  - In the allegory, 3A is characterized as tech, finance and oil dominance plus lobbying | the current tech company, finance and oil dominance plus lobbying

@@ -1,0 +1,4 @@
+- sources:
+  - the story (the published work the model has been analyzing) | treat as unfinished, so what has been drawn from it is not the whole picture | Looks like the story is still in progress, actually | referred-to
+- order:
+- about: The user briefly corrects the model's assumption by noting that the story it has been analyzing is still being written and so is not complete.

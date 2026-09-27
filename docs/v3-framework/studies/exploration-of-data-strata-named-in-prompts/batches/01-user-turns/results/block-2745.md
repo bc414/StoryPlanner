@@ -1,0 +1,5 @@
+- sources:
+  - Pax Chrysalia (33 - 32 - Afterimage) attached chapter file | the new material the model is to read and analyse | Here's the next chapter of Pax Chrysalia published today | first-named
+  - previous analysis about where "It's Me" left off | the model's earlier analysis, to be built upon and extended with the new chapter | build on the previous analysis about where "It's Me" left off | referred-to
+- order:
+- about: The user supplies a newly published chapter of Pax Chrysalia and asks the model to extend its earlier analysis of where the preceding chapter "It's Me" left off.

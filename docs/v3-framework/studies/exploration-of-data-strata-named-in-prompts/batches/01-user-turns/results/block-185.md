@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain and define "Greek tragedy", its connection to the Greeks, and how it differs from nihilism and grimdark, and asks what further details would help analyze what the TLTT -> Minette -> Chrysalis reading order accomplishes.

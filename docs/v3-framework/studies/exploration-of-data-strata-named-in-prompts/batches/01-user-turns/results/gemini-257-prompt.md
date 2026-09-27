@@ -1,0 +1,5 @@
+- sources:
+  - The canonical story (Luna's jealousy of ponies enjoying the day and sleeping at night leading to Nightmare Moon) | treated as the official legend that does not hold up in this setting; the turn says Celestia rewrote it, so it is to be replaced by the new explanation, not relied on | "The canonical story is that Luna's jealousy" and "doesn't actually make sense" | referred-to
+  - EAW (the setting, with its nocturnal batponies) | treated as the world whose facts the canonical legend has to fit, and the reason the legend fails | "doesn't actually make sense in EAW because of nocturnal batponies" | referred-to
+- order:
+- about: The user proposes a new backstory in which Luna and Celestia's failed attempt at world peace turned Luna into Nightmare Moon and led Celestia to rewrite the canonical legend, and says this closes more plot holes.

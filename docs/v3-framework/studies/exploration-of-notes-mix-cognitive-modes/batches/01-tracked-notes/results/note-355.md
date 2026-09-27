@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | the fantasy technology MEFO Bills stands for the real-world dopamine economy and the social media attention loop | The dopamine economy and social media attention loop | yes
+- goals:
+- whole: The note names the real-world condition, the dopamine economy and social media attention loop, that the fantasy technology MEFO Bills stands for.

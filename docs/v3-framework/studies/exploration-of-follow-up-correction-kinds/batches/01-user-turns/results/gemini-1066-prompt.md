@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The special-talent and investment options treat Tribe D's refining and export as a fresh outlet, but in the world those angles were already used with the friendlier tribes (rafts, rubber), and Tribe D is the vice-trading group that sent Chrysalis-refined drugs to Manehattan | the special talent and investment angles would have already been covered for rafts and rubber production from the other, friendlier tribes | flat, given as the reason for picking one option, with the world detail supplied as background rather than as a complaint
+- about: The user picks the family feud letter and rejects the other two by explaining, from the world's history, why they don't fit Tribe D.

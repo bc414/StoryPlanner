@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to review the ExtractionDirective part of the Phase 0 prompt so it is also optimized into strict, machine-readable instructions | no user turn | none | none
+- shape: none
+- settles:

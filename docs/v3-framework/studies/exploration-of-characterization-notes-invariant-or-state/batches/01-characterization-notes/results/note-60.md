@@ -1,0 +1,8 @@
+- claims:
+  - span | Twilight agreed to stay off the frontline; the agreement is a decision made in the run-up to the war and holds as her position at the start of TLTT | agreed to stay off the frontline | the start of TLTT (display question); past-tense agreement; the note gives no date
+  - unfixed | She secretly shares Celestia's fear, hiding it rather than voicing it | she secretly shares Celestia's fear | none
+  - unfixed | She knows the physical toll of industrial war | She knows the physical toll of industrial war | none
+  - unfixed | She knows she is emotionally equipped to lay bricks, i.e. to do the building and rebuilding work | emotionally equipped to lay bricks | none
+  - unfixed | She is terrified of what will happen to her soul if she starts vaporizing thousands of starving Changeling conscripts | terrified of what will happen to her soul | conditional on a possible future frontline role against Changeling conscripts; no date
+  - unfixed | She stays behind because she sees herself as a shield and a builder, not a weapon of mass destruction | I am a shield and a builder, not a weapon of mass destruction | present tense stays behind; the start of TLTT by the display question; no date
+- beside: Backstory notes speak of related ground without covering the same thing: the world 1007 note has Celestia funding Twilight's Magical Supply Organization if it keeps her off the battlefield, and the 1006 note has her seeing destroyed hospitals and starving Zebras in Ain Trotgourait. Neither states this note's agreement to stay off the frontline, her secret shared fear, or her shield-and-builder self-image.

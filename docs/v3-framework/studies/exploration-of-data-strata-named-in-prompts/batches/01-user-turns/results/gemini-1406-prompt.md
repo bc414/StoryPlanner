@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks follow-up questions about which other large nations count as "3B", how Poland got where it is, how Czechia compares, and whether the historical United States could be called 3B, without pointing the model at any particular body of material.

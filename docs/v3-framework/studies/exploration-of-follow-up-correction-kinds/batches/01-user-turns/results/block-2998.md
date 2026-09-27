@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of the Sterlings and KHG by adding that the parents know of the hive wars through Acornage changelings, that they see the changeling lands as an untapped market and feel some empathy, and that they die ten years into the Great Leap Forward.

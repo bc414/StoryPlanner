@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | The character sees every conflict as a battle between Winners (himself and Las Pegasus) and Losers (Rockfeller and Chrysalis) | He frames everything as a battle between "Winners" (Him/Las Pegasus) and "Losers" (Rockfeller/Chrysalis) | yes
+  - Characterization | The character habitually gives people nicknames | He uses nicknames | yes
+  - Characterization | The character talks in absolutes and superlatives, as in boasting about having the best, beautiful oil | He speaks in absolutes ("We have the best oil, beautiful oil") | yes
+- goals:
+- whole: The note asserts the character's starting psychology through his winners-and-losers framing, his nicknaming and his absolutist boasting speech.

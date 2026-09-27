@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology) | Pinkie bakes goods infused with pink love, and patients eat them afterwards; the technology works through this food-borne love | Pinkie makes baked goods infused with pink love for patients to eat afterwards | outside
+  - outside all ten (world-rule ontology) | The function of the technology is to restore some of the patients' friendship | helping to restore some of their friendship | outside
+- goals:
+- whole: The note states as a rule of the fictional world what the Love Donator does and how it works: Pinkie's love-infused baked goods, eaten by patients, partly restore their friendship.

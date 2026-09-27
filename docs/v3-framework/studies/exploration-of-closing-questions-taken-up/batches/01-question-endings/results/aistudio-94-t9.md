@@ -1,0 +1,7 @@
+- questions:
+  - Once the Tree accepts Red Love as valid, do the Map's post-war Friendship Missions shift from petty disputes to breaking monopolies, trade deals and supply chains? | ignored | Says nothing about post-war missions. It disputes the premise that the Tree was ever a binary Pink-good, Red-bad system. | none
+  - How does Star Swirl's top-down aristocratic worldview break when he learns a working-class baker rebooted his system with a dash of combat drug? | ignored | Says nothing about Star Swirl's reaction. It only disputes what he designed the Elements to do. | none
+- shape: Corrects the model. It rejects the model's baseline that Star Swirl built a binary Pink-good, Red-bad algorithm, and it gives a different account of why Celestia was locked out. It does not engage the Socratic questions at all.
+- settles:
+  - Star Swirl designed the Elements of Harmony so that only ponies with a healthy balance of pink and red love can wield them. | But I established that Star Swirl designed the elements of harmony to only be able to be wielded by ponies who have a healthy balance
+  - Celestia was locked out because she lost the ability to make genuine connections, not because she was purely pink. | Celestia was locked out not because she was pure pink, but because she LOST the ability to make genuine connections

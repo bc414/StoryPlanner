@@ -1,0 +1,9 @@
+- claims:
+  - NarrativeArchitecture | Plans a reveal in reading order: once readers reach Minette's story they will learn a darker truth about Rarity's origin, updating what they believed before | Eventually when readers read Minette's story, they learn the "dark truth" | yes
+  - NarrativeArchitecture | Sets the reader's starting assumption: the kid-friendly, parlor-told version that a proper fit gives confidence, which the reveal will overturn | not the kid friendly version "a proper fit gives confidence" in the Manehattan parloirs | yes
+  - Characterization | Asserts the truth of who Rarity is: her clothes were meant to hide inner trauma and project strength | the clothes were meant to hide inner trauma and project strength | no
+  - Characterization | Asserts that Rarity's philosophy has its source in, and depends on, the lessons of the dark feudal Aquileian past | Rarity's philosophy would not be possible without learning the lessons of the dark feudal Aquileian past | no
+- goals:
+  - Readers come to believe Rarity's origin is darker than the kid-friendly version: her clothes hid trauma and projected strength | WorldInference | they learn the "dark truth" of Rarity's origin story
+  - Readers come to see Rarity's philosophy as resting on lessons from the dark feudal Aquileian past | WorldInference | philosophy would not be possible without learning the lessons of the dark feudal Aquileian past
+- whole: The note plans a reader-opinion update for Rarity, moving from the kid-friendly confidence-through-fit assumption to a reveal of trauma-hiding clothes and a philosophy rooted in the dark Aquileian past.

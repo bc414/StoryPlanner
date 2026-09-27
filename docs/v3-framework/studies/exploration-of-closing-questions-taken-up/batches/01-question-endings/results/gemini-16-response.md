@@ -1,0 +1,3 @@
+- questions:
+- shape: A follow-up research request. It puts no answer to the model's turn. It narrows the topic to the initial 1914 advance and asks how villages were first occupied and how civilians were treated on first contact.
+- settles:

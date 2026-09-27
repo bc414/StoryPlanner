@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look up charging speeds or data transfer limits for this kind of slim USB-A to USB-C cable? | ignored | Nothing about the cable or its specs. It goes on to a story question about how two characters reach an agreement. | none
+- shape: Changes the subject entirely. The model turn was about a USB cable, and the user turn asks the model for story advice: how two characters would come to an agreement, and whether that is where they learn to respect each other. It doesn't respond to the cable explanation and seems to belong to a different thread.
+- settles:

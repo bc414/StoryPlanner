@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts no answer to any question, since the model turn asked none. It builds on the model's analysis and offers its own tentative theme for the reader: reflexivity and social networks as a real-world counterpart of the show's magic. The user backs this with a premise that magic in the show is wanting something and having it happen, tied to ambition. It is phrased as a question inviting the model to confirm or develop it, so it reads as a proposal, not a fixed decision.
+- settles:

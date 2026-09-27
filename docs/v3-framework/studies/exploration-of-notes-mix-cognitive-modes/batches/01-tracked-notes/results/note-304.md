@@ -1,0 +1,5 @@
+- claims:
+  - History | Vanhoover fell immediately, in a surprise mechanized assault, because its geography made it indefensible | Vanhoover falls immediately because it is geographically indefensib(against a surprise mechanized assault) | yes
+  - History | The city's civilians suffered from normalcy bias, which contributed to the fall, reported as a fact of the event | its civilian population suffered from normalcy bias | yes
+- goals:
+- whole: The note reports, as an in-universe historian would, that Vanhoover fell at once in 1011 and gives two causes: its indefensible geography against a surprise mechanized attack, and its civilians' normalcy bias.

@@ -1,0 +1,9 @@
+- questions:
+  - Would the user like to explore how Theodore Vérany and the PNdA react on realizing Coltbert's faction has won the urban working class's loyalty through the culinary strategy? | ignored | Nothing about Vérany, the PNdA or their reaction. The user goes on to lay out their own picture of Skyfall's food scene and what the reformed thugs do there. | none
+- shape: The user skips the offered next topic and supplies their own worldbuilding. They reassign Skyfall's food scene to Tier 4 fakes selling imported FJA luxury goods, which departs from the model's mapping of Skyfall elite dining to the palace tier. They then set out a two-front plan for the reformed thugs: displace the poseurs at the top and industrial fast food at the bottom. They also reuse the model's tier framework and the wagyu example.
+- settles:
+  - Skyfall's dining is full of Tier 4 fakes who buy imported FJA luxury goods, upsell them to Skyfall elites and brute-force the cooking | Skyfall should be full of tier 4 fakes using imported FJA luxury goods
+  - The Skyfall fakes are modeled on American wagyu: a real luxury input wasted or faked through a mass-market process, such as a wagyu-Angus hybrid in ground beef | like how American wagyu is a fake marketing scam
+  - The reformed thugs who go to Skyfall must drive the poseurs out of business | need to put those poseurs out of business
+  - The reformed thugs can sell to Skyfall's elites at $200+ with proper technique, because their customers are not the tourist-style marks paying $35 | can sell at $200+ with proper technique
+  - The reformed thugs also sell pot au feu and similar dishes to the masses, with the aim of putting a McDonald's-equivalent industrial fast food out of business | sell the pot au feu and others to the masses

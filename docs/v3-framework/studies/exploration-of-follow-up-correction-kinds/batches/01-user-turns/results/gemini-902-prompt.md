@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the analysis of Applejack's arc and asks a new, separate craft question about which narrative perspective to use for writing the story.

@@ -1,0 +1,5 @@
+- sources:
+  - Chapter 13 (Fleur teaching Twilight the endocrinology theory) | treat as established plan fact; used as the reason Twilight cannot be the one who brings the science, so the science must come from the Aquileians or Tzinacatl | Since Fleur is teaching Twilight the endocrinology theory in Chapter 13 | referred-to
+  - Chapter 10 (Applejack meets the medicinal tribes) | treat as established plan fact; build on it as a bridge between the two plots | Applejack meets the medicinal tribes in Chapter 10 | referred-to
+- order:
+- about: The user corrects the model's assumption that Twilight supplies the science, citing the planned Chapter 13 and Chapter 10 events, and proposes a new plot bridge in which Tzinacatl medics at the Tall Tale front request their peers to help Pinkie bake morale rations as part of a group of bakers.

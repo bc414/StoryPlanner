@@ -1,0 +1,5 @@
+- claims:
+  - History | The system's creators read Gesunder Menschenverstand but took up only its deconstruction of the nobility and Grover III's biological thesis, leaving the rest | They read Gesunder Menschenverstand and only focus on the deconstruction of the nobility and Grover III's biological thesis | no
+  - History | In the creators' own voice, they conclude that divine right is a lie and humans are naturally greedy predators, so they may stop pretending and openly rule by plunder | "Wait, the divine right of kings is a lie? And we are naturally greedy predators? Fantastic. Let's drop the act." | no
+- goals:
+- whole: The note reports how the kleptocracy's creators selectively read a founding text and used it to justify dropping pretense and openly embracing predation.

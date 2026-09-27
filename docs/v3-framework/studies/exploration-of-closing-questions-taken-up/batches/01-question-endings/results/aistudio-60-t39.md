@@ -1,0 +1,6 @@
+- questions:
+  - How does Star Energy Corporation safely mine, study or weaponize the black crystals left by Sombra's meltdown during the 1011 ALB war without its own engineers suffering a psychological meltdown? | ignored | Nothing on the black crystals, Star Energy or the war effort. | none
+  - How does Cadance and Shining Armor learning that the Unicorn ruling class, Amore included, suppressed the Crystal Ponies' access to the Crystal Heart affect their loyalty to Celestia's Unicorn aristocracy? | ignored | Nothing on Cadance, Shining Armor, or their loyalty to Celestia. The turn moves to a different element of the Crystal Empire. | none
+- shape: Redirects. The user drops both of the model's questions and floats a new idea: the Unicorns who filtered emotions into the Crystal Heart would be called "crystallers". They then ask the model to compare this with the canon use of the word in The Crystalling and with Sunburst's role there. It reads as a proposal plus a request for analysis, not an answer.
+- settles:
+  - Proposed, not firmly fixed: the Unicorns who filtered emotions into the Crystal Heart are called "crystallers", which gives the Unicorn filtering caste a name and ties it to Sunburst's canon role | "How about if the unicorns who filtered the emotions going into The Crystal Heart called themselves crystallers?"

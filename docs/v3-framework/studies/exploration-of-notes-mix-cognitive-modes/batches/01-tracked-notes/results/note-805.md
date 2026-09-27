@@ -1,0 +1,4 @@
+- claims:
+  - History | Chrysalis modeled the Herzland counterrevolution on the earlier Aquileian counterrevolution, and carried it out by setting the rugged individualists against the peasants | Chrysalis copied the counterrevolution in Aquileia to inspire the counterrevolution in Herzland, by turning the rugged individualists against the peasants | yes
+- goals:
+- whole: The note reports, as in-universe history dated 981, that Chrysalis reproduced Aquileia's counterrevolution in Herzland by turning rugged individualists against peasants.

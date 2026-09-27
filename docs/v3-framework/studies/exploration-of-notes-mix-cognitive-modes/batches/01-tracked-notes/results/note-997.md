@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | spell matrices are modeled on lithography, patterns etched into a crystal substrate by way of a real-world manufacturing process | Spell matrices are like lithography, etching horn patterns into crystal | yes
+- goals:
+- whole: The note names lithography as the real-world process that inspires the design of spell matrices as patterns etched into crystal.

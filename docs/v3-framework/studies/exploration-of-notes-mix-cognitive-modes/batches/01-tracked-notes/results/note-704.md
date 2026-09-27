@@ -1,0 +1,5 @@
+- claims:
+  - History | Baltimare lies next door to the Tzinacatl, a standing geographic and political fact of the world | Baltimare is next door to the Tzinacatl | no
+  - NarrativeArchitecture | The story is to put Applejack in the position of having to cooperate with the Tzinacatl, a plot necessity that shapes how the party's story is dramatized | so Applejack has to work with them | yes
+- goals:
+- whole: The note gives a neighbouring-territory fact about Baltimare and draws from it a story requirement that Applejack must work with the Tzinacatl, without saying what the reader should take from it.

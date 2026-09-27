@@ -1,0 +1,5 @@
+- sources:
+  - harmonic capitalism (the way of selling capital) | the author's own framework, offered as the model for the story's resolution and commentary: long-term investment into the underclass, set against gentrification and imperialism/exploitation of labor; the model is asked whether the resolution fits it | the harmonic capitalism way of selling capital, not gentrification or imperialism/exploitation of labor | referred-to
+  - the model's preceding analysis (the historical parallel and the buy-out as containment) | treated as the premise from which the user draws a proposed conclusion; the model is asked to confirm or refine the inference, which is put as a question and not as settled | So does this mean the final resolution and resulting commentary is | referred-to
+- order:
+- about: The user proposes, as a question to check, that the story's final resolution and commentary is that the buy-out only contains the problem while lasting change comes from investing in the underclass, framed as their "harmonic capitalism" and not as gentrification or labor exploitation.

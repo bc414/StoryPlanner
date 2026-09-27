@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to analyze the roles of Cadance and Shining Armor in the story's "Stagnation of Harmony" theme, without pointing to any body of material to draw on or avoid.

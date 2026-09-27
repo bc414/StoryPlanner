@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates that the 3x multiplier is only Fleur's theory, adds how Twilight disproves it in the plan (Starlight's efficiency and the combat mages' supply-log data), and says this makes alicornization look more like a credential and Cadance's horn more obviously about the conception spell.

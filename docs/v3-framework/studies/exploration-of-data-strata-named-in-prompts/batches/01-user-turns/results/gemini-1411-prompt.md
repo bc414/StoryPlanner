@@ -1,0 +1,4 @@
+- sources:
+  - 3A (predatory) vs 3B (the Republic) vs 3C (stagnation) | use as the classification scheme to sort each party's share over the period; treated as already established | 3A (predatory) vs 3B (the Republic) vs 3C (stagnation) | referred-to
+- order:
+- about: The user asks the model to apply the story's three-way scheme of predatory, republic and stagnation to the Democratic and Republican parties and give each party's proportions across 1929 to 2026.

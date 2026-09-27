@@ -1,0 +1,8 @@
+- sources:
+  - Gérard Genette's formal term "focalization" (zero, internal, external) | outside narratology framework to be mapped onto the design work; the user wants it applied and checked against the existing concepts, and wants zero focalization avoided | How does Gérard Genette's formal term "focalization" factor into the discussions we've had? | first-named
+  - the discussions we've had | the existing body of conversation to be reinterpreted through Genette's terms | factor into the discussions we've had | referred-to
+  - the example of Applejack in the trench stating this is where she is contributing most | earlier worked example, offered as a test case to be classified as internal focalization creating a gap; the user is asking for confirmation | Would the example of Applejack in the trench | referred-to
+  - the example of Applejack disliking the canned mush but the narrator not diving into why | earlier worked example, offered as a test case to be classified as external focalization; the user is asking for confirmation | Applejack disliking the canned mush but the narrator not diving into why | referred-to
+  - the macro architecture of the entities | the origin of the design reasons for switching between internal and external focalization, so that switches are not arbitrary | The design reasons stem from the macro architecture of the entities | referred-to
+- order:
+- about: The user asks the model to relate Genette's focalization categories to the earlier gap-design discussion, tests two earlier examples against those categories, and proposes that focalization should vary by scene as well as by character whenever the entities' macro architecture gives a reason.

@@ -1,0 +1,8 @@
+- sources:
+  - the model's plan above, the notes must become floating francs | keep the floating-franc idea as approved and refine the rest of the plan, with the mechanics made more detailed | I like the idea that the notes must become floating francs | referred-to
+  - the 2nd Aquileian Republic in my story plans | consult it and refine the plan in line with it | after referring to the 2nd Aquileian Republic and Coltbert Reforms in my story plans | referred-to
+  - Coltbert Reforms in my story plans | consult it and refine the plan in line with it | after referring to the 2nd Aquileian Republic and Coltbert Reforms in my story plans | referred-to
+  - the key points the author lists in this message (FJA and PNdA interests, war bonds, Skyfall stance, the navy, Coltbert's status, 40% and 35% seat shares, Vérany's change of mind) | treat as settled author constraints to build into the refined plan, some of which correct the earlier plan | Some key points: | first-named
+  - Kemerskai's system, working from 996 to 1008 | may be drawn on for inspiration, but the Aquileians are biased against him as a Herzlander imperialist, so it is not adopted uncritically | They can learn from Kemerskai | referred-to
+- order:
+- about: The user approves the floating-franc idea and asks the model to redo the financial-reform plan against their story plans and a list of political, military and cultural constraints they supply, focusing on the mechanics.

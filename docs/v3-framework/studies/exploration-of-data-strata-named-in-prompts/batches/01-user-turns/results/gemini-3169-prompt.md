@@ -1,0 +1,4 @@
+- sources:
+  - the new result (the fresh output from the modified packager script) | material to be examined and judged for quality, to decide whether further filtering changes would help | Here is the new result. Please determine if this is good | first-named
+- order:
+- about: The user hands over the re-run output of the revised packaging script and asks the model to judge whether it is good or whether any further changes would make big improvements, without nitpicking.

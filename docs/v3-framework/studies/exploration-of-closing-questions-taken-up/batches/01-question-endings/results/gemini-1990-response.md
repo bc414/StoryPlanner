@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to outline the C# classes and System.Text.Json deserialization logic for the WPF Story Planner to ingest the exported JSON? | ignored | Says nothing about the C# offer and moves to asking for a system instruction for the Cartographer step. | none
+- shape: Redirects to a different task. It passes over the offered C# help and asks for the most detailed system instruction for prompt 1, the Cartographer step that runs in the Playground. It takes the revised workflow as the working frame but does not comment on it.
+- settles:

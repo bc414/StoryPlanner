@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model offered "Cubs" as a patronizing, mocking label for the redeemable griffons, but in the world griffons already call their own young "cubs", just as ponies say "foals", so it is an ordinary word for children and not a mocking coinage | "the griffons call their young 'cubs' like how ponies call their young 'foals'" | in passing, as a flat worldbuilding fact with an analogy, tucked in as an "also" between accepting Sauvageon and asking the next question, with no complaint or explicit rejection
+- about: The user accepts \"Sauvageon\", notes in passing that \"cubs\" is already the griffons' ordinary word for their young, and asks for an analysis of French equivalents for the molter/pinfeather idea.

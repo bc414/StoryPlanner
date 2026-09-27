@@ -1,0 +1,4 @@
+- sources:
+  - the DB file, chapters 1 through 5 | read/review these chapters first, before answering the question | Review chapters 1 through 5 from the DB file before answering | referred-to
+- order:
+- about: The user asks whether making all of chapter 5 Rainbow Dash's POV loses anything on AJ in the regrouping meeting and how AJ's processing could be implied through Rainbow's observation, and tells the model to review chapters 1–5 in the DB file first.

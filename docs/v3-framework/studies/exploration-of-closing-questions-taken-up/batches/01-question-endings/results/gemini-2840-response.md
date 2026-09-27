@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user will retry their earlier request, after the model reports an error | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks to replace the numeric 1-5 intensity on the theme payload with an enum, and asks whether character involvement in a plot point should get enum-based intensities too.

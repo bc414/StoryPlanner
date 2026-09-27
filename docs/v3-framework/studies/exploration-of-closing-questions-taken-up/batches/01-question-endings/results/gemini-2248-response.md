@@ -1,0 +1,3 @@
+- questions:
+- shape: The user gives an instruction with supplied material. They paste the system prompt of their bucket-categorizer as reference context. They tell the model not to follow it, but to use it to work out or revise the fact-checking and integration questions for each axis. This answers no question, because the model turn asked none of the user. Its validation queries were meant for a downstream tool. The turn moves the conversation to the categorizer's taxonomy rules and asks for the query suite to be aligned with them.
+- settles:

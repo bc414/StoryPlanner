@@ -1,0 +1,12 @@
+- sources:
+  - intelligence entries in c&c3 | treated as the in-game explanation that makes Tiberium sensible, so relied on as evidence | Tiberium at least made sense after reading the intelligence entries in c&c3 | referred-to
+  - supply zones in generals | author's own judgement from play that the mechanic is stupid, offered as a critique | I actually always felt that "supply zones" was stupid in generals | referred-to
+  - ore in red alert 2 | author's own critique that it makes little sense lying on the ground | Ore also didn't make much sense in red alert 2 | referred-to
+  - red alert 3 | author's view that it took over the Generals paradigm of conveniently placed resources | red alert 3 took the generals paradigm of the ore already conveniently being in place | referred-to
+  - the resources in civilization | held up as more sensible land-based resources, with a steeper learning curve than RTS | The resources in civilization make more sense as land resources | referred-to
+  - EU4 | held up as more complicated and more sensible, with tax, trade goods and manpower instead of units popping out of buildings | EU4 is even more complicated with tax, trade goods and manpower | referred-to
+  - dune's gameplay mechanics and story | author has not played it, so asks the model to say whether Tiberium harvesters derive from it | I never actually played dune | first-named
+  - the storytelling thesis of Dune and Tiberian Dawn | treated as a hypothetical premise, that resources drive conflict, which the author wants to link to the plan | If the storytelling thesis of Dune and Tiberian Dawn is that resources drive conflict | first-named
+  - TLTT's core that I chose to design | the author's own design, taken as settled and the thing the premise should line up with | that aligns right up to TLTT's core that I chose to design | referred-to
+- order:
+- about: The user compares how various strategy games handle resources, asks whether Tiberium harvesters derive from Dune, and proposes that a resources-drive-conflict thesis in Dune and Tiberian Dawn matches the core of their own TLTT design.

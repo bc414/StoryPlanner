@@ -1,0 +1,5 @@
+- sources:
+  - changes we discussed (note tracks, converting existing text fields into notes, formalizing the Flagged/Unset/Verified field) | treat as settled and mandatory; the model should take these as given and not reopen them | Some changes we discussed are mandatory | referred-to
+  - existing field on the note class for source material (closeness to FiM, EaW or The Princess and the Kaiser) | provisional; optional and currently unused, may be kept if it proves valuable, author unsure whether to keep it, model to weigh it | already optional, not currently utilized but could be later | referred-to
+- order:
+- about: The user asks the model to propose only high-value optional note metadata (and alternative terms for Verified), explaining near-miss candidates, while treating the previously discussed changes as mandatory and the source-material field as an optional keeper-or-drop question.

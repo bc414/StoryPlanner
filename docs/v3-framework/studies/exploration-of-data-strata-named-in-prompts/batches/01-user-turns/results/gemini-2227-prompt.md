@@ -1,0 +1,5 @@
+- sources:
+  - the main storyline focusing on Applejack and Twilight | anchor the model should build from: companion stories are chosen and placed relative to it, set chronologically before it, and reading order is judged against it | I have the main storyline focusing on Applejack and Twilight | first-named
+  - all the extensive lore | body of material the model should draw on to pick candidate companion stories set before the main story | given all the extensive lore | referred-to
+- order:
+- about: The user asks which parts of their extensive lore would make good prequel companion stories to their Applejack and Twilight main storyline, and whether readers should take them before, after, or alongside the main story.

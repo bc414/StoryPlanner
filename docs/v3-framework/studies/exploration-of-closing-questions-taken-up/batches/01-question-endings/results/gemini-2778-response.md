@@ -1,0 +1,6 @@
+- questions:
+  - How is the chemical reality of Applejack's magic shown at the Town Hall, for instance a chemist or engineer such as Henri measuring the soil and finding weaponizable minerals? | ignored | Says nothing about how the Town Hall scene shows it or who measures what. | none
+  - Should the model go on to analyze how Henri and High Command might weaponize the revelation and restructure supply lines? | refused | Does not take up the offer. It restates what Earth Pony magic means and asks for a review of the story plans instead. | I meant earth pony magic as in phosphorus and potassium weathering. Please review my story plans
+- shape: A short correction that also redirects. The user restates their premise, that Earth Pony magic is phosphorus and potassium weathering, which pushes back on the model's extrapolation. Then they instruct the model to review their story plans, dropping the model's proposed next steps.
+- settles:
+  - Earth Pony magic in the story is phosphorus and potassium weathering | I meant earth pony magic as in phosphorus and potassium weathering

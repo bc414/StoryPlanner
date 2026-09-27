@@ -1,0 +1,6 @@
+- claims:
+  - History | She entered the Storm King's service early on | She joined the Storm King early | yes
+  - History | She used her frightening magic bursts to intimidate subordinate warlords into obedience | used her terrifying bursts of magic as intimidation to keep subordinate warlords in line through fear | yes
+  - History | She used this power only rarely because it caused her pain, which she had to hide | only sparingly because it hurt her and she couldn't show it | yes
+- goals:
+- whole: The note reports, as in-universe history, how Tempest Shadow joined the Storm King and used her painful magic sparingly to terrorize subordinate warlords.

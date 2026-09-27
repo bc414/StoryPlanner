@@ -1,0 +1,6 @@
+- claims:
+  - History | Tempest Shadow served as the Storm King's second in command in his horde, handling logistical organization | Her role in the storm king's horde, as his 2nd in command, was logistical organization | yes
+  - History | The Storm King supplied the horde's rallying spirit and propaganda, the counterpart to her logistics | while he provided the screaming manosphere spirit and propaganda | yes
+  - Allegories | The Storm King's screaming, propaganda-driven horde spirit stands for the real-world manosphere | screaming manosphere spirit | no
+- goals:
+- whole: The note reports as backstory fact that Tempest Shadow ran the Storm King's horde logistics as his second in command while he supplied its propaganda and shouting spirit, with a manosphere label attached that reads as real-world allegory.

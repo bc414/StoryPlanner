@@ -1,0 +1,7 @@
+- sources:
+  - Griffonian Republic ("my Griffonian Republic") | author's own story-world element; treat as the setting that Raising Cane's/In-N-Out map onto (standardized excellence) and that can also serve as a redemption story for lost English culinary traditions | Raising Cane's/In n out map right to my Griffonian Republic, standardized excellence | referred-to
+  - The Stagnation of Harmony | author's own scheme category; treat as what old American diners map to and as what the post-1980 West is | old American diners map to The Stagnation of Harmony | referred-to
+  - Equestria in EaW | the author's existing setting from the game/mod, taken as the Anglosphere equivalent and as the Stagnation of Harmony; treat as given | Equestria, the Anglosphere equivalent in EaW | referred-to
+  - Herzland | author's own setting element; treat as the allegory for England, the first industrializer whose culture industrialization destroyed | Herzland is the allegory for England | referred-to
+- order:
+- about: The user maps the model's restaurant-industry categories onto their own story-world's political-economic schemes (Stagnation of Harmony, rugged individualism, harmonic capitalism, Griffonian Republic), asks the model to confirm a belief about fast-food worker pay, and adds that Herzland allegorizes England and Equestria the post-1980 West.

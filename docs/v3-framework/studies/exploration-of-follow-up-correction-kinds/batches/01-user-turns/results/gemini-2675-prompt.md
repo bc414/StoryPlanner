@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the Trojan Horse as dismantling all four pillars, including Stalliongrad Marxism and right-wing nationalism. The user restates the plan so that the Trojan Horse dismantles only the Stagnation of Harmony and ruthless capitalism, while authoritarian Marxism and nationalism are rejected. | "dismantle both the Stagnation of Harmony" and "while also rejecting" | implicit and mild, folded into a restatement that opens with approval, with no explicit disagreement or reason given
+- about: The user endorses the Trojan Horse idea in their own narrower wording, which splits the four pillars into two that are dismantled and two that are rejected, and then asks the model to move on to reviewing their story plans and giving an analysis.

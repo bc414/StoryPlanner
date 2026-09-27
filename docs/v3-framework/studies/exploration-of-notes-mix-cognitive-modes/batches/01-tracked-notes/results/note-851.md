@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | The friendship plants are designed to capture the ambient charitostatic effect of a communal tribe, so that the friendship can be harvested into medicine; this states how the technology works in the fictional universe | The friendship plants are designed to capture the ambient charitostatic effect... allowing that friendship to be harvested into medicine | outside
+- goals:
+- whole: The note states, as a rule of the fictional universe, how the Tzinacatl Medicine technology works: plants capture a tribe's ambient friendship effect so it can be harvested into medicine.

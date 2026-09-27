@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user, admitting they know nothing of the MCU, asks the model to explain its history, whether the heroes began as separate stories, how they came to share a world, and what Avengers is about, so they can follow the previous analogy.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the code-formatting topic and asks a fresh, general question about the purpose and side effects of gendered nouns in language, without commenting on the model's previous answer.

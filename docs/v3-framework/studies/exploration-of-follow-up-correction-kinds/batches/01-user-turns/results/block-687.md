@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the comparative-works discussion and moves to a planner-design feature, proposing an objective, zero-focalization note track on plot point link entities and asking for name options and guiding tooltips.

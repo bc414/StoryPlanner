@@ -1,0 +1,5 @@
+- sources:
+  - The model's previous canon overview of Sickleclaw, Astler and Rosewing | doubted as inaccurate; not to be relied on where it conflicts with the user's recollection | "This does not seem right" | referred-to
+  - The user's own recollection of the canon (Rosewing as Kemerskai's brother in arms from the Imperial military; Sickleclaw and Astler as separate characters) | offered from memory as a hedged correction the model should account for | "I thought Rosewing was Kemerskai's brother in arms" | first-named
+- order:
+- about: The user pushes back on the model's canon summary, saying from memory that Rosewing was Kemerskai's Imperial military comrade and that Sickleclaw and Astler are different characters.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the calculator-policy filing discussion and starts a new question about whether the Equestrian Army should be one organization or two across the war, and whether its binding logic stays constant, mentioning that their own earlier naive-army plan predates their grasp of grimdark versus hopepunk.

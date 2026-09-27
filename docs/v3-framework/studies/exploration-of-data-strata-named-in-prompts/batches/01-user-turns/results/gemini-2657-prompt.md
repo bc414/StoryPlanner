@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the plans are where the tribe details should be referred to and worked in, e.g. the chapter 17 Breakthrough plan | refer to these in my story plans | referred-to
+  - this (the three-tribe triad just discussed in the conversation) | the base the user is building on; the new points are additions to it, not replacements | To add to this | referred-to
+- order:
+- about: The user adds new plot and backstory details for the three Bat Pony tribe groups, covering the parloir owners in chapter 17, the stagnant tribes and the drug tribes' fall to Chrysalis, and asks that these be tied into their story plans.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the export-for-resources idea and builds on it by naming Skyfall Trade Federation as the buyer, cast as arms merchants supplying both sides, without saying the model's earlier examples were wrong.

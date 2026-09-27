@@ -1,0 +1,6 @@
+- claims:
+  - History | Once Eros controls Griffenheim, he unites Herzland under a strong central grip over the former duchies that were led by greedy nobility | Once Eros has control over Griffenheim, he finishes the job by uniting Herzland with a strong central grip | yes
+  - History | Eros uses industry to give clothes and jobs to all peasants | uses industry to give clothes and jobs to all peasants | yes
+  - History | The Reich is significantly strengthened because former peasants loyal to Eros work in factories for Boreas, the Emperor, the Reich | This strengthens the Reich significantly as former peasants loyal to Eros work in factories | yes
+- goals:
+- whole: The note reports as in-universe history how Eros consolidated Herzland and industrialized peasant labor, strengthening the Reich around 1007–1011.

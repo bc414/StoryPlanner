@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the specific steps for setting up a Passkey on their device (iOS vs. Android)? | ignored | Says nothing about passkeys or device type; asks instead for other alternatives. | none
+- shape: Redirects with a short follow-up asking for more options beyond those listed, without taking up the offered passkey setup steps. It is not about a story or fiction work at all.
+- settles:

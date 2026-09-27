@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about the formal linguistic distinction between consonants and vowels, moving on from the discussion of R sounds without disputing anything in the model's answer.

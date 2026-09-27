@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes, as a question seeking confirmation, how the three kinds of Tzinacatl tribes (drug, isolationist, medicinal) map onto the jaguar/eagle duality and onto their Skyfall, Stagnation and Aquileian alignments, without pointing to any body of material.

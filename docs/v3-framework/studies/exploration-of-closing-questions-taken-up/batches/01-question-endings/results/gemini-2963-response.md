@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to walk them through the specific steps of linking their AI Pro credits to their AI Studio account to avoid a surprise bill? | ignored | The user turn asks for something else, an overview of Vertex AI and the Google Cloud console and how to use it like web chat for story planning. It says nothing about the linking steps. | none
+- shape: Redirects to a different topic. Rather than accepting the offered walkthrough of linking credits, the user asks for a general overview of Vertex AI and the Cloud console, framed around using it like a web chat for story planning. It is an instruction to explain, and it follows up on the model's Vertex AI mention.
+- settles:

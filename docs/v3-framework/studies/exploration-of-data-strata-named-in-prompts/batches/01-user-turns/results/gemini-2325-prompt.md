@@ -1,0 +1,4 @@
+- sources:
+  - the game, its existing parts and the analysis just given | use as the baseline: extend the prior analysis and judge whether the new cartel scenario counts as a further part of it or falls outside it | follow up analysis ... Is this a "part 4" of the game | referred-to
+- order:
+- about: The user asks the model to extend its prior analysis by describing how reformed thugs, lionesses and industrialists form a nationalist cartel in Skyfall, and to argue whether that counts as a fourth part of the game or is not a new game.

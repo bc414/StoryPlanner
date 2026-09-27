@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model recommended AI Studio as meeting all the user's requirements without accounting for cost, which the user treats as a requirement the recommendation must satisfy | "I need it to be cost effective" | flat, terse one-line statement of the missing requirement, with no explanation, apology or irritation, and the correction only implied
+- about: The user answers the AI Studio recommendation by stating a cost-effectiveness requirement that the recommendation did not address, redirecting the model toward a cheaper option.

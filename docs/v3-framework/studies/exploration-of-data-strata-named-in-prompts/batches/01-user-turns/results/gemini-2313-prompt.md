@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short clarifying question about whether gasoline engines still run at about 35% efficiency even after the refining steps, without pointing at any body of material for the model to use.

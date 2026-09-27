@@ -1,0 +1,5 @@
+- questions:
+  - How does Dennis Discret manage promotion tracks in a ship system built on four interdependent magical disciplines? | no user turn | none | none
+  - Does a ship vote for its captain based on cross-disciplinary leadership skill, or is captaincy usually reserved for a specific role? | no user turn | none | none
+- shape: none
+- settles:

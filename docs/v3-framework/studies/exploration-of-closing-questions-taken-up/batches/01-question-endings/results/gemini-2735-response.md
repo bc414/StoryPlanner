@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to brainstorm how Velvet would react in the second, post-war meeting when she sees the toll the war has taken on Rainbow Dash? | ignored | Nothing on the second meeting. The turn goes back to the first encounter and puts new questions about it. | none
+- shape: Redirects. It doesn't take up the offered brainstorm of the second meeting. It goes back to the first encounter, restates the Rainbow and Velvet exchange, and complicates it with adult and translated books already reaching Equestria (Twilight's textbooks, Rarity's romances). It then asks the model for its view on two things: whether the friction should be about foal books being popularized while adult books are hidden, and whether Velvet should know about Shining Armor and Cadance slipping Twilight Aquileian books.
+- settles:
+  - Twilight Sparkle has read translated textbooks, so foreign adult material already reaches Equestria | Twilight Sparkle has read translated textbooks

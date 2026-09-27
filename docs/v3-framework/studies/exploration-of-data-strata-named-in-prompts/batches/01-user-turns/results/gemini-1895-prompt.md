@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to propose what surname Minette would take once free and where it would come from, without pointing at any body of material to draw on.

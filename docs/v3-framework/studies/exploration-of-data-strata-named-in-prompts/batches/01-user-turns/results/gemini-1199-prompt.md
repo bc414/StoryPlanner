@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about where to find a referral link for Chase credit cards, without pointing at any body of material for the model to use or avoid.

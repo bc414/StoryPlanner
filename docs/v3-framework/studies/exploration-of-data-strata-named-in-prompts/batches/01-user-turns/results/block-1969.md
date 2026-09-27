@@ -1,0 +1,6 @@
+- sources:
+  - Properties of Pink and Red Love | the subject whose relationship to the other is being decided, whether separate or distinct; it is the item in question and not asserted as settled | Should Properties of Pink and Red Love be separate from | referred-to
+  - Unified Theory of Magic | an existing subject the user says already holds related content such as color saturation from being drained; the model is to weigh this contents when deciding whether the two are kept apart | Unified Theory of Magic also contains stuff like color saturation from being drained | referred-to
+  - TLTT canon reference line about a hard magic system | offered as a canon reference that supports the Unified Theory of Magic's scope, to be taken into account in the decision | as a canon reference: "TLTT establishes a hard magic system | first-named
+- order:
+- about: The user asks whether the Properties of Pink and Red Love World Law should be its own subject or sit apart from Unified Theory of Magic, giving what Unified Theory already contains and a canon reference line as grounds for the decision.

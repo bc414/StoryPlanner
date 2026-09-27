@@ -1,0 +1,5 @@
+- sources:
+  - the TLTT story plan | the existing plan the model is to audit, finding which of its major foundations need revising or enhancing | major foundations of the TLTT story plan | referred-to
+  - the shift in the timeline of the stagnation of harmony | the new premise, treated as settled, against which the plan's foundations are to be revised or enhanced | the shift in the timeline of the stagnation of harmony | referred-to
+- order:
+- about: The user asks the model to extend the Thestral revision to the rest of the TLTT story plan by identifying which other major foundations must change because of the shifted timeline for the stagnation of harmony.

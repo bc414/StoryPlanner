@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up craft question, wanting examples of deep third person that shifts the lens character mid-scene through a bridge, without pointing at any particular body of material.

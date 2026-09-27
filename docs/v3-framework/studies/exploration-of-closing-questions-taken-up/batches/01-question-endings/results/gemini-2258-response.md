@@ -1,0 +1,4 @@
+- questions:
+  - Does this account of cross-ocean influence in 914–978 (incompatible markets, Equestria as breadbasket, Manehattan guilds, proto-tycoons, Celestia's blindness) fit the slow-burn corruption of Manehattan the user is aiming for before the Parloirs arrive? | no user turn | none | none
+- shape: none
+- settles:

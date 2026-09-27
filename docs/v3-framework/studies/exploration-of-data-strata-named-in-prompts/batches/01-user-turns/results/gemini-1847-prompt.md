@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether the capabilities just described are built into the trained model or come partly from supplementary tools such as search and code generation in customer-facing products, and what other components exist, without pointing the model at any particular body of data.

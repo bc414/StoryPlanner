@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the geography analysis to propose their own backstory for Coltbert (his parentage, his charm and affairs with noble griffonesses, his university sponsorship, and his vain royalist temperament) and explains the rivalry with Vérany in those terms, adding material without saying anything in the prior turn was wrong.

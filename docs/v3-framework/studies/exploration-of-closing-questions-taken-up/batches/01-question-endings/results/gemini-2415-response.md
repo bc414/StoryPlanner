@@ -1,0 +1,4 @@
+- questions:
+  - Whether to analyze how cable-based magical control limits griffon aircraft size, e.g. lightweight fighters versus heavy bombers needing hydraulics | ignored | nothing said about aircraft size limits, bombers or hydraulics; the turn moves to real-world tool-use science and other aircraft | none
+- shape: Redirects to real-world fact-finding. The user asks whether tool-embodiment neuroscience is real, which analogy fits best, what other examples exist, whether it comes from Neanderthal tool use and is human-only, and how Spitfires and Ju 87s were controlled. It also floats, in question form, a tentative idea for griffon magic: hardness as a benefit of mastered, self-forged tools. It does not take up the offered follow-up.
+- settles:

@@ -1,0 +1,4 @@
+- sources:
+  - canon FiM (how Fluttershy talks to animals) | use as the model for how the Buffalo communicate with animals, fairy-tale style, but reinterpreted as nonverbal understanding through body language rather than literal comprehension of animal sounds | how Fluttershy does in canon FiM, like a fairy tale | referred-to
+- order:
+- about: The user corrects the model's earlier claim that the Buffalo don't speak to animals like a fairy tale, saying they do resemble canon Fluttershy's animal communication, but as body-language understanding rather than literal comprehension of animal sounds.

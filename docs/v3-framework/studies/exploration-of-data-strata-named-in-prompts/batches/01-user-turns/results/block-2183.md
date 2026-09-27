@@ -1,0 +1,8 @@
+- sources:
+  - existing universal themes (including Material Conditions drive Morality) | the standard a candidate is measured against: check whether the Poseur archetype's arguments are already contained in them, and whether other items add a distinct proposition | all the arguments that the archetype is evidence for are already the arguments of the existing universal themes | referred-to
+  - Poseur archetype | treat as evidence for several themes; author is unsure it carries an argument of its own, asks the model to examine that | serve as examples for both themes; not sure if Poseurs have a specific argument | referred-to
+  - Freedom is an Achievement | author holds it is a proposition in its own right, not just evidence for Material Conditions drive Morality; wants the model to analyse it on that footing | still a argument, a proposition, about how the world works | referred-to
+  - Bottom Up > Top Down | author is willing to accept it may be evidence for universal themes, like the Poseur | similar to the poseurs, where they are evidence for universal themes | referred-to
+  - Division is Artificial | author holds it is a thematic proposition because it argues against an established worldview; puts this to the model as a question to test | specific argument about the universal mechanics and logic | referred-to
+- order:
+- about: The author pushes back on the model's proposed reclassification of several themes, arguing that Freedom is an Achievement and Division is Artificial are real propositions while Bottom Up > Top Down and the Poseur may only be evidence, and asks for a fresh analysis.

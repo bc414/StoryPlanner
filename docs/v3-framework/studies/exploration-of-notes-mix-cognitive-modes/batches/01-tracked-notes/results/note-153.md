@@ -1,0 +1,4 @@
+- claims:
+  - History | Pear Butter earned her preserve jar cutie mark through mashing apples and pears together with Bright Mac, reported as a past event | Pear Butter got her preserve jar cutie mark from mashing apples and pears together with Bright Mac | yes
+- goals:
+- whole: The note reports, as a past fact of the world, how Pear Butter came to have her preserve jar cutie mark, through mashing fruit with Bright Mac.

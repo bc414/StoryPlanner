@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes revisions to the model's axis framework for the factions, moving the industrial revolution to axis 1's anti-pole, recasting axes 3 and 4 as extraction vs conscience and leverage vs conscience, and suggesting in-group tribalism vs universalism as a further axis, without pointing the model at any body of source material.

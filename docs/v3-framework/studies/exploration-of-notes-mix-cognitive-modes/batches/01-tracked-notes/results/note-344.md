@@ -1,0 +1,4 @@
+- claims:
+  - History | The Aquileians and Sunburst quickly worked out the science of the crystal heart's crystals and used industrial and magical processes to recreate its lattice structure, which turns charitostatic friendship into a physical shield | the Aquileians and Sunburst rapidly figure out the science... recreate the crystal lattice structure | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, how the Aquileians and Sunburst reverse-engineered the crystal heart's crystals to create the friendship shield technology.

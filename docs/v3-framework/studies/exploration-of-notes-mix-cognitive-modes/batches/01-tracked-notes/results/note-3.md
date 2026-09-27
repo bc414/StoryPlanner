@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Applejack disliked rapidly industrializing city life and its posturing, preferring the honesty of farm life | did not like the rapidly industrializing city life and all its posture, preferring the honesty of the farm | no
+  - Characterization | Applejack viewed the SAA leaderboard as a toxic capitalist rat race | She viewed the SAA leaderboard as a toxic capitalist rat race | no
+  - Characterization | Applejack holds the belief that her parents turned sacred, spiritual farming into a soulless money-making quota system | She believes her parents turned the sacred, spiritual act of farming into a soulless quota system | no
+  - History | Applejack left her parents in Manehattan, returned to the farm, and earned her cutie mark | She left her parents in Manehattan to return to the farm and got her cutie mark | yes
+- goals:
+- whole: The note gives Applejack's pre-story backstory, mostly as assertions of her values and beliefs about city life, the SAA leaderboard and her parents, ending with the one reported event of her leaving Manehattan for the farm and getting her cutie mark.

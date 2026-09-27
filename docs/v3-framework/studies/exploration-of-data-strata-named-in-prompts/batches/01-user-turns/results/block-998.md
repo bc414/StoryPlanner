@@ -1,0 +1,4 @@
+- sources:
+  - the rigorous logic we've established | use as the analytical framework to apply to the American Right, placing each force on the cynic vs resilient spectrum and explaining why | using the rigorous logic we've established | referred-to
+- order:
+- about: The user asks the model to apply the cynic-versus-resilient framework built earlier in the conversation to the American Right today, placing each of its factions on the spectrum and explaining the placement.

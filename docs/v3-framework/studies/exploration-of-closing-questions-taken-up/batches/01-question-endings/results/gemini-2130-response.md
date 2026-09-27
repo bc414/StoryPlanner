@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore the specific moment a Wonderbolt pilot (Spitfire or Soarin) makes the conscious choice to fire on a disabled airship, grasping the weight of defending Mount Aris? | no user turn | none | none
+- shape: none
+- settles:

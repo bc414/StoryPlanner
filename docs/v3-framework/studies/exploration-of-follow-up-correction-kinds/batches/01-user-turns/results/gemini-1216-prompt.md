@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model judged the two methods mainly on skin crispiness and texture and told the user to stick to the air fryer alone. It treated the microwave only as an emergency rescue. The user's concern is the chicken drying out before it is cooked through, and their father will accept no rawness. | I'm concerned that it's dried out too much in the air fryer before being fully cooked on the inside. My dad has no tolerance for any rawness | Indirect: states a worry and a reason, with no explicit disagreement or complaint. The correction is implied by the priorities it restates.
+- about: The user restates their actual concern, which is dryness before the inside is cooked through and no rawness for their dad, and in doing so pushes back on the model's air-fryer-only verdict.

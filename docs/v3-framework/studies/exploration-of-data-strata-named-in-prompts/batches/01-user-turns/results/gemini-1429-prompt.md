@@ -1,0 +1,6 @@
+- sources:
+  - Night Light being a scientist who Celestia told to stop researching (the model's previous proposal in this conversation) | accepted into the plan as settled; the author builds on it and says it fits | "this is perfect" | referred-to
+  - Twilight's season 1 persona (the published show) | treated as established canon that the new Night Light backstory is meant to explain | "perfectly explains Twilight's season 1 persona" | referred-to
+  - the author's own timeline and plan facts (Celestia suppressing Twilight for about 7 years from the end of season 4 to 1011, Night Light for 40+ years, Twilight's anxiety about her parents, the reality that she liberated them) | authoritative story facts from the author, to be built on as given | "Celestia lightly suppressed Twilight's intellect for roughly 7 years" | first-named
+- order:
+- about: The author endorses the model's Night Light scientist idea, adds their own timeline of Celestia's suppression of Twilight and Night Light, and sets out Twilight's anxious but ultimately liberating reunion with her parents.

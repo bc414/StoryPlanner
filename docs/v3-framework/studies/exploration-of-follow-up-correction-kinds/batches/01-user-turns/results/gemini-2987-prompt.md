@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks follow-up questions about who used or still uses Gemini Ultra, whether the Google AI Ultra subscription relates to it, and whether Pro with Deep Think makes Ultra obsolete, without challenging anything in the model's parameter history.

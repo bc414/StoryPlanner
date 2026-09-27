@@ -1,0 +1,5 @@
+- questions:
+  - How does the author plan to transition out of Applejack's flashback? | no user turn | none | none
+  - Does Applejack snap back to the present when Rarity physically hands her the coat, with the uniform's weight grounding her? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,5 @@
+- questions:
+  - How much does the pre-war Equestrian government know about the Manehattan Parloirs, and do the Royal Guard raid them or is it an open secret that Canterlot elites use but publicly condemn? | ignored | The user turn does not mention the Parloirs or the government's knowledge of them, and moves to a wider question. | none
+  - Does Twilight's view of her own magical research change when she learns Celestia destroyed the Thestrals' medical economy, and does she see her underground lab as the same kind of illegal innovation? | ignored | The user turn says nothing about Twilight, her research or her lab, and asks about other parts of the plan. | none
+- shape: The user turn moves on from the Thestral discussion without engaging the model's two follow-up questions. It gives no verdict on the proposed 930 ALB Prohibition backstory. It asks the model to survey the rest of the TLTT plan for other foundations that the shifted stagnation timeline would require revising or strengthening. This is a redirect to a broader audit, phrased as a request for the model to generate content.
+- settles:

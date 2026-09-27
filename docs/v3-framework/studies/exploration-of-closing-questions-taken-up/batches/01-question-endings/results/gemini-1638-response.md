@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want the model to draft the full greenhouse dialogue scene between Applejack and Trimmel, based on the analysis? | ignored | The user neither accepts nor declines the offer. They correct a timeline detail and ask a different question about the earlier surrender scene. | none
+- shape: Corrects the model's premise about when Trimmel learns of Thranx's death, then redirects to a new question: what Trimmel should say at his first surrender, when he expects execution and is sent to the camp instead.
+- settles:
+  - Trimmel does not know Thranx was murdered until Applejack arrives at the camp. She asks him to radio Elvir Roland and persuade his friend to surrender, and Elvir tells him Chrysalis killed Thranx. | does not hear about Thranx's murder until Applejack arrives and asks Trimmel to connect to Elvir Roland over radio
+  - Trimmel's initial surrender was not motivated by Thranx's murder, which he learned of only later. | does not hear about Thranx's murder until Applejack arrives
+  - At his first surrender Trimmel expected to be executed, and Applejack told him he was going to the camp instead. | initially surrendered, expecting execution but Applejack tells him he's going to the camp

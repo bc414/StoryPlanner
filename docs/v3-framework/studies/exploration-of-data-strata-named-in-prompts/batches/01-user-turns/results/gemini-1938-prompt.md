@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about what it costs to get the Claude capabilities the previous answer described, without pointing the model at any body of material to use or avoid.

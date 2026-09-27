@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question extending the topic from GitHub repository import to how large attached documents are handled, without challenging anything the model said.

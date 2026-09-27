@@ -1,0 +1,9 @@
+- questions:
+  - How does Celestia's realization that Pinkie and Fluttershy adapted to trauma faster than she did change her view of her 1,000-year lifespan: immortality as wisdom or as calcified neuroplasticity? | ignored | Says nothing on it; the turn moves to listing mentor figures for the Mane Six. | none
+  - How does Fluttershy's lesson about letting dependents face danger change Celestia's view of Chrysalis, e.g. as a grotesque version of her own former Caretaker flaws? | ignored | Says nothing on Celestia or Chrysalis; the turn stays on the mentor roster. | none
+- shape: Redirects away from the Celestia parallels to a new topic. The user goes through the mentor figure for each of the Mane Six, floats a change for Rainbow Dash, and fills the one gap, Fluttershy's mentor. It is a design contribution to the cast structure and doesn't engage the model's analysis or its Socratic questions.
+- settles:
+  - Little Strongheart, a buffalo who is also an animal caretaker, is Fluttershy's mentor, and she teaches Fluttershy to let go of her maternal instincts | I haven't designated a mentor figure for Fluttershy yet, and I think Little Strongheart should be it
+  - Fluttershy's Grace is already inherent from FiM, so the mentor is there for the letting-go arc and not for Grace | Fluttershy's Grace demonstration is already inherent from FiM
+  - Little Strongheart, thinly developed after Over a Barrel, gets expanded in this story | I see room here to make this connection
+  - Tentative: Rainbow Dash's mentor may be Mali in the Tzinacatl jungle in place of Reni, with a scene meeting a fake Daring Do and Ahuizotl and answering with empathy instead of dismissal or combativeness | maybe Rainbow's mentor figure needs to be Mali in the Tzinacatl jungle

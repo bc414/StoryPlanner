@@ -1,0 +1,8 @@
+- sources:
+  - the attached expansion of the origin story I wrote for Fluttershy | treat as the authoritative basis for Fluttershy's origin; review it and align with it, since the user wrote it | Please review the attached expansion of the origin story I wrote for Fluttershy | first-named
+  - Fluttershy's core character (as the user understands it) | the standard the model's prior response is judged against; that response is rejected for not fitting it | does not align with the core of Fluttershy's character at all | referred-to
+  - the model's above response (Fluttershy ethologist/Griffonian bestiaries origin) | treat as wrong and not to be relied on; it is rejected as misaligned | This above response does not align | referred-to
+  - canon fanfiction (the canon the user is writing for) | frame the origin as canon-compatible; the expansion is written for it | for a canon fanfiction | referred-to
+- order:
+  - the attached expansion of the origin story I wrote for Fluttershy over the model's above response | the user rejects the model's response and directs the model to review their own written origin instead
+- about: The user rejects the model's proposed Fluttershy origin as out of character and directs it to review their own attached origin-story expansion for a canon fanfiction instead.

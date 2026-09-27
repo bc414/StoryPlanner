@@ -1,0 +1,5 @@
+- questions:
+  - Which of the four French term options (or angles) best fits the tone of Coltbert's early writings before King Discret hired him? | ignored | Does not choose among the options or speak to Coltbert's early tone; supplies the game's own French localization instead and asks for a grammar comparison. | none
+- shape: Corrects the model's premise that the French term was still open by supplying the term from the game's localization, then sets a new task: compare the grammar of that term with the model's literal option and explain the English equivalents and implications.
+- settles:
+  - The Stagnation of Harmony is a national spirit in Equestria at War, and its French term is Harmonie Stagnante, which fills the gap Coltbert's notes left open. | The French localization is "Harmonie Stagnante"

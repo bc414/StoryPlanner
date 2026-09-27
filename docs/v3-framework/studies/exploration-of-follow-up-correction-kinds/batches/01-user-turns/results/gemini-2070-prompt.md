@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether the standard Gemini chat app adjusts sampling parameters automatically depending on whether the user wants code or creative writing, extending the explanation without disputing it.

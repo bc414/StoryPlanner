@@ -1,0 +1,5 @@
+- questions:
+  - Do you want to try the concatenated markdown architecture document (model and ViewModel classes with filename headers) instead of uploading every file? | answered | Gives a go-ahead. It reads as accepting the proposed markdown approach, but it doesn't name which option it means. | Go ahead.
+  - Do you want to check first whether the GitHub connector is available to you? | ignored | Nothing is said about checking the connector. The go-ahead is the only signal, and it leans toward the markdown route rather than a connector check. | none
+- shape: A short go-ahead that accepts the model's proposal and hands the next step back to the model. It adds no detail and does not choose explicitly between the two options offered.
+- settles:

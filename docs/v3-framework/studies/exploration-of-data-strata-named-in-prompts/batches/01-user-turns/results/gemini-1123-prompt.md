@@ -1,0 +1,5 @@
+- sources:
+  - the trench metaphors (the river, eclipse, oak and reed options from the model's previous answer) | reject as unusable and ask for a different way to deflect | Actually the trench metaphors are too ridiculous | referred-to
+  - the model's previous reading of AJ taking off her uniform as defiance of Henri's defeatism | treat as wrong and replace with the author's account: she takes it as permission from his defeatism, and the tent entrance is a drunk joke | AJ is not taking off her uniform in defiance of Henri's defeatism | referred-to
+- order:
+- about: The author rejects the model's trench metaphors and its reading of the uniform strip, then gives their own account of how the tent scene runs, from the drunk entrance through the collaboration dream to Luna throwing AJ out, which leads to Twilight rescuing her.

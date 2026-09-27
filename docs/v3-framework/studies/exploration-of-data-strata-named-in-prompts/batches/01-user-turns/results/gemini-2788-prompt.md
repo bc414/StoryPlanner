@@ -1,0 +1,5 @@
+- sources:
+  - the science (their magic is just weathering phosphates and potassium) | treated as established in the story's world and as a constraint the cutie-mark discount idea has to be reconciled with | the science says their magic is just weathering phosphates and potassium | referred-to
+  - the idea of asset specificity | a principle already in the plan that the proposed specialized matrices and cutie mark discounts are to be checked against, with the author unsure the proposal fits | Or does this hinder the idea of asset specificity | referred-to
+- order:
+- about: The user asks whether Fleur should invent crop-specific fertilizer matrices and whether earth ponies should get cutie mark discounts for their own crops, while doubting that either fits the asset-specificity idea and the weathering-based science of earth pony magic.

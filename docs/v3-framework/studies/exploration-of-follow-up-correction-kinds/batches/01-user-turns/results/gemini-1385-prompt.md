@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model took "Oblivion" to name only the failure state (death/nothingness) that the ending avoids, so it judged the title disconnected from the ending; the user says the title is subversive because readers expect war or destruction while the chapter gives the Tzinacatl economic purpose, the cure for oblivion | I imagined the reason Oblivion is subversive is because | Stated flatly as the user's own intent, giving the reasoning behind the title, with no apology or irritation
+- about: The user restates what they intended by the title \"Oblivion\", explaining its subversion (expected war versus the cure of economic purpose) in answer to the model's claim that it clashes with the chapter's ending.

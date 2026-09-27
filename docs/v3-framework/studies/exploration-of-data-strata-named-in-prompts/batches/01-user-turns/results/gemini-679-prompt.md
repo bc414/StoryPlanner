@@ -1,0 +1,4 @@
+- sources:
+  - Aquileian style mixed member proportional representation | treat as the settled electoral model the story's system is built on, and work the options within it | It's going to be an Aquileian style mixed member proportional representation | referred-to
+- order:
+- about: The user asks the model to lay out and analyse options for how members could be chosen by district for a first vote that is a referendum on becoming a Republic, given that no Republic yet exists, while keeping the tension between a harmonic Republic and a nationalist/rugged one.

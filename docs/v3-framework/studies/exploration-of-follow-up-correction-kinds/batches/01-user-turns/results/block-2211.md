@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the search for prior writers and asks a new forward-looking question about other uses of AI in the coming prose drafting and what to watch out for, adding background on their untrained fanfiction habits and arbitrary switching between omniscient and limited point of view.

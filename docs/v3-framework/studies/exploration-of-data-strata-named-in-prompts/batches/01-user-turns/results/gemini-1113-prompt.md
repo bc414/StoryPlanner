@@ -1,0 +1,5 @@
+- sources:
+  - P&K (the source work, The Princess and the Kaiser) | treat as the reference for what happens in it; the user cites it as the fact base that corrects the model's account of the retreat, Applejack's reaction and the army's condition | In P&K, Applejack implies that the military stabilized | referred-to
+  - my story (the user's own LoTT plan) | treat as true and settled; the user states its events and character arcs as the facts the model should work from, in contrast to P&K | In my story, AJ threw off the uniform and ran by hoof | referred-to
+- order:
+- about: The user corrects the model's account of what happens in P&K's retreat and Applejack's reaction, then restates the events of their own story to set out how it differs from P&K.

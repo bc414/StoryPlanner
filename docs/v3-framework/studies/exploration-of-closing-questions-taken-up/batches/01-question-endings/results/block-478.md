@@ -1,0 +1,5 @@
+- questions:
+  - Does Chrysalis copying the Empire's logistical and military blueprints from the Academy explain why the Changeling Heer is vulnerable to Applejack's Combined Arms and Aquileian Chasseur tactics, i.e. did she inherit the rigid top-down flaws of a knight-era curriculum? | ignored | Says nothing about the Heer's weaknesses or the inherited curriculum; moves to the institution's name. | none
+  - When Kemerskai reviews the Changeling battle formations, does he recognize Griffenheim textbook maneuvers, and how does he react to the Republic's greatest threat wielding the stolen ghost of the Empire? | ignored | Says nothing about Kemerskai or his reaction; asks only about the institution's name. | none
+- shape: Redirects. It leaves both Socratic questions and the model's argument for Chrysalis's seven-year endurance unaddressed. It attaches two official EaW flavor-text documents (Griffonian Empire and Republic) and asks whether they hold an existing name for the institution Chrysalis attends. This is a request to check source material, not a decision on the work.
+- settles:

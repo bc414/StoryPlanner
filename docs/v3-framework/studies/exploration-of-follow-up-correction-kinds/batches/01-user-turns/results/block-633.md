@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the design-phase versus drafting-phase discussion to a new schema question, asking whether the gap fields belong on the plot point or on the plot point-character connection, and gives their reasoning for the plot point.

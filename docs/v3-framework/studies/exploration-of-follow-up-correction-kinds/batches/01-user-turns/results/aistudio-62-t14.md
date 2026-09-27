@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's invented Changeling Trident (the rearranged conspiracy board as VOPS calling card) is rejected as an element of the sequence | We can ditch the trident. | flatly, as a short directive dismissing the element
+  - reading of the plan | The model made the assassination, calling card and Blueblood's terrified validation the causes of his pivot to building an army; the user says Ahuizotl's warning alone is enough for that pivot | Ahuizotl's warning is enough to make Blueblood pivot | flatly, stated as a narrowing of the model's chain of events, with no apology and no reason beyond sufficiency
+- about: The user trims the model's proposed sequence by dropping the trident and the extra escalation beyond Ahuizotl's warning, then moves on to new questions about Blueblood, Mudbeak and the Mane 6, Republicans, Aquileians, Kemmerich and Meyer at the Defense of Mount Aris in 1006.

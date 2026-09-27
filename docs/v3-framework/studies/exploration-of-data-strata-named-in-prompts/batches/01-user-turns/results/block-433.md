@@ -1,0 +1,4 @@
+- sources:
+  - the claim that German translates a chrysalis/pupa to the same word as a doll or puppet | treated with suspicion as possibly too convenient; the model is to check it by laying out the actual etymologies in both languages | It seems almost too good to be true | referred-to
+- order:
+- about: The user floats a story idea, that Aquileians could mock Chrysalis by calling her Puppe, and doubts the convenient Puppe overlap the model asserted, so asks for a thorough account of the German and English etymologies to verify it.

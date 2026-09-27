@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: plot mechanism proposed by the model | the model's premise that Twilight needs an external smuggled lithography machine (and the hand-carving bottleneck that motivates it) is set aside in favour of her first matrix being a lithography spell herself | What if Twilight doesn't need a lithography machine because the first spell matrix she makes is her own lithography spell | posed as a hypothetical question, with a reason given, no explicit statement of disagreement and no reaction to the model's praise or detail
+- about: The user turn floats an alternative to the model's smuggled-machine plot by suggesting Twilight's own first spell could be the lithography process, which removes the need for the machine.

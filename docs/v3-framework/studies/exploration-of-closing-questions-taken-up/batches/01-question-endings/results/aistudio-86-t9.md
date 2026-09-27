@@ -1,0 +1,5 @@
+- questions:
+  - When a Changeling POW first takes the Tzinacatl medicine and the pain stops but no Hive-approval rush comes, do they accuse Fluttershy and the medics of poisoning them or withholding the real medicine, and how does a creature whose idea of love is a fast drug learn to accept that healing feels boring? | no user turn | none | none
+  - Could Star Energy and Fleur Bloom use the same botanical extended-release principle to stabilize the volatile Red Love in the Luna Nova Rifle canisters, so that bringing Tzinacatl agriculture into the Equestrian military-industrial complex keeps the rifles from exploding or corrupting the user? | no user turn | none | none
+- shape: none
+- settles:

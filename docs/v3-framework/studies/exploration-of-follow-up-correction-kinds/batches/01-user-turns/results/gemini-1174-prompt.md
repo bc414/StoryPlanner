@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's diaspora scenario by fixing the burning at 988 and adding Manehattan history: medicinal-tribe parlors from 981, pony factory owners trained through Chrysalis's shell companies, and the parlors uniting pony and thestral unions into EEEE.

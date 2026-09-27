@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about whether the system prompt should tell the model to check the world bible first, describing long-session drift from the bible and asking whether recency weighting explains it, without disputing anything the model said.

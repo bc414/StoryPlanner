@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a Portuguese organ gun as a design template for the ammo-hungry artillery Chrysalis sells to warlords in the subscription grift, and asks whether it fits, without pointing the model at any body of material to draw on or avoid.

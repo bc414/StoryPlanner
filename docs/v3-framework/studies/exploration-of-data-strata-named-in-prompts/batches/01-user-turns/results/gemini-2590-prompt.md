@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user settles a worldbuilding terminology choice, using "appliqué" for the Aquileian artisans and "spell matrix" for the Equestrians instead of the suggested "patch", and justifies it because English already borrowed the French word.

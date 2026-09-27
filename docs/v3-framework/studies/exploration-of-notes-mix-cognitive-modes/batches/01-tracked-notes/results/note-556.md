@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world rule of the fictional universe) | Extracted red love is high entropy because of the victim's terror, resistance and coercion, so it would shatter a delicate spell matrix | high entropy due to the victim's terror, resistance and coercion and would shatter a delicate spell matrix | outside
+  - outside all ten (world rule of the fictional universe) | Red love must be processed in a fractional distillation centrifuge to isolate and concentrate adrenaline and dopamine for blitz-essenz | must be run through a fractional distillation centrifuge to isolate and concentrate the adrenaline and dopamine | outside
+- goals:
+- whole: The note states, as fixed rules of the universe, why extracted red love cannot be used raw in spellwork and how the Love Harvester's centrifuge refines it into blitz-essenz.

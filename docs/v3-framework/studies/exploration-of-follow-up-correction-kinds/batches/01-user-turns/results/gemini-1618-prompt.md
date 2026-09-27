@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how Synovial should sensibly plan and instruct his old tanks and green crews before Applejack's trick, adding the river-bank static front and his fix-in-place orders as background without saying the earlier answer was wrong.

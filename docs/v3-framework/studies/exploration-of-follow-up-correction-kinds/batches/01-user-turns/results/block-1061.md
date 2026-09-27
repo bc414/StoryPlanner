@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the historical parallel to their own plotting, proposing that Comet Shine's chapter 5 offer foreshadow the dam and asking for analysis, then working through what could bring Rasti and the council to accept and plan the dam across chapters 5, 14 and 16.

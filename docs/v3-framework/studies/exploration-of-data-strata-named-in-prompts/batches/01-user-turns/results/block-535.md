@@ -1,0 +1,8 @@
+- sources:
+  - the author's own history with MLP (discovered it in November 2023, four years after FiM ended) | personal background offered as a fact about their own vantage point and late arrival, not as material to check | "I discovered MLP in November 2023, 4 years after the FiM ended" | first-named
+  - Lauren Faust's originals (the original mane 6) | the base, original characterizations. The author says they are acutely aware of how these differ from the mandate versions, and that many people do not picture them. | "instead of Lauren Faust's originals" | first-named
+  - Hasbro mandate versions (flanderized on top of the base) | later, altered versions of the mane 6 that many fans imagine by default. The author treats them as a distortion layered over the originals. | "the Hasbro mandate versions (flanderized on top of the base)" | first-named
+  - Equestria at War | a fandom source that carries on the later disruptive Hasbro mandates, so people who started there likely lean toward the mandate versions | "EaW carries on many of the later disruptive Hasbro mandates" | referred-to
+  - season 1-4 era fanfiction | the author's own reading history, given as the reason they can tell originals from mandate influences | "I read a lot of season 1-4 era fanfiction" | first-named
+- order:
+- about: The author adds personal context to the model's point about naive reader starting states, arguing that many fans picture the later Hasbro-mandated, flanderized mane 6 rather than Faust's originals, and that their own season 1-4 fanfiction reading is why they notice the difference.

@@ -1,0 +1,6 @@
+- questions:
+  - How does classifying intent vectors under one unified science of Thymodynamics fit with the rest of the user's technological worldbuilding? | partly answered | The user doesn't discuss the wider tech worldbuilding. They say the single umbrella doesn't fit both devices. Thymo is specific to ambition, so it suits the Idol of Boreas, and Volo suits the translator. | Thymo is specific to ambition; Volo is better for the universal translator
+- shape: The user narrows and partly corrects the model's proposal. They split its unified Thymo terminology into two prefixes, each matched to the device it fits, and give a reason for each. They do not answer the model's closing question about the rest of the tech.
+- settles:
+  - The Idol of Boreas's effect takes the Thymo- naming, because that prefix is specific to ambition. | Thymo is specific to ambition and works for the idol of boreas
+  - The universal translator's effect takes the Volo- naming, because it rests on communicative intent and not only ambition. | Volo is better for the universal translator's effect because it's not just about ambition but communicative intent

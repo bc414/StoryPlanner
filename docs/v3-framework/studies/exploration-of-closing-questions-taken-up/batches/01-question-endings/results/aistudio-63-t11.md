@@ -1,0 +1,6 @@
+- questions:
+  - How does Blueblood being the only pony who grasps Chrysalis's financial scheme isolate him from Applejack and Twilight, who see the Changelings as military and magical threats? | ignored | The user turn never mentions Applejack, Twilight or Blueblood's isolation from them. | none
+  - Does Trimmel, when he surrounds Canterlot, realize the Equestrian railway logistics come from Imperial engineering (Mudbeak), and how does that change his view of Equestrian softness? | ignored | The user turn says nothing about Trimmel, Mudbeak's railways or the siege of Canterlot. | none
+- shape: The user turn sets the model's questions aside and redirects to one plot point in the analysis, the VOPS warning to Blueblood. It asks for more detail on how the warning could be delivered and who could plausibly deliver it. It gives constraints (the year is about 1003, Eagleclaw is unavailable, a bankrupted Herzlander noble wouldn't yet know Chrysalis was behind it) and floats Thorax or the converted jaegers as candidates. It ends by asking for better options.
+- settles:
+  - Eagleclaw cannot be the one who warns Blueblood, because Chrysalis's betrayal of him doesn't happen until 1007. | I can't use Eagleclaw because this is before Chrysalis's 1007 betrayal

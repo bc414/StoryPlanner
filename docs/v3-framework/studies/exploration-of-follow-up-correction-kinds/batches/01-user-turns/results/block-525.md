@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the show-don't-tell discussion to a new set of requests about layer 4 plot point structure, the PlotPoint.cs class and enums, payload classes, layer 2 backstory discipline, and date and bucket fields, while noting that layer 4 is a delivery plan and not prose.

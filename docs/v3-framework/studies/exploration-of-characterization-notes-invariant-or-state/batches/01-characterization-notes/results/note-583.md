@@ -1,0 +1,4 @@
+- claims:
+  - span | She believes she has achieved the perfect society, a state the note labels the Stagnation of Harmony | "She believes she has achieved the perfect society (Stagnation of Harmony)" | the start of TLTT, from the track's display question and the present tense; no date given in the note
+  - span | She holds that all threats are only misunderstandings or anomalies, not real dangers | "all threats are just 'misunderstandings' or 'anomalies'" | the start of TLTT, from the track's display question and the present tense; no date given in the note
+- beside: none of the dated notes speaks of this starting point. Life Phases (854..914) has a similar belief that the world is "solved", but it is for an earlier stretch, the era of Grover III, and is not this note's belief.

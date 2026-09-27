@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the model to now generate the Phase 2: The Sorter system instruction, the prompt that takes raw notes and selected buckets and produces verbatim-sorted lore for the WPF app | no user turn | none | none
+- shape: none
+- settles:

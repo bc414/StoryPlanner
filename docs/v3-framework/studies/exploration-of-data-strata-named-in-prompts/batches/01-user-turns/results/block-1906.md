@@ -1,0 +1,4 @@
+- sources:
+  - the description of Tally Mark (light beige coat, hazelwood brown mane in two french braids, tail with dark brown streak) | new author-supplied material for the model to classify, i.e. decide whether it belongs under character psychology or ontology; nothing is said about trusting or discarding it | Here is a description of Tally Mark | first-named
+- order:
+- about: The user pastes a physical description of the character Tally Mark and asks the model to confirm whether it belongs under ontology rather than character psychology.

@@ -1,0 +1,4 @@
+- sources:
+  - the show's written scrolls | the published show's letter-delivery method is a baseline to contrast with, so the story's telegraph is meant to show changed times rather than copy it | This also contrasts with the show's written scrolls | referred-to
+- order:
+- about: The user proposes a magical telegraph between Star Energy devices as the way Twilight and Applejack's letters are delivered, and frames it as a contrast with the show's scrolls.

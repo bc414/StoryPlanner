@@ -1,0 +1,6 @@
+- sources:
+  - Canon FiM's magical creatures | use as the pattern for the replacement creature: it should be grounded in real mythology like griffons, dragons and hippogriffs | Canon FiM's magical creatures are grounded in mythology, like griffons and dragons and hippogriffs | referred-to
+  - my setting (The Lioness of Tall Tale), its rules about seasons | treat as binding: seasons do not occur naturally, so the stork's migration and spring-birth timing cannot be carried over, and suggestions must fit these rules | In my setting, seasons do not occur naturally | referred-to
+  - the stork story (the stork delivering foals in a blanket) | keep the gist and the parallel as the thing to be matched by a new in-universe creature, but not its migration-based reasoning | still close enough to the stork story | referred-to
+- order:
+- about: The user asks for a few suggestions for an in-universe mythological creature to replace the stork as foal-deliverer, staying close to the stork story's gist while fitting canon-style mythic creatures and their own setting's lack of natural seasons.

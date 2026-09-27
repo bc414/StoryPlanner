@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is asking a UI design question about laying out a variable number of unevenly filled axes and buckets in a wrap-panel style view, with the bucket name prepopulated as part of each note, and points at no body of material for the model to draw on or avoid.

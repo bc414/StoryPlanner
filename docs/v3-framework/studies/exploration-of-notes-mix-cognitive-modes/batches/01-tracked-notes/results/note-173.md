@@ -1,0 +1,4 @@
+- claims:
+  - History | The Aquileian Volunteers, made up of foreign volunteers, fought proxy wars against Chrysalis during the organization's active period | Foreign Volunteers fighting proxy wars against Chrysalis | yes
+- goals:
+- whole: The note reports, as an in-universe historian would, that the organization's activity was foreign volunteers fighting proxy wars against Chrysalis.

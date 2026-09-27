@@ -1,0 +1,6 @@
+- questions:
+  - Should the model brainstorm the exact wording of the Chasseur motto that Coltbert teaches and Chrysalis mocks and twists into the name of her drug? | ignored | Says nothing about the motto offer. It tells the model to reread the story plans and redo the analysis. | none
+- shape: Corrects the model. The user rejects the premise of the analysis, that Changelings have an innate biological empathy switch, and orders a reread of the plans and a fresh analysis. It gives no answer to the offered next step.
+- settles:
+  - Jaeger training to turn off empathy is an act of agency, not a biological or evolutionary tragedy. | Jaeger training to turn off the empathy is agency, not a biological or evolutionary tragedy
+  - Changelings are not born with an empathy-off switch. They learn to suppress empathy. | Changelings are not born with the switch, they learn it

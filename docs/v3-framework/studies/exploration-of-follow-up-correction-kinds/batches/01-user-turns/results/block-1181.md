@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the earth pony allegory and extends the task by asking for a synthesis with their griffon magic plan, a review of the existing earth pony codex entry, and an explanation of what unicorn and pegasus magic represent.

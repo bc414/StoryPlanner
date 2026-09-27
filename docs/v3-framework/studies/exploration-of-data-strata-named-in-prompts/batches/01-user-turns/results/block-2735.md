@@ -1,0 +1,11 @@
+- sources:
+  - EaW (the mod's lore, with the school of friendship operating and cutie map missions mentioned) | Base canon that TLTT keeps in part and subverts. The school and the map exist in it, but the Battle of Mount Aris is deliberately inverted from its version | EaW does have the school of friendship operating; EaW version says the hippogriffs launched a preemptive strike | referred-to
+  - FiM canon (all of the show) | Treat as canon and true in TLTT. TLTT diverges from it after Mount Aris, when the mandate fully took over | TLTT treats all of FiM as canon | referred-to
+  - Faust's season 1 (and Faust's characters) | Timeline anchor, set in 1000 ALB. Faust's characters are treated as the foreign influence on the mandate formula | Faust's season 1 takes place in the year 1000 ALB | referred-to
+  - the story plan file | Review it and use it to update the analysis. It already specifies how each of the mane 6 were shaped by foreign influences | Review the story plan file and give an updated analysis | referred-to
+  - real life history parallels (war and war crimes, industrial tyranny) | Treat as truth, and take as seriously as canon | using real life history parallels as truth | first-named
+  - grimdark Princess and the Kaiser's conventions | Loose inspiration for the subversion of the school and the map, not an exact match | this subversion comes from the grimdark Princess and the Kaiser's conventions sort of but not exactly | first-named
+- order:
+  - TLTT's inverted Battle of Mount Aris (griffon pilots and Wonderbolts defend the hippogriffs) over EaW lore's version (hippogriff preemptive strike) | I've inverted it. EaW version says... while my version says
+  - TLTT's own divergence over FiM canon from Mount Aris onward | TLTT does diverge from FiM canon at this point
+- about: The author corrects the model's open questions by explaining how TLTT inverts EaW lore and diverges from FiM canon at Mount Aris, then asks the model to review the story plan file and update its analysis, including how to surface the Cutie Map and School of Friendship without preaching and how to avoid a story that merely bashes later seasons.

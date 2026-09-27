@@ -1,0 +1,7 @@
+- sources:
+  - the 4th axis (extraction vs sharing, ego capitalism vs harmonic capitalism / equestrian conscience) | the framework element the model is asked to refine and develop further, with the author's own account of what it is | Please refine the 4th axis, it is what Aquileia is lacking and Equestria has | referred-to
+  - the author's own account that Aquileia and Coltbert solved it by raising the cost of conquest through asset specificity | stated by the author as settled fact of the setting, to build the refinement on | Aquileia and Coltbert solved it by raising the cost of conquest | referred-to
+  - Vérany's original bourgeois revolution and the bourgeois of the Herzlander Republican Revolution in 978 | story history to be checked for whether it embodies the liberty-minded spirit of the axis; put as a question, not settled | Does Vérany's original bourgeois revolution encompass this spirit | referred-to
+  - the model's earlier characterisation of Stalliongrad as isolationist | treated as wrong and to be corrected: Stalliongrad intervened in Nova Griffonia and is Trotskyite | Stalliongrad is not isolationist, they intervened in Nova Griffonia | referred-to
+- order:
+- about: The author asks the model to refine the fourth axis (extraction versus sharing) as the Aquileia/Equestria difference, asks whether it ties to classical liberalism and the two bourgeois revolutions, and corrects the model's description of Stalliongrad as isolationist.

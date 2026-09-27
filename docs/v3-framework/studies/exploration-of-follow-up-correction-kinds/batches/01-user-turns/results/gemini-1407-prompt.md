@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn asks for a new, comprehensive study of the phases of American history mapped onto the story's stage framework, extending the previous America discussion without disputing anything in it.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want fanfiction recommendations or fan art tags centred on the early-seasons TwiJack power couple dynamic? | ignored | The user doesn't take up the offer of fanfiction or fan art tags. They ask for something else: examples from the episodes. | none
+- shape: The user sets the offer aside and makes a new request. They ask the model to back up its claims by pointing to specific scenes or episodes where the two characters appear together in the early seasons. It is a follow-up for evidence, not a yes or no to the offer.
+- settles:

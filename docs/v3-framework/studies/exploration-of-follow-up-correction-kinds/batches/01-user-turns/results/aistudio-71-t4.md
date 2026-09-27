@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for further candidate words that are more elegant and more emotionally charged than "Extraction" as the tyrannical counterpart to Generosity, treating the model's list as a starting point to extend rather than as an error.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about what defines an "economic game" like Clash of Clans, which mass-market games share that property, and offers Clash Royale as a contrasting example, building on the model's turn without disputing it.

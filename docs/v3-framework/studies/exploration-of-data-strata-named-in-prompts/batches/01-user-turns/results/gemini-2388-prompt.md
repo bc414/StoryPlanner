@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author asks the model for the French original of "Hunter's spirit" and "Jaeger Geist", and corrects the prior framing by stating how the term arose at Coltbert's academy, that anti-empathy is an unintended side effect, and that Chrysalis adapted the chasseur term and motto into her Jaeger class and red love drug.

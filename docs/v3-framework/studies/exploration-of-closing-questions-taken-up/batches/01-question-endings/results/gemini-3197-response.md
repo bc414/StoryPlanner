@@ -1,0 +1,4 @@
+- questions:
+  - Which is the user more interested in: the narrative implications of Boom! Studios returning to G4, or a deeper look at the latest Equestria at War geopolitical updates? | partly answered | Rules out more Equestria at War by asking for what lies beyond it, but does not pick the Boom! option and asks for other parts of the community instead. | "What else in the community beyond Equestria at War?"
+- shape: A short redirect that widens the topic. The user drops the Equestria at War thread and asks the model to survey other parts of the fandom. It gives no reaction to the Boom! material.
+- settles:

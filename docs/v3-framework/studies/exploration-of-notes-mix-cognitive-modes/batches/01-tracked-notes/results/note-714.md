@@ -1,0 +1,5 @@
+- claims:
+  - ThematicEvidence | Bauleiters' use of natural red love as a stimulant drives an intellectual arms race, because their worth is tied to performance, which shows conditional dignity producing escalation | taking natural red love as a stimulant leads to an intellectual arms race since their worth is tied to performance | yes
+  - ThematicEvidence | This performance-bound worth is the engine of the predator's dilemma, tying the organization's behavior to the theme that cooperation needs unconditional dignity | That's what fuels the predator's dilemma | yes
+- goals:
+- whole: The note lays down the Bauleiters' stimulant-driven intellectual arms race, rooted in performance-based worth, as evidence that conditional dignity fuels the predator's dilemma.

@@ -1,0 +1,7 @@
+- sources:
+  - the previous answer | treated as unreliable, containing hallucinations about canon | There are some hallucinations in the previous answer | referred-to
+  - notebook LM containing the transcripts of the canon FiM show | ground the answer strictly in it; the authoritative source to search for Pinkie Pie examples | attached a notebook LM containing the transcripts of the canon FiM show for strict grounding | first-named
+  - TLTT (the morale cakes) | the story the found examples are to connect to, as the point of application | as a connection to how she helps make the morale cakes in TLTT | referred-to
+- order:
+  - notebook LM containing the transcripts of the canon FiM show | previous answer | There are some hallucinations in the previous answer, so I have attached a notebook LM
+- about: The user rejects the previous answer's canon claims as hallucinated, attaches a NotebookLM of show transcripts for strict grounding, and asks for detailed transcript-backed examples of Pinkie Pie handling fear/adrenaline, crash and oxytocin recovery cycles to link to the morale cakes in their story.

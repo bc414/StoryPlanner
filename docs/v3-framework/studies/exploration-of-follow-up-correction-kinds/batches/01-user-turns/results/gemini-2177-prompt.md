@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes their PasteBuckets method, which already uses the light-theme colour map from the model's turn, and asks for the JSON-parsing logic that fills the observable collection of card view models, so it is a follow-on request and not a correction.

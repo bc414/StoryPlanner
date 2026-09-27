@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the empathy-off state as a latent biological switch that Changelings evolved and are born with, when the plan has Jaeger training as a learned, chosen practice (agency, not evolution) | Jaeger training to turn off the empathy is agency, not a biological or evolutionary tragedy. Changelings are not born with the switch, they learn it | flat, direct statement of the correct reading with the contrast spelled out
+  - reading of the request | The model built its analysis without going back to the story plans, and the user tells it to reread them and redo the analysis | Reread my story plans and reanalyze | imperative, curt instruction to redo the work, with no apology or softening
+- about: The user rejects the model's biological-evolutionary framing of the empathy switch, tells it to reread the plans, and restates that the switch is a learned, agentive practice.

@@ -1,0 +1,4 @@
+- sources:
+  - Faust's "Friendship is Magic" | the published show is the reference point the model is to compare the plan against, asking whether the plan is that show's premise taken faithfully with real stakes; not an instruction to treat it as true or to avoid it | Faust's "Friendship is Magic" | referred-to
+- order:
+- about: The user asks whether the story architecture just described is essentially Lauren Faust's Friendship is Magic taken faithfully with full real stakes.

@@ -1,0 +1,4 @@
+- sources:
+  - the rest of my world's foundation (Chrysalis abusing the Skyfall Mark and Skyfall systems to its extremes) | treat as fixed premise the model's answer must fit; it requires Aquileia to stay a small nationalist player, so it overrides the model's market-capture outcome | "relies on Chrysalis abusing the Skyfall Mark" | referred-to
+- order:
+- about: The author corrects the model's analysis by restating that the Aquileian navy escorts only ships to and from Aquileia out of pride and nationalism, and grounds this in the rest of their world's plan, which needs Aquileia to stay small.

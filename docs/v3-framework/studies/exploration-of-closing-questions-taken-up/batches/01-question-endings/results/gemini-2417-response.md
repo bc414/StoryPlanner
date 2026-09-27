@@ -1,0 +1,10 @@
+- questions:
+  - How do the Changelings adapt their air doctrine to counter the qualitative disadvantage against the magical aces? | answered | Chrysalis moves to organized swarm formations and bans lone ace flying. The user adds that this fails too. | Chrysalis should try to make organized swarms (in fact, Ave flying should be banned)
+  - Do the Changelings drop the lone ace and rely on swarm tactics and interlocking fields of fire? | answered | Yes, swarms are the doctrine. The user corrects the premise that they'd have an edge: the Wonderbolts also fly in formation, so the swarm advantage fails. | this also fails because the Wonderbolts do not operate as lone aces either, they fly in formation
+  - Or do the Changelings pivot to massed radar-guided flak and an attrition war? | ignored | Nothing is said about flak, radar or attrition. | none
+- shape: The user answers the open doctrine question with a plot decision, then corrects the model's framing of the Pegasi as individual heroes. It adds backstory for why the Wonderbolts fly in formation and how the Aquileian aces differ. It gives no direction for what to develop next.
+- settles:
+  - Chrysalis's changeling air arm adopts organized swarm tactics, and lone ace flying is banned. | Chrysalis should try to make organized swarms (in fact, Ave flying should be banned)
+  - The swarm doctrine fails to give the changelings an edge, because the Wonderbolts also fight in formation rather than as lone aces. | this also fails because the Wonderbolts do not operate as lone aces either, they fly in formation
+  - The Aquileian aces are arrogant, in contrast to the Wonderbolts. | The Aquileian aces might be arrogant
+  - The Wonderbolts took a lecture from the Griffonian Republic air force at Mount Aris that put fraternity ahead of ace flying, which is why they fly in formation. | the Wonderbolts also took a lecture from the Griffonian Republic air force at Mount Aris about fraternity over ace flying

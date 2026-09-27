@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's Town Hall outcome had the workers all signing Star Energy bonds; the user's outcome splits them, with all buffalo and 80% of ponies going to Comet Shine and the other 20% of ponies joining Gilded Trust's oil company | "80% of the pony workers" and "The other 20% pony workers join Gilded Trust's oil company" | flat statement of the intended plan, with no mention of the model's version and no explicit disagreement
+  - fact of the world | The model gave Gilded Trust the security and logistics contract as a compromise; the user has logistics coming from Star Energy, along with independent ownership and war bonds | "They get independent ownership, Star Energy logistics, and war bonds" | flat and implicit, stated as the plan and leaving the model to see the mismatch
+- about: The user sets out their planned Town Hall outcome, which quietly replaces the model's compromise ending, and gives no comment on the model's analysis.

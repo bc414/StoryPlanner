@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's taxonomy of proposition types by asking a new question about whether any propositions in the v1 notes remain uncovered.

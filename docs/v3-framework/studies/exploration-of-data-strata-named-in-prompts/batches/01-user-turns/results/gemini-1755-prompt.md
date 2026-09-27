@@ -1,0 +1,4 @@
+- sources:
+  - real life collaboration governments to the Nazis | draw inspiration from it for the story; treated as a real-world historical model to borrow ideas from, not as story canon | What inspiration can I draw from real life collaboration governments | first-named
+- order:
+- about: The user asks the model to suggest what inspiration the story's Chrysalis collaboration-government plot can take from historical governments that collaborated with the Nazis.

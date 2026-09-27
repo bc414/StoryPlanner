@@ -1,0 +1,5 @@
+- sources:
+  - many EaW stories where Equestria loses | common fandom depictions of Luna as pathetic, scared, or a harmonist shell of Celestia, or as survivor's-guilt-ridden via the Luna Doctrine; to be subverted, not followed | depicts Luna as pathetic or scared of her own shadow | referred-to
+  - the author's planned Luna arc (Nightmare Moon's formation reveal, Luna's alignment with Celestia from lived experience, and Luna backing Applejack in the election after the Griffonia peace) | the author's intended plan for the story; treat as the design the model should build on and use to subvert the EaW depictions | I'm planning on subverting both by revealing the nature of Nightmare Moon's formation | first-named
+- order:
+- about: The user adds a note on how Luna should be portrayed, saying their planned Nightmare Moon reveal and her eventual support for Applejack will subvert the way other Equestria at War stories depict her.

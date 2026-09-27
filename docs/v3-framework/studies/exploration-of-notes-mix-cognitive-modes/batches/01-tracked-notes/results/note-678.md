@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | asserts as truth that the character's cutie mark, the emblem of her identity, is a tally stick with five tally marks across the split | Her cutie mark is a tally stick that has 5 tally marks across the split | yes
+- goals:
+- whole: The note states as a fact of the character that her cutie mark is a tally stick with five marks across the split, giving one identifying trait of who she is at the start.

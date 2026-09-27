@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's account of KU's narrator as occasionally intrusive, explaining world history and Kendrick's backstory in narrator voice, is amended: the user says they avoided an intrusive narrator and put the telling into in-universe dialogue, which was still telling | "In KU I avoided intrusive narrator but did not avoid the pitfall of it" | Stated in passing as self-diagnosis at the end of a longer request, with no flag that it contradicts the model. It restates the mechanism and does not say the model was wrong.
+- about: The user asks for an analysis of which narrative axes should be allowed to vary in TLTT, and checks their own proposed settings and a few conceptual points against it. Along the way they restate how KU's telling actually happened, which differs from the model's account.

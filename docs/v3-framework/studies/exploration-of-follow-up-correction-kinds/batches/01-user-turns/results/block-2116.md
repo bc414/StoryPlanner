@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the note-placement question and gives a new task: a causal analysis, drawn from the DB, of how Aquileia and the events before it (Grover 3 clearing the ocean, New Horseleans, Tzinacatl, Coltbert) led to the parloirs and shaped Equestria before chapter 1.

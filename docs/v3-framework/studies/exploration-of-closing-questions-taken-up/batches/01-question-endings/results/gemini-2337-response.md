@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore how the Skyfall tycoons adapt their strategy once their steel cruisers are treated as a joke by the Aquileian navy? | ignored | The user doesn't say yes or no to the offer. They ask a different question about whether other nations would still pay insurance given the navy's limited reach. | none
+- shape: Redirects with a challenge. The user sets aside the offered next topic and raises a limit on the model's account of the market fallout: a navy that is smaller and escorts only its own ships can't free other nations from Skyfall insurance. They ask whether the rest of the world stays stuck paying it.
+- settles:
+  - The Aquileian navy is smaller than Skyfall's in numbers and escorts only Aquileian ships. | The Aquileian navy doesn't match the numbers of Skyfall and only escorts Aquileian ships

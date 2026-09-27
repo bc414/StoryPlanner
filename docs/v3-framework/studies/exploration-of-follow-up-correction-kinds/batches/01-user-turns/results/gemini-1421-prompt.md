@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for a comprehensive, current summary of Ukrainian refugees' status in Poland, taking the model's Poland overview as a starting point without disputing anything in it.

@@ -1,0 +1,6 @@
+- questions:
+  - What is Applejack's Trenderhoof-equivalent moment in the WWI phase, the crisis that pushes her from blunt Hard Truth toward diplomatic Posture? | ignored | The user turn does not describe any such moment or crisis for Applejack. | none
+  - Which ally or faction does Applejack alienate with her Hard Truth (Rarity's industrial syndicate, Twilight's academic faction, or Kemerskai)? | ignored | No faction or ally is named. The user turn moves to Rarity as a subject without picking any of the offered options. | none
+- shape: The user drops the Applejack thread and redirects to a new subject. They ask for an analysis of Rarity's learning and evolution through Green Is Your Color and its unfinished plans. They also add a world fact to steer that analysis: Rarity's canon attitude in TLTT comes from Aquileia.
+- settles:
+  - In TLTT, Rarity's canon attitude comes directly from Aquileia, specifically its daytime parlors. | Rarity's canon attitude is directly coming from Aquileia (day time parloirs)

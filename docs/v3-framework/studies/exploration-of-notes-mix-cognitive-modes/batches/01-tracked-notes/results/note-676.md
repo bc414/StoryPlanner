@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | the character's Resilience role is to be present from her first appearance, at the start of her place in reading order | Right away | yes
+  - Characterization | she embodies Resilience, the mature form of Laughter, and this shows in her morale | she represents Resilience, the mature version of Laughter, in her morale | no
+  - Characterization | she is energetic like Pinkie but grounded in material reality, because she counts and organizes material | energetic like Pinkie but grounded in material reality since counts and organizes material | no
+- goals:
+- whole: The note asserts, from her first appearance, that Tally Mark embodies Resilience as the mature form of Laughter, energetic like Pinkie yet grounded by counting and organizing material, without saying what the reader is to take away.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - register or format | The names and labels the model gave the axes and their poles (the Access axis, its Open/Closed shorthand and the other pole labels) are not good enough and need replacing | "I need better terminology" | flat, brief statement added at the end without giving a reason
+  - your own name: method of testing | The model's declaration that the axes are independent, reached by picking example systems for each cell, is treated as not yet establishing orthogonality; the user proposes scoring every system on all six axes and seeing whether coupling appears | "should I go through the exercise of assigning all 6 to all my systems, and coupling will emerge if it exists?" | implied, put as a tentative question rather than stated as disagreement
+- about: The user asks whether a full scoring of every system on all six axes is the way to test orthogonality, and adds that the axis terminology needs to be better.

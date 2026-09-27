@@ -1,0 +1,10 @@
+- questions:
+  - How should the ledger be physically represented, for example as a network of magically entangled communication crystals? | partly answered | Doesn't take up the crystal network. Offers a different medium: copper Gilded Bits verified by electricity-consuming machines that anyone can buy. | copper instead of gold, verified in a decentralized manner that consumes electricity
+  - Should Gilded Trust be the primary champion of the asset in Las Pegasus, or should it stay a tool of the Skyfall cartels? | partly answered | Gives Gilded Trust a role: it profits from selling the verification machines. Doesn't say whether it champions the currency or serves the cartels. | Gilded Trust profits from the sale of these machines
+- shape: The user takes the Bitcoin analogy and reshapes it in their own terms. They swap the model's magic-fuel mining for electricity, make the coins copper, and cast Gilded Trust as the machine seller. They then add a post-war endpoint, the magic economy, which the model hadn't raised. The turn works as a design correction plus an extension. It is not a direct answer to the two questions.
+- settles:
+  - Gilded Bits are copper coins rather than gold. | Gilded Bits are copper instead of gold
+  - Gilded Bits are verified in a decentralized way by machines that consume electricity. | verified in a decentralized manner that consumes electricity
+  - Any pony can buy a verification machine, so there is no central bank. | Any pony can buy one of these verification machines, so there is no central bank
+  - Gilded Trust profits from selling the verification machines. | gilded Trust profits from the sale of these machines
+  - After the war, the solution to the equivalent of the 2008 fiat manipulation problem is the magic economy, in which civilian gadgets run on their user's own magic. | the magic economy, where civilian gadgets are powered by one's own magic

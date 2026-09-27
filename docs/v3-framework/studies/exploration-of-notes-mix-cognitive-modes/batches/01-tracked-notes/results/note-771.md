@@ -1,0 +1,5 @@
+- claims:
+  - Canon | Celestia's Stagnation of Harmony is set apart from stupidity, so the established system is not to be equated with foolishness | Celestia's "Stagnation of Harmony" is not synonymous with stupidity | no
+  - Canon | Recontextualizes the source-material notion of Stagnation as rigid adherence to past paradigms | It redefines Stagnation as a rigid adherence to past paradigms | no
+- goals:
+- whole: The note recontextualizes the canonical Stagnation of Harmony as rigid adherence to past paradigms rather than stupidity, stating a definition without saying what the reader is to take from it.

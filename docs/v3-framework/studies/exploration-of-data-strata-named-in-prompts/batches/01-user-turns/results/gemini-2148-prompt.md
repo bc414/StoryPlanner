@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a story-development question about how two characters would reach an agreement and whether that moment would be when they learn to respect each other, without pointing to any body of material for the model to draw on.

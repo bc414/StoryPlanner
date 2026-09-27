@@ -1,0 +1,4 @@
+- sources:
+  - my existing plans | build on and extend with new parallels; treated as the base to add to, not to replace | build upon my existing plans | referred-to
+- order:
+- about: The user asks the model to suggest additional poignant parallels that would extend their existing story plans, after the model's analysis of the Mane 6 arcs.

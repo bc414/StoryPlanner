@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Fizzlepop holds Twilight in total contempt, a fixed attitude asserted as true of her | Fizzlepop views Twilight with total contempt | no
+  - Characterization | Fizzlepop's worldview: she sees Twilight as a naive Equus imperialist, and holds that the "civilized" world was consuming Zebrica, a grievance that shapes how she sees people | just another naive Equus imperialist who doesn't understand that the "civilized" world was eating Zebrica alive | no
+- goals:
+- whole: The note asserts, as a psychologist would, what Fizzlepop feels and believes about Twilight, without designing what the reader should infer from the page, even though it sits in an inference track.

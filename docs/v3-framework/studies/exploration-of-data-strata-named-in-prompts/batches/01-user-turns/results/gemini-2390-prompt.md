@@ -1,0 +1,5 @@
+- sources:
+  - EU4 (Europa Universalis IV), France's national tradition | taken as a known fact the user asserts from their own knowledge: élan appears there as a French national tradition, and the model is to fold that into the breakdown | "national tradition in France in EU4" | referred-to
+  - HOI4 (Hearts of Iron IV) | taken as a known fact the user asserts: élan is not present in that game, so it is not a source for it and the gap is something to account for | "is not present in HOI4" | referred-to
+- order:
+- about: The user asks the model for a historical breakdown of élan and of esprit de corps, citing from memory that élan is a French national tradition in EU4 but absent from HOI4.

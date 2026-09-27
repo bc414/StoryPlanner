@@ -1,0 +1,4 @@
+- sources:
+  - Faust's original worldbuilding | treat as the origin the Equestrian Republic deliberately matches, so the identical axis profile is by design and not a deep irony | Equestrian Republic is the grown up version of Faust's original worldbuilding | referred-to
+- order:
+- about: The user proposes that a sixth axis (globalism vs isolationism) may apply only after global trade, or else may be dependent on a coupling among the five axes, and corrects the model's claim that the Republic matching Pioneer Equestria is a deep irony, saying it is intentional.

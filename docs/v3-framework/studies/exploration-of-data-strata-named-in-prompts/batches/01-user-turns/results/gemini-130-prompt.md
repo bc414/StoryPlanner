@@ -1,0 +1,5 @@
+- sources:
+  - the model's previous suggestions in this conversation (Vanhoover left intact after a clean surrender, Trimmel warning never to trust Chrysalis) | accepted and to be kept, with the change that Trimmel does not know about the white peace | I like the idea of Vanhoover being intact | referred-to
+  - the author's own lore about the changeling occupation, love harvest, Vanhoover forced-labor factories, Acornage and Pagala, given from memory | new canon to be taken as settled and built on | The lore of that when the changelings occupy rural villages | first-named
+- order:
+- about: The author accepts two of the model's suggestions, then adds their own backstory explaining why Vanhoover is intact, why Acornage is rubble and why Pagala is sidelined, and narrows Trimmel's role so he distrusts Chrysalis without knowing of the white peace.

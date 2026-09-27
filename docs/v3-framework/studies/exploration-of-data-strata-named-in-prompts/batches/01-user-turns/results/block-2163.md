@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user concedes that the "lou" wordplay will go unnoticed, then proposes a revised staging of the scene: Alouette oversees Scootaloo's flight practice, the CMCs joke "Scootablue", Rainbow Dash struggles as a gardener-style writer, Alouette hands her the Count of Mont Boree, and Scootaloo has Alouette sign her spell matrix "Alouette Bleue".

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of Tall Tale and moves on to ask how the city's idiomatic name can be tied to the story's honesty-versus-poseurs theme, and what etymology suits its farming-village-to-industrial-hub history.

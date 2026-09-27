@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a fresh question about how their planning led to the idea that magic is ambition acting on the physical world, without saying anything in the previous turn was wrong.

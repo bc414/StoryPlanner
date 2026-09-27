@@ -1,0 +1,4 @@
+- sources:
+  - Dennis Discret is a former Skyfall pirate captain (the author's own statement of this fact) | treat as given story fact and use it as the premise for working out the first encounter | Dennis Discret is a former Skyfall pirate captain | first-named
+- order:
+- about: The user supplies a story fact about Dennis Discret's background and asks the model to work out how it shapes the first clash between the Aquileian fleet and a Skyfall corporate cruiser.

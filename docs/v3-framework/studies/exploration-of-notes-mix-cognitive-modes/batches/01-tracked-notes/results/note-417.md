@@ -1,0 +1,5 @@
+- claims:
+  - Canon | The source material (TLTT) establishes a hard magic system whose magic is bounded by laws and physics, which the world law must respect | TLTT establishes a hard magic system where magic is bounded by laws and physics | yes
+  - Canon | The source's magic is set apart from deus ex machina, Hasbro-style logic such as rainbow power, marking what the story must not do | instead of deus ex machina Hasbro logic like rainbow power | yes
+- goals:
+- whole: The note fixes a canon constraint: the source work's magic is a rule-bound hard system, not arbitrary rainbow-power logic, so the Unified Theory of Magic law must stay within that.

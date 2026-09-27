@@ -1,0 +1,7 @@
+- claims:
+  - Analogies | The Skyfall Trade Federation is modeled on the historical Dutch Republic, characterized as merchants of death | They are inspired by the original Dutch Republic which were merchants of death | yes
+  - Analogies | The Burgundian Inheritance putting the Dutch under Spain and then the Dutch revolt is paralleled to the in-universe 978 Ghishard betrayal | is exactly like the 978 Ghishard betrayal | yes
+  - Analogies | The Dutch seized the imperial fleet rather than building fluyts themselves, mapped onto the in-universe event | Seizing the imperial fleet instead of building the Fluyts themselves | yes
+  - Analogies | Dutch gunpowder production is paralleled by Skyfall manufacturing modern armaments | Just as the dutch produced gunpowder, Skyfall makes modern armaments | yes
+- goals:
+- whole: The note documents the real-world Dutch Republic as the historical model for the Skyfall Trade Federation, mapping its origins, fleet seizure and arms production onto in-universe events.

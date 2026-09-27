@@ -1,0 +1,5 @@
+- questions:
+  - How does Vaspier's asceticism process the Queen's vanity when it creates strategic inefficiencies: does he attempt a shadow coup to save the Hive, or rationalize her ego as a necessary state mechanism? | no user turn | none | none
+  - How does Vaspier weaponize his own asceticism to break a comfort-raised Equestrian volunteer: does he use sensory deprivation and a sterile concrete cell against a pony whose biology relies on warmth, color and connection? | no user turn | none | none
+- shape: none
+- settles:

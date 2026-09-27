@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model took Fleur to be the canon character and cast her as a high-society pony hardened by factory work; she is actually an original character, Fleur Bloom, an Aquileian volunteer | It's not Fleur from canon. Fleur Bloom is an OC from my story plan | flat, matter-of-fact statement that gives the right identity and background, with no apology or irritation
+- about: The user briefly fixes the model's mistaken assumption about who Fleur is, by telling it she is his own original character, an Aquileian volunteer, and not the canon pony.

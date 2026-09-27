@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | anticipates that left-wing readers will start out with a favorable view of the party, as the opening point in how reader opinion of the organization is laid out | Left wing readers may initially view the communist party favorably | yes
+- goals:
+- whole: The note sets the starting point of the reader-opinion design for the party by predicting the prior sympathy left-wing readers will bring to it.

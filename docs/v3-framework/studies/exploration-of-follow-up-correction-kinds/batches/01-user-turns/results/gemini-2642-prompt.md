@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model placed big-spoon and little-spoon cuddling in the battle aftermath and the reunion, before the Chasseur lesson. The user says that before that lesson the two only hug face to face, with forehooves resting on each other's backs, because spooning is what parents do for foals. | Actually I was thinking before the chasseur lesson, Twilight and applejack only hug face to face | Flat, with a reason given. It opens with "Actually" and is framed as the user's own intent, then leads straight into a request to redo the analysis.
+- about: The user replaces the model's assumption that the pair spooned from early in the story with their own idea that only face-to-face hugs happen before the Chasseur lesson, and asks for an analysis of that.

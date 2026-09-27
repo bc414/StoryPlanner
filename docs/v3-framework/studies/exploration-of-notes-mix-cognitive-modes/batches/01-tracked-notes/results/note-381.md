@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | A giant dragon is modeled on a zeppelin: huge and intimidating yet highly vulnerable to puncture, with Changeling Anti-Air as the in-world exploitation of that weakness | a giant dragon is a biological zeppelin - massive, intimidating, but highly vulnerable to puncture (Changeling Anti-Air) | yes
+- goals:
+- whole: The note names the zeppelin as the real-world model for dragon biology, mapping its size and puncture vulnerability onto dragons and pointing to the Changeling anti-air that exploits it.

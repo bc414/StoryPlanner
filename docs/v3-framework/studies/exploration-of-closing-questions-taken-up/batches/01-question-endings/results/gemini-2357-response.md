@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to explore a scene where Twilight uncovers the real, unsanitized historical documents and realizes the Hearth's Warming play was macroeconomic propaganda? | no user turn | none | none
+- shape: none
+- settles:

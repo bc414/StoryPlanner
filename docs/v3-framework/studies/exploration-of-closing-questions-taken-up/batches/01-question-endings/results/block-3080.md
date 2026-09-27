@@ -1,0 +1,7 @@
+- questions:
+  - Does the model's definition of the methodology capture it accurately, or does it need correction? | partly answered | The user does not say the definition as a whole is right or wrong. They correct one item, the note 5154 tension, and say nothing on the rest of the definition. | The note about kid friendly version to full adult version is a metatextual note
+- shape: The user corrects the model. They reject its reading of note 5154 as an in-universe coming-of-age framing and say the note is metatextual, about Hasbro's constraints on Faust's characters. They then apply the nursery-terminology audit to a scene line, telling the model how Fleur's critique of Twilight and Applejack should read.
+- settles:
+  - Note 5154's 'kid friendly to full adult' wording is metatextual, about Hasbro's marketing constraints on Faust's characters. It is not an in-universe developmental arc. | metatextual note, about how Hasbro's marketing mandates
+  - In-universe, Twilight and Applejack do not think of themselves as 'kid friendly' before the war. | don't think of themselves as "kid friendly" before the war
+  - Fleur should not deride Twilight or Applejack as acting like kids. Her critique should be that they are insular about the rest of the world, which the user calls a valid critique. | she should be chiding them for being insular about the rest of the world

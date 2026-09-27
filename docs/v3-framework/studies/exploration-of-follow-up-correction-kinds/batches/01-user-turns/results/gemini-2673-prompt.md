@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's etymology pipeline with a new question about whether the serial's newspaper commercialism echoes Danglars, then asks how that ties to their notes on Faust's G4 MLP as a Trojan horse, and tells the model to review their story plans first.

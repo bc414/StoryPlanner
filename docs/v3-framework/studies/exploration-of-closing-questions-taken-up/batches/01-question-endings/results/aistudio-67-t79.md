@@ -1,0 +1,16 @@
+- questions:
+  - Would a pilot attempting a Sonic Rainboom in a mechanical aircraft risk tearing the plane apart because metal can't process Pink Love resonance? | ignored | Nothing said about aircraft, pilots or the Rainboom in machines. | none
+  - How does the Charitostatic Rainboom affect the Wonderbolts' present-day monoplanes, if they are built for Red Love aerodynamics? | ignored | The turn never mentions the Wonderbolts' planes or their design. | none
+  - How do Twilight and Fleur Bloom account for this in their aircraft engine designs? | ignored | Fleur Bloom and engine design do not come up; the turn stays on Twilight's childhood and Celestia. | none
+- shape: Corrects the model's reading of the exam scene and Celestia's motives, then supplies established backstory (parents, cutie mark rules, Celestia's plan for Twilight) as constraints. It moves away from the model's aircraft question without addressing it.
+- settles:
+  - During the exam Twilight was not a passive lightning rod. She felt the Sonic Rainboom, recognized it as a magic source, and used a spell she had read to collect it. | I don't envision Twilight being a lightning rod... actively collected it with some spell she read
+  - She directed the collected energy together with her standard heating spell to hatch Spike. The act was reckless and caused a meltdown, because a foal doesn't process consequences. | directed it along with her standard heating spell... a foal doesn't process consequences
+  - Twilight's checklist habit comes from warnings about not losing control, but it must avoid overbearing-mother and draconic-control tropes. | checklists comes from warnings of not losing control... avoid overbearing mother and draconic control tropes
+  - Night Light is Celestia's employee, a harmonic bureaucrat who likes astronomy. | Night Light is Celestia's employee as a harmonic bureaucrat who likes astronomy
+  - Twilight Velvet writes Daring Do, using unsanitized history textbooks as inspiration for sanitized mass-market heroic books. | Twilight Velvet as the author of Daring Do who uses unsanitized history textbooks
+  - Twilight's magical study comes from accidental access to Canterlot Archive books through her parents. | accidental access to Canterlot Archive books through her parents
+  - A pony's cutie mark is not fixed at birth. It comes from nurture: what parents do, what they introduce and what they name the foal. | cutie mark is not determined at birth; it is a product of nurture
+  - Ponies who pursue something outside their family's expectations may change their name to reflect their cutie mark or talent. | may change their name to reflect their cutie mark/special talent
+  - Celestia does not see Twilight as a walking magical reactor. She sees a reckless foal who can be trained to wield the Elements of Harmony to purify Luna, since Celestia herself can no longer wield them. | Celestia should not view Twilight as a walking magical reactor... can't wield them anymore
+  - Celestia lectures Twilight Velvet and Night Light about making sure Twilight learns responsibility, so raising her is a joint effort. | lecture about making sure Twilight Sparkle learns responsibility. It's a joint effort.

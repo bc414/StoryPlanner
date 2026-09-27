@@ -1,0 +1,6 @@
+- sources:
+  - EEEE as a machinist's guild of humbled, empathetic former industrialists (what the user has established) | treat as settled premise; the new reasoning about SAA shipping insurance follows from it | Now that I've established that EEEE is a machinist's guild sucking up humbled and empathetic former industrialists | referred-to
+  - the idea that Equestria didn't have a navy | treat as outdated and naive; the new cloud carrier fleet replaces it | This replaces the naive idea that Equestria didn't have a navy | referred-to
+  - Aquileian Royal Navy | tentative inspiration for the design of EEEE!'s cloud carriers, not settled | I suppose they would have inspiration from the Aquileian Royal Navy | referred-to
+- order:
+- about: The user builds on the established EEEE! backstory by proposing a disguised cloud-carrier escort fleet, sunk by Chrysalis in the war's first week, that replaces the earlier no-navy assumption and may draw on the Aquileian Royal Navy.

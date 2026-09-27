@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - assumption about the user's situation (size of the story plan) | the model's claim that a massive world-building session costs under $0.10 with the cheap model, which assumed a much smaller amount of material than the user's | 'My story plan document is currently around 500k tokens' | implicit: a bare statement of the actual figure, with no mention of the model's estimate and no stated disagreement, leaving the mismatch to be inferred
+- about: The user gives the real size of their story plan in a single flat sentence, which implicitly challenges the model's low cost estimate for their use without saying that it is wrong.

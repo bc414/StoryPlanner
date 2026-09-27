@@ -1,0 +1,4 @@
+- claims:
+  - Canon | Dragon mass scaling with red love is sourced from the canon season 2 episode "Secret of my Excess" | Mass scaling with red love comes from the canon season 2 episode "Secret of my Excess" | yes
+- goals:
+- whole: The note ties the world law of dragon mass scaling with red love to its canonical source episode, grounding the law in established canon.

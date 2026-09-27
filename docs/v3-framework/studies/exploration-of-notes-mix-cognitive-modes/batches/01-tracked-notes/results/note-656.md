@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | As a filly Rarity was exposed to the kid-friendly version of the FJA chasseur ideal, a formative event in her upbringing | As a filly, Rarity heard the kid-friendly version | yes
+  - History | The FJA chasseur ideal as told to children is about self-actualization, unlike the original, which is about redeeming a violent fascist thug | which is about self actualization, not redeeming a violent fascist thug | no
+  - Characterization | Rarity chose, as her identity, to be fashionable, glamorous and above all ambitious | She decided to be fashionable, glamorous, and most importantly, ambitious | yes
+  - Characterization | Her manipulative, flirtatious side is a by-product of that ambition | with a side effect of the manipulative flirt side | yes
+- goals:
+- whole: The note asserts the origin of Rarity's starting personality: a childhood encounter with a sanitized version of an in-world ideal led her to choose ambition and glamour, with manipulative flirtation as a side effect.

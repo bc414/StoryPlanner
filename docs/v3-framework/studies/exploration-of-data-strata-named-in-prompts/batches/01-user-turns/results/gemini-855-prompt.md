@@ -1,0 +1,4 @@
+- sources:
+  - harmonic capitalism | the author's established framework, which the model is to use as the basis for the counter-argument | How does harmonic capitalism counter the rhetoric | referred-to
+- order:
+- about: The user asks how the harmonic capitalism framework would answer left-behind people who turn into armchair communists demanding a command economy instead of turning tribalist.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the bureaucratic maneuver (recall of cruisers and Harvesters under an audit pretext, then sabotage and leaked minefield charts) fit Chrysalis's style of top-down manipulation? | no user turn | none | none
+- shape: none
+- settles:

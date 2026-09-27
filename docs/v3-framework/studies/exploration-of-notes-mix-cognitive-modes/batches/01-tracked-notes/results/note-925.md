@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Comet Shine's manner of speaking is preachy and inauthentic | he sounds preachy and inauthentic | no
+  - Analogies | Andrew Carnegie is the real-world figure who models this preachy, inauthentic voice | like Andrew Carnegie | yes
+- goals:
+- whole: The note names Andrew Carnegie as the real-world model for Comet Shine's preachy, inauthentic voice.

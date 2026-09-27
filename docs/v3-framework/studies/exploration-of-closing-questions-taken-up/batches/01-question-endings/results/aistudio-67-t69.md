@@ -1,0 +1,5 @@
+- questions:
+  - How does the agrarian majority react when Applejack returns from Griffonia with Kemerskai's political blueprints, and do they accuse her of being infected by the Griffon culture they voted to banish? | ignored | Nothing on the reaction to her return or the infection accusation; the turn asks a different question. | none
+  - Does Twilight, seeing Nightmare Moon as a magical failure and the 930 lockdown as a sociological one, come to understand why Celestia had her study Friendship rather than Physics? | ignored | Nothing on Twilight or her education; the turn asks about the lore in general. | none
+- shape: Redirects. It sets aside the model's two follow-up questions and asks the model to audit the user's own stagnation-of-harmony lore for anything orthogonal to the two catalysts, foreign non-interventionism and domestic ambition suppression. This is a request for analysis and a change of what to look at next. It does not answer what was asked.
+- settles:

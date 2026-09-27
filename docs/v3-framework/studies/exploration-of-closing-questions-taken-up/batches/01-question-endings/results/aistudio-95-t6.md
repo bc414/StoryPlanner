@@ -1,0 +1,5 @@
+- questions:
+  - How does the Universal Translator handle strategic posturing in Kemerskai's speech: does it output the literal performed words, or leak the underlying cynical intent to the listener and expose the Poseur mechanics? | no user turn | none | none
+  - How does Celestia's White Peace exploit Chrysalis's plunder-dependent MEFO-Wechsel economy, and does a forced static border make the Changeling economy collapse on its own before SECEF fires another shot? | no user turn | none | none
+- shape: none
+- settles:

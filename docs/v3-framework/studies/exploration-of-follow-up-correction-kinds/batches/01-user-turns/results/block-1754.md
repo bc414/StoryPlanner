@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a definition of the word "ascetic" as the model used it to describe Vaspier, a clarifying question that does not dispute anything in the model's analysis.

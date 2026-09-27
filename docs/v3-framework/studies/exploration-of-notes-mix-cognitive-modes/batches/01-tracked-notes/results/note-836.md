@@ -1,0 +1,4 @@
+- claims:
+  - History | The character Braeburn was born in Tall Tale, reported as a fact of the past at world date 980 | Born in Tall Tale | yes
+- goals:
+- whole: The note reports, as a plain in-world historical fact, that Braeburn was born in Tall Tale in the year 980.

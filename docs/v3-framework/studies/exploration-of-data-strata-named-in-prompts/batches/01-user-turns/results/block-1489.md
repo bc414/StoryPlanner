@@ -1,0 +1,8 @@
+- sources:
+  - a better articulation of what PE is, and the user's other new insights on PE, NE, the L+R merge and the track count | treat as the author's current position and analyze it, propose nomenclature for it | Here is what I believe is a better articulation of what PE is | first-named
+  - previous analyses and conceptions | check the new iteration against them and point out any insights that are missing, saying whether each exclusion makes sense | point out if there are any insights from previous analyses and conceptions which are missing | referred-to
+  - the earlier agreement that PE+L+R and NE+L+R are one track | treat as settled and agreed, now backed by the user's own reasoning | I agree with PE+L+R and NE+L+R being the same unified track | referred-to
+  - the world bible / PE+S+W | treat as the full store of truth that the PE+S+R reveals are meant to bring the reader to | the whole truth that is available in the world bible/(in PE+S+W) | referred-to
+- order:
+  - the better articulation of what PE is over the earlier conception of PE | Here is what I believe is a better articulation of what PE is
+- about: The user restates PE as the subversion engine and NE as the dramatic-irony engine, proposes merging tracks into one L+R track and one PE+S+R track (leaving 11 or 12 tracks), and asks the model to analyze this, propose nomenclature, and flag any earlier insights the new version drops.

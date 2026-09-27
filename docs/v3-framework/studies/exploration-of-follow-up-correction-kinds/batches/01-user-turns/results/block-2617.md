@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking the model to review the story Bible on the native changeling language and analyze whether it should be Chinese-based rather than Xhosa-based, without objecting to anything the model just said.

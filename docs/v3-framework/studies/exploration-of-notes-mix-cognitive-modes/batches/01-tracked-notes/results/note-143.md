@@ -1,0 +1,3 @@
+- claims:
+- goals:
+- whole: The note is empty and does nothing: it holds no claims and names no reader goal.

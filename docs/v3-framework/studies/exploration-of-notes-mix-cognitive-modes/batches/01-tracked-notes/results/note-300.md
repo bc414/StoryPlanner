@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | In the first book (TLTT), the reader learns that Gilded Lily was only a fake mother, the first update in reading order | TLTT reveals Gilded Lily was her fake mom | yes
+  - NarrativeArchitecture | In the sequel, the reader learns that she was in fact like a parental figure, which revises the earlier impression | The sequel reveals that she was actually like a parental figure | yes
+- goals:
+  - The reader first takes Gilded Lily to have been a fake mother, then comes to see her as a real parental figure | NarrativeArchitecture | fake mom; actually like a parental figure
+- whole: The note lays out, in story reading order, two shifts in the reader's view of Gilded Lily: from fake mother in the first book to real parental figure in the sequel.

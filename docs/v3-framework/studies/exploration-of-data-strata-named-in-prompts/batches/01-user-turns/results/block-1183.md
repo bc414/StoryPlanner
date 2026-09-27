@@ -1,0 +1,7 @@
+- sources:
+  - Faust's era of the show (Return of Harmony with Discord, Friendship is Magic part 2, Dragonshy, Stare Master, A Dog and Pony Show, Sonic Rainboom) | treat as evidence that the show's early era already showed non-unicorn, non-visible or friendship-first magic; the model is to test this reading against it | "is Faust's era demonstrative of non unicorn magic?" | referred-to
+  - Canterlot Wedding (the first heavy-handed Hasbro mandate episode) | treat as the point where the show reversed to visible unicorn-style blasting; the user's own reading is that Cadance and Shining Armor's spell is the Aquileian Lioness spell, an anti-rape consent spell | "immediately reversed this with Cadance and Shining Armor magically blasting all the changelings away" | referred-to
+  - the Lioness spell (le sort de la lionne) | consult it as the basis for the user's reinterpretation of the Canterlot Wedding spell | "refer to the Lioness spell or le sort de la lionne" | referred-to
+  - codex entries for crystal ponies and changelings | consult and build the allegory interpretation from them, including the shared calorie-supplement mechanic and the divergences | "Refer to their codex entries." | referred-to
+- order:
+- about: The user accepts the Hasbro-mandate-as-unicorn-bias reading, asks whether Faust-era episodes show non-unicorn magic, and asks the model to interpret crystal pony and changeling magic as allegories using their codex entries, offering a tentative reading of violence and dual-use knowledge.

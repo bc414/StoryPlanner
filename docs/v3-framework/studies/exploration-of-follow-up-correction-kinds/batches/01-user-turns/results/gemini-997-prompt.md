@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - the model's own count (its answer said dairy does four things but listed only three: fat, sugar, protein) | the number of chemical properties of milk the model claimed versus the number it actually listed | "There are 3 distinct chemical properties in milk listed" | in passing, stated flatly as the premise for the user's own idea, with no remark that the model had miscounted
+- about: The user sets aside the model's three options and proposes their own solution, with each milk property as a separate crop that only expert bakers can combine, then lays out a dairy-ethics spectrum across Herzland, Aquileia, the Griffonian Republic and Equestria.

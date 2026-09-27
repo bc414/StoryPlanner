@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of how weather is made (machines flash-boiling water into vapor that pegasi sculpt, a factory producing clouds) is set against the canon process, where pegasi lift lake water and launch it into a storage tank | how would Cloudsdale actually work? In the canon episode Hurricane Fluttershy, the pegasi have to take water from a lake and launch it into a storage tank | implicit, put as a question with the canon episode cited as the reason, and no explicit statement that the earlier answer was wrong
+- about: The user asks the model to redo the weather-system design starting from how Cloudsdale works in canon, water taken from a lake and launched into a tank, and to give a distributed Harmonic Capitalism version of that process.

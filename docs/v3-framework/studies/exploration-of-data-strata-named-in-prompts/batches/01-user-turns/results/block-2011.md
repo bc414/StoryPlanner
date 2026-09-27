@@ -1,0 +1,4 @@
+- sources:
+  - the documents | to be supplied to a new session together with a prompt, as the seed material the prompt has to frame | "alongside the documents" | referred-to
+- order:
+- about: The user asks what accompanying prompt, such as an explanation of what the story planner is, should go with the seed documents in a new session, and whether anything else would help.

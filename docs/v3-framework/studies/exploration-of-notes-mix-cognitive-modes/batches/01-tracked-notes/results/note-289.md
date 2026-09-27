@@ -1,0 +1,6 @@
+- claims:
+  - Canon | Established canon, via Lauren Faust's writing, gave Rainbow Dash her struggles without a villain's arms race or power creep | Lauren Faust did not make a villain's arms race or power creep to give Rainbow Dash a struggle | yes
+  - Canon | In the canon episode Wonderbolts Academy, the expected trope of an overconfident protagonist hitting a brick wall was avoided; Rainbow broke academy records and objected to the culture instead | in Wonderbolts Academy, the standard trope would be for the overconfident protagonist to somehow hit a brick wall. Instead, Rainbow was breaking academy records but objecting to the culture | yes
+  - Characterization | Rainbow's objection to the academy's culture came from her having a conscience, which is a truth about who she is | (because she had a conscience) | no
+- goals:
+- whole: The note records how canon (Faust's writing, Wonderbolts Academy) handled Rainbow Dash's conflict, by subverting the usual trope of a challenge, and attributes her objection to her conscience.

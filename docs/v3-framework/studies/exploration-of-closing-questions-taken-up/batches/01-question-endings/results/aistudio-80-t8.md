@@ -1,0 +1,10 @@
+- questions:
+  - Does Stalliongrad have a suppressed history of Harmonist workers resisting the Vanguard, a Kronstadt equivalent, and does Trimmel use it to argue Stalliongrad is as evil as Celestia's Stagnation? | ignored | Nothing said about a Kronstadt-style suppressed history or about how Trimmel would use it. | none
+  - Do the Manehattan EEEE! workers see the Severyanans as heroic brethren, unaware that Stalliongrad erases the Cutie Mark and suppresses trade-union democracy? | ignored | Nothing said about how EEEE! workers view Stalliongrad. The turn turns to the Griffonian Republic and Kemerskai instead. | none
+- shape: Redirects. The user leaves both of the model's questions alone and lays out their own causal chain for the lore. It runs from Kemerskai's martial law in the Griffonian Republic, to his use of Severyana as an industrial model, to Caramel Marks misreading the resulting command economy. It is phrased partly as a check ("so ... ?") but mostly reads as a proposed structure. It also reverses the model's version, in which the Manifesto answers Zavodchiki exploitation. Here the Manifesto grows out of a misreading of a Griffonian command economy.
+- settles:
+  - Kemerskai declares martial law to save the Griffonian Republic from freezing and from collapse into the predator's dilemma in northern Cloudbury | "Kemerskai has to declare martial law to save the Griffonian Republic"
+  - Kemerskai takes Severyana's industrialization as his model, backed by civic virtues | "uses Severyana's industrialization as a model, but backed by civic virtues"
+  - Severyana serves as proof that a large population can be supported at a freezing latitude | "proof that they can support a large population at a freezing latitude"
+  - Caramel Marks misreads the resulting Griffonian command economy and writes the communist manifesto from that misreading | "Caramel Marks misinterprets the resulting command economy and writes the communist manifesto"
+  - The Severyanans adopt Marks's manifesto as their ideological basis | "which the Severyanans use as their ideological basis"

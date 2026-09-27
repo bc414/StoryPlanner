@@ -1,0 +1,8 @@
+- sources:
+  - this new framework (the corrected mapping, with its insights about cynicism and resilience) | apply as the lens for the Temberik analysis | Now give an analysis of the Temberik with this new framework | referred-to
+  - EaW canon | reference point that the Temberik fall outside of, unlike the Tzinacatl; they are the author's own addition | The Temberik are not part of EaW canon like the Tzinacatl | referred-to
+  - one of the Lunar Civil War lead up events about thestrals in the mountains | the canon event the author used as the basis for placing the Temberik on the mountain, treat as grounding for the setup | I put them on the mountain based on one of the Lunar Civil War lead up events | referred-to
+  - the author's description of the Temberik setup (Kurdish-inspired, holding the pass that protects Tall Tale, holding the crystals Star Energy needs, social commentary on the West abandoning the Kurds) | treat as the stated facts of the setup to be analyzed | They were originally a Kurdish inspired group that held a mountain pass | first-named
+  - TLTT | the author's own story, where the Temberik are economically integrated; treat as the setting the analysis applies to | while in TLTT they are economically integrated | referred-to
+- order:
+- about: The user asks the model to analyze the Temberik, their own non-canon mountain group in TLTT, using the just-corrected framework of cynicism and resilience, and gives the setup, its canon basis, and its real-world inspiration as material for the analysis.

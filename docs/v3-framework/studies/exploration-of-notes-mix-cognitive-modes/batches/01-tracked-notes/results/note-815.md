@@ -1,0 +1,5 @@
+- claims:
+  - History | Under Grover III the griffon knights cleared enough sea monsters to make sea travel safe for trade | During Grover III's reign of the Empire, the griffon knights cleared enough sea monsters | yes
+  - History | Nova Griffonians settled farther north of Severyana and taught the Severyanan ponies to mine coal, a material condition behind the industrial system | Nova Griffonians settled even further north of Severyana and taught the Severyanan ponies how to mine coal | yes
+- goals:
+- whole: The note reports, as in-world historical fact, the trade-safety and coal-mining conditions that led to Severyana's industrial system, answering the track's question about material causes.

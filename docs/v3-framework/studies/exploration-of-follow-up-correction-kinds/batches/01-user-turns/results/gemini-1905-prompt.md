@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the consolidated-notes content and moves to a new question about the planning tool's interface, asking how to reorder notes with arrow keys as plot points already can be reordered.

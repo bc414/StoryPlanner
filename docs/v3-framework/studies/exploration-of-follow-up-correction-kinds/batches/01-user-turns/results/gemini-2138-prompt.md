@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | How Twilight came by her combat magic: the model had her seeking out Aquileian grimoires in Manehattan herself, and the user reroutes it through Shining Armor and Cadance, who learned it in the parloirs and the Le Sort de Lionne spell for Canterlot Wedding | Twilight should get the combat magic from Shining Armor, since he and Cadance frequented the parloirs | flat directive stated as a revision, with a backstory reason supplied, and no explicit mention that it replaces the model's version
+- about: The user extends the model's analysis with the Tzinacatl drug trade, Skyfall valves and Luna Nova Rifles for the Chrysalis war, and swaps the model's account of how Twilight got combat magic for a route through Shining Armor and Cadance.

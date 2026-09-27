@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Harmonic Capitalism as Coltbert's, the philosophy behind the Coltbert Reforms and a Reforms-and-Aquileia concept. The user says Comet Shine coined the term. They also say it is an Equestrian synthesis, with the harmonic part Equestrian and the ideas Aquileian. | actually Comet Shine coined that term, not Coltbert | stated flatly as a parenthetical aside, with no apology and no fuss, while the user moves on to the question of Star Energy Corporation
+- about: The user sets out their own view of which Equestrian civilizational systems exist (Stagnation of Harmony, pre-Stagnation Equestria, Ancient Equestria, Chrysalis's competing industrial economy, the Parloirs, and possibly Star Energy Corporation), asks for a database search and an analysis using the same criteria as before, and fixes the origin of the term Harmonic Capitalism in passing.

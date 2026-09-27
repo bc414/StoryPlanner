@@ -1,0 +1,7 @@
+- sources:
+  - chapter 5 of Green isn't your Color | the material to be evaluated against the plan's themes and compared with it | Now evaluate chapter 5 of Green isn't your Color | referred-to
+  - TLTT's story plan | the yardstick whose themes the chapter is judged against and compared with | against the themes of TLTT's story plan and compare | referred-to
+  - TLTT's story thread about Twilight and Celestia's nuanced dynamics | the plan thread to be compared with the chapter's Celestia portrayal, to judge whether the chapter is an accelerated version or blueprint of it | accelerated version/blueprint of TLTT's story thread | referred-to
+  - the author's own account of what chapter 5 attempted and its main plot | tentative self-description offered as the author's belief, for the model to test rather than accept as settled | I believe I attempted to "humanize" Celestia | first-named
+- order:
+- about: The user asks the model to evaluate chapter 5 of their earlier fic against the themes of the TLTT story plan, and to judge whether its humanized Celestia and side-plot Twilight dynamic works as a blueprint for TLTT's Twilight and Celestia thread, while describing the chapter's main plot from memory.

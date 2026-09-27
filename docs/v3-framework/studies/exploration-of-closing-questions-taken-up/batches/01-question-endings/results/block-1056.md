@@ -1,0 +1,5 @@
+- questions:
+  - Does Celestia read the Temberik blowing up their sacred mountain as a tragic loss of indigenous culture, missing that the Temberik see it as liberation from her Nursery policies? | ignored | Says nothing about Celestia's reaction or the mountain. It moves to a new subject. | none
+  - How do the urban ponies of Manehattan react when they find their modern lifestyle depends on the contracts and goodwill of the minority factions (Temberik power, Buffalo oil, Tzinacatl rubber)? | ignored | Says nothing about Manehattan or the post-war Republic's dependence on the minorities. | none
+- shape: Drops the Temberik and PKK analysis and starts a new research request. The user asks for the full history of Turkey from the Ottoman collapse to today: its motives, its Kurdish policy, its geopolitics, its domestic policy and its institutions. It should be framed through the allegories of the story plan. It is an instruction for the next piece of analysis and does not answer or react to the model's proposals or questions.
+- settles:

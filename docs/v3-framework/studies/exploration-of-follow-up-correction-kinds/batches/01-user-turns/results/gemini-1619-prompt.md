@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user confirms that the proposed continuous infantry-wave plan matches what they had pictured, notes it resembles HOI4 AI behavior, and asks whether such tactics exist in real life.

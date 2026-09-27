@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's reflection on Clash Royale and the Aquileian flaw without comment and starts a new task: analysing six K-dramas they watched with friends for fabula and character coherence, thematic register, and influence on their preferences.

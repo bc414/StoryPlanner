@@ -1,0 +1,3 @@
+- claims:
+- goals:
+- whole: The note is empty and does nothing: it has a Fluttershy owner, a ThematicEvidence track and a theme, but no text.

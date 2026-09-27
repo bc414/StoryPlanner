@@ -1,0 +1,6 @@
+- sources:
+  - The Princess and the Kaiser comments, pages 6 and 7 of the FiMFiction story (the two page links) | material to read and analyze, the user's own comments there as evidence of how the project developed | Analyze my comments on https://www.fimfiction.net/story/518190/the-princess-and-the-kaiser | first-named
+  - the user's FiMFiction comments as Scootableu, February 19, 2025 (comment 3195) to March 8, 2025 | the specific range of comments to focus on, those written by the user | My username on FiMfiction is Scootableu and the relevant comments were from February 19, 2025 comment number 3195 | first-named
+  - how I developed the TLTT project | the frame the comments are to be related to, the model should connect the comments to the project's development | How do they relate to how I developed the TLTT project? | referred-to
+- order:
+- about: The user asks the model to analyze their own comments on a fan story's comment pages, within a stated date and comment-number range, and to relate them to how they developed their TLTT project.

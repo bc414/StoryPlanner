@@ -1,0 +1,3 @@
+- questions:
+- shape: The user moves on without engaging the findings on Chapters 7-9. They point the model at the next stretch, chapters 18-22 (the Bluebell Spearhead, liberation, then white peace), and ask whether it holds new hidden subjects or mostly builds on earlier material. This is a new request that sets the next thing to examine.
+- settles:

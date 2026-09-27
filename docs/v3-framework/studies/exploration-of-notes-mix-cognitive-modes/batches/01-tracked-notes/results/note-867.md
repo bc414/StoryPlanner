@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | The technology strips the victim's humanity from perception, so that cruelty toward them becomes easy; this is offered as evidence that division is manufactured | The technology filters out the humanity of the victim, making cruelty easy | yes
+- goals:
+- whole: The note lays down one piece of evidence, the technology's dehumanizing filter that makes cruelty easy, in support of the theme that division is artificial.

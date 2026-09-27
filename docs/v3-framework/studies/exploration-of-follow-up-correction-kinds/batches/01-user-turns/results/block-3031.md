@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's account of EaW canon on Stalliongrad rested on the wiki article alone. It left out the in-game flavor text, which the user says the MCP server can also reach. | Check the EaW Stalliongrad flavor text that should be accessible to the MCP server too | Terse imperative that implies the model missed a source. No reason is given and no apology. It also mildly corrects the model's assumption about what it could reach.
+- about: The user sends the model back to consult a source it skipped, the EaW Stalliongrad flavor text, before its canon-based analysis of an earth-pony-only Severyana can be relied on.

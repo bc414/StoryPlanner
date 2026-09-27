@@ -1,0 +1,6 @@
+- claims:
+  - ThematicEvidence | Asserts that every act of war is rooted in conscience, and that one fights for chosen-kin peers rather than for a heavenly figure or supreme leader who does not fight for you | Every act of war is rooted in conscience. You are fighting for your peers (chosen kin), not a heavenly figure or supreme leader | no
+  - ThematicEvidence | Asserts that kinship requires the conscience to acknowledge that others care about you, and that ignoring them hurts them more | Kinship requires having the conscience to acknowledge the others care about you, and ignoring them will hurt them more | no
+  - Characterization | Asserts that a jaeger cannot do this because they are conditioned to tie their whole self worth to their output | a jaeger would not be capable of, because they are conditioned to have their self worth tied entirely to their output | no
+- goals:
+- whole: The note states thematic propositions about conscience, war and kinship, then contrasts them with what makes a jaeger unable to act on them, without planning how the reader experiences the character's change in reading order.

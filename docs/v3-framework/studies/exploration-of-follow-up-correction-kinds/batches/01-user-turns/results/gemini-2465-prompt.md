@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers an alternative to the model's solo-parley suggestion, in which Applejack stands behind Twilight's shield too, and asks for an analysis of its effect on Tall Tale, checked against the plan's threads about the two drifting apart, without saying the earlier proposal was wrong.

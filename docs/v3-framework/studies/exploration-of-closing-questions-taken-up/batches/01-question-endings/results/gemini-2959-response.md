@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want help setting up a Google Cloud Billing account to get the higher paid-tier limits in AI Studio? | ignored | Does not say yes or no to the billing setup. It moves to a new question about whether prompts in the regular Gemini app are used for training under an AI Pro subscription. | none
+- shape: Redirects with a new factual question. Picking up the model's point about free-tier data being used for training, it asks whether the same applies to the regular Gemini web chat or app on a paid Pro subscription. It leaves the billing offer unaddressed.
+- settles:

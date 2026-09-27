@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about a character from the show, a friend of Saeroyi who worked at Jangga, that the model's breakdown had not covered, without disputing anything the model said.

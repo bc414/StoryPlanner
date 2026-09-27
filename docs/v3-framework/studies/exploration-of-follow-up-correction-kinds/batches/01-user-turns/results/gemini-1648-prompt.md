@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model claimed that in the canon episode Twilight only helps move baskets and the harvest is all manual bucking; the user says the other four buck physically but Twilight uses a mass spell, so the model's account of the canon ending is wrong | "The other 4 are physically bucking but Twilight uses a mass spell" | flatly, as a plain counter-statement of what happens, backed by having just rewatched the episode
+- about: The user corrects the model's account of the episode's ending by stating what actually happens in it, citing a fresh rewatch, which also undercuts the model's "hypothetical" framing of the mass spell.

@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like a test prompt containing a messy paragraph of lore, to check that Flash routes Authorial Directives and Intersection data correctly without looping? | no user turn | none | none
+- shape: none
+- settles:

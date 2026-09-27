@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether the NotebookLM tool indexes concepts across all the sources loaded into it, without pointing the model at any body of material to use or avoid.

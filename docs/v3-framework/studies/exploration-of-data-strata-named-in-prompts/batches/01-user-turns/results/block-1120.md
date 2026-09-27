@@ -1,0 +1,8 @@
+- sources:
+  - EaW (Equestria at War) and EaW canon | treat as the established baseline the lore builds on: New Mareland's parliament, its 6.25 million vs 60 million population, and the Wingbardy, Aquileia and Herzland secession and revolution events | In EaW, New Mareland has a parliament; EaW canon says Wingbardy and Aquileia seceeded | referred-to
+  - My current lore for New Mareland | the author's working timeline of immigration waves (649, 854-914, 930, 981); treat as the current version and build on it | My current lore for New Mareland says it started in 649 ALB | referred-to
+  - America today / the US's archaic system | real-world model to parody: New Mareland is its in-universe dark mirror, with electoral college, first past the post, voter suppression, poll taxes and a Senate of archaic borders | dark mirror of America today; mirroring the US's archaic system today | referred-to
+  - 1930s Italy / fascist Mussolini allegory (the earlier plan for Fascist Beakolini) | doubted and probably being dropped as the allegory for Beakolini; he wins parliamentary majorities rather than ruling as a dictator | maybe 1930s Italy is not the right allegory | first-named
+  - The author's own belief about Wingbardy's account of its history | provisional interpretation offered from memory: Wingbardy is a stable bourgeois constitutional monarchy with legal extraction, unlike Aquileia | I believe Wingbardy's take on this event is | first-named
+- order:
+- about: The user is developing New Mareland and Wingbardy lore, taking EaW canon and their own current lore as the base, casting New Mareland as a dark mirror of modern America, and revising Beakolini away from a 1930s Italian fascist allegory.

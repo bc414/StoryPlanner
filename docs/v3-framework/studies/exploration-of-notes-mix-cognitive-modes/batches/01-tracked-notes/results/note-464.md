@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten: world-rule ontology | the marks are backed not by the gold bits held in Skyfall's bank but by the value of trade and shipping insurance | The value backing the marks is not the gold bits in the bank of Skyfall, but the value of the trade and shipping insurance | outside
+  - outside all ten: world-rule ontology | the system's value depends on peaceful trade continuing | It relies on "peaceful trade". | outside
+- goals:
+- whole: The note sets out, as an objective rule of the fictional world, that the Skyfall Trade Federation's currency is backed by trade and shipping insurance, which in turn depends on peaceful trade.

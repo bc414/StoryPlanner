@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the previous account of the paralyzed male lead tradition and moves on to a new set of questions about the origins of harem and sexual-adjacent adventure storytelling, its media, audience, link to Romantasy, and Japanese versus Western roots.

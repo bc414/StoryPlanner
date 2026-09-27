@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Renegade and Westwood discussion to new questions about whether Renegade succeeded and about the history, studios, economics and market scale of the FPS genre compared with RTS, and states their own tastes and suspicions without disputing anything the model said.

@@ -1,0 +1,6 @@
+- sources:
+  - Rarity's canon arc from The Ticket Master/The Best Night Ever | treat as fixed canon the story must connect to; her wish to find her princess at the Gala is the given to be explained | How can I connect Rarity's canon arc from The Ticket Master/The Best Night Ever | referred-to
+  - Aquileian fairy tales | offered as a tentative explanation for the origin of Rarity's delusion, to be tested rather than taken as settled | It comes from Aquileian fairy tales? That's how her naive delusion makes sense | referred-to
+  - real English and French history | the model is asked to draw on it (general knowledge) for the real-world origins of equivalent stories, delusions and tropes | Where do the equivalent stories/delusions/tropes originate from in real English and French history? | first-named
+- order:
+- about: The user asks how to reconcile Rarity's canon Gala 'find my princess' fantasy with their setting by tracing it to Aquileian fairy tales, and asks what the real English and French historical counterparts of such tropes are.

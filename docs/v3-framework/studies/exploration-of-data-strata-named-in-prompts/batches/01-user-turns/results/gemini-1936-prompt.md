@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user narrows their use case to analysis for inspiration rather than text generation and asks whether Claude offers any leap over Gemini for that.

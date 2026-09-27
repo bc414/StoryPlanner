@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to brainstorm further edge cases and ways to cheat the magic system just refined, without pointing at any particular source of material.

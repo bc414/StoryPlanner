@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to back up a claim that the system prompts differ between plain conversation and Canvas mode, requesting sources without saying anything in the model's answer is wrong.

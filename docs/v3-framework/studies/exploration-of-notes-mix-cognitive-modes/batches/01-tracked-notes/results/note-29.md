@@ -1,0 +1,4 @@
+- claims:
+  - History | Applejack volunteered for basic training after Blueblood's Dotted Line Report, in the same way as other ordinary ponies | Applejack volunteered for basic training just like all the other ordinary ponies | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact dated 1007, that Applejack volunteered for basic training following Blueblood's Dotted Line Report, like other ordinary ponies.

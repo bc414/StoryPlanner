@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's ammunition-lock-in export idea by asking whether a Portuguese organ gun, an ammo-hungry showpiece weapon, would be the best example for the warlord subscription grift.

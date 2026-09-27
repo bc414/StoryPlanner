@@ -1,0 +1,4 @@
+- sources:
+  - All Applejack data.md | treat as the data to analyze: the v1 Applejack notes and all plot points linked to her, from which claim types and tracks are to be derived | Here is data from v1 of Applejack notes and all plot points that link to her | first-named
+- order:
+- about: The user attaches a file of v1 Applejack notes and linked plot points and asks the model to redo its analysis of which claim types in that data should become v2 tracks, for Character, PlotPoint and character-subject PlotPointSubjectLink, with examples, reasons and the display question, covering authorial and meta-textual claims as well as layers 1-5.

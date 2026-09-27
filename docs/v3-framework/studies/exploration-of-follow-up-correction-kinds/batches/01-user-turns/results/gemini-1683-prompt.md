@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether the model's proposed biological-engineering scheme fits Chrysalis's backstory, without saying anything in the model turn is wrong.

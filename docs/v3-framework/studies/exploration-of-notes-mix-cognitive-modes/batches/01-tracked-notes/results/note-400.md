@@ -1,0 +1,5 @@
+- claims:
+  - Canon | The Stare, already established in the source show, is recontextualized as being Grace, so the element is built on existing canon | The Stare is already Grace | no
+  - NarrativeArchitecture | Plans the order of the technology's showing: Fluttershy is the first character to demonstrate her adult element | Fluttershy is the first to demonstrate her adult element | yes
+- goals:
+- whole: The note ties the Stare to the element Grace as a canon-based recontextualization and plans that Fluttershy is the first to demonstrate her adult element in the story's showing of the technology.

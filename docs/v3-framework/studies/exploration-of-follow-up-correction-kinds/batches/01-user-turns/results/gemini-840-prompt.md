@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's POV rule set to ask for a new task, an analysis of the perspective mechanics in a chapter of a different (Pokemon) story where Helena and Windie meet, without disputing anything the model said.

@@ -1,0 +1,5 @@
+- questions:
+  - When Celestia learns the Friendship Shields only work with resilience rather than innocence, how does that shatter her belief that magic can keep ponies innocent? | no user turn | none | none
+  - If Blueblood evacuated Marechester and Bales but left Vanhoover to the Statthalters, do the Vanhoover refugees such as the Pear family see him as a savior or as a cold aristocrat who sacrificed their city for a spreadsheet? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- sources:
+  - the framing the model just gave (the current conversation's prior account of the drug tribes and solidarity) | the user's new proposal is to be compared against it; it is a reference point, not settled or ruled out | How does this framing compare | referred-to
+- order:
+- about: The user proposes a new company-town scenario for the drug tribe storyline, with factions, roles for Ahuizotl and Ocelo, and a Daring Do reading scene, and asks the model to compare it with the framing it just gave and say whether the scene and the epiphany fit together.

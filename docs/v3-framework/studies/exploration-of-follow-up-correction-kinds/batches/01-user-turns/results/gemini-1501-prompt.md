@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the model's reasoning about the peg, adds a further element of Coltbert's plan (exporting luxuries to Equestria for gold bits that raise Aquileia's and Discret's gold), and asks whether it fits.

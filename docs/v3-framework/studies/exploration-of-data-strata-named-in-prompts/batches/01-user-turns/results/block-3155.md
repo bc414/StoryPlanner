@@ -1,0 +1,5 @@
+- sources:
+  - a report on where the hippogriff seapony story came from in my story planning process | the material to be analyzed; the model is to examine it against the new facts | I pasted in a report | first-named
+  - the new facts | the standard the pasted report is to be checked against | analyze against the new facts | referred-to
+- order:
+- about: The user says they have pasted in a report on the origin of the hippogriff seapony story in their planning process and asks the model to analyze it against the new facts.

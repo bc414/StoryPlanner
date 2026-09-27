@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Statthalter and meritocracy framing as given and asks follow-up design questions: how fealty and demotion work among emotion-sensing changelings, and what Statthalters are responsible for apart from Bauleiters.

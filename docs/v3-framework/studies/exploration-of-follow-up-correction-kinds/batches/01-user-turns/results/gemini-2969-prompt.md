@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reports the word count they got (300k words) and asks a follow-up about whether that size explains the chat's poor answers after two turns, without disputing anything the model said.

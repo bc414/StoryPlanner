@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the material to draw the analysis of Princess Luna's arcs and development from | Give an analysis of Princess Luna's character arcs and development in my story plans | referred-to
+- order:
+- about: The user asks the model to analyze Princess Luna's character arcs and development, drawing on their story plans, as a follow-up to the previous Canterlot analysis.

@@ -1,0 +1,6 @@
+- sources:
+  - A previous analysis (declared the Chasseur Doctrine a separate system from Colbert's Aquileia) | treat as open to revision; its conclusion is to be reevaluated, not accepted as settled | "A previous analysis declared that the Chasseur Doctrine is a separate system" ... "please reevaluate" | referred-to
+  - my better understanding of the Aquileian systems (the author's current understanding) | the new basis on which the model should redo the judgment | "now that I have better understanding of the Aquileian systems" | referred-to
+- order:
+  - The author's better understanding of the Aquileian systems | The previous analysis | "now that I have better understanding of the Aquileian systems, please reevaluate"
+- about: The user asks the model to reconsider an earlier ruling that the Chasseur Doctrine is separate from Colbert's Aquileia, in light of their improved grasp of the Aquileian systems, by deciding whether the Chasseurs are an organization, a technology, a civilizational system, or several of these.

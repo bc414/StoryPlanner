@@ -1,0 +1,5 @@
+- sources:
+  - history track | used as a fit test: content that does not belong there is a candidate for dramatization rather than being stored there | history or psychology tracks | referred-to
+  - psychology track | used as a fit test: content that does not belong there, such as detailed psychology during an event, is a candidate for dramatization | history or psychology tracks | referred-to
+- order:
+- about: The user asks the model to confirm a rule of thumb: if a piece of content does not fit the history or psychology subject tracks, such as detailed psychology during a historical event, it probably belongs in a dramatized scene.

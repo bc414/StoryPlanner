@@ -1,0 +1,10 @@
+- sources:
+  - Updated Understanding (the model's restated 5 facts) | treat as correct and aligned; accepted as the working basis | All 5 facts in the Updated Understanding are correct and aligned | referred-to
+  - 20+ full v1-era conversations (pasted-context flagged-question chats, read in reverse) | read through later and add only the insights the author likes into the appropriate v2 tracks; leave behind what was not liked; done after the memory-first subject pass | There are probably 20+ full conversations that I have to read through | first-named
+  - author's memory (subjects from memory) | write subject tracks from it first so there is a starting point before the conversations are mined | I need to start with subjects from memory first | referred-to
+  - tangled plot point (v1 plot point content) | dissect it: subject material goes to subject tracks or subject plot point link tracks, the rest to appropriate plot point tracks; no tangled paragraph enters v2 | No tangled paragraphs whatsoever should enter v2 | referred-to
+  - archive (old v1 notes, formerly to be imported via an Unset track) | old mixed notes stay in the archive and never enter v2; the Unset import track idea is dropped | those old notes stay in archive as mixed and never enter v2 | referred-to
+  - v1 (the earlier database where liked insights were added) | earlier-era store into which chosen conversation insights used to go; now superseded by v2 as the destination | add what I like into v1 | referred-to
+- order:
+  - author's memory | 20+ full v1-era conversations | start with subjects from memory first so that there's a starting point
+- about: The author confirms the model's restated understanding, describes how old conversations will be mined for insights after a memory-first subject pass, rules that tangled v1 plot point content is dissected into proper tracks and old mixed notes never enter v2, and says the highest priority subjects go first.

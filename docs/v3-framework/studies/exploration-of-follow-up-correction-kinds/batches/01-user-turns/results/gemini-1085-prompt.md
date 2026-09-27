@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new comparative question, requesting pros and cons of the mayor being stagnant versus a Skyfall puppet, without disputing anything in the model's proposal.

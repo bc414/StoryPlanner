@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only an attached plan export with no written message, so it neither corrects nor comments on the model's analysis of the alcohol plot point.

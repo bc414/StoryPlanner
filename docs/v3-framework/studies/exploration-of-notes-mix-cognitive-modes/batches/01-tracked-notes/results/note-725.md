@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology) | Blitz essenz removes the need for sleep and raises aggression and reflex speed | eliminates the need for sleep, increases aggression and reflex speed | outside
+  - outside all ten (world-rule ontology) | The substance is put to use in blitzkrieg-style offensives and long marches | It's used for blitzkrieg or long marches | outside
+- goals:
+- whole: The note states in plain god-mode terms what the technology Blitz Essenz does in the world (no sleep, more aggression, faster reflexes) and what it is used for, with no reader effect named.

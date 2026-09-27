@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | The Star Spade is put forward as evidence that industry can exist without slavery, refuting Celestia's position, which supports the theme that a tool amplifies its user's morality rather than being good or evil in itself | star spade proves Celestia wrong, that you can have industry without slavery | yes
+- goals:
+- whole: The note deploys the Star Spade as evidence against Celestia's claim that industry requires slavery, feeding the theme that accelerants amplify the morality of whoever uses them.

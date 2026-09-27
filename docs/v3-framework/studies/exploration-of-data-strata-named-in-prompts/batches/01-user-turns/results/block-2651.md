@@ -1,0 +1,6 @@
+- sources:
+  - parents' accounts of visiting Shanghai two years ago and Beijing this year, saying they saw prosperity | first-hand primary account to be weighed; the user sees it as conflicting with the coworkers' accounts and does not rank it or discard it | my parents visited Shanghai 2 years ago and Beijing this year and said they saw prosperity | first-named
+  - American coworkers at Veeco who travelled to Chinese industrial towns 2000-2019 to install semiconductor wafer fab equipment, describing bad working conditions | first-hand primary account to be weighed; the user sees it as conflicting with the parents' accounts and does not rank it or discard it | my American coworkers at Veeco went to China throughout 2000-2019 to industrial towns | first-named
+  - what the user has read about Chinese domestic migrant workers | treated with wariness as possibly American propaganda, not trusted outright | I've read about Chinese domestic migrant workers but am wary of American propaganda | first-named
+- order:
+- about: The user checks whether two Herzlander terms from the story are the same thing, then asks for more on Chinese migrant workers and how they can inform the drones, while laying out conflicting first-hand accounts and their wariness of propaganda in what they've read.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a breakdown of the components that make up total US household debt, without pointing at any body of material to draw on or avoid.

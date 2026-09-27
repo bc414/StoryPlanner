@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model made Applejack's relation to Comet Shine a settled hatred of a cold pragmatist and left out her planned arc from seeing the industry as evil but necessary to being motivated by the idea that pony values can be scaled up for war | Before this point, Applejack thinks the industry is evil but necessary. After this point she gets motivated | Flat restatement of the plan, given as the fix, with no comment on the model's version
+  - reading of the plan | The model treated the tenets of harmonic capitalism as already known and working as a theme from the start, when the plan holds them back until the buffalo and oil worker town hall | Fleur Bloom and Comet Shine do not reveal the tenets of harmonic capitalism until the buffalo and oil worker town hall | Flat statement of the plan's sequence, prompted by a request to re-read the plans
+- about: The user sends the model back to their plans, restates when harmonic capitalism is revealed and how Applejack's stance changes, then moves on to a new question about how and when to reveal earth pony magic as weaponry.

@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Flurry Heart's settled view of Mudbeak is as an eccentric uncle figure, with a thick Herzlander accent and a real love of bridges | Flurry Heart views Mudbeak as an eccentric uncle with a thick Herzlander accent who really loves bridges | no
+- goals:
+- whole: The note flatly asserts how Flurry Heart perceives Mudbeak, as a character fact, without designing what the reader is to infer from the page.

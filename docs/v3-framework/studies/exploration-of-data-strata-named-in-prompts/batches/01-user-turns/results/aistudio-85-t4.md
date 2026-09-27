@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user amends the proposed Changeling translator design by saying it would need griffon artisans to build, and recasts that as a benefit: Chrysalis's Skyfall shell companies could monopolise the supply chain and sell the devices to other tycoons for profit, without pointing at any body of material for the model to draw on.

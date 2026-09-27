@@ -1,0 +1,5 @@
+- sources:
+  - the gemini json reader (the user's own implementation) | the user's memory of how it was built is loose, so the model should not lean on the user's recollection and should explain how it works and connects to the new code | My memory of how I implemented the gemini json reader is loose | referred-to
+  - these new classes (the code the model just supplied) | the thing to be explained further, with clearer instructions on how to use it | give more clarification on how to utilize these new classes | referred-to
+- order:
+- about: The user says they only loosely remember how their Gemini JSON reader works and asks the model to explain in more detail how to use the newly supplied classes.

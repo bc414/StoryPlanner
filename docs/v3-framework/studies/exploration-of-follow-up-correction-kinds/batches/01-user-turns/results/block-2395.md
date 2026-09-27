@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's account of Mali's arc, including the Fleur and Luna scenes, was not checked against the plan file, so the user sends it back to the source before any further analysis | Please reread TheLionessOfTallTale.db.md for Mali's current arc and characterization... and the scenes with Fleur and Luna | implicit and procedural: an instruction to go back to the source, with no fault named and no irritation
+- about: The user sends the model back to the plan file for Mali's arc and the Fleur and Luna scenes, then lays out their own backstory ideas (Metzli's flower-war traditionalism, the 981 crossbow disruption, the tribal unity of the factory burning as Mali's cutie mark moment) and asks whether they fit her existing arc.

@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (bare in-universe motto or saying) | the organization's creed or slogan that it has no ally except the mountains | No friend but the mountains. | outside
+- goals:
+- whole: The note gives a single bare saying, like a motto for the organization, without naming any real-world model or explaining any inspiration, so it doesn't do the Analogies job its track asks for.

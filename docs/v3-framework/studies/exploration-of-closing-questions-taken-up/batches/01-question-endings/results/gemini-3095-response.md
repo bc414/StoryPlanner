@@ -1,0 +1,5 @@
+- questions:
+  - What specific old magic does Night Light manage (water purification, mountain structural integrity, teleportation supply grids), so that his job is grounded in physical infrastructure? | no user turn | none | none
+  - How does wartime Twilight now view her mother's Daring Do books: does she resent Velvet for turning the Predator's Dilemma into a toy, or pity her for buying into Celestia's illusion? | no user turn | none | none
+- shape: none
+- settles:

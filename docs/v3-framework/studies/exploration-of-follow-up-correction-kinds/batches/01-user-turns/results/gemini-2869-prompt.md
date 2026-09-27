@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn sets out the revised mechanics again (the Tree as a nationwide collector, the Elements as aggregated Pink Love, Celestia lacking horizontal friends, banishment as a structural quarantine, Luna unconscious for the 1,000 years) and asks for an analysis based on the planning document, without saying anything in the prior reply was wrong.

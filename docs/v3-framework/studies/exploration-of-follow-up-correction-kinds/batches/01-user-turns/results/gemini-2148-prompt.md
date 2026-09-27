@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn drops the USB cable topic and asks a story-planning question about how two characters would reach an agreement and whether it would mark the point where they come to respect each other, without commenting on the model's answer.

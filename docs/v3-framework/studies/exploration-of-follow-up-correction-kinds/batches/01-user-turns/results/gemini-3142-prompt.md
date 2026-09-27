@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out what they have observed about Gemini's AI Studio versus its consumer app (full context with a token count versus a too-large-file warning) and asks what the equivalent is in the Claude consumer app, which is a further question and not a correction.

@@ -1,0 +1,8 @@
+- questions:
+  - Does the user want to explore how the reformed Republican Boreasism faith interacts with Equestria? | ignored | The turn moves to a different subject, Twilight's crystal enhancers and Fizzlepop's horn, and never says whether to pursue the faith and Equestria thread. | none
+  - Does Harmonic Capitalism clash with Republican Boreasism, or do they find common ground in a shared work ethic? | ignored | Nothing about Harmonic Capitalism, Boreasism, or the two systems meeting. The turn is only about spell-matrix technology. | none
+- shape: The user turn drops the model's proposed thread on Griffonian faith and Equestria. It brings in a new, unrelated worldbuilding fact about Twilight's crystal spell matrices and Fizzlepop's broken horn, then explains the magic-as-technology logic behind it. It reads as a fresh topic supplied by the user, with no reaction to the model's ideas about the Republic.
+- settles:
+  - Twilight's crystal enhancers and spell matrices let Fizzlepop cast spells again despite her broken horn, which otherwise can only cast magical artillery | will allow Fizzlepop to cast spells again, despite her broken horn
+  - The spell matrices are crystals with the magic pattern built in, comparable to lithography or printed circuit boards | the spell matrices are crystals where the magic pattern is built in
+  - A unicorn's horn works as an adaptable spell matrix that manipulates its internal intricacies to cast different spells, unlike the fixed crystal matrices | A unicorn's horn is an adaptable spell matrix

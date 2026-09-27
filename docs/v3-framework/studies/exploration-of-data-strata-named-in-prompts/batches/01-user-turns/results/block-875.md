@@ -1,0 +1,8 @@
+- sources:
+  - the allegorical framing of 2008-2026 | the frame the model should use to say what the Aquileians and the mane 6 stand for, and to map factions and events onto | what does that make them in the allegorical framing of 2008-2026 | referred-to
+  - the Aquileian ego-capitalism framework | taken as a given premise: it grants individual agency against the machine and wins the war but cannot build peace, and the Paradrop is its climax | the climax of the Aquileian ego-capitalism framework | referred-to
+  - my story's ultimate assertion | taken as settled: the Aquileian approach is one pillar but not the full synthesis; the model is to draw out what it says about the modern-day allegory | my story's ultimate assertion that it is one pillar but not the full synthesis | referred-to
+  - all the factions (good and bad), the allegories, the in-story events | the story's existing material to be gathered and mapped out in full, each with its allegory | map out all the factions (good and bad), the allegories, the in-story events | referred-to
+  - the roles of Bluebell Spearhead and Canterlot Paradrop as now established | treated as settled and clear, to be used as the basis for redoing the map | now that the role of Bluebell Spearhead and Canterlot Paradrop are clear | referred-to
+- order:
+- about: The user restates the Canterlot Paradrop as the climax of the Aquileian ego-capitalism framework, asks what the Aquileians and mane 6 become in the 2008-2026 allegory and what the story's "one pillar, not the full synthesis" assertion says about the present day, and asks for a full map of factions, events and their allegories.

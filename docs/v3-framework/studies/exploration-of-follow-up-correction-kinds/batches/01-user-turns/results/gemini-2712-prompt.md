@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the naming brainstorm and asks a new question about which official MLP canon elements featured magic inhibitors, to compare against their crystal enhancer that works oppositely.

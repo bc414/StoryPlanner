@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to draft National Spirits or Ideas the FJA starts with to represent the Harmonic Capitalism economy? | ignored | Says nothing about drafting National Spirits. It asks a new question about real-world historical parallels to the concept. | none
+- shape: Redirects. It sets aside the offered next step and asks the model for real-history analogues to Harmonic Capitalism, a research or context question. It neither accepts nor rejects the model's elaboration.
+- settles:

@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | The workers who make up the party carry trauma from being exploited by tycoons, and this shared wound is what binds them | The workers were traumatized by tycoon exploitation | yes
+- goals:
+- whole: The note asserts as psychological fact that the party's members are workers bound together by trauma from tycoon exploitation.

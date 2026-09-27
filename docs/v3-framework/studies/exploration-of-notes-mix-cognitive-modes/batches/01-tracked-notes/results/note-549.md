@@ -1,0 +1,10 @@
+- claims:
+  - NarrativeArchitecture | places this appearance of Luna in a prequel-sequel work, framing the plan for her appearances | For her prequel-sequel | yes
+  - History | at her banishment in 0 ALB, Equestria was a wild, untamed wilderness | When Luna was banished (0 ALB), Equestria was a wild, untamed wilderness | no
+  - Characterization | on returning in 1000 ALB Luna expects the thriving, ambitious Frontier Celestia was building | she expects to see the thriving, ambitious Frontier that Celestia was building | no
+  - History | Luna wakes 70 years into the Mandate and finds a sterilized, infantilized society | she wakes up 70 years into the "Hasbro Mandate." She finds a sterilized, infantilized society | no
+  - Allegories | the regime is named for a real-world toy corporation, standing for a corporate-imposed sanitizing of the frontier culture | the "Hasbro Mandate" | no
+  - Characterization | Luna's depression comes not only from guilt over Nightmare Moon but from the culture shock of what her sister did to the nation | Luna's depression isn't just about her guilt over Nightmare Moon; it is the culture shock | no
+  - History | Celestia suppressed the nation's pioneer spirit out of fear of Griffon economics | her sister lobotomized the nation's pioneer spirit because she was afraid of Griffon economics | no
+- goals:
+- whole: The note sketches Luna's return arc, contrasting the frontier she remembers with the sanitized Mandate-era society and asserting the cause of her depression, mostly through world-history and character assertions rather than a plan for how the reader experiences it.

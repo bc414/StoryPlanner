@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the model's labor-model analysis to a run of real-world economic-history questions (co-determination and specialized manufacturing, outsourcing and the oil shocks, reshoring, Fordism, Japan, asset specificity), proposing structural explanations of their own as questions and not disputing anything the model said.

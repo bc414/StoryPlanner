@@ -1,0 +1,7 @@
+- claims:
+  - History | Artisan seamstresses were a lucrative trade serving the rich in Griffonia | Artisan seamstresses were big business for the rich in Griffonia | yes
+  - History | Industrial textile production saturated the clothing market of nobles and new-money bourgeoisie, leaving no room to grow there | Industrialized textiles saturated the noble and new money bourgeoisie market for clothes | yes
+  - History | The textile barons, driven by greed, wanted to sell clothes to the whole population | The textile barons wanted to sell clothes to everyone, motivated by further greed | yes
+  - History | The barons aimed to overthrow the King and nobles so they could become the new oligarchs | They wanted to overthrow the King and nobles so THEY could be the new oligarchs | yes
+- goals:
+- whole: The note reports, as in-world fact, the material and economic conditions and the greed-driven motive by which Griffonia's textile barons came to create the kleptocracy, without stating any effect on the reader.

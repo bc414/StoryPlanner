@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to detail the dialogue in the "We are Monsters" scene right after the victory, where the tactical success clashes with the grim slaughter? | ignored | The user turn goes to a new topic, a comparison with the battle of Verdun, and does not take up the scene offer. | none
+- shape: Redirects to a new topic. The user drops the offered next step and asks a side question, comparing the elastic defense and human wave material to the real battle of Verdun. It is a request for more military-history context.
+- settles:

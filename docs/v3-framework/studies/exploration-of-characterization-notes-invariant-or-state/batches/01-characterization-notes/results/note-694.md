@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | Her showboating personality is the canonical one, tied to her Wonderbolts association | Her canonical showboating personality, coming from the Wonderbolts | the display question frames it as who she is at the start of TLTT, but the words themselves give no date or span; the Wonderbolts link is stated as a source, not a period | none
+  - throughout | The showboating personality originates from (has its roots in) a toxic combination of influences: arrogant 2nd gen Aquileian Royalist pegasi who flexed their repressed flight, and Skyfall tycoons | originates from a toxic combination of arrogant 2nd gen Aquileian Royalist pegasi ... and Skyfall tycoons | origin of the personality stated in present tense as her formative cause; no date, phase or role limits it, though the track question asks about the start of TLTT | none
+- beside: none

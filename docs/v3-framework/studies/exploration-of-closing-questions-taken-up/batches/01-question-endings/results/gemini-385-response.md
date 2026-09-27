@@ -1,0 +1,8 @@
+- questions:
+  - Does the user want to go on to the specific warlord figures or generals within the MPA who might lead a coup attempt? | partly answered | Names one leader, Rodier, a military man, and gives his aims (conquest of Herzland and Wingbardy, colonising Zebrica). It doesn't say yes or no to a set of warlords, and doesn't mention a coup. | The leader is Rodier, a military leader
+- shape: Goes back to the MPA and lays out its composition and leader, as if introducing it fresh. It adds Rodier and his expansionist programme, then asks again the questions about what holds the MPA together, who joins it, how the FJA and PNdA deal with it, and why those two dominate. The model has just answered most of these. The turn doesn't take up the model's offer directly. It works as a restatement plus a fresh round of questions.
+- settles:
+  - The MPA is a sham coalition of monarchists, Griffon supremacists who hate ponies, paramilitary gangs and thieves, and corrupt bourgeois | basically a sham coalition of monarchists, griffon supremacists
+  - The MPA's leader is Rodier, a military leader | The leader is Rodier, a military leader
+  - Rodier's aim is to militarize and conquer Herzland and Wingbardy for Aquileian supremacy of the continent | wants to militarize and conquer Herzland and Wingbardy
+  - Rodier may also colonize "lesser species" beyond Griffonia, treated as easy targets in Zebrica, on the model of Wingbardy in Abyssinia | colonize "lesser species" beyond Griffonia

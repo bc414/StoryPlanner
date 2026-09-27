@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks their own synthesis of how Eros, Kemerskai and the rugged individualists each inherit an earlier Grover's ideas, then opens a new question asking for a comparative analysis of Empire versus Reich naming (always Empire, always Reich, or Eros changing it in 1007).

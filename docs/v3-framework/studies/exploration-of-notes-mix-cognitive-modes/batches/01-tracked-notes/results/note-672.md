@@ -1,0 +1,6 @@
+- claims:
+  - Canon | Reads the canon episode No Second Prances as Twilight micromanaging Starlight's redemption into a sanitized, docile, predictable reformed villain | In No Second Prances, Twilight was trying to micromanage Starlight's redemption | yes
+  - Canon | Recontextualizes canon: Celestia's allowing Twilight to reform Starlight is given a hidden motive rather than being simple trust | Celestia lets Twilight reform Starlight | yes
+  - Characterization | Asserts the truth of Celestia's motive: Starlight's cult is uncomfortably close to how Celestia runs her own system, which deports outward ambition | because Starlight's cult is too close to home of how Celestia runs her own system that deports outward ambition | no
+- goals:
+- whole: The note reinterprets the canon episode and Celestia's part in Starlight's reformation, giving Celestia a concealed motive rooted in her own ambition-suppressing rule.

@@ -1,0 +1,5 @@
+- questions:
+  - How does the author plan to handle the domestic political fallout once Equestria realizes Celestia's isolationism let Chrysalis drain its liquidity through Gresham's Law? | ignored | Says nothing about the fallout. It asks for other real-world economics areas not yet covered. | none
+  - Will the Equestrian public blame Celestia, or will populists like Gilded Trust exploit economic illiteracy to blame foreign workers? | ignored | Does not choose between blaming Celestia and scapegoating foreign workers. It goes on to a broader question about economic topics. | none
+- shape: Redirects. The user leaves the model's closing story question alone and asks the model to list further real-world economics areas that are as important as the ones already used but not yet touched. This is a request for new material, and it does not settle anything or correct the model.
+- settles:

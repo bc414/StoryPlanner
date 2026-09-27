@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's verification of the culled prompt and moves on to ask for further ways to cut character count without losing meaning or source text, because they are near the character limit.

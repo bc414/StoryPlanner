@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | The reader arrives assuming Twilight is the Princess of Friendship, as a prior expectation from the source trope | The reader expects Twilight to be "The Princess of Friendship" | yes
+  - NarrativeArchitecture | The reader may also assume that in an Equestria at War story, a Twilight who is not a pushover will turn into a cold dictator or magical supremacist | They might also think, in an Equestria at War story, if she isn't a pushover, she'll become a cold dictator or magical supremacist | yes
+- goals:
+- whole: The note sets out the reader's starting assumptions about Twilight, the friendship-princess default and the fear that a strong wartime Twilight becomes a cold dictator or supremacist, as the baseline for later opinion updates.

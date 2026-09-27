@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the Sorter (Prompt 2) system instruction rewritten to fit the Root Object structure so it works in the Visual Editor? | ignored | The turn doesn't accept or decline the rewrite. It asks whether what they have now is what they want. | none
+- shape: A short check-back that asks the model to confirm the user's own attempt at the schema, probably built from the model's steps. It is a request for verification, not an answer to the offer, and it moves the conversation back to the current state of the editor.
+- settles:

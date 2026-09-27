@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Sets the reader's starting state for opinion of Scootaloo: they arrive already knowing she can't fly | Readers start out knowing Scootaloo can't fly | yes
+  - Canon | Records what the source show established: her inability to fly was made explicit but its cause was never given, leaving an open gap to build on | The show made it explicit, but never explained why | no
+- goals:
+- whole: The note opens the reader-opinion plan by fixing the prior assumption readers bring, that Scootaloo can't fly, and grounds it in what the show established and left unexplained.

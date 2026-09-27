@@ -1,0 +1,5 @@
+- questions:
+  - How does Flowing Current manage the militant wing of his union, who want to blow up the Tycoons' estates as he once did, while keeping the legal legitimacy needed to pass the Hearth's Warming Charter? | ignored | The user turn does not address the militant wing or legitimacy; it asks a different question about improving the plans. | none
+  - How does Rarity, on first attending the EEEE! basement meeting, reconcile her aristocratic sensibilities with the mechanics, ex-convicts and laborers, and does she see them as dangerous thugs or recognize their Asset Specificity? | ignored | The user turn says nothing about Rarity or her first meeting with EEEE!. | none
+- shape: Redirects. The user sets aside the model's Socratic questions and asks the model to compare the comparison's findings with the user's own existing plans for EEEE! and Flowing Current, and to say how those plans are improved. It is a request for analysis, not an answer or a correction.
+- settles:

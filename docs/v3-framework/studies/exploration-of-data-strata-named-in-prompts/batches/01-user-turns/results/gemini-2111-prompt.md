@@ -1,0 +1,4 @@
+- sources:
+  - Asian American friends' view that French food is just butter and salt | hearsay the user wants tested for accuracy, not treated as true | I've heard from Asian American friends that French food is just butter and salt | first-named
+- order:
+- about: The user leaves the story plan and asks a run of real-world questions about whether French peasant cuisine survives in France, how Paris compares with American status-French dining, and how French food compares with Asian cooking and Vietnamese food in France, and asks the model to check a secondhand claim from friends.

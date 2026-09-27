@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account has Vaspier formed from birth and childhood by the regime's ideological programming, which puts the master-race propaganda well before 1002. The user thinks that propaganda only begins after the Canterlot Wedding in 1002, when Chrysalis had been reuniting the hives, so his indoctrination and rise would follow later | I think chrysalis's changeling master race propaganda would not start until after Canterlot Wedding in 1002? | tentative and put as a question ("Or should it start before?"), with a proposed reconciliation that his VOPS career predates the propaganda and is later boosted by it
+- about: The user questions the timing of Chrysalis's master-race propaganda against the model's childhood-indoctrination framing of Vaspier, asks about historical Prussian and German parallels, and floats a revised sequence in which Vaspier joins VOPS first and rises by embracing the new propaganda.

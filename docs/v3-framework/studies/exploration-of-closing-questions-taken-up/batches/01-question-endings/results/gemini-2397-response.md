@@ -1,0 +1,7 @@
+- questions:
+  - When Réni and Minette reach Tall Tale, do they at first see Applejack's volunteer, no-human-wave doctrine as childish naivety, and only later come to see it as the cure for the meatgrinder? | answered | The premise is rejected. The Equestrian doctrine is their own doctrine, which they taught the Wonderbolts at and after Mount Aris. So they have no naive first reaction to it. Their arc after Pinkie's resilience demonstration is being one pair among many planes. | The equestrian doctrine is literally their doctrine. They trained the Wonderbolts
+- shape: The user turn corrects the model's premise about how the pair would react to Equestrian doctrine, and supplies the facts of their role and arc. It then moves on to a new question for the model: whether the M-rated events of the side story can be referred to in dialogue in the T-rated main story without being written out.
+- settles:
+  - Equestrian military doctrine is Réni and Minette's own doctrine, not something new to them | The equestrian doctrine is literally their doctrine
+  - Réni and Minette trained the Wonderbolts at and after Mount Aris | They trained the Wonderbolts at and after Mount Aris
+  - After returning to Tall Tale and Pinkie's resilience demonstration, their arc is being one pair among many planes in the rest of the war | their arc becomes being one pair among many planes in the rest of the war

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches a new document and supplies four ranked extraction priorities (chronology, demographics, system mechanics, dialectics), each with its own ignore rule and one-slot assignment rule, as instructions for the next sorting pass, without saying anything about the buckets the model just produced.

@@ -1,0 +1,5 @@
+- questions:
+  - Does Rarity's protector role translate to the larger TLTT timeline, with her acting as a political or legal shield for Fluttershy nationally while the Equestrian Republic manages the post-war economy? | ignored | Says nothing about Rarity's later role or the post-war timeline. It moves on to a request to analyze the next chapter. | none
+- shape: Gives an instruction and moves on. It leaves the model's closing question unanswered and asks for the same kind of analysis of the next chapter, an expansion of Filli Vanilli, tied to TLTT's themes and character arcs.
+- settles:
+  - The expansion of Filli Vanilli forms chapter 2 of the story. | "my expansion of Filli Vanilli which forms chapter 2 of the story"

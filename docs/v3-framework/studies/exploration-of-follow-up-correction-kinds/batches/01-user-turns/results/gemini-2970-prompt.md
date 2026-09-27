@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether NotebookLM is an option for querying their large document, extending the discussion to another tool without disputing anything the model said.

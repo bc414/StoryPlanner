@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | Grover V's era is modeled on the real interwar period, where the Great Depression's hardship maps to the serfs and the Roaring Twenties' prosperity maps to the elites | Grover V (Interwar Period): The "Great Depression" for serfs and "Roaring 20s" for elites | yes
+  - Analogies | The system rests on an alliance between feudal nobles and Social Darwinist industrialists, drawn from real-world ideological and class currents, and judged an unholy one | The unholy alliance of Feudal Nobles and Social Darwinist Industrialists | yes
+- goals:
+- whole: The note documents the real-world inspiration for the kleptocracy by mapping it onto the interwar period's split between depression and boom and onto an alliance of old aristocracy and Social Darwinist industrial capital.

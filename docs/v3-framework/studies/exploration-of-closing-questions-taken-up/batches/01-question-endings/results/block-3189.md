@@ -1,0 +1,3 @@
+- questions:
+- shape: An instruction that redirects the model to the one corpus it said it had not searched. The user gives no reaction to the comparison itself and does not confirm or correct any of its findings.
+- settles:

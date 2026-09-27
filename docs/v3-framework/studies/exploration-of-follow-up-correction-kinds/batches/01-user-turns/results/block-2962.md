@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the economy-axis and grid discussion to ask for more hive wars worldbuilding drawn from historical parallels, existing canon and materialist extrapolation, adding a tonal constraint to drop grimdark ASOIAF implications that the model turn itself does not contain.

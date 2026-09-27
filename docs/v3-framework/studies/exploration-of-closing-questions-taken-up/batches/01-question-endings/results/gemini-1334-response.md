@@ -1,0 +1,8 @@
+- questions:
+  - Adopt Franc-Tireur as the title for the FJA militia specifically (the second tier after the royal-era Chasseurs)? | answered | Does not take up Franc-Tireur. Says the veterans' clubs swapped chasseur for voltigeur because it is about acrobatics, which names a different term for the clubs. | I think the veterans clubs then swapped chasseur for voltigeur
+- shape: Takes up the first half of the model's two-tier suggestion (Discret's Chasseurs) and adds new lore of its own about Chrysalis and the changelings. Replaces the second tier (Franc-Tireur) with its own choice of Voltigeur, without discussing Franc-Tireur. It is a statement of lore, not a reply to the closing question.
+- settles:
+  - Discret's royal force started out called Chasseurs | Discret started them out as Chasseurs
+  - Chrysalis chose the word Jaeger (hunter) on purpose, copying Discret's French Chasseurs, to instill aggression in her changelings | Chrysalis literally copied that for her Jaegers
+  - Changeling backstory: they were once harmonic when monsters to hunt were abundant, and in the native changeling language the word for the hunter role meant Protector | the changelings were once harmonic when monsters to hunt were abundant
+  - The veterans' clubs swapped the title chasseur for voltigeur, because voltigeur is about acrobatics | veterans clubs then swapped chasseur for voltigeur because it's about acrobatics

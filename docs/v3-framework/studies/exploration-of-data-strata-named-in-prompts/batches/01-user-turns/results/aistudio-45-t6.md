@@ -1,0 +1,5 @@
+- sources:
+  - the quoted statement about Celestia's worldview and the "Amity Forums" (from the model's previous answer) | treat as a draft to be refined; keep its frame but add the user's sharper version that her mutual-misunderstanding view covers Equestrians only, not outsiders like the buffalo, and analyse that | "I have an even more devastating refinement of it" | referred-to
+  - the model's earlier suggestion that the mercenaries come from Skyfall | treat as superseded; the user replaces it with Equestrian ponies as the mercenaries | "The mercenaries should not be from Skyfall, they should be Equestrian ponies" | referred-to
+- order:
+- about: The user revises the model's prior proposal by making the mercenaries Equestrian ponies who exploit Celestia's rehab-then-exile-to-New-Mareland policy, and asks for an analysis of a refinement in which Celestia's conciliatory worldview applies only to Equestrians and not to outsiders like the buffalo.

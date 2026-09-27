@@ -1,0 +1,7 @@
+- claims:
+  - Allegories | the wartime version of the character stands for the Trump of the campaign promise, who pledged to kick out unfair trade deals and drain the swamp | War time Gilded Trust is what Trump promised to deliver | yes
+  - Allegories | the postwar version of the character stands for what Trump actually delivered: rugged individualism, extraction, imperialism and culture war | Post war Gilded Trust is what Trump actually delivered | yes
+  - Allegories | the character's arc is meant to carry a social commentary that grants his vision a legitimate stance while exposing that it lacks real substance | acknowledge the legitimate stance of his vision while exposing the lie of actual lack of substance | yes
+- goals:
+  - the reader is to accept that the vision has a legitimate basis and to see that in practice it was a lie with no substance | Allegories | acknowledge the legitimate stance of his vision while exposing the lie of actual lack of substance
+- whole: The note maps the character's wartime and postwar phases onto Trump's promises versus his actual record, so that readers can infer a commentary that respects the vision but exposes its emptiness.

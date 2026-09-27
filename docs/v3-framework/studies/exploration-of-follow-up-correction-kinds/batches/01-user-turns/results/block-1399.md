@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model sorted the earlier note into the existing Track A, Track B and Layer 4 buckets as if that scheme were settled, when the user says those tracks were designed but not yet validated | Instead of me asking you to put into track buckets that were designed but not validated yet | a reason given and a change of method: the user sets the bucket-sorting aside and asks for claim types from first principles, with no blame and no apology
+- about: The user gives a second dense note about Applejack and changes the task from placing notes in the current tracks to working out from first principles what kinds of claims the note makes, so the track scheme can be tested and settled.

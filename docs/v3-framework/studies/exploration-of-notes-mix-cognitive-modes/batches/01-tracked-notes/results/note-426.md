@@ -1,0 +1,9 @@
+- claims:
+  - NarrativeArchitecture | the changelings should be seen by the reader as definitively evil before the POW twist arrives | I want the changelings to be viewed as definitively evil before the POW twist | no
+  - NotesToSelf | the author judges the POW twist itself to be overly innocent and very Fluttershy-esque, which is the tension to plan around | which is overly innocent and very Fluttershy-esque | yes
+  - NotesToSelf | the author sets herself a task: make the predatory changelings' evil legitimate, so that it supports the planning aim for Fluttershy's arc | I need to make the evilness of the predatory changelings legitimate | yes
+  - NarrativeArchitecture | Fluttershy's part should land as a proper tragedy for the reader rather than an idealistic preach point | so that Fluttershy's part depicts a proper tragedy, not an idealistic preach point | no
+- goals:
+  - The reader sees the predatory changelings as definitively, legitimately evil before the POW twist | NarrativeArchitecture | viewed as definitively evil before the POW twist
+  - The reader experiences Fluttershy's part as a real tragedy and not as an idealistic preach point | NarrativeArchitecture | a proper tragedy, not an idealistic preach point
+- whole: The author reminds herself to make the changelings' evil convincing before the innocent, Fluttershy-esque POW twist, so that Fluttershy's role plays as tragedy and not as preaching.

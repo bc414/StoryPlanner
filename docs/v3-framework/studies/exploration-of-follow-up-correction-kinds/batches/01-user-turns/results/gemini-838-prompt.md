@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the narrator-clarity advice as given and moves on to deciding which characters should get the narrative camera, ending with a question about whether one-off narrators are acceptable.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for the same perspective analysis to be run on a further set of later chapters, extending the previous diagnosis without disputing any of it.

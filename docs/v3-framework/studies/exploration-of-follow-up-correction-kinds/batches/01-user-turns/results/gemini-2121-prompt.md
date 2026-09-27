@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the street-security discussion and starts a new request, asking the model to review their lore on Skyfall's shipping protection racket and the Aquileian escort fleet, and to analyze whether dock owners and shipping companies would let Aquileian luxuries reach Skyfall.

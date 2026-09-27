@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether a line stating the spell's rule should be reworded from "keeping you alive in your heart" to "keeping your hunter's spirit alive", without pointing at any body of material.

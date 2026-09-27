@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks what drug combination the infantry who follow a tank breakthrough and dig in to secure the supply line should get, and proposes that the base Tier 1 red drug be required in every dose with the additives mixed in so the additives can be produced separately to ease the economic strain.

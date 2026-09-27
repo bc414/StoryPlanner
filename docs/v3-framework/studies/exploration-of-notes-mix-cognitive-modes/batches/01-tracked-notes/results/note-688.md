@@ -1,0 +1,8 @@
+- claims:
+  - History | Cadance and Shining Armor cast a city-wide Lioness Spell at the 1002 Canterlot Wedding, repelling with power scaling to the target's predatory ambition toward the caster | During the Canterlot Wedding in 1002, Cadance and Shining Armor casted a city-wide Lioness Spell | yes
+  - History | Every changeling was at the wedding to steal its love, so all were blasted by the spell | Since all the changelings were at the wedding to steal the wedding's love, they all got blasted | yes
+  - History | Chrysalis was thrown back to the great swamp past Acornage, statthalters were thrown far, and jaegers like Thorax were thrown just off the mountain | Chrysalis got blasted all the way back to the great swamp past Acornage | yes
+  - Characterization | Trimmel's gang is driven by genuine though misguided desire for liberty and meritocracy | fighting for genuine, albeit, misguided liberty and meritocracy | no
+  - History | Trimmel's gang was unaffected because they had no intent to drain or steal the love of Shining Armor and Cadance's wedding | were unaffected since they weren't there to drain Shining Armor or Cadance | yes
+- goals:
+- whole: The note reports as historical fact how the Lioness Spell was first cast at the Canterlot Wedding and how it scattered the changelings by rank while sparing Trimmel's gang.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether Fleur Bloom should be modelled on Fritz Haber, Marie Curie or some other (possibly French) historical figure, without pointing at any body of material to draw on.

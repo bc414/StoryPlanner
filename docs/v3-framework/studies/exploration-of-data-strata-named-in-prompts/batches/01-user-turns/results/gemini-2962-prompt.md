@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up factual question about how billing works for AI Studio's playground when used as manual chat rather than through API requests, without pointing the model at any body of material to use or avoid.

@@ -1,0 +1,4 @@
+- sources:
+  - the 3 positions, as developed over a few iterations | treat as the model's own construct rather than the author's, and as open to being distilled to their core and relabeled | I didn't invent the 3 positions, you did over a few iterations | referred-to
+- order:
+- about: The user corrects the attribution of the three-positions framework to the model, and asks it to state what the positions fundamentally are, propose better labels, and say what they are positions about.

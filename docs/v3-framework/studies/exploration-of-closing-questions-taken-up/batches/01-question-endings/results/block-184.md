@@ -1,0 +1,4 @@
+- questions:
+  - Does Chrysalis's prequel contain any scenes set in Aquileia, or any direct encounter with the ideology Minette is building? | ignored | The user turn does not say whether the prequel has Aquileian scenes or ideology encounters; it asks for definitions of terms and further analysis instead. | none
+- shape: The user turn does not answer the model's question. It asks the model for more explanation: what 'Greek tragedy' means, why it is called Greek, and how it differs from nihilism and grimdark, with precise definitions of the terms. It also asks the model to name any further details that would help judge what the TLTT -> Minette -> Chrysalis order accomplishes. The order itself is neither accepted nor rejected.
+- settles:

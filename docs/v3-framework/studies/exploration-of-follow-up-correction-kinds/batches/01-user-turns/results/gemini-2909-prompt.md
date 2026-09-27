@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model built an elaborate defence against a thief stealing the Tableau, when the user wants the system designed only for the intended, positive use and not for hypothetical misuse | You can't engineer for unknown scenarios, only the intended positive scenario | flat general principle, stated as a blunt rule with no apology
+  - fact of the world | The invented consequence of a stolen book, where the ink flakes off or turns ashen and bruised, is rejected because it would damage the tableau for its rightful owner | We don't need the dramatic flaking or turning ashen | flat rejection with a short parenthetical reason
+  - reading of the plan | The model's mechanism, a diffuse harmonic anchor and ambient-field interference across every mark, is replaced by a simpler one: an owner's seal at the top of each page that must resonate | I was thinking the top of each page simply has the owner's seal | tentative counter-proposal, framed as what the user had in mind and paired with a question about which intent vector fits
+- about: The user cuts back the model's over-engineered anti-theft physics, rejects the ashen-ink detail, and steers toward a simple owner's-seal resonance at the top of each page, asking which intent vector it should use within the high-pass filter.

@@ -1,0 +1,7 @@
+- questions:
+  - Does swapping the kinetic shaking for a blinding, psychological cold-light feedback loop give the throne room scenes enough dramatic weight without breaking the physics? | partly answered | Takes the light-based idea but cuts it back: no blinding, only a mild glow that scales with ambition. Says the rest of the fear effect is Archon storytelling. Does not address the hum or the psychological weight. | it doesn't need to be blinding; just glow mildly, scales with the ambition
+- shape: Corrects the model's proposal by scaling it down. It keeps the glow mechanism, rejects the blinding intensity, and hands the intimidating spectacle to in-world propaganda instead of Idol physics. It does not close with a question or move to a new topic.
+- settles:
+  - The Idol's light is only a mild glow, not blinding or piercing | doesn't need to be blinding. It just needs to glow mildly
+  - The brightness of the glow scales with the ambition directed at it | the glow scales with the ambition
+  - The Idol's terrifying, wrathful reputation is Archon propaganda and storytelling, not a physical effect of the crystal | The rest of the propaganda is Archon storytelling

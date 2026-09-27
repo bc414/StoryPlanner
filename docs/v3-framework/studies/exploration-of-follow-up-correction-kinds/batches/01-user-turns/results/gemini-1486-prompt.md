@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's picture of Kemerskai as a clean republican model AJ will later recognize herself in rests on a version of the plan that predates the added backstory of the failing GR, Coltbert's paper and Kemerskai's martial law | "I recently updated my story plan to include backstory" | in passing, as a plain announcement of an update, with no accusation, and going straight on to new questions
+- about: The user announces a recent plan update that gives Kemerskai a martial-law backstory, then asks two new design questions about his monetary reform and about how his martial law changes Chrysalis's borrowed traits.

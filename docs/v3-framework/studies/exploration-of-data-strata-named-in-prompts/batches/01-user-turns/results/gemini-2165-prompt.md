@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes plot developments for their war story (earth pony farms strip-mined for phosphorus ammo, a grimdark command-economy escalation, and friction between AJ and Comet Shine) and asks whether phosphorus also explains the Wonderbolts' air dominance, without pointing the model at any body of material.

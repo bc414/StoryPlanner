@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Rockfeller frames his ideology as "Modern Harmony" against Celestia's Harmony, which he says leaves ponies poor and cold while Griffons advance | "Celestia's Harmony means we all stay poor, shivering in the dark" | yes
+  - Characterization | He sincerely presents standardized oil extraction and monopoly as efficiency and order, not greed, and casts himself as benefactor providing cheap heating | "A monopoly isn't greed; it's efficiency" | yes
+  - Characterization | He rationalizes brutalizing the Buffalo by labeling them relics of a chaotic past blocking progress | "relics of the chaotic past" | yes
+  - Characterization | He sees Celestia as a naive relic holding the species back | "He views Celestia as a naive relic" | yes
+- goals:
+- whole: The note asserts Rockfeller's starting worldview and self-justifying psychology, an order-obsessed monopolist who calls his brutality progress and dismisses Celestia and the Buffalo as relics.

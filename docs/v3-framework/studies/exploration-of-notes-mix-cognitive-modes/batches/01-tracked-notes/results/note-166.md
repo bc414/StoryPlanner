@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | The organization's driving force, what binds its members, is a burning desire to tear down the world's frauds | The driving force of the Aquileian volunteers is a spectacular, burning desire to tear down the world's frauds | yes
+- goals:
+- whole: The note asserts as psychological truth that the Aquileian Volunteers are bound together by an intense desire to expose and tear down the world's frauds.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's closing question and moves to a new request, an analysis of the Clash of Clans economy, which they use to test the idea that money comes from productive capacity and not from a zero-sum pie.

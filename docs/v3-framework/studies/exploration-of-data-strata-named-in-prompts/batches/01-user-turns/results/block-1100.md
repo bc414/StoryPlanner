@@ -1,0 +1,5 @@
+- sources:
+  - the author's own account of Obama-era and Biden-era congressional history (coalition demographics, Roe not codified, filibuster kept, Lieberman blocking the public option, Manchin blocking Biden) and of Trump now breaking the law to look strong | treat as true premises stated from memory; analyse them and use them as the real-world side of the parallel | Obama wanted a public option for the ACA but Joe Lieberman refused | first-named
+  - the story planning on Celestia's static nursery and the stagnation of harmony starting 80 years ago after petitions to ban griffon industry | treat as established plan; the analysis should map onto it and the reveal that Celestia did not design everything should be built to mirror Congress | How should this reflect, overlap, and parallel with the story planning | referred-to
+- order:
+- about: The user adds their own account of how Obama's and Biden's agendas were blocked by their coalitions and the filibuster, and asks for an analysis of it and for it to be mapped onto the planned reveal that Celestia did not design the 1000-year nursery, with a parallel to Trump breaking the law to look strong.

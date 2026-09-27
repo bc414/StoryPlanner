@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author pushes back on the model's proposed treatment of Kemerskai's wife and Applejack's parallel, preferring a version where he never had time for her over 35 years and where Applejack's parents saved her from stagnation and she resented them, without pointing the model at any body of material.

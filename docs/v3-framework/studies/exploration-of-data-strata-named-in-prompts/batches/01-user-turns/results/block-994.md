@@ -1,0 +1,9 @@
+- sources:
+  - cynicism vs resilience as defined | treat as the settled framework and measure each faction against it | "With cynicism vs resilience as defined" | referred-to
+  - the faction map the author lays out (Griffonian Empire, Reich, Skyfall, Stalliongrad, Griffonian Republic, and their Equestrian parallels Canterlot, Las Pegasus, Baltimare, Manehattan) | treat as the author's current settled plan and the basis for understanding the other factions | "Now I want to understand the other factions" | first-named
+  - what I've built for Aquileia | the material to be analysed, using the author's own account of its design, including where it sits between cynicism and resilience | "Now I want to understand what I've built for Aquileia" | referred-to
+  - the story plan as evolved, pointing to a synthesis of Aquileia + GR + Equestria | treat as the current direction of the plan | "I evolved the story plan significantly to point towards the synthesis conclusion" | referred-to
+  - the original story plan, in which Aquileia was the golden savior Equestria would copy | treat as outdated and superseded | "Aquileia was originally meant to be the golden savior" | referred-to
+- order:
+  - the evolved story plan (synthesis of Aquileia + GR + Equestria) over the original plan (Aquileia as golden savior) | "originally meant to be the golden savior that Equestria would copy, but I evolved the story plan significantly"
+- about: The author applies the cynicism-versus-resilience framework to lay out each faction and its Equestrian parallel, then asks the model to help work out whether Aquileia, no longer the golden model, sits between cynicism and resilience.

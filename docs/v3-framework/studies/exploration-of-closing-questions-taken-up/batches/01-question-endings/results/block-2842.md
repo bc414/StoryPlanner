@@ -1,0 +1,6 @@
+- questions:
+  - Should the model pull up the actual civilizational system subjects to see how each faction maps onto the axis grid? | partly answered | Takes up the offer in effect by asking for analysis of the assigned values, but narrows it to the high-confidence filled values and widens it to a comparison with each system's notes and with the earlier axes conversation's arguments. | Give an analysis of my currently selected ones... compare to the notes of the system
+- shape: Gives an instruction that accepts and reshapes the model's offer. It explains how to read the data (filled means confident, empty means unsure or neutral) and asks for a three-way audit: the assignments, the system notes, and the reasoning in the earlier conversation.
+- settles:
+  - The filled-in axis values are the user's high-confidence, high-signal assignments | those are the values I'm pretty certain of
+  - An empty axis value means either the user is unsure or they consider that axis neutral for that civilizational system | If a value is empty it could mean I'm uncertain... or... neutral

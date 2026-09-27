@@ -1,0 +1,9 @@
+- sources:
+  - my past documentation patterns / the whole story planner | treat as structurally flawed: the planner was used as a catch-all capture tool, and this approach is to be reworked | naive strategy needs to be reworked | referred-to
+  - plot point text fields | treat as holding mixed layers and stages of development in one field, because content was assumed to only need to appear there; not to be relied on as cleanly organised | all layers and stages of development are all mixed and matched into one text field | referred-to
+  - Notes on non-plot point entities | treat as placeholders meant to be absorbed into a plot point later, a habit to be replaced | treated as placeholders to be incorporated into a plot point | referred-to
+  - Tally Mark's backstory as stored in the plot point | use as evidence of the author's habit: details went into the plot point instead of her character notes | put all the details in that plot point instead of her character notes | referred-to
+  - the first mega scene about Luna revealing the truth about Nightmare Moon | use as an example of a plot point holding a long proposed chronological sequence alongside character psychology, implied gaps and dialogue | massive proposed chronological sequence | referred-to
+  - the Twilight dehumanizing content in the scene the model analysed | treat as outdated; the scene was moved up two chapters and the combat training scene repurposed, so the model's example is poor | Twilight dehumanizing is outdated | referred-to
+- order:
+- about: The user diagnoses a structural flaw in their past planner habits (everything crammed into plot points, other entities' notes treated as placeholders), corrects the model's outdated example scene, and asks for the three stages to be named explicitly and for the authorial reasoning behind them.

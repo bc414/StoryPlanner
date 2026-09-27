@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a simplified data model (SubjectDefinition reduced to an id, OwnerType plus a nullable SubjectDefinitionId on the track and property definitions, no link-definition table, filtering done in view models) and asks whether to remove all navigation properties.

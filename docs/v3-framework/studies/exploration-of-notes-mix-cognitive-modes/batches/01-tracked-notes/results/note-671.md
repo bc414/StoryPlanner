@@ -1,0 +1,9 @@
+- claims:
+  - NarrativeArchitecture | Early in the war Starlight quarantines herself with Twilight and Fizzlepop in the magical research lab, opening her run of appearances | At the beginning of the war, Starlight quarentines herself with Twilight and Fizzlepop in the magical research lab | yes
+  - Characterization | Her reason for isolating is that she doesn't want to be a villain again | because she doesn't want to be a villain again | no
+  - NarrativeArchitecture | Next beat in her sequence: the Equestrian Army is defeated in Vanhoover and Starlight hears the bauleiter's mission and pitch | after the Equestrian Army in Vanhoover is defeated and Starlight hears the bauleiter's "mission" and pitch | yes
+  - Canon | She recognizes the bauleiter's pitch as like the Our Town propaganda about being a cog, tying it to the established source material | recognizing it as like Our Town propaganda (being a cog) | no
+  - Characterization | Starlight now desperately wants to fight back | she desperately wants to fight back | no
+  - NarrativeArchitecture | The turn in her arc: Twilight now holds her back, setting the conflict for her later appearances | but now Twilight is holding her back | yes
+- goals:
+- whole: The note lays out Starlight's appearance arc in order, from self-quarantine in the lab to a wish to fight back that Twilight blocks, drawing on Our Town canon and her motives, without saying what the reader should get from it.

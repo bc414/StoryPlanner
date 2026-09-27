@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the PNdA should target industrial capital equipment or consumer goods, who its target and grievance are, and directs that the grievance be rooted in the trauma of universities leveled by Skyfall pirates, without pointing the model at any body of material.

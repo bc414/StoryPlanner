@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to audit its new string-builder method against the earlier JSON-serializer version for semantic equivalence, lost data and confusing formatting, without saying anything in the previous turn was wrong.

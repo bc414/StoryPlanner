@@ -1,0 +1,11 @@
+- questions:
+  - Does bringing back Red Love (Harmonic Capitalism, trade, military readiness) risk slowly draining the Moral Surplus built up during the Stagnation? | ignored | none; the user turn never mentions depletion of the surplus | none
+  - How does the Republic structurally make sure the Charitostatic baseline refills once the Nursery's protective walls are gone? | ignored | none; nothing about replenishment mechanisms | none
+  - How does the 85% agrarian majority process the dissonance that the peaceful Stagnation was subsidized by Skyfall's underclass and the Tzinacatl drug trade? | ignored | none; the referendum voters and the hidden cost of their innocence are not discussed | none
+  - Will the majority vote for the Republic out of a desire for progress or out of collective guilt once the true cost is revealed? | ignored | none; the referendum vote is not taken up | none
+- shape: The user turn skips the model's expansion questions. It accepts the takeaway that adulthood requires a childhood and applies it outward to the real world: the intended audience, the author himself, and the wider ecosystem of cynical storytelling. It then opens a new line of thought by tentatively linking Lauren Faust's G4, which grew out of her play with G1 toys, to the Hasbro toy mandate. It asks whether the toys stand for childhood. The turn is a reflective redirect from in-world mechanics to the project's meaning and origins, and it ends on a question back to the model.
+- settles:
+  - The phrase 'adulthood requires a childhood' is adopted as a key insight of the project | 'this insight ... is key'
+  - The target audience is understood as the real-world counterpart of the Stagnation of Harmony: people who grew up safe in suburbs with asset specificity, like the author | 'my target audience has always implicitly been the Stagnation of harmony equivalent'
+  - The project's message is to choose civic solidarity over being a cog or a poseur | 'not to be a cog or a poseur but instead choose civic solidarity'
+  - The project is positioned against the cynical storytelling ecosystem, which is framed as a product of deteriorating world conditions and of the authors those conditions shaped | 'born out of cynicism from the deteriorating world conditions'

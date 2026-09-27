@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Filthy Rich and Diamond Tiara analysis and asks a new naming question: whether a French word for "players" could replace a word in the Manehattan parloir's name while keeping the acronym FJA.

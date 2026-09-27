@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states their own imagined design for the game, with no army micro, wars as moving lines, and gameplay made of domestic policy and diplomacy, without pointing the model at any body of source material.

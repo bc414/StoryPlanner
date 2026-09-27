@@ -1,0 +1,7 @@
+- sources:
+  - Faust's original Applejack (Applebuck Season, The Last Roundup, Leap of Faith) | treated as the established early-show characterization: Applejack as star of the town, trusted; the baseline the note's claims rest on | Faust's original Applejack was the star of the town | referred-to
+  - Later Applejack (late-season passivity, background pony) | treated as the established later-show characterization: no initiative, background; the basis for the passivity she has internalized | Later Applejack didn't have initiative and was a background pony | referred-to
+  - the note tracks, buckets that were designed but not validated yet | treated as provisional and unvalidated; do not sort the text into them, since they are still being solidified | track buckets that were designed but not validated yet | referred-to
+  - this block of text (the dense Applejack note in the user turn) | the material to analyze from first principles, to identify what kinds of claims it makes | identify what kinds of claims/assertions are being made in this block of text | first-named
+- order:
+- about: The user sets aside the model's sorting of a dense Applejack note into not-yet-validated tracks and asks it to work out from first principles what kinds of claims the note contains, so the note tracks can each hold one claim type.

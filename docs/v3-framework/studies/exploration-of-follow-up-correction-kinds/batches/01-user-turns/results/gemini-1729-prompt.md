@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for an overview of recent French party history, checking their own understanding of Macron's party breaking the two old big tents, Le Pen's party and the new left coalition, without disputing anything the model said.

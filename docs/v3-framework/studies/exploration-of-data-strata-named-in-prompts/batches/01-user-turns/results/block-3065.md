@@ -1,0 +1,4 @@
+- sources:
+  - the text file (the Gemini conversation export the model grepped) | re-read and reanalyse it, treating its prompts as being in reverse chronological order, so earlier conclusions about which came first must be redone with that ordering | Keep in mind that the text file has the prompts in reverse chronological order | referred-to
+- order:
+- about: The user corrects the model's origin analysis by telling it that the export file lists prompts in reverse chronological order and asks it to redo the analysis with that in mind.

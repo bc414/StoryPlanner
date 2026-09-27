@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's analysis of the dam's destruction as a premise and draws a conclusion from it, that Star Energy's decision rests on planning for the worst case.

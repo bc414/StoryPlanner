@@ -1,0 +1,4 @@
+- sources:
+  - the ultimate takeaway (from the model's previous reply in this conversation) | accepted by the user as agreed and as what the story should be about; treat as settled premise | I agree with the ultimate takeaway and that is what I want the story to be about | referred-to
+- order:
+- about: The user accepts the previous reply's takeaway as the story's theme, then asks the model to explain why a real-world hope-based grassroots movement led by Simon Rosenberg after the 2024 election failed and what lessons follow.

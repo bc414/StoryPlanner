@@ -1,0 +1,9 @@
+- claims:
+  - ThematicEvidence | The Storm King is shown as a joke who succeeded only because strong nations were apathetic, laid down as evidence for the theme | Portraying the Storm King as a joke who only succeeded because of the apathy of strong nations | yes
+  - Allegories | This portrayal stands as social commentary, a harsh critique of the real-world stance of isolationism | is a harsh critique of isolationism | no
+  - Analogies | The portrayal is modeled on real-world geopolitics, where warlords thrive in power vacuums | It mirrors real-world geopolitics where warlords thrive in power vacuums | no
+  - ThematicEvidence | The portrayal supports the proposition that Twilight's frustration is justified because the evil could have been stopped but the strong chose not to act | It validates Twilight's frustration: We could have stopped this, but we chose not to | yes
+- goals:
+  - The reader takes away a critique of isolationism, seeing the Storm King's rise as enabled by the inaction of strong nations | Allegories | harsh critique of isolationism
+  - The reader comes to believe Twilight's frustration is warranted, that the harm could have been stopped but was allowed | ThematicEvidence | It validates Twilight's frustration: We could have stopped this, but we chose not to
+- whole: The note argues that showing the Storm King as a joke who rose through strong nations' apathy critiques isolationism, echoes real-world warlords in power vacuums, and vindicates Twilight's frustration.

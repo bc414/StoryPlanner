@@ -1,0 +1,5 @@
+- sources:
+  - Chapter 7 | The war bond program's Kemerskai origin is true in the author's design but is not written in the chapter, so the model should not expect the chapter to state it and should treat the origin as real anyway | not explicitly mentioned in chapter 7 | referred-to
+  - Britain's emergency war economy in 1940 after the fall of France | Use as the historical template the Manehattan arc mirrors: the model should report what domestic support and consensus existed then and adapt it to ponies, who lean more toward harmony than the British | meant to mirror Britain's emergency war economy in 1940 | first-named
+- order:
+- about: The user corrects the model's assumption that EEEE has a Marksist wing by explaining the group's real ideological roots and hidden origins, then asks the model to use Britain in 1940 as a model for the domestic consensus and the path to the 83% threshold.

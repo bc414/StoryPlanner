@@ -1,0 +1,5 @@
+- questions:
+  - How does Hans Kessel, with his indoctrinated meritocratic mindset, react when Twilight and Fleur reroute the Schlacke into the firing mechanism? Does he first think the machine is weak, then have his worldview shaken when it fires stably? | no user turn | none | none
+  - How do the Drones, raised on Schlacke rations, react to donated high-purity Pink Love from Fluttershy at the POW camp? Does it cause an emotional awakening that breaks their Jaeger-Geist conditioning? | no user turn | none | none
+- shape: none
+- settles:

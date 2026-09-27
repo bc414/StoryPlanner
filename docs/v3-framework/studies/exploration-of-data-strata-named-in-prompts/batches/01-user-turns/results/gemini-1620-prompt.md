@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user briefly accepts the model's offer to analyze how elastic defense counters the human wave tactic, without naming any source of data.

@@ -1,0 +1,5 @@
+- sources:
+  - Itaewon Class (South Korean KDrama) | offered as an example of where the author's sensibilities developed; the author's own recollection of a formative influence, to be taken into account when placing TLTT among related works, not a ranked or authoritative source | As an example, the South Korean KDrama Itaewon Class is where I think some of my sensibilities developed | first-named
+  - TLTT | the author's story, treated as the work to be compared against grimdark: what it keeps, what it drops, what it adds, and whether audiences would like its twist | Would people like the TLTT twist on the genre? What does TLTT preserve versus drops | referred-to
+- order:
+- about: The user asks the model a set of open questions about why audiences like grimdark, how TLTT's twist would land, and the origins and peer works of 2017 hopepunk, and adds Itaewon Class as a personal influence.

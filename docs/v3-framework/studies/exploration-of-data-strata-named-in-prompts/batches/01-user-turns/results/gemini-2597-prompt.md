@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general science question about how testosterone and estrogen differ and how their levels affect behavior across genders, without pointing at any body of material for the model to use or avoid.

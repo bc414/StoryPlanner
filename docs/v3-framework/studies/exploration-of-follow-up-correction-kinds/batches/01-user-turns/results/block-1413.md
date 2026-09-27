@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's must-include list treated the narrative property definition and value files as central to the architecture handed over, but the user says narrative properties are not in view yet and only the data matters | Note that I am not thinking about the narrative properties at all yet, only the data | flat statement of scope, offered as a caution in passing, with no apology
+  - reading of the request | The model's framing of an architecture-wide analysis assumes a broader scope than the user has, which is only organizing the existing notes and not verifying stages, categorizing, statistics or prose | I am only interested in organizing existing notes | flat and repeated, listing the later stages as far off, with a little insistence
+- about: The user reports having put Models.txt and ViewModels.txt into project memory in place of the suggested single file, then narrows the scope to organizing existing notes and describes the current state of their unsorted seed data.

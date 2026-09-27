@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want to go deeper into the Othello-GPT papers and the evidence for internal world models? | ignored | Nothing about Othello or world models. | none
+  - Does the user want to explore the grounding problem and whether multimodal models (vision plus text) could solve it? | ignored | Nothing about grounding or multimodal models. | none
+  - Does the user want to explore the mathematics of word embeddings, meaning how vectors quantify meaning? | partly answered | Doesn't accept the offer by name. It asks its own narrower question about embeddings: how many dimensions a vector has in current models, and how that compares to the number of concepts in the world. | "how many dimensions are in a vector? Is it more of less than the number of "concepts" in the world?"
+- shape: Redirects to a new factual question of its own. It picks up the vector and embedding thread from the model's explanation but ignores the menu and asks about the dimension count of vectors in current LLMs, compared with the number of concepts in the world.
+- settles:

@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Plans that the reader should experience Rainbow Dash's growing respect for Trimmel as earned by her earlier pattern of behavior rather than as a break in her character | should feel earned from the past pattern, not character breaking | yes
+- goals:
+  - The reader should experience Rainbow Dash's shift to respecting Trimmel as earned and in character, not as a character break | NarrativeArchitecture | should feel earned from the past pattern, not character breaking
+- whole: The note sets a reader-experience target for Rainbow Dash's arc: her respect for Trimmel must land as earned from her established pattern and not as out-of-character.

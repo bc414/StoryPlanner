@@ -1,0 +1,7 @@
+- sources:
+  - the 4-axis framework (16 combinations, 10 seemingly meaningful, plus the analogical track) | put under audit; the claim that only 10 are meaningful is a hypothesis to test, not settled | "I want to audit this" | referred-to
+  - the author's own instinct that only 10 combinations are meaningful | provisional, to be checked rather than trusted | "that's what my instinct says" | first-named
+  - the layers of the author's ontology (layer 1, layer 3 for characters, layer 4 syuzhet) | used as the mapping that generalizes the axes across subjects; treated as the author's working basis | "layer 4 syuzhet or ontology/psychology" | referred-to
+  - the distinction between prospective and retrospective zero focalization identified earlier in the conversation | accepted as real and to be carried into the track headers; its link to metatextual is to be untangled | "identified earlier" | referred-to
+- order:
+- about: The user asks the model to audit the six unstated combinations of their four-axis note framework, proposes it generalizes to codex entries, and floats renaming metatextual and putting the prospective/retrospective distinction in track headers.

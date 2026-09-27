@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user follows up on the remittance and currency discussion by asking what consumer goods Skyfall would sell to immigrant-supported families, whether the British, French, Americans and Dutch worked this way historically, and whether Skyfall would also sell cheap industrial food, including resold canned goods from Applejack's family company.

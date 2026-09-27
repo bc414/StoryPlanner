@@ -1,0 +1,4 @@
+- claims:
+  - History | Eros took on Chrysalis's eat-the-rich ethos as a matter of fact in the world, which sets the ethos the Reich runs on | Eros adopted Chrysalis's eat the rich ethos | no
+- goals:
+- whole: The note records in one line that Eros took over Chrysalis's eat-the-rich ethos as a world fact behind the Reich, and it asks nothing of the reader.

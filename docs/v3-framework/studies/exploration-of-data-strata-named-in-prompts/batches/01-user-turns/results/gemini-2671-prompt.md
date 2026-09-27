@@ -1,0 +1,5 @@
+- sources:
+  - development history in the notebooks | search it to find where the term "poseur" first came from; treated as the record to settle the origin | "find where this term came from in my development history in the notebooks" | referred-to
+  - the author's own recollection that they coined "poseur" for the changelings | held as a belief, not settled; to be checked against the notebooks | "I believe I originally came up with the concept" | first-named
+- order:
+- about: The user questions the model's attribution of "poseur" to the nobles, says they think they coined it for the changelings, asks the model to trace the term's origin in the notebooks, and asks whether Chrysalis is not a poseur or the ultimate one.

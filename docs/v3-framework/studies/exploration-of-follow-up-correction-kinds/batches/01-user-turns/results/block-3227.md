@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user lays out their magical-spirits-as-cattle prestige economy for the Great Lakes zebras, asks for an analysis including how it would apply to the matrilineal Zumidia paradigm, and adds a new decision about Zecora's rhyming being a deliberate, Zecora-specific choice, without disputing anything the model said.

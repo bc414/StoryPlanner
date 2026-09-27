@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that Into Darkness doesn't mistreat Selina and only treats her as a secondary reward. The user says her role is set up as a member of an exploration and rescue team with Liam and Tristan, and that being sidelined against that premise is mistreatment. | "did \"mistreat\" Selina in a sense because the premise of Explorers of Sky is that she, Liam and Tristan are an exploration team/rescue team" | Stated as disagreement, softened with "I feel like" and "in a sense", with the story's premise given as the reason
+- about: The user pushes back on the model's claim that Into Darkness doesn't mistreat Selina, arguing that because the premise makes her a co-member of the rescue team, reducing her to a reward is itself mistreatment.

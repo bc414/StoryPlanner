@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user extends the model's Jaguar/Eagle framework by sorting the three kinds of Tzinacatl tribes (drug, isolationist, medicinal) into it and checks the mapping with a question, without saying the model got anything wrong.

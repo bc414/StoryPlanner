@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about where to enforce a 3-to-5 item limit, in the system prompt or in the structured output schema, without disputing anything the model said.

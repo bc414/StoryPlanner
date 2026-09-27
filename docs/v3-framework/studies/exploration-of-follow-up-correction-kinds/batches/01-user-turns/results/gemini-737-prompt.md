@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact about the user's own setup | the model assumed the JSON story planner could be exported from a phone app and used in a mobile workflow, when the planner is only a desktop WPF program | My json story planner is only a WPF program | flat, terse statement of fact with no apology or explanation, made in passing before moving on to new questions
+- about: The user briefly notes that their story planner is only a desktop WPF program, which undercuts the model's mobile export workflow, and then moves on to ask what "LM" in NotebookLM stands for and for a history of the product.

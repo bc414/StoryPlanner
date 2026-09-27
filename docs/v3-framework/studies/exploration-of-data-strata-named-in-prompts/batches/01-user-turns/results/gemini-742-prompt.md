@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user says that something further is visible on the Studio tab of the app, apparently to report what their screen shows, and points to no body of material for the model to use or avoid.

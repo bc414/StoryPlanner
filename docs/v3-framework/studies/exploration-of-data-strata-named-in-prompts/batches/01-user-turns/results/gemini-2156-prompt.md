@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks general factual questions about how the Haber-Bosch process was discovered and works, and how it fits in the timeline with the guano islands and whatever came before them, without pointing the model at any particular body of material.

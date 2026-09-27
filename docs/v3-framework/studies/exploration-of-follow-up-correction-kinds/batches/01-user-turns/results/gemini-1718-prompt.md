@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's account of Dennis Discret's defection and of Aquileian naval impotence is taken to contradict or ignore what the user's own lore already says, so the model must go back to the planning material and redo it | Reread my lore and reevaluate | flat, terse imperative with no reason or specifics given
+  - which material was drawn on | The model built its answer on invented or assumed details (FJA alignment, 1008 bank run, no anti-submarine capability) instead of the user's established lore documents | Reread my lore | flat directive, implying the model did not consult the lore
+- about: The user tersely tells the model to go back to their lore and redo its conclusions about Dennis Discret and the Aquileian navy, implying the previous answer did not match it.

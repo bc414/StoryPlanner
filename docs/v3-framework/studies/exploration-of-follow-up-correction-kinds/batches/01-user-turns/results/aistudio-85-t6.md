@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers a new worldbuilding premise, not a rebuttal of the translator proposal: the harvesters are efficient and made by Griffon contractors, their poor yield comes from unstable coerced love (with a factory-farmed chicken analogy), and Hans Kessel's demotion comes from his business being made obsolete, not from incompetence.

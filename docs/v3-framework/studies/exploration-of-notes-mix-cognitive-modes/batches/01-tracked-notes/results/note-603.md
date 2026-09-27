@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (god-mode world definition of what the system's rules are) | The Griffonian Republic's cultural roots lie in the atomic family: husband, wife and their cubs, living in their own house apart from parents and grandparents | The GR cultural roots are in the Atomic (Nuclear) Family, a husband, a wife, and their cubs. They live in their own house, separate from parents/grandparents. | outside
+- goals:
+- whole: The note defines, as a rule of the fictional world, that the Griffonian Republic's culture is rooted in the nuclear family living in its own separate household, and asks nothing of the reader.

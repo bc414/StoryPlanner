@@ -1,0 +1,4 @@
+- claims:
+  - History | The organization's members fled to Grenclyf, reported as an event that happened in 1002 | They flee to Grenclyf | yes
+- goals:
+- whole: The note reports, as a key event in the organization's history, that the Acornage Changelings fled to Grenclyf.

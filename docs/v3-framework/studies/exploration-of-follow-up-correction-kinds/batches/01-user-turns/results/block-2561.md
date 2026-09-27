@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model said the extractors-are-needed point challenges the story's thesis because the story supposedly holds that cooperation replaces extraction entirely. The user says the story's theme is a healthy balance of pink and red love, so the point fits the story instead of challenging it. | "This seems inline with the theme of a healthy balance of pink and red love" | Mild and indirect. Presented as agreement and a fit with the theme, with no explicit statement that the model was wrong. The correction is carried by the reframing and the one-line rationale about stagnation and the real world.
+- about: The user takes the model's point that cooperators depend on extractors and recasts it as confirming the story's intended theme of balance between pink and red love, not as a challenge to that theme.

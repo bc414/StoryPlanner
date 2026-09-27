@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft C# logic for the WPF app that exports SQLite data into cross-referenced markdown files? | ignored | Says nothing about the export code and asks a separate question about whether Antigravity can be used for this or only Code Assist. | none
+- shape: Sets aside the offered next step and redirects with a new, short factual question about tooling: whether Antigravity, not just Code Assist, can do the file-indexing approach the model described.
+- settles:

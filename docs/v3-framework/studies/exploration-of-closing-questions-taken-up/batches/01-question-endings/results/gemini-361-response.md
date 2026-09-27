@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the DTOs and AutoMapper profiles generated to go with the fanfiction entities? | ignored | The user turn does not say yes or no to the DTOs and AutoMapper offer. It asks for something else, model classes for their own app. | none
+- shape: Redirects away from the offered DTOs and AutoMapper to a new request. The user asks for model classes for their own project, a local interactive-server Blazor app called "narrative loom", in place of the fanfiction-site example.
+- settles:
+  - The project is a local Blazor app in interactive server mode, and its name is "narrative loom" | "my \"narrative loom\" local interactive server blazor app"

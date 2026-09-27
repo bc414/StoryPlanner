@@ -1,0 +1,11 @@
+- sources:
+  - The Gemini era | treat as prone to hyperbole; its extreme phrasings are not needed, though the Stalliongrad event itself still stands | "The Gemini era was prone to hyperbole" | referred-to
+  - 2nd battle of Tall Tale (TLTT chapter 4 "Magic", TKOW chapter 12 "Tall Tale") | treat as established evidence of what Réni has already experienced, where saving conscripts by bombing officers worked and he was called a hero | "the 2nd battle of Tall Tale" | referred-to
+  - the same chapter in TLTT where the drug deal is motivated | treat as established plot fact that the Stalliongrad horror is about to reach Manehattan, and use it to inform Réni's thinking | "in the same chapter in TLTT, the drug deal is motivated" | referred-to
+  - TKOW | treat as read before Chrysalis's prequel, so Réni's moment cannot depend on knowledge the prequel supplies; its theme is unconditional dignity over conditional dignity | "TKOW should be read before Chrysalis's prequel" | referred-to
+  - Chrysalis's prequel | treat as read after TKOW; the system working without her is something only she can perceive there, and it holds the full unraveling of bottom up over top down | "Chrysalis's prequel is the full unraveling" | referred-to
+  - TLTT | treat as having its own theme, conscience over extraction, as a fixed frame for the reanalysis | "TLTT is about conscience > extraction" | referred-to
+  - my archeology of the past prompts | treat as evidence of creative origin, where the Vinovia serf demographic came first and Réni was made to embody it, and use it to inform the reanalysis | "my archeology of the past prompts actually reveals" | referred-to
+- order:
+  - TKOW over Chrysalis's prequel | "TKOW should be read before Chrysalis's prequel"
+- about: The author rejects the earlier hyperbolic framing and the Chrysalis-centred realization, offers his own alternative for Réni's Stalliongrad moment (a preview of home war and conscription, and the masses that can't be saved), fixes reading order and themes for TKOW, TLTT and the prequel, adds the demographic-first origin, and asks what Réni's moment should be.

@@ -1,0 +1,4 @@
+- sources:
+  - the idea that her parents named her Souris but the Lord called her Minette (the model's suggestion earlier in this conversation) | taken up as the author's preferred direction and treated as the working premise to build on, though the model is asked to test whether it makes sense | I like the idea that her parents named her Souris | referred-to
+- order:
+- about: The author adopts the model's suggestion of a parents' name versus a Lord's pet name, asks whether it is plausible for a sadistic griffon lord to rename her ironically, and adds their own idea of the family's threat and how housework protects them.

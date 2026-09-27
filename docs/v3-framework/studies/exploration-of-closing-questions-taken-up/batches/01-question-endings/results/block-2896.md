@@ -1,0 +1,7 @@
+- questions:
+  - Should Participation be one ternary axis (Unconditional / Meritocratic / Stratified) or two binary axes, i.e. does the world need the fourth state of unconditional dignity plus permanent stratification? | answered | Takes the ternary axis as the correct move. It also redefines stratified as being denied material conditions, which changes the model's premise about categorical barriers. | I can see the unconditional vs meritocratic vs stratified being the correct move
+  - Does the user want to test the five-axis scheme (one ternary) against the full system inventory? | ignored | Says nothing about running the inventory test. It asks a new question about whether other axes should be ternary. | Now are there any other ternary axes?
+- shape: Accepts the model's recommendation, but first corrects the definition of one of its terms (stratified means denied material conditions, not permanent categorical barriers). Then it sets a new task: check the other axes for ternary candidates and explain the reasoning either way. It does not take up the offered inventory test.
+- settles:
+  - Participation becomes a single ternary axis with the values Unconditional, Meritocratic and Stratified. | I can see the unconditional vs meritocratic vs stratified being the correct move
+  - Stratified is defined as being denied material conditions, not as being locked out by categorical barriers. | My definition of stratified is about being denied material conditions

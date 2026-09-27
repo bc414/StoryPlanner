@@ -1,0 +1,6 @@
+- claims:
+  - WorldInference | The organization's practice of mashing all fruit into one mush and canning it together is a deliberate signal, the point the reader is meant to catch | Mashing all fruit into a mush and shoved into the same cans is exactly the point | yes
+  - WorldInference | Members of different kinds, such as apples and pears, are blended together and treated as interchangeable, with no judgement or distinction between them | Apples and pears can be mushed together with no judgement or difference | yes
+- goals:
+  - The reader infers that the organization's members are homogenized, with their differences erased and no distinctions drawn between them | WorldInference | exactly the point; with no judgement or difference
+- whole: The note sets up the fruit-mush canning as an image from which the reader is to infer that the organization blends its varied members into one undifferentiated mass.

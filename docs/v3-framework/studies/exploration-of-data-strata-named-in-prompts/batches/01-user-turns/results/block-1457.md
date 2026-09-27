@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user checks their understanding that the K-map suits Boolean simplification rather than semantic meaning, then asks the model to explain the tradeoffs of making the second outer axis ontology/events or fabula/syuzhet, and of placing an axis in the outer versus inner square of the nested Punnett layout.

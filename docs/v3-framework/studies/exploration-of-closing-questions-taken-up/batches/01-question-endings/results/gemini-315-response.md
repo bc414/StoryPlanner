@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to move on to how the Grand Coalition handles the Changeling threat, including whether Diamond Dog tunnelers, Equestrian factories and Griffon air power combine forces? | ignored | Nothing about the Changelings or the coalition's defence. The user goes back to the political status of Bronzehill and Grover VI in the pact. | none
+- shape: Redirects. The user passes over the offered next step and asks the model a question of their own about the Bronzehill settlement: is Bronzehill a Canada-style dominion with Grover as ceremonial head of state? In doing so the user also corrects the frame by stating that the GR has no monarch and is a pure republic like France.
+- settles:
+  - The Griffonian Republic has no monarch. It is a pure republic on the French model, not a Britain-style crowned state. | GR has no monarch, they are a pure Republic like France. Not Great Britain

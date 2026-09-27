@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a character-note template for keeping manual notes organized in the app? | ignored | The user does not take up the template offer and reports that the app's bottom navigation shows only sources, chat and studio. | none
+- shape: Reports that the interface doesn't match the model's instructions: the bottom navigation has no notes section. It implicitly asks the model to correct or redo its how-to-add-a-note steps, and it leaves the template offer alone.
+- settles:

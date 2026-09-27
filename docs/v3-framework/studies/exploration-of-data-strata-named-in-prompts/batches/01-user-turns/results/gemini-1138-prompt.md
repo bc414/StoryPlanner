@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the specific details of the trench rescue scene can be refined or reimagined, without pointing the model at any particular body of material.

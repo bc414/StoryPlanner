@@ -1,0 +1,7 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model proposed using the v1 app as the reference panel, which would require more work on v1; the user rules out any further software engineering on v1 | I don't want to do software engineering work on v1 anymore | flat statement of a constraint, stated as a preference
+  - reading of the plan | The model treated the divergence between the two databases as a synchronization problem to avoid, and pushed for one database; the user says the divergence is deliberate because subjects need consolidating and new ones created | the data model divergence is intentional | flat, with a reason given
+  - reading of the request | The model steered toward a single in-place database with Unassigned notes hidden or ignored, when the user wants the working copy kept apart from the reference; the user restates the separation as a requirement | I don't want to do this in place, I want it separated | flat, direct rejection of the suggestion
+  - register or format | The model answered with a recommendation and a closing question; the user asks for an analysis and a list of gaps in understanding for them to clarify | Give an analysis and also point out gaps in understanding | directive, stated plainly as an instruction for the next response
+- about: The user rejects the model's one-database-plus-v1-app suggestion by stating constraints it missed (no more v1 engineering, intentional divergence, separation wanted) and asks for an analysis with the gaps in the model's understanding listed for them to clarify.

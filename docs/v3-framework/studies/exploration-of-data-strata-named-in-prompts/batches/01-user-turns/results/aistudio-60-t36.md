@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for name suggestions for the civilian unicorn who will later be corrupted into the shadow monster styling itself "King Sombra", using Luna's corruption into "Nightmare Moon" as a parallel, without pointing the model at any body of material.

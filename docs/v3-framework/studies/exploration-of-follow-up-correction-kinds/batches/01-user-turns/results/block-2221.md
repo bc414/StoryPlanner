@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of the prequel structure and moves on to a new request, asking whether any related blog posts or articles exist online as of June 2026.

@@ -1,0 +1,9 @@
+- questions:
+  - Whether the user wants to analyze the choreography of the scene where Applejack kills Pagala on the throne, so it keeps the 'Strong to be Merciful' theme while being brutal | ignored | The user turn does not take up the Pagala scene. It goes on to refine the ultimatum wording, add a consequence for civilians, and plan the Vanhoover ultimatum. | none
+- shape: Does not answer the model's offer. The user carries on with their own agenda. They propose a small rewording of the ultimatum, add a story consequence (civilians take the line as a mandate against collaborators, and Applejack only learns of it in Stagnation), plan a repeat of the line at Vanhoover, and then ask the model to weigh a 1-hour deadline against a 12-hour one.
+- settles:
+  - The ultimatum wording is refined: it adds 'At dawn, the sun will rise... but the night will fall on every creature who still dreams of conquest.' This is offered as a 'what if' refinement, not a firm decision. | 'What if I refine it to'
+  - Applejack's verbatim copy of Nightmare Moon's line gives pony civilians a mandate to go after the collaborators who punched down. This is put as a 'what if'. | 'gives the pony civilians the mandate to go after the collaborators'
+  - Applejack does not learn the consequences of her words until Celestia pulls the plug on the war in Stagnation. | 'doesn't learn the consequences of her actions until Celestia pulls the plug'
+  - Applejack repeats the same line when Vanhoover, the concentration camp held by statthalters, is encircled. The user frames this as their own expectation ('I think'). | 'Applejack will repeat this exact line when they encircle Vanhoover'
+  - The Vanhoover assault is an air flyover that teleports the Luna Nova rifles in, followed by tanks rolling through the streets. The deadline is unsettled between 1 hour and 12 hours. | 'air flyover to teleport the luna nova rifles followed by tanks'

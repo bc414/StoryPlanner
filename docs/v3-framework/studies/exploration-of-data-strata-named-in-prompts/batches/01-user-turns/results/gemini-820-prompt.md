@@ -1,0 +1,5 @@
+- sources:
+  - my story, with Hivemarshall Trimmel as the main antagonist and his significantly reworked backstory | treat as the author's settled plan: Jachs is not part of it and Trimmel is the nuanced antagonist to be reformed | I wasn't really planning on including Jachs in my story since the main antagonist to be reformed and has all the nuance is Hivemarshall Trimmel | referred-to
+  - the model's earlier lore claim about Twilight studying love with changeling scientists ("that") | treat as possibly invented and check it; the user asks whether it is real or a hallucination | is there a path where Twilight studies the love with changeling scientists or was that a hallucination? | referred-to
+- order:
+- about: The user sets aside the model's Jachs suggestion because their own story centers on Trimmel, then asks the model to confirm whether the earlier idea of Twilight studying love with changeling scientists is real or made up.

@@ -1,0 +1,5 @@
+- claims:
+  - History | Twilight cast a mass harvesting spell at the end of Applebuck Season, an event before the story begins | Twilight used a mass harvesting spell at the end of Applebuck Season | yes
+  - History | After that, Twilight began work on a spell matrix intended as a gift for Applejack | She started trying to make a spell matrix to give to Applejack | yes
+- goals:
+- whole: The note reports two past events in Twilight's backstory as plain facts: her mass harvesting spell and her start on a spell matrix for Applejack.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user confirms the model's identification of Tammany Hall and moves on to ask how it connects to their backstory and whether it offers room for inspiration or subversion.

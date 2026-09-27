@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Rarity and Flowing Current should already be at the Aquileian tribes conference offering war bonds when Comet Shine arrives to sign, and describes the scene's central conflict, which is the tribes' doubt that the bonds will be honored, without pointing to any body of material for the model to use.

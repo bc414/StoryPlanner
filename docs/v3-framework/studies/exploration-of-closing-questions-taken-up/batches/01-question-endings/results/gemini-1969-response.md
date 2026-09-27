@@ -1,0 +1,4 @@
+- questions:
+  - Is the user planning to play a specific campaign in the region, or researching the lore for a project? | no user turn | none | none
+- shape: none
+- settles:

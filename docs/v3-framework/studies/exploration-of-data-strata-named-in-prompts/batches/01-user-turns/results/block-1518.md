@@ -1,0 +1,6 @@
+- sources:
+  - the old classification (what R was, and O+L+W as the home of character-psychology inference) | treat as the reference for what R and O+L+W originally covered, used to correct the relabelling; R covered only thematic inference targets, not all inference targets | what R was in the old classification was NOT all inference targets | referred-to
+  - all past design attempts | treat as superseded if the user's two-step inference description is accurate and most helpful; the user asks the model to judge this | trumping all past design attempts | referred-to
+- order:
+  - the user's two-step inference description (world-truth inference in the head, then theme) over all past design attempts | conditional on the model judging it accurate and most helpful: trumping all past design attempts
+- about: The user pushes back on the model's M-for-Meaning relabel by re-explaining what R covered in the old classification, proposes a P/H/T trinary axis with a two-step inference account, and asks the model to weigh whether La and En remain separate tracks and whether allegory is a distinct mode.

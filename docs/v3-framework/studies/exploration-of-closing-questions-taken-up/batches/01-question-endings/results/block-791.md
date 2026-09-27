@@ -1,0 +1,13 @@
+- questions:
+  - How does Applejack's Equestrian government legally and economically handle a domestic faction like the Ponies First supporters who exploit the unconditional safety net to hoard wealth and refuse the communal war-bond system? | ignored | Says nothing about the Ponies First faction, the safety net or war bonds; it moves on to reworking the axes. | none
+  - How does Fleur Bloom reconcile Coltbert's Ego-Capitalism with the historical pattern of bourgeois revolutions alienating the rural peasantry and leading to communist or fascist backlash? | ignored | Never mentions Fleur, Coltbert, the peasantry or the French Revolution parallel; it goes on to restructure the axes. | none
+- shape: The user does not answer the model's Socratic questions. They correct the model's axis framework and redirect to it. They say the industrial revolution is the better anti-pole for axis 1, propose a new axis 3 (extraction vs conscience) and axis 4 (leverage vs conscience), reject isolation vs intervention, and float in-group vs universalism as a replacement. Most of this is tentative and framed as "maybe", and the supporting examples are given as facts.
+- settles:
+  - Axis 1's anti-pole is the industrial revolution itself, as the default foundation of society, rather than a rational response to ego. Feudal and agrarian societies rest on standardized food and standardized child-rearing practices in the same way. | says axis 1's antipole is better represented by the industrial revolution itself, not as a response to ego
+  - Isolation vs intervention is not part of the axes; the user says it has nothing to do with them. | I don't think isolation vs intervention has to do with it
+  - Proposed, not final: axis 3 becomes extraction vs conscience and axis 4 becomes leverage vs conscience. | Maybe axis 3 should be extraction vs conscience? While axis 4 is leverage vs conscience?
+  - Proposed, not final: the axis that replaces isolation vs intervention is in-group vs universalism. | Actually maybe it has to do with in group versus universalism
+  - Chrysalis represents the extreme of tribalism, with changelings set against everyone else. | Chrysalis is the ultimate tribalism, changelings against others
+  - Equestria embodies universalism by integrating the buffalo and Tzinacatl. | Equestria integrates the buffalo and Tzinacatl
+  - The Griffonian Republic expresses universalism through combined arms and universal translators. | represented by the combined arms and universal translators for GR
+  - Aquileia also embodies universalism, since both griffons and ponies are welcome. | Aquileia also has this because both griffons and ponies are welcome

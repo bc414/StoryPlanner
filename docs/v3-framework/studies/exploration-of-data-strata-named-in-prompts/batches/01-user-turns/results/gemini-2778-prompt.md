@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user briefly corrects the model's reading of what "earth pony magic" means, saying they meant it in terms of phosphorus and potassium weathering, without pointing at any body of material for the model to draw on.

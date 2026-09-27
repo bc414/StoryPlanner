@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets the analysis aside and asks for research into which mane 6 ships were popular, whether fandom views shifted between the Faust era and the Hasbro-mandate era, and whether TwiJack really had more screentime and compatibility earlier, doubting their own instinct rather than saying the model got anything wrong.

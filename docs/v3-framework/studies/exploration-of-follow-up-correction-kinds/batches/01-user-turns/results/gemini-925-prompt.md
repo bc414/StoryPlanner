@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the economic analysis as a given and moves on to a new request, asking for several options for what company Bright Mac and Pear Butter would found and what it would make.

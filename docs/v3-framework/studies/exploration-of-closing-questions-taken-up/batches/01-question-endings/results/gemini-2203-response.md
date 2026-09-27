@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to draft Kessel's interrogation dialogue, where he explains the hybrid rat-race mechanics to Applejack and Twilight? | no user turn | none | none
+- shape: none
+- settles:

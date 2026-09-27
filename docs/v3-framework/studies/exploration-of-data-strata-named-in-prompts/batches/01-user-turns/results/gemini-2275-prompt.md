@@ -1,0 +1,4 @@
+- sources:
+  - historical record of the Stuka's bomb load (the model's general knowledge of history) | answer from it; the user wants the real-world figure for how many bombs one Stuka carried | "How many bombs can a single stuka carry historically?" | referred-to
+- order:
+- about: The user corrects the model's premise by stating that Celestia has no oversight and still thinks the Wonderbolts are performers, adds their own idea that pegasus storm magic makes TNT as a natural Haber-Bosch process, and asks the model for the historical Stuka bomb load.

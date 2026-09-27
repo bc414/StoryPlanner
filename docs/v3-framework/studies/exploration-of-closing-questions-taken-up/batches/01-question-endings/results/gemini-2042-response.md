@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the Phase 1 prompt adjusted to include the intersection-bucket logic so bridge buckets are generated automatically? | answered | Yes. It tells the model to regenerate the Phase 1 Task with the intersection-bucket nuance built in. | Regenerate the Phase 1 Task to include the nuance of the intersection buckets
+- shape: An instruction that accepts the model's proposal and gives the next task: rewrite the Phase 1 prompt with intersection buckets. It adds a new request, for the model to list exactly which axes are relational. That request is aimed at the prompt's content and does not settle anything.
+- settles:
+  - Phase 1 of the extraction pipeline will handle intersection (bridge) buckets, kept separate from the atomic buckets. | Regenerate the Phase 1 Task to include the nuance of the intersection buckets

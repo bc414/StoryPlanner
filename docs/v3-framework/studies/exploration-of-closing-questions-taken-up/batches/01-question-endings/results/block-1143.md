@@ -1,0 +1,7 @@
+- questions:
+  - Does Fluttershy realize that giving the CMCs a sanitized myth uses the same pedagogical tools of the Stagnation of Harmony that she later condemns Celestia for? | ignored | Nothing said about Fluttershy's awareness or the parallel to Celestia's sanitizing. | none
+  - How does the Great War, with Cloudsdale bombed out of the sky, disrupt the orbit, and what are the immediate macroeconomic consequences for the Earth Pony terroir that relied on scheduled rainfall? | ignored | Nothing said about the war, the orbit, or the Earth Pony rainfall consequences. | none
+- shape: Redirects to a new question of its own. It sets out dated premises (birth year, cutie mark year, Rockfeller's seminar path) and asks whether they place the observatory buyout, the firing of the Buffalo and the admission fee within Fluttershy's childhood. It is a chronology check, and it leaves both of the model's Socratic questions unanswered.
+- settles:
+  - Fluttershy was born in 979 and got her cutie mark in 990 together with the other Crusaders-era fillies. Offered as an 'if' premise, but used as the working timeline. | If Fluttershy was born in 979 and got her cutie mark in 990 along with the others
+  - Rockfeller became an oil tycoon after attending a capitalist seminar in Skyfall alongside AJ's parents. Also offered as an 'if' premise. | Rockfeller became an oil tycoon after attending the capitalist seminar in Skyfall alongside AJ's parents

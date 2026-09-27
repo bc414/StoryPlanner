@@ -1,0 +1,6 @@
+- sources:
+  - the changelings invasion I imagined | author's own story plan, given as a correction: treat the invasion as mapping to the 2016 election, not 2024 as the model had it | a clarification, the changelings invasion I imagined mapped closer to the 2016 election | referred-to
+  - The Stagnation chapter | part of the story plan, stated as fact: it corresponds to 2020 | The Stagnation chapter is 2020 | referred-to
+  - The synthesis and election arc | part of the story plan, stated as fact: it covers the present day, including 2024 and the upcoming 2026 and 2028 | The synthesis and election arc is present day | referred-to
+- order:
+- about: The user asks whether the manosphere likes ASOIAF and whether a war story for former bronies parallels its appeal to the professional class, and corrects the model's mapping of their story's changeling invasion, Stagnation chapter and synthesis arc onto real election years.

@@ -1,0 +1,5 @@
+- questions:
+  - How do the Changeling conscripts, read as Gen Z/Alpha raised in the algorithmic meatgrinder, first process Fluttershy's unconditional kindness at Camp Fluttershy: as sophisticated torture or a manipulative trap, since they have no category for non-transactional empathy? | ignored | Says nothing about the conscripts or Camp Fluttershy; it asks a new question about the 2011 brony wave. | none
+  - How does Gilded Trust weaponize nostalgic grief for the Golden Age during the Manehattan Referendum, using its aesthetics to sell Ponies First rugged individualism to voters who want their childhood safety back? | ignored | Says nothing about Gilded Trust or the Referendum; it moves to how the analysis relates to the real-world brony wave. | none
+- shape: Redirects to a new topic. The user drops both of the model's follow-up questions and asks how the generational and economic analysis connects to the original brony fandom of 2011. It is a short open prompt that sets the next thing to examine.
+- settles:

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model presented its trace as the full lineage up to a final architecture, but it drew only on the earlier Gemini-era corpus and left out the later Conversations corpus and the current story plan | "This is just the Gemini-era corpus" | flatly, as a short scoping remark that leads straight into an instruction to add the missing sources and continue the account
+- about: The user points out that the lineage covers only the Gemini-era corpus and tells the model to extend it through the later Conversations corpus and the present story plan.

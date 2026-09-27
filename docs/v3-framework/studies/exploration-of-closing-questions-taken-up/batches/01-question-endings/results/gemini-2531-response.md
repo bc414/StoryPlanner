@@ -1,0 +1,8 @@
+- questions:
+  - Does the new context change how the Storm King should deal with the global market? | ignored | Nothing on the Storm King's market dealings. The turn goes back to why the horde exists and what drives it. | none
+  - Once he unifies Zebrica, does the Storm King sell his resources to Skyfall to undercut Chrysalis's economy? | ignored | Nothing on selling to Skyfall or on Chrysalis's economy. The turn asks about the horde's motives and its strength. | none
+- shape: Redirects. It skips the model's forward-looking market question and goes back to the premise. The user tests a refinement and asks the model to weigh it: whether anti-slaver unity is a real function of the horde, and whether it is primary or secondary to looting. The user offers a tentative leaning (secondary, but a source of structural strength) and a possible wrinkle (the Statthalters are disguised, so the warlords don't know about changelings).
+- settles:
+  - Every Zebrican warlord got their guns from the Statthalters. | "All the warlords got their guns from Statthalters."
+  - Tentative: the Statthalters operate disguised as other creatures, so the warlords may not know they are changelings. | "Perhaps they don't even know about 'changelings'"
+  - Tentative: the horde is framed as a general movement against external slavers, but that unity is secondary to looting under "join or die". It still makes the horde structurally stronger than any earlier warlord horde. | "Seems like secondary, to 'join or die'"

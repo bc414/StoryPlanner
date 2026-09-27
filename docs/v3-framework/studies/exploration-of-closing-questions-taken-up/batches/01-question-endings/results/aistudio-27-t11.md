@@ -1,0 +1,4 @@
+- questions:
+  - Does V5 look right to the user? | answered | Says V5 looks very good, a brief approval, then moves straight to a new question about its wording. | V5 is looking very good
+- shape: Gives a short approval of V5, then redirects to a new design question about the prompt. The user asks whether negative constraints should come with positive examples, whether an exhaustive positive list is possible or desirable, and whether to rely on the Role and Tone lines for the positive side. The turn asks for advice and settles nothing further.
+- settles:

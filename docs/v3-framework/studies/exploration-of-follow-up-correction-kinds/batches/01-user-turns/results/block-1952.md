@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to explain humanism and materialism, which it used as labels for the story's two framings, and says what they already know of each from EU4, Stellaris and Marxist historical materialism.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore the specific political moment where Applejack realizes the Canterlot nobles are willing to collaborate with the Changeling Bauleiters, showing rent-seekers side with fascists over their own working class? | no user turn | none | none
+- shape: none
+- settles:

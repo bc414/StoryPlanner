@@ -1,0 +1,4 @@
+- claims:
+  - History | the Love Harvester originally used crystals purchased from Diamond Mountain, reported as a fact of its invention | Originally used crystals bought from Diamond Mountain | yes
+- goals:
+- whole: The note reports as in-world historical fact that the Love Harvester was originally built using crystals bought from Diamond Mountain.

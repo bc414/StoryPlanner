@@ -1,0 +1,4 @@
+- claims:
+  - History | states as a world fact that the people use terroir and their special talents to produce magical natural polymer rubber for the war effort | They use terroir and their special talents to make magical natural polymer rubber for the war effort | no
+- goals:
+- whole: The note reports, as a plain fact of the world, how the rubber is made and what it is for, without planning how the reader meets the technology or what they take from it.

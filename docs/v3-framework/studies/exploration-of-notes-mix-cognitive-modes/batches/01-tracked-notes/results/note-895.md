@@ -1,0 +1,7 @@
+- claims:
+  - History | The work was published in 990 ALB, after Kemerskai's martial law | Published in 990 ALB after Kemerskai's martial law | no
+  - History | Kemerskai is the real model behind the work | he is actually the model | no
+  - History | The authors Caramel Marks and Fire Angel advocate implementing Kemerskai's command economy globally and by violence | essentially advocate that Kemerskai's command economy ... should be implemented globally and violently | no
+  - History | Kemerskai's command economy is a socialist order of price controls, rationed resources, a labor-backed fiat currency, absolute solidarity and no billionaire tycoons | a socialist utopia of price controls, rationed resources, a loabor backed fiat currency | no
+- goals:
+- whole: The note reports as in-world fact when the Manifesto appeared, that Kemerskai's martial-law economy is its model, and what that economy contains and what the authors urge, without saying anything of the technology's function or of any reader effect.

@@ -1,0 +1,7 @@
+- sources:
+  - the previous answer's Binary vs. Compounding synthesis ("Let me add to this") | build on it as the base and extend it with the new arc, not replace it | "Let me add to this" | referred-to
+  - the author's new story arc (Coltbert and Fleur's pride-and-ownership claim as an epistemological bias of their Aquileian lens; Twilight later challenges Fleur with pink love) | new material from the author to take as planned story content and fold into the theory | "I also came up with a story arc" | first-named
+  - buffalo studies | in-story evidence that Fleur relied on to judge pink love plausible but still needing further study; treat the conclusion as tentative | "Fleur concluded from buffalo studies" | first-named
+  - unified theory of magic | the existing framework the model is asked to refine in light of the new arc | "refine the unified theory of magic" | referred-to
+- order:
+- about: The user adds a new story arc in which Coltbert and Fleur's pride-based theory of earth pony magic is a cultural bias that Twilight corrects with pink love, and asks how this should change the unified theory of magic.

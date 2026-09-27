@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want first/last train times for a different station along the line? | ignored | Nothing said about it; the user asks about direct flights from Beijing to New York, a separate topic. | none
+- shape: Changes the subject to a new, unrelated factual question (direct flights from Beijing to New York) without reacting to the train-times answer or the offer.
+- settles:

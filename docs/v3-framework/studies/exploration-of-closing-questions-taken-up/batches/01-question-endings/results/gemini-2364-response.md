@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore how Celestia internalizes Luna's fall? | ignored | The user does not take up the offer and moves to Coltbert and Grover III. | none
+  - When Celestia banishes Luna, does she see Luna's ideological naivety as the problem, or wrongly conclude that all global intervention is evil, leading to the 1,000-year quarantine? | ignored | Nothing is said about Celestia's reading of the event or the quarantine. The user asks instead why Coltbert succeeded where Grover III failed. | none
+- shape: The user drops the model's proposed Celestia thread and redirects to the Coltbert and Grover III comparison. They put three new questions to the model. First, whether Coltbert's 981-1008 reforms work through science applied to asset-specific magic. Second, why he succeeds where Grover III failed. Third, whether Grover III's golden age only rested on the last monsters in griffon lands. The first is a check on the model's framing, phrased as a question. The other two ask for explanation. No new fact about the story is stated.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the recommended approach and moves on, asking whether Applejack should defend the princesses and sketching the next beats (Henri's arrival interrupting the talk, and his answer that the changelings are poseurs).

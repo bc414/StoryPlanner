@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to do a dry run of the impact questions, supplying a hypothetical piece of new lore generated in Gemini to test how they parse it? | ignored | The user does not take up the dry run and offers no sample lore. They move on to ask for system instructions for a Gem. | none
+- shape: The user redirects to a new task. They drop the offered dry run and the NotebookLM impact queries, and ask the model to draft system instructions for a Gem for the first, exploratory brainstorming stage of their pipeline. They also ask why those instructions would help, so this is a request for both a draft and its rationale.
+- settles:

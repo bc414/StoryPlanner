@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user brainstorms and settles on a revised backstory for King Sombra, Mi Amore and the Crystal Heart, making unicorns the ruling class and Sombra a corrupted ex-unicorn, and asks whether he should be a real unicorn or a force of nature, without pointing the model at any body of data.

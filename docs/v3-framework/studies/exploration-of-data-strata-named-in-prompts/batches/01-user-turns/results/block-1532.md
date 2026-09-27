@@ -1,0 +1,6 @@
+- sources:
+  - v1 (the 300k words of content in it) | material to be sorted and moved into v2 in full; not to be left as the context source, since it is not what gets fed as context and new material would not be reasoned on against it | needs to be sorted and inserted into v2 appropriately; using v1 for context | referred-to
+  - v2 | the destination and working system that should hold all the content, because it formats and feeds everything in as context; new additions go here and get reasoned on only if the old content is also here | v2 can format and feed in everything as context; If I'm adding to v2 | referred-to
+- order:
+  - v2 over v1 | as the place context is fed from, v1 alone would leave new v2 material unreasoned on, so v1 must be moved into v2
+- about: The user pushes back on the model's advice to leave the v1 backlog unmigrated, saying all 300k words of v1 must be sorted into v2 so v2 can feed everything as context and reason on new material.

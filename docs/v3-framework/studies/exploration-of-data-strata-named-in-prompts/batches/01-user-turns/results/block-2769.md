@@ -1,0 +1,5 @@
+- sources:
+  - Piece by Piece.txt (the attached story, an EaW story with Rarity as protagonist) | the material to be read and analysed; the model is to give a comparative analysis of it on all aspects, and the user has not read it themselves | "How about this story which I haven't read?" | first-named
+  - the user's own knowledge of EaW stories | offered as the user's hedged belief that this is the only EaW story with a Mane 6 protagonist, given as background and not as something the model must confirm | "the only EaW story to my knowledge" | first-named
+- order:
+- about: The user attaches a story file they haven't read, an EaW story with Rarity as protagonist, and asks the model for a comparative analysis of it on all aspects.

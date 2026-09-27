@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's game design, arguing that differently colored minerals and Porygons must be functionally identical so the Ottoman and Yugoslav allegory rests on material conditions rather than on diversity as a magical property.

@@ -1,0 +1,4 @@
+- sources:
+  - how refugees were sponsored to go to the US throughout history, for example Vietnam escapees, limited to the era before green card/H1Bs | use as inspiration and a real-world model for how Aquileia could sponsor the families; restricted to the earlier period, not the later visa systems | draw inspiration to how refugees were sponsored to go to the US throughout history | first-named
+- order:
+- about: The user asks how a Zebrican worker's family could be moved from the village through Skyfall to Aquileia (by bribery or Aquileian sponsorship) and asks the model to draw on historical US refugee sponsorship, such as Vietnamese escapees, from before green cards and H1Bs.

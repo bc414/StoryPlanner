@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies an attached document and a new JSON of paradigm-grouped bucket names (chronology, demographics, system mechanics, dialectics, orphan concepts) with no comment on the model's buckets, which reads as the next stage of the sorting workflow rather than a correction.

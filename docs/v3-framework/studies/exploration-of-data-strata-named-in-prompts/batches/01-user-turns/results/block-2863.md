@@ -1,0 +1,6 @@
+- sources:
+  - the original conversation, where globalization versus isolationism was proposed | look back at it and explain why that idea was rejected; treated as an earlier record the model should know or check | which was proposed in the original conversation, right? Why was it rejected? | referred-to
+  - this definition (the Door axis definition) | apply as the working test for classifying systems as open or closed | closed by this definition; maximally open by this definition | referred-to
+  - what we established about Feudal Herzland (serf-to-squire promotion) | treat as settled established canon that the model's tally must be consistent with | We established Feudal Herzland has the promotion from serf to squire | referred-to
+- order:
+- about: The user corrects several of the model's open/closed classifications from their own knowledge of the story, asks why the earlier globalization-versus-isolationism idea was rejected, and asks whether the six axes are truly orthogonal or one is derived from the others.

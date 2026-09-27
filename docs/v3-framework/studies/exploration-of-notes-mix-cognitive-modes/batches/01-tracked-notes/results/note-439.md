@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | asserts the thematic proposition that no single person should carry the burden of a thousand years of rule, framing Celestia's long sole rule as a cost of concentrated power | Nopony should have to bear the burden of a thousand years of rule | yes
+- goals:
+- whole: The note states in a single line the normative proposition, that concentrated rule is too heavy a burden for any one individual, which Celestia's character is meant to carry for the distributed-power theme.

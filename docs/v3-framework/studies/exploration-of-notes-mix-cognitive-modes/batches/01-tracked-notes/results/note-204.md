@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-rule ontology) | crystal ponies possess an emotion sense of the same kind changelings have, stated as an invariant fact of the world's biology | Crystal ponies have emotion sense just like changelings | outside
+- goals:
+- whole: The note states as a flat world-rule that crystal ponies share the changelings' emotion sense, with no stated reader effect.

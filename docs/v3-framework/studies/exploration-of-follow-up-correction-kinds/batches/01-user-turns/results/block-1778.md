@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Clash of Clans comparison to ask a new question about the economic model of Command and Conquer, how it compares to reality, and how the games in the series differ.

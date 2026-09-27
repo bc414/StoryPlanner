@@ -1,0 +1,5 @@
+- sources:
+  - history of iron and aluminum refinement from ore (steel and aluminum unavailable in medieval times) | use as the real-world template to parallel when designing how crystal purification develops | How can I parallel the evolution of iron and aluminum refinement out of ore for the crystals | first-named
+  - the crystals in my lore | treat as established lore that the answer must fit: hard to get in high purity until Industrialization | the crystals would be really hard to get in high purity in my lore until Industrialization | referred-to
+- order:
+- about: The user asks the model to map the real-world history of iron and aluminum refinement onto their lore's crystals, so that high-purity crystals only become obtainable with industrialization.

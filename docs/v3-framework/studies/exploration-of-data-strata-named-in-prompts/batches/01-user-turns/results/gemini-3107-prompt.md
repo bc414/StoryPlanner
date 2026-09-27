@@ -1,0 +1,5 @@
+- sources:
+  - chapter 3 | the material to be evaluated, the user's own enhancement of the episode; the model is to read it and give an assessment | "evaluate chapter 3 which is my enhancement" | first-named
+  - Suited for Success | the published episode that chapter 3 builds on; named as the base being enhanced, with no instruction to check against it or prefer it | "enhancement to Suited for Success" | referred-to
+- order:
+- about: The user asks the model to evaluate the next chapter in the series, chapter 3, which is their enhanced retelling of the episode Suited for Success.

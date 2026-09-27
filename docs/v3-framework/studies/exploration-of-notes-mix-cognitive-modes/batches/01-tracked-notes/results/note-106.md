@@ -1,0 +1,4 @@
+- claims:
+  - WorldInference | the feud is what ambition turns into in a society where growth and profit outlets have been removed, so it explains how the system works and what the feud is for | the feud is a manifestation of ambition when all other avenues (growth, profit) are lobotomized from society | yes
+- goals:
+- whole: The note states the underlying causal explanation of the feud, as ambition redirected by a society stripped of growth and profit, as the point the reader is to work out about the system.

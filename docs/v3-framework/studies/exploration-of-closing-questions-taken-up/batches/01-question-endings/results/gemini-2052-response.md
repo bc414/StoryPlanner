@@ -1,0 +1,4 @@
+- questions:
+  - Does the semantic chunking approach (Complete Thought Units, kept whole rather than split by sentence) satisfy the need for rigidity without shredding the data into fragments? | partly answered | The user doesn't say yes or no. They take up the chunking rule and ask whether the prompt should mention sentences at all or only 'atomic thoughts', which suggests the sentence wording is still unsettled for them. | Should sentences be mentioned at all or just mention atomic thoughts?
+- shape: A follow-up question that redirects to the prompt's wording. It asks whether to drop 'sentence' and use only 'atomic thoughts', and it neither accepts nor rejects the proposed rule.
+- settles:

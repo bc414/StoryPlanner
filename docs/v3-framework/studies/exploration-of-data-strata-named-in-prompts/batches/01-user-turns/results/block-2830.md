@@ -1,0 +1,5 @@
+- sources:
+  - the climactic scene of faking his death at the factory | an existing plan element to test the new company-town version against, asking whether it fits back in without change | does the climactic scene of faking his death at the factory click right back into place | referred-to
+  - the model's preceding proposal, including the claim that his VOPS reports degrade | mostly accepted as the working basis, but one point is rejected and corrected: his reports do not degrade because he is top of his class and knows what to write | I don't see his VOPS reports degrading because he is top of his class | referred-to
+- order:
+- about: The user asks whether the newly proposed company-town setup restores the planned fake-death climax at the factory, and corrects the model's suggestion that his VOPS reports would decline.

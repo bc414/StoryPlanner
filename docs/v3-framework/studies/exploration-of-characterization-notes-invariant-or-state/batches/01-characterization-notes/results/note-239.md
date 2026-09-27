@@ -1,0 +1,5 @@
+- claims:
+  - span | he is elderly, an old man | "elderly" | the start of TLTT, the point the track's question asks about; age is a stage of life and no date is given in the note
+  - span | he is the spiritual leader of the Herzlander religion | "is the elderly spiritual leader of the Herzlander religion" | the leadership role held at the start of TLTT, present tense; no date or span is given
+  - span | he holds the office of Archon of Boreas | "He is the Archon of Boreas" | the office as held at the start of TLTT, present tense; no date or span is given
+- beside: Backstory note 256 (914) speaks of the same office: he joined the priesthood of Boreas and rose quickly to Archon. Backstory notes 511 and 512 (both 1007) show him acting as the religious leader, declaring heretics and holding the power to execute. None of them speaks of his being elderly.

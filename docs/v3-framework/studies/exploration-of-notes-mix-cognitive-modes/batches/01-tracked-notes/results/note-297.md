@@ -1,0 +1,4 @@
+- claims:
+  - History | The organization collaborated with the Crystal Empire on advancing magical engineering and high-quality crystal mining, reported as a fact of the world over the period | Worked with the Crystal Empire on further developing magical engineering and high quality crystal mining | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that Star Energy Corporation cooperated with the Crystal Empire on magical engineering and crystal mining during 1003–1011.

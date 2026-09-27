@@ -1,0 +1,7 @@
+- sources:
+  - Tolkien's and George RR Martin's fantasy epics | treated as candidate examples to compare against the focalization framework; the model is asked whether they work this way, an open question rather than a settled claim | is this how JRR Tolkien and George RR Martin write their fantasy epics | referred-to
+  - Other published examples (the model's general knowledge) | the model is asked to supply further works that fit the pattern | Are there other examples? | first-named
+  - JK Rowling's Harry Potter series | treated as true, from the user's own recollection, and offered as a contrasting case with one focalizer apart from the opening chapters | Harry Potter series doesn't use changing characters with the specific exception of the first chapter of each book | referred-to
+  - the framework the model just laid out (variable focalization, gaps, paralipsis, avoiding paralepsis) | the yardstick the user checks the published authors against | Utilizing all the gaps, changing characters and using paralipsis while avoiding paralepsis | referred-to
+- order:
+- about: The user asks whether Tolkien and Martin actually write in the way the focalization framework describes, asks for other examples, and offers Harry Potter as a contrasting case from their own memory.

@@ -1,0 +1,10 @@
+- questions:
+  - Would the user like an analysis of how Applejack rejecting the Lion of Vinelle path feeds into her standing up to Celestia's Stagnation arguments in the next chapter? | ignored | Nothing on the offer. The user disputes the sequence it rested on, proposes a different structure, and asks for analysis of that instead. | none
+- shape: Pushes back on the model's recommended order (history first, then the name) and gives a different structure. AJ takes the name without hearing the history, because Trimmel told her to lead instead of being Celestia's puppet. The history and profile come later from Synovial at the Aquileia surrender. The user then asks the model to analyze this new plan and whether it works as the Petain connection moment. The user declines the model's follow-up offer and sets the next topic themselves.
+- settles:
+  - Applejack takes the name without first hearing the Lion of Vinelle history. Hearing it would make her not want the name. | hearing the story would make her want to not hear the name again
+  - Her motive for taking the name is Trimmel's push to be the leader rather than Celestia's puppet. | because Trimmel told her to be the leader instead of Celestia's puppet
+  - The name of war from the enemy replaces the Element of Honesty on her uniform. | replacing element of honesty with a name of war from the enemy
+  - In Aquileia, Applejack accepts Synovial's surrender. He looks at the title on her uniform and snorts, then explains the VOPS profile and why he called her that. | when AJ accepts Synovial's surrender in Aquileia, he can look at the title on her uniform and snort
+  - The Aquileia scene takes place a few towns from Vinelle. | they'll be a few towns away from Vinnelle during that moment
+  - The Petain connection is placed at the Aquileia surrender, not at the moment she takes the title. This is tentative, offered as a proposal and put to the model for analysis. | I think that can be the Petain connection moment? It's not at the time of AJ taking the title

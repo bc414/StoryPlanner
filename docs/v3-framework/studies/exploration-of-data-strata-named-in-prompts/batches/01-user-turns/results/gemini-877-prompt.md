@@ -1,0 +1,4 @@
+- sources:
+  - the full version history of a google doc | material for the model to analyze to see how the doc changed over time; the user is asking whether it can be obtained at all | obtain the full version history of a google doc for Gemini to analyze the changes over time | first-named
+- order:
+- about: The user drops the scene discussion and asks whether the full version history of a Google Doc can be obtained so Gemini can analyze how it changed over time.

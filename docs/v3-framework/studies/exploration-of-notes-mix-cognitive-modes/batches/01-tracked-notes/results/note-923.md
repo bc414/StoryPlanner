@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | the reader's opinion of Comet Shine should be that he is an ally of convenience, holding that view until a particular scene, the history lesson at the buffalo/oil workers forum, shifts it | He should be viewed as an "ally of convenience" until his history lesson during the buffalo/oil workers forum | yes
+- goals:
+  - The reader is to regard Comet Shine as an ally of convenience, a merely opportunistic helper, until the forum history lesson changes that view | NarrativeArchitecture | He should be viewed as an "ally of convenience" until his history lesson
+- whole: The note plans the reader's opinion of Comet Shine as an opportunistic ally of convenience up to the point where his history lesson at the buffalo/oil workers forum changes it.

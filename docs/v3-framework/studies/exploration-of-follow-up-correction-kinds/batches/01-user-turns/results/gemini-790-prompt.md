@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model had Trimmel conquer Manehattan and carry out the pivot there; in the story he never reaches it, because Blueblood resists and Stalliongrad enters the war, and the Statthalters run the Stalliongrad war | Trimmel does not make it to Manehattan because Blueblood resists and Stalliongrad enters the war | flat, labelled as a clarification, with the correct sequence of events given as the reason
+  - fact of the world | The model's picture of Trimmel as a cold, ruthless occupier who punishes the ponies does not fit the character. Chrysalis judges him too soft for the Stalliongrad front, and he has personal pride in the revolution | Chrysalis never assigns Trimmel to Stalliongrad front because he is too soft for that and has personal pride in the revolution | flat, stated as background to the first correction, and passed over quickly on the way to the new question
+- about: The user briefly sets the record straight on Trimmel's part in the Manehattan and Stalliongrad events, then moves on to a new question about what Trimmel reveals to Applejack, and with what attitude, in each of their four meetings.

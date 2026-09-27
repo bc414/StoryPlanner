@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's crossbow suggestion by stating that crossbows are only for clubs and that the industrial setting's proto-FJA skirmishers would use precise rifles, and contrasts them with line infantry and their coercive discipline.

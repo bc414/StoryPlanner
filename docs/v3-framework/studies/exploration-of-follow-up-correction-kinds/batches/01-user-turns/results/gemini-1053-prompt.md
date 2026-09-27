@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model set Twilight as not knowing what the drug term means and treated this exchange as where the drug trade first surfaces; the user says an earlier Applejack letter already explained the nature of the drugs so Fluttershy could diagnose the drugged POWs, so the letter order and what Twilight and Fluttershy already know differ from the model's account | "The previous letter from Applejack before this one would have been about unveiling the nature of the drugs" | Indirect and in passing: given as background premise for a new question, with no mention of error and no apology
+- about: The user supplies the earlier letter in the sequence, which reframes what Twilight and Fluttershy already know, and uses it to ask how Twilight should break the news to Fluttershy that her donors' love will feed the Skyfall drug trade.

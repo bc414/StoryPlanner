@@ -1,0 +1,4 @@
+- sources:
+  - the buckets | reference set that a manually added note's opening text is matched against, with the matching bucket's background color to be adopted by the note | if the start of it matches one of the buckets, I want it to adopt the background color | referred-to
+- order:
+- about: The user asks for a further feature in their note-categorizing app: manually added notes whose beginning matches a bucket should take on that bucket's background color.

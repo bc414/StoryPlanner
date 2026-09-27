@@ -1,0 +1,8 @@
+- sources:
+  - my story plans | read and review them before answering | Please review my story plans before answering | referred-to
+  - my lore beat on how Coltbert convinced the hired pirate Dennis Discret | the beat to analyze; treat as the author's given premise supplying the underlying reason and motivation | Now give an analysis on my lore beat | referred-to
+  - what I established that the University of Pridea predates Gerad Discret's copying of Herzlander industry and institutions | treat as settled premise the origin story must fit | I established that the University of Pridea predates | referred-to
+  - Pridea canonically is a merchant town | treat as canon that the origin story must respect | Pridea canonically is a merchant town | referred-to
+  - the dates given: Gerad Discret's throne and Herzland copying in 940 ALB, Grover III's reign 854 to 914 ALB | treat as true timeline facts to build on | Gerad Discret took the throne and started copying Herzland in 940 ALB | first-named
+- order:
+- about: The user asks the model to review their story plans and then analyze their lore beat about Coltbert persuading pirate Dennis Discret to spare the University of Pridea, and to say whether Pridea should originate in Grover III's era and what its merchant-town origin story would be, given the stated dates.

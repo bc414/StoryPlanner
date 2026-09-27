@@ -1,0 +1,5 @@
+- questions:
+  - How deep does the HR-style bureaucracy go in Canterlot? | ignored | Says nothing about Canterlot's bureaucracy; asks about the real-world history of suburbanization. | none
+  - When Applejack and Twilight push industrialization, does Celestia first send soldiers or bureaucratic 'Harmonic Compliance Officers' to gaslight them? | ignored | Does not choose between force and bureaucratic pressure, and does not mention the industrialization stage or Celestia's response. | none
+- shape: Sets the story aside and asks a new real-world history question: why people first wanted to move to the suburbs, whether it was upbringing or religion, or whether elites tricked them using the Soviet threat. It probes the causal claims the model made in the previous turn, without returning to the lore.
+- settles:

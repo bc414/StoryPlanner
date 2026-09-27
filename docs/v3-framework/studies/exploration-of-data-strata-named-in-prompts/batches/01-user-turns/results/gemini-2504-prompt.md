@@ -1,0 +1,5 @@
+- sources:
+  - Pinkie's cutie mark story (the rock farm) | treated as true and built on; the user takes the rock farm from it and reads it as a Skyfall influence | Thank you for reminding me about Pinkie's cutie mark story | referred-to
+  - The insight that Pinkie's special talent is born of the realization that she has to make the joy happen (the model's point from the previous turn) | accepted and adopted as the in-universe source of her reality-bending | The insight that Pinkie's special talent is born of the realization | referred-to
+- order:
+- about: The user accepts the model's account of Pinkie's rock-farm origin and adds their own lore: the bleakness comes from Skyfall's demand for fertilizer, and her joy-driven reality-bending is a magical result of recovering from that misery.

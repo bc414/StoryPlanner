@@ -1,0 +1,5 @@
+- sources:
+  - the insight "adulthood requires a childhood" (the model's previous point in this conversation) | accepted as key and as exposing a truth about the project; the user builds on it to interpret their audience and message | I guess this insight "adulthood requires a childhood" is key | referred-to
+  - Lauren Faust's origin of G4 from playing with G1 toys (author's own recollection of show history) | offered from memory as a tentative connection to test, not as settled; the user asks whether it means everything began with the toy mandate and the toys stand for childhood | Lauren Faust originally came up with G4 from her own creativity playing with G1 toys | first-named
+- order:
+- about: The user takes up the model's \"adulthood requires a childhood\" idea as key, applies it to their own suburban-raised target audience and the project's message of civic solidarity over cynicism, and floats a further link between Lauren Faust's G1-toy origins of G4 and the toy mandate as childhood.

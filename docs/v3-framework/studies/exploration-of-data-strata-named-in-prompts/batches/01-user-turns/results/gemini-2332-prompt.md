@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's timeline by saying Herzland has had almost no fleet since 978 so their question concerned the period before it, and then asks whether Skyfall would really split escorts from privateers or use the same ships and crews for both.

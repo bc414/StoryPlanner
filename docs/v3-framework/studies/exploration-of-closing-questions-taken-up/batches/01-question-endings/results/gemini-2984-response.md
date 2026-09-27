@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a walkthrough of downloading LM Studio and enabling the Vulkan backend to test a local coding assistant now? | answered | Declines: says the paid Google AI Pro plan with GitHub import already covers their development needs, so no local setup is wanted | The regular Google ai pro with GitHub import is more than enough for development.
+- shape: Turns down the model's offer, saying the cloud subscription already suffices, then moves to a new side question about how many parameters Google's and Anthropic's models have.
+- settles:

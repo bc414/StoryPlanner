@@ -1,0 +1,4 @@
+- sources:
+  - this paradigm (the awakening-versus-infrastructure framework just discussed in the conversation) | use as the pattern to extend, finding further real-life cases that fit it | What other examples of this paradigm | referred-to
+- order:
+- about: The user asks the model to generate more everyday examples that fit the paradigm just discussed.

@@ -1,0 +1,12 @@
+- questions:
+  - Does the user want to analyze how Applejack, as strategic commander, reacts to the shift in Changeling doctrine? | ignored | Nothing on Applejack or the offered analysis; the user goes on to Minette and Réni. | none
+  - How does Applejack adapt the Republic's defense once Chasseur tactics stop working and drugged conscripts hit the lines? | ignored | Nothing on Applejack or the Republic's defensive adaptation. | none
+- shape: Sets aside the model's offered next step and redirects to character backstory. The user separates Minette from Réni, refining the model's picture of the heroes all losing their hunter's joy together. The user says Réni's arc is driven by the dissonance of shooting conscripts, and gives the backstory behind that.
+- settles:
+  - Minette was groomed and lacked agency, which left her with trauma. | Minette had trauma from lack of agency during the grooming phase
+  - Minette's mentality changes when she sees crystal ponies recovering from Sombra's slavery. | change in mentality when seeing all the crystal ponies trying to recover
+  - Réni nearly always had agency, unlike Minette. | Réni nearly always had agency
+  - Cecille Gaudreau gave Réni's family economic rights when he was 9. | gave his family economic rights when he was 9
+  - Cecille let Réni go to the revolutionary city as a pressure release valve. | pressure release valve
+  - Réni returned to Vinovia with the anti-poseur crusade mindset. | came back to Vinovia with the anti poseur crusade mindset
+  - Réni's character development comes from the cognitive dissonance of shooting conscripts in the present day to protect the trenches (stated tentatively). | I think the cognitive dissonance of shooting conscripts in present day

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a walkthrough of steps for their specific operating system, or help checking whether their router model allows a DNS override? | ignored | Moves to an unrelated topic (homemade paté) and does not touch either offer | How to make homemade paté
+- shape: Abrupt change of subject: drops the DNS/router topic and starts a new, unrelated request for a paté recipe, with no reference to the model's offer.
+- settles:

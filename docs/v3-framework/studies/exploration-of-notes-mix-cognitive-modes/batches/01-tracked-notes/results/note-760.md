@@ -1,0 +1,6 @@
+- claims:
+  - History | Prince Blueblood delivers the Dotted Line Report to Celestia | Prince Blueblood delivers the Dotted Line Report to Celestia | yes
+  - History | Celestia authorizes creation of a volunteer-only Equestrian Army | She authorizes the creation of a volunteer-only Equestrian Army | yes
+  - History | Blueblood and Luna are appointed field marshals of the army | Blueblood and Luna are field marshals | yes
+- goals:
+- whole: The note reports, as in-universe history for 1007, the delivery of the Dotted Line Report, Celestia's authorization of a volunteer-only Equestrian Army, and the naming of Blueblood and Luna as field marshals.

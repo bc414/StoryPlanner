@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general historical question comparing the Ottoman sultan with European monarchs on family structure and statecraft, and whether the Ottoman state was centralized earlier than any in Europe, without pointing the model at any particular body of material.

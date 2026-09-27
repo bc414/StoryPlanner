@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user builds on the proposed Vérany storyline by adding that Coltbert would notice Vérany's recovery, be pleased because it means he won the newspaper war, and hide it from Discret, then asks what the spiteful-acquaintance dynamic between Coltbert and Vérany would be.

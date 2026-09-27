@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the code-packaging script review to a new, large request: with the packaged source, database dump, screenshots and guidance documents attached, they ask how to reorganize their story-planner notes and entities (fabula) to serve writing the syuzhet, adding no objection to the model's earlier advice.

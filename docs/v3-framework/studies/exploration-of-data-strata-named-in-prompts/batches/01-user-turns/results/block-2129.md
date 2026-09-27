@@ -1,0 +1,8 @@
+- sources:
+  - the db file | primary base layer to take into account first in the reanalysis | taking into account the db file | referred-to
+  - the earlier turns | second layer, read after the db file; may be displaced by newer assertions, and displaced items are kept as reader prior belief | then the earlier turns | referred-to
+  - these new insights | newest layer, its assertions can override older ones | now these new insights | referred-to
+- order:
+  - these new insights over the db file and the earlier turns | newer assertions can trump old ones
+  - the earlier turns over the db file | db file first, then the earlier turns, with newer assertions trumping old ones
+- about: The user asks the model to redo its analysis by layering the db file, then the earlier turns, then the new insights, letting newer assertions override older ones while keeping displaced older ones as reader prior belief.

@@ -1,0 +1,4 @@
+- sources:
+  - the json | the input data to be parsed, with each bucket string under a paradigm turned into a card in the collection | Fill out the correct logic for parsing the json | referred-to
+- order:
+- about: The user pastes their PasteBuckets method with its colour map and a TODO, and asks the model to write the code that parses the JSON into the observable collection of bucket card view models.

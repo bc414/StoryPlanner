@@ -1,0 +1,4 @@
+- sources:
+  - Equestria at War | the model is asked to draw on this published mod/setting to say what the abbreviation stands for; treated as the reference for the answer | In Equestria at War, what does pdna stand for? | referred-to
+- order:
+- about: The user asks the model a short factual question about what an abbreviation, \"pdna\", means within the published setting Equestria at War, following a discussion of party names.

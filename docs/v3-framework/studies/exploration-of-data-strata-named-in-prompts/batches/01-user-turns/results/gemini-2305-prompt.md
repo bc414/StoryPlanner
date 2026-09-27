@@ -1,0 +1,4 @@
+- sources:
+  - actual hybrids and EVs (battery and inverter systems) | use as the real-world engineering model for how the crystals work, as a proposed alternative to the previous thermoelectric mechanism; offered as a suggestion, not settled | how actual hybrids and EVs work | first-named
+- order:
+- about: The user proposes, as a question, that the crystals work like batteries with inverters in real hybrids and EVs, so that they suit vehicle propulsion but are too chaotic for precise spell matrices unless in the highest-grade forms.

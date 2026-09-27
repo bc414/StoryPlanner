@@ -1,0 +1,3 @@
+- claims:
+  - span | He is a true believer of Gesunder Menschenverstand, a committed adherent of that creed or ideology | "true believer of Gesunder Menschenverstand", present tense, in a note answering who he is at the start of TLTT | the start of TLTT, given by the track's display question; the note has no date or span of its own
+- beside: none

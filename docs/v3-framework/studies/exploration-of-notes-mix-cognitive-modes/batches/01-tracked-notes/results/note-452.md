@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | The changelings, as a group, escaped the predator's dilemma by living among ponies where food is abundant and friendships are possible; this is asserted as the truth of what binds them | They escaped the predator's dilemma by living with ponies where food is abundant and they can make friends | yes
+  - Characterization | The changelings often lived day to day in pony personas in order to fit in, asserted as a fact of their behavior and psychology | However, they often lived their day to day with pony personas in order to fit in | yes
+- goals:
+- whole: The note asserts the psychological truth of what binds the Acornage Changelings: they escaped the predator's dilemma by living among ponies with abundant food and friendship, while often hiding behind pony personas to fit in.

@@ -1,0 +1,4 @@
+- sources:
+  - old versions | earlier uploaded versions of the story export; the user asks whether they must be deleted or may stay, and takes no stance on whether they are outdated or still usable | Do I need to delete old versions or can I just leave them there? | referred-to
+- order:
+- about: The user asks a short follow-up question about whether earlier uploaded versions of their story export must be deleted from the notebook or can be left alongside the new one.

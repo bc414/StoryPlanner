@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | Withdrawal from Blitz Essenz produces several days of coma, nightmares, anhedonia and exhaustion, stated as a rule of how the technology works | Withdrawal symptom: comatose for several days and nightmares, plus anhedonia (no joy), and exhaustion | outside
+- goals:
+- whole: The note states, as a flat rule of the fictional universe, what withdrawal from the technology Blitz Essenz does to a user, and it says nothing about what the reader should take from it.

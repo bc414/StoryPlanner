@@ -1,0 +1,7 @@
+- questions:
+  - Is the love separation truly impossible, so Chrysalis's harvester extracts a corrupted blend, or did she invent a process that splits it and disproves the Unified Theory? | no user turn | none | none
+  - Is Las Pegasus a rogue black-market city that Celestia tolerates as a pressure valve, or does its existence undermine her perceived omnipotence? | no user turn | none | none
+  - Are natural-born alicorns (Celestia, Luna) immortal while ascended alicorns (Twilight, Cadance) stay mortal? | no user turn | none | none
+  - How does the user want to resolve these six contradictions, by adjusting the magic system or the geopolitical history? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the notebook-versus-Google-Doc comparison to a new request, asking which ideas from their original planning document survive in their detailed JSON of story plans.

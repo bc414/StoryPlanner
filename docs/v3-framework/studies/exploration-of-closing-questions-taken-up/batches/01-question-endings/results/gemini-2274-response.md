@@ -1,0 +1,9 @@
+- questions:
+  - Who secretly casts the steel bomb casings, for example sympathetic blacksmiths or foundries in Manehattan working under cover as industrial pipe or pylon makers? | ignored | Nothing on who forges the casings. The turn drops the disguised-supply-chain setup by saying Celestia has no oversight, and it gives its own source for the explosive filler. | none
+  - Does Chrysalis's intelligence recover a dud, reverse-engineer it, and use it as proof to Celestia that the Wonderbolts are breaking her pacifist laws? | partly answered | It takes up only the Celestia end: she has no oversight, thinks the Wonderbolts are still performers, and is blind to their militarization. It does not say whether Chrysalis recovers or exploits duds. | Celestia has no oversight. She thinks the Wonderbolts are still aerial performers.
+- shape: Corrects the model's premise that Celestia is watching the military budget, then adds its own world facts: how the Wonderbolts make TNT and why they militarized. It closes by moving to a new real-history question about Stuka bomb load, and leaves the model's two questions unanswered.
+- settles:
+  - Celestia has no oversight of the Wonderbolts, so the militarization does not need hiding from her budget checks. | Celestia has no oversight.
+  - Celestia believes the Wonderbolts are still aerial performers and does not know they have militarized. | She thinks the Wonderbolts are still aerial performers. She is blind
+  - The Wonderbolts chose to militarize after the successful defense of Mount Aris. | decision to militarize after the successful defense of Mount Aris
+  - The Wonderbolts produce TNT themselves, using pegasus weather magic in thunderstorms as a natural Haber-Bosch process, not laundered fertilizer or blasting supplies. | can make TNT with their pegasi magic making thunderstorms since it is a natural haber Bosch process

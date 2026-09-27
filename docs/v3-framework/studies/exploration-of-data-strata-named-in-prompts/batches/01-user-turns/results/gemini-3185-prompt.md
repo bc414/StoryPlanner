@@ -1,0 +1,6 @@
+- sources:
+  - full ingestion | one candidate way to feed the material to DeepSeek R1, asked about as an option whose viability is in question, with no verdict given | So would DeepSeek R1 work with full ingestion | referred-to
+  - the sqlite graph | a candidate structured form of the material, asked about as something R1 might need, not yet decided | or does it need the sqlite graph | referred-to
+  - a wiki link proxy of it | a candidate lighter linked stand-in for the sqlite graph, asked about as an alternative, not yet decided | or a wiki link proxy of it | referred-to
+- order:
+- about: The user asks whether DeepSeek R1 could work from the whole material fed in directly or would need it in the sqlite graph form or a wikilink stand-in for that graph.

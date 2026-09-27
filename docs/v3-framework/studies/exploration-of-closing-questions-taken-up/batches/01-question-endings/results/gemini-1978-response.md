@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want to explore how Kemerskai's laws and the Republic's intelligence agencies regulate crystal production? | ignored | Nothing on regulation or intelligence agencies; the turn goes straight to how the crystal and its forger work. | none
+- shape: Redirects to a mechanics follow-up. The user skips the model's offered next topic, restates the crystal's input side as universal, and proposes limits on output language and forger, phrased as questions for the model to confirm or refine.
+- settles:
+  - The finished crystal takes in magical intent vectors, which are universal, so input can come from any language | "intent vectors which are universal, so any language can come in"
+  - Proposed, not firmly settled: each crystal unit outputs only one language, and the forger must be a griffon, needed for the magnetron cavity to work, who knows that output language as one of their languages | "Should each individual unit only be capable of outputting one language?" and "the forger must be a griffon"

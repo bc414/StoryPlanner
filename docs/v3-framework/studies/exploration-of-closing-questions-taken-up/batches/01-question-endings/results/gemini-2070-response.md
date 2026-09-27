@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like help drafting a System Instruction block for AI Studio that overrides the standard chat personality and targets their prose style? | ignored | The user turn asks for something else, a breakdown of four temperature and top-p quadrants with use cases, and never accepts or declines the offer of a System Instruction draft. | none
+- shape: Redirects to a new, self-contained request: it drops the offered system-instruction draft and asks for a general explainer on temperature and top-p combinations, with use cases, in a four-quadrant format. It is a terse instruction, not a reply to the model's question.
+- settles:

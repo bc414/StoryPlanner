@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on to a new question, asking what the existing plans say about Celestia's views of Aquileia and its thematic purpose, and whether those views should be kept or adapted given the timeline change. It does not say the preceding answer was wrong.

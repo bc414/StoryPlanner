@@ -1,0 +1,5 @@
+- claims:
+  - History | Mi Amore, the Crystal Empire's first empress, mined the crystal heart from special crystals deep in the mountains | Mi Amore, the first empress of the Crystal Empire, mined the crystal heart out of special crystals deep in the mountains | yes
+  - History | She deliberately hid the heart's inner workings under myth and tradition so that the crystal ponies would always stay friends | intentionally covered its inner workings in myth and tradition to ensure the crystal ponies always stayed friends | yes
+- goals:
+- whole: The note reports, as in-world history, how the first empress made the crystal heart and why she deliberately obscured how it works, and it asks nothing of the reader.

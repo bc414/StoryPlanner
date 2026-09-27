@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two comparison questions about tools, Opus 4.6 with extended thinking against Gemini Pro Deep Think and Claude Projects against NotebookLM, without pointing the model at any body of material to use or avoid.

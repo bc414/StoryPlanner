@@ -1,0 +1,9 @@
+- questions:
+  - Does the trajectory of supply-chain-driven escalation fit how the user wants to portray internal panic in VOPS and the Statthalter ranks as food supply plateaus between 996 and 1002? | ignored | The user does not say anything about the panic or how it is portrayed. They move on to correcting how the Olenian era works and to new proposals. | none
+- shape: The user turn corrects and refines the model's account of the Olenian phase, since the model had Deer strapped to harvesters. It then puts two new worldbuilding ideas on the table, a Zebrican slave trade run through the Statthalters and Zebrican-origin immigrants in Skyfall. The first is put to the model as a question and the second is stated as a premise. The turn does not respond to the model's closing question.
+- settles:
+  - The Olenian subjugation is the first time the pink love food supply is relatively stable. | first time the pink love food supply is relatively stable
+  - Olenia runs as a bauleiter-run economy with love taxes. | bauleiter run economy with love taxes
+  - Olenian civilians report to the local love harvester facility each month to pay the tax by being drained, then go back to work or home. | show up at the local love harvester facility to pay their monthly tax
+  - Victims are not hooked up to harvesters until they lose hope. | not hooking up victims to harvesters until they lose hope
+  - Some of Skyfall's immigrants come from Zebrican slaver areas. | some immigrants in Skyfall would be from Zebrica slaver areas

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for the Phase 1 output to be changed so each bucket is labeled with the paradigm it falls under and orphan buckets are flagged, without pointing at any body of data.

@@ -1,0 +1,4 @@
+- claims:
+  - History | The three tribes devised their traditional seasons by copying the weather of different latitudes, across a nation or the planet, and settling on the pattern that gave the best agriculture for survival | The three tribes came up with their traditional seasons by copying the weather of different latitudes... figuring out what pattern gave them the best agriculture | no
+- goals:
+- whole: The note reports, as an in-world origin fact, how the three tribes arrived at their traditional seasons by copying latitude weather and choosing the best agricultural pattern, without saying anything about what the reader is to take from it.

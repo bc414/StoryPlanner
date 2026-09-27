@@ -1,0 +1,10 @@
+- questions:
+  - Does the user want to explore how Kemerskai or a senior GR general officially responds to the Blank Flank insult? | ignored | Nothing on Kemerskai or GR officials responding; the turn goes to correcting the magic mechanics and to the wording of the insult. | none
+  - Do the GR reclaim Blank Flank as a badge of honor in propaganda, or treat Coltbert's Aquileia as a hostile, anti-solidarity state to be brought to heel? | ignored | Neither option is taken up. The GR's reaction is not mentioned. | none
+- shape: The user turn corrects the model's account of the magic system: the engine-valve example is wrong, because enchantment only works while its maker operates the item. It then puts a new question of its own, whether Aquileians would borrow "blank flank" into French or coin an endonym. It does not answer the model's closing offer about the GR response. The turn is a correction followed by a redirect.
+- settles:
+  - Griffon-forged items get enhanced hardness only when their maker is operating them, so autonomous machinery such as an engine valve cannot carry the enchantment. | the forged engine valve "would only have enhanced hardness if they are operating it"
+  - In feudal times griffon magic was confined to armor and swords, because those are used directly by the wielder. | "that's why griffon magic in feudal times was confined to armor and swords"
+  - Grover III's artisans built their own lathes, which had superior cutting properties and made nicer consumer goods. Those goods are not enchanted; they are simply better made. | "lathes had superior cutting properties... not enchanted, just have better artisanship"
+  - Equestrian characters use the Aquileian word "poseur" as a loan word. | "my Equestrian characters (and myself) use the Aquileian term 'poseur'"
+  - When Equestrians point out that "blank flank" invokes foalhood bullying, it humbles the Aquileians. This is stated as the intended effect and tied to the choice of term. | "when the Equestrians say using that term invokes foalhood bullying, it humbles the Aquileians"

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - direction of derivation between axes (the model's analytical framing) | the model treated the stratification axis as derived from or a sub-property of the Contract/dignity axis, and looked for independence by filling the Contract-by-Access grid; the user reverses this, with hierarchy as the base axis and other things following from it | Maybe hierarchy is an axis, and other things derive from it? | tentative, hedged suggestion in a short one-line question, offered as an alternative without saying the model was wrong and without answering the model's Stagnation question
+- about: The user, instead of answering the question about the Stagnation of Harmony, tentatively proposes turning the model's derivation around so that hierarchy is the primary axis and other axes follow from it.

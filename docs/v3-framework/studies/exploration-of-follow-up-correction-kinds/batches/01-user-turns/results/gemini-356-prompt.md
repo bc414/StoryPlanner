@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to explain what the term "Codex" means, since it is unfamiliar to them, without saying anything in the model's turn was wrong.

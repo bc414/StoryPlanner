@@ -1,0 +1,4 @@
+- questions:
+  - How does Pinkie Pie's ruthless pragmatism and disregard for boundaries show up when she holds real military or industrial power in the Equestrian Republic? | ignored | The user turn does not touch it. It asks for an evaluation of the next chapter instead. | none
+- shape: Moves on without answering. The user drops the consultant's question and gives a new task: evaluate chapter 3, their enhancement of the episode Suited for Success. It is a redirect to the next chapter in sequence.
+- settles:

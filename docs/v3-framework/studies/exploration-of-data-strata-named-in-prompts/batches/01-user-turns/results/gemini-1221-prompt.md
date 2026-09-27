@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two open factual questions about the real John Maynard Keynes, his economic theories and his personality, following the model's suggestion of a Keynes-parody character, without pointing the model at any particular body of material.

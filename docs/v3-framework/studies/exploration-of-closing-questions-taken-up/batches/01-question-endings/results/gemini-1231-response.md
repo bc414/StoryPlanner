@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn does not answer the model's explanation or react to it. It moves on to a new strategic idea for the story. It asks the model to weigh whether Discret would use the stolen imperial fleet to break Skyfall's shipping and insurance monopoly. The idea is offered as a proposal, with Aquileian insurance and a stop to Skyfall's privateering as the payoff.
+- settles:

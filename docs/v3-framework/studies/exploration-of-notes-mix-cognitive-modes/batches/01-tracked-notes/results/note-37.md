@@ -1,0 +1,5 @@
+- claims:
+  - History | Twilight, over her life in Ponyville with her friends, came to be a healthy mix of friendship and magic | became a healthy mix of friendship and magic during life in Ponyville with her friends | yes
+  - Canon | The phase is pinned to the source show's first three seasons | (seasons 1-3) | no
+- goals:
+- whole: The note reports, as a historian would, that Twilight's Ponyville years with her friends left her a balanced blend of friendship and magic, and it ties that phase to the source show's seasons 1-3.

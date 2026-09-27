@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question by naming their interests (philosophy, society design, how the world really works), which steers the discussion without disputing anything the model said.

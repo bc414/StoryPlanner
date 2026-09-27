@@ -1,0 +1,5 @@
+- questions:
+  - Whether the user wants the model to pull up the available relation types | ignored | Nothing said to it; the turn only asks for a retry. | none
+  - Whether the user wants the model to trace a specific lineage for one of their subjects | ignored | Nothing said to it; no subject is named. | none
+- shape: A bare instruction to redo the previous response. It gives no reason and no correction, and it does not engage with the offer or the tool list. It reads as a rejection of the model's last answer.
+- settles:

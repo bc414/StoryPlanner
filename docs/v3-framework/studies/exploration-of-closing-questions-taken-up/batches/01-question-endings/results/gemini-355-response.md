@@ -1,0 +1,4 @@
+- questions:
+  - Is the user ready to move on from the backend data design to the Blazor implementation (folder structure, NuGet packages, dependency injection)? | ignored | Says nothing about moving on. It asks for the term "Codex" to be explained first. | none
+- shape: A request for clarification. The user stops the flow to ask what the term "Codex" means, since it is unfamiliar. It is a question back to the model, and it holds off the proposed switch to Blazor without saying so.
+- settles:

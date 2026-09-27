@@ -1,0 +1,5 @@
+- claims:
+  - History | In Ain Trotgourait she came to learn that the Predator's Dilemma is real, a fact of her past experience | In Ain Trotgourait, she learned that the "Predator's Dilemma" is real | yes
+  - History | She witnessed destroyed hospitals, poisoned water and starving Zebras there | She saw destroyed hospitals, poisoned water, and starving Zebras | yes
+- goals:
+- whole: The note reports, as in-universe history, what Twilight Sparkle witnessed and learned in Ain Trotgourait in 1006, without saying what the reader is to get from it.

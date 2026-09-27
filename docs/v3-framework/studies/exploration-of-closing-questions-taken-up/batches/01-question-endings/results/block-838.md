@@ -1,0 +1,5 @@
+- questions:
+  - How do the Griffonian veterans (Kemerskai, Astler) psychologically process being saved by ponies who still bake morale cakes and wear sparkly uniforms in the trenches? | ignored | none | none
+  - How does Twilight's declaration of the Element of Conscience to Celestia in Chapter 26 work as her graduation out of the Toy Box while still honoring the magic she found in it? | ignored | none | none
+- shape: Moves away from the model's Faust-and-toys reading and its two questions to a new, real-world line of inquiry. The user asks for a generational history since WW2, a weighting of income inequality against other causes of cynicism, and a forecast of how different audiences would receive the story compared with mainstream grimdark works. It works as a request for research and analysis. It does not answer, accept or correct the model's framing.
+- settles:

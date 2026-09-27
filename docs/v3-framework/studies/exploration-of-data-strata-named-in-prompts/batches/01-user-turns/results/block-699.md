@@ -1,0 +1,7 @@
+- sources:
+  - "Changeling Lands" and "Equestria" as they appear on the game map | treat as surface labels that hide the real constituents; not the true structure to record | what appears as "Changeling Lands" on the game map is really | referred-to
+  - this framework (the constructed idea / organization category split from the conversation) | test it against the country case, to see whether it breaks countries into constructed ideas and organizations instead of treating a country as one entry | does this framework actually properly deconstruct countries | referred-to
+  - the author's own account of what each country is made of (Statthalters, Bauleiters, Jaegers, Drones, MEFO Bills, Great Leap Forward; Stagnation of Harmony, industrialists, EEEE, Star Energy, rural majority/refugees; FJA volunteers vs Aquileia) | treat as the true content of the world, given as examples from the author's own knowledge of the story | Statthalters, Bauleiters, Jaegers, Drones, MEFO Bills, Great Leap Forward | first-named
+- order:
+  - the author's own account of what each country really consists of | the game map labels: the map shows "Changeling Lands" or "Equestria", but it is "really" the listed policies and groups
+- about: The user accepts Constructed Idea as the category name (with Institution in the description) and asks whether countries should be split into constructed ideas and competing organizations, illustrating with their own decomposition of the Changeling Lands and Equestria and noting that conflating countries with people is a narrative irony to track.

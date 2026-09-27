@@ -1,0 +1,4 @@
+- questions:
+  - Does pegasus atmospheric magic change how the Aquileians design early airplanes, e.g. FJA pioneers like Réni building open-cockpit biplanes or magical conduction nodes so pegasus copilots can cast wind-spells through the chassis? | ignored | Says nothing about Aquileian aircraft design or pegasus copilots; asks about Herzland's approach to inventing the airplane instead. | How does Herzland approach the invention of the airplane?
+- shape: Redirects to a new topic: drops the model's Aquileian aircraft-design question and asks how Herzland, the rival culture, approaches inventing the airplane and whether it counts as heresy. It is a fresh open question for the model to develop, and it gives no answer or correction.
+- settles:

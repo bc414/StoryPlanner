@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects two details of the model's summary (only rent seekers and tyrants are called poseurs, and Réni's fleet escorts cargo and hunts monsters before the Statthalter conflict) and asks for a witty, mildly contemptuous French term for wallflowers that English readers can understand.

@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | plans that the reader's opinion of the Griffonian Republic is built gradually through subtle cues, ending with a view of it as a flawed republic close to a dictatorship | Subtle points will paint a picture that the Griffonian Republic is a flawed republic that is more like a dictatorship | yes
+- goals:
+  - The reader comes to believe the Griffonian Republic is a flawed republic that is more like a dictatorship, working it out from subtle points | WorldInference | Subtle points will paint a picture that the Griffonian Republic is a flawed republic that is more like a dictatorship
+- whole: The note sets the intended end-point of the reader's opinion of the Griffonian Republic, a flawed republic that is really closer to a dictatorship, and says it will be reached through subtle cues.

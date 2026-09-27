@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for a detailed account of how they reached the axiom that magic is ambition affecting the physical world, taking the model's report as given and going deeper on one point.

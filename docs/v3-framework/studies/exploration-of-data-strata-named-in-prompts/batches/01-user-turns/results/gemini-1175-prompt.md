@@ -1,0 +1,4 @@
+- sources:
+  - this story plan | the material the analysis of Star Energy Corporation's role in Tall Tale is to be drawn from | in this story plan | referred-to
+- order:
+- about: The user asks the model to analyze the role of Star Energy Corporation in Tall Tale, drawing on the story plan.

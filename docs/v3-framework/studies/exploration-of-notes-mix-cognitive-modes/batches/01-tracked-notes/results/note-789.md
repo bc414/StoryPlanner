@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten: world-builder ontology of what the technology is | The Republic's food system is staffed by union workers who tend thousands of oak casks of real, living ale and racks of fermented root vegetables and cured fish | union workers manage thousands of oak casks of real, living ale, and endless racks | outside
+  - outside all ten: world-builder ontology of origin and makeup | Herzlander engineers took Nordic peasant fermentation traditions and put them on a scientific footing | Herzlander engineers applied scientific rigor to the Nordic peasant traditions | outside
+  - outside all ten: world-builder ontology of how it works | The cellars' humidity and bacterial load are precisely calibrated, so fermentation results are standardized and never left to hope | perfectly calibrated the exact humidity and bacterial load of the cellars | outside
+- goals:
+- whole: The note defines, as fact of the fictional world, what the Griffonian Republic's food technology consists of and how it works: unionized cellar labor and scientifically calibrated fermentation of traditional foods.

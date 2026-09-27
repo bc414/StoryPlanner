@@ -1,0 +1,7 @@
+- claims:
+  - NarrativeArchitecture | Readers are predicted to bring in the familiar trope of hidden infiltrators posing as friends in Equestrian regiments who betray the army when war starts | Readers will assume the usual EaW trope of infiltrators being hidden in the Equestrian army regiments | yes
+  - NarrativeArchitecture | The story will deliberately decline to use that trope, subverting the reader's prior assumption | TLTT will NOT use it | yes
+  - History | As a fact of the world, the Equestrian army has detection spells that prevent infiltration | The Equestrian army has detection spells for that | no
+  - Canon | Recontextualizes the established Stagnation of Harmony idea attached to Celestia so that it does not imply the regime or army is stupid | Celestia's "Stagnation of Harmony" is not synonymous with stupidity | no
+- goals:
+- whole: The note anticipates the reader's trope-based assumption of infiltrator betrayal in the Equestrian army and commits the story to subverting it, grounding the choice in detection spells and a non-stupid reading of Celestia's Stagnation of Harmony.

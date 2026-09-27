@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to analyze how the Changeling hives counter Equestrian heavy-magic artillery, given that drones can't use Griffon-forged enhancers? | ignored | Says nothing about the Changeling counter-analysis and moves to a new question about how batteries could inspire the composite material and which battery types exist. | none
+- shape: Redirects to a new topic. It skips the offered Changeling analysis and asks an open-ended, real-world information question about batteries, both as inspiration for the enhancer composite and as a general survey of battery types past and present.
+- settles:

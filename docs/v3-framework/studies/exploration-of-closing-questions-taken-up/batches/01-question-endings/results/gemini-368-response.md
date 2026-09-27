@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to compare how the literal meanings evolved into the modern Direct and Representative systems? | ignored | The user does not take up the offer. They ask a new question about applying the literal meanings to a fictional revolutionary party name. | none
+- shape: Redirects to a new question. The user keeps the literal-meaning frame (\"Again, not using historical connotation\") and applies it to a hypothetical fantasy setting. They ask what the difference would be between two party names, National Republican and National Democratic, after a revolution that overthrows a king. The model's offered follow-up is left aside.
+- settles:

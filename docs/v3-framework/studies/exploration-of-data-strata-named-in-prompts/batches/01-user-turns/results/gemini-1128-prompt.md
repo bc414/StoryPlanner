@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model what the "hard truth" rally speech from the previous turn should contain, without pointing to any body of material to draw on.

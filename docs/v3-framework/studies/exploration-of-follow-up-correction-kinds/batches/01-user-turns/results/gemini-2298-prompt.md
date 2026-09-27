@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the Aquileian-plane discussion and asks a new feasibility question about up-armoring the standard Spitfires against Bf 109 ammunition, proposing it as a deliberate contrast with the Aquileian glass-cannon design.

@@ -1,0 +1,7 @@
+- questions:
+  - How do the working-class ponies treat the Canterlot collaborators once Applejack and the Republic push to liberate Canterlot? | ignored | Says nothing about the liberation or the collaborators' fate; moves to a different chapter and work. | none
+  - Does Applejack's new codified legal system give the collaborators a fair trial, or does resentment produce an Aquileian-style revolutionary purge? | ignored | Not touched; the turn turns to evaluating chapter 5 of Green isn't your Color instead. | none
+- shape: Drops the model's closing question about post-liberation justice and redirects to a new task: evaluate chapter 5 of the earlier fic against TLTT's themes. The user adds their own reading of that chapter (Celestia humanized, Twilight/Celestia as a side plot) and asks whether it is a blueprint for the TLTT thread.
+- settles:
+  - In chapter 5 of Green isn't your Color, the main plot is Fluttershy's crush on Rarity and Rarity's fashion business, set against the Canterlot elite's hollow Herzlander-capitalist imitation of Aquileian style | main plot is about Fluttershy's crush on Rarity and Rarity's fashion business
+  - In that chapter, the Twilight and Celestia material is only a side plot, and it is the author's attempt to humanize Celestia and deconstruct the god myth | Twilight and Celestia here was only a side plot

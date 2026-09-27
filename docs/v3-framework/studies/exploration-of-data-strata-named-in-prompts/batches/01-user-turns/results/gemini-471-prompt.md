@@ -1,0 +1,5 @@
+- sources:
+  - Robert McKee's positive/negative charge | offered as the likely origin of the user's Thread Trajectory feature, stated as a tentative belief for the model to take on board rather than a settled fact | I believe Robert McKee's positive/negative charge is the basis | referred-to
+  - Thread Trajectory (the user's own design: story threads as overarching goals, with a trajectory property on the plot point-thread connection marking positive or negative) | the user's own account of how their model works, given as the definition the model should understand and connect to McKee | each story thread is framed as a "goal" | referred-to
+- order:
+- about: The user answers the model's list of possible frameworks by saying, from memory, that McKee's positive/negative charge is the basis of their Thread Trajectory property, and explains how that property works in their story model.

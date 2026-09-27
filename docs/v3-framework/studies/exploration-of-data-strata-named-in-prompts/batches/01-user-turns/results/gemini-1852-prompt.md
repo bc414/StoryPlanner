@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user maps the model's four "engines" onto features of current AI tools, then asks where the Industrial Revolution (steam, electricity, chemistry) fits in the framework, without pointing the model at any body of material to use or avoid.

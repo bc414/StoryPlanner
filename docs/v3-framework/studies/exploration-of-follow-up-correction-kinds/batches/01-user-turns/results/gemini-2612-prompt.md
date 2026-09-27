@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's summary treated the Lion as the one who initiates and the Eagle as fixed against it. The user says the roles depend on who is more passionate in the moment, with the Eagle receiving, and that Henri's closing point should also undo the Herzlander/Boreas hierarchy by birthright. | Henri's ending line should be more about the lion being the more passionate in the moment and the eagle receiving | Mild and tentative. It is put as a preference about how the line should go, with no explicit statement that the model was wrong, so the correction is only implied.
+- about: The user answers the model's structural analysis by asking about chapter ordering, adjusting Henri's closing line, and adding plot and doctrine material (Applejack initiating and Twilight taking over, the half-doctrine point, logistical necessity, coming combat). It ends by asking the model to review the plans and synthesize all of it.

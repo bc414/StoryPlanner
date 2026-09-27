@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how Chancellor Neighsay and the EEA react when Twilight returns from Ain Trotgourait and shuts down the School of Friendship? | ignored | Nothing on the offered scene. The user goes back to the real show and asks whether the EEA was the Season 8 writers' satire of Hasbro. | none
+- shape: Redirects. The user leaves the offered story scene and goes back to the real-world production reading of the show. They ask whether the EEA satirises the Season 8 writers' own overlords, and argue that the School Daze opener already settled the season's theme and the rest of Season 8 was hollow. The turn is an interpretive question plus the user's own critique of the show, not an answer to the model's offer.
+- settles:

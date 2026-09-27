@@ -1,0 +1,5 @@
+- claims:
+  - History | The canon order "Go! Feed!" was, in the event, a fatal flaw in the changeling military | The Canon Order "Go! Feed!" was a fatal military flaw | yes
+  - History | Even some novice, repressed jaegers obeyed the order, Thorax among them | Even some novice, repressed jaegers take the order, including Thorax | yes
+- goals:
+- whole: The note reports, as in-universe historical fact, that Chrysalis's "Go! Feed!" order was a fatal military flaw that even some novice, repressed jaegers, Thorax included, obeyed.

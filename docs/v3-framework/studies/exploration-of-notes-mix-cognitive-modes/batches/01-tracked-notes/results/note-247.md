@@ -1,0 +1,5 @@
+- claims:
+  - History | Henri was recruited into a Herzlander griffon supremacist group as a teenager | Henri was roped into a Herzlander griffon supremacist group as a teenager | yes
+  - History | The group's members indoctrinated Henri by pointing out that nobles parade their ponies in clothes while the ponies in Pridea are free farmers | The griffon supremacist "posers" indoctrinate Henri by pointing out how nobles parade their ponies in clothes and the ponies in Pridea are free farmers | yes
+- goals:
+- whole: The note reports, as in-world history, how Henri was recruited into a griffon supremacist group as a teenager and the argument used to indoctrinate him.

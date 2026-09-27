@@ -1,0 +1,5 @@
+- sources:
+  - earlier than today, in a less refined form | user is confident the concept originated in earlier material, so the model should treat the earlier version as the likely origin rather than today's discussion | I am sure this is came from earlier than today, but perhaps in a less refined form | referred-to
+  - notebook lm | offered as another possible origin of the concept; the model is asked to consider or check whether it came from there | What about from notebook lm? | first-named
+- order:
+- about: The user disputes the model's claim that the concept was established today, says it likely originated earlier in a rougher form, and asks whether it came from NotebookLM.

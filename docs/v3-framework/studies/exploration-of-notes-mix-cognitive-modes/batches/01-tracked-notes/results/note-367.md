@@ -1,0 +1,4 @@
+- claims:
+  - Canon | The show's recurring mission-of-the-week formula, a Hasbro toy-selling device, is recontextualized in-universe as an automated surveillance tool serving the Stagnation of Harmony | Hasbro's "Mission of the Week" toy-selling formula is interpreted in-universe as essentially an automated surveillance tool | yes
+- goals:
+- whole: The note recontextualizes the source show's mission-of-the-week formula as an in-universe surveillance mechanism of the Elements of Harmony and Cutie Map technology.

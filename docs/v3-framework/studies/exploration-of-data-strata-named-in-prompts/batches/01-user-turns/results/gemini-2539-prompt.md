@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user builds on the just-agreed removal of the Skyfall prison pipeline by working out how the jaeger submarine captains and the Statthalters' slaver and war fleets would operate, asking whether subs can deter privateers and whether love harvesters should be held on ships or on ocean outposts, without pointing the model at any body of material.

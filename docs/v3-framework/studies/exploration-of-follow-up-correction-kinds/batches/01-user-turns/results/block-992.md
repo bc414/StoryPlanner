@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn leaves the model's industrial-history analysis alone and asks a new question, whether their earlier term Resilience is the right opposite of Cynicism now that the failure mode is clearer, and asks for runner-up terms with reasons.

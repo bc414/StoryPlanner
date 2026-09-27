@@ -1,0 +1,8 @@
+- questions:
+  - Does Zecora eventually repurpose her Red Love–suppressing research to help Star Energy? | ignored | Star Energy is not mentioned, and neither path speaks of her research or the chemical countermeasure. | none
+  - Does Zecora repurpose her research to help Fluttershy treat the Changeling POWs suffering Red Love withdrawal? | partly answered | The user offers a path where Zecora comes to Tall Tale with Dr. Fauna to help Fluttershy run the rehab camp. This is close to the model's option, but it is one of two open paths, and the user never says she uses her old research. | she arrives in Tall Tale with Dr. Fauna to help Fluttershy run the rehab camp
+- shape: The user does not take up the model's backstory analysis or answer its question directly. They set out two alternative futures for Zecora, the rehab camp or the rebuilding of Ain Trotgourait, and leave the choice open, in the way of a fork put up for discussion. Along the way they state facts about the wider world.
+- settles:
+  - Ain Trotgourait is a Zebra city across the strait from Mount Aris. The Storm King sacked it, and the Hippogriffs are helping the Zebras rebuild it. | a Zebra city across the strait from Mount Aris sacked by the Storm King which the Hippogriffs have been helping the Zebras rebuild
+  - Fluttershy runs a rehab camp in Tall Tale, and Dr. Fauna is involved in it. | arrives in Tall Tale with Dr. Fauna to help Fluttershy run the rehab camp
+  - A defense of Mount Aris takes place in the story's timeline, and Zebrica's rebuilding follows it. | after the defense of Mount Aris

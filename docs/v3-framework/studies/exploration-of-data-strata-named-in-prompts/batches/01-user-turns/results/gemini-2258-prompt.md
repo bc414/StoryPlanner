@@ -1,0 +1,6 @@
+- sources:
+  - the model's previous answer (the Asymmetric Modernization explanation) | mostly accepted as workable, with the one timeline point in it to be corrected | This makes sense for the most part | referred-to
+  - the author's own timeline (Grover III's enlightenment from 854 ALB, monsters mostly eradicated by 900 ALB, Rugged Individualism 914 to 978 ALB, ending in the Republican Revolution) | treat as the correct facts and use them to replace the earlier feudal-preoccupation timeline; build the cross-ocean influence answer on them | with one clarification | first-named
+- order:
+  - the author's own timeline (Grover III's enlightenment 854 ALB, monsters gone by 900 ALB, Rugged Individualism 914 to 978 ALB) over the model's previous answer's claim that the predators were still stuck in feudal wars | with one clarification
+- about: The user accepts most of the model's economic-conquest explanation but corrects its timeline with their own dates for Grover III's enlightenment, the end of the monster threat and the Rugged Individualism era, then asks what cross-ocean influence would have been happening in that period.

@@ -1,0 +1,4 @@
+- sources:
+  - The Princess and the Kaiser.txt (P&K), the attached file | the model is to sample it strategically and draw insights from it | Here is P&K, sample strategically and give insights | first-named
+- order:
+- about: The user attaches a new fanfic file and asks the model to sample it strategically and give insights on it.

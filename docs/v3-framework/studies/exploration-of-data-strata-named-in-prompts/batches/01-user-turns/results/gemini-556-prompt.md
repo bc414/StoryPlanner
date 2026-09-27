@@ -1,0 +1,6 @@
+- sources:
+  - Author's plan for red love as magic and pink love as friendship, discovered by Twilight and Fleur taking apart the love harvester | treat as the author's settled intent; it corrects the model's earlier framing of pink love as a general opioid, so pink love is methadone | I'm planning on red love to really be "magic" and pink love is "friendship" | first-named
+  - The author's world rule that magic is "ambition that affects the physical world" | treat as a premise of the setting; use it to reason that purified red love maps to meth, the pure stimulant | magic is "ambition that affects the physical world" in my world | first-named
+  - The Tzinacatl black market economy, exporting drugs later replaced by Chrysalis's red love | treat as established story background that the answer should fit | the Tzinacatl black market economy was about them exporting drugs which got replaced by Chrysalis's red love | referred-to
+- order:
+- about: The author corrects the model's drug mapping by saying pink love is methadone and red love is magic that maps to meth, and asks how methadone works and whether stimulants like meth historically replaced opioids or other drugs, in service of the Tzinacatl black market backstory.

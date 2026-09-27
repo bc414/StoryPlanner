@@ -1,0 +1,5 @@
+- questions:
+  - How does Fluttershy use her Grace in the Great War: as the Republic's premier combat medic, or by managing the agricultural and biological logistics that feed Applejack's armies? | ignored | Says nothing about Fluttershy's wartime role. It turns to Rarity's wings of dew and to how much of the GIYC plan belongs in the TLTT backstory. | none
+- shape: Redirects. The user drops the model's wartime-role question and asks it to review the TLTT plans on Rarity's wings of dew, with a note on where the wings-reflect-partner detail came from. It then asks a scoping question about how much of the GIYC plan should be TLTT backstory and whether the romance arc is essential. That last question comes close to one the model had just answered.
+- settles:
+  - The detail that Rarity's wings of dew (butterfly wings) reflect a partner's colors is in the plan, and it was borrowed from a different Rarishy story titled "Green". | the wings of dew reflecting a partner's colors is a detail I borrowed from a different Rarishy story titled "Green"

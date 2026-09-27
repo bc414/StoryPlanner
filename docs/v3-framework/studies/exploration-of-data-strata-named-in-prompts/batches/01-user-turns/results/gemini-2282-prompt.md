@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author declines the suggested endothermic caseless-ammo idea and states their own worldbuilding decisions: high-purity crystal power for engines, brass phosphorus ammo kept, and a later plot development in which studying the love harvester yields donated magical engineering that replaces the rare mined crystals.

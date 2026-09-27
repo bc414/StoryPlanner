@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | MEFO Bills stand for the productivity paradox, where performance management or measurement undermines real productivity | The productivity paradox under performance management | yes
+- goals:
+- whole: The note names the real-world condition, the productivity paradox under performance management, that the MEFO Bills technology allegorically stands for.

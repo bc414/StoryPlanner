@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds new story-design details from their own imagination, covering how Chrysalis's loans and fiat-money trade drain Equestrian wealth, Gilded Lily as recruiter of industrialists, Gilded Trust's motive for Ponies First, and Bright Mac and Pear Butter as misjudged trojan horses, without pointing the model at any body of source material.

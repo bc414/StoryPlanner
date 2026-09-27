@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to hear more about how the physical hardware (Google's TPUs vs. OpenAI's reliance on Nvidia GPUs) affects training? | answered | Says yes and asks for elaboration on the hardware differences and how they change things fundamentally | "Yes, elaborate on the physical hardware differences"
+- shape: Accepts the model's offered follow-up and asks for it to be expanded, with a slight push toward the fundamental consequences. It is an ordinary continuation of a factual explainer about AI labs. It has no connection to any fiction project.
+- settles:

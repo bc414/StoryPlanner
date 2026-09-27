@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented Verany's return and Chrysalis's Great Leap Forward as independent events that happen to line up with Kemerskai's martial law in 986, a thematic synchronization. The user says they are causally downstream of it. | Verany's pardon and Chrysalis's launch of the Great Leap Forward are direct effects of Kemerskai's martial law | flat statement of fact, given as a plain declarative with no hedging or apology
+  - reading of the request | The model weighed moving the start of martial law earlier or later (982-983, 989-990, or keeping 986). The user wanted the date it is lifted (996) assessed. | What are the pros and cons of keeping the lifting of martial law in 996, moving it earlier or later? | restated the question plainly, implicitly redirecting, with no comment on the mismatch and no apology
+- about: The user corrects the model's causal reading of the other regions' 986 events and its analysis of the wrong date, then restates the question about the date martial law is lifted, with a note on how the canonical game timeline was stretched.

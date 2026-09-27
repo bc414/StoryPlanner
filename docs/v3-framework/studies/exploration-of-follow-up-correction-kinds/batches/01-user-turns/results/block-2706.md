@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up questions, one asking for the explanation behind the model's WC joke and one asking whether Kripke acknowledged slash writers as Faust acknowledged bronies, without disputing anything the model said.

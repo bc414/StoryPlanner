@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up engineering question about why a diesel-generator-inverter drivetrain beats a diesel-gearbox-transmission drivetrain and whether the hybrid costs more up front, without pointing at any body of material.

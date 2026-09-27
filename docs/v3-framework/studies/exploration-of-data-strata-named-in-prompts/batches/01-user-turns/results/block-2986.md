@@ -1,0 +1,4 @@
+- sources:
+  - these corrections | treat as the settled base for the new analysis; build the reanalysis on them | With these corrections in mind as the base | referred-to
+- order:
+- about: The user asks the model to redo its analysis of Chrysalis's whole arc, taking the corrections just made in the conversation as the foundation.

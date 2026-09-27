@@ -1,0 +1,4 @@
+- sources:
+  - Plan export attached | supplied as material for the model to have on hand; the turn gives no instruction on how to weigh or use it | Plan export attached — 154,031 words | first-named
+- order:
+- about: The user turn only attaches a large plan export, with no accompanying request or instruction about how to use it.

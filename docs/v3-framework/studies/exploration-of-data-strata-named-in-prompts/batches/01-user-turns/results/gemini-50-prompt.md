@@ -1,0 +1,4 @@
+- sources:
+  - the novel's chapters, fed one at a time through the web chat | material the user proposes to hand the model manually, a chapter per message, as a free alternative to the paid API route; offered as a question about the best option, not settled | manually feed one chapter at a time through the web chat | referred-to
+- order:
+- about: The user rules out paying beyond their existing consumer subscription and asks whether manually pasting one chapter at a time into the web chat is their best free way to process the novel.

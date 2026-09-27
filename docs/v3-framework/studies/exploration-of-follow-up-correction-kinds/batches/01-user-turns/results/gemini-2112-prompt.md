@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - your own name: premise about the user's situation (where the friends ate) | the model assumed the friends' view of French food came from Americanized or Anglosphere restaurants, when they were describing places they went to in France | "My friends were referring to places they went to in France" | stated plainly as a clarification, softened by a tentative guess at the cause ("Perhaps they were in a tourist trap bubble") and moving straight into follow-up questions
+- about: The user restates that their friends' experience was in France itself, offers a tourist-trap explanation, and asks how tourism shapes and hides authentic French dining and whether Bistronomy serves tourists as well as locals.

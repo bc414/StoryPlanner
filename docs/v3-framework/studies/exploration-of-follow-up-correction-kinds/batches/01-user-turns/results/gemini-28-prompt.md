@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn puts the same opening question again in nearly the same words, with no comment on the model's answer, so it reads as a repeat or resubmission and not as a challenge to what was said.

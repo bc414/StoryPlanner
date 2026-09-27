@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short factual question about how Love Island contestants are cast, without pointing at any body of material for the model to draw on or avoid.

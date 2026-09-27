@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's framework as a base and asks it to audit the six unstated cells of the four-axis grid, then extends the framework to codex entries and proposes their own changes (a renamed project-management home for notes to self, and prospective/retrospective labels in track headers) without saying the model's turn was wrong.

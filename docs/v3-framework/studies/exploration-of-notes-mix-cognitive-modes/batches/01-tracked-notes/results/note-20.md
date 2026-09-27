@@ -1,0 +1,8 @@
+- claims:
+  - Characterization | From the opening to the town hall Applejack inwardly feels like an imposter who is losing her soul to industrial methods she sees as evil | feels like an Imposter and losing her soul to "evil" industrial methods | no
+  - Characterization | From the town hall to Trimmel she becomes the Honest Worker who accepts industry as honest work, and leads the Bluebell River Spearhead with a clear conscience | she is the Honest Worker, who accepts that industry can be honest work | no
+  - Characterization | In this phase she believes she is fighting a finite war to restore a peaceful past | believing she is fighting a finite war to restore a peaceful past | no
+  - Characterization | After Trimmel she accepts the Hard Truth of geopolitics and realizes she cannot return to being a simple farmpony | accepts the "Hard Truth" of geopolitics. She realizes she cannot go back | no
+  - History | Equestria's structural integrity now requires a permanent armed Republic to deter future predators, given as the fact behind her realization | structural integrity of Equestria now requires a permanent, armed Republic | no
+- goals:
+- whole: The note lays out Applejack's three-stage arc in story order, from imposter to honest worker to hard-truth realist, by asserting her inner state at each stage, and it names no reader effect.

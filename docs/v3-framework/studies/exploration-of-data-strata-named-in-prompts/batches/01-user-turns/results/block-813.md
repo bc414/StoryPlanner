@@ -1,0 +1,5 @@
+- sources:
+  - EaW (Equestria at War canon: Sunglider read books about equestrian harmony and leads the NRP-C, Rikard Astler leads the NRP-L, Kemerskai leads the NRP-R) | treat as established canon and use as the factual basis for the new Kemerskai backstory | Canonically in EaW | referred-to
+  - TLTT (the author's own story, where Sunglider is the government official who interacts with SAA) | provisional design choice made to ground the material, offered as the author's current thinking and not settled | In TLTT to ground it materialism I think | referred-to
+- order:
+- about: The user proposes a hidden backstory for Kemerskai, in which he stays in power 20 more years after ending martial law because he thinks Sunglider is too naive, and supports it with EaW canon about the party leaders and a tentative plan for Sunglider's role in TLTT.

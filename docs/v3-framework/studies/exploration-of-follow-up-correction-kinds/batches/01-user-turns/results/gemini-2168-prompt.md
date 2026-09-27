@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new scene, asking what Star Energy workers can say to Applejack outside Luna's tent to push her into taking the general's star while the chemistry secret stays hidden, and suggests she speak of land and home pride without knowing it is literal.

@@ -1,0 +1,8 @@
+- sources:
+  - YouTube watch history | the main body of data to mine, used as a window for open-ended retroactive insight into how the author went through life, including how much time was spent on YouTube and when | using youtube watch history as a window | referred-to
+  - other known timelines | external life timelines to line the watch-history patterns up against | correlated with other known timelines | referred-to
+  - the author's own recollection of viewing after college and covid (MrBeast videos, Jimmy Donaldson podcasts) | treated as known from memory and used as an example of the kind of pattern to find, while the wider patterns are only suspected and to be tested against the history | I know I was watching a lot of MrBeast videos | first-named
+  - the MLP watch history inside the YouTube history | part of the same data, and a possible pivot point in the timeline | my entire watch history of MLP itself is in the youtube history too | first-named
+  - the single extractive/cooperative axis | one lens only, not to limit the task, which should be broader and deeper | broader and more deep than just one axis | referred-to
+- order:
+- about: The user widens the YouTube-history task from a single-axis classification to an open-ended retrospective analysis of their life through their watch history, correlated with known timelines, and asks the model to define the real task and method without overfitting.

@@ -1,0 +1,4 @@
+- questions:
+- shape: The user turn does not respond to the model's sorted output. It starts a fresh sorting pass. It resubmits the same raw notes and gives a new, renamed and regrouped set of target paradigms and buckets to sort them into. This works as an implicit revision of the bucket scheme, with no comment on the previous result.
+- settles:
+  - The organizing scheme for the notes is revised. Dialectics becomes Stagnant Harmony, Aquileian Ambition and Adult Harmony. Chronology becomes Stagnant Nursery, Total War, White Peace, Touring the other Republics and Equestrian Republic. System Mechanics gains Safety-Decay Mechanism and Moral Surplus Accumulation. Orphan Concepts becomes Magical Engineering and The Love Harvester. | TARGET PARADIGMS & BUCKETS list

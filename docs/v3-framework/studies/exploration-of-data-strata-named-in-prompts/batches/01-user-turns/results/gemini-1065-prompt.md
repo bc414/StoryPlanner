@@ -1,0 +1,4 @@
+- sources:
+  - the resolution just laid out (Applejack's buyout of the drug stockpile, capital to Tribe D, the Skyfall dumping, the nuances) | draw on it for the friendship lesson options, but leave out the dirty work of dumping drugs into Skyfall and keep the tone optimistic | give me 3 options of the friendship lesson that involves all the nuances. Actually, maybe it shouldn't even mention doing the dirty work | referred-to
+- order:
+- about: The user asks for three versions of the friendship lesson letter that stay optimistic and omit the Skyfall drug dumping, and asks whether that can stay off every character's conscience until Fluttershy raises it, with Comet Shine defending Skyfall as a voluntary rat race.

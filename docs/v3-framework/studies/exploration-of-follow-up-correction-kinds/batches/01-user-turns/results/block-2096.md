@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the naming exercise and asks for a comprehensive markdown report of all final insights from the whole conversation, including compacted transcripts, to carry into story planning or game design.

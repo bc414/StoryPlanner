@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's offered next step by supplying their existing system prompt and asking for it to be revised to route authorial directives and garbage into their own areas and to keep the order of the given buckets, which adds a requirement without disputing anything in the schema turn.

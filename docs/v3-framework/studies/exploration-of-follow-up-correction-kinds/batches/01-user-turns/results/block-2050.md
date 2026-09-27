@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves from the model's account of the story's thesis to a new request, asking for real-world historical and present-day examples of the theme, and of the ASOIAF thesis too, while noting that the real world has only a metaphorical version of the effect.

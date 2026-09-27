@@ -1,0 +1,5 @@
+- questions:
+  - How does Vaspier rationalize to Chrysalis the intelligence failure of the Tzinacatl tribes uniting under Star Energy's Harmonic Capitalism, without admitting his psychological models are flawed? | no user turn | none | none
+  - What specific material countermeasures must Vaspier deploy to infiltrate the EEEE! movement's Parloirs, where honesty is the operational security protocol? | no user turn | none | none
+- shape: none
+- settles:

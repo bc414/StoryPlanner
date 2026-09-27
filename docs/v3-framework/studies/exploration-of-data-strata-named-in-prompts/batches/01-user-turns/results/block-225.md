@@ -1,0 +1,12 @@
+- sources:
+  - The Aquileian backstory through Minette | treat as a starting point in the dialectic, not the final thesis; it lacks Equestrian harmony | "specifically NOT the final thesis. It is a starting point" | referred-to
+  - Chrysalis | treat as the antithesis, without Equestrian harmony | "Chrysalis is the antithesis" | referred-to
+  - Applejack's Parents | treat as among the stories closest to the final synthesis; harmony inverts Chrysalis's systems; backstory before the war | "closest to the final synthesis" | referred-to
+  - EEEE! | treat as among the stories closest to the final synthesis, synthesizing harmony with Aquileian and/or Herzlander principles | "closest to the final synthesis" | referred-to
+  - Comet Shine/Star Energy | treat as among the stories closest to the final synthesis; inverts Chrysalis's systems with a dose of harmony | "invert Chrysalis's systems with a dose of harmony" | referred-to
+  - Flowing Current | treat as inverting Chrysalis's systems with a dose of harmony, alongside Comet Shine | "Comet Shine and Flowing Current invert Chrysalis's systems" | referred-to
+  - Cadance/Shining Armor | treat as among the stories closest to the final synthesis, with Equestrian harmony components | "closest to the final synthesis" | referred-to
+  - Thorax | treat as among the stories closest to the final synthesis; discovers solidarity while investigating the Lioness Spell, brings board games to the hives until expelled/executed | "when tasked with investigating the Lioness Spell he discovers solidarity" | referred-to
+  - TLTT | treat as where the final synthesis was dramatized and as coming first, for a reason separate from why Chrysalis precedes Applejack's Parents and Thorax | "The final synthesis was dramatized in TLTT" | referred-to
+- order:
+- about: The user corrects the model's account of the project's dialectic, placing Minette's Aquileian backstory as a starting point, Chrysalis as antithesis, and the late stories plus TLTT as synthesis, then asks why TLTT comes first for a separate reason and what would be lost if Applejack's Parents or Thorax preceded Chrysalis.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user endorses the model's changeling-kindergarten and flight-school parallel, then asks whether animals not judging is why Fluttershy bonds with them. They also float, as tentative ideas to weigh, a childhood buffalo encounter at a formerly caretaker-run observatory in 985 that Rockfeller later privatized.

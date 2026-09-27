@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to review the Phase 2 (Sorter) prompt for similar traps before the next batch of lore? | ignored | The user turn doesn't mention Phase 2 or the offer, and asks about Phase 0 paradigm names instead. | none
+- shape: Redirects to a new, separate request: how to make the Phase 0 paradigm names more fundamental and less wordy. It passes over the Phase 1 rewrite the model just gave and the offered Phase 2 review, and it doesn't say whether the rewrite is accepted.
+- settles:

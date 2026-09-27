@@ -1,0 +1,4 @@
+- questions:
+  - How much of Krista's personality was an outright fabrication, and how much was Chrysalis masking her sociopathy beneath schoolgirl charm? | no user turn | none | none
+- shape: none
+- settles:

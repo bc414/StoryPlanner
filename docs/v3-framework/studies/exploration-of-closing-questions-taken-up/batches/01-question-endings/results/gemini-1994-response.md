@@ -1,0 +1,5 @@
+- questions:
+  - Should the model fold the refined ordering constraint into the complete, final version of Prompt 1 (the Cartographer)? | ignored | Nothing about finalizing Prompt 1. The turn moves to a new question about ordering rules. | none
+  - Or is the user ready to move on to building the System Instruction for Prompt 2 (the Sorter)? | ignored | Doesn't pick Prompt 2 or say anything about moving on. | none
+- shape: Redirects. The user pastes a long run of their own story-planning notes as a sample dataset and asks the model to work out what ordering rules that sample suggests. The ordering constraint the model proposed is therefore tested against real material, not accepted or rejected, and the model's either/or offer about next steps is passed over. The notes are given as example input, and the turn makes no choice about the work.
+- settles:

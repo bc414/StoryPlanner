@@ -1,0 +1,6 @@
+- claims:
+  - History | The Aquileians at first take the Winter Wrap Up as an insult to them | The Aquileians initially view Winter wrap up as an insult | no
+  - History | The Aquileians voice their objection: with so much food, why stop growing to play in snow | you have so much food you stop growing to play in snow? | no
+  - Canon | The Winter Wrap Up is recontextualized as real weather management that is how the magic produces great harvests, and the Aquileians come to learn this | But they eventually learn the reality is the weather management is how the magic works to make great harvests | no
+- goals:
+- whole: The note sketches, in story order, the Aquileians' shift from taking Winter Wrap Up as an insult to learning that the weather management is the magic behind great harvests, without stating what the reader is to feel.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model placed the Cutie Mark patch on the shoulder sleeve or breast pocket, while the user's plan puts the marks on the uniform's flanks, where they normally sit on ponies | I was thinking the cutie marks go on the flanks of the uniform where they usually belong | stated flatly as the user's own intended design, in a mild, passing way with no apology or explicit rejection
+- about: The user states that Cutie Marks should sit on the uniform's flanks instead of the shoulder or chest placement the model proposed.

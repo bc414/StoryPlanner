@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Rasti comes over time to like Lioness Applejack, asserted as a truth of his character change | He grows to like Lioness Applejack | no
+  - Characterization | Rasti and Applejack share the values of community, hard work and honesty, stated as the basis of the bond | They have shared values of community, hard work and honesty | no
+- goals:
+- whole: The note asserts, as a fact about the character, that Rasti comes to like Lioness Applejack because they share values of community, hard work and honesty, without saying how the reader is to experience this.

@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | plans a reader opinion update: readers come to see Celestia as not vastly more magically powerful than other ponies | Readers will realize Celestia does not have orders of magnitude more magic | yes
+- goals:
+  - Reader realizes and believes Celestia's magic is not orders of magnitude beyond that of other ponies, correcting the trope-based assumption | WorldInference | Readers will realize Celestia does not have orders of magnitude more magic
+- whole: The note records a single planned update in the reader's opinion of Celestia: that they will realize her magic is not vastly greater than anypony else's.

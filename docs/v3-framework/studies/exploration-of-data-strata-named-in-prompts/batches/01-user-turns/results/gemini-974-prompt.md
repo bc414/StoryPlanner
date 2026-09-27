@@ -1,0 +1,4 @@
+- sources:
+  - the user's own recollection that it was part of the Burgundian Inheritance | provisional, an uncertain memory the model is asked to confirm or correct | I think it was part of the Burgundian Inheritance, right? | first-named
+- order:
+- about: The user asks a set of factual follow-up questions about the Dutch Republic (the seven provinces, breaking from Spain, domestic gunpowder, timing of the Eighty Years' War) and requests a full breakdown, offering their own tentative memory of the Burgundian Inheritance for checking.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model mapped the changeling hives onto nomadic cooperative hunter societies, when the plan has the hives as sedentary and the jaegers as the warrior caste | This is still the wrong parallel. The changeling hives are sedentary and the jaegers are the warrior caste. | Flat statement of error, with a short reason. Says it is still wrong, so it is a repeat of an earlier correction, and tells the model to reread the plan.
+- about: The user rejects the model's hunter-gatherer mapping of the changeling hives as contradicting the plan, tells it to reread the plan, and then asks a new question about whether Chinese history really ran about 800 years ahead of Europe, with Warring States to Qin and legalism as parallel to Greece and Rome.

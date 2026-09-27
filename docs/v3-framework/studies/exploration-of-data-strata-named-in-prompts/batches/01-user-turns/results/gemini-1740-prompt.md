@@ -1,0 +1,6 @@
+- sources:
+  - my story plan | treat as settled record of the current name of the first and grandest Manehattan parloir (Foyer de la Jeunesse d'Avant-garde); the model is to work from it and adjust it | In my story plan, I named the first and grandest Manehattan parloir | referred-to
+  - Coltbert's game theory | use as the thematic reference the new French word for "players" should allude to | as a reference to Coltbert's game theory | referred-to
+  - Gaudreau's social club | use as the reference the acronym FJA must keep pointing to; fixed constraint on the name | as a reference to Gaudreau's social club | referred-to
+- order:
+- about: The user asks whether the name of a Manehattan parloir in their story plan can swap in the French word for "players" to nod to Coltbert's game theory while the acronym stays FJA to honor Gaudreau's social club.

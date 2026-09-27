@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves off the tool descriptions to ask new questions about how many people at Google work on Gemini products, how that compares with competitors, and whether the products came from DeepMind or another division and now sit under Labs.

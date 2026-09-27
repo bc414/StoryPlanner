@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user reports that the schema the model just supplied still fails to save in the editor, without naming any source of data.

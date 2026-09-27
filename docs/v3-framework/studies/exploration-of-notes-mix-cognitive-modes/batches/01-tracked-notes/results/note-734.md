@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-building ontology (god-mode rule of the universe) | Panzer Haut is made by ultra-refining pink love to isolate the magical equivalent of endorphins, used in extreme quantities as synthetic painkillers | It is made by ultra refining pink love to isolate the magical equivalent of endorphins, which are used in extreme quantities as synthetic painkillers | outside
+- goals:
+- whole: The note states, as a rule of the fictional universe, what Panzer Haut is made of and how it works, without saying anything about what the reader should get from it.

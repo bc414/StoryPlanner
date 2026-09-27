@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn supplies an attached document and a JSON list of paradigms with bucket names only, which reads as the next pipeline stage's input, and it neither disputes nor revises the sorted output before it.

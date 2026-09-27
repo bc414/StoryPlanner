@@ -1,0 +1,6 @@
+- claims:
+  - Canon | In the canon episode The Crystaling, Starlight believes Sunburst is a master wizard but learns he only has books and knowledge, not power like Starlight and Twilight | In canon episode The Crystaling, Starlight thinks Sunburst is a master wizard but finds out he just has a lot of books | yes
+  - Canon | The author reads the show as intending Sunburst to be book smart but lacking the magical talent of Starlight | I guess the show intended to portray Sunburst as being book smart but without the magical talent | yes
+  - Canon | In TLTT's world of crystal enhancers and magic as materialist science, Sunburst was expelled from Celestia's school for gifted unicorns for too much interest in smuggled Aquileian textbooks, recontextualizing his bookishness | In TLTT, a world with crystal enhancers and magic as materialist science, Sunburst was expelled from Celestia's school | yes
+- goals:
+- whole: The note sets out Sunburst's canon portrayal as bookish but not powerful and then recontextualizes it in TLTT as an expulsion from Celestia's school over smuggled Aquileian textbooks.

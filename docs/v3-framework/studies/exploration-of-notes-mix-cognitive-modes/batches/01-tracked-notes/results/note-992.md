@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten: world-builder god-mode rule of the system | Enemy elites who resist Chrysalis are hooked up to love harvesters and generate red love for as long as they seek revenge | hooved up to love harvesters and generate red love for as long as they seek revenge | outside
+  - outside all ten: world-builder god-mode statement of the system's purpose and function | The harvested love powers the Great Leap Forward by supplying food and combat drugs to conscripts who haven't passed jaeger training | enables the Great Leap Forward by providing food and combat drugs for conscripts | outside
+- goals:
+- whole: The note states, as a god-mode rule of the fictional universe, how the system turns resisting enemy elites' revenge into harvested red love that feeds and drugs conscripts for the Great Leap Forward, and it names no reader effect.

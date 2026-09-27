@@ -1,0 +1,5 @@
+- claims:
+  - History | She was alive during and went through the disappearance of the Empire under Sombra, a past event of the world reported as fact | She lived through the disappearance of the Empire (Sombra) | no
+  - Characterization | Having lost a nation to dark magic gives her a firsthand knowledge of that loss that is part of who she is at the start | She knows what it's like to lose a nation to dark magic | yes
+- goals:
+- whole: The note grounds this minor pony character's starting identity in her past, stating she survived the Empire's disappearance under Sombra and so knows from experience what losing a nation to dark magic means.

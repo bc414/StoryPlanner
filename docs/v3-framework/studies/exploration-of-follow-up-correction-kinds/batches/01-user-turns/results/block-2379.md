@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered at the level of the whole story's worldbuilding premises (civilizational, institutional, diplomatic framing) when the user's question was about Twilight as a character and which vision her characterization belongs to | "I guess meant more specifically about Twilight as a character" | restated mildly, as a clarification of what they had meant, with no blame or irritation
+- about: The user narrows their earlier question, redirecting the model from JWAB's overall premises to the specific matter of whether its Twilight is Faust's, Hasbro's, or neither.

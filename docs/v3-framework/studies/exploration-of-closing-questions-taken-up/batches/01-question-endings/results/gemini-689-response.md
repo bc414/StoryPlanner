@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the tax-equivalent yield of a T-bill compared with a CD, calculated using their state's tax rate? | ignored | The user turn asks a different question, about why T-bills are exempt from state and local tax. It does not take up the offer. | none
+- shape: The user turn is a follow-up question that asks for the reason behind one fact in the model's explanation (the state and local tax exemption). It moves on from the offered calculation to conceptual background. It is a request for information and is not tied to any story.
+- settles:

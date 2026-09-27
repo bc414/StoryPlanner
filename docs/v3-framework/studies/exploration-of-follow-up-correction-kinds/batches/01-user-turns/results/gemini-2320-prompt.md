@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's suggestion that the parents propose turning the ash into munitions, asking whether it would be tone deaf and how Applejack's choice to use the farm this way connects to the Petain/collaborator subversion, so it probes and extends the idea without saying it is wrong.

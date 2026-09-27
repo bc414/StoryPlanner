@@ -1,0 +1,4 @@
+- questions:
+  - When the Acornage parents die after 18 years, does the Griffoness CEO formally inherit the company on paper, or does Chrysalis fake the CEO's death or disappearance too and move the assets into a shell company owned by the Vesalipolis Hive? | no user turn | none | none
+- shape: none
+- settles:

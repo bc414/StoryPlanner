@@ -1,0 +1,4 @@
+- sources:
+  - Harmonic Capitalism town hall | treat as an existing part of the story plan that the model's points connect to; its content (Twilight relieved of guilt, no longer a top-down controller, no longer reining in her magic) is stated as settled | This ties into the Harmonic Capitalism town hall relieving Twilight of guilt | referred-to
+- order:
+- about: The user links the model's analysis to an already-planned town hall scene and states their own view that Twilight's opening central conflict is wanting to be with Applejack while feeling she is disappointing Celestia.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether uploaded attachments persist in context across later turns as well as pasted text does, without disputing anything the model said.

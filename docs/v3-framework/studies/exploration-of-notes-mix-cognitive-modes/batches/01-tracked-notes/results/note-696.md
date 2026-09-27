@@ -1,0 +1,4 @@
+- claims:
+  - Canon | The Wonderbolts are characterized as ineffective in a crisis, grounded in specific canon episodes where they failed | They were useless in a crisis (as shown in Sonic Rainboom, Secret of my Excess, Equestria Games and Twilight's Kingdom) | yes
+- goals:
+- whole: The note grounds the story's interpretation of the Wonderbolts as crisis-ineffective in specific canon episodes that show them failing.

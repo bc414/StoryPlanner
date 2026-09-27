@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user swaps out their own earlier premise about Metzli's self-aware impasse for a new backstory (traditionalist tribes ended flower wars and are preparing for a fight to the death, the drug tribes are suspected collaborators, the medicinal tribes serve Equestria) and asks for a comparative analysis of how this changes the setup, without saying the model's analysis was wrong.

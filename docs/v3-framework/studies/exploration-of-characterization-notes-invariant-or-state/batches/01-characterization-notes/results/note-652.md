@@ -1,0 +1,7 @@
+- claims:
+  - unfixed | Henri views Herzlanders as poseurs, people who claim honor but are in the end looters | "view Herzlanders as poseurs" (present tense) | none in the note's own words; only the track question about the start of TLTT frames it, and no end or change is stated
+  - unfixed | Henri is one of the rural Aquileians, a group that shares this view of Herzlanders | "Henri and other rural Aquileians" | none
+  - unfixed | The stated ground of the view is that Herzlanders claim honor yet loot | "claim honor but ultimately are looters" | none
+  - span | Many of Henri's biases were absorbed from stories that parents and elders passed down to him | "stories passed down by parents/elders while they were children" | his childhood, the time when he was told the stories; the bias itself is not given an end
+  - throughout | Henri is rural and Aquileian by kind or upbringing | "rural Aquileians" | none, and the note gives no dates for it
+- beside: Backstory note 247 (world date 994) speaks of the same general matter, how Henri came to hold his biases against Herzlanders and nobles. It places the source in teenage indoctrination by a griffon supremacist group, which points to nobles parading their ponies in clothes. This note places the source in childhood stories from parents and elders. Backstory note 651 (world date 980) gives his birth in Ailmont and the warlords of his childhood, but does not speak of his biases.

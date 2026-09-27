@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | the red love canister, draining spell and vacuum valve are to arrive, late in the story, at being accepted as a valid source of magic | Eventually the red love canister and draining spell and vacuum valve become a valid source of magic | yes
+- goals:
+- whole: The note sets out an arc for how the technology is presented across the story, ending with the canister, spell and valve being accepted as a legitimate source of magic.

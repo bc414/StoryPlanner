@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates the model's political-philosophy framework as a comparison, saying Aquileia is the adult version of Equestrian cutie-mark destiny but lacks naive harmony, while the Griffonian Republic is the adult version of naive harmony but lacks asset specificity, and does not point the model at any body of material.

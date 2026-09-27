@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the code task and asks a new worldbuilding question about the staple food of terroir-focused Aquileians and its French ancien régime parallel for elites, without commenting on the model's code.

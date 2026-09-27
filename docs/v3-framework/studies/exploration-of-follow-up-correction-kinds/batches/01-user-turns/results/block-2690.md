@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question, whether any further aspects of modern China remain untouched and relevant to the story, without disputing anything in the model's account.

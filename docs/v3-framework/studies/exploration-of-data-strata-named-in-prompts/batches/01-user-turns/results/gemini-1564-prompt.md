@@ -1,0 +1,4 @@
+- sources:
+  - joint war council planning scene, as the user now describes it with Blueblood and the other mayors on radio | treat as a proposed variant of the planned scene to be judged for whether the reveal still works, not settled | During the joint war council planning scene, Applejack and her crew are at the Diyarbecolt Diwan, but other mayors and Blueblood are connected via radio | referred-to
+- order:
+- about: The user proposes changing the planned war council scene so Blueblood and the other mayors join by radio instead of in person, and asks whether the reveal of Blueblood still works as a faceless voice with conviction.

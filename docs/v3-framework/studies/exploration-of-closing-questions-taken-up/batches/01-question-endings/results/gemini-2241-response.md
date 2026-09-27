@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the model to create a Gem preconfigured to use the 'Lioness of Tall Tale' notebook for story writing? | partly answered | Doesn't accept or decline the Gem outright. It rules out the story-writing purpose the Gem was offered for, saying Gemini will be used only for planning, analysis, real-world parallels and literary techniques. | I do not plan on using Gemini to generate story text, only for planning and analysis
+- shape: Redirects with a new follow-up question, asking how Gemini using the raw document differs from Gemini using the attached notebook that holds it. It also corrects the model's assumption that the user wants story-writing help by stating the intended uses (planning, analysis, real-world parallels, literary techniques).
+- settles:
+  - Gemini will not be used to generate story text. It is for planning, analysis, understanding real-world parallels and literary techniques only. | I do not plan on using Gemini to generate story text, only for planning and analysis and understanding real world parallels and literary techniques

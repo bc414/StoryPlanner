@@ -1,0 +1,6 @@
+- claims:
+  - Allegories | Chrysalis's system stands for a predatory social media algorithm that collects data and runs dopamine loops | Chrysalis operates like a predatory social media algorithm | yes
+  - History | Chrysalis gives conscripts and jaegers Red Love, which feels like a free performance boost, but it rewires their brains, destroys their emotion sense and replaces organic Pink Love (friendship) with a synthetic, state-controlled high | She gives her conscripts and jaegers Red Love... completely rewires their brain | no
+  - Allegories | The system harvests labor and pays in the rush of violence, which stands for algorithmic doomscrolling, keeping people trapped in the rat race | harvesting their labor and paying them in algorithmic doomscrolling | yes
+- goals:
+- whole: The note maps Chrysalis's Red Love system onto real-world engagement-driven social media and its dopamine loops, describing the in-world mechanism of the brain rewiring along the way, without saying what the reader should feel or take away.

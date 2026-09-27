@@ -1,0 +1,5 @@
+- questions:
+  - How does Synovial rationalize his defeat to himself at his Cloudbury trial, and does he accuse Applejack and Trimmel of cheating the rules of war, exposing the Imperial mindset as unable to survive the modern era? | no user turn | none | none
+  - How does Blueblood structure the Equestrian officer corps, applying Mudbeak's Kriegsspiel, so officers act with flexible Player-like initiative rather than reverting to Celestia's top-down methodical paralysis? | no user turn | none | none
+- shape: none
+- settles:

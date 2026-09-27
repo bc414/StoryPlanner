@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how to make each prompt fully self-contained with no carried-over past answers, building on the explanation of context handling without disputing any of it.

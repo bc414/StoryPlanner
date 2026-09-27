@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's canon-example list and questions aside and brainstorms their own backstory for Pinkie's trauma, revising their own ideas about infiltrators and detection spells and ending by asking whether the impersonated pony should be dead or alive.

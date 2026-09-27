@@ -1,0 +1,10 @@
+- questions:
+  - Does the Ch. 26 declaration scene explicitly acknowledge the Elements book as the source of the old vocabulary, for example a gesture toward what the book called Loyalty, so the correction reads as a correction? | ignored | Says nothing about the declaration scene or the book's acknowledgment there. | none
+  - Does Twilight slip into the book's labels at any moment in the declaration, such as a single 'what I used to call Loyalty', to make the translation into the nursery register explicit? | ignored | Does not mention how the declaration is delivered or whether old labels surface. | none
+  - Is Night Light's scientific cage named in the Ch. 16 scene alongside Velvet's narrative cage, or does it stay subtext? | ignored | Night Light and the Ch. 16 scene are not mentioned. | none
+  - When does Twilight privately arrive at Kinship for Rainbow's element before the public naming in Ch. 26, and is Ch. 16 that moment? | ignored | Says nothing about a private renaming or its timing. | none
+- shape: The user turn steps back from the model's scene-level gaps and asks for confirmation of a broader thesis. The thesis is that Hasbro and the later writers collapsed Faust's three layers into the first layer only, with the School of Friendship and the Cutie Map as examples. The turn also proposes that the story makes those flattened features true in its own world, separates Faust's design from the mandate, and shows a grown-up version in the EaW setting. It is a check of the model's framing, not an answer to the model's questions.
+- settles:
+  - The story treats the mandate-era features, such as the School of Friendship and the Cutie Map, as true in its own universe. | 'my story makes all of that true in universe'
+  - The story separates Faust's original three-layer design from the Hasbro mandate and examines the two apart. | 'dissects the original Faust design from the mandate'
+  - The story shows a scaled-up, grown-up version of the design in the EaW setting. | 'depicts the scaled up grown up version in the EaW setting'

@@ -1,0 +1,5 @@
+- sources:
+  - the idea of having Blueblood in control of the reserves and not the static front line (the model's proposal in the previous turn) | accept and build on it as settled; the user extends it with Blueblood taking over the survivors once Luna runs | "is excellent" | referred-to
+  - the author's own stated plans for Vanhoover and the first battle of Tall Tale (warned civilians who obeyed, friendship shields at Tall Tale, the trench-bond crew, the Wonderbolts handling the tanks) | treat as the author's intended canon; it corrects the model's earlier version, so use it in place of the model's contrary details | "Actually I do intend on the first battle of tall tale featuring friendship shields" | first-named
+- order:
+- about: The user accepts the model's Blueblood-commands-the-reserves idea, then corrects other parts of its proposal by stating what they intend: Vanhoover was warned, and the Tall Tale battle does use friendship shields, held by a prepared crew through resilience and trust.

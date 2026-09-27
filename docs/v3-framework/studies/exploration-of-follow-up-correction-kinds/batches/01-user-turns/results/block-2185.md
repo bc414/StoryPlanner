@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the model's theme-versus-evidence test and asks whether it matches how novelists actually treat themes, and whether it improves their plan or misses something, without saying anything in it is wrong.

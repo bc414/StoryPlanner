@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | sets the starting point of the reader's experience of the organization: readers arrive assuming the changelings are cruel "bugnazis" | Readers come in expecting the changelings to be cruel "bugnazis" | yes
+- goals:
+- whole: The note sets the opening baseline in the design of the reader's view of the organization by naming the prior assumption that changelings are cruel bugnazis.

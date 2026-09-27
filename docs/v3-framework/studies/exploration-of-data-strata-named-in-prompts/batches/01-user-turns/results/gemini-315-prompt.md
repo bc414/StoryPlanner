@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's account of where Grover VI was raised and where the Barkingian Guard is based, supplies the timeline of Grover V and VI, and floats a new idea for how the Equestrian Republic's entry into the republican pact leads the GR to grant Bronzehill self-determination.

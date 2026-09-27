@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's salon analysis with new worldbuilding ideas (salons as importers of FJA luxury goods, Coltbert founding the first salon, Aquileian trade draining Equestrian bits) and asks the model to review the story plans for Coltbert's role and synthesize.

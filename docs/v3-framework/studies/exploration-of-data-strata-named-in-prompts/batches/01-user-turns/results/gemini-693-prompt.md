@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general factual question about how southern French (Occitan) speakers talk and whether an English speaker can tell a southern French accent in English from a Parisian one, without pointing at any body of material.

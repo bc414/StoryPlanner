@@ -1,0 +1,5 @@
+- sources:
+  - Fleur from canon (the published show's character) | do not use for this character; the model's assumption that she is the canon Fleur is rejected | It's not Fleur from canon | referred-to
+  - my story plan (where Fleur Bloom is an OC, an Aquileian volunteer) | treat as the true account of who Fleur Bloom is | Fleur Bloom is an OC from my story plan | referred-to
+- order:
+- about: The user corrects the model's assumption that Fleur is the canon character, saying she is an original character from their own story plan, an Aquileian volunteer.

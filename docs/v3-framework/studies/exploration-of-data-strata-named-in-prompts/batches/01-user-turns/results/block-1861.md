@@ -1,0 +1,8 @@
+- sources:
+  - v1 notes | treat as the place where the story thread "Discovering the Elements of Liberty" is defined, with its climax at the end of the chapter Dilemma; the model is to take the thread from here | In the v1 notes, there is a story thread called "Discovering the Elements of Liberty" | referred-to
+  - TheLionessOfTallTale.db.md | search it directly and pull all relevant information from it rather than assuming anything | grep all the relevant info from TheLionessOfTallTale.db.md file | referred-to
+  - the 6 existing subject types | treat as the fixed set the thread must either fit into or be shown not to fit | Can it fit in one of the 6 existing ones | referred-to
+  - other story threads like Camp Fluttershy, CIA, Establishing the Equestrian Republic | use as precedent, since they became proper subjects with empty backstory because they are established within the story | Note how other story threads like Camp Fluttershy, CIA, Establishing the Equestrian Republic became proper subjects | referred-to
+  - the Mane 6 individual character arcs | treat as a place that partly already holds the tracking of the adult versions of their elements, so overlap is possible | this is sort of in their individual character arcs too | referred-to
+- order:
+- about: The user asks what subject type could track the story thread \"Discovering the Elements of Liberty\" across the story, floating a Mane 6 organization, and tells the model to grep the database file rather than assume anything.

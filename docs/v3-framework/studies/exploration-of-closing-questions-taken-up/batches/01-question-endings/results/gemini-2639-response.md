@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an analysis of how the Chapter 6 kiss alters their neurochemistry and shifts them from traumatized herd animals into a Binary Unit? | ignored | The user turn does not accept or decline the offer; it asks a different question about C-tactile afferent engagement in big-spoon versus little-spoon positions. | none
+- shape: Redirects to a new, narrower question: it drops the model's offered next topic and asks a follow-up about the physiology of the cuddle (big vs little spoon and C-tactile engagement), attaching visual references of the two characters for grounding.
+- settles:

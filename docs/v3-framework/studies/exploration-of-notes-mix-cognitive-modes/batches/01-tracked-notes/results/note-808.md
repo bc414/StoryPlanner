@@ -1,0 +1,7 @@
+- claims:
+  - History | Severyana is separate from Equestria because its northeast latitude is too cold for the weather management and survival harmony the rest of pastoral Equestria uses | Severyana exists separate from Equestria because it is northeast and therefore at a latitude that is too cold | no
+  - History | The people of Severyana must burn wood constantly to keep warm | They have to burn wood constantly for warmth | no
+  - History | Severyana had a sparse population for centuries | For centuries, Severyana was sparsely populated | no
+  - History | Severyana developed its own language and culture apart from Equestria, caused by the material reality of its latitude | They developed a distinct language and culture separate from Equestria due to the material reality of their latitude | no
+- goals:
+- whole: The note reports, as in-world fact, how Severyana's cold northeast latitude caused its separation from Equestria, its reliance on burning wood, its sparse population, and its distinct language and culture.

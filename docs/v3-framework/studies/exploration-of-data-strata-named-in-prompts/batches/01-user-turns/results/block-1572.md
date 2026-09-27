@@ -1,0 +1,6 @@
+- sources:
+  - what we've already built with subjects and plot point subject links | treat as the established design and reason from it as the basis for defining what a plot point is; links are meant for calibrating thematic proposition evidence and reader experience and separating page, world inference and theme proposition evidence | given what we've already built with subjects and plot point subject links | referred-to
+  - existing examples of v1 notes | analyze as evidence of what actually went into the old plot point notes, to inform how to approach v2 | analyze existing examples of v1 notes to understand what actually went into these | referred-to
+  - the author's own recollection of how plot points were used and originated | treat as background history to be tested rather than as settled: plot point was once a single note, became scene level, and was used as summary to revise later | I think I previously used it for summary to revise later | first-named
+- order:
+- about: The user asks the model to reason from first principles about what a plot point is, given the existing subject and plot-point-link design, to examine v1 notes and the author's recollection of past use, and to ask clarifying questions rather than assume.

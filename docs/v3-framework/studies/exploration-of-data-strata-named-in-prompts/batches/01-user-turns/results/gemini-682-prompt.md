@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a story-design question about whether Rockfeller should deal with Chrysalis directly and knowingly or only through the Skyfall shell company, without pointing the model at any body of material.

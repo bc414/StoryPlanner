@@ -1,0 +1,4 @@
+- claims:
+  - History | Central Cloudsdale did not exist until after Luna eliminated all the magical beasts, reported as a fact of the world's past | There was no central Cloudsdale until after Luna eliminated all the magical beasts | yes
+- goals:
+- whole: The note reports, as in-universe history, that central Cloudsdale only came to exist after Luna eliminated all the magical beasts, which puts a sequence on the origin of weather management.

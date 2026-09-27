@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a plot refinement in which Synovial misreads the planned elastic-defense retreat as the start of the exhaustion phase, feeding his ego and his fixation on his own nickname for Applejack, without pointing the model at any body of material.

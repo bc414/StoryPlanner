@@ -1,0 +1,4 @@
+- questions:
+  - Has the user kept a detailed Git history with descriptive commit messages, or would the AI have to infer motivations mostly from raw code diffs? | ignored | Says nothing about their commit history; the turn moves to a separate question about whether Claude Code comes as a desktop app. | none
+- shape: Redirects to a new factual question about the product. It asks whether Claude Code is available as a desktop application and not only a command line, and asks for an account of the product as of April 2026. The model's closing question is left unanswered. The turn is a request for information.
+- settles:

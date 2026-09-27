@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to the next plot beat, a referendum in Equestria with compulsory voting and a three-way split in the polls, and asks for analysis and a link to the Aquileian dynamics, without disputing anything in the model's earlier verdict.

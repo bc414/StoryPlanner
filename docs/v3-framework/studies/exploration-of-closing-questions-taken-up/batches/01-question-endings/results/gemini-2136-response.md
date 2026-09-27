@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants to explore the command-tent dialogue after the battle, perhaps between Applejack and Twilight, as they reconcile the horrific success of the Spearhead with their Harmonic souls | no user turn | none | none
+- shape: none
+- settles:

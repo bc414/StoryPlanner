@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a worldbuilding detail (the frost generation reads Herzlander but only from factory material, with no native written changeling) and asks how it shapes their view of culture-bearing equestrian books, which is a new question and not a correction of a model turn that was never captured.

@@ -1,0 +1,7 @@
+- questions:
+  - How does Kemerskai square using Coltbert's thesis (individuals need asset specificity and ego to avoid being prey) with a command economy that treats workers as interchangeable cogs? | ignored | none | none
+  - Before the Universal Translator, how does the GR military work with Herzlander officers commanding Cloudburian conscripts who share no language, and does that barrier cause a disaster that forces Kemerskai's hand in 986? | ignored | none | none
+- shape: The user turn does not take up the model's questions. It corrects the model's framing of 986 as a parallel coincidence: Verany's pardon and Chrysalis's Great Leap Forward are effects of Kemerskai's martial law. It gives background on how the timeline was built from the game's canon and focus trees. It then moves the analysis on to a new question about when martial law is lifted, asking for pros and cons of 996, earlier, or later.
+- settles:
+  - Verany's pardon and Chrysalis's launch of the Great Leap Forward are caused directly by Kemerskai's martial law, not independent parallel events | Verany's pardon and Chrysalis's launch of the Great Leap Forward are direct effects of Kemerskai's martial law
+  - The 986–1012 history was built by taking the canonical 1007–1012 focus trees leading to war with the Empire and stretching them over 986–1012; canon's 1007 lifting of martial law is a gameplay artifact of the start date | I took the focus trees from 1007 to 1012 ... stretched them out to cover the history from 986 to 1012

@@ -1,0 +1,4 @@
+- sources:
+  - Chapter 13 "Rock Slides and Air Slashes" | the text to be analysed; the model is to draw on it for a thorough analysis of the perspectives used in it | Give a thorough analysis of the perspectives used in Chapter 13 | referred-to
+- order:
+- about: The user asks the model for a thorough analysis of the perspectives used in one named chapter, following the model's discussion of POV and irony.

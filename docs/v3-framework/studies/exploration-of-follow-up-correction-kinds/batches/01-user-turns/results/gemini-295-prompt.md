@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model called the gentle, shared love the changelings can no longer take in "Green Love"; in the world's scheme that kind of love is pink and stands for friendship | "Pink love is friendship, not green." | flat, in passing, as a parenthetical inside a question about something else
+  - fact of the world | The model defined Red Love as violent extraction, the thing that punches through the numbness; the user says red love stands for magic and ambition | "Red love is magic/ambition" | flat, in passing, in the same parenthetical, with no comment on the model's version
+- about: The user adds new plot material (conscripts on love rations, traumatized prisoners, the Acornage doctor explaining changeling biology) and asks how the addiction and withdrawal idea fits it and real narcotics, quietly restating the love-colour terms as they go.

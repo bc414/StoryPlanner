@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the analysis of the written draft as done and directs the model to move on to the story plan for the unwritten remainder and analyze it.

@@ -1,0 +1,4 @@
+- questions:
+  - Should changeling/griffon refugees in the story keep their old ways (segregated or remote schooling), or be pulled into the Republic's schools to build a unified Republican identity? | ignored | The user turn drops the story design choice and asks real-world factual questions about Ukrainian refugee numbers in Poland. | none
+- shape: Redirects away from the story application to a factual research follow-up: how many Ukrainians entered Poland in 2022, what share of each country's population that was, and how it has changed over four years. It asks for information and makes no decision.
+- settles:

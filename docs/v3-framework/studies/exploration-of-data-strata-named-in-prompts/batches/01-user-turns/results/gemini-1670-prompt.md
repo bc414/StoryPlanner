@@ -1,0 +1,4 @@
+- sources:
+  - My data, from a custom WPF app with a SQL lite and EF core representation | the material the author wants to hand to the model; its format is open, and no trust or priority is attached | My data comes from a custom WPF app which has a SQL lite and EF core representation | first-named
+- order:
+- about: The user asks whether JSON is the best format, or what alternatives exist, for exporting their story-planning data from a custom WPF app's SQLite/EF Core store so it can be given to the model.

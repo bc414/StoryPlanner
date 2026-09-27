@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an analysis of how Rasti's interaction with Maud Pie could bridge the crystal negotiation scene? | ignored | The turn contains only an attached plan export and no message text, so it says nothing about the offer. | none
+- shape: A bare attachment of the plan export (about 121,000 words) with no message text. It gives no answer, correction or instruction. It reads as supplying the planning material without comment.
+- settles:

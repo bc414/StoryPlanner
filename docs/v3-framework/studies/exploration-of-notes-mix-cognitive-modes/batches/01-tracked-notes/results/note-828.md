@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | The organization's members reject industrialization; this is what they oppose | They do not want industrialization | yes
+  - Characterization | The members desire isolation and preservation of their traditions, which is what binds them | They want isolation and their traditions | yes
+  - Characterization | The members' underlying wish is to be left alone in peace | They want to be left alone and in peace | yes
+- goals:
+- whole: The note asserts as psychological truth that Temberik's members are bound together by rejecting industrialization and wanting isolation, tradition and peace.

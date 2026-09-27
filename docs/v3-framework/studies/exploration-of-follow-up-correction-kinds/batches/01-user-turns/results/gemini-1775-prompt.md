@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The name options were built on legal, sovereignty, school and sanctity themes, not on game theory or Coltbert's predator's dilemma paper, which the user expected to be the source | How about suggestions related to game theory and Coltbert's predator's dilemma paper? | Put as a mild question-style redirect with no complaint or explicit statement that the model was wrong
+  - reading of the plan | The suggestions did not take account of the established world detail that the lionesses' and suitors' social clubs are called Fête des Joueuers d'Aquilée, a gaming-flavoured name the new terms should fit | I've established that the social clubs where the Aquileian lionesses and their suitors hang out are called Fête des Joueuers d'Aquilée | Supplied as background in passing, as a reason for the redirect, with no rebuke
+- about: The user turn redirects the naming brainstorm toward game-theory terms tied to Coltbert's predator's dilemma paper and gives the established club name as context for them.

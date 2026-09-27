@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new, broader research question, requesting a full history of Turkey from the Ottoman fall to today and its behavior toward Kurds, geopolitics and institutions, framed through their story's allegories, without disputing anything in the prior answer.

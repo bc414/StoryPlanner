@@ -1,0 +1,4 @@
+- sources:
+  - The battle's current label in the author's plan, The Battle of Ailmont at Henri's home | provisional, open to being replaced, since the author now thinks the battle should be at Verdame | I currently labeled that as The Battle of Ailmont | referred-to
+- order:
+- about: The user revises the plot so that Synovial was not captured, returns to fight Applejack and Trimmel near the border, and possibly at Verdame, and asks the model how Synovial would react on seeing the "Lioness" title on her uniform: laughing, feeling played, or staying haughty.

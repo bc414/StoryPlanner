@@ -1,0 +1,11 @@
+- questions:
+  - If the silk keeps the weaver's emotional signature, what happens when a POW has a flashback or withdrawal spike while weaving, and does the uniform become a hazard to the soldier wearing it? | refused | Rejects the premise. Says the silk should not hold the weaver's love indefinitely because that breaks the magic system's logic. It offers a sponge model in its place, so the weaver-contamination scenario is never taken up. | "should not hold onto the love of its weaver indefinitely"
+  - How would the standardization-minded Griffonian Republic, and Kemerskai in particular, react to Equestria relying on empathy-infused bug silk for military logistics? | ignored | Says nothing about Griffonia, Kemerskai or foreign reactions. | none
+- shape: The user corrects the model's silk mechanism on the grounds of magic-system consistency and proposes a replacement. In the new version the silk absorbs ambient friendship and releases it slowly. The user ties this to existing lore (Meadowbrook's friendship plants) and gives it an in-world origin and a matching present-day practice. The model's two questions are not answered, and the turn moves on to building the replacement idea.
+- settles:
+  - Changeling silk does not permanently retain the weaver's emotional imprint. That model is dropped as inconsistent with the magic system. | "break the logic of the magic system"
+  - Changeling silk works as a charitostatic sponge that soaks up ambient friendship and releases it gradually to calm whoever is in contact with it. | "charitostatic sponge"
+  - The sponge trait evolved as a way for changelings to store excess friendship. | "evolved as a way for changelings store excess friendship"
+  - The silk parallels Mage Meadowbrook's friendship plants, which store friendship and can be harvested into medicine. | "like Mage Meadowbrook's friendship plants"
+  - In the ancient hive, caretaker aunts and uncles put communal grubs to rest in silk blankets. The blankets absorbed the hive's love and released it steadily while the grub slept. | "caretaker aunts and uncles took care of the communal grubs"
+  - Camp Fluttershy treats newly arrived POWs recovering from combat drugs with the same silk-blanket procedure. | "just like the procedure at camp fluttershy"

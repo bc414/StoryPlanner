@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to know more about the zigzag maneuvers ships used to avoid torpedoes, or about the history of a specific ship like the Queen Mary? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - Who is buying Manehattan's mass-produced commodity goods: are they exported to Aquileia/Griffonia to earn capital for luxuries, or sold domestically, eroding the agrarian simplicity of the rest of Equestria? | ignored | Nothing said about the market for the goods; the user turn moves to a different topic, Fluttershy and harm reduction. | none
+- shape: Redirects to a new topic. The user drops the economic question and asks three linked questions of their own about a possible Fluttershy argument for harm reduction over prohibition: whether she would make it, what it would serve, and what it means at its core.
+- settles:

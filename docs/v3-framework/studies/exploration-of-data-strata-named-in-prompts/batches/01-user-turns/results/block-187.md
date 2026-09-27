@@ -1,0 +1,8 @@
+- sources:
+  - TLTT and its parallel chronology, including the scene of Chrysalis gloating seen from Applejack's perspective and Trimmel's words on defeat | treat as the settled plan; Chrysalis gets only 10-20% of her story here, and the scene and its themes are given as fixed facts to build her story from | Chrysalis's "prequel"... features 80% before TLTT and probably 10-20% within TLTT | referred-to
+  - Chrysalis's story (the prequel, tentatively titled "The Countess of Crystal Rock") | treat as the author's plan and the place where her recognition and denial are dramatized from within; the details of her wound, path and goals are stated as the plan, while the title is only tentative | I'm thinking her story's title is | referred-to
+  - Minette's story | use as a structural comparison, with the same before/within-TLTT split, and as a contrast, since Minette is reformed and Chrysalis is not | like Minette features 80% before TLTT | referred-to
+  - EaW lore | treat as the origin of the Acornage harmonist-changeling detail and of Herzland's German-inspired setting, so as canon to draw from | This is taken from EaW lore | first-named
+  - FiM lore | treat as true background, for example that changelings can shapeshift, and as the basis for TLTT's proposition that FiM's principles are not naive | because changelings can shapeshift in FiM lore | referred-to
+- order:
+- about: The user answers the model's open questions about Chrysalis by supplying planned story details (her recognition scene, her narcissistic denial, her backstory and title) and drawing on TLTT, Minette's story, EaW lore and FiM lore.

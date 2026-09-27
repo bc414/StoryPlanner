@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is brainstorming how the Statthalters of Les Méridiennes should present themselves to Skyfall tycoons and to the Aquileians, proposing that they pose as griffon pirates or elites, or as Herzlander/Skyfall griffons who have adopted Aquileian terroir, and asking whether that disguise would hold.

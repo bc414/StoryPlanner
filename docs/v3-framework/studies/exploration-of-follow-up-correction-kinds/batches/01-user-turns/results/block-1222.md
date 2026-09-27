@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user complies with the model's request by re-attaching the PDF and asks it to go back to and answer their earlier questions, without disputing anything the model said.

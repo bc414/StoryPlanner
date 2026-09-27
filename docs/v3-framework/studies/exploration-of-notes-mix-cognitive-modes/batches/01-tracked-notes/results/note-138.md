@@ -1,0 +1,6 @@
+- claims:
+  - WorldInference | the reader already holds the belief, from earlier in the story, that Applejack sees the canned goods as soulless mash | The reader knows Applejack views the cans as "soulless mash" | no
+  - WorldInference | the reader is to work out from the reunion that Applejack's parents see the canned product as acceptance, which clashes with the belief they hold | Now they realize her parents view it as "acceptance" | no
+- goals:
+  - the reader realizes that Applejack's parents view the canned product as acceptance rather than as soulless mash, and revises their earlier belief | WorldInference | Now they realize her parents view it as "acceptance"
+- whole: The note sets the reader's held belief about Applejack's view of the cans against the parents' opposing view, so that the reader's realization forces a revision of that belief.

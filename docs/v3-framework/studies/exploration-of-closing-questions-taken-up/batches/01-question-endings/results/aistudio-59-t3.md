@@ -1,0 +1,5 @@
+- questions:
+  - What happens to an Equestrian pilot knocked unconscious before activating Wings of Dew: does Star Energy develop a fail-safe, or is it an accepted margin of error? | no user turn | none | none
+  - How does Rainbow Dash, formerly with an Atlas Complex, react to seeing hundreds of Earth Ponies and Unicorns flying beside her: relief that the burden is shared, or a sense of lost identity since flight is now industrialized? | no user turn | none | none
+- shape: none
+- settles:

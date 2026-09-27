@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user states what they take to be the main purpose of the per-character plot point entities (scanning one character's entries in chapter order) and asks the model to explain what that means, why it matters, and how it compares to writing from a single document and to professional writers' methods, without disputing anything the model just proposed.

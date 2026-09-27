@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's analysis as a base, proposes a distinction between irredeemable poseurs (enemies) and misled poseurs (to be redeemed), and asks for better names for the two classes.

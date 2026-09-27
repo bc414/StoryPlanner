@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up code-review question: whether the blank-line fix should also be applied after each of the four scene payload blocks, and whether other places in the method need it.

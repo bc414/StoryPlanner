@@ -1,0 +1,9 @@
+- sources:
+  - planned Twilight arc: after chapter 9 she understands industry is not evil | treat as the author's settled plan that the answer must preserve | core part of Twilight's development during the story | first-named
+  - chapter 10 scenes with Fleur telling Twilight to be herself | treat as planned scenes the earlier material must set up, with Twilight dropping Celestia's conditioned persona | In chapter 10 there are scenes about Fleur | first-named
+  - season 1 Twilight | use as the target characterization she returns to, an empirical scientist now with empathy | goes back to season 1 Twilight who was an empirical scientist | referred-to
+  - Ain Trotgourait and magical supply organization | existing lore that is open to reshaping so it fits the planned arc; the author asks how to handle it | How can I handle Ain Trotgourait and magical supply organization | referred-to
+  - the Zebras handling their own magic while only Twilight has hers | treat as a true setting fact that constrains how Twilight acts in Ain Trotgourait | Since only Twilight has her magic (Zebras hand their own magic) | first-named
+- order:
+  - planned chapter 9 and chapter 10 Twilight development over the handling of Ain Trotgourait and magical supply organization | while preserving this dynamic
+- about: The author restates their planned Twilight arc (industry understood as not evil after chapter 9, back to an empirical season-1 self in chapter 10) and asks how to shape the Ain Trotgourait and magical supply organization backstory, including whether Twilight should act as a benevolent benefactor, so that arc holds.

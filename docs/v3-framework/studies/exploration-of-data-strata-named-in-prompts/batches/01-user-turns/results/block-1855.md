@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states that their tracks are laid out left to right in the UI by rainbow color and asks how to place the new Analogies and Allegories split within that arrangement, without pointing the model at any body of material to use or avoid.

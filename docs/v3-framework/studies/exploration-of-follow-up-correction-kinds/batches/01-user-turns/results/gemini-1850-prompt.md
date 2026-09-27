@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's account in their own words, extending it with a claim about how higher-order training improved natural-language competence, then asks whether the model is capped at existing human ingenuity and requests an analysis.

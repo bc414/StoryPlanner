@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user floats a variation on the plan, having Rarity join Applejack's crew in the jungle only during two specific chapters, and asks the model to consider it, without saying the model's analysis was wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the name-choice discussion and asks a new question about how the Equestria at War mod forms German and French names for Herzlander and Aquileian griffon characters.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for an honest, non-binary analysis of how the TLTT planning approach could succeed or fail, and whether THLB's revision was necessary for its resonance or the story planner can recreate it, while saying they will keep planning for the satisfaction of it.

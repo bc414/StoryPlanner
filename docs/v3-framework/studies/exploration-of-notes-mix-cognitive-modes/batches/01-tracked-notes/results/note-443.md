@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | states what the system objectively does: it removes even survival harmony, and gives the cause as the threat of industrial tyranny | The stagnation of harmony removes even survival harmony because of the threat of industrial tyranny | outside
+- goals:
+- whole: The note gives a single god-mode rule of the fictional universe: what the Stagnation of Harmony does, and why it does it.

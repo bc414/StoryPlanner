@@ -1,0 +1,5 @@
+- claims:
+  - outside (world-rule ontology) | The technology's first product is a hybrid tractor that is fuelled by both oil and crystals, stated as a fact of what exists in the universe | Star Energy's debut product is a hybrid tractor that runs on both oil and crystals | outside
+  - outside (world-rule ontology) | The crystal spell matrix works by isomerizing hydrocarbons so that they burn more cleanly, stated as how the mechanism operates | The crystal spell matrix isometerizes the hydrocarbons into cleaner combustion | outside
+- goals:
+- whole: The note states in flat god-mode terms what the Oil Refining Spell Matrix is and how it works, as a crystal-based hydrocarbon-isomerizing mechanism in Star Energy's hybrid tractor, with no aim for the reader.

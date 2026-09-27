@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like help brainstorming a plot point that would fit under the chapter title Betrayal or Redemption? | ignored | The user turn asks a grammar question about what a noun is and does not take up brainstorming a plot point. | none
+- shape: Turns aside to a general grammar question, asking for the definition of a noun beyond person, place, or thing. It is probably prompted by the model's talk of abstract nouns, and it does not engage the offer or the chapter titles.
+- settles:

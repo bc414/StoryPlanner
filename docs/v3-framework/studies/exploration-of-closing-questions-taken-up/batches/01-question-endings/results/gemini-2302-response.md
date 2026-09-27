@@ -1,0 +1,5 @@
+- questions:
+  - Does the Wonderbolt Spitfire's exhaust run completely cold, given the near-90% efficiency and waste heat absorption? | ignored | none; the user turn moves on to a new physics topic and never mentions the exhaust | none
+  - If the exhaust runs cold, does it leave an eerie trail of white freezing condensation, unlike the dirty black smoke of the Changeling swarm? | ignored | none; the contrail and smoke contrast go unmentioned | none
+- shape: Redirects to a new real-world engineering tangent: it asks how the efficiency figures compare with stationary power-plant generators and how vehicle and power-plant combustion differ. It doesn't engage the story-specific exhaust question or the engine worldbuilding.
+- settles:

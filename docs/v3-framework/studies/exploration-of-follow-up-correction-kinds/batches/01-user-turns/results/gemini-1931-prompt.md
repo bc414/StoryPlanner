@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about which airlines fly New York to Beijing with a stop in Korea, building on the model's mention of connecting flights without disputing anything it said.

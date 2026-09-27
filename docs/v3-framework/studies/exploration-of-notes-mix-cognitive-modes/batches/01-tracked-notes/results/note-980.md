@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten: world-rule ontology | The technology is built on 1940s vacuum-tube machines that are deliberately inefficient and power-hungry | These 1940s vacuum-tube machines are intentionally inefficient and power-hungry | outside
+  - outside all ten: world-rule ontology | Merchants must buy electricity to run the machines | To run them, the merchants have to buy electricity | outside
+  - outside all ten: world-rule ontology | Gilded Trust owns the local oil fields, the Overland Haulers and the power plants, so the electricity supply is in its hands | Who owns the local oil fields, the Overland Haulers, and the power plants? Gilded Trust | outside
+  - outside all ten: world-rule ontology | Each verified transaction earns Gilded Trust a fraction of a barrel of oil sold, so verification works as a toll | Every time a transaction is verified, he sells a fraction of a barrel of oil | outside
+- goals:
+- whole: The note sets out, as a rule of the fictional universe, how the vacuum-tube machines' power demand routes each verified transaction through Gilded Trust's control of energy supply, and it names no reader effect.

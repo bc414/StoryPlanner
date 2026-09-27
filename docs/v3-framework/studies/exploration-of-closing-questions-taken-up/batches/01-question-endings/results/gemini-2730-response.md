@@ -1,0 +1,10 @@
+- questions:
+  - How does Henri Gourard, on seeing the harm-reduction 'Rat Park' model work, have to re-evaluate his Aquileian biases about Poseurs and meritocracy? | ignored | Nothing on Henri or his biases; the turn moves to a different plot point. | none
+  - Does seeing the model succeed make Henri realize that dignity sometimes has to be given before it can be earned? | ignored | Not taken up; the turn goes to Chrysalis and the Second Great Leap Forward instead. | none
+- shape: Drops the model's Henri question without comment and starts a new thread. The user offers a fresh plot idea for the Second Great Leap Forward (Chrysalis harvesting drones caught in communal games), then asks a new analysis question. The question is whether harvesting civilians would hinder or strengthen her war machine, with the condition that she acts rationally toward total-war militarization and not out of cruelty.
+- settles:
+  - Proposed for the Second Great Leap Forward: Thorax organizes second-generation drones to play board games in the old pre-industrial caverns, generating communal pink love | 'Thorax starts organizing 2nd-generation drones to play board games'
+  - Proposed: Chrysalis treats this as a fuel source as well as treason, declares the players enemies of the state, and puts her own young, hopeful citizens into the love harvesters | 'she sees fresh fuel'; 'straps her own young, hopeful citizens to the harvesters'
+  - Proposed: the state slogan changes from 'Eat the Rich' to 'Purge the Weak', and any 'deviant harmonic' activity now risks being made a battery, not just fired | 'replaces "Eat the Rich" with "Purge the Weak"'
+  - Proposed: Chrysalis ramps up infantry training, so drones who underperform in the factory are drafted and the bar for staying in the factory rises every year | 'drones that underperform in the factory start getting drafted'
+  - Design constraint: Chrysalis must act rationally in service of her total-war militarization goals, not from gratuitous cruelty | 'She should act rationally'; 'not just to be cruel'

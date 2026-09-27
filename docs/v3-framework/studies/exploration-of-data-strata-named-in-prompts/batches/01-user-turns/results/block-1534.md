@@ -1,0 +1,4 @@
+- sources:
+  - Gemini | treat its output as inspiration only, not as answers or as content to commit; do not rely on it to supply the notes | I only use Gemini for inspiration, not answers | referred-to
+- order:
+- about: The user pushes back on the proposed AI-drafted migration workflow, saying the notes must be in their own author-to-self voice and that Gemini is only a source of inspiration, not answers.

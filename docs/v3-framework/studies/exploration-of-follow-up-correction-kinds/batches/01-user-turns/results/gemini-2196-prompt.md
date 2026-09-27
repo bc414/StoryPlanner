@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a factual follow-up about how much military equipment Poland, South Korea and the Baltic states gave to Ukraine in 2022, picking up the model's stockpile remark and widening it to other countries without saying anything in it was wrong.

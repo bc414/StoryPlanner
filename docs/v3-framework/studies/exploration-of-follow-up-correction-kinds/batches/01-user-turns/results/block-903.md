@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model described Canterlot's trapped population as the elites who defied evacuation and collaborators, when it also holds ordinary ponies who did not join total mobilization, both evacuees from the north who went there instead of the eastern cities and Canterlot natives who stayed | "Canterlot is not just elites, it is also ordinary ponies who didn't go to total mobilization" | flat clarification, opened with "To be clear", with the correct detail supplied (about 12 million evacuated north, some went to Canterlot, some natives stayed)
+- about: The user clarifies that Canterlot's population is mixed rather than mostly elites, then asks a new question about which Yalta Conference figures Blueblood's allegory maps to.

@@ -1,0 +1,5 @@
+- sources:
+  - my timeline | the frame the model should answer within: the author's own version of events, in which Rarity returns to work with the dogs after the canon episode | in my timeline, after the events of the canon episode, Rarity went back to work with the dogs later | referred-to
+  - the canon episode | treated as the established starting point; its events are taken as having happened, and the author's timeline continues past them | after the events of the canon episode | referred-to
+- order:
+- about: The user corrects the model's reading of their question, saying they meant a scenario in their own timeline where Rarity goes back to work with the Diamond Dogs after the canon episode's events.

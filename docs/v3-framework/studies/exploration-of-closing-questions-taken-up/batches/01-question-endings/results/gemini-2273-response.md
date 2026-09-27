@@ -1,0 +1,4 @@
+- questions:
+  - Where do the Wonderbolts get the conventional iron bombs for early-war dive bombing: smuggled out of Aquileia with Comet Shine's help, or improvised from anvils, rocks and civilian mining explosives made to look like accidents? | ignored | The user turn doesn't pick a source. It asks a separate factual question about what close-air-support bombs were made of, which touches the same subject but doesn't choose between the options. | What were bombs for CAS made of?
+- shape: A short factual, real-world question that redirects from the model's worldbuilding prompt. It asks about the materials of close-air-support bombs, probably to ground the bomb-sourcing question, but it doesn't answer that question.
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for more game-theory-inspired term suggestions beyond those it just offered, without pointing at any body of material.

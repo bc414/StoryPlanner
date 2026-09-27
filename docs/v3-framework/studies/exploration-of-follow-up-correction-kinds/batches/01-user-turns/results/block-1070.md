@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's toy-box framing unchallenged and moves to a new, broad research request: tracing generational childhood conditions since WW2, weighing them against inequality-driven cynicism and other factors, and predicting how audiences would receive their story compared with mainstream grimdark works.

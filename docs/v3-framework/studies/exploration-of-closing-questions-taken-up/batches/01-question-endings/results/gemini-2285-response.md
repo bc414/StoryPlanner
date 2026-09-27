@@ -1,0 +1,6 @@
+- questions:
+  - Do the hypersonic crystal bullets leave glowing ionized vapor trails, so Wonderbolt fire looks like continuous laser beams next to the Changeling tracers? | partly answered | The user doesn't say yes or no. They move to tracers in general and ask how phosphorus and potassium could give the tracer effect as an advantage, which treats a visible tracer effect as something they want. | how can an abundance of phosphorus and potassium ... get the high velocity effect and tracer effect advantages
+  - Does Star Energy have to line the gun barrels with Aquileian Griffon-forged steel so the guns don't melt their own rifling? | ignored | The user says nothing about barrel wear, barrel lining or Griffon steel. | none
+- shape: The user sets the model's worldbuilding question aside and asks two new factual questions. One is whether tracers were common or hard to source on WW2 fighters. The other is how Earth pony phosphorus and potassium could produce both the high-velocity and the tracer effects. It is a follow-up that pulls the conversation back to the real history and chemistry of ammunition.
+- settles:
+  - Earth pony agriculture supplies an abundance of phosphorus and potassium, and this is meant to feed the Wonderbolts' propellant and tracer ammunition. | abundance of phosphorus and potassium from earth pony agriculture

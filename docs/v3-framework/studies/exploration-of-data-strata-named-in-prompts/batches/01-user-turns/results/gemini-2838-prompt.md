@@ -1,0 +1,5 @@
+- sources:
+  - several studies | user's recollection of research findings that people want children but are held back by economics; to be analyzed and tested as a claim, not accepted as settled | I thought several studies indicate | first-named
+  - the model's earlier point on barrier vs desire in this conversation | questioned by the user and to be re-examined against the studies claim | Regarding the barrier vs desire | referred-to
+- order:
+- about: The user challenges the model's earlier claim that money removes a barrier but doesn't create desire, citing a remembered body of studies, and asks the model to analyze whether people intrinsically want children but are stopped by economics.

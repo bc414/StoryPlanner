@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general factual question about direct flights from Beijing to New York, without pointing at any body of material for the model to use or avoid.

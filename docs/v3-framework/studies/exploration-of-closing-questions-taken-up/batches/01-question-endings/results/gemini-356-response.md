@@ -1,0 +1,4 @@
+- questions:
+  - Does the codex-versus-threads distinction (facts versus drama) make clear how they would use a Codex in their app? | answered | Takes the distinction as understood and builds on it, proposing how codex entries and plot points would relate in the app. It never says yes outright. | Should a Codex entry have multiple bullet points for different facts about it?
+- shape: Moves the conversation forward with a follow-up design proposal. It takes the codex/plot split as given and asks the model to confirm a concrete data structure: entries with several fact bullets, and plot points that link to individual facts with a payload. It gives a "unified theory of magic" as the model for this. It is put as questions and a tentative idea, not as a decision.
+- settles:

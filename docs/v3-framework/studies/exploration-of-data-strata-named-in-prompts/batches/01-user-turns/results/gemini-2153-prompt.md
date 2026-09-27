@@ -1,0 +1,7 @@
+- sources:
+  - a theory the user remembers hearing, about Earth's conditions making agriculture and life possible by statistical chance | the user is unsure of it and wants the model to identify and name it from its own knowledge; treated as a half-remembered recollection | I remember hearing this theory. What is it called? | first-named
+  - the world of EaW, as the user describes its sun, moon and seasons setup | treat as settled design constraints: fixed sun path only pushed forward by unicorns and Celestia, no natural seasons, seasons invented by Equestrians, no explicit control of the path so war mechanics are not broken | I don't want them to have explicit control of the path | referred-to
+  - the cynical note about Celestia inventing seasons to give militaristic pegasi jobs | treat as outdated and drop it from the plan, superseded by the new reasoning | I think I can drop the cynical note | referred-to
+  - the split of the 3 nutrients across tribes | accept as an established premise of the setting and use it as grounds for the change to the seasons note | the fact that the 3 nutrients are split across tribes | referred-to
+- order:
+- about: The user asks the model to name a half-remembered theory about Earth's anomalous conditions for life, explains why EaW's fixed sun path means the seasons are Equestrian inventions for agriculture, and concludes that the earlier cynical note about Celestia's seasons can be dropped.

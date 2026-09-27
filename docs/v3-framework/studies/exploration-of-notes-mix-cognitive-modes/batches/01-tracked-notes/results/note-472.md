@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | the in-universe Stagnation of Harmony stands for the West after 1991, a real-world condition it represents | The Stagnation of Harmony represents the post 1991 West | no
+- goals:
+- whole: The note maps the in-universe civilizational system onto the post-1991 West as the real-world condition it stands for, and it names no reader effect.

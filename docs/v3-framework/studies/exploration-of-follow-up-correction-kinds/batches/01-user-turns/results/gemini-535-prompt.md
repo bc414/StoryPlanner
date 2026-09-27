@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Pervitin discussion to a new question about how German POWs were treated and how that bears on their planned Fluttershy POW arc, without disputing anything in the model's answer.

@@ -1,0 +1,5 @@
+- claims:
+  - History | The kingdom declared independence in 972 ALB, reported as a dated event | Upon declaring independence in 972 ALB | yes
+  - History | On independence the king established a constitutional monarchy with a senate where the bourgeoisie and mafiosos take part | the king established a constitutional monarchy with a senate for the bourgeoisie and mafiosos | yes
+- goals:
+- whole: The note reports, as in-universe history, that Wingbardy's establishment in 972 ALB came with independence and a constitutional monarchy including a senate for the bourgeoisie and mafiosos.

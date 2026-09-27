@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn sends a new YouTube link with no comment. It moves on to another video, presumably to get the same kind of summary. It doesn't react to the previous summary.
+- settles:

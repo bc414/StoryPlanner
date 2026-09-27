@@ -1,0 +1,4 @@
+- sources:
+  - real life (the real world) | use as the domain to draw a real-world analogue from for the Skyfall-style status dining | in real life | referred-to
+- order:
+- about: The user asks the model to map the fictional Skyfall elite fine-dining scene onto its real-world counterpart in status dining.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model endorsed the v2 subject definition (tied to theme evidence) as precise and complete and filed the Stuka as a scene-level note under a recurring-inference test. The user says that definition is not exhaustive, because plot points can be theme evidence without being a tracked story-wide subject. | correct but not exhaustive; Plot points can also make evidence for themes not tied to a tracked subject | Partial agreement with an amendment, stated flatly and hedged with 'It seems like', with the Stuka offered as the example.
+- about: The user accepts the model's placement of the Stuka but amends the framing, saying the theme-evidence definition of a subject leaves out plot-point evidence that has no story-wide tracked arc.

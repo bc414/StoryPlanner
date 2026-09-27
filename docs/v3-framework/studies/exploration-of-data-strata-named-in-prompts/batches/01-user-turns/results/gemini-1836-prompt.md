@@ -1,0 +1,4 @@
+- sources:
+  - the ultimate poseur angle (the model's option from its previous reply in this conversation) | adopt as the base idea, though the user then reworks its mechanism into a potion and rejects the other proposed explanations by not choosing them | I like the ultimate poseur angle | referred-to
+- order:
+- about: The user picks the poseur option from the model's list of explanations for Chrysalis's biology, then revises it themselves, replacing the anti-detection spell with a costly permanent base-form potion that explains why other changelings can't use it and why Actia Pagala is the exception.

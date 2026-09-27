@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether their script can pause when a free-tier rate limit is hit and resume after it resets, building on the model's quota explanation without disputing it.

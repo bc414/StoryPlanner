@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Taoyuan Metro schedule topic and asks a new, unrelated question about direct flights from Beijing to New York.

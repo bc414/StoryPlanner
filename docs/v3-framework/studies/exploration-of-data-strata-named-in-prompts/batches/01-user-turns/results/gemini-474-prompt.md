@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model whether any further narrative-theory concepts should be added to the story export or whether the current set of fields is thorough enough.

@@ -1,0 +1,6 @@
+- sources:
+  - actual chapter 12 contents about who the drug tribe Tzinacatl are and what still works | treat as the ground truth to consult when working out the present-day drug tribes; the model should refer to it rather than rely on its own picture | Refer to the actual chapter 12 contents | referred-to
+  - the story plan | review it again and give a new analysis in light of the author's answers and reframing | Review the story plan and give another analysis | referred-to
+  - changeling hives having different Chinese languages like Wu, Cantonese, Teochew | offered as the author's own earlier precedent for mutually unintelligible tribal dialects, supporting acceptance of the archaic protocol language idea | I did a similar thing with changeling hives | referred-to
+- order:
+- about: The author answers the model's self-audit by settling world-truth questions about the drug tribes, the Conclave versus the confederation, medicinal tribes' weapons, Metzli's status and flower wars, accepting some of the model's inventions, deferring narrative placement of Chirropterra, and asks the model to check chapter 12 and re-review the story plan.

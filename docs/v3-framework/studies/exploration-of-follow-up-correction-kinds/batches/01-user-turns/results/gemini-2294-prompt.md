@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model labelled the aircraft itself a 'Changeling Jaeger'; in the story Jaeger is the social class of the pilot, and the plane should just be called a Bf 109 | 'The planes should be called bf 109s, not to be confused with the pilot who is of the jaeger social class' | flat, directive statement of a naming rule, with the reason given (the class/plane distinction) and a note that the class changes once conscription starts
+  - real-world technical figure | The 150 lb armor weight given for both fighters is doubted as too low | 'I thought the plane's armor would be a lot more than just 150 lbs?' | tentative, phrased as a doubting question resting on the user's own prior belief, with no explicit claim that the figure is wrong
+- about: The user gives a naming rule separating the Bf 109 aircraft from the Jaeger pilot class, then questions the armor weight figure and asks for real-world comparisons of bullet weight and what fighter armor is for.

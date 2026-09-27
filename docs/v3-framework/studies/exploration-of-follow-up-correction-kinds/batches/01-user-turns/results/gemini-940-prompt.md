@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model framed her imposter syndrome as a betrayal of her own soul or self (her Cutie Mark burning off, becoming what she hates); the user says it is about believing her soul cannot be a general and so living a lie toward others | I think it's not becoming a Wartime General... feels like a betrayal of her soul | stated flatly as a counter-reading, quoting the model's own line back and replacing it with the user's version
+  - reading of the plan | The model located the conflict inside her, as self-betrayal and loss of identity; the user says the focus should be on deceiving others, not on betraying herself | It should not be about betraying herself. It should be about lying to others. | direct prescriptive statement of the intended framing, with no apology or softening
+- about: The user rejects the model's self-betrayal framing of Applejack's imposter syndrome and restates it as her feeling she is pretending to be a general and lying to others.

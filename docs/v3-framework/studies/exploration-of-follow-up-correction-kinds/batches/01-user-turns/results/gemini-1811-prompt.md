@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the serfdom explanation to ask new questions about how the griffon nobles came to rule Aquileia and which real-world systems (American planters, pre-Louis XIV France) they resemble.

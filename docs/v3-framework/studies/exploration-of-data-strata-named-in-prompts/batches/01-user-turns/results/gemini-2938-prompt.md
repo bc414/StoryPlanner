@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | model is to review them and analyze whether the terms (charitostatic, thymodynamic, charity) should stay, change, or be replaced | review my story plans and give an analysis | referred-to
+  - my story plan's treatment of Generosity and Charity | treat as the reference for what Charity means (the naive version of Generosity), used to judge whether the term fits | Charity is the naive version of Generosity in my story plan | referred-to
+- order:
+- about: The user muses on whether the coined terms "charitostatic" and "charity" suit their magic system (static implying stagnation, thymodynamic as the active-magic term) and asks the model to review their story plans and analyze whether the terms should stay, change, or be replaced.

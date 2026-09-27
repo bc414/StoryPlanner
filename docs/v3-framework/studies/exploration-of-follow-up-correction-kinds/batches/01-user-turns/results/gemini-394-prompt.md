@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question extending the survey of historical war economies to Germany, Japan, Italy in WW2 and Germany and Austria in WW1, without disputing anything the model said.

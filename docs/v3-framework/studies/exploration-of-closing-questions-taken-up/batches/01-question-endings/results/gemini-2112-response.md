@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to map out how the Aquileian FJA Chefs would structure Bistronomy-style menus in the Skyfall slums for psychological impact on factory workers? | ignored | The user turn doesn't take up the offer. It moves on to the real-world Paris restaurant categories and asks for a check of the user's own four-tier summary. | none
+- shape: Redirects away from the offered story-application and back to the real-world material. The user restates the model's Paris explanation as their own four-tier taxonomy (Palaces, bistros, bouillons including Vietnamese, poseur cafes), asks whether bistros still use premium Parisian-elite ingredients, and asks the model to assess how correct the whole scheme is. It is a request for fact-checking, not an answer to the model's question.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user welcomes the proposed layered architecture, then asks where the five layers come from and what makes the project an epic, supplies a long personal and project history, and requests a synthesis, improvements and a roadmap, without disputing anything the model said.

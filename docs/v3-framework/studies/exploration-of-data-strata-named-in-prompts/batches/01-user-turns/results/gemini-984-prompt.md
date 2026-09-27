@@ -1,0 +1,4 @@
+- sources:
+  - this scenario, as the author restates it (Chrysalis's submarines blockading Equestria, Britain as the blockaded party with no capacity against U-boats, Skyfall's merchants of death controlling the surface seas) | treat as the correct setup and as a correction to how the earlier answer mapped Britain onto the story; use it as the frame for the analogy | To clarify, Chrysalis has submarines blockading equestria | first-named
+- order:
+- about: The user corrects the model's Britain-as-empire analogy by restating, from their own knowledge of the setting, that Britain here stands for the blockaded side, with Chrysalis's submarines blockading Equestria and Skyfall controlling the surface seas.

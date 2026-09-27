@@ -1,0 +1,4 @@
+- questions:
+  - Does Pink Love (solidarity/harmony) as a catalyst for Earth Pony magic apply to the Buffalo, i.e. are their stomping rituals an ancient communal Pink magic that Rockfeller's purely Red industrial drills disrupted? | no user turn | none | none
+- shape: none
+- settles:

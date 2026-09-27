@@ -1,0 +1,4 @@
+- sources:
+  - EaW lore (Kemerskai's canon personality) | draw on it: look into his canon personality there and use it to detail how AJ's dislike of him would work | Look into his canon personality in EaW lore | referred-to
+- order:
+- about: The user asks the model to assess and develop a character-driven idea that Applejack personally dislikes Field Marshal Kemerskai, using Herzlander versus Aquileian cultural differences and his canon personality from EaW lore.

@@ -1,0 +1,5 @@
+- claims:
+  - History | Kemerskai read pamphlets that portrayed Grover III as a cynical leader who did not believe in griffons | Kemerskai read pamphlets depicting Grover III as the cynical leader who didn't believe in griffons | yes
+  - Characterization | Kemerskai is driven by a desire to prove Grover III wrong, that griffons can govern themselves and have moral solidarity | He wants to prove Grover III wrong, that griffons CAN govern themselves and have moral solidarity | no
+- goals:
+- whole: The note reports a formative pamphlet-reading event in Kemerskai's past and then asserts the motivation it gave him, to prove griffons can govern themselves and hold moral solidarity.

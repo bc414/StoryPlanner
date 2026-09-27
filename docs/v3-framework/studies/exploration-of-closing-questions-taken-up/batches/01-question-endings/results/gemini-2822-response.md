@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to search a previous conversation for something specific? | answered | Yes in effect: the user asks for a specific lookup, when they settled on the plan of one main story plus separate prequel-sequels | When did I establish the idea that my story plan for The Lioness of Tall Tale should be broken up
+- shape: Takes up the model's offer and turns it into a concrete request to search past chats for the point where an earlier structural decision was made. It is a recall query about the project's history, not a new decision.
+- settles:

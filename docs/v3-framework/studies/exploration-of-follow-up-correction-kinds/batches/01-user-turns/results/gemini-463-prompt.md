@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - other: technical claim about the design | the model's assertion that the abbreviated property names are LLM-friendly and need no decoder-ring prompt, which the user treats as leaving the reader with no way to know what the abbreviations mean | "How will the LLM know what the abreviations mean?" | put as a short direct question that implies the gap, without saying outright that the claim is wrong
+- about: The user questions the model's claim that the abbreviated property names work without any legend, by asking how the LLM reading the JSON would learn what they stand for.

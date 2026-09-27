@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how Rainbow Dash eventually abandons the fictional Daring Do ideal in favor of the shared fraternity of the Republic's air force? | ignored | Says nothing about Rainbow Dash's arc or the air force. It asks a separate factual question about fandom history. | none
+- shape: Redirects to a factual side-question about fandom history. It asks whether any fanfics or forums before the IDW comic already had Twilight Velvet as the author behind the A.K. Yearling pen name. It doesn't respond to the model's proposed next step and gives no feedback on the ideas the model just laid out.
+- settles:

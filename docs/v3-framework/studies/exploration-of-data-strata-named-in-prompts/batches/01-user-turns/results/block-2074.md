@@ -1,0 +1,4 @@
+- sources:
+  - TLTT's FJA/PNdA split | use as the model for separating workers from subsistence farmers in the game design; an analogy to follow, held tentatively | Like TLTT's FJA/PNdA split | referred-to
+- order:
+- about: The user proposes, tentatively, that the game distinguish comprador mineral workers from subsistence village farmers, modelled on a split in TLTT, and reasons through whether dual-use minerals would collapse the two.

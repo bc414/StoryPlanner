@@ -1,0 +1,5 @@
+- questions:
+  - In Chapter 4, in the trench, does Henri realize Applejack is in a crisis of poseur guilt, or is he too focused on holding the Aquileian elastic defense to notice her internal struggle? | ignored | Nothing said to it; the user turn drops the Chapter 4 trench scene and asks for an analysis of a different mechanic. | none
+- shape: Redirects to a new topic. It doesn't react to the model's Applejack analysis or its question, and instead gives an instruction: analyze the wings-of-dew mechanic, in which the wings take on the colors of a pony's special somepony as a side effect.
+- settles:
+  - The wings-of-dew mechanic has a side effect of the wings using the colors of the wearer's special somepony, given as a premise for analysis | analysis of the mechanic of wings of dew having a side effect of using their special somepony's colors

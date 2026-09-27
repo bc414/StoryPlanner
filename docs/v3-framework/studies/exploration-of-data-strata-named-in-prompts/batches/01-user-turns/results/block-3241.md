@@ -1,0 +1,7 @@
+- sources:
+  - story plans that exist so far across v2 or v1 archive | check for existing material on Colthage and use it as the basis for what should happen there | Check any story plans that exist so far across v2 or v1 archive | first-named
+  - conversations (particularly Princess and the Kaiser's ASOIAF inspirations) | read for the Chinese history paradigms the author dispersed to different nation states, to inform Colthage | also conversations (particularly Princess and the Kaiser's ASOIAF inspirations where I was dispersing Chinese history paradigms to different nation states) | first-named
+  - Zumidia and Great Lakes differences (the model's analysis in this conversation) | accepted as settled, solid; no further work needed | Zumidia and Great Lakes differences seem solid | referred-to
+  - Carthage and/or north africa (real-world history) | the model's basis or inspiration for Colthage | based on Carthage and/or north africa | first-named
+- order:
+- about: The user accepts the model's Zumidia and Great Lakes analysis, sets Abyssinia aside as a feudal cat society like the griffons, and asks the model to work out Colthage, a Carthage/North Africa-based zebra nation, by checking the story plans in v2 and v1 and earlier conversations about Chinese history paradigms.

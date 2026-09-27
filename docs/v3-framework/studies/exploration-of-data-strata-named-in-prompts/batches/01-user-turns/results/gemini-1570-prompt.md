@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the proposed character profile, restating that the character should be an athlete with a weather-pony job and adding that Tall Tale requested weather-experienced reservists and broke the rigid infantry assignment to use special talents.

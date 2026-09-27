@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Claude-versus-Gemini analysis as given and extends it by asking for the same kind of comparison for ChatGPT: its raw narrative-analysis capability, how to close the gap, and its retrieval and ingestion approach.

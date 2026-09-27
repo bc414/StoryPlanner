@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the comparison to ask for an analysis of their plan to fill 16 axis-titled tracks with their Applejack notes, including pitfalls, and checks whether each track needs a single question plus an explanation and whether the spreadsheet's assertion types still apply.

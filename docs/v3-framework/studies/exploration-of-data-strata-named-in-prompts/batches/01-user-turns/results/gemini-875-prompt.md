@@ -1,0 +1,4 @@
+- sources:
+  - season 1 (Twilight's Season 1 voice and letter style) | use as the stylistic model for the letter Twilight writes to Applejack, marking her return to form; offered as a proposal for the model to weigh in on | in the style of season 1 | referred-to
+- order:
+- about: The user proposes a further story beat, in which Fleur's advice to talk about the rifle and be herself leads Twilight to write a Season 1-style letter to Applejack, and asks whether it works as another catalyst for her return to form.

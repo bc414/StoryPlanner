@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user drops the notes content and asks a how-to question about their planning tool, wanting to reorder notes with up and down arrow keys the way plot points can already be reordered.

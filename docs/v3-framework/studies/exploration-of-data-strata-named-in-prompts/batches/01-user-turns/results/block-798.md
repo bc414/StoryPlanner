@@ -1,0 +1,6 @@
+- sources:
+  - Sunglider's canon (canonically an officer in the long march) | treat as established fact and derive his age (about 50 today) from it | Sunglider canonically was an officer in the long march | referred-to
+  - the game (in game) | use its portrayal as the basis for characters: Sunglider is the idealist who introduces fiat currency and social programs, and Kingfeather is the alternative conservative, defensive way to play the GR | In game, he is the idealist | referred-to
+  - the predator's dilemma | offered as a tentative idea that Sunglider reads it and then designs the GR Riks; a suggestion, not settled | After reading the predator's dilemma? | referred-to
+- order:
+- about: The user corrects the model's picture of GR party politics by setting out the coalition and opposition factions and the characters' ages, and tentatively proposes Sunglider as the architect of the Riks, drawing on his in-game role.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general history question about whether rulers changed their names on taking the throne, following up on the Ottoman versus European comparison, without pointing at any body of material.

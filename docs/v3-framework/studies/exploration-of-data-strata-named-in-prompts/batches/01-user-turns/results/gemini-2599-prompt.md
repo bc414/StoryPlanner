@@ -1,0 +1,8 @@
+- sources:
+  - the canon show's split between the holed changelings and the colorful ones | do not use; the user rejects this split and says only holed changelings exist in their world | I'm not using the canon show's split | referred-to
+  - the world of EaW | treat as the governing setting, in which the holed changeling is the only form; the reanalysis must follow it | In the world of EaW, the holed changelings are the only form | referred-to
+  - my story plans about changing biology and evolution | consult and base the reanalysis on them | Refer to my story plans about changing biology and evolution and reanalyze | referred-to
+- order:
+  - my story plans about changing biology and evolution over the canon show's split between the holed changelings and the colorful ones | I'm not using the canon show's split
+  - the world of EaW over the canon show's split between the holed changelings and the colorful ones | In the world of EaW, the holed changelings are the only form
+- about: The user rejects the model's use of the show's holed/colorful changeling split, says holed changelings are the only form in their world, and tells the model to reanalyze using their story plans on changing biology and evolution.

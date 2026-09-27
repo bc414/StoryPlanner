@@ -1,0 +1,4 @@
+- questions:
+  - Whether, when tempted to switch to Mali or Tally, the writer can show the scene through Applejack watching them instead (a self-check heuristic put to the user) | ignored | The user turn doesn't take up the Mali/Tally test or the Applejack-watching alternative. It asks a general question about what makes a character a viewpoint character. | none
+- shape: The user steps back from the roster and asks a general craft question about the principle behind it. They ask whether the viewpoint character is simply the one who gets development while characters displaying their virtues are observed, or whether it is more nuanced. This tests the model's implied rule and invites a fuller account. It gives no verdict on the roster and does not answer the model's closing heuristic.
+- settles:

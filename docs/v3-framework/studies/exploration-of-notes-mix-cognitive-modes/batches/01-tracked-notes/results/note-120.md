@@ -1,0 +1,5 @@
+- claims:
+  - History | Gilded Lily wrongly took the feud to be sufficient motivation for Bright Mac and Pear Butter to abandon their families and adopt the tycoon lifestyle | Gilded Lily misinterpreted the feud as enough motivation for Bright Mac and Pear Butter to abandon their families and embrace the tycoon lifestyle | yes
+  - History | Gilded Lily did not anticipate that the two would retain their consciences, which is how her plan fell short | She didn't expect them to keep their consciences | yes
+- goals:
+- whole: The note reports, as in-universe history dated 988, how Gilded Lily misjudged the couple's motives and failed to foresee that they would keep their consciences after leaving their families.

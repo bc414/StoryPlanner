@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a step-by-step guide to setting up a Deep Research notebook for a specific topic they're working on? | ignored | The user turn asks a different question, whether NotebookLM is included with Gemini AI Pro, and does not take up the offer of a guide. | none
+- shape: Redirects to a follow-up factual question about the tool, checking whether NotebookLM comes with a Gemini AI Pro subscription. It reads as a clarification of the model's Free vs. Plus comparison and does not respond to the offer.
+- settles:

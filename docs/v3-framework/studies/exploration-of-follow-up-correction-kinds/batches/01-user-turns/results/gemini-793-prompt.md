@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | Trimmel's arc has him reach doubt about total war and Synovial's slowness already at the SECEF recruitment, before Cloudbury. The user says his awareness of the rules of war can't come that early, since the friction at Cloudbury depends on him not having it yet | I don't think Trimmel can grow a conscious or self awareness about the rules of war too early | stated flatly as the user's own judgment, with a reason given (the Ailmont wipe of Synovial's volunteers must remain a friction point with Kemerskai)
+  - fact of the world | The Synovial epiphany and the Cloudbury speech end in guilt and a turn toward honorable knighthood, without the cost of having served a tyrant more ruthlessly | but at what cost? To serve a tyrant even more ruthlessly? | put as a rhetorical question, offered alongside approval of the speech idea, pushing the epiphany toward a harsher cost
+- about: The user asks for their existing plan on Trimmel's Synovial realization, then pushes back on the model's early placement of his rules-of-war awareness, asks what the speech's cost should be, and proposes reordering the Fraternity scenes.

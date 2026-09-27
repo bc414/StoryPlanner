@@ -1,0 +1,5 @@
+- questions:
+  - Whether the user wants to map out the specific logic nodes for a data-extraction pipeline in Opal | ignored | none; the user asks a separate factual question about Opal and Antigravity | none
+  - Whether the user wants to explore setting up one of the new Agent steps to analyze a scene's pacing | ignored | none; the user moves to a different topic, whether Opal and Antigravity share Google backend or internals | none
+- shape: Redirects to a new factual question about Google's products, asking whether Opal shares backend or internal infrastructure with Antigravity. It takes up neither offered next step and does not respond to the explanation itself.
+- settles:

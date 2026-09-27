@@ -1,0 +1,4 @@
+- claims:
+  - History | Anyone can operate a Luna Nova rifle, and it is powered by red love or by the user's own ambition or magic | Everyone can use a Luna Nova rifle, powered by red love or even their own ambition/magic | no
+- goals:
+- whole: The note states as a plain world fact that the Luna Nova rifle is usable by anyone and is powered by red love or the user's own ambition or magic, without planning how the reader is to experience it.

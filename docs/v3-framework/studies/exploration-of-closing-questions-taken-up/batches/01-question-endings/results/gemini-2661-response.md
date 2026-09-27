@@ -1,0 +1,5 @@
+- questions:
+  - Does this starving-griffon visual help frame a specific character interaction for you? | no user turn | none | none
+  - Would a scene work in which Rainbow Dash or Fluttershy tries to teach a rescued griffon to fly, and Fleur Bloom or an Aquileian Chasseur explains that his muscles have starved? | no user turn | none | none
+- shape: none
+- settles:

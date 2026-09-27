@@ -1,0 +1,5 @@
+- questions:
+  - How does the Equestrian Republic's justice system physically and legally tell apart Changelings who are Captains (to be purged) from Followers (to be sent to Camp Fluttershy), given how thin the line is in the chaos of the occupation? | ignored | The user turn does not touch it; it moves to a different drama, City Hunter. | none
+  - How does the Equestrian public, raised on the Nursery's non-violent morality, take Applejack acting as judge, jury and executioner over Pagala: as a necessary protector, or as someone who has absorbed the enemy's tyranny? | ignored | Nothing said about the public's reaction or Applejack's execution of Pagala; the user asks about another show. | none
+- shape: Drops both Socratic questions and redirects to a new comparison: the user asks the model to take up the Kdrama City Hunter, mentioning it was the first Kdrama they watched, continuing the run of Kdrama-to-story comparisons.
+- settles:

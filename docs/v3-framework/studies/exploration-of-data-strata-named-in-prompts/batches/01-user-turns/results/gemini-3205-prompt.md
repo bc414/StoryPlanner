@@ -1,0 +1,4 @@
+- sources:
+  - GitHub Copilot's suggest, apply, inline diff and approval workflow, as the user describes it from their own use | treat as true and use as the baseline to compare Claude Code's working paradigm against | GitHub copilot suggests code and when I click apply it renders the diff inline and asks for approval | first-named
+- order:
+- about: The user describes how GitHub Copilot's apply-and-approve inline diff works for them and asks how Claude Code works, in the terminal or the desktop app, because they feel they are missing a difference in paradigm.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for an analysis of one scene, Fluttershy using The Stare on Celestia and blurting out, before crying, that Celestia doesn't know how to make a friend, and points at no source of data.

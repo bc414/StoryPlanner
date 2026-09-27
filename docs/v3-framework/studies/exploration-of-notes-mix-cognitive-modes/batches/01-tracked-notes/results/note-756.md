@@ -1,0 +1,5 @@
+- claims:
+  - History | the crystallers' filtering spell can separate red love from pink love, described as the software side of the rifle | The crystallers' filtering spell can be used for separting red and pink love (software) | no
+  - History | the rifle still depends on mini vacuum-grade valves supplied by a Skyfall artisan monopoly, the hardware side | they still need mini vacuum-grade valves from a Skyfall artisan monopoly (hardware) | no
+- goals:
+- whole: The note states as a world fact how the Luna Nova Rifle works, a spell-based filter that still depends on monopoly-supplied valves, without planning how the reader is to experience or see the technology.

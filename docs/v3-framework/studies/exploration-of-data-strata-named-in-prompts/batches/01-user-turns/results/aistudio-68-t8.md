@@ -1,0 +1,7 @@
+- sources:
+  - the old 1000 year-long Stagnation (Celestia traumatized, depressed and lonely for 1000 years) | earlier version of Celestia's backstory that the new proposal would replace; to be compared against the new version, not treated as settled | instead of Celestia being traumatized and pretty much depressed and lonely on the inside for 1000 years; How does it compare to the old 1000 year-long Stagnation | referred-to
+  - TLTT (the story plan and Celestia's character bedrock) | the plan being revised; the new frontier-era history is offered as a change to it and is provisional pending the model's verdict | introduce another shift in the bedrock of Celestia's character for TLTT; Does this work? | referred-to
+  - the canon show (Acornage, Dodge Junction, Ponyville, Appleloosa, Granny Smith's Zap Apple venture) | treat as established fact that the new history must fit and explain | They canonically founded Acornage; That's why Ponyville ponies are ambitious and why the canon show is there | referred-to
+  - Frederick Jackson Turner's Frontier Thesis and the real-world American frontier | use as the real-world model the frontier-as-ambition-sink idea mirrors | This is a mirror to Frederick Jackson Turner's "Frontier Thesis" | first-named
+- order:
+- about: The user proposes rewriting Celestia's backstory so that her isolating Stagnation began only in 914 ALB after a frontier-expansion era, grounds it in show canon and Turner's Frontier Thesis, and asks whether it works and how it compares to the earlier 1000-year version.

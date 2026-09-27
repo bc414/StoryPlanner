@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a tangential question about whether the model's code-review framing of the story bible explains why the GitHub import option appears only in the desktop browser and not in the app, without saying anything in the model's turn is wrong.

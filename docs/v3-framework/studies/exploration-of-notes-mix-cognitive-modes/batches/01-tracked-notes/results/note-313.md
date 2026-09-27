@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | Plans a beat in the reader's opinion-update sequence: after the reader meets Coltbert, they come to see Aquileia as driven by ego rather than harmony | After meeting Coltbert, the reader will realize that Aquileia is all about ego, not harmony | yes
+  - History | States as fact of the world that Harmonic Capitalism originated as a synthesis of Equestrian harmony and Aquileian asset specificity, made by Equestrians who learned from Aquileians, naming Comet Shine, Flowing Current and Applejack's Parents | Harmonic Capitalism was actually always a synthesis of Equestrian harmony and Aquileian asset specificity by the Equestrians who learned from Aquileians | no
+- goals:
+  - The reader comes to believe that Aquileia is about ego, not harmony, once they have met Coltbert | WorldInference | the reader will realize that Aquileia is all about ego, not harmony
+- whole: The note plans a reader-opinion shift, in which meeting Coltbert reveals Aquileia as ego-driven, and it also records the world fact that Harmonic Capitalism blended Equestrian harmony with Aquileian asset specificity through named Equestrians who learned from Aquileians.

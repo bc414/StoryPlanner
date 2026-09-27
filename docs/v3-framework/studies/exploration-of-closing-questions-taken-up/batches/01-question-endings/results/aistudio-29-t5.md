@@ -1,0 +1,7 @@
+- questions:
+  - Does mass-producing the enzyme supplements from Tzinacatl flora create a critical dependency on the jungle, forcing the Republics to defend the cartels' infrastructure against Changeling sabotage? | ignored | Says nothing about Tzinacatl flora, supply dependency or sabotage. | none
+  - How does Equestria's conservative agrarian base reconcile its crops being chemically altered to feed the predators it has long feared? | ignored | Does not address how Equestrian farmers would react. It only corrects the Aquileian side and asks about balance. | none
+- shape: The user turn corrects the model and redirects. It puts a question back to the model, asking whether the enzyme idea should be balanced against keeping the sharing of different parts of a meal. It also fixes a factual error: chasseurs and Aquileians are terroir farmers, animal farming included, and the "hunt" is a hunt for warlords. It does not take up either follow-up question.
+- settles:
+  - Chasseurs and Aquileians in general are not hunter-gatherers. They are terroir farmers, and that includes animal farming. | "not hunter gathers. They are terroir farmers. Which includes animal farming"
+  - In the chasseur context, the "hunt" means hunting warlords, not animals. | "The 'hunt' in the context of chasseurs is hunting the warlords, not animals"

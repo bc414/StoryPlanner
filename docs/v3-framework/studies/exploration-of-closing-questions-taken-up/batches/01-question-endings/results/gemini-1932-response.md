@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want help drafting a prompt to pull specific data, such as a timeline or summary, from their uploaded sources? | ignored | The user does not take up the offer. They ask a new question about which file format, JSON or markdown, works better for NotebookLM's chunking and vectoring of their story plans. | none
+- shape: Moves on from the model's explanation of source tracking and its offer of a prompt. The user asks a new follow-up question, which format (JSON or markdown) suits NotebookLM's chunking for their story plans. It is a request for advice and gives no instruction or correction.
+- settles:

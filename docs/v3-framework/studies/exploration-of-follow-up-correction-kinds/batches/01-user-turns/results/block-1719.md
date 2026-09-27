@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's two open questions about where Spike and Blueblood are, supplying the Crystal Empire siege and Blueblood's command of the front as story facts, without disputing anything the model said.

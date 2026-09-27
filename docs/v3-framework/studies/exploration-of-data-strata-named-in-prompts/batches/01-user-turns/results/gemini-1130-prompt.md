@@ -1,0 +1,6 @@
+- sources:
+  - my themes of poseurs and ambition | treat as the author's existing story themes, to be mapped onto the lion material | how do my themes of poseurs and ambition pertsin | referred-to
+  - actual lion zoology in the wild | draw on as factual real-world reference; explain the real lion social setup and relate it to the themes | Please explain real lion setup and how it relates | first-named
+  - griffon psychology and the predator's dilemma | treat as story elements the lion facts might inspire; a possibility, not settled | I wonder if this should inspire griffon psychology and the predator's dilemma | referred-to
+- order:
+- about: The user asks the model to explain how real wild lion social structure, including whether male lions are poseurs, connects to their story's poseur and ambition themes and might shape griffon psychology and the predator's dilemma.

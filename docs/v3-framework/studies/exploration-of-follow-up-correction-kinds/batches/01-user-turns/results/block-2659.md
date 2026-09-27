@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user raises interior cities like Chongqing, which have had heavy infrastructure investment and prosperity, and asks whether they are a separate paradigm from the coastal hubs and from the migrant workers. This extends the model's picture with a case it did not cover, without saying anything in it was wrong.

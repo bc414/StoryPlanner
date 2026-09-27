@@ -1,0 +1,9 @@
+- claims:
+  - Canon | Unlike the source material's usual reading, the FiM and EaW world actually controls its weather in order to make agriculture happen | The world of FiM and EaW is different because they actually control their weather | no
+  - Canon | Their agriculture-related magic is recast as the ambition to live and make food | Their agriculture-related magic is the ambition to live and make food | no
+  - Analogies | The real-world Anthropic Principle is the model, and it applies to the magic rather than to the ecology | The Anthropic Principle applies to their magic, not the ecology | yes
+  - Canon | The ponies created their ecology, which happens to match our ideal ecology | They created the ecology (which happens to match our ideal ecology) | no
+  - NotesToSelf | The author tells themselves that the magic must not read as a miracle or authorial fiat | Their magic isn't a "miracle" or authorial fiat | no
+  - Analogies | Anthropic-style selection reasoning: the ponies exist only because their magic is tuned for cooperative weather management | They wouldn't exist if there magic wasn't tuned for weather management cooperation | yes
+- goals:
+- whole: The note recasts the source canon's weather control as deliberate agricultural magic and frames it through the real-world Anthropic Principle, applied to the magic rather than the ecology, while reminding the author that it must not read as a miracle or fiat.

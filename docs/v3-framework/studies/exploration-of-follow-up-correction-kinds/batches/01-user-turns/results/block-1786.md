@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new factual follow-up about player-base scale for RuneScape, Eve Online, World of Warcraft and Clash of Clans, without challenging anything in the model's game survey.

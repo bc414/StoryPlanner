@@ -1,0 +1,7 @@
+- claims:
+  - History | The peasants reject the bourgeois republic, whose promise of clothes for all is a lie | The peasants refuse the bourgeois republic and clothes for all lie | yes
+  - History | Vinovia stands as a Royalist stronghold, an island of stability amid angry warlords and cutthroat capitalism | Vinovia is a Royalist stronghold, an island of stability | yes
+  - History | The king's taxes are gone, and the people survive by planting potatoes, smuggling wine through Wingbardy to sell for food, and sharing with refugees | There are no more king's taxes, but now they have to plant potatoes and smuggle wine | yes
+  - History | The Royalists must hold out six months for Verany to lose support before they launch the counterrevolution | survive the 6 months for Verany to lose support before launching the counterrevolution | yes
+- goals:
+- whole: The note reports, as in-universe history, the state of Royalist Vinovia in 980: it rejects the republic, survives by hardship and smuggling, and waits six months to launch a counterrevolution.

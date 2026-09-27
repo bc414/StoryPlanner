@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of Copilot's limits and asks whether Claude Code is therefore the better tool for tech-debt analysis because it can run ordinary git commands like diff and blame, checking this against a TortoiseSVN comparison.

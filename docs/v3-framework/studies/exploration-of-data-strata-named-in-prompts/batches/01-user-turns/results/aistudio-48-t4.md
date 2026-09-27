@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states their own reading of why Chrysalis's plans fail (she projects her sociopathy and assumes all ambition is predatory) and asks the model what in her upbringing would make her think that way.

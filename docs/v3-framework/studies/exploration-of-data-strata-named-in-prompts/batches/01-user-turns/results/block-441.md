@@ -1,0 +1,4 @@
+- sources:
+  - the author's own idea that her adopted "parents" are normal Equestrian ponies in Acornage with idiom names, the father's second idiom word becoming Krista's surname | provisional, a tentative idea the author is floating rather than a settled plan point; the model is to build the name analysis and suggestions around it | I'm thinking her adopted "parents" | first-named
+- order:
+- about: The user asks for the etymology of Sterling and pound sterling, floats a tentative idea that Krista's adopted parents have idiom names whose second word gives her surname, and asks for an analysis of Sterling plus other thematically clever surname options.

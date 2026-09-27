@@ -1,0 +1,4 @@
+- sources:
+  - my existing code (the pasted GetOptimizedContextForAI method) | the material to work from and modify: shorten the anonymous DTO property names in it while keeping their meaning | Here is my existing code | first-named
+- order:
+- about: The user pastes their C# method that builds the JSON context payload and asks the model to shorten the anonymous DTO property names to reduce LLM token count while keeping semantic meaning.

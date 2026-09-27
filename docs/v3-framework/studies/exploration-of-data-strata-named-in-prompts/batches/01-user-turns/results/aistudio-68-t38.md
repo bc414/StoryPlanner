@@ -1,0 +1,7 @@
+- sources:
+  - the Celestia and Grover III realpolitik agreement in the model's previous blueprint | accepted as plausible and kept as the basis for the geopolitics | I do think Celestia and Grover III would have a realpolitik agreement favoring stability | referred-to
+  - the model's previous detail that Equestrian merchant ships smuggled the fleeing ponies | overridden; to be replaced by Tzinacatl medicinal tribe vessels doing the pickups | But I'm imagining it's Tzinacatl medicinal tribe vessels that pick up fleeing Aquileian ponies, not Equestrian merchant ships | referred-to
+  - the author's own account of Aquileian history (honest racket warriors before 854 ALB, artisans under Grover III, rent-seeking warlords after the gilded age) | treat as established lore to be added and used to soften the earlier abuse timeline | Also note that the Aquielians before 854 ALB were "honest racket" warriors | first-named
+- order:
+  - the author's Tzinacatl medicinal tribe vessels over the model's Equestrian merchant ships | But I'm imagining it's Tzinacatl medicinal tribe vessels that pick up fleeing Aquileian ponies, not Equestrian merchant ships
+- about: The author accepts the model's Celestia and Grover III realpolitik framing, swaps the refugee ships for Tzinacatl vessels, adds the honest-racket history of Aquileia, and asks whether Equestrian elites suppressing knowledge of Aquileia is realistic.

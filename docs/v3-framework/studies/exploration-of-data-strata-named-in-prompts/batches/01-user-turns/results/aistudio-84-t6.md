@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the proposed sixth Element, Integrity, matches the principle that real-world governments such as Singapore, Poland and the Nordic states run on.

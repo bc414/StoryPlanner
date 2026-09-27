@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short real-world question about whether any American WASP groups resemble ISIS, apparently extending the preceding worldbuilding comparison, without pointing the model at any particular body of material.

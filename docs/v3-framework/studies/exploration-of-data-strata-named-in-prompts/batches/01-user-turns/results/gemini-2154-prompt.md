@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds a worldbuilding rule, that the managed weather exists only inside Equestria's borders while the rest of the world keeps a fixed climate set by latitude and geology, and asks the model whether it makes sense.

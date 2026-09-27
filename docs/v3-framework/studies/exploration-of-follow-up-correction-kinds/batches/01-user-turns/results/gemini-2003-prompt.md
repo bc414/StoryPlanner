@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that pasting its wrapped, complete JSON schema would clear the error and enable Save is reported as not working; the supplied fix fails in the editor | That exact structure is failing | flat, terse statement of failure with no reason or apology
+- about: The user reports that the schema the model supplied as a fix still fails in the editor, pushing back on the model's diagnosis and solution without adding detail.

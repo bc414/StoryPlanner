@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | She will not ask others to do anything she is not willing to do herself | "She won't make others do what she won't do herself" | none
+  - unfixed | She needs to be at the front, the tip of the spear, in order to feel honest | "She has to be the tip of the spear in order to feel honest" | none
+- beside: Backstory note 29 (1007) has her volunteer for basic training like all the other ordinary ponies, and Backstory note 776 (1011) has her in the vanguard with her volunteers. Both fit this disposition, but neither states it. Backstory note 14 (1007) has her refuse a general's star given only for celebrity, which is close but not the same claim.

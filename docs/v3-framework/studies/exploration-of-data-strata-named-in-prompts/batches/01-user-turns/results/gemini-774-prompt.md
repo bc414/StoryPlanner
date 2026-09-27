@@ -1,0 +1,4 @@
+- sources:
+  - what we learned in school, the short and long vowel versions | the author's own recollection of the school scheme, offered as background for the model to relate the IPA vowels to; not something to rely on as the answer, which is to be given in IPA | In school we often learned short and long versions | referred-to
+- order:
+- about: The user asks for a list of English vowels in IPA and mentions the short/long vowel scheme from school as the framing they already know.

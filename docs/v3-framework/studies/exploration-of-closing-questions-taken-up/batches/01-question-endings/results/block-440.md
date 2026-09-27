@@ -1,0 +1,8 @@
+- questions:
+  - In Chapter 29, does the Aquileian Cartel's anti-poseur crusade in Skyfall accidentally target Krystallfels Handelsgesellschaft? If it bankrupts Kriemhild's shell company, do they realize they have defunded the Changeling war machine, showing that Harmonic Capitalism can do strategic military damage without firing a shot? | ignored | Says nothing about the Cartel, Chapter 29, or the shell company's exposure. It moves to the etymology of Sterling. | none
+  - If Applejack or Henri tells Trimmel that Oberste Kressida is secretly Kriemhild von Krystallfels, does that break his ideological conditioning by showing his Queen is the kind of Poseur he hates? | ignored | Says nothing about Trimmel, the reveal, or his conditioning. | none
+- shape: Drops both Socratic questions and starts a new task. It asks for the etymology of Sterling and pound sterling, and for an analysis plus thematically clever alternatives. Along the way it sets out new worldbuilding premises for Krista's adoptive parents and their naming, which the model is meant to build on.
+- settles:
+  - Krista's adopted 'parents', whom she employs to run her vulture capitalism conglomerate while she is at school, are ordinary Equestrian ponies living in Acornage | I'm thinking her adopted 'parents'... were normal Equestrian ponies in Acornage
+  - The adoptive parents have idiom names and suppressed ambition | with idiom names. They have suppressed ambition
+  - Krista's surname comes from the father's idiom name: the second word of his idiom is her surname, so Sterling is meant to be that second word | The father's second word of the idiom would be Krista's surname

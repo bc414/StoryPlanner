@@ -1,0 +1,6 @@
+- claims:
+  - Canon | Her showboating personality is established in canon and is taken as given here. | Her canonical showboating personality | no
+  - Characterization | Her showboating comes from the Wonderbolts and originates in a toxic combination of two influences. | coming from the Wonderbolts, originates from a toxic combination | yes
+  - History | Second-generation Aquileian Royalist pegasi were arrogant and flexed their repressed flight. Skyfall tycoons are the other half of the mix. | arrogant 2nd gen Aquileian Royalist pegasi who flexed their repressed flight, and Skyfall tycoons | no
+- goals:
+- whole: The note asserts, as psychological truth, that Rainbow Dash's canonical showboating comes from the Wonderbolts and traces back to Aquileian Royalist pegasi and Skyfall tycoons.

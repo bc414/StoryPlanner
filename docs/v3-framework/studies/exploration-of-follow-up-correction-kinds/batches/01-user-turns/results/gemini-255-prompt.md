@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's thematic wrap-up by proposing a parallel Celestia reveal that gives changeling history and the origin of the Stagnation of Harmony a new backstory, and explains why Celestia is absent from the war, without saying anything the model wrote was wrong.

@@ -1,0 +1,5 @@
+- questions:
+  - Does Applejack feel exhaustion or disgust after the debate, and how does Twilight help her accept performing for cameras as a permanent burden of office? | ignored | Nothing on Applejack's feelings after the debate or on Twilight's part. | none
+  - After the debate, does Gilded Trust pivot to urging his 15% to reject the legitimacy of the mandatory vote, so that Applejack has to suppress the subversion firmly but peacefully? | ignored | Nothing on Gilded Trust's next move, the vote's legitimacy or suppression. | none
+- shape: Drops the debate and Gilded Trust thread and opens a new one. The user asks what social commentary the story should offer tech workers with a conscience who work at structurally harmful firms that dress themselves in ethics (Apple-style, not Tesla-style). The user adds a personal frame: they were headed for elite big tech but chose a B2B semiconductor equipment maker over high pay, equity and no direction power. The turn is a fresh prompt for the model to work on, not a reply to its questions.
+- settles:

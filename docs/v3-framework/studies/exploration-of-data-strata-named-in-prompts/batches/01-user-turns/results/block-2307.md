@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user shares a reflection that many cherished traditions are covers for extraction or contempt, and asks whether the architects of the Victorian-era traditions were ultimately motivated by aristocratic contempt for commoners and global colonization.

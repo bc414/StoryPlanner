@@ -1,0 +1,8 @@
+- claims:
+  - ThematicEvidence | The Republics turn their industrial and magical might to healing the enemy, offered as an instance of strength enabling mercy | The Republics mobilize their massive industrial and magical power to Heal the enemy | yes
+  - ThematicEvidence | The system's behavior argues that a strong society is morally obliged to lift people out of despair rather than only punish them | It argues that a strong society (The Republic) has a moral obligation to lift people out of despair, not just punish them | yes
+  - ThematicEvidence | The system is offered as proof that Star Energy capitalism can supply the jobs and purpose that prevent deaths of despair | It proves that Harmonic Capitalism (Star Energy) can provide the "Jobs and Purpose" | yes
+- goals:
+  - The reader comes to believe that a strong society has a moral obligation to lift people out of despair, not merely punish them | ThematicEvidence | It argues that a strong society (The Republic) has a moral obligation to lift people out of despair
+  - The reader comes to believe that Harmonic Capitalism can provide jobs and purpose and so prevent deaths of despair | ThematicEvidence | It proves that Harmonic Capitalism (Star Energy) can provide the "Jobs and Purpose"
+- whole: The note lays out the system's healing-of-enemies and jobs-and-purpose effects as evidence for the proposition that strength is the prerequisite for mercy.

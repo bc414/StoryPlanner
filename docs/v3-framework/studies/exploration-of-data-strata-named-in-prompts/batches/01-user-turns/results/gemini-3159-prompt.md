@@ -1,0 +1,5 @@
+- sources:
+  - the naming scheme and alibi the user sets out (Krista, orphan adopted by Equestrian tycoons, Chrysalis as chosen name, Cressida in Herzlander) | treat as a provisional idea being tested, not settled | I'm thinking Chrysalis's Herzlander name for the schoolgirl griffoness from 971 to 978 is simply Krista | first-named
+  - the 981 meeting context given in this message (tank attache, counterrevolution, three years after the Republican Revolution) | treat as the fixed backdrop the answer must be judged against | Considering the context is that Chrysalis is providing an attache of copied Herzlander tanks | first-named
+- order:
+- about: The user proposes a Herzlander naming scheme for Chrysalis (Krista as schoolgirl alibi, Cressida as the name revealed in 981) and asks whether it makes sense, how it would be read, and whether it fits her narcissism given the tank-supplying counterrevolution meeting.

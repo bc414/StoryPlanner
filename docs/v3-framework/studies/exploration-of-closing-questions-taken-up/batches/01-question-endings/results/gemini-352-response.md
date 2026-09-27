@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to preserve their 'Low Red' nature, or do they feel a tension between wanting more ambition and the pull of Pink comfort? | partly answered | Rejects the premise: 'Low Red' only meant meeting new people, and they count themselves fairly Red because of the ambitious story they are planning. So there is no ambition-versus-comfort tension. Says nothing on whether to preserve the trait. | I think the Low Red is just referring to meeting new people. I think I'm pretty Red in trying to plan this ambitious story.
+- shape: Corrects the model's reading of the user's self-description (Low Red is about meeting people, not lacking ambition), then steers the conversation away from the personal psychology angle and back to how the story's themes connect to present-day reality.
+- settles:

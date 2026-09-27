@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model produced a dark-theme palette (deep muted colors chosen for contrast with light text), but the user wants a light theme | I actually want a light theme | flat, brief statement of the actual preference, with a mild 'actually' marking the reversal and no reason or apology
+- about: The user redirects the color palette by stating they want a light theme rather than the dark-theme one the model supplied, implicitly asking for a redo.

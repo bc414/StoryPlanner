@@ -1,0 +1,6 @@
+- questions:
+  - How does Applejack perceive Mali forcing Luna to cast the dreamwalking spell in Chapter 17, and does she see it as The Hard Truth (Honesty) that deepens her respect for Mali? | ignored | Nothing about Applejack's view of the Luna scene; the user turn moves to a different request. | none
+  - Does the canned SAA mush become a recurring thematic symbol for the unpleasant, utilitarian choices needed to get from the Nursery to the Republic? | ignored | Nothing about the SAA rations or their symbolism; the user turn moves to a different request. | none
+- shape: Leaves the model's proposed arc and its two questions alone and gives a new instruction: Mali should use Aquileian words with Henri in the first half of the story as hints that she knows Aquileian passion. It asks the model to suggest a few interactions based on the existing plot. This is a redirect that adds a new character-detail thread.
+- settles:
+  - Mali will drop Aquileian words into her talk with Henri throughout the first half of the story, as hints that she is familiar with Aquileian passion. | Mali should throw in some Aquileian words throughout the first half of the story when talking with Henri

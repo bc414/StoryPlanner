@@ -1,0 +1,7 @@
+- questions:
+  - How did Chrysalis justify her early pre-Griffenheim attempt at a Harmonic alliance with Helvia of Ditrysium given her transactional worldview, and did that alliance's collapse push her to abandon diplomacy for Warlordism? | ignored | The user turn says nothing about Helvia or the alliance; it only adds a point about Acornage and Pink Love. | none
+  - Does her lingering respect for her fake Skyfall parents create cognitive dissonance with her propaganda that all ponies are mindless edible livestock? | ignored | Nothing said about the Skyfall parents' deaths, her respect for them, or the propaganda. | none
+- shape: A short correction of the model's account: the model's premise that Chrysalis has never met Pink Love and works from a world without it is amended. The user adds a fact (she saw it at Acornage, but among changelings living voluntarily as ponies) and leaves the two questions unaddressed.
+- settles:
+  - Chrysalis witnessed Pink Love actually existing at Acornage, so it is not wholly outside her experience | she saw that pink love existed, at Acornage
+  - The Acornage changelings who showed Pink Love did so while voluntarily living as ponies, not as Hive changelings | those changelings voluntarily lived as ponies

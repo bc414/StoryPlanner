@@ -1,0 +1,5 @@
+- sources:
+  - Pinkie Pie's arc in the show (her cartoon physics failing and the resilience lesson she gets) | use as the template for Réni's arc, but flipped, since his magic is meant for war | It should be just like Pinkie Pie | referred-to
+  - griffon magic and griffon knights, as the author describes them (slaying monsters to protect serfs, or predatory conquest, and the knight forging his own armor) | treat as settled setting premises that explain why Réni's enchantments fail when he feels like a tyrant or poseur | Griffon magic was about slaying monsters to protect serfs | first-named
+- order:
+- about: The user extends the plan for Réni by having his self-built plane's griffon enchantments weaken under cognitive dissonance and return through a resilience lesson modeled on Pinkie Pie's arc, with the difference that his magic is meant for war.

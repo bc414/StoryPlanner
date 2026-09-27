@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new task, handing over a pasted report on how the hippogriff seapony story originated and asking the model to analyze it against the facts just established, without saying anything in the previous turn was wrong.

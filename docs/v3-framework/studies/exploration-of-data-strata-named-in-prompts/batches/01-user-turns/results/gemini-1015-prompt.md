@@ -1,0 +1,7 @@
+- sources:
+  - my story plans | the model is to review them as the base and relate the new material to them | review my story plans and relate this | referred-to
+  - the following things (the scene after the love donation at the temp home, where AJ admits she wanted a day off and Twilight admits her old crush) | new plan material the author gives, to be related to the existing plans and treated as the plan for where they become a couple | relate this to the following things | first-named
+  - the other things happening here too | other events around this scene in the plan, to be drawn in and related as well | relate to the other things happening here too | referred-to
+  - my plan for Rainbow Dash in chapter 8 Loyalty | treated as a parallel to Twilight's guilt, to be compared with it as the author's plan | just like my plan for Rainbow Dash in chapter 8 Loyalty | referred-to
+- order:
+- about: The user asks the model to review their story plans and relate a newly described post-donation scene, where Applejack and Twilight become a couple, and the other events around it to those plans, while also comparing Twilight's guilt to their Chapter 8 plan for Rainbow Dash.

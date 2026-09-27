@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a further scene in the private school sequence, the playground defense of a classmate by Scootaloo, and asks what proposition it tests, presenting it as part of their original instinctual plan.

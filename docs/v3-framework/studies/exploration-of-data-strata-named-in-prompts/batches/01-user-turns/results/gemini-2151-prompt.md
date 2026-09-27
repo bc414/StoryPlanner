@@ -1,0 +1,5 @@
+- sources:
+  - my earth pony magic | the subject to be compared and checked for plausibility against real soil chemistry and fertilizer history; treated as the author's own design | my earth pony magic vs the historical development of fertilizer | referred-to
+  - the historical development of fertilizer and the guano islands | real-world history to be used as the comparison point for the magic system | historical development of fertilizer and the guano islands | first-named
+- order:
+- about: The user asks whether the soil-chemistry premise of their earth pony magic is plausible for phosphorus, potassium and nitrogen, and requests a comparison of that magic with the real history of fertilizer and the guano islands.

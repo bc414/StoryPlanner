@@ -1,0 +1,7 @@
+- sources:
+  - the EEEE!/Tribe D drug-crisis material just proposed ("This") | treated as the thing being compared to real history; the author notes it parallels a real-world struggle, without accepting or rejecting it | "This seems to have a lot of parallels" | referred-to
+  - the struggles of Black America | real-world reference point that the author sees the proposed plot as paralleling | "parallels with the struggles of Black America" | first-named
+  - history of Black members of unions (the model's general historical knowledge) | consult to say whether there is intersecting history, and so test the author's belief | "is there any intersecting history with black members of unions" | first-named
+  - the author's own current perception that American unions were a privilege for the white working class | provisional view, open to correction by the historical record | "my current perception is that American unions were a privilege for the white working class" | first-named
+- order:
+- about: The user remarks that the proposed drug-crisis storyline parallels the struggles of Black America and asks the model whether real history of Black union members supports or corrects their belief that unions were a white working-class privilege.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | How Dienst-violation bounties work in Skyfall: the bounty had been framed as a reward for smashing or destroying a violating factory, whereas the user says the aim is to reclaim the machine, with the bounty paid out of the reclamation, like feudal lords looting a vassal who won't pay tribute | "the bounties on dienst violators aren't a reward for smashing a factory" | Put tentatively and mostly as a redirect. It opens with "I think", asks in passing whether the idea came from the Pinkertons parallel, and then states the intended mechanism flatly as the rule going forward, with no irritation.
+- about: The user corrects the model's framing of Dienst bounties as destruction-oriented, replaces it with a reclamation-and-looting mechanic and its knock-on effects on labor and the black market, and then asks how this changes Chrysalis's seed-money accumulation for Krystalfels.

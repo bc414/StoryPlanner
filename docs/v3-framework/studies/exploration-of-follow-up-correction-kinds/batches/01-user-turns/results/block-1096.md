@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Blueblood/Celestia allegory mapping and moves to new requests: a thorough analysis of Obama, a factual check on the timing of the 2008 financial crisis, and help identifying a remembered post-presidency quote.

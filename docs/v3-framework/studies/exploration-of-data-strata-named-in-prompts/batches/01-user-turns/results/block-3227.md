@@ -1,0 +1,7 @@
+- sources:
+  - the materialist historicist analysis | the framework the model is to work within and apply to the new magical-spirit economy | given the materialist historicist analysis | referred-to
+  - cattle in Rwanda and Tanzania / the great lakes cattle-herding patriarchal paradigm | real-world model whose material properties the spirit economy is to reproduce, used as the template for the Great Lakes zebras | same properties of the cattle in Rwanda and Tanzania | referred-to
+  - the griffon paradigm | existing setting element used as a contrast; the spirit economy should differ from it (tradeable and social rather than personal valor turning to greed) | unlike the griffon paradigm | referred-to
+  - Zecora's notes | to be read for the decision that her rhyming is a deliberate marketing persona, read if not already done | see Zecora's notes if not already read | first-named
+- order:
+- about: The user proposes a magical-spirit prestige economy for Great Lakes zebras as an analogue of East African cattle, asks for analysis and for how it applies to the matrilineal Zumidia culture, and restates a decision about Zecora's rhyming, pointing the model to her notes.

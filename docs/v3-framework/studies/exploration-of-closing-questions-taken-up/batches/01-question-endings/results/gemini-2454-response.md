@@ -1,0 +1,8 @@
+- questions:
+  - Does the user want to analyze how Celestia reacts when Twilight abandons the MSO project? | ignored | none; the turn goes to correcting the premise about Tall Tale and Twilight's trigger and never picks the Celestia option | none
+  - Does the user want to map the mechanical differences between the fragile crystal-tech of 1007 and the rugged Harmonic tech Twilight later designs for Star Energy? | ignored | none; the turn does not take up the tech comparison, though it does mention Star Energy as part of what holds the line | none
+- shape: The user turn corrects the model's premises. It says Tall Tale is not encircled and Twilight is not the tipping point, and it replaces the model's account of her trigger with a different one, AJ's line about Vanhoover. It ignores the model's offered next steps and pushes the discussion back onto the story's facts.
+- settles:
+  - Tall Tale is not encircled; the defenders are holding the line | Tall Tale is not encircled, they are holding the line
+  - Twilight's magic is not the savior or tipping point of Tall Tale; Star Energy and the Aquileian ace fliers can hold the line without it | moving away from Twilight's magic being the soul savior... Star Energy and the Aquileian ace fliers can hold the line
+  - What triggers Twilight's decision to help fight is Applejack saying Vanhoover is suffering and they can't reach them | I think what triggers Twilight's decision... 'Vanhoover is suffering, and we can't reach them'

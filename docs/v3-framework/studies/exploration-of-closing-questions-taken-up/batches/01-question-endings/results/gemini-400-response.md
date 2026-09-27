@@ -1,0 +1,5 @@
+- questions:
+  - Should the next step be detailing the Tall Tale Accords, the secret agreement between Star Energy, the FJA volunteers and Applejack that formalizes their alliance before the battle? | no user turn | none, the conversation ends here | none
+  - Or should the next step be the specifics of the magical weapons Fleur Bloom introduces? | no user turn | none, the conversation ends here | none
+- shape: none
+- settles:

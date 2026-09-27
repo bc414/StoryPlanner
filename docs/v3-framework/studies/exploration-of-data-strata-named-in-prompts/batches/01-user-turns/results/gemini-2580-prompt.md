@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the model is to review them and analyze the user's proposed measures against them | Please review my story plans and analyze | referred-to
+- order:
+- about: The user restates and extends their plan for Chrysalis's Second Great Leap Forward, asks why she delayed invading Olenia and what other measures she could take, and asks the model to review their story plans and analyze.

@@ -1,0 +1,4 @@
+- sources:
+  - these story plans | the material to be loaded into NotebookLM, offered in JSON or markdown form; the model is to judge which format suits it, with no trust or priority stated | For these story plans | referred-to
+- order:
+- about: The user asks whether JSON or markdown is the better format for NotebookLM's chunking and vectoring of their story plans.

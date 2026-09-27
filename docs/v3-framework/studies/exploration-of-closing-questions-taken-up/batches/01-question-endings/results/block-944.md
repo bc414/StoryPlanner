@@ -1,0 +1,9 @@
+- questions:
+  - Right to Repair: how does Gilded Trust weaponize the Guild's right to repair, e.g. by calling open-source magic a security threat to bring back a closed proprietary monopoly? | ignored | Nothing on repair, open-source magic or security; the turn turns to what Gilded Trust's economic model is. | none
+  - Aquileian reaction: do Fleur and Henri first see the cooperatives' wage caps and shared patents as suppressing individual genius, missing that communal flourishing is the Earth Pony's pride? | ignored | Nothing on the Aquileians or how they see the cooperatives. | none
+- shape: The user turn does not answer the model's two questions. It corrects the model's mapping of Gilded Trust: the model put him with Walmart and Tropicana, and the user moves those to Rockfeller. It then asks the model to confirm a revised three-way split of the economic models. The turn is a correction with a confirmation check, and it redirects away from the model's proposed expansion topics.
+- settles:
+  - Gilded Trust's model is not the old cog-and-monopoly type. It is an extreme version of Tesla and other arrogant disruptive tech firms, and of how Apple and Amazon really run. | Gilded Trust is specifically a reflection of Tesla to the extreme
+  - Under Gilded Trust's model, workers do get shares but have no say in the company's direction. | The workers absolutely get shares, but they don't dictate direction
+  - Rockfeller is the old-style stagnant monopoly/monopsony corporation (Walmart, Stellantis, PepsiCo type) that runs on wage churn. | old corporations are just wage churn
+  - Star Energy and EEEE are cooperatives whose members wholly own and direct them. They are not shareholders without a say. (Put as a question to confirm.) | members wholly own and direct, not just being "shareholders" with no say

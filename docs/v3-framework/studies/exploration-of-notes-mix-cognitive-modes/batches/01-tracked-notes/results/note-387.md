@@ -1,0 +1,10 @@
+- claims:
+  - History | When the dragons enter the war, their biology determines how the battle is fought | When the dragons join the war, this biological reality dictates the battlefield tactics | no
+  - Characterization | The large elder dragons are greedy and joined the war out of ego and glory, which makes them Poseurs | massive, greedy elder dragons who joined for ego and glory are immediately exposed as Poseurs | no
+  - History | The elder dragons cannot melt armor and can only burn flesh, so they hit weak targets like drugged conscripts instead of a peer threat, and their huge hitboxes make them easy targets for the Changeling Heer | can't melt the armor and are only able to burn flesh | no
+  - Characterization | Spike and Ember are smaller dragons who fight an existential threat to protect their friends | smaller dragons like Spike or Ember—who are fighting an existential threat to protect their friends | no
+  - History | Spike and Ember produce localized Charitostatic fusion, and their fire is hot enough to melt Panzer armor | generate localized, Charitostatic fusion. Their fire burns hot enough to melt Panzer armor | no
+  - ThematicEvidence | The battle outcome is offered as empirical proof that Solidarity gives more thermodynamic output than Greed | The battlefield empirically proves that Solidarity yields higher thermodynamic output than Greed | no
+- goals:
+  - The reader is to accept that Solidarity yields higher thermodynamic output than Greed, as shown by the battlefield results | ThematicEvidence | The battlefield empirically proves that Solidarity yields higher thermodynamic output than Greed
+- whole: The note describes a battle in which greedy elder dragons fail and solidarity-driven Spike and Ember succeed, and uses it to demonstrate the Dragon Biology law and prove that Solidarity beats Greed.

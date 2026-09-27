@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a change to the paste command so that the current notes are saved to a JSON backup file before the paste replaces them.

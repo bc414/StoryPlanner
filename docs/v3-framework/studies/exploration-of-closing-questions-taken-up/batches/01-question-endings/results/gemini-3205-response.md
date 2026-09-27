@@ -1,0 +1,4 @@
+- questions:
+  - Has the user used AI to generate or run tests autonomously, or has their workflow been only using AI to write the initial code? | ignored | The user turn says nothing about testing or their past workflow; it only clarifies which Copilot feature they meant and asks for a revised analysis. | none
+- shape: Corrects the model's assumption about the comparison point (Copilot's chat side panel, not inline ghost suggestions) and instructs it to redo the analysis, framing Claude Code against that chat-panel paradigm. It does not answer the model's closing question.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new analytical question about whether PATCO and its members were rent seeking or perceived that way, moving the discussion on without challenging anything the model said.

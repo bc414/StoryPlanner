@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks their understanding of the literal-translation mechanic, raises how it fits with infiltrators needing fluent Equestrian, offers their own account for Statthalter infiltrators, and asks how the same works for the meritocratic jaeger infiltrators such as Trimmel's group.

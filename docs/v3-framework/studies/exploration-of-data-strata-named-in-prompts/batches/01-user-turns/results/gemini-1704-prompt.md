@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about their magic-tech lore, whether the three way valve should also depend on Red Love because it acts as an active, self-feeding control element like a transistor, without pointing the model at any body of source material.

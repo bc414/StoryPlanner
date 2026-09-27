@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Charitostatic Effect as the name, promotes it to a foundational law of the story with new roles (changeling POW rehab, morale cakes, and its corruption into toxic positivity in the additives), and asks what other existing lore it could represent.

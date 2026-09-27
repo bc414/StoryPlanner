@@ -1,0 +1,5 @@
+- claims:
+  - History | Her parents, being paranoid, kept her on the farm and forbade her to leave, a circumstance of her past | Her parents were paranoid and would not let her leave the farm | yes
+  - Characterization | She disliked farming and had great ambition, asserted as part of what makes her who she is | But she didn't like farming, she had great ambition | no
+- goals:
+- whole: The note gives a short piece of Fleur's pre-story past, her confinement to the family farm by paranoid parents, and adds a plain assertion of her dislike of farming and her ambition.

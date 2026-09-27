@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: worldbuilding description of an in-universe organization's activity | The organization mines crystals on an isolated island in the sea near Olenia and the Changeling Lands | mining crystals from an isolated island in the sea by Olenia and the Changeling Lands | outside
+- goals:
+- whole: The note answers what the organization does by stating, in a bare world-building fragment, that it mines crystals on an isolated island in the sea near Olenia and the Changeling Lands.

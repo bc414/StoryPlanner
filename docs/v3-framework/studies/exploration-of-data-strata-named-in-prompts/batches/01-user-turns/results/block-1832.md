@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects both proposed subject names as ill-fitting (one sounds authoritarian, the other vague), offers their own tentative alternative, and asks for a wider range of name suggestions for the two systems.

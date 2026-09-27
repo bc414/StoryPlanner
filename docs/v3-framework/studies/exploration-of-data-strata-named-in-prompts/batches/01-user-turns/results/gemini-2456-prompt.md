@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | re-read them and redo the analysis against them, treating them as the authority on what happens at Tall Tale | Please review my story plans and reanalyze | referred-to
+  - the author's own statement in this message (elastic defense; Applejack overrun and rescued from the dirt by Twilight) | treat as true and as a correction of the earlier reading that the line was held | They are not holding the line, it is an elastic defense | first-named
+- order:
+- about: The user corrects the model's account of the Tall Tale battle, saying the defense is elastic and Applejack was overrun and rescued by Twilight, and asks the model to review the story plans and redo its analysis.

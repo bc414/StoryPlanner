@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's advice as a contrast between two approaches (classifying and splitting v1 notes versus writing tracks from synthesis in one mode) to check their understanding, and asks for a thorough comparison of the pros and cons of each plus other approaches.

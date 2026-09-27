@@ -1,0 +1,4 @@
+- sources:
+  - the story that Equestrian foals are given about hippogriffs and seaponies delivering foals in a blanket, a bedtime story akin to Hearth's Warming Eve | treat as newly settled lore of the author's world and build the analysis on it, as a culture-wide tale still held by the adult characters | I recently established that | first-named
+- order:
+- about: The user gives a newly established piece of lore, the hippogriff/seapony foal-delivery bedtime story, and asks the model to analyze how the Battle of Mount Aris shatters the innocence of Twilight, Applejack and Rainbow Dash as 26-year-old adults who still carry that story in their culture.

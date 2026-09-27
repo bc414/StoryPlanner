@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to find tutorials or specific open-source tools (such as Chroma or LangChain) for building a simple version? | ignored | Says nothing about the offer. It restates the original question: how to build an AI that reads stories and finds them by meaning, what it is called, and whether it has been done, with or without LLMs. | none
+- shape: Re-asks the earlier question in the same words, as if the model's answer had not been given or seen. It does not react to the answer, take up the offer, or add anything new.
+- settles:

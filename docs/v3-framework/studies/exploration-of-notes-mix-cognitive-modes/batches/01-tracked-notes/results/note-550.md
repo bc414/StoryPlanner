@@ -1,0 +1,5 @@
+- claims:
+  - History | Luna's godly myth has a mundane truth: a thousand years ago she was a talented researcher working alone on magic | "really just her being a talented solo magical researcher 1000 years ago" | no
+  - History | In the present day her dreamwalking spell is one complex spell among many, because Aquileian and later Equestrian researchers collaborate to develop complex spells | "just one complex spell among many in present day" | no
+- goals:
+- whole: The note states the in-world facts that reduce Luna's godly myth to a gifted solo researcher and her dreamwalking spell to one of many collaboratively developed complex spells, without saying what the reader is to feel or believe.

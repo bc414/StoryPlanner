@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Chrysalis is fluent in Equestrian and understands how idiom names work | she is fluent in Equestrian and knows how the idiom names work | no
+  - Characterization | Chrysalis deliberately enforces literal/functional translation of names so as to engineer sociopathy in the changelings | She deliberately enforces the literal/functional translation to engineer sociopathy | no
+- goals:
+- whole: The note asserts as fact about the character that Chrysalis knows Equestrian idiom and deliberately imposes literal naming to engineer sociopathy, which is character psychology rather than a plan for the reader's experience of her appearances.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a standalone historical question about how British loyalists were treated in America after the Revolutionary War, without pointing at any body of material to use or avoid.

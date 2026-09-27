@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered with a comparison to Into Darkness and the user's own world-bible framework and past reactions, when the user wanted a plain account of what the story is and what it is about, read from the whole text in place of their sampling | "So what is the story and its themes?" and "Now you can read it for me" | implicit, put as a plain re-asking with a reason (they never read it through), no irritation and no explicit statement that the answer missed
+- about: The user restates their original ask for the story's plot and themes, explaining they only sampled it before, which implies the model's reply did not give the story-level account they wanted.

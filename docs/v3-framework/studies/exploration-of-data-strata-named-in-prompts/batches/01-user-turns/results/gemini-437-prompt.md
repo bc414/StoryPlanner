@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain what the canvas feature on the Gemini website is, without pointing at any body of material to draw on.

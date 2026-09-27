@@ -1,0 +1,7 @@
+- sources:
+  - the plan (the forging class scene in it) | treat as containing the critical scene; the user points to it as the basis for the question | There is a critical scene in the plan where Chrysalis is in forging class | referred-to
+  - the story planner (the MCP server) | may be missing details, so do not assume it is complete; it is to be used again | These details may not have made it in to the story planner yet | referred-to
+  - conversations (earlier conversations) | consult them to find missing insights rather than assuming | refer to conversations for missing insights instead of assuming | referred-to
+- order:
+  - conversations | over assuming from the planner alone; the planner may lack details, so check the conversations for the missing insights | refer to conversations for missing insights instead of assuming
+- about: The user corrects the model's claim that the character prefers Krista, says both Krista and Chrysalis are preferred over other identities, asks whether the narration should revert to Chrysalis in the forging-class sword-shattering scene, and tells the model to check earlier conversations for details the story planner may lack.

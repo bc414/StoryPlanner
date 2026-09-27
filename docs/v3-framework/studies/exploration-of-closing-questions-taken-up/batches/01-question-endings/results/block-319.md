@@ -1,0 +1,9 @@
+- questions:
+  - How did the Skyfall Tycoons explain their losses to Krista Sterling's flawless trading and espionage, and did their arrogance keep them from suspecting a teenage prodigy and turn them against each other? | refused | Moves the market-manipulation phase to later years, so the first-year scenario the question assumes is set aside. Says nothing on how the Tycoons reacted. | Market manipulation makes sense for later years
+  - Does the theft of the Herzlander schematics, like Samuel Slater's, become a propaganda point that unifies the Griffonian Republic against the Hives once Kemerskai and the GR find out? | ignored | Nothing on the schematic theft, the GR's reaction or propaganda. | none
+- shape: Corrects the model's account of Chrysalis's early phase. It pushes market arbitrage to later years, replaces it with black-market violence as first-year seed capital, and offers a concrete mechanism (bounty contracts against startups). It does not take up either Socratic question.
+- settles:
+  - Chrysalis's seed capital in the first year comes from black-market violence, not financial or information arbitrage | initial seed capital should still be from black market violence
+  - Chrysalis lacks a modern education in her first year, so she cannot yet run market manipulation | doesn't have a modern education for the 1st year
+  - Market manipulation and trading is a later-years method of accumulating capital | makes sense for later years
+  - Chrysalis earns her early money by fulfilling bounties to take out startups that challenge monopolies, rather than smashing or reclaiming DRM machines | fulfill bounties to take out startups challenging monopolies

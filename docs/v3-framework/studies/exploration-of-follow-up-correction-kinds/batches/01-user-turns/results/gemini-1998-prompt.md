@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts an offer to have the prompt A schema produced and adds a further requirement that prompt A carry the AI's reasoning for why the bucketing architecture works and what it would achieve.

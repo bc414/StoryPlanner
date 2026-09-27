@@ -1,0 +1,5 @@
+- questions:
+  - How do the Tzinacatl Parloir operators view ordinary Equestrian stallion/mare marriages: do they pity the married day-ponies as passionless, or see the duty-marriage as a tragic symptom of Celestia's 80-year blockade? | no user turn | none | none
+  - How does Fleur, a Harmonic Capitalism advocate, reconcile her free market producing so many discarded foals that they supply Equestria's adoption system, once Applejack reveals the Hippogriff/Stork myth? | no user turn | none | none
+- shape: none
+- settles:

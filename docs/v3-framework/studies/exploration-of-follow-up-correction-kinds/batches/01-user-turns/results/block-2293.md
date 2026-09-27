@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account that light novel conventions came before Pokemon Mystery Dungeon and shaped its mechanics, and asks where those traditions originated, whether they predate mainstream anime, and whether the causal direction is therefore reversed.

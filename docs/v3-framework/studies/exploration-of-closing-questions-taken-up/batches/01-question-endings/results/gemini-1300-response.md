@@ -1,0 +1,3 @@
+- questions:
+- shape: The user gives a new instruction. They don't pick from the five French alternatives or react to the recommendation of Le Causoir. They send the model back to the word parloir and ask for an analysis of Coltbert's personality, to test whether irony or subversion would lead him to choose it. This treats the earlier avoidance of parloir as still open. It is a request for analysis and does not decide anything.
+- settles:

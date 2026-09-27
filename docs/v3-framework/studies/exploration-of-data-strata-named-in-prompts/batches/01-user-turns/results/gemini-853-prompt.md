@@ -1,0 +1,4 @@
+- sources:
+  - the earlier reading of "pulling the plug" in this conversation (the model's prior interpretation) | treat as mistaken on this point; replace with the author's stated meaning | What I meant for pulling the plug is actually | referred-to
+- order:
+- about: The author corrects the model's interpretation of Celestia's \"pulling the plug\" and restates, from their own plan, what Applejack, GR and Aquileia stand for and how Aquileia's two revolutions went.

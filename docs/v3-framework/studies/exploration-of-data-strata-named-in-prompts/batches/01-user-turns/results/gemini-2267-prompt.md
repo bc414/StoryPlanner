@@ -1,0 +1,5 @@
+- sources:
+  - This analysis on g forces (the model's preceding G-force analysis in this conversation) | treated as good and accepted; used as the foundation for Rainbow's initial lone-wolf arc and her near-invincibility against changelings | "This analysis on g forces is great because it establishes" | referred-to
+  - What the author says they established about Rainbow being shot down and Rainbooming out of the cockpit to the airbase for another plane | treat as settled story canon the model should build on | "Also I established when she gets shot down" | referred-to
+- order:
+- about: The author affirms the model's G-force analysis as the basis for Rainbow Dash's lone-wolf, near-invincible arc, asks a quick factual question about the Spitfire and the biplane-to-monoplane shift, and restates an established plot rule that a shot-down Rainbow sonic Rainbooms back to base for a new plane.

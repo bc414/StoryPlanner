@@ -1,0 +1,5 @@
+- questions:
+  - How does the Equestrian Republic keep the Pink Population (the 45% who backed Celestia) from a reactionary backlash once Chrysalis is gone, and must it stay in perpetual mobilization to avoid sliding back into apathy? | no user turn | none | none
+  - By staying in Ponyville as a private citizen who still controls the Sun, does Celestia remain a shadow-consensus figure, and how does Applejack govern with the old order's architect living in the same town? | no user turn | none | none
+- shape: none
+- settles:

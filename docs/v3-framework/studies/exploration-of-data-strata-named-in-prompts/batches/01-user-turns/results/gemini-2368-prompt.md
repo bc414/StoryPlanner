@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's question about Coltbert's sparring partner by stating who his intellectual opponents are in the story, without pointing the model at any body of material.

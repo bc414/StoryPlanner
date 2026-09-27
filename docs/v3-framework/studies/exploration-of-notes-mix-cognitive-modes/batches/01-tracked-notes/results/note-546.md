@@ -1,0 +1,8 @@
+- claims:
+  - Canon | In the canon episode, Luna is shown glaring while Celestia gives Twilight her task | In the canon episode The Crystal Empire Part 1, when Celestia is giving Twilight her task, Luna is shown glaring | yes
+  - Canon | The canon frown was most likely meant by the showrunner as Luna doubting Twilight is ready to be a princess, supported by Luna's smile and summoning Star Swirl's book at the end of Part 2, which is canon's key to Twilight's alicorn ascension | Meghan McCarthy most likely intended the frowning to mean Luna thinking Twilight isn't ready | yes
+  - Canon | The story recontextualizes Luna's frown as disapproval of Celestia for using the crystal ponies' trauma as a test for Twilight | I am recontextualizing Luna's frowning as disapproval towards Celestia | yes
+  - Canon | Luna's canon line offering to go is reread as an offer to go help find the crystal heart | That's why Luna says "are you sure you don't want me to go" | yes
+  - Canon | Expanding on canon events: both sisters knew the crystal heart keeps winter out, yet Celestia sent Cadance to hold the shield under a top-down mandate and sent Twilight to work out the heart's whereabouts rather than simply retrieving it to save the crystal ponies | Celestia and Luna know the crystal heart is key to keeping the winter out, but Celestia sent Cadance | yes
+- goals:
+- whole: The note documents a canon moment of Luna glaring and smiling in The Crystal Empire, gives the likely canon reading, and then recontextualizes her frown as disapproval of Celestia's handling of the crystal ponies' crisis as a test for Twilight.

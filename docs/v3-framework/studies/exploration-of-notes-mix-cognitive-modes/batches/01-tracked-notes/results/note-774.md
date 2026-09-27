@@ -1,0 +1,8 @@
+- claims:
+  - NotesToSelf | weighs an alternative plot option in which infiltrators defeat the army, noting it would hand Applejack a scapegoat of being cheated | If Applejack's army is defeated by infiltrators, she has a psychological scapegoat: We were cheated | no
+  - History | states as fact that the army was beaten in a fair, head-to-head conventional engagement | But the army was defeated in a fair, head-to-head conventional engagement | no
+  - Characterization | asserts that Applejack, as the Element of Honesty, must face the truth that she was outplayed and that her incompetence as General got her soldiers killed | the "Element of Honesty" must confront the brutal truth: We were outplayed, and my incompetence as a General got them killed | no
+  - Characterization | asserts that this truth greatly deepens her Imposter Syndrome in the early chapters | This drastically amplifies her Imposter Syndrome in Chapters 1-3 | no
+  - NarrativeArchitecture | shapes her arc so that her later mastery of Combined Arms and Harmonic Capitalism reads as a hard-earned structural victory and not a recovery from betrayal | making her eventual mastery of Combined Arms and Harmonic Capitalism a hard-earned structural victory rather than a mere recovery from betrayal | yes
+- goals:
+- whole: The note justifies making Applejack's army lose a fair fight rather than to infiltrators, so her guilt and Imposter Syndrome are deeper early on and her later mastery reads as earned.

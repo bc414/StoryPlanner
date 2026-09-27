@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Applejack apologizes aloud on the page, disclosing that she once suspected her parents' "feeding the world" claim was a cover for profit | Applejack says she's sorry she ever thought her parents were lying about "feeding the world" just to make money | yes
+- goals:
+- whole: The note stages a line of dialogue in the reunion scene in which Applejack apologizes for having doubted her parents' motives, disclosing that past suspicion to the reader through her spoken words.

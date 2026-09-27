@@ -1,0 +1,7 @@
+- questions:
+  - How do you usually decide whether a personal coding session is for learning or for rushing a feature out? | partly answered | Gives no general way of deciding. It reports that the planner has been in ship mode for three months. It also says that a foundation iteration is now needed, and that this comes before expanding features. | ship mode for the last 3 months; fix the foundation before expanding its capabilities
+- shape: The user gives a short account of where the project stands: three months of shipping, the story plan nearly done, and the data needing reorganization. They then move to a new practical question. That question is whether Claude Code, used only to analyze commit history and not in agent mode, is useful, or whether another tool fits better. So it mostly redirects the conversation to tooling, and it answers the model's closing question only indirectly.
+- settles:
+  - The planner app has been in ship mode for the last three months, while the story plan was being worked on | ship mode for the last 3 months
+  - The story plan is almost done, but its data needs better organization | story plan is almost done but I need a better organization of the data
+  - The next step is an iteration of the planner app that fixes the foundation, before any new capabilities are added | fix the foundation before expanding its capabilities

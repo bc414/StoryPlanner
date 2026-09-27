@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | read and review them, then analyze their themes and contrast them with the dynamics established in the conversation | Review my story plans and analyze the themes | referred-to
+  - the recently established dynamics in this conversation | use as the comparison point against which the story plans' themes are contrasted | compared to the recently established dynamics in this conversation | referred-to
+- order:
+- about: The user corrects and expands the model's picture of the Luna Nova rifle by describing its three parts and swappable civilian spell matrices, then asks the model to review their story plans and analyze the themes and contrast against the dynamics built up in the conversation.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to look into how Bistronomy in Paris overthrew the old Michelin-star guard, as a parallel to the FJA chefs disrupting Skyfall? | answered | Says yes and asks for a deeper look at Bistronomy, adding a question of their own about whether it targets domestic diners or tourists. It doesn't take up the FJA/Skyfall parallel. | Please dive into Bistronomy as well and the intersection
+- shape: The user accepts the model's offer and also opens a new line of questions. They suggest their friends may have been caught in a tourist-trap bubble. They ask whether areas cater to Anglosphere perceptions of France, whether authentic places avoid English or intimidate tourists, and whether Bistronomy serves locals or tourists. It is a follow-up that pushes the real-world food discussion further, with no story content.
+- settles:

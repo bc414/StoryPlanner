@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's picture of the pre-Republic backdrop, where Applejack's orders are purely personal and Rarity's talent-based work at the front is a lone act of salvation, leaves out that Manehattan already mandates talent-based war contribution from every pony by the end of chapter 7 | "To clarify the backdrop" and "is already mandating that every pony contribute" | Soft, indirect correction. It is framed as a clarification and adds a fact without saying the model was wrong, and "already" is the only sign it pushes back.
+- about: The user adds a backdrop fact about Manehattan's talent-based war mobilization by the end of chapter 7, gently adjusting the model's account of a pre-Republic setting with little institutional structure.

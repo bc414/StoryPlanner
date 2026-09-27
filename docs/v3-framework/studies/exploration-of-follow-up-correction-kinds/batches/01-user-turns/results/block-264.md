@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's breakdown and asks a new run of research questions about the word "jailbreak" (its origin, its iPhone meaning, right to repair, older machinery parallels) and for an in-world Equestrian term to replace it, without saying the model's turn was wrong.

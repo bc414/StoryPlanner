@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want help drafting a set of System Instructions for a non-technical project? | ignored | Says nothing about drafting System Instructions; the turn goes only to temperature. | none
+  - Does the user want an explanation of how to adjust model parameters such as Temperature? | answered | Takes up the temperature option by asking what temperature does to the model's inference. It asks about the mechanism, not how to adjust it. | What does temperature actually do to the model's inferencing?
+- shape: A short follow-up that takes up one of the two offered options, temperature, and turns it into a conceptual question about how it works. It drops the other option, and it does not talk about the user's own project.
+- settles:

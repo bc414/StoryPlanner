@@ -1,0 +1,5 @@
+- claims:
+  - ThematicEvidence | states the thematic proposition that an addiction crisis is solved by Harm Reduction (Integration) rather than a War on Drugs (Extermination) | the solution to an addiction crisis isn't a War on Drugs (Extermination), but Harm Reduction (Integration) | yes
+- goals:
+  - Arrive at the belief that addiction crises are solved by harm reduction and integration, not by war and extermination | ThematicEvidence | the solution to an addiction crisis isn't a War on Drugs (Extermination), but Harm Reduction (Integration)
+- whole: The note states, as the thematic proposition the organization's presence in the story bears on, that harm reduction and integration, not a war of extermination, solve an addiction crisis.

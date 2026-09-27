@@ -1,0 +1,12 @@
+- sources:
+  - the model's earlier suggestion about the MLP parallel (Helena and Windie as who Applejack and Twilight were already) | treat as wrong; the mapping is reversed, so do not carry it forward | it's the reverse of what you suggested | referred-to
+  - the author's own realization about the character parallel (Windie as Applejack, Helena as Twilight) | treat as correct and settled; use in place of the model's mapping | I actually realized the parallel with MLP characters | first-named
+  - the author's own account of why he stopped writing Nine Tales of Liberty (writer's block on the arc 3 bridge, sparse arcs 5 and 6, no feedback or readership) | treat as the true reason, replacing the model's explanation | The actual reason I stopped writing Nine Tales of Liberty | first-named
+  - my active planning doc | treat as incomplete: arc 5 and 6 mostly empty, which weighed on his motivation to continue | my active planning doc had arc 5 and 6 mostly empty | referred-to
+  - the grimdark original plan | treat as not yet adapted into a full hopepunk version, so arcs 5 and 6 stayed unfleshed | had not adapted the grimdark original plan into a fully fleshed out hopepunk version | referred-to
+  - EaW (read and played) | background for what he did after leaving KU: a year spent on it before TLTT planning built up | I spent a year reading and playing EaW | referred-to
+  - The Princess and the Kaiser | the work he read that started the slow build of the TLTT plan | slowly building up the TLTT plan after reading The Princess and the Kaiser | first-named
+- order:
+  - the author's own realization about the character parallel | over the model's earlier suggestion about the MLP parallel | it's the reverse of what you suggested
+  - the author's own account of why he stopped writing | over the model's explanation of the MLP transition | The actual reason I stopped writing Nine Tales of Liberty
+- about: The user corrects the model's reading of the MLP parallel and of why he left Nine Tales of Liberty, then gives his own account of the writer's block, unfinished later arcs and the path that led to MLP and TLTT.

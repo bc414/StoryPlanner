@@ -1,0 +1,5 @@
+- sources:
+  - the AoE4 demo the user tried | the user's own firsthand impression, offered as evidence that AoE4 did not appeal to them; a personal report to weigh, not a settled verdict on the game | I tried playing the demo and wasn't interested | first-named
+  - Microsoft hiring AoE2 modders to make new expansions | the user's own recollection or impression, put forward tentatively (Seems like) as a suggestion that this did better than AoE4, and asked to be checked | Seems like when Microsoft hired the aoe2 modders | first-named
+- order:
+- about: The user asks a string of questions about where Age of Empires 4 fits in the franchise's history, whether it succeeded, and whether the return to AoE2-style authenticity reflects a wider post-World of Warcraft shift in gamer taste, adding their own demo experience and a half-remembered claim about modders as tentative context.

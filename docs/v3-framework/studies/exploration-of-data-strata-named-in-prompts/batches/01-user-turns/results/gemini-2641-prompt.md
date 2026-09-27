@@ -1,0 +1,4 @@
+- sources:
+  - story plan for the TwiJack story thread | go through it and use it as the material for the analysis of when each character would want to be big or little spoon | Now through the story plan for the TwiJack story thread | referred-to
+- order:
+- about: The user asks the model to go through the TwiJack story plan and analyze at which points in the story each of the two characters would want to be the big spoon or the little spoon.

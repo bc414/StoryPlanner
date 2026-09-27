@@ -1,0 +1,4 @@
+- claims:
+  - History | Grover V died, and his death set off a civil war between Gabriella Eagleclaw and Archon Eros over control of Grover VI's regency | Grover V passed away, leading to a civil war between Gabriella Eagleclaw and Archon Eros | yes
+- goals:
+- whole: The note reports, as an in-universe historian would, the 1007 death of Grover V and the civil war it triggered between Gabriella Eagleclaw and Archon Eros over the regency.

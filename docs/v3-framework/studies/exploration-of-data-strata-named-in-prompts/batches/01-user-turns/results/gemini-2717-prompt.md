@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user approves the name La Forge Héritage for the Cartel HQ and asks the model for a few more name options, without pointing at any body of material to use or avoid.

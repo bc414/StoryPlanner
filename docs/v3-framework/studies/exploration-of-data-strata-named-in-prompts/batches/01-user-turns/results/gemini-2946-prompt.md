@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a plot change for the siege of the crystal city in their story, in which Flurry Heart's Pinkie Promise reassures the crystal ponies and so holds the shield, replacing her filtering the emotions herself, and asks the model to analyze that approach.

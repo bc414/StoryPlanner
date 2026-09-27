@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's estrogen-as-cooperation framework and extends it to changelings with a tentative question about whether their love-feeding would put them even further toward the estrogen end than ponies.

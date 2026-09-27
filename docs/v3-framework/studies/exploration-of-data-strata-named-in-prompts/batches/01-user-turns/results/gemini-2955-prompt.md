@@ -1,0 +1,4 @@
+- sources:
+  - my lore | the body of material the model is to search through for other elements that work like the combined arms spell; treated as the thing to draw on | other parts of my lore operate | referred-to
+- order:
+- about: The user asks the model to look across their lore for other elements that work like the "combined arms" spell just described, where two forces combine to stabilize each other.

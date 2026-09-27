@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Plans a beat in which the character Rikard Astler shows Griffonian food to be equal in magnificence to Aquileia's while resting on a different philosophy, standardized excellence | Rikard Astler demonstrates that their food is just as magnificent as Aquileia's, but built on an entirely different philosophy - standardized excellence | yes
+- goals:
+  - Reader comes to regard Griffonian food as magnificent, on a par with Aquileia's, and to see its standardized-excellence philosophy as a different but equal approach | NarrativeArchitecture | just as magnificent as Aquileia's, but built on an entirely different philosophy
+- whole: The note plans a story beat that shapes the reader's opinion of Griffonian food, so that it is seen as equal to Aquileia's while resting on a different philosophy of standardized excellence.

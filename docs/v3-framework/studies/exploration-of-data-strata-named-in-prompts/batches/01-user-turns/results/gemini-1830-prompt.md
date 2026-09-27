@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model a new worldbuilding question about what policy would govern having children within the palace, without pointing at any body of material to draw on or avoid.

@@ -1,0 +1,4 @@
+- sources:
+  - the themes / "these" (the proposition list just given in the conversation) | the material the model is to arrange, ordering them intellectually and mapping them as a dependency graph; treated as the given set, not questioned | Is it possible to order the themes intellectually? | referred-to
+- order:
+- about: The user asks whether the listed themes can be ordered intellectually or shown as a dependency graph, and asks what the graph's edges would represent.

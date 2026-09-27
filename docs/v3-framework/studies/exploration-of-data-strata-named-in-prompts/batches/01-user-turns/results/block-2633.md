@@ -1,0 +1,4 @@
+- sources:
+  - the changeling story | the Chinese history need not line up one-to-one with it; treat it as a loose synthesis of many paradigms, not a strict template the answer must fit | "doesn't have to map exactly to changelings, since the changeling story is a synthesis of many paradigms" | referred-to
+- order:
+- about: The user asks the model to continue the Chinese historical run past the Han dynasty and relaxes the requirement that each period map exactly onto the changeling plan.

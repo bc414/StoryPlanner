@@ -1,0 +1,8 @@
+- claims:
+  - NotesToSelf | the author's own to-do: the story should remove the stigma that more women managers are needed and that men should feel ashamed | Need to remove stigma that we need more women managers and the men should feel ashamed | yes
+  - NotesToSelf | the author sets the alternative direction for the work: promote genuine grace in leadership, and respect asset specificity | Instead we need to promote genuine grace in leadership ... and respecting asset specificity | yes
+  - NotesToSelf | the author defines the balance to strike: leadership instincts and ambition, called asset specificity, weighed against grace in leading others | balance between leadership instincts/ambition, which is their asset specificity, and grace in leading others | yes
+- goals:
+  - Reader is to stop seeing gender-balance in management as a matter of shame for men, and to see it without that stigma | ThematicEvidence | remove stigma that we need more women managers and the men should feel ashamed
+  - Reader is to come to value genuine grace in leadership, balanced with ambition, and to respect each person's specific leadership assets | ThematicEvidence | promote genuine grace in leadership ... respecting asset specificity
+- whole: The author leaves themselves a planning note that Queen Velvet's story should drop shame-based gender talk about managers and instead promote grace in leadership balanced with ambition and respect for asset specificity.

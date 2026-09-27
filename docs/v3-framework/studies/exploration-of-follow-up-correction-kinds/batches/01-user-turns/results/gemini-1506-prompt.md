@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Mao-to-Deng comparison and the point about Kemerskai stepping down, and builds on it by naming Chrysalis, who kept the state as herself, as the character who matches modern China.

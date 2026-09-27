@@ -1,0 +1,7 @@
+- questions:
+  - How does Starlight's Marxist belief in Standardization clash with Fleur's Aquileian Artisan Asset Specificity when they collaborate on miniaturizing the Love Harvester and building the Luna Nova Rifle? | ignored | Says nothing about Starlight, Fleur, the lab or the rifle. | none
+  - How do the Baltimare communists misread Applejack's rise, and do they see the title Lioness of Tall Tale as her abandoning the working class for Aquileian-style elitism? | ignored | Says nothing about Applejack, the Baltimare communists or the title. | none
+- shape: A short correction and instruction that rejects part of the model's blueprint. The model had rewritten Twilight's post-Our Town pitch as a hard-science, lab-partnership offer. The user says to keep it close to canon and to have Twilight speak the language of the nursery. It gives no response to the two Socratic questions.
+- settles:
+  - Twilight's pitch to Starlight after Our Town stays close to the canon version, not the model's empirical-research partnership pitch, because Twilight is still under Celestia's paradigm at this point. | should be close to as it is in canon because she is still under Celestia's paradigm
+  - Twilight uses the language of the nursery in that pitch. | Twilight absolutely should use the language of the nursery

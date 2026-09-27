@@ -1,0 +1,6 @@
+- questions:
+- shape: The user turn corrects the model's picture of the world. It does not answer anything, because the model asked nothing. It says Skyfall is an industrial capitalist power that can make guns, which cuts against the model's tungsten-for-wine premise. It also says the Empire has no navy because Skyfall took the fleet at independence, which undercuts the model's blockade and U-boat framing. It is a short statement of the user's own conception of the setting.
+- settles:
+  - Skyfall is a ruthless capitalist paradise with the industrial capacity to manufacture guns | "ruthless capitalist paradise that has the industrial capacity to make guns"
+  - The Empire has no navy | "the Empire has no navy"
+  - Skyfall took the Imperial Navy when it declared independence | "Skyfall stole the Imperial Navy when they declared independence"

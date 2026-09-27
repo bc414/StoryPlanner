@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user carries the restaurant-industry analysis into their worldbuilding by mapping diners, McDonald's, artisans and Raising Cane's/In-N-Out onto their fictional ideologies and nations, asks whether the chains' workers are paid above minimum wage, and adds a further allegory for the Griffonian Republic and Herzland.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is brainstorming, through a string of questions and tentative options, how tycoons like Rockfeller and Gilded Trust could escape deportation to New Mareland, and is leaning toward friendship seminars applying only to guns and drugs because Celestia cannot ban factories on harmony grounds.

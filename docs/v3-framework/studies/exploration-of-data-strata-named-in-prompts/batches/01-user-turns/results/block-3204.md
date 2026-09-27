@@ -1,0 +1,5 @@
+- sources:
+  - real world Feb 2026 (material dated February 2026) | the place to search this time; look for the material from that period | looking for the real world Feb 2026 | referred-to
+  - the conversations which are April and beyond | a separate corpus from the Feb 2026 material; not where this material comes from, so do not look for it there | a separate corpus from the conversations which are April and beyond | referred-to
+- order:
+- about: The user tells the model to redo its archive search, aiming at real-world February 2026 material and noting that this material belongs to a separate corpus from the April-and-later conversations.

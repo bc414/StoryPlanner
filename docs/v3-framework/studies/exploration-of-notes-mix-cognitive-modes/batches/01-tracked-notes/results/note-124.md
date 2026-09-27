@@ -1,0 +1,4 @@
+- claims:
+  - Canon | Bright Mac and Pear Butter are identified as Applejack's parents, a relationship fixed by the established source material | Bright Mac and Pear Butter are Applejack's parents | no
+- goals:
+- whole: The note states the established family relationship of the two characters as Applejack's parents, and it says nothing about who they are at the start of the story or what the reader should get from it.

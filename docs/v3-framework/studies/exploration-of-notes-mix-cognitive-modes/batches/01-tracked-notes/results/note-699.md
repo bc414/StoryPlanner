@@ -1,0 +1,4 @@
+- claims:
+  - History | The Wonderbolts, with Spitfire, designed the world's best fighter planes in the period just before the war began | Spitfire and the Wonderbolts designed the best fighter planes in the world just before the war started | yes
+- goals:
+- whole: The note reports as in-universe history that the Wonderbolts and Spitfire designed the world's best fighter planes just before the war.

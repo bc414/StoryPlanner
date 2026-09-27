@@ -1,0 +1,5 @@
+- questions:
+  - Does the Tantabus's destruction in 1001 ALB release its stored Ambition back into the populace, priming ponies for Applejack's militarization and industrialization a decade later? | ignored | The user doesn't take up the release or priming mechanism. They question whether the Tantabus fits the materialist fabula at all, which puts the premise of the question in doubt. | Maybe the tantabus is too worldbreaking for my materialist fabula?
+  - How does Celestia see Mali's role once Luna shifts from the Tantabus to adult passion? Is Mali a savior who cured the nightmares, or a corrupting Aquileian influence? | ignored | Nothing about Celestia's view or Mali's standing with her. The user moves to the episode's themes. | What were the themes of that episode and how do they relate?
+- shape: Pushes back on the model's whole proposal by doubting the Tantabus fits the setting. Then redirects to a request for the canon episode's themes and how they relate, instead of answering the model's questions.
+- settles:

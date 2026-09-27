@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's code used ReferenceHandler.Ignore, which the user reports does not exist in System.Text.Json; the user asks whether the fault is a missing extension or wrong using statements, and suggests IgnoreCycles instead | ReferenceHandler.Ignore does not exist. | Flat report of a compile failure, followed by questions about the cause and a proposed alternative (IgnoreCycles); the error is put as a plain statement of fact rather than an accusation.
+- about: The user reports that a specific API in the model's suggested code doesn't exist in their environment and asks whether they are missing an extension or using statement or should use IgnoreCycles instead.

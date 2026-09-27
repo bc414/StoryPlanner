@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's proposed terminology by arguing from their own story-world timeline that Chrysalis, being a narcissist, would not have used Bindekraft in 978 because the charitostatic effect was first documented in 1003, and it does not point the model to any body of material.

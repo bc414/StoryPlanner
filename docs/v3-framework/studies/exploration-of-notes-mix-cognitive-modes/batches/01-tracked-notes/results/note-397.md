@@ -1,0 +1,5 @@
+- claims:
+  - History | Fluttershy learned The Stare at the end of the episode Putting Your Hoof Down, set when she first moved to Ponyville and took on too many animal friends | Fluttershy learned The Stare at the end of Putting Your Hoof Down, which takes place when she first moved to Ponyville | yes
+  - History | The Stare was a lesson taught by Rarity, about being assertive rather than being prey | It is a lesson from Rarity on being assertive instead of being prey | yes
+- goals:
+- whole: The note reports, as a past event in Fluttershy's backstory, that she learned The Stare from Rarity when she first moved to Ponyville and overcommitted to animal friends.

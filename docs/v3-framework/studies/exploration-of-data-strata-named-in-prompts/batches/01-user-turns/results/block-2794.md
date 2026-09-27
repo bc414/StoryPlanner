@@ -1,0 +1,8 @@
+- sources:
+  - The notes | treat as incomplete; their thinness on chapter 4 should not be read as the content being absent, so the model should not take gaps in them as the story's actual content | The notes may be lacking in detail | referred-to
+  - The author's own account of chapter 4 and chapter 9 (a battle told from Twilight's perspective, she feels horrible using magic as firepower, she defers to AJ, she is not an empiricist until Fleur and the town hall in chapter 9) | treat as true and use it to correct the earlier reading of Twilight | chapter 4 is a battle, told from Twilight's perspective | first-named
+  - The story's Twilight material, chapter 4 through 13 | the body to be analyzed in depth and with nuance | Do a deeper nuanced analysis of everything about Twilight from chapter 4 to 13 | referred-to
+  - The Hasbro baseline, MLP as Faust worked with it | put forward as likely already loaded in readers who never watched FiM because it is MLP; the model is asked to assess whether that holds | would the Hasbro baseline already be loaded since it's MLP | referred-to
+- order:
+  - The author's own account of chapter 4 and chapter 9 over the notes | the notes may lack detail, but the author states what chapter 4 actually is and how Twilight feels and behaves
+- about: The author corrects the model's reading of Twilight's chapter 4 by supplying from memory what the thin notes leave out, asks for a deeper analysis of Twilight across chapters 4 to 13, and asks whether readers who never watched FiM would still carry the Hasbro baseline.

@@ -1,0 +1,5 @@
+- sources:
+  - the ace isn't fallen (the model's fallen-ace idea for getting Rainbow into an Aquileian plane) | treated as a suggestion to be revised, not settled; swap the dead ace for a resting one | How about if the ace isn't fallen but is resting | referred-to
+  - the planes is tied to them (the established rule that an Aquileian plane is bound to its forger) | treated as true and used as the premise for the new idea | the planse is tied to them | referred-to
+- order:
+- about: The user revises the model's suggested Chapter 5 workaround, proposing that a living, resting Aquileian ace who trusts Rainbow Dash lends their bound plane instead of a dead ace leaving one behind.

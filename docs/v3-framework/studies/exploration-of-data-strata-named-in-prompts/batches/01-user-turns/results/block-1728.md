@@ -1,0 +1,8 @@
+- sources:
+  - official EaW characterization of Vaspier (expanding VOPS for supremacist fundamentalist terror, purging moderates) | treat as the authoritative canon to check the model's Vaspier analysis against; the analysis is flagged as conflicting with it | This seems to conflict with the official EaW characterization | referred-to
+  - the model's preceding Vaspier analysis (the algorithmic, non-ideological bureaucrat) | treat as provisional and challenged, needing revision where it contradicts canon | This seems to conflict | referred-to
+  - Nazi Germany's dual state (Gestapo, SS, party) | use as a historical reference for the model to answer whether the secret police was part of the SS/party or separate | was the gestapo (secret police) part of the SS/party or separate within the Nazi Germany dopplestaat | referred-to
+  - Japanese samurai/Bushido | offer as a candidate analogy for the Statthalters, to be weighed against the Nazi SS comparison | are my Statthalters more like Japanese samurai/Bushido rather than the Nazi SS | referred-to
+- order:
+  - official EaW characterization of Vaspier | the model's preceding Vaspier analysis | This seems to conflict with the official EaW characterization
+- about: The user pushes back that the model's Vaspier analysis contradicts official EaW canon, and asks two historical-analogy questions: whether the Gestapo sat inside or apart from the SS/party in Nazi Germany's dual state, and whether the Statthalters resemble samurai/Bushido more than the SS.

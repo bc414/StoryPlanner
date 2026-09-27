@@ -1,0 +1,5 @@
+- sources:
+  - FiM canon | the standard to check against; the model is to find where the plans contradict or depart from it | What breaks FiM canon | referred-to
+  - my story plans | the material to be examined for canon-breaking elements and analyzed for what purpose each serves | in my story plans | referred-to
+- order:
+- about: The user asks the model to check their story plans against FiM canon, identify what breaks it, and analyze what purpose each departure serves.

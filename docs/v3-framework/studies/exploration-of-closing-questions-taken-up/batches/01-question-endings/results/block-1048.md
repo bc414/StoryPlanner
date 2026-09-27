@@ -1,0 +1,5 @@
+- questions:
+  - What specific materialist breaking point would make the real-world Traditionalist Right go through an 'Eros Surrender', severing its alliance with the Nationalist Populists and returning to local, community-based conservatism? | ignored | none; the user turn asks a new question about earnest, non-cynical movements on the American Right and does not take up the breaking point | none
+  - How would Applejack, debating Gilded Trust, validate rural pride and cultural alienation while showing he is a Skyfall Tycoon in disguise who would strip-mine their communities? | ignored | none; the user turn does not touch the debate or Applejack and stays with real-world politics | none
+- shape: Redirects. The user drops the model's suggested lines of expansion and asks fresh questions about real-world politics: whether the American Right has any earnest, non-cynical movements, what exists outside Bernie Sanders, and whether Dan Osborn and Evan McMullin count as examples. This tests the model's cynicism-versus-resilience framework against real cases. It does not answer or comment on the model's two questions.
+- settles:

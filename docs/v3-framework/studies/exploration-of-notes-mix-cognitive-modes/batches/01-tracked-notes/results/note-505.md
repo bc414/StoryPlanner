@@ -1,0 +1,5 @@
+- claims:
+  - Canon | Flurry Heart is established in the source material as able to teleport even as a baby, which constrains what she can do here | She canonically can already teleport as a baby | no
+  - PageDesign | On the page, five-year-old Flurry Heart teleports out of the city to get away from the emotions and find some relief | as a five year old she can teleport away from the city to escape the emotions for some relief | yes
+- goals:
+- whole: The note stages a behavior for Flurry Heart on the page, teleporting out of the city to escape overwhelming emotions, and justifies it by the canon fact that she could already teleport as a baby.

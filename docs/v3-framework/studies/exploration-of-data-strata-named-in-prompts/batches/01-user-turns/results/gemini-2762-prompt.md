@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a clarifying question, checking whether the model's account means American union behavior comes from legal frameworks as well as from moral or cultural failings, without pointing at any body of material.

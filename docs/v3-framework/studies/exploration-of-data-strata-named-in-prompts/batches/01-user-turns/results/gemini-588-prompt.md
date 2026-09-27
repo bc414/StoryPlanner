@@ -1,0 +1,4 @@
+- sources:
+  - my plan for him (Synovial's career: Hivesmarschall during the conquest, 1002 Canterlot infiltration, demotion, Griffenheim posting, return to fight at the 3rd battle of Tall Tale) | treat as the author's settled intent and the true version of Synovial's backstory and arc, replacing the model's prior account | Actually my plan for him is | first-named
+- order:
+- about: The author corrects the model's analysis of Synovial by stating their own plan for his career, from Hivesmarschall through demotion and the Griffonia posting to his defeat by Applejack.

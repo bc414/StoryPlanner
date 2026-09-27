@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about why real-world readers and the author himself were taught incomplete, simplified versions of history, extending the previous turn's high-school versus college-level framing to real life without pointing the model at any body of material.

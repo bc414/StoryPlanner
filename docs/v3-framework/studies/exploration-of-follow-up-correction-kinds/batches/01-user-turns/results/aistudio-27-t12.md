@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts V5 as good and moves on to a new design question about whether pairing negative constraints with short positive lists narrows the model's range, and whether an exhaustive positive list is possible or desirable.

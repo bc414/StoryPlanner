@@ -1,0 +1,4 @@
+- claims:
+  - History | Pharanx was given the epithet The Terror of Vaverfront, reported as something that happened to him in the past | Dubbed The Terror of Vaverfront | yes
+- goals:
+- whole: The note records, in the manner of a historian, that Pharanx earned the epithet The Terror of Vaverfront in his past.

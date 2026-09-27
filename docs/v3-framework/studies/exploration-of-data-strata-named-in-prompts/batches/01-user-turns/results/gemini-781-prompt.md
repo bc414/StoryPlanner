@@ -1,0 +1,5 @@
+- sources:
+  - my prequel featuring Ixodida's fall and Pagala's villainy | to be read and analyzed as the material for refining the jaeger vs Statthalter mentality and language relationship; treated as applicable though written earlier | Please read my prequel featuring Ixodida's fall and Pagala's villainy | first-named
+  - big story plans | the prequel was written before these; the user judges its idea still applies, so it is an earlier, pre-plan source rather than one bound by the plans | I wrote this before making big story plans but I think the idea applies | referred-to
+- order:
+- about: The user asks the model to read and analyze their earlier-written prequel (Ixodida's fall, Pagala's villainy) to refine the jaeger versus Statthalter mentality and their relationship to language, noting it predates their big story plans but still applies.

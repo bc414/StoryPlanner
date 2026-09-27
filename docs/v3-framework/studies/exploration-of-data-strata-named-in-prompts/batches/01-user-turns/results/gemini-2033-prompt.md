@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on example-level answers and asks in general terms which fundamental axes, beyond chronological order and concept evolution, can be used to organize an entry made of mixed notes.

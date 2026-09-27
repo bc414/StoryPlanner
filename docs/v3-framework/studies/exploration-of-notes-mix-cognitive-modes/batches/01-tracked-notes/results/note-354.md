@@ -1,0 +1,6 @@
+- claims:
+  - History | Factory workers rewarded with high-quality love from Olenia became unsatisfied and more ambitious, working harder and learning from bauleiters | After factory workers started getting rewarded with high quality love from Olenia, they didn't feel satisfied... learning from bauleiters | yes
+  - History | Higher productivity led to more MEFO bill issuance and to extraction demands beyond what Olenia could sustain | Increased productivity led to more MEFO bill issuances, leading to more extraction requirements beyond what Olenia could sustain | yes
+  - History | The changelings and VOPS demanded the invasion of Equestria, and Chrysalis authorized it because otherwise the debt and her new order would collapse into civil war | Thus the changelings themselves and VOPS demanded the invasion of Equestria, and Chrysalis had to authorize the plans | yes
+- goals:
+- whole: The note reports, as in-universe history, the causal chain from rewarded and ambitious workers through MEFO bill over-issuance and unsustainable extraction to the forced authorization of the Equestria invasion.

@@ -1,0 +1,7 @@
+- claims:
+  - Analogies | Real-world Appanage Rus and early Muscovy (12th–15th c.) boyars are the model, and they were not Western-style knights | In pre-industrial Russia (the Appanage Rus period and early Muscovy, 12th–15th centuries), the Boyars were not "Knights" | yes
+  - Analogies | Contrasts Western feudalism (military conquest, chivalric oaths) with Russian feudalism (logistics of surviving steppe and winters) as the real-world basis for the in-universe system | Western feudalism was based on military conquest and chivalric oaths. Russian feudalism was based on the desperate logistics | yes
+  - Analogies | Real Russian climate and poor soil made individual survival impossible and produced the obshchina/mir, with land held collectively, redistributed by family need, and decided by absolute consensus | This birthed the Obshchina or Mir (the peasant commune) | yes
+  - Analogies | Sobornost, the spiritual concept of organic togetherness that viewed Western individualism as selfish and alienating, is cited as a real cultural inspiration | Alongside this was the cultural and spiritual concept of Sobornost | yes
+- goals:
+- whole: The note documents the real-world Russian sources (boyars, the obshchina/mir, and sobornost, set against Western feudalism) that inspired the in-universe pre-industrial Severyana system.

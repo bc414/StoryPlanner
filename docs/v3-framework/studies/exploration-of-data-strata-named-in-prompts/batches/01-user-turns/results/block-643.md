@@ -1,0 +1,5 @@
+- sources:
+  - authorial notes | not settled layer 1 truth; a mixed pile of layer 4 design and research directives that still needs sorting by kind | Many of my "authorial notes" are actually a mix of layer 4 design and research directives | referred-to
+  - the accumulation phase | material still in flux, provisional, possibly a separate stage from deciding what becomes layer 1 truth | the accumulation phase itself, where things are still in flux | referred-to
+- order:
+- about: The user asks whether the in-flux accumulation phase is its own stage, separate from fixing layer 1 truth, and notes that their authorial notes currently mix layer 4 design with research directives.

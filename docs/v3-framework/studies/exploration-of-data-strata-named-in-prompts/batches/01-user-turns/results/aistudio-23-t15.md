@@ -1,0 +1,4 @@
+- sources:
+  - Attached document (the material the four priority passes are run over) | the body of material to extract from: events by ALB date or named reign, actors by species, class or generation, power tools, and ideological oppositions | Extract events based on ALB dates or named reigns | first-named
+- order:
+- about: The user attaches a document and gives four numbered extraction passes (chronology, demographics, system mechanics, dialectics), each with its own ignore rule and a one-bucket assignment rule.

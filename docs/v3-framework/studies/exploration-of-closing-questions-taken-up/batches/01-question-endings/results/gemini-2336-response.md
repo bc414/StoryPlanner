@@ -1,0 +1,8 @@
+- questions:
+  - How does Dennis communicate his victory back to the Aquileian mainland? | ignored | Nothing about how word of the outcome reaches the mainland. | none
+  - Does Dennis sink the Skyfall cruiser as a message of total war, or leave it crippled to limp back to Skyfall harbor for maximum economic humiliation? | partly answered | Rules out total war, so sinking is rejected, and gives the Aquileians' commercial motive as the reason. It never says whether the cruiser is crippled and sent home. | It absolutely should not be total war
+- shape: A short correction and steer. The user rejects the model's framing of the encounter as possible total war and restates what the Aquileians want, which is to trade profitably without paying Skyfall's insurance. It answers the sink-or-cripple choice by ruling out one side and leaves the other question unaddressed.
+- settles:
+  - Aquileia is not pursuing total war against Skyfall, so the conflict stays limited and does not aim at destroying the rival's fleet | It absolutely should not be total war
+  - Aquileia's motive is commercial: it wants to sell products and make money | the Aquileians want to sell products and make money
+  - The specific grievance is that Aquileia refuses to pay Skyfall shipping insurance | They just don't want to pay Skyfall shipping insurance

@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants to be walked through configuring Context Caching in Vertex AI Studio so they can save on token costs from the first session | no user turn | none | none
+- shape: none
+- settles:

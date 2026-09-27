@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the MPA is Vérany's radicalized mob, but in the user's world the MPA are Moriset Discret's thugs who shook down the bourgeoisie, which also changes the MPA's relation to Dennis Discret | The MPA are Moriset Discret's thugs who shook down the bourgeoisie | Flat statement of the correct fact, given as a plain assertion without apology or argument
+  - reading of the plan | The model misread the user's backstory about Moriset Discret's Aquileia/Coltbert Reforms, so its account of the factions built on it is off | Read my backstory about Moriset Discret's Aquileia/Coltbert Reforms again carefully | Directive to go back to the source and re-read it, with mild impatience and no reason spelled out
+- about: The user rejects the model's identification of the MPA's leader and origin, states the correct one, and orders it to re-read their backstory on Moriset Discret and the Coltbert Reforms.

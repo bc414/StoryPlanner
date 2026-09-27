@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about how fans (target demographic and fanfiction community) reacted to the show's shifts over its run, and how that compares to MLP's fandom reactions, without challenging anything the model said.

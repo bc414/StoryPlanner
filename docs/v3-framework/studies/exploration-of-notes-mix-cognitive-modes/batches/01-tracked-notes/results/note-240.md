@@ -1,0 +1,5 @@
+- claims:
+  - History | Over the course of Eros's lifetime the nobility mishandled the regency and the republic caused chaos, and both weakened the emperorship | After a lifetime of watching both the nobility fumble the regency and the republic cause chaos, weakening the emperorship | no
+  - Characterization | Eros's motivating drive: he resolves to step up in the name of Boreas to save the soul of the griffons, which defines who he is at the start | Eros decides he must step up in the name of Boreas to save the soul of the griffons | yes
+- goals:
+- whole: The note asserts Archon Eros's starting motivation, that he resolves to step up in Boreas's name to save the griffons' soul, and grounds it in a reported backdrop of failed regency and republican chaos.

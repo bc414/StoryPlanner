@@ -1,0 +1,5 @@
+- questions:
+  - How do the Changeling conscripts, shaped like an algorithm-raised generation, first take Fluttershy's unconditional kindness at Camp Fluttershy: as sophisticated torture or a manipulative trap, since they have no category for non-transactional empathy? | ignored | Says nothing about the Changelings, Camp Fluttershy or Fluttershy. It asks a different question about the real-world brony fandom. | none
+  - How does Gilded Trust weaponize nostalgic grief for the Golden Age during the Manehattan Referendum, using its aesthetics to sell Ponies First rugged individualism to voters who want their childhood safety back? | ignored | Says nothing about Gilded Trust, the Referendum or nostalgia as a political tool in the story. | none
+- shape: Redirects to a new topic. The user sets aside both follow-up questions and asks how the generational and cynicism analysis connects to the real-world original brony fandom that began in 2011. It is a short open request for the model to extend the analysis in a new direction.
+- settles:

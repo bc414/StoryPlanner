@@ -1,0 +1,6 @@
+- sources:
+  - my chat history with VGS2 | the material the model is to analyze now | Now analyze my chat history with VGS2 | first-named
+  - the discord conversation transcript | treat as the record of how the author got into MLP via Fimfiction.net while thinking about The Canalave Library; draw on it for that | The discord conversation transcript also details how I got into MLP | referred-to
+  - the author's own account in this turn of VGS2's reviews and his authors' notes recommendation convention in Questing for Respect | treat as true background framing, including as the origin of The Canalave Library | he started a convention of putting recommendations | first-named
+- order:
+- about: The user asks the model to analyze their chat history with VGS2, supplying background on his reviews and recommendation convention as the seed of The Canalave Library and pointing to a discord transcript showing how they came to MLP.

@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like the model to show how to structure a Lore Bible prompt in AI Studio for querying the 300k-word plan? | ignored | The user does not accept or decline the offer; they ask about a different tool, NotebookLM. | none
+- shape: A short redirect: the user drops the offered AI Studio walkthrough and asks how NotebookLM compares as an alternative tool for their large document. It is a question about tooling, not an answer.
+- settles:

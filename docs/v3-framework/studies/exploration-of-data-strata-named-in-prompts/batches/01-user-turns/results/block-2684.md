@@ -1,0 +1,7 @@
+- sources:
+  - TLTT (Chrysalis invades Equestria and blockades; Colthage takes Ain Trotgourait; Twilight's charity project after Mount Aris) | the user's own story events, offered as how the plot intersects with the Colthage design; treated as established story material to build on | "The way this intersects with TLTT is that when Chrysalis images equestria and blockades" | referred-to
+  - EaW lore (North Zebrican Zebras are Zonicans with a shared North African cultural base mirroring the Chinese languages) | treated as established world lore that grounds the Zonican unity idea | "In EaW lore, the North Zebrican Zebras are Zonicans" | referred-to
+  - the story plan material | to be reviewed and used as the basis for the analysis of the new Ain Trotgourait/Colthage idea | "Please review the story plan material and give an analysis" | referred-to
+  - the user's own imagined post-war scenario (allies invest unconditionally in Colthage like the changelings, causing reform; Ain Trotgourait stays in united, reformed Zonica) | provisional, offered as something the author imagines rather than settled | "I imagine the post war allies would invest in Colthage unconditionally" | first-named
+- order:
+- about: The user adds how Colthage's Chinese-model design connects to TLTT events and Zonican lore, floats a reform ending where Ain Trotgourait stays in a united Zonica, and asks the model to review the story plan material and analyze it.

@@ -1,0 +1,5 @@
+- sources:
+  - current data | base the analysis of whether descendant systems flip only one axis on what is currently in the planner data, not on assumption | Please give analysis based on current data | referred-to
+  - my earlier lumping of Coltbert's Aquileia under asset specificity | the author's earlier placement of the dialect and terroir preservation, offered as the reason the assimilationist label is wrong, and held as open to revision | I previously lumped this into "asset specificity" | referred-to
+- order:
+- about: The author pushes back on labeling Coltbert's Aquileia as assimilationist, saying its regional dialects are preserved and its flaw is the transactional wallflower problem, and asks whether descendant systems should flip only one axis, to be analysed from current data.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model filed the Zebrican arms-market dependency trap under the New Order Civilizational System as a principle running through Chrysalis's whole economic operation. The user says the system imposed on Zebrica is a separate civilizational system, and that the New Order and the Skyfall Trade Federation each cover only their own domestic economy (plus ruling the waves for Skyfall). | Should The Comprador Economy apply to both... I feel like the system Skyfall and Chrysalis imposed on Zebrica is a separate civilizational system | Tentative, put as a question with a hedged 'I feel like', proposing a narrower scope without stating the model was wrong.
+- about: The user questions how the model scoped the civilizational systems, proposing that the Zebrican arrangement is a separate system from the domestic New Order and Skyfall systems.

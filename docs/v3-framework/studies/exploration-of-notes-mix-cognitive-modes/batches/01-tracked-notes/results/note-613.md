@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten: world ontology, god-mode rule of the system | patriarchy in this system arises from anxiety over inheritance | Patriarchy stems from Inheritance Anxiety | outside
+  - outside all ten: world ontology, god-mode rule of the system | in feudal order land is power, so a lord must be certain his son is his own to pass the land to | In a feudal system, land is power. A Lord must know his son is his to pass down the land. | outside
+  - outside all ten: world ontology, god-mode rule of the system | as a consequence, female sexuality is strictly controlled through chastity and monogamy to secure the lineage | Therefore, female sexuality is strictly controlled (Chastity/Monogamy) to ensure lineage | outside
+  - outside all ten: world ontology, god-mode rule of the system | male sexuality goes uncontrolled, producing bastards, because male infidelity cannot put a false heir in the noble womb | Male sexuality is uncontrolled (Bastards) because a male's infidelity doesn't risk bringing a "false heir" | outside
+- goals:
+- whole: The note states, as a chain of cause and consequence, the objective rule by which inheritance anxiety in a land-based feudal order produces patriarchy and the double standard in sexual control, without saying what the reader is to take from it.

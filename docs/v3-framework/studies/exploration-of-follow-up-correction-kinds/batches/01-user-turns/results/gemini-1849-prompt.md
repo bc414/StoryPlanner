@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user checks their own understanding of how modern models handle logic by restating it as a question, then asks a follow-up on whether the reasoning comes from an external tool or from inside the model, without disputing anything the model said.

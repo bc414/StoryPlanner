@@ -1,0 +1,10 @@
+- questions:
+  - Should the model generate the Chapter 17 'Intervention' analysis (SECEF arriving in Aquileia, Henri's Voltigeur philosophy against Synovial's Grand Battleplan)? | ignored | The user turn does not take up this option and asks a different question. | none
+  - Should the model detail the Chapter 19 'Authenticity' chapter (Applejack confronting Eros and Eagleclaw)? | ignored | The user turn does not touch this option. | none
+  - Should the model refine the Chapter 18 'Fraternity' chapter (Applejack and Kemerskai in Cloudbury)? | ignored | The user turn does not touch this option. | none
+  - Is 'Coltbert Rifle' the right name for the voltigeurs' rifled musket? | ignored | The user turn brings up Coltbert only as a person and as the Coltbert Reforms. It says nothing about the rifle's name. | none
+- shape: The user turn sets aside the model's menu of next chapters and redirects to a new design question: how to fit Aquileia's mixed griffon and pony population into the voltigeur image. Along the way it adds a worldbuilding premise about the Coltbert Reforms that the model should build on.
+- settles:
+  - The Coltbert Reforms reject social hierarchy, and that includes sex. The reformed institutions, including the voltigeurs, are open to male and female griffons and ponies alike. | the Coltbert Reforms are a rejection of social hierarchy it's also for male and female griffons and ponies
+  - Coltbert's defining trait is being the 'loophole pony' for the female noble griffonesses, and this is the root of the reforms. | Coltbert's whole deviant personality is about being the loophole pony for the female noble griffonesses
+  - Aquileia's population is a mixture of griffons and ponies, and the voltigeur image has to accommodate both. | integrate the griffon and pony mixture setting of Aquileia into the image of the voltigeurs

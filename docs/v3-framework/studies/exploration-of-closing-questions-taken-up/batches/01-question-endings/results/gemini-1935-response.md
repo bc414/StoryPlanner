@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a custom system prompt for Claude Projects that makes it an Equestria at War lore-keeper and editor? | ignored | Says nothing about the offer. It only restates that they want analysis for inspiration and not text generation, which sits awkwardly with a lore-keeper prompt but is not tied to it. | none
+- shape: Redirects and corrects the model's premise. It narrows the use case to analysis for inspiration with no text generation, then asks a new comparison question: whether Claude has anything that is a real leap over Gemini. It does not take up the offered next step.
+- settles:

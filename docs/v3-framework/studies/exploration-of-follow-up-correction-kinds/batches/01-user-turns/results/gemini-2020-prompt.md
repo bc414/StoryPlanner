@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user follows the model's invitation to paste the text of their process, supplying a CSV-style table of three phases with the input, instruction and output of each model step and the web app step that follows it, without commenting on the model's previous reply.

@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like the model to draft a fuller System Instruction block to paste into Google AI Studio to lock the model into strict analytical mode? | ignored | The user turn never accepts or declines the offer. It moves to a new question about whether real authors carry both delivery and story logic, and about how AI roleplay users compare. | none
+- shape: The user drops the offered next step and opens a new, broader research request. They ask whether real authors handle both prose delivery and thematic and character logic, and whether AI roleplay and creative-writing users think about story logic at all. They ask for an assessment of those claims, grounded in how tools were used and how users were perceived from Nov 2022 to March 2026, with a list of prominent models and self-identified users. It is a redirect from the tooling advice to a question about author and user practice.
+- settles:

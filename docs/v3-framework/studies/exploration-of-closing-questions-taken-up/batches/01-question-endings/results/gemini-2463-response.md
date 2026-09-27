@@ -1,0 +1,13 @@
+- questions:
+  - After Ain Trotgourait falls in 1011 ALB, does Fizzlepop stay in Zebrica with Zecora's partisans or go back to Equestria with Twilight to help run the MSO? | answered | She goes back with Twilight to help with magical research, and later goes with Twilight to Tall Tale, where she fires artillery from a plane. The MSO and the partisans are not named. | Fizzlepop goes back with Twilight to help with magical research
+- shape: The user answers the closing question directly. Most of the turn then corrects the model's analysis point by point: Fizzlepop's weapon, Applejack's stance, who heard the Aquileians and Crack Lightning, and Celestia's reasoning. It also asks the model a new question about whether Applejack should be on the shore with Twilight or Twilight should go alone.
+- settles:
+  - Fizzlepop fights out of survivalism, not cruelty, and Twilight rightly sees the broken filly inside the armor | fighting not out of cruelty but survivalism
+  - Fizzlepop uses no gun. She fires magical artillery from her broken horn and cannot do controlled telekinesis | does not use a gun, she fires magical artillery from her broken horn
+  - Fizzlepop returns to Equestria with Twilight to do magical research | goes back with Twilight to help with magical research
+  - Fizzlepop later goes with Twilight to Tall Tale and fires magical artillery from a plane | goes with Twilight to Tall Tale and fires magical artillery out of a plane
+  - In 1006 Applejack holds no gun and is as naive as Twilight | Applejack isn't holding a gun, she is just as naive as Twilight
+  - Only Rainbow Dash heard the Aquileians call the warlords poseurs and Crack Lightning call them animals | Only rainbow dash heard the Aquileians call the warlords poseurs
+  - Celestia's lecture does not mention allies. She is purely isolationist, maintaining the Stagnation of Harmony, and had no intention of acting | She has no allies, it is pure isolationism to maintain the Stagnation of Harmony
+  - The Wonderbolts and the Mane 6 went because of Silverstream and Zecora, without orders from Celestia | went because of Silverstream and Zecora without orders from Celestia
+  - Celestia is concerned only with her ponies being in danger and with seeing weapons | only thinking I'm terms of her ponies being in danger and seeing weapons

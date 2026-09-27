@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to analyze whether modern Poland really is a more harmonic-capitalism-oriented republic than the modern US, Britain, France and Germany, without pointing to any body of material to draw on or avoid.

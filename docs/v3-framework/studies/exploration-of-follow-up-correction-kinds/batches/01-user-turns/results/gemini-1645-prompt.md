@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies a transcript link for the episode "Where the Apple Lies" and asks the model to reinterpret that episode in light of the backstory it just laid out, so the turn builds on the model's summary without disputing it.

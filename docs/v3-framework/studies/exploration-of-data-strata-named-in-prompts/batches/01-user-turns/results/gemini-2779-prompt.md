@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | model is to review them and draw on them, rather than on its own extrapolation from the prior reply | Please review my story plans | referred-to
+- order:
+- about: The user corrects the model's misreading of their Earth Pony magic concept, restating it as phosphorus and potassium weathering, and tells it to go to their story plans instead of extrapolating.

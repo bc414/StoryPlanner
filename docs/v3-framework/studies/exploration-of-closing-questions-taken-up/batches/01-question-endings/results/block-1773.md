@@ -1,0 +1,4 @@
+- questions:
+  - Which angle interests the user most: the economics, the philosophy, or something more practical? | answered | Picks philosophy, and widens it to take in what it implies for designing societies and for understanding how the world really works. It leaves economics and the purely practical angle aside. | "more interested in philosophy and implications for society design and understanding how the world really works"
+- shape: The user answers the model's closing either-or question by choosing a direction for the conversation. They pick philosophy and add two related interests. They don't react to the model's pushback on the productivity framing. The turn steers what to discuss next and doesn't correct or challenge the model.
+- settles:

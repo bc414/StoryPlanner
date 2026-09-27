@@ -1,0 +1,5 @@
+- claims:
+  - History | Maud earned her Rockterate degree from the University of Pridea | She got her Rockterate from the University of Pridea | yes
+  - History | Maud was absent from Pinkie Pie's cutie mark story because she was studying in Pridea at the time | She wasn't present for Pinkie Pie's cutie mark story because she was studying in Pridea | yes
+- goals:
+- whole: The note reports in-universe historical facts about Maud Pie's education at the University of Pridea and her resulting absence from Pinkie Pie's cutie mark story.

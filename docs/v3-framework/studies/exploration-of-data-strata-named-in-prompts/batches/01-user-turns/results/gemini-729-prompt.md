@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user says their account shows "PRO" and asks how to find out which Gemini model NotebookLM is using, without pointing the model at any body of material.

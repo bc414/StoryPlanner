@@ -1,0 +1,7 @@
+- questions:
+  - Do Snap and Mane realize their foreign benefactors, such as Skyfall, might be indirectly supplying Chrysalis or the Storm King? | ignored | Says nothing about the parents' funders or any link to Chrysalis or the Storm King. It gives a different backstory for the parents. | none
+  - How does Applejack (or Twilight) interact with the parents, given AJ's own tension between the farm and the wider world? | ignored | Does not mention Applejack, Twilight, or any scene between them and the parents. | none
+- shape: Sets aside the model's backstory for the parents (expatriate explorers funded by Pridea or Skyfall) and states the author's own plan in one line: they are exiles from New Mareland who sent their daughter back to Equestria. It is a short statement of intent that replaces the model's premise, and it answers neither closing question.
+- settles:
+  - Scootaloo's parents are to be depicted as exiles from New Mareland | New Mareland exiles
+  - Scootaloo was sent back to Equestria by her parents, so she did not simply stay behind while they travelled | sent their kid back to Equestria

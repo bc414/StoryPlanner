@@ -1,0 +1,11 @@
+- sources:
+  - my TLTT plan | the author's own story plan, used as the reference for finding comparable works and as the base whose ideas carry over to the game | "like my TLTT plan" and "After building out TLTT" | referred-to
+  - charitostatic effect as articulation for "friendship is magic" | element of the TLTT plan, to be carried into the game as a mineral-growing mechanic | "Somehow I would want to establish the charitostatic effect equivalent" | referred-to
+  - griffon magic in TLTT | element of the TLTT plan, used as the model for the game's tool-enhancing mineral tech | "enhance tool properties like griffon magic in TLTT" | referred-to
+  - Tzinacatl friendship plants | element of the TLTT plan, used as the model for tying the charitostatic effect to growing new minerals | "tied to growing new minerals, like the Tzinacatl friendship plants" | referred-to
+  - eu4, hoi4 and civilization 5 | published games named as the models for the kind of game the author wants to make | "a game like eu4 and hoi4 and civilization 5" | first-named
+  - post Ottoman Empire areas, the Middle East and Yugoslavia | real history taken as inspiration for the diplomacy the game should capture | "Inspired by the nuances of diplomacy between people in post Ottoman Empire areas" | first-named
+  - Porygons and Porygon2 | published Pokemon creatures used as the basis for the game's population and its soft versus jagged look | "more like Porygon2" | first-named
+  - pegasi, unicorns, earth ponies | the show's pony kinds, used as analogues for what mineral tech lets the population do | "fly like pegasi, do telekinesis like unicorns, farm like earth ponies" | first-named
+- order:
+- about: The user asks whether comparable fantasy geopolitical epics exist for their TLTT plan, then lays out a new strategy game idea that reuses TLTT's charitostatic effect and magic types, with Pokemon-style creatures and post-Ottoman diplomacy.

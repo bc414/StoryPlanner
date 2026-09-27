@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether interior cities like Chongqing that receive heavy infrastructure investment form a separate paradigm from the coastal hubs and special economic zones and from the migrant workers, without naming any source of data to draw on.

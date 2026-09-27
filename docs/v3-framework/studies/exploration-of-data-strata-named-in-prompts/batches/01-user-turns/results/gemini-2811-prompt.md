@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a standalone real-world question about whether everyday portable technology contains vacuum environments, apparently following up on the vacuum-valve idea, without pointing at any body of material.

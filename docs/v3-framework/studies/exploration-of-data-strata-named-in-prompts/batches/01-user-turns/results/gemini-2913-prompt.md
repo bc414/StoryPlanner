@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes and clarifies a simplified design for the stamp system (the stamp carries its owner's sovereignty vector, Anchor Mode and Intent Mode restated, Verifier Mode possibly universal), argues that RSA-style unfactorability is unnecessary because sovereignty can't be forged, and asks whether a fingerprint scanner or Face ID is the right technological analogy.

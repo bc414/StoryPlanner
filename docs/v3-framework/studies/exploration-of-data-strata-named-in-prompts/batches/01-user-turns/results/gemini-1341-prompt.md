@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to analyze how the love harvester fits into the liberty-turned-tyranny theme, explaining their own design: Chrysalis uses it to turn defeated nobles into batteries for the economy, and it later becomes Twilight's tool for democratizing magic, firepower and renewable energy.

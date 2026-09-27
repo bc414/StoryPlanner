@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated the Changelings' intent as a clean occupation wanting the factory intact and called the Star Energy view a miscalculation; the user says Star Energy believes the war is one of extermination, so its reasoning follows from that belief | The point is Star Energy does not know the changelings want a clean occupation. They believe it is a war of extermination | flat statement, brief, restating what the point of the plan is with no apology or hedging
+  - reading of the plan | The model took the question as whether destroying the dam is objectively sensible given true enemy intent, rather than as what Star Energy's characters believe when they decide | The point is Star Energy does not know | flat, implied that the model misdirected its analysis by using the reader's knowledge instead of the characters' knowledge
+- about: The user briefly redirects the model's dismissal of the dam-destruction reasoning by pointing out that the decision rests on what Star Energy believes about the enemy, not on what the Changelings actually intend.

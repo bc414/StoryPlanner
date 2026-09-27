@@ -1,0 +1,4 @@
+- questions:
+  - Does the Dual Ticket structure (single party-list vote doubling as a vote on the Monarchy) match how the user envisioned the final conflict playing out? | no user turn | none | none
+- shape: none
+- settles:

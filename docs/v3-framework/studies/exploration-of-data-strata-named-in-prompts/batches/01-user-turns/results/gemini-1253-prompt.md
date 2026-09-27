@@ -1,0 +1,4 @@
+- sources:
+  - Applejack's earlier story events: Fleur and Star Energy demonstrating harmonic capitalism with the buffalo, Tzinacatl, Temberik and Tall Tale | treat as established fact of the story by Ponyville; it means Applejack already knows a third way, so the model's premise that she lacks one no longer holds and the answer must work from it | At the point of Ponyville, Applejack already knows the third way, harmonic capitalism | first-named
+- order:
+- about: The author corrects the model's premise by stating from their own story that Applejack already knows a third way before Ponyville, then asks for the reasons, beyond leadership burden, that she wants Celestia to wake up.

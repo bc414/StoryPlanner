@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's proposed continuations and asks a fresh research question about what real-world or in-lore inspiration lies behind Ain Trotgourait in the EaW material, without stating that anything in the model's turn was wrong.

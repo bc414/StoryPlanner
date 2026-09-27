@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-rule ontology) | Pegasi achieve flight by manipulating air pressure, currents and thermals | pegasi fly by manipulating air pressure, currents and thermals | outside
+  - outside all ten (world-rule ontology) | The mechanism is anatomical: pegasus wings hold magical muscles that manipulate the weather | Their wings contain the magical muscles to manipulate the weather | outside
+- goals:
+- whole: The note states, as an invariant world rule, how pegasi fly: by weather-manipulating magical muscles in their wings, with no stated reader effect.

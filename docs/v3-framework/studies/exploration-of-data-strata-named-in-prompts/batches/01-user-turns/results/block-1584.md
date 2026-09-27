@@ -1,0 +1,7 @@
+- sources:
+  - Chapter 1 - Attitude and Pizzazz.pdf, the chapter of actual prose from Green Is Your Color written about a year and a half ago | the text to be divided into sample plot points and analysed for stakes, outcome and reader understanding; treat its POV as possibly loose and unintentional, and flag where it is | uploading a PDF of a chapter of actual prose I wrote | first-named
+  - the principles outlined (the plot point scoping framework from the model's previous turn) | the method to apply when splitting the chapter into plot points | using the principles outlined | referred-to
+  - canon episode Green Isn't Your Color from Season 1 | background the chapter deepens; context for reading the chapter, not something to follow or replace it | somewhat of a deepening of the canon episode | first-named
+  - Equestria at War | not the setting of this story; the chapter is regular FiM | not Equestria at War, just regular FiM | first-named
+- order:
+- about: The user uploads an old chapter of their own fan fiction and asks the model to split it into sample plot points with stakes, outcome and reader understanding, using the previously stated principles, so they can judge what scope to give plot points in their v2 story planner.

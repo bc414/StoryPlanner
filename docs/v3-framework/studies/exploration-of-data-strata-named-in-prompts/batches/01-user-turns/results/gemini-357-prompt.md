@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about their planning app: whether a Codex entry should hold several separate fact bullets, and whether plot points could link to individual facts with a payload describing the relationship, comparing the idea to a "unified theory of magic" style system.

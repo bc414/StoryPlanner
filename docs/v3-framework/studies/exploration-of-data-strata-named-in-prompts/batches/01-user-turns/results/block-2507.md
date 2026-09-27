@@ -1,0 +1,6 @@
+- sources:
+  - Agency, Tempest and Crash were originally one chapter just named Tempest | the author's own earlier plan, given as background on where the three chapters came from; the model is to take it as fact about the structure's history | originally one chapter just named Tempest | referred-to
+  - Mali's alt name (Tempest Wind, an EaW general with no official lore) | the author's own account of where the Tempest title comes from; the lack of official lore is given as a fact about the source, so the name is not tied to any established canon | Tempest Wind who is an EaW general with no lore official lore | first-named
+  - the sequence now (the five-chapter order just settled in the conversation) | the object to be judged as a whole, including whether Tempest still fits in the middle; held open for evaluation rather than treated as settled | Give a holistic analysis of the sequence now | referred-to
+- order:
+- about: The user gives the origin of the chapter title Tempest (a former single chapter, named from Mali's alt name) and asks the model to judge whether it still works as the middle chapter and to analyze the whole five-chapter sequence.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks two follow-up questions about the history the model laid out, whether Japan invaded Manchuria for the Ephedra plants and when Japan's version of the drug was invented, without disputing anything the model said.

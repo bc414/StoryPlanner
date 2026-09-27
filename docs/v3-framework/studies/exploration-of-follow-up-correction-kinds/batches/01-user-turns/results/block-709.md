@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the configuration-driven track design and extends it by asking for a configurable function-key shortcut per track that moves the selected note, plus whether WPF reserves any function keys, and clarifies that the key need not match the index.

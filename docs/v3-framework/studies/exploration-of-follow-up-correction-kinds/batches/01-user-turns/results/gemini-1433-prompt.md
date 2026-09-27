@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the proposed crystal pony magic as a starting point and asks, in a run of exploratory questions, whether crystal ponies should be built more like changelings, with a light emotion sense and love metabolism, and whether that would explain Flurry Heart's emotion sense.

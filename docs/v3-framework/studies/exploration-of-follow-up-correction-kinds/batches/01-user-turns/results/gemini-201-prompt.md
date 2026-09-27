@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn poses the planning request (keep Kemerskai's arrogance, have Trimmel warm him to the ponies, what obstacles Trimmel faces given the bait and the radio voice, and which of Applejack's friends bonds with him) as a fresh prompt, without saying anything in the preceding answer is wrong.

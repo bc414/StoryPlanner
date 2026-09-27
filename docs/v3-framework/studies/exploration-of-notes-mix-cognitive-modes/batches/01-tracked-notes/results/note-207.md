@@ -1,0 +1,5 @@
+- claims:
+  - world ontology (god-mode statement of world rule) | Crystal ponies evolved in a freezing environment where calories were scarce | They evolved in a freezing, calorie-scarce environment | outside
+  - world ontology (god-mode statement of world rule) | Their magic works by converting friendship and charitostatics into survival, calories and vitality | Their magic is about turning friendship and charitostatics into survival/calories/vitality | outside
+- goals:
+- whole: The note asserts, as invariant world truth, the evolutionary origin of crystal ponies and the biological function of their magic, without stating any reader effect.

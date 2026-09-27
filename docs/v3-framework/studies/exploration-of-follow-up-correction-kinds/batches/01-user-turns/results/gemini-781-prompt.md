@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to read an earlier prequel about Ixodida's fall and Pagala's villainy and analyze it, to refine the jaeger versus Statthalter mentality and their relationship with language, so this adds new source material and does not say the previous analysis was wrong.

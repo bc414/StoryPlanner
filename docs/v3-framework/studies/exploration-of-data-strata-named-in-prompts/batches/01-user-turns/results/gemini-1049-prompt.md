@@ -1,0 +1,4 @@
+- sources:
+  - my existing plan for the election's pivoting swing moment (Applejack thrashing Gilded Trust in a head-on debate) | treat as the author's current plan, to be kept or reconciled with the newly proposed Skyfall Resolution placement; not yet settled against it | I had the pivoting swing moment for the election be Applejack thrashing Gilded Trust in a head on debate | referred-to
+- order:
+- about: The user asks how to divide the election's swing effects between their existing debate scene and the relocated Skyfall Resolution, and whether Skyfall should also be what wins over Luna.

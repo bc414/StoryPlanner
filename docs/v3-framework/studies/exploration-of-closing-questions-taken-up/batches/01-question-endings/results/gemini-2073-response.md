@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a pinned "Master Lore" system instruction for AI Studio that keeps the MLP world-building respected? | ignored | The user does not mention the offer or the lore instruction. They ask a separate question about which AI uses go viral. | none
+- shape: Redirects to a new, general question about the AI landscape. It asks whether the high-temperature "creative maverick" use is what goes viral with a general audience, and whether the consultant-style uses are for power users. It picks up the model's quadrant framing but leaves the offered next step untouched.
+- settles:

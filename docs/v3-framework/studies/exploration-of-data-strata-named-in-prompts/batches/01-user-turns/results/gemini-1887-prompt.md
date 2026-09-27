@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a craft analysis of whether Minette's relocation should happen at 9 or at 10 or 11, and whether she should sense danger from the Lord before the move or only after, judged by which gives her more agency, without pointing at any body of material to draw on.

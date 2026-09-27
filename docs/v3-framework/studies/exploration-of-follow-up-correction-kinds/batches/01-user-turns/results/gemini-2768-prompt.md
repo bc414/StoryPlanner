@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's closing offer and asks it to expand on Taylorism, a follow-up request that corrects nothing in the previous answer.

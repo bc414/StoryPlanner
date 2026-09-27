@@ -1,0 +1,4 @@
+- sources:
+  - Tammany Hall and Boss Tweed | adopt as the model for the existing mayor, renamed Tammarey Hall for the horse pun; also the subject of the user's question about whether it served or opposed the tycoons | seem like the perfect model for the existing mayor | referred-to
+- order:
+- about: The user accepts Tammany Hall and Boss Tweed as the model for Manehattan's mayor under the name Tammarey Hall, asks whether the real Tammany Hall served or opposed the tycoons, and proposes that Manehattan's leaders be influenced by Skyfall and Chrysalis.

@@ -1,0 +1,5 @@
+- claims:
+  - unfixed | She is very ambitious, a strongly driven disposition | "was a very ambitious duchess" | past tense "was" only; no date, span or event given
+  - span | She holds the rank of duchess | "was a very ambitious ... duchess" | office or role with past tense "was"; no date, span or event given for when she held it
+  - throughout | She is the older cousin of Grover V, a family relation fixed by birth | "the older cousin of Grover V" | none
+- beside: Backstory note 334 (977) mentions Grover V, saying she was 16 when he died, but it does not speak of the cousin relation, her rank or her ambition. Backstory notes 336 (978) and 1259 (981) show her acting on ambition, with a counter revolution and taking back Griffenheim, but they do not state the trait or the duchess title. Nothing beside it says the same thing.

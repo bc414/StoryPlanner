@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the inhibitor and canon discussion and opens a new worldbuilding question about whether the Aquileian cartel in Skyfall should take apprentices, then offers their own ideas about a reverse brain drain, street food and chef training.

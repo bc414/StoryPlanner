@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's honesty-and-accelerant framework and asks to apply it to software engineering after LLMs, including code generation versus architecture and the claims made by bootcamps and CS programs, without disputing anything the model said.

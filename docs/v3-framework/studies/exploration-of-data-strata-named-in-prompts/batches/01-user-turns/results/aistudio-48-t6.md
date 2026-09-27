@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user briefly corrects the model's account of Chrysalis's worldview by stating that she did witness Pink Love at Acornage, but among changelings who had chosen to live as ponies.

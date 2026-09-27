@@ -1,0 +1,5 @@
+- questions:
+  - What specific legal or financial countermeasures must EEEE! and Star Energy put in place so Gilded Trust's surviving corporate faction cannot lobby the new Equestrian Republic back into a Skyfall-style extraction economy, as Taft-Hartley and Bretton Woods eroded labor in real history? | no user turn | none | none
+  - How will Applejack pierce the rugged-individualist, indoctrinated workers' epistemological bias in Las Pegasus, to show that their independence is really corporate serfdom, when she exports Harmonic Capitalism there? | no user turn | none | none
+- shape: none
+- settles:

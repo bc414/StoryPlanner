@@ -1,0 +1,4 @@
+- questions:
+  - Does the Matrice/Appliqué linguistic split accurately capture Fleur Bloom's role in translating Equestrian magical theory into Aquileian/Griffonian industrial practice? | ignored | Says nothing about whether the split fits Fleur Bloom's role. It moves to a separate question about the English word for appliqué in fashion. | none
+- shape: Redirects to a side question. It asks a vocabulary question about whether English has an equivalent of the fashion term appliqué, and it leaves the model's proposal and its closing question unaddressed. It neither accepts nor rejects the proposed terms.
+- settles:

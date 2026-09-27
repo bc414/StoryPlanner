@@ -1,0 +1,5 @@
+- questions:
+  - How does Trimmel, who joined for the 986 meritocracy pitch, justify continuing to serve the Heer when Vaspier executes a competent Bauleiter for doubting pony inferiority: following orders, or quietly looking for the system to collapse? | ignored | The user turn does not mention Trimmel, Vaspier's executions or how Trimmel copes. It asks about real-world American figures. | none
+  - How does Vaspier, who believes the Supremacy Doctrine, read Chrysalis's pragmatic realpolitik (truces, non-Changeling mercenaries)? Does he come to class the Queen herself as a failing Poseur? | ignored | The user turn does not touch Vaspier's view of Chrysalis or her pragmatism. It moves to a question about MAGA. | none
+- shape: The user turn drops the model's story questions and moves to a real-world comparison. It asks who the equivalents of the described figures and dynamics (cynical leader, true-believer enforcer, pragmatist old guard) are in the American MAGA movement. This is a new question about analogy. It gives no answer, correction or instruction on the story.
+- settles:

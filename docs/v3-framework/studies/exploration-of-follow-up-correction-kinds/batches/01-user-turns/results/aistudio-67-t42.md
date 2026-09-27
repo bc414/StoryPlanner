@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model placed New Mareland's settlement in the 854–914 period as the seas cleared under Grover III, but canon dates its founding to 649 ALB, when sea monsters were still a danger. | EaW canon says New Mareland was founded in 649 ALB | Stated flatly as a canon citation, then turned into a question about whether early ocean crossing makes sense, with the user building a revised three-phase history on it.
+- about: The user corrects the model's dating of New Mareland's founding by citing canon, then uses the earlier date to rework New Mareland's history, Equestrian awareness of the wider world, and the refugee-blocking logic into a three-phase arc.

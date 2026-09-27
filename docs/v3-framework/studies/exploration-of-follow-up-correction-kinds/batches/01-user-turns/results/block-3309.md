@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the human-turns-first reading approach, proposes their own change (blank block summaries that they fill in as directives or notes to self), and asks the model to develop that direction.

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's options put a self-discovery or establishing landing beat at the top of Chapter 6, but the user's plan has Chapter 6 opening with Fluttershy already working with animals and no discovery, with Henri arriving already aware of her expertise and calling the POWs rabid animals | "I imagined chapter 6 opening with Fluttershy already in action helping animals, not self discovery" | mild and indirect: stated as what the user had in mind, without saying the model was wrong, and followed straight away by a question asking for a comparison
+- about: The user sets out their own intended Chapter 6 opening, with Fluttershy already in action and Henri arriving already knowing her role, and asks the model to compare it with the discovery-at-the-start option it proposed.

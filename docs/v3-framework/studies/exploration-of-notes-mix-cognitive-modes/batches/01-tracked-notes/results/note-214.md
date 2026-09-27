@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | Grover VI's appearance is placed in the epilogue, where the reader meets him having become a history professor | In the epilogue, he becomes a history professor | yes
+- goals:
+- whole: The note slots one appearance of Grover VI into the reading order, the epilogue, and says where he ends up: a history professor.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the psychological breakdown to a new worldbuilding question about what surname Minette would take once free and where it would come from, without disputing anything in the model's turn.

@@ -1,0 +1,8 @@
+- sources:
+  - Iteration 3 System Architect Prompt | treat as the good base to be refined into Iteration 4; keep it and add style changes to it | looks like a massive leap forward in the right direction | referred-to
+  - my story bible / world bible / lore bible (copy-pasted artifacts within it) | examine as evidence of the style artifacts that pasted model output leaves behind, and to find any artifacts beyond the two named | You can see evidence of copy and pasted artifacts within my story bible | referred-to
+  - manual notes (the author's own notes in the bible) | use as the comparison baseline against the pasted model text to spot style artifacts | Compare those to manual notes | referred-to
+  - Gemini consumer app system instructions | treat as the author's stated background belief about what shapes the consumer product, offered as a premise for the model to weigh against how AI Studio behaves | I know that the Gemini consumer app has system instructions to suit that product | referred-to
+  - the model's own training (how Gemini is trained) and any default system instruction in AI Studio with a blank field | draw on the model's own knowledge to judge whether the artifacts are inherent to training or come from an overridable instruction, and whether style constraints would hurt reasoning | rightfully be fundamental to the way Gemini is trained, or is it? | referred-to
+- order:
+- about: The user asks for an Iteration 4 of the system prompt that removes second-person address and the repetitive 'statement, bullets, The X: text' format so output can be pasted into the lore bible, and asks the model to analyze what other style artifacts exist and whether such style constraints are safe or would degrade the model's reasoning.

@@ -1,0 +1,3 @@
+- questions:
+- shape: The user puts no answer to anything. They ask a new, broader follow-up: how to actually use the API. That is a request for a practical walkthrough of the approach the model just described. It is not a response to a question, since the model asked none.
+- settles:

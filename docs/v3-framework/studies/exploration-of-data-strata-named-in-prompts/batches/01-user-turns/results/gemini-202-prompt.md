@@ -1,0 +1,5 @@
+- sources:
+  - the model's previous analysis of Trimmel's fit in SECEF (Trimmel and Twilight as kindred minds, Rainbow hating him) | mostly rejected as not convincing; only the point that Rainbow hates him is agreed with | I don't really buy this. I agree that Rainbow hates him | referred-to
+  - the author's own view of the characters (AJ and Trimmel as real friends; Twilight caring about friendship and sharing magic, making weapon spell matrices only because they had to come before consumer ones) | treat as the correct basis for the characters, replacing the model's reading, and work from the pairings of Starlight or Pinkie Pie | I really see AJ and Trimmel as real friends | referred-to
+- order:
+- about: The author pushes back on the model's proposal that Trimmel bonds with Twilight, restating their own view of the characters and asking instead about Starlight or Pinkie Pie.

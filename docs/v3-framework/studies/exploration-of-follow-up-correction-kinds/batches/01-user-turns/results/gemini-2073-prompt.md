@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates their overall aim (creative control plus understanding and inspiration), asks the model to confirm that the low-creativity settings suit that aim, and asks for further ideas beyond the settings.

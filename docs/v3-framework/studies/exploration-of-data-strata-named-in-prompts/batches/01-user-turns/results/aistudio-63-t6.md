@@ -1,0 +1,6 @@
+- sources:
+  - EaW bio of the Griffonian Empire general (Anicetus Mudbeak) | pasted in as the base character material for the figure Blueblood hires; the adaptation starts from it and changes parts of it | Here is the EaW bio of the Griffonian Empire general I want Blueblood to hire | first-named
+  - TLTT adaptation | the author's own story that Mudbeak's bio is being reworked to fit, with the changes proposed as the author's current thinking rather than settled | So I'm thinking the TLTT adaptation is that | referred-to
+  - his role in The Princess and the Kaiser | an existing version of Mudbeak that the new version is set against and deliberately reverses | This is a massive subversion of Mudbeak's role in The Princess and the Kaiser | first-named
+- order:
+- about: The user pastes the EaW biography of the Griffonian general Anicetus Mudbeak and sketches how to adapt him for TLTT as Blueblood's hired tutor, contrasting the result with his role in The Princess and the Kaiser.

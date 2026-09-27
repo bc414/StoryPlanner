@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model lined Chrysalis up with the Sengoku warriors and their social mobility, and with Tokugawa only by inversion. The user wanted the pre-unification Sengoku period as the model for the hive wars, so the unifiers (Nobunaga, Hideyoshi, Tokugawa) should map to Chrysalis and not to the system she destroyed. | "That makes them map to Chrysalis, NOT the hive wars system that she destroyed. I was curious about how the Sengoku period was before them" | Stated flatly as a tag question ("right?") with the reasoning given, then moved on to other models
+- about: The user fixes the model's mapping of the Sengoku unifiers onto the story's factions, then sets Sengoku aside as a mobility model and asks about other caste systems, how common gekokujō was, how queens rise, whether collectors are failed jaegers, and what the plan says about shapeshifting.

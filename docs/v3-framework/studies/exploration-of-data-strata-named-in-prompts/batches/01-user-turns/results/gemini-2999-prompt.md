@@ -1,0 +1,4 @@
+- sources:
+  - these exact concepts, themes, truths vs lies and accelerants (the ideas developed earlier in this conversation) | carry over and use as the framework to map onto software engineering after LLMs | how do these exact concepts, themes, truths vs lies and accelerants apply | referred-to
+- order:
+- about: The user asks the model to carry the conversation's themes of truth versus lies and accelerants over to software engineering in the LLM era, covering code generation versus architecture and first principles, and the claims of coding boot camps and CS programs versus reality.

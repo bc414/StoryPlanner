@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | Grover III's system is modeled on the real-world Enlightenment, the Age of Reason, marked by science and centralized statecraft | Grover III = Enlightenment. The "Age of Reason." Science, centralized statecraft | yes
+  - History | In-universe, Grover III's era ended the monsters, removing the external threat | and the end of monsters. He solved the external threat | no
+  - History | In-universe consequence: his solution left an internal vacuum | but created the internal vacuum | no
+- goals:
+- whole: The note names the Enlightenment as the real-world model for Grover III's system and sketches, in-universe terms, how ending monsters left an internal vacuum.

@@ -1,0 +1,6 @@
+- claims:
+  - PageDesign | When a drone uses a translator, a prisoner's "My name is Cinnamon Roll" comes out in Simplified Herzlander as "I am a Cinamon-Bread-Roll", shown as the on-page output | translator spits out in Simplified Herzlander "I am a Cinamon-Bread-Roll" | no
+  - PageDesign | The drone hears the line as an object naming its function, and the moment sounds absurd and pathetic as it plays | The drone hears an object identifying its function. It sounds absurd and pathetic | no
+  - WorldInference | The mistranslated line is meant to be read as confirming Chrysalis's propaganda that ponies are soft, edible and defined by their utility to others | It confirms Chrysalis's propaganda: Ponies are soft, edible, and defined by their utility to others | no
+- goals:
+- whole: The note stages one example of the Simplified Herzlander translator garbling a pony's name into an edible object, and shows how that garbling reinforces the drone's propaganda-driven view of ponies.

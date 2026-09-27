@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects and deepens the backstory of Gilded Lily and Silver Sterling as resentful, disinherited younger siblings who fled the rat race and so recognized Chrysalis's ambition, and draws the causal conclusion that Chrysalis's new order and the comprador economy trace back to the lie of rugged individualism.

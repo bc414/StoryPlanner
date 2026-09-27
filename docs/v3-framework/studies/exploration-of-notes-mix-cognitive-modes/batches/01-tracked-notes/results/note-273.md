@@ -1,0 +1,11 @@
+- claims:
+  - History | No one considered sidelining Celestia or making her step down until the white peace moment | Nopony ever considered sidelining Celestia or making her step down until the white peace moment | no
+  - History | Applejack proposed her own plan to pursue the Bluebell River spearhead, respectfully, and never scorned Celestia for preferring to rescue the ponies in Canterlot | Applejack respectfully came up with her own plan to pursue the Bluebell River spearhead, but never scorned Celestia | no
+  - Characterization | Disagreeing with Celestia hurts Applejack deeply and she agonizes over whether she chose rightly while preparing for Maredin | The decision to disagree with Celestia hurts Applejack a lot and she spends a lot of time wondering | no
+  - History | During the war Celestia left whoever was in charge to do as they wished, including Applejack | Celestia kind of just let whoever was in charge do whatever they want | no
+  - Characterization | Celestia defers to Applejack because she will not take the lead herself | She lets Applejack do whatever because she won't do it herself | no
+  - History | Celestia's only wartime rule was no conscription, and Applejack agreed because volunteers were sufficient | The only thing she says is "no conscription allowed" and Applejack is in agreement | no
+  - NotesToSelf | The author explains the no-conscription choice as avoiding and subverting the grimdark conscription trope | because I don't want to repeat the grimdark conscription trope, I want to subvert it | no
+  - History | Once Equestria is secured, Celestia abruptly reasserts herself and reimposes the stagnation of harmony | once Equestria is secured, Celestia suddenly stands up again to reimpose the stagnation of harmony | no
+- goals:
+- whole: The note lays out the war-era relationship between Celestia and Applejack and Celestia's later return to power, as events and character psychology with a brief author aside on avoiding the conscription trope, and it says nothing about how the reader is to experience it.

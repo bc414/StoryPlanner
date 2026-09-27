@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes that the difference between enemy poseurs and redeemable poseurs is the key distinction, and asks the model to suggest better names for those two classes.

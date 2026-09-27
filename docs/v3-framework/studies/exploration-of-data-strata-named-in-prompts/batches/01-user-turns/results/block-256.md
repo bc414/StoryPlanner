@@ -1,0 +1,6 @@
+- sources:
+  - the author's own world rules (no seasons, fixed sun and moon, permanent snow pattern in Cloudbury, no risk for Equestrian workers) | treat as settled fact that corrects the model's winter and risk framing | There are no seasons in my world | first-named
+  - Winter Wrap Up and Equestrian seasons | cited as the show basis for why the survival-harmony tradition is dominant in the world | Winter Wrap Up and Equestrian seasons is why they are dominant | referred-to
+  - the model's earlier proposal that SAA validates the Rik and buys industrial equipment from the GR | accept as sensible and build on it, but limit it: Skyfall still takes only gold or Marks and Aquileia would ignore the early GR | It makes sense that SAA is the fiat currency validator | referred-to
+- order:
+- about: The user corrects the model's assumptions about winters and risk with their own world rules, accepts the SAA fiat-validator and industrial-purchase idea, and limits how Skyfall and Aquileia would respond to the Rik.

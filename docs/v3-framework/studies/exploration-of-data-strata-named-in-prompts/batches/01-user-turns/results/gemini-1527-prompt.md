@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes two new story details, that Discret spitefully blocked anyone from buying and refurbishing Vérany's factory so it still sits rotting seven years later, and that Vérany's generic clothes are now out of style because of FJA clothing, without pointing at any body of material.

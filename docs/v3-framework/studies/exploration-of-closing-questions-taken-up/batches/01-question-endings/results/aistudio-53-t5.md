@@ -1,0 +1,5 @@
+- questions:
+  - How do the Aquileian agronomists explain the high yields of Les Méridiennes before the reveal: a flawed scientific theory they invent, or forged agricultural data from the Statthalters that passes inspection? | no user turn | none | none
+  - When the Lionesses find that Changeling Emotion Sense let a predator fake the Grace needed to make the Tableau de Chasse ink glow, how does that breach change the political power of the Parloirs in Manehattan and Pridea? | no user turn | none | none
+- shape: none
+- settles:

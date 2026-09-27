@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | the fantasy technology Panzer Haut is modeled on real-world opioids | Equivalent to opioids | yes
+- goals:
+- whole: The note names opioids as the real-world analogue for the technology Panzer Haut.

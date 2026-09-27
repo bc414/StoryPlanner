@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's contrast between hidden and visible compute limits and moves on to new questions about ChatGPT's usage limits and transparency, OpenAI's losses and IPO, and where its business strategy differs from Claude and Gemini, without disputing anything the model said.

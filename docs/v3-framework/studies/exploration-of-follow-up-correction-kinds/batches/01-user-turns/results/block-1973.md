@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the naming and subject-structure discussion to supply new allegory material (Celestia and calculators, search engines, LLMs and poseurs versus asset specificity) and asks the model to sort it into notes and place them.

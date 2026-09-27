@@ -1,0 +1,4 @@
+- sources:
+  - the next chapter | the material to be analyzed for how perspective works in it, with battle and non-battle passages assessed separately | Please analyze the perspective mechanics in the next chapter | first-named
+- order:
+- about: The user asks the model to analyze perspective mechanics in the next chapter, expecting Max to take focus among others, and to report battle scenes and non-battle scenes separately because their patterns seem to differ.

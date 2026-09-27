@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's first Socratic question by grounding risk-taking in pride and asset specificity, adds the origin of the name Tall Tale, and directs that the wartime command-economy vote draw on Kemerskai's 986 martial law declaration, revealed later.

@@ -1,0 +1,7 @@
+- claims:
+  - History | Silverstream returns home in 1006 ALB because Mount Aris is being attacked by the Storm King | Silverstream goes home because Mount Aris is under attack from the Storm King (1006 ALB) | yes
+  - History | Rainbow, out of loyalty, leaves the school to learn to fly a plane along with the other Wonderbolts | Out of loyalty, Rainbow leaves the school to learn how to fly a plane with the rest of the Wonderbolts | yes
+  - History | Rainbow says they must act and persuades the Wonderbolts to re-militarize as in the past, now flying griffon biplanes | Rainbow says they have to do something and convinces the Wonderbolts to militarize like the past, but with griffon biplanes | yes
+  - History | As ace fliers the Wonderbolts can manipulate air currents, which is enough to counter airships | since they are ace fliers they can manipulate air currents and it's sufficient against airships | yes
+- goals:
+- whole: The note reports, as in-universe history, the 1006 chain of events in which the Storm King's attack leads Rainbow to bring the Wonderbolts back to a militarized, biplane-flying footing able to counter airships.

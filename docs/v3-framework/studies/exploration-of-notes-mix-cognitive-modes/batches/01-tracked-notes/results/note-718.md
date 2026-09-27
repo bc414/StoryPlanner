@@ -1,0 +1,4 @@
+- claims:
+  - History | Fluttershy's in-world nickname for the jaeger geist technology is "The Earmuffs" | Fluttershy calls jaeger geist "The Earmuffs" | no
+- goals:
+- whole: The note records, as a plain fact of the story world, that Fluttershy nicknames the jaeger geist technology "The Earmuffs", without saying how the reader is to experience it.

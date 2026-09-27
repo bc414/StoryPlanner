@@ -1,0 +1,7 @@
+- claims:
+  - History | Herzland's elites raced to conquer the world and build the first massive factories, in Grover IV's so-called Gilded Age | In their race to conquer the world and build the first massive factories (Grover IV's "Gilded Age") | yes
+  - History | The elites enclosed the farms and forced the peasants into smoggy cities | enclosed the farms, forced the peasants into the smoggy cities | yes
+  - History | The skilled Mother Processes were replaced by mass-produced food, which the account calls slop | replaced their deeply skilled "Mother Processes" with mass-produced slop | yes
+  - ThematicEvidence | Industrial conquest cost Herzland its soul, a moral verdict that trades soul for steel | They sacrificed their soul for steel | no
+- goals:
+- whole: The note reports, in a historian's voice with a moralizing close, how pre-revolution Herzland industrialized by enclosing farms, urbanizing peasants and displacing traditional food-making with mass production.

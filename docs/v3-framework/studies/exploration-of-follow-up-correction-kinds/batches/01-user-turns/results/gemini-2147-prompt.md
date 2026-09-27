@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the story analysis entirely and asks an unrelated hardware question about an unidentified connector with a USB-C other end, correcting nothing in the model's reply.

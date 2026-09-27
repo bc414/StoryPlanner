@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author proposes a story arc in which Flowing Current's hostility toward Dr. Caballeron turns, at their chapter 12 meeting, into recognition that they share parallel backstories, and asks whether that works, without pointing the model at any body of material.

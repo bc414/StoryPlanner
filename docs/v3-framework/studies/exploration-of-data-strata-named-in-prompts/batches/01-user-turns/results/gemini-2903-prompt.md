@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a change to their story's stamp magic system, in which each stamp also verifies the whole tableau de chasse and checks all earlier stamps while a new one is made, and asks the model for the pros and cons, without pointing at any body of source material.

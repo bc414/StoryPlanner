@@ -1,0 +1,6 @@
+- questions:
+  - How would Griffonian veterans like Kemerskai and Astler psychologically process being saved by ponies who still bake morale cakes and wear sparkly uniforms in the trenches? | ignored | none | none
+  - How does Twilight's declaration of the Element of Conscience to Celestia in Chapter 26 work as her graduation out of the Toy Box while still honoring the magic she found in it? | ignored | none | none
+- shape: Redirects away from the model's questions and its Toy Box / Faust framing. The user opens a new research request about the real world: how many people had bad childhoods, by generation, since WW2. It asks how much of the resulting cynicism comes from rising income inequality, what other factors contribute, and how different audiences would receive the story compared with mainstream grimdark such as The Princess and the Kaiser, ASOIAF and Squid Game. It's a request for analysis, not an answer to the model's questions.
+- settles:
+  - The story's allegories are drawn from the period since WW2, which is why the user wants the trace to start there | Trace everything since WW2 as those are where my story's allegories come from

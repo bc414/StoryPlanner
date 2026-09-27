@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Wonderbolt and Mount Aris discussion as a prompt to generalise. They say it settles their earlier worry that foreign influences distract from Equestria, and they add their own meta-narrative reading of the Mane 6 as kid-friendly versions of adult themes, with Faust's personalities as the good foreign influence on Hasbro's stagnation.

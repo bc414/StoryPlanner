@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's description of Olenia by stating how the conquest went: a fast surrender, Bauleiters in full administrative control, Statthalters limited to torturing the resistance, and a straight blitzkrieg with no secret operation.

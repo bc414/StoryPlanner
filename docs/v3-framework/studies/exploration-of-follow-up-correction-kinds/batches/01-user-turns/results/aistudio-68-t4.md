@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user recalls the Fluttershy scene where Celestia's lack of organic pink love is exposed, then proposes a hypothetical in which her dreamscape peer relationships with thestral parlour operators changed that, and asks what follows, which builds on the model's endgame discussion without disputing it.

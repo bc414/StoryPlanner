@@ -1,0 +1,5 @@
+- claims:
+  - ThematicEvidence | elder dragons are poseurs whose intimidating look misrepresents what they are, an appearance-versus-reality gap that can serve as evidence for the theme | poseurs who look intimidating | yes
+  - History | as a fact of dragon biology, elder dragons are tactically big targets and cannot melt armor | tactically big targets who can't melt armor | no
+- goals:
+- whole: The note states in one flat sentence that elder dragons are frightening in appearance but weak in practice, a world fact that doubles as an appearance-versus-reality example without naming any proposition or reader response.

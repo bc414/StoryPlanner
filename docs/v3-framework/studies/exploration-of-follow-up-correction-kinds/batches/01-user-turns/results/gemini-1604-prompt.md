@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only an attached plan export (about 154,000 words) with no written text, so it adds material and says nothing about the model's analysis of Trimmel.

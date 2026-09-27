@@ -1,0 +1,7 @@
+- claims:
+  - NotesToSelf | Records the author's design history: Star Energy was originally added only to give Applejack hope and a reason to defy Luna's retreat order, since it was a tank factory | Originally, Star Energy was only added to give Applejack hope and a reason to defy Luna's retreat order | yes
+  - History | Reports that Comet Shine bought Aquileian anti-tank guns and learned to convert his factories into military factories | Comet Shine bought Aquileian anti-tank guns and learned how to convert his factories to military factories | no
+  - NotesToSelf | Author remarks that an earlier statement of theirs is the proto-concept of Harmonic Capitalism, tracing where the idea came from in the planning | The proto-concept of "Harmonic Captialism" is when I said | yes
+  - History | Reports that Comet Shine sells tractors that ease harvesting without replacing earth pony magic, only making the grunt work easier | Comet Shine sells tractors to enhance harvesting, but it doesn't replace the earth pony magic | no
+- goals:
+- whole: The note recounts the author's design history for Comet Shine's Star Energy factory and the origin of Harmonic Capitalism, alongside a couple of in-world facts about his arms purchases and tractor sales, without stating any reader effect.

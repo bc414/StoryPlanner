@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets a new analytical task, asking the model to find and analyze every callback and parallel to the canon show in the two Ponyville chapters, without commenting on the previous answer.

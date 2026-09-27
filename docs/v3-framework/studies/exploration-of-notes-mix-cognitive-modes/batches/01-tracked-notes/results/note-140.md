@@ -1,0 +1,7 @@
+- claims:
+  - WorldInference | the reader is taken to already believe the Apples and Pears had an ancient family feud, the prior belief to be clashed against | The reader holds the prior belief that the Apples and the Pears had an ancient family feud | no
+  - PageDesign | the two families appear together on the page at Bright Mac and Pear Butter's mansion | Seeing them together at Bright Mac and Pear Butter's mansion | no
+  - WorldInference | the sight is meant to lead the reader to infer that the families somehow resolved the feud, only as a seed and not a full explanation | should plant a seed that the they managed to somehow resolve the family feud | no
+- goals:
+  - the reader begins to suspect the Apples and Pears somehow resolved their feud | WorldInference | should plant a seed that the they managed to somehow resolve the family feud
+- whole: The note sets the reader's belief in an ancient Apple-Pear feud against the sight of both families together at the mansion, so that the reader starts to infer the feud was somehow resolved.

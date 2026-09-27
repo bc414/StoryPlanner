@@ -1,0 +1,4 @@
+- questions:
+  - How will chapter pacing be balanced: significant page time in the trenches showing the physical toll, or the camera staying mostly in war rooms, parlors and factories where strategy is decided? | ignored | Says nothing about pacing or where the camera sits. Moves on to ask about existing MLP fanfics resembling the lore about Coltbert's games. | What about existing MLP fanfics that are like my lore about Coltbert's games?
+- shape: Redirects to a new topic. It drops the model's pacing question and asks for existing MLP fanfics comparable to one part of the lore, Coltbert's games. It is a request for outside information about the fanfic landscape.
+- settles:

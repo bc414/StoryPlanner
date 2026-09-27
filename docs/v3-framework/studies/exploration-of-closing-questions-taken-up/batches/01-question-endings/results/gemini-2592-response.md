@@ -1,0 +1,4 @@
+- questions:
+  - Does framing the Lionesses' street tactics as fear-adrenaline as the trigger and dominance-dopamine (Red Love/Ambition) as the reward sound like the mechanism wanted for their magic? | ignored | Says nothing about the adrenaline-as-trigger and dopamine-as-ambition split; it moves on to new questions about sex differences, predator versus herbivore biology, and the Chasseurs. | none
+- shape: Redirects to new questions. It sets aside the model's proposed mechanism and asks the model to extend the adrenaline and oxytocin analysis to three things: male versus female biology, lion-eagle predator hybrids versus herbivore ponies, and whether Chasseur pairs share the combat high and crash. It is a request for further analysis and gives no answer or instruction.
+- settles:

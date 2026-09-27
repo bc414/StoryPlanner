@@ -1,0 +1,5 @@
+- claims:
+  - History | Chrysalis read Coltbert's paper and through it learned that the 2nd Gen Royalists in Pridea are developing spell matrix technology | Chrysalis read Coltbert's paper and learned about spell matrix technology being developed by the 2nd Gen Royalists in Pridea | yes
+  - History | Chrysalis decided to make a spell matrix for the changeling draining spell, which would let her break the Predator's Dilemma | She decides she wants to make a spell matrix for the changeling draining spell which will allow her to break the Predator's Dilemma | yes
+- goals:
+- whole: The note reports, as an in-universe historical event in 981, how Chrysalis learned of spell matrix technology from Coltbert's paper and resolved to build one for the changeling draining spell to escape the Predator's Dilemma.

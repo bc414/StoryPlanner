@@ -1,0 +1,5 @@
+- sources:
+  - what I wrote (the author's own future prose) | the material the model would review for third person limited adherence; the author judges the result and no AI prose is pasted in | use AI to review what I wrote to check for third person limited adherence | first-named
+  - the feeling target in my head, described by the author | the author's own description of what a word should achieve is the standard the model's word suggestions serve, with the author judging each one | I can describe what I want the word to achieve (it's already in my head what the feeling target is) | first-named
+- order:
+- about: The user rejects generating AI prose and then editing it, says that once they write they would use AI only to check third person limited and to suggest words for a feeling they describe, and asks for an analysis of whether other people work this way.

@@ -1,0 +1,5 @@
+- sources:
+  - my Chrysalis enhancement conversation | consult it to confirm the author's recollection that Chrysalis's mother set up a meritocracy among her heirs; the author holds this as believed, not verified | If you look into my Chrysalis enhancement conversation, I believe I established | referred-to
+  - latest data (the planner, with the author's corrections) | re-read the current planner state, which now includes the author's edits, and base the analysis on it rather than the earlier pull | I made a bunch of corrections. Please pull latest data and analyze | referred-to
+- order:
+- about: The author explains and revises the reasoning behind several systems' axis assignments, admits uncertainty on others, points the model to an earlier conversation for backing, and asks it to pull the corrected planner data and analyze again.

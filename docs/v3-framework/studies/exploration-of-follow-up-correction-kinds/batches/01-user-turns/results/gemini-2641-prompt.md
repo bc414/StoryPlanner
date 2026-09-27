@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to go through the whole TwiJack story plan and work out when each character would want to be the big or the little spoon, which extends the previous analysis without saying anything in it was wrong.

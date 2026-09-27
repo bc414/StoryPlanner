@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to analyze how the Chasseurs' trauma-bonded neurochemistry affects them when discharged and reintegrating into civilian Aquileian society? | answered | Accepts the offer with a bare agreement. | Sure
+- shape: A minimal one-word acceptance of the model's offered next topic, letting the model proceed with the reintegration analysis. It gives no new content or direction.
+- settles:

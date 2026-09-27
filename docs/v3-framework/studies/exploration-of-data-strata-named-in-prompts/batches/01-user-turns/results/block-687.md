@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes adding an objective, zero-focalization note track to plot point link entities in their story planner and asks for several candidate names and tooltip texts to guide correct use of the field, without pointing the model at any body of material.

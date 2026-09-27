@@ -1,0 +1,4 @@
+- sources:
+  - my definition of stratified (the author's own definition, stated in the turn) | treat as the authoritative meaning of stratified, replacing the model's reading of it; stratified means being denied material conditions | My definition of stratified is about being denied material conditions | first-named
+- order:
+- about: The user corrects the model's definition of stratified to mean denial of material conditions, accepts the ternary Unconditional/Meritocratic/Stratified axis, and asks the model to say whether any other axes should be ternary and why or why not.

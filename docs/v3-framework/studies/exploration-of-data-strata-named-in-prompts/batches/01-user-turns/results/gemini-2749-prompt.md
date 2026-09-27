@@ -1,0 +1,5 @@
+- sources:
+  - the story elements that I listed | the baseline set already covered; the model is to find elements missing from it, not repeat it | story elements that I listed, that I missed | referred-to
+  - these 4 phases (the model's earlier explanation of how the listed elements fit) | the existing framework; add missing elements to it and extend it with further phases only if they are distinct | fit into these 4 phases, any other distinct phases | referred-to
+- order:
+- about: The user asks the model to build on its four-phase story-planning breakdown by naming story or planning elements missing from the user's list that belong in those phases, and any further distinct phases.

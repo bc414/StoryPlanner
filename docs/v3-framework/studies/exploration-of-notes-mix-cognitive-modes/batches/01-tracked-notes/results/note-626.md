@@ -1,0 +1,5 @@
+- claims:
+  - ThematicEvidence | Allying with Twilight only swaps top-down tyranny for top-down charity, offering the character's option as an instance of power staying concentrated | Working with Twilight just replaces top down tyranny with top down charity | yes
+  - ThematicEvidence | The charity-from-above approach fails, which counts toward the proposition that distributed, bottom-up power is structurally superior | This approach fails | yes
+- goals:
+- whole: The note gives, as thematic evidence against Great Mare Theory, the point that Tempest's turning to Twilight's charity merely swaps tyranny for benevolent top-down rule, and that this fails.

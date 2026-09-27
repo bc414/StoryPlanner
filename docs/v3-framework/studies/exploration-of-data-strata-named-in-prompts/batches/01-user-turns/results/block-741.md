@@ -1,0 +1,4 @@
+- sources:
+  - The old story planner | treat as a precedent for window-opening behavior (double click replaced the window, middle click accumulated windows); its accumulation habit and its unclear dumping-ground text fields are things the new two-view window may make unnecessary, so not to be copied by default | The old story planner had double click close current window and open new one. Middle click accumulated. | referred-to
+- order:
+- about: The user corrects the model's proposed navigation design by rejecting link preloading and the history stack in favor of a link-side navigation button that moves the link to the left and shows the target on the right, and asks about click gestures for opening accumulated windows, drawing on how the old story planner handled that.

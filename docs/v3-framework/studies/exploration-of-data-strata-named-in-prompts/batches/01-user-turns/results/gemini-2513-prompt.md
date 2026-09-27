@@ -1,0 +1,6 @@
+- sources:
+  - my existing plans | build on it and avoid repeating what it already covers; treat it as the baseline the new material extends | build upon my existing plans | referred-to
+  - Faust's mane 6 | the reference for the traits to draw examples from, including how Hasbro degraded them and how adult versions can be shown | other examples of traits from Faust's mane 6 | referred-to
+  - canon | look here for traits not yet in the plan that would help; use only traits that really exist and do not invent any | Look for traits from canon that I have not yet integrated | referred-to
+- order:
+- about: The user asks the model to propose further parallels by finding real canon traits of Faust's mane 6 that their existing story plan does not yet use, covering how the Hasbro mandate degraded them and how adult versions could be shown.

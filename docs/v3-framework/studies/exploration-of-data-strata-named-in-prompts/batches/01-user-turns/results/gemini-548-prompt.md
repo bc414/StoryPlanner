@@ -1,0 +1,5 @@
+- sources:
+  - high school modern history teaching (the author's own schooling) | the author's recollection, offered as a premise: drugs were not covered and only honor and discipline were taught; taken as the author's experience, not something to verify | We did not learn about the drugs in high school; In high school we are only taught about honor and discipline | first-named
+  - college level history courses about the Axis powers | a body of teaching the model is asked to say whether it covers drug use as a driver of fanaticism; a question to answer, not material to treat as settled | Is this covered in college level history courses about the Axis powers | first-named
+- order:
+- about: The author steps outside the worldbuilding to ask, from their own schooling, whether the role of stimulant drugs among Axis soldiers and workers is taught in college courses and was well documented, rather than only nationalism and racism.

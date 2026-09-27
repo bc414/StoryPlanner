@@ -1,0 +1,6 @@
+- claims:
+  - History | In 1007 Celestia was irritated by the situation | Celestia is miffed | yes
+  - History | Celestia permitted the use of the friendship shields and let Cadance's secret technology development go unchallenged | allows using the friendship shields and let Cadance's hidden tech development slide | yes
+  - History | Her permission had the effect of sanitizing the war and keeping up the appearance of harmony, which is why she allowed it | as it sanitizes the war and preserves the appearance of harmony | yes
+- goals:
+- whole: The note reports, as an in-universe historical event of 1007, that Celestia grudgingly tolerated the friendship shields and Cadance's covert tech work in order to keep the war looking harmonious.

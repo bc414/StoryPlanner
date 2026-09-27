@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Applejack's arc runs in order: first she steps up to leadership so as not to be a poseur, then she learns from Kemerskai that honesty is not enough | Her story arc is about stepping up to leadership to not be a poseur, and then learning from Kemerskai | yes
+  - ThematicEvidence | The lesson the arc lands on: an effective statesmare who changes the world for good needs a healthy amount of posture balanced with honesty | honesty is not enough; a healthy amount of posture is required for a balance to be an effective statesmare | no
+- goals:
+- whole: The note outlines Applejack's two-stage arc, from stepping up to lead without posing to learning from Kemerskai that honesty needs a balancing measure of posture, and states the lesson that arc lands on.

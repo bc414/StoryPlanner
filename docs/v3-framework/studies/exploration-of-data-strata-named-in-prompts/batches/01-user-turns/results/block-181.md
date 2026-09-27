@@ -1,0 +1,7 @@
+- sources:
+  - the model's training data / general knowledge | do not use it to fill gaps or make assumptions about the stories | Don't assume stuff from your training data | referred-to
+  - the user's own descriptions of the Chrysalis prequel, TLTT and Minette's story, given in this message | take as the stated basis for the answer, while acknowledging it may not be enough for precision | Chrysalis's prequel story is grimdark | first-named
+  - additional context the user could supply | where there is a logical gap, name what is missing and ask the user for it instead of guessing | point out what additional context you need from me | first-named
+  - the user's original plan for reading order (TLTT, then Minette, then Chrysalis) | the user's starting choice and reasoning; treat as one option to weigh against the alternative, not as settled | I originally planned the latter | referred-to
+- order:
+- about: The user describes the tone and background of three planned stories and asks for the implications of two reading orders, telling the model to rely on what is given here rather than its training data and to name any missing context it would need.

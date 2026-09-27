@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the Minette, Reni and Aquileia lore outlines, reflects that Minette's story needs the same revelation structure for its prior history that TLTT has, and asks for a full tone-and-theme comparison of Minette, TLTT and Chrysalis as the three pillar stories, without disputing the earlier ordering analysis.

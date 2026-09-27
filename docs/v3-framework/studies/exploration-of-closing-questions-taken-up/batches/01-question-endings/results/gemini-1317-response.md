@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a short demonstration paragraph of the baton-pass technique, to see the sentence-level mechanics? | ignored | The user asks for more examples of the technique instead. It does not accept or decline the offered demonstration paragraph. | Give a few more examples
+- shape: A short instruction that redirects the conversation. The user passes over the offered demonstration and asks for more published examples of fluid head-switching. It is a request for more information and makes no story decision.
+- settles:

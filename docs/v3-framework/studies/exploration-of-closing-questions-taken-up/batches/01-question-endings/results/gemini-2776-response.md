@@ -1,0 +1,7 @@
+- questions:
+  - When Applejack and Henri formalize their command arrangement, does Luna push back, either stepping aside gracefully or doubling down out of royal hubris? | ignored | Nothing about Luna's reaction or the Applejack–Henri arrangement; the turn moves to a different beat in chapter 9. | none
+- shape: Redirects to a new story idea of its own. It proposes a chapter 9 beat that recasts the machine gun as compensation for believed powerlessness, and leaves the model's question about Luna unaddressed.
+- settles:
+  - In chapter 9, in the relaxing scene after the Town Hall, Applejack says the machine gun made her feel useful because she thought she had no magic | in chapter 9 during relaxing after the Town Hall, Applejack says the machine gun made her feel useful
+  - Earlier, Applejack hid behind Twilight's shield when her honest logic meant nothing to warlords, and this is set against the machine-gun feeling | Contrasted to hiding behind Twilight's shield when her honest logic meant nothing to warlords
+  - By the end of the Town Hall, the characters have learned that Applejack has powerful magic | After the Town Hall they've learned that she does have powerful magic

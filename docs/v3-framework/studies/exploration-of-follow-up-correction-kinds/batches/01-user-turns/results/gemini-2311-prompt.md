@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up chemistry question, wanting to know how fossil-fuel hydrocarbons differ and how a spell matrix could improve combustion with only a small magical premise, and does not say the previous answer was wrong.

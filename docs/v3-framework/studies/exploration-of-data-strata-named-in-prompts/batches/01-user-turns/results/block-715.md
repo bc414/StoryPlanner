@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's proposal, saying that the non-authorial-framework enums describing a property of a connection should themselves be defined through configuration and data entry, and not only have their values configured.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to generate the opening scene for Chapter 1 now? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, whether any earnest non-cynical movement exists in the American Right, or anywhere outside Bernie Sanders, and whether the independent Senate bids of Osborn and McMullin fit that category, extending the analysis without disputing it.

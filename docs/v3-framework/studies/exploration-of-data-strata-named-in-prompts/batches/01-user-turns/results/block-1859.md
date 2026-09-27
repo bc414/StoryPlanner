@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is revising the earlier answer by proposing that the Story Planner's track order change with the mode, with canon and analogy tracks first in Expansion Mode and last in Linking Mode, instead of one fixed layout.

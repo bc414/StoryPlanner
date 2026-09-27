@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model set the Versailles-style court in Discret's Pridea/Aquileian kingdom, with Discret as the Sun King figure. The user places the central Versailles equivalent in Griffenheim, the imperial seat. | I'm actually thinking Griffenheim is the central Versailles equivalent | Stated plainly as their own intention, marked with 'actually' and put in passing while asking a follow-up
+  - reading of the plan | The model's picture of Discret as an unchallenged king over Griffon lords left out that Aquileia is an imperial vassal under Kaiser Grover IV, who is decadent and hedonistic in the lore. The user is bringing that layer back in. | How would the detail about Aquileia bring a vassal of the empire and Kaiser Grover fit in? | Put as a question about fit, with the lore detail supplied as a reminder, not as an accusation
+- about: The user asks how the imperial layer (Discret as vassal king under Kaiser Grover, with Griffenheim as the Versailles analogue) should be structured, and floats Discret using the bourgeoisie to break free and then subjugate the Aquileian lords.

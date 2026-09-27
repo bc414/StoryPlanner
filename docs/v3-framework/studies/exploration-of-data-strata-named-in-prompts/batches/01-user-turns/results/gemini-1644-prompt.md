@@ -1,0 +1,4 @@
+- sources:
+  - Codex entry labeled "Applejack's Parents" | offered as the author's own story-plan content on the parents' fate (industrialists running a canning export company), to be used in place of the missing backstory; treated as the author's setting | "I had a Codex entry labeled "Applejack's Parents" they became industrialists running a canning export company" | first-named
+- order:
+- about: The user supplies from their own Codex the missing backstory of Applejack's parents (that they became canning-export industrialists), filling the gap the model said it couldn't analyze.

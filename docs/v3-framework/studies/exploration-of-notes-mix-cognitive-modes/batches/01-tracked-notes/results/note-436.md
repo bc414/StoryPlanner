@@ -1,0 +1,7 @@
+- claims:
+  - WorldInference | the reader is to come to know that alicorns are not immortal | Readers learn that alicorns aren't immortal | no
+  - History | Celestia picked ponies whose special talent is love to ascend, so as to help with family planning | Celestia chose ponies with love as their special talent to ascend in order to help with family planning | no
+  - History | ascension gives a power boost and a horn, so that Celestia can teach the ascended pony the conception spell | It's a power boost and gives them a horn so Celestia can teach them the conception spell | no
+- goals:
+  - the reader learns that alicorns are not immortal | WorldInference | Readers learn that alicorns aren't immortal
+- whole: The note sets a reader revelation that alicorns are mortal and then reports, as world fact, why Celestia ascended love-talent ponies (family planning, a power boost, a horn and the conception spell), without saying how the reader's opinion of Cadance shifts.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the model's reading of Fizzlepop's motives, corrects several details (her magical artillery, Applejack's naivety, who heard which insults, Celestia's isolationism and lack of allies), and asks whether Applejack should join Twilight at the parley.

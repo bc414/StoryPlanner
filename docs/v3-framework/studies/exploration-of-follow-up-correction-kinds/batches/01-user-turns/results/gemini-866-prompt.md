@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about why the show's tone shifted, so they can use that insight to subvert it in their story, without disputing anything in the model's synthesis.

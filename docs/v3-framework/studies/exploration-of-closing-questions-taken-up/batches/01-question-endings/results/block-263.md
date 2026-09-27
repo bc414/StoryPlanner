@@ -1,0 +1,5 @@
+- questions:
+  - How does the Skyfall Trade Federation react after the war to EEEE! jailbreaking its machinery: do they send mercenaries to reassert IP on Equestrian soil, forcing Applejack's Republic into a trade war? | ignored | The user turn goes to the word 'jailbreak' and its history and never speaks to Skyfall's post-war reaction. | none
+  - How does the Mayor's worldview shift once EEEE! runs the factories successfully: does he resign in obsolescence or adapt and help manage the new civic bureaucracy? | ignored | Nothing about the Mayor or his fate is taken up. | none
+- shape: The user turn sets aside both Socratic questions and redirects to a terminology check. It asks where 'jailbreak' comes from, whether the term predates iPhones, and whether modern readers will hear it the way the story uses it. It also asks how jailbreaking relates to right to repair, what pre-iPhone industrial parallels exist, and what Equestrian-flavored term could stand in for it, as 'Hearth's Warming Bonds' does for war bonds. These are research and naming questions about a term the model used, not decisions.
+- settles:

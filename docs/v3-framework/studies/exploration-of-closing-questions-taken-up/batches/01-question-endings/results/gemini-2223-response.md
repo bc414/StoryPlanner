@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore the algorithmic differences that let DeepSeek train so cheaply? | ignored | The user does not choose it and asks a different question about whether Google and OpenAI have used Chinese innovations. | none
+  - Does the user want to look deeper into how U.S. export controls shaped the efficient Chinese ecosystem? | ignored | The user does not take it up and turns to whether Google and OpenAI have adopted Chinese innovations. | none
+- shape: Redirects with a new follow-up question of its own. It asks whether Google and OpenAI have used Chinese innovations, which is loosely related to the overview but is neither of the two offered options. It does not sit on the story.
+- settles:

@@ -1,0 +1,10 @@
+- questions:
+  - How does Rockfeller get around the Friendship Treaty in the following decade to point guns at the Buffalo and drill anyway? Does he exploit loopholes, or wait for the Mane 6 to leave and bring in Skyfall mercenaries? | refused | Says the question's premise is wrong. Celestia did not send the Mane 6, so there is no treaty. Rockfeller's oil fields and guns came before Appleloosa, not after. | Celestia did not send the Mane 6 to go to Appleloosa; the oil fields and Rockfeller's guns happened before Appleloosa
+  - How do the Buffalo reconcile allying with Equestria, given that Celestia legally abandoned them to Rockfeller's mercenaries for eleven years? | ignored | Never says how the Buffalo reconcile the alliance. It only agrees that Celestia would not ignore the Buffalo, which contradicts the abandonment premise. | I do agree that Celestia wouldn't ignore the buffalo
+- shape: The user corrects the model's account of canon and of the story's timeline, keeping the model's broader idea of Celestia's failed soft-power response. It then hands the work back with a new question: what would her platitudes be?
+- settles:
+  - The Mane 6 went to Appleloosa only because Applejack was donating an apple tree, not because Celestia sent them. | Celestia did not send the Mane 6 to go to Appleloosa
+  - The Buffalo and the Appleloosans become friends as in the canon episode. | become friends just as shown in the canon episode
+  - Rockfeller's oil fields and guns predate the Appleloosa events, and they explain why the Buffalo wanted to stampede the town. | happened before Appleloosa and explains why the buffalo wanted to destroy
+  - Appleloosa is an unarmed earth pony town with no guns. | there are no guns in Appleloosa
+  - Celestia answers Rockfeller and the Buffalo crisis with HR-style pacification and soft power, and it fails. | Celestia wouldn't ignore the buffalo but instead attempt HR-style pacification

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a comprehensive system prompt to paste into Antigravity to lock it into strict developmental editing mode? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to check whether their Google account has the NotebookLM Plus features enabled? | answered | Skips the check by reporting the account status themselves: a Pro label shows in the top right, which points to a Pro subscription. | I have "PRO" in the top right
+- shape: Gives a short fact about their own account, which stands in for the offered check, then redirects to a new factual question about how to tell which Gemini model NotebookLM uses. It concerns tooling, not the story.
+- settles:

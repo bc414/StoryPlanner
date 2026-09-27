@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states worldbuilding premises about the frost generation's literacy in Herzlander and the lack of written native changeling, and asks the model to reason about how this shapes their perception of equestrian books with culture, without pointing at any body of material.

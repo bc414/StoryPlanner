@@ -1,0 +1,13 @@
+- questions:
+  - How does Vaspier, as a 2nd-generation fanatic, handle evidence from Camp Fluttershy that Changeling POWs live peacefully with ponies? Does he suppress it, or use it as proof the POWs were corrupted by bio-weapons? | ignored | Says nothing about Camp Fluttershy or how Vaspier would treat evidence that contradicts his worldview. | none
+  - Does Trimmel's growing friction with Vaspier, who executes frontline Jaeger officers for impurity, push him toward surrendering to Applejack? | ignored | Does not mention Trimmel's surrender or his friction with Vaspier. Trimmel appears only as the head of the level 1 Jaeger infiltrators. | none
+- shape: Sets aside the model's two closing questions. The user takes up the model's faction framework and uses it to sort out their own open canon: who the commissars are, how Vaspier rises, what the VOPS levels mean, who the infiltrators are, and what Ahuizotl's background points to. The user mostly proposes and then asks the model to confirm, with several tentatively phrased checks (a question mark on the commissars and on Ahuizotl). It is a sorting-out of the story's factions, not an answer to the model.
+- settles:
+  - Chrysalis empowers Vaspier to purge Thorax and his board game unions, and this is how Vaspier becomes The Great Imperial Noling. | I can see Chrysalis empowering Vaspier to weed out Thorax
+  - Infiltrators are a general device and can come from any of the three factions: Jaegers, VOPS or Bauleiters. | infiltrators can be from any of the three factions
+  - The winter revolution's VOPS level 1 is Trimmel's Jaeger infiltrators. | level 1, with Trimmel, is the jaeger infiltrators
+  - VOPS level 2 is Changeling supremacist zealots who want to subjugate the Severyanan ponies and build love-harvesting gulags. They are cold, efficient extractors, not hedonists. | level 2 would be VOPS (changeling supremacists
+  - Statthalters are confined to the slave islands, and new ones are recruited from kindergarten bullies. | Statthalters are really contained to the slave islands
+  - Faction roles: VOPS are the ideological commissars, Bauleiters run the industrial economy, and Jaegers run the regular army. | VOPS are the ideological commissars. Bauleiters are the industrial economy
+  - The commissars at the third battle of Tall Tale who snipe so the drones can surrender are proposed to be VOPS agents, not Statthalters. This is put as a question for confirmation. | not Statthalters but VOPS agents?
+  - Ahuizotl, a former financier, is proposed as a Bauleiter infiltrator, not VOPS, because his storyline concerns the Skyfall and Tzinacatl economy. This is put as a question for confirmation. | it's Bauleiter infiltrators since it's about the Skyfall and Tzinacatl economy

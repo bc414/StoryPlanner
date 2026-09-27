@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author pushes back on the proposed prisoner numbers and timeline, restating from their own intent that Camp Fluttershy should start small and personal, grow through Pagala's steady trickle, and that the 3rd Tall Tale battle, the 4th and the Eastern Front collapse are whole army-group surrenders while the 2nd is a Western-Front-style parlay and the honored ultimatum is minor.

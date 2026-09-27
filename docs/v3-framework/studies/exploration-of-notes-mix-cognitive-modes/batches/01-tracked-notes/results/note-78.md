@@ -1,0 +1,7 @@
+- claims:
+  - Canon | TLTT is a fork of The Princess and the Kaiser, diverging where Luna gives the Tall Tale retreat order and Applejack refuses rather than agrees | TLTT is a "fork" of The Princess and the Kaiser where when Luna gives the Tall Tale retreat order, Applejack refuses instead of agreeing | yes
+  - Canon | In P&K, Applejack became a collaborator once the war was hopeless | In P&K, she became a collaborator after the war was hopeless | yes
+  - Canon | In P&K she ran a huge apple farm worked by pony slave labor, to protect her family from further harm after the war was lost | She ran a huge apple farm of pony slave labor in order to protect her family | yes
+  - Canon | The P&K collaborator outcome is recontextualized as the nightmare Applejack has in chapters 1 and 2 of TLTT | That is the nightmare Applejack has in chapters 1 and 2 | yes
+- goals:
+- whole: The note explains how TLTT branches from The Princess and the Kaiser at Applejack's refusal of the retreat order, and how her P&K collaborator fate is reused as the nightmare in the opening chapters.

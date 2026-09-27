@@ -1,0 +1,4 @@
+- questions:
+  - Does Trixie explicitly use her stage illusions during the Manehattan Referendum to expose the tycoons, for example projecting their hoarded Skyfall Marks into the sky in a public debate? | ignored | The user turn does not mention Trixie, the referendum or the projection idea. It asks a new question about Bitcoin. | none
+- shape: Redirects to a new topic. It drops the Trixie and Manehattan thread and asks for Bitcoin social commentary in the narrative, what Bitcoin represents in the materialist framework, and a review of Bitcoin's history from inception to today.
+- settles:

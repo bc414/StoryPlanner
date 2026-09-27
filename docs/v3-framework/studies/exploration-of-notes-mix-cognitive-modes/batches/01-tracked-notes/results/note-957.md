@@ -1,0 +1,7 @@
+- claims:
+  - History | Dennis Discret requested that the University of Pridea increase magical weapons research to fight Chrysalis in proxy wars | Dennis Discret asks the University of Pridea for more magical weapons research | yes
+  - Characterization | Fleur has magical inventions but is a pacifist who doesn't believe in violence | Fleur has magical inventions but doesn't believe in violence | no
+  - Characterization | Henri is developing into a tactical genius but lacks understanding of magic | Henri is shaping up to be a tactical genius but doesn't understand magic | no
+  - NarrativeArchitecture | The two must collaborate for the crusade to succeed, setting up the pairing's dependence and tension for the story | They have to work together for the crusade to succeed | no
+- goals:
+- whole: The note reports the 1006 request that sets Henri and Fleur's paths together, mixing that historical event with character traits and a forward-looking statement of their required partnership.

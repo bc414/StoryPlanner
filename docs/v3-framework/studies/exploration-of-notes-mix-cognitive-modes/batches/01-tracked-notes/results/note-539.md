@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Luna feels she has no place to speak; her sense of standing is diminished | Luna feels she has no place to speak | yes
+  - Characterization | Luna is the one who was corrupted by her Ambition a thousand years ago, and this past defines how she sees herself | She is the one who was corrupted by her Ambition 1000 years ago | yes
+  - Characterization | Despite disagreeing, Luna believes Celestia is right, because of her own trauma and lived experience | As much as she disagrees, she believes Celestia is right due to her own trauma and lived experience | yes
+- goals:
+- whole: The note asserts Luna's starting psychological state: silenced by guilt over her past corruption, she defers to Celestia against her own judgment because of trauma.

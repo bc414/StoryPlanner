@@ -1,0 +1,6 @@
+- claims:
+  - History | Empress Mi Amore, a unicorn, found a natural crystal in the mountains and refined it with spells so it collected ambient friendship and projected a physical shield | Empress Mi Amore was a unicorn who found a naturally occuring crystal ... used some spells to refine | yes
+  - History | She shaped the refined crystal into a heart, the Crystal Heart | She shaped it into a heart - the Crystal Heart | yes
+  - History | Mi Amore established the Crystal Faire tradition | Mi Amore established the Crystal Faire tradition | yes
+- goals:
+- whole: The note reports, as in-universe history, how Empress Mi Amore created the Crystal Heart from a refined crystal and founded the Crystal Faire tradition.

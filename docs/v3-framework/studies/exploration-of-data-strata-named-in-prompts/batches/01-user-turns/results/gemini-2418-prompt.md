@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user answers the model's question about the Changeling counter-doctrine by saying Chrysalis would organize swarms and ban lone-ace flying, but that this fails because the Wonderbolts already fly in formation, having learned fraternity over ace flying from the Griffonian Republic air force at Mount Aris.

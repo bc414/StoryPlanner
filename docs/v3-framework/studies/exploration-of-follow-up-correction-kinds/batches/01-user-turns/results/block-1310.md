@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user confirms the model's pattern reading and supplies their own account of why they wrote the Scootaloo plan: to avoid the grimdark abusive-parent trope, to give the Wonderbolts a Watsonian reason for being jerks, and to give Scootaloo's flightlessness a materialist cause and fix, drawing the parallel to TLTT.

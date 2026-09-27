@@ -1,0 +1,4 @@
+- sources:
+  - the Yalta conference | treated as the possible historical source for Blueblood's allegory figure or figures; the user asks whether the figures come from it, so it is a candidate to draw on and not a settled choice | From the Yalta conference? | referred-to
+- order:
+- about: The user corrects the model's picture of Canterlot's population, saying it includes ordinary ponies and not only elites and giving a figure of about 12 million evacuated from the north, and asks which allegory figure or figures stand behind Blueblood, checking whether they come from the Yalta conference.

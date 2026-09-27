@@ -1,0 +1,6 @@
+- questions:
+  - How does the EEEE! Machinists Guild treat captured Changeling war machines, and do they see Chrysalis's closed-loop, tamper-proof engineering as the ultimate tyranny? | ignored | Nothing said about the guild, Changeling machines or tyranny; the user moves to real-world comparisons. | none
+  - How does Twilight use her magic to jailbreak those machines so the Equestrian working class can own and maintain them? | ignored | Not touched; no mention of Twilight or the machines. | none
+  - How does the Aquileians' discovery that Tall Tale's ponies share trade secrets, refuse patents and help competitors break their belief that progress needs cutthroat competition? | ignored | Nothing on Fleur Bloom, Henri or Aquileian assumptions; the user asks about real-world cases instead. | none
+- shape: Sets aside the model's follow-up questions and redirects to real-world research. The user asks for comparisons of Polish apple farmers, Wakefern (ShopRite's parent) and Florida Natural with their mainstream counterparts, plus other relevant examples the user may not know. It reads as testing the model's cooperative-versus-conventional-capitalism argument against real cases, not as answering the questions about the story.
+- settles:

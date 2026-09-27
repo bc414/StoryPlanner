@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's analysis assumed the dam was blown pre-emptively as a worst-case gamble with the conventional war still open, but in the story the Equestrian army had already lost on day 1, so the circumstances of the decision were misjudged (including that they had not yet lost the conventional war) | Review again / The circumstances / The Equestrian army lost on day 1 | Terse directive to redo the analysis, with the missed fact stated flatly and without explanation or apology
+- about: The user tells the model to redo its assessment of the dam-destruction decision in light of the established circumstances, chiefly that the Equestrian army was defeated on day 1.

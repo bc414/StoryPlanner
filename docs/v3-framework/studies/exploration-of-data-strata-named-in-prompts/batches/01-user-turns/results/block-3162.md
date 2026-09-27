@@ -1,0 +1,7 @@
+- sources:
+  - v1 archive | search for further data on the question, to be used in addition to the plan | look into v1 archive | referred-to
+  - conversations | search for further data on the question, to be used in addition to the plan | and conversations for more potential data | referred-to
+  - working plan | already consulted; not to be the only source drawn on | not just the working plan | referred-to
+  - the Zap Apple explanation | accept as solving much of the puzzle, together with the mountain-edge point | the Zap Apple explanation I think solves a lot | referred-to
+- order:
+- about: The user pushes back on the paradox and on the earlier claim that the Everfree was impervious, accepts the Zap Apple explanation and the overgrown-castle idea, floats a Celestia ban near Canterlot and asks whether ponies knew of the castle, and asks for a reanalysis that also searches the v1 archive and past conversations beyond the working plan.

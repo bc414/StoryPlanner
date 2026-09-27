@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a tentative alternative allegorical mapping of their story's factions onto the Russia-Ukraine war, with Tall Tale as Ukraine on the military side and Manehattan as Poland, without pointing the model at any body of material to use or avoid.

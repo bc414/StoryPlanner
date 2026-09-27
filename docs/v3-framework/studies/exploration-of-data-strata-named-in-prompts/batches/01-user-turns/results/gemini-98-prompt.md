@@ -1,0 +1,4 @@
+- sources:
+  - the loyalty chapter | part of the story plan whose proposed ending is being tested; the model is to judge the hypothetical ending against the chapter's arc and theme, treated as a provisional idea rather than settled | if the loyalty chapter ends with rd agreeing to join the Las pegasus excursion | referred-to
+- order:
+- about: The user proposes a possible ending for the loyalty chapter and asks the model whether it would resolve Rainbow Dash's arc and the chapter's theme.

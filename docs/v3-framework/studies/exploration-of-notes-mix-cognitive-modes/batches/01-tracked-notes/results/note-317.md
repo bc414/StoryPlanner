@@ -1,0 +1,8 @@
+- claims:
+  - NarrativeArchitecture | Readers come to learn that Twilight does not hold orders of magnitude more magic than other ponies | Readers learn that Twilight does not have orders of magnitude more magic | yes
+  - NarrativeArchitecture | Readers come to see that Twilight is not an infinite battery of love to be drained or donated, correcting that expectation | She isn't an infinite battery of love to be drained or donated | yes
+  - NarrativeArchitecture | The reader meets the world law through Fleur's assertion that a magic special talent gives a discount on casting all magic | Fleur asserts that because her special talent is magic, she gets a discount | yes
+- goals:
+  - The reader is to believe Twilight is not vastly more magically powerful than others and is not an infinite love battery | WorldInference | Readers learn that Twilight does not have orders of magnitude more magic
+  - The reader is to take in that a special talent in magic gives a discount on casting all magic | WorldInference | Fleur asserts that because her special talent is magic, she gets a discount
+- whole: This note plans how the reader's understanding of the Unicorn Magic law shifts, from expecting Twilight to be an overwhelming power source to learning her power is ordinary in scale, with Fleur's talent-discount claim as the rule they meet.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds new worldbuilding to the ongoing discussion, giving Aquileia and the Griffonian Republic contrasting climates and histories (a safe economy versus 30 years of war economy) and explaining how Applejack's experience of Equestrian stagnation, invasion and total mobilization lets her remove the cultural contempt from the Aquileian model.

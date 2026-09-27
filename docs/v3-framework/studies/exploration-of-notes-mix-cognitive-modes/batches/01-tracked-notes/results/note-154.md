@@ -1,0 +1,7 @@
+- claims:
+  - History | Pear Butter studies preserving because of her cutie mark, and this leads her and those with her to the Manehattan canning guild | Pear Butter studies preserving because of her cutie mark. This leads them to the canning guild in Manehattan | yes
+  - History | Before industrialization the Manehattan canning guild used heavy tin-plated steel cans sealed with lead-based solder | The Manehattan canning guild before industrialization was using heavy tin-plated steel cans and sealing them with lead-based solder | yes
+  - History | The guild's early exports were hard cider, apple sauce, fruit jams and pickled root vegetables | Early exports were hard cider, apple sauce, fruit jams, pickled root vegetables | yes
+  - History | The parents want to move to aluminum cans with pull tabs to relieve dangerous manual labor | The parents want to transition to lines of aluminum cans and pull tabs to alleviate the dangerous manual labor | yes
+- goals:
+- whole: The note reports, as in-universe historical fact, how Pear Butter's preserving interest led to the Manehattan canning guild, what the guild's pre-industrial canning and exports were, and the parents' wish to switch to aluminum cans to reduce dangerous labor.

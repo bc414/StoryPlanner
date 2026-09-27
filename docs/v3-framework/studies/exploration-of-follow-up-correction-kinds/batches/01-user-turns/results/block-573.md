@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's passing comparison of Minette to Actia Pagala and asks a new, open question about how Minette would feel about and react to Pagala's tales and whether she'd see a dark mirror, without disputing anything the model said.

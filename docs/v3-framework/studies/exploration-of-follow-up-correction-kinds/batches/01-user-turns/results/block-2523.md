@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a new piece of work, a retrospective comparing their past interactions with the fic's author to their current understanding, without saying anything is wrong in the model's preceding analysis.

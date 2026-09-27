@@ -1,0 +1,7 @@
+- claims:
+  - NotesToSelf | In the German localization the names stay German, so the German-named characters get their real German names, with Gabriella Eagleclaw becoming Gabriella Adlerklaue | names stay German. So the German names should be there real names, e.g. Gabriella Adlerklaue | no
+  - NarrativeArchitecture | In the French localization the German names are kept unchanged so that they set the German characters apart as foreign relative to the native French | German names are kept to emphasize how they are "the other" compared to the native French | no
+  - NotesToSelf | In the English localization the German surnames are translated literally into English, a naming rule for the localization work | German surnames are translated literally to English | no
+- goals:
+  - French readers perceive the German-named characters as foreign, as the other, compared to the native French | NarrativeArchitecture | to emphasize how they are "the other" compared to the native French
+- whole: The note sets out per-language localization rules for German-derived character names (kept German in German and French, literally translated in English), with the French choice meant to make the Germans read as foreign, and it names no real-world inspiration for the world law.

@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Fizzlepop's magical artillery gives her migraines from recoil, asserted as a fact about her physical condition and what she lives with | Fizzlepop's magical artillery gives her migraines from recoil | yes
+- goals:
+- whole: The note asserts as a flat truth about the character that her magical artillery causes her recoil migraines, a trait of who she is at the story's start.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the enum and database design behind, relates a character's story to their own upbringing and outlook, and asks a new thematic question about how modern media saturation connects to Celestia's stagnant harmony.

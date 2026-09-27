@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user introduces the last party, the MPA, with its makeup and its leader Rodier's aims, then asks whether it is a sham, what holds it together, who picks it over the FJA and PNdA, how those two parties deal with it, and how to explain their dominance.

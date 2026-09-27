@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a further design question, extending the fact-based codex model by asking whether a fact should be able to have one-way dependency relations to facts in other codex entries, without challenging anything the model said.

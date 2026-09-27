@@ -1,0 +1,4 @@
+- sources:
+  - EaW Stalliongrad flavor text, on the MCP server | consult it now, as a further check on the Stalliongrad canon the model already drew from | Check the EaW Stalliongrad flavor text that should be accessible to the MCP server too | first-named
+- order:
+- about: The user asks the model to check the EaW Stalliongrad flavor text, which they say should also be reachable through the MCP server, before it finishes its analysis of an earth-pony-only Severyana.

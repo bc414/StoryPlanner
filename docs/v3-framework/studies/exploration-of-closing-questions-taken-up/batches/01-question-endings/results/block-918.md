@@ -1,0 +1,5 @@
+- questions:
+  - Whether Applejack, as a two-term President in the Epilogue, reflects on Celestia's 930 ALB Stagnation of Harmony and concedes Celestia was right to want a world without war but that the only way was through industrialization | ignored | nothing; the user turn moves to a question about a real-world slogan and does not mention Applejack, Celestia or the Epilogue | none
+  - How Twilight, as head of the School of Magic and Economics, treats international students from former fascist states, and how she uses her weapons-building past to teach that Ambition must be chained to Civic Conscience | ignored | nothing; Twilight and the students are not mentioned | none
+- shape: Redirects away from the story. It drops the model's proposed epilogue questions and asks a new, mostly real-world question about the origin of the slogan 'when they go low, we go high'. It asks whether the slogan is only Michelle Obama's and how it connects to earlier discussion of cynicism, resilience, 2008-2026 figures and in-story parallels. It is a request for information and analysis, not an answer to the model's questions.
+- settles:

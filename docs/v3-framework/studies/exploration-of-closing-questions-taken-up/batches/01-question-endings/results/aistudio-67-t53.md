@@ -1,0 +1,5 @@
+- questions:
+  - How does Rainbow Dash reconcile her Element of Loyalty identity once she learns the Daring Do novels are sanitized, commodified frontier imperialism that the Canterlot elite used to pacify the working class? | ignored | Says nothing about Rainbow Dash, Daring Do or Loyalty; moves to a question about a historical allegory. | none
+  - How does Applejack structure her platform to convince the 85% agrarian majority that Harmonic Capitalism won't repeat the ecological and social destruction they banned in 930 ALB? | ignored | Does not touch Applejack's platform or the agrarian majority; asks about China as an allegory instead. | none
+- shape: Redirects to a new topic. The user skips the model's two questions and asks whether China (medieval-era advanced, then fell behind, opium and extractive industry imposed by Britain) would be a fitting allegory for the setting. They ask for a comparative analysis and insights. This is a request for analysis, not a decision. It does not say which part of the setting China would map onto.
+- settles:

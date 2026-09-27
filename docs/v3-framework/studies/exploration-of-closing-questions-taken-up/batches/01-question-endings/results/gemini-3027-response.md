@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn is only a new YouTube link with no comment. It appears to submit another video for the same kind of summary, and it moves on without reacting to the previous analysis or to the related-video pointer at the end of it.
+- settles:

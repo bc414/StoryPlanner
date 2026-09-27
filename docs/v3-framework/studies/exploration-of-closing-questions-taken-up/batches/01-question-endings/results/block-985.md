@@ -1,0 +1,5 @@
+- questions:
+  - How does Pinkie's Resilience change her dealings with the Changeling POWs at Camp Fluttershy, and how does her Trench Chaplain persona break down a recovering Jaeger's cynical defenses without turning into toxic positivity? | ignored | Says nothing to it; the user moves to a question about George RR Martin. | none
+  - How does Applejack use Resilience in debate to expose Gilded Trust's cynicism as cowardly surrender to the Predator's Dilemma rather than hard-nosed patriotism? | ignored | Says nothing to it; the user does not mention Applejack, Gilded Trust or the debate. | none
+- shape: The user drops the model's proposed lines of expansion and turns to a real-world question. Prompted by the grimdark/ASOIAF mention, they ask about Martin's generation and background and about who reads ASOIAF now. It is a request for information and a side track, and the user says they are a little confused about the model's framing.
+- settles:

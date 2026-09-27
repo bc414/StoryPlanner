@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about whether a unicorn needs a spell to draw power from a high-grade crystal into the crystal enhancer or whether it flows directly, and floats their own idea of a purity-and-stability verification spell, without pointing at any body of material.

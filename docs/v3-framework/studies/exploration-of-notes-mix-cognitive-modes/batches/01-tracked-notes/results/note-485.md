@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten: world-rule ontology | The Crystal Enhancer is a piece a unicorn wears around their horn | a piece that a unicorn wears around their horn | outside
+  - outside all ten: world-rule ontology | It is made of a composite metal and crystal material, like a rechargeable battery | made of a composite metal and crystal material like a rechargeable battery | outside
+  - outside all ten: world-rule ontology | It can only be manufactured by griffon artisans, whose machines cut with maximum smoothness when run by the griffon who built them | must be manufactured by griffon artisans whose machines have cutting edges with max smoothness | outside
+  - outside all ten: world-rule ontology | High grade power crystals can be attached to the enhancer | High grade power crystals can be attached | outside
+- goals:
+- whole: The note defines, as rules of the fictional world, what the Crystal Enhancer is, what it is made of, who must build it and what can be attached to it, and it names no reader effect.

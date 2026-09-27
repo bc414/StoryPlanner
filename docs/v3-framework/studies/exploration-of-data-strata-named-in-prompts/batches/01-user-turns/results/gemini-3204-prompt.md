@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about whether Claude Code is available as a desktop application rather than only a command-line tool, and asks for an explanation of the product's state as of April 2026, without pointing the model at any particular body of material.

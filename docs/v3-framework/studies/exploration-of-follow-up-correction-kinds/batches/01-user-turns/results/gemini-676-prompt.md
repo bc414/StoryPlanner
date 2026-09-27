@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model made the PNdA the source of nationalism and populism (Gilded Trust's Aquila lesson, the Ponies First rhetoric). The user assigns the PNdA rugged individualism and puts the nationalist rhetoric with the MPA, a party of former secret police and dispossessed nobles. | So Gilded Trust is a combination of the PNdA (rugged individualism) and the MPA (nationalist rhetoric) | Restated flatly as the user's own synthesis, in passing after opening agreement, with no explicit flag that it departs from the model's version. The correction shows in the party split and the extra detail on who votes for FJA, PNdA and MPA.
+- about: The user accepts the model's Las Pegasus framing and builds on it with a debate chapter and Aquileian party demographics, quietly reassigning nationalism from the PNdA to the MPA.

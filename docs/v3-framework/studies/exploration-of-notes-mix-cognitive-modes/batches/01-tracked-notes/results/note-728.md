@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: naming gloss | states the meaning of the technology's name, translating it as lightning essence | Means "lightning essence" | outside
+- goals:
+- whole: The note glosses the technology's name by translating it as "lightning essence", without describing what it does, how it works, or what it is made of.

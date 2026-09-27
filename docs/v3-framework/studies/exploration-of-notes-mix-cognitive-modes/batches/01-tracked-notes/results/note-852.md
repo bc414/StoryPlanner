@@ -1,0 +1,4 @@
+- claims:
+  - History | Chrysalis corrupted the Tzinacatl medicine, distilling it into two combat drug additives, jaeger geist and panzer haut, reported as a fact of the world | Chrysalis corrupted the medicine, distilling it into the combat drug additives jaeger geist and panzer haut | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that Chrysalis turned the Tzinacatl medicine into the combat drug additives jaeger geist and panzer haut.

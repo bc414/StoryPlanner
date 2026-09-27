@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of external spell matrices and accessibility and extends it, proposing that it explains why Fluttershy starts out ready while Applejack and Twilight have to learn from scratch, tracing this to Rarity's Aquileian roots and the Putting Your Hoof Down episode, and asks for an analysis.

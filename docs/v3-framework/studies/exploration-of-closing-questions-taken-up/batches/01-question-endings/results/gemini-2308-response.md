@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to map out how Applejack's Star Energy factories source materials such as copper wire for the traction motors under a wartime blockade, as another logistical hurdle for her | no user turn | none | none
+- shape: none
+- settles:

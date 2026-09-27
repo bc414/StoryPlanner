@@ -1,0 +1,5 @@
+- claims:
+  - History | The unicorns carry red love canisters that fuel their crystal enhancers, a standing fact of how their gear works | The unicorns carry red love canisters to fuel their crystal enhancers | no
+  - History | When a unicorn's canisters run out, it can drain magic from the dragon to get more power, a fact of how the world's magic works | if they run out, they can drain magic from the dragon for more power | no
+- goals:
+- whole: The note states the world's rule for unicorn crystal enhancers, canister fuel with a fallback of draining the dragon's magic, as plain fact, without staging anything on the page or saying what the reader is to take from it.

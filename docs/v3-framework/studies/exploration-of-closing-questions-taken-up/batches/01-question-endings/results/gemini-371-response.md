@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to see how the French party names would look on a revolutionary banner or cocarde? | ignored | Says nothing about the banner offer and instead asks what "pdna" stands for in Equestria at War. | none
+- shape: Redirects. It drops the French-translation thread and the banner offer and asks a separate factual question about an outside work (Equestria at War), apparently to check the party abbreviation against it.
+- settles:

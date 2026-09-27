@@ -1,0 +1,4 @@
+- sources:
+  - the real Jean Baptise Colbert's history under Louis XIV (the model's general historical knowledge) | treat as factual reference; the model is to report what the historical Colbert actually did, apparently to compare with the story's Coltbert | What did the real Jean Baptise Colbert do for King Louis XIV? | referred-to
+- order:
+- about: The user asks the model to set out what the historical Colbert actually did for Louis XIV, stepping outside the story's fictional version of him to check it against real history.

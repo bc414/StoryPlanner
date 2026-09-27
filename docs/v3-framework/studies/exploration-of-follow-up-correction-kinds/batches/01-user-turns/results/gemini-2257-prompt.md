@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's proposal of a protectionist import tariff as Celestia's main revenue and shield is treated as incompatible with what the story needs: tycoons building industrial empires and Aquileian parlors serving as an export market for the FJA | it seems like the tycoons would not be able to build industrial empires... and also the Aquileian parloirs as an export market for the FJA would be much harder | hedged pushback with the reasons given, framed as a narrative-fit problem, and followed by a tentative alternative (open borders) and a question
+- about: The user turn pushes back on the model's tariff-based economic model because it blocks the tycoon and FJA export plot, floats open borders through naivety as an alternative while doubting it, and asks how foreign-linked tycoons could operate in Equestria without alarming Celestia.

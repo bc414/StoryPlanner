@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the suggested import tariff because it would block the tycoons' industrial rise and the Aquileian export market, floats open borders through naivety, and asks how foreign-linked tycoons could operate in Equestria without alarming Celestia.

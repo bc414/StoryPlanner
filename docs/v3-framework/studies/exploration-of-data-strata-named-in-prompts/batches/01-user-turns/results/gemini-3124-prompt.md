@@ -1,0 +1,5 @@
+- sources:
+  - my notes from my Google doc (back in GIYC) | deleted as the prose was written, so no longer exists as a reference; the user blames this absence for losing track of what characters know versus what is true in the world | I would delete my notes from my Google doc as I wrote the prose | referred-to
+  - the extensive TLTT world Bible in my custom WPF story planner application | offered as a possible external reference for tracking the gap between what a character knows and the world truth; the user asks whether it would help, so it is a proposal and not a settled instruction | would having the extensive TLTT world Bible in my custom WPF story planner application help me | referred-to
+- order:
+- about: The user explains their earlier head-hopping as the result of deleting their notes while drafting, and asks whether keeping the TLTT world bible in their story planner would help them write in third-person limited.

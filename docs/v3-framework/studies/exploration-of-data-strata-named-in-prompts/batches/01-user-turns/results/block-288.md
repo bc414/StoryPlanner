@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects and refines the preceding account of the Flower Wars, Caballeron's finances, the Wonderbolt drug-for-valves trade with Kesseler, and Krystalfels' stance, stating these story facts directly without pointing at any body of material.

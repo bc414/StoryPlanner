@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user works through whether proprioceptive control should also underlie griffon armor and sword artisanship, weighing it against the purpose of griffon magic in war and against the rigidity of a sword, and asks how early planes were actuated to decide whether pneumatics are needed first.

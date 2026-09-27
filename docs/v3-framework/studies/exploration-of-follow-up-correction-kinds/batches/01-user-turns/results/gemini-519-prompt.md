@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The overview was framed as character development but mostly described Fleur's role as teacher, mentor and ideological figure; the user is asking whether she has her own arc of change like Henri, Twilight and Applejack | does she have any character development of her own, like Henri and Twilight and Applejack do? | implicit, put as a question after a concession that she teaches a lot, without saying the answer was off
+- about: The user asks a follow-up question that questions whether Fleur has a personal arc of her own, which implies the previous overview showed her mainly as a teacher and not as a changing character.

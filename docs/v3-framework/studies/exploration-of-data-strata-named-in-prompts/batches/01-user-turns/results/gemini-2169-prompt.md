@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | go back and re-read them as the authority, since the previous answer contradicted them on Luna's retreat order and on how the phosphorus works | Please review my story plans again | referred-to
+  - chapter 2 Organization, the Star Energy factory scene | treat as established plot for the Comet Shine reveal: Comet Shine sent Applejack to Fleur expecting the chemistry to be explained, but Fleur and Henri derailed it, so build the later scene on that | back in the Star Energy factory in chapter 2 Organization | first-named
+- order:
+- about: The user corrects the model's scene by pointing it back to their story plans (Luna's retreat as dreamscape torture, weathered phosphorus that stays put) and adds a planned reveal that draws on the chapter 2 factory scene, where Comet Shine assumed Fleur had already explained the chemistry to Applejack.

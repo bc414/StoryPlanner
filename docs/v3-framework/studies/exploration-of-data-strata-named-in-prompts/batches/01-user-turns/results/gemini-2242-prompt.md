@@ -1,0 +1,5 @@
+- sources:
+  - the raw document | one of two ways of giving the material to Gemini Chat; the user asks how it differs from the notebook route and sets no trust or priority on it | Gemini Chat using the raw document | referred-to
+  - the attached notebook which has the document | the other way of giving the same document to Gemini Chat; the user asks how it differs from the raw document and sets no trust or priority on it | the attacked notebook which as the document | referred-to
+- order:
+- about: The user asks how Gemini Chat working from a raw document differs from Gemini Chat working from a NotebookLM notebook holding that document, and adds that they will use Gemini only for planning, analysis, real-world parallels and literary techniques, not for generating story text.

@@ -1,0 +1,8 @@
+- questions:
+  - Does Pinkie use her knowledge of Equestrian social webs during the Great War to spot Changeling infiltrators before Fluttershy's intelligence agency does? | ignored | Says nothing about Changeling infiltrators or how Pinkie's tracking compares with Fluttershy's agency. | none
+  - Does Pinkie notice a pony heading to the spa at the wrong time and call an artillery strike because her tracking flagged an anomaly? | ignored | Doesn't take up the spa scenario or the artillery strike. It moves on to Pinkie's tone in chapter 5. | none
+- shape: Skips the model's closing questions and redirects to a summary of its own. The user states what they take from the analysis for Pinkie in TLTT chapter 5, Laughter, and phrases it as a conclusion for the model to confirm.
+- settles:
+  - In TLTT chapter 5, Laughter, Pinkie does not have to be a depressed husk. | I don't have to make Pinkie a depressed husk
+  - Pinkie's Hasbro toxic positivity is stripped out. | strip out the toxic positivity from Hasbro
+  - Pinkie keeps her Faustian emotional radar, meaning the perceptive social-tracking trait. | keep Faust's emotional radar

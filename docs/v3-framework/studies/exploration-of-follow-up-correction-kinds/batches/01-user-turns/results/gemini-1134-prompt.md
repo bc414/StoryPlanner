@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question comparing a NotebookLM notebook as a source against a plain Google Doc for Gemini prompts, without challenging anything the model said.

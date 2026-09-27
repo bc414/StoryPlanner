@@ -1,0 +1,4 @@
+- sources:
+  - first 5 chapters of a Pokemon story I wrote 4 years ago | the material to analyze for perspective usage; an older piece of the author's own writing, given as the text to examine | attaching the first 5 chapters of a Pokemon story I wrote 4 years ago | first-named
+- order:
+- about: The user thanks the model for the style feedback on the earlier story and attaches the first five chapters of an older Pokemon story, asking for an analysis of its perspective usage.

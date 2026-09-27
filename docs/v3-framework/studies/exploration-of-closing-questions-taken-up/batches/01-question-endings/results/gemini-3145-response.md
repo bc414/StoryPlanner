@@ -1,0 +1,4 @@
+- questions:
+  - How complex would it be to write a C# export function that generates wikilinked Markdown files automatically whenever a new database instance is saved in the story planner? | ignored | Says nothing about the export function or its difficulty. It moves to a new question about how Claude Code and Cowork divide work between local and cloud compute. | none
+- shape: Redirects to a new general question about the tools' design. It asks whether Claude Code and Cowork split their usefulness between local programs and cloud LLM compute, how much falls on each side, and asks for a thorough breakdown. It gives no answer to the model's question and is a request for explanation.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out their own five-step workflow, which batches brainstorming, categorizing, axes notes, a NotebookLM impact check and the story planner, and asks the model to analyze it, without saying the model's three-step version was wrong.

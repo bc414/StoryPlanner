@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves off the character taxonomy to new questions (what defines a chapter, whether the codex usage type is too general) and recounts the original thread-first purpose of the planner, asking how it relates to the refined data structures, without saying anything in the prior turn was wrong.

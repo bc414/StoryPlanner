@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | The ponies of the army joined voluntarily out of mutual care and a wish to defend one another, which is what binds the organization | Ponies volunteered for the army because they cared about each other and wanted to defend each other | yes
+- goals:
+- whole: The note asserts as fact the motive that binds the Equestrian Army's members together: they volunteered out of mutual care and a desire to defend each other.

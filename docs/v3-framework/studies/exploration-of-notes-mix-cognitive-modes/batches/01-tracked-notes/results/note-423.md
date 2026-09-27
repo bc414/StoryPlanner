@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | Plans that readers come to learn, as a reading-order update, that Scootaloo's poor flying comes from growing up malnourished in New Mareland | Readers learn that Scootaloo can't fly properly because she grew up malnourished in New Mareland | yes
+  - Canon | Notes that TLTT supplies a causal explanation for the established fact that Scootaloo can't fly, recontextualizing it | TLTT provides a causal reason | no
+- goals:
+  - Reader comes to understand and believe that Scootaloo's flight limitation has a real cause in childhood malnourishment in New Mareland | WorldInference | Readers learn that Scootaloo can't fly properly because she grew up malnourished
+- whole: The note plans a reader-opinion update in which readers learn that Scootaloo's flying problem stems from childhood malnourishment in New Mareland, and adds that TLTT supplies the causal reason for this.

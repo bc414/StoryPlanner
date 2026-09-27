@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks follow-up questions about how StarCraft 1 and Brood War's world was built, who its key figures were, how it shifted toward the corporate-mandate pattern, and whether Wings of Liberty was as earnest, while noting they came in through Wings of Liberty and have only read about the originals.

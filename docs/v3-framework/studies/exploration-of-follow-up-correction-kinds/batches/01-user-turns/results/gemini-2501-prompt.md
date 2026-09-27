@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking how Japanese anime's creator-driven, studio-labor and funding model compares to Western TV, and whether shonen like Pokemon is toy-driven like Hasbro and Disney, without disputing anything the model said.

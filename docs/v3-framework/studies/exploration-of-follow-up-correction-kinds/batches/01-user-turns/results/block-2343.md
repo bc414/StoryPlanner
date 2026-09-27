@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies where they got the term Stagnation of Harmony (the Equestria national spirit in the EaW mod) and asks a new question about that term's origin in the mod's development history, going further rather than disputing anything the model said.

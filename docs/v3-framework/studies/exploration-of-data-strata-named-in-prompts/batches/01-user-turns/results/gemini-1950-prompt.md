@@ -1,0 +1,6 @@
+- sources:
+  - this story (the Grover IV account the user lays out in this turn) | the material to be analyzed; the user's own telling of the next phase, taken as the given plot | Give an analysis on this story | first-named
+  - EaW lore | existing world lore that the analysis should connect the new story to | how it connects with EaW lore | referred-to
+  - my story plans | the author's existing plans that the analysis should connect the new story to | and my story plans | referred-to
+- order:
+- about: The user narrates the Grover IV phase (an indulged heir who reverses his father's bans on gunpowder and the Bessemer process, leading to exploitation, secession and the 978 Republican Revolution) and asks for an analysis tying it to EaW lore and their story plans.

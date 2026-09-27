@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn holds only an attached plan export with no written message, so it supplies material without saying anything about the model's scene analysis.

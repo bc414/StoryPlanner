@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack's administration stop Skyfall's Kessler monopoly on the 3-way crystal valves from becoming a hardware chokepoint that restores the extractive comprador-class dominance Chrysalis used? | ignored | Says nothing about the valves, the Kessler monopoly or Skyfall; asks for a different kind of comparison. | none
+  - How does the Republic legally and culturally stop ambitious Lions from emotionally strip-mining the Wallflowers, so that Pink Love and grace don't become a commodified utility? | ignored | Says nothing about Wallflowers, Lions or the protection of Pink Love; goes on to ask about non-fantasy comparisons. | none
+- shape: Drops the model's stress-tests and redirects. The user asks the model to widen its comparison of structural peers from epic fantasy to non-fantasy stories with a similar narrative setup. It is a short new request that leaves the previous analysis unengaged.
+- settles:

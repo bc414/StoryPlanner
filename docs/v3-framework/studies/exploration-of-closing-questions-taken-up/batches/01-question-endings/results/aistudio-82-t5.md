@@ -1,0 +1,9 @@
+- questions:
+  - Does Granny Smith knowingly lie to Applejack to shield her from the 15% ambitious ones' sins, or does she sincerely believe the Stagnation was a holy correction and so carry on the sanitization herself? | ignored | The turn never mentions Granny Smith or what she remembers or believes. It only says folklore is the sole belief in Equestria, which does not choose between the two options. | none
+  - When Twilight reads Coltbert's book on the plane and sees its thesis rests on a wrong timeline, how does she react, and does that give her the confidence to challenge Fleur Bloom? | ignored | The turn does not mention Twilight's reaction, the plane ride, Coltbert's book, or Fleur Bloom. | none
+- shape: The user turn corrects and narrows the model's proposal instead of answering its questions. The model had said the Canterlot Archives hold the raw physics of Earth Pony magic and that Twilight knows the math. The user says the Archives do not understand Earth Pony magic chemistry. The user then sets out where the real science lives and where it comes from. Both of the model's Socratic questions are passed over.
+- settles:
+  - The Canterlot Archives books do not contain an understanding of the chemistry of Earth Pony magic. | Canterlot Archives books still don't understand the chemistry of earth pony magic
+  - Folklore (loving the soil and each other) is the only belief held in Equestria. | The folklore (loving the soil and each other) is the only belief in Equestria
+  - The science of Earth Pony magic comes from the University of Pridea, after 981. | The science comes from the University of Pridea after 981
+  - That science can only be found underground, at the parloirs in Manehattan. | can only be found underground at the parloirs in Manehattan

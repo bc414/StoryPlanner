@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how the realization of messy, organic solidarity hits Applejack during her time in the trenches at Tall Tale, where it becomes the survival doctrine for her EEEE! union soldiers? | no user turn | none | none
+- shape: none
+- settles:

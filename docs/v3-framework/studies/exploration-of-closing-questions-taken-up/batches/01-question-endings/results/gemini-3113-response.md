@@ -1,0 +1,4 @@
+- questions:
+  - How is Twilight and Applejack's relationship tested by the Great War, when Applejack must make cold, brutal logistical decisions as a wartime leader, and how does Twilight, who spent her life unlearning tyrannical force, reconcile the general with the gentle farm pony she fell for? | ignored | The user turn drops the question and asks for an analysis of the unfinished draft of Sweet and Elite, a different work. | none
+- shape: Redirects to a different piece of work: it gives an instruction to analyze the unfinished draft of Sweet and Elite and leaves the TLTT outline question and the Twilight/Applejack analysis unaddressed.
+- settles:

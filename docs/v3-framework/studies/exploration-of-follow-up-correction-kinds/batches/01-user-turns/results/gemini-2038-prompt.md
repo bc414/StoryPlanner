@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to assess whether the internal mutual exclusivity rule it just added to the Phase 1 prompt is sound, without saying it is wrong.

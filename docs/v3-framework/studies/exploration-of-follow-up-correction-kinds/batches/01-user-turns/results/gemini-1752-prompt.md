@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user shares a revision to their own plan (rifle delivery by dream connection instead of transport-plane teleport over Canterlot) and asks a new follow-up about whether the transport-plane mass teleport can now be used for Vanhoover, without disputing anything the model said.

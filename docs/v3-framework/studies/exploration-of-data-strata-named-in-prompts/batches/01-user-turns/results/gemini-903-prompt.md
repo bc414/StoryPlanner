@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general craft question about how to decide, scene by scene, whether Applejack or Twilight should be the point-of-view character, without pointing at any body of material.

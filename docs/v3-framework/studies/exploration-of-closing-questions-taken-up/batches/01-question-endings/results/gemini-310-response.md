@@ -1,0 +1,5 @@
+- questions:
+  - Should the next scene be Twilight and Applejack pitching the Thestral Integration Plan to a skeptical Celestia? | no user turn | none | none
+  - Or should the next focus be Rainbow Dash's return from the war and how her PTSD shapes her support for the industrial military complex? | no user turn | none | none
+- shape: none
+- settles:

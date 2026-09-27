@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn gives a new instruction and doesn't answer anything. It says the subject types and tracks are a first-pass work in progress. It then sends the model on a fresh audit of the schema. The model is to find items that sit in one track but belong in another, and to find tracks that do too much and should be split. This moves the conversation from comparing the three types to critiquing and possibly restructuring the track definitions.
+- settles:

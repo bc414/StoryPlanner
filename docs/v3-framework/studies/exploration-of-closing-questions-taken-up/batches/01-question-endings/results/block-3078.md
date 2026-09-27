@@ -1,0 +1,4 @@
+- questions:
+  - Does the four-tier methodology definition accurately capture the user's approach, or does it need correction before the model moves to the triage? | partly answered | Doesn't confirm or correct any tier. Implies the definition is incomplete because it rests on too narrow a source base. Says the model must also search the v1 archive and the conversations, especially the paratext sections of the v1 archive, before going on. | "You need to also search for relevant notes in v1 archive and conversations"
+- shape: An instruction that corrects the scope of the model's research. The user neither confirms nor disputes the methodology as written. They tell the model to widen its evidence to the v1 archive, the conversations, and the paratext sections disguised as chapter 34, and by implication to hold the triage until then.
+- settles:

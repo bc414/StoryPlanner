@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - assumption about the user's background | The model turn's comparisons to Martin's focalization of Cersei, Jaime and Theon, and its framing of the user's choice as 'not Martin's mode', took for granted that the user knew A Song of Ice and Fire, which they have not read | I have not actually read A Song of Ice and Fire | stated flatly as a plain fact in passing, without blame, and turned at once into a request for the missing background
+- about: The user discloses that they have never read the series the model kept using as its reference point, and asks for a grounding in it, a comparison with their project, and the resulting point-of-view implications, staying open to changing their plan.

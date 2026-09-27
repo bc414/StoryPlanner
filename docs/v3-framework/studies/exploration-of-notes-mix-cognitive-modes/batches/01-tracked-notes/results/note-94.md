@@ -1,0 +1,3 @@
+- claims:
+- goals:
+- whole: The note is empty and does nothing: it says no fact about the character's past and names no reader goal.

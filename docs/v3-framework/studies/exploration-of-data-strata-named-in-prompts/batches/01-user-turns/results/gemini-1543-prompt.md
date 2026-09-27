@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to generate additional suggestions for both the currency names and the war bond names, without pointing at any body of material to draw on or avoid.

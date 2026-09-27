@@ -1,0 +1,5 @@
+- claims:
+  - Canon | The technology appears in the established EaW lore, where it is set many years earlier and treated as distant backdrop | Featured in EaW lore, but many years earlier and treated as a distant backdrop | yes
+  - Canon | The author recontextualizes the canon element by moving it up to recent, lived history within the story's frames, instead of distant backdrop | I am moving it up to recent, lived history within the story frames | yes
+- goals:
+- whole: The note records how the technology appears in EaW canon as distant backdrop and states the author's choice to recontextualize it as recent, lived history in the story.

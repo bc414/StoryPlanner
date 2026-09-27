@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten (world-rule ontology) | Donated pink love is visibly vibrant and rich in oxytocin and endorphins that can be used as medicine | Donated pink love is visibly vibrant and has a lot of oxytocin and endorphins that can be used for medicine | outside
+  - outside all ten (world-rule ontology) | What the donor gives is their friendship, and they give it consciously | The donor is consciously donating their friendship to others | outside
+  - outside all ten (world-rule ontology) | Extracted pink love is visibly dull and holds fewer active components | Extracted pink love is visibly dull and contains less of the active components | outside
+  - outside all ten (world-rule ontology) | The cause of the dullness is that the victim sees themselves as tortured by a predator, and that terror taints the pink love | because the victim perceives their situation as being tortured by a predator and that terror taints the pink love | outside
+- goals:
+- whole: The note sets out, as a fixed rule of the world, how pink love differs in look and potency depending on whether it is freely donated or forcibly extracted, and why.

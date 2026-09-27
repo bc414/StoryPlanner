@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want to explore the scene where Kemmerich grounds Rainbow Dash for breaking formation to chase a kill, leaving Spitfire exposed to a Changeling ambush? | ignored | The user does not take up the scene offer. They go on to a broader reflection on the story's foreign-influence theme and the meta-narrative. | none
+- shape: The user turn skips the offered scene and steps back to reflect on the whole work. It resolves an earlier worry that the foreign influences distract from Equestria, and it states an explicit meta-narrative premise that reframes the story's structure and themes. It is a thematic synthesis, not an answer to the model's question.
+- settles:
+  - The emphasis on foreign influences on Equestria is essential to the story, not a distraction from it. | this new premise... makes it all essential
+  - Within the story, the Mane 6 learn that their personalities and core values are kid-friendly versions of real adult-world themes, and they scale up to the adult versions to win the war. | learning within the story... scaled up to the adult versions
+  - The meta-narrative is made explicit: Lauren Faust's original personalities for the Mane 6 stand for the good foreign influences on the stagnant Hasbro corporate mandate. | exactly the good foreign influences on the stagnant Hasbro corporate mandate

@@ -1,0 +1,8 @@
+- sources:
+  - categorization decisions document | under consideration to leave out of the seed context for new sessions, because it risks overfitting; the model is asked to analyze what changes if it is included versus not | not using the categorization decisions as carryover seed context | referred-to
+  - note track definitions | keep as seed context for new sessions | sticking to just the note track definitions | referred-to
+  - subject list | keep as seed context for new sessions | subject list, and themes list | referred-to
+  - themes list | keep as seed context for new sessions | subject list, and themes list | referred-to
+  - this conversation's suggestions | only partly adopted; some taken, some ignored, so not to be treated as all settled | I took some and ignored some | referred-to
+- order:
+- about: The user is weighing whether to seed new sessions with the categorization decisions document on top of the note track definitions, subject list and themes list, and asks for an analysis of the fundamental difference, explaining that they want Claude as an inspiration accelerant rather than a doer of the creative work.

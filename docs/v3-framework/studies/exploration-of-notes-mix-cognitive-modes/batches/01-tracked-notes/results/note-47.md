@@ -1,0 +1,6 @@
+- claims:
+  - NarrativeArchitecture | Twilight comes to learn that magic is inherent to every creature and irreplaceable, a planned point in her change | She learns that magic is inherent to every creature, irreplaceable | yes
+  - NarrativeArchitecture | Her guilt over thinking she would make Applejack obsolete is absolved, placed as the condition that precedes her next change | Once her guilt about thinking she would make Applejack obsolete is absolved | yes
+  - NarrativeArchitecture | She realizes she doesn't have to be Celestia, and this yields a return to form, the arc's closing beat | she realizes she doesn't have to be Celestia, she has a "return to form" | yes
+- goals:
+- whole: The note sequences the beats of Twilight's arc, from the lesson about inherent magic through the absolving of her guilt to her realization that she needn't be Celestia and her return to form, without saying what the reader is to get from it.

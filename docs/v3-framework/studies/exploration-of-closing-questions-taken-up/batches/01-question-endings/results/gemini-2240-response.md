@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like help drafting a specific prompt for comparing their story versions using the NotebookLM integration? | ignored | The user turn does not respond to the offer; it corrects the model's reading of their earlier question and restates it. | none
+- shape: Corrects the model: says its answer addressed the wrong comparison (direct file attachment versus NotebookLM source) and restates the actual question, which is how attaching a NotebookLM notebook inside Gemini Chat compares with using the NotebookLM website directly. The closing offer goes untouched.
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a list of standalone prequel topics to be written after the main story, and says they doubt a Luna prequel is suitable because her nuclear spell is better left vague.

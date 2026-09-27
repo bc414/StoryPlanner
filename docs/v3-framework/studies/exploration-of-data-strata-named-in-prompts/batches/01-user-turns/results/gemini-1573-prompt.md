@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks an open factual question about which sports besides javelin throwing have origins in warfare, apparently to widen the choice of sport for the athlete-reservist character, without pointing the model at any particular body of material.

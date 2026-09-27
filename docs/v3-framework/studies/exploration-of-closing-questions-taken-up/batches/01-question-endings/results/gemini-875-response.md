@@ -1,0 +1,4 @@
+- questions:
+  - Would you like to explore how Applejack receives the letter and how it affects her negotiations with the Temberik or Mali? | no user turn | none | none
+- shape: none
+- settles:

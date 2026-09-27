@@ -1,0 +1,6 @@
+- questions:
+  - How does Scootaloo interact with the Wings of Dew (Sort de Rosée) technology? | no user turn | none | none
+  - Does a unicorn such as Sweetie Belle or Twilight eventually offer to cast the spell on Scootaloo? | no user turn | none | none
+  - If offered, does Scootaloo accept the prosthetic magic, or reject it out of New Mareland independence and build a mechanical scooter or airplane engine to fly on her own capital and engineering? | no user turn | none | none
+- shape: none
+- settles:

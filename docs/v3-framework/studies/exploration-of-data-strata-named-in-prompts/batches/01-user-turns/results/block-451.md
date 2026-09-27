@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's account of who knows Krista Sterling is Chrysalis, then lays out new backstory of their own (Gilded Trust's family feud over Gilded Lily's adopted griffon heir, and his personal grudge against Rockfeller), without pointing the model at any body of material.

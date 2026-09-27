@@ -1,0 +1,4 @@
+- sources:
+  - the model's preceding analysis (games, smuggling, anti-fun enforcement, quotas) | treated as accepted and built on; the user takes it as settling the camp's look and derives new story details from it | this solidifies the aesthetic of Fluttershy's POW camp | referred-to
+- order:
+- about: The user accepts the model's analysis of banned play and uses it to fix the aesthetic of Fluttershy's POW camp, proposing that rehabbed conscripts were workers who lost their games, fell behind on quotas and were drafted, and now ask for foals' games and make silk blankets and stuffed animals for love donators.

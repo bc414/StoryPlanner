@@ -1,0 +1,4 @@
+- questions:
+  - How does changeling emotion sense affect Twilight and Star Energy's warfare tactics, and do the Luna Nova rifles or Equestrian trenches need to deploy 'emotional chaff' (perhaps via Pinkie Pie's resilience tactics) to blind the changeling jaegers' radar? | no user turn | none | none
+- shape: none
+- settles:

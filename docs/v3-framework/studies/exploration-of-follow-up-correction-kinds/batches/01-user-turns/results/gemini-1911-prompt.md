@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks follow-up questions about the Gonesse bread example, covering who farmed the wheat, at what scale, whether serfs did it, and which period it belongs to, and does not say anything in the model's answer was wrong.

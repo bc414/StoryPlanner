@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the proposed scene order by adding a new beat in which Scootaloo asks about the name Bleue, Alouette explains Le Grand Foyer's royal blue, and Rainbow's interest in it becomes a further reason to give her the book, without disputing anything the model said.

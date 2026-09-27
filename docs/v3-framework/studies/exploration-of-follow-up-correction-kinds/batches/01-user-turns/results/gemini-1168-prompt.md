@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's synthesis to ask how to handle a previously planned artisan-versus-mass-export drug tribe distinction now that the medicine tribes are Aquileian allies, offering options and adding that rubber and rafts are universal across all tribes.

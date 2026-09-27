@@ -1,0 +1,5 @@
+- sources:
+  - one of my big themes is a healthy balance of pink and red | the author's own stated theme, to be used as the lens through which the combat drugs are interpreted | One of my big themes is a healthy balance of pink and red | first-named
+  - the combat drugs now | the revised jaeger-geist mechanic from the current exchange, taken as the current state of the setting that is to be interpreted | How do I interpret the combat drugs now? | referred-to
+- order:
+- about: The user states that a healthy balance of pink and red is a major theme and asks the model how to interpret the combat drugs, now that they have been revised, in light of it.

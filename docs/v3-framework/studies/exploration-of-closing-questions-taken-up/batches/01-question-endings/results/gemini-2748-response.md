@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to test the methodology now, by taking one raw "needs further analysis" Materialist Baseline idea and locking it down? | ignored | The user turn doesn't take up the offer. It asks for a further survey of missed story elements and possible extra phases. | none
+- shape: Redirects to a follow-up request about the model's framework. It asks the model to extend the four-phase scheme with story-planning elements the user didn't list, and to name any other distinct phases. It passes over the offered exercise and stays at the level of planning method.
+- settles:

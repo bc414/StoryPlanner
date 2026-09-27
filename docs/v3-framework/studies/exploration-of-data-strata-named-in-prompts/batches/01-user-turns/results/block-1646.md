@@ -1,0 +1,4 @@
+- sources:
+  - the author's own insights in this turn about characters, POV and TLTT's POV cast (Mali example, prequels) | treat as the author's premises to be analysed precisely, including the claims that POV characters yield distinct thematic evidence and that other subjects are discardable constructs | "Please give a precise analysis on these insights" | first-named
+- order:
+- about: The user asks for a track type name for the source material reference track if it is split from allegories, and argues that characters, especially POV characters, deserve their own character-development theme track unlike discardable constructs such as organizations, and asks for a precise analysis of that reasoning.

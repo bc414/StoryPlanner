@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks, in a short "so" question, for the interpretation of Twilight's ascension and the Magical Mystery Cure in TLTT, which reads as a request for a bottom line after the long analysis, and it does not say anything in that analysis is wrong.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore how the Equestrian characters react to Chrysalis's decentralized, corporate-style proxy warfare, which bypasses Stagnant Harmony diplomacy? | ignored | Says nothing to it; asks a separate real-world question about whether American WASP groups mirror ISIS. | none
+- shape: Redirects away from the offered next step to a new real-world comparative question, asking whether American WASP groups parallel ISIS. It reads as a further search for historical analogues and does not take up the Equestrian-reaction offer.
+- settles:

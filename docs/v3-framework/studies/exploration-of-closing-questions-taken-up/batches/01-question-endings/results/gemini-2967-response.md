@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like a C# code snippet for their WPF app to send a cached request to the Gemini API? | ignored | The user turn asks something unrelated (how to get a word count in Notepad++) and does not say yes or no to the code offer. | none
+- shape: Drops the model's topic (Gemini cost and caching) and asks a new, unrelated practical question about getting a word count in Notepad++. It is a tool how-to. It may be a way to check the size of the story document, but the turn doesn't say so.
+- settles:

@@ -1,0 +1,11 @@
+- questions:
+  - How does Sunglider stop the 50 million newly enfranchised Herzlanders' democracy from being co-opted by former Imperial bureaucrats and industrialists who changed their coats, and does De-Imperialization friction threaten to split the coalition? | ignored | The turn does not take up co-optation or De-Imperialization. It moves to adding teenage Grover VI as a supporter of Sunglider. | none
+  - What happens to Eros's unskilled conscripts who lack asset specificity once the war factories are dismantled, and does Kingfeather use their displacement to brand Sunglider a traitor? | ignored | Nothing is said about displaced conscripts or Kingfeather's attack. The turn is about Grover VI and the democracy theme. | none
+- shape: Redirects. It sets aside the model's open questions and asks for a new element: analysis of teenage Grover VI's psychology and role in Sunglider's camp. It also supplies the thematic frame for that analysis: a subversion of democracy tropes, and the claim that democracy is a privilege earned by industrial capacity.
+- settles:
+  - Teenage Grover VI is part of Sunglider's support in the election. | needs to be part of Sunglider's support
+  - Grover VI was raised by Archon Eros and Gabriella Eagleclaw to be morally good. | raised Grover VI to be morally good
+  - The commoners put Grover VI on a pedestal because of his asset specificity, whether he likes it or not. | asset specificity of the commoners putting him on a pedestal
+  - His reluctant elevation mirrors Applejack being forced to become a proper general in Chapter 3. | mirrors how Applejack had to step up
+  - The world's politics subverts the democracy trope that anyone can be president and royalty become private citizens. Real office needs supreme ambition, wealth, status and connections, which is often why politicians are corrupt. | requires supreme ambition, existing wealth, status and connections
+  - Theme: democracy is not the source of morality. It is a privilege earned by industrial capacity and must be maintained. | democracy isn't the source of morality

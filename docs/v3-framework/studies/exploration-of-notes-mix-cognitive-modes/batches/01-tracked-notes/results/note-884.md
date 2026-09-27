@@ -1,0 +1,4 @@
+- claims:
+  - world-rule ontology (god-mode statement of what the system objectively does and why) | The pegasi's society had to be militant because it needed to move weather around and also keep monsters away from the village | had to be militant in order to move weather around while deterring monsters | outside
+- goals:
+- whole: The note states, as a world rule, the functional reason for pegasus militarism in this civilization: it serves both weather management and defense against monsters.

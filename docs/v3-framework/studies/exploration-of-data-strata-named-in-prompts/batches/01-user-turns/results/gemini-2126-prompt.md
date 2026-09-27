@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | model is told to review them before answering; they are the reference the 1008 Republic idea is to be checked against | Please review my story plans before answering | referred-to
+- order:
+- about: The user asks whether a 1008 Republic triggered by a bank run and a national franc fits their setting, adds further plot ideas about Aquileia's limited reach against Skyfall and volunteers defending Mount Aris in 1006, and tells the model to review their story plans before answering.

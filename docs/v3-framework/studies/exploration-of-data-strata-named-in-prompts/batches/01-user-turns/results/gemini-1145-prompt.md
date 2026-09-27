@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's proposed version of the scene, saying Henri would tell Applejack to stay put rather than mark her dead, and lays out their own sequence in which Applejack persuades Twilight to stay and help and calls Henri to say he can give any target now that she has an alicorn.

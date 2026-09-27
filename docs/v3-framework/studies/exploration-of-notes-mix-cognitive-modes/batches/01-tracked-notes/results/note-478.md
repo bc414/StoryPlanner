@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (god-mode world rule / system ontology) | the system's objective nature and purpose is capitalism directed toward good, stated as a bare defining label | "Capitalism for Good" | outside
+- goals:
+- whole: The note gives a one-phrase, god-mode definition of what the system is and what purpose it serves, without saying anything about what the reader is to get from it.

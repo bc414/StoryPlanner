@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to describe how the love donator fuels the Equestrian war effort, without pointing to any body of material to draw on or avoid.

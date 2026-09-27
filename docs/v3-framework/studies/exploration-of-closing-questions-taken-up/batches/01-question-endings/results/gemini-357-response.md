@@ -1,0 +1,4 @@
+- questions:
+  - Does the fact-level granularity feel right, or is it too much data entry? | partly answered | Doesn't say so directly, but builds on the fact model and asks for a further feature on facts. That implies acceptance, and it says nothing about the data-entry burden. | Should a Codex entry fact be able to have unidirectional relations with other code, entry facts in other codexes?
+- shape: Extends the design with a new question of its own. It asks whether a fact should be able to depend one-way on facts in other codex entries. It does not comment on the model's proposal, but it takes the fact model as given.
+- settles:

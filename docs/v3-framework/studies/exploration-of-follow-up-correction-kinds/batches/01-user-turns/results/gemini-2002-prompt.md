@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the schema discussion to ask two short questions, why they cannot save and what "vf" means, which appear to concern something they see in their tool or interface and not the content of the model's schema.

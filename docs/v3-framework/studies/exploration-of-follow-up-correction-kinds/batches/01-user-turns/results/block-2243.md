@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's supply-chain framing as understood and moves to a personal, practical question about whether their $20/month Claude Pro price is subsidized by venture capital or API users or is at cost.

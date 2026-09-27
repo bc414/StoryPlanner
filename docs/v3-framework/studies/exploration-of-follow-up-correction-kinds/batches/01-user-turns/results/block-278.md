@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the canon-versus-fabula comparison to ask a new question about how their existing plans for EEEE! and Flowing Current would be improved by the newly surfaced material, without saying anything in the model's turn was wrong.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the letter-system analysis and asks the model for workflow advice: whether to write subjects fresh or revise from v1 notes, whether to migrate v1 notes as an unset track, how to handle plot points and links, and what information the model needs so it doesn't hallucinate.

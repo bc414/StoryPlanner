@@ -1,0 +1,4 @@
+- sources:
+  - the whole story text, or its chapters sent one prompt at a time | material the model would be given to work from, either chapter by chapter or all at once; the turn is weighing which way of supplying it works better and does not rank or discount it | Would sending chapters one prompt at a time be more effective than sending the whole story text in a single prompt | referred-to
+- order:
+- about: The user asks a question about method: whether giving the model their story chapter by chapter in separate prompts would work better than giving the whole text in a single prompt.

@@ -1,0 +1,5 @@
+- sources:
+  - the author's own statement of the setting: no conscription, reservists are volunteers driven by a fairy-tale view of war, the cost of stagnation | treat as true and settled; it corrects the earlier premise that they were drafted | Just to be clear, there is no conscription | first-named
+  - Tally Mark, the author's existing idiom-based pony name | use as the pattern for the new names: an idiom whose first word works as a pony's everyday name | I used Tally Mark as an idiom and Tally sounds like a name | first-named
+- order:
+- about: The author corrects a factual point about how reservists join, picks the fair-weather friend idiom, and asks for more pony-sounding names built on it, using Tally Mark as the model.

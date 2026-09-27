@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look into which Mother Process foods have the lowest overhead for a first-time entrepreneur? | ignored | The user does not take up the offer. They ask for the framework to be applied to two other restaurant types. | none
+- shape: The user gives a new instruction. They ask the model to extend the same restaurant-classification framework to big-menu diners and then to high-end formal restaurants. The model's offered follow-up on entrepreneur overhead goes unmentioned.
+- settles:

@@ -1,0 +1,9 @@
+- questions:
+  - If Chrysalis takes the name Aurelia, a literal translation of her own name, and Gabriella Eagleclaw deduces her nature, does Chrysalis realize Gabriella got the joke, and does that feel like validation or a narcissistic injury? | ignored | Nothing about Gabriella, the joke, or Chrysalis's reaction. The turn goes to the timeline and the surname. | none
+  - How does the von prefix surviving in Skyfall boardrooms, like the Junkers merging with Ruhr industrialists, expose the hypocrisy of Skyfall's self-made individualist propaganda? | ignored | Nothing about the historical parallel or Skyfall's propaganda. | none
+- shape: Corrects the model's premises. The user restates the timeline and cover story, rejects the von Krystallfels surname for the start of the Academy period, and asks the model whether Chrysalis would have the framework for a psychologically loaded High Herzlander first name at that point. It sets aside both Socratic questions and pushes the model back to a more basic question.
+- settles:
+  - Before the Academy, Chrysalis spends a year on black-market bounties to raise startup capital, then attends Griffenheim's academy to learn from Herzland's best institution. | spent a year doing black market bounties to build up startup capital, and then went to school
+  - Her public cover story is that her parents are two Equestrian ponies with a meteoric rise in Skyfall over the past year. They adopted her, an 11-year-old griffoness, from an orphanage because they liked her and she showed intellect. | public facing story is that her parents are two Equestrian ponies
+  - The adoptive parents pay the massive Academy tuition. | They shell out massive tuition costs for her to attend the academy
+  - Her surname at the start of the Academy period is not von Krystallfels. | I don't think her last name is von Krystallfels right at the beginning

@@ -1,0 +1,4 @@
+- sources:
+  - George R.R. Martin's architects vs gardeners talk | the model is asked to recall from it who Martin, his audience or his disciples called architects; it is also the frame the user has used for their own methodology | George R.R. Martin's architects vs gardeners talk | referred-to
+- order:
+- about: The user asks whether their plan-first-then-edit methodology has precedents or is a new synthesis, whether it merits an article or paper, and who Martin's architects vs gardeners framing counts as architects.

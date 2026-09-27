@@ -1,0 +1,6 @@
+- sources:
+  - Encirclement, prior to the drop (what I put there) | the author's own plan for that chapter; the model is asked to report what is in it and to weigh what belongs there against Stagnation | In Encirclement, prior to the drop, what did I put there? | referred-to
+  - the author's memory of the Encirclement beat (world peace, Luna and Nightmare Moon, dreams of conquest held back) | tentative recollection, stated as a belief; offered as something to weigh, not as confirmed | I believe I put the beat | referred-to
+  - Stagnation (original placement alongside the dreams of conquest) | the author's earlier placement of the beat, which is being compared with Encirclement; the author wants to know what it serves in each | I originally put it in stagnation along side the dreams of conquest | referred-to
+- order:
+- about: The author asks the model to recall what their plan puts in Encirclement before the drop, and to weigh whether the Luna world-peace/Nightmare Moon beat belongs there or in Stagnation, where they first placed it.

@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | Equestria is modeled on the present day rather than on the WW2 Allies | Equestria does not represent WW2 Allies, it represents modern day | yes
+  - Allegories | The story is a thesis about modern, post-stagnation civic duty, not a war-is-hell survival story | not a "war is hell" survival story, it is a thesis about modern, post-stagnation civic duty | no
+  - Analogies | The army's volunteer-only makeup mirrors the conditions of the modern West | Keeping the Equestrian Army volunteer-only mirrors the conditions of the West today | yes
+- goals:
+- whole: The note fixes the real-world referent of the Equestrian Army as the modern West rather than WW2, tying its volunteer-only design to a story about present-day civic duty.

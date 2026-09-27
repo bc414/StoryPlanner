@@ -1,0 +1,4 @@
+- claims:
+  - History | In the world year 980, Moriset Discret's counterrevolution crushed the bourgeoisie, a big change in the system's history | Moriset Discret's counterrevolution crushes the bourgeoisie | yes
+- goals:
+- whole: The note reports as historical fact a single event in the system's history, a counterrevolution led by Moriset Discret that crushed the bourgeoisie.

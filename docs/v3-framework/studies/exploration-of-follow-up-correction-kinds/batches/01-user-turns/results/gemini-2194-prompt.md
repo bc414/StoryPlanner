@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's mapping of the story plan onto Ukraine's history is treated as not thorough enough, so the user asks for the plan to be read again in full before the next answer | "Please review my story plans again thoroughly before responding" | implicit, a plain instruction tacked on at the end of a new request, with no reason given and no irritation
+- about: The user pushes the Ukraine-and-story parallel forward to Biden's aid, the post-2022 Republican blockage and Trump's 2024 win, asks whether the aid was earnest, and asks for new parallels or additions to the plan, while telling the model to reread the plan carefully first.

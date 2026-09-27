@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: world-rule ontology | Once the crystal enhancer is charged, a unicorn can cast any spell they know, and their horn draws the magic from the enhancer | Once the crystal enhancer is charged, the unicorn can cast any spell they know and their horn will take the magic from the crystal enhancer | outside
+- goals:
+- whole: The note states, as a rule of the fictional universe, how the crystal enhancer works: once charged, it supplies the magic that a unicorn's horn draws on to cast any spell the unicorn knows.

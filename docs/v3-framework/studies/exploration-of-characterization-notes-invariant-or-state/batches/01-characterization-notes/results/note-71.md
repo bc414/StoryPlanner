@@ -1,0 +1,5 @@
+- claims:
+  - span | She is a warlord and butcher, a commander who kills brutally | "She is a warlord/butcher" | the track question, who she is at the start of TLTT; the note has no date of its own and is in the present tense
+  - span | She leads through fear | "She leads through fear" | the track question, at the start of TLTT; present tense, no date or other marker in the note
+  - span | She allows her forces to loot in order to keep morale high | "She allows looting to keep morale high" | the track question, at the start of TLTT; present tense, no date or other marker in the note
+- beside: none

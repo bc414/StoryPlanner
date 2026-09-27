@@ -1,0 +1,6 @@
+- claims:
+  - History | Eagleclaw, at this point in 981, does not want Eros to be the face of any counterrevolution | does not want Eros to be the face of any counterrevolution | yes
+  - Characterization | Eagleclaw hates the nobility, stated as a standing truth about him that motivates his stance | He hates the nobility | no
+  - History | Chrysalis steers Eagleclaw toward bribing and allying with the industrialists instead, an event in the world's past | Chrysalis steers Eagleclaw towards bribing and allying with the industrialists instead | yes
+- goals:
+- whole: The note reports, as a past event of 981, that Eagleclaw resisted making Eros the face of a counterrevolution and was steered by Chrysalis to ally with industrialists, with his hatred of the nobility given as the reason.

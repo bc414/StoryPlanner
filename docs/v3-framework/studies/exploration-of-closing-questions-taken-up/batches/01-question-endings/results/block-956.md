@@ -1,0 +1,8 @@
+- questions:
+  - How does Twilight use her own failed Ain Trotgourait water-filtration effort to connect with the Skyfall artisans? | ignored | Nothing said about Twilight, Ain Trotgourait, or how she reaches the artisans. | none
+  - What Right to Repair or Open Source legal frameworks would the artisans demand Applejack write into the Republic's constitution? | ignored | Nothing said about constitutional or legal frameworks for the artisans' technology. | none
+- shape: The user turn does not take up the questions. It corrects the model's premises and gives world facts about the artisans' living conditions, Skyfall's economic order, and the food market. It corrects the shipping-cartel and coordinating-Boss framing.
+- settles:
+  - The Skyfall artisans live in penthouses with luxury, like FAANG employees today. | the artisans live in penthouses and have luxury, like FAANG employees
+  - Skyfall is an anarcho-capitalist free-for-all with no capacity for coordination, only ruthless competition. | Skyfall is an anarcho capitalist free for all. There is no capability of coordination
+  - The food market is perfect competition, and the SAA cans are too small a share of global supply to fix the shortage. | The food market is perfect competition, where the SAA cans don't make enough of a dent

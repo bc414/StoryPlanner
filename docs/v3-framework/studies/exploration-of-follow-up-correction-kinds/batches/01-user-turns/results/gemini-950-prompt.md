@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request for concrete examples of Twilight and Applejack together in the early episodes, without saying anything in the previous answer was wrong.

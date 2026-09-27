@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model's titles drifted toward general thematic nouns (Amnesty, Justice, Perspective, Honor, Legacy) rather than staying with terms taken from the game HOI4, which is the source the user wanted the titles drawn from | Give more suggestions based on hoi4 terms | Implicit, terse imperative redirect; no fault or reason is stated and the shortfall is only inferred from the request for more HOI4-based options
+- about: The user asks for another round of chapter-title suggestions and steers it back to HOI4 terminology, without commenting on the previous list.

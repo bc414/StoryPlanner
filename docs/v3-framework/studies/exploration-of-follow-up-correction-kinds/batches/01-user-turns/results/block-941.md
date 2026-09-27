@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | EEEE is characterized as a generic union and working-class labor bloc, with a class-divide and factory-seizure framing, when it should be a machinists guild tied to right-to-repair and the German/Nordic high-skill model aligned with the corporation | Characterizing EEEE as a generic union seems to be a remnant of the grimdark echoes; "union" should be stripped out and replaced with "machinists guild" | stated as a settled revision of the author's own earlier framing, with extended reasons (right to repair, Nordic/German models, American connotations of the word), not aimed at the model as blame
+- about: The user redirects the model's labor-and-class framing of EEEE toward a machinists-guild, right-to-repair identity and then asks a new question about which parts of Harmonic Capitalism on the Tall Tale and Star Energy side depend on the Stagnation of Harmony having existed first.

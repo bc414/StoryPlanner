@@ -1,0 +1,5 @@
+- sources:
+  - Parasitism (the candidate term from the model's list) | accepted as fitting in meaning but judged clunky as wording; the model is to offer other terms that evoke the same thing | Parasitism makes sense. But it's a little clunky | referred-to
+  - the author's own picture of the tycoons as rent seekers living off the economy and workers' labor | the author's stated vision, which the replacement terms must capture; treat as the target meaning | I'm imagining the tycoons as rent seekers who are parasites on the economy and common worker's labor | first-named
+- order:
+- about: The user accepts Parasitism as the right concept for the tyrannical counterpart, explains their rent-seeker image of the tycoons, and asks for less clunky alternative terms that evoke the same idea.

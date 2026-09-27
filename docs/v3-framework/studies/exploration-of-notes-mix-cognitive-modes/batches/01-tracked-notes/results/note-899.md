@@ -1,0 +1,6 @@
+- claims:
+  - Allegories | The character stands for affluent, college-educated modern youths who adopt radical authoritarian aesthetics | This mirrors the modern phenomenon of affluent, college-educated youths adopting radical authoritarian aesthetics | yes
+  - Allegories | The group sees the alienating effects of late-stage capitalism but lacks resilience and historical context for slow, messy democratic reform, which the story's Aquileian FJA model represents | They observe the alienating effects of late-stage capitalism but lack the "Resilience" or historical context | yes
+  - Allegories | The group turns to the most absolute, violent option because it promises an immediate, sterilized utopia | they reach for the most absolute, violent lever available because it promises an immediate, sterilized utopia | yes
+- goals:
+- whole: The note maps the character onto a real-world demographic, privileged educated youths drawn to authoritarian radicalism, and explains why they choose violent absolutism over incremental democratic reform.

@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-building ontology, god-mode rule of the system) | Skyfall banks lending out money is the mechanism that creates the fiat currency, Skyfall Marks | Skyfall banks lending out money creates the fiat currency of Skyfall Marks | outside
+  - outside all ten (world-building ontology, god-mode statement of the system's purpose and effect) | This money creation unleashes ambition, which makes Skyfall a global power | this unleashes ambition, making Skyfall a global power | outside
+- goals:
+- whole: The note states in god-mode world-building terms how the Skyfall Trade Federation works: bank lending creates the currency, and the resulting ambition makes Skyfall a global power.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model how the character Minette should emotionally respond to stories about Pagala and whether she would see Pagala as a dark reflection of herself, without pointing at any body of material for the model to use.

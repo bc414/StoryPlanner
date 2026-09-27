@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - register or format | The model's scheme is pitched at the wrong tone: overt, cartoonish villainy (kickbacks, toxic dye dumping, strike-breaking, invasion logistics hubs, tanks) rather than a subtle, elegant, systemic mechanism | "less blatant and generic evil and more subtle" | flat statement of need, opened with "Actually", contrasted with an example the user already has in the plan (the gold standard scheme) as the target standard
+  - reading of the request | The model treated the request as a catalogue of mayoral powers and corruption tools, when the user wanted a Chrysalis scheme in Manehattan with the same cleverness as the gold-standard bit-drain (abusing a legitimate system) | "like the elegance of the scheme to drain equestria of bits by abusing the gold standard" | reference to an existing plan element as a model to emulate, stated without irritation
+- about: The user turn redirects the model's Manehattan corruption scheme away from crude, overt villainy toward a subtle, elegant mechanism modelled on the existing gold-standard scheme.

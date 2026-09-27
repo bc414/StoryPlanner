@@ -1,0 +1,5 @@
+- sources:
+  - my story planning doc | read closely and analyze the new points against it | Please analyze my story planning doc closely | referred-to
+  - the clarifications and new points in this message (Aquileian faction percentages, Chrysalis's terror state drawing on Coltbert's reforms and paper) | treat as the author's corrected, settled facts; the model is to analyze and expand on them, and the silent-majority framing is corrected | To clarify, the mundane Aquileians are not the silent majority | first-named
+- order:
+- about: The user corrects the model's picture of Aquileia's factions with exact percentages, adds a twist that Chrysalis's terror state grew out of Coltbert's reforms and paper, and asks for closer analysis of these points against their story planning doc.

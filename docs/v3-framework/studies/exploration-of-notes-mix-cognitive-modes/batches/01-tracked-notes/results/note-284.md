@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | sets the reader's starting expectation, drawn from tropes, that Rainbow Dash will become cynical, fascist-adjacent and tribal, as the first step of the opinion-change arc | Readers begin expecting Rainbow Dash will become cynical, fascist-adjacent and tribal | yes
+- goals:
+- whole: The note opens the character's reader-opinion arc by planning the trope-based prior the reader brings, that Rainbow Dash will turn cynical, fascist-adjacent and tribal, with no updates or intended reader effect yet stated.

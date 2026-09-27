@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | the model's account of the 995 revolution as a smooth consolidation, with the Boyars simply slaughtered or fled and no real armed contest, is put in doubt in favour of a prolonged Red-versus-White style civil war | Would the revolution in 995 actually be a prolonged conflict with the boyars, like the red army vs the white army/Russian Civil War? | as an open question that doubts the model's claim without saying it is wrong, and asks for pros and cons of the alternative
+- about: The user questions whether the model's smooth-transition picture of the 995 revolution holds up, asks it to weigh a prolonged civil war against it, and adds a new question about whether Stalliongrad would build a fleet to fight Skyfall privateers.

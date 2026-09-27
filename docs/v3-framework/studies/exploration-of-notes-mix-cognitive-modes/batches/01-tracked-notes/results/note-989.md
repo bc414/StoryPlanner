@@ -1,0 +1,4 @@
+- claims:
+  - History | The Love Harvester technology was invented by Chrysalis in the world year 982 | Invented by Chrysalis in 982 | yes
+- goals:
+- whole: The note reports as an in-universe historical fact who invented the Love Harvester and when.

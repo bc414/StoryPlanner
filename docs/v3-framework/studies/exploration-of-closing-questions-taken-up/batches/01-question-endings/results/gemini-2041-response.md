@@ -1,0 +1,8 @@
+- questions:
+  - Should the Phase 2 routing prompt be adjusted to name the Epistemological and Ontological overlaps alongside the Demographic interaction exception? | ignored | Nothing said about editing the prompt or adding the exception. The user proposes a different structure instead: intersections get their own buckets. | none
+- shape: Redirects. It sets aside the model's offer and puts forward a different design: for relational axes, each atomic unit gets its own bucket and each intersection gets its own bucket, with one bucket per planner note. It then asks the model to check the idea (does it make sense) and to say whether each bucket should also show both sides of the bridge when atomic thoughts are consolidated.
+- settles:
+  - On relational axes, atomic units and their intersections go in separate buckets, so a bridge is its own bucket and is not multi-tagged into the sides. This is stated as what the user wants and is still open to the model's check. | I think it makes sense to have a bucket for atomic units and then a separate bucket for their intersection
+  - Each bucket becomes a single note in the planner. | Each bucket represents a single note for my planner in the end
+  - Planned notes: one each for the FJA, the MPA, and their conflict. | a note about the FJA, a note about the MPA, and another note about their conflict
+  - Planned notes: earth pony magic's objective mechanics, its common mythos, and a separate note on the discrepancy between them. | objective mechanics of earth pony magic, a note about the common mythos surrounding it, and then a note describing the discrepancy

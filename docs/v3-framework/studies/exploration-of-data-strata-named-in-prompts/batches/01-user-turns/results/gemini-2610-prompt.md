@@ -1,0 +1,8 @@
+- sources:
+  - the context of 13.9 | base the new analysis on it; the scene's situation (reunion, Aquileian friends teaching safe passion, love donator runs for ammo and morale cakes) is the frame to work within | taking into account the context of 13.9 | referred-to
+  - the previous chapter | treat as settled: the Luna Nova Rifle is already finished, so it is not still being developed | Twilight already finished developing the Luna Nova Rifle in the previous chapter | referred-to
+  - 4.4, the adrenaline crash | treat as established evidence that Twilight and Applejack are already a binary chasseur pair | as shown in 4.4, the adrenaline crash | referred-to
+  - 6.9 | treat as established evidence of close pink love decompression between the pair | 6.9 and 9.18 as close pink love decompression | referred-to
+  - 9.18 | treat as established evidence of close pink love decompression between the pair | 6.9 and 9.18 as close pink love decompression | referred-to
+- order:
+- about: The user asks for a revised analysis of scene 13.9 that accounts for the finished rifle, the Twilight and Applejack reunion, and their already established chasseur-pair bond, citing earlier scenes as evidence and setting up the love donator runs.

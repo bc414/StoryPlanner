@@ -1,0 +1,4 @@
+- questions:
+  - Who is the Aquileian mentor: a stoic, grizzled veteran Griffon or a flamboyant, theatrical noble hiding tactical brilliance? | ignored | Nothing said about the mentor's identity or personality; the user moves to a different topic, aircraft fuel and drop tanks. | none
+- shape: Redirects to a new worldbuilding topic: asks how to integrate drop tanks and proposes that the crystal engines still need aviation fuel as a hybrid. It passes over the model's mentor question and the handover analysis without comment.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's question about Celestia's intent by adding their own reasoning (Nightmare Moon is no real threat, so Celestia let Twilight's smuggled reading happen) and then asks a new question about why Nightmare Moon's pilot-episode trials take the form they do.

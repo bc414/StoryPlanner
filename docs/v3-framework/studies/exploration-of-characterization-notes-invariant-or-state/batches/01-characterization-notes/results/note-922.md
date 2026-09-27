@@ -1,0 +1,5 @@
+- claims:
+  - unfixed | His coat is yellow | "He's yellow" in the present tense | none
+  - unfixed | He has a brown mustache | "has a brown mustache" in the present tense | none
+  - unfixed | His cutie mark is the Star Energy logo | "His cutie mark is the Star Energy logo" in the present tense | none
+- beside: none

@@ -1,0 +1,10 @@
+- questions:
+  - When does Trimmel realize that his victories cover for the Statthalters' slave economy, and does it come during the invasion of Equestria? | ignored | The user turn never mentions Trimmel or his realization. It turns to a Statthalter island revolt and the timing of that event. | none
+  - Does that realization fully break Trimmel's loyalty to Chrysalis? | ignored | Nothing is said about Trimmel's loyalty or any break with Chrysalis. | none
+- shape: The user turn does not answer the model's closing question about Trimmel. It brings a new plot proposal: a slave revolt on one Statthalter island, then an unsanctioned FJA pirate war. It asks the model for the timing relative to Mount Aris, with pros and cons, and asks whether Chrysalis would mind. The user also supplies a tentative rationale for why she wouldn't. It redirects the conversation to a different storyline and ties that storyline to the 1008 bank run.
+- settles:
+  - One Statthalter island collapses in a slave revolt and is then brutally reconquered by the Statthalters | I think one of the Statthalter islands should collapse from a slave revolt
+  - Escaped former slaves reach Aquileia and appeal to Dennis Discret to liberate the rest | some former slaves who escaped make it to Aquileia and appeal to Dennis Discret
+  - FJA crews, short of monsters to hunt because the jaeger subs killed them all, go to war on the Statthalters as an unsanctioned pirate war | they want to take out the Statthalters in a glorious unsanctioned pirate war
+  - The pirate war strains the royal bank and is one cause of the 1008 bank run and the transition to the 2nd Aquileian Republic | one of the reasons the royal bank is stretched so thin, leading to the bank run of 1008
+  - Tentative: Chrysalis does not mind the Aquileians destroying the Statthalter fortresses. The islands are unprofitable after the Storm King's anti-colonial front, and the losses leave the Statthalters dependent on her for new victims. | I suppose Chrysalis doesn't care because the Statthalters islands are no longer profitable anyway

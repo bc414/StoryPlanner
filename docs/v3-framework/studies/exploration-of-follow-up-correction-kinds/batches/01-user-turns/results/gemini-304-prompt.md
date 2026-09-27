@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds a further thematic layer to the poseur/poser joke, the changelings' literal impersonation of others, extending the model's discussion without disputing it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's thematic synthesis and asks it to expand it with a detailed catalogue of blatant and subtle AI misuse, including exploitation and social and dignity harms beyond grift, and to keep it distinct from honest accelerant use and respectful of traditionalists.

@@ -1,0 +1,6 @@
+- sources:
+  - Part 1 of the story (warlords as irredeemables, noble griffonesses as redeemables) | treat as the author's settled statement of who fills each class in this part; use it to shape the name | In part 1 and 2, they were the warlords / part 1 is the noble griffonesses | referred-to
+  - Part 2 of the story (warlords as irredeemables; a mix of everyone as redeemables, about mutual partnership and breaking down race and gender barriers) | treat as the author's settled statement of who fills each class in this part; use it to shape the name | Part 2 is a little of everyone since it's about mutual partnership | referred-to
+  - Part 3 of the story (belligerent warlords dead, so grifters and cowardly warlords as irredeemables; misled thugs as redeemables) | treat as the author's settled statement of who fills each class in this part; use it to shape the name | In part 3 the beligerent warlords are dead so it's grifters and cowardly warlords | referred-to
+- order:
+- about: The user accepts "Herzlander Lion" as the name for the irredeemables, explains who fills the irredeemable and redeemable classes in each of the three story parts, and asks for an endearing, slightly mocking colloquial name for the redeemable targets.

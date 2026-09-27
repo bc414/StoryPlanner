@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn is only an attached plan export (about 120,972 words) with no text of its own, so it sends the planning material along without commenting on or disputing anything in the model's analysis.

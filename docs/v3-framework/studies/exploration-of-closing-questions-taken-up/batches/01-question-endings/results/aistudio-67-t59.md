@@ -1,0 +1,6 @@
+- questions:
+  - How does Pinkie Pie react on realizing her party-throwing talent was used by the State as a pacifier for the masses? | ignored | Nothing about Pinkie Pie or her talent; the user asks a different question. | none
+  - After the Changeling Panzers break the Equestrian Vanguard, does the 85% agrarian majority first blame the 15% ambitious minority for provoking the outside world, and cling to isolationism until Applejack's Hard Truth speech? | ignored | Nothing on how the public reacts to the invasion or blames the minority. The user only mentions the ponies' earlier petitions to Celestia. | none
+- shape: Redirects. The user leaves both closing questions unanswered and asks a new, broader question of their own. They want to know how the ponies' petitions for the Stagnation change the story's themes, the character arcs and the delivery. They also ask whether the heroes should keep blaming Celestia until the reveal chapter. It builds on the model's historical framing and sets its follow-up questions aside.
+- settles:
+  - Premise restated as the story's basis: most of Equestria petitioned Celestia to enact the Stagnation policies, and Celestia says so in the Stagnation chapter. | most of Equestria asked Celestia to enact the policies ... where she says the ponies sent her petitions

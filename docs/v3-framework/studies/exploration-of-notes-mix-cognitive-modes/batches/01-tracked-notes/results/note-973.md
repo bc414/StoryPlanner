@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | plans that the reader will wrestle with the question of whether the character is a con man | Readers will grapple with whether he is a con man or not | yes
+- goals:
+  - reader is to grapple with, staying unsure about, whether the character is a con man | NarrativeArchitecture | Readers will grapple with whether he is a con man or not
+- whole: The note plans, in one line, that the reader's experience of this character will be an unresolved struggle over whether he is a con man.

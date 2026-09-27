@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten: world-building of an in-universe organization's practice | Bauleiters consume red love, raw magic or raw ambition, in order to innovate | Bauleiters take red love (raw magic/raw ambition) to innovate | outside
+  - outside all ten: world-building of an in-universe organization's practice | coming off red love causes an imposter crash of crippling self-doubt as the artificial ambition wears off | The withdrawl is an "imposter crash" of crippling self-doubt since the "artificial ambition" wears off | outside
+  - outside all ten: world-building of an in-universe organization's practice | the drug and its crash drive the Bauleiters' rat race, a cycle of competitive striving | For bauleiters, it fuels the rat race | outside
+- goals:
+- whole: The note describes what the Bauleiters organization does in-world, innovating on a raw-ambition drug whose withdrawal crash of self-doubt keeps their rat race going, and it names no reader effect.

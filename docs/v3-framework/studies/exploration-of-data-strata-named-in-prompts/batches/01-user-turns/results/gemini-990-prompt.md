@@ -1,0 +1,5 @@
+- sources:
+  - My current plan | treat as the baseline, which says Trimmel reveals the Vanhoover switch after the second Tall Tale loss; the user is weighing a change to it, so it is the existing version and not final | My current plan says that Trimmel reveals after losing the 2nd battle of Tall Tale | referred-to
+  - chapter 7 (Rarity speaking to Celestia for the EEEE! union) | a scene to keep in mind and stay consistent with when planning: Luna is seen having nightmares and is no longer commanding after the Tall Tale retreat | Also note in chapter 7 when Rarity speaks to Celestia | first-named
+- order:
+- about: The user proposes revising their plan so Luna learns through nightmares from captured ponies why the Statthalters are punishing them, which justifies her retreat order, asks how to plan that out, and notes the chapter 7 scene that has to stay consistent with it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the troubleshooting fixes and asks for a from-scratch explanation of how JSON schema works so they can use the visual editor themselves, which is a new request and not a correction.

@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | plans that for most of the story the reader is deliberately led to hold a false belief about the system's origin, that it came directly from Aquileia | the reader is misled to believe ... for most of the story | yes
+- goals:
+  - The reader believes, for most of the story, that Harmonic Capitalism came straight from Aquileia, a belief that is misleading | WorldInference | misled to believe Harmonic Capitalism came straight from Aquileia
+- whole: The note sets a reader-experience plan in which the reader is kept believing, through most of the story, a mistaken direct origin of Harmonic Capitalism in Aquileia.

@@ -1,0 +1,5 @@
+- claims:
+  - WorldInference | The quoted line about hoping the power lasts is named as the epistemological gap, the place where the characters' belief about the power's source diverges from the truth | "this is the epistemological gap" | no
+  - History | Amethyst Maresbury and the crystal ponies of 1000 years ago believed the crystal heart was the power source, reported as a fact about what they held | "believed the crystal heart was the power source" | yes
+- goals:
+- whole: The note points to a line of dialogue as marking the gap between the ancient crystal ponies' belief that the crystal heart was the power source and the truth, and reports that belief as a historical fact.

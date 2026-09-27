@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | the material the model is to read and review, and base its thematic and narrative analysis on | Please review my story plans | referred-to
+  - the chapter Stagnation featuring the white peace argument | the part of the plan where the proposed Celestia line about Grover 3 and the next generation would go; the model is to judge whether it fits, so it is a suggestion being tested and not settled | in the chapter Stagnation featuring the white peace argument | referred-to
+- order:
+- about: The user asks whether Celestia should cite Grover 3's harmonic intentions and the next generation's industrial tyranny in the Stagnation chapter's white peace argument, links this to why Applejack and Twilight go to Griffonia, and asks the model to review their story plans for a thematic and narrative analysis.

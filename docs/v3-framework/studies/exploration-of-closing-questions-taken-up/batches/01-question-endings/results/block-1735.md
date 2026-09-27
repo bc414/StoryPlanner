@@ -1,0 +1,6 @@
+- questions:
+  - How does Vaspier's ascetic, algorithmic worldview handle Pinkie Pie's Pinkie Sense and Laughter magic: dismiss it as a statistical anomaly, or treat it as a thermodynamic impossibility to be vivisected and studied? | ignored | none | the user turn moves to naming Chrysalis's nation and never mentions Vaspier or Pinkie Pie
+  - If VOPS infiltrators report that Changeling POWs at Camp Fluttershy are being rehabilitated through empathy, does Vaspier turn this into propaganda that Equestria is performing biological lobotomies, hardening the Hive's will to fight to the death? | ignored | none | nothing on Vaspier, Camp Fluttershy or propaganda; the turn is only about the nation's name
+- shape: The user drops the model's Vaspier discussion and its two Socratic questions and opens a new topic: what to call the state Chrysalis heads. They explain the existing label was a placeholder, give the EaW map and faction names and a list of the story's in-universe state names as a naming pattern, and ask for many example names with explanations and real-world comparisons.
+- settles:
+  - "Chrysalis's New Order" is not the nation's name. It was only a bucket label in the notes, so the in-universe name is still open. | "just a bucket name for notes"

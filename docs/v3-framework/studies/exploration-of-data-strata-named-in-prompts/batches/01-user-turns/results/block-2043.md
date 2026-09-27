@@ -1,0 +1,10 @@
+- sources:
+  - Warcraft and StarCraft | subjects to be compared in theme and methodology against the other bodies of work; the model is to draw on what it knows of the published games | How do Warcraft and StarCraft compare | first-named
+  - Sanderson's works | comparison baseline for theme and methodology, already discussed in the conversation | compare in theme and methodology to Sanderson's works | referred-to
+  - ASOIAF | comparison baseline for theme and methodology, already discussed in the conversation | Sanderson's works, ASOIAF, and my plans for TLTT | referred-to
+  - my plans for TLTT | comparison baseline the games are to be measured against | and my plans for TLTT | referred-to
+  - original visions from the original Blizzard developers | to be set apart as its own strand and distinguished from the corporate strand | distinguish between original visions from the original Blizzard developers | first-named
+  - the Activision corporate mandates | to be set apart as a separate strand from the original developers' vision | and the Activision corporate mandates | first-named
+  - Faust vs Hasbro | pattern to follow for the original-vision versus corporate-mandate split, treated as a model for how to distinguish | in a similar manner to Faust vs Hasbro | referred-to
+- order:
+- about: The user asks the model to compare Warcraft and StarCraft with Sanderson, ASOIAF and their own TLTT plans in theme and methodology, and to separate the original Blizzard developers' vision from Activision's corporate mandates, following the earlier Faust versus Hasbro split.

@@ -1,0 +1,4 @@
+- sources:
+  - the author's own clarification of the story's current state (no formal Republic, Celestia still princess on paper, Applejack and Rarity having grown up to fill the void) | treat as true and as a correction of the model's assumption of a Republic; the model should reason from this premise | To clarify, there is no formal notion of a Republic yet | first-named
+- order:
+- about: The user corrects the model's assumption that a Republic already exists, restating the story's premise and reframing Applejack's honesty and pledges as unwitting exercises of sovereignty.

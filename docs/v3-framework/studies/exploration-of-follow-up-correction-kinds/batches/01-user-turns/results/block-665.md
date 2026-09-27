@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - design decision on data structure (own name) | the model's split by singularity, which kept Synopsis, Stakes, Outcome and the POV scene-architecture fields as discrete text fields with only observed-character material as Notes, and said state tracking adds little for them | "Can all text fields on plot points become notes with a track? Same for all text fields across the models?" and the Synopsis example with Flagged/Evaluated states | posed as a question and proposal with no stated fault, rejecting the discrete-field choice by asking for one unified structure and giving a rationale (a shared data model, UI rendering differences, completeness from note state)
+- about: The user takes the model's field-by-field design and pushes it toward a single Note-and-track structure for every text field, spelling out what that would mean for Synopsis and for plot point completeness.

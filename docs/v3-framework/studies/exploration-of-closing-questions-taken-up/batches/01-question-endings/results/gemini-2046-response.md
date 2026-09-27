@@ -1,0 +1,5 @@
+- questions:
+  - What else the user wants to add to the captured requirements checklist | answered | The user adds new concerns to the pipeline as questions: whether pronouns get replaced with nouns, whether tabs and bullets can be dropped, how to check that no atomic thought was lost, and how to treat notes-to-self and rhetorical or planning questions, possibly in a separate non-axis, non-garbage category. | Should pronouns be replaced...; How do I verify that all atomic thoughts...; Should these be isolated into a different paradigm
+- shape: The user does not approve or edit the checklist. They extend it with four new open questions about the pipeline: pronoun handling, formatting cleanup, verification, and author-directed notes. They state distrust of the AI and ask for a character-level diffing check, and they propose a new meta category for notes to the author. These questions go back to the model to answer.
+- settles:
+  - The output must be checkable against the original text with a character-level diff, because the user does not trust the AI not to drop content | want some sort of diffing tool to verify against the hard characters/letters

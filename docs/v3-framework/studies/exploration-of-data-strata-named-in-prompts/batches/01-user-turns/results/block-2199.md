@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to explain how they arrived at their method and level of skill when the wider internet is stuck in the Stagnation-versus-Extraction binary, without pointing the model at any particular body of material.

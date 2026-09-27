@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a wider new request, asking for a survey of today's Western left and a rebuttal of it by Harmonic Capitalism framed through cutie marks and terroir as modern human capital, without saying anything in the previous answer was wrong.

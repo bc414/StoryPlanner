@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user directs a revision of the proposed Celestia and Luna sidebar by swapping their roles, so that Luna voices "Friendship is Combined Arms" and Celestia the old way, and asks for a flat, unemotional delivery, giving their own reasoning for the change.

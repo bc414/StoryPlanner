@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (world-builder god-mode ontology) | Aquileia's birthrates decline because the FJA demographic is consumed by artisan craft and the tableau de chase | Aquileia has declining birthrates because everyone in the FJA demographic is obssessed with their artisan craft | outside
+  - outside all ten (world-builder god-mode ontology) | The PNdA demographic gets good family support, but those left behind cannot find partners or dignity | The PNdA demographic has good support for families but those left behind can't find partners or dignity | outside
+  - outside all ten (world-builder god-mode ontology) | The system's purpose and cost: it trades family love away for economic efficiency or personal ego | Aquileia sacrifices family love for economic efficiency or personal ego | outside
+- goals:
+- whole: The note states, as world rules, how Aquileia's two demographics produce declining birthrates and what the system trades away, without saying what the reader should get from it.

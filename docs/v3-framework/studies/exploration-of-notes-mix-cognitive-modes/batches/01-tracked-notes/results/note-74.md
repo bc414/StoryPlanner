@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Actia wants deer and ponies to fight back so she can drain them; a desire that defines her | She wants deer and ponies to fight back so she can drain them | yes
+  - Characterization | Actia wants the bauleiters' clean occupation to fail; a motive that defines her | She wants the bauleiters' "clean occupation" to fail | yes
+- goals:
+- whole: The note asserts, in a psychologist's voice, two driving wants that define Actia at the start of the story: to provoke resistance she can drain and to see the bauleiters' clean occupation fail.

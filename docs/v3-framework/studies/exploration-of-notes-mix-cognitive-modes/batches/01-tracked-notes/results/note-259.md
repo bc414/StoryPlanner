@@ -1,0 +1,5 @@
+- claims:
+  - History | Eros and his fellow Archons, with broad commonfolk support, are currently trying to restore the Empire's glory, which is the reported motive and backing of the system | with the broad support of the commonfolk, Eros and his fellow Archons are attempting the restore the Empire's glory | no
+  - outside all ten (in-universe zealot proclamation) | a threat spoken in the regime's own voice: traitors and unbelievers will be punished with blood, and the god Boreas wills it | The traitors and unbelievers will pay with their blood, Boreas wills it! | outside
+- goals:
+- whole: The note gives a brief account of the Griffonian Reich's motive (restoring imperial glory with popular backing) and then slips into the regime's own religious, violent rhetoric, without saying what the reader should take away.

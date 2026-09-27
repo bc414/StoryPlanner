@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the "YN" crashout culture just discussed has counterparts among white Americans and Asian Americans, without pointing the model at any particular body of material.

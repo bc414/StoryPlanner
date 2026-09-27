@@ -1,0 +1,4 @@
+- sources:
+  - magic in FiM | treated as a true premise about the show, that magic is wanting something and it happening and is tied to ambition, and used as the basis for the proposed social-commentary parallel | Since "magic" in FiM is like wanting to do something and it happens. It's tied to ambition | referred-to
+- order:
+- about: The user is testing a proposed thematic takeaway, that reflexivity and social networks work like real-life magic for the reader, by grounding it in their own understanding of how magic works in FiM.

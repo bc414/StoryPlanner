@@ -1,0 +1,8 @@
+- claims:
+  - NarrativeArchitecture | the rehabilitation at Camp Fluttershy is to be dramatized as grueling and authentic | rehabilitation at Camp Fluttershy grueling and authentic | yes
+  - History | the Tzinacatl medicine does not make the POWs happy, it only makes them functional | The Tzinacatl medicine does not make the POWs "happy." It merely makes them functional | no
+  - History | because the medicine withholds the synthetic high of the Hive's drugs, the Changelings must sit in their un-medicated minds and feel baseline guilt for their actions | Because the medicine denies them the synthetic high of the Hive's drugs | no
+  - History | the medicine keeps the nervous system from collapsing, but joy or euphoria can only be regained through hard un-automated work: board games, weaving silk, genuine organic friendships | the only way they can actually achieve "joy" or "euphoria" again | no
+- goals:
+  - the reader is to take the rehabilitation as grueling and authentic, not easy or artificially happy | NarrativeArchitecture | grueling and authentic
+- whole: The note sets a directive that Camp Fluttershy's rehabilitation be shown as grueling and authentic, then supports it by reporting in-world facts about how the Tzinacatl medicine works and how the POWs can only earn joy through effortful activity and real friendship.

@@ -1,0 +1,5 @@
+- sources:
+  - chapter 8 | the place in the story plan where the expanded scene is to go; build on it | In chapter 8, let's expand this | referred-to
+  - this (the barracks scene the model just proposed) | starting point to expand with a Rainbow rant about Celestia and Luna; the Twilight agreement and reveal are offered as options and may be only a seed, so treat as provisional | let's expand this and have rainbow also rant | referred-to
+- order:
+- about: The user asks the model to expand the chapter 8 barracks scene with a Rainbow rant about Celestia and Luna, and asks whether Twilight's agreement should be a full turn against Celestia or only a seed.

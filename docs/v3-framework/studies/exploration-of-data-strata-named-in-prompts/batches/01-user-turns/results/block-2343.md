@@ -1,0 +1,6 @@
+- sources:
+  - the national spirit for Equestria in EaW | the origin of the user's term Stagnation of Harmony; treated as the in-game thing whose provenance the model is asked to explain, possibly a throwaway mechanic term | the national spirit for Equestria in EaW | referred-to
+  - the development history of the mod | the model is asked to report from it where the term came from, whether deliberate design or a throwaway | Where did that come from in the development history of the mod | referred-to
+  - others' interpretations of the term | comparison point: whether others have taken the term's interpretation as far as the user has | others haven't taken its interpretation to the level I have | referred-to
+- order:
+- about: The user asks the model where the EaW mod's Equestria national spirit term Stagnation of Harmony came from in the mod's development history, and whether it was a throwaway mechanic term that nobody else has interpreted as deeply as they have.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the battery-manufacturing and Griffon artisan discussion to a new worldbuilding question about what the Tzinacatl used horn healing paste for before Aquileian unicorns did, and gives their limited pre-Reform contact as background.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's three-way distinction and asks for a next step: apply its tests to sort the propositions, check whether the new ones stand alone or are sub-examples, and produce a final report plus a methodology for revising and vetting future propositions.

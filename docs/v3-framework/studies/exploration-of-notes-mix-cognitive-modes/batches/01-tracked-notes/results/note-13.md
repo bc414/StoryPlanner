@@ -1,0 +1,5 @@
+- claims:
+  - History | Luna approached Applejack a further time to offer her a generalship, and Applejack accepted, a dated event before the story begins | Luna approached Applejack again to be a general. This time, Applejack accepted. | yes
+  - Characterization | Applejack's inner motive: taking the post made her feel she could make a difference in the world once more, which says what drives her | She felt like she could make a difference in the world again. | no
+- goals:
+- whole: The note reports that in 1010 Applejack accepted Luna's renewed offer to become a general, and it adds the renewed sense of purpose that led her to accept.

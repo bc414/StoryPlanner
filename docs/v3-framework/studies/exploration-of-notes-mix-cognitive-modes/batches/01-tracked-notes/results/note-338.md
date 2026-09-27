@@ -1,0 +1,6 @@
+- claims:
+  - History | The industrialists promised "clothes for all", and the people took this to mean "civil rights for all" without consciously noticing the shift | promised "clothes for all" and it was subconsciously interpreted as "civil rights for all" | yes
+  - History | Chrysalis, acting as Eagleclaw's helper, offered the industrialists outright bribes instead of meeting those expectations | Chrysalis (as Eagleclaw's helper) offered them straight up bribes instead | yes
+  - History | Bribery was the easier course for the powerful than delivering what the people expected, which explains why it was chosen | That's a lot easier than delivering the expectations of the people | yes
+- goals:
+- whole: The note reports, in the manner of an in-universe historian, how a slogan promise was read as a demand for civil rights and how bribery was used to sidestep that expectation in 981.

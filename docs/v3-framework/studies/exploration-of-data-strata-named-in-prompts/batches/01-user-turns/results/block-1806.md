@@ -1,0 +1,6 @@
+- sources:
+  - Epic Games as a definitive analysis (the model's Epic case from the previous turn) | treat with skepticism, not as definitive, because Epic's model looked more alienating and extractive to players | I am skeptical about Epic Games as a definitive analysis | referred-to
+  - the itch.io case | use as suggestive evidence that regulating the app stores might not change things | the itch.io case seems to suggest | referred-to
+  - the free time from AI example I talked about earlier | use as a premise from earlier in the conversation when asking whether itch.io or a new platform could match Steam with a lower cut | Given the free time from AI example I talked about earlier | referred-to
+- order:
+- about: The user pushes back on the model's use of Epic as a test case, then asks whether regulating app stores (by allowing other stores or capping fees, and whether that would be constitutional) would help, and whether itch.io or a new platform could match Steam's features at a lower cut.

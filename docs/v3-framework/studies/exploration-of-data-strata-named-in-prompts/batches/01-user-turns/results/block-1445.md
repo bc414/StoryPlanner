@@ -1,0 +1,7 @@
+- sources:
+  - the works the model listed as influences (Aeneid, Silmarillion, Better Call Saul, Attack on Titan, Watchmen, Star Wars and so on) | do not assume the author absorbed the structure from these; most were never consumed | I haven't consumed most of these things | referred-to
+  - the author's own account of what they have watched or read (Star Wars, Rogue One, City Hunter, Itaewon Class; not One Piece, Breaking Bad, Lord of the Rings, Game of Thrones) | treat as true and correct the model's assumed exposure; Star Wars only lightly followed | Only Star wars but I'm not they invested | first-named
+  - the fanfics the author regularly reads | not a source of the structure, since they do not use it | The fanfics I regularly read don't actually utilize this structure either | first-named
+  - converging in first principles | offered as a tentative alternative explanation for how the author reached the design independently, not settled | Maybe there's more of an effect of converging in first principles | first-named
+- order:
+- about: The user corrects the model's account of where their narrative structure came from by stating what they have and haven't actually consumed, and tentatively suggests independent convergence from first principles instead.

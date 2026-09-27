@@ -1,0 +1,7 @@
+- sources:
+  - P&K | treat as the authority for how jaeger training works (a switch-off of emotion sense when needed, not permanent numbing) and as the origin of the nursery scene; keep it distinct from the author's own plans | P&K depicts the training as the ability to shut off the emotion sense | referred-to
+  - the model's previous suggestion in this conversation, that jaeger numbing is permanent | reject, the author does not plan it that way | I don't plan on numbing being permanent | referred-to
+  - "The Crystalling" (canon episode) | use as the established canon base, where Sunburst calms baby Flurry's magic with a spell he invented, which the author's plan then builds on | Sunburst calms it down via a spell of his invention at the end of "The Crystalling" (canon episode) | referred-to
+  - my story plans for The Lioness of Tall Tale | keep separate from P&K material, so the P&K nursery scene is not mistaken for part of these plans | don't confuse it with my story plans for The Lioness of Tall Tale | referred-to
+- order:
+- about: The author corrects the model's idea of permanent numbing using P&K's version of the training, lays out how Flurry Heart's uncontrolled magic, Thorax's training and her cutie mark come about, suggests an allegorical jaeger bedtime story, and warns the model not to mix the P&K nursery scene into the Lioness of Tall Tale plans.

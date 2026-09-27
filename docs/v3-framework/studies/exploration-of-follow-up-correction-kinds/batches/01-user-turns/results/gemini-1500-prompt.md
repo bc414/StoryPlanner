@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the fixed peg and moves on to a new question, supplying story background (Coltbert hired after Vérany's revolution, told to snub Vérany) and asking what Coltbert's own reasons for setting up the peg would be.

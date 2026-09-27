@@ -1,0 +1,8 @@
+- sources:
+  - initial week long session (terms from it) | terms that began there are suspect and to be triaged for whether they are too weak to carry forward; not treated as settled | what other terms are from that initial week long session | referred-to
+  - v1 archive | where the session's terms were propagated; to be checked for weak terms under the new framework, not accepted as they stand | propagated throughout v1 archive and v2 | referred-to
+  - v2 | where the session's terms were propagated; to be checked for weak terms under the new framework | propagated throughout v1 archive and v2 | referred-to
+  - new analytical framework (rigorous materialist historicist analysis, not tropes or grimdark conventions) | the standard terms are judged against; the model must first define the current methodology and why, and the user will ratify or correct it before triage | constrained by rigorous materialist historicist analysis and not tropes or grimdark conventions | referred-to
+  - the MCP server | search it for any extra context needed rather than assuming | Search the MCP server for any additional context you need instead of assuming | referred-to
+- order:
+- about: The user asks the model to first set out the current methodology and its rationale for ratification, then later triage which terms from the initial session and the v1 and v2 material are too weak for a materialist framework, searching the MCP server instead of assuming.

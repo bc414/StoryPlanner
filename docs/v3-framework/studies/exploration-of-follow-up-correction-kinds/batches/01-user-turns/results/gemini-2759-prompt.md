@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user reacts to the account with a remark about how extreme it sounds and how little it featured in their schooling, then asks a new follow-up question about what share of controllers struck.

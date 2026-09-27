@@ -1,0 +1,8 @@
+- claims:
+  - History | Grover III eradicates the monsters, which ends the Honest Racket, so the male griffon no longer has to bleed to protect the estate | When Grover III eradicates the monsters, the "Honest Racket" ends | no
+  - History | The male griffon refuses to give up his monopoly on female reproduction, and the archons keep it going | he refuses to surrender the monopoly on female reproduction, and the archons continue it | no
+  - History | The archons codify inheritance as doctrine: Boreas blesses the Lion with land, and the Lion has a divine duty to pass it to his True Cub | The Archons codify inheritance. They declare that Boreas blesses the "Lion" | no
+  - History | Bastardy is branded heresy, on the reasoning that it introduces fraudulent data into the theological and economic ledger | Bastardy is branded a heresy because it introduces fraudulent data | no
+  - History | Grover III uses the strict lineage system to stop his knights turning their swords on each other and to push them toward artisanship, making property transfer the highest civic and religious virtue so that bureaucracy of the bloodline replaces battlefield violence | he replaces the violence of the battlefield with the bureaucracy of the bloodline | no
+- goals:
+- whole: The note gives an in-world causal account of how the end of the monster threat led Grover III and the archons to build a sacralized inheritance and lineage system that turns knightly violence into bureaucracy, and it asks nothing of the reader.

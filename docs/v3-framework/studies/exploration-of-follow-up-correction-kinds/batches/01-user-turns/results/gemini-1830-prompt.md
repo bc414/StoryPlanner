@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question, asking what policy would govern having children inside the palace, building on the model's account of the race-blind palace caste without disputing any of it.

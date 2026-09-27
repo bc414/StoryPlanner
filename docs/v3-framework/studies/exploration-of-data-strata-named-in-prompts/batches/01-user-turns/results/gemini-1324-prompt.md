@@ -1,0 +1,4 @@
+- sources:
+  - my lore (the 1st Aquileian revolution in 980 led by Verany and the bourgeois urban elites, its failure in six months, the Coltbert reforms under the restored Moriset Discret, and the FJA revolution in 1007) | treat as the true timeline; the model should correct its account to fit these dates, so republican ideals come later and not immediately | recall that the 1st Aquileian revolution led by Verany and the bourgeosie urban elites happened in 980 and failed in 6 months (in my lore) | referred-to
+- order:
+- about: The user corrects the model's account of the martial clubs by restating the author's own timeline of revolutions and reforms, and floats a tentative idea that the crown endorsed the clubs as a pipeline for a reconquest army.

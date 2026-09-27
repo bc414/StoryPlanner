@@ -1,0 +1,9 @@
+- questions:
+- shape: The user turn corrects the model's drug mapping with the user's own planned design (Red Love as magic and meth-like, Pink Love as friendship and methadone). It adds a fact about the Tzinacatl black market, then asks two new questions of its own: how methadone works, and whether stimulants replaced opioids. It does not respond to the model's proposed new drug categories (Violet, Green, Grey, Black) at all.
+- settles:
+  - Red Love is really magic, and magic in this world is ambition that affects the physical world | red love to really be "magic"
+  - Pink Love is friendship | pink love is "friendship"
+  - Twilight and Fleur discover that Red Love is magic and Pink Love is friendship when they take apart the love harvester | figure out when taking apart the love harvester
+  - Pink Love is modeled on methadone rather than on opioids generally | pink love being methadone, not opioids
+  - Purified Red Love, being magic, is best modeled on meth, the pure stimulant | ingesting purified red love seems to make the most sense as meth
+  - The Tzinacatl black market economy was built on exporting drugs, and Chrysalis's Red Love replaced those exports | exporting drugs which got replaced by Chrysalis's red love

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author builds on the prior analysis by setting out how the Las Pegasus debate in the Ambition chapter will work and how Gilded Trust's coalition and the Aquileian parties' voter bases are composed, without pointing the model at any body of material to draw on or avoid.

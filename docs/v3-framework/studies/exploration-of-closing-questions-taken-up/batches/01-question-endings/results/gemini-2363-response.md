@@ -1,0 +1,9 @@
+- questions:
+  - Does the user want to explore how Coltbert, as a history scholar, uncovers the Imperial propaganda about the 0-705 ALB era? | ignored | Says nothing about Coltbert or the propaganda thread. It goes back to Luna's dream spell. | none
+  - When Coltbert reads the true history, does he realize the early rural Warlords had the right idea about localized defense and artisanship before the Empire centralized everything? | ignored | Does not touch Coltbert's realization or the localism-versus-centralization theme. | none
+- shape: Turns away from the model's offered Coltbert thread and back to an earlier lore point, Luna's global dream-draining spell. It questions her motive as it stood and proposes a replacement rationale grounded in Equestrian experience. It works as a self-driven revision of the setting's backstory, not a reply to the model's question.
+- settles:
+  - Luna's dream spell is reframed. It replaces dreams of conquest with dreams of friendship. It is not a drain, and it is not aimed at the warlords out of malice. | replace dreams of conquest with dreams of friendship
+  - Luna's motive is naive Equestrian moralism. She thought Equestrian morality alone was enough and ignored that Equestrian harmony depended on the economic integration of the three tribes' magic and agriculture. | naively thought Equestrian morality was all that was needed
+  - Luna's plan is for friendly warlords to share and teach monster-fighting so that the world eradicates its monsters. | share and teach others how to fight the monsters
+  - Luna avoids openly sending thestral warriors abroad because other cultures would read it as an invasion. She also judges them too selfish to manage a post-monster world. | other cultures would think it's an invasion

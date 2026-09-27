@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft a dialogue scene between AJ and a lieutenant (Rarity or a cynical field commander) arguing over when to start the offensive, saving the army versus saving the city? | no user turn | none | none
+- shape: none
+- settles:

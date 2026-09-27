@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's five axes together with their own two and asks whether all seven can go into the system prompt so the AI picks which to apply, which is a follow-up design question and not a correction.

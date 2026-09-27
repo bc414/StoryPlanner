@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | Presents the Cloudbury Meat Pie as the food-form embodiment of the Republic's standing ideal, offering the technology as an emblem for the theme | The Cloudbury Meat Pie is the culinary manifestation of "The Republic Stands." | yes
+- goals:
+- whole: The note deploys the Cloudbury Meat Pie as a concrete emblem of the Republic's enduring stance, offering it as evidence for the theme without saying what the reader should take from it.

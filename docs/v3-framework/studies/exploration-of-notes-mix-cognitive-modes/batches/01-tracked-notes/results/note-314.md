@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | Appleack's realization in the scene serves as evidence for the proposition that warring tribes can be united by a shared economic purpose that respects their biology and culture | Appleack sees that warring tribes can be united if you give them a shared economic purpose that respects their biology/culture | yes
+- goals:
+- whole: The note deploys Appleack's insight at the negotiation breakthrough as evidence for the proposition that a shared economic purpose respecting biology and culture can unite warring groups.

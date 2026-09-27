@@ -1,0 +1,4 @@
+- sources:
+  - my plan for the polar bears (bypassing Bjornling, with Applejack and Sunglider delivering direct aid to polar bear villages) | the author's own story plan, given as the fictional counterpart of the real-world aid strategy; treat as the author's intended design and use it as the reference point for the question | this is my plan for the polar bears | first-named
+- order:
+- about: The user offers their planned polar bear storyline as a fictional parallel to real-world aid that bypasses corrupt leaders, then asks the model what hope exists for ordinary Russian or Chinese civilians.

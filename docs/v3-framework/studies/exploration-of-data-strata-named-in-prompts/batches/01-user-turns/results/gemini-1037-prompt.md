@@ -1,0 +1,6 @@
+- sources:
+  - the idea that the core insight is external parameterization of the 3D magical lithography spell via a mask | the user endorses it as the core design insight and treats it as adopted | I like the idea that the core insight is allowing external parameterization | referred-to
+  - Twilight's earlier attempt to copy a unicorn's horn pattern into a crystal around season 1, ended after Applejack yelled at her in Winter Wrap Up | new backstory the author states from memory; treat as established story history to build into the plan | Twilight already tried studying how to copy a unicorn's horn pattern into a crystal | first-named
+  - canon of the show (Twilight can read a book and figure out how to cast a spell) | treat as true canon and use it to infer that spell patterns are not very complex | canonically, Twilight can read a book and figure out how to cast a spell | referred-to
+- order:
+- about: The user endorses the mask-parameterization idea from the last model turn, then adds a backstory of Twilight's earlier failed attempt to copy horn patterns into crystals and a canon point that spell patterns are probably simple.

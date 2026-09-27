@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user poses a what-if question, asking the model to work out what happens if the changelings destroy the dam during the battle, without pointing at any body of material to use or avoid.

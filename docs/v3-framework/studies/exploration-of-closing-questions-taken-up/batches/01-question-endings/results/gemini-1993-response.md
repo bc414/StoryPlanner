@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to paste a prompt they currently use so the two can practice refactoring it into a strictly atomic format? | ignored | Nothing said about pasting a current prompt or practicing a refactor. The user instead brings a new draft ordering rule for a system prompt and asks for a better wording. | none
+- shape: Moves on from the model's explanation of atomic prompts to a new request. The user offers a draft ordering rule for the Part 1 cartographer system prompt and asks for a more elegant wording. This is a different task from the offered practice exercise, though it does bring a real prompt for review.
+- settles:

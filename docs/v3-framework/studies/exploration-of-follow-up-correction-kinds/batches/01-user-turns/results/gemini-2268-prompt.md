@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the earlier discussion by proposing a split between pegasus fighter pilots and close-air-support crews carrying unicorns, and asks whether a wings-of-dew spell matrix is needed for non-pegasus pilots or a parachute would do.

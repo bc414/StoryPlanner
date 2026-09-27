@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user directs a further round of searching, asking the model to widen the hunt for similar practitioners to non-English communities and forum-style message boards such as Space Battles, without stating that the earlier findings were wrong.

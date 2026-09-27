@@ -1,0 +1,6 @@
+- questions:
+  - Do high-tier spells like time travel or teleportation require Red (ego-driven) magic, or is there a Pink equivalent driven by collective prayer or solidarity? | ignored | none; the user turn moves to earth pony magic and does not mention high-tier spells, Red or Pink fuel, or collective casting | none
+- shape: Redirects to a different topic. It skips the model's question and raises its own worries about earth pony magic: whether Fleur should invent crop-specific fertilizer matrices, whether that undermines asset specificity, and whether cutie marks should give a discount on a pony's own crop. The turn is mostly tentative and self-doubting, thinking aloud with a few leanings and little firmly decided.
+- settles:
+  - Fleur will be working on the earth pony fertilizer matrices in the epilogue, even if they take about 30 years to invent | But Fleur will be working on it in the epilogue
+  - Tentative leaning: earth pony magic is stronger on a pony's own farm and a crop they love, because soil weathering takes a lot of magic over time | I guess when they are working with their own farm and their own fruit/crop that they love

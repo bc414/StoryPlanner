@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up set of questions about who used Gemini Ultra, whether the Google AI Ultra subscription is tied to it, and whether Pro with Deep Think makes Ultra obsolete, without pointing the model at any particular source of data.

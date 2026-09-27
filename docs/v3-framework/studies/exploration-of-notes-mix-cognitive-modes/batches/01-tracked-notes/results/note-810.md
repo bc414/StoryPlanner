@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten: world-builder ontology rule | in the harsh pre-industrial setting, one pony hoarding firewood would freeze the whole village, so survival is collective | If one pony hoarded firewood, the entire village froze | outside
+  - outside all ten: world-builder ontology rule | because of that, the biological Pink Love (Harmony) mutated into absolute, militant egalitarianism | Therefore, their biological "Pink Love" (Harmony) mutated into absolute, militant egalitarianism | outside
+  - outside all ten: world-builder ontology rule | Severyanan morality holds self-sacrifice to be the highest virtue rather than a tragedy | self-sacrifice is not a tragedy; it is the highest moral virtue | outside
+  - outside all ten: world-builder ontology rule | standing out, claiming Asset Specificity, or demanding personal luxury is shameful and seen as a danger to the herd | Standing out, claiming "Asset Specificity," or demanding personal luxury is viewed as deeply shameful and dangerous | outside
+- goals:
+- whole: The note states, as objective world rules, how scarcity-driven survival turned Severyana's harmony instinct into militant egalitarianism and a culture that prizes self-sacrifice and shames standing out.

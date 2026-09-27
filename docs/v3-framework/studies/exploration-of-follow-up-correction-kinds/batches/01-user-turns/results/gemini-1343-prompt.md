@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model cast Gabriella Eagleclaw as the object of Chrysalis's spite, a grudge match against her and one of the classmates who wounded Chrysalis. The user says she is Chrysalis's best friend. | "Actually Gabriella Eagleclaw is chrysalis's best friend" | flat, opening with "Actually" and no reason given, then moving straight on to develop the story
+  - fact of the world | The model blamed the whole peer group for the insult that wounded Chrysalis. The user separates the griffon friend who asked about changelings from the nepo children who insulted them, and sets the brilliant Eagleclaw apart from those children. | "unlike the nepo children" and "the nepo children insulted the bugs" | implied, folded into the user's own elaboration and never flagged as a fix
+- about: The user briefly corrects the model's picture of Eagleclaw as a hostile classmate, saying she is Chrysalis's best friend, and then uses that to revise the plan so Eagleclaw deduces Chrysalis's identity herself and stays silent until the counter-revolution.

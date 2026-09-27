@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's retrospective to a new task, asking for help making sense of a very long story (A Cub's Crush) and supplying their own earlier reviews and a PM to the author as context, without disputing anything the model said.

@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | names real-world fiat money and bank credit as the models for the Skyfall Marks technology, marked as ruthless in character | Ruthless Fiat/bank credit | yes
+- goals:
+- whole: The note names fiat currency and bank credit as the real-world inspiration for the Skyfall Marks technology.

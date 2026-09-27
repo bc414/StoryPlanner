@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user confirms "Hearth's Warming Bonds" as the branding for the story, explains the in-story plot logic behind it (the sanitized windigo tale versus the archaic Manehattan charter and the 5/6ths rule, and the shift from "War Bonds" to "Hearth's Warming Bonds"), and asks the model for the etymology of "bond" in currency and whether it relates to the harmonic sense of a bond.

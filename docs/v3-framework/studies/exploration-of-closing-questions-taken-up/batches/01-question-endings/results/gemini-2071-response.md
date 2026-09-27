@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to try a specific AI Studio prompt using the Quadrant 1 (Focused Explorer) settings, to see whether it gives more interesting UI layout ideas for the WPF story planner than standard chat? | ignored | The user does not take up the offer or the UI layout trial. They go on to ask which temperature and top-p suit their own story-planning tasks. | none
+- shape: Redirects. The user sets aside the offered UI-layout experiment. They state what they want from the AI in story planning: no random inventions, synthesis that articulates the nuance behind their instinct, and literary analysis with formal tools. Then they ask which temperature and top-p values fit those tasks, and why.
+- settles:

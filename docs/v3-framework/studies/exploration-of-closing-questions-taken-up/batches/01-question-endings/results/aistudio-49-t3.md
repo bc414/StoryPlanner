@@ -1,0 +1,7 @@
+- questions:
+  - Would a leaderboard rewarding volume and canning-friendly traits push the Apples and Pears into high-yield monocultures, and how would Applejack square the game's economic success with the soil's Terroir? | ignored | Says nothing about crop varieties, monoculture or Terroir. | none
+  - How does Granny Smith respond to the gamified SAA system: does she accept the scorecard as validation of Apple superiority, or see it as manipulation and refuse to take part? | ignored | Granny Smith does not come up; the turn moves on to the refugees' housing. | none
+- shape: Adds a new story fact without engaging either question. It offers a different way the two families come together (refugee hosting and shared hardship) in place of the model's gamified-rivalry account, and it does so in a short, terse statement.
+- settles:
+  - Both the Apple and Pear families are refugees, and Bright Mac and Pear Butter host them at the company headquarters/mansion | hosts both the Apples and the Pears who are refugees at their company headquarters/mansion
+  - The families' unity comes from the shared struggle of displacement and living together | Shared struggle unites them

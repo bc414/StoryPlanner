@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | He believes in rugged individualism, standing on his own effort | Believes in rugged individualism | none; the note gives no date or change word, only the track's question about the start of TLTT frames it
+  - unfixed | His individualism stops short of treason, meaning no betrayal of his own side or country | but without treason | none; no date, phase or tense given
+- beside: Backstory note dated 994 speaks of the same stance: he refuses Skyfall loans as a foreign griffon invasion and uses Aquilean nationalism rhetoric to push his workers to succeed like him. This fits self-reliance without disloyalty, but the note itself does not tie its belief to that year.

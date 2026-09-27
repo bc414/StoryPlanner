@@ -1,0 +1,7 @@
+- claims:
+  - History | Equestrians discouraged sexual ambition, meaning language and actions of taking or owning, because it resembled griffon serfdom and predatory behavior | Equestrians discouraged sexual ambition (language and actions that refer to "taking" or "owning") because it resembled griffon serfdom | no
+  - ThematicEvidence | Sex does not destroy harmony but sustains it, countering the premise that suppressing sexual ambition preserves harmony | Sex doesn't kill harmony, it sustains it | yes
+  - ThematicEvidence | Sex is a healthy balance of friendship and ambition and need not be fully predatory, so ambition and cooperation can coexist | Sex is a healthy balance between friendship and ambition. It doesn't have to be fully predatory. | yes
+  - ThematicEvidence | Nurturing away sexual ambition removes part of life and the intimacy, connection and love that come with it, showing the cost of the system's suppression | Nurturing away sexual ambition is like taking away a part of life | yes
+- goals:
+- whole: The note reports the in-world reason Equestrians discouraged sexual ambition, then argues as evidence that this suppression wrongly removes a healthy, harmony-sustaining part of life and love.

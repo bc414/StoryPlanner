@@ -1,0 +1,5 @@
+- claims:
+  - throughout | She comes from New Horseleans, with Aquileian influences | She is from New Horseleans, with Aquileian influences | none
+  - unfixed | She has a big ego, presented as a result of her origin and influences | Hence why she has a big ego | none; the track question frames it as who she is at the start of TLTT, but the sentence itself has no time marker
+  - unfixed | She is trying to use her asset specificity to put on a show | trying to use her asset specificity to put on a show | none; the question asks about the start of TLTT, but the sentence carries no tense or phrase of its own tying it to that point
+- beside: none

@@ -1,0 +1,10 @@
+- claims:
+  - NarrativeArchitecture | Fleur discovers that Equestrian schooling discourages calculators, by watching Twilight do math with her horn or in her head | Fleur learns that Equestrian education does not encourage calculators, after watching Twilight do math | yes
+  - Canon | The moment echoes the show's Failure Song, and its square-root math is tied to that source | The Failure Song reference! | no
+  - NotesToSelf | The author asks themself whether to use the exact square root from the song | use the exact square root? | no
+  - Characterization | Twilight's career as a researcher came from her ability to do mental math | Twilight became a researcher because she could do mental math | no
+  - History | Ponies in general are left at a disadvantage because they don't use calculators | everypony else is screwed because they don't use calculators | no
+  - NarrativeArchitecture | Fleur, as an outside observer, reacts to the practice as absurd | Fleur finds this ridiculous | yes
+  - ThematicEvidence | A tool is useless without understanding of why and how to use it; a calculator can't set up an equation or word problem and only does PEMDAS and graphing | The calculator is useless if you don't know why you are using it | no
+- goals:
+- whole: The note sketches a scene where outsider Fleur observes Twilight's mental math and learns Equestrian schooling shuns calculators, with a canon-reference idea, a note on Twilight's career, and Fleur's argument that tools are useless without understanding.

@@ -1,0 +1,6 @@
+- questions:
+  - When Twilight and Rarity relieve Celestia of her guilt in the war room, does she hand over political authority at once, or let go slowly and painfully? | ignored | Nothing on the handover of authority. The user moves to two other scenes involving Pinkie and Fluttershy. | What about when Pinkie Pie gives everyone including Celestia cakes
+- shape: Redirects. It skips the model's drafting question and adds two more characters to the ranking of who changes Celestia's worldview. Each comes as a concrete scene beat, put as a "what about" prompt and not as a reply.
+- settles:
+  - Pinkie Pie gives everyone, Celestia included, cakes, and reveals that a dash of red love is the special ingredient | Pinkie Pie gives everyone including Celestia cakes that she reveals a dash of red love is a special ingredient
+  - After the white peace, Fluttershy apologizes for yelling, then says that sometimes she has to let the animals free | post white peace when Fluttershy apologizes for yelling but then says sometimes I have to let the animals free

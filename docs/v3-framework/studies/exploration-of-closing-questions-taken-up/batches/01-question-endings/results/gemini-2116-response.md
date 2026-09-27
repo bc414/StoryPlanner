@@ -1,0 +1,4 @@
+- questions:
+  - Whether to explore how Théodore Vérany, now a hardened nationalist running an industrial cartel in Aquileia, reacts to reports that the Lionesses and Thugs have infiltrated Skyfall | no user turn | none | none
+- shape: none
+- settles:

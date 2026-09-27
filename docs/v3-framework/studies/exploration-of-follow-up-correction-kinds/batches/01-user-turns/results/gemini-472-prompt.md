@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Value Charge and Legend update to ask a new question about whether academic frameworks exist for conflict type and presentation or whether these are self-explanatory.

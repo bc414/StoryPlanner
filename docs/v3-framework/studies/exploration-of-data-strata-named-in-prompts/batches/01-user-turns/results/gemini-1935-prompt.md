@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about what Anthropic's latest Claude products are and how Claude compares to Gemini, without pointing the model at any particular body of material.

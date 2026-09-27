@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Canterlot/Vanhoover tactics discussion and asks a new question about which real-world country serves as a wealthy safe haven for the international rich, to draw inspiration for Skyfall's capitalist setting.

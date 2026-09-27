@@ -1,0 +1,8 @@
+- questions:
+  - How does Kessel's discovery that Equestrian friendship produces better fuel than Chrysalis's torture apparatus affect his loyalty to the Changeling meritocracy, and does he see Chrysalis as evil or as an incompetent engineer? | ignored | Nothing about Kessel. The turn moves on to Henri, Pinkie and Fleur. | none
+  - How does Rasti justify to the Temberik elders that ponies are using the crystals his people consider cursed, and how do the traditionalists react to hearing they power tractors and radios? | ignored | Nothing about Rasti, the Temberik council or the crystals. | none
+- shape: The user sets aside the model's slate of three surrogates (Kessel, Rasti, Skyfall economist) and its Socratic questions. They note that their older Henri notes are obsolete, then ask themselves whether Henri should be baffled by Pinkie's cartoon physics and answer it in the same turn: Henri would vibe with Pinkie, and Fleur should be the baffled, annoyed one. It redirects the surrogate choice to a character the model did not propose.
+- settles:
+  - Aquileians are already ace fighter pilots and invented Wings of Dew, so the earlier notes about Henri's awe are obsolete, including the shock that Starlight can fly. | these above notes are obsolete, since Aquileians are the ace fighter pilots already and invented Wings of Dew
+  - In the Pinkie Brings Cakes scene, where Pinkie pulls a red love canister out of her mane, Henri is not the baffled one. He would vibe with Pinkie. | Actually, Henri would vibe with Pinkie
+  - Fleur is the character baffled and annoyed by Equestrian cartoon physics, because she views magic as a science. | I think Fleur should be the one who is baffled and annoyed since she views magic as a science

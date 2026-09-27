@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates their own understanding of NE and PE in light of the model's Three Little Pigs and Fluttershy analysis, folds in misdirection as another use of the reader's epistemic gap, and asks the model to reanalyze the PE/NE naming and spell out what "show don't tell" withholds and shows.

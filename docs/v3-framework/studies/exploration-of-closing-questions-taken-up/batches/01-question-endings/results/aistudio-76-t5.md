@@ -1,0 +1,9 @@
+- questions:
+  - If Authenticity rests on the other five Elements of Liberty, what happens to Applejack's Posture when one pillar cracks in peacetime, e.g. a recession from Equity failing? Does it degrade into populist propaganda? | ignored | none | none
+  - Once Applejack actualizes Authenticity and becomes President, how does her macro-level Posture feed back into and strengthen her friends' micro-domains, e.g. legal protection for Twilight's magical economy or institutionalized rehab protocols for Fluttershy? | ignored | none | none
+- shape: Sets aside the model's two follow-up questions and restates the element scheme in the user's own terms. The user corrects the model's framing of how the elements relate, and gives a revised account of what each group does and why the last element is hidden.
+- settles:
+  - Magic/Ambition was needed in the nursery but was hidden, lost to history, or scrubbed and sanitized, and it needed the other five original elements to unlock it | magic/ambition was needed in the nursery and was hidden/lost to history or scrubbed/sanitized, needing the other 5 original elements to unlock it
+  - Grace, Equity, Fraternity, Ambition and Resilience are the five elements that defeat Chrysalis's total-war tyranny machine | Grace, Equity, Fraternity, Ambition and Resilience were needed to defeat Chrysalis's total war tyranny machine
+  - Defeating the war machine unlocks a civic peace | unlocking a civic peace
+  - The remaining element is the hidden one because it is what the real world is missing | It is the hidden element because it is what the REAL world is missing

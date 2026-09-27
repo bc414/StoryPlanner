@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn just sends a new YouTube link with no comment, presumably asking for the same kind of summary of another video, without correcting anything in the previous answer.

@@ -1,0 +1,3 @@
+- questions:
+- shape: The user puts a new question of their own and doesn't respond to the model's analysis. They ask the model to complicate its picture of WSB by covering grifters and the different kinds of people in the community. The turn is short and sets the next thing to look at. It gives no verdict on the character mappings.
+- settles:

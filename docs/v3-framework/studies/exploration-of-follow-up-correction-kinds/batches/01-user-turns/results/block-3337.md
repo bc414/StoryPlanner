@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's announced set of sources leaves out the v2 note track definitions, which the user treats as necessary for understanding the methodology | You must also pull the note track definitions from v2 | flat directive, phrased as a requirement added to the model's plan, with a brief purpose given
+- about: The user tells the model to add the v2 note track definitions to the material it is about to retrieve, so that it grasps the methodology before working on the chapters.

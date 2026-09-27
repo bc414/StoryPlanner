@@ -1,0 +1,7 @@
+- claims:
+  - History | Thorax is assigned to research the Lioness spell and goes to the parlors in Manehattan | Thorax's next assignment is to research the Lioness spell, so he goes to the parloirs in Manehattan | yes
+  - History | While there he learns empathy and consent and loses his wish to be a predator | There, he learns empathy and consent and doesn't want to be a predator anymore | yes
+  - History | He reads the original Coltbert Predator's Dilemma paper | He reads the original Coltbert Predator's Dilemma paper | yes
+  - History | He learns how the Lioness spell works and comes to see the blast as a moral judgement on the changeling hierarchy | He learns how the Lioness spell works and realizes the blast was a moral judgement on the changeling hierarchy | yes
+- goals:
+- whole: The note reports, as a sequence of past events, how Thorax's research trip to Manehattan changed his outlook and led him to understand the Lioness blast as a moral judgement on the changeling hierarchy.

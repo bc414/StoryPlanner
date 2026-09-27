@@ -1,0 +1,8 @@
+- claims:
+  - History | Fluttershy changed the device's board into a comfy bed and the spike into a stuffed animal, reported as a past event | Fluttershy replaced the wooden board with a comfy bed. She replaced the spike | no
+  - outside | world-rule ontology: the stuffed animal is made of changeling silk and is shaped so a pony can hug it to the chest/barrel | a stuffed animal made of changeling silk that a pony can hug | outside
+  - outside | world-rule ontology: the draining crystal sits inside the pillow and the valve tubes exit through the tail of the cuddly animal | The draining crystal is inside the pillow. The tubes connected to the valve come out the tail | outside
+  - outside | world-rule ontology: the POWs design the beds and pillows and make them from colorful, artistic luxurious changeling silk | The POWs help design the bed and the pillows | outside
+  - History | Starlight made the draining spell less painful, reported as a past event | Starlight made the draining spell less painful | no
+- goals:
+- whole: The note describes what the Love Donator is now made of and how it is built (bed, silk pillow animal, hidden crystal and tubes), along with who changed it and who designs it, and it names no reader effect.

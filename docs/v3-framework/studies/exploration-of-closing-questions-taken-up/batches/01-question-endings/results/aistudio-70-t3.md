@@ -1,0 +1,10 @@
+- questions:
+  - How does EEEE! shift its psychological makeup from rebellious union to the State once it holds Manehattan | ignored | Says nothing on this; the turn is only about the recall rule's basis. | none
+  - How does Flowing Current keep workers on triple munitions shifts from seeing him as another extractive boss, and keep Griffonian-style solidarity under war fatigue | ignored | Not addressed. | none
+  - Does limiting the 2/3rds vote to pre-war Manehattanites (excluding refugees) create a Predator's Dilemma inside the working class | ignored | Not taken up; the refugee franchise is never mentioned. | none
+  - How does EEEE! square Equestrian Equality with having disenfranchised the refugees to win | ignored | Not touched. | none
+- shape: Corrects the model and redirects. It rejects the corporate-charter framing, keeps the Hearth's Warming option, points out that the model's version contradicts the user's established Hearth's Warming Eve backstory, and asks for the rule to be redone to fit. The model's follow-up questions are passed over.
+- settles:
+  - Manehattan was not founded as a corporation, so the Sovereign Port Receivership Charter is dropped | I don't see how ancient Manehattan was built as a "corporation"
+  - The recall rule will be based on Hearth's Warming (Option A's angle) | I do like the heart's warming angle
+  - Canon for Hearth's Warming Eve: labor strikes and disputes caused the blizzard, because unicorns stopped moving the sun and pegasi stopped managing the weather. Disharmony did not summon windigos. The rule must fit this | it wasn't windigos caused by disharmony, it was labor strikes and disputes that caused a blizzard

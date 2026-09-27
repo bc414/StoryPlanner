@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question seeking further episodes that show Pinkie's understanding of fear and adrenaline, building on the model's examples without disputing anything in them.

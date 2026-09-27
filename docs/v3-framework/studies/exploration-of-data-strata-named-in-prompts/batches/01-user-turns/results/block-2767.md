@@ -1,0 +1,4 @@
+- sources:
+  - the story (the fan work the model has just been analysing) | the author's own recollection of an attempt to read it, offered as a personal impression that they abandoned it over prose quality, so it is a limited, first-hand and partial reading, not a basis for claims about its content | I remember trying to read the story but couldn't get past the prose quality | referred-to
+- order:
+- about: The user offers a brief personal aside from memory that they tried to read the story under discussion but gave up because of its prose quality.

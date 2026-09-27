@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to test the Worldbuilding Consultant approach now, by attaching a piece of lore and asking for a historical parallel? | ignored | Says nothing about attaching lore or trying the approach; asks instead for a review of their past chat histories. | none
+- shape: Redirects to a new request. The user drops the offered test and asks the model to review their actual story-planning chat histories, sort the planning tasks into categories, and say which method suits each. This is an instruction about what to analyze next.
+- settles:

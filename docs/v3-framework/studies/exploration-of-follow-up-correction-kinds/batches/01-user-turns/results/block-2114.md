@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops a new block of thematic notes about the sick role, Celestia's Stagnation of Harmony and the parloirs' therapy, and asks how to deliver them and which subject to attach them to, without reacting to the Chasseur Doctrine recommendation.

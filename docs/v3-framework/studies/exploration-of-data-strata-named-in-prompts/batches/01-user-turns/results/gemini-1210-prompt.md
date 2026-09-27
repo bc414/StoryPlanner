@@ -1,0 +1,5 @@
+- sources:
+  - the context the user lays out in this turn (Celestia's ban on combat magic, Twilight's disobedience, Fluttershy sent as a lure, the Wonderbolts' role) | treat as true story facts and base the new analysis on them | The context is that | first-named
+  - the model's earlier analysis of the days after the battle | revise it to fit the new context rather than keep it as written | Please give an updated analysis | referred-to
+- order:
+- about: The user supplies backstory and motivation details about Celestia, Twilight, Fluttershy and the war, and asks the model to redo its earlier analysis in light of them.

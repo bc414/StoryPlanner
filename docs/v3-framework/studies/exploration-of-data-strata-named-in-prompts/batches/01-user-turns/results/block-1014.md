@@ -1,0 +1,6 @@
+- sources:
+  - the story's factions, in-story events and their allegories ("my story's ultimate assertion", "all the factions (good and bad), the allegories, the in-story events") | material to be drawn on and laid out in full; the model should map all of it and reason from the story's own claim that Aquileian ego-capitalism is one pillar, not the full synthesis | "map out all the factions (good and bad), the allegories, the in-story events" | referred-to
+  - the roles of the Bluebell Spearhead and Canterlot Paradrop as just settled in this conversation | treat as settled and current; the mapping should be built on them as now fixed | "now that the role of Bluebell Spearhead and Canterlot Paradrop are clear" | referred-to
+  - the 2008-2026 allegorical framing | the real-world frame the model should read the Aquileians, the mane 6 and the story's assertion against | "in the allegorical framing of 2008-2026" | referred-to
+- order:
+- about: The user accepts the settled roles of the Bluebell Spearhead and Canterlot Paradrop and asks the model to work out what the Aquileians and the mane 6 stand for in the 2008-2026 allegory, what the story's "one pillar, not the full synthesis" claim says about the present, and to lay out a full map of factions, events and their allegories.

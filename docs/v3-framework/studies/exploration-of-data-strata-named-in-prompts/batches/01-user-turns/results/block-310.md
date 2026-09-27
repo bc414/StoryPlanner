@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user admits they have been calling the locking system by the real-world term DRM and asks for an in-universe acronym to replace it.

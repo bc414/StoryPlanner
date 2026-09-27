@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the material-conditions worldbuilding discussion and asks a new question about the prequel's narration: the pros and cons of using Krista rather than Chrysalis as the third-person limited FID focal character in the Skyfall and Herzland chapters, and of switching back after 978. They note the chapter 1 narration they have already settled on.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to extend the "Hasbro mandate as in-universe flaw" principle to new areas not yet in the story plan, re-reading the plan and checking it against online fandom reaction, without disputing anything in the previous answer.

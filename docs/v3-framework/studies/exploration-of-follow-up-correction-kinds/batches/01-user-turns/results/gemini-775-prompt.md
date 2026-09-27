@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the vowel-phonetics topic and starts a new request, asking for an analysis of whether "Tally Mark" works better than "Tally Stock" as an MLP-style character name, without commenting on anything in the model's answer.

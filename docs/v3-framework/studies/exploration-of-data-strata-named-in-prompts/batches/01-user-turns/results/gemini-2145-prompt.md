@@ -1,0 +1,6 @@
+- sources:
+  - initial plan, Aquileia as the good Republic and the Griffonian Republic as flawed | superseded earlier version of the plan, no longer holds; mentioned as the baseline that was reversed | "initially planned for Aquileia to be the good Republic" | referred-to
+  - current inverted plan, Griffonian Republic with Equestrian harmonic morals and Aquileians with Equestrian asset specificity taken to extremes | the author's present, settled design, to be used as the basis for the contrast asked for | "now I've inverted it into Griffonian Republic having the more Equestrian harmonic morals" | referred-to
+- order:
+  - current inverted plan over initial plan | "now I've inverted it"
+- about: The user asks the model to contrast the Griffonian Republic with the Aquileians it just analysed, and remarks that their earlier plan of a good Aquileia and a flawed Griffonian Republic has now been reversed.

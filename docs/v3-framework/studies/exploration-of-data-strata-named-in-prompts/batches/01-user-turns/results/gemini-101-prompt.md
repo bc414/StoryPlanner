@@ -1,0 +1,4 @@
+- sources:
+  - past chapters | the model is to draw on them to analyze how the chosen title Sabotage connects to what has already been written and to find places for foreshadowing | how this connects with past chapters | referred-to
+- order:
+- about: The user accepts the title Sabotage for the chapter and asks the model to analyze how it ties into earlier chapters and how it can be foreshadowed.

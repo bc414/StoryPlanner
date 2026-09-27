@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to run a 'Literary Stress Test' on a specific scene from The Lioness of Tall Tale, with the model in Auditor mode checking character motivations for logical flaws? | no user turn | none | none
+- shape: none
+- settles:

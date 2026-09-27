@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model's real-world and story examples leaned on digital, software-lock products (printer DRM, tractor software, always-online games, Adobe, subscriptions), which don't fit a WW2-era setting | What examples existed before digital products? Since my era is WW2 | put as a question, with the era given as the reason, without saying outright that the earlier examples were unsuitable
+- about: The user asks for pre-digital examples of the rent-seeking versus ownership distinction that fit a WW2-era setting, implying the earlier digital examples don't fit, while allowing magic to fill gaps.

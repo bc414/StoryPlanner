@@ -1,0 +1,7 @@
+- questions:
+  - Whether, when the Aquileian Navy destroys the Storm King at Mount Aris in 1006, it finds and glasses a Statthalter island outpost, by accident or on purpose | ignored | none; the user turn goes on to Chrysalis's blind eye, Statthalter autonomy and the Jaegers, and never mentions the Aquileian Navy or the outposts being destroyed | none
+- shape: Sets aside the model's closing prompt and pursues its own line. It asks the model new questions about Chrysalis's motivation and whether she would turn a blind eye. It proposes a Statthalter economy of quotas plus side sales. It then states conclusions about how power is distributed among Chrysalis, the Statthalters and the Jaegers. It ends by asking the model to review the plans and analyse them thoroughly.
+- settles:
+  - The Statthalters run their island fiefdoms with operational autonomy. They send quotas to the hives and sell the excess to global markets to buy mansions and cheap FJA premium goods for their hedonistic fiefdoms | the Statthalters on their islands would send the quotas to the hives, and then sell excess stuff to the global markets
+  - Chrysalis does not have totalitarian control over her elites. The Statthalters answer to her only once the slave trade collapses and they need new victims from her | Chrysalis really does not have totalitarian control over her elites
+  - Jaegers like Trimmel are communist sympathizers who have to be conned into running a fascist occupation | The jaegers like Trimmel are communist sympathizers who have to be conned

@@ -1,0 +1,4 @@
+- questions:
+  - Looking at the FIRST Robotics, MrBeast and Primer clusters, does the user have a sense of which era of their life each belonged to (they hold the ground truth on sequence)? | partly answered | The user doesn't say which era each cluster belonged to. They say they don't want to rely on memory and ask where else timestamps could be found. That treats the sequencing question as one to solve with data rather than recall. | Where else can I possibly get timestamps instead of relying on memory?
+- shape: Redirects. The user doesn't answer from memory. They ask a new question about where dated records of their subscription history could be found, which is a question about method and sources.
+- settles:

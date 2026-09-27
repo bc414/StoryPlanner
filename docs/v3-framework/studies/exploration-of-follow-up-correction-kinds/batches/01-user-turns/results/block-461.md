@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: plot logic of a proposed event | the model's account of Ahuizotl simply faking his death in the fire and defecting is questioned as unworkable, since a living Changeling C-suite member who left would be a security breach VOPS would hunt | "How can Ahuizotl fake his death if him being alive is such a massive security breach? Wouldn't VOPS go looking?" | raised as pointed questions that expose the gap, then followed by the user's own tentative repair options (grievous wound, witnesses, emotion-sense verification)
+- about: The user sets a constraint that the company's staff are unknowing non-Changelings, then questions the model's easy fake-death defection for Ahuizotl and works out with the model how to make it hold up against VOPS.

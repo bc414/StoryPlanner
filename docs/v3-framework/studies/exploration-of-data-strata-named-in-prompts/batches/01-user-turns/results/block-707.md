@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether fixed hard-coded labels for note tracks are needed, and floats replacing them with a per-entity-type configuration holding each track's question, reasoning and index number, which the view model would use to render the interface.

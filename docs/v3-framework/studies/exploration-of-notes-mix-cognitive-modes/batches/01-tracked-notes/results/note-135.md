@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | The organization's binding ethos is to turn Equestria's surplus into life for Griffonia, and to put excess profits into practical education and hospitals | The ethos is using the excess of Equestria to bring life to Griffonia and use excess profits for practical education and hospitals | yes
+- goals:
+- whole: The note asserts the organization's core ethos as what binds its members: moving Equestrian surplus to Griffonia and directing surplus profit to practical education and hospitals.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about the causal link between the Stagnation of Harmony theme and the family feud, which the model had described as an expression of that theme, without saying anything in the model's turn was wrong.

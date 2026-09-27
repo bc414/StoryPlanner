@@ -1,0 +1,4 @@
+- questions:
+  - Once Chrysalis's regime occupies Equestrian farmland, how does it feed its war machine given that Earth Pony magic needs pride and ownership: do the Statthalters manufacture false pride in the camps, as with the forged Love Harvesters letters, or does yield collapse because they misunderstand the need for consent? | no user turn | none | none
+- shape: none
+- settles:

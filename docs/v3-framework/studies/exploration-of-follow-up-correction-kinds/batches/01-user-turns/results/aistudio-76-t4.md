@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of Applejack's delayed Element as given and extends it, asking whether her Element is the hardest to actualize and whether that explains her canon sidelining, and proposing a parallel with the canon sixth element being revealed late, then asks for expansion and analysis.

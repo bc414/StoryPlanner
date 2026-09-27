@@ -1,0 +1,5 @@
+- questions:
+  - After the war, how do the EEEE! Machinists Guilds turn wartime co-determination into peacetime law, and does Gilded Trust try to strip their board seats, forcing Applejack to codify Harmonic Capitalism in the new Constitution? | ignored | The user turn says nothing about postwar law, the Guilds' board seats, or the Constitution. It moves to a separate question about naming. | none
+  - How does the spread of the Love Donator (democratized, renewable magic) destroy the centralized, extractive business models of Rockfeller and Chrysalis and change the geopolitical balance? | ignored | The user turn never mentions the Love Donator, Rockfeller, Chrysalis, or the balance of power. | none
+- shape: The user turn drops both of the model's expansion questions and redirects to a new question. It asks whether "Resilience" is the right opposite pole to "Cynicism", now that the user understands the failure mode precisely. It also asks for the runner-up terms, with reasons. It is a request for evaluation and comparison, not a decision. It does not react to the industrial-history analysis the model just gave.
+- settles:

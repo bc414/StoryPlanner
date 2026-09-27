@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to go on to compare the Janissary corps with European knightly orders or early standing armies? | ignored | Says nothing about the Janissary comparison and asks a new question about whether rulers changed their names on taking the throne. | none
+- shape: Redirects to a new, short factual question on a neighbouring topic (regnal names on accession). It does not take up the offered follow-up or comment on the comparison the model gave.
+- settles:

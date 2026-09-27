@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten: world-rule ontology | Users must apply Tzinacatl horn-healing paste to the horn before putting on the crystal enhancer | They must apply Tzinacatl horn-healing paste on their horn before putting the crystal enhancer on | outside
+  - outside all ten: world-rule ontology | The paste heals the horn preemptively and, if needed, reactively from damage and stress caused by the excessive flow of magic the enhancer produces | It is to heal the horn premptively (and reactively if necessary) from damage/stress from the excessive flow of magic | outside
+- goals:
+- whole: The note states, as a rule of the fictional world, that the horn-healing paste must be applied before wearing the crystal enhancer and that it protects and repairs the horn from magic-flow damage.

@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want a C# snippet showing how to call Vertex AI from the WPF app and return the orthogonal categories as JSON? | refused | Declines the C# integration outright and says what they want instead: a chat interface with settable system instructions, a token count, and the file read on every question. | I don't want C# integration
+  - Should the WPF integration be the route taken at all? (implied by the offer of the snippet) | refused | Rejects the app-integration path and asks only for a chat interface. | I just want a chat interface
+- shape: Corrects the model's direction: rejects the proposed C#/WPF integration and restates the actual need as a plain chat interface with editable system instructions, a visible token count, and guaranteed reading of the user's file on every question. It redirects the conversation to requirements rather than answering the offered snippet.
+- settles:
+  - The tool should not involve C# or WPF integration; it should be a plain chat interface | I don't want C# integration
+  - Required features of the chat interface: user-settable system instructions, a token count display, and the file being read on every question rather than skipped | set the system instructions and view the token count and ensure that it reads my file on every question

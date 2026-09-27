@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the cost and caching discussion and asks a separate, short practical question about how to see a word count in Notepad++, probably to check how big their story plan is.

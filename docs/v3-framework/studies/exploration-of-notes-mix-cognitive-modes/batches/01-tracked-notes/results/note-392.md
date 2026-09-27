@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Celestia hoped Fluttershy could persuade Twilight to stop causing further harm, asserted as Celestia's inner motive for sending her | Celestia hoped that Fluttershy ... could convince Twilight not to do any more harm | no
+  - Canon | Fluttershy is the bearer of the element of kindness, the established source trait that grounds why she was chosen | Fluttershy as the element of kindness | no
+- goals:
+- whole: The note flatly asserts Celestia's hope and reasoning for sending Fluttershy to Twilight, resting on Fluttershy's canon role as the element of kindness, and does not design any inference for the reader.

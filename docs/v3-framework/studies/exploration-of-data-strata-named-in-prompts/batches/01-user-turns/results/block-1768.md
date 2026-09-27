@@ -1,0 +1,4 @@
+- sources:
+  - the in-universe German institution names and the changeling attaché in Griffenheim at game start (the game's own content, as the user recalls it) | treat as factual evidence the model's previous account overlooked; the model should take these details as true and reconsider its claim | The changelings have in+universe German names for institutions like Heer and Luftwaffe; The Griffonian Empire also has in-universe German names; there is a changeling attaché in Griffenheim at game start | referred-to
+- order:
+- about: The user pushes back on the model's claim that the shared German is coincidental by stating, from their own knowledge of the game, facts about German institution names on both sides and a changeling attaché in Griffenheim that suggest the two are connected.

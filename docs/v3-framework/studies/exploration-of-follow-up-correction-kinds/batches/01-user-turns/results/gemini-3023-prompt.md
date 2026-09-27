@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's reply looks to the user as if it was built from retrieved snippets or a truncated version of the material instead of the full context, so the user suspects it worked from partial or wrong source content | does getting this message mean the Gemini web app is using RAG instead of reading the full context? or truncation? | indirect, put as a question about the app's mechanism, with the suspicion implied and no complaint or specific error named
+- about: The user steps away from the metadata design to ask whether the model's reply shows the app is using retrieval or truncation rather than reading the full context, which implies the reply reflects incomplete source material.

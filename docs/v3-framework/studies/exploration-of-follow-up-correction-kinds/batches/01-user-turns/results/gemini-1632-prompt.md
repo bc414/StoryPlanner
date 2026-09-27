@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn contains only a placeholder for an attached plan export (154,046 words) and no written text, so it supplies planning material without saying anything about the model's tank scene.

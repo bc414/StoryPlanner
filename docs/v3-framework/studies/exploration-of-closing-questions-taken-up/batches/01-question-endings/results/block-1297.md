@@ -1,0 +1,5 @@
+- questions:
+  - If the paratext reveals Chrysalis's Love Harvester as an allegory for algorithmic social media extracting outrage, how does that force the reader to re-evaluate their own relationship with the technology they read the story on? | no user turn | none | none
+  - Does stating outright in a blog post that defeating the villain doesn't fix the world (the Submerged Iceberg) deepen the tragic weight, or does it break immersion by turning the epic into a political lecture? | no user turn | none | none
+- shape: none
+- settles:

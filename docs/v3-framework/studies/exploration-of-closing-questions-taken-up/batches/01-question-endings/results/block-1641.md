@@ -1,0 +1,7 @@
+- questions:
+  - What is AJ's culminating arc moment, the plot point her whole arc builds toward? | ignored | none; the user turn attaches a definitions file and asks for an analysis instead | none
+  - What is Twilight's culminating arc moment? | ignored | none; nothing about Twilight's arc is said in the message text | none
+  - What is the Stagnation turning point chapter: is the Stagnation system explicitly confronted or dismantled there, or is it something else, and so should it get a skeleton now? | ignored | none; the message does not describe that chapter or say whether to skeleton it | none
+  - Beyond Chapters 9-13, which chapters are developed enough to evaluate without expecting expansion to change them? | ignored | none; no chapters are named as developed or undeveloped in the message text | none
+- shape: Redirects to a new task. The user hands over an attached file of track definitions they made and asks the model to review it against the principles built up in the conversation: what works, what could improve, what is missing. It does not answer the model's gap questions in its own words. Any answers would be inside the attached file, whose contents are not shown.
+- settles:

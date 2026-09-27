@@ -1,0 +1,4 @@
+- questions:
+  - Whether to analyze how Applejack's reply ("Dear Princess...") is received by Twilight in the lab, completing the loop | ignored | The user turn drops the scene and asks an unrelated tool question about getting a Google Doc's version history for Gemini to analyze | none
+- shape: Changes the subject to a practical tooling question: whether a Google Doc's full version history can be given to Gemini to analyze changes over time. It doesn't continue the scene analysis. It concerns the conversation's workflow, not a correction or an instruction about the story.
+- settles:

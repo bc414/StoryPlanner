@@ -1,0 +1,6 @@
+- sources:
+  - elements of harmony chapters and the split parallel arcs | the author's existing structural intentions for chapters 13-16; take them as the starting frame the POV suggestions must work within | the elements of harmony chapters and the split parallel arcs in mind | referred-to
+  - most other planning, only omniscient in my head | the rest of the plan for chapters 13-16 is unwritten and not fully thought out, so the model should offer POV suggestions to fill the gap and not treat it as settled | most other planning is probably only omniscient in my head | first-named
+  - the author's account of the love donation scene and AJ's lie in the next scene | the author's correction of what the scene is meant to be, taken as the intended design over the model's earlier reading of Twilight's perception and AJ's motive | The Twilight perception during the love donation is about | first-named
+- order:
+- about: The author asks for POV suggestions for chapters 13-16, corrects the model's reading of the love donation scene by stating what Twilight perceives and that AJ lied about her motive, and explains why they expect readers to be hooked by Rarity while worrying about readers unfamiliar with MLP.

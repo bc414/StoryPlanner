@@ -1,0 +1,4 @@
+- sources:
+  - my existing notes on AJ | asks whether these are meant to be inferences anyway, i.e. whether they count as inferred or provisional rather than settled fact, for use in the regrouping meeting | are my existing notes on AJ meant to be inferences anyway | referred-to
+- order:
+- about: The user asks the model whether their existing notes on AJ are intended as inferences, in order to decide how to handle AJ in the regrouping meeting scene.

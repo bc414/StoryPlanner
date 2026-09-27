@@ -1,0 +1,4 @@
+- sources:
+  - my era is WW2 | treat as the limit on which examples fit, so real-world examples should suit that period, with magic allowed to fill gaps where the period falls short | Since my era is WW2 but I can use magic to bridge some gaps | referred-to
+- order:
+- about: The user asks for pre-digital examples of rent-seeking versus ownership that fit their WW2-era setting, and says magic may be used to bridge anachronistic gaps.

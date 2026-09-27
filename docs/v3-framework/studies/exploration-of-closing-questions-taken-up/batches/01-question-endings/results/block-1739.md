@@ -1,0 +1,7 @@
+- questions:
+  - How does the Equestrian public react when Applejack starts saying 'The Hegemony' on radio instead of 'the Changelings': reassured by the professional tone, or alienated from the folksy hero? | ignored | Says nothing about Applejack's radio speech or the public's reaction. | none
+  - What does Trimmel call the state once he joins Applejack and the Griffonian Republic: the local names Vraks and Vesalipolis, or the resistance term Isi-Dleke Sasemanyano? | ignored | Gives no answer about Trimmel. It only offers a general view of what changelings call their state, which does not choose between the two options. | none
+- shape: Redirects and pushes back on the model's proposed name. The user drops the Vesalipolis Hegemony framing and the Socratic prompts, offers their own instinct (changelings say 'the Hives', equestrians say 'Changeling X'), and asks for help choosing X, using the real-world Western names for Germany and Japan as a guide.
+- settles:
+  - Changelings themselves would refer to their state as 'The Hives', put as a leaning rather than a firm ruling | 'I feel like the changelings would refer to it as The Hives'
+  - Equestrians would use a 'Changeling X' form for the state, with X still to be chosen | 'while the equestrians view it as the Changeling X'

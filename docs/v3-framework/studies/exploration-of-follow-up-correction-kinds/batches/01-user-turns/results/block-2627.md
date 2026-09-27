@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's closing mapping made Standard Herzlander the Mandarin analogue and Simplified Herzlander only the English analogue. The user revises this so Simplified Herzlander covers both Mandarin-style state standardization and English-style foreign-language spread. | "Simplified Herzlander would be both Mandarin as Chinese standardization and also English proliferation" | Flat amendment added in passing with "also", inside an otherwise approving reply. It is not framed as an error.
+- about: The user endorses the model's language-standardization analysis, restates it with a small amendment to how Simplified Herzlander maps, then moves on to new questions about Spanish in the Americas and how much dialects and languages differ, using English–Dutch and English–French as comparison models.

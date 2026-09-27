@@ -1,0 +1,5 @@
+- questions:
+  - How will the conservative 30% Celestial Party populace misinterpret the veteran culture of the Chasseur Doctrine and Cuddle Dividend once soldiers return from the front? | no user turn | none | none
+  - If the Equestrian military officially recognizes cuddling's Charitostatic Effect as a tactical necessity, how might its manuals, bunker designs and post-war veteran healthcare differ from the stoic mid-20th-century VA hospitals? | no user turn | none | none
+- shape: none
+- settles:

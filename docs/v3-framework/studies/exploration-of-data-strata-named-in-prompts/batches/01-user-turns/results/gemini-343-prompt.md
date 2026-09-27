@@ -1,0 +1,4 @@
+- sources:
+  - Equestria at War (EAW), its default AI behavior and canonical path | treat as the canon that makes the Vasily Wheatin path the one to use for Stalliongrad | (and is the canonical path, e.g. default AI behavior in EAW) | referred-to
+- order:
+- about: The user asks the model whether Stalliongrad could plausibly end the story as a neutral, open-border trading partner of the republican pact that keeps its own government, or would end up hostile or be dissolved, and says they will use the Vasily Wheatin path because it is canonical in EAW.

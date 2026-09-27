@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states their goal of finding a labeling scheme for their backstory codex entries that shows chronology, including parallel entries and strictly sequential ones, readable by them and by LLMs, without pointing at any body of material for the model to draw on.

@@ -1,0 +1,4 @@
+- sources:
+  - YouTube video at the pasted link | the material the model is to work on; no instruction or trust level is given, so it is only the item handed over to be processed | Https://youtu.be/-Hv-be_KdE0?si=eCUIOSb0s4ox_Cn9 | first-named
+- order:
+- about: The user pastes a bare YouTube link with no instruction, handing over a new video as the material for the model to handle next.

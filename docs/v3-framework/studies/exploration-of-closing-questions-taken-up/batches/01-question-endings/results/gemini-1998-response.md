@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to review the updated hand-off sequence of the three prompts (Strategist, Cartographer, Sorter)? | ignored | Says nothing about reviewing the hand-off sequence. | none
+  - Is the user ready to open AI Studio and start testing the Prompt A schema? | ignored | Does not say whether they will test now. It asks a design question about the schema's fixed count of three. | none
+- shape: The user turn skips both offered next steps and asks a new question. It asks for the pros and cons of fixing the number of methodologies at three against letting the AI choose how many. This questions a design choice in the Prompt A instruction and schema just delivered. It reads as a request for analysis before the user commits, and the user neither accepts nor rejects the schema.
+- settles:

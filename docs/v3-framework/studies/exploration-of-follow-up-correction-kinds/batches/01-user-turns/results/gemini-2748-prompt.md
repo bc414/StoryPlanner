@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user offers their own staged ordering (materialist baseline and themes, then breadth, then characters and plot) and asks the model to confirm it as a follow-up question, without saying anything in the model's answer was wrong.

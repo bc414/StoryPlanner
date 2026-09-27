@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether Air China is a budget or premium airline, without pointing to any body of material for the model to use.

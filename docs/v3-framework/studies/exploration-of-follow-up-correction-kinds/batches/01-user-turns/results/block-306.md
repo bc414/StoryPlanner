@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to summarize all the new lore elements and then suggest how they could interact with and strengthen existing plans, moving on without disputing anything in the model's turn.

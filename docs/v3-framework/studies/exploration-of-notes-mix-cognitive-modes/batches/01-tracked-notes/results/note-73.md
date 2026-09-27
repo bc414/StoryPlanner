@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | Imperial Japan's Army and Navy are named as a real-world model: the services hated each other more than the enemy | Japan: The Army and Navy hated each other more than the enemy | yes
+  - Analogies | Japanese officers who assassinated superiors or launched unauthorized invasions such as Manchuria to prove their "Spirit" are named as real-world inspiration for the character | Officers often assassinated their superiors or launched unauthorized invasions (Manchuria) to prove their "Spirit." | yes
+- goals:
+- whole: The note records Imperial Japan's inter-service hatred and insubordinate, spirit-proving officers as the real-world inspiration behind the character Actia Pagala.

@@ -1,0 +1,5 @@
+- sources:
+  - Cossacks Story.docx, the brief story idea jotted in January 2023 | the material to be analysed; the model is to read it and give an analysis of it | Now give an analysis of this brief story idea | first-named
+  - the period before the author encountered My Little Pony Friendship is Magic in November 2023 | dating context: treat the idea as coming from before that show, so not shaped by it | before I encountered My Little Pony Friendship is Magic in November 2023 | first-named
+- order:
+- about: The user attaches a short story idea from January 2023 and asks for an analysis of it, noting that it predates their exposure to My Little Pony Friendship is Magic.

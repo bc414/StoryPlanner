@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pastes a long run of worldbuilding note text about Aquileia's feudal history, Gerad Discret's centralization and Le Grand Foyer, and the second-generation problem under Chrysalis, giving the raw material without naming any source or giving instructions about how to use one.

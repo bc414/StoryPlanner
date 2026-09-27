@@ -1,0 +1,5 @@
+- claims:
+  - Canon | Spike's crush on Rarity, a canon element, is recontextualized: in TLTT Rarity does not take it seriously | doesn't take Spike's crush seriously | yes
+  - Characterization | The truth of why Rarity dismisses it: she interprets romance through an Aquileian cultural lens of negotiation and flings, not friendship or romance | because she views it through the Aquileian lens of negotiation and flings instead of friendship/romance | no
+- goals:
+- whole: The note recontextualizes the canon Spike-on-Rarity crush by asserting that Rarity brushes it off because her Aquileian background frames relationships as negotiation and flings.

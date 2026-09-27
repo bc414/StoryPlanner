@@ -1,0 +1,5 @@
+- claims:
+  - Allegories | the war stands for a nation going through puberty, a real-world developmental condition the story's events are to be read as | The war acts as a metaphor for the nation hitting puberty | no
+  - Allegories | the metaphor is mapped onto three discoveries: sex tied to Aquileian influence, violence tied to the Front, and independence tied to the Republic | They discover sex (Aquileian influence), violence (The Front), and independence (The Republic) | no
+- goals:
+- whole: The note sets out an allegorical reading in which the war and the nation's three discoveries stand for adolescence, and it sits in a notes-to-self track without addressing planning process or any intended reader effect.

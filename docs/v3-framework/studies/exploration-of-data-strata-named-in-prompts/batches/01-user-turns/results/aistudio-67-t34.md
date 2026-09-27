@@ -1,0 +1,5 @@
+- sources:
+  - my existing story plans | treat as the reference for what Celestia's views of Aquileia and their thematic purpose currently are; the model reports from them, then judges whether to keep or adapt | In my existing story plans | referred-to
+  - the change in Equestria's timeline | treat as the new development against which the existing plan elements are tested for preserving or adapting | in light of the change in Equestria's timeline | referred-to
+- order:
+- about: The user asks the model to report from their existing story plans what Celestia thinks of Aquileia and what theme that serves, and to advise whether to keep or adapt it given the revised Equestria timeline.

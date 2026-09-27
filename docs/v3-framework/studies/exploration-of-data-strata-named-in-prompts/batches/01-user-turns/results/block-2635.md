@@ -1,0 +1,10 @@
+- sources:
+  - Grover III's Book of Boreas | treated as the story's in-world counterpart to the Three Kingdoms mythologizing of earlier heroes (Grover I and II) | "Grover III's Book of Boreas which mythologizes Grover I and Grover II" | referred-to
+  - my story's Grover III to Grover IV transition | treated as settled story plan; the parallel to Late Ming and the direct cause of Celestia's Stagnation of Harmony | "my story's Grover III to Grover IV transition" | referred-to
+  - my lore which extends TLTT | treated as true author lore; Olenian collaborators punch down, so it supports the Mongol-collaborator comparison | "in my lore which extends TLTT" | referred-to
+  - EaW | treated as established story material about Chrysalis subjugating Olenia before invading Equestria | "Chrysalis subjugating Olenia in EaW" | referred-to
+  - the Hopff observation that I used for the Grovers | treated as the author's existing cycle framework, which the Chinese dynastic cycle is said to match | "the Hopff observation that I used for the Grovers" | referred-to
+  - Chrysalis is currently modeled after Peter the Great and the Meiji Restoration | treated as the current basis for Chrysalis's design, to be compared against the barbarian-adoption pattern | "currently modeled after Peter the Great and the Meiji Restoration" | referred-to
+  - the cycle across Chinese history | offered as a provisional template for prehistoric changeling lands, with Chrysalis's intervention as the modern repeat, instead of multiple cycles | "my changeling lands uses the first cycle as a template" | referred-to
+- order:
+- about: The user maps the model's Chinese-history sequence onto their own story (Grover III/IV, Chrysalis, Olenia, Celestia's Stagnation), pushing back on the Xiaowen/anti-Chrysalis reading, asking a few comparison questions, and proposing to use the dynastic cycle as a template for prehistoric changelings.

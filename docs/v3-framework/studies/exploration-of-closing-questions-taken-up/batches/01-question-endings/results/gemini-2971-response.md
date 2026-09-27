@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want a guide to running a Gemma model on their own machine? | ignored | The user turn says nothing about setting up Gemma locally and moves to a different topic. | none
+  - Is the user more interested in the technical architecture behind Gemma? | ignored | Nothing is said about Gemma's architecture; the user asks for a survey of models by context window size. | none
+- shape: Drops both offered follow-ups and starts a new, broader information request: an overview of LLMs with the largest context windows. It moves from Gemma to a comparison across models. It is a fresh instruction, not an answer to the model's question.
+- settles:

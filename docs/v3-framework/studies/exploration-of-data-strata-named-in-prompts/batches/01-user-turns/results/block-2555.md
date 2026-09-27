@@ -1,0 +1,7 @@
+- sources:
+  - the Vox article on Love Island USA season 8 (linked URL) | main text to read and assess for how it supports or parallels the thesis | "How does this article about Love Island USA support or parallel" | first-named
+  - my TLTT thesis | the frame the article is tested against, to see whether it is supported or paralleled | "my TLTT thesis" | referred-to
+  - the discussion around the show (Love Island USA) | further research to gather beyond the article, to bring to the same question | "Do some other research into the discussion around the show" | first-named
+  - the show itself (Love Island USA) | further research to gather beyond the article, to bring to the same question | "and the show itself too" | first-named
+- order:
+- about: The user shares a Vox article on Love Island USA season 8 and asks the model to relate it to their TLTT thesis, and also to research the show and the discussion around it.

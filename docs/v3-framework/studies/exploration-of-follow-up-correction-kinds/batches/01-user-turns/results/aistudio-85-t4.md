@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model said the Changeling translator needs only copper, magnets and vacuum tubes and can be mass-produced on an assembly line without artisan labor. The user says a portable version would be too complex for that and would need griffon artisans to make it. | I believe the device would be complex enough that in order to fit it into a device one can carry around, Chrysalis would need griffon artisans | Stated mildly as a personal belief with a reason (portability needs complexity). It is then reframed as a benefit ('this isn't a negative') and built into a new monopoly and profit angle, so it reads as a course-correction inside a collaborative continuation.
+- about: The user overrides the model's claim that the translator needs no artisans, saying a portable unit would need griffon artisans, and turns that into a monopoly and profit opportunity for Chrysalis's Skyfall shell companies.

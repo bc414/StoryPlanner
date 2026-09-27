@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model assigned Hans Kessel the injection-molding/lithography-stamping innovation, when in the plan his work was the three-way valve that splits love into red and pink streams | Hans worked on the three way valve that separates the love into red and pink streams, not the lithography part | flat statement of the correct fact, brief, with no apology, followed straight away by a new question
+- about: The user corrects the model's misassignment of Hans's work (valve, not lithography) and in the same breath redirects to ask what other parts of early PCB or lithography history could inform the story.

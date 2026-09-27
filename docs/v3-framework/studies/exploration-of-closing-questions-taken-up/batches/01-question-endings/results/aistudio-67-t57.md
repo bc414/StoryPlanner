@@ -1,0 +1,6 @@
+- questions:
+  - Does Applejack make the Parloir operators, whose trade drained Equestria's gold, invest their accumulated wealth in War Bonds to repay the treasury? | ignored | The user turn says nothing about the Parloirs, War Bonds or the alliance with EEEE!. It moves to a new topic. | none
+  - Does the failure of Survival Harmony at Vanhoover breed reactionary resentment of Celestia and the Pillars among surviving soldiers? | ignored | Not taken up. The user asks about historical parallels for the stagnation-of-harmony idea instead. | none
+  - How does Applejack stop her veterans from turning into cynical might-makes-right Griffon-style thinkers after the Friendship Shields fail? | ignored | Not addressed. The user asks for historical parallels and storytelling framing. | none
+- shape: Redirects. The user leaves the model's two questions alone and asks a new, open research question: which historical parallels resemble the stagnation-of-harmony reading, so they can borrow inspiration, storytelling delivery tactics and framing. The turn implicitly accepts the model's framing of Harmony as a doctrine that stagnated.
+- settles:

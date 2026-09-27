@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want to explore how modern Riverlands pony scholars or Griffon historians view the myth of Nightmare Moon? | ignored | The turn never takes up the offer to look at how modern scholars treat the myth. It moves to a different question about the present-day pact. | none
+  - Do those scholars and historians realize Luna was trying to save their ancestors from the warlords, or do they see her only as an Equestrian bogeyman? | ignored | Nothing is said about how the myth is remembered or understood in the present day. | none
+- shape: The user turn redirects. It leaves the model's offered follow-up alone and asks a new, broader question. Speaking as an outsider to this reading of the lore, what separates the 1011 ALB Republican Pact from earlier eras, and what makes world peace and the end of feudalism and rugged individualism structurally possible? The Nightmare Moon material is not commented on, corrected, or built on.
+- settles:
+  - The present day is 1011 ALB and a Republican Pact exists. World peace and the end of feudalism are treated as its established conditions. This is presupposed by the question, not stated as a decision. | "the present day Republican Pact in 1011 ALB"

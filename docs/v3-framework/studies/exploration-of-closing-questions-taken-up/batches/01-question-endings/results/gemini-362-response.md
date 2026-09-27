@@ -1,0 +1,5 @@
+- questions:
+- shape: Repeats the request for the model classes, apparently because the earlier reply cut off mid-code. It adds that the app is a local interactive-server Blazor tool for planning an Equestria at War fanfiction. It asks for the same thing again and does not answer or correct anything.
+- settles:
+  - The Narrative Loom app is for planning the user's Equestria at War fanfiction | planning out my Equestria at War fanfiction
+  - The app is a local, interactive-server Blazor app | local interactive server blazor app

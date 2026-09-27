@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short general question about what output protocols Gemini has, without pointing the model at any body of material to use or avoid.

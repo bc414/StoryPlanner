@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered a request to reduce token count by editing and cutting the content (consolidating, removing meta-commentary, trimming text), whereas the user wanted only structural formatting changes with the text left as is | I don't want to change any text. I'm looking at structural formatting changes | flat statement of the constraint, brief, without apology or irritation, followed by a restatement of what is wanted
+- about: The user rejects the text-editing advice and restates that they want only structural formatting changes to reduce tokens, not any change to the wording.

@@ -1,0 +1,11 @@
+- sources:
+  - The main proposition (the thesis proposition from the model's last answer) | working premise whose link to the show's title the user is checking, not yet accepted as settled | So the main proposition is an expansion of the show's title | referred-to
+  - The show's title "Friendship is Magic" | treat as the possible compressed statement of the proposition; the model is asked whether the title reflects it | the title of the show reflects it | referred-to
+  - Lauren Faust's original show plans, without the Hasbro Mandate | use as the design-intent baseline; the model is to say what the thesis equivalent was there | thesis proposition equivalent of Lauren Faust's original show plans without the Hasbro Mandate | referred-to
+  - The canon show | the evidence to look at for where and how the propositions are demonstrated, and for whether they are ever stated outright | Where and how in the canon show are these things demonstrated? | referred-to
+  - The fandom | a separate layer to tell apart from the original design, as a possible origin of further development | How much was designed in versus developed further by the fandom? | referred-to
+  - Other writers and Faust's peers in later seasons | a separate layer to tell apart from the original design, as a possible origin of further development | Or by other writers/Faust's peers in later seasons? | referred-to
+  - Research on the canon show and its development, including firsthand accounts of Lauren Faust or her peers | do this research first and ground the answer in it | Ground the answer in research of the canon show and its development | first-named
+  - The user's own recollection of Lauren Faust's stated aim (a show moms could watch with their daughters) | offered from memory as background the user is confident of, to be used as context | I know Lauren Faust explicitly said she wanted a show that moms could watch with their daughters | first-named
+- order:
+- about: The user asks whether the model's thesis proposition is an expansion of the show's title and what Faust's original unmandated equivalent was, asks how much came from the original design versus fandom and later writers, asks whether tested-not-stated propositions explain the show's adult appeal, and asks for the answer to be grounded in research on the canon show and firsthand accounts.

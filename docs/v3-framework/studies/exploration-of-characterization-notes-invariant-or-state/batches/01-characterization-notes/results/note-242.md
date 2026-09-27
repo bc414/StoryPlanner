@@ -1,0 +1,5 @@
+- claims:
+  - unfixed | He is not sickly, unlike his father Grover V | "is not sickly like his father" (present tense, set in contrast to his father) | none
+  - unfixed | He is not hedonistic, unlike his grandfather Grover IV, who overindulged in chocolate | "not hedonistic like his grandfather" (present tense contrast) | none
+  - throughout | He is the son of Grover V and the grandson of Grover IV, the sixth of his line | "his father (Grover V)" and "his grandfather (Grover IV)" | none
+- beside: none

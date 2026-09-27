@@ -1,0 +1,5 @@
+- questions:
+  - Does the split between stable intake and violent weaponized discharge match how the user pictures the Luna Nova Rifle working in combat? | partly answered | The user doesn't say yes or no. They keep the idea that Skyfall's valve is still needed, but recast it as keeping things stable rather than handling discharge. They also add a filtering spell matrix built by Twilight and Fleur, which shifts the model's framing. | "they still need the delicate miniature valve from the Skyfall company to keep things stable"
+- shape: The user builds on the model's proposal instead of confirming it. They put forward a revised version as a question, with a spell-matrix filter plus a Skyfall stabilizing valve, and add a separate picture of how the Changeling harvester separates red from pink. They ask for the model's reaction and give no verdict on the discharge framing.
+- settles:
+  - The Changeling love harvester separates pink and red love with something like a centrifuge. This is offered as the user's own picture, not as a firm ruling. | "I imagine the massive changeling love harvester uses something akin to a centrifuge"

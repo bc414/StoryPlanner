@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question extending the comparison to the US and pre-occupation France, without challenging anything the model said about Britain.

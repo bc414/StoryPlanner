@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's account of why Trimmel goes off-script by adding the universal translator as a further trigger, letting him hear Henri's full voice and be understood in return, and notes that AJ's unease about the device still holds while it doesn't affect Trimmel and Henri.

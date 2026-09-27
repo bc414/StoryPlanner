@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Twilight's real motive for staying off the frontline is a hidden fear she shares with Celestia | Twilight agreed to stay off the frontline because she secretly shares Celestia's fear | yes
+  - Characterization | She has knowledge of the physical toll of industrial war | She knows the physical toll of industrial war | yes
+  - Characterization | She is emotionally equipped for building/constructive work but terrified of the damage to her soul if she kills thousands of starving Changeling conscripts | emotionally equipped to lay bricks, but she is terrified of what will happen to her soul | yes
+  - Characterization | Her self-conception is as a shield and builder, not a weapon of mass destruction | She stays behind because she believes “I am a shield and a builder, not a weapon of mass destruction.” | yes
+- goals:
+- whole: The note asserts, as psychological truth, the hidden fear and self-image behind Twilight's decision to stay off the frontline at the start of TLTT.

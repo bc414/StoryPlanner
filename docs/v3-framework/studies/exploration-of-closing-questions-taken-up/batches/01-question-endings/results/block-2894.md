@@ -1,0 +1,4 @@
+- questions:
+  - Whether to proceed with the naming and assignment pass on the six axes | ignored | The user does not say yes or no to proceeding. They reopen the axis structure and ask whether a single three-valued axis could work in place of the binary axes. | none
+- shape: Redirects. The user leaves the model's proposed next step alone and reopens how the axes are built. They float a three-valued axis with mutually exclusive values as an alternative to stacking binary axes. They say that any overlap between values would push it back to two binary axes. They note their database can hold three values, and ask the model for a first-principles test of when that is the right move. It is a tentative question about modelling method, not a ruling.
+- settles:

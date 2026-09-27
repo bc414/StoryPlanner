@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's invented chain for how the slang arose (an ancient Meadowbrook-era folk rhyme, Pinkie's circle coining the name as an inside joke, then trench soldiers adopting it) is replaced: the rhyme is tied to the Aquileian chasseur spell Wings of Dew, and Twilight is the one who names it | "This should be how Twilight decides to colloquially call it Pinkie Promise" | Put as a directive substitution, framed as a discovered connection, with no statement that the earlier version was wrong and no apology
+- about: The user brings in a connection they spotted between the rhyme's flight line and the Wings of Dew spell, and uses it to set Twilight as the originator of the term, in place of the model's suggested spread of the slang.

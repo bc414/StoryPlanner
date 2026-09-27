@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user endorses the analysis and builds on it by laying out what Applejack and Henri wrongly assume at the start and how the story gradually reveals that Chrysalis's Reich-style language and look cover a government modelled on the Aquileian and Griffonian republican lines.

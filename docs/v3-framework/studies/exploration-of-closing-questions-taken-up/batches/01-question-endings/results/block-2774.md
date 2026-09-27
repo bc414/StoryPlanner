@@ -1,0 +1,3 @@
+- questions:
+- shape: An instruction that redirects the conversation: the user tells the model to go back over the parts of the stories it has not read and redo its analysis. This implicitly says the model's conclusions rest on incomplete reading. It does not answer, confirm or contest any specific point in the thesis.
+- settles:

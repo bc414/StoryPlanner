@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a walkthrough of Temporary Chat mode, to keep specific conversations private without turning off the whole history? | ignored | The user turn does not respond to the offer; it asks a new question about AI Studio playground and conversation context. | none
+- shape: Moves on to a new but related question, about whether the AI Studio playground uses conversation context the way the regular web chat does. It neither accepts nor declines the offered walkthrough.
+- settles:

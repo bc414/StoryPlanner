@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two real-world economics follow-up questions about whether the petrodollar arrangement will change as solar displaces oil and given US fracking output, without pointing the model at any particular body of material.

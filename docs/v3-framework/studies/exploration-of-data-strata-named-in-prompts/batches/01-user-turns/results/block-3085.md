@@ -1,0 +1,6 @@
+- sources:
+  - the ENTIRE Gemini conversation | read in full, not just the entries that matched the grep searches; the basis for the triage audit of what to scrutinize | Start by reading the ENTIRE Gemini conversation | referred-to
+  - the entries that had grep matches for nursery and walled garden | the narrower set the model had been limited to; the user says not to be constrained to it | not constrained to just the entries that had grep matches for nursery and walled garden | referred-to
+- order:
+  - the ENTIRE Gemini conversation | the entries that had grep matches for nursery and walled garden | read the whole conversation so as not to be constrained to just the grep-match entries
+- about: The user tells the model to go ahead with the triage audit and its rationale, but first to read the whole Gemini conversation instead of only the entries that matched searches for "nursery" and "walled garden".

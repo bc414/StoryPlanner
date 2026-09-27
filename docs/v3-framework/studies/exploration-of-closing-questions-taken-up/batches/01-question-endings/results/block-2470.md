@@ -1,0 +1,6 @@
+- questions:
+  - How many years of YouTube history does the account hold? | ignored | Says nothing about account age or how much history there is. | none
+  - Should repeat views of a video count as one entry, or be tracked as a signal of importance? | ignored | Does not mention repeat views or how to handle duplicates. | none
+- shape: Corrects the model's proposed taxonomy: the sorting should be by extractive versus cooperative paradigm, not the five-layer and topic categories the model laid out. It also raises a new question of its own, whether deeper framework elaborations kept in other chats should be added to the project context. It leaves the model's two script-setup questions unanswered.
+- settles:
+  - The retrospective classification of watched videos will place them in the extractive paradigm or the cooperative paradigm, which the user says is what 'the language of my new framework' meant | It's more about where the stuff I watched were in the extractive paradigm or cooperative paradigm

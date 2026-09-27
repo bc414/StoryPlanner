@@ -1,0 +1,4 @@
+- sources:
+  - ASOIAF convention | suspected outside influence the model should weigh the broken-sword idea against, to judge whether the idea is borrowed from it rather than the story's own; not treated as settled either way | is this ASOIAF convention bleeding | referred-to
+- order:
+- about: The user asks the model to judge whether Chrysalis keeping the broken sword as a symbol or reminder is right for their story or is a habit borrowed from ASOIAF, and to give reasons.

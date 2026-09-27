@@ -1,0 +1,4 @@
+- sources:
+  - the axes (axis 1's antipole, axis 3, axis 4) | the model's current axis scheme is treated as a draft to revise; the user offers changes to axes 1, 3 and 4 as tentative suggestions, not settled | "Maybe axis 3 should be extraction vs conscience?" | referred-to
+- order:
+- about: The user proposes revising the model's axis scheme by reframing axis 1's antipole as the industrial revolution, changing axes 3 and 4 to extraction vs conscience and leverage vs conscience, and possibly replacing isolation vs intervention with in-group vs universalism.

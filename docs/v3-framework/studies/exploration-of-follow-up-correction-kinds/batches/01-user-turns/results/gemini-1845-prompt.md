@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the explanation of vector dimensions and superposition to a new question about why LLMs are good at programming and whether code generation differs from answering knowledge questions.

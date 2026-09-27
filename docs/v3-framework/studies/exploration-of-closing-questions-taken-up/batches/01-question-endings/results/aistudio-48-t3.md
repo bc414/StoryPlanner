@@ -1,0 +1,7 @@
+- questions:
+  - How does Chrysalis reconcile her aim of bankrupting her Griffenheim classmates through Skyfall shell companies with the 1007 Herzland Civil War, which she helped engineer and which wrecked the financial markets she relied on? | ignored | Says nothing about the civil war, the markets or the classmates, and moves to a new topic. | none
+  - Does the Statthalters' terror and "Punching Down" on the Equestrian front undermine the Bauleiters' attempts to build a profitable Olenian-style Love Tax economy in occupied cities like Vanhoover? | ignored | Doesn't take up the Statthalters, the Bauleiters or the occupation economy. It offers a different explanation for why her plans fail. | none
+- shape: Redirects. It skips both Socratic questions and puts forward its own thesis: Chrysalis's plans fail because she projects her sociopathy onto others and assumes all ambition is predatory. It then asks the model a new question about what in her upbringing produced that mindset. This partly recasts the model's account of failure, which centred on the economy and the budget, as a matter of her psychology.
+- settles:
+  - Chrysalis's plans backfire because she projects her own sociopathy onto others, not because they were stupid. | plans backfire not because it was stupid, but because she projected her own sociopathy
+  - Chrysalis assumes all ambition is predatory. | She assumes all ambition is predatory

@@ -1,0 +1,9 @@
+- questions:
+- shape: The user corrects the model's reanalysis of Chrysalis's arc on four points and adds story facts of their own. The points are where individual identity first appears, why she goes to Skyfall, what Acornage is, and how the Lioness spell relates to the detection spell. The model asked nothing, so nothing is answered or refused. The whole turn is correction plus new world and plot detail.
+- settles:
+  - Individual identity was already apparent at Acornage, before Skyfall. This corrects the model's claim that she first discovers it in Skyfall. | Individual identity was already apparent in Acornage
+  - The Acornage changelings never realize Chrysalis is an apex. They take her for an ordinary changeling forager who stumbled out of the warring hives. | never realize that Chrysalis is an apex, not some random changeling forager
+  - Chrysalis does not tell the Acornage changelings that she is an apex. | Chrysalis doesn't tell them
+  - Chrysalis does not go to Skyfall on a whim. Gilded Lily and Silver Sterling tell her about Skyfall while she is at Acornage. | Gilded Lily and Silver Sterling tell her about Skyfall at Acornage
+  - Acornage is not the 5-axis synthesis of the ancient harmonic hives. It belongs to the Stagnation of Harmony. | Acornage is not the 5 axis synthesis... part of the Stagnation of Harmony
+  - The Lioness spell is a different spell from the changeling detection spell, though similar to it. | not the same as the detection spell, just similar

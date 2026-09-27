@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want to map out the logistics of Scene 13.4, where Applejack sees the Equestrian valves failing and decides to pivot to the Skyfall/Tzinacatl smuggling route? | ignored | Nothing on Scene 13.4 or the pivot; the user turn moves to a different worldbuilding question about the griffon stabilization machines. | none
+- shape: Redirects to a new worldbuilding question. The user extends the vacuum principle to a second technology, the griffon artisan stabilization machines for low-grade crystals. In the same message the user sets out how the two differ: the valve is a miniature automated device working on an already-fluid mix, while the griffon machine punctures solid crystal. The user turn does not react to the model's praise or to its scene offer.
+- settles:
+  - The griffon artisan machines that stabilize low-grade crystals are operated in a vacuum, on the same principle as the valve. This is put as a question but with the premise asserted | the same principles apply to why the griffon artisan magical stabilization machines for low grade crystals need to be operated at vacuum?
+  - The three-way valve is a miniature, automated version of the process, working on a mixed source that is already fluid | The three way valve is a miniature, automated version working on mixed but already "fluid" source
+  - The griffon artisan process works on solid crystal that is punctured to release and stabilize the magic | the griffon is working with solid crystal being punctured to release and stabilize the magic

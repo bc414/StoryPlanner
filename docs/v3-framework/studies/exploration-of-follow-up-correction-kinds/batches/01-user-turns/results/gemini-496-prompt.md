@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's evolution had Applejack growing into an on-site tactical decision-maker who no longer takes Henri's orders, but the plan has her as strategic leader and morale figurehead at the front, with tactics left to Henri and orders received from him | "I was planning on AJ being strictly a strategic commander" and "I wasn't planning on AJ being a tactical commander" | stated flatly as the existing plan, backed by a reason (her other duties leave no time to learn tactics), then softened by an unsure question about whether it works or Fraternity requires no radio orders
+- about: The user restates their intended role for Applejack (strategic leader and front-line figurehead, tactics left to Henri) against the model's tactical-growth arc, and asks whether that fits the Fraternity theme while fixing two constants.

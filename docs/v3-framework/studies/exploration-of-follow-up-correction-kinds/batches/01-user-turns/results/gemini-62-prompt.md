@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the who-is-who breakdown and asks for a detailed summary of the next chapter, new open questions, and links to earlier chapters, without disputing anything in the model's answer.

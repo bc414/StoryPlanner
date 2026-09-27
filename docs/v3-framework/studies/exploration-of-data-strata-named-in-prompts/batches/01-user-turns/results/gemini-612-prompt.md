@@ -1,0 +1,7 @@
+- sources:
+  - real-world methadone and fentanyl withdrawal pharmacology (the model's general knowledge) | use it to answer how quickly methadone realistically relieves opioid withdrawal, so the pink love timing is grounded in it | How fast is this realistically? | first-named
+  - the author's stated mechanics of red love and donated pink love (fentanyl-plus-meth effect, pink love as methadone-like, meth anhedonia cured only by nursery time) | treat as the new settled mechanics and build the revision on them | Please revise the pipeline with these new mechanics | first-named
+  - the pipeline (the earlier Chapter 6 detox and recovery process) | revise it to fit the new mechanics | Please revise the pipeline | referred-to
+- order:
+  - the author's stated red love and pink love mechanics over the existing pipeline | the pipeline is to be revised with these new mechanics
+- about: The user asks a real-world question about methadone's speed against fentanyl withdrawal, lays out the new drug mechanics for red love and pink love, and asks the model to revise the earlier detox pipeline accordingly.

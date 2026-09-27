@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | Herzland, an in-universe place, is modeled on British early industrialization as the real-world inspiration | Herzland = British early industrialization | yes
+- goals:
+- whole: The note documents a single real-world inspiration by equating Herzland with British early industrialization as a model for the Gilded Age system.

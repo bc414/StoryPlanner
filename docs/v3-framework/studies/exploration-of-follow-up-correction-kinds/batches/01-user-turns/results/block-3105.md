@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model announced it would write corrected sections and update the report file, but the user wanted the report left untouched and the analysis given in the chat instead | Don't edit the report. That stays as frozen snapshot. Present your new analysis in the chat. | flat directive, with a brief reason (the report is a frozen snapshot)
+- about: The user stops the model from editing the report and redirects it to deliver its revised analysis in the chat, since the report is to stay as a frozen snapshot.

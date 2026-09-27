@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a scene-sequencing question: whether Henri's explanation of where Synovial got the nickname should come before or after Applejack decides to have Rarity put it on the uniform.

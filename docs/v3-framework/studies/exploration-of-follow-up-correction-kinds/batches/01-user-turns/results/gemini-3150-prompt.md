@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user draws a practical conclusion from the model's comparison, proposing to use Gemini for consumer tasks and image attachments and Claude for coding and literary analysis off-hours, and asks for confirmation without disputing anything the model said.

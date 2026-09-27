@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to go into the behind-the-scenes details of how the writers handled Hasbro's toy mandates, such as the Golden Oak Library destruction? | no user turn | none | none
+- shape: none
+- settles:

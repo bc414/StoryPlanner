@@ -1,0 +1,6 @@
+- questions:
+  - Does separating the door (identity-based exclusion) from conformity resolve the conflation the user had sensed under the Boundary axis? | answered | Affirms the direction: the separation is on the right track. It then corrects one application of it, the Coltbert label. | definitely on the right track
+  - Does narrowing Human Capital to the economic production model, with the social identity dimension moving to the new axis, feel right? | partly answered | Does not confirm or reject the narrowing. It says the preservation of dialects and terroir in Coltbert's Aquileia was previously placed under asset specificity, and wonders whether 'assimilationist' is the wrong or too harsh a term for the new axis. | previously lumped this into "asset specificity"
+- shape: Confirms the five-axis direction in general, then corrects the model's reading of Coltbert's Aquileia and questions the 'assimilationist' label. It then adds a new request: whether a system descending from another should flip only one axis (rarely two), to be analysed from current data.
+- settles:
+  - Coltbert's Aquileia is not assimilationist. It preserves regions and dialects, the inverse of real France. Its main flaw is transactional leverage (the wallflower problem), and the rest of its alignment is right. | inverse of real France - the different regions and dialects are preserved

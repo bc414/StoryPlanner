@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the analysis to ask a fresh question, requesting the canon backstory of the Crystal Ponies and Sombra along with any changes the EaW plan makes, without disputing anything the model said.

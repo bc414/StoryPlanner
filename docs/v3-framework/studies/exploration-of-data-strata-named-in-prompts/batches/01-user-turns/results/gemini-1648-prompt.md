@@ -1,0 +1,4 @@
+- sources:
+  - the episode (Applebuck Season, as just rewatched) | treat as the accurate account of what happens on screen; the author corrects the model's description of the ending against it, saying the four others buck by hand while Twilight uses a mass spell | I just rewatched the episode | referred-to
+- order:
+- about: The user corrects the model's account of the canon ending, saying from a fresh rewatch that the other four buck by hand while Twilight uses a mass spell.

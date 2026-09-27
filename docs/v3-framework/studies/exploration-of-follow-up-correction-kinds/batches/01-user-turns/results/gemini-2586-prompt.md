@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's asset-specificity and modular-matrix framing, restates it in their own terms, and builds on it with a proposed Coltbert-paper-to-Chrysalis plot link, a computer-and-software allegory, and a contrast of closed-source vertical integration with free-with-ads models, then asks for a fresh answer grounded in their story plans.

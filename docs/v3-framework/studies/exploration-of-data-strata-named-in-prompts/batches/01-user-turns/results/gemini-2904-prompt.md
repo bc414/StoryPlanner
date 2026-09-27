@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's "burn the book" and performance-anxiety cons on worldbuilding grounds, and revises the stamping mechanic so the stamp glows once primed and the older marks glow beforehand to gate priming.

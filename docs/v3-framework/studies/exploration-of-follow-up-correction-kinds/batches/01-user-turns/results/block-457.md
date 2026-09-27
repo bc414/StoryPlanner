@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the revised plan for Krystallfels and Gilded Lily's public role and uses it to ask how Blueblood's investigation and conspiracy theory change and what Rockfeller's warnings to Blueblood and to Applejack should say, so it moves the plan forward without disputing anything the model said.

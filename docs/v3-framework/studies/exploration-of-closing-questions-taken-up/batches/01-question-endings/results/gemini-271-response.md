@@ -1,0 +1,10 @@
+- questions:
+  - Does the user want the opening scene of Chapter 1 written out to start drafting? | ignored | Nothing about drafting or Chapter 1; it goes on to Trimmel's speech and Eros's reasons for surrendering. | none
+- shape: Does not take up the offer to draft. It adds to the plan: it supplies an opening line for Trimmel's speech and rewrites why Eros surrenders, replacing the model's paternalist-protector motive with a wise, rational reading of the battlefield.
+- settles:
+  - Trimmel's speech opens by saying he meant to tell only his history with Synovial, a story of the drone triumphing over the aristocrat who stepped on him, but will now tell the entire story | Trimmel should start his speech with, "I was originally going to just talk about my history of Synovial..."
+  - Trimmel's decision to tell the whole story takes AJ by surprise | AJ wasn't even expecting this
+  - Eros is a rational, wise actor, not merely a paternalist who wants to spare his subjects | since Eros is a rational actor... He isn't stupid, he is incredibly wise
+  - Eros sees that magical combined arms destroyed Synovial's forces and that the weapons were donated while the tactics were not, and reads this as the ultimate olive branch of mercy | the weapons were donated but the tactics were not, and understand that it is the ultimate olive branch of mercy
+  - Eros reaches his unconditional surrender by weighing the honest speeches and interviews, the actual battlefield result, and an exhausted populace, and by judging life as a citizen of the Republic better than annihilation | hears the honest speeches and the honest interviews... exhausted populace... Living as a citizen in the Republic (bleh) is preferable to anihilation
+  - The Republic's forces wiped out half of Synovial's attaché, whom Eros himself invited, and then left. This moves Eros deeply and is framed as the ultimate gentleman's gesture | wiped half of Synovial's attaché off the map, who HE invited, and then are leaving

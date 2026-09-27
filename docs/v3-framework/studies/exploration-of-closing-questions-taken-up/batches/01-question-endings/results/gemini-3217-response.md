@@ -1,0 +1,4 @@
+- questions:
+  - How is the user making sure the protagonist factions in The Lioness of Tall Tale avoid the sanitized-hero trope when the war forces uncomfortable logistical decisions? | ignored | Nothing on it. The turn stays on Age of Empires and gaming history and never returns to the user's own story. | none
+- shape: Drops the model's closing question about the user's story and redirects to the gaming-history thread. It asks the model new questions: how AoE4 fits in, whether it succeeded, and whether the return to AoE2's model and the AoE2 modder expansions reflect a post-WoW turn toward roots. It also gives the user's own view that the AoE4 demo did not interest them.
+- settles:

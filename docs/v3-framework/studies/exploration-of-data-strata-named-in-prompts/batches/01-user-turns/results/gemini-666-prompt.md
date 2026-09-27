@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user remarks on the irony that Twilight built, by iterating on enemy technology, the thing that made Celestia's demand for her ascension unnecessary, and asks the model to expand on that idea.

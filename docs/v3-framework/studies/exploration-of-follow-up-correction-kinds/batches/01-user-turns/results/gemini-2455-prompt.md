@@ -1,0 +1,6 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model treated Tall Tale as encircled and about to be starved out, when in the story the defenders are holding the line | To clarify, Tall Tale is not encircled, they are holding the line | flat, stated as a clarification with no reason or apology
+  - reading of the plan | The model made Twilight's magic the means of extracting Applejack and the decisive factor at Tall Tale, when the user's plan has Star Energy and the Aquileian ace fliers holding the line | I'm actually moving away from Twilight's magic being the soul savior of Tall Tale or the tipping point | stated as a change of direction in the plan, put mildly and without blame
+  - fact of the world | The model named the trigger for Twilight's decision to fight as the collapse of the supply lines and the broken MSO, together with Applejack's Vanhoover ultimatum about labor camps. The user gives a different trigger, Applejack's line that Vanhoover is suffering and cannot be reached | I think what triggers Twilight's decision to help fight is when AJ says | offered as the user's own view, hedged with 'I think', and given as a replacement
+- about: The user corrects the model's premises about Tall Tale's situation, Twilight's role there and what triggers her decision to fight, and states the intended version of each.

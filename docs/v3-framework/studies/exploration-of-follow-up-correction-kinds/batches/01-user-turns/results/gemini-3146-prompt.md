@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of local file traversal plus cloud LLM and asks a new follow-up question, requesting a thorough breakdown of how usefulness is split between local and cloud compute, without disputing anything the model said.

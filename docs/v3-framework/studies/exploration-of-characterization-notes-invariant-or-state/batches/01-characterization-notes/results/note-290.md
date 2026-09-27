@@ -1,0 +1,4 @@
+- claims:
+  - span | Before the war she never had to rest when facing problems; she never needed to pause or stop in the face of difficulty | never had to rest in the face of problems before the war | the period before the war, which is the state at the start of TLTT (the question's frame)
+  - span | Any problem that required brute force she could surpass; her physical force was enough to overcome such problems | Anything that required brute force, she could surpass | the same pre-war period; past tense (could) and it is tied to the before-the-war stretch, though the sentence itself has no separate marker
+- beside: none

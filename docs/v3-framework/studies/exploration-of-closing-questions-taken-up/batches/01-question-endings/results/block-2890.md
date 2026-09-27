@@ -1,0 +1,6 @@
+- questions:
+  - Should the six-axis framework require every axis to have a value for every system (Option A, with only assigned or unset), or allow N/A for axes that don't apply given a system's configuration (Option B)? | ignored | The user turn doesn't pick A or B, and doesn't discuss N/A or unset. It moves on to what the poles of axis 6 are. | none
+- shape: The user turn redirects. It leaves the A/B decision on N/A unanswered and starts on axis 6, Access. It proposes permanent stratification as one pole, asks the model what the opposite pole is, and gives its own short readings of unconditional and transactional dignity to work from. It is a tentative thought plus a request, not a ruling on what the model asked.
+- settles:
+  - Tentatively, one pole of axis 6 (Access) is permanent stratification | "I'm thinking one pole of axis 6 is permanent stratification"
+  - The user's working reading of the dignity poles: unconditional dignity means everyone is happy and needs are met, and transactional dignity means advancement is possible if you prove it | "When dignity is unconditional everyone is happy and needs met" and "advancement is possible if you prove it"

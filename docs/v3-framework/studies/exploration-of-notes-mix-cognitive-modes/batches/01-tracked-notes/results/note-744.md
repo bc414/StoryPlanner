@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-building of an in-universe organization's practice) | The Tzinacatl Medicinal Tribes make medicine from the Friendship Plants, which Mage Meadowbrook engineered | They use the "Friendship Plants" engineered by Mage Meadowbrook to make medicine | outside
+- goals:
+- whole: The note states in a single world-building sentence what the Tzinacatl Medicinal Tribes do: they make medicine from Mage Meadowbrook's engineered Friendship Plants.

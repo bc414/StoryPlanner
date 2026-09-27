@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author adds their own story points about Trimmel's contradictory fallout from the second battle, Henri's lack of qualms about precision strikes, and Chrysalis's shift from clean war to terror against soft targets, without pointing the model at any body of data.

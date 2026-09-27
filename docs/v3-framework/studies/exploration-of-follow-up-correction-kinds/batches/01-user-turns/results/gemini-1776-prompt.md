@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for more game-theory-inspired term suggestions, extending the previous naming options without objecting to or amending anything in them.

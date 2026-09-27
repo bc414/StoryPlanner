@@ -1,0 +1,10 @@
+- questions:
+  - How does EEEE!'s radical wing, perhaps influenced by Caramel Marks, react to self-imposing the 83.3% census rule, and does it split the movement before the campaign starts? | refused | Rejects the premise: EEEE has no Marksist wing. It runs on Equestrian harmony plus Griffonian Republic civic virtues, so no radical faction exists to react. | "EEEE does not have a Marksist wing"
+  - How do the Comprador Tycoons react when Celestia agrees to honor the Charter, and do they assume she secretly sides with them and is killing the mobilization with red tape? | ignored | none | none
+- shape: Corrects the model's premise about a Marksist wing and replaces it with the real ideological makeup of EEEE and where its ideas came from. It then redirects the conversation to a new request: a historical comparison with Britain in 1940, and a plan for how EEEE could reach the 83% threshold given ponies' greater inclination to harmony. The model's second question is left untouched.
+- settles:
+  - EEEE has no Marksist or radical wing. Its ideology is Equestrian harmony combined with Griffonian Republic civic virtues. | "EEEE does not have a Marksist wing, they run on Equestrian harmony plus Griffonian Republic's civic virtues"
+  - The Griffonian civic virtues reached EEEE through SAA employees who brought them back after delivering canned mush to the Griffonian Republic. | "which SAA employees brought back with them when delivering canned mush"
+  - The war bond program copies Kemerskai's civic fiat Riks. Chapter 7 does not state this explicitly. | "copy of Kemerskai's civic fiat Riks"
+  - EEEE's true believers hide the ideology's Griffonian origins, because Celestia and the rest of Equestria see the Griffonian Republic as more greedy griffons or Herzlander imperialism in a tricolor, a bias owed to the Aquileian parloirs. | "obscure the origins of the ideology"
+  - The Manehattan arc is meant to mirror Britain's emergency war economy of 1940 after the fall of France. | "meant to mirror Britain's emergency war economy in 1940"

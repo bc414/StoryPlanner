@@ -1,0 +1,4 @@
+- sources:
+  - the definition of "subject" in v2 | treat as correct but not exhaustive; it needs widening because theme evidence can also come from plot points that are not tied to a tracked subject | turning the definition of "subject" in v2 tied to having theme evidence is correct but not exhaustive | referred-to
+- order:
+- about: The user is qualifying the v2 definition of \"subject\" as tied to theme evidence, saying it holds but is incomplete because plot points such as the Stuka can be theme evidence without being a tracked subject with a story-wide arc.

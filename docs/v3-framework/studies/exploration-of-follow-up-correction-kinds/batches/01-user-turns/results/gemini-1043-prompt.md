@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's arc has Equestria dependent on Kessler and paying royalties for years, as if no decisive victory had happened. It did not take account of how the plan ends the Griffonia war: allied friendships, a complete victory over Eros, and Skyfall surrounded. | Please look into my story plans again and take note of how the war in Griffonia concludes | Flat directive, polite. It sends the model back to the plans and restates the ending as the reason, then turns the point into a question about pressuring Kessler.
+- about: The user sends the model back to the plans to restate how the war ends, with the allies victorious and Skyfall surrounded, and asks whether that position lets Kessler be pressured.

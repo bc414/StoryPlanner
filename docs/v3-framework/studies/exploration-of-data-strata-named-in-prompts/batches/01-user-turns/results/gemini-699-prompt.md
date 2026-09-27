@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user corrects the model's premise about the story's situation, stating that Canterlot and Vanhoover were already liberated and that the ponies Celestia wants back are kidnapped, trafficked captives in the hives, of unknown number and location.

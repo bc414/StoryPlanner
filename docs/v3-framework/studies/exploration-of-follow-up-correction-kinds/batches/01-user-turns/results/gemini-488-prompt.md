@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user brings up a previously planned scene (Fluttershy making Rainbow talk to a shot-down changeling pilot POW) and asks whether to cut it or place it before or after the war council, which is a further planning question and not a correction of the model's analysis.

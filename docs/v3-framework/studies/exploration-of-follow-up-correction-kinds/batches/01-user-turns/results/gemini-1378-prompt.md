@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn carries only a plan export attachment with no written message, so it supplies material and says nothing for or against the model's account of the debt trap.

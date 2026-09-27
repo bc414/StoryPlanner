@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to analyze how the Stab-in-the-Back myth could be used by the 'Ponies First' party to blame Applejack for the White Peace loss? | ignored | none; the turn is only an attached plan export with no accompanying text | Plan export attached — 142,107 words
+- shape: Sends the plan export as an attachment with no message of its own. It neither responds to the offer nor comments on the Weimar synthesis, and gives no instruction. It reads as supplying material for whatever comes next.
+- settles:

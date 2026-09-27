@@ -1,0 +1,8 @@
+- claims:
+  - WorldInference | The reader's prior belief is that Celestia is obsolete and endangered the ponies by sheltering them from a real world of ambition | The reader thinks Celestia is obsolete and put the ponies in danger by shielding them | yes
+  - WorldInference | Through what Sickleclaw tells Applejack, the revelation that Celestia was never obsolete overturns the reader's prior opinion | By learning from Sickleclaw, Applejack learns that Celestia was never obsolete | yes
+  - ThematicEvidence | A thematic proposition that some ponies need a mother figure, which reframes Celestia's role | Some ponies just need a mother figure | no
+- goals:
+  - The reader drops the view that Celestia is obsolete and comes to see she was never obsolete | WorldInference | Celestia was never obsolete
+  - The reader takes away that some ponies just need a mother figure | ThematicEvidence | Some ponies just need a mother figure
+- whole: The note sets the reader's prior view of Celestia as obsolete and harmful, then has Sickleclaw's revelation to Applejack overturn it and land on the idea that some ponies need a mother figure.

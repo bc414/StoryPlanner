@@ -1,0 +1,4 @@
+- sources:
+  - my actual story plans | treat as the authoritative basis for the analysis; the model must redo its analysis from them, not from its own assumptions about who holds the spymaster role | Please reanalyze using my actual story plans | referred-to
+- order:
+- about: The user corrects the model's claim about who the spymaster is in TLTT (Fluttershy, not Pinkie Pie) and tells it to redo its analysis from their actual story plans.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of what Contractor English lacks and asks a follow-up about worldbuilding: whether changeling rehab would have to include schooling, at what grade levels these skills are taught, and whether they are taught explicitly or implicitly.

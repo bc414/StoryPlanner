@@ -1,0 +1,9 @@
+- questions:
+  - What reading experience does the user want the Chrysalis prequel to give when read on its own, as a completed tragedy rather than mere bleakness? | ignored | The turn does not say what experience is wanted. It describes the prequel as grimdark, with Chrysalis unreformed and ending as an obsolete grifter, and then asks the reading-order question again. | none
+- shape: The user does not take up the model's question. They give background on the three stories (each one's tone, setting and character arc, with an allegory and a comparison), then put the reading-order question again. They add an instruction to flag missing context and not assume things. It works as a reset that supplies premises and asks for a fresh analysis.
+- settles:
+  - The Chrysalis prequel is grimdark. She grows up in the pure predator's dilemma, becomes the villain, fails, is never reformed, and ends as an obsolete grifter. | Chrysalis's prequel story is grimdark... not reformed in the end
+  - Chrysalis is comparable to Flurry Heart in The Princess and the Kaiser. | Chrysalis is honestly like Flurry Heart
+  - Applejack's TLTT story is hopepunk. She grew up in the Stagnation of harmony, where harmony is the baseline, and the allegory is people raised in suburbs. | Applejack's story (TLTT) is hopepunk... people who grew up in suburbs
+  - Minette grew up in a grimdark environment like Chrysalis's, escaped it through personal triumph, crashed in TLTT, and learned from the Mane 6. | Minette's story is an interesting in between
+  - The user's original plan was the order TLTT, Minette, Chrysalis, chosen for maximum dramatic irony. It is stated as the plan and not yet confirmed. | I originally planned the latter since Chrysalis last would have the most dramatic irony

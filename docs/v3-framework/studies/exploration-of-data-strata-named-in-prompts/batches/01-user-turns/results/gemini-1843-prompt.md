@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user steps away from the story discussion to ask a general philosophical question about whether LLMs grasp meaning or only process tokens, without pointing the model at any body of material.

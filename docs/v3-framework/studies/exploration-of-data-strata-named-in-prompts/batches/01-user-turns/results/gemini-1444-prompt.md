@@ -1,0 +1,7 @@
+- sources:
+  - my story plans | re-read them and use them as the basis for the pros and cons analysis | Please review my story plans again | referred-to
+  - my lore on Trimmel at the gates of Manehattan, the Coordination chapter and the Luna Nova supply chain stabilizing the front | treat as established plot; it is the premise that lets the ponies be strong and merciful | My lore goes: Trimmel is at the gates | referred-to
+  - my lore on the Bluebell Spearhead, the changeling front collapsing, the Statthalters abandoning conscripts, and Celestia handing them to Stalliongrad for gulags | treat as established plot that may conflict with the first lore; weigh it against the mercy idea | But I also have lore about how after the Bluebell Spearhead | referred-to
+  - Fluttershy's example in Tall Tale | use as the model or template for the mercy EEEE would show to POWs | follow Fluttershy's example in Tall Tale | referred-to
+- order:
+- about: The user asks the model to re-read their story plans and analyze the pros and cons of EEEE turning the Foyer into a Fluttershy-style POW rehab camp, given two pieces of their own lore that pull in different directions (a stabilized front allowing mercy, versus the conscripts already sent to Stalliongrad's gulags).

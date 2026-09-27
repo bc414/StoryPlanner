@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | The fantasy technology MEFO Bills stands for the real-world late-capitalist 'Rat Race' paradox, where effort within the system yields no escape from it | The "Rat Race" paradox in late capitalism | yes
+- goals:
+- whole: The note names the real-world condition, the late-capitalist Rat Race paradox, that the MEFO Bills technology is to stand for.

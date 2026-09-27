@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of what Changelings can do left out flight, shapeshifting and horn telekinesis, and built the labor split, the climbing jobs, the claw-only dexterity and the frail-artisan picture on that narrower ability set | Changelings can also fly, shapeshift and do telekinesis with their horn | flat one-line statement of the missing facts, phrased as an addition ('also') with no reason, apology or explicit mention of the model's error
+- about: The user briefly supplies the Changeling abilities the model left out, then moves on to add new world rules (shapeshifting is illegal outside the conservatory, ponies have a VOPS detection spell, shapeshifting could help with animals) and asks when the inhibitor rings can come off and how freshly captured POWs are processed.

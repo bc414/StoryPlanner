@@ -1,0 +1,5 @@
+- questions:
+  - How does Amélie use her therapeutic expertise to help Réni process his guilt over the Zebrican bombing runs, channeling his ambition into building post-war logistical infrastructure rather than seeking a glorious death? | no user turn | none | none
+  - When Twilight formalizes the unified theory of magic, how does Amélie's siege data prove to Fleur Bloom that Grace/Pink Love is a measurable thermodynamic force rivaling Aquileian Pride/Red Love industrial output? | no user turn | none | none
+- shape: none
+- settles:

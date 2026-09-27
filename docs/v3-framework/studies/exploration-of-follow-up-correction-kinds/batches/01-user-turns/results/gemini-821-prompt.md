@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Twilight love-research answer to a new task: they paste Rommel excerpts with running notes mapping them onto Trimmel and ask for analysis and suggestions to enhance his arc, without disputing anything the model said.

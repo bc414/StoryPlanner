@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to produce an overview of the arcs, ideologies and roles of the other four pillars of old Equestria, in order to develop the Star Swirl versus Mage Meadowbrook dynamic, without pointing to any body of material to draw on or avoid.

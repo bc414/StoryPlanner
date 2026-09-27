@@ -1,0 +1,4 @@
+- questions:
+  - If Applejack's unrefined Manehattan fuel goes into a standard non-magical army truck, what happens to the ground troops' vehicles, and does the engine knock and destroy itself? | ignored | The user turn doesn't mention the trucks or the ground troops. It asks a factual follow-up about the refinery explanation. | none
+- shape: Redirects to a real-world factual clarification. It asks whether gasoline engines are still only about 35% efficient after cracking and reforming, which picks up an earlier efficiency point and skips the worldbuilding prompt.
+- settles:

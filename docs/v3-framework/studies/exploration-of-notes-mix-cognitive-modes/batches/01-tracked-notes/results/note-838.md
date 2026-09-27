@@ -1,0 +1,4 @@
+- claims:
+  - History | The character Pharanx died in the 2nd Battle of Tall Tale, reported as a past fact of the world | He perished in the 2nd Battle of Tall Tale | yes
+- goals:
+- whole: The note reports in a historian's voice that Pharanx died in the 2nd Battle of Tall Tale, giving his backstory fate.

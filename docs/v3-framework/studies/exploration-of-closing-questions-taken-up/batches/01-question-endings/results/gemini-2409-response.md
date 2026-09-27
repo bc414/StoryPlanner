@@ -1,0 +1,11 @@
+- questions:
+  - Does Herzland respond to Wingbardy's aluminum and rubber monopoly by economically subjugating Wingbardy to secure the materials? | answered | Herzland ruled Wingbardy outright as a subject state from 705 to 972, so subjugation was the case, and it went further than economic control. | Wingbardy is a subject of Herzland from 705 to 972
+  - Does Wingbardy instead use its aircraft exports as leverage over the Emperor? | partly answered | Gives no leverage arrangement. It says only that Wingbardy was a subject until 972 and then developed better planes, which touches the timing of its air power but not leverage over the Emperor. | After 972 they develop better planes
+  - Does Wingbardy see Aquileia's Pegasus-based democratized flight as a threat to its mechanical aircraft export market? | ignored | The turn goes on to Wingbardy's government and never mentions Aquileian flight or the export market. | none
+- shape: The user supplies a timeline (Herzlander rule until 972, then better planes) and adds a political structure for Wingbardy, a constitutional monarchy modeled on England. It also explains why Wingbardy avoids the revolutions that hit Herzland and Aquileia. It answers the model's first question through this timeline and does not take up the export-market question. It also does not react to the model's analysis.
+- settles:
+  - Wingbardy was a subject state of Herzland from 705 to 972. | Wingbardy is a subject of Herzland from 705 to 972
+  - After 972 Wingbardy develops better planes. | After 972 they develop better planes
+  - Wingbardy is a constitutional monarchy with a Senate for the bourgeoisie and mafiosos. | constitutional monarchy with a Senate for the bourgeoisie and Mafiosos
+  - Wingbardy has no revolution, unlike Herzland and Aquileia, because of this constitutional arrangement. | which is why they don't have a revolution like Herzland and Aquileia
+  - Wingbardy's model is England. | It's like England

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general follow-up question about how RavenDB stores a database on disk, comparing it to SQLite, without pointing the model at any body of material.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's thematic breakdown to work out chapter 1, revising their own earlier plan (who the Vanhoover victims are, casualty rates, the ending beat) and asking for period casualty statistics and how cynicism versus resilience ties into the imposter-syndrome beats.

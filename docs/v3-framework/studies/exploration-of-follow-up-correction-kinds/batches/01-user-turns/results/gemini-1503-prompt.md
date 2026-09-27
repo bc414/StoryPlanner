@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Fleet analysis to a new question, asking how Kemerskai would study the Skyfall and Coltbert monetary systems and design the Republic's law-based fiat system, and asks the model to review his backstory plan and draw on real-world parallels.

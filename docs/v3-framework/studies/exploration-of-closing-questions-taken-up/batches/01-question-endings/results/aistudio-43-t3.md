@@ -1,0 +1,6 @@
+- questions:
+  - Does the industrialization of Pinkie's empathy, mass-producing Morale Cakes with refined Pink Love, risk making her a benevolent Chrysalis who dispenses a standardized chemical fix? | ignored | none | The turn moves to Pinkie's regiment and infiltrators and never mentions Morale Cakes or scaling.
+  - How does her childhood labor on the extractive rock farm inform her ability to connect with Changeling factory drones who have only known the Rat Race? | ignored | none | The turn never mentions the rock farm, child labor or the drones.
+- shape: The user turn leaves the model's canon-to-wartime breakdown and its two Socratic questions unaddressed and starts a new thread: the source of Pinkie's wartime trauma. It offers two scenarios: a defecting infiltrator killed after exposure by a detection spell, or a real pony killed and replaced, whom Pinkie spots by missing quirks and shoots. It also wonders whether detection spells could scale. It closes with a new question for the model, about whether the impersonated pony should be dead or alive in a field hospital.
+- settles:
+  - Pinkie knew every pony in her regiment, and getting to know infiltrators who were pretending was what shattered her most. | Pinkie knew all the ponies in her regiment. The part that shattered her the most is that she got to know infiltrators who pretend.

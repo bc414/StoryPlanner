@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user states a preference for two of the naming options offered so far (Lex Talionis and L'Inviolabilité) without pointing the model at any body of material to use or avoid.

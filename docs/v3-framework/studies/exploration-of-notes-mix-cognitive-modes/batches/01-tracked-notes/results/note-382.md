@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world-ontology rule stated in god-mode) | Dragon fire exists as the evolutionary mechanism for incubating eggs and defending the clutch | Fire is the evolutionary mechanism for incubating eggs and defending the clutch | outside
+  - outside all ten (world-ontology rule stated in god-mode) | The temperature of dragon fire breath rises and falls with the dragon's protective instinct | The temperature of their fire breath scales with their protective instinct | outside
+- goals:
+- whole: The note states, as invariant world law, what dragon fire is for and how its heat is tied to protective instinct, without naming any reader effect.

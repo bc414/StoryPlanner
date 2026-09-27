@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks follow-up questions about Itaewon Class plot points: Saeroyi's prison encounter with the mobster leader and grunts, the book he was reading, and the arcs of his first two employees, without pointing at any particular body of material to use.

@@ -1,0 +1,9 @@
+- questions:
+  - Does the trajectory (Chrysalis as a CEO trapped by her own extraction economy) fit how the user wants to write her psychological unraveling as Applejack's Harmonic Capitalism starts out-producing her? | ignored | Nothing said about the unraveling or about Applejack's rival economy. The user builds on the model's framework and adds a new premise, without confirming or rejecting the question. | none
+- shape: The user turn builds on the model's framework instead of answering its closing question. It proposes a new backstory premise (sea-monster hunting as the source of surplus red love) and asks the model to work out its effects on the narrative and motivations. It ends with a tentative supposition about why Chrysalis needs the wealth.
+- settles:
+  - From 983 the Aquileian royal navy hunts sea monsters for glory and magical loot, as Grover 3 once wanted. | the Aquileian royal navy starts hunting sea monsters for glory and magical loot in 983
+  - Chrysalis's submarine fleet is also built to hunt sea monsters and drain their red love. | she made her submarine fleet for that purpose too, to kill sea monsters and drain their red love
+  - The sea-monster red love is her surplus, which she turns into drugs for global addiction and into combat drugs. | that's how she has excess red love to make into drugs for global addiction and combat drugs
+  - Chrysalis publicly pretends the drug supply is all drained from warlords, hiding its real source. | she pretends it's all drained from warlords
+  - The wealth generation is a way to raise the capital to undercut and ruin the noble empires of her bullies. The user offers this tentatively. | I suppose all this extreme wealth generation is necessary for having the capital needed to undercut the noble empires of her bullies

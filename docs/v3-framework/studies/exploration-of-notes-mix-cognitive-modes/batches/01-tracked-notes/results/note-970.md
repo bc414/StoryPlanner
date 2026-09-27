@@ -1,0 +1,7 @@
+- claims:
+  - NarrativeArchitecture | The reader starts with a trope-based prior that a comical Trump-like figure will be a spineless backstabber | The reader expects a comical Trump-like figure to be a backstabber with no spine | yes
+  - NarrativeArchitecture | In the war phase the character earnestly helps, which overturns the reader's prior expectation | But he actually earnestly helps in the war phase | yes
+  - NarrativeArchitecture | After the war phase he becomes the political antagonist in the referendum phase, which is the next step in the reading-order opinion arc | before becoming the political antagonist in the referendum phase | yes
+- goals:
+  - The reader's opinion of the character moves from expecting a spineless backstabber, to seeing him as a sincere helper in the war, to seeing him as a political antagonist in the referendum | NarrativeArchitecture | The reader expects a comical Trump-like figure to be a backstabber... But he actually earnestly helps
+- whole: The note lays out the reader's opinion arc for this character in reading order, from a trope-driven expectation of a spineless backstabber, to a surprise of earnest help in the war, to his turn as political antagonist in the referendum.

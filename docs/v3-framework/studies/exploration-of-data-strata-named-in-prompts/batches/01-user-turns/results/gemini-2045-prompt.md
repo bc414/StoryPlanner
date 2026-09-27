@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the Phase 1 system instruction should add rules for ordering buckets within each axis and requests that bucket names be capped at 5 words instead of 8 to reduce cognitive load.

@@ -1,0 +1,8 @@
+- sources:
+  - chapter 12 Crash (the cartel negotiations) | treat as settled plan: it comes before Fleur's lesson, Mali's good-faith reasoning is rejected and only Applejack's offer of dignity for their craft is accepted; use it to constrain where Mali can learn about The Stare | The drug cartel negotiations are in chapter 12 Crash, which comes before Fleur's lesson | first-named
+  - chapter 13 Passion (Fleur's lesson) | treat as settled plan and a possible source of Mali's climactic growth; the user asks whether it is the only influence | which comes before Fleur's lesson in chapter 13 Passion | referred-to
+  - chapter 17 Breakthrough (Mali convincing Luna to democratize the dreamwalking spell) | treat as settled plan: the climax of Mali's arc, against which the influence of Fluttershy's Stare is to be weighed | Mali's climax of her character arc should be in chapter 17 Breakthrough | first-named
+  - Henri and Minette witnessing Fluttershy's Stare on changeling POWs | treat as already established in the plan; a precedent for how the Stare scene could be staged | Henri and Minette are already being shocked by witnessing Fluttershy's Stare on changeling POWs | referred-to
+  - the model's previous suggestion that Mali use The Stare on the Cartels | reject in part: Mali only learns from witnessing it and does not wield it | I don't think Mali needs to use The Stare | referred-to
+- order:
+- about: The author corrects the model's suggestion that Mali wield The Stare, gives chapter 12, 13 and 17 plan facts, and asks how Fluttershy's Stare should be witnessed and whether it feeds into Mali's chapter 17 climax alongside Fleur's lesson.

@@ -1,0 +1,4 @@
+- claims:
+  - History | Chrysalis founded the trading company Krystallfels Handelsgesellschaft, an event of the world dated 983 | Chrysalis creates Krystallfels Handelsgesellschaft | yes
+- goals:
+- whole: The note reports in-universe the founding of the organization by Chrysalis as a dated historical event.

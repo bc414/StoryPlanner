@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about the purpose, effects and side effects of gendered nouns in language, without pointing at any body of material to draw on.

@@ -1,0 +1,14 @@
+- questions:
+  - Does Equestria's Conception Spell (Pink Love, mutual consent) mean Equestria has no concept of paternity uncertainty, and does Celestia see Griffonian bloodline obsession as a tragic symptom or as proof of predation? | ignored | Says nothing about Celestia, the Conception Spell, or Equestrian views of Griffon bloodlines. | none
+  - Does Kemerskai's abolition of titles and likely inheritance taxes, by destroying generational wealth, undermine the Griffon work ethic and validate Sickleclaw's fear of a stagnant, state-dependent populace? | partly answered | Says Kemerskai redirects ambition into serving the Republic and Liberty and surviving the Reich, so drive isn't lost. Adds that this civic morality only holds for the first generation. Doesn't mention Sickleclaw, inheritance taxes or titles. | "redirects all ambition into serving the Republic"; "only works for the 1st gen"
+- shape: The user sets aside the model's Socratic framing and answers the second question with plot. The answer is that ambition is redirected into civic duty, but only for one generation. That leads into a described later election and its allegorical meaning. It reads as the user supplying the story's arc, not as engaging with the model's questions.
+- settles:
+  - Kemerskai channels all ambition into serving the Republic and Liberty and surviving the evil Empire/Reich. | "redirects all ambition into serving the Republic and Liberty"
+  - His constituents are the formerly abused liberated peasants of Cloudbury and the true-believer republicans from Herzland. | "liberated peasants of Cloudbury"
+  - The Republic's civic morality works only for the first generation. | "only works for the 1st gen"
+  - After the Griffonian Republic conquers and integrates Herzland, an election takes place in the chapter Liberty. | "election (taking place in the chapter Liberty)"
+  - Sunglider is a globalist democratic crusader. His platform is global cooperation and Griffon asset specificity and terroir. | "globalist democratic crusader"
+  - Kingfeather is conservative. His platform is continuing the civic status quo and protectionist tariffs for Herzlander farmers against Equestrian and Aquileian agriculture. | "protectionist tariffs to protect Herzlander farmers"
+  - Sunglider wins the election. | "Sunglider wins the election"
+  - The election allegorizes the modern West needing to adapt. The Griffonian Republic stands for the FDR New Deal, and Kingfeather's platform is the outdated continuation of it. | "allegory for how the modern West needs to adapt"
+  - The reason the New Deal approach is outdated is that automation has replaced 1930s factory work and human capital is now required. | "automation has already replaced 1930s factory work"

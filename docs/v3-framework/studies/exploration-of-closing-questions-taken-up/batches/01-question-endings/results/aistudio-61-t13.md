@@ -1,0 +1,5 @@
+- questions:
+  - Does Star Energy's tie to Tall Tale civic pride cause resentment among Tzinacatl rubber workers and Temberik crystal miners post-war, forcing a decentralized multi-brand structure with local Cutie Marks/Seals? | no user turn | none | none
+  - At the Town Hall, how does Gilded Trust weaponize the cultural rivalry to keep his 20% of the workforce, and does he succeed in framing Comet Shine and Applejack as Agrarian Imperialists who would end Las Pegasus's nightlife? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | The Skyfall/Chrysalis system is modeled on the British Opium Wars as a real-world historical inspiration | British opium wars
+  - Analogies | The Skyfall/Chrysalis system is also modeled on protection rackets as a real-world present-day/general inspiration | protection rackets
+- goals:
+- whole: The note names the British Opium Wars and protection rackets as the real-world models behind the Skyfall Trade Federation and its relation to Chrysalis.

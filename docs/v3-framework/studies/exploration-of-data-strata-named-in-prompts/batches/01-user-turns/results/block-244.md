@@ -1,0 +1,5 @@
+- sources:
+  - the 4th axis as the model laid it out (Extractive Predation vs Harmonic Integration, with Aquileia and Equestria placed on it) | the model is to refine and rework it, using the author's framing of ego capitalism versus harmonic capitalism and extraction versus sharing | Please refine the 4th axis, it is what Aquileia is lacking and Equestria has | referred-to
+  - the author's own statement about Stalliongrad (intervened in Nova Griffonia for the revolution, Trotskyites) | treat as true and as a correction of the model's labelling of Stalliongrad as isolationist | Stalliongrad is not isolationist, they intervened in Nova Griffonia for the revolution | referred-to
+- order:
+- about: The author asks the model to refine the fourth axis as the difference between ego capitalism and harmonic capitalism (extraction versus sharing), asks whether it ties to classical liberalism and to the bourgeois revolutions in Vérany and the Herzlander lands, and corrects the model's placement of Stalliongrad as isolationist.

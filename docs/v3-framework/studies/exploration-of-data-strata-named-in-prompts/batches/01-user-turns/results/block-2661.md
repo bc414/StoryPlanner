@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two real-world questions about China, namely who is meant by the claim that Deng Xiaoping lifted 800 million people out of poverty and what material conditions drove the collapse in birth rates, without pointing the model at any particular body of material.

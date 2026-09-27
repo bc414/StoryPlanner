@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts the click-a-link-card idea, revises the earlier layout into a unified three-part Content Window with an OwnerControl for the owner, the links, and the selected link, and asks for strengths, improvements and pitfalls of that approach.

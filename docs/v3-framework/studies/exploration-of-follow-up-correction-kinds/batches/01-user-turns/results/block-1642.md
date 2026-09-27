@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches their own drafted tracks file and asks the model to analyse it against the principles established in the conversation, covering strengths, improvements and gaps, without saying anything in the model's ordering logic or gap questions was wrong.

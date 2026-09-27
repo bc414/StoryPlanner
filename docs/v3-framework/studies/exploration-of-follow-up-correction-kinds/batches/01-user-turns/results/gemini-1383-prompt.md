@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets the misleading-title suggestions aside and asks a new question: whether "Oblivion" fits a chapter about drug abuse and escapism, and whether other words would be more poignant.

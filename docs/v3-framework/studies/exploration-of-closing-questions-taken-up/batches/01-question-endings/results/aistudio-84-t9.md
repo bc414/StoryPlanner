@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack, once Integrity is the Republic's highest civic virtue, reconcile the covert operations (spy agency, flooding Skyfall with addictive drugs)? Does she declassify them or accept a permanent hidden shadow-state? | ignored | The user turn does not address the Republic's covert operations or Integrity's conflict with them; it turns to a question about Magic in Faust's fabula. | none
+  - How does Applejack psychologically process never returning to manual labor when she takes the 6th Element and the Presidency? Does she see the Presidency as an industrialized harvest, or mourn her agrarian simplicity? | ignored | The user turn says nothing about Applejack's inner life or the loss of farm life; it asks about Magic instead. | none
+- shape: Redirects to a different topic. The user drops both Socratic questions and asks the model to go back and explain what Magic meant in Lauren Faust's original fabula, then extrapolate it to their own. It reads as a request for source grounding, and possibly a quiet challenge to the model's earlier claim that Magic is Applied Ambition. It does not accept or reject that claim.
+- settles:

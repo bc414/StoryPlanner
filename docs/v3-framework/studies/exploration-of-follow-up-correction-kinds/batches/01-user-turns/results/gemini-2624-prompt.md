@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's proposed Pinkie line about heart rates and asks for research into canon episodes where Pinkie talks about a racing heartbeat or fun fear, offering Luna Eclipsed as a possible match and saying another episode may exist.

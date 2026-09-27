@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the model's advertising analysis and asks a new question about whether the story can carry a meta-narrative treating the MLP show itself as a toy advertisement.

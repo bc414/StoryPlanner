@@ -1,0 +1,5 @@
+- sources:
+  - the market manipulation idea (Chrysalis's stock trading and information arbitrage from the previous reply) | keep it, but only for later years; not the first-year source of seed capital | Market manipulation makes sense for later years | referred-to
+  - the author's own picture of Chrysalis's first year (no modern education, seed capital from black market violence, bounties to take out startups challenging monopolies) | offered as the author's own direction that replaces the earlier first-year mechanism; phrased as imagining, so a suggestion rather than a settled fact | I imagine Chrysalis still doesn't have a modern education for the 1st year | first-named
+- order:
+- about: The author accepts the model's market-manipulation mechanism for Chrysalis's later years but redirects her first-year seed capital to black-market violence, with bounties on startups that challenge monopolies.

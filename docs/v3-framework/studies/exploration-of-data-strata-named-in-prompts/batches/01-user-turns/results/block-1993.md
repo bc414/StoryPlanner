@@ -1,0 +1,4 @@
+- sources:
+  - other chapters | to be surveyed to find which ones have not yet been investigated thoroughly; no trust or ranking given | "What other chapters haven't been investigated thoroughly yet?" | referred-to
+- order:
+- about: The user, after the model's ruling on keeping the Bright Mac and Pear Butter subject combined, asks which other chapters still lack thorough investigation.

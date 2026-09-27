@@ -1,0 +1,5 @@
+- sources:
+  - Claude's initial diagnosis that notes need to become typed claims and separate tracks | keep as correct for separating history, psychology, reader inference and what's on the page, but treat as going too far for political and economic separation, which is revised | "this was a correct diagnosis of history, psychology" and "political and economic separation is too far" | referred-to
+  - Real-life laws and existing technology (Haber-Bosch process, nitrocellulose gunpowder, how oil is formed, WW2-era tech) | do not make subject entries for these; entries are only for the author's invented world laws, magic and technology | "I'm not making subject entities for world laws that exist in real life" | first-named
+- order:
+- about: The user pushes back on the model's proposed strict single-mode tracks, keeping psychology, history/backstory and invented world-law systems separate while merging economy, politics, sociology and anthropology into one worldbuilding pillar, and asks for better names for these categories.

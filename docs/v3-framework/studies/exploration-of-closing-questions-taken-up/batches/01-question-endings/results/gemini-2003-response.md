@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the model to wait for confirmation that the schema saves before moving on to the final Sorter prompt | ignored | none; it only reports that the schema still fails, without saying whether to wait or move on | This still does not work
+- shape: A short bug report: says the revised schema also failed in the editor, so the fix didn't work. It gives no new detail (no error text, and no word on whether the Visual Editor fallback was tried) and leaves the offer to continue unanswered.
+- settles:

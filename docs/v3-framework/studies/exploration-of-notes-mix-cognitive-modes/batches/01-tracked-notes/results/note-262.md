@@ -1,0 +1,8 @@
+- claims:
+  - History | A minority of young serfs in Vinovia believe Verany's Republican Liberty pamphlets, demand rights and threaten to strike | A minority of young serfs in Vinovia believe Verany's Republican Liberty pamphlets. They demand rights and threaten to strike | no
+  - History | Gaudreau answers the strike threat by saying they are free to leave, a pressure-valve release policy | Gaudreau says they are free to leave (pressure valve release policy) | no
+  - History | The serfs who go to the city meet rugged individualism, are left with nothing and are shamed for not rising up | Then they get to city and are disillusioned by the rugged individualism, left with nothing, and shamed | no
+  - History | The serfs come to realize they were puppets for the bourgeoisie | They realize they are puppets for the bourgeoisie | no
+  - History | Verany's promise of Dignity turned out as Contempt | Verany promised "Dignity" and delivered "Contempt" | no
+- goals:
+- whole: The note reports as in-world fact the arc of Vinovia's young serfs, from believing Verany's pamphlets through Gaudreau's release policy to disillusion in the city, in a track that asks for planning work still to be done.

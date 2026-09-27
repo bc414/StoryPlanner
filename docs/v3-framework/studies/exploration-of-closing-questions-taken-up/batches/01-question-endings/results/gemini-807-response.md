@@ -1,0 +1,8 @@
+- questions:
+  - Does the user want the model to analyze the 'We're all monsters' scene in Chapter 16 (Quebuck) to check it sets up the hardened Applejack who delivers the ultimatum? | ignored | none | none
+- shape: Corrects the model on a canon fact (Trimmel never said 'the sky will fall' and his Chapter 1 radio line is given verbatim), passes over the three offered ultimatum options, supplies the user's own ultimatum for Applejack, and asks for analysis of that instead of taking up the offered next step.
+- settles:
+  - Trimmel's radio line in chapter 1 is 'This is Hivemarshal Trimmel. Surrender and you will be spared. That is a promise. Resist and you will be erased. That is a fact.' He never said 'the sky will fall' | 'Trimmel never used "the sky will fall"'
+  - Applejack's ultimatum will repeat Trimmel's chapter 1 line word for word | 'Applejack will use the same line from Trimmel'
+  - The ultimatum ends with 'In 12 hours, the night will fall on every creature who dreams of conquest.' It is used in place of the model's three options | 'followed by "In 12 hours, the night will fall..."'
+  - The closing line is meant to sound nonsensical on purpose. Twelve hours points to early dawn, and it implies a nightmare that won't end even as the sun rises if they don't surrender | 'sound non-sensical on purpose since 12 hours corresponds with early dawn'

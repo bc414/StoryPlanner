@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | asserts the character's true underlying desire: not mere wealth but worship as the singular savior of the species | doesn't just want to be rich; he wants to be worshipped as the singular savior | yes
+- goals:
+- whole: The note asserts as fact that the character's core motive is a craving to be worshipped as humanity's sole savior, beyond mere riches.

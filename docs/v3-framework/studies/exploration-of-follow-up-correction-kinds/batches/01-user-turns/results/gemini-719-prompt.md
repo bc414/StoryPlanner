@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about whether Henri, the Aquileian character, can allude to Pétain, the Lion of Verdun, so the Lioness title plays on both history and P&K, and does not challenge anything the model said.

@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the model to generate the Entity Framework C# classes and the DbContext code to get started | ignored | Says nothing about the code offer. Asks instead for out-of-the-box ideas they haven't considered. | none
+- shape: Redirects. The user leaves the offered next step (generating the code) unaddressed and asks the model to widen the scope with new ideas and concepts beyond the plan just laid out. It is an open request for brainstorming, not a correction or an instruction to build.
+- settles:

@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - outcome of the model's advice (the assurance that the mutual-exclusivity edits were safe for the pipeline) | The user reports that after applying the suggested Task and ExtractionDirective wording, Phase 0 no longer proposes a chronology paradigm, which they consider the most important, so the edits did not have the safe effect the model described | "now it doesn't have a category for chronology, which I thought was the most important" | Implicit and mild: reports a bad result as an observation and frames it as a question about whether the instructions were too vague, without saying the model was wrong
+- about: The user pastes the revised Phase 0 prompt with the model's edits applied, reports that chronology is now missing from the paradigms it produces, and asks whether the instructions made the paradigms too vague or abstract.

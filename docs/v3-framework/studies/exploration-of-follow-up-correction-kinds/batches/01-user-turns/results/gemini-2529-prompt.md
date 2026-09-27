@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's account of the Olenian conquest as a desperate invasion to strap the Deer to harvesters is replaced with a stable, bauleiter-run love-tax economy. Civilians report monthly to be drained and then go back to work, and nobody is hooked up until they lose hope. | The Olenian subjugation is the first time the pink love food supply is relatively stable... not hooking up victims to harvesters until they lose hope | Flat restatement of how the setting works, with a mechanism given. It is not framed as disagreement and has no apology, and it comes at the start of a turn that then moves on.
+- about: The user turn corrects the model's picture of how Olenia's food supply works, then moves on to two new ideas: Statthalters taking slaves from Zebrican warlords, and Zebrican-origin immigrants in Skyfall.

@@ -1,0 +1,7 @@
+- sources:
+  - the crystallers' filtering spell (the model's proposal in the prior turn) | treat as a good fit and adopt it as the active component of the Luna Nova rifle's three-way valve | seems to be exactly what Twilight and Fleur need for the active component | referred-to
+  - what I established about griffon artisans and vacuum chambers | treat as settled story fact and build the valve idea on it | I established that griffon artisans construct large vacuum chambers | referred-to
+  - the existing plan that Skyfall needs the drug trade | provisional, open to being rewritten as a need for miniature vacuum-grade valves | should I rewrite the need for the drug trade to Skyfall | referred-to
+  - the Skyfall company Kesseler valves need | existing plan element the user asks the model to check against the new valve premise, whether it still holds | Is the Skyfall company Kesseler valves still need for the perfect miniaturized valves | referred-to
+- order:
+- about: The user accepts the model's Crystaller filtering spell as the valve component for the Luna Nova rifle and asks whether to rewrite Skyfall's plot motive from a drug trade to a need for miniaturized vacuum-grade valves, checking it against the griffon vacuum-chamber craft they already established.

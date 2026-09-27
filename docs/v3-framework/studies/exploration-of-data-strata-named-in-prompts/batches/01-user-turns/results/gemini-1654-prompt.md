@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a hypothetical follow-up: what would happen if the dam were destroyed in combat rather than preemptively, with defenses already set along the river behind it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user hands over their story plan in a single short line, moving the conversation onward without commenting on or disputing anything in the model's analysis.

@@ -1,0 +1,7 @@
+- sources:
+  - my story plan | treat as the current authority; it has moved on from the older destroy-order idea, so the answer should fit where the plan now stands, including the clear-cutting tribe being separate from the drug tribe/industrial factory and the conclave burning the factory | I think my story plan evolved past the "destroy order" | referred-to
+  - the "destroy order" | treat as outdated, superseded by the evolved plan; the author doubts it still applies and asks whether it makes sense at all | I think my story plan evolved past the "destroy order" | referred-to
+  - which of the proposed roles (or a new one) | treat as provisional options; choose one that makes sense for Ahuizotl or replace with a new one | Which of the proposed roles (or a new one) would Ahuizotl be doing | referred-to
+- order:
+  - my story plan over the "destroy order" | I think my story plan evolved past the "destroy order"
+- about: The author asks the model to work out why the drug tribe/industrial DRM-busting operation would invite Ahuizotl in, what role he would hold, and whether his defection needs a destroy order, while stating that their story plan has moved past that order.

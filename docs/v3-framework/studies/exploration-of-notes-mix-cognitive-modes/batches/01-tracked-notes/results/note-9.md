@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Applejack comes to see worth in the Stagnation of Harmony and holds it together with Aquileian individualism, a change in who she is | Applejack eventually recognizes the value of the Stagnation of Harmony and integrates it alongside Aquileian individualism | no
+- goals:
+- whole: The note asserts, as a character truth, the end point of Applejack's arc, where she values Harmony's stagnation and combines it with Aquileian individualism, without staging evidence for a thematic proposition or naming any reader effect.

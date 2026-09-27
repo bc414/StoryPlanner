@@ -1,0 +1,5 @@
+- sources:
+  - the next chapter | material to summarize in detail and to draw the new open questions from | detailed summary of the next chapter | referred-to
+  - previous chapters | material to relate the next chapter back to, as a comparison for connections and for judging which questions are new | how it relates to previous chapters | referred-to
+- order:
+- about: The user asks the model to continue its chapter-by-chapter review by summarizing the next chapter in detail, listing new open questions, and explaining how it connects to earlier chapters.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a plot constraint, that Applejack meets Luna in person about forming SECEF but writes to Celestia by letter and doesn't speak to her face to face until after her Cloudbury and Aquileia trip, and asks whether this makes sense.

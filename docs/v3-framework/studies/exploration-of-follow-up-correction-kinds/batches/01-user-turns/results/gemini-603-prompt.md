@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | the model framed the uniforms and silk as battle armor (armor-grade, doesn't fray in battle, armor covering the flank), which doesn't fit the user's World War 2 era of cloth uniforms | I'm imagining world war 2 uniforms, not medieval armor | flat one-line statement of what the user pictures, followed straight away by a question that reopens the point
+  - which material was drawn on | the model gave changeling silk invented properties (stronger than pony thread, lustrous, glandular sheen, armor-grade) when the source says only that it is a luxury product from Acornage, a former trading post where changelings lived peacefully before 1002 | EaW only mentions it as a luxury product found in Acornage | implied, given as a premise for a new question rather than as an objection, with no mention that the model's claims went beyond it
+- about: The user pulls the idea back to World War 2 uniforms, then asks what those uniforms were for and what changeling silk should actually be like, pointing to the thin source material and to the show and to real silkworms for ideas.

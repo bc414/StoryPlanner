@@ -1,0 +1,6 @@
+- sources:
+  - Pax Chrysalia focus tree, the Changelings' tree after conquering and occupying Equestria (EAW canon) | treat as canon and the base the plan builds on; the Twilight-on-a-love-extractor path is the fact being generalized and subverted | so this is EAW canon | referred-to
+  - Earth Pony magic as "latent magic" | treat as already settled in the plan; use it as the framing for Thorax's latent-love-from-friendship theory | Since we established Earth Pony magic as "latent magic" | referred-to
+  - real world examples | draw on real-world history of language suppression to illustrate how each of the four scenarios would play out and how realistic it is | give real world examples | referred-to
+- order:
+- about: The user proposes generalizing the Pax Chrysalia love-extractor fate of Twilight into a regime-wide practice on conquered nobility, asks when and how it should be revealed and what it does for Chrysalis's rule against Thorax's harmonists, and asks for real-world comparisons for four degrees of suppressing native Changeling.

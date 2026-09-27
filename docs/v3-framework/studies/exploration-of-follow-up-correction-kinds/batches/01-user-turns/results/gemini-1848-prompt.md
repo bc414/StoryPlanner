@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's brain-in-a-vat and cyborg metaphor and asks a new historical question about how the model and its surrounding system differed when ChatGPT first launched compared with now.

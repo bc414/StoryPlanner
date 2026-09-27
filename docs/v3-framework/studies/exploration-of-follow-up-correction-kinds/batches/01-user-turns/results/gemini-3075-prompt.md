@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model framed Celestia's Stagnation as a direct, designed reaction that starts in 914 ALB, close to an instant quarantine. The user says the nursery took hold gradually over the following two decades, not all at once. | "should be a gradual process from 914" and "don't flip a switch immediately" | Stated flatly with a short reason (change doesn't happen instantly), placed in passing at the start before the user moves on to new material.
+- about: The user adjusts the model's timeline so the Stagnation phases in gradually after 914, then takes up the model's Granny Smith question by adding canon about her founding Ponyville, and asks what real-world period the pre-Stagnation era should map to.

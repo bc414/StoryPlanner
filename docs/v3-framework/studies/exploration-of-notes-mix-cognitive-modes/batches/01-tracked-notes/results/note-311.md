@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Comet Shine's motive was ego, the drive to become a bigger tycoon than his rivals | driven by ego to become a bigger tycoon than the rest | no
+  - History | Comet Shine came to realize that genuine equity was more powerful than soulless extraction, which is why the system arose | He realized that genuine equity was more powerful than soulless extraction | yes
+- goals:
+- whole: The note answers why the system was created by giving its founder's ego-driven ambition and his realization that real equity beats extraction, and it says nothing of material conditions or of what the reader should take from it.

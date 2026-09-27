@@ -1,0 +1,6 @@
+- sources:
+  - the author's own account in this turn of the 970 meeting, the Skyfall months, the return to Acornage and recruitment, and KHG also being about Equestria's comprador economy | treat as true and as the correction the reanalysis must be built on | To be clear, Chrysalis meets the parents in 970 ... KHG isn't just about the changelings lands, it's also about Equestria | first-named
+  - the model's previous analysis, in which the first meeting and the recruitment meeting are merged and KHG is about the changeling lands | treat as mistaken on those points and redo it with the correction applied | Don't confuse the first meeting with the recruitment meeting. Give a reanalysis | referred-to
+- order:
+  - the author's stated timeline (970 first meeting, later recruitment, Equestria comprador role) | over the model's previous analysis | Give a reanalysis with that taken into account
+- about: The user corrects the model's timeline of how Chrysalis met and recruited the Sterlings and adds that KHG also targets Equestria, asks for a reanalysis, and then asks whether the story's real ontology should make the parents' New Mareland-derived ideology the source of much of Chrysalis's system.

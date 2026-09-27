@@ -1,0 +1,5 @@
+- sources:
+  - Magical Engineering (the existing subject) | The author's own account of what the subject covers, offered to correct the model's reading of it. It is about griffons bootstrapping machines and unicorn spellcasters working together on reproducible spell matrices, so it is to be renamed and kept to that scope. | Magical Engineering was specifically about how griffons through bootstrapping their machines and unicorns who could cast spells worked together | referred-to
+  - the world law | Kept separate. Griffon Artisanship is not to be folded into it. | Also separate from the world law | referred-to
+- order:
+- about: The user corrects the model's reading of what their Magical Engineering subject covers, proposes renaming it "Spell Matrix", and asks whether Griffon Artisanship should be a separate subject that is also separate from the world law.

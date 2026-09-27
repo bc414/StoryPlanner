@@ -1,0 +1,8 @@
+- questions:
+  - How does EEEE! keep leverage over Harmonic Capitalists like Comet Shine in a total war, when a strike would doom the war effort? | ignored | Nothing said about labor leverage or strikes; the turn moves to a different character. | none
+  - When Trimmel defects and exposes the Thranx assassination, does Chrysalis dismiss him as a weak, sentimental subordinate, or suffer the injury of seeing her system produce its own executioners? | ignored | Nothing said about Chrysalis or Trimmel; the turn moves on to Genevieve Guichard. | none
+- shape: The user drops the model's two questions and starts a new thread. They ask the model to synthesize how Genevieve Guichard can serve as a Soros parallel. They attach the EaW Skyfall flavor text as source material and give a first sketch of their own plan. It is a fresh instruction, not an answer to the model's turn.
+- settles:
+  - Genevieve Guichard is to be used as a Soros parallel in the story. | I want to use Genevieve Guichard as a Soros parallel
+  - Genevieve supplies capital to Twilight in Ain Trotgourait. | I'm thinking Genevieve helps Twilight in Ain Trotgourait with capital
+  - TLTT rejects the EaW default path, in which Genevieve becomes leader of the Skyfall Republic. It takes the oligarch path, pushed further to anarcho-capitalism. | the path I'm going with in TLTT is the oligarch path (actually a step further, it's anarcho capitalism)

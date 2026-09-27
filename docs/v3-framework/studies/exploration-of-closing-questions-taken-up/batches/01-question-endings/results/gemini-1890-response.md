@@ -1,0 +1,10 @@
+- questions:
+- shape: The user turn picks a name by combining the first name from one option with the surname from another, and departs from the model's recommendation. It then supplies backstory and timeline: his age, the serf childhood, and the change in Lord Gaudreau's treatment of serfs. It sets a constraint on his archetype and outlines his later career. It ends by asking the model a new question, for a psychological profile of the character. So it is a redirect to a new request, with settled facts attached.
+- settles:
+  - The character's name is Rémi Ducep, not the recommended Gaston Tonnelier | I'll go with Rémi Ducep
+  - Rémi is the same age as Minette, so 17 in 980 | He should be the same age as Minette. So he would be 17 in 980
+  - At age 10 he knew the typical grueling serf life | At age 10, he would know the typical grueling serf life
+  - Lord Gaudreau is humbled after a year with despicable warlords like Lord Westkeep, and adopts King Gerad's strictness and 'to abuse is to be an animal' attitude | Lord Gaudreau is humbled after a year of being with despicable warlords like Lord Westkeep
+  - In 973 Gaudreau has his daughter Cecille Gaudreau take over managing the serfs and give them some dignity | in 973, Lord Gaudreau's has his daughter Cecille Gaudreau take over managing the serfs
+  - Rémi must not be the Gascon archetype, since Henri Gourard already fills it; his inspiration is Champagne or other rural northern France | he shouldn't have the Gasçon archetype because I have a character already like that (Henri Gourard)
+  - Rémi becomes a chasseur with Minette, later a fighter pilot who teaches the Wonderbolts to fly fighter planes and escorts Minette as she magically bombs enemies | He becomes a chasseur with Minette and later a fighter pilot

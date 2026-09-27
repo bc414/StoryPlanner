@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the Temberik–Kurdish analogy further by asking what it says about the real PKK, noting in passing that the story has no Turkish-state counterpart beyond possible soft assimilation under Celestia, and asking whether the Temberik's agreement to mine the crystals and blow the mountain for the Bluebell River Spearhead is justified well enough or needs more design.

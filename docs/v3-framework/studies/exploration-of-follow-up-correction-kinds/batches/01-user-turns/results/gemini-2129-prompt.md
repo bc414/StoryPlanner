@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's Aquileian "poseur" and Atlas Complex reading and asks whether it makes Crack Lightning's "animal" rhetoric unnecessary, then endorses it as a way to avoid a fascist radicalization of Rainbow Dash and to keep the honesty-versus-poseurs theme.

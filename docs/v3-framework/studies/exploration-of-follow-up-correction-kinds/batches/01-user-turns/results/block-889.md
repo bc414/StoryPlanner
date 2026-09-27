@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - your own name: choice of historical comparison cases | the model's benchmarks were France, Germany and the USSR, leaving out East Asian cases where war continued after (China's civil war, Korea) | What about the demographic realities of China, Japan, and Korea? China continued with the civil war after, and there was also the Korean War | put as a question pointing to omitted cases, with brief factual reasons and no explicit accusation
+  - fact of the world: the model's picture of the Changeling homeland as a hollowed-out, ghost-state Germany | the user's own conception of the Changeling lands is closer to the Japanese home islands, which the model's depiction of the homeland does not match | I also imagined the changeling lands being more like the Japanese home islands instead of a hollowed out Germany | stated flatly as the user's own vision, added in passing after the question and phrased mildly
+- about: The user pushes back on the model's Germany/USSR-based demographic framing by asking about East Asian cases and stating that they picture the Changeling lands as Japan-like rather than a hollowed-out Germany.

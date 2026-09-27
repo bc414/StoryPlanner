@@ -1,0 +1,9 @@
+- questions:
+  - How does the trauma of seven years of mockery over her lowborn or Equestrian name shape her later design of Simplified Herzlander? | ignored | Says nothing about Simplified Herzlander or the effects of the mockery. | none
+  - Does she deliberately strip the aristocratic grammar out of Simplified Herzlander out of spite, to erase the culture that humiliated her? | ignored | Says nothing about her motives for the language. | none
+  - When Gabriella Eagleclaw first meets Chrysalis, does she try to civilize her? | ignored | Does not mention Gabriella or their first meeting. | none
+  - Does the Gabriella and Chrysalis dynamic mirror the Aquileian Lioness/Thug relationship? | ignored | Does not mention the Aquileian pairing or any parallel. | none
+  - Does Chrysalis's eventual betrayal come from refusing to be Gabriella's tamed project? | ignored | Does not touch the betrayal or its cause. | none
+- shape: Corrects the model's premise in one short line. The user rejects the idea that the Equestrian parents control the cover story and naming, and puts control with Chrysalis. It does not engage the three name options or the two closing questions.
+- settles:
+  - Chrysalis herself recruits the fake adoptive parents, so she controls every detail of the cover story, including her Academy persona and name. | Chrysalis is the one who recruits the fake parents, so she would have total control over everything

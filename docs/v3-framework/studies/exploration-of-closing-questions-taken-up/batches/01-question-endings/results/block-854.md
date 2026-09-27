@@ -1,0 +1,16 @@
+- questions:
+  - How does Pinkie Pie use Resilience to get through to a Changeling POW who uses Cynicism as a defense and mocks her Morale Cakes as propaganda, without falling back into Celestia-style toxic positivity? | ignored | Nothing on Pinkie's handling of a cynical POW; the turn moves on to mapping the factions. | none
+  - How should Pinkie's realization of Resilience be written so the reader sees her choice to smile as more intellectually rigorous than Henri's or Trimmel's world-weary detachment? | ignored | Nothing on how to write the realization or on Henri and Trimmel. | none
+- shape: The user accepts the cynicism/resilience definition as settled and uses it as a lens. They lay out their own faction-by-faction mapping, then turn to a new topic: they ask the model to help them understand Aquileia, offering a tentative diagnosis that it is still somewhat cynical. The model's two closing questions are dropped.
+- settles:
+  - The cynicism/resilience definition stands and is used as the yardstick for the factions | With cynicism vs resilience as defined
+  - The Griffonian Republic, with its self-selected true believers from the long march, is the only faction that embodies resilience from the start | the only faction that embodies it from the start
+  - Equestria grows into resilience during the war, as a response to the war and the harmonic baseline, and earns it across the chapters rather than starting with it | it's earned through the chapters, not a given
+  - The Griffonian Empire in Herzland is the predator's dilemma baseline, moving from feudal state to industrial feudal tyranny covered by toxic positivity through lion and eagle dogma; Canterlot is its light parallel as the heart of Stagnation | predator's dilemma historical baseline
+  - Eros's Griffonian Reich is the cynical trauma response | cynical trauma response
+  - Skyfall is the plain-faced anarcho-capitalist embrace, paralleled by Las Pegasus | plain-faced anarcho capitalist embrace
+  - Stalliongrad is cynical combative union taken to its extreme (Trotskyite Vanguardism), paralleled by Baltimare | Trotskyite Vanguardism
+  - The Griffonian Republic is the genuine resilient actor, paralleled by Manehattan | genuine resilient actor
+  - Aquileia delivers historical promises that did not happen in our world: a knowledge-economy triumph, real citizenship for colonized people, and rent-seeking outlawed by culture | delivered on several historical promises
+  - Aquileia is not the perfect model for Equestria and sits between cynicism and resilience. Its remaining cynicism is the belief that without asset specificity you are prey, though the user puts this as a tentative diagnosis | somewhere in between cynicism and resilience
+  - The story plan has changed: Aquileia is no longer the golden savior Equestria copies. The ending is now a synthesis of Aquileia, the Griffonian Republic and Equestria | synthesis conclusion of Aquileia + GR + Equestria

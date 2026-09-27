@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks three fresh factual questions about Itaewon Class (its full narrative structure, whether the protagonist bought Jangga stock, and why he was imprisoned), without saying that anything in the model's account was wrong.

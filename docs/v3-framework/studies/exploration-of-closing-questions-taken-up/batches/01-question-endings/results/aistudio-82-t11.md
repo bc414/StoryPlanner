@@ -1,0 +1,5 @@
+- questions:
+  - Psychological architecture: how does Rockfeller justify his actions to himself: as a necessary "Lion" securing energy resources, or as a pure cynic who treats the Stagnation laws as a regulatory hurdle to bypass for profit? | no user turn | none | none
+  - Dialectical clash: when Applejack learns the Buffalo were being shot at by Rockfeller's mercenaries while Celestia looked away, how does she process her role in the Pie Fight; does she suffer moral injury at having legitimized Celestia's inaction? | no user turn | none | none
+- shape: none
+- settles:

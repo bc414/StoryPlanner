@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a short open follow-up, "What comes next?", prompting the model to continue its list of concepts without disputing or amending anything in the previous turn.

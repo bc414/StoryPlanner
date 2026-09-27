@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to learn how to set up an API key in AI Studio? | ignored | The user does not pick this option and asks for more about Opal, which the model had described under Labs. | Tell me more about Opal
+  - Does the user want to explore building a multi-step data extraction pipeline in Labs? | ignored | The user does not choose to build a pipeline. They ask for general background on Opal, the engine behind Labs, which sits next to this option without taking it up. | Tell me more about Opal
+- shape: A short redirect. The user skips both offered next steps and asks a follow-up for more explanation of one term from the model's answer, Opal. The turn is about the conversation, not the story.
+- settles:

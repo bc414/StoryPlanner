@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the discussion of Chrysalis's psychology and opens a new question asking for pros and cons of having Ahuizotl reveal in Chapter 12 that the CEO Kriemheld von Krystallfels is Chrysalis, including timing, effect on Gabriella Eagleclaw's testimony, and effect on themes and mysteries.

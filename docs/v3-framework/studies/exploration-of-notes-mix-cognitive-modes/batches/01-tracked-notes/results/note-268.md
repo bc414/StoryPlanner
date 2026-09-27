@@ -1,0 +1,5 @@
+- claims:
+  - ThematicEvidence | The Equestrian Army's outcome is asserted as evidence: a smaller elite force of asset-specific volunteers defeats a mass force of disposable, terrified conscripts | will lose to a smaller elite force of asset specific volunteers | yes
+  - Analogies | The extractive model is identified with real-world Nazi and Soviet mass conscription as the historical reference it is set against | The Nazi and Soviet model of mass conscription, disposable cogs, and terriefied masses | no
+- goals:
+- whole: The note states as a flat outcome that a small volunteer elite beats the Nazi/Soviet-style conscript mass, giving the organization's evidence for the theme that conscience outperforms extraction.

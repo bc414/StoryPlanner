@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Montgomery set-piece model for the Bluebell Spearhead and builds on it, adding the Quebuck "we are monsters" moment from the mass killing of changeling conscripts and the guilt of a long preparation while Canterlot's civilians are drained.

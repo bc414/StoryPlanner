@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates their understanding of how the translator crystal and magnetron work and asks two design questions: whether each crystal should output only one language, and whether the forger must be a griffon who knows that output language.

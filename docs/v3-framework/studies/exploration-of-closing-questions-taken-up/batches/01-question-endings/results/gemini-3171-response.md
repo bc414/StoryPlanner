@@ -1,0 +1,6 @@
+- questions:
+  - Which specific macro-system or historical event in the catch-all Codex entries is most entangled with character psychology right now? | ignored | Says nothing about the Codex entries or any entanglement; asks about the Gemini app's retry buttons. | none
+  - How might the work begin separating that system's objective reality from the characters' perceptions of it? | ignored | Does not take up the separation of objective reality from perception. | none
+  - How are the boundaries between narrative projects (main story vs. prequels) currently defined in the SQLite database so Plot Point sequences don't bleed together? | ignored | Does not mention projects, prequels, the database or Plot Points. | none
+- shape: Drops the database and story-organization discussion and redirects to an unrelated question about what the "retry shorter/longer" buttons do in the Gemini web app. It asks for a full technical breakdown and does not respond to the model's advice or its questions.
+- settles:

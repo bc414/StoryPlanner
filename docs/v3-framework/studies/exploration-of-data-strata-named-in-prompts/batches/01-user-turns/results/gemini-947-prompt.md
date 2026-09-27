@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's portrayal of the Pears as industrial and mercantile, stating their own view that the Pears are agrarian like the Apples, which is why the feud is petty, without pointing at any body of material.

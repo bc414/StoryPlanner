@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Penumbra Spark's ambition was so great that he inevitably lost control of it, which explains what he became | At some point, Penumbra Spark inevitably lost control of the sheer amount of ambition | yes
+  - History | His body sublimated into a malicious cloud of ephemeral evil magic and pure terror, and this entity styled itself King Sombra | his body sublimated into a malicious cloud of ephemeral "evil magic and pure terror", styling itself as King Sombra | no
+- goals:
+- whole: The note asserts that King Sombra began as Penumbra Spark, whose unchecked ambition made his body sublimate into a cloud of terror, and it does not say what the reader should get from this.

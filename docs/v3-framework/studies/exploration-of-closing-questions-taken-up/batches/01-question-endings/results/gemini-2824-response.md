@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want help taking the heavier lore concepts and outlining them as standalone prequel arcs? | ignored | none; the user turn goes back to asking the model to look through a notebook and says nothing about outlining prequel arcs | none
+- shape: Redirects. The user turn passes over the model's offer and repeats an earlier request: look through a specific notebook to check whether the prequel idea started there. It quietly pushes back on the model's earlier statement that it can't search those documents. It is an instruction about the conversation, not an answer.
+- settles:

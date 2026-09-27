@@ -1,0 +1,3 @@
+- claims:
+  - span | Bright Mac and Pear Butter regarded industry (the business or tycoon life) as a way to be radically autonomous from the Apple-Pear family feud | "They viewed industry as radical autonomy" | past tense "viewed" ties it to the time they took up industry; no date, event or phase is named in the note itself, and it is not shown to hold for their whole life
+- beside: Backstory (988) note about the Skyfall seminar on industry hosted by Gilded Lily, and Backstory (988) note saying Gilded Lily read the feud as motivation for them to leave their families and embrace the tycoon lifestyle. Both concern the same turn to industry against the feud, and the second matches this note's link between industry and escape from the feud.

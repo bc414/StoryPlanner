@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies the source biography of the real general they want Blueblood to hire and lays out their own adaptation (a pension collapse, medical treatment in exchange for tutoring and rail engineering), which stands in for the model's placeholder tutor, and notes how it subverts the character's original story.

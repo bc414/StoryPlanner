@@ -1,0 +1,7 @@
+- claims:
+  - History | Discord realizes that Celestia only wanted to use him, yet still tries to stop the coming war out of real friendship with Fluttershy and the others | When war is on the horizon, Discord figures out that Celestia only wanted to use him but still tries to stop the war | yes
+  - History | His chaos magic fails because it cannot impede the chaos of war | his chaos magic simply doesn't work because it cannot impede the chaos of war | yes
+  - History | Celestia and others badger him for not fixing things though he is unable to | He gets badgered by Celestia and others for not fixing things even though he can't | yes
+  - History | He leaves and joins the anarchist movement in Adelart under the pen name Jacques | so he leaves and goes to join the anarchist movement in Adelart under the pen name Jacques | yes
+- goals:
+- whole: The note reports, as in-universe history, how Discord's failed attempt to prevent the war and the blame he received led him to leave and join the anarchists in Adelart as Jacques.

@@ -1,0 +1,6 @@
+- sources:
+  - TLTT's main story (the author's envisioned design of it) | treat as the author's stated plan to reason about: reveals of history and psychology are held back via internal focalization limits and paralipsis, with no antagonist internal focalization | For TLTT's main story, I envision the main driver is the onion layer reveal | referred-to
+  - the prequel-sequels (the author's envisioned design) | treat as the author's stated plan: they dramatize backstory, and their later parts sit inside main-story moments with mentors' full interiority | The prequel-sequels start off by dramatizing the backstory | first-named
+  - Martin's approach (as discussed earlier) | use as a benchmark to test whether dropping antagonist internal focalization loses what makes Martin work | This takes away Martin's main draw? | referred-to
+- order:
+- about: The author lays out how reveals, withheld interiority and focalization will work in TLTT's main story and its prequel-sequels, asks whether omitting antagonist internal focalization costs the Martin-style effect, and checks whether the gap types in the prequel-sequels are structural and dramatic irony.

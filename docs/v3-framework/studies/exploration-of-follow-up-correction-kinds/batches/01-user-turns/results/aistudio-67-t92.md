@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model cast Celestia as approving or allowing SECEF's departure, as a release valve she granted. The plan has Applejack send a letter announcing the Aquileia deployment as a statement, with no permission sought. | The original plan features Applejack sending a letter informing Celestia... She didn't ask for permission; it was a statement. | Indirect: the plan is recalled as background and turned into an open question about permission, and the mismatch is never called an error.
+- about: The user restates the plan's detail that Applejack informed Celestia rather than asking, which sits against the model's framing of Celestia granting permission. They ask whether she should ask, then supply Celestia's hostile view of Aquileia and Kemerskai and request an analysis of her thinking on reading the letter.

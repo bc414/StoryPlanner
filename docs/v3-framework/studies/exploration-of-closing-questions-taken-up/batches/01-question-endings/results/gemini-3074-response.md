@@ -1,0 +1,9 @@
+- questions:
+  - Are there older Equestrians, such as Granny Smith, who dimly remember a time before the Hard Stagnation? | answered | Yes in effect: Granny Smith founded Ponyville in her youth, and her eccentric stories come from a time of fewer restrictions. | Granny Smith canonically founded Ponyville in her youth; her crazy stories are from a time of less restrictions
+  - Could Granny Smith's stories of a more ambitious pre-914 Equestria quietly inspire Applejack's rebellion? | partly answered | Takes up the stories and their origin in a freer era, but says nothing about them inspiring Applejack or her rebellion. | her eccentricity and crazy stories are actually from a time of less restrictions
+- shape: Corrects the model's compressed timeline by saying the retreat into the nursery was gradual over about two decades after 914. It then adds canon detail about Granny Smith and Ponyville that fits the model's suggestion. It ends by handing the model a new question: which real-world period and cause (pre-1980 childhood freedom, the war on drugs, suburbanization, pre-1950) matches the pre-Stagnation Equestria.
+- settles:
+  - The Stagnation and soft enforced nursery arrive gradually from 914 (Grover III's passing) over the next two decades, not as an immediate switch. | should be a gradual process from 914 ... into the next two decades
+  - Granny Smith founded Ponyville in her youth, so she belongs to the freer pre-Stagnation era. | Granny Smith canonically founded Ponyville in her youth
+  - Ponyville sits at the edge of the Everfree Forest because zap apple jam terroir needs proximity to the magical monster forest (Timberwolves among the prerequisites). | zap apple jam terroir, which requires proximity to the magical monster forest
+  - Granny Smith's eccentric stories come from a time of fewer restrictions. | stories are actually from a time of less restrictions

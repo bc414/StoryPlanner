@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about where Anthropic sits within the open-weight, compute-commons landscape the model just laid out, without disputing anything in it.

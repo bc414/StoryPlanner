@@ -1,0 +1,5 @@
+- questions:
+  - What specific inciting incident in Chapter 5 forces Pinkie to drop the performance of joy? | no user turn | none | none
+  - Is there a moment where Pinkie uses her old toxic positivity on a traumatized soldier, or on Applejack or Twilight, and it backfires, so she pivots to her radar and a cold logistical miracle? | no user turn | none | none
+- shape: none
+- settles:

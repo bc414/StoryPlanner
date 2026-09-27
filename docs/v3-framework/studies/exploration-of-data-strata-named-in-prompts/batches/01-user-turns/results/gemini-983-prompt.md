@@ -1,0 +1,4 @@
+- sources:
+  - Britain's WW2 total mobilization | use as the template for designing the Manehattan war bond system, and draw on it to answer whether Britain broke its own gold standard to survive | should be modeled after Britain's WW2 total mobilization | first-named
+- order:
+- about: The user sets a real-world historical model (Britain's WW2 total mobilization) for the Manehattan war bond system and asks the model whether that precedent involved abandoning the gold standard or was instead independent of it and based on future productivity.

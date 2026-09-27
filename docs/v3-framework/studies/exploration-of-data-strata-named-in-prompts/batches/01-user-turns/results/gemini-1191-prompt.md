@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author adds their own refinery details to the model's analysis, saying Comet Shine runs a crystal-magic refinery in Tall Tale and Gilded Trust seizes Rockfeller's Skyfall copy refinery in Las Pegasus, without pointing to any body of material.

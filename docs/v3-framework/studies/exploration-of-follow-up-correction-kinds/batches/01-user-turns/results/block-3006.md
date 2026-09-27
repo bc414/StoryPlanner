@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's account makes one character's lesson and one conversation the origin of the whole downstream chain ("all downstream from one conversation"). This applies the user's Chrysalis-drives-everything rule, which the user now calls overfit. The user says the plan's real causal rule is material conditions, seen from Grover 3 through Grover 4, Stagnation, New Mareland and Gilded Lily to Chrysalis. | the rule I established ... is overfit. The real rule that comes out is that material conditions drive everything | Flat restatement of the principle. The user revises their own earlier rule, drawing on the pattern across the chain and giving no complaint or apology, then asks for an analysis on the new footing.
+- about: The user reframes the model's character-centered causal story by replacing the Chrysalis-drives-everything rule with a material-conditions rule, and asks for an analysis on that basis.

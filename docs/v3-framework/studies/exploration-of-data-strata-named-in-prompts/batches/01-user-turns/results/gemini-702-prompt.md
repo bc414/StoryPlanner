@@ -1,0 +1,4 @@
+- sources:
+  - the canon show | treated as the authority for how Filthy Rich and Spoiled Rich are characterised; the model's reading of them should be corrected to match it | "the canon show has this clever subversion of the wealthy dad already" | referred-to
+- order:
+- about: The user corrects the model's assumption about Filthy Rich and Spoiled Rich by pointing to how the canon show portrays them: Filthy is a benevolent capitalist and Spoiled is the villain behind Diamond Tiara's bullying.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author restates how the siege of Vesalipolis will actually end (food and love airdropped to starving changelings, Chrysalis's regime overthrown), floats a possible submarine escape for Chrysalis, and adds Luna's practical reason for backing Applejack's Equestrian Republic.

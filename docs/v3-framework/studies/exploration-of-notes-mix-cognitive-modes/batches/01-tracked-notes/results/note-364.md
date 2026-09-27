@@ -1,0 +1,8 @@
+- claims:
+  - History | The cutie map breaks down and goes dormant following the events at Mount Aris | The cutie map breaks down and goes dormant after Mount Aris | yes
+  - Characterization | The map failed because the Mane 6 no longer believe in the stagnation of harmony, a claim about their inner belief | because the Mane 6 no longer believe in the stagnation of harmony | no
+  - History | Rainbow Dash turns to militarizing | Rainbow militarizing | yes
+  - History | Twilight and Pinkie Pie take up top-down charity | Twilight and Pinkie doing top down charity | yes
+  - Characterization | Applejack, Rarity and Fluttershy are alienated and feel small, which is their inner condition | Applejack, Rarity and Fluttershy alienated and feeling small | no
+- goals:
+- whole: This note reports, as in-universe history, how and why the cutie map went dormant after Mount Aris, tying the failure to the Mane 6's changed beliefs and their divergent conditions.

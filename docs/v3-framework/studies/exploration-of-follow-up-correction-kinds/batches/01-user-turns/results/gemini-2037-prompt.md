@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the finished Phase 0 schema to the next stage, supplying a sample Phase 0 output and their current Phase 1 system prompt and asking for a rewritten prompt with an explanation of the changes.

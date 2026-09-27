@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the chapter analysis and starts a new task, laying out a six-step workflow for populating a v2 planning dataset and asking for analysis, complications, alternatives and clarifying questions, without commenting on the earlier answer.

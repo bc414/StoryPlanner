@@ -1,0 +1,4 @@
+- questions:
+  - Should the model now write the opening scene of Chapter 1 ("Command") to set the tone for Applejack's journey? | no user turn | none | none
+- shape: none
+- settles:

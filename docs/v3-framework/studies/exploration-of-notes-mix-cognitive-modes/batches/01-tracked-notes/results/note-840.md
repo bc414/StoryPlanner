@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (ontology: world-rule stated as invariant truth) | Thestrals are nocturnal and echolocate, and this is a fixed fact of how they are in the world | Thestrals are nocturnal and have echologcation | outside
+  - outside all ten (ontology: world-rule stated as invariant truth) | The cause of those traits: thestrals evolved in the dense, light-starved southeast jungles and mountain caves | because they evolved in the dense, light-starved southeast jungles and mountain caves | outside
+- goals:
+- whole: The note states as plain world truth that thestrals are nocturnal echolocators because they evolved in light-starved southeast jungles and caves, with no reader effect named.

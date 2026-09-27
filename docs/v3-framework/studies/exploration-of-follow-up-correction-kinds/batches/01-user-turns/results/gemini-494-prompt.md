@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the model's Auftragstaktik parallel and asks whether a war-council scene should have Rainbow Dash realize the changeling tank commanders acted on their own initiative, and whether that realization can also mark her shift from central authority toward fraternity.

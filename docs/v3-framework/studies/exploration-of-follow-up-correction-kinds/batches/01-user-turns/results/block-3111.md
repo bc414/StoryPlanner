@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model based its analysis on web search results, which the user calls lossy, instead of the full source texts (EaW flavor text, movie and episode transcripts) available through the user's MCP server | Don't just use web search results which can be lossy | flatly, as a directive with a brief reason, pointing to the better source
+- about: The user redirects the model away from relying on web search results and points it to the MCP server holding the full flavor text and transcripts as the source to use for the hippogriff-seapony question.

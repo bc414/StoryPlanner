@@ -1,0 +1,7 @@
+- questions:
+  - Does Rarity's disillusionment with Blueblood and Canterlot society lead her to fund or support the radical anti-monarchist Aquileian factions during the war? | ignored | The user turn never mentions Rarity or the Aquileian factions' war. It goes on to ask where the elites' behavior comes from. | none
+  - How does Rarity weaponize her understanding of the "Poseur" economy against the old guard? | ignored | Nothing about Rarity or any use of the Poseur economy against the elite. The user turn looks at the origin of the elites' vices instead. | none
+- shape: The user turn sets aside the model's question about Rarity's political path and turns to the Canterlot elite. It explains how the user built them: canon baseline, then heightened into systemic vices. It then asks the model to confirm that these vices must come from Herzlander and Aquileian influence, comparing this to Faust adding real conflict to Hasbro's toy show. It ends on a plot fact about the elites' collaboration. So it redirects the conversation to a different question and reports a design method along the way.
+- settles:
+  - The Canterlot elites eventually collaborate with the Statthalters and hand Canterlot over to them. | "eventually the ones who collaborate and hand over Canterlot to the Statthalters"
+  - The elites' vices (poseurs, hollow capitalism, exploitation) are canon behavior heightened into systemic vices, and under the materialist framework they need a cause and can't come from a vacuum. | "can't come from a vacuum"

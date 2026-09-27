@@ -1,0 +1,5 @@
+- questions:
+  - How does Applejack critique Twilight's top-down Alicorn-magic and spreadsheet rebuilding of Ain Trotgourait from her barn-raising perspective, and does that friction over how to help accelerate their estrangement before Twilight retreats to the lab? | no user turn | none | none
+  - What specific historical or magical precedent does Celestia invoke to convince Twilight that stepping onto a battlefield is a moral failure, and how does she frame the Aquileian/Republican intervention so Twilight views military action with disgust? | no user turn | none | none
+- shape: none
+- settles:

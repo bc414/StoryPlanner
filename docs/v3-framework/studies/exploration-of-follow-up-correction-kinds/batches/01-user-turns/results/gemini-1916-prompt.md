@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the listed reign lengths as given and asks a new question, requesting plausible in-world explanations for how the Grovers could have had such long consecutive reigns.

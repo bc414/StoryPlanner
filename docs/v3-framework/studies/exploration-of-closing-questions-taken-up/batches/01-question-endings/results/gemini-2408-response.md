@@ -1,0 +1,11 @@
+- questions:
+  - If Herzland limits piloting to the nobility, how does that affect its war logistics, given that mechanics, engineers and fuelers must be lower-class Eagles? | ignored | The turn says nothing about logistics or maintenance labor. It moves to Grover 3's backstory and to which nation spreads airplanes. | none
+  - Does this make the Empire vulnerable, with grounded serfs holding the technical knowledge and so able to strike or sabotage the Imperial Air Fleet? | ignored | No mention of serf leverage, strikes or sabotage. The nearest thing is a remark that serfs on the flat plain can't afford to fly, which is about access and not about sabotage. | none
+- shape: The user turn does not answer the model's question. It redirects to lore the user supplies: a character backstory, a change to how the religion is transmitted, and a different nation as the leader in aviation. It also quietly reframes the model's account of the flight restriction as cruelty and not as noble protection. The turn is a run of the user's own worldbuilding ideas, not a reply to the prompt.
+- settles:
+  - Grover 3 originally loved the idea of democratized flight. | I think Grover 3 originally loved the idea of democratized flight
+  - Grover 3 made an epistemological deal with the devil with the Archons to invent chivalry. | He makes an epistemological deal with the devil with the Archons to invent chivalry
+  - The chivalry component may be dropped from the religion that reaches the printing press. This is tentative. | Maybe this component is dropped from the religion that goes to the printing press?
+  - The flight restriction is cruel and not a form of noble protection. | the flight restriction is cruel, not being a noble protector
+  - The material reality holds: serfs on the flat plain can't afford to fly. | The material reality is still true, that serfs in the flat plain can't afford to fly
+  - Wingbardy is the premier nation that proliferates airplanes, because of its name and its aluminum and rubber in EaW gameplay. | Wingbardy should be the premier nation that proliferates airplanes

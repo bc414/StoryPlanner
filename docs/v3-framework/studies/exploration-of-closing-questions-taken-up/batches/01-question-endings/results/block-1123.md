@@ -1,0 +1,15 @@
+- questions:
+  - How does Rainbow Dash, at Mount Aris beside the Hippogriffs, take the Hippogriffs' Dunkirk-style retreat from Colthage, and does she see them as cowards, setting her idea of heroism against their military triage? | ignored | none | none
+  - How does Applejack use the existence of her new Republic, and the overthrow of Celestia's stagnation, to convince Colthage that Equestria has really changed, when Colthage points to past inaction and the Hippogriff betrayal? | ignored | none | none
+- shape: The user turn does not answer either question. It steps back from them and corrects the model's picture of the world. It throws out the model's Chiropterra premise (an old secret Nightmare Moon cult) and replaces it with a materialist one. It adds geography and Wingbardy's conquest history, and it revises what Wingbardy allegorizes. It reads as the user supplying worldbuilding facts and revisions, not choosing among the model's offered next steps.
+- settles:
+  - The EaW myth of Chiropterra as a 1000-year-old secretive nation awaiting Nightmare Moon's return is dropped from the plan | toss out the whole EaW mythical worldbuilding
+  - Chiropterra's origin: exiled Tzinacatl who were too 'jaguar' for mainland Equus, who set up in a Zebrican jungle over several generations | exiled Tzinacatl who were too 'jaguar'
+  - Chiropterra's Nightmare Moon worship is only marketing, not real belief | The 'Nightmare Moon worship' is marketing
+  - Chiropterra is a narco state made of drug cartels rival to Dr. Caballeron and his Tzinacatl peers | rival drug cartels to the Dr. Caballeron
+  - Chiropterra was economically hurt by Chrysalis's pump-and-dump drug schemes on the global black market | economically burned by Chrysalis's pump and dump drug schemes
+  - Wingbardy lies south of Griffonia and joins New Mareland by land, over a former swamp that weather magic conquered across generations | Wingbardy is on the south of Griffonia
+  - Mount Aris is an island off the northern coast of Zebrica | Mount Aris is an island off the northern coast of Zebrica
+  - Beakolini's Wingbardy occupies colonial targets (Abyssinia in Zebrica, the griffon Parishes of Sicameon east of Wingbardy, and the minotaur Republic of Asterion) and stays out of the global great war while doing so | Wingbardy doesn't get involved in the global great war because he is busy invading bystanders
+  - Before Beakolini, Wingbardian colonialism worked through the remittance trap and colonial resource extraction | done via the remittance trap and colonial resource extraction
+  - Wingbardy allegorizes both modern China and the historical British and French empires | allegory for both modern China and the historical British and French empires

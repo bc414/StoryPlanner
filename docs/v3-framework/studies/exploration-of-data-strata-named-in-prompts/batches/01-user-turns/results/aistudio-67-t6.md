@@ -1,0 +1,7 @@
+- sources:
+  - the model's previous turn (its Celestia/Thestral peerage angle, including the mixed-reaction reading of Fluttershy's outburst) | treat as a good basis and adopt it, with the author's own adjustments layered on top | "This is a great evolution of Celestia and her arc" | referred-to
+  - the author's earlier framing of Celestia's inaction as paralysis | treat as superseded; now read as quiet relief, with paralysis only as Applejack's mistaken perception | "I was previously framing her inaction as paralysis" | referred-to
+  - FiM (the published show's Celestia) | use as a contrast point: that Celestia felt in control with a master plan, and this version does not | "like back in FiM when she felt she was in control of everything" | referred-to
+- order:
+  - the model's previous turn (quiet-relief angle) | the earlier paralysis framing | "now it seems much stronger"
+- about: The author accepts the model's Thestral-peerage arc for Celestia, adds their own refinements (her change of heart is still unspoken, Fluttershy's guilt, her silent non-interference in the referendum as relief rather than paralysis), and asks whether it all works and whether and how to reveal her thoughts on the eve of the election results.

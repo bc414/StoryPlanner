@@ -1,0 +1,5 @@
+- questions:
+  - How do Vaspier's VOPS agents psychologically process executing drones while believing they protect them, and do they use Simplified Herzlander to reframe executions as care-language? | ignored | none | The user turn only asks what "ascetic" means and does not touch the VOPS agents or their psychology.
+  - When Trimmel surrenders to Applejack and sees that Harmonic Capitalism delivered what Chrysalis promised, how does he confront that his loyalty made him the working class's enemy? | ignored | none | The user turn only asks what "ascetic" means and does not mention Trimmel or Applejack.
+- shape: A short clarification request. It picks up one word from the model's analysis (Vaspier described as an ascetic true believer) and asks what it means there. It leaves both of the model's questions alone and moves to a vocabulary check.
+- settles:

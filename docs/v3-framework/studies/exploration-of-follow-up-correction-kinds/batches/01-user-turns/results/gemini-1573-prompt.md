@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about which sports other than javelin throwing derive from warfare, apparently to feed the athlete-reservist character idea, without disputing anything in the model's name options.

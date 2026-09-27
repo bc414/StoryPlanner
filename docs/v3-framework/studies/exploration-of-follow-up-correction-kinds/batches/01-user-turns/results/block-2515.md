@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's analysis of the two chapters rested on outline-level beats and thematic inference (hedged with 'presumably'), not on what the chapters actually contain, so the user asks for it to be redone from the real content | 'actual content of these two chapters' and 'reanalysis' | implicit, put as a polite request to redo the work, with no fault named and no reason given
+- about: The user asks the model to redo its analysis of the Essence/Blitz and Resilience chapters by going into what the chapters actually contain, which implies the previous thematic pass was too far from the material.

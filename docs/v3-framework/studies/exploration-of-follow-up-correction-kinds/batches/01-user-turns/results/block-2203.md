@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question, turning the discussion from the author's post and their own comment to the other comments on the same blog post, without saying the model's analysis was wrong.

@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want a deeper dive into a specific battle, such as Tsushima? | ignored | Does not mention Tsushima or any battle; asks about Japan's WW2 choice of China over Russia | none
+  - Does the user want a deeper look at the tactical innovations used in the siege of Port Arthur? | ignored | Does not take up Port Arthur or tactics; moves on to a WW2 question | none
+- shape: Redirects to a new factual question. It skips the offered deep dives and jumps forward in time, asking why Japan attacked China rather than Russia in WW2. The question loosely follows from the long-term-impact part of the model's answer.
+- settles:

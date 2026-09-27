@@ -1,0 +1,4 @@
+- sources:
+  - my backstory about Moriset Discret's Aquileia/Coltbert Reforms | treat as authoritative; re-read it closely and correct the account of the MPA against it | Read my backstory about Moriset Discret's Aquileia/Coltbert Reforms again carefully | referred-to
+- order:
+- about: The user corrects the model's description of the MPA by stating what it is in their story and tells the model to re-read their backstory on Moriset Discret's Aquileia/Coltbert Reforms carefully.

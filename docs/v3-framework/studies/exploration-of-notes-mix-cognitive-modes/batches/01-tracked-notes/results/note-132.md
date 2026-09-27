@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-building description of an in-world organization's function) | SAA buys leftover or third-rate crops from farms across Equestria, cans them into rations and exports them to Griffonia | They buy leftover or third-rate crops from all farms across Equestria, can them into rations and export to Griffonia | outside
+- goals:
+- whole: The note gives a plain world-building description of what SAA does, buying surplus and low-grade crops, canning them into rations and exporting them to Griffonia, without stating any effect on the reader.

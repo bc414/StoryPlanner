@@ -1,0 +1,4 @@
+- claims:
+  - History | The organization began as chasseurs and over time grew into ever larger groups of poseurs, a trajectory of change reported as fact | They started as the chasseurs and kept scaling up to bigger and bigger poseurs | no
+- goals:
+- whole: The note gives a one-line account of how the Aquileian Volunteers grew from chasseurs into larger and larger poseurs, answering what they are known for as an in-world development.

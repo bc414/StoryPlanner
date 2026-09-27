@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for more examples of a pattern like the Costco versus Walmart moral preaching, where individual consumer virtue distracts from the need to defeat the underlying extraction narrative, and names no source of data for the model to use.

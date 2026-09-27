@@ -1,0 +1,7 @@
+- claims:
+  - NotesToSelf | a directive to the author to interweave the settings seamlessly, a craft task for this scene | Interweave the Settings Seamlessly | yes
+  - Canon | in canon S3 The Crystal Empire Parts 1 and 2 an existential war against Sombra, the black cloud of terror, coexists with whimsical cute pony aesthetics such as Rarity going crazy over the castle and the crystal ponies | The canon season 3 episodes The Crystal Empire Part 1 and 2 feature an existential "war" against Sombra | no
+  - NotesToSelf | the author states what they need to do: blend industrial war with cute MLP so neither detracts from or invalidates the other's tone | That's the kind of thing I need to do | yes
+- goals:
+  - The reader is to experience industrial war and cute MLP aesthetics as one coherent world, neither undercutting nor invalidating the other's tone | NarrativeArchitecture | without either detracting from each other or invalidating the other's tone
+- whole: The note reminds the author, using the canon Crystal Empire two-parter as a model, to blend industrial-war and cute-pony tones in this scene without either undermining the other.

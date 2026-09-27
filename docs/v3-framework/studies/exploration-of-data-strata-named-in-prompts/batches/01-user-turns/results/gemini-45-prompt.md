@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up question about the API's usage limits and whether a Gemini AI Pro subscription would raise them, without pointing the model at any body of material to draw on or avoid.

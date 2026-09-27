@@ -1,0 +1,5 @@
+- sources:
+  - my notes | treat as established: the author's settled intent that Chrysalis is a Count of Monte Cristo figure dismantling the livelihoods of the nepo babies who bullied her at the Griffenheim academy; build the new economic questions on it | In my notes I established I want chrysalis to be like the count of monte Cristo | referred-to
+  - The Count of Monte Cristo | use as the template for Chrysalis's character arc of methodical revenge on those who wronged her | like the count of monte Cristo, dismantling the livelihoods | referred-to
+- order:
+- about: The user, building on the model's economic analysis, asks the model to work out how Chrysalis's revenge plot would extend to Herzland's gold standard and how Archon Eros would run the economy after executing the nobles in 1007, while pointing to their own notes as the settled basis for Chrysalis's motive.

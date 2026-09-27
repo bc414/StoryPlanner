@@ -1,0 +1,13 @@
+- sources:
+  - early notes from when the WW2-esque grimdark framing was the only thing known | outdated carryover, not what the author wants to go with; superseded by the more sophisticated modern allegories | carryover from early notes when the WW2-esque grimdark framing was the only thing I knew | referred-to
+  - the note 'Dark twist: Applejack expected to die in the trench...' | asked whether it is outdated and unnecessary for the themes; the author says it is not what they want to go with | an outdated notion that isn't necessary for delivering the themes | referred-to
+  - the new plan | current view: friendship is magic in the sense that connection, solidarity and conviction beat bullets; treat as the operative framing over the early cynical reading | The new plan reflects the idea that friendship is magic | referred-to
+  - the Equestrian army's capabilities, as the author has fleshed them out | treat as current fact: AJ risks kinetic casualty but is not sacrificing herself, holding the line is possible, casualties teleport out more often than not | I have also significantly fleshed out the Equestrian army's capabilities | first-named
+  - Henri calling the changelings poseurs instead of monsters | evidence to take into account when reworking the note | Also note Henri calling the changelings poseurs instead of monsters | first-named
+  - the chapter 1 battle | empirical evidence to weigh: AJ and friends mowed down changeling infantry with the machine gun and survived artillery with a friendship shield | the empirical evidence from the chapter 1 battle | first-named
+  - chapters 1 and 2, pasted | new context to synthesize into the analysis | Please synthesize with the additional context I have pasted in, of chapters 1 and 2 | first-named
+  - the prequel plan between School of Friendship and the start of the war | new context to synthesize into the analysis | the prequel plan about between School of Friendship and to the start of the war | first-named
+  - Applejack's full character notes | new context to synthesize into the analysis | Applejack's full character notes detailing | first-named
+- order:
+  - the new plan (with the fleshed-out army capabilities and chapter 1 evidence) | over the early notes and the 'Dark twist' note | not what I want to go with; that's a carryover from early notes
+- about: The author rejects the earlier claim that Applejack expected to die in the trench as a grimdark leftover from early notes, cites the newer plan, army capabilities and chapter 1 evidence, and asks the model to re-synthesize using newly pasted chapters, prequel plan and character notes.

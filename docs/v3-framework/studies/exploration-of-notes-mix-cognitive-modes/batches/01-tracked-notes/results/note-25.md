@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | names Philippe Pétain as the real-world figure inspiring Applejack | Philippe Pétain | yes
+  - Analogies | in the other story, The Princess and the Kaiser, Applejack maps onto the Vichy-era Pétain, a collaborator who gave up | essentially becomes the "Vichy" version of Pétain, a collaborator who gave up | yes
+  - Analogies | in this story Applejack instead follows the anti-Vichy arc, staying true to the heroic side of the Pétain legend | This story features the Anti-Vichy arc, keeping true to the Heroism of the legend | yes
+- goals:
+- whole: The note documents Philippe Pétain as Applejack's real-world model, contrasting the Vichy collaborator version used in another story with the heroic anti-Vichy arc followed in this one.

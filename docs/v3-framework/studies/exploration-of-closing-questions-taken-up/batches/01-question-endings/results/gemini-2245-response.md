@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to draft specific interrogation prompts for NotebookLM to stress-test new ideas? | ignored | The user doesn't take up the offer. They set out their own five-step workflow and ask for an analysis of it. | none
+- shape: Redirects. The user drops the model's offer and the three-step loop it described. They replace it with their own five-step pipeline: brainstorm in Gemini Chat with the notebook attached, run the chat through Bucket Categorizer, reread bottom to top to fill the orthogonal-axes notes, check the result in NotebookLM for impact and contradictions, then add it to the story planner. They then ask the model to analyze that workflow.
+- settles:

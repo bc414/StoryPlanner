@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves from the thematic analysis to a real-world plausibility check, asking whether locked-up phosphorus, potassium and nitrogen in soil could be what the magic acts on, and requesting a comparison with the history of fertilizer and the guano islands, without saying the earlier turn was wrong.

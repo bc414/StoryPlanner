@@ -1,0 +1,5 @@
+- sources:
+  - my story plan (the griffon magic section) | treat as settled ground the new Idol idea must fit: griffon magic is enchanting swords and armor that only work for the forger, and the greed follows from that | In my story plan I detail that griffon magic is about enchanting swords and armor | referred-to
+  - canon (griffons are canonically greedy) | treat as a fixed fact of the show that the author's magic system is meant to explain | This is why griffons are canonically greedy | referred-to
+- order:
+- about: The user offers a simpler alternative to the model's Idol-as-resonator idea, making the Idol an ordinary glimmering statue with the real power in Grover's charisma, and backs it with their planned forger-bound enchantment magic as the explanation for canonical griffon greed.

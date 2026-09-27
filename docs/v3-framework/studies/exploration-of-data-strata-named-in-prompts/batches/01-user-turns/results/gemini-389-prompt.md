@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a follow-up worldbuilding question about the mechanics of the Aquileia–Skyfall trade, namely whether governments or individual corporations conduct it on each side, without pointing at any body of material for the model to use or avoid.

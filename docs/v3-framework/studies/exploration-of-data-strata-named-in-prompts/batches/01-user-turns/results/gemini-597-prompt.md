@@ -1,0 +1,6 @@
+- sources:
+  - Some clarifications to iron out Trimmel's character (the author's statements about Trimmel's Severyana conviction, his surrender, his contentment in the POW camp, the rehabilitated conscripts, and Thranx's death) | treat as settled facts about the character and build on them; they correct the earlier portrayal | Some clarifications to iron out Trimmel's character | first-named
+  - Trimmel's perception of the pony bauleiters and his advice to Applejack, as previously given | treat as outdated and rewrite in light of the clarifications | Please update Trimmel's perception of the pony bauleiters and his advice to Applejack | referred-to
+- order:
+  - The author's clarifications about Trimmel | the earlier version of Trimmel's perception of the pony bauleiters and his advice to Applejack | Please update Trimmel's perception of the pony bauleiters and his advice to Applejack
+- about: The author supplies corrected backstory and disposition for Trimmel (idealist in Severyana, content POW, turncoat because of Thranx's assassination) and asks the model to revise his view of the pony bauleiters and his advice to Applejack accordingly.

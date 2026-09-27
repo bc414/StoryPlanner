@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes amending the elixir lore so Chrysalis had already permanently changed form before returning to Vesalipolis in 978, and adds an ending in which she liquidates the pink-love canned-food stockpiles, escapes by submarine, becomes a griffoness and ends up in Skyfall.

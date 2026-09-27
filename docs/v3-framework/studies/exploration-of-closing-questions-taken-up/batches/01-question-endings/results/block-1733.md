@@ -1,0 +1,12 @@
+- questions:
+  - How does Ahuizotl's spreadsheet-driven outlook process a VOPS order to burn down the profitable Tzinacatl Cartel infrastructure? | partly answered | Rejects the premise: Ahuizotl never burned the factory. The Tzinacatl burned it in response to Chrysalis clear-cutting the jungle for rubber. Ahuizotl's own reaction was a crisis of conscience, and he faked his death. | Ahuizotl did not burn down the Tzinacatl factory; crisis of conscience and faked his death |
+  - Does that episode prove to the Bauleiters that VOPS threatens the Hegemony's survival? | ignored | Nothing on how the Bauleiters read VOPS. | none
+  - If SECEF learns the infantry lines collapse when Commissars are sniped, does Vaspier adapt by disguising Commissars as ordinary conscripts? | ignored | The user turn does not take up Vaspier's response to the sniping. | none
+  - How would that paranoia further erode trust inside the Changeling ranks? | ignored | Not addressed. | none
+- shape: The user corrects the model's account of Trimmel's Level 1/Level 2 disillusionment and of Ahuizotl's fate, replacing both with their own version of events. It then turns to a new question for the model: whether Vaspier is hedonistic in EaW canon. It floats the idea that making him non-hedonistic could be part of the subversion. The model's two closing questions are left untouched, except that the correction to Ahuizotl bears on the first.
+- settles:
+  - Trimmel does not learn of Chrysalis's attempt to use VOPS to reinstate the boyars until after the Great War. | Trimmel does not know about Chrysalis's attempt to use VOPS to reinstate the boyars until after the great war
+  - In 995 Trimmel sees a successful communist revolution in Severyana, and is alienated only by its erasure of individual meritocracy. | In 995 he saw a successful communist revolution (but then felt alienated
+  - The Tzinacatl themselves burned the factory, in response to Chrysalis clear-cutting the jungle for rubber; Ahuizotl did not. | The Tzinacatl burned it down in response to Chrysalis clear cutting the jungle
+  - Ahuizotl had a crisis of conscience and faked his death. | Ahuizotl had a crisis of conscience and faked his death
+  - Tentatively, Vaspier will be depicted as soulless, a 2nd-generation true believer born into the system, and not hedonistic. The user is still weighing whether this is part of the subversion. | I'm going to depict him as soulless and a 2nd gen born into the system, a total true believer

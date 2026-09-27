@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model proposed Canon Recontextualization as a new design track for the author to write notes in; the user says it isn't something to design, since it arises in the reader from the ontology and reveals and doesn't affect story design | I'm thinking canon recontextualization doesn't need to be designed | stated as the user's own view, tentative ("I'm thinking") but with a reason given
+  - reading of the plan | The model presented Source Evidence as a construction-time validation track with a design role; the user questions whether it has any purpose for designing the story, implying the model's claim of its usefulness isn't clear or established | And what is the purpose of source evidence for design of my story, if any? | posed as a question with a skeptical "if any", challenging the earlier justification without stating disagreement outright
+- about: The user pushes back on the model's proposed new track by saying recontextualization is an effect on readers and not a design matter, and asks the model to justify what Source Evidence is for in story design.

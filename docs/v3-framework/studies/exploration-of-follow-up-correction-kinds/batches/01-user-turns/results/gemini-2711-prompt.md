@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's new origin for the paste and moves on to ask for a list of alternative English and Aztec (Nahuatl-style) names for it.

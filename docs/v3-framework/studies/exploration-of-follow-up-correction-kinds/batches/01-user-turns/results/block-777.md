@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user picks up the word "jailbreak" from the model's breakdown and asks a run of new research questions about its origin, its fit for modern readers, its link to right to repair, older industrial precedents, and an in-world Equestrian substitute term, without saying anything in the model's turn was wrong.

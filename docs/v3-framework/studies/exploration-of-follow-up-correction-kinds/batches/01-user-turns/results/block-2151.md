@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the moral-framework thread and supplies new worldbuilding on how griffon artisans bootstrap their lathes and vacuum chambers, why the craft can't be inherited, and asks which subject the notes belong under.

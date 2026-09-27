@@ -1,0 +1,5 @@
+- questions:
+  - Should Zecora stay a solitary figure in the Everfree Forest whom characters seek out, or be actively recruited into Star Energy or the Equestrian military as the war escalates? | ignored | The user turn never chooses between solitary and recruited. It moves on to asking for a backstory of her departure from Zebrica and arrival in the Everfree. | none
+- shape: The user turn redirects. It skips the model's structural question and opens a new task: working out Zecora's backstory, meaning how she left Zebrica and why she chose the Everfree Forest over other refugee destinations. It takes for granted that she is a Zebrican refugee living in the Everfree, which follows the first of the model's three integration ideas.
+- settles:
+  - Zecora is a refugee who left Zebrica and settled in the Everfree Forest, so her backstory needs a reason for both the departure and the choice of that destination over other refugee destinations | how she left Zebrica and went to the Everfree Forest and why there out of all the other destinations for refugees

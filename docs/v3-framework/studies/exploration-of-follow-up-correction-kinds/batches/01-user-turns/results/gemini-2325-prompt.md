@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a further analysis of a new development, reformed thugs joining lionesses and industrialists in a nationalist Skyfall cartel, and asks whether it counts as a fourth part of the game, without saying anything in the previous summary was wrong.

@@ -1,0 +1,7 @@
+- questions:
+  - Does recasting the Tyrannical element as Parasitism or Rapacity change Rarity's internal conflict, so that her love of Canterlot glamour looks like the aesthetic camouflage the parasites use? | ignored | The user turn says nothing about Rarity or her conflict. | none
+  - When Applejack floods Skyfall with refined Red Love to secure the crystal valves, is that a justified act of war, or is she taking on the enemy's Usury/Parasitism by monetizing addiction? | ignored | The user turn never mentions Applejack, the Red Love flood, or the moral question. It goes back to naming the Tyrannical term. | none
+- shape: The user turn skips the model's closing questions and stays on the naming task. It takes up one candidate, Parasitism, and says it fits. It explains the idea behind it: the tycoons as rent seekers feeding on the economy and on workers' labor. It rejects the word itself as clunky and asks the model for more alternatives that evoke the same thing. This is a redirect to a further round of brainstorming, not an answer to the questions.
+- settles:
+  - The tycoons are conceived as rent seekers who are parasites on the economy and on ordinary workers' labor. | I'm imagining the tycoons as rent seekers who are parasites on the economy and common worker's labor
+  - Parasitism is accepted as the right concept for the Tyrannical element, but not yet as the final word. | Parasitism makes sense. But it's a little clunky.

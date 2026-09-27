@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author lays out their own proposed timeline for Luna's corruption into Nightmare Moon, the world's ambition powering the moon for 1000 years, and her depleted, comic-book-villain return, without pointing the model at any body of material.

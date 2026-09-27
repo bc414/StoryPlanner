@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten: the author's own real-world opinion | Requiring women to act like men in order to lead is harmful, and it breeds tribalism and more aggression in women and in men who feel under assault | Saying women have to "act like men" to be leaders is the worse thing. Promotes tribalism and more aggression | no
+- goals:
+- whole: The note records the author's own real-world view that demanding women act like men to lead is harmful, without tying it to the character or to any planning task, so it does not answer the track's question.

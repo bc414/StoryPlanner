@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new follow-up question about how many dimensions vectors have in current LLMs and how that compares to the number of concepts in the world, without disputing anything in the model's answer.

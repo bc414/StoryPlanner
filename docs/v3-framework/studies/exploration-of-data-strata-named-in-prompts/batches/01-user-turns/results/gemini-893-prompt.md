@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pastes a beat-by-beat outline of the Twilight and Applejack confession scene for Chapter 6 "Kindness" and asks for analysis and feedback on its order, ending with the question of how Applejack responds to Twilight's "I love you."

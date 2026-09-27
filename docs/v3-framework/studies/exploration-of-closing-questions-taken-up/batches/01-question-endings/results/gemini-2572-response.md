@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore what role the radicalized former-cartel Aquileians play in the Battle of Mount Aris? | no user turn | none | none
+  - Do the Aquileians use their knowledge of Skyfall's shipping ledgers to intercept the weapons shipments Skyfall was sending to the warlords? | no user turn | none | none
+- shape: none
+- settles:

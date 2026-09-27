@@ -1,0 +1,7 @@
+- claims:
+  - History | Chrysalis's shell companies exploit asset specificity, selling proprietary Organ Guns and Gatlings that need costly factory brass casings, which locks Zebrican warlords and their peasants into the Skyfall supply chain | weaponize Asset Specificity to create a subscription trap; require expensive, factory-made brass casings | no
+  - History | The Luna Nova is the economic opposite of that trap: it is built for self-sufficiency and works from the creature's own love and an open magic market | exact macroeconomic opposite, designed for autarky; universal open magic market | no
+  - History | Skyfall's industrialization and mass production ended griffon magic for ordinary people and confined magic to corporate artisans working under coercion | killed griffon magic for the masses, restricting magic only to corporate artisans | no
+  - History | The Luna Nova reverses this by being a mass-produced tool that gives magic back to the common creature | mass-produced tool that re-enables magic for the common creature | no
+- goals:
+- whole: The note reports, as in-world facts, how Chrysalis's supply-chain lock-in and Skyfall's industrialization contrast with the Luna Nova's self-sufficient, mass-produced return of magic to common creatures, without saying how the reader should encounter or respond to it.

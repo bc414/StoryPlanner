@@ -1,0 +1,4 @@
+- claims:
+  - Canon | The source material (EaW) refers to the Griffonian Empire by the epithet "The Sick Bird of Griffonia", an established canon fact the story must respect or build on | EaW calls the Griffonian Empire "The Sick Bird of Griffonia" | yes
+- goals:
+- whole: The note records a single established-canon fact, the source work's epithet for the Griffonian Empire, as a constraint for the civilizational system.

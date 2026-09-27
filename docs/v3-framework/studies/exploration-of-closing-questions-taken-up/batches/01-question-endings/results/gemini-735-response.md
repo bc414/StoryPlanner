@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like help drafting a System Instruction telling Gemini how to prioritize the JSON data when the notebook is attached? | ignored | Nothing said about the offer; the user asks a separate question about NotebookLM on mobile. | Is it possible to use notebook lm on mobile?
+- shape: Redirects to a new, practical side question (whether NotebookLM works on mobile) without engaging the model's offer or its notebook-versus-JSON recommendation.
+- settles:

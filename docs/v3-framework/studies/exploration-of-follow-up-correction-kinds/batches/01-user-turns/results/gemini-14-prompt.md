@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new factual question, asking for civilian casualty figures in France during the blitzkrieg, without disputing anything in the model's answer about Britain.

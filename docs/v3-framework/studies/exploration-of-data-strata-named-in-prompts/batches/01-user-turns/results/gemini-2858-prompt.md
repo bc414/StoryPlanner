@@ -1,0 +1,5 @@
+- sources:
+  - I previously planned that "the Wonderbolts are on paper defense forces, but really are a pressure valve for ambitious pegasi" | the author's earlier planned premise; its status is undecided, the model is asked whether it is still needed or should be dropped | I previously planned that | referred-to
+  - the new explanation of 2nd gen Royalist influence | the newer explanation just developed in the conversation; the model is asked to judge whether it replaces the earlier plan, so it is a candidate and not yet settled as a replacement | should I drop it for the new explanation | referred-to
+- order:
+- about: The user asks the model to decide whether an earlier planned premise for the Wonderbolts should be kept or dropped now that a new 2nd gen Royalist origin explanation has been developed.

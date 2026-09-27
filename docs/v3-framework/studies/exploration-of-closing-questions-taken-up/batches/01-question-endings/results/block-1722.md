@@ -1,0 +1,9 @@
+- questions:
+  - Is Twilight Velvet the author of the Daring Do books in this story's canon, or does she write some other kind of sanitized adventure fiction? | no user turn | none | none
+  - Is 'Season 2' in the TwiJack note a genuine in-universe time reference, or a meta-joke about the show's timeline? | no user turn | none | none
+  - If 'Season 2' is in-universe, what happened then that Rarity witnessed? | no user turn | none | none
+  - What is the plan for when Luna's backstory with the Temberik, behind her objection to the Luna Nova Rifle name, is revealed? | no user turn | none | none
+  - Does that Luna backstory retroactively recontextualize any of the callbacks in Chapters 16 and 17? | no user turn | none | none
+  - What is the intended reader experience of Scootaloo flying for the first time with Wings of Dew, and who witnesses it? | no user turn | none | none
+- shape: none
+- settles:

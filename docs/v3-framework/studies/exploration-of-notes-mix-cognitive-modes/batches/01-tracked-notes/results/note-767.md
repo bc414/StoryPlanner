@@ -1,0 +1,6 @@
+- claims:
+  - History | In peacetime training, Equestrian volunteers powered the shields with ease | Equestrian volunteers easily powered the shields | yes
+  - History | The volunteers' ease is explained by their baseline Pink Love (Grace/Trust) being artificially inflated by Celestia's 1,000-year Stagnation of Harmony | baseline Pink Love (Grace/Trust) was artificially inflated by Celestia's 1,000-year Stagnation of Harmony | yes
+  - History | On the proving grounds the shields appeared invincible | The shields looked invincible on the proving grounds | yes
+- goals:
+- whole: The note reports, as in-universe history, that the Equestrian Army's peacetime shield training went easily because of Stagnation-inflated Pink Love, which made the shields seem invincible on the proving grounds.

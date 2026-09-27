@@ -1,0 +1,5 @@
+- claims:
+  - History | The Temberik Mountains contain crystals | Temberik Mountains have crystals | no
+  - History | The mountains are forbidden to enter until the war and the cooperation take place | but are off limits until the events of the war and cooperation | no
+- goals:
+- whole: The note reports, as plain world fact, that the Temberik Mountains hold crystals but are barred to entry until the war and cooperation, and it says nothing about how the reader is to experience this.

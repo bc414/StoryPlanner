@@ -1,0 +1,5 @@
+- sources:
+  - GIYC | material to draw on for Rainbow Dash's character arc; the model is to report what development she goes through there | What character development does Rainbow Dash go through in GIYC | referred-to
+  - TLTT | the target work; the GIYC arc is to be related to it and applied there, not treated as something to change | how does it apply to TLTT | referred-to
+- order:
+- about: The user asks the model to lay out Rainbow Dash's character arc in the GIYC plan and then to map that arc onto TLTT.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the historical genealogy to a new request: to check the story planner's source materials on the Great Lakes nations of Zebrica, assess how complete they are, and judge how they fit or clash with the user's TLTT direction, without saying anything in the prior answer was wrong.

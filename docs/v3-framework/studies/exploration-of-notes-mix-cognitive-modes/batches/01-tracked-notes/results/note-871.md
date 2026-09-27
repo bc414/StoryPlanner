@@ -1,0 +1,6 @@
+- claims:
+  - History | VOPS infiltrators are required to learn the Equestrian language as a fact of how the organization operates | VOPS infiltrators have to learn Equestrian | no
+  - Characterization | The organization's binding logic punishes empathy: an agent who learns Equestrian and comes to see ponies as having friends, dreams and destinies is demoted to a home front middle manager | If a VOPS agent learns it and realize ponies have friends/dreams/destinies, and they start feeling empathy, they get demoted | yes
+  - Characterization | The organization rewards instrumentalizing knowledge of the ponies: an agent who learns Equestrian and weaponizes it becomes VOPS elite, so membership is held together by a dehumanizing incentive structure | If they learn Equestrian and choose to weaponize their knowledge, they become a VOPS elite | yes
+- goals:
+- whole: The note sets out VOPS's internal incentive structure, in which language-learning is required and empathy for ponies is demoted while weaponizing that knowledge is promoted, as the truth of what binds and sorts its members.

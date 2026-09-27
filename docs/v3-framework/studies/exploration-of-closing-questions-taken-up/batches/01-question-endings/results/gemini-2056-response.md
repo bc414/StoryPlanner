@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the Phase 2 prompt rewritten to include the escape-hatch conflict-bucket logic to prevent recursion? | refused | Declines it outright: the escape-hatch idea and any loosening of the requirements are to be ignored. It asks instead for refinement of the system instruction with the strict rules kept. | Ignore the stuff about escape hatch or loosening requirements
+- shape: Turns down the model's offer and its suggested fixes, then redirects to a different request. The user pastes the current task prompt and its six-rule protocol, asks for refinements that keep the rules strict, and puts a new question to the model about whether to open with a persona like the other prompts.
+- settles:
+  - The extraction prompt keeps its strict constraints, and no escape hatch or loosened requirement is added | Ignore the stuff about escape hatch or loosening requirements

@@ -1,0 +1,4 @@
+- questions:
+  - How do you plan to handle Twilight's and Applejack's emotional reaction to shedding their innocence, e.g. having them mourn the loss of Celestia's Nursery while accepting it must be dismantled? | no user turn | none | none
+- shape: none
+- settles:

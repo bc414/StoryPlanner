@@ -1,0 +1,10 @@
+- questions:
+  - Does the Griffon-hardware / Unicorn-software split make a tense symbiotic relationship in Pridea's economy? | partly answered | Says the two are symbiotic, but describes them as loving each other, which drops the tension the question proposed. | The griffon artisans and the unicorn appliqué designers love each other and are symbiotic
+  - Do Griffon artisans despise the Appliqué engineers for not getting their hands dirty, or is there mutual respect between hardware and software masters? | answered | Picks neither contempt nor cool respect. The two groups love each other. | love each other and are symbiotic
+- shape: Answers the model's question directly and briefly, and rejects the tension it suggested. It then adds a point the model never raised: what would actually threaten the Griffons, and why the vacuum-stabilizer Griffons can absorb it.
+- settles:
+  - Griffon artisans and Unicorn Appliqué designers love each other and are symbiotic, with no resentment between them | The griffon artisans and the unicorn appliqué designers love each other and are symbiotic
+  - The real threat to the system is Twilight and Fleur adapting Chrysalis's love harvester into a love donator, so that spell matrices can run on donated magic | The actual threat is when Twilight and Fleur adapt Chrysalis's love harvester into a love donator
+  - The vacuum-chamber crystal stabilizer Griffons are not endangered by this, because they had to build their own lathes before their first vacuum chamber | they had to have already built their own lathes to get to the point of a first vacuum chamber
+  - Griffons can transfer their human capital to other bleeding-edge industrial areas | they can transfer the human (griffon) capital to other bleeding edge industrial areas
+  - Most Griffons would get bored doing the same thing for too many years, so moving on suits them | Most griffons would get bored doing the same thing for too many years anyway

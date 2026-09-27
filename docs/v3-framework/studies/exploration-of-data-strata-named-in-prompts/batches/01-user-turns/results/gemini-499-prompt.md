@@ -1,0 +1,5 @@
+- sources:
+  - the French and German doctrine (as covered) | treat as already established earlier in this conversation and as the two extremes to compare the British against | we've covered the French and German doctrine as the extremes | referred-to
+  - my story | the material the British lessons are to be applied to | How can it apply to my story | referred-to
+- order:
+- about: The user asks the model to continue its survey of WWI-era command doctrine by covering how British command evolved through the war, building on the French and German cases already discussed, and to say how that applies to their story.

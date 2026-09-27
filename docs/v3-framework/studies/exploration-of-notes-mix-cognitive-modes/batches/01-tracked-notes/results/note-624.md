@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Asserts as fact that Fizzlepop has logistics skills and that they prove useful in the rebuilding of Ain Trotgourait, stated as a trait and its worth rather than as a staged action | Her logistics skills serve well in rebuilding | no
+- goals:
+- whole: The note states in one line that Tempest's logistics skill is a strength that helps in rebuilding Ain Trotgourait, which is an assertion about the character rather than a staging of visible behavior on the page.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the survey of founding thinkers as a basis and asks a new question, whether "Elements of Liberty" is a World Law and what it should contain, without disputing anything in the model's turn.

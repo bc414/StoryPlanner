@@ -1,0 +1,5 @@
+- sources:
+  - these "friendship shields" derived from the crystal heart | build on the shields from the model's previous turn as a premise, and offer a new consequence (why the army is not delusional) tentatively | Perhaps these "friendship shields" derived from the crystal heart | referred-to
+  - Applejack's imposter syndrome baseline in chapter 1 | tie the new explanation into this existing story material, and read her line "we thought our friendship would win" literally in light of it | This should be tied into Applejack's imposter syndrome baseline in chapter 1 | referred-to
+- order:
+- about: The user builds on the model's shield-technology idea by proposing how it explains the Equestrian army's confidence and day-one defeat and the Crystal army's hold and staggered retreat, and asks that this be tied back to Applejack's chapter 1 line.

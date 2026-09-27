@@ -1,0 +1,9 @@
+- questions:
+  - How does Applejack pay for the expensive crystal engines and fuel gems in secret before the war? | partly answered | Does not name a payment source. It replaces the purchase framing with the Crystal Empire taking part willingly: Cadance and Shining Armor know the threat, host the aces, and have their ponies mine and refine the crystals, all hidden from Celestia. Applejack is not mentioned. | Cadance and Shining Armor are aware of the threat; crystal ponies mine and refine the crystals without telling celestia
+  - Does she use the Republic's agricultural exports, such as Sweet Apple Acres food, to barter with Cadance and Shining Armor? | ignored | Says nothing about farm exports, trade or barter. | none
+- shape: The user does not take up the funding question. They supply their own worldbuilding: the Crystal Empire's rulers are knowing, secret partners who host the aces and produce the crystals, and the engines are a joint corporate and university project. This replaces the model's suggested Applejack-barter setup with a different arrangement.
+- settles:
+  - Unlike Celestia, Cadance and Shining Armor are aware of the threat | Unlike Celestia, Cadance and Shining Armor are aware of the threat
+  - Cadance and Shining Armor host the Wonderbolts and Aquileian aces during the development | They host the Wonderbolts and Aquileian aces during this development
+  - Crystal ponies mine and refine the crystals without telling Celestia | crystal ponies mine and refine the crystals without telling celestia
+  - The engines are jointly developed by Star Energy Corporation and the Aquileians at the University of Pridea | engines are mutually developed between Star Energy Corporation and Aquileians at the University of Pridea

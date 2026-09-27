@@ -1,0 +1,4 @@
+- claims:
+  - History | Thorax was born in the city of Vesalipolis, in an industrial hive, in the year 987 | born in Vesalipolis in an industrial hive in 987 | yes
+- goals:
+- whole: The note reports as a plain historical fact where and when the character Thorax was born.

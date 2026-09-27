@@ -1,0 +1,9 @@
+- claims:
+  - Analogies | Contrasts the story's post-scarcity stagnation with real-world historical orders, Rome and Song China, as authoritarian and different in kind | unique, unlike the authoritarian order of Rome or the Song dynasty | no
+  - ThematicEvidence | Asserts the proposition that privilege (shelter) is a tool rather than a sin to be ashamed of | Your privilege is not a sin to be ashamed of, it is a tool | yes
+  - ThematicEvidence | Asserts that the moral capacity shelter affords creates an obligation to act, to use it to fix the world rather than being exempt | You have the luxury of morality; use it to fix the world | yes
+  - Allegories | Casts rugged individualists as a real-world ideological group that pushes people into being predator (wolf) or prey (sheep) | rather than letting the rugged individualists convince you to be a wolf or a sheep | no
+- goals:
+  - Believe that privilege is a tool and not a sin, so feel no shame over it | ThematicEvidence | Your privilege is not a sin to be ashamed of, it is a tool
+  - Take up the obligation to use the luxury of morality to fix the world and resist the individualist wolf-or-sheep framing | ThematicEvidence | use it to fix the world, rather than letting the rugged individualists convince you
+- whole: The note addresses the reader directly to argue the theme's proposition, setting the stagnation apart from historical authoritarian orders and urging that sheltered moral capacity be used as a tool and an obligation against individualist cynicism.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the user's approach as settled, ending at the world bible with no AI prose and diverging from the Japanese author at the writing stage. The user says the writing stage hasn't been reached and what they will do there is undecided. | "I haven't actually gotten to the writing part yet. It remains to be seen what I will actually do" | Plain, mild statement of fact, given in passing with a soft "Well" opener and no irritation
+  - reading of the plan | The model said the user uses AI for structural analysis only and never for anything in the text. The user's plan includes AI as a reasoning thesaurus for word choice where they have a vibe but need the word. | "my current plan is to only use AI to help make decisions on word choice" | Offered as added context with a reason (past hours spent on thesaurus.com), and no explicit statement that the model was wrong
+- about: The user softly qualifies the model's picture of their methodology as not yet decided and as including AI word-choice help, accepts the Zenn post as structurally close, and asks for the author and link.

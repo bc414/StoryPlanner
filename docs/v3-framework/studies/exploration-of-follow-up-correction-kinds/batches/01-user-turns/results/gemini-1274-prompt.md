@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the separation-phase analysis and asks a fresh question about how the love donator powers the Equestrian war effort.

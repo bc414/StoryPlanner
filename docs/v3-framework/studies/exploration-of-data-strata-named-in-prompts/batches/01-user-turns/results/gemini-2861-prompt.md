@@ -1,0 +1,6 @@
+- sources:
+  - my story plans | review them and use them as the basis for the analysis, including how the drugs relate to the two loves | Review my story plans | referred-to
+  - what hormones are mapped to red and pink | look up the hormone assignments already made to Red Love and Pink Love and use them in the analysis | what hormones are mapped to red and pink | referred-to
+  - hormones involved with amphetamines and opioids | draw on the model's own general knowledge of the pharmacology and review it | Review the hormones involved with amphetamines and opioids | referred-to
+- order:
+- about: The user floats a provisional idea that blitz essenz should map to Red Love and panzer haut to Pink Love, and asks the model to compare real amphetamine and opioid hormones against the hormones mapped to red and pink in their story plans and give an analysis.

@@ -1,0 +1,6 @@
+- claims:
+  - History | Tier 3 of the camp's drug regimen is the maximal mix of all three synthetic components, used for suicide charges | Tier 3: the maximal mix of all 3 synthetic components for suicide charges | no
+  - History | Conscripts given Tier 3 are not expected to survive | The conscripts are not expected to come back | no
+  - History | Tier 3 is given to conscripts who are already injured or mentally broken, and in the attacks against Stalliongrad | given to conscripts who are already injured or mentally broken, or in the attacks against Stalliongrad | no
+- goals:
+- whole: The note reports as in-world fact what the highest dosage tier given to the changeling conscripts is, what it is for, and who receives it, without planning how the reader is to experience it.

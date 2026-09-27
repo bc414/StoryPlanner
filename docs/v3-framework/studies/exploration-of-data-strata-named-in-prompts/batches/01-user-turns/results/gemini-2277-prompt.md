@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user revises the model's dive-bombing proposal by stating their own story setup, in which the Wonderbolts build only fighters, Starlight is kept from the front, and Vanhoover falls to blitzkrieg, without pointing the model to any body of material.

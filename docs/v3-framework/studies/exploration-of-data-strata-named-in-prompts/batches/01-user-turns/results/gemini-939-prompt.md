@@ -1,0 +1,4 @@
+- sources:
+  - the ration symbolism analysis just given ("this") | build on it, extending the ration-eating symbolism into her imposter syndrome | Can this feed into her imposter syndrome | referred-to
+- order:
+- about: The user asks the model to extend its ration-tin symbolism into Applejack's imposter syndrome, given that she must run the military and industry after rejecting that mantra, which her cutie mark was about.

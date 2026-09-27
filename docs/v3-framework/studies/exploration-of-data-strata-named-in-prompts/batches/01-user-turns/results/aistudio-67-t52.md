@@ -1,0 +1,5 @@
+- sources:
+  - this conversation history | the material the model is to summarize, following how it changed over its course | summarize this conversation history, tracking the changes | referred-to
+  - the story plan | the thing the conversation's changes are measured against, to say what in it should ultimately be changed and why | what ultimately should be changed in the story plan | referred-to
+- order:
+- about: The user asks for a summary of the whole conversation that tracks how the ideas changed, what should ultimately be changed in the story plan and why, and how those changes affect the delivery of the story's themes.

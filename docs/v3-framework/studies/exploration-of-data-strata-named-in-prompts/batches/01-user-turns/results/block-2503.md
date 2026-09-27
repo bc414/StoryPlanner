@@ -1,0 +1,5 @@
+- sources:
+  - the story's thesis (what the story argues, including against naive charity) | the standard the new chapter title must be faithful to; donation alone is judged good but not sufficient against it | the story argues against naive charity; more faithful to the actual nuances of the thesis | referred-to
+  - the author's own stated nuance in this turn (no top-down donation, chosen cooperation through agency) | treat as the correct account of what the chapter shows, correcting the model's framing; the title should express it | The real nuance is that there is no top down donation happening | first-named
+- order:
+- about: The author pushes back on the model's title recommendations, saying Donation and Abundance misstate the thesis and the chapter's real nuance of chosen cooperation through agency, and asks for terms that play the foil to Extraction straight.

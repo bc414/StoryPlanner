@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how obvious or subtle the choice of narrator/POV character should be to the reader, extending the model's advice without disputing it.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user explains why they zoom out in ensemble and meeting scenes, restates their own understanding of limited point of view (one focal character, others shown through the narrator's biases), and asks the model to analyze and refine that understanding.

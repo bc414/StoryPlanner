@@ -1,0 +1,5 @@
+- sources:
+  - Aquileian equivalent worldview | used as a comparison lens: the user takes MrBeast's individual exceptionalism over structural change to match it, and asks the model to carry that reading forward | Aquileian equivalent worldview of individual exceptionalism instead of structural change | referred-to
+  - the user's own memory of watching MrBeast | treated as the user's own observation, and the basis for their reading of him from that period | while I was watching him | referred-to
+- order:
+- about: The user accepts the earlier framing, extends it with their own reading of MrBeast as an individual-exceptionalism figure, and asks whether his recent moves into mainstream industries show a shift toward rugged individualism and rent seeking, and how he relates to the reactive manosphere.

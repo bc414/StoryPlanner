@@ -1,0 +1,6 @@
+- claims:
+  - History | Meadowbrook took native, dying vines and alchemically engineered them to bind to the communal oxytocin of the Tzinacatl bat ponies | She took native, dying vines and alchemically engineered them | yes
+  - History | She did not merely plant and leave; she made the plants' survival depend on the social life of the Medicinal Tribes | didn't just plant a seed and leave; she tied the flora's survival to the sociology | yes
+  - History | The plants work as biological batteries that only grow with the cutie-mark magic and daily communal empathy of the pacifist tribes | The plants act as biological batteries that require the specific cutie-mark magic and daily communal empathy | yes
+- goals:
+- whole: The note reports, as in-world fact, how Meadowbrook engineered dying vines so their survival is bound to the communal empathy and cutie-mark magic of the Medicinal Tribes, and it sets out no reader effect.

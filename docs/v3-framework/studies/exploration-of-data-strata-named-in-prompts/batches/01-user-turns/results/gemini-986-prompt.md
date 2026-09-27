@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the students of the Skyfall school in Equestria should know Chrysalis is the ultimate backer, and gives their own view that Red Love's changeling origin would be known, describing how Chrysalis's domestic state works and how the worst collaborators would speculate on the Red Love price.

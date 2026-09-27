@@ -1,0 +1,4 @@
+- questions:
+  - How does the Stagnation of Harmony framework handle Discord in the lore: is he absent, or is his chaotic magic something Celestia quarantines because it defies her predictable order? | ignored | Nothing said about Discord; the user turn asks the model to go review the plans and find other places the dynamic shows up. | none
+- shape: Redirects the model to a new task. It skips the Discord question and instructs the model to review the user's existing story plans and expand on other areas where the Hasbro-mandate / Stagnation of Harmony dynamic appears. It accepts the model's framing without correcting it.
+- settles:

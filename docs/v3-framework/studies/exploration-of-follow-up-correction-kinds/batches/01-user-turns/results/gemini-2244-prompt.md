@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model's method recommendations rested on general descriptions of the three workflows and a few remembered project details, not on the user's real story-planning chat histories, which the user now asks it to use as the basis | "Look into my actual chat histories" | flat imperative, with the correction carried by the single word "actual" and no complaint or apology
+- about: The user redirects the model from a generic workflow comparison to a version grounded in their real planning conversations, asking for a categorization of the tasks they have actually done and the best method for each.

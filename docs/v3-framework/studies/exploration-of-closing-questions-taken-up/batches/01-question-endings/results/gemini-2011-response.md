@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the Phase 2 (Sorter) system instruction written now? | ignored | The user does not respond to the offer. They turn back to Phase 0 and ask for their existing instruction to be revised for the waterfall approach. | none
+- shape: Redirects to a different task. The user pastes their existing Phase 0 system instruction and asks the model to update it for the waterfall strategy. They also ask what should change in the JSON output so it serves the new Phase 1. This goes back a step instead of moving forward to Phase 2. It also treats the waterfall design as accepted.
+- settles:
+  - The waterfall (ordered multi-strategy) approach is taken as the basis for the pipeline, and Phase 0 is to be reworked to feed it | update it for this waterfall strategy

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user steps away from the fabula discussion to ask, as a factual question, whether George RR Martin's baby-boomer background fits the grimdark cynicism just described and whether ASOIAF appeals more to young people or boomers.

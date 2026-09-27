@@ -1,0 +1,5 @@
+- sources:
+  - my personal intelligence data | draw on it to pick the names; base the alternative axis names on what it shows about the author | "based on my personal intelligence data" | referred-to
+  - my existing passions | use as the inspiration for clever names for the axes | "pick clever names based on my existing passions" | referred-to
+- order:
+- about: The user asks the model for a few more user-friendly, clever alternative names for the seven worldbuilding axes, drawn from their personal intelligence data and existing passions.

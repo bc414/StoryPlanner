@@ -1,0 +1,7 @@
+- questions:
+  - When Trimmel surrenders to Applejack, does he call his homeland the Empire (as a military architect of the state) or the Hives (disillusioned, wanting to save his people)? | ignored | Nothing said about Trimmel or the surrender scene. | none
+  - In the Manehattan debates, if Gilded Trust says Changeling Lands and Applejack corrects him with Changeling Empire, how does that show voters she respects the enemy's lethality? | ignored | Nothing said about the debates or Gilded Trust. The turn moves to a chapter 1 moment with Applejack and Henri instead. | none
+- shape: The user turn confirms the model's naming scheme for Celestia and Blueblood and then moves on without answering either Socratic question. It opens a new problem, how Henri and the Aquileians fit in given his "poseurs" line. The user floats a possible chapter 1 scene and asks the model several fresh questions: whether Henri would correct Applejack, whether Aquileians would say Empire or Hegemony, and how the Allies viewed Germany, Japan and Italy. The turn is mostly a redirect that hands the model new questions.
+- settles:
+  - Celestia uses Changeling Lands, which is also the default name in EaW | agree that Celestia would use Changeling Lands (and that is why it's the default name in EaW)
+  - After the dotted line report, Blueblood adopts Changeling Empire, having seen evidence of the slave islands, whether Celestia likes it or not | Blueblood ... would adopt Changeling Empire after the dotted line report ... whether Celestia likes it or not

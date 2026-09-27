@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the story analysis and asks a new, tool-related question about whether NotebookLM indexes concepts across all its sources, without saying anything is wrong in the model's analysis.

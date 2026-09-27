@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants advice on formatting System Instructions for consistent MICE and Freytag analysis | ignored | Says nothing about the formatting offer; only states a new requirement, that the solution be cost effective | I need it to be cost effective
+- shape: Raises a new constraint (cost) that implicitly pushes back on the AI Studio recommendation without accepting or declining the offered follow-up; a short redirect that leaves the model to come up with a cheaper option.
+- settles:

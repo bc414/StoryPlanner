@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model turned the siege's end into a precise military assault to stop a martyr-seeking Chrysalis, but the planned resolution is a food and love airdrop to the starving changelings, after which her regime falls | "To be clear, the siege will be resolved by air dropping food and donated love" | flat restatement of the intended plot, with no reason given and no apology
+  - fact of the world | The model made Chrysalis a suicidal cult leader who will not run, and had the characters rule out a submarine escape. The user leaves her fate open and floats an escape by submarine, which fits Eagleclaw's earlier expectation. | "Not sure what her fate will be. Maybe at that point she will try to escape in a submarine?" | tentative and hedged, put as an open question with a suggestion
+- about: The user restates how the siege actually ends, pushes back on the fanatic-martyr framing by floating a submarine escape, and adds Luna's practical motive for backing Applejack's Equestrian Republic.

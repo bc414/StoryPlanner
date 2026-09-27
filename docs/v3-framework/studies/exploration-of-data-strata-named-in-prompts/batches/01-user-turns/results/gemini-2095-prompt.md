@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about whether restaurants built on the specialized "Mother Process" paradigm are viable only in the New York, San Francisco and Los Angeles metro areas or also elsewhere, without pointing at any body of material for the model to use.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general economics question about how a Georgist system would treat an IP-based, capability-based monopoly like TSMC, reasons through it themselves, and proposes an answer for the model to confirm or correct, without pointing the model at any body of material.

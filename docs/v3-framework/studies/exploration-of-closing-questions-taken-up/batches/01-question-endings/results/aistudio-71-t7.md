@@ -1,0 +1,5 @@
+- questions:
+  - How does Rarity's confrontation with the Tycoons' Exaction/Consumption push her from naive free-giving Generosity to seeing that true Generosity needs political power to dismantle monopolies? | no user turn | none | none
+  - When the Tzinacatl Cartels refine and sell Red Love to the desperate Skyfall underclass to fund the war effort, are they practicing Harmonic Capitalism or have they adopted the enemy's doctrine of Consumption by monetizing addiction? | no user turn | none | none
+- shape: none
+- settles:

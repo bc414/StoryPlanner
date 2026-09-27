@@ -1,0 +1,6 @@
+- sources:
+  - the ontological difference I pointed out (spearmen can become squires but peasants cannot become CEOs; kleptocracy's founding ontology) | treat as settled and true; the axis scheme has to be able to express it | since I pointed out the ontological difference that spearmen can become squires but peasants cannot become CEOs | referred-to
+  - the current axis readings for Feudal Herzland and Grover V's kleptocracy (Standardized/TopDown/Closed/Transactional/Erasure) | treat as wrong or inadequate, since they give both systems the same five values and need revising | currently reads as Standardized/TopDown/Closed/Transactional/Erasure. Kleptocracy also reads as the same 5 | referred-to
+- order:
+  - the ontological difference I pointed out | the current axis readings for Feudal Herzland and kleptocracy | That is not possible since I pointed out the ontological difference
+- about: The user rejects the model's five-axis classification because it gives feudal Herzland and Grover V's kleptocracy identical values, contradicting the difference the user already stated (spearmen can become squires, peasants cannot become CEOs), and says Transactional Leverage cannot express the proto-meritocracy.

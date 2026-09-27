@@ -1,0 +1,7 @@
+- sources:
+  - All TLTT gemini prompts text.txt (the attached original file that started the story planning) | examine it to trace where "nursery" came from and why it was introduced; treat as the origin document to be investigated | Examine it and determine where "nursery" came from and why | first-named
+  - early, undisciplined Gemini AI usage (the tropes Gemini supplied, copy-pasted into the project) | treat with suspicion and scrutinize; its tropes were taken in uncritically and may not fit the project's current standards | This early, undisciplined Gemini AI usage should be scrutinized now | referred-to
+  - newer worldbuilding (rigorous materialist historicist analysis) | the current standard, which rejects tropes and genre conventions; the yardstick against which the Gemini-derived material is to be judged | many of my newer worldbuliding rejects tropes and genre conventions in favor of rigorous materialist historicist analysis | referred-to
+- order:
+  - newer worldbuilding (materialist historicist analysis) over early Gemini-derived tropes | the Gemini tropes are to be scrutinized now because the newer worldbuilding rejects tropes and genre conventions
+- about: The user attaches the original Gemini prompts file and asks the model to trace where and why \"nursery\" originated in it, framing this as a wider re-examination of trope-laden early Gemini material against the project's now more rigorous materialist-historicist worldbuilding.

@@ -1,0 +1,5 @@
+- claims:
+  - Canon | Twilight turns away from the destiny canon gives her, becoming the princess of friendship, which reworks that established source-material fate | rejects her destiny as the princess of friendship | no
+  - Characterization | What drives Twilight is Applejack: she gives up her destiny to save her and to become Applejack's own princess, which asserts what she values most | to save Applejack (and be Applejack's princess) | no
+- goals:
+- whole: The note states a single turning point in Twilight's arc, in which she gives up her canonical princess-of-friendship destiny out of devotion to Applejack, and it says nothing about what the reader is to experience.

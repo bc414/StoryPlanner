@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants a walkthrough of the final Sorter prompt logic and its slightly different folder structure | ignored | The user turn never mentions the Sorter. It stays on the visual editor and the JSON concepts. | none
+- shape: Corrects the model on a point of fact about the tool: the visual editor has no array option, only object nesting. It then checks its own understanding by mapping JSON onto C# OOP (properties as class fields, lists as arrays), and asks the model to confirm. It leaves the model's offer of a next step unanswered.
+- settles:

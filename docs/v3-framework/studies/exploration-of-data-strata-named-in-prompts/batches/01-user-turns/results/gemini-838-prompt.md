@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user sets out their thinking on which characters should be point-of-view narrators (Applejack, Twilight, Fluttershy yes; the mentors, Mali and Tally, and Celestia and Luna doubtful) and asks whether one-off limited narrators are acceptable.

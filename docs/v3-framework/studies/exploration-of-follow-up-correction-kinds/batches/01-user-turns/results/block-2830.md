@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model had Ahuizotl's VOPS reports growing vague and less actionable as he loses objectivity; the user says his character is top of his class and knows what to write and omit, so his reports would not degrade | I don't see his VOPS reports degrading because he is top of his class | flat statement of disagreement, with a reason given (his competence), tacked on after the main question
+- about: The user asks whether the planned climax of Ahuizotl faking his death at the factory now fits the revised company-town concept, and adds a pushback that his VOPS reports wouldn't degrade because he is a top-of-class agent.

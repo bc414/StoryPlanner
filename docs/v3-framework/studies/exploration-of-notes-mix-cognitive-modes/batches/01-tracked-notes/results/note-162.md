@@ -1,0 +1,6 @@
+- claims:
+  - History | The Star Spade is the most visible proof in the world that earth pony magic is real | The Star Spade is the most visible proof that earth pony magic is real | yes
+  - History | Unicorns, Pegasi and Griffons have highly visible, active magic, unlike earth ponies | Unicorns, Pegasi, and Griffons have highly visible, active magic | yes
+  - History | The Star Spade turns latent earth pony magic into a concentrated visible effect, breaking hardpan into soft diggable loam | turns latent earth pony magic into a concentrated, visible effect of breaking hardpan into soft, diggable loam | yes
+- goals:
+- whole: The note reports in-world facts about the Star Spade as the most visible evidence of otherwise latent earth pony magic, set against the overt magic of other peoples, and names no reader effect.

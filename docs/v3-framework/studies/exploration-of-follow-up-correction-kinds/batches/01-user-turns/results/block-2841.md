@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model looked to the plan's themes as where the political axes live. The user says they sit in the subjects, as metadata on the civilizational systems. | Try getting subjects; the civilizational systems should have meta data related to the axes | Brief, flat redirect phrased as a suggestion ('Try'). It gives a short reason about where the data should be and does not say outright that the themes were wrong.
+- about: The user redirects the model's search for the political-axes feature away from the themes and toward the subjects, where the civilizational systems carry the axes as metadata.

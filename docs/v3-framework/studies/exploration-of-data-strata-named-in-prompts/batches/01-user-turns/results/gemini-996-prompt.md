@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the idea of Earth Pony magic acting on animals because ponies are herbivores, asks a chemistry question about why dairy is needed in baked goods, and says eggs can stay as they are.

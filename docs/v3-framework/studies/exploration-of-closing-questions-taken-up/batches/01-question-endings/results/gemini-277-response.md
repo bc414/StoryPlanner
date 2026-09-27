@@ -1,0 +1,6 @@
+- questions:
+  - Is the user ready for the model to produce the final Chapter Outline document to guide their writing? | ignored | Nothing about the outline. The user adds a fact about the Tzinacatl's history and a thematic framing of the Chapter 10 solution. | none
+- shape: Adds to and corrects the model's account without answering its closing offer. The user states why the Tzinacatl fell into infighting (their unifier, Nightmare Moon, was banished). The user then names the Chapter 10 solution as capitalism for good combined with the Aquileian model of technology supporting local specialization.
+- settles:
+  - The Tzinacatl split into infighting after Nightmare Moon, who had been their unifier, was banished. | The Tzinacatl broke up into infighting after Nightmare Moon (the unifier) was banished
+  - The Tzinacatl arc in Chapter 10 is an application of capitalism for good and of the Aquileian model, in which technology enhances local specialization. | another application of capitalism for good and the Aquileian model of technology to enhance local specialization

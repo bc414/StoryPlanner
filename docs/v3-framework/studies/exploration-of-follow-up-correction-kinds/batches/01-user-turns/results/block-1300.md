@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches a plan for an unwritten canon FiM story and asks how it relates to their TLTT methodology, which is a fresh request and not a correction of the model's prior comparison.

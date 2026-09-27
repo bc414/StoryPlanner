@@ -1,0 +1,4 @@
+- claims:
+  - Characterization | Hans Kessel is a bauleiter (construction site manager) whose standing has fallen; asserts who he is at the start | A bauleiter who fell from grace | yes
+- goals:
+- whole: The note asserts, in a single characterizing phrase, that Hans Kessel begins the story as a construction site manager who has fallen from grace.

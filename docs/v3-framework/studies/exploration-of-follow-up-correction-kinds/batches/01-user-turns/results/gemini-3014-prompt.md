@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the answer about system-level configuration and asks a follow-up on whether it can work for a non-coding use: a folder of story-plan markdown files, with the assistant acting as a developmental editor in chat only, with no diffs.

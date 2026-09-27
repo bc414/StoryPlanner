@@ -1,0 +1,5 @@
+- sources:
+  - my story's theme on Honesty vs Poseurs | the lens the model is to relate the tool comparison to; treated as the author's existing theme to draw the connection with | my story's theme on Honesty vs Poseurs | referred-to
+  - this all (the preceding NotebookLM vs AI Studio comparison in the current conversation) | the material to be connected to the theme; taken as what was just discussed | How does this all relate | referred-to
+- order:
+- about: The user asks the model to connect the preceding NotebookLM versus AI Studio comparison to their story's Honesty vs Poseurs theme, contrasting early pantser AI-slop monetizers with their own intended use of AI Studio.

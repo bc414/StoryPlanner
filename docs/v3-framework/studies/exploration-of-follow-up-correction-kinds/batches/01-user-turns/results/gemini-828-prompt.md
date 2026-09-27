@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn restates the two ideas the model turn had already worked through (Statthalters mastering and relishing emotion sense, and juniors submitting to being drained by superiors) and asks whether they fit Bushido, without saying anything in the model turn was wrong.

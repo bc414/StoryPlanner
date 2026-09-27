@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds world and design detail (a smooth default form with a jagged combat or business form that foreign powers see, plus a pastel MLP-style art direction) as input for naming the species, without saying anything in the model's options was wrong.

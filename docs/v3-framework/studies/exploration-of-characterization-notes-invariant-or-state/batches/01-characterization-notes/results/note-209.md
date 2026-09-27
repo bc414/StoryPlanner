@@ -1,0 +1,5 @@
+- claims:
+  - unfixed | He should come across in voice and manner as a loudmouth, brash and loud | he should sound like a loudmouth | none in the note's own words; only the track's question about the start of TLTT frames it, and the note gives no date, phase or tense
+  - unfixed | He should come across as a brute, rough and physically aggressive in manner | a brute | none in the note's own words; no date, phase or tense given
+  - unfixed | His speech and attitude should have a typical New Yorker feel, confrontational and pushy in the manner of the 'I'm walkin' here!' type | a typical New Yorker "I'm walkin' here!" kind of vibe | none in the note's own words; no date, phase or tense given
+- beside: none

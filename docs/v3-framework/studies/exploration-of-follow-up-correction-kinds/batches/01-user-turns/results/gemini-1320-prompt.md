@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up history question about why the Czech lands held most of the Austro-Hungarian industry despite being a minority, taking up the model's industrial-share claim without disputing it.

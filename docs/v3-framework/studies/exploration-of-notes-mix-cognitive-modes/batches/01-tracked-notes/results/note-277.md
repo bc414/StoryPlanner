@@ -1,0 +1,6 @@
+- claims:
+  - Canon | The source game's Equestrian focus tree contains the focus "Put Down the Magic of Friendship", which needs 75% war support and normally can't be taken until war begins | One of the focuses in the Equestrian focus tree ... requires 75% war support and typically can't be done until the war starts | no
+  - NarrativeArchitecture | Readers begin with the prior expectation that the army means mass conscription and suppression of conscience, setting the starting point of their opinion of the organization | Readers initially expect mass conscription and suppression of conscience | yes
+- goals:
+  - Readers start out expecting the Equestrian Army to conscript en masse and suppress conscience, the trope-driven baseline for their understanding | NarrativeArchitecture | Readers initially expect mass conscription and suppression of conscience
+- whole: The note cites a source-game focus as canon grounding and uses it to set the reader's initial trope-driven expectation of the Equestrian Army as a conscripting, conscience-suppressing force.

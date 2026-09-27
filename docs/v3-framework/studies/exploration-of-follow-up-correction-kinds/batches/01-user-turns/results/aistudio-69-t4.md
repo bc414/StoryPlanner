@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fit of the proposal to the world's premises (own name) | the model's heavy build-out of the Tantabus as a magical heat sink and dream-monster is doubted as too world-altering for the materialist setting | Maybe the tantabus is too worldbreaking for my materialist fabula? | tentative, put as a hedged question that doubts the approach without rejecting it outright, and paired with a request to fall back on the episode's themes
+- about: The user voices doubt that the model's elaborate Tantabus reclassification suits their materialist world and asks instead for the episode's themes and how they relate.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out their own detailed plan for Thorax (canon origin, 1007 purge, escape to the crystal city, Flurry Heart, the POW rehab program) and asks whether he can be one of Trimmel's students, moving on from the Peter the Great analysis without disputing any part of it.

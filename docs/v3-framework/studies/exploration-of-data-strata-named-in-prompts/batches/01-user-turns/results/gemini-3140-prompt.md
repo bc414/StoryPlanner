@@ -1,0 +1,4 @@
+- sources:
+  - personal intelligence | draw on it as the basis for evaluating how the author's usage differs from the median subscriber's | Use personal intelligence | referred-to
+- order:
+- about: The user states a suspicion that their use of the Gemini Pro consumer app differs from the typical subscriber's, asks the model to evaluate that, and tells it to use its personal intelligence feature to do so.

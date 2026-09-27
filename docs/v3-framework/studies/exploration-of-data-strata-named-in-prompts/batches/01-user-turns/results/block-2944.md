@@ -1,0 +1,13 @@
+- sources:
+  - story planner evidence across v1 archive, v2, and conversations | reanalyze the economy axis from first principles using it as the evidence base | Reanalyze the economy axis from first principles using the story planner evidence across v1 archive, v2, and conversations | referred-to
+  - v1 archive | one of three layers of story planner evidence to draw on for the reanalysis | across v1 archive, v2, and conversations | referred-to
+  - v2 | one of three layers of story planner evidence to draw on for the reanalysis | across v1 archive, v2, and conversations | referred-to
+  - conversations | layer of story planner evidence to draw on for the reanalysis | across v1 archive, v2, and conversations | referred-to
+  - expanded world building for the changelings in conversations | check whether it points toward the author's new reading of changeling specialized castes | I have expanded world building for the changelings in conversations, do they point towards this direction? | referred-to
+  - the author's own claims about Griffonian Republic, Skyfall, Herzland from Grover IV, Chrysalis's New Order, Aquileia, Equestria, Tzinacatl, Severyana | treat as the author's stated premises for what the economy split originally was, to be tightened | Griffonian Republic and Skyfall and Herzland starting with grover IV are on the standardization side | first-named
+  - the author's new proposal on changeling hive economy (specialized castes, caste sorting from kindergarten, Chrysalis industrializing it) | provisional hypothesis to be tested against the evidence, not settled | I'm thinking the ancient harmonic changeling lands also had specialized roles | first-named
+  - the author's earlier petty hive wars treatment | treat as undeveloped, to be replaced or revised | my warring petty hive wars was undeveloped | referred-to
+  - previous axes definition (economy conflated with other axes) | treat as conflated and in need of tightening | independent of the axes that were previously conflated | referred-to
+  - the model's previous turn (Chrysalis shares only one axis) | treat as possibly wrong, since the author now suspects Chrysalis's New Order splits all 5 axes | maybe Chrysalis's New Order DOES split ALL 5 axes | referred-to
+- order:
+- about: The user proposes that the economy axis (asset specificity vs standardization) needs redefinition and that Chrysalis's New Order may actually oppose the Republic on all five axes because changeling hive labor was always specialized and caste-stratified, and asks the model to reanalyze the axis and the changeling hive economy from the story planner evidence across its layers and conversations.

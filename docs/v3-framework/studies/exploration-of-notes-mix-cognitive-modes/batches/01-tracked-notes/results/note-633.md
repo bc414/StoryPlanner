@@ -1,0 +1,4 @@
+- claims:
+  - History | The Love Canister was invented by the engineers working for Chrysalis | Invented by Chrysalis's engineers | yes
+- goals:
+- whole: The note reports, as a plain in-world fact, who created the Love Canister, and does not say how it was used, when, or what the reader should take from it.

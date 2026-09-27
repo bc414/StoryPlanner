@@ -1,0 +1,4 @@
+- sources:
+  - the canon episode The Times They are a Changeling | a template whose dynamic is to be preserved in the story, with Flurry Heart taking Spike's role | preserve the dynamic of the canon episode | referred-to
+- order:
+- about: The user corrects the model's timeline by saying the Harmonist revolution had already failed before Thorax reached the frozen north, then asks how Shining Armor and Cadance would have reacted to a 1004 plea for help, and whether they should ignore him so the canon episode's dynamic carries over with Flurry Heart in Spike's place.

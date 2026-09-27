@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user extends the model's hormone framework to changelings by asking whether their friendship-fed calories would put their baseline at even more estrogen than ponies.

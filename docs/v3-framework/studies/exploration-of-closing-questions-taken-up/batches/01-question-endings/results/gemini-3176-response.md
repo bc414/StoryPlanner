@@ -1,0 +1,4 @@
+- questions:
+  - How is the user currently organizing the internal formatting of their story bibles (markdown headers, JSON tags) so the model's attention can anchor on specific details without hallucinating? | ignored | Says nothing about how the bibles are formatted and goes on to ask for the analysis to be redone. | none
+- shape: Gives a short instruction to redo the model's whole analysis, the Gemini vs. Claude comparison of system instructions, context windows and RAG, as of April 2026. It treats the model's account as out of date, or possibly built on old model versions, and leaves the model's closing question unanswered. It is a redirect about the conversation's own subject, not the story.
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user rejects the model's claim that Skyfall's shipping conglomerates act as a cartel and restates their own account, in which SAA cans sell at the global market price, raised by remittance-fed demand, and the same applies to Skyfall's factory-farm output and Herzland's grain.

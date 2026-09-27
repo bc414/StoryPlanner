@@ -1,0 +1,4 @@
+- claims:
+  - History | Grover VI was born in the year 1002 ALB, reported as a fact of the world's timeline | Born in 1002 ALB | yes
+- goals:
+- whole: The note records, as an in-universe historical fact, the birth year of the character Grover VI.

@@ -1,0 +1,4 @@
+- sources:
+  - the Aquileians from my story | use as the comparison frame for judging whether the progressive movement and Hasan Piker fit; the author's restated definition (they dismantle rent seekers but stay individual, ego-driven and meritocratic rather than unconditional dignity or solidarity) corrects the earlier framing and is the one to apply | Are they the Aquileians from my story? ... Well actually, the Aquileians in my story dismantle the rent seekers | referred-to
+- order:
+- about: The user accepts Altman as the candidate matching their values, then asks for an objective, nuanced analysis of why the American progressive movement and Hasan Piker act as they do, testing it against their story's Aquileians and correcting how those Aquileians are defined.

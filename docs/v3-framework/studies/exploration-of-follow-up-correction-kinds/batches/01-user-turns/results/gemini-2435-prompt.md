@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's proposed framings for the Diamond Dogs (slavery inside Equestria, or a foreign cartel funded by Skyfall) are set aside; in the user's world they are native locals who live apart from ponies because of shaming and bad manners, and were left alone | The diamond dogs are native locals who live away from ponies due to shaming and bad manners and left alone | flat statement of the correct account, given as a plain answer to the model's question, with no apology or irritation, followed by a backstory plan and a new question
+- about: The user answers the model's Diamond Dogs question by stating they are native locals shunned by ponies (with Rarity later helping them find jobs in Manehattan), then asks for more foreign-influence examples from seasons 1-4 and offers Zecora and Zebrica as one.

@@ -1,0 +1,4 @@
+- questions:
+  - How does this Iteration 3 prompt feel for day-to-day use? | answered | Calls it a massive leap forward in the right direction, then names two problems with the output for use in a world bible: second-person references to the user, and the repeated statement, bullets and "The X: text" layout. | looks like a massive leap forward in the right direction
+- shape: The user gives a short approval of Iteration 3 and then moves to a new round. They set out two style complaints, asks the model to name other style artifacts, and put several new questions about whether Gemini's habits come from training or from a hidden system instruction. They also ask whether style constraints would weaken its reasoning. The turn redirects from reviewing the prompt to an analysis request that will decide the Iteration 4 design.
+- settles:

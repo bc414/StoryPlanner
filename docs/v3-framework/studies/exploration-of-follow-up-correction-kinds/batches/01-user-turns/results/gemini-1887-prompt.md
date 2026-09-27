@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn asks for a further comparison of relocation ages (9 versus 10 or 11), whether grooming was possible at 9, and whether Minette should sense danger before the move, all in service of her agency, without saying the earlier analysis was wrong.

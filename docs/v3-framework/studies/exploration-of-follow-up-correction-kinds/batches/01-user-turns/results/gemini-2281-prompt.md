@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated the Crystal Empire's crystals mainly as a source of materials (engine cores, propellant, inert penetrator tips). The user says they meant crystals as lighter storage for magic, i.e. potential energy. | "I was thinking of the crystals in terms of their ability to hold magic (potential energy) with less weight" | Put as a statement of the user's own earlier intent, softened by "but also" and praise for the model's diamond-penetrator idea. It is mild and made in passing, not stated as an error.
+- about: The user asks follow-up physics and real-world ammunition questions (what drives thrust-to-weight, whether caseless ammo exists, why brass) and mentions in passing that they had imagined the crystals as lightweight magic storage, while welcoming the model's diamond-penetrator angle.

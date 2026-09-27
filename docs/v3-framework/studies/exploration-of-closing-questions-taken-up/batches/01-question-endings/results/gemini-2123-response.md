@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts a new question to the model instead of answering one. It proposes a reading of the model's B2B/B2C analysis: the big consumer-facing companies are already visible and known to be evil, so the PNdA must be going after the hidden profiteers behind them. It then asks who commissioned the pirates who burned the universities, the hidden profiteers or the big retailers. It is a tentative check of the model's framing and a request to work out who is responsible in the backstory.
+- settles:

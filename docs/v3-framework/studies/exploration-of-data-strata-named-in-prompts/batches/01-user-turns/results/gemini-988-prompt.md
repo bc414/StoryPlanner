@@ -1,0 +1,6 @@
+- sources:
+  - this (the preceding analysis of the Collaborators, Chrysalis's occupation plans and the Griffonia war) | treated as the premise the user's inference is built on, to be confirmed or corrected as a reading of it | Does this mean | referred-to
+  - WW2 France, Vichy and Pétain, and the Nazis' racist war for living space | used as the historical template the user maps Equestria, Chrysalis's occupation and the title onto, offered for the model to confirm | like a WW2 France that "woke up" | referred-to
+  - revolutionary France | given as the real-world basis for the Aquileian volunteers, stated as settled design | they are based on revolutionary France | referred-to
+- order:
+- about: The user checks whether the earlier analysis fits a WW2-France, Vichy and Nazi-aims parallel, and adds that the title and the Aquileian volunteers follow from that parallel and from revolutionary France.

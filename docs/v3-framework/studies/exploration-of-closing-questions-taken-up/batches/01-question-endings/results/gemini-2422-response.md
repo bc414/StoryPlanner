@@ -1,0 +1,6 @@
+- questions:
+  - How does Manehattan's draft board handle ponies whose talents are non-combat or non-industrial (party planning, comedy, poetry): forced into propaganda work, or demoted to menial labor like sandbag carrying? | answered | Rejects the premise that the state assigns anyone. Every pony must contribute to support the front-line volunteers, but each chooses how, based on their own view of their asset specificity. So no board places them and there is no hypocrisy trap. | they get to choose how to contribute, according to their own view of their asset specificity
+- shape: Corrects the model. It says the tone of the analysis (draft, biological determinism, state extraction) is wrong, restates the Manehattan mandate in its intended form, and in doing so dissolves the model's closing question rather than choosing between its two options.
+- settles:
+  - Manehattan's mandate requires every pony to contribute, and the purpose is to support the volunteers on the front line | mandates that every pony has to contribute (to support the volunteers on the front line)
+  - Contributors choose their own form of contribution, judged by their own view of their asset specificity, rather than being assigned by the state from their Cutie Marks | they get to choose how to contribute, according to their own view of their asset specificity

@@ -1,0 +1,5 @@
+- sources:
+  - My current backstory (for Coltbert) | provisional, a generic placeholder the user is asking whether to change; not settled | "My current backstory just generically says Coltbert is a rare noble pony" | referred-to
+  - My lore (on griffonesses abusing pony serfs without consequence, since ponies and griffons can't reproduce) | treat as established fact of the setting and build Coltbert's origin on it | "My lore says the Aquileian griffonesses can sexually abuse pony serfs without consequence" | referred-to
+- order:
+- about: The user gives further setting facts about Coltbert and Aquileia's griffon and pony populations, then asks the model to choose between two origins for Coltbert (born noble, or rising through affairs with noble griffonesses and then university) and between two cutie mark meanings, whichever serves the narrative better.

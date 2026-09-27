@@ -1,0 +1,6 @@
+- sources:
+  - European feudal lords as historically real (the model's general historical knowledge) | question to be answered from general knowledge: whether the real lords defended the land against bandits, and whether that is a candidate model for the story's Aquileia; not settled | Were the feudal lords of europe actually defenders of the land against bandits | first-named
+  - pre-Gerad Aquileia (the story's own history) | the candidate target of the comparison; asked whether the real-history feudal model would fit it, treated as an open question | Would this be model of pre-Gerad Aquileia | referred-to
+  - the period before 705 and Grover I's subjugation of everyone (the story's timeline) | offered as a possible narrower scope for the feudal model, only the time before Grover I subjugated everyone; asked, not settled | Or only before 705, before Grover I subjugated everyone | referred-to
+- order:
+- about: The user asks a worldbuilding question, checking whether the real-history idea of feudal lords as defenders against bandits is accurate and whether it fits Aquileia before Gerad, or only before Grover I's conquest in 705.

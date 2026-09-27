@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's Faust-and-toys reading standing and moves to a new, wider research request: how childhood experience and other factors since WW2 have shaped cynicism across generations, and how audiences would receive their story compared with mainstream grimdark works.

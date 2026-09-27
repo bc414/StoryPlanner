@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user steps back from the summary to ask how well their three-step summarise, find gaps, and re-add workflow preserves nuance while cutting duplication and verbosity, and asks for improvements, without saying anything in the summary was wrong.

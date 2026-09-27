@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's explanation of the taxonomy and directs it to repeat the exercise on a new set of Aquileia-related topics, specifying a targeted search of the v1 file rather than a full read.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn holds only a placeholder for an attached plan export, with no text of its own, so it says nothing about the model's Brightspeed overview.

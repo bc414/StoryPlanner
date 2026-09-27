@@ -1,0 +1,4 @@
+- sources:
+  - Ponyville as we know it in G4 | treated as true and used as a real-world parallel: the show's Ponyville is Lauren Faust's loophole for character-driven storytelling inside Hasbro's commercial mandates, backing the in-story loophole reading | Ponyville as we know it in G4 is Lauren Faust's loophole | referred-to
+- order:
+- about: The user adds a point supporting the Ponyville-as-loophole reading: the published G4 Ponyville is itself Lauren Faust's loophole for character-driven storytelling under Hasbro's commercial constraints, so it mirrors the in-story loophole in the post-Stagnation policy.

@@ -1,0 +1,5 @@
+- sources:
+  - The idea that Rainbow hears Celestia is "like a statue" and that she was trying to be like Celestia and failed (the model's suggestion from the previous turn) | treat as good and adopt; it is the pattern the author's Fluttershy arc will echo | "is excellent because I plan on having Fluttershy have the same realization later" | referred-to
+  - The author's own plan for Fluttershy's realization across Chapters 10, 21, 22 and 26 (CIA leadership, The Stare at Celestia, POWs volunteering as infiltrators, apology and lesson at the referendum) | treat as the author's intended plot, given from their plan as future events to be taken on board | "I plan on having Fluttershy have the same realization later. This happens twice." | first-named
+- order:
+- about: The author endorses the model's Rainbow Dash and Celestia \"statue\" idea and lays out their planned Fluttershy chapters (10, 21, 22, 26) that will echo it.

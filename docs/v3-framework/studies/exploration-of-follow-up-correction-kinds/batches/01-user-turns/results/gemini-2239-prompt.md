@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the drag-and-drop code fix and asks a new, separate question about why the term "Epsitemological" is used as a paradigm in their project and what more intuitive terms might replace it.

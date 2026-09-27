@@ -1,0 +1,5 @@
+- questions:
+  - How do factions that never had a Nursery, such as Cloudburian peasants and the Tzinacatl, react to Equestrians exporting suburban morality, and is there friction within the Republican Pact? | ignored | none | none
+  - How does the Equestrian Republic reconstruct the Changeling Lands and Skyfall without looking like a neo-imperial power imposing Nursery values, as the Marshall Plan might suggest? | ignored | none | none
+- shape: The user corrects the model's reading. The model took the earlier point to be about a child projecting narratives onto static toys. The user restates it: Lauren Faust was inspired by the original Hasbro toys, so FiM did not come from nowhere. The user then sets a new question for the model about how that fact shapes TLTT's meta narrative and thematic payload and how it interacts with the meta narratives and payloads already in place. The model's two closing questions are left alone.
+- settles:

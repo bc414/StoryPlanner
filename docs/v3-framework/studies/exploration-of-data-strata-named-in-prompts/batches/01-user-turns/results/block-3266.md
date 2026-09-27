@@ -1,0 +1,6 @@
+- sources:
+  - earlier discussion of pipelines to Skyfall (lion-sold failed chargers/smiths versus clan-loyal remitting zebras) | treat as settled background and rely on it to explain who the Aquileians cherry-pick from | We discussed different pipelines to Skyfall | referred-to
+  - v1 archive | where the plot details for the last quarter of the prequel (Stalliongrad, learning unconditional dignity from the Mane 6, the Skyfall Resolution) are held; look there for them | only in v1 archive | referred-to
+  - v2 archive | does not yet contain those plot details, so do not expect to find them there | not migrated to v2 yet | referred-to
+- order:
+- about: The user refines the model's proposed Aquileian extraction storyline by specifying how Minette and Réni are separated, how the cartel, sponsors and chasseurs select and move zebra villages, and when the pair confronts the consequences, and asks for a thorough reanalysis, noting where the later plot details are stored.

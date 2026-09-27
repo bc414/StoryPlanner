@@ -1,0 +1,6 @@
+- sources:
+  - these notes (the pasted account of Celestia's two-tiered worldview, the Buffalo, Rockfeller and Appleloosa) | to be tested for whether they are still relevant, not assumed valid or obsolete; check against the new paradigm | Now analyze whether these notes are still relevant under the new paradigm | first-named
+  - the new paradigm | the yardstick the notes are to be checked against | still relevant under the new paradigm | referred-to
+  - canon events of Over a Barrel | treated as fixed canon that the notes' theory is claimed to explain | perfectly contextualizes the canon events of Over a Barrel | referred-to
+- order:
+- about: The user pastes a set of notes on Celestia's two-tiered view of Equestrians versus the Buffalo and asks the model to analyze whether they still hold under the new paradigm.

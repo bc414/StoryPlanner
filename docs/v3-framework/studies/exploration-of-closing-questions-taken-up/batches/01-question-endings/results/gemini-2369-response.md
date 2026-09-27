@@ -1,0 +1,4 @@
+- questions:
+  - Whether to explore the moment young Coltbert realizes Verany and the bourgeois have betrayed the revolution, and how he reacts to them leaving the artisan forge to become rent-seekers | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,11 @@
+- claims:
+  - Characterization | Ember's inner state is that she feels she is herding idiots | Ember feels like she is herding idiots | no
+  - History | After witnessing her father's death, Ember ordered all dragons to remain neutral | After she saw her father die, she commands all dragons to stay neutral | no
+  - Characterization | The Elders cannot accept that prey killed Torch, take it as a fluke, and want a head-on attack to prove they remain apex predators | The Elders' Delusion: They cannot accept that "prey" (Changelings) killed Torch | no
+  - NarrativeArchitecture | Reports of dragons randomly appearing at the front and being shot down recur across the story | There are several reports of dragons randomly showing up at the front and getting shot down throughout the story | yes
+  - NarrativeArchitecture | Applejack is placed as a witness to one such incident during the southern blitz | Applejack witnesses an incident during the southern blitz | yes
+  - History | Changelings do not fear dragons because they are big targets that anti-air punctures, they avoid headshots, drain red love with mobile harvesters before killing, and wear the scales as armor | The changelings are not scared of the dragons at all because they are such big targets and the AA punctures them | no
+  - History | Dragons are in effect fueling the changeling war effort | The dragons are actively fueling the changeling war effort | no
+  - Characterization | Ember's lecturing wounds the dragons' egos and makes them more aggressive | When Ember lectures them, it is a massive blow to their ego and only makes them more aggressive | no
+- goals:
+- whole: The note sketches the dragons' doomed, prideful front-line behavior and the changelings' exploitation of it, with a few plans for recurring reports and an Applejack witness scene, but names no reader effect.

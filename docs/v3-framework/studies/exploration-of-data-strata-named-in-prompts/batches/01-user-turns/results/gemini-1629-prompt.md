@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to judge which of two versions of the Verdame battle is more narratively powerful: Synovial capturing it before SECEF arrives, or SECEF intercepting and destroying him while he is still encircling it.

@@ -1,0 +1,6 @@
+- questions:
+- shape: The user turn leaves the model's historical examples and dialogue sample without comment and starts a new task. It shares a link to a canon episode transcript and asks for an analysis of how the episode is recontextualized by the user's backstory for AJ's parents. It also asks the model whether Filthy Rich is acting out a Skyfall education. Along the way it states the user's own plan for Filthy Rich's arc.
+- settles:
+  - Granny Smith's shaming of Filthy Rich in the canon episode is kept as a turning point for him in the story | after this shaming from Granny Smith
+  - Filthy Rich later grows up into a Harmonic Capitalist, and this is how he appears in Family Appreciation Day | he later embodies a Harmonic Capitalist in Family Appreciation Day the episode after he has grown up
+  - The twist of Family Appreciation Day is that Diamond Tiara's father is ethical even though she is a bully | that's the subversion of that episode, that Diamond Tiara's dad is actually ethical despite her being a bully

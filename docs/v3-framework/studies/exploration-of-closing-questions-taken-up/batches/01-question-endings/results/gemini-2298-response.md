@@ -1,0 +1,8 @@
+- questions:
+  - Do the Wonderbolts at Vanhoover struggle to protect the Equestrian infantry on the ground, given that boom-and-zoom diving planes can't linger low as a shield for the retreating army? | ignored | Says nothing about Vanhoover, ground cover or the infantry; moves to a new idea about Aquileian planes. | none
+  - Is that disconnect between diving fighters and ground protection what lets the Changeling tanks break the line? | ignored | Never mentions the tanks or the line breaking; the turn is entirely about griffon armor magic and the Aquileian planes. | none
+- shape: Sidesteps the model's closing question and volunteers a new lore idea of its own. The user ties their existing griffon-knight armor rule to the Aquileian planes, so the ace pilots forge the aluminum themselves and get magical lightweight protection, and only they can fly their plane. It builds on the previous contrast and does not answer the Vanhoover question. The phrasing is garbled ("couldn't forged"), so the exact claim is somewhat open to reading.
+- settles:
+  - Griffon magic rule applied to aircraft: Aquileian ace pilots forge the aluminum of their planes themselves, which gives the plane magical lightweight protection (the property works only for the maker) | the aces forge the aluminum themselves to get "magical lightweight protection"
+  - Each Aquileian ace's plane can be flown only by the pilot who made it | "only they can fly their plane"
+  - The established rule that griffon knights who make their own armor gain magical properties only while wearing it is carried into the plane designs | "griffon knights who make their own armor get magical properties but only when they are wearing it"

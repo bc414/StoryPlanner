@@ -1,0 +1,8 @@
+- questions:
+  - How does Applejack persuade the traditionalist 85% that a Land Value Tax would protect Sweet Apple Acres by shifting the burden onto idle urban speculators and resource monopolists? | ignored | Says nothing about persuading farmers or the voting bloc. It moves to asking for names for the tax. | none
+  - How does Gilded Trust turn his Ponies First populism against a Georgist tax on his oil fields, and how does Applejack then separate Harmonic Capitalism from Marxist expropriation on the debate stage? | ignored | Does not mention Gilded Trust, the debate, or the Marxist framing. | none
+- shape: Redirects to a new task. The user passes over both questions and asks for a few ways to dress up land value tax in Friendship is Magic language. It gives two earlier renamings as models and supplies the scene they belong to, Twilight's thesis to Celestia.
+- settles:
+  - War bonds are called Hearth's Warming Bonds in the story's vocabulary. | framing "war bonds" as "Hearth's Warming Bonds"
+  - Republican civic virtues are called elements of liberty. | "republican civic virtues" as "elements of liberty"
+  - Twilight presents the thesis to Celestia after the Griffonia expedition. It covers what they learned there and why Equestria needs a referendum, and this is where the renamed terms are used. | Twilight's thesis to Celestia on what they learned from their expedition to Griffonia and why Equestria needs a referendum

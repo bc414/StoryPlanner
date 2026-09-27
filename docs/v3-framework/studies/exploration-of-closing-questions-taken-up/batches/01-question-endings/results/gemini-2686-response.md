@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to brainstorm the specific moment or legislative battle where Aquileia legally breaks Skyfall's monopoly on contraception, to launch Part 3 of Coltbert's Game? | no user turn | none | none
+- shape: none
+- settles:

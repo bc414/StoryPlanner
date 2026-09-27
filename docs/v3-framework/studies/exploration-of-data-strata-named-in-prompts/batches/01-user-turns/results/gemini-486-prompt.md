@@ -1,0 +1,6 @@
+- sources:
+  - this plot pivot | treat as the settled new basis; derive the title's meaning from it | "With this plot pivot in place" | referred-to
+  - the old meaning of the title Laughter | treat as outdated and superseded; it read the title as a dark subversion because the chapter showed despair and no laughter | "The old meaning was a dark subversion" | referred-to
+- order:
+  - this plot pivot over the old meaning of the title Laughter | asks for a new meaning now the pivot is in place, and calls the earlier one old
+- about: The user asks the model to work out what the chapter title Laughter means now that the plot pivot has changed the chapter, and contrasts it with the earlier dark-subversion meaning.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model cast Applejack's parents as unwitting pawns of Chrysalis's Skyfall initiative, seduced and craven, whereas the user makes them patriots who took the war seriously from the start and are not morally deficient | "Applejack's parents should appear here as patriots" and "not morally deficient like Rockfeller" | Put as added nuance with a reason given, and the correction is only implied by the contrast with the earlier framing
+  - reading of the plan | The model treated the parents' ruthless capitalism as a toxic system that Applejack must eventually forgive or reframe, missing that in chapter 7 it is what the war effort needs | "the parents' ruthless capitalism IS what is needed during chapter 7" | Stated flatly as an extra nuance, with the chapter's plot given as the reason, and no explicit note that the model's version conflicts
+- about: The user supplies a chapter 7 plot detail in which Applejack's parents' industrial ruthlessness is a patriotic virtue, which quietly reverses the model's picture of them as seduced, tainted pawns.

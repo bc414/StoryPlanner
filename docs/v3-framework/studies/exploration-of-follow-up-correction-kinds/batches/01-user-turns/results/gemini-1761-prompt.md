@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model built its car-centric suburban sprawl proposal on the 1950s postwar American model, though the story's setting is a WW2-era period, so the era it drew on does not match the story's | My story takes place in a WW2 era. What was the development level of cars back then? | Implicit and mild: a restated fact about the setting followed by a question that puts the car premise in doubt, with no explicit statement of disagreement and no apology
+- about: The user restates that the story is set in a WW2 era and asks how developed cars were then, testing whether the model's car-dependent suburban scheme fits that period.

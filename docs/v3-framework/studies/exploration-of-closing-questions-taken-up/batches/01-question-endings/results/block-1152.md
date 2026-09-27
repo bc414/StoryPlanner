@@ -1,0 +1,5 @@
+- questions:
+  - How does Celestia react when Applejack succeeds with norm-breaking tactics (arming Canterlot civilians with self-draining rifles, allying with the Tzinacatl cartels)? Does she accept it as a necessary temporary evil, or see it as a dangerous precedent that infects the post-war Republic? | no user turn | none | none
+  - Once the Luna Nova Rifle and Star Energy industrial base end Equestria's reliance on imported Griffon weapons, how does that autarkic and technological supremacy shift Equestria's post-war diplomatic relationship with the Griffonian Republic and Aquileia? | no user turn | none | none
+- shape: none
+- settles:

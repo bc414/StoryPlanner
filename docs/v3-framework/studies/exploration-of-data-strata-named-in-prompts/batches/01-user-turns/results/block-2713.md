@@ -1,0 +1,6 @@
+- sources:
+  - my TLTT story plan | review it again and use it as the basis for the analysis of Gerad Discret and the Aquileian backstory | Please review my TLTT story plan again | referred-to
+  - the Aquileian backstory (Gerad Discret as source of the in-universe Victorian standards) | the in-universe causality to analyze, and to compare with real life regarding his motives and the sexually liberal characters who emerge in response | Compare my in universe causality with real life | referred-to
+  - real life (history of Victorian standards and the liberal reactions to them) | the comparison point against which the in-universe causality is measured | Compare my in universe causality with real life | referred-to
+- order:
+- about: The user asks the model to re-read their TLTT story plan and analyze how Gerad Discret in the Aquileian backstory causes the in-universe Victorian standards, comparing that causality (his motives and the sexually liberal characters who arise in response) with real-life history.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the analysis and asks a new question: a historical breakdown of élan, with a note on its status in EU4 and HOI4, and a follow-up about esprit de corps.

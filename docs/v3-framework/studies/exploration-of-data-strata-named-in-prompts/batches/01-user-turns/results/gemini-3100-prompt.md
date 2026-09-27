@@ -1,0 +1,6 @@
+- sources:
+  - this other story plan I had set in canon FiM about Fluttershy and Rarity | the material to be analyzed; the subject of the requested analysis | "analyze this other story plan I had set in canon FiM about Fluttershy and Rarity" | first-named
+  - TLTT | the universe the plan is to be related to; the point of comparison for the analysis | "how this story plan relates to TLTT" | referred-to
+  - the analysis above | the earlier analysis in this conversation, used as the model for the form and approach of the new analysis | "offer a similar analysis as above" | referred-to
+- order:
+- about: The user asks the model to analyze a second, older canon-FiM story plan about Fluttershy and Rarity and to relate it to TLTT, in the same style as the preceding analysis of the Scootaloo plan.

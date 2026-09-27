@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model made Harmonic Capitalism, equated with Coltbert's Aquileia, the penultimate step before the Republic. The user gives a different chain, with a comprador economy and two branches (Tall Tale, Manehattan) leading to the Republic, and Harmonic Capitalism and Coltbert's Aquileia are absent from it. | "the updated lineage for making sense of the incremental flips should be" | Implicit and flat: a replacement lineage is stated, with no reason given and no mention of the model's version. The correction is carried by the word "updated" and by what the chain leaves out.
+- about: The user replaces the model's lineage of systems leading to the Republic with a new branching chain and asks for a flip-by-flip analysis of it.

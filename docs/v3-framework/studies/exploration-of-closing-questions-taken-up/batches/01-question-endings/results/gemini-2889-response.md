@@ -1,0 +1,10 @@
+- questions:
+  - How will the Equestrian public first see Applejack: will rural Earth Ponies rally behind the Lioness, or will there be serious domestic friction as she pulls them out of the Nursery into war and industry? | ignored | Says nothing about public perception or the rural Earth Ponies; moves to the changeling drug Jaeger-geist. | none
+- shape: Redirects to a different worldbuilding thread. It skips the model's question about public reaction to Applejack and lays out the changeling conscript drug (name, origin, effect, withdrawal, Fluttershy's role). It then asks the model a new question of its own: whether the drug should also reduce critical thinking, with a pros-and-cons breakdown requested.
+- settles:
+  - The changeling conscript drug is called Jaeger-geist, and the name is a marketing lie. It draws on the appreciation an old jaeger felt when they protected the hive and brought home meat. | Jaeger-geist (Hunter spirit, a marketing lie
+  - Fluttershy calls the drug "The Earmuffs". | Fluttershy calls it "The Earmuffs"
+  - The drug is made by concentrating, distilling and refining the active oxytocin from pink love. It floods the changeling's emotion sense with synthetic good feelings of basking in the hive's appreciation, so they can't feel the hate. | concentrating and distilling and refining the active oxytocin from pink love
+  - Once the Equestrians adopt precision strikes, the conscripts are given max-dosage suicide mixes. This is framed as the tragedy of the arc. | all the conscripts are given max dosage suicide mixes
+  - Withdrawal is a crushing, anhedonic realization that the hive's love was a chemical lie. | the withdrawal is a crushing, anhedonic realization
+  - Fluttershy gives withdrawing changelings donated, vibrant Pink Love that tastes like real friendship. The contrast between it and the synthetic drug breaks their conditioning, physically and psychologically. | Fluttershy provides them with donated, vibrant Pink Love

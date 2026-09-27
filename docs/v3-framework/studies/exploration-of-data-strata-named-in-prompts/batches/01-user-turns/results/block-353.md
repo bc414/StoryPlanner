@@ -1,0 +1,5 @@
+- sources:
+  - this entire conversation | mine it fully for every insight made in it, and separately record which insights were later superseded | all insights made during this entire conversation | referred-to
+  - transcripts | search them (grep) for insights as an additional source, only if they exist | grep transcripts if they exist | first-named
+- order:
+- about: The user asks for a comprehensive report of all insights from the whole conversation, searching any transcripts if present, and also a record of insights that were superseded.

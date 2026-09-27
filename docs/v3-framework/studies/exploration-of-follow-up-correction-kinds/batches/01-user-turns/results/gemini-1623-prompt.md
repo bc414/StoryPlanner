@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn carries only an attached plan export with no message text, so it supplies material and says nothing about the model's Verdun explanation.

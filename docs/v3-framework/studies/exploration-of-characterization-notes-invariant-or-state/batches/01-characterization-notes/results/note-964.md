@@ -1,0 +1,4 @@
+- claims:
+  - unfixed | He wants to be rich | "He doesn't just want to be rich" (present tense, wealth as a baseline desire) | none in the note's words; the track's question frames it as who he is at the start of TLTT, but the note itself gives no date, phase or change
+  - unfixed | Beyond wealth he wants to be worshipped as the one, singular savior of the species | "he wants to be worshipped as the singular savior of the species" (present tense, stated as what drives him) | none in the note's words; only the track's start-of-TLTT framing sits around it, and the note has no phrase like "by now" or "no longer"
+- beside: none

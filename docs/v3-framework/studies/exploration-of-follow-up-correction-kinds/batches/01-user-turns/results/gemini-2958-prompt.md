@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks for a further brainstorm of unicorn spells cast on another creature that, like Wings of Dew, are sustained by the target's own Red and Pink Love once cast, without saying anything in the previous answer was wrong.

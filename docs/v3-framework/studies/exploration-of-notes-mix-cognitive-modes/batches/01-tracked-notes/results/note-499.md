@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | Ember's place in the combined-arms planning is offered as evidence that even a dragon can be a participant in cooperation, extending inclusion to one who might be presumed outside it | Even dragons can be part of combined arms | yes
+- goals:
+- whole: The note gives a single line of thematic evidence, that Ember the dragon is included in the combined-arms plan, which bears on cooperation resting on dignity extended to all.

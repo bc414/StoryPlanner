@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the analysis of the party rebranding to ask a new question about what the equivalent party names would be in French.

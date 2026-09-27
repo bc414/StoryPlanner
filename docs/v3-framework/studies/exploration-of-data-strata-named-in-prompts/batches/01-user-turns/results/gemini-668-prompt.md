@@ -1,0 +1,4 @@
+- sources:
+  - Fleur Bloom's explanation of earth pony magic being latent and slow acting | treated as the established in-story premise that grounds Applejack's argument; the model is to build the dialogue on it | This logic is based on Fleur Bloom's explanation | referred-to
+- order:
+- about: The user proposes a better ending for the wings scene, in which Twilight offers to spell up wings and Applejack answers that earth pony magic for regrowing Sweet Apple Acres can't be copied, and the user ties that reply to Fleur Bloom's earlier explanation of earth pony magic.

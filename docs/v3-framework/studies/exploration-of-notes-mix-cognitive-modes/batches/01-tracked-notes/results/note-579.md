@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | The in-universe year 1007 is modeled on real-world Fascism and WW2 | 1007 (Fascism/WW2) | yes
+  - History | The Reich's system breaks down in 1007, Eros rises to power and Chrysalis enters the scene, reported as events that happened | The system breaks. Eros rises as... and Chrysalis enters as | no
+  - Analogies | Eros is cast as a real-world political type, the theocratic fascist statist, and Chrysalis as the visionary tyrant, a totalitarian modernist | Theocratic Fascist (Statist); "Visionary Tyrant" (Totalitarian Modernist) | yes
+- goals:
+- whole: The note ties the 1007 collapse of the Griffonian Reich, and the rise of Eros and Chrysalis, to real-world Fascism/WW2 and to fascist and totalitarian-modernist ruler types.

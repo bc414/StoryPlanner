@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the interception scene as given and asks a further question about whether ending the loyalty chapter with Rainbow Dash joining the pegasus excursion instead of flying would resolve her arc and the chapter's theme.

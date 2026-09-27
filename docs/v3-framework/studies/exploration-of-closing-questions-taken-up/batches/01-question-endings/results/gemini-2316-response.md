@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to hear about other historical figures or community memes that the mod developers turned into literal characters? | no user turn | none | none
+- shape: none
+- settles:

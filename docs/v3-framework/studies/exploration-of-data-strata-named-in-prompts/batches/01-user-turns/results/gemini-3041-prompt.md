@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the model's behavior explains why the GitHub import feature is available only in the desktop browser and not in the app, which is a question about the product's features and not an instruction about what material to use.

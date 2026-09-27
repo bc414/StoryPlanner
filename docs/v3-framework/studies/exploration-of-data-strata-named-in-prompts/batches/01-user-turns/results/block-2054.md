@@ -1,0 +1,6 @@
+- sources:
+  - P&K (ASOIAF inspired) | the work TLTT was built against; its premise, where AJ collaborates during the invasion, is what TLTT subverts and refutes, so it is the base being forked and reversed | read it in February 2025; TLTT is designed as a fork of P&K where AJ makes the opposite choice | first-named
+  - TLTT | the author's own story, described as a fork of P&K whose plot was formed as a refutation, with AJ defiant instead of collaborating | TLTT is designed as a fork of P&K | referred-to
+  - my initial exposure (Rowland coined hopepunk in 2017 in response to the election) | the author's early impression from memory, offered as tentative and open to checking or elaboration, and as relevant to TLTT | From my initial exposure, seems like | first-named
+- order:
+- about: The user asks the model to say more about Alexandra Rowland and her works, while explaining that TLTT began as a refutation-fork of P&K after the November 2024 election and tentatively linking Rowland's 2017 coining of hopepunk to that context.

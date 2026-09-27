@@ -1,0 +1,4 @@
+- claims:
+  - Allegories | The MEFO Bills technology stands for consumer credit in the 1970s-80s and the demand spiral it produced | Consumer credit in the 1970s-80s and the demand spiral | yes
+- goals:
+- whole: The note names the real-world condition, consumer credit and its demand spiral in the 1970s-80s, that the fantasy technology MEFO Bills stands for.

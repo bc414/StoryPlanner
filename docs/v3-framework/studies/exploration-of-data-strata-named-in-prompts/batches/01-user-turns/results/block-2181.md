@@ -1,0 +1,5 @@
+- sources:
+  - the existing v2 propositions | the body of material to analyze; the model is to test each one for whether it is really just evidence or negative evidence for other v2 propositions | "the existing v2 propositions" | referred-to
+  - the poseur analysis (the poseur as a convergent negative case of four existing themes) | treat as the model for the analysis, a worked example whose method is to be applied to the other themes, and accept its insight that the poseur is evidence and not a proposition | "the same rigorous analysis applied to the other themes" | referred-to
+- order:
+- about: The user asks the model to apply the same test used on the Poseur, checking whether it is a proposition about how the world works or just evidence, to the other v2 propositions, to find any that are really evidence or negative evidence for other v2 propositions.

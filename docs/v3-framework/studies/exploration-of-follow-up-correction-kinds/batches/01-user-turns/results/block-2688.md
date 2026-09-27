@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user adds new world details (a Zonican diaspora in Aquileia, split between merit-selected skilled migrants and freed Statthalter slaves, with real-world immigration parallels) and asks the model to check the story plan and analyze them, without saying anything in the prior turn was wrong.

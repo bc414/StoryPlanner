@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to pull up a comparison of other birthrate policies, such as cash baby bonuses and extended paid parental leave, against childcare? | ignored | The user neither accepts nor declines the offer. They go on to their own, much more extreme proposal and never respond to the comparison the model offered. | none
+- shape: The user turn does not answer the offer. It moves the conversation to a new hypothetical of the user's own: paying parents pensions for years of full-time parenting, funded by redistributing GDP away from the elites. It is phrased as a proposal for the model to assess, and it builds on the model's point about opportunity cost.
+- settles:

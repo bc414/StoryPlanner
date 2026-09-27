@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the four historical epochs as given and mapped them onto the lore, praising them as flawless. The user wanted the real-world history itself checked for whether it fits the claims made about it. | Are the real life parallels accurate to these assertions or not? | A short, neutral question that redirects the model to the untested part. It does not say outright that the model skipped it.
+- about: The user asks whether the real-history parallels behind the framework are actually accurate, which pushes back on the model's uncritical approval of them and asks for the check it did not do.

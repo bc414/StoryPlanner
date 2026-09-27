@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether Skyfall tycoons and second-generation nobles would sell their assets, floats that holdouts could be late-game resource sinks for Chrysalis and could explain why the MEFO bills near a margin call around 1002, and so the Canterlot Wedding, without pointing at any body of material for the model to use or avoid.

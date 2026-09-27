@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | plans the reader's initial state of opinion: they assume the GR eats only soulless SAA mush | The reader assumes the GR only eats soulless SAA mush | yes
+- goals:
+  - the reader assumes the Griffonian Republic's food is only soulless SAA mush | WorldInference | The reader assumes the GR only eats soulless SAA mush
+- whole: The note sets the reader's starting opinion of the GR's food technology as an assumption that it is nothing but soulless SAA mush.

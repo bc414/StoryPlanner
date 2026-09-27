@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers their own revision to the proposed Imago Elixir mechanic, saying Chrysalis would keep her changeling magic in griffoness form and would revert if hit by a detection spell, so she would avoid using magic around others, without pointing at any source of data.

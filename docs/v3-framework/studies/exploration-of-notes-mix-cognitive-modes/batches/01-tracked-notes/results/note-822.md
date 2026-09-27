@@ -1,0 +1,4 @@
+- claims:
+  - Canon | names a specific event from the established source material's Lunar Civil War event chain as the source the organization is drawn from | Inspired by the "Meanwhile, in the Mountains..." event from the Lunar Civil War event chain | yes
+- goals:
+- whole: The note anchors the organization Temberik to a specific canon event, \"Meanwhile, in the Mountains...\" in the Lunar Civil War chain, as its source of inspiration.

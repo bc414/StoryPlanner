@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Fizzlepop is shown on the page speaking to Twilight, urging her to open her eyes and see the world from Fizzlepop's position | Fizzlepop says to open up your eyes, see the world from where I stand | yes
+- goals:
+- whole: The note stages a single observable behavior on the page, Fizzlepop's spoken appeal to Twilight to see the world from her side, and states no effect on the reader.

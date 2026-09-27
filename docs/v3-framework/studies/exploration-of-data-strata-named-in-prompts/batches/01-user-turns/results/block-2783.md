@@ -1,0 +1,4 @@
+- sources:
+  - TheLionessOfTallTale.db.md (attached file) | treat as the user's current story plan and the material the model is to analyze against the related topics | Here is my current story plan | first-named
+- order:
+- about: The user attaches their current story plan file and asks the model to perform a rigorous comparative analysis on the related topics.

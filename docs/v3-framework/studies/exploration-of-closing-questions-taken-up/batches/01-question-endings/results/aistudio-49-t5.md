@@ -1,0 +1,5 @@
+- questions:
+  - Does Earth Pony magic crash on the mechanized canning line through alienation, and how do Bright Mac and Pear Butter design the factory floor so workers feel ownership and pride and their magic reactivates? | no user turn | none | none
+  - After the war, what structural mechanisms keep the Apple/Pear feud from reigniting when families return west, and how does the new Republic make wartime solidarity into permanent peacetime economic integration? | no user turn | none | none
+- shape: none
+- settles:

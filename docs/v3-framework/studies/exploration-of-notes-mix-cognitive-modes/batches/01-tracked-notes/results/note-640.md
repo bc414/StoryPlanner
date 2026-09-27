@@ -1,0 +1,7 @@
+- claims:
+  - History | Changelings have been observed drinking red love canisters in combat, all carry them, and ponies know of the practice | Changelings have been seen chugging red love canisters to fight and they all carry them. Ponies are familiar with it. | no
+  - Characterization | Celestia and other pacifists are truly repulsed by ponies carrying canisters to power Luna Nova rifles, feeling they are turning into the enemy | should be repulsive to Celestia and other pacifists. "We are becoming the enemy." | no
+  - History | Unlike changelings, ponies who run out of red canisters can fall back on their own magic, and their friendship is bottled in the same empty canister for use in rehab | The difference is when ponies run out of red love canisters, they can draw from their own magic | no
+  - History | Ponies go into battle with red canisters and come out with pink ones holding the joy they sacrificed, which is donated to the captured enemy | They enter the battle with red canisters and leave with pink canisters | no
+- goals:
+- whole: The note lays out in-world facts about how changelings and ponies use love canisters, and how the pacifists feel about it, under a track that asks for the reader's planned opinion, but it never states what the reader is to feel or think.

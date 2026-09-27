@@ -1,0 +1,5 @@
+- claims:
+  - History | Fluttershy gives the changeling POWs donated, vibrant Pink Love that tastes like genuine friendship, set against the state-mandated synthetic version | Fluttershy provides the changeling POWs with donated, vibrant Pink Love (which tastes like genuine friendship) | no
+  - History | The contrast between the synthetic mandated drug and authentic Equestrian empathy physically and psychologically breaks the changelings' conditioning | the contrast between the state-mandated synthetic drug and authentic Equestrian empathy will physically and psychologically break their conditioning | no
+- goals:
+- whole: The note states an in-world plot event and its causal effect, Fluttershy's donated Pink Love breaking the changeling POWs' conditioning, without planning how the reader is to experience it.

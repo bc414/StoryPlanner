@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | Fluttershy's main arc across the story runs from a top-down, Celestia-like authority to letting the birds and changelings make their own choices, even at risk to them | Her main arc within the story is going from a top down authority like Celestia to letting the birds and the changelings make their own choices | yes
+- goals:
+- whole: The note states in one line the planned overall arc of Fluttershy's change in the story, from controlling authority to tolerating others' risky self-determination.

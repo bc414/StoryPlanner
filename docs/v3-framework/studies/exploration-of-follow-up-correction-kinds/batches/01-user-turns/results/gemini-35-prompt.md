@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request to widen the scope, wanting a summary of the whole of Scribe 2 after the model summarized a single chapter, without saying the earlier summary was wrong.

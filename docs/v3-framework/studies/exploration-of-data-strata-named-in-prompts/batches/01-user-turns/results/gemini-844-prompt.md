@@ -1,0 +1,9 @@
+- sources:
+  - the model's earlier character mapping (Helena as Alolan Ninetales, Terry as Braixen, Max as Lucario, Chadwyck's loyalty) | treat as wrong on species and traits in places and as needing correction; partly accepted, such as the generosity aspect | Some clarification: Helena is a regular Ninetales | referred-to
+  - Helena's ability and move (drought and flamethrower) | treat as evidence that settles her species | should be obvious with drought and flamethrower | referred-to
+  - the author's own account of the cast (Terry as Torracat, loyal to Helena and a prankster; Max as Meowstic; Chadwyck a mercenary; Lily as Pinkie Pie) | treat as the correct account of the characters and their roles | I viewed him as the loyal one to Helena | referred-to
+  - the Mane 6 characters of the MLP show (Applejack, Twilight, Rainbow, Rarity, Fluttershy, Pinkie Pie) | use as the comparison frame for mapping the cast, with the author adjusting which pony fits whom | Max... most like Fluttershy | referred-to
+  - The Lioness of Tall Tale (the author's MLP story) | use as a parallel work in which the same ship recurs, with roles reversed: Applejack is the political driver | I recreated the same ship in The Lioness of Tall Tale | first-named
+- order:
+  - the author's own clarifications | over the model's earlier character mapping | Some clarification
+- about: The user corrects the model's mapping of their Pokémon cast onto the Mane 6, fixing species and character traits, offering their own pony matches, and noting that the Windie/Helena ship recurs in their MLP story The Lioness of Tall Tale with the roles reversed.

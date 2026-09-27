@@ -1,0 +1,4 @@
+- sources:
+  - the model's own earlier references to chapter two as "doctrine" (earlier in this conversation) | treated as a possible inconsistency the author wants resolved; not accepted as settled, the author asks which title is right | I noticed you referring to chapter two as doctrine | referred-to
+- order:
+- about: The user points out that the model has been calling chapter two "doctrine" and asks whether the chapter's title should be "organization" or "doctrine".

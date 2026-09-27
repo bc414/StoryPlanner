@@ -1,0 +1,5 @@
+- sources:
+  - the analysis made here (the Economy-axis definition and assignments from the prior turn) | treat as accepted; the standard against which assignments and empties are tested for contradiction | "This analysis makes sense" / "contradict analysis made here" | referred-to
+  - the live database | check the assignments and empties against it; consult it directly as the current data | "Check against the live database" | referred-to
+- order:
+- about: The user accepts the model's definition of the Economy axis and asks it to check the live database for any assignments or empty fields that contradict that analysis.

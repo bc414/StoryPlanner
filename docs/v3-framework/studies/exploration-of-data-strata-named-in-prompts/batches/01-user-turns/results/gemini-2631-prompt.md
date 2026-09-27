@@ -1,0 +1,4 @@
+- sources:
+  - 28 Pranks Later, the canon episode | treat as the canonical episode the author had in mind; it is the right one for the Pinkie fear material, so the model should ground on it | "is the canon episode I was remembering earlier" | referred-to
+- order:
+- about: The user confirms that 28 Pranks Later is the canon episode they had been trying to recall earlier in the conversation.

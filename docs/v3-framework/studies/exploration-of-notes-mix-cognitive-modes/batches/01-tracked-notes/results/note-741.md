@@ -1,0 +1,6 @@
+- claims:
+  - outside all ten (god-mode world rule) | panzer-haut has no biological buffer and its magic crosses the blood-brain barrier instantly | no biological buffer. The magic crosses the blood-brain barrier instantly | outside
+  - outside all ten (god-mode world rule) | the drug deletes all physical pain and replaces it with a synthetic rush of relief | violently deletes all physical pain and replaces it with a blinding, synthetic rush of relief | outside
+  - outside all ten (god-mode world rule) | because it is so refined it burns out fast, leaving the conscript's nervous system shattered and craving the next dose | it burns out quickly, leaving the conscript's nervous system shattered and screaming for the next dose | outside
+- goals:
+- whole: The note sets out, as rules of the fictional universe, how panzer-haut acts on a conscript's body: it erases pain, gives synthetic relief, then wears off and leaves a shattered, craving nervous system.

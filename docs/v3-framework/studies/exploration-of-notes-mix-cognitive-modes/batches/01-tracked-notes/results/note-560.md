@@ -1,0 +1,7 @@
+- claims:
+  - History | He acquired every other oil startup in the southwest by means of threats, deals and extortion | bought out all the other oil startups in the southwest through threats, deals, and extortion | yes
+  - History | His consolidation took the form of both horizontal and vertical integration of the oil business | Horizontal and Vertical integration | yes
+  - History | The refineries in Las Pegasus are owned by him | The refineries in Las Pegasus are also his | yes
+  - History | He holds railway deals that give him discounts and penalize rival oil companies | He has deals with the railways to get discounts and penalize other oil companies | yes
+- goals:
+- whole: The note reports as historical fact how Rockfeller built an oil monopoly in the southwest through buyouts, extortion, refinery ownership and preferential railway deals.

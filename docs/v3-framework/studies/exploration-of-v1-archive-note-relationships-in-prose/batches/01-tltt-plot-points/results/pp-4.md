@@ -1,0 +1,7 @@
+- relations:
+- outward:
+  - Synopsis | an earlier exchange in the same chapter between Twilight and Celestia, which leaves Celestia exhausted and wanting it over | Twilight says one more thing, princess
+  - Synopsis | Celestia's policy or system of suppressing ambition and sex, set up elsewhere in the story | Celestia is suppressing ambition and sex and giving up all the potential they have
+  - Synopsis | Equestria's past of serfdom, sexual abuse and predation, and the industrialization that followed, which belong to world history not held here | Celestia angrily talks about serfdom and the sexual abuse
+  - Synopsis | Luna's role as Princess of the Night and her stance on the arrangement, matters drawn from outside this item | She is The Princess of the Night. That is more her area.
+- whole: This item holds only a synopsis, with no outcome, stakes or links, so there are no joints between boxes to record and it reads as a single self-contained scene note that leans on the wider plan.

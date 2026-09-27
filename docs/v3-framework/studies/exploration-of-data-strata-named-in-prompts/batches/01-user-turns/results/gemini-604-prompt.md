@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user pushes back on the model's proposal to stitch cutie marks on the shoulder or breast pocket, saying they should go on the uniform's flanks where they normally sit, without pointing at any body of material.

@@ -1,0 +1,9 @@
+- questions:
+  - Would the endothermic caseless ammo flash-freezing the guns give the Wonderbolts a distinct look, with thick white frost over the gun bays when Rainbow Dash lands after sustained fire? | refused | The user turns down the caseless endothermic ammo the frost idea depends on and keeps brass phosphorus ammo. Frost is never mentioned. | I'll stick with high purity crystal power for the engine and keep the brass phosphorus ammo
+- shape: The user turns down the model's proposed caseless, flash-freezing ammo and picks their own setup instead: crystal engines with brass phosphorus ammo. They then add a supply-chain backstory. High-purity crystals are scarce, and a later study of the love harvester by Twilight and Fleur produces a donation-based, abundant power source that can replace them. This is a redirect that fixes the design, not an answer to the frost question.
+- settles:
+  - Engines run on high-purity crystal power | stick with high purity crystal power for the engine
+  - Ammunition stays brass-cased phosphorus, not caseless magical ammo | keep the brass phosphorus ammo
+  - Crystals pure enough for stable magical flow are very rare to mine and costly to refine | incredibly rare to mine and costly to refine
+  - Twilight and Fleur study the love harvester, which gives a stable, abundant source of magical engineering through donations | Only when Twilight and Fleur study the love harvester
+  - That donated source can drop in as a replacement for mined high-grade crystals in weapons | drop in replace the mined high grade crystals

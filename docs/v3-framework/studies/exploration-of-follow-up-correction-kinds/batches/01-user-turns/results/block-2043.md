@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Sanderson comparison to ask for a parallel treatment of Warcraft and StarCraft against Sanderson, ASOIAF and TLTT, separating the original Blizzard developers' vision from Activision's corporate mandates as was done for Faust versus Hasbro, and restates the question in fuller form.

@@ -1,0 +1,6 @@
+- sources:
+  - my story plans regarding all aspects about Celestia, her ground truth and the perception of her | review as the base of existing material and compare against the new synthesis, weighing pros and cons | review my story plans regarding all aspects about Celestia | referred-to
+  - preexisting "traumatized mother" plans | existing Celestia concept to be kept in view and set alongside the new synthesis, not discarded or replaced outright | alongside the preexisting "traumatized mother" plans | referred-to
+  - this new synthesis of Celestia representing the post 1991 consensus | newly proposed framing to be evaluated against the existing plans, assessed for differences, pros and cons rather than accepted as settled | this new synthesis of Celestia representing the post 1991 consensus | referred-to
+- order:
+- about: The user asks the model to review all their existing Celestia plans (ground truth and perception) and give pros, cons and a comparison between them and the newly proposed post-1991-consensus Celestia synthesis alongside the earlier "traumatized mother" version.

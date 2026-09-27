@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - direction of the invented mechanism (design proposal) | The model's account of the crystals as heat-absorbing thermoelectric/thermochemical exhaust-recovery matrices is set aside in favour of crystals working as batteries with inverters, as in hybrids and EVs. The user also says this fits the crystals being good for propulsion but too chaotic for precise spell matrices, which the model's version did not address. | "How about if the crystals are batteries with inverters like how actual hybrids and EVs work?" | Tentative, put as a "how about if" suggestion. It never says the model was wrong. The correction comes from the replacement and from the reason offered for it.
+- about: The user proposes swapping the model's exhaust-heat crystal mechanism for a battery-and-inverter hybrid/EV model, and ties it to why crystal magic suits propulsion but not fine spellcasting except in top-grade forms.

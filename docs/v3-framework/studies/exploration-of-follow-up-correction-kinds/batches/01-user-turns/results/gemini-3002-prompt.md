@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's account of early versus later AI and extends it into a story allegory, checking whether the grift era maps to Skyfall and Flim and Flam's machine and the reasoning-model era to Aquileia and the Griffonian Republic, without disputing anything the model said.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the Mount Aris episode by adding Griffonian Republic volunteers alongside the Aquileians, asking whether the Republican Pact starts there and how the rivalry between the two groups persists, and then describing the battle as a Battle of Britain or Sea Lion analogue against a paper-tiger Storm King.

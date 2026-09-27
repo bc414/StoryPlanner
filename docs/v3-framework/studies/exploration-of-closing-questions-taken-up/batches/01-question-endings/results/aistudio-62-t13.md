@@ -1,0 +1,8 @@
+- questions:
+  - Does Blueblood later share Ahuizotl's intelligence about VOPS with Applejack and Fluttershy when they start capturing POWs, or does he keep Ahuizotl secret out of pride? | ignored | Nothing about whether Blueblood shares or hides Ahuizotl's warning. The turn moves on to 1006 and Mount Aris. | none
+  - Does the accountant's assassination, written off by the Guard as suicide, permanently shatter Blueblood's faith in Celestia's security apparatus and justify his later martial law in Canterlot? | refused | Cuts the trident calling card and says Ahuizotl's warning alone is enough to turn Blueblood toward building and leading an army. That leaves the assassination and its consequences unaddressed. | We can ditch the trident. Ahuizotl's warning is enough
+- shape: Trims the model's proposed sequence (drops the trident and makes Ahuizotl's warning the sole catalyst), then moves on to a new brainstorming request. That request is about Blueblood and Mudbeak at the 1006 Defense of Mount Aris: their interactions with the Mane 6, with the Republicans and Aquileians, and with Kemmerich and Meyer. It also asks what these could do for the themes and arcs.
+- settles:
+  - The Changeling Trident calling-card beat is cut from the story | We can ditch the trident
+  - Ahuizotl's warning alone is what moves Blueblood from investigating to wanting to build and lead an army | Ahuizotl's warning is enough to make Blueblood pivot
+  - Blueblood and Mudbeak both attend the Defense of Mount Aris in 1006 | In 1006, Blueblood and Mudbeak attend the Defense of Mount Aris

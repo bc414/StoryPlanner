@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a step-by-step walkthrough of the Google Takeout export, or would they rather try the browser fixes first? | partly answered | The user doesn't choose. They are already partway through the Takeout steps and ask about a label mismatch they found there. That implies they are on the Takeout route, but they state no preference and don't ask for a walkthrough. | It's just called "Gemini" in the takeout drop down
+- shape: Doesn't answer the offered choice. It's a short clarification request about the model's instructions: the Takeout list says \"Gemini\", not \"Gemini Apps\", and the user asks whether that is the right item. It shows the user is already carrying out the export.
+- settles:

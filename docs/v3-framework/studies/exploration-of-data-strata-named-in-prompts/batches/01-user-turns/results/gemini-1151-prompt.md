@@ -1,0 +1,5 @@
+- sources:
+  - the episode (the apples turning to mush) | published show material to draw a connection from; the user asks whether its mush image can be linked to the story's canned mush | the apples turning to mush from the episode | referred-to
+  - the mush that is in the cans from the parents' factory | the author's own story detail, treated as established and as the thing to be linked to the episode's apples | the mush that is in the cans from the parents' factory | referred-to
+- order:
+- about: The user asks whether they can tie the apples-turned-to-mush moment from the show episode to the mush in the cans from the parents' factory in their story.

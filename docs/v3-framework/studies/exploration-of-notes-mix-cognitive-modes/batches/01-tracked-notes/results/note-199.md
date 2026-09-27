@@ -1,0 +1,8 @@
+- claims:
+  - NarrativeArchitecture | the story first shows the reader spell-matrix radios like Applejack's before other radio technology | Initially we are presented with spell matrix powered radios | yes
+  - History | Applejack has the spell-matrix radio because of her rank as a general | because she is a general | no
+  - History | everyone else uses mass-produced vacuum tube radios copied from the Griffonian Republic, and these can be intercepted | Everyone else has mass produced vacuum tube radios copied from the Griffonian Republic which can be intercepted | no
+  - NarrativeArchitecture | the way radio technology is shown changes partway through, after the love donator, so that everyone has the magical radios | Then after the love donator, everyone can get the magical ones | yes
+  - History | the magical radios can be miniaturized and widely distributed because they run on a canister instead of limited high-grade crystals, unlike Applejack's bulky set | it can be miniaturized instead of the bulky one AJ has, because it uses a canister instead of limited high grade crystals | no
+- goals:
+- whole: The note lays out the order in which radio technology appears in the story, from rare spell-matrix sets and interceptable tube radios to universal miniaturized magical ones, and gives the in-world reasons for each stage.

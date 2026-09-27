@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author adds new backstory details about the buffalo, Rockfeller, Comet Shine's dam and wealth, and Applejack's arrival, then asks when Comet's sacrifice should be revealed and whether it makes him too philanthropic.

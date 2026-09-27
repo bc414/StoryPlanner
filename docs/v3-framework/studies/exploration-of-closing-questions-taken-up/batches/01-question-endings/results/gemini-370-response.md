@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to brainstorm how the Monarchist propaganda might react to the Democratic rebranding? | ignored | Nothing on monarchist propaganda; the user asks a separate question about French equivalents of the party names. | What would be the equivalent party names in French?
+- shape: Redirects to a new, narrower request: asks for French equivalents of the two party names, leaving the offered propaganda brainstorm unaddressed. It is a naming request that builds on the discussion, not a reaction to it.
+- settles:

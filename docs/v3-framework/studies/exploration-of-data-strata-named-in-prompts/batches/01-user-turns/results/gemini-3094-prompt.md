@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author corrects the model's assumption by stating that Chrysalis gets no perspective in the main story and that her development belongs to a separate sequel, then asks whether leaving her out of the main story makes sense and whether she should change during its timeframe.

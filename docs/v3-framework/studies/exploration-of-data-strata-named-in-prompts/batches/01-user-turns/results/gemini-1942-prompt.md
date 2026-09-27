@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether the image the model just produced can be made into an animation loop, without naming any source of data.

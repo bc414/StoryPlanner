@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks two factual follow-up questions about whether WWII-era Pervitin rehabilitation of German POWs was documented and about the history of methadone, without pointing the model at any particular body of material.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the 1001 timeline and asks whether Luna should be isolated and demure in her first year back, with Mali as a Night Guard becoming her symbol of hope and helping her recover, which is a new question building on the model's account.

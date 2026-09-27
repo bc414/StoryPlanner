@@ -1,0 +1,5 @@
+- sources:
+  - all this framework and historical parallel (the blockade, Britain 1917 and Rockfeller collaborator framework just discussed) | use as the basis from which the collaborator criteria are derived | Given all this framework and historical parallel | referred-to
+  - the author's own list of collaborator signs (ships getting past changeling submarines, hoarding Skyfall Marks, hoarding war material, hoarding red love drugs pre-war as currency) | the author's stated belief, offered as a starting set for the model to extend and test for validity; Rockfeller is to match all of them | I believe the following | first-named
+- order:
+- about: The user asks the model to extend and vet a list of criteria for identifying a business as a collaborator eligible for wartime nationalization, using the blockade framework already discussed and the user's own proposed signs, with Rockfeller as the test case.

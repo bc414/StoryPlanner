@@ -1,0 +1,7 @@
+- claims:
+  - History | the FJA's Ego-Capitalism system rests on a mistaken premise | the FJA's "Ego-Capitalism" is built on a flawed premise | no
+  - History | a citizen is not fixed to one Seal of excellence, and magical plasticity persists into adulthood | A citizen is not locked into a single "Seal" of excellence. Magical plasticity exists in adulthood. | no
+  - Characterization | realizing this forces Fleur to give up her arrogance | This realization forces Fleur to drop her arrogance | no
+  - History | Aquileian science failed to measure how adaptable the Equestrian soul is, and Fleur must admit it | she must admit that Aquileian science failed to measure the sheer adaptability of the Equestrian soul | no
+- goals:
+- whole: The note states as fact that Seals are not fixed and that the FJA's Ego-Capitalism rests on a false premise, and says this humbles Fleur, without planning how the reader comes to encounter or understand it.

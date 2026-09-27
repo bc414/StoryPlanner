@@ -1,0 +1,5 @@
+- questions:
+  - How do the Wings of Dew physically deploy: does the crystal project hard-light wings, or does the spell temporarily alter the user's body? | ignored | Nothing on the wings' mechanism. The turn moves to a different question about aircraft development. | none
+  - Does the wings' colour, taken from the pony's special somepony, lead to emotional scenes where downed crews fly home on wings in the colour of the pony waiting for them? | ignored | Nothing on the colour of the wings or on emotional scenes with shot-down crews. | none
+- shape: The user turn drops the wings thread and moves to a new, broader worldbuilding question: how having natural fliers (pegasi, griffons, changelings) would change aircraft development compared with real history. It asks the model to work this out. It does not react to the model's analysis or answer its prompts.
+- settles:

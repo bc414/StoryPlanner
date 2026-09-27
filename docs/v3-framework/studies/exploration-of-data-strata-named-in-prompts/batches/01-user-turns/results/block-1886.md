@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general question about what defines a chapter in their planning system and which note tracks belong in chapters, without pointing the model at any particular body of material.

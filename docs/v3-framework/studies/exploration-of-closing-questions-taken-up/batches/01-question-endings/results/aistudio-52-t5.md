@@ -1,0 +1,5 @@
+- questions:
+  - How does Starlight Glimmer's lived experience (Manifesto at ten, cult, redemption through Harmonic Capitalism) dismantle Marks and Angel's dogma, and what materialist arguments does she use to show their utopia is another Predator's Dilemma? | no user turn | none | none
+  - How do Marks and Angel try to exploit the workers' lingering rugged-individualist greed to sabotage the Patrotten cooperative model, and which FJA/Equestrian policy breaks their hold over the dockworkers? | no user turn | none | none
+- shape: none
+- settles:

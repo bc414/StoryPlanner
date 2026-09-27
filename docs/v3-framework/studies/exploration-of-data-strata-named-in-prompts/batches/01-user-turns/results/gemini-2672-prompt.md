@@ -1,0 +1,5 @@
+- sources:
+  - the original monte Cristo book | one candidate for where the term originates; to be weighed against the other options, not treated as settled | From the original monte Cristo book | referred-to
+  - Coltbert's paper | one candidate for the point where the term is coined among his followers; to be weighed against the other options, not treated as settled | Coltbert's paper | referred-to
+- order:
+- about: The user, having just been reminded that poseur began as a changeling slur, asks for a comparative analysis of four candidate points at which the broader concept should be coined among Coltbert's followers in Aquileia.

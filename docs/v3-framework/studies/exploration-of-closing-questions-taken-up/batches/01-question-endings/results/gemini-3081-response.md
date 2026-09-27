@@ -1,0 +1,4 @@
+- questions:
+  - How does Applejack, from Ponyville, covertly help Braeburn survive Rockfeller's economic sabotage and intimidation over the 11 years without alerting Celestia's Harmonic Compliance bureaucracy? | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,5 @@
+- sources:
+  - my story plans | reread them and reevaluate the previous analysis against them; treat as the authority over the model's prior characterizations | Reread my story plans and reevaluate | referred-to
+  - what the user says here about Hans Kessel, Gerad Discret and Coltbert | treat as corrections of the model's prior reading of these characters; take as the true character roles | Hans Kessel was a changeling engineer who burned out, was drafted, then captured in Tall Tale | first-named
+- order:
+- about: The user tells the model to reread their story plans and redo its analysis, correcting its mistaken roles for Hans Kessel, Gerad Discret and Coltbert by stating what each character actually is in the plan.

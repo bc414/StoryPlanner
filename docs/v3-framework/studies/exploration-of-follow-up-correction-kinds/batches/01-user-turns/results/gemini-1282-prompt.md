@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user proposes restructuring the story by moving Pinkie's arc into the Extraction and Tempest chapters, with a new setup involving pink love in rations and an earlier meeting with Tally Mark, as a new plan idea rather than a fix to the model's analysis.

@@ -1,0 +1,6 @@
+- sources:
+  - internet based infrastructure (the network-and-internet framing of the verification machines in the model's prior answer) | drop it, do not build on it for this design | Ditch the internet based infrastructure today | referred-to
+  - 1940s era tech | use as the technology baseline for how the verification machines and payments work | think of it as 1940s era tech | first-named
+- order:
+  - 1940s era tech | internet based infrastructure | Ditch the internet based infrastructure today and think of it as 1940s era tech
+- about: The user redirects the model to redo the Gilded Bit verification mechanic with 1940s-level technology, using a cashier's machine that checks for hand-forged copper, and adds that Gilded Trust's minted salaries, company stores, fees, hardware and electricity sales make one self-serving grift.

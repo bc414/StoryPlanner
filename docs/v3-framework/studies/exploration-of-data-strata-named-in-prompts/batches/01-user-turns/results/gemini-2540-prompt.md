@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | the material the model is asked to review and analyze thoroughly, including the ideas just stated about Chrysalis, the Statthalters and the Jaegers | Please review my story plans and give a thorough analysis | referred-to
+- order:
+- about: The user asks whether Chrysalis must turn a blind eye to the Statthalters' slaving to keep her motivation, proposes that the Statthalters run their own fiefdoms and sell surplus on the global market, and asks the model to review his story plans and analyze them thoroughly.

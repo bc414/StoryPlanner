@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the US labor-law comparison to a new comparative question about soviets, unions and the bourgeoisie in Russia under Kerensky's provisional government, asking how that compares to 1935 and 1947, without challenging anything the model said.

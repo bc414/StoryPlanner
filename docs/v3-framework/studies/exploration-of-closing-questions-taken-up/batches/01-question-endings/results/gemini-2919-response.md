@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want a stress-test of logical weak points in the Buffalo Town Hall scene in Chapter 9? | ignored | Doesn't mention the Buffalo Town Hall or Chapter 9. Asks for a fresh, wider review of the plans instead. | none
+  - Does the user want a test of the economic logic of how the Aquileians financed their black-market crystal trade? | ignored | Doesn't mention Aquileian financing or the crystal trade. Asks for a new set of contradictions across the plans. | none
+- shape: Redirects to a broader task. It gives an instruction to re-review the whole set of story plans and produce a new batch of logical contradictions that are orthogonal and don't overlap with earlier ones. It takes neither of the two narrow options the model offered, and it doesn't react to the model's praise or its analysis.
+- settles:

@@ -1,0 +1,4 @@
+- sources:
+  - what I previously asserted about alicorns (not infinite magic, but 3 times the magic from the three tribes, lowering crystal expenditure for moving the sun and moon and conception spells) | treat as established story rule; the answer has to work with it and not overturn it | I previously asserted that alicorns don't have infinite magic but they do have 3 times the magic | referred-to
+- order:
+- about: The user asks how to reconcile their already-set rule that alicorns have three times the magic with Starlight Glimmer being as strong as or stronger than Twilight on the battlefield.

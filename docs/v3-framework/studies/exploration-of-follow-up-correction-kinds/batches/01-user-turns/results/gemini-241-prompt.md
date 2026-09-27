@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on by adding a new worldbuilding element (nobles drained of love by resentful drones, Changeling love biology and history) and asking when to reveal it, how it shores up Chrysalis's rule, and how far she should suppress the native language across four graded scenarios with real-world examples.

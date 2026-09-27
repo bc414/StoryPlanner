@@ -1,0 +1,6 @@
+- sources:
+  - I determined that Thorax must be a trained jaeger and knows equestrian | treat as settled: the author's own earlier decision about the character, to build the movement on | I determined that Thorax must be a trained jaeger and knows equestrian | referred-to
+  - the canon episode where he was introduced | treat as true: the published show's depiction of Thorax feeling wrong during the attack is the basis for his turn | as depicted in the canon episode where he was introduced | referred-to
+  - My notes | include as a detail to fold into the answer: the notes mention smuggling equestrian board games | My notes also mention smuggling equestrian board games | referred-to
+- order:
+- about: The user asks how Thorax's harmonist movement would develop after the failed Canterlot wedding infiltration, offering two options (learning native changeling from elders or secretly teaching the Herzlander language) and adding a smuggled-board-games idea from their notes, all built on their earlier decisions and the canon episode.

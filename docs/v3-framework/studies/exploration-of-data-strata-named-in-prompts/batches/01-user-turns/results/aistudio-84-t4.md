@@ -1,0 +1,6 @@
+- sources:
+  - Trust, Integrity or Sovereignty (the three options for the 6th Element from the model's previous turn) | candidates to be judged and chosen between using the user's angle; provisional, not settled | How does this angle of analysis lead to the choice between Trust, Integrity or Sovereignty? | referred-to
+  - The story's ultimate social commentary (lasting peace that does not rely on the trauma engine) | the author's stated thematic goal that the choice should be tested against; treat as the governing premise | The story's ultimate social commentary should be about how to build a lasting peace | referred-to
+  - The post-war flourishing of democracy, the war against fascism, the Great Depression, then neoliberalism and stagnation (real history as the user recounts it) | real-world analogy the user states from their own knowledge, to be used as the analytical lens for the choice | The post war flourishing of democracy was because they just fought a war to defeat fascism | first-named
+- order:
+- about: The user gives the story's intended theme, a lasting peace not dependent on the trauma engine, backs it with their own reading of post-war history (flourishing after war, then decay as a safe generation grew up), and asks the model to work out how that angle decides between the Trust, Integrity and Sovereignty options.

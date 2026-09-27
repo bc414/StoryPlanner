@@ -1,0 +1,5 @@
+- questions:
+  - If the FJA volunteers return home as celebrated war heroes after defeating Chrysalis, does their raised social capital further alienate the domestic PNdA factory workers who built their weapons, and could this trigger a third Aquileian civil conflict? | no user turn | none | none
+  - How does Gilded Trust exploit the Equestrian public's awareness of the FJA's foreign-project mentality, and specifically how would it frame Applejack's advocacy for rehabilitating Changeling POWs as a betrayal of domestic ponies whose homes were destroyed in Vanhoover? | no user turn | none | none
+- shape: none
+- settles:

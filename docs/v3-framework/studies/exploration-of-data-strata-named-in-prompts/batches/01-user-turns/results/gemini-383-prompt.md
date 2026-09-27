@@ -1,0 +1,4 @@
+- sources:
+  - EaW | treat as the correct reference for the party's name, overriding the earlier PDNA; the party is simply Aquileia's national party | Vérany's party in EaW is PNdA, not PDNA | referred-to
+- order:
+- about: The user corrects the name of Vérany's party to match EaW's PNdA and asks whether the party should start as PRN, mirroring Kemerskai's NRP, before rebranding to PNdA.

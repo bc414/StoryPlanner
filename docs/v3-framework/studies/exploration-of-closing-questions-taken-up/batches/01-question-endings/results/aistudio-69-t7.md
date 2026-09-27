@@ -1,0 +1,5 @@
+- questions:
+  - Do Twilight and Luna, when building the Dreamscape Aid Network in Chapter 17 to deliver rifles to the Canterlot hostages, actively reuse the old Tantabus code as the teleportation routing system, turning a pacification weapon into a supply chain? | no user turn | none | none
+  - If Celestia detects the Tantabus signature in the Dreamscape Aid Network, does that validate her terror in Chapter 20, convincing her Applejack and Twilight are resurrecting Nightmare Moon's mechanics? | no user turn | none | none
+- shape: none
+- settles:

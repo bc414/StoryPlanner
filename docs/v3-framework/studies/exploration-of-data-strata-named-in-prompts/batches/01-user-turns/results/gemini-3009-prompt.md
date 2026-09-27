@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user approves the proposed research plan and tells the model to begin the research, without naming any source of data.

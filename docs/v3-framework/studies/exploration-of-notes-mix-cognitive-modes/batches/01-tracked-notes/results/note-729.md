@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-building definition / name gloss) | gives the English meaning of the technology's name, Panzer Haut, as "Armor Skin" | Means "Armor Skin" | outside
+- goals:
+- whole: The note glosses the technology's German-derived name Panzer Haut as meaning "Armor Skin", a bare naming fact, with no reader effect stated.

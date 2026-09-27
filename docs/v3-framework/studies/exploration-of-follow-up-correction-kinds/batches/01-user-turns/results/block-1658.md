@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - register or format | The model's WI+La note has three parts and its disclosure part restates the fact already held in the P+La note. The user says the note need only hold the prior belief and the reader's updated understanding. | Does the WI+La note need to restate the thing that is clashing when the P+La note has that fact already? | put as a leading question that proposes a slimmer two-part structure, with no apology or irritation, while moving on to other design questions
+- about: The user is refining the note-track design: he proposes hiding empty tracks and showing the narrator-gap track only when the POV character matches the link subject, he trims the WI+La note so it doesn't duplicate P+La, and he asks whether the Granny Smith founding story is source recontextualization, a reader prior-belief gap, or both.

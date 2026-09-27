@@ -1,0 +1,4 @@
+- claims:
+  - span | She wants deer and ponies to resist so that she can drain them | "She wants deer and ponies to fight back so she can drain them" in the present tense | the start of TLTT, from the track's question; the note gives no date or other marker of its own
+  - span | She wants the bauleiters' "clean occupation" to fail | "She wants the bauleiters' \"clean occupation\" to fail" in the present tense | the start of TLTT, from the track's question; the occupation is the situation she is in then, and the note gives no date
+- beside: ">Backstory, world date 1008, speaks of the same appetite: she would rather drain the Olenian Resistance. That is a preference for draining those who fight back, as here. Backstory, world date 1011, also touches on it, since she prefers draining real love to eating bland rations. Neither note mentions the bauleiters' clean occupation.

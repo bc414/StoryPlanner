@@ -1,0 +1,4 @@
+- questions:
+  - What would it look like to build a game with Pokémon Go's scale and Ingress's depth? (posed as an open, underexamined question, not clearly put to the user) | partly answered | Does not describe such a design. Takes up the theme and widens it: is any mass-market game possible that is non-extractive, not net harmful and teaches cognitive skills, has anything come close, and is it now ruled out by media incentives and the cost of attention. | Is it possible to make a game that isn't extractive... reach mass market? Has anything come close?
+- shape: The user turn moves on from the Ingress and Pokémon Go analysis with a broader question of its own. It asks whether a non-extractive, non-harmful, skill-teaching mass-market game can exist and whether one ever has. It also offers a tentative hypothesis that the current attention economy may rule it out. It is a request for further analysis, not a decision, correction or instruction.
+- settles:

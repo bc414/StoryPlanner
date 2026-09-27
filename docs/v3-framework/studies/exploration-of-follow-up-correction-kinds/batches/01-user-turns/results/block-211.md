@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Chrysalis analysis alone and starts a new thread, asking where a planned Prince Blueblood story should sit in the reading order and how its theme and tone compare to the other three, and supplying notes on Blueblood recruiting General Mudbeak and the Mount Aris clash.

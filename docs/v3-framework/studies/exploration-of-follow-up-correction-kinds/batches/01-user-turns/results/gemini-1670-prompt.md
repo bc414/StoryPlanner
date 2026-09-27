@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user gives new background (their data lives in a custom WPF app with SQLite and EF Core) and asks whether JSON or another format is best for handing that data to the model, which moves the conversation on to a new question.

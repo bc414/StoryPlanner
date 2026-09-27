@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about how manes and tails fit into the clothing, blanket and fur discussion, without pointing at any body of material for the model to use or avoid.

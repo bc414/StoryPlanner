@@ -1,0 +1,4 @@
+- claims:
+  - Analogies | the magical supply organization is modeled on the supply hub mechanic from the game Hearts of Iron IV, an outside real-world model named as its inspiration | Utilizes HOI4 supply hubs | no
+- goals:
+- whole: The note names the Hearts of Iron IV supply hub mechanic as the outside model the fantasy supply technology draws on, which is an inspiration credit and not a statement about the story's own established canon.

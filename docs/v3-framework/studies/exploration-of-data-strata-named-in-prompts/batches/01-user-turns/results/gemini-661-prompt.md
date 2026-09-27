@@ -1,0 +1,5 @@
+- sources:
+  - my lore (the author's planned worldbuilding: conception spell limited to some same-sex couples, other alicorns ascended for love talents, cutie-mark spell discount, democratized magic, crystal enhancers) | treat as the author's settled-to-be design and build on it, correcting the earlier claim that the conception spell serves all couples; phrased partly as plans | In my lore, I'm planning on | referred-to
+  - Starlight Glimmer being canonically as powerful as Twilight (show canon) | use as canon evidence that alicorn status does not give the magic, supporting the author's lore that special talent matters | Starlight Glimmer is canonically as magically powerful as Twilight | referred-to
+- order:
+- about: The user corrects the model's account of the conception spell and lays out further planned lore on how magic costs, cutie-mark discounts, alicorn power and crystal enhancers work, citing show canon about Starlight Glimmer as support.

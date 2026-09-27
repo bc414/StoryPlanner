@@ -1,0 +1,10 @@
+- questions:
+  - How does the user want to physically depict the return of the plane's magic when Réni's engine has stalled and he is falling? | ignored | Nothing on the plane's magic returning or how to show it; the user moves to Discord. | none
+  - What visual or radio cue from the ground (Applejack, a besieged Republic trench) makes Réni realize he is fighting for them and not for glory? | ignored | Does not name a cue or a ground-level trigger. Only says his cognitive dissonance comes later, which is a different point. | none
+- shape: The user leaves the model's drafting questions unanswered and changes the subject to Discord. Before that, they add chapter 8 material on Réni and Rainbow. They then ask the model to apply the same framework to why Discord left Equestria and to explain Discord's origin and link to Q and John de Lancie. They also say Discord must run on the same materialist rules as Pinkie. It works as a redirect combined with new story facts and a constraint on the model's next answer.
+- settles:
+  - In chapter 8, Rainbow's Hunter's spirit (the anti-empathy drug's name, Jaeger Geist) is broken down into fraternity. | Rainbow's Hunter's spirit (in fact, that's the anti empathy drug name jaeger geist) is broken down into fraternity
+  - In chapter 8, Réni is open about being a hunter but discourages Rainbow from copying him, because Rainbow runs on loyalty and not ego. | Réni is open about being a hunter here, but discourages Rainbow from copying him because Rainbow operates on loyalty, not ego
+  - Réni's own cognitive dissonance comes later than chapter 8. | Then his cognitive dissonance comes later
+  - Discord's magic is the same cartoon physics and gags as Pinkie's, and it follows the same materialist rules as hers. | Discord's magic is the same cartoon physics and gags as Pinkie canonically; Discord should be running on the same materialist rules as Pinkie
+  - Discord's origin is modeled on Q from Star Trek and the John de Lancie parallel. This is put as a premise for the model to explain, not as a settled detail. | It comes from Q from Star Trek and the John delancie parallel?

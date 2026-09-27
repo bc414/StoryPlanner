@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a new story idea, a changeling economic contribution where changelings stitch ponies' cutie marks onto uniforms with dyed silk for pride and morale, and asks the model to consider it.

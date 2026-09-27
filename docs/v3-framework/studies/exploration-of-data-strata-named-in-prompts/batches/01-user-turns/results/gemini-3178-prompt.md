@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to extend its Claude-versus-Gemini comparison to ChatGPT, covering its raw model ability for narrative analysis apart from the consumer product, whether the gap can be closed, and how it retrieves and ingests material, without pointing at any body of material to use or avoid.

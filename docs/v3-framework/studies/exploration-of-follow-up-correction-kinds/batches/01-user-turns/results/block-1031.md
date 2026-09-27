@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the brony-sociology thread and asks a new question about why ASOIAF has its grimdark thesis, whether it comes from Martin's life, and how it differs from their own meta narrative.

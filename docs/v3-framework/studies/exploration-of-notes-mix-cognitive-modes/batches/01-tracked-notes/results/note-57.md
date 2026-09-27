@@ -1,0 +1,4 @@
+- claims:
+  - History | Twilight burned out after a year of trying to fix a city too big and ravaged for her to fully fix | burned out after a year of trying to fix a city that was too big and too ravaged | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that Twilight burned out after a year of trying to repair a city beyond her capacity to fix.

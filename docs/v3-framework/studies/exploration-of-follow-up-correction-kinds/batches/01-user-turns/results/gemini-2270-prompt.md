@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model's claim that fast WW2-era monoplane fighters would have to be fully enclosed against wind resistance, treated as applying to all planes alike, is challenged, since Wonderbolts already fly near those speeds unenclosed | Maybe the CAS planes are sealed cockpits but the fighters are still mildly open air; Given the Wonderbolts already fly at near those speeds | tentative and indirect: offered as a 'maybe' alternative and a how-to-make-it-work question, with the correcting reason tacked on at the end
+- about: The user pushes back on the model's blanket enclosed-cockpit conclusion by proposing a split, with sealed CAS planes and semi-open fighters, and asks what it would take to make that work.

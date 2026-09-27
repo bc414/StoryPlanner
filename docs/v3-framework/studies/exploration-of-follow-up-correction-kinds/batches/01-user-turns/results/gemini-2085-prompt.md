@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks follow-up questions about the seven axes: whether the list is complete, whether it derives from formal literary theory, and whether it overlaps with the narrative metrics, without saying anything in the previous turn was wrong.

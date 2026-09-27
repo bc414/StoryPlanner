@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets out a specific Applejack/ration-can/parents'-fate scenario with its planned chapter reveals and asks a new question about what gap or storytelling mechanic it is, and whether third person limited lets the writer withhold her reasoning, without disputing anything in the model's summary.

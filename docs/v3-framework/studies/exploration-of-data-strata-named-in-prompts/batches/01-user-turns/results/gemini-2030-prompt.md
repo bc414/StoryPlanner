@@ -1,0 +1,7 @@
+- sources:
+  - The system instruction the user gave earlier (the one the model analyzed) | treat as wrong and superseded; do not base the analysis on it | I gave the wrong system instruction to you | referred-to
+  - The Phase 0 system prompt pasted in this turn (Role, Task, Constraints & Output Requirements) | treat as the correct version; reevaluate using it | Please reevaluate with the following | first-named
+  - The user's own clarification of what 'one bucket per paradigm' means (at most one bucket per paradigm, so total buckets per note at most the number of paradigms) | treat as the authoritative meaning; correct the earlier misreading and reevaluate against it | what I meant by "one bucket per paradigm" means | first-named
+- order:
+  - The Phase 0 system prompt pasted in this turn over The system instruction the user gave earlier | I gave the wrong system instruction to you. Please reevaluate with the following
+- about: The user corrects the model's earlier analysis by supplying the right Phase 0 system prompt and clarifying that 'one bucket per paradigm' means a note goes in at most one bucket within each paradigm, and asks the model to reevaluate.

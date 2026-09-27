@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author proposes an in-story explanation that the changeling draining spell is a simple single conical layer fixed by the horn's shape, while unicorns' control over their 3D horn's internals lets Twilight invent 3D lithography herself, without pointing the model at any body of material.

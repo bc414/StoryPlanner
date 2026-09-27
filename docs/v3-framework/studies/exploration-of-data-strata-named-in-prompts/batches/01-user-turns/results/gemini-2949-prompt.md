@@ -1,0 +1,4 @@
+- sources:
+  - the episode Green isn't your Color | published episode where the nursery rhyme originates; the model is to research it for evidence of where the rhyme and the term Pinkie Promise came from | which originates from the episode Green isn't your Color | referred-to
+- order:
+- about: The user asks the model to research whether the season 1 writers took the nursery rhyme from any real source or invented it, and where the term Pinkie Promise comes from.

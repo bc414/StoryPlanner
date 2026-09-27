@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user briefly accepts the model's offer to compare how Google DeepMind trains Gemini versus how OpenAI trains GPT, without naming any source of data.

@@ -1,0 +1,5 @@
+- claims:
+  - History | The Tzinacatl alchemists take the Pink Love donated by Equestrians and brew it into a medicine using specific jungle vines | When the Tzinacatl alchemists take the donated Pink Love from Equestrians, they brew it into a medicine using these specific jungle vines | no
+  - History | The vines' complex alkaloids and plant matter work as a biological extended-release matrix for the medicine | The complex alkaloids and plant matter act as a biological extended-release matrix | no
+- goals:
+- whole: The note reports as world fact how the Tzinacatl alchemists turn donated Pink Love into a slow-release medicine with jungle vines, without stating any plan for how the reader experiences it.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a general grammar question about what else a noun can be besides a person, place, or thing, without pointing at any source of data.

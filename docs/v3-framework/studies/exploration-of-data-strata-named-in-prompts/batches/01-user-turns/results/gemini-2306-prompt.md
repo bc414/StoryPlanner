@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a breakdown of the engines used in big agriculture, whether diesel or hybrid, and the history of their development, without pointing to any body of material to draw on.

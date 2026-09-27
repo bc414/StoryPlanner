@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | McKee's positive/negative value charge was offered as a candidate origin for the Scene Phase's rhythm, but the user places it as the basis of a different feature, Thread Trajectory, where a thread-goal link is marked positive or negative | McKee's positive/negative charge is the basis for Thread Trajectory | hedged statement of belief, put as supplying the right mapping without saying the model was wrong, and without taking up the Swain identification
+- about: The user answers the model's list of candidate frameworks by saying McKee's value charge is where their Thread Trajectory comes from, and explains how that property works on thread-plot point connections.

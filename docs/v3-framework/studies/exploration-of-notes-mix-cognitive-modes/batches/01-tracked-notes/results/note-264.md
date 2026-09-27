@@ -1,0 +1,4 @@
+- claims:
+  - History | Skyfall B2B companies paid the mercenaries to destroy Aquileia's standardized universities during the counterrevolution, reported as a fact of the world's past | Skyfall B2B companies pay the mercenaries to destroy Aquileia's standardized universities during the counterrevolution | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact dated 980, that Skyfall B2B companies hired mercenaries to destroy Aquileia's standardized universities during the counterrevolution.

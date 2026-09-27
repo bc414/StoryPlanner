@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a chain of real-world economic-history questions about co-determination, American manufacturing, outsourcing, reshoring, and Japanese production, to test whether asset specificity is a real structural change in the economy, and names no body of material for the model to use or avoid.

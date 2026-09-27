@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model for a complete history of fossil-fuel/electric hybrid engines, without pointing at any particular body of material to draw on or avoid.

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user puts forward a worldbuilding premise, that predators have only appetite, herbivores only communal friendship or blandness, and that having both pink love and red love makes a creature sentient and able to form a society, and asks the model to analyze it.

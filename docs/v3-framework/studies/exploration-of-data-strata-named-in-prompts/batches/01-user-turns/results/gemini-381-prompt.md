@@ -1,0 +1,4 @@
+- sources:
+  - real history | draw on it to find events or systems that parallel the Harmonic Capitalism idea just discussed | Are there any parallels in real history? | referred-to
+- order:
+- about: The user asks whether real historical events or systems parallel the fictional Harmonic Capitalism economy the model has just elaborated.

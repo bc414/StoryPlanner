@@ -1,0 +1,9 @@
+- questions:
+  - Does the user want the model to draft the opening scene of Chapter 1 now to start the actual writing? | ignored | Nothing is said about drafting or starting Chapter 1. The turn goes on adding story detail to the Trimmel speech trigger. | none
+- shape: Builds on the model's analysis without answering its offer. The user adds a further cause for Trimmel's pivot, and a complication for Applejack, and keeps refining the scene's logic.
+- settles:
+  - Another trigger for Trimmel's off-script speech is that he hears Henri's real voice in full through the universal translator. Before this he only heard Henri in broken Herzlander. | another part of the trigger is the fact that Trimmel hears Henri's real voice in full form
+  - Trimmel already respected Henri for his tactics and for being the commander. | He already respected Henri for tactics and being the commander
+  - Trimmel realizes the translator will let Henri understand him, so the two wayward souls can finally understand each other. | the universal translator will allow Henri to understand him
+  - Applejack's unease about the translator still applies, because she misses Henri's Aquileian accent. | AJ's unease of the device still applies because she misses Henri's Aquileian accent
+  - Trimmel and Henri feel no such concern about each other's voices, because they are not yet friends. | This isn't a concern for Trimmel and Henri on each other since they are not yet friends

@@ -1,0 +1,6 @@
+- questions:
+  - Should the model now write the final detailed chapter outline for the last arc (chapters 18-24), given the nuances are locked in? | ignored | The user does not say yes or no to the outline. They add two more story points and keep refining. | none
+- shape: The user keeps refining the story instead of moving to the outline. They add two decisions: how the public comes to accept SECEF's total-war explanation, and what SECEF does with its weapons when it leaves.
+- settles:
+  - Trimmel's open, heartfelt public speech, together with AJ's talk of honesty, lets the media and citizens accept the total-war explanation. | Trimmel laid out his heart in the public speech, and AJ talked about honesty, should allow the media and the citizens to accept
+  - On leaving, SECEF donates its weapons to the allied army and withdraws both itself and its doctrine. | SECEF should donate their weapons to the allied army while removing themselves and their doctrine

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's France comparison and asks two new real-world questions about why public-housing residents might vote for the National Rally and whether Macron's party and Le Pen's party fit a capitalist versus populist-nationalist split, without disputing anything the model said.

@@ -1,0 +1,4 @@
+- sources:
+  - the changelings divisions | the story-world material the model is to draw on and map onto the American Left, or else explain why it can't be mapped | map specifically the changelings divisions to the American Left | referred-to
+- order:
+- about: The user asks the model to extend its earlier mapping of the American Left by mapping the changeling divisions of the story world onto it, or to explain why that mapping isn't possible.

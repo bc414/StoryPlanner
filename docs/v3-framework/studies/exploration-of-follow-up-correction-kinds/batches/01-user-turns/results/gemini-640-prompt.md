@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Psychic Exhaust idea as a good motivator for the stagnation of harmony, notes it sits alongside other reasons they already had, and asks the model to list those reasons and assess whether the new lore cheapens or duplicates them.

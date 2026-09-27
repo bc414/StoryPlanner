@@ -1,0 +1,5 @@
+- claims:
+  - Canon | The Dreamscape Aid Network is set against a canon event: Luna gave Twilight empty promises for 2 years while Twilight was hooked up to the love harvester in Pax Chrysalia, and the network recontextualizes this as its opposite | Luna's chilling empty promises to Twilight for 2 years while hooked up to the love harvester in Pax Chrysalia | yes
+  - Canon | The technology is defined by contrast with the canon dream-aid: it is proactive and democratized rather than Luna's private, empty-promised version | proactive and democratized instead of Luna's | yes
+- goals:
+- whole: The note ties the Dreamscape Aid Network to canon by defining it as the proactive, democratized inversion of Luna's empty promises to Twilight during her time on the love harvester in Pax Chrysalia.

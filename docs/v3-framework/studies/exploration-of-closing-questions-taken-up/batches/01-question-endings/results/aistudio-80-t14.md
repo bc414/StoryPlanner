@@ -1,0 +1,6 @@
+- questions:
+  - Did the second-generation Zavodchiki justify cutting heat to workers by adopting Griffon rugged-individualist ideas, telling themselves the freezing workers weren't working hard enough? | ignored | Nothing said about how the elites rationalized the cuts; the turn moves to the boyars' status. | none
+  - Did the Severyanan elites fall into the resource curse, importing luxuries and food from Skyfall and Equestria so that Stalliongrad could not feed itself once the 995 revolution cut trade? | ignored | Nothing said about the resource curse, food imports or the revolution's effect on trade. | none
+- shape: Sets aside the model's two questions and opens a new topic, the social and political rank of the boyars. It asks for Muscovite and other pre-industrial parallels and offers its own tentative inference that Celestia's arbitration makes the boyars weaker than griffon feudal lords.
+- settles:
+  - Tentatively, the boyars rank below griffon-style feudal lords, because Celestia arbitrates their disputes. The user frames this as their own supposition, and the exact rank between feudal lord and village leader is left open. | "Since Celestia agrees to arbitrate their disputes, I imagine they must be less than feudal lords like griffons."

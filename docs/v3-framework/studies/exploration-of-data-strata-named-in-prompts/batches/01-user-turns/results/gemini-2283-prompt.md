@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a worldbuilding tweak, with crystal-based armor-piercing rounds and crystal engines that are light enough to carry more ammo than the changelings, and asks whether it is plausible, without pointing at any body of material for the model to draw on.

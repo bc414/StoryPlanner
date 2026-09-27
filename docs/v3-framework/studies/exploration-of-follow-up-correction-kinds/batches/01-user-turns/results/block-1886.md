@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the migration discussion and asks a new, open question about what defines a chapter and which note tracks belong in chapters.

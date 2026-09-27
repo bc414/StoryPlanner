@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Season 8 analysis to ask how it compares with Season 4's arc and writers, adding their own praise of the Discord handling and a joke about the castle design, without disputing anything the model said.

@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model built its Scootaloo parallel (father's negligence, malnourished wings, physics-based flight) on the user's pre-TLTT fanfiction headcanon and treated it as the story's own Scootaloo arc | "just my headcanon for a FiM fanfiction before TLTT" | flat clarification with a reason, put in passing as a framing before the new request
+  - fact of the world | In TLTT Scootaloo gets flight from a spell matrix, the ailes de rosée spell in chapter 17, not through unconventional aerodynamics or physics | "In TLTT, Scootaloo actually gets a spell matrix to fly" | plain factual restatement of what the story holds, with a chapter reference to back it
+- about: The user briefly separates their fanfiction headcanon from what TLTT actually has for Scootaloo, then uses the true chapter 17 spell-matrix flight to lay out a new plan linking Alouette, the chasseurs, Rainbow Dash and the Twilight scene, and asks for a fresh analysis grounded in the db that also works in a subtle pointer to the Scootableu easter egg.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether feeding chapters one prompt at a time works better than pasting the whole story in a single prompt, building on the model's advice without disputing it.

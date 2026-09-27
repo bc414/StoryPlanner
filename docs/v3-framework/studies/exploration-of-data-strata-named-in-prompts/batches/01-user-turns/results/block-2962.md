@@ -1,0 +1,7 @@
+- sources:
+  - the other historical parallels | draw on as inspiration for further hive wars worldbuilding details | drawing from the other historical parallels | referred-to
+  - the current world building | draw on and keep the new details consistent with it | the current world building | referred-to
+  - materialist historicist analysis/extrapolation | use as the method for deriving and extrapolating what would make sense | materialist historicist analysis/extrapolation | referred-to
+  - ASOIAF grimdark implications | do not use, drop this tone and its implications | shed the grimdark ASOIAF implications | referred-to
+- order:
+- about: The user asks the model to propose further worldbuilding details for the hive wars system by drawing on the other historical parallels, the existing world, and materialist historical extrapolation, while leaving out the grimdark ASOIAF-style tone.

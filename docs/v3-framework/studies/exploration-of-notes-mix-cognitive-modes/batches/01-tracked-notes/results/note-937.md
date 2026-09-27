@@ -1,0 +1,6 @@
+- claims:
+  - History | Chrysalis saw Cloudbury's meritocracy, the same enemy she just helped the Herzland nobles defeat | Chrysalis observed the meritocracy in Cloudbury, the very enemy she just helped the Herzland nobles defeat | no
+  - History | Chrysalis resolves to gather every Vesalipolis drone who shows scientific curiosity as her new scientists | decides to gather all drones in Vesalipolis who show scientific curiosity to be her new scientists | no
+  - History | The Herzland noble researchers react with disgust to the bugs and to their lowborn status | The Herzland noble researchers are disgusted by the bugs and their lowborn status | no
+- goals:
+- whole: The note summarizes the plot point as a sequence of in-world events, Chrysalis borrowing her enemy's meritocratic model to recruit curious drones as scientists while the noble researchers recoil, rather than staging what the reader sees on the page.

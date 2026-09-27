@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like the model to draft a Red Team critic prompt for Claude Projects or ChatGPT to look for plot holes in the outline? | ignored | The user turn doesn't accept or decline the offer. It asks a new question about Claude's latest products and how they compare to Gemini. | none
+- shape: Redirects to a new general question. It follows up on the Claude Projects mention by asking about Claude's latest products and a comparison with Gemini, and leaves the offered prompt-drafting step alone.
+- settles:

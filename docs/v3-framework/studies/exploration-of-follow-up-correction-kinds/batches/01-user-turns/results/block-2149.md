@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model read the war-crimes note as a philosophical problem: a tension with Material Conditions drive Morality that needed working out as agency versus circumstance and constitutive chosen identity. The user says the note only separates conscience-bearing rational behavior from war crimes, with no tension between the two ideas | "The intent is to separate rational behavior with a conscience from war crimes" | Flat restatement of the intent, backed by contrasting examples (shooting a combatant, torturing a civilian, banditry, a warlord abusing serfs). No apology and no explicit mention of the model's mistake.
+- about: The user restates what the war-crimes note was meant to say, giving examples that split material-condition-explained behavior from behavior explained by a lack of morality, in place of the model's agency-versus-circumstance framing.

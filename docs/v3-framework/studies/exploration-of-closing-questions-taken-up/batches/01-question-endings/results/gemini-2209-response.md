@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want more detail on the new interim government in Damascus? | ignored | The user does not take up the offer and moves to a different topic. | none
+  - Does the user want a deeper look at the ISIS detention camps the SDF used to manage? | ignored | The user does not take up the offer and moves to a different topic. | none
+- shape: The user leaves the Syria discussion and returns to their fiction. They recall the historical inspirations already in their notes for the Storm King's conquest and horde (Attila, Vikings, Magyars, the Mandala system). Then they put two new questions to the model: whether ISIS and Al Qaeda are the most striking modern parallel, and whether other modern parallels are as poignant.
+- settles:

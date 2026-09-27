@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model said the brass casings keep the weight limit in place, leaving Rainbow Dash only 15-20 seconds of trigger time. That skips the user's premise that light crystal engines free up weight for far more ammo than the changeling fighters carry. | Can the spitfire fighters still have vastly more ammo than the changeling fighters? ... it's expensive but light, letting them carry more ammo | Put as a question and then backed with the design rationale. It is a soft pushback, and the model's point is never named as wrong.
+- about: The user asks whether their crystal-engine Spitfires can still carry much more ammo than the changeling fighters, given brass casings. They also float diamond-like armor-piercing rounds and restate that crystal engines are light, and they do not answer the model's visual question about the batteries.

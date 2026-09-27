@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore the specifics of the Japan-Soviet Neutrality Pact? | ignored | Says nothing about the pact and asks a new question about Japan's reasons for attacking China. | none
+  - Does the user want to explore the tactical differences between the Japanese and Soviet armies of the period? | ignored | Does not take up the army comparison and moves to why Japan attacked China. | none
+- shape: Turns away from both offered follow-ups and asks a fresh, short factual history question. It goes back to the reason for Japan's invasion of China, which the model's answer had treated as background.
+- settles:

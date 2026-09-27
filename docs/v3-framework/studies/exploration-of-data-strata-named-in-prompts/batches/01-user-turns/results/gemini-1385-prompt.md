@@ -1,0 +1,4 @@
+- sources:
+  - the author's own intent for the chapter and the title Oblivion, stated from memory | treat as true and as the correction to the model's reading of Oblivion as the failure state; in the chapter the Tzinacatl are given economic purpose, the cure for oblivion | I imagined the reason Oblivion is subversive | first-named
+- order:
+- about: The author corrects the model's reading of the title Oblivion by explaining, from their own intent, that it subverts the expectation of war because the chapter resolves through economic purpose as the cure for oblivion.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Ahuizotl/cartel breakdown untouched and moves to a different thread, setting out the academy material: Chrysalis's grievance against nobles, Krista's bullying, how Gabriella could deduce she is a changeling through a biology class and the "changeling" insult, and three options for a mandatory or optional forging class.

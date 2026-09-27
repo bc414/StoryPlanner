@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user challenges the IP-incentive rationale for pharmaceutical R&D as a product of extractive taxation and shareholder capitalism, and asks whether a Harmonic Capitalism with a safety net would drive frontier research differently, without pointing the model at any body of material.

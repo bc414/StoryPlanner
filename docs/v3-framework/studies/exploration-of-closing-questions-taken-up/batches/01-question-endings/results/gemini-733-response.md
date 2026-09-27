@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want help refining their JSON export structure so that 'Longer' responses have enough data to work with without getting repetitive? | ignored | Does not take up the offer; asks a new comparison question instead. | none
+- shape: Redirects to a new, broader question: asks how NotebookLM compares with Gemini 3 Pro in the regular web/app with a fresh session and the JSON attached. It leaves the model's offer unaddressed and moves from length settings to choosing a tool.
+- settles:

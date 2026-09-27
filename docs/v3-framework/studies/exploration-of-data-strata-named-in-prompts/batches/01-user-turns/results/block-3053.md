@@ -1,0 +1,7 @@
+- sources:
+  - my existing plans | options for the 995 revolution are to be assessed for how they interact with the plans already made | how do they interact with my existing plans | referred-to
+  - my themes | options are to be weighed by how they fit or interact with the author's themes | existing plans and themes | referred-to
+  - materialist historicist analysis | options are to be tested against the author's analytical framework | materialist historicist analysis | referred-to
+  - the Russian Civil War, red army vs white army | real-history parallel offered as one candidate model for the 995 revolution; a comparison for the model to weigh, not a rule | like the red army vs the white army/Russian Civil War | first-named
+- order:
+- about: The user asks whether the 995 revolution should be a prolonged Russian-Civil-War-style conflict with the boyars, and whether Stalliongrad would build a fleet against Skyfall privateers, wanting the narrative pros and cons and the fit with their plans, themes and materialist analysis.

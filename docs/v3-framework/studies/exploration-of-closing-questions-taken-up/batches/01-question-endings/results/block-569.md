@@ -1,0 +1,5 @@
+- questions:
+  - How does Star Energy stop a hostile foreign power, such as a resurgent Wingbardian fascist state, from copying open-source schematics like the Luna Nova Rifle? Does open source compromise security, or does the Charitostatic Effect (Pink Love needed to stabilize the weapon) work as a natural DRM? | no user turn | none | none
+  - How does Applejack handle Aquileian outrage if an Aquileian engineer's invention can be freely copied by a Manehattan factory? Would the Aquileians demand a 'Social IP' rule that engraves the inventor's name and Cutie Mark on every copy? | no user turn | none | none
+- shape: none
+- settles:

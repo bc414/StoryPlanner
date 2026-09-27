@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to redo its analysis on a revised premise of equal magic but hormonally driven female risk aversion, asks whether this matches real life, and floats dropping the high-baseline-strength assertion and having griffon magic lost in industrialization, all as the user's own design changes rather than as faults in the model's answer.

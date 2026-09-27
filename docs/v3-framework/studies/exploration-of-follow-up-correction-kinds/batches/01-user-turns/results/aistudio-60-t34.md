@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's French naming of the Crystal Heart and moves on to ask for the Aquileian/French name of a different spell, Wings of Dew.

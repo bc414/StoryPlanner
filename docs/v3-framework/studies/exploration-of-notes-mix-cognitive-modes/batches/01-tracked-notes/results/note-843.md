@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (world-rule ontology) | The Living Rafts are a flexible, breathing rubber craft that bounce back from rocks instead of shattering, stated as how the technology works in the world | flexes, breathes, and bounces back instead of shattering against rocks | outside
+- goals:
+- whole: The note states as a plain rule of the fictional world what the Kausay-Wamp'u rubber rafts do, namely that they flex and rebound rather than break against rocks, and it asks nothing of the reader.

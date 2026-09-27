@@ -1,0 +1,4 @@
+- questions:
+  - Has the user considered moving these long-running projects into the API through a frontend, locking in system instructions and forcing exact context caching? | ignored | Says nothing about the API or a frontend. Asks instead whether Claude's $20/month consumer interface avoids pruning context and hides the true compute cost behind a proxy. | none
+- shape: Redirects. The user skips the API suggestion and asks a new comparison question about Claude's consumer tier: whether it prunes context and how it handles compute cost at the same $20 price. The question is pointed, and it carries the user's own doubt about the model's claim on pruning and cost.
+- settles:

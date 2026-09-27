@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | dragon biology is built so that caring about others increases the strength of a dragon's fire, putting conscience-as-power into the world's mechanics as evidence for the theme | Caring about others makes the fire stronger | yes
+- goals:
+- whole: The note gives a one-line evidence point that the world's dragon biology makes care for others increase fire strength, so the world law itself backs the theme that conscience is more powerful than extraction.

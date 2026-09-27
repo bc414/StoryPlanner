@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's economic-stability-before-democracy analysis and asks whether it also explains two other failed-then-successful revolutions in their setting, the Herzland/Griffonian one and the Aquileian one.

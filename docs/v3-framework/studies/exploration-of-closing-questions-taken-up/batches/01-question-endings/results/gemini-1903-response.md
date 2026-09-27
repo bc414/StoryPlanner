@@ -1,0 +1,4 @@
+- questions:
+  - Would the user like to test the approach by giving a specific plot point they need to happen (a Fiat) so the model can generate three materialist causal chains (economic, political, logistical) justifying it? | no user turn | none | none
+- shape: none
+- settles:

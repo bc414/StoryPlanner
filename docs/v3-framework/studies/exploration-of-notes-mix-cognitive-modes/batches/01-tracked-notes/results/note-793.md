@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (etymology or translation gloss) | gives the English meaning of the German name of the technology, Common Sense | "Gesunder Menschenverstand" is German for "Common Sense" | outside
+- goals:
+- whole: The note glosses the technology's German name with its English translation, saying nothing about what the technology does, how it works or what it is made of.

@@ -1,0 +1,5 @@
+- claims:
+  - Analogies | Names William Jennings Bryan, "The Great Commoner", as a real-world model for the character, known for bombastic, religious-style oratory such as the Cross of Gold speech | William Jennings Bryan (1860-1925) - "The Great Commoner" ... bombastic, religious-style oratory (The "Cross of Gold" speech) | yes
+  - Analogies | Records that Bryan claimed to speak for the toiling masses against the idle holders of idle capital, and maps that opposition onto the story's Industrialists | Bryan claimed to speak for the "toiling masses" against the "idle holders of idle capital" (The Industrialists) | yes
+- goals:
+- whole: The note documents William Jennings Bryan, his oratory and his populist stance against capital, as the real-world inspiration for Alexander Kemerskai, and it asks nothing of the reader.

@@ -1,0 +1,4 @@
+- claims:
+  - History | The organization collaborated with the University of Pridea over the period to advance magical engineering | Worked with the University of Pridea to develop more magical engineering | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that Star Energy Corporation partnered with the University of Pridea to develop magical engineering during 990–1003.

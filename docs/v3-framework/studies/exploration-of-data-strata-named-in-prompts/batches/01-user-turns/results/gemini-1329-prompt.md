@@ -1,0 +1,4 @@
+- sources:
+  - What the author says they established about Henri coordinating Applejack and Twilight's teleport strikes on the jaeger officers at the 2nd battle of Tall Tale | treat as settled story canon; the new reasoning builds on it and only the framing (disdainful but necessary) is being revised | I established that Henri coordinated | referred-to
+- order:
+- about: The author builds on an already-established battle detail by proposing a new backstory in which the voltigeurs' skirmisher tactics were a deliberate Coltbert and Discret strategy to snipe the Peripherie nobles and liberate conscripted peasants, offered as a tentative reframing.

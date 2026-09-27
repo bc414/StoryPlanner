@@ -1,0 +1,4 @@
+- claims:
+  - WorldInference | The system has a finite market, and that limit produces a predator's dilemma; this is the systemic cause and effect the reader is to work out about how the system runs | A finite market leads to the predator's dilemma | yes
+- goals:
+- whole: The note gives one compressed line naming the systemic dynamic, a finite market producing the predator's dilemma, that this scene link is meant to let the reader infer.

@@ -1,0 +1,4 @@
+- sources:
+  - the story plan document, the parts regarding these moments and arcs | ground the explanation in it; base the thematic proposition on what it says about the Rainbow, Twilight, Applejack, Fluttershy and Celestia moments | Ground the explanation in the parts of the story plan document regarding these moments and arcs | referred-to
+- order:
+- about: The user lists several character arcs as parallel outgrowing and letting-go events and asks the model to state the single thematic proposition they evidence, grounded in the story plan document's treatment of them.

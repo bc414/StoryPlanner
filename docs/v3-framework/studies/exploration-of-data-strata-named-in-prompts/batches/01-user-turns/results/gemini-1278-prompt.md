@@ -1,0 +1,4 @@
+- sources:
+  - my story plans (chapter 5 Laughter, chapter 10 Extraction, chapter 15 Combined Arms) | re-read and treat as the authority on where events fall in the timeline, checking the earlier analysis against it; planned Pinkie moments in it may be moved earlier | Review my story plans again | referred-to
+- order:
+- about: The user tells the model to re-check the story plans, corrects the earlier analysis with the plan's actual chapter timeline, and proposes moving the pink-love ration work to chapters 10/11 while relocating Pinkie's planned arc moments earlier.

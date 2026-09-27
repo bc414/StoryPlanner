@@ -1,0 +1,6 @@
+- sources:
+  - existing output from phase 0 (the pasted SortingStrategy JSON) | example of what the phase 0 stage now produces, to be used as the concrete basis for the rewritten phase 1 prompt | Here is an existing output from phase 0 | first-named
+  - existing system prompt for phase 1, the cartographer | the current prompt to be rewritten and updated, serving as the starting point for the new version | Here is my existing system prompt for phase 1, the cartographer | first-named
+  - new setup of phase 0 | the current phase 0 configuration that the new phase 1 prompt must be built around and fit | using the new setup up phase 0 | referred-to
+- order:
+- about: The user pastes a sample phase 0 output and their current phase 1 cartographer system prompt, and asks the model to write a new phase 1 prompt matched to the new phase 0 setup and to explain the changes.

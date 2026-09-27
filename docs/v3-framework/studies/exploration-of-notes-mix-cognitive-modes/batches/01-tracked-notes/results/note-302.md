@@ -1,0 +1,11 @@
+- claims:
+  - History | Chrysalis destroys the Herzlander nobles and installs Eros | After she destroys the Herzlander nobles and installs Eros | no
+  - Characterization | She believes she has won the game at that point | Chrysalis thinks she has "won" the game | no
+  - NarrativeArchitecture | The sequel is where her dawning horror is revealed to the reader, placing the reveal of her predicament later in the reading order | the sequel reveals her dawning horror | yes
+  - History | The Bauleiters, Statthalters and Jaegers each press for more factories, slaves and glory | the Bauleiters demand more factories, the Statthalters demand more slaves, and the Jaegers demand more glory | no
+  - History | Her regime is a machine that runs on perpetual growth, which she created | She created a machine that runs on perpetual growth | no
+  - Characterization | She has no desire to invade Equestria and holds ponies as pathetic and beneath her | She doesn't want to invade Equestria (she views ponies as pathetic and beneath her) | no
+  - History | If conquest stops, her own elites will cannibalize her, so she must keep it going | if she stops the conquest, her own elites will cannibalize her | no
+  - Characterization | She has become a hostage to the Meritocracy she built, trapped by her own creation | She becomes a hostage to the very Meritocracy she built | no
+- goals:
+- whole: The note sets out Chrysalis's trapped position in the sequel, where her victory turns into being hostage to a growth-driven regime, and it names no effect the reader is meant to feel or take away.

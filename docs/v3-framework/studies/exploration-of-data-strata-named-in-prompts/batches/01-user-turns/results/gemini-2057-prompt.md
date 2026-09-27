@@ -1,0 +1,6 @@
+- sources:
+  - the stuff about escape hatch or loosening requirements (the model's previous suggestions) | do not use; disregard these suggestions | Ignore the stuff about escape hatch or loosening requirements | referred-to
+  - the system instruction pasted below (Task and Rigid Semantic Protocol) | the working draft to be refined, with its strict requirements kept as written | give me some refinement for the system instruction | first-named
+  - the others (the other system instructions that begin with a persona) | comparison point for deciding whether this instruction should also open with a persona, not a rule | Should I give it a persona at the beginning like the others | referred-to
+- order:
+- about: The user rejects the model's escape-hatch and loosening suggestions, then asks for refinement of a pasted strict system instruction and whether to open it with a persona like their other prompts.

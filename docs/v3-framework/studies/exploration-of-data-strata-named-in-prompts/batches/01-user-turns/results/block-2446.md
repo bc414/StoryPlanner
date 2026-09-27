@@ -1,0 +1,5 @@
+- sources:
+  - your current understanding of the Tzinacatl new foundation | the model's present picture is to be audited, sorting what the user settled from what is underdeveloped or inconsistent | What parts of the Tzinacatl new foundation in your current understanding | referred-to
+  - things you filled in but I didn't sign off on | the model's own additions that the user has not approved, to be flagged as unapproved and provisional rather than settled | came from things you filled in but I didn't sign off on yet | referred-to
+- order:
+- about: The user asks the model to audit its own picture of the Tzinacatl foundation, separating what it invented without approval from what the user settled and pointing out gaps and inconsistencies.

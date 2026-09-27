@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten (world ontology, god-mode rule of the universe) | every pony can do the full range of their species' magic: unicorns any spell, pegasi any weather manipulation and flight technique, earth ponies growing anything | The true ontology for pony magic... every pony is capable of the full range of their species' magic; Unicorns can cast any spell, pegasi..., earth ponies can grow anything | outside
+  - NarrativeArchitecture | the truth is to be held back and revealed at the end of the story | to be revealed at the end | no
+- goals:
+- whole: The note states the underlying world law that every pony can use the full range of their species' magic, and marks it as a truth held for the story's ending reveal.

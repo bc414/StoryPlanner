@@ -1,0 +1,7 @@
+- sources:
+  - the report (the model's previous output) | treat as incomplete, missing critical insights; keep as the base and extend it rather than discard it | This seems to be missing some critical insights. ... Extend the report | referred-to
+  - the author's own account from memory of the PNdA and PRN history | treat as true and add as corrections to the report: PNdA later made asset specific and snobbish, the rugged individualists were the PRN of the 1st revolution also led by Verany, and Coltbert converted Verany's ideology | At some point I actually made the PNdA asset specific and snobbish too | first-named
+  - v1 archive | include in the report as an additional source to be searched and drawn on | Extend the report to v1 archive | referred-to
+  - conversations | include in the report as an additional source to be searched and drawn on | and conversations as well | referred-to
+- order:
+- about: The user says the model's report on the PRN-to-PNdA conversion misses key points, corrects it from their own memory of how the factions and Verany's ideology changed, and asks the model to widen the report to cover the v1 archive and conversations.

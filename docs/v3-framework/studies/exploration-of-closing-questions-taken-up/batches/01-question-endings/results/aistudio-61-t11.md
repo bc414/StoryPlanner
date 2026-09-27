@@ -1,0 +1,8 @@
+- questions:
+  - Do the Tall Tale workers resent working under Comet Shine's Cutie Mark logo, or do they see it as a shared protective coat of arms? | answered | Neither. The workers did not buy in for elite status. They reached a consensus on their own that Star Energy stands for Tall Tale, and Tall Tale must prove itself better than Las Pegasus and its firms, casinos and tycoons. | they organically reached a consensus that Star Energy = Tall Tale
+  - Once Applejack accepts that both SAA and Star Energy are legitimate, what regulatory or structural mechanism will her Republic use to penalize a Poseur monopoly like Gilded Trust without outlawing a Harmonic cooperative? | ignored | The user turn does not mention Applejack, Gilded Trust or any regulation. | none
+- shape: The user corrects the model's premise. The model said workers are paid in status and feel part of an elite vanguard. The user replaces that with a different cause: a bottom-up civic identity built on an old regional rivalry. It answers only the first question and leaves the regulatory question alone.
+- settles:
+  - The workers accept the Star Energy brand because they themselves agreed it is the same thing as Tall Tale. It is not a wish to feel elite or a status payment. | they organically reached a consensus that Star Energy = Tall Tale
+  - Tall Tale feels it must prove its superiority over Las Pegasus and all its firms, casinos and tycoons. | Tall Tale must prove superiority over Las Pegasus and all its various firms/casinos/tycoons
+  - A centuries-long cultural rivalry between Tall Tale and Las Pegasus exists, framed as harvest against casino. | centuries long rivalry in culture (casino vs harvest)

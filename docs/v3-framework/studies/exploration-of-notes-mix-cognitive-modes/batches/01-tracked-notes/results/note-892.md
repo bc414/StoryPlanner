@@ -1,0 +1,5 @@
+- claims:
+  - History | Baltimare is the main port for the drug tribes' trade, a standing fact of the world | Baltimare is the primary port for the drug tribes | yes
+  - History | Corrupt ponies in Baltimare have always facilitated the drug trade, with connections to Skyfall | always had corrupt ponies facilitating it with connections to Skyfall | yes
+- goals:
+- whole: The note reports as world history that Baltimare is the drug tribes' main port and has long had corrupt ponies with Skyfall connections enabling the trade, without naming any event tied to the party or any reader effect.

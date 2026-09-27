@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks why the old Nightmare Moon climax worked for the Stagnation chapter, then builds on the model's revised history with their own proposal (Luna's meltdown leading to channelled ambition, then the 930 petitions used as Celestia's answer to Applejack's accusations) and asks for an analysis of what the chapter should now contain.

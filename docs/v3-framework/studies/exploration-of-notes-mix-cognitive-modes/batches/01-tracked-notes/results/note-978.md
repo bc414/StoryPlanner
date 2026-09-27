@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Applejack labels the Gilded Bits technology with the name "Gilded Trust's Gilded Grift" aloud to the debate audience, an action the reader sees happen in the scene | Applejack dubs it "Gilded Trust's Gilded Grift" to the debate audience | yes
+- goals:
+- whole: The note stages what the reader sees the technology do in the debate: Applejack publicly names Gilded Bits as Gilded Trust's grift before the audience.

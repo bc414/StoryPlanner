@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Thug Economy analysis and asks a new methodological question about whether to read the iterative Fiat conversation from start to end or end to start when populating their ground-truth story plan, without saying anything in the model's turn was wrong.

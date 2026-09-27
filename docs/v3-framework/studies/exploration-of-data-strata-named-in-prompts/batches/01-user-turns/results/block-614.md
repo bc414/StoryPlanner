@@ -1,0 +1,9 @@
+- sources:
+  - note track for the codex entry or character's backstory | home for the historical record of the time before TLTT; canonical place for that pre-story truth | the note track for the codex entry or character's backstory is historical record before TLTT | referred-to
+  - "historical record" field in the payload entity | home for the historical record during TLTT; already holds nearly all of the current notes in that entity, and the Stage 1 record should go there | is the historical record during TLTT. And that is currently 95% of my notes | referred-to
+  - synopsis fields | currently cluttered with loose "text in a bucket" that should be moved out to its proper home; a synopsis is to be put together from the other fields afterwards | plenty of "text in a bucket" that currently sits in the synopsis fields | referred-to
+  - plot point notes | place for plot-point-specific notes and material moved out of plot points | There can be plot point specific notes too | referred-to
+  - payload entities | additional home for the Stage 2 experience design, alongside the plot point fields | experience design seems to also belong to the payload entities | referred-to
+  - plot point field for reader state, stakes and outcome and FID hooks | existing home for Stage 2 experience design content | in addition to the plot point field for reader state, stakes and outcome and FID hooks | referred-to
+- order:
+- about: The user pushes back on the model's stage-to-field mapping, saying where Stage 1 historical record and Stage 2 experience design should live among the existing entity fields, and framing the coming work as decluttering plot point synopses into those homes.

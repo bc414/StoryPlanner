@@ -1,0 +1,4 @@
+- claims:
+  - Canon | In the source game (EaW), this technology exists as a researchable special project, a constraint drawn from established source material | In EaW, it is a researchable special project | yes
+- goals:
+- whole: The note records how the source canon (EaW) presents the Magical Supply Organization technology, as a researchable special project, to anchor the story's version of it.

@@ -1,0 +1,4 @@
+- sources:
+  - YouTube video at the link youtu.be/0tLEszJs7hc | the material handed to the model to work from; the turn gives no instruction, so no weight beyond being the item supplied | Https://youtu.be/0tLEszJs7hc?si=QrksTh2gsnQBSx70 | first-named
+- order:
+- about: The user sends only a bare YouTube link, with no words of instruction, handing the model a new video to process.

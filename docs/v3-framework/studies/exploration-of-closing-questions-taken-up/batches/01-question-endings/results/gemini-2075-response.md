@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants the duplicated notes consolidated into a single cohesive encyclopedia-style entry with the fluff removed and the unique world-building kept | no user turn | none | none
+- shape: none
+- settles:

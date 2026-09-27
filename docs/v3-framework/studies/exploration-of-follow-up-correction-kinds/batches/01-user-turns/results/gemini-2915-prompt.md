@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks the model to probe the finished magic system for further edge cases and ways to cheat it, moving on with a new question and leaving the previous answer unchallenged.

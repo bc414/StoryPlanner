@@ -1,0 +1,10 @@
+- questions:
+  - How does Applejack address the Canterlot ponies who lived through the Paradrop when she begins her presidential campaign? | ignored | Nothing on the campaign or on Canterlot's trauma; the turn goes back to Mount Aris and Obama. | none
+  - If Gilded Trust cites the martial law and neighbor-on-neighbor violence as proof the Republic brings chaos, how does Applejack reframe that trauma as civic birth pangs rather than a failure of leadership? | ignored | Not taken up; the user does not touch the Gilded Trust rebuttal or the reframing. | none
+  - How does Applejack dismantle the comfort of Celestia's White Peace in the debates without sounding like a warmonger? | ignored | Nothing on the White Peace or the debates. | none
+  - How does she show the exhausted median voter that a frozen conflict with Chrysalis costs more in the long run than finishing the war? | ignored | The turn never reaches the electorate or the cost argument. | none
+  - none
+- shape: Redirects. The user sets aside the model's closing questions and returns to the opening of the timeline. They add a fact about the work's origin: Mount Aris was inspired by the Siege of Mount Sinjar, and the Storm King's horde resembles ISIS. They ask the model a real-world history question about Obama's intervention and the pressure against it. They then ask for a synthesis of their earlier Obama analysis, Mount Aris as the timeline's start, and this original inspiration. The turn is an instruction plus a factual query, not an answer.
+- settles:
+  - Mount Aris was originally inspired by the Siege of Mount Sinjar, and the Storm King's screaming warlord horde is modeled on ISIS. | "originally inspired by the Siege of Mount Sinjar"
+  - Mount Aris as the shattering of the nursery still stands as an allegory for the 2008 financial crisis, alongside the Sinjar/ISIS origin. | "seems to fit as an allegory to the financial crisis of 2008, but also"

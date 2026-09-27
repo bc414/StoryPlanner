@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want to explore how Crack Lightning or the Hippogriff resistance reacts when the Storm King's army disintegrates into infighting after the airships fall? | ignored | The user does not take up the offer. They move to a new question about what weapon level the Storm King's horde should have. | none
+- shape: Redirects to a new question. The user drops the model's offer and asks the model to propose a weaponry level for the horde. They give three dated anchors (Grover 3's enlightenment, Grover 4's gilded age, the Mount Aris defense) as the timeline to fit it to.
+- settles:
+  - The defense of Mount Aris by modern volunteers takes place in 1006 ALB. | "defense of Mount Aris by modern volunteers happens in 1006 ALB"
+  - Grover 3's enlightenment began in 854 ALB. | "Grover 3's enlightenment began in 854 ALB"
+  - The gilded age under Grover 4 begins around 914 ALB. | "gilded age under Grover 4 begins around 914 ALB"

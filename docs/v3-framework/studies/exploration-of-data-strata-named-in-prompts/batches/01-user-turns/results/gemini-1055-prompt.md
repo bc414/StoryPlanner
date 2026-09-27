@@ -1,0 +1,4 @@
+- sources:
+  - the idea / the previous proposal in this conversation (Chrysalis's economic weaponization turned back on her, with Tribe D refining the drug) | build on it and accept it as the base, but amend it so Tribe D already knows how to make the drug and the plan is not a deus ex machina | This adds an extra layer to the idea; To make this not a deux ex machina, I think Tribe D already knows how to make the drug | referred-to
+- order:
+- about: The author accepts the model's economic-counter-attack proposal and revises it by supplying a dated history of Chrysalis's drug market floods and Tribe D's existing artisan pipeline, so that Applejack, Star Energy and the Wonderbolts only need to supply transport planes, red love and equipment.

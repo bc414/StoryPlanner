@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to learn how to enable plugins that give more advanced document statistics in Notepad++? | ignored | Nothing about plugins. The user reports the word count they got and asks a different question. | none
+- shape: Redirects. The user reports the result of the word-count check (300k words) and uses it to ask a new question: whether that size explains why the standard chat gives poor answers after only two turns. The turn takes up none of the model's offer and moves from Notepad++ instructions to a diagnosis of the chat's behavior.
+- settles:
+  - The document being counted is currently about 300k words long | It's currently 300k words

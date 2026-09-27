@@ -1,0 +1,7 @@
+- sources:
+  - Faust's early writing of Twilight (the pre-corporate-mandate Twilight Faust wrote) | mine it for distinctive traits lost over time that should return, but skip traits she legitimately grew out of | distinctly in Faust's early writing which was lost over time | referred-to
+  - Hasbro corporate mandates on later Twilight writing | treat traits added under them as imposed rather than earned; separate them from real character growth and do not carry them forward as canon development | things that were thrown in to justify mandates | referred-to
+  - Testing Testing 1 2 3 (episode) | accept as genuine growth showing she learned to be a good teacher, so being a bad teacher is not something to restore | She learned how to be a good teacher in Testing Testing 1 2 3 | referred-to
+  - Games Ponies Play (episode) | accept as evidence she was already growing out of the anxiety spiral with Cadance's help, so the spiral is not something to restore | growing out of it with help from Cadance in Games Ponies Play | referred-to
+- order:
+- about: The user affirms their reading of the story's opening beats as Twilight's return to her early Faust-era self, then asks the model to identify which early-writing traits besides being a scientist should return, while separating earned character growth from traits imposed by Hasbro mandates.

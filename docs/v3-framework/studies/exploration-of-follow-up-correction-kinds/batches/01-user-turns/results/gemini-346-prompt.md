@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the model's point about Western hypocrisy on liberty as a question to check their understanding, then asks for a full account of the New Deal coalition and whether the problem lay in domestic versus foreign policy or in the British and French colonies.

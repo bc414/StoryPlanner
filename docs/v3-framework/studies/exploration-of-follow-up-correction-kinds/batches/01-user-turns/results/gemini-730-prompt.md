@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's explanation of NotebookLM's underlying model to ask a new question about whether the tool is useful for literary analysis of a story plan.

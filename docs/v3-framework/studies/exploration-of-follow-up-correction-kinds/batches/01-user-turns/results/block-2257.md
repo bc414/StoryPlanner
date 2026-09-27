@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the reflective thread about their methodology and asks for a new, up-to-date research summary on evidence for and against claims that Anthropic degraded its models after launch, without commenting on or challenging the preceding reply.

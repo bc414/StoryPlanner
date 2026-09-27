@@ -1,0 +1,5 @@
+- claims:
+  - History | In Celestia's post-scarcity society, utility magic such as telekinesis and cloud-moving is valued while destructive magical output is considered useless | In Celestia's post-scarcity society, utility magic (telekinesis, moving clouds) is valued, while destructive output is useless | no
+  - History | In Zebrica the Storm King regarded her broken-horn "disability" as an asset, seeing in her a walking artillery piece of terror | But in Zebrica, the Storm King looked at her "disability" and saw a walking artillery piece of terror | no
+- goals:
+- whole: The note reports, as in-world fact, the contrast between Equestria's valuing of utility magic and the Storm King's valuing of Tempest's destructive power, without staging anything on the page or stating a reader effect.

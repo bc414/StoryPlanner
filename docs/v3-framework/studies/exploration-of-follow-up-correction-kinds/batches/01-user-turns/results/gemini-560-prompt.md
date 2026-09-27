@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model presented the story as ending on Grover's history book and the newspaper clipping, with Chrysalis arrested as a fraud. The user gives a different ending: an invasion of the hives, a pink love drop on the capital, and Chrysalis fleeing. | "the story ends with an invasion of the hives and a pink love drop on the capital, and Chrysalis runs" | flat restatement of the ending, opened with a clarifying phrase and no apology or reason
+  - reading of the plan | The model said the Northern "Forever War" goes on, fed by the Stalliongrad ammo deal, and built its "original sin" section on that. The user says the war is ended through love donations and food donations. | "The forever was is ended via love donations and food donations" | flat counter-statement, with a pointer to the chapters "Resilience" and "Grace" as the place to check
+- about: The user restates how the story actually ends and how the Forever War is resolved, and points the model to the two chapters that show it.

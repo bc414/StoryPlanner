@@ -1,0 +1,5 @@
+- claims:
+  - Characterization | Grover VI is neither sickly nor hedonistic, asserted as the truth of his makeup at the start | Grover VI is not sickly ... and not hedonistic | yes
+  - Characterization | His father Grover V is sickly and his grandfather Grover IV was hedonistic, overindulging in chocolate, giving the family pattern Grover VI is set against | like his father (Grover V) ... like his grandfather (Grover IV, who ate too much chocolate) | yes
+- goals:
+- whole: The note defines Grover VI at the start of the story by contrast, asserting that he lacks the sickliness of his father and the hedonism of his grandfather.

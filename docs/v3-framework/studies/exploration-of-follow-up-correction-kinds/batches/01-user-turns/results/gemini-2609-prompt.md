@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user builds on the model's hormone analysis by proposing that Fleur Bloom explain it to Twilight in a specific scene, sets out a mapping between Red/Pink Love, Lion/Eagle and the hormones, and asks the model to review the story plans and synthesize.

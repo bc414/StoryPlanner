@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model took the request to be about building a C# / WPF integration with Vertex AI and offered a C# snippet, when the user wanted only a chat interface rather than code integration | I don't want C# integration | flat rejection of the direction, stated bluntly without apology or softening
+  - reading of the request | The model answered with an API, JSON-schema and pipeline-automation design (bucket categorizer, SQLite saving), when the user wanted an interactive chat tool with settable system instructions, a visible token count, and reliable reading of their file each turn | I just want a chat interface, but one where I can set the system instructions and view the token count | flat restatement of the actual requirements as a list of needs, given as the alternative to what was offered
+- about: The user rejects the C#/API-integration direction and restates that they want a plain chat interface with editable system instructions, token count display, and guaranteed re-reading of their file on every question.

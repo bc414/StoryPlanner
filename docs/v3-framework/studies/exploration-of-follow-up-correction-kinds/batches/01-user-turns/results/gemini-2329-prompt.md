@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the French-terms discussion and opens a new worldbuilding question about how Coltbert could build a passionate culture in a newly founded Royal Aquileian Fleet, reasoning aloud through the crew-composition problem and proposing that a closed ship system may be the key difference from parts 1 and 3.

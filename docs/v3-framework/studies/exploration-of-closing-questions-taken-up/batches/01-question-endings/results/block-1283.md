@@ -1,0 +1,5 @@
+- questions:
+  - When Starlight reunites with Sunburst and learns Canterlot expelled him for his curiosity, how does that force her to re-evaluate her hatred of Asset Specificity? | ignored | none | The turn moves to real-world Marxist leaders and never mentions Sunburst or Asset Specificity
+  - During the war, how does Starlight critique Applejack and Comet Shine's Harmonic Capitalism, and does she see Star Energy as a savior or a prettier version of the exploitation she tried to stop? | ignored | none | The turn never mentions Harmonic Capitalism, Star Energy or the war
+- shape: Sets aside the model's proposed questions and redirects to a new request for real-world history. The user wants a breakdown of Marxist leaders who changed their minds, and asks whether sincere vanguard figures like Lenin and Trotsky knew they were an elite. It excludes cynical liars like Stalin. The link to Starlight is implied but not stated.
+- settles:

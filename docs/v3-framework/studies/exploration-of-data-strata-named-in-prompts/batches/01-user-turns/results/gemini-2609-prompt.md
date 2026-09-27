@@ -1,0 +1,4 @@
+- sources:
+  - my story plans | model is told to review them and synthesize the new Fleur/Twilight explanation of Red Love and Pink Love with what is already planned | Review my story plans and synthesize | referred-to
+- order:
+- about: The author proposes that Fleur Bloom explain the hormone science to Twilight in the Passion chapter using Red Love and Pink Love mapped explicitly onto Lion, Eagle, magic, friendship and adrenaline/dopamine versus oxytocin, and asks the model to review the story plans and synthesize this.

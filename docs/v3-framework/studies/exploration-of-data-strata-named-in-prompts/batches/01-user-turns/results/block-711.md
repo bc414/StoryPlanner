@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about whether a markdown export meant for an LLM should carry a separate text field explaining each note track or let an existing field serve that purpose as well, and points at no body of material for the model to use or avoid.

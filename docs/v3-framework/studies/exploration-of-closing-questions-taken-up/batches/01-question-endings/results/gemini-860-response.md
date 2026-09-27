@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want the model to refine the first letter's content now, given the telegraph as delivery method? | ignored | The user turn doesn't say yes or no. It moves on to a further idea for the letters. | none
+- shape: The user builds on the letters idea by adding a new plot element of their own (jealousy and dramatic irony in the correspondence) and explains what it is for. They neither accept nor decline the model's offer of a next step. It reads as the user carrying on with their own design plan.
+- settles:
+  - The letters will carry a thread of jealousy. Applejack writes about Mali a lot and Twilight writes about Fleur a lot, because each is building their part of the new republic with that side character. | Applejack talks about Mali a lot and Twilight talks about Fleur a lot
+  - The jealousy is meant to create dramatic irony that pays off in the reunion at the end. It gives a tension phase without real tension between the two. | creates the dramatic irony that creates the best reunion

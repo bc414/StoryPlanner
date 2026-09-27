@@ -1,0 +1,4 @@
+- sources:
+  - I know MLP's animators were Wildbrain in Vancouver | author's own stated knowledge, offered as a known fact for the model to build on when answering about other shows' writers and animators | I know MLP's animators were Wildbrain in Vancouver | first-named
+- order:
+- about: The user asks a set of factual questions about The Hub's launch alongside MLP FiM, the origins of other shows' writers and animators, and the business models of Cartoon Network, Nickelodeon and Disney, while stating one fact from their own memory.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to check current sign-up bonus offers for a specific Chase card, to see if their referral link offers the best deal? | ignored | Says nothing about Chase, cards or bonuses; moves to an unrelated request about their story plans. | What breaks FiM canon in my story plans?
+- shape: Drops the credit card referral topic without comment and starts a new request about the story. It asks the model to analyze which of the user's story plans break FiM canon and what purpose those breaks serve. It is a fresh task, not an answer to the model's offer.
+- settles:

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up factual question about the real income and occupational makeup of WSB users, moving from the model's character-mapping to the underlying data without stating that anything the model said was wrong.

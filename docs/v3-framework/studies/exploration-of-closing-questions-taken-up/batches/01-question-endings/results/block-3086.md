@@ -1,0 +1,6 @@
+- questions:
+- shape: The user pushes back on the audit and puts three questions of their own to the model. They trace their "growing up" language to a song in the MLP movie, and they propose keeping "grew up and left" while dropping "nursery". They recast the overprotective-mother framing as a belief held by characters and readers, which the story later undermines, and ask whether that fits a materialist ground truth. They then ask whether the audit missed other terms that bled in from the early conversation. The model turn put no question to the user, so nothing is answered, refused or ignored.
+- settles:
+  - The "growing up" language comes from the movie song "Open Up Your Eyes", which Tempest Shadow/Fizzlepop Berrytwist sings to Twilight. In TLTT this happens at the Battle of Mount Aris, where the story breaks from canon | rooted in the song "Open up your Eyes"
+  - The overprotective-mother view of Celestia is the reader's prior belief and what Fleur and Coltbert say. The story later undermines it when Celestia explains her own reasons (proposed by the user and put to the model as a question, not stated as final) | should be the reader prior belief and what Fleur and Coltbert say, to be undermined in-story later
+  - The Stagnation of Harmony lasted 80 years, not 1000 | stagnation of harmony was 80 years instead of 1000

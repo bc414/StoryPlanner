@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a tooling question, checking whether Claude Code suits tech-debt analysis because it can run the same git diff and blame tools a UI like TortoiseSVN offers, and does not point the model at any body of data to use or avoid.

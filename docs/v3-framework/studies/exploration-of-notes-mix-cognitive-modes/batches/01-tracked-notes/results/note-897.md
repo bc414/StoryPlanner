@@ -1,0 +1,5 @@
+- claims:
+  - History | Kemerskai reacts with appall to the manifesto and writes that it badly misinterprets him | Kemerskai is appalled and writes that it is a huge misinterpretation | no
+  - History | Kemerskai states that he imposed martial law and a command economy only to solve resource scarcity and promises to restore elections as soon as possible | He only instituted martial law and command economy to solve the resource scarcity, writing that he will restore elections as soon as possible | no
+- goals:
+- whole: The note reports, as an in-world event, Kemerskai's written response to the manifesto, in which he rejects its reading of him and justifies his martial law and command economy, though it sits in a track meant for planning the reader's experience.

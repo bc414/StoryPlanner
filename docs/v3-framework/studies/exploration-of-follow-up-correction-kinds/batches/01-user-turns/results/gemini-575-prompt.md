@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's Nazi-German framing of the Terror State (forced-labor parallels, German titles) is set against the user's stated lore, in which Chrysalis's state, though copied from Herzland, is closer to imperial Japan than to Nazi Germany | "her state is actually more similar to imperial Japan than Nazi Germany, right?" | Implicit, put as a tag question that asks for confirmation and also gives the lore as the reason for the German names; no explicit statement that the model was wrong
+- about: The user pushes back on the Nazi-centered framing by pointing to lore that puts Chrysalis's state nearer imperial Japan, asks for a comparative analysis of the German and Japanese fascist states, and asks whether Mussolini's Italy was mild by comparison.

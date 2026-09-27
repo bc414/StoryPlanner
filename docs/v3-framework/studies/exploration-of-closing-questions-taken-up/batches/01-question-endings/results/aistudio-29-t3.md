@@ -1,0 +1,8 @@
+- questions:
+  - How does the Aquileian Republic handle livestock and slaughter logistics without recreating the Predator's Dilemma (commodified living creatures) that its Harmonic Capitalism is meant to abolish? | ignored | none. The user turn goes to correcting the diet–love link and proposing supplements, and never mentions livestock or slaughter. | none
+  - How will conservative Earth Ponies in Tall Tale react when their magically weathered crops are exported to Griffonia as filler or fodder for meat-heavy diets? | ignored | none. Nothing is said about crop exports or Earth Pony reactions. | none
+- shape: The user corrects the model's premise that diet fuels Red and Pink Love, then offers a different mechanism (digestive supplements) and adds a motive (terroir-obsessed scientists and farmers). It answers neither closing question and instead redirects the worldbuilding.
+- settles:
+  - Red Love (Ambition) and Pink Love (Charitostatic) are not directly tied to diet. Griffons can use charitostatic magic and ponies can be very ambitious. | I don't think pink and red love are directly tied to diet
+  - Aquileia has digestive supplements, possibly magically enhanced, that let ponies and griffons share culinary traditions, comparable to lactase pills for lactose intolerance. | digestive supplements (perhaps magically enhanced)
+  - Aquileian scientists and farmers obsessed with terroir want ways to share food across species and study the biology of why ponies struggle with meat and griffons with plant nutrients. | Aquileian scientists and farmers who are obsessed with terroir

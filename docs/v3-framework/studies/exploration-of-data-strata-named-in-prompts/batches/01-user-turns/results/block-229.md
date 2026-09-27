@@ -1,0 +1,5 @@
+- sources:
+  - these drafts of paratext | material to be analyzed for insights; the object of the request, not something to be judged against another source | analyze these drafts of paratext | first-named
+  - the existing discussion | the earlier conversation is the frame the drafts are to be related to and connected with | how they relate to the existing discussion | referred-to
+- order:
+- about: The user asks the model to analyze newly supplied drafts of paratext and to say how they connect to what has already been discussed in the conversation.

@@ -1,0 +1,11 @@
+- questions:
+  - Once Applejack learns Chrysalis built her empire as a Skyfall "Repo Mare", does she see Chrysalis less as a mythical monster and more as a rational product of unregulated capitalism? | ignored | Says nothing about Applejack's view. It rejects the Repo Mare backstory the question rests on: Krista is a teenage spreadsheet prodigy, not a thug. | none
+  - How does EEEE! defend the unbridled Manehattan factories once the Referendum passes, and does it have to blockade the ports against Skyfall Repo ships, which would force a two-front war? | ignored | Nothing on Manehattan's defence, Skyfall Repo fleets or a two-front war. The turn moves to Chrysalis's abilities and Flowing Current's backstory. | none
+- shape: Corrects the model's lore, then supplies a replacement. It rejects the Repo Mare picture of Krista/Chrysalis: she is a teen spreadsheet prodigy, she cannot teleport, and she would steal Herzland schematics rather than use Skyfall machinery. It then rewrites Flowing Current's backstory and arc in the user's own version. Neither Socratic question is taken up.
+- settles:
+  - Krista Sterling is a school-aged teenage spreadsheet prodigy, not a thug or hit-mare. | "school-aged teenage spreadsheet prodigy, not a thug"
+  - Chrysalis cannot teleport objects. Her black market strength is limited to shapeshifting and covertness. | "Chrysalis cannot teleport stuff"
+  - Chrysalis would not build on Skyfall machinery, which is going to fall apart. She steals schematics from Herzland instead. | "steal schematics from Herzland"
+  - Flowing Current hated the DRM-locked turbine. He learned of the contract to repatriate it and saw he could join a violent heist and get caught with a gun for a free trip to New Mareland. Instead he blew up the turbine and was caught doing that. | "decided to blow up the turbine and get caught doing that instead"
+  - In New Mareland Flowing Current finds that everyone uses DRM and is humbled. | "they all use DRM, is humbled"
+  - Flowing Current returns to Equestria by cloud carrier and takes care of foals. | "takes the cloud carrier back to Equestria while taking care of foals"

@@ -1,0 +1,6 @@
+- sources:
+  - My lore (Tzinacatl jungle with magical plants from ancient windigos crashing into it, refined into clean red love drugs for the global market) | treat as established canon and the base for the answer | "My lore says the Tzinacatl jungle has magical plants" | referred-to
+  - panzer haut is now a pink love refinement instead of red (the change just made in this conversation) | treat as the current settled premise the question builds on, replacing the earlier red-love version | "Now that panzer haut is a pink love refinement instead of red" | referred-to
+  - the historical drug trade | a real-world pattern the Tzinacatl trade might mirror; the user is undecided whether to follow it | "to reflect the historical drug trade" | referred-to
+- order:
+- about: The user restates their Tzinacatl jungle lore and the new pink-love panzer haut change, then asks how the Tzinacatl red love trade should split between amphetamines and opioids, and whether to keep opioids to echo the real historical drug trade.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up about whether a $300 Google Cloud sign-up credit could be used to get full-document handling, raising a possible paid route beside the free AI Studio option without disputing anything the model said.

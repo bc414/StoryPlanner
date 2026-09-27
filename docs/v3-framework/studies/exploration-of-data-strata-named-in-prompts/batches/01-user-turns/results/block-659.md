@@ -1,0 +1,13 @@
+- sources:
+  - system instructions ("no tropes, this is a materialist historicist world") | treated as an effective fix that largely stopped LLMs projecting monster-invader tropes onto changelings; kept in force | much less of a problem after putting | referred-to
+  - changeling biology note ("they do NOT have a hive mind") | treated as a refuting world-truth note that corrects an LLM hallucination; the model to take it as true | why I put a note in changeling biology | referred-to
+  - LLMs' own general knowledge of popular canon (e.g. cutie marks appear when a pony discovers their special talent) | undecided whether to restate it in notes; the author guesses only points that show up as hallucinations need a refuting note | only things that come up as hallucinations | referred-to
+  - planner notes exported to markdown | previously everything was converted, now judged unhelpful; what to include is an open question, selected case by case | Previously I was converting everything | referred-to
+  - the whole planner data sent to Gemini 3.1 Pro in AI Studio | for open-ended questions and world expansion, give it all so it sees the whole picture; answers are inspiration, not word-for-word | send everything to Gemini 3.1 Pro | referred-to
+  - pruned planner context sent to Claude | for focused questions, cut to only what is relevant to the question, work block and entities | context needs to be pruned to just what is relevant | referred-to
+  - flag description (the flag question appended to the note) | do not include in exports; to be separated from the note text | flag description does not go | referred-to
+  - previous planning on authorial directives | treated as possibly outdated and conflated across categories; a new analysis is wanted | Previous planning seemed to indicate | referred-to
+  - authorial directives (note category) | inclusion undecided, to be re-analyzed now that categories are separated | authorial directives shouldn't go in | referred-to
+  - allegories and social commentary (note content) | considered valuable to include in certain contexts, decided case by case | allegories and social commentary are valuable | referred-to
+- order:
+- about: The user answers the model's field discussion by asking whether to delete obsolete notes, what canon and refutation notes belong in exported context, what to include in markdown exports for Gemini versus Claude, what to call meta-observations, and what macro architecture notes mean across stories.

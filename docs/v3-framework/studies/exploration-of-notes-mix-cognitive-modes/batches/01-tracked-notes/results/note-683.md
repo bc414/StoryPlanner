@@ -1,0 +1,6 @@
+- claims:
+  - Characterization | Asserts as truth that Thorax is not a soft bug, correcting a misreading of who he is | He is NOT a soft bug | yes
+  - Characterization | Asserts that he is a jaeger, a fighter type, bonded with Pharanx as his brother | He is a jaeger alongside his "brother" Pharanx | yes
+  - History | Reports that he and Pharanx were the top of the class in Chrysalis's newly founded drone kindergarten | They were the top of the class of Chrysalis's brand new drone kindergarden | no
+- goals:
+- whole: The note fixes Thorax's starting identity as a hard jaeger rather than a soft bug, tied to Pharanx by a brotherhood and a shared past as top of Chrysalis's first drone class.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Chrysalis mastermind-or-poseur analysis to a new question about how to organize and justify the structure of their scattered notes on her, without disputing anything the model said.

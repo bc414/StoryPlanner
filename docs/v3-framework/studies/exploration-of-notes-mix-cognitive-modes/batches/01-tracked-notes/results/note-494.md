@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | Early in reading order, dragons are presented as a chaotic, destructive natural force cut off from the ponies' moral struggle, which sets the starting point of the reader's changing understanding | dragons are initially a force of nature - chaotic, destructive, and ultimately disconnected from the moral struggle of the ponies | yes
+- goals:
+  - The reader first takes dragons to be an amoral, impersonal natural force with no part in the ponies' moral struggle | WorldInference | initially a force of nature - chaotic, destructive, and ultimately disconnected from the moral struggle
+- whole: The note sets the opening stage of the reader's understanding of dragon biology, which is dragons seen as a chaotic natural force apart from the ponies' moral struggle.

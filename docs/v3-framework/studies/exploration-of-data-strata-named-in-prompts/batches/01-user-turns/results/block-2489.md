@@ -1,0 +1,4 @@
+- sources:
+  - this framework | use it as the lens through which MrBeast is judged; apply it as the evaluative standard | "under this framework" | referred-to
+- order:
+- about: The user asks the model to give a candid evaluation of MrBeast by applying the author's already-discussed framework.

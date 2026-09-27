@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up request to widen the previous answer into a full 2022–2026 parameter-count comparison across ChatGPT, Gemini and Claude, without saying anything in the model's turn was wrong.

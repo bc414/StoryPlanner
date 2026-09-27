@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats a new plot option, having Rarity join Applejack's group in the Tzinacatl jungle during the Extraction and Tempest chapters, and asks the model to consider it without pointing to any body of material.

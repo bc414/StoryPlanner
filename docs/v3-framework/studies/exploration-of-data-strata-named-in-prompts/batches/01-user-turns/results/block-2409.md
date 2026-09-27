@@ -1,0 +1,6 @@
+- sources:
+  - Metzli is self aware but doesn't know what to do (the earlier framing of Metzli in this conversation) | superseded; replace it with the new refinement | in place of "Metzli is self aware but doesn't know what to do" | referred-to
+  - the author's new refinement (traditionalist tribes ended flower wars a year ago and are preparing for an existential war; drug tribes outside the alliance and suspected of collaboration; Aquileian-aligned medicinal tribes outside it and serving the Equestrian Army) | take as the new premise of the setup and analyze how it changes everything | "here's a better refinement"; "How does this change the whole setup?" | first-named
+- order:
+  - the author's new refinement | over the earlier framing of Metzli as self aware but not knowing what to do | "a better refinement in place of"
+- about: The user replaces the earlier framing of Metzli's psychology with a new political setup, in which the traditionalist tribes are mobilized for a fight to the death while the drug tribes and the medicinal tribes stay outside the alliance, and asks for a comparative analysis of how it changes the whole arc.

@@ -1,0 +1,10 @@
+- sources:
+  - TLTT, the outlier that goes first and gives externalized views of all the others | treat as the first-read story whose backstory and characters' own talk about what events meant supply the external view that later stories build on | In TLTT, the backstory is revealed and the characters talk about how it changed them | referred-to
+  - Chrysalis's story, the interior view of her rational reasoning for corrupting what Coltbert and Minette built | treat as the story that needs to be read from within, after an external view of her has been given, with later stories building on it | important to see that rational reasoning for the corruption from within Chrysalis | referred-to
+  - Applejack's Parents' story and Thorax's story, which look at what Chrysalis built and corrupt it for good | treat as stories that come after Chrysalis's story and build on top of it; the user offers this as a pattern to be tested, not as settled | After Chrysalis's story, we get stories that build on top of that? | referred-to
+  - The Battle of Mount Aris directly dramatized | treat as firmly held: it has full weight only once TLTT's external account of it has been read, so it goes after TLTT | I firmly believe the Battle of Mount Aris directly dramatized must come after TLTT | referred-to
+- order:
+  - TLTT over the Battle of Mount Aris dramatization | must come after TLTT
+  - Chrysalis's story over Applejack's Parents' story and Thorax's story | After Chrysalis's story, we get stories that build on top of that?
+  - TLTT over all the other stories | TLTT is the outlier of the pattern, going first
+- about: The user proposes a pattern in which stories get an externalized view before their interior telling, with TLTT first, Chrysalis's interior story after external views of her, and Applejack's Parents, Thorax and a directly dramatized Battle of Mount Aris coming after, and asks the model to articulate the pattern precisely and explain why it shapes the reader's experience and what the author is aiming for.

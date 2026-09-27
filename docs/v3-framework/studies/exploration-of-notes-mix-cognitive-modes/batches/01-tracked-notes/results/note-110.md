@@ -1,0 +1,4 @@
+- claims:
+  - History | The feud caused the Apple family's earth pony magic to weaken, because they lost pride and belonging | The feud weakened their earth pony magic due to loss of pride and belonging | no
+- goals:
+- whole: The note states as a plain fact of the world that the feud weakened the family's earth pony magic through lost pride and belonging, without designing any inference for the reader.

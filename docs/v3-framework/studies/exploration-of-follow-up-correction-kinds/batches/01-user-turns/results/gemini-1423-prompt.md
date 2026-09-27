@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on to a new question about how often the West abandoned Poland historically and how dependent Poland is on it now, without disputing anything in the statistical breakdown.

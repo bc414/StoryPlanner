@@ -1,0 +1,5 @@
+- questions:
+  - When Starlight learns the Skyfall Arcane Cartels were Chrysalis's shell companies building the Love Harvesters, how does that force her to re-evaluate the Manifesto, and does she see Marks as unknowingly critiquing Changeling infiltration? | ignored | The user turn says nothing about Starlight, the Cartels, Chrysalis or the Manifesto. It moves to real-world history. | none
+  - How do Flowing Current and the EEEE! movement in Manehattan keep their skilled union members from becoming a labor aristocracy that abandons the unskilled refugees? | ignored | Nothing about Flowing Current, EEEE!, Manehattan or the unions. The turn talks about Trotsky, Lenin and Stalin. | none
+- shape: The user drops the model's proposed thread and makes a general remark about real-world history. They judge Trotsky and Lenin to be villains, though less so than Stalin, and suggest the revolution may just be capitalists replacing aristocrats. It reads as a side reflection or an opening for a new topic. It does not answer, correct or instruct the model, and it does not link the remark to the story.
+- settles:

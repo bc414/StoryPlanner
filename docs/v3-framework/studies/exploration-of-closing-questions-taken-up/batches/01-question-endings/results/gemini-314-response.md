@@ -1,0 +1,13 @@
+- questions:
+  - Does the sovereign-enclave (San Marino) status for Bronzehill feel like the right balance for the world? | partly answered | The user does not say yes or no to the enclave. It corrects the premise about where Grover VI grew up, then proposes a different route. The GR legislates self-determination for Bronzehill, and Bronzehill then joins the republican pact, with the Equestrian Republic's entry as the trigger. | Bronzehill joins the republican pact as well
+- shape: Corrects the model's factual premise about Grover VI's upbringing and gives the real timeline of Grover V and VI. It then offers its own plan for Bronzehill's status, which reworks the model's enclave proposal rather than accepting or rejecting it. The plan links the status to the Equestrian and Aquileian republics as a diplomatic signal.
+- settles:
+  - Grover VI was raised in Griffenheim, not Bronzehill. | Grover VI was not raised in Bronzehill. He was raised in Griffenheim.
+  - The Barkingian Guard lives and works at the palace in Griffenheim. | The Barkingian Guard lives and works at the palace in Griffenheim.
+  - Child Grover V was saved by Benito in 978. | Child Grover V was saved by Benito in 978.
+  - Grover V returned to the throne in 981 after Eagleclaw's counterrevolution, under a regency council. | He returned to the throne in 981 from Eagleclaw's counterrevolution and had a regency council.
+  - Grover V was a weak ruler, undermined by nobles and rugged individualist industrialists. He died in 1007, the start of EAW. | He was a weak ruler whose rule was undermined by nobles+rugged individualist industrialists. He passed away in 1007
+  - Grover VI grew up in Griffenheim with Eros as regent and an elderly Benito as bodyguard. | Grover VI grew up in Griffenheim with Eros as his regent and an elderly Benito as his bodyguard.
+  - The Equestrian Republic joins the republican pact. The Aquileian Republic, which inspired the Equestrian model, is a sister republic to the GR and stays independent for good. | the Equestrian Republic's entrance into the republican pact, and therefore the Aquileian Republic's implied forever independence
+  - Equestria's entry triggers the GR to legislate self-determination for Bronzehill, and Bronzehill joins the republican pact. | will be the trigger for the GR to legislate Bronzehill for self determination, and Bronzehill joins the republican pact as well
+  - The GR's legislation on Bronzehill signals to Aquileia that GR ambitions will never include Bronzehill or Aquileia. | This is the signal from GR to Aquileia that GR's ambitions will never include Bronzehill or Aquileia.

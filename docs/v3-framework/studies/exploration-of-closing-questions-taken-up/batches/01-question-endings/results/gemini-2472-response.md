@@ -1,0 +1,3 @@
+- questions:
+- shape: The user turn puts a new question to the model. It checks whether Celestia would refuse asylum to Novo, which the model had already said she would. It offers its own reason: the Hippogriffs are harmonic, but as guests they would tell their pony hosts how their home was destroyed. It reads as a request for confirmation and a refinement of the reasoning, and it settles nothing.
+- settles:

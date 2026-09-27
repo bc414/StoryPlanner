@@ -1,0 +1,11 @@
+- questions:
+  - Does the user want to go into detail on the Crystal Cartridge system? | ignored | Nothing on cartridges; the turn corrects the power-level claims and moves to a new question of its own. | none
+  - What should the cartridges look like: crystals, glowing cylinders or SD cards? | ignored | Says nothing about how cartridges look. | none
+  - Should swapping a cartridge involve a reload animation? | ignored | Says nothing about reloading. | none
+- shape: Corrects the model's framing: the rifle gives no edge over unicorns and is not tyrant-proof. Sets out its own lore for unicorn reserves, then turns the conversation round by asking the model to say where an in-universe tech for storing Earth pony ambition already exists and who invented it. The model's cartridge question is left alone.
+- settles:
+  - The Earth pony rifle gives no power advantage over unicorns. An Earth pony can fire about as many shots as an average unicorn's reserves allow, then needs a crystal enhancer battery. | It's still equivalent to unicorns... They can only fire the equivalent amount of magical shots
+  - The Luna Nova rifle is not tyrant-proof. It can run on crystal enhancers, and personal magic only supplements the power source. | the Luna Nova rifle is not tyrant proof. It can run on crystal enhancers
+  - Most unicorns have limited magic reserves and most trained unicorns need crystal enhancers. Only Twilight, Starlight and others whose special talent is magic have near-limitless reserves. | most unicorns don't have the raw magic for that many spells anyway
+  - Unicorn lore: all unicorns have limited reserves. A cutie mark discounts the cost of the pony's special talent, and Twilight's talent is magic, so she gets a discount on everything. | all unicorns have limited reserves. Their cutie mark gives them a discount
+  - Tech that converts Earth pony pride, ambition or red love into storable magic for a spell already exists in the story's world, though its location and inventor are left open. | The tech to convert earth pony pride/magic/red love/ambition and store it for a magic spell already exists in universe

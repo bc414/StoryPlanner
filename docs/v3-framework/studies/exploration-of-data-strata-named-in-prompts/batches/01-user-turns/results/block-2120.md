@@ -1,0 +1,5 @@
+- sources:
+  - content relating Celestia and Grover III (their friendship and correspondence) | go through the existing material on the two and review it, to judge whether they count as a Bond | Please review content relating the two | referred-to
+  - the author's own statement in this turn about Grover III's role | treat as given background: he is never a live character in any story, yet shaped history and worked with Celestia because she is immortal | Grover III does not appear in any story as a live character | first-named
+- order:
+- about: The user asks whether Celestia and Grover III should be categorized as a Bond, argues their friendship and correspondence is thematically load bearing despite Grover III never appearing live, and asks the model to review the existing content about the two.

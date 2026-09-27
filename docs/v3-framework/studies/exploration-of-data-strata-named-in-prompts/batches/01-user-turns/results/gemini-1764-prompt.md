@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks for a definition of the term "Hegelian dialectic," which the previous answer used, without pointing at any body of material to draw on or avoid.

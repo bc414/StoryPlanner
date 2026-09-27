@@ -1,0 +1,7 @@
+- sources:
+  - the stuff I watched | material to be sorted and analyzed, each item placed as extractive or cooperative paradigm rather than by generic topic | the stuff I watched were in the extractive paradigm or cooperative paradigm | referred-to
+  - my new framework | the lens and vocabulary the analysis should use, with the extractive and cooperative paradigms as the sorting axis | in the language of my new framework | referred-to
+  - other chats | hold deeper elaborations of the framework that the model lacks; the author wants their content brought in | deeper elaborations of the framework in other chats | first-named
+  - the project | the current store of context, which lacks those elaborations and needs them added | aren't in the project so I need to add those to the project context | referred-to
+- order:
+- about: The user corrects the model's taxonomy by saying the watch-history analysis should sort content into extractive versus cooperative paradigm, and asks whether the deeper framework elaborations held in other chats need to be added to the project context.

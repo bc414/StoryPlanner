@@ -1,0 +1,6 @@
+- claims:
+  - History | Chrysalis went to Canterlot Wedding because the slave trade was slowing due to the Storm King's warlord front rejecting external slavers, hives were united with no nobility left for harvesters, and noble yields were dropping, so love supply was on course to run out | Chrysalis went for Canterlot Wedding because the slave trade was slowing... trajectory of running out of pink love | yes
+  - History | Chrysalis achieved her goal of ending the hive wars, and now must turn outward to keep her MEFO ponzi scheme afloat | Chrysalis achieved her goal of ending the hive wars but now must turn outward to keep her MEFO ponzi scheme afloat | yes
+  - History | She is also sinking vast resources into bankrupting the holdout classmates | She's also been sinking vast resources into bankrupting the holdout classmates | yes
+- goals:
+- whole: The note reports, as in-universe history, why Chrysalis launched the Canterlot Wedding operation and the economic and political pressures and ongoing schemes she is pursuing around 1002, without stating any reader effect.

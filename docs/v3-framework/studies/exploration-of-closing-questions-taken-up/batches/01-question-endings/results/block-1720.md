@@ -1,0 +1,6 @@
+- questions:
+  - Does Twilight consciously connect the empty seat to the Spearhead decision in 16.14-16.15, or is the connection left entirely to the reader? | ignored | Says nothing about the empty seat or Twilight's awareness of it | none
+  - Is Twilight's personal stake (her brother in the Crystal Empire) meant to be visible to the reader as a motivator of her silence in 16.15, or should her silence read purely as mentor-loyalty paralysis (or ambiguously both)? | ignored | Nothing on Twilight's silence or her motives | none
+  - Is Blueblood ideologically aligned with the Republican project, or a loyalist who happens to be militarily competent (and what would convert him if he becomes Republican)? | ignored | Nothing on Blueblood or his allegiance | none
+- shape: Moves on to a new task without engaging the model's analysis or open questions. The user asks for a list and analysis of the callbacks to the canon show in the two chapters, since they are set in Ponyville. It is an instruction about what to examine next.
+- settles:

@@ -1,0 +1,5 @@
+- questions:
+  - How would Stalliongrad's Commissars, using Militarization of Labor tactics, view Applejack's Harmonic Capitalism and SECEF/Star Energy: as naive bourgeois sympathizers too soft to do what's necessary, even while SECEF weapons save their flank? | ignored | Says nothing about Stalliongrad's Commissars or their view of Applejack; turns to a question about real-world history teaching. | none
+  - How does Starlight Glimmer, meeting the Baltimare Communist Party leaders who revere her Our Town experiment, explain that the Vanguard model is inherently predatory without seeming to have sold out to the Canterlot elite? | ignored | Does not mention Starlight, Baltimare, or the meeting; moves to a general question about education. | none
+- shape: Steps out of the story to ask a general question about real-world education. The user asks whether high school history teaching misses the deeper picture the model just laid out (Stalin betraying the revolution, the French Revolution toppling monarchy) and whether this is college-level material. It answers neither Socratic question and sets no story direction.
+- settles:

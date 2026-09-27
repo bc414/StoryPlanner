@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's praise and analysis of Luna's dream role was built without the arc already in the plans (her retreat order in Tall Tale, the Manehattan nightmares, the Combined Arms decision for the Bluebell River Spearhead), and it treats her as newly recruited by Applejack instead of continuing what she already did and failed at | "please examine Luna's existing arc. Review the story plans again" | Indirect and mild: framed as a request to sharpen and re-review, with no blame and no explicit statement that the model missed anything, followed by the user's own account of how the arc should feed the dream plan
+- about: The user asks the model to redo its analysis of the dream-insurgency idea against Luna's established arc, and supplies their own reading of it: she gave up dreamwalking in shame, resumes with a real promise, and learns who is victim and who is collaborator so she knows whom to brief.

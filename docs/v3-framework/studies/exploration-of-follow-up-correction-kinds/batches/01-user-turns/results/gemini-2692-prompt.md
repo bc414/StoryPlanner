@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates the synthesis they are adopting (corporate-predator Changelings, MEFO bills as life-or-death 401ks, Olenians as a self-policing underclass, Johan and Velvet as collaborators) and asks for a fresh analysis and a review of their story plans for details to change or strengthen.

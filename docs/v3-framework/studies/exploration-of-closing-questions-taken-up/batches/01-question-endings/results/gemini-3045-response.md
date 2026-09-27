@@ -1,0 +1,9 @@
+- questions:
+  - What happens when an Equestrian pony playing suave Caballeron-style rebel meets the real Tzinacatl cartel leader and faces the actual violence and Red Love logistics? | ignored | Nothing said about this meeting or the pony's reaction; the turn stays on what the parloirs are. | none
+  - How does Applejack view the Equestrian poseurs, and does she find them more offensive than the honest warlords? | ignored | Applejack is not mentioned. | none
+  - Does Rarity design the Caballeron aesthetic and profit from the trend before realizing what she is funding? | ignored | Rarity and the aesthetic are not mentioned. | none
+- shape: Corrects the model's reading, which had folded the Aquileian parloirs into drugs and roleplay, and separates the poseur mindset (drugs and performative toughness) from the parloirs (asset specificity and culture). It then asks the model to evaluate that distinction and frame it as Skyfall versus Aquileia. It gives no answers to the model's three questions.
+- settles:
+  - The Aquileian parloirs are about real asset specificity and culture, not drugs. | the Aquileian parloirs are about real asset specificity and culture, not drugs
+  - The poseur mindset means taking drugs and acting tough enough to survive the jungle, which is performative and hollow. | taking drugs and acting tough enough to survive the jungle is the poseur mindset
+  - Skyfall stands for rugged individualist tycoons and manosphere grift, while Aquileia stands for hyper-asset-specific, romantic and passionate ego capitalism, and the two are set in contrast. | rugged individuallist tycoons and manosphere grift of Skyfall vs the hyper asset specific and romantic/passionate ego capitalism of Aquileia

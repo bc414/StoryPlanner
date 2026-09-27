@@ -1,0 +1,12 @@
+- passages:
+  - Synopsis | fact of the world | Henri fetches all the captured love rations for Fluttershy to feed the POWs and gives her an old Herzlander Equestrian translator | Henri fetches all the captured love rations | plainly | none
+  - Synopsis | prose fragment | Fluttershy's spoken reaction to the translator, written as a line of dialogue | wow, what a useful invention | none | none
+  - Synopsis | belief or perception | Henri's view that the translator is soulless | Henri remarks how it was soulless | inside speech | truth absent; none named
+  - Synopsis | fact of the world | The Herzlanders took over Cloudbury and invented the translator, the aim being to remake the place in their image | invented by the Herzlanders who took over Cloudbury | inside speech | none
+  - Synopsis | belief or perception | Henri boasts that he made the effort to learn Equestrian because he thinks Equestria has a lot of culture | Henri boasts about how he put in the effort | inside speech | truth absent; none named
+  - Synopsis | fact of the world | The Cloudburians did not want to learn Herzlander, so the Herzlander elites had the translator device invented to get the job done | The Cloudburians didn't want to learn Herzlander | plainly | none
+  - Synopsis | belief or perception | Henri's opinion that Herzlander culture is soulless and that the elites circumvented this with an equally soulless device | in Henri's opinion | inside a thought | truth absent; none named
+  - Synopsis | fact of the world | The translator renders Equestrian names literally, as objects, which is framed as a horror | the horror of the translator translating Equestrian names as objects | plainly | none
+  - Synopsis | scene content from a side | Fluttershy introduces herself, the device gives a literal translation of her name, and Henri flinches at it | Hi, I'm Fluttershy | plainly | none
+  - Synopsis | belief or perception | Henri's warning to Fluttershy that the changelings will take the literal meaning of her name to mean she is a coward or prey | they'll think you're a coward, or prey | inside speech | truth absent; none named
+- mixed: The synopsis holds more than one kind (world facts, Henri's opinions and beliefs, dialogue lines, and scene content from Henri's and Fluttershy's side); the link's text is empty, and the outcome and stakes hold no text.

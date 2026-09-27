@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model judged titles by how well they describe the chapter's content and tone (fitting drugs, rifle, industrial vocabulary), when the user's naming approach is to flip reader expectation so the title does not spoil; the criteria used for critique and suggestions were the wrong ones | I like chapter names that are subversive which prevents spoilers by flipping reader expectation with reality | stated flatly as a preference, backed by a reason (spoiler prevention) and two examples, with no explicit statement that the model was wrong
+- about: The user states their chapter-naming principle of subversive titles that invert reader expectation, illustrated with two existing chapters, to redirect the model's title suggestions.

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to go deeper into the mechanics of Rarity's transition, e.g. how she restructures her Canterlot and Manehattan boutique supply lines to smuggle raw materials or weapons past the EEA and Changeling blockades? | no user turn | none | none
+- shape: none
+- settles:

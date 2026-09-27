@@ -1,0 +1,5 @@
+- sources:
+  - The next plan (referendum plot: AJ asks Celestia for a referendum, compulsory vote, initial polling of Celestial, Harmonic Republican and Ponies First parties) | take as the new premise to analyze; it is a proposed plot direction being offered for analysis | The next plan is that after the Republic pact is set on a trajectory | first-named
+  - the Aquileian dynamics | established material from earlier in the conversation; the analysis should be connected back to it | how does this relate to the Aquileian dynamics | referred-to
+- order:
+- about: The user lays out the next plot beat, a compulsory Equestrian referendum whose initial polls leave both Celestia and Applejack short of a supermajority, and asks the model to analyze it and tie it to the Aquileian dynamics.

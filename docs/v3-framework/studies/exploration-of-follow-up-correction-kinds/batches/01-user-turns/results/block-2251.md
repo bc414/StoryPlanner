@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's mapping of AI companies to story factions and asks a new question about what kinds of users post on the Claude Reddit, and whether they are extractors or cooperative bootstrappers in the story's terms.

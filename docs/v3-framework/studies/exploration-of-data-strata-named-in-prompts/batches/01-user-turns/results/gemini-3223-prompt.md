@@ -1,0 +1,7 @@
+- sources:
+  - Red Alert 3 original campaigns (Allied and Soviet paths) | treat as a grounded, rational materialist story with fantasy elements bound by gameplay rules; correct the model's earlier framing of the game as disconnected | true materialist historical engine story wise
+  - Red Alert 3 Japanese campaign | treat as the exception, where robot-president and future-tech twists dress it up in the skin of Red Alert | strange twists about the American president being a robot
+  - Uprising expansion | treat as a break from the rules that cheapened the story, with future tech and power creep; not a model of the grounded approach | broke gameplay rules which also cheapened the story
+  - C&C3 | treat as holding the old tradition until Scrin and Kane arrive | holding on to the old tradition until Scrin and Kane
+- order:
+- about: The user corrects the model's earlier verdict by saying Red Alert 3's base campaigns are a rational materialist story they favor, while Uprising, the Japanese campaign's twists, and later C&C entries drift into power creep and corporate-driven design.

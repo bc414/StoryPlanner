@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the drug analysis to ask a new worldbuilding question about whether Celestia's Equestria should permit alcohol (light, none, or black market only), without disputing anything the model said.

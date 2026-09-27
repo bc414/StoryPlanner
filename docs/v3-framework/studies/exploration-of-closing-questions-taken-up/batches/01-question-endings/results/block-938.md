@@ -1,0 +1,5 @@
+- questions:
+  - When Applejack learns of the Foal Polygraph, does it permanently change her view of the urban working class and shatter her agrarian bias, showing city mechanics have as much Pink Love as her family? | ignored | The user turn does not touch it and moves to a question about Rarity and Lauren Faust. | none
+  - In the 1015 ALB Election, how does Rarity use her elite social capital and knowledge of Flowing Current's repatriation to humiliate Gilded Trust and show the Union Boss is the better nurturing father figure? | ignored | The user turn does not touch it and moves to a question about Rarity and Lauren Faust. | none
+- shape: Praises the model's analysis of Rarity, then redirects away from the plot questions to a real-world question. It asks how the character design fits Lauren Faust's ethos and her commentary on Rarity as an unusual character for a toy commercial, and requests a fundamentals analysis.
+- settles:

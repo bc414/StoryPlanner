@@ -1,0 +1,9 @@
+- questions:
+  - How does the Baltimare Communists' ideological rigidity keep them from seeing the difference between standardizing a rifle and standardizing a pony? | ignored | none | none
+  - Do the Baltimare Communists see the Luna Nova Rifle as bourgeois because it fires on individual, asset-specific magic? | ignored | none | none
+  - How does Fleur Bloom, as the Aquileian artisan-pride figure, react to the EEEE! movement's assembly lines, and can she reconcile hating Taylorism with the need to mass-produce uniforms and rifles? | ignored | The turn does not describe Fleur's reaction. It only says the artisan-elitism critique should not be aimed at Aquileians. | Aquileians are named only in the correction, not in any answer to Fleur's question.
+- shape: The user turn corrects the model's setup and leaves its Socratic questions alone. It changes who Caramel Marks writes about, from Baltimare to Skyfall. It moves the target of the artisan-elitism critique from the Aquileians to the artisan cartels and vertically integrated companies. It also adds the mechanism by which Starlight misreads that critique and projects it onto the cutie mark system. It is a short additive correction, not an answer.
+- settles:
+  - Caramel Marks's writing is about Skyfall, not Baltimare. | Caramel Marks isn't writing about Baltimare, she is writing about Skyfall
+  - The elitist-artisan critique targets the artisan cartels and vertically integrated companies, where the artisans are well paid, and does not target the Aquileians. | should actually be directed at the artisan cartels and vertical integrated companies
+  - Starlight is the one who interprets Caramel's critique and projects it onto the cutie mark system. | This is the part that Starlight interprets and projects into the cutie mark system

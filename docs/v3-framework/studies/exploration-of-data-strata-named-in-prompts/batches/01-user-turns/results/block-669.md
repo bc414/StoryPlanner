@@ -1,0 +1,6 @@
+- sources:
+  - The world history | treat as the true backdrop: what actually happened to Applejack's parents (left the farm as industrialists after the feud, make army rations), which the reader is not told at the start and which the scenes must be judged against | The world history states that Applejack's parents left the farm to be industrialists | first-named
+  - The plan / my instinctual design plan / the TLTT story design (ration can in chapters 1, 2 and 5, reveal in chapter 7) | provisional proposal, presented as an instinct to be tested and asked about, not a settled decision | My instinctual design plan is that when the reader encounters the parents in chapter 7 | first-named
+  - Canon FiM | reference for what the show established; it is silent on her parents' fate, so the story is free to invent it and the reader has no prior knowledge to draw on | Canon FiM doesn't mention her parents' fate at all | referred-to
+- order:
+- about: The user describes a planned withheld reveal about Applejack's parents and asks the model to name the kind of gap or storytelling mechanic involved, and whether a third-person-limited Applejack can leave out her reasoning or the scene needs a different POV.

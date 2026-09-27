@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to help classify Camp Fluttershy as an organization or a civilizational system, stating their own lean toward organization and noting the same ambiguity applies to other entities, without pointing to any body of material for the model to draw on.

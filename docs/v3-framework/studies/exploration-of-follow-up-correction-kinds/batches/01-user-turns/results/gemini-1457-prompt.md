@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the model's wrap-up to propose a mechanism for the dream-linked teleportation of rifles, including its red-love cost and development timeline, and revises their own idea toward small comforts first, without faulting anything the model said.

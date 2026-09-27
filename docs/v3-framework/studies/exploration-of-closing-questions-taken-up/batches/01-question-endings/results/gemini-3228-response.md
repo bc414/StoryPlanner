@@ -1,0 +1,5 @@
+- questions:
+  - How will the story balance the spectacle of epic fantasy battles against the friction of Applejack and Twilight managing logistical limits in real time? | answered | Settles it in principle: battle spectacle needs little focus and should serve the system. Gives no scene-level plan for showing the logistical limits. | "I don't really need to focus on the spectacles of battles too much after all. They should serve the system."
+- shape: The user takes the model's framing and draws a working rule for their own story from it: battles are subordinate to the system. They then move to the wider theory. They compare Faust on MLP G4 with Treyarch on Black Ops and with Westwood and Blizzard. They ask the model whether Hollywoodization is the same as the Hasbro, EA, Activision and Microsoft mandates. They also ask whether this is the difference between reading a book and watching a film or TV show. Those last two are new questions put to the model.
+- settles:
+  - Battle spectacle in the story is secondary and should serve the underlying system, meaning the logistics, economics and hard limits | "They should serve the system."

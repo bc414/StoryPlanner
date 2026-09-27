@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to look into real estate trends for specialist shops, i.e. converted retail spaces versus micro-unit food halls in North Jersey? | ignored | Nothing said about it. The user drops the real-estate offer and asks a new question about whether Texas brisket is the only native American food with a Mother Process character. | none
+- shape: Redirects to a new question. It takes the model's Mother Process framing and asks whether Texas brisket is the only American-native example, with the rest tied to immigrant cultures. It does not respond to the offered real-estate follow-up.
+- settles:

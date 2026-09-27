@@ -1,0 +1,5 @@
+- questions:
+  - Do Twilight and Applejack, writing the new Republic's textbooks, teach foals the brutal materialist truth (Earth Pony phosphorus, Love Harvesters) or keep a sanitized mythic fable for children? | ignored | The user turn does not touch the textbook question; it asks a different, out-of-story question about why readers and the author were given incomplete understandings. | none
+  - Does Grover VI's thesis exposing Chrysalis's schemes and Eros's complicity stabilize the unified Griffonian Republic, or trigger a populist backlash among Herzlanders who prefer the old myths? | ignored | Nothing is said about the thesis or its effect on the Republic; the user moves to a question about readers and the author. | none
+- shape: Redirects to a new, meta-level question. The user leaves both Socratic questions unanswered and asks why real readers and the author himself were given incomplete, "high school" understandings of the story's world. This extends the model's education analogy from in-world propaganda to the reader's and author's experience of the work.
+- settles:

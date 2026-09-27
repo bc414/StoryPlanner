@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | the model's account of the Changeling occupation and its contrast with Herzland was not checked against the user's story plans, so it is treated as needing to be redone from them | "review my story plans and update the analysis" | implicit, given as a bare instruction with no reason and no naming of any specific error
+- about: The user gives a short directive to go back to their story plans and revise the analysis, without engaging with any of the content of the model's Changeling-versus-Herzland comparison.

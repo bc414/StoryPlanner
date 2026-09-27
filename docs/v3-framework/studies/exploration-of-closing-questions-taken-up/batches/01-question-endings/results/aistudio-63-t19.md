@@ -1,0 +1,5 @@
+- questions:
+  - How does the Friendship Shields' failure force Shining Armor and Cadance to re-evaluate reliance on pure Pink Love, leading to Twilight integrating Red Love (Ambition) into the Luna Nova Rifle? | no user turn | none | none
+  - How does Blueblood handle political backlash from local mayors and Earth Pony farmers who see his cold retreats as a betrayal of their Terroir? | no user turn | none | none
+- shape: none
+- settles:

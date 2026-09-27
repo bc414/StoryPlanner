@@ -1,0 +1,5 @@
+- questions:
+  - What systemic mechanism stops a famous Aquileian FJA artisan from selling out by licensing their Cutie Mark/Seal to a Skyfall mass-production factory and becoming a Poseur? | ignored | Nothing said about it; the user turn moves to a new topic. | none
+  - How does the Universal Translator handle advertising, and does a perfectly localized Skyfall ad broadcast through it gain unearned Authenticity? | ignored | Nothing said about the translator or Skyfall advertising; the turn asks about something else. | none
+- shape: Redirects to a new topic. The user drops the model's advertising and authenticity analysis and its two questions, and asks in a single question whether the story can hold a meta-narrative about the MLP show being an ad for toys. The question does pick up the marketing theme from the model turn, but at the level of the real-world show rather than the fabula.
+- settles:

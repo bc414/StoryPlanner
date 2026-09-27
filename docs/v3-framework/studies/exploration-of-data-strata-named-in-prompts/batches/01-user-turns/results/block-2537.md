@@ -1,0 +1,6 @@
+- sources:
+  - the story (the full text of the story under discussion) | read it in full and give the user its plot and themes, doing the reading the user never did | Now you can read it for me | referred-to
+  - my earlier sampling of the ending and random points | the user's own earlier partial reading, treated as insufficient for understanding the story, which is why the model is asked to read the whole | I only sampled the ending and random points | referred-to
+  - the author, who retired from the site | an earlier attempt to get clarity from her failed; she can no longer be asked, so she is not available as a source now | she retired from the site | referred-to
+- order:
+- about: The user asks the model to explain the story and its themes by reading the whole thing on their behalf, since they only sampled it before and the author is no longer around to ask.

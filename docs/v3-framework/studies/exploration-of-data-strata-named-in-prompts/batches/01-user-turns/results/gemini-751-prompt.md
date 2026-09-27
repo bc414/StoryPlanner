@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user adds their own story ideas, giving Trimmel a further motive for announcing his name, having Applejack question him about it, and having her issue a mirrored named ultimatum to the Canterlot Statthalters before the paradrop, without pointing the model at any body of material.

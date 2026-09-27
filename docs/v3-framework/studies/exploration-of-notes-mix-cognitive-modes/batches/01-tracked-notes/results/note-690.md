@@ -1,0 +1,5 @@
+- claims:
+  - History | Skyfall shipping insurance rendered the Wonderbolts obsolete as air reconnaissance, a cause-and-effect event reported as fact | Skyfall shipping insurance made the Wonderbolts obsolete as air recon | yes
+  - History | The Wonderbolts became full-time air show performers as a result, reported as an event in the organization's history | so they became full time air show performers | yes
+- goals:
+- whole: The note reports, as an in-universe historical fact, that Skyfall shipping insurance ended the Wonderbolts' role as air reconnaissance and turned them into full-time air show performers.

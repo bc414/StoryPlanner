@@ -1,0 +1,7 @@
+- questions:
+  - Does Scootaloo fly alongside the Wonderbolts in the Breakthrough chapter, or is she assigned to a different squadron? | ignored | none | none
+  - Does Rainbow Dash take the 18-year-old Scootaloo as her direct wingpony on the Bluebell River spearhead? | ignored | none | none
+- shape: Sets aside the model's squadron question and pushes back on two of its points. It challenges the flat age of 18 and proposes that the volunteer age floor be tied to a developmental-biology consensus, as social commentary. It also corrects the model's account of Wings of Dew, replacing the parachute mechanism with the target controlling the wings. Both are corrections to the model's synthesis, not answers to its question.
+- settles:
+  - The volunteer age floor is to be set as social commentary, based on a consensus on developmental biology for a fully developed person after caloric scarcity, and not simply copied from the American legal age of 18. No specific age is fixed. | should be a social commentary
+  - Wings of Dew lets the target control the wings themselves, as Rarity flies under her own power in the Sonic Rainboom episode. It is not a spell that shapes air currents into a parachute. | lets the target control the wings themselves

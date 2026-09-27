@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the story-planning topic and asks a new, unrelated question comparing air-frying chicken thighs and legs to finishing them in the microwave, without commenting on the mayor analysis.

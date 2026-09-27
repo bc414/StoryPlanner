@@ -1,0 +1,5 @@
+- questions:
+  - How does the GR stop a Skyfall-style hyper-capitalist class from buying up the state-built factories and bringing back the Predator's Dilemma once martial law and price controls end in 996 ALB? | no user turn | none | none
+  - What happens to the Republic's political stability if a foreign actor such as Chrysalis's VOPS or Skyfall saboteurs destroys the Sunstriker crystal supply chain, given that the Universal Translator is what lets the 996 elections work? | no user turn | none | none
+- shape: none
+- settles:

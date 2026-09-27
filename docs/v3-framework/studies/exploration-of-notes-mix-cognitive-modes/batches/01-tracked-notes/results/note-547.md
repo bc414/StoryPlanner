@@ -1,0 +1,8 @@
+- claims:
+  - Canon | Recontextualizes the end of The Crystal Empire Part 2: Celestia's closing moment conditions Twilight to equate leadership with self-immolation | At the end of The Crystal Empire Part 2, Celestia effectively Pavlovian-conditions Twilight | yes
+  - Characterization | Twilight's disastrous 1006 ALB campaign in Ain Trotgourait is explained by her belief that a good Princess must lift the rubble herself until she burns out | This perfectly explains Twilight's disastrous 1006 ALB campaign; she believes that to be a good Princess | no
+  - Canon | Cites Celestia's canon dialogue about self-sacrifice over self-interest as the source line being reinterpreted | You weren't willing to risk the future of the citizens of the Crystal Empire | yes
+  - Characterization | Asserts that this moment is the origin of Twilight's top-down Atlas complex | this is the birth of the top down atlas complex | no
+  - Canon | Recontextualizes canon: Celestia is read as weaponizing Twilight's horizontal fraternity with Spike and the Mane 6 into a top-down mandate | Celestia weaponized Twilight's horizontal fraternity with Spike and the Mane 6 and turned it into a top down mandate | yes
+- goals:
+- whole: The note reinterprets a canon scene from The Crystal Empire as the psychological origin of Twilight's Atlas complex and of her later story-world campaign failure, mixing canon recontextualization with character-truth assertions and asking nothing of the reader.

@@ -1,0 +1,5 @@
+- sources:
+  - The user's own chapter plan for chapters 10 to 17, stated in this turn | treat as the corrected, current outline; the firm parts are settled, while the splits and the Celestia scene are open and provisional | Some clarification: chapter 10 is about the Tzinacatl | first-named
+  - The rendezvous later in the story | check the Manehattan chapter against it for redundancy, with no verdict yet | Not sure if this is redundant with the rendezvous later | referred-to
+- order:
+- about: The user corrects the chapter sequence with their own outline for chapters 10 to 17, flags which chapters might be split or are redundant, and asks for advice on avoiding repetition and scope creep while keeping themes and character arcs effective.

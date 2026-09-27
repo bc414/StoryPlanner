@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes the earlier summaries of Parts 1 and 2 (including the model's Part 2 summary, unchanged) as context and asks for a detailed summary of the next file, Scribe 3.

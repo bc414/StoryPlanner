@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the party name discussed in the model's analysis and asks for its proper French rendering, a new request that does not challenge anything the model said.

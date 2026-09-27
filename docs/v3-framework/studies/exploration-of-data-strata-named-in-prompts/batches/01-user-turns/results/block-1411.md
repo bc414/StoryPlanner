@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user gives a brief go-ahead to the model's proposal without naming any source of data.

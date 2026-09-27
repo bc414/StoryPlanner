@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about whether Claude Code or Claude Cowork would handle their story bible better, extending the discussion to other tools without disputing anything the model said.

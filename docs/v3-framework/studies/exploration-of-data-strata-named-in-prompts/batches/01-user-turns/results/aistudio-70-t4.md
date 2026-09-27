@@ -1,0 +1,8 @@
+- sources:
+  - Hearth's Warming Eve truth the user established (labor strikes and disputes caused the blizzard because unicorns stopped moving the sun and pegasi didn't manage the weather; not windigos from disharmony) | treat as settled canon; the refined rule must follow it and it corrects the model's windigo premise | I established that truth behind Hearth's Warming Eve | referred-to
+  - Option A, the Hearth's Warming angle (the model's previous proposal) | keep and build on as the basis, but rewrite where it conflicts with established canon | I do like the heart's warming angle | referred-to
+  - Option B, Manehattan as a corporation (the model's previous proposal) | reject; the premise is not accepted | I don't see how ancient Manehattan was built as a "corporation" | referred-to
+- order:
+  - The user's established Hearth's Warming Eve truth over the windigo/disharmony premise in Option A | However, I established that truth behind Hearth's Warming Eve is it wasn't windigos caused by disharmony
+  - Option A (Hearth's Warming angle) over Option B (corporation) | I don't see how ancient Manehattan was built as a "corporation" but I do like the heart's warming angle
+- about: The user rejects the corporate-charter option, keeps the Hearth's Warming recall option, corrects its history with their established labor-strike blizzard version of Hearth's Warming Eve, and asks the model to refine the rule accordingly.

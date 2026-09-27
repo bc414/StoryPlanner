@@ -1,0 +1,6 @@
+- sources:
+  - dreamscape aid network | treat as the newly added element of the plan and work out its consequences for Celestia and Luna and for later events | Before I introduced the dreamscape aid network | referred-to
+  - the plan as it stood before the network (Celestia and Luna passive up until the white peace) | treat as the earlier, superseded state to compare against the changed version | Celestia and Luna were passive up until the white peace | referred-to
+  - the rest of my plot points that come after | treat as provisional and open to revision in light of the network change; check them against it | Should anything be revised? | referred-to
+- order:
+- about: The user asks the model to assess how adding the dreamscape aid network changes Celestia's and Luna's previously passive role and whether the later plot points in their plan need revising.

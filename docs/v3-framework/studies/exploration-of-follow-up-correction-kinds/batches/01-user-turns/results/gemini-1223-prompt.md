@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the request | The model answered by inventing a Coltbert-disciple character to carry the war-bond idea, when the user wanted the idea worked out in the world's history and lore, not through a new OC | "Let's forget about a specific OC for now." | flatly, as a short instruction that sets the suggestion aside, softened with "for now" and no reason given
+- about: The user drops the model's proposed disciple OC and moves the question to Aquileian history, asking whether Coltbert or Verany originated war bonds and fiat currency, and how gold standards work in imperial and industrializing states.

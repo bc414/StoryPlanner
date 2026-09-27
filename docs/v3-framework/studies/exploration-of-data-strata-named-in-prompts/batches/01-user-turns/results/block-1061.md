@@ -1,0 +1,7 @@
+- sources:
+  - chapter 5 meeting, told from Starlight's point of view, with Comet Shine's written offer | treat as the settled scene where the negotiation fails; the dam foreshadowing is a proposed addition to be analysed, not yet settled | the chapter 5 meeting is told from Starlight's point of view; the dam should be foreshadowed as a throwaway comment in chapter 5 | referred-to
+  - chapter 9 town hall hopepunk reveal | treat as the fixed later payoff that the chapter 5 setup must ground | comes to fruition in chapter 9; grounds the hopepunk reveal in Chapter 9 in the town hall | referred-to
+  - chapter 14 agreement to take the factories | treat as a fixed plan point; whether the dam was already discussed there is left open as a question | the chapter 14 agreement to take the factories; Or maybe the dam was already discussed in chapter 14 too | referred-to
+  - chapter 16 agreement to blow the side of the mountain | treat as a fixed plan point that the dam idea must fit around | the chapter 16 agreement to blow the side of the mountain | referred-to
+- order:
+- about: The user proposes seeding the dam in chapter 5 through Comet Shine's rejected offer, asks for an analysis of that setup, and asks how Rasti and the council could plausibly come to accept the dam between chapters 5, 14 and 16.

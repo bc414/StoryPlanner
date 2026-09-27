@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to learn more about the Napoleonic Code and how it changed life in occupied territories? | ignored | Says nothing about the Napoleonic Code and does not accept or decline the offer; it asks for the American Civil War instead. | What about in the American civil war?
+- shape: Redirects to a new comparison case. It extends the run of occupation-comparison questions (WWI, Napoleonic) to the American Civil War and drops the model's offered follow-up. It is a short request for information.
+- settles:

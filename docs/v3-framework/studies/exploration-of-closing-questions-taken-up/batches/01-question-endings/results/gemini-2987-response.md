@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an explanation of how Test-Time Compute works under the hood in a Deep Think model? | ignored | The user neither accepts nor declines the offer. They move to a new question about whether Deep Think suits their worldbuilding and logic-checking use better than the old Ultra model. | none
+- shape: The user turn redirects. It skips the offered explanation and states how they use the AI: worldbuilding, logic checks and brainstorming, with no story text or roleplay generated. It also remarks that earlier AI-written sample text was slop. Then it asks a new question: is Deep Think much better than the old dense Ultra model for that kind of work?
+- settles:

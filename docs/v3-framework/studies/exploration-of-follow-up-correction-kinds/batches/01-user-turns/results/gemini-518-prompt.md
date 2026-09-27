@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the discussion of Henri Gourard's name and real generals and asks a fresh question, an overview of Fleur Bloom's character development, without commenting on the previous answer.

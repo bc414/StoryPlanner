@@ -1,0 +1,8 @@
+- sources:
+  - v1 (the old notes, as a map) | in step 1, consult only to learn where a link should go, which subject to make and which plot point to make, not as content to copy | Just refer to v1 to know where a link should go, what subject to make, what plot point to make | referred-to
+  - v1 mixed notes | in step 2, read each one and check whether the new tracks and claims already cover it; add anything missing, then mark it Incorporated in v1 so it is not looked at again | read each v1 mixed note, and decide if it is covered across all the tracks/claims | referred-to
+  - the author's memory | the basis for writing the subject, plot point and link content in step 1, before v1 is read note by note | write the subject/plot point/link from memory | first-named
+  - subject project-wide tracks | do not show in Gardener Mode, to avoid cognitive mixing; show on the left in Linking Mode as read-only | Subject tracks are not visible at all in Gardener Mode | referred-to
+  - the earlier dissection of a single sentence in this conversation | treated as established evidence that one sentence's subtext can carry content for three tracks, which supports the new workflow | we dissected a single sentence and determined its subtext contained content for 3 tracks | referred-to
+- order:
+- about: The user corrects the model's account of what Gardener Mode shows (plot point tracks and its link only, no project-wide subject tracks) and proposes a two-step migration from v1: write from memory using v1 only as a map, then check each v1 mixed note for coverage and mark it Incorporated.

@@ -1,0 +1,4 @@
+- claims:
+  - History | Grover VI's father died when Grover VI was five years old, a fact of his past | He is 5 years old when his father passes away | yes
+- goals:
+- whole: The note reports as a historical fact that Grover VI's father died when Grover VI was five, dated to 1007.

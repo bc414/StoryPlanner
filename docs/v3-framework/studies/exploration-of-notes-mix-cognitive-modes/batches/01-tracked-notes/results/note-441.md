@@ -1,0 +1,4 @@
+- claims:
+  - History | Ancient Equestria survived by means of the system called Survival Harmony, which is its purpose and function | "Survival Harmony" is how ancient Equestria survived | no
+- goals:
+- whole: The note states as a plain past-tense fact of the world that the system called Survival Harmony was the means by which ancient Equestria survived, and it asks nothing of the reader.

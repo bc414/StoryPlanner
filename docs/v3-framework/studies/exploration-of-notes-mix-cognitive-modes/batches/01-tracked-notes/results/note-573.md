@@ -1,0 +1,8 @@
+- claims:
+  - Canon | Sunburst's rebuilding of the crystal heart is recontextualized from a canon deus ex machina into a result of his prior study of it alongside Aquileians | Sunburst rebuilding the crystal heart isn't a deus ex machina, it is because he was studying it alongside Aquileians | yes
+  - Canon | Because of this, the story drops the dramatic fight against the winter that canon's version of events has | So there's no dramatic fight against the winter | yes
+  - Canon | The crystal heart is recontextualized as a mere crystal, so it becomes a commodity | The crystal heart is commoditized because it is just a crystal | yes
+  - Canon | The magic is relocated from the artifact into the crystal ponies through an invented effect, the charitostatic effect | The magic is in the crystal ponies (the charitostatic effect) | yes
+  - Canon | Building on canon, the crystal heart's role naturally gives rise to crystal heart-inspired friendship shields | This naturally leads to crystal heart-inspired friendship shields | yes
+- goals:
+- whole: The note recontextualizes canon's crystal heart and Sunburst's part in restoring it, replacing a deus ex machina and a climactic fight with study, commerce and a crystal-pony-based magic that leads to friendship shields.

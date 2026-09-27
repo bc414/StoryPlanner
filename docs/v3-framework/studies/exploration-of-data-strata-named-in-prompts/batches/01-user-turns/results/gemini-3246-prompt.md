@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user clarifies that their earlier question about higher-tier models was meant for Vertex AI, where they want to use free credits, and does not point the model at any body of data.

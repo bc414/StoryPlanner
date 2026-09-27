@@ -1,0 +1,8 @@
+- sources:
+  - the author's stated facts about Chrysalis after industrialization (iron, aluminum and oil under the frozen wastelands, standard farming on the plains near Vanhoover) | treat as established premises and test the earlier reasoning against them | once Chrysalis adopted industrialization, she unlocked iron, aluminum and oil | first-named
+  - the author's guess that her farming is a Herzland-style monoculture with sad yields | provisional, offered as a probable detail rather than settled | she probably runs a Herzland-style monoculture | first-named
+  - Germany's turnip winter | real-world historical comparison for how poor her yields are | like Germany's turnip winter | referred-to
+  - the author's account of Chrysalis selling excess red love on the global black market and crashing the Tzinacatl economy by copying their artisan drugs | provisional, offered as a supposition to fold into the reasoning | I suppose she also sold excess red love on the global black market | first-named
+  - the model's preceding conclusion that Chrysalis does not use red love for rifles | the thing being checked for a plot hole against the new facts | I want to make sure there isn't a plot hole here | referred-to
+- order:
+- about: The author stress-tests the model's earlier argument for why Chrysalis sticks to steel bullets by supplying new worldbuilding facts (her resource base, farming, and black-market red love trade) and asking whether the logic still holds.

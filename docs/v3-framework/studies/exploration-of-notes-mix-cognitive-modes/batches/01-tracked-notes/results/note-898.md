@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | Caramel Marks's origin is a post-scarcity walled garden, not a trench or sweatshop | did not originate in a trench or a sweatshop; she originated in a post-scarcity walled garden | yes
+  - Characterization | Her radicalization comes from culture shock, not material deprivation | Her radicalization is born from culture shock, not material starvation | yes
+  - Characterization | Her psychological makeup cannot process the friction of Skyfall's brutal zero-sum world when she leaves Equestria | her psychological architecture cannot process the friction | yes
+  - Characterization | Raised in a top-down, conflict-free society under Celestia, she seeks a top-down, conflict-free fix for Skyfall's cruelty | Because she was raised in a top-down, conflict-free society (Celestia's rule), she looks for a top-down, conflict-free solution | yes
+- goals:
+- whole: The note asserts, as psychological truth, that Caramel Marks's sheltered post-scarcity Equestrian upbringing shapes her culture-shock radicalization and her preference for top-down, conflict-free solutions to Skyfall's cruelty.

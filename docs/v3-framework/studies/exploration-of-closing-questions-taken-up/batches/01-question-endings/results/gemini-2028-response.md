@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want the model to draft the React/Tailwind Kanban board component to show how the expanded JSON would be organized for the manual consolidation pass? | ignored | Nothing about the Kanban component. The user moves on to reviewing the Phase 0 system prompt. | none
+- shape: The user drops the offered Kanban component and sends the conversation back to an earlier pipeline stage. They treat the model's duplication argument as accepted and ask for a critique of the Phase 0 system prompt. They paste the full prompt and ask for changes and reasons. They also tuck in a side question asking the model to confirm that Phase 2 allows only one bucket per paradigm.
+- settles:
+  - Phase 2 now allows a note to be placed in multiple buckets, with at most one bucket per paradigm. This is stated as the current design, with a request to confirm the per-paradigm limit. | "phase 2 allowing multiple bucket placement (but only one per paradigm, correct?)"

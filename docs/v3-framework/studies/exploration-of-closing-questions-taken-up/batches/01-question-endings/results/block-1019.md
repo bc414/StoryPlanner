@@ -1,0 +1,5 @@
+- questions:
+  - When Prince Blueblood arrives in Ain Trotgourait and sees Twilight burning herself out purifying water, how does he diagnose her failure through his cold logistical worldview, and how does this scene establish him as the necessary unsentimental architect of the Dotted Line Report rather than a villain? | no user turn | none | none
+  - During the post-war formation of the Republican Pact, how does Applejack reconcile Celestia's 'cannot police the world' doctrine (vindicated by failed nation-building) with the moral condemnation of the Zebras' suffering, and how does Harmonic Capitalism (Star Energy trade agreements) stabilize foreign nations without isolationism or top-down imperial charity? | no user turn | none | none
+- shape: none
+- settles:

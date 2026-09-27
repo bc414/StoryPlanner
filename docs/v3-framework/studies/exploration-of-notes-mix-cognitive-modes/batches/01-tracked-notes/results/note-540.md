@@ -1,0 +1,4 @@
+- claims:
+  - NarrativeArchitecture | Sets the reader's starting opinion of Luna, drawn from tropes, as traumatized, naive, delusional and passive, the baseline for later updates | Readers initially think Luna is traumatized, naive, delusional and passive | yes
+- goals:
+- whole: The note sets the baseline of the reader's opinion arc for Luna by naming the trope-driven assumptions readers begin with, and lists no updates or goals yet.

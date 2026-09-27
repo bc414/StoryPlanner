@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks whether rugged-individualist griffons would tell Grover IV that Boreas favors the strong and blesses industrial expansion, and points out that this conflicts with Grover III's chivalric code and with the Lions-rule, Eagles-serve dogma.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves off the Twilight analysis to ask a new research question about what Lauren Faust originally planned for the show and what the community speculates or has confirmed, without disputing anything the model said.

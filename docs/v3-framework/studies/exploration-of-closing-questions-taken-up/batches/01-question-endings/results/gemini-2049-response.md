@@ -1,0 +1,4 @@
+- questions:
+  - Whether to go ahead with a mock run of the Phase 2 prompt on a complex paragraph from the user's Part 1 notes, to test intersection and pronoun de-aliasing | ignored | Says nothing about the mock run and does not accept or decline it. It asks about the wording of an earlier phrase instead. | none
+- shape: The user turn redirects to a clarifying question about wording. It asks why the phrase 'While word order and pronouns may shift' says word order can shift. The phrase does not appear in the model turn, so it presumably comes from an earlier requirement or prompt text. The turn challenges that text and leaves the proposed next step untouched.
+- settles:

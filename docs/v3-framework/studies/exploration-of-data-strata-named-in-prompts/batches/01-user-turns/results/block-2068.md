@@ -1,0 +1,5 @@
+- sources:
+  - my Zebrica warlord system | treat as the author's existing design; the NPC colonial corporations should unwittingly run the remittance trap featured in it | unwittingly running the remittance trap featured in my Zebrica warlord system | referred-to
+  - the cooperative synthesis and the other three models (capitalists, fascism, communism) from the ongoing design discussion | treat as a provisional design to be revised, with the synthesis recast as drawing on strengths of all three while rejecting their cynicism | I think the cooperative synthesis takes elements from all three | referred-to
+- order:
+- about: The user proposes changing the game's starting framing to a mining company or colonial entity CEO, recasts the cooperative model as a synthesis of the other three, and says NPC colonial corporations should act as compradors or warlords caught in the remittance trap from their Zebrica warlord system.

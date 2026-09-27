@@ -1,0 +1,4 @@
+- questions:
+  - Whether to continue optimizing the Code Assist setup, or switch to writing C# logic for the WPF app that exports SQLite records to markdown | ignored | Says nothing on either option and asks a new question comparing Code Assist with NotebookLM | How does code assist compare to notebook lm?
+- shape: Redirects to a new side question, asking for a comparison of Code Assist with NotebookLM as another tool for the consulting workflow. It picks neither offered next step.
+- settles:

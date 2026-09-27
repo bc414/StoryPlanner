@@ -1,0 +1,5 @@
+- questions:
+  - How does the post-war Equestrian Republic treat vulnerable children like Scootaloo, framed as 'depreciated assets'? | ignored | Says nothing about it; goes straight to asking for analysis of a different story plan. | none
+  - Does Applejack's new government actively intervene in New Mareland/Skyfall-style grifts inside its borders, showing the Republic has teeth where Celestia's Nursery did not? | ignored | Not taken up; the turn only asks for a parallel analysis of another plan. | none
+- shape: Moves on to the next item: gives a new instruction to analyze a second older canon-FiM plan (Fluttershy and Rarity) in the same format, relating it to TLTT. It leaves the model's closing questions unaddressed and sets no new facts.
+- settles:

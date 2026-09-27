@@ -1,0 +1,5 @@
+- sources:
+  - these martial clubs (the martial-club idea from the model's preceding answer in this conversation) | taken as a working premise to build on and test a further idea against, not questioned | Would these martial clubs be where | referred-to
+  - the author's own supposition about the stagnant Aquileian nobility trading knightly routines for guns and the free landowners being the real warriors | offered as the author's tentative reasoning, a provisional idea for the model to confirm or develop, not settled fact | Since I suppose the stagnant Aquileian nobility | first-named
+- order:
+- about: The user asks whether the proposed martial clubs would be where the FJA's term "poseur" spreads, backing the idea with their own tentative reasoning about a nobility that abandoned chivalry for guns while free landowners kept real honor.

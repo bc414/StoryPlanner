@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a writing exercise or a worked example of one scene rewritten from two perspectives? | ignored | The user turn does not take up either offer. It asks a new question about dramatic irony. | none
+- shape: Redirects to a new craft question. It asks whether rotating POV suits dramatic irony and asks for an explanation of what dramatic irony means and how it works. It does not respond to the offered exercise.
+- settles:

@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want the "Red Team" system prompt, written to be token-efficient? | ignored | The user turn doesn't mention the prompt, the subscription or the pricing. It moves to a question about the magic system. | none
+- shape: The user turn drops the pricing and tooling thread and goes back to worldbuilding. It puts a new design question about the magic system (training) and then states a conclusion about Twilight's power. It doesn't answer the model's offer.
+- settles:
+  - Base magical capacity grows with training, like a muscle, while cutie mark discounts stay in place. | "grow with training, like a muscle. While still keeping intact cutie mark discounts"
+  - Twilight's power comes from both the cutie mark discount and training. | "So Twilight's power is cutie mark discount but also training"

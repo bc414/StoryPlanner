@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want an analysis of how the sonobuoy trade would change the Rarity–Applejack dialogue in the Preparation chapter? | ignored | Says nothing about the dialogue analysis. It turns to radar in place of sonobuoys and asks a new question about other Skyfall-sourced components. | none
+- shape: Corrects a premise (rubber and crystals are already in Equestria), takes up the radar alternative in place of the sonobuoy proposal, and redirects with a new request for other essential military components Skyfall must supply that aren't submarine-related.
+- settles:
+  - Rubber and crystals are available within Equestria, so they are not the supply problem | The rubber and crystals are in Equestria, so that's not the issue
+  - The Cloud Carrier gets centimetric radar from Skyfall, used around Vanhoover right before the White Peace | I agree with centimatic radar for the cloud carrier in surrounding Vanhoover right before the white peace

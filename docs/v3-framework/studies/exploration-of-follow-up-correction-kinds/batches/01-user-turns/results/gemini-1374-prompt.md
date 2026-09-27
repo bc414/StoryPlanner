@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the Chrysalis arc analysis and asks a new question, for an explanation of why Governor Teafeather was shot in a Nova Griffonia flavor text that starts the civil war, without commenting on the previous answer.

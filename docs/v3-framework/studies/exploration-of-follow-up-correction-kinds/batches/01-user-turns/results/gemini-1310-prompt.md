@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the Isi-Bumbano naming and moves on to ask for several candidate translations of "jaeger" and "hive" plus suggestions of other key story terms needing impactful translations.

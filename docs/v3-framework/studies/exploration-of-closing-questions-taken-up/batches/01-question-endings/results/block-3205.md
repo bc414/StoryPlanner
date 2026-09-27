@@ -1,0 +1,4 @@
+- questions:
+  - What would you like to explore in the Gemini corpus next (specific threads or a search)? | answered | Asks for the full lineage of Chrysalis's characterization as it evolves across the whole project, which names the topic to explore. It does not choose a particular thread or say which search tool to use. | Give me the full lineage of Chrysalis's evolving characterization across the whole project
+- shape: Gives an instruction that starts real research. The user moves on from the tool test and asks for a project-wide history of one character's characterization. The scope is wide (the whole project, not just February 2026 or the Gemini corpus).
+- settles:

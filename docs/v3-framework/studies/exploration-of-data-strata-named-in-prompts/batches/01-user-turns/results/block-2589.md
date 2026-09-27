@@ -1,0 +1,4 @@
+- sources:
+  - system frameworks and theses we've talked a lot about | keep in perspective and treat as secondary to writing a resonant story, not as the primary goal | to put things in perspective, the primary goal still has to be anchored on writing a resonant story | referred-to
+- order:
+- about: The user steps back from the framework and thesis talk to ask the model to confirm that the primary goal is a resonant story, since the story competes with everything else for attention.

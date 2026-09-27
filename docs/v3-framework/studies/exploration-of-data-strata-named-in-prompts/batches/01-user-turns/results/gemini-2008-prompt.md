@@ -1,0 +1,5 @@
+- sources:
+  - the JSON schema in the code editor, corresponding to my visual declaration | treat as the working reference, the schema the editor holds, to be compared against the other | Above is what is in the code editor, corresponding to my visual declaration | first-named
+  - the schema the model suggested pasting, which gave the vf error | treat as the failing version; explain how it differs from the editor's schema | Below is what you were suggesting I paste in which was giving vf error | referred-to
+- order:
+- about: The user pastes the schema now in their editor alongside the schema the model earlier told them to paste, which errored, and asks the model to explain how the two differ.

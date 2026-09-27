@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user restates how the party scene plays out in their story, with Henri and Fleur's real reason for leaving, Fleur's giggle and "the look", and AJ missing it, and points at no body of material for the model to use or set aside.

@@ -1,0 +1,4 @@
+- sources:
+  - the story plan about the 3x multiplier | to be revised: stop treating the multiplier as ground truth and re-file it as only Fleur's theory, which Twilight tries to disprove | If I move the story plan about the 3x multiplier to Fleur's theory only | referred-to
+- order:
+- about: The user corrects the previous analysis by asking that the 3x alicorn multiplier be reclassified in the plan as Fleur's in-story theory rather than ground truth, and draws two consequences: alicornization reads more like institutional investment or credential, and Cadance's alicornization is mainly about giving her a horn for the conception spell.

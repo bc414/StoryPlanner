@@ -1,0 +1,4 @@
+- sources:
+  - the secret (the hidden fact, already worked out earlier in this conversation, that the soil and factory chemistry are literal and can't be replaced) | accept as established background, but the workers' lines must not reveal it; use it only as dramatic irony behind what AJ believes | Without dropping the secret | referred-to
+- order:
+- about: The user asks the model to write what Star Energy workers could say to Applejack outside Luna's command tent, pushing her to take the general's star and refuse to retreat, while keeping the established secret hidden and letting her land-and-home-pride talk turn out to be literally true.

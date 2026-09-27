@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves off the story's societies to real-world politics, offering Bernie Sanders as an example of the resilience/cynicism distinction and asking for more examples and whether the distinction is a continuous spectrum, without disputing anything the model said.

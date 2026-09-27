@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks factual history questions about what happened to German POWs held in America, including those with homes in the Soviet bloc, and whether it explains why many Germans speak English, without pointing at any body of material to draw on.

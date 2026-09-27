@@ -1,0 +1,5 @@
+- sources:
+  - background lore for Celestia and Discord (the pasted lore list) | treat as the established backstory for Celestia and Discord and work from it | Here is the background lore for Celestia and Discord | first-named
+  - The Princess and the Kaiser | its backstory is shared as the base for this lore, up to the battle of Tall Tale, where this version diverges | Same backstory as The Princess and the Kaiser up until the battle of Tall Tale | referred-to
+- order:
+- about: The user accepts a new idea for Trimmel's surrender and the Applejack contrast, floats a Star Energy crystal pony, and then pastes background lore for Celestia and Discord that builds on an earlier story's backstory.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the playground-scene analysis and asks for a new task: a full report of every insight from the whole conversation, including ones later superseded, with a suggestion to search transcripts.

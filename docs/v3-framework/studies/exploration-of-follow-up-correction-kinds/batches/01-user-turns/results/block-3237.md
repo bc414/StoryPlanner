@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the model's account of incentives and agency as coherent and moves on to a further question, asking why the Great Lakes gerontocratic polygyny emerges instead of monogamy, matrilineal, communal or female-hoarding-of-men arrangements, in both real-world materialist history and the Zebra world.

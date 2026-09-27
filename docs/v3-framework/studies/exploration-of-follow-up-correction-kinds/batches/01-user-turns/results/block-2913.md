@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts the proposed axis term "Incorporative" and restates the model's own reasoning for it, that it stays morally neutral because the moral content sits in the contract axis.

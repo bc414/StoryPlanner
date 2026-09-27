@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The author revises the shipping and naval setup by stating that the Aquileian fleet still protects Equestrian exports bound for Aquileia, that Applejack's parents can also use Skyfall insurance and sell to Skyfall, and that Chrysalis can only release submarines once formal war begins, then asks whether this makes sense.

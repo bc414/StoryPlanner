@@ -1,0 +1,6 @@
+- claims:
+  - throughout | Thorax grew up in the rat race, a formative fact of his upbringing | "grew up in the rat race" | none
+  - span | He is a standard jaeger who had to perform the typical cognitive dissonance that his station demanded | "would be a standard jaeger who had to do all the typical cognitive dissonance for his station" | tied to his station as a jaeger and to the start of TLTT, which the display question asks about
+  - span | He believed he is objectively superior to the drones and deserves his rank over them | "He believed he is objectively superior and deserves his rank over the drones" | past tense "believed", his rank and station, the start of TLTT
+  - span | He believed he deserves to feast on the wedding's love | "and to feast on the wedding's love" | past tense "believed", the start of TLTT; the wedding is the occasion for the feast
+- beside: Yes. Backstory note 687 (1002) speaks of the same beliefs: he no longer wants to be a predator, and he sees the Lioness blast as a moral judgement on the changeling hierarchy. It is the later change to what this note says he believed at the start. Backstory note 682 (987) gives his birth in an industrial hive in Vesalipolis, which is near the upbringing this note mentions but does not clearly say the same thing.

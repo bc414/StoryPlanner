@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | The Kurdish Diwan, a gathering place where men and women sit, drink tea and discuss affairs, is the real-world model | In Kurdish culture, the Diwan is a gathering place where men and women sit, drink tea, and discuss affairs | yes
+  - Canon | Set against the source material's strict hierarchies, the Griffon knights and Celestia's court with its privy/petty council, this organization's structure is radically democratic | radically democratic compared to the strict hierarchies of Griffon knights or Celestia's court | no
+  - History | Temberik villages share grain, tools and labor, reported as a fact of how they live | Temberik villages share grain, tools, and labor | no
+- goals:
+- whole: The note names the Kurdish Diwan as the real-world model for Temberik and contrasts its egalitarian, communal way of life with the hierarchical institutions of the source canon.

@@ -1,0 +1,6 @@
+- questions:
+- shape: The user turn declines the model's suggested Jachs-based scene by saying Jachs isn't in the story and Hivemarshall Trimmel fills that role. It then asks the model a new lore-check question: does a canon path exist where Twilight studies love with changeling scientists, or was that made up? It puts a fresh question to the model and answers nothing, because the model turn asked the user no question.
+- settles:
+  - Jachs will not appear in the story | wasn't really planning on including Jachs
+  - Hivemarshall Trimmel, the meritocrat, is the main antagonist, the one to be reformed and given the nuance | main antagonist to be reformed and has all the nuance is Hivemarshall Trimmel
+  - Trimmel's backstory has been significantly reworked from canon | I reworked his backstory significantly

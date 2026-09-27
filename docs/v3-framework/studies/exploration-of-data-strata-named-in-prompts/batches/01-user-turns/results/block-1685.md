@@ -1,0 +1,5 @@
+- sources:
+  - this framework (the two-dimensional political spectrum just laid out) | use as the analytical lens; apply it to the real-world material | under this framework | referred-to
+  - real world history and current day | the subject material to be analyzed, drawn from the model's general knowledge and mapped onto the framework | Give an analysis of the real world history and current day | referred-to
+- order:
+- about: The user asks the model to apply the political-spectrum framework it just set out to real-world history and the present day.

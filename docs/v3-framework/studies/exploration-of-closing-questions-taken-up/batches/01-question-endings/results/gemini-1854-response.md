@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to hear more about how the 2014 Russian embargo changed Poland's agricultural economy? | no user turn | none | none
+  - Does the user want a recipe for Szarlotka, the Polish apple cake? | no user turn | none | none
+- shape: none
+- settles:

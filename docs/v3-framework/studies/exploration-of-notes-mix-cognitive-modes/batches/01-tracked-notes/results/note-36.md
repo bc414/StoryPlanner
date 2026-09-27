@@ -1,0 +1,4 @@
+- claims:
+  - History | Celestia began guiding Twilight over 1003-1006 to suppress her ambition in favor of bureaucratic friendship, reported as a fact of the world | Celestia started steering Twilight towards suppressing her ambition in favor of bureaucratic friendship | yes
+- goals:
+- whole: The note reports as an in-universe historical fact that in this period Celestia began steering Twilight away from ambition toward bureaucratic friendship.

@@ -1,0 +1,5 @@
+- claims:
+  - History | Luna asked Applejack to become a general in order to inspire others, because Applejack was a celebrity, the Element of Honesty | Luna asked Applejack to be a general to inspire others, just because she was a celebrity | yes
+  - History | Applejack refused to let Luna give her a general's star | Applejack refused to let Luna slap a general star on her | yes
+- goals:
+- whole: The note reports, as a past event in Applejack's backstory, that Luna asked her to serve as a celebrity general to inspire others and that she refused the rank.

@@ -1,0 +1,8 @@
+- claims:
+  - NarrativeArchitecture | hints of the canning company are seeded throughout the early chapters | hints of the canning company throughout the early chapters | yes
+  - NarrativeArchitecture | the organization's true nature is revealed in chapter 7, through Apple Bloom's point of view | Revealed in chapter 7 from Apple Bloom's point of view | yes
+  - NarrativeArchitecture | the reader's opinion of the organization is planned to begin at a negative default before the reveal | The reader should start out thinking it's soulless and extractive | yes
+  - Canon | the organization is likened to the dystopian canning line in the existing work To Where and Back Again, giving the prior trope the reader brings | It resembles the dystopian canning line from To Where and Back Again | no
+- goals:
+  - the reader initially believes the canning company is soulless and extractive | WorldInference | The reader should start out thinking it's soulless and extractive
+- whole: The note plans the reader's arc of understanding of SAA: early hints, an initial soulless-and-extractive impression drawn from a dystopian canning-line precedent, and a chapter 7 reveal through Apple Bloom.

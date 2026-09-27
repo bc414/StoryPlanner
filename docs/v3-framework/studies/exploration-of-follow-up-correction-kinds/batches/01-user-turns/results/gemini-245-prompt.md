@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model invented a special 'Crystal Love' that changelings could feed on from the Crystal Empire; the user says the energy is ordinary friendship and other happy emotions generalized as love, and the Crystal Heart is only an artifact that converts love into a physical shield | It's not "crystal love". It's just friendship plus all the other happy emotions | flat, direct statement of the right terms, followed by an explanation of how it works
+  - reading of the plan | The model cast the Crystal Heart as an amplifier and broadcaster of ambient love, and a fusion reactor generating the energy, where the user's design has it as an artifact that turns love into a shield | The crystal heart is a magical artifact that turns love into a physical shield | flat, stated as a clarification of the mechanic and in passing after the first correction
+- about: The user turn corrects the model's 'Crystal Love' framing and its account of the Crystal Heart, then goes on to develop the love-flavor system (gray, pink, red) and asks two follow-up design questions about latent absorption and coloring romantic love.

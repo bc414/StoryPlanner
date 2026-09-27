@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want a breakdown of the logistics of how the government kept commercial flights running after firing most of the controllers? | ignored | The user turn does not take up the offer. It asks a new question about whether PATCO or its members were rent seeking or were seen that way. | none
+- shape: Moves the conversation to a new question. It skips the offered logistics breakdown and asks for an evaluative, economic and political reading of PATCO (was it rent seeking, or seen as rent seeking). It does not react to the strike figures the model gave.
+- settles:

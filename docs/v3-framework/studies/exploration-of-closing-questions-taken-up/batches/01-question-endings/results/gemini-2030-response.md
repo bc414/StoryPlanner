@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want the model to rewrite the Phase 2 (Sorter) system prompt so it enforces a maximum of one bucket per paradigm? | ignored | The user does not mention Phase 2 or the offer. They go back to Phase 0 and ask why their new prompt lacks a chronology category. | none
+- shape: The user turn skips the offered next step and returns to the Phase 0 prompt. It pastes the revised prompt, with the model's suggested changes worked in. It reports a problem: the output no longer includes a chronology category, which the user thought was the most important. It then asks the model to diagnose whether the new instructions made the paradigms too vague or abstract.
+- settles:
+  - The Phase 0 prompt now includes the mutual-exclusivity language in both the Task and the ExtractionDirective, and it is the user's working version. | "Here is my new system prompt for phase 0"
+  - Chronology is the paradigm the user considers most important, and they expect it to appear among the proposed methodologies. | "doesn't have a category for chronology, which I thought was the most important"

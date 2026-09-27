@@ -1,0 +1,6 @@
+- claims:
+  - Analogies | Names George Washington as a real-world model for Applejack | George Washington | yes
+  - Analogies | Washington's traits as the point of comparison: not a tactical genius, yet rode into the line of fire to rally terrified troops | he wasn't a tactical genius, but he rode into the line of fire to rally terrified troops | yes
+  - Analogies | Washington's relinquishing of power rather than becoming king as a parallel for the character | He stepped down instead of becoming king | yes
+- goals:
+- whole: The note documents George Washington as a real-world inspiration for Applejack, citing his courage in rallying troops despite limited tactical brilliance and his refusal of kingship.

@@ -1,0 +1,10 @@
+- sources:
+  - the faction map | accepted as it stands, keep it unchanged | "The faction map is good" | referred-to
+  - the event map | treat as flawed and rework it closely against the author's corrections | "closely reevaluate the event map" | referred-to
+  - the author's own real-world history and allegory mappings given in this turn (2008 crash, 2016 election, 2018 midterms, 2020 primary, Charlottesville, Jan 6) | take as the author's corrections and apply them when redoing the event map | "I believe the battle of mount aris in 1006 more cleanly maps to the 2008 market crash" | first-named
+  - the story's chapters (Chapter 16 Combined Arms, Chapter 17 Breakthrough, Chapter 22 White Peace) | treat as fixed story events that the allegory has to fit | "The question in chapter 16 Combined Arms" | referred-to
+  - the story's assertion that there is no great man or great mare | use as the premise for reading Trump, Obama and Biden as reflecting the populace, not themselves | "there is no \"great man\" or \"great mare\"" | referred-to
+  - the author's planned ground truth for Celestia | treat as the settled plan: she answered petitions and stewards a system she did not design | "what I ultimately plan as the ground truth for Celestia" | first-named
+- order:
+  - the author's own real-world history and allegory mappings given in this turn | over the earlier event map, the author says their mapping of Mount Aris "more cleanly maps" and asks for the event map to be reevaluated
+- about: The author corrects the model's event-to-history allegory map, offering their own mappings from 2008 to 2021 and a reading of Trump, Obama, Biden and Celestia as reflections of the populace, keeps the faction map, and asks for the event map to be redone, including how the 1015 election, the Love Drop and the republican pact fit.

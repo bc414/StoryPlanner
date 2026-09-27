@@ -1,0 +1,5 @@
+- claims:
+  - NarrativeArchitecture | The reader begins by assuming Applejack is a background pony and a fake general, appointed to lead the army because she is a celebrity | The reader starts out assuming Applejack is a background pony and a fake general who was appointed to lead an army because she's a celebrity | yes
+  - NarrativeArchitecture | The reader is expected to think Applejack is totally naive about the reality of industrial warfare, which is a further starting assumption for later updates | They would think Applejack is totally naive to the reality of industrial warfare | yes
+- goals:
+- whole: The note sets out the reader's trope-based starting opinion of Applejack, as a celebrity figurehead general who is naive about industrial warfare, as the baseline for later updates.

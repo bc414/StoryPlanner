@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user extends and corrects the previous analysis by supplying new story-world backstory about the jungle tribes' global trade, Chrysalis's drug-market collapse and shell companies, and a theological surface layer of feuding, without pointing the model at any body of source material.

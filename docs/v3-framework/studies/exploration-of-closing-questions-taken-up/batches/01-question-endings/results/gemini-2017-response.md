@@ -1,0 +1,5 @@
+- questions:
+  - Asked the user to paste the text of their 6-step process (the CSV could not be read) so the model can review it and say whether it differs from the pipeline listed | partly answered | Supplies the process as a screenshot rather than pasted text, so the material is offered but not in the form requested | Here is a screenshot of my process
+  - Whether the user wants the master System Instruction and JSON Schema for Phase 2, the Sorter, generated | ignored | Says nothing about Phase 2 or the offered deliverable; it only supplies the screenshot | none
+- shape: A short follow-up that supplies the missing material in a different form, an image instead of pasted text. It leaves the model's offer unaddressed and sends the user's own process back to the model for comparison with the pipeline it laid out.
+- settles:

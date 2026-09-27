@@ -1,0 +1,5 @@
+- sources:
+  - Agency, Tempest and Crash chapters (CIA, Tempest Wind, plane crash) | treat as the benchmark of a good title: a visible surface plot parallel plus a thematic undercurrent; use as the standard to test the others against | all fell good because they have a direct surface level plot visible parallel | referred-to
+  - all the chapter titles | check each one against that two-part standard and say whether it holds for all of them | Is this true of all the chapter titles? | referred-to
+- order:
+- about: The user states why three chapter titles work (a concrete plot parallel plus a thematic undercurrent) and asks the model to check whether the whole set of chapter titles meets the same standard.

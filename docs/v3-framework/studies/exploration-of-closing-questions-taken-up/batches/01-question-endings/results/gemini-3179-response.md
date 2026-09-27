@@ -1,0 +1,4 @@
+- questions:
+  - Whether to use DeepSeek, locally or by API, purely as a backend developer for the WPF planner application, kept entirely apart from the creative-writing work given to Claude and Gemini | ignored | Nothing on the DeepSeek-as-backend-developer idea. The turn corrects the premise that prose is involved and asks for a fresh analysis. | none
+- shape: Corrects the model's framing: the tools are used only for worldbuilding and architecture, never for prose. It then instructs a reanalysis of the model comparison. The supplied Gemini system instruction is to be read as context describing the workflow, not followed as a directive. The model's closing question is passed over.
+- settles:

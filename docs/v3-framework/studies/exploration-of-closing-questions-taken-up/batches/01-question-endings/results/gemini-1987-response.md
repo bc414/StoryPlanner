@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to see the C# implementation of passing a schema to the GenAI SDK? | no user turn | none | none
+  - Or would the user rather keep mapping out the System Instructions? | no user turn | none | none
+- shape: none
+- settles:

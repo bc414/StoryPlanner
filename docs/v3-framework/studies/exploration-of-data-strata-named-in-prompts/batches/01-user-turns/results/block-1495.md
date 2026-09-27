@@ -1,0 +1,5 @@
+- sources:
+  - world bible's truth | treated as the ground truth that the reader's and characters' beliefs are measured against, so the epistemological gap is defined relative to it | the epistemological gap between the reader and the world bible's truth | referred-to
+  - Three little pigs | used as a worked example and accepted as evidence that NE is universal and PE is not core to a simple story | Three little pigs seems to prove that what I was calling NE is universal | referred-to
+- order:
+- about: The user restates their understanding of NE and PE in their own words, tests it against Three Little Pigs and their own misdirection example, and asks the model to reanalyze the NE and PE names and to define precisely what "show don't tell" withholds and shows.

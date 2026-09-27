@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a follow-up question about how to decide which of the two anchor characters, Applejack or Twilight, should carry the point of view in a given scene, building on the model's recommendation without disputing it.

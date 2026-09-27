@@ -1,0 +1,5 @@
+- questions:
+  - Does the split feel like the right balance for the magical engineering theme, with Twilight supplying the Source (the spell or code) and Skyfall supplying the Focus (the precision lenses)? | ignored | The user does not comment on the split, the lens bottleneck, or the Skyfall trade. They restate how the crystal should work and ask for that to be expanded. | none
+- shape: Redirects to the underlying mechanism. The user restates their own idea of what the spell crystal is, which implicitly corrects the model's lithography and optics framing. They then ask the model to expand on how that would work, and leave the lens proposal unaddressed.
+- settles:
+  - The spell-matrix crystal must carry the same arranged pattern that a unicorn produces at the horn when consciously casting a spell. | the crystal with the spell matrix needs to have the same arranged pattern as whatever a unicorn does to their horn

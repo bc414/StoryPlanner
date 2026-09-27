@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user asks a new comparative question, wanting the model's Applejack-at-the-front leadership model set against how Rommel actually led in Poland, France and North Africa, without disputing anything the model said.

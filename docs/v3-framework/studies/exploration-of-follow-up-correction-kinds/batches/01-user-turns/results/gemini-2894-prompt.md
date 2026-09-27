@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model built its analysis on "piezomagical effect" as the settled name for the Idol's mechanism, when the user holds that term as provisional and open to replacement | "I don't have to use piezomagical. I'm wondering if there is a better term" | mild and matter-of-fact, softened by allowing the term to stay if it fits best
+  - reading of the request | The model answered with visual aesthetics and pushed oscillation, strobe and hum, while the user wanted the physical cause of the glow and is unsure oscillation is the right mechanism | "What would make the crystal glow? ... I'm not sure if oscillation is what I want" | tentative and exploratory, put as questions and hedges, with no complaint about the earlier answer
+- about: The user loosens the model's assumption that \"piezomagical\" is fixed and redirects to the underlying physics of why the crystal glows, floating electron transitions or a physically shaking idol as alternatives to the oscillation idea.

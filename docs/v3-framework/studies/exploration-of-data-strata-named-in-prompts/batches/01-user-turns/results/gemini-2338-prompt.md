@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user offers a worldbuilding constraint (Aquileia's navy is smaller than Skyfall's and only escorts its own ships) and asks whether other nations would still be stuck paying Skyfall insurance.

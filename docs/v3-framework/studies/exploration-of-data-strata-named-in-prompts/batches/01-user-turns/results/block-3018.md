@@ -1,0 +1,4 @@
+- sources:
+  - notes I just added to the pep talk scene (It is 5.3.1) | read them before answering; they are the material the question about the checklist/ledger is to be judged against | Read the notes I just added to the pep talk scene | first-named
+- order:
+- about: The user directs the model to read their newly added notes on the pep talk scene at 5.3.1, then asks whether Chrysalis should keep a progress ledger based on Gilded Lily's pep talk timeline and how that differs from the broken sword it just argued she should discard.

@@ -1,0 +1,4 @@
+- claims:
+  - Canon | Flurry Heart's Cutie Mark is set as the established Crystal Heart emblem modified with changeling wings, building on and recontextualizing the source material | Her Cutie Mark is the Crystal Heart with changeling wings | no
+- goals:
+- whole: The note fixes a single design fact about the character, a canon Crystal Heart Cutie Mark altered with changeling wings, without saying anything about the plan for her appearances or what the reader should get from it.

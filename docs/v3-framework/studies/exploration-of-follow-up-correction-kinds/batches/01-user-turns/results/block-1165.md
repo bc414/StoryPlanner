@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the analysis to ask whether the Layer 1 truth works as an allegory for human capital in 2026, and asks for the canon origin of cutie-mark folklore (Magical Mystery Cure, Boast Busters, Faust versus Hasbro) without disputing anything the model said.

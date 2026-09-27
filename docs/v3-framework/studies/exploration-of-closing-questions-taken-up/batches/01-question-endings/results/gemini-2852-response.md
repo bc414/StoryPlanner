@@ -1,0 +1,4 @@
+- questions:
+  - Whether the user wants to brainstorm how Fleur reacts aloud to Twilight's clinical explanation of the Hippogriff stork pipeline, to structure the Chapter 12 dialogue | no user turn | none | none
+- shape: none
+- settles:

@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user accepts "thymoluminescence" as the term for the Idol of Boreas and asks the model to propose a name for the separate phenomenon by which the universal translator turns intent vectors into soundwaves.

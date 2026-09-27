@@ -1,0 +1,7 @@
+- claims:
+  - outside all ten (world-rule ontology) | The Crystal Heart needs a unicorn filtering spell so that only friendship enters it and powers the shield | The Crystal Heart required a unicorn spell to filter emotions so that only friendship went in, to project the shield | outside
+  - outside all ten (world-rule ontology) | A rule of the system: terror or disharmony entering the heart makes the shield unstable | If the heart receives terror or disharmony, the shield becomes unstable | outside
+  - outside all ten (world-rule ontology) | The system's division of labor: a ruling class of unicorn crystallers maintains the spell while crystal ponies supply love and unity as fuel | Therefore, a ruling class of unicorns who called themselves "crystallers" maintained the filtering spell ... crystal ponies provided the fuel of love and unity | outside
+  - History | Mi Amore founded the Crystal Faire tradition, reported as a past event | Mi Amore established the Crystal Faire tradition | no
+- goals:
+- whole: The note lays out, as objective rules of the Crystal Empire, how the heart's shield depends on filtered emotion and how that produced a unicorn ruling class over crystal pony fuel-providers, then adds a historical founding of the Crystal Faire.

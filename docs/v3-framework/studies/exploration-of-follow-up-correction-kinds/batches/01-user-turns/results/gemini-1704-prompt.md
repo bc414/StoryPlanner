@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model treated the 3-Way Valve as just one of several things made possible by purified crystal, with Red Love used only as a manufacturing solvent. The user says the valve is an active, self-feeding control element like a transistor, so it would need Red Love in operation too. | "It's not passive, it's active. Like a transistor that is controlling a battery to feed itself" | Put as a question, with a short flat clarification attached. It is a soft push-back that never says the model was wrong.
+- about: The user asks whether the 3-Way Valve should need Red Love while running, not only in crystal refining, and explains that the valve is an active transistor-like part, not a passive one.

@@ -1,0 +1,7 @@
+- questions:
+  - Should the model draft a detailed Sabotage chapter analysis (Chapter 10) showing how Applejack breaks the Olenian Model in Las Pegasus? | ignored | Nothing said about it; the turn moves to Eros, Eagleclaw, Grover and Thranx. | none
+  - Should the model analyze the Love Drop in Chapter 21 in contrast with Olenia's Love Tax? | ignored | Not touched; the turn asks about different characters and plot threads. | none
+  - Should the model explore the Crystal City Siege, with Flurry Heart's empathy defeating fear tactics that worked on the Deer? | ignored | Not touched; the turn goes to a different set of questions. | none
+- shape: Redirects. The user passes over all three offered next steps and the Olenia analysis. They open a new line of questions of their own about Eros, Eagleclaw, Grover and Thranx, and how Chrysalis's backstory bears on Thranx's arc. In the course of it they add a description of Thranx.
+- settles:
+  - Thranx is the good changeling, a peer of Trimmel, who refused to leave Griffenheim when Synovial was recalled | The good changeling, Trimmel's peer who refused to leave Griffenheim when Synovial was recalled

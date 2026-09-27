@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want a moment in the epilogue or later chapters where Fleur Bloom or Twilight tells Applejack the burned farm is ecologically reset, not dead? | ignored | The user does not take up the epilogue moment or the ecological point. They move to a different scene, Applejack meeting her parents over the ruins. | none
+- shape: Redirects to a different planned scene and asks the model to suggest dialogue for it. It leaves the model's offered epilogue idea unanswered.
+- settles:
+  - The chapter Combined Arms has a scene where Applejack sees her parents for the first time in a while. | "planned scene in the chapter Combined Arms"
+  - The scene is set over the ruins of the burned Sweet Apple Acres. | "over the ruins of the burned Sweet Apple Acres"

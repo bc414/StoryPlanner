@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - fact of the world | The model claimed Trimmel used the threat that the sky will fall during the war; the user says he never said this and gives his actual radio line from chapter 1, so the Karnic Reversal premise is wrong | A clarification: Trimmel never used "the sky will fall" | Flat, stated as a clarification, with the real quote supplied as evidence and no apology or irritation
+  - reading of the request | The model offered three new alternative ultimatum options, when the user already had a specific ultimatum in mind (Trimmel's line plus a night-will-fall line) and wanted analysis of that; the user redirects to this | I think Applejack will use the same line from Trimmel... Please give analysis | Implicit, put as the user's own plan followed by a plain request, with no comment on the options offered
+- about: The user corrects the model's false claim about Trimmel's wartime threat by quoting his actual chapter 1 line, then sets out their own ultimatum for Applejack and asks for analysis of it.

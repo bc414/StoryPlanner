@@ -1,0 +1,7 @@
+- sources:
+  - the story plan / the architecture (the story planner) | treat as settled, fixed and audited so that meaning won't change substantially, while also asking whether it should be kept looser and noting it has been overhauled a couple of times | the story plan is set in stone and audited | referred-to
+  - the author's own earlier prose writing on THLB and KU, and how it went | treat as the true account of how they work, to compare against the planned approach for TLTT | When I wrote prose for THLB and KU | referred-to
+  - canon of the published show up to the end of season 7 | treat as the baseline from which TLTT diverges | end of season 7 where TLTT diverges from canon | referred-to
+  - the part of the fabula between the season 7 divergence and the start of TLTT, including the time within EaW | use as the ground for unpublished rough practice drafts of Applejack and Twilight, treated as spoiler material not for publication | the part of the fabula between the end of season 7 | referred-to
+- order:
+- about: The author asks whether they are gardening their architecture, proposes unpublished practice drafts in the pre-TLTT fabula to rebuild third-person prose and voice, asks how gardener and architect approaches differ, and asks for an analysis of their plan to patch designed symbols in already-published chapters.

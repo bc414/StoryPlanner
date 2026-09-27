@@ -1,0 +1,6 @@
+- claims:
+  - NotesToSelf | The author sets herself a planning aim: redefine what being a man means in the story as a healthy balance of ambition and grace, with the chasseurs as the model | We need to change what it means to be a man to have healthy balance of ambition and grace, like the chasseurs | yes
+  - NotesToSelf | A process reminder that the balance must be rewarded in the story and not merely told | (and not just tell them, reward them for it) | yes
+  - NotesToSelf | The author fixes a planning premise that this balanced definition of a good person applies equally to men and women | This definition of a good person, with a healthy balance, is universal for men and women | yes
+- goals:
+- whole: The note is the author's planning reminder to herself that the Aquileian Volunteers should help redefine manhood as a rewarded balance of ambition and grace, modeled on the chasseurs and applying to everyone.

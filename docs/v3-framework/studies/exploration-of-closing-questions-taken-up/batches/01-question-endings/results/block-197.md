@@ -1,0 +1,19 @@
+- questions:
+  - What specific concrete event in Acornage produces her pre-theoretical, bodily rejection of harmony (a harmonist changeling's demand, contempt at seeing changelings live as ponies, etc.)? | ignored | none | none
+  - Where and in what circumstances does she choose the name Chrysalis (alone, after a hitjob, a specific place)? | ignored | none | none
+  - Who prevails in the Chrysalis-Trimmel strategic debate, and what are the consequences for the war, including whether the threat-Applejack's-family plan backfires? | ignored | none | none
+  - What specifically triggers the hollow moment after the 1007 executions (the executions, Eros doing it, the Eagleclaw letter, the project ending)? | ignored | none | none
+  - How does Chrysalis experience Trimmel's rational pushback in the debate: drone school working as designed, or a resented challenge to her authority? | ignored | none | none
+  - Does her original changeling name appear anywhere, even obliquely (through Synovial or a memory of her mother), or is the erasure total? | ignored | none | none
+  - What is Dennis Discret's role and timeline, his relation to the Coltbert legacy, and does Minette interact with him? | ignored | none | none
+  - What does the scene look like where Chrysalis learns the slave trade has spread to civilians and shrugs; does she ask Pagala anything or not ask at all? | ignored | none | none
+  - What goes wrong with the Tirek plan in-universe, does she know Synovial released Tirek, and how does she process the failure? | ignored | none | none
+  - What is Star Energy (pony nationalist group, defense contractor, Wonderbolts-linked) and what is its role in the industrial response? | ignored | none | none
+  - In her full memory, does she know she said 'feed my children, feed!' and that the statthalters took it as permission? | ignored | none | none
+  - In winning the Tall Tale debate by citing Trimmel's subordinates' preference, is she cynically using procedure or self-deceived about her judgment? | ignored | none | none
+- shape: Corrects the model on a factual point of the world. The model had read the bully-to-plantation pipeline as turning bullied drones into sadists. The user reverses it: the pipeline takes the emergent bullies. The turn gives a reason for this and leaves every open question in the model's lists unaddressed.
+- settles:
+  - Statthalter slavers are allowed into drone kindergarten to kidnap and discipline the emergent bullies, not the bullied drones | correction: kidnap and discipline the emergent BULLIES, not the ones who were bullied
+  - All drones enter kindergarten as blank slates, and the ones who act maliciously are the ones funneled into becoming statthalters | all the drones in kindergarden came in as blank slates; acted maliciously are funneled
+  - Removing the malicious drones from the pool leaves well-behaved drones to become bauleiters, factory workers and jaeger officers | removed from the pool of well behaving drones who go on to become bauleiters and factory workers and jaeger officers
+  - The pipeline is an instance of structural determinism in Chrysalis's system | This is also structural determinism

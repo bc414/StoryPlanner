@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes the model's economic-warfare account as given and asks whether it also explains why Skyfall's former students collaborate with Chrysalis, offering their own idea that currency holders would trade wartime worthlessness for keeping their bank accounts.

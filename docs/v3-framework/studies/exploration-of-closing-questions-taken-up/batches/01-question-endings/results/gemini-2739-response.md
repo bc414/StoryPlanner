@@ -1,0 +1,4 @@
+- questions:
+  - How Dash applies the Count's lessons (patience, resource denial, psychological pressure) in the Bluebell River Spearhead, differently from her Daring Do days | ignored | Says nothing about Dash or the Spearhead; moves to a separate request about naming the Tzinacatl rafts | none
+- shape: Redirects to a new, unrelated worldbuilding task. It drops the model's analysis and question and asks for a few Incan-inspired names for the Tzinacatl rafts. It asks for suggestions and settles nothing itself.
+- settles:

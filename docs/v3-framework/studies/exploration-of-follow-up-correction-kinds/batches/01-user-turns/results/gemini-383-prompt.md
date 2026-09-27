@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the analysis to fix their own earlier slip over the name of Vérany's party, and asks whether it should have started as PRN, echoing Kemerskai's NRP, before becoming PNdA.

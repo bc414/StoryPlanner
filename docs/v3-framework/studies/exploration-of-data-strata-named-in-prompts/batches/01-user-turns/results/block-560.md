@@ -1,0 +1,6 @@
+- sources:
+  - My Little Pony: Friendship is Magic | the show's language and vocabulary is the material to draw on when suggesting a new name for land value tax | in the language of My Little Pony: Friendship is Magic | referred-to
+  - "Hearth's Warming Bonds" for "war bonds" | already-chosen renaming, to be treated as the pattern the new suggestions should match | I am framing "war bonds" as "Hearth's Warming Bonds" | referred-to
+  - "elements of liberty" for "republican civic virtues", in Twilight's thesis to Celestia after the Griffonia expedition | already-chosen renaming, a second example of the pattern to follow, set inside Twilight's referendum argument | "republican civic virtues" as "elements of liberty" (Twilight's thesis to Celestia | first-named
+- order:
+- about: The user gives two renamings they have already settled on, war bonds and republican civic virtues recast in show vocabulary inside Twilight's referendum thesis, and asks for a few similar My Little Pony-flavoured ways to phrase land value tax.

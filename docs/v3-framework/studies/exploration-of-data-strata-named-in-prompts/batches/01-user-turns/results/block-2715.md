@@ -1,0 +1,6 @@
+- sources:
+  - One Piece | the published series to be assessed and compared, with the model drawing on what it knows of it | How does One Piece compare | first-named
+  - all the other works discussed | the set of works earlier in this conversation that One Piece is to be measured against | all the other works discussed | referred-to
+  - the aspects that were discussed | the dimensions from earlier in this conversation that the comparison should be limited to | in the aspects that were discussed | referred-to
+- order:
+- about: The user asks the model to place One Piece alongside the other works already covered in the conversation, comparing them only on the aspects already covered.

@@ -1,0 +1,4 @@
+- sources:
+  - Chrysalis's industrial fractional distillation splitting pink love into an endorphin component (panzer haut) and an oxytocin component (jaeger geist) | the user accepts it as a sensible working premise and asks a real-world pharmacology question to test it against | I think it makes sense that Chrysalis's industrial fractional distillation does indeed separate the pink love | referred-to
+- order:
+- about: The user asks a real-world pharmacology question about how methadone differs from fentanyl and opium, and offers a guess about endorphins versus joy, in order to check whether the story's split of pink love into panzer haut and jaeger geist holds up.

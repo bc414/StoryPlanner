@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user pastes their existing C# export method and asks the model to apply the key-shortening advice to the anonymous DTO properties, which is a follow-up request that builds on the previous turn and does not correct it.

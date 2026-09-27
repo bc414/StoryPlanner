@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The authorweighs two ways to write Applejack's defiance of Luna, either a strategy agreed with Henri and commanders like the Wonderbolts or a stubborn stand on principle that ends with her overrun, buried in rubble and saved by Twilight, and says they lean toward the second.

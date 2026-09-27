@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user floats tentative worldbuilding revisions, asking whether Celestia should understand chemistry, suggesting Grover III's letters as a way for her to know its dangers without seeing it as earth pony magic, and noting the story needs Celestia and Equestrian officials not to understand fiat currency, without pointing the model at any body of material.

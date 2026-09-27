@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user carries on brainstorming by proposing a new plot option, that Celestia sends the leftover love canisters to Stalliongrad at white peace, and asks whether that fits her nature or whether it came from a deal, without disputing anything the model said.

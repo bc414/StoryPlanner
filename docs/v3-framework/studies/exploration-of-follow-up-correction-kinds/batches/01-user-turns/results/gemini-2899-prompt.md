@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user accepts Thymoluminescence as the term for the Idol of Boreas and moves on to ask for a name for the different phenomenon by which the universal translator turns intent vectors into soundwaves.

@@ -1,0 +1,5 @@
+- sources:
+  - the current story plan (AJ's drug deal bringing in Equestrian pink and red love, tribes becoming Big Food postwar) | treat as the established reference the model should note and keep consistent with; the model's framing of the drug deal is to be read against it | Note how in the current story plan | referred-to
+  - my refinement on where the unified conclave session comes out (the user's own revised outcomes for the medicinal, traditionalist and drug tribes) | new material from the author to be taken up as the updated outcome of the session, with the medicine stock donation part left provisional and maybe dropped | Here's my refinement on where comes out of the unified conclave session | first-named
+- order:
+- about: The user corrects the model's account of why the drug tribes differ from the traditionalists, of the Chirropteran mercenaries, of Chrysalis's hidden role and of Caballeron's 1002 scale-up, points to the current story plan for the drug deal and postwar Big Food, and gives a refined outcome for the unified Conclave session.

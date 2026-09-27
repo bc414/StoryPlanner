@@ -1,0 +1,9 @@
+- questions:
+  - How many Pegasi are in on the Cloudsdale nitrate secret: the whole weather corporation, or a small loyal cell siphoning nitrate-rain at night? | ignored | none | none
+  - How do the Changelings react when the first conventional bombs from the Wonderbolts' planes hit them? | ignored | none. The turn does say what the user imagines the Changelings doing with mass-produced planes, but that is their own tactics, not their reaction to being bombed. | none
+  - Does the user want to go into the mechanical design of the early stunt planes, or into how Chrysalis's generals react to the secret strikes? | ignored | none. It picks neither and asks a new question about real German Stuka use. | none
+- shape: The user does not answer the model's questions. They react to the one-bomb-per-sortie fact and use it to revise their own design: unicorn aces change the tank-killing math. Then they redirect to a new historical question, whether the Germans flew swarms of Stukas that rotated back to base. They tie that question to how they picture the Changelings fighting.
+- settles:
+  - A fighter with a unicorn ace aboard can bomb as many tanks per sortie as it has crystal enhancers, so the one-tank-per-sortie limit does not bind it | having a unicorn ace on board means the fighter can bomb as many tanks as they have crystal enhancers
+  - Starlight can bomb an unlimited number of tanks because her cutie mark gives her a discount, so she needs no crystal enhancers | infinite for Starlight since she doesn't need crystal enhancers due to her cutie mark discount
+  - Tentative plan: the Changelings, with mass production, would field large swarms of Stuka-type planes that constantly rotate back to base | This is what I imagine the changelings would do since they have mass production

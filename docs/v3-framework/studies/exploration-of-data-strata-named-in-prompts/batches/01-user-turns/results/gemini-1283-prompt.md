@@ -1,0 +1,6 @@
+- sources:
+  - the Applejack and Twilight split (Twilight with Fluttershy in Tall Tale, Applejack with Rainbow Dash in the Tzinacatl jungle) | treat as the settled arc structure to build the new 3-3 grouping on | During the Applejack and Twilight split, Twilight is with Fluttershy in Tall Tale | referred-to
+  - the Town Hall of chapter 9 Sabotage | treat as the established story event that starts the arc about implementing harmonic capitalism | after the Town Hall of chapter 9 Sabotage | referred-to
+  - adding Pinkie to the Tall Tale crew | treat as a decision now taken, carried over from the previous exchange, that the new plan assumes | Now I'm adding Pinkie to the Tall Tale crew | referred-to
+- order:
+- about: The author builds on the existing arc plan, including the Pinkie move just discussed, and asks whether Rarity should join Applejack's Tzinacatl negotiations with Flowing Current and Comet Shine to make a 3-3 split of the Mane 6 into political leadership and logistics innovation.

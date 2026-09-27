@@ -1,0 +1,4 @@
+- sources:
+  - "Stagnation's Redemption" story thread in v1 | the origin of the progression to be saved; the material comes from here and the user asks how to record it | from the "Stagnation's Redemption" story thread in v1 | referred-to
+- order:
+- about: The user summarizes a progression from Survival Harmony through stagnation and military defeat to a synthesis of resilience and harmonic capitalism, and asks how to save it from the v1 story thread both in the ontologies of the subjects it touches and in a unifying place.

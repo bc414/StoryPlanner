@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a short follow-up question about how Celestia's ability to move the sun fits with the Cutie Mark placebo theory just laid out, without pointing at any body of material.

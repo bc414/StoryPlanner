@@ -1,0 +1,4 @@
+- sources:
+  - Plan export (attached, 121,180 words) | supplied as material for the model to have; the turn states no handling, priority or trust level | Plan export attached — 121,180 words | first-named
+- order:
+- about: The user turn consists only of an attachment notice for a plan export, with no instruction or comment on the preceding scene analysis.

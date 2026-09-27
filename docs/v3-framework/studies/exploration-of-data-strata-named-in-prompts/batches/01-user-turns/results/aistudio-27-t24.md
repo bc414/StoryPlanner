@@ -1,0 +1,6 @@
+- sources:
+  - research on prompt engineering differences for changed model capabilities | gather current information and use it to judge whether the prompt still works for the new target model, and explain why or why not | research any difference in prompt engineering requirements to reflect changes in model capabilities | first-named
+  - the model's own training knowledge (knowledge cutoff of January 2025) | treat as possibly out of date, since the current date is March 2026, so it must be supplemented by research | You are Gemini 3.1 Pro, but with a knowledge cutoff of January 2025. It is currently March 2026 | referred-to
+  - this prompt (the Iteration 12 system prompt) | the document under review, to be checked against the new model's capabilities to confirm it will still work | make sure this prompt will still work | referred-to
+- order:
+- about: The user redirects the prompt review to a newer target model than the one the model assumed, asks for research on how prompt engineering needs have changed so the prompt can be checked and explained, and asks whether "e.g." alone signals a non-exhaustive list.

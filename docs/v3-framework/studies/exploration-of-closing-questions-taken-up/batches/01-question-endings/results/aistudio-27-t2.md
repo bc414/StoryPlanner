@@ -1,0 +1,9 @@
+- questions:
+  - Should the AI end its audits with probing questions to push the user's thinking, or give a static report? | ignored | Says nothing about whether the AI should ask follow-up questions or just report. | none
+  - What is the user usually feeding the AI: chapter summaries, worldbuilding bibles, or drafted prose? | answered | Supplies a world bible generated programmatically from their WPF planner's sqlite database. Plot points carry synopses, some very detailed. No drafted prose exists, and none is being written. | "Here is the world bible that I am going to feed in"; "not the final prose delivery at all"
+  - Where do models still slip into acting like a traditional writing assistant despite the rules? | ignored | Gives no examples of slips. It only restates the goal of analysis without any pull toward syuzhet. | none
+- shape: Pushback and redirect. The user attaches the world bible and rejects the model's V2 prompt as over-specified, wanting a broader system instruction with themes left to the bible. They ask for a pros-and-cons analysis of that choice. They also correct the model's picture of their stage (fabula architecture only, no prose), which they say the NotebookLM suggestions had assumed wrongly. They answer one of the model's three workflow questions through this and skip the other two.
+- settles:
+  - The project is at the fabula-architecting stage, with no final prose being written and no drafted text to analyse | "I am not writing any final prose delivery at this stage whatsoever. Only building the fabula."
+  - The story's specifics, such as theme and genre stance, are to come from the story bible and not be fixed in the system prompt | "those specifics should be coming from the story bible itself, right?"
+  - The story bible is generated programmatically from the custom planner's sqlite data, and plot points carry synopses of varying detail | "programmatically generated from a custom WPF story planner application"

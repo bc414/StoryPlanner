@@ -1,0 +1,5 @@
+- claims:
+  - History | Pear Butter was unhappy at Apple Family reunions in her past | Pear Butter wasn't happy at Apple Family reunions | yes
+  - History | Granny loved Pear Butter while the rest of the Apple family did not | Granny loved her, but the rest of the family didn't | yes
+- goals:
+- whole: The note reports, as in-universe backstory fact, that Pear Butter was unhappy at Apple Family reunions because only Granny loved her and the rest of the family did not.

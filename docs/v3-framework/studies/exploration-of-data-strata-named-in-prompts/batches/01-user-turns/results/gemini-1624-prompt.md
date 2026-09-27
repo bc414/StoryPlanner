@@ -1,0 +1,7 @@
+- sources:
+  - her VOPS profile | treat as the basis of Synovial's assumption that Applejack will collaborate; reason from it as an in-story premise | "he assumes she will collaborate according to her VOPS profile" | referred-to
+  - Petain's story as a feature of Aquileian history before Aquileia became a vassal to the Empire | author's stated plan, not yet settled; take it as the intended backdrop for the derogatory title | "I plan on Petain's story to be a feature of Aquileian history" | first-named
+  - the 1st and 2nd battles as the author describes them (1st on "you shall not pass", 2nd decapitation strikes out of desperation) | treat the author's own account of the battles as the correct framing to reason from | "during the 1st battle they were operating on" | referred-to
+  - Trimmel's later reveal that Synovial called Applejack the Lioness of Tall Tale derogatorily | treat as an established later story event that the tactics analysis must connect to | "which Trimmel reveals later" | referred-to
+- order:
+- about: The author asks how the changing tactics across the battles relate to Synovial's derogatory use of \"Lioness of Tall Tale\", supplying story details from their own plan (the VOPS profile, Petain in Aquileian history, and the motives behind the 1st and 2nd battles) as premises.

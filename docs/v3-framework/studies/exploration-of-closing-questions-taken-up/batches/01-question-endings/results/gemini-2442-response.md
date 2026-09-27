@@ -1,0 +1,9 @@
+- questions:
+  - Should Zecora formally ally with Star Energy and Twilight as a consultant, or stay a neutral rugged survivalist whom the main characters must travel into the Everfree to consult? | ignored | The user turn gives a different Zecora backstory and never says whether she allies with Star Energy and Twilight or stays neutral. | none
+- shape: The user turn sets aside the model's backstory and proposes their own. They first mention an earlier idea of Zecora as a Chiropterra ally helping Nightmare Moon, then say a different version makes more sense. They don't answer the model's consultant-or-survivalist question, and the turn is a decision about the character's history.
+- settles:
+  - Zecora was a harmonic chieftain of a Zebra village that Chiropterra destroyed. | a harmonic chieftain of a Zebra village that Chirropterra tragically destroyed
+  - She went to the Everfree Forest to try to stop Nightmare Moon from rising. | went to the Everfree Forest to stop Nightmare Moon from rising somehow
+  - She did not have to act because the mane 6 purified Luna. | luckily she didn't have to do anything because the mane 6 purified Luna
+  - She stays in the Everfree because she has no home to return to and the forest is rich in potion ingredients. | she has no home to return to, and the Everfree Forest of abundant in stuff for potion making
+  - The earlier idea of Zecora as a Chiropterra ally of Nightmare Moon is dropped. | it seems to make more sense if she was a harmonic chieftain

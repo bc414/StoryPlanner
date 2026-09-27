@@ -1,0 +1,12 @@
+- questions:
+  - In what order do the Election and the Hive liberation happen, given the Election is the climax? | answered | The election comes first, as the climax at the end of the chapter Ambition. The hive liberation follows it in the resolution chapter Resilience. | election is the climax, at the end of the chapter Ambition, then... Resilience
+  - If the Election is the climax, is the hive liberation off-screen or a denouement? | answered | It is not off-screen. It gets its own resolution chapter, Resilience, where the war resumes and the allies invade the hives and Olenia to liberate them. | Resilience which is the resuming of the war, the allies invading the hives and Olenia
+  - How does the Griffonia trip fit into the sequence with the Election and the hive liberation? | ignored | The turn never mentions the Griffonia trip or where it sits. It only says Arc 3 is an active war with immediate stakes. | none
+- shape: The user turn corrects the model's picture of Arc 3, which the model had treated as a political phase after the White Peace. The user says it is still an active war, the Reich against the Republican Pact, and names its military climax. It then gives the actual chapter structure from the election climax through three resolution chapters. It also opens with a general instruction to review the story plans. That instruction reads as a request to re-evaluate, not an answer to the model's question. The Griffonia question is left untouched.
+- settles:
+  - Arc 3 is an active war with immediate stakes, the Reich versus the Republican Pact. | Arc 3 is still an active war with immediate stakes, it is the Reich vs the Republican Pact
+  - The changeling attaché appears on the Reich side, and SECEF defeats it in the Battle of Ailmont. | the changeling attaché appears on the Reich side which SECEF defeats in the Battle of Ailmont
+  - The election is the climax of the arc, at the end of the chapter Ambition. | The election is the climax, at the end of the chapter Ambition
+  - Three resolution chapters follow the election. Resilience resumes the war, with the allies invading the hives and Olenia for liberation. | Resilience which is the resuming of the war, the allies invading the hives and Olenia for liberation
+  - The second resolution chapter is Grace, the love drop. | Grace which is the love drop
+  - The final chapter is Liberty, the conclusion and the future. | Liberty which is the conclusion and future

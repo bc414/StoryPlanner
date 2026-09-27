@@ -1,0 +1,8 @@
+- sources:
+  - real world stuff (real-world synthesis directive in V8) | not to be applied on every prompt; use only when relevant or when the user asks, possibly as one of the analytical lenses rather than a standing directive | I don't want it to synthesize real world stuff on every single prompt. Only when relevant, or when I ask | referred-to
+  - my lore bible (its historical allegory material) | treated as the user's own doing, since the parallels came from the user asking for them and not from the model adding them unprompted, so it is no reason for the prompt to push real-world parallels | the historical allegory stuff in my lore bible were a result of me asking for historical parallels | referred-to
+  - V7 | use as the baseline for the new version | Go back to using V7 as a baseline and craft a V9 | referred-to
+  - V8 | treated as over-focused on real-world synthesis and to be moved away from, not built on | It seems like this V8 version is too focused on that | referred-to
+- order:
+  - V7 over V8 | Go back to using V7 as a baseline and craft a V9
+- about: The user pushes back on V8's constant real-world synthesis, says it should apply only when relevant or requested (perhaps as one analytical lens), and asks for a V9 built from V7.

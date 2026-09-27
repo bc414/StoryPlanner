@@ -1,0 +1,4 @@
+- sources:
+  - my story plans (the three-arc outline of the main story given in this turn) | material for the model to review and analyze; presented as the author's current plan for the main story | Please review my story plans and give an analysis | first-named
+- order:
+- about: The user answers the model's question about Applejack's climax by laying out the main story's three arcs, each with its climax and final boss, and asks the model to review and analyze that plan.

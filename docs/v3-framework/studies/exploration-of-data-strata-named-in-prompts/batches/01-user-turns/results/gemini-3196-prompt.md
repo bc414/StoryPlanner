@@ -1,0 +1,4 @@
+- sources:
+  - the paradigm | the framework from the model's previous answer, used as the frame within which Haiku is to be placed | fit into the paradigm | referred-to
+- order:
+- about: The user asks the model to place Claude Haiku within the tiering framework it just laid out, as of April 2026.

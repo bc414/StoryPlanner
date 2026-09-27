@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user sets aside the model's translation-bypass scenario and asks a new question, noting that Chrysalis's name was chosen for metaphor and out-of-world reasons, about what the equivalent Herzlander name and her official German localization would be.

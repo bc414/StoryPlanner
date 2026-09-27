@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the model's analysis of the Mane 6 arcs unchallenged and moves to a new question about whether Starlight/Fizzlepop's fractured horn could be regrown with tzinacatl herbal healing, asking for the thematic purpose and a review of her arc.

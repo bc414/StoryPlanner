@@ -1,0 +1,6 @@
+- sources:
+  - The author's own explanation of what Trimmel's statement means (his men follow Chrysalis, not him; Chrysalis pulled his air support; the ponies who followed Applejack look up to her, not Celestia) | treat as the correct intent and the basis for the reply; it corrects the earlier reading | I meant Trimmel's statement to be more a reflection of how his men follow Chrysalis, not him | first-named
+  - Trimmel's statement (the line about not losing the respect of the ponies who look up to you) | treat as a provisional phrasing to be tested for whether it recalls the alt-nightmare collaborator past, and to be replaced if a better phrase exists | Is this the correct phrasing that recalls the alt-nightmare collaborator past? | referred-to
+  - The alt-nightmare collaborator past | treat as the established story element the phrase must connect to; check the line against it and explain the link | recalls the alt-nightmare collaborator past | referred-to
+- order:
+- about: The author corrects the model's reading of Trimmel's line by stating what they intended, then asks whether the phrasing really bridges to the alt-nightmare collaborator past or whether a better phrase would.

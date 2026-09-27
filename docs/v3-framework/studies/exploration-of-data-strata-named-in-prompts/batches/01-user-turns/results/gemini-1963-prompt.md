@@ -1,0 +1,5 @@
+- sources:
+  - the psycholinguistic translation | set aside as too confusing for the reader; do not build on it, replace it with the plainer idea of Grover 3 renaming the terms | While the psycholinguistic translation is interesting I think it'll be too confusing for the reader | referred-to
+  - EaW lore (the ancient civilization Sparleos from 600 BLB) | treat as established lore and use it as the Greece/Rome-like basis for the new Greek and Latin root names, offered as a possibility | EaW lore also mentions an ancient civilization called Sparleos from 600 before Luna banishment | referred-to
+- order:
+- about: The user rejects the earlier translation-based approach as too confusing and proposes a simpler in-world one, where Kaiser and Reich are the original names that Grover 3 replaced with roots drawn from the Sparleos civilization in EaW lore, and asks for the new names and for what Grover 3's printing press history would call the earlier eras.

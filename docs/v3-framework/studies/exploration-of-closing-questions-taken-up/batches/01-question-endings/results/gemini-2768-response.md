@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to go on to how Soviet scientific management became the quota-driven Stakhanovite movement under Stalin? | ignored | The user does not take up the Stakhanovite offer. They ask a separate naming question about a class for future work that cannot yet be scheduled. | What is a good term for a class where instances are created to represent future work
+- shape: The user drops the Taylorism/Lenin thread without comment and redirects to an unrelated software-design question, asking for a name for a class that holds unscheduled future work. It reads as a fresh request, not a reply to the model's offer.
+- settles:

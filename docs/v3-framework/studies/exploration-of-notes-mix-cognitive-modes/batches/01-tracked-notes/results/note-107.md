@@ -1,0 +1,5 @@
+- claims:
+  - WorldInference | The reader is to infer that the world lacks external threats and great causes to drive growth, and its stakes are low | Without external threats or great causes to fuel growth, and the stakes of the world are so low | yes
+  - WorldInference | The reader is to infer that, in that stagnant setting, the feud is the only pursuit with a higher purpose other than growing the fruit, so it serves as the system's source of meaning | the feud is the only thing that has higher purpose besides growing the fruit itself | yes
+- goals:
+- whole: The note explains what the stagnant world's structure implies: with no threats or large causes and low stakes, the feud is the only purpose beyond farming, and the reader is meant to work that out.

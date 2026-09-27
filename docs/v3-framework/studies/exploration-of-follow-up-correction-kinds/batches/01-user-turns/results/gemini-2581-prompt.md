@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user restates their own working picture of Chrysalis's arms economy (guns profitable and mass-produced, tanks and planes only in R&D until the Leap Forward retools factories) and asks where artillery fits, without disputing anything the model said.

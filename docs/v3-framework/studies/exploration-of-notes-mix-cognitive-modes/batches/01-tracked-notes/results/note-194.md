@@ -1,0 +1,5 @@
+- claims:
+  - History | She originated from the medicinal tribe, reported as a fact of her past | She came from the medicinal tribe | yes
+  - History | She works at the Foyer de la Jeunesse d'Avant Garde, stated as a fact of her situation | works at the Foyer de la Jeunesse d'Avant Garde | yes
+- goals:
+- whole: The note reports, as in-universe fact, the Parloir Operator's tribal origin and her workplace at the Foyer de la Jeunesse d'Avant Garde.

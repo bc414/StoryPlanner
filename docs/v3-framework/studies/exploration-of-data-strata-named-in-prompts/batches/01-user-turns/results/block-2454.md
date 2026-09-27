@@ -1,0 +1,5 @@
+- sources:
+  - Nahuatl idioms related to flower wars or thematically adjacent customs | draw on real-world Nahuatl language and custom as material for the cultural wrapping over war bonds; asked as a question, so offered as candidates rather than settled | Are there any Nahuatl idioms related to flower wars | first-named
+  - whatever the traditionalists are using in 993 | use the traditionalists' 993 weapons as the model for the drug tribe members' arms, alongside traditional blowdarts | using traditional blowdarts and whatever the traditionalists are using in 993 | referred-to
+- order:
+- about: The user asks for Nahuatl idioms and customs to dress war bonds in, then corrects the model's open questions by ruling Caballeron is not a moonspeaker, that he is one of many drug enterprise leaders, that drug tribe members carry the traditionalists' 993 weapons, and that the 1002 raiding was marginal theft met with shunning.

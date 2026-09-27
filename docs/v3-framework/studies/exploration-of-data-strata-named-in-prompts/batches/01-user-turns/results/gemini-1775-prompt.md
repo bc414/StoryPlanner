@@ -1,0 +1,5 @@
+- sources:
+  - Coltbert's predator's dilemma paper | use as the thematic basis for the new name suggestions, alongside game theory | related to game theory and Coltbert's predator's dilemma paper | referred-to
+  - the social clubs called Fête des Joueuers d'Aquilée | treat as established story fact and fit the names to it | I've established that the social clubs | referred-to
+- order:
+- about: The user asks the model for a new round of names for the spell and scorecard drawn from game theory and Coltbert's predator's dilemma paper, and gives the already-established name of the Aquileian lionesses' social clubs as context to fit them to.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user answers the model's closing question by choosing that a dragged card should be removed from the categorizer when dropped into a note collection, which adds a requirement instead of saying the earlier code was wrong.

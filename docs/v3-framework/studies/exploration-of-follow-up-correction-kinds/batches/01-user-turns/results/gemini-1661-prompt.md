@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user supplies new backstory (Acornage suffered a Nanjing-scale atrocity, unlike the seemingly clean occupations of Vanhoover and Olenia) and asks whether it explains Star Energy's decision to destroy its own dam before contact, building on the flood-timing answer without disputing it.

@@ -1,0 +1,6 @@
+- questions:
+  - How does the Griffonian Republic view the history of griffons originating in the northern/eastern mountains? | ignored | Says nothing about the Republic's view of the origin story; moves to a different topic. | none
+  - When Kemerskai's followers were exiled to the mountains of Cloudbury, did they realize they were returning to their ancestral biome rather than a wasteland? | ignored | Does not touch the exiles' awareness or the ancestral-homeland idea. | none
+  - Does Kemerskai weaponize this history, casting the Emperor as a soft flatland poseur and the mountain Republicans as the true griffons? | ignored | Does not mention Kemerskai or use of the origin history as propaganda. | none
+- shape: Redirects to a new topic. It skips the model's question about the Republic and Kemerskai and asks a fresh, self-contained design question: how the Coltbert Reforms would democratize parts of pegasus magic to FJA griffons. It neither accepts nor rejects the model's origin-theory elaboration.
+- settles:

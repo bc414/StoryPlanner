@@ -1,0 +1,4 @@
+- questions:
+  - How heavily does the user's SQLite schema rely on explicit relational tagging (foreign keys) versus text-based wikilinks that an agent could follow programmatically? | ignored | The user turn does not describe the schema. It asks a new question about whether DeepSeek R1 would work with full ingestion or would need the SQLite graph or a wikilink proxy of it. | none
+- shape: Redirects with a follow-up question that stays on the model's topic. It does not answer the schema question. It asks which input approach DeepSeek R1 needs: full ingestion of the material, the SQLite graph, or a wikilink proxy of it.
+- settles:

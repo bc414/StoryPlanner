@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user turn moves on from the allegory analysis to a new, detailed request for real WWII and civil-war casualty and mobilization figures for several countries, compared with HOI4 manpower laws and with the story's sex-equal conscription, without disputing anything in the model's previous answer.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, having just been told to stick with "Oblivion," asks whether it is really the best word or whether better alternatives exist, reopening the title question as a new request for options.

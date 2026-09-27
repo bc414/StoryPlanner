@@ -1,0 +1,15 @@
+- claims:
+  - Allegories | Old American diners stand for stagnation: broad, comforting, nostalgic, pleasing everyone and excelling at nothing | Old American Diners = Stagnation | yes
+  - Allegories | McDonald's stands for rugged individualism, the poseur factory of ruthless extraction, high turnover, low wages and a race to the bottom on quality | McDonald's = Rugged Individualism - The Poseur Factory | yes
+  - Allegories | Specialty family restaurants stand for harmonic capitalism, marked by high asset specificity | Specialty Family Restaurants = Harmonic Capitalism | yes
+  - Allegories | Raising Cane's and In-N-Out stand for standardized excellence, the honest factory, identified with the Griffonian Republic | Standardized Excellence (Griffonian Republic) - The Honest Factory | yes
+  - Allegories | McDonald's runs on a disposable-cog theory: simplify the system so minimum wage and roughly 150% turnover are survivable | "Disposable Cog" theory | yes
+  - Allegories | In-N-Out and Raising Cane's follow efficiency wage theory: high pay, benefits, internal promotion, so low turnover, mastery of a small menu and workers who care | rely on "Efficiency Wage Theory" | yes
+  - Allegories | The honest factory's asset specificity: kitchens built for a single flow, needing only fryers and a prep station | The Asset Specificity of the Factory | yes
+  - Allegories | The velocity of quality: a small menu means nothing sits under a heat lamp, food is fresh, and the promise is kept every time, producing consumer trust | The Velocity of Quality | yes
+  - Characterization | Coltbert believes quality requires a special talent (cutie mark) and a big ego, and that factories are soulless | Coltbert thinks you can only have quality if you have a "Special Talent" | no
+  - ThematicEvidence | Kemerskai refutes Coltbert: an industrial factory can make excellent food if workers are treated as citizens, and logistics and solidarity can be as romantic and culturally profound as passion and art | Kemerskai proves Coltbert wrong | no
+  - History | In the present of the world, artisan master chefs and specialized honest factories are the high standard, while poseur fast food and legacy diners die out | Today, the artisan master chef and the specialized honest factory are the high standards | no
+- goals:
+  - The reader is to believe that industrial work can produce excellent, culturally profound results when workers are treated as citizens, and that logistics and solidarity are as romantic as passion and art | ThematicEvidence | Logistics and Solidarity can be just as romantic, and just as culturally profound, as Passion and Art
+- whole: This note maps the Griffonian Republic's food technology onto real-world restaurant models and labor economics as social commentary, and adds a Coltbert-versus-Kemerskai thematic argument and a present-state remark.

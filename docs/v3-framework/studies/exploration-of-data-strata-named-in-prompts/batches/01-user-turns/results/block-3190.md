@@ -1,0 +1,4 @@
+- sources:
+  - conversations that have to do with Aquileia | the model is to search/check these, which the previous turn said it had not searched separately | Check conversations that have to do with Aquileia | referred-to
+- order:
+- about: The user asks the model to go and check the conversations about Aquileia, filling the gap the model admitted it left in its previous comparison.

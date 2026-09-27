@@ -1,0 +1,5 @@
+- claims:
+  - outside all ten: world-rule ontology | the technology's purpose in the world is pain relief | Used for pain relief | outside
+  - outside all ten: world-rule ontology | the technology works by blocking physical pain signals | It blocks physical pain signals | outside
+- goals:
+- whole: The note states in plain world-builder terms what the Panzer Haut technology is for and how it works, as a rule of the fictional universe, without saying anything about the reader's experience.

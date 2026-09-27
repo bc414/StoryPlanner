@@ -1,0 +1,4 @@
+- claims:
+  - PageDesign | Bright Mac and Pear Butter are shown declaring aloud that they felt their family farms were prisons keeping them from fully loving each other | Bright Mac and Pear Butter say they felt that their family farms were prisons | yes
+- goals:
+- whole: The note stages a single observable beat on the page: Bright Mac and Pear Butter's spoken statement that their family farms felt like prisons that kept them from fully loving each other.

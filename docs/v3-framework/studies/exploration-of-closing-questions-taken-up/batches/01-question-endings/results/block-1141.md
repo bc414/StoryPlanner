@@ -1,0 +1,10 @@
+- questions:
+  - Does Fluttershy's Buffalo-taught empathy make her resent Celestia's School of Friendship for ignoring non-pony wisdom, and how does it shape her view of the Stagnation of Harmony? | ignored | none | none
+  - How does Rockfeller react on learning that the birds he hoarded as status objects are the network used to dismantle his oil monopoly? | ignored | none | none
+- shape: The user turn doesn't answer the Socratic questions. It corrects the model's framing of the backstory. It rejects keeping the canon line that Fluttershy had never been on the ground, and offers a reframe: she was dramatizing for the CMCs. It then replaces the model's one-off, parents-on-business visit with its own mechanism. Cloudsdale is a mobile city on a weather schedule, and she made repeat visits to the Las Pegasus observatory. It ties this to her visits to Rarity in Ponyville.
+- settles:
+  - Her canon claim of never having been on the ground is treated as Fluttershy's dramatization for the CMCs, not literal fact | "Fluttershy dramatizing it for the CMCs"
+  - Cloudsdale is a fully mobile floating city that circuits Equestria on a schedule delivering weather | "fully mobile floating city that goes around Equestria on schedule"
+  - Fluttershy grew up with animal picture books, and her parents took her to the Las Pegasus observatory when Cloudsdale parked overhead | "picture books of animals" and "her parents took her to the observatory"
+  - She loved the observatory and visited it every time Cloudsdale passed over Las Pegasus, so her ground contact was repeated, not a single seed encounter | "visited every time they passed Las Pegasus"
+  - Her Las Pegasus visits parallel her fanfic habit of visiting Rarity in Ponyville whenever Cloudsdale passes over | "visit Rarity in Ponyville when Cloudsdale passed over"

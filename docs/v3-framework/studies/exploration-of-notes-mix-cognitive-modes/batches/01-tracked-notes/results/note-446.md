@@ -1,0 +1,4 @@
+- claims:
+  - ThematicEvidence | Strength is what lets these figures afford motherly care, so the capacity for motherliness depends on strength first | They have to be strong to be able to afford to be motherly | yes
+- goals:
+- whole: The note gives, in one line, the thematic proposition that strength is what makes motherly mercy affordable for Sickleclaw and Celestia.

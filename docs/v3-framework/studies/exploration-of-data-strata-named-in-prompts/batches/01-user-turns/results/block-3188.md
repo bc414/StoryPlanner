@@ -1,0 +1,7 @@
+- sources:
+  - v1 archive | material to be checked for what ended up settled about Aquileia, then compared with the notebook, with no side put above the other | what landed about Aquileia in v1 archive | referred-to
+  - v2 | material to be checked for what ended up settled about Aquileia, then compared with the notebook, with no side put above the other | what landed about Aquileia in v1 archive, v2 | referred-to
+  - conversations about Aquileia | material to be checked for what ended up settled about Aquileia, then compared with the notebook, with no side put above the other | conversations about Aquileia | referred-to
+  - the notebook's foundation | the notebook's base Aquileia lore, the counterpart the archive material is set against in the comparison | versus the notebook's foundation | referred-to
+- order:
+- about: The user asks the model to compare what was settled about Aquileia across the v1 archive, v2 and the Aquileia conversations with the foundation of the notebook it has just retold.

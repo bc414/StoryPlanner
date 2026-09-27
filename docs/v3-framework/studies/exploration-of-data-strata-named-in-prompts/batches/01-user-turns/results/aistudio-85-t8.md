@@ -1,0 +1,4 @@
+- sources:
+  - the components of the love harvester and donator | material to be reviewed in full and sorted into parts the changelings copied and parts that are new, developed by Twilight and friends mid-war | review all the components of the love harvester and donator | referred-to
+- order:
+- about: The user asks the model to go back over the love harvester and donator designs and sort their components into those the changelings copied and those Twilight and her friends newly develop during the war.

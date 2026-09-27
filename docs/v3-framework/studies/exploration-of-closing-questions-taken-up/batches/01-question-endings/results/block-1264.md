@@ -1,0 +1,5 @@
+- questions:
+  - How does an agrarian Earth Pony biologically and psychologically process the cognitive dissonance of using land-loving (Pink Love) magic to make white phosphorus that scars the earth? | ignored | Nothing said to it; the user turn moves on to a new analysis request. | none
+  - How would remaining Celestial Party loyalists argue that acquiring lethal capacity doesn't achieve adulthood but only makes the Equestrian populace another kind of Raider/Predator? | ignored | Nothing said to it; the user turn moves on to a new analysis request. | none
+- shape: Redirects to the next item in a sequence: it drops the model's two Socratic questions without comment and instructs the model to run the same lineage analysis on a second, later story (March 2020 to June 2021). It gives an instruction and neither answers, corrects, nor ends anything.
+- settles:

@@ -1,0 +1,4 @@
+- questions:
+- shape: The user turn doesn't answer or correct anything. It builds on the Ottoman-style timeline by adding a new hypothetical: the printing press arrives only under Grover III. From that premise it asks a fresh plausibility question, whether Grover I and II could be exaggerated legends. This moves the discussion on to how records and myth shape the early dynasty.
+- settles:
+  - Working premise for the alternate timeline: the printing press isn't invented until Grover III, so the earliest rulers are poorly documented | "Let's say the printing press wasn't invented until Grover 3"

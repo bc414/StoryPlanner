@@ -1,0 +1,5 @@
+- questions:
+  - If the Changeling submarine blockade cuts global shipping, how does Rarity source raw materials (cotton, wool, rayon solvents) for mass uniforms, and does this force Star Energy to build a domestic synthetic fiber industry? | no user turn | none | none
+  - When Aquileian Lionesses and Chasseurs meet Changeling conscripts in cheap petrochemical uniforms, how does the clash between artisan terroir and industrial sludge reinforce their belief that they face soulless poseurs? | no user turn | none | none
+- shape: none
+- settles:

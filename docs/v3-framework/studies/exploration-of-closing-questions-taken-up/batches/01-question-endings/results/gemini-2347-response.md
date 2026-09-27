@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to explore how Skyfall's tycoons, whose fortunes rest on mass-produced steel and chemical fertilizer, react to Aquileia flooding the elite market with harvested Leviathan materials? | ignored | The user does not take up the offer. They add a fact about the Scheißwald and ask about the pre-Grover III warlords and the feudal arrangement. | none
+- shape: The user turn redirects. It adds a world fact: the Scheißwald forest is a second hunting ground besides the open ocean, and nobody wants to go there. It then asks the model to work through what monster-based economics does to the earlier era, meaning the pre-Grover III warlords who left the monsters in Aquileia in order to collect taxes, and the "honest racket" feudal arrangement. It does not react to the model's recommendation or to its offered next step.
+- settles:
+  - The Scheißwald forest is a further place where monsters can be hunted, alongside the open ocean, and no one wants to go there. | In addition to the open ocean, they can also go into the Scheißwald forest, but no one wants to do that

@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want to explore writing a specific scene where Hans Kessel defends the Hive's early accomplishments to the Equestrians, breaking their biases before explaining why it broke him? | no user turn | none | none
+- shape: none
+- settles:

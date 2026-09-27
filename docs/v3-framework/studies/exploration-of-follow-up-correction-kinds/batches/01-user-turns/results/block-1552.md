@@ -1,0 +1,5 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model said Gardener Mode shows subject tracks read-only without a directive overlay; the user says subject tracks are not visible at all in Gardener Mode, which shows only plot point tracks, a link selector and the selected subject link | Subject tracks are not visible at all in Gardener Mode | flat statement of the correct layout, with a reason given (cognitive mixing)
+  - reading of the plan | The model's picture of Linking Mode and its clean principle about which tracks appear where left out the actual three-pane layout: subject tracks on the left, link selector in the middle, plot point subject link on the right, subject tracks read-only | Linking Mode has subject tracks on the left, link selector in the middle | flat restatement of the layout, offered in passing alongside the main correction
+- about: The user corrects the model's account of what Gardener Mode and Linking Mode display, restating both layouts, and then goes on to propose a two-step workflow for migrating v1 notes.

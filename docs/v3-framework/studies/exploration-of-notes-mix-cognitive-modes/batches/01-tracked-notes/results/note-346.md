@@ -1,0 +1,5 @@
+- claims:
+  - History | The Equestrian Army's official name for the devices is Friendship Shields, chosen so the Crystal Heart's mysticism isn't stripped away | The Equestrian Army officially called them "Friendship Shields" to avoid stripping away the mysticism | no
+  - History | Crystal ponies and Aquileians alike simply call the devices crystal hearts | The crystal ponies just call them crystal hearts and so do the Aquileians | no
+- goals:
+- whole: The note records, as in-world fact, which names the Equestrian Army, the crystal ponies and the Aquileians each use for the technology and why the army's name differs, without saying how the reader is to encounter or respond to it.

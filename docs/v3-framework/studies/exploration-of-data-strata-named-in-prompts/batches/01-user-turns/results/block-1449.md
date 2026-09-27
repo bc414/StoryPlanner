@@ -1,0 +1,8 @@
+- sources:
+  - "Story Threads" in v1 | treat as partly redundant, since much of it is narrative-emergent material that the v2 framework can now hold as subjects; cross-cutting threads are not covered | "some of what I called "Story Threads" in v1" | referred-to
+  - v1's data model, meaning the character or codex entry notes | treat as a workaround: prequel plot outlines and syuzhet delivery were put in prior-existing entries, which made the model asymmetric | "the narrative emergent stuff for prequels was in the character or codex entry notes" | referred-to
+  - v2 framework | treat as the current design that fixes the asymmetry; goal trajectory/arc and syuzhet design apply equally to prior-established subjects | "Now the v2 framework can accommodate them" | referred-to
+  - TLTT plot points | treat as the place where narrative-emergent subjects, such as the Equestrian Republic and the Cute Intelligence Agency, have rich tracks while their prior backstory is empty | "rich narrative emergent tracks in TLTT plot points" | referred-to
+  - the author's own memory of how they used v1 | treat as recollection that supports the account of the asymmetry | "I remember I was putting notes for plot outlines" | referred-to
+- order:
+- about: The user is reasoning aloud that their v1 "Story Threads" and the plot notes they stored in character entries are mostly absorbed by the v2 framework, which treats prior-established subjects and narrative-emergent subjects alike, and that only cross-cutting threads like TwiJack remain uncovered.

@@ -1,0 +1,5 @@
+- questions:
+  - Has the user considered using a smaller local model to pre-filter and validate the JSON architecture before a full-context run in AI Studio? | ignored | Says nothing about a local model or pre-filtering. It moves to a different way of cutting context cost: splitting the compiled bible into separate documents for Claude Cowork. | none
+- shape: Redirects. It skips the model's suggestion and corrects the model's picture of the setup: the bible is a sqlite database compiled to markdown, not a JSON map. Then it opens a new question about whether an agentic tool such as Claude Cowork could find the relevant context in a folder of separate documents, linked by wikilinks or explicit sqlite ids.
+- settles:
+  - The world bible's source of truth is a sqlite database, and the markdown world bible is compiled from it. This is stated as a fact about the project's setup. | The world bible is actually stored in a sqlite database and "compiled" into markdown

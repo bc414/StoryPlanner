@@ -1,0 +1,4 @@
+- sources:
+  - earlier conversations with the model, where the author established the idea | to be searched to find when the structuring idea was first settled, treated as the record of that decision | When did I establish the idea | referred-to
+- order:
+- about: The user asks the model to search their past chats to say when they settled on splitting The Lioness of Tall Tale into one main story followed by separate prequel-sequels.

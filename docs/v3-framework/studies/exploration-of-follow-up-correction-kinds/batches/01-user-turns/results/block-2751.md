@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user, unsure of the framework's terms, asks the model to restate the three-layer framework and to explain why it placed the story in "Layer 0", without saying that anything was wrong.

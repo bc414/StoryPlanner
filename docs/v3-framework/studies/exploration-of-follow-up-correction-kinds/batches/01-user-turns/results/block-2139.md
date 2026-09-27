@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user leaves the Bond-subject analysis unchallenged and moves to a new request: a comparison of Sonnet 4.6, Opus 4.6 and Opus 4.8 for their kind of story-planning analysis, set against typical creative uses.

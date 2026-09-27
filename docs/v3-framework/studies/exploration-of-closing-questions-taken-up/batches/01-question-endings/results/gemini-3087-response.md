@@ -1,0 +1,4 @@
+- questions:
+  - How do you plan to structurally prevent the FJA farmers from becoming rent-seeking landlords once the post-war economy stabilizes and land becomes scarce, given Harmonic Capitalism relies on actors' ethical constraints? | no user turn | none | none
+- shape: none
+- settles:

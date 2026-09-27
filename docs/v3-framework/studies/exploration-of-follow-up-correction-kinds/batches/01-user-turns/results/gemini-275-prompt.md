@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - reading of the plan | The model's flow presents Trimmel's speech as built around the native changeling switch, as if the speech turns on that moment. The user says the speech is mostly in Herzlander and the changeling part is only a short closing portion, a traditional jaeger motto about protecting hives, family and friends from manticores. | To clarify, Trimmel will be speaking in Herzlander for most of the speech. The native changeling will be a small portion at the end | Flat, mild clarification that also supplies the missing content of the motto, with no irritation or apology.
+- about: The user narrows how the model framed Trimmel's speech, saying it is mostly Herzlander with only a brief changeling jaeger motto at the end, and adds what that motto should be.

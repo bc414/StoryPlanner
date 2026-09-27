@@ -1,0 +1,7 @@
+- claims:
+  - Characterization | The Temberik are isolationist, communal and wary of outsiders, which is the disposition that binds them | They are isolationist and communal, wary of outsiders | yes
+  - History | The Tzinacatl, by contrast, engage in global maritime trade and historically took part in survival harmony | Unlike the Tzinacatl who engage in global maritime trade and historically participated in survival harmony | no
+  - History | The Temberik have truly been isolated from the rest of Equestria, by their own choice, for 1000 years | the Temberik truly have been isolated from the rest of Equestria by choice for 1000 years | no
+  - History | The Temberik are the warriors who cut themselves off after Luna's banishment | They are the warriors who self-isolated after Luna's banishment | no
+- goals:
+- whole: The note describes the Temberik as an isolationist, communal group and sets out, as historical fact and by contrast with the Tzinacatl, that they are warriors who have chosen isolation for 1000 years since Luna's banishment.

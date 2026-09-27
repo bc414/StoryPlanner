@@ -1,0 +1,5 @@
+- questions:
+  - How much does the pre-war Equestrian government know about the Manehattan Parloirs, and do the Royal Guard raid them or are they an open secret used by Canterlot elites while publicly condemned? | ignored | Says nothing about the Parloirs or the government's awareness of them. It moves to a broader question. | none
+  - Does learning that Celestia destroyed the Thestrals' legitimate medical economy change Twilight's view of her own magical research, and does she see her underground lab as continuing the same illegal innovation? | ignored | Does not mention Twilight, her research or her lab. It asks about other parts of the plan. | none
+- shape: Redirects. It drops the Thestral thread and the model's two follow-up questions. It asks the model to survey which other major foundations of the story plan the shifted stagnation-of-harmony timeline requires revising or enhancing. The Thestral rework is treated as settled enough to move on from, though it is not confirmed in so many words.
+- settles:

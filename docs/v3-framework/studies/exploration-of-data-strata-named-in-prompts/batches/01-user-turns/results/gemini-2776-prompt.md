@@ -1,0 +1,4 @@
+- sources:
+  - later battles like the 3rd battle of tall tale and the bluebell river spearhead, as already established | treat as settled story facts that the new idea must fit: Applejack leads from the front for morale and takes orders from Henri | I've established that in later battles | referred-to
+- order:
+- about: The author floats a revised backstory in which Luna makes Applejack a general without teaching her usable tactics, so she serves as a morale figure at a machine gun, and checks it against the later battles they say they have already established.

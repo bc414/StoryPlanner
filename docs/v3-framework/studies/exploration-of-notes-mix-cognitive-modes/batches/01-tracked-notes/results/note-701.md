@@ -1,0 +1,4 @@
+- claims:
+  - History | The Wonderbolts have the best pilots and also the best planes, stated as a fact about the organization in the world | they are not just the best pilots, they also have the best planes | no
+- goals:
+- whole: The note states as a plain world fact that the Wonderbolts have both the best pilots and the best planes, without any plan for how it is dramatized or what the reader gets from it.

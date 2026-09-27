@@ -1,0 +1,4 @@
+- claims:
+  - outside all ten (in-world civilization rationale) | the technology was invented as preparation against threats of the kind Chrysalis poses | to prepare for threats like Chrysalis | outside
+- goals:
+- whole: The note gives a one-line in-world reason for the technology's invention, as preparation against threats like Chrysalis, and says nothing about what the reader should get from it.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user approves the model's parloir analysis and builds on it by proposing a story arc in which the Aquileian friends must come to see their own condescension toward their Equestrian students, without disputing anything the model said.

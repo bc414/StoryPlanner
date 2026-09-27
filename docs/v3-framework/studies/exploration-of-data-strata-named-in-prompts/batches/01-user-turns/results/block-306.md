@@ -1,0 +1,5 @@
+- sources:
+  - all the new lore elements | summarize them as the basis for the reply, treating them as the newly established material to be gathered together and then built on | "summary of all the new lore elements" | referred-to
+  - existing plans | the model is to suggest ways the new lore can interact with and enhance them, so they are treated as the established baseline to be improved and not replaced | "interact and enhance existing plans" | referred-to
+- order:
+- about: The user asks the model to summarize the new lore elements developed in the conversation and then propose ways those elements could interact with and strengthen the existing plans.

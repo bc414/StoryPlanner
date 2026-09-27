@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user drops the historical-materialism thread and asks a new question about whether Resilience is the right opposite pole to Cynicism among the Elements of Liberty, and what runner-up terms there were and why.

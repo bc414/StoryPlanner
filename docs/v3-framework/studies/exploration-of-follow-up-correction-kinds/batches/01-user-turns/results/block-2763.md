@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user attaches two new story files and asks for a comparative analysis of the pair, a new task that leaves the model's previous characterization of P&K and The Manticore unaddressed.

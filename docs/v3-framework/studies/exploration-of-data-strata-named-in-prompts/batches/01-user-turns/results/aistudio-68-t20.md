@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user is proposing worldbuilding changes to the story, namely that Celestia knows chemistry only as a danger and not as earth pony magic, that Grover III's letters and his study of the idol of Boreas explain this, and that Celestia and most Equestrian officials don't understand fiat currency, without pointing the model at any body of material.

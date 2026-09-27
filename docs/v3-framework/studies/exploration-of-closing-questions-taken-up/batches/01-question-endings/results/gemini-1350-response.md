@@ -1,0 +1,6 @@
+- questions:
+  - Should the model draft Chapter 19, Applejack confronting Eros and Eagleclaw about the 1007 betrayal? | ignored | Says nothing about drafting this chapter; asks a different question about Chrysalis's beliefs. | none
+  - Should the model detail the Love Drop negotiation, i.e. how Applejack persuades the allies to feed the enemy's subjects rather than bomb them? | ignored | Does not mention the negotiation or the allies. | none
+  - Should the model analyze the Changeling economic collapse threat in 1011? | ignored | Does not take up the economy; the question is about Chrysalis's ideology. | none
+- shape: Redirects. It passes over the three offered next steps and asks a new question about Chrysalis's motivation: whether she could sincerely believe she is liberating ponies from Celestia's stagnation. It builds on the model's analysis of her reasons for invading, adding an ideological layer to the survival and conquest motives. The user's reason is that ponies are repressed and seek adult outlets at Coltbert's parlors.
+- settles:

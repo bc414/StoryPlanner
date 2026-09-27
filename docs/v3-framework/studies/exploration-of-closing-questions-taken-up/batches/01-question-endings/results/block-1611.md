@@ -1,0 +1,4 @@
+- questions:
+  - Should the 20+ AI conversations and Google Keep notes be processed in one dedicated phase between Foundation Building and Archive Evaluation, or subject-by-subject (build a subject from memory, then review the sources relevant to it, then move to the next)? | ignored | Says nothing about how to schedule the reference sources. It moves to a separate topic, the CognitiveMode enum on note tracks. | none
+- shape: Redirects to a different design question. It sets aside the workflow and the model's closing question. It describes the existing CognitiveMode enum (its values, its use as track background color, and how the EditorModes toggle display text) and asks the model to trace where the enum came from and decide whether to update it or scrap it. It gives the model a task and settles nothing.
+- settles:

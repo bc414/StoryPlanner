@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want an explanation of how the Bolsheviks, after October, systematically dismantled the independent Factory Committees and subordinated labor? | partly answered | The user doesn't say yes or no. They ask a nearby question instead: how Trotsky's and Stalin's views on the factory committees and the workers differed. This narrows the Bolshevik treatment of the committees down to two leaders. | Give a breakdown of the differences if any between Trotsky and Stalin's views related to these factory committees and the workers themselves
+- shape: The user redirects. They set aside the offered follow-up and pose a new, narrower comparative question about two Bolshevik leaders, Trotsky and Stalin, and their views on the factory committees and the workers. The question is phrased as an instruction and stays in the same historical territory. There is no confirmation of the offer and no correction of the model.
+- settles:

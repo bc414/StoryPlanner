@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to give more information about Opal, the engine behind Gems from Labs that was mentioned in its previous answer, without pointing at any body of material to use.

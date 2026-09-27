@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes giving each relational axis separate buckets for the atomic units and for their intersection, so each becomes its own planner note, and asks the model whether that design makes sense and whether each bucket should also show both sides of a bridge when consolidating.

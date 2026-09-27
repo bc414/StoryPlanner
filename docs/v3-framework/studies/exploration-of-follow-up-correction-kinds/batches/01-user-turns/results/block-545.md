@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - which material was drawn on | The model presented the thirteen comments as the complete record of the binge (four days, Feb 19-23, ending at Part Eighty-Six) and built a settled verdict on them. The user says the binge ran into March and that this earlier set was only its first half. | "the second half of my binge read from February/March 2025" | implicit, in passing: the correction sits in how the new files are described while the user gets on with the next request, with no flagging of an error and no apology
+- about: The user supplies two more comment files, the rest of the February/March binge and the reaction to the update months later, and asks for the same kind of analysis, mentioning in passing that the earlier set was only part of the binge.

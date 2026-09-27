@@ -1,0 +1,5 @@
+- sources:
+  - canon MLP episodes (Ahuizotl the cat monster lore) | research it and draw on it as the basis for explaining the character | Research Ahuizotl (the cat monster) lore from the canon MLP episodes | first-named
+  - story plan of TLTT, post chapter 12 in Skyfall, Chrysalis's proxy war | the setting the explanation must fit; the Celestial Resistance is to be placed within it | post chapter 12 for destroying Chrysalis's assets in the proxy war | referred-to
+- order:
+- about: The user asks the model to research the canon MLP Ahuizotl lore and then use it to explain how the changeling Ahuizotl in the story comes up with the Celestial Resistance underground movement in Skyfall after chapter 12, and to give a Dutch or German name for it.

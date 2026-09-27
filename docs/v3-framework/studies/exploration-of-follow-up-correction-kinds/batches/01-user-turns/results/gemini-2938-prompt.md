@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user takes up the coined terms the model used (Charitostatic, thermodynamic, Charity) and, weighing whether "static" and "charity" suit their meaning, asks the model to review the story plans and assess whether the terms should stay, change or be replaced.

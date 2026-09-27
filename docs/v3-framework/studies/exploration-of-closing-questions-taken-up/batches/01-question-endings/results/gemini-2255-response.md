@@ -1,0 +1,5 @@
+- questions:
+  - Does the user want to paste Lore Bible excerpts on Celestia's agriculture, trade routes and governance for the model to analyze? | ignored | Pastes no lore and does not mention the excerpts; goes straight back to asking about taxes. | none
+  - Does the user want to lift the restriction on outside knowledge so the model can bring in real-world early American tax history? | answered | Chooses this option in effect by asking directly for early American taxes and how they apply, without saying the restriction is lifted. | What were taxes like in the early days of America before income taxes
+- shape: The user does not engage with the model's context-restriction objection or with its either/or offer. They repeat their original question as three questions: what Celestia's tax system would be over the 1000-year stagnation, what early American taxation was like and how it applies, and whether she needs taxes at all. This asks for outside historical knowledge and gets the worldbuilding discussion moving again. It gives no lore and no story facts.
+- settles:

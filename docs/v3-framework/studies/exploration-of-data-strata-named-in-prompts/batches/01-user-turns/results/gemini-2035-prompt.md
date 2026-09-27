@@ -1,0 +1,5 @@
+- sources:
+  - my existing structured output for phase 0 (the pasted JSON schema) | the thing under review; check it against the changed system prompt and say whether it needs changes | Here is my existing structured output for phase 0. Any changes needed | first-named
+  - the system prompt (the changed Phase 0 prompt "the above") | treat as the new, current version that the schema must now fit; the reference for judging what to change | now that I changed the system prompt to the above | referred-to
+- order:
+- about: The user pastes their existing Phase 0 JSON output schema and asks whether it needs any changes now that the system prompt has been replaced with the new version.

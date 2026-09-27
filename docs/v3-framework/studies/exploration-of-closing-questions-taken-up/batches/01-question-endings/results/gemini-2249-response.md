@@ -1,0 +1,6 @@
+- questions:
+  - Whether to format the validation queries into a structured JSON array for pasting into the WPF story planner's testing module | ignored | Says nothing about JSON or formatting. Goes straight to asking for the questions to be revised. | none
+- shape: Corrects the model's framing and instructs a revision. The strict no-overlap rule for timeline is a filing rule for the notes only, not a limit on how events relate to existing story plans. The questions should focus on connections between old and new notes and on how old material is affected or evolves when new material arrives. The model's offer is passed over.
+- settles:
+  - The strict non-overlapping boundary on timeline applies only to how this set of notes is categorized. New material may overlap with existing story plans. | strict boundaries only apply to categorizing this set of notes. They can absolutely overlap with my existing story plans
+  - The validation questions should mainly probe links between existing and new notes, and the impact or evolution of old material when new material is introduced. | more interested in the connections between existing and new notes

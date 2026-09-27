@@ -1,0 +1,4 @@
+- corrects: yes
+- corrections:
+  - own name: overclaim of uniqueness | the model's assertion that no other MLP story turns the Hasbro Mandate's flaws into in-world features is doubted as too sweeping or unsupported | 'Is there really no where else' | a skeptical question, without stating disagreement or giving a reason
+- about: The user pushes back on the model's claim that their use of the Hasbro Mandate is unprecedented by asking whether it is really used nowhere else.

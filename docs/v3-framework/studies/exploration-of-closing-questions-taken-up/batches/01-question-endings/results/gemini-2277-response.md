@@ -1,0 +1,4 @@
+- questions:
+  - How do the Equestrian infantry at Vanhoover see the Wonderbolts overhead: do they curse the Pegasi for not helping, or do they see that Canterlot sent them into a modern war without the right tools? | ignored | The user turn drops the story question and asks a general factual question about how fighter planes aim and what ammunition they carry. | How do fighter planes aim? What ammo do they have?
+- shape: Redirects away from the model's story question to a new, standalone real-world military-technology question (fighter aiming and ammunition). It reads as the user checking the technical basis of the machine-guns-versus-armor argument. It gives no answer and no instruction about the story.
+- settles:

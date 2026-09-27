@@ -1,0 +1,6 @@
+- questions:
+  - Does the user want a WPF CollectionViewSource example that groups codex entries by BackstoryPhase into chronological blocks? | ignored | Says nothing about the offer. It only disputes the convergence premise the offer rests on. | none
+- shape: Corrects the model's premise. The backstory threads do not converge on chapter 1. They are revealed gradually across the story. The turn gives no instruction and does not take up the model's offer, so the model has to rethink its framing.
+- settles:
+  - The backstory threads do not all converge on the start of the main plot. | They don't converge onto chapter 1
+  - The backstory is revealed in onion layers throughout the story, explaining how the current situation came to be. | revealed in onion layers throughout the story

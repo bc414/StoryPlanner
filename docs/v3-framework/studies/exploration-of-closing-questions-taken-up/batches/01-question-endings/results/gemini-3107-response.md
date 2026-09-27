@@ -1,0 +1,4 @@
+- questions:
+  - When Rarity builds her wartime industrial empire to supply the Republican army, how does she structure her factories so she doesn't become a Hoity Toity herself, e.g. through Aquileian-style union syndicates or Coltbert's Harmonic Capitalism? | ignored | The user turn does not touch it and moves on to the next episode, chapter 4. | none
+- shape: Moves on to the next item without engaging the model's question: an instruction to run the same evaluation on chapter 4 (The Best Night Ever). It treats the prior chapter's analysis as finished and sets the next thing to look at.
+- settles:

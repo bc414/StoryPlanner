@@ -1,0 +1,11 @@
+- questions:
+  - Does Pinkie go back to the rock farm during the Great War to radicalize her stoic family (like Maud) and turn their fertilizer-mining skills into munitions manufacturing for the Luna Nova rifles? | ignored | The turn never says whether she returns, radicalizes the family, or recruits them. It does say the party cannon runs on phosphorus explosives from the rock farm, which is close to the munitions idea but does not settle the return. | none
+- shape: Corrects the model's premise and then adds new material. The user rejects the picture of the rock farm as industrial horror and replaces it with a quieter, more insidious exploitation. They keep two of the model's ideas (the rainboom-driven ambition and the phosphorus-fuelled party cannon) and add a new parallel between the Wonderbolts and the Apple/Pear feud. The model's closing question about Pinkie's return is not taken up.
+- settles:
+  - The rock farm is not overt industrial extraction, because that would have drawn Celestia's attention | otherwise it would have been caught on Celestia's radar
+  - Earth pony magic only works when the ponies have pride or purpose in their farming | Earth pony magic only works if they have pride or purpose
+  - The Skyfall corporations' evil is that they buy fertilizer from earth pony rock farmers who think the griffons simply love rocks as much as they do, so the farmers are paid pennies for industrial gold | buy the fertilizer from earth pony rock farmers
+  - Pinkie's childhood is boredom from her family's chosen way of life, not industrial horror | just boredom from her family's chosen way of life
+  - The Sonic Rainboom, as a splash of color, gave Pinkie the ambition to break the laws of physics to produce joy | sonic rainboom as a splash of color gave her mind the ambition
+  - Pinkie's party cannon is fuelled by phosphorus-based explosives from the rock farm, which is why she is an artillery commander | party cannon is fueled by the phosphorus based explosives
+  - The Wonderbolts' toxicity toward each other mirrors the Apple/Pear family feud, and both show the limits of stagnant harmony | wonderbolts being toxic to each other mirrors the apple and pear family feud

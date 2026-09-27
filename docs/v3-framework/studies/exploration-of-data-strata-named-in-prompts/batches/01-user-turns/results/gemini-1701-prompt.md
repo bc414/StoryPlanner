@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks the model to weigh the pros and cons of two alternative origins for the consent spell in their story, either invented by Luna 1000 years ago or recently by the Aquileians, without pointing at any body of material to use.

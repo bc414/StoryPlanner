@@ -1,0 +1,7 @@
+- questions:
+  - Does the user want help drafting a split-point strategy for dividing the story into two uploads? | ignored | Says nothing about splitting the file or where to split it; moves to a different subject. | none
+  - Does the user want a custom Persona prompt for NotebookLM to analyze the story's themes? | ignored | Does not mention NotebookLM, personas or prompts; asks about game lore instead. | none
+- shape: Drops the NotebookLM upload thread without replying to the offer. Asks a new lore question (the types of love in the game lore), checks the user's own recollection of Twilight's canon fate in Pax Chrysalia, and says the story will subvert that fate. The turn is a topic change that also carries a story decision.
+- settles:
+  - Twilight's canon fate in Pax Chrysalia (permanently hooked to a love harvester, passively accepting it) is the one piece of lore the story will subvert | If there is a single piece of lore that I want to subvert, it is exactly this moment
+  - In the story Twilight is not a passive victim; she fights at the front alongside Applejack | instead of Twilight being a passive victim, she is at the front with Applejack

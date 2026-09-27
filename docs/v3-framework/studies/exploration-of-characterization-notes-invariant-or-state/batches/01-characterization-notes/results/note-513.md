@@ -1,0 +1,6 @@
+- claims:
+  - span | As a child emperor, he asks Eros to stop and not hurt "Aunty Gabriella" any more, when Eros is about to execute Eagleclaw as a traitor, and Eros accepts the plea | child Grover VI asks him not to hurt "Aunty Gabriella" anymore; Eros accepts the child emperor's plea | the single episode of the execution of Eagleclaw, while he is a child emperor with Eros in charge; no date given
+  - span | He is a child and the reigning emperor, with Eros holding power over him | child emperor; Eros is about to execute | his childhood as emperor; no date in the note itself
+  - span | He comes to realize his power and his duty to his griffons | realizes his power and his duty to his griffons | begins at the moment Eros accepts his plea ("From that point"); no end given
+  - span | He works hard to be the best emperor history has ever seen | works hard to be the best emperor history has ever seen | from the point of the plea onward; open-ended, no end stated
+- beside: Life Phases (1007..1012) speaks of the same stretch of childhood, with Eros as his regent, in which the note's episode sits; it does not mention the plea, Eagleclaw or the realization. Backstory notes (born 1002, father dies when he is 5 in 1007) give how he came to be a child emperor, but do not speak of the episode.

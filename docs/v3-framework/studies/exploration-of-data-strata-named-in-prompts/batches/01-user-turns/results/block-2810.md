@@ -1,0 +1,9 @@
+- sources:
+  - flagged notes related to the topic in v2 | look into and draw on for the storyline | Look into the flagged notes related to the topic in v2 | referred-to
+  - normal ones (the regular notes) | look into and draw on alongside the flagged v2 notes | as well as the normal ones | referred-to
+  - v1 archive | look into and draw on as well | and the v1 archive | referred-to
+  - Chrysalis's story, Minette's story and Celestia's story | serve as models for the format: short prequel-sequel with overlap with TLTT at the end | just like Chrysalis's story and Minette's story and Celestia's story | referred-to
+  - canon conventions for the Daring Do books | title convention to mirror for the new story's title | mirrors the canon conventions for the Daring Do books | referred-to
+  - Ch'aska and Ocelo foundations (the current conversation) | treat as established foundation to build the intersecting storylines on | Now that Ch'aska and Ocelo have their foundations in place | referred-to
+- order:
+- about: The user asks the model to flesh out how Ch'aska's and Ocelo's storylines intersect with Ahuizotl within the wider Tzinacatl backstory, as a planned short prequel-sequel titled "Daring Do and the Cocoltic Yaoyotl", and directs it to consult the flagged v2 notes, the normal notes and the v1 archive.

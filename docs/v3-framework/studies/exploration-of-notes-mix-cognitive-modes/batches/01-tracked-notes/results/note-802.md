@@ -1,0 +1,5 @@
+- claims:
+  - History | During the Counter-Revolution (Eagleclaw/Chrysalis) the Barons changed sides | When the Counter-Revolution (Eagleclaw/Chrysalis) came, the Barons switched sides | yes
+  - History | The Barons' reason: the nobles promised to let them keep their factories and profit margins, whereas Kemerskai wanted to educate the workers, which is the material cause behind the kleptocracy | because the nobles promised to let them keep their factories and profit margins while Kemerskai wanted to educate the workers | yes
+- goals:
+- whole: The note reports, as an in-world fact, that the Barons defected to the nobles in the Counter-Revolution because they were promised their factories and profits while Kemerskai's plan to educate workers threatened them.

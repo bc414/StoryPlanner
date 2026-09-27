@@ -1,0 +1,7 @@
+- sources:
+  - canon wings spell from the episode Sonic Rainboom | treat as the canon fact (Rarity's butterfly wings) that the user's chasseur origin must be made to explain and connect to | To connect this with canon wings spell from the episode Sonic Rainboom | referred-to
+  - Green by Steel Resolve (Rarity and Fluttershy ship fic) | treat as the original inspiration for the wings-of-dew concept and its plot details (Applejack's cyan wings, Twilight's cotton candy wings); background provenance the user's own version reworks | This original concept of wings of dew reflecting their special somepony comes from a story called Green by Steel Resolve | first-named
+  - chasseur origin of 'the wings show who is keeping your hunter's spirit alive' | treat as the user's settled in-story explanation, the frame through which the canon wings are to be read | under my chasseur origin of "the wings show who is keeping your hunter's spirit alive" | referred-to
+  - canon episode Putting Your Hoof Down | use as evidence for Rarity's self-esteem ideal, but reinterpreted by the user as happening before Twilight arrives in Ponyville, shortly after Fluttershy moves there | I interpret the canon episode Putting Your Hoof Down as actually happening before Twilight comes to Ponyville | first-named
+- order:
+- about: The user is tying the canon Sonic Rainboom wings to their chasseur-based wings-of-dew origin by crediting a fanfic for the original concept and reinterpreting the timing of Putting Your Hoof Down so that Fluttershy is the proof behind Rarity's butterfly wings.

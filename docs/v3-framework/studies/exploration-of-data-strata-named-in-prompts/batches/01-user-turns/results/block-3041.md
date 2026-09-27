@@ -1,0 +1,6 @@
+- sources:
+  - real-life fertilizer chemistry and phosphorus supply (no industrial process for water-soluble phosphorus and potassium, phosphorus mined in Morocco, new source in Norway) | treat as true real-world premise, and the model is asked to confirm it and build on it; it is the reason earth pony magic is still needed for P and K | In real life, there are no industrial processes for water soluble phosphorus and potassium, right? | referred-to
+  - the author's own earlier wording "non magical" for the Severyana economy | author's clarification of intent that overrides the model's reading: it meant no unicorn magic, only guns and heavy industry, not no magic at all | What I meant by "non magical" must've mean no unicorn magic | referred-to
+  - the model's own general knowledge of where an industrial griffon society would get fertilizer | asked to supply an answer, offered as a guess (guano extraction, colonization, mining finite resources) | Griffons ran fertilizer from... what? Guano extraction/colonization? | referred-to
+- order:
+- about: The author corrects the model's claim that earth pony magic died in Severyana, arguing from real-world phosphorus and potassium supply and from what they meant by "non magical" that it persists, and asks where Herzland's griffons got their fertilizer.

@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the Celestia and Luna sidebar to settle other plot points (Trimmel's ordered surrender, Applejack sparing him while killing Pagala, a crystal pony Star Energy employee) and then supplies Celestia and Discord background lore, without saying the previous scene was wrong.

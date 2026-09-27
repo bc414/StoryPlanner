@@ -1,0 +1,3 @@
+- corrects: no
+- corrections:
+- about: The user moves on from the framework discussion by supplying a concrete scene (12.17, with Twilight's spiral and Mali's characterization) as a test case for applying the newly decoupled payload framework, without disputing anything the model said.

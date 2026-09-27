@@ -1,0 +1,4 @@
+- sources:
+  - the Notebook LM Notebook attached in Gemini Chat | the material whose use is being asked about; the user wants to know how drawing on it through a Gemini Chat attachment differs from opening it in the NotebookLM website, with no trust or priority stated | attaching the Notebook LM Notebook | referred-to
+- order:
+- about: The user corrects the model for answering a different question than the one asked, and restates that they want a comparison between attaching a NotebookLM notebook inside Gemini Chat and using the NotebookLM website directly.

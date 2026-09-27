@@ -1,0 +1,4 @@
+- questions:
+  - Does the user want the model to open a canvas now to start a draft or build a simple app? | ignored | The user turn does not respond to the offer; it asks a separate question about why Canvas no longer opens automatically. | none
+- shape: Redirects to a new, off-topic question about the tool itself. The user reports that Canvas used to open automatically and no longer does, and asks whether they turned off a setting or were in an A/B test. The offer is left unanswered, and the turn is not about any story.
+- settles:

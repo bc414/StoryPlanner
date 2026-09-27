@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user asks a design question about whether a character's psychology track and history track should overlap, since psychology is caused by history, and how to keep the tracks clean while preserving the insights, without pointing the model at any body of material.

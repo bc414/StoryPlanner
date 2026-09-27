@@ -1,0 +1,3 @@
+- sources:
+- order:
+- about: The user proposes a chain of in-story causation (Kemerskai's martial law modelled on Severyanan industrialization with civic virtues, then Caramel Marks misreading the command economy into the communist manifesto) and asks the model to confirm it, without pointing the model at any body of source material.

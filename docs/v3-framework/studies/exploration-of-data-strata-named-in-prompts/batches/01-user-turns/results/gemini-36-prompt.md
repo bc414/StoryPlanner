@@ -1,0 +1,5 @@
+- sources:
+  - the attached text file which is part 2 of a story | the material to be summarized in detail; the thing the model is to read and draw on | Can you give a detailed summary of the attached text file which is part 2 of a story? | first-named
+  - Here is the summary of part 1 (Part 1 summary) | background context supplied by the user about the earlier part of the story; to be taken as given, not summarized again | Here is the summary of part 1 | first-named
+- order:
+- about: The user asks for a detailed summary of an attached text file containing part 2 of a story, supplying a summary of part 1 as background.
