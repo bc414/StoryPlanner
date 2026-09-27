@@ -1,0 +1,28 @@
+- steps:
+  - author | follow-up question | asks for detail on a previously referenced strike | opening turn of the stretch
+  - model | historical breakdown | catalyst, legal ultimatum, mass firing, decertification, lifetime ban, and the strike's macro-economic legacy | first response
+  - author | reaction plus narrower question | comments on the story's absence from history class, asks what share of the workforce struck | second turn
+  - model | statistics answer | walkout percentage, crossing rate, firing numbers, offer to go further | second response
+  - author | conceptual framing question | asks whether the union/strikers were rent-seeking or perceived as such | third turn
+  - model | economic analysis | defines rent-seeking, lays out the case for that framing plus the strikers' counter-view | third response
+  - author | broadened comparative question | asks for a historical rent-seeking vs profit-seeking union breakdown and a US-vs-Europe perception contrast | fourth turn
+  - model | comparative framework | two-model taxonomy of unions, then contrasts the American enterprise-bargaining system with European sectoral/co-determination systems | fourth response
+  - author | clarifying challenge | asks whether the US/Europe difference is legal rather than moral or cultural | fifth turn
+  - model | causal reaffirmation | restates the divergence as legal-architecture driven, citing Wagner and Taft-Hartley specifics | fifth response
+  - author | pressing follow-up | asks directly whether law produces the rent-seeking disposition rather than the reverse | sixth turn
+  - model | institutional-economics argument | frames behavior as downstream of incentives, adds the fiduciary-trap and contrast points | sixth response
+  - author | origins question | asks who wrote the 1935 and 1947 acts and what incentives drove them | seventh turn
+  - model | actor-and-incentive breakdown | profiles Wagner's and Taft/Hartley's authorship and the political-economic motives behind each act | seventh response
+  - author | historical-parallel question | asks about soviets vs the bourgeoisie under Kerensky and how those labor dynamics compare to 1935/1947 | eighth turn
+  - model | comparative historical analysis | distinguishes soviets from unions, explains dual power, phases labor dynamics from rent-seeking to expropriation, compares to the US frameworks | eighth response
+  - author | narrowing comparative question | asks for the differences between Trotsky's and Stalin's views on factory committees and workers | ninth turn
+  - model | ideological comparison | contrasts Trotsky's militarization-of-labor theory with Stalin's pragmatic industrial-extraction practice | ninth response
+  - author | parallel comparative question | asks for Lenin's and Kerensky's respective views on the same subject | tenth turn
+  - model | ideological comparison | contrasts Kerensky's reformist conciliation model with Lenin's tactical vanguard-party approach | tenth response
+  - author | tangent request | asks to expand on Taylorism | eleventh turn
+  - model | technical-historical breakdown | explains Taylorism's mechanics and Lenin's adoption of it for Soviet industry | eleventh response
+  - author | topic switch | asks for a software-design term for a class representing future work not yet scheduled due to capacity limits | final turn
+  - model | naming options | offers categorized candidate class names, a comparison table, and a note on backpressure terminology | final response
+- kept:
+- brought: none
+- loop: The author drove a chain of increasingly specific historical and conceptual questions about labor, unions, and revolutionary Russia, each model answer prompting either a narrower follow-up or a pivot to an adjacent comparison, ending in an unrelated software-naming question; with zero notes traced to this stretch, none of this research or its answers was carried into the planning database.

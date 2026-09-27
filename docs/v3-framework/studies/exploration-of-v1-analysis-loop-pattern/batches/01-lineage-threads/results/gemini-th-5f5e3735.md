@@ -1,0 +1,12 @@
+- steps:
+  - author | posed a comparative-history question | whether Statthalter islands as colonies map to French/British/Dutch colonial models, and whether the FJA can be an 'earnest' version of the French model | opening prompt
+  - author | posed a linked logistics problem | how Chrysalis extracts her love harvesters and warships before a publicized Aquileian attack while still punishing the Statthalters | same opening prompt, second half
+  - model | laid out a historical comparison | three colonial models (Dutch VOC extraction, British indirect rule, French assimilation-in-theory) | first section of response
+  - model | applied the comparison to the setting | FJA as an earnest, non-poseur French model built on asset-specificity, with a named dark side of cultural erasure | second section of response
+  - model | worked the logistics problem | a four-step bureaucratic trap (tech-audit recall, Statthalter hubris, sabotage, bombardment) letting Chrysalis extract assets while still ruining the Statthalters | third section of response
+  - model | drew a summary verdict | how the trap simultaneously satisfies Aquileia's, the Statthalters', and Chrysalis's separate needs | closing section of response
+  - model | asked a confirmation question | whether the bureaucratic maneuver fits Chrysalis's established style | final line of response
+- kept:
+  - note 5303 | pasted from this reply inside the author's own framing | keeps the model's three-model colonial comparison and the earnest-French FJA framing, dropped into a subject entry titled 'Aquileian Anti-Poseur Crusade', with the model's cultural-erasure ending replaced by the author's own addition about plantation ownership, capital-goods flooding, and University of Pridea magic studies
+- brought: The author brought a pair of worldbuilding questions from the plan: a colonial-history analogy for the Statthalter islands and FJA, and a logistics puzzle for how Chrysalis extracts assets before a publicized attack.
+- loop: The author brought a comparative-colonialism question paired with a logistics problem; the model answered both with historical analysis, in-setting application, and a stepwise scheme, but the plan kept only the colonial-model portion, and only after the author swapped the model's own closing point for material of the author's own.

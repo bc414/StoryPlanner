@@ -1,0 +1,11 @@
+- steps:
+  - author | brings inspirations and requests thematic justification | four gameplay-derived plot origins framed as evidence of an anti-corporate, pro-Faust convergence | opening message of the thread
+  - model | supplies interpretive framework | a literary-theory frame and a four-part point-by-point analysis mapping each inspiration to a corporate-mandate rejection | first response
+  - author | extends the framework with a new plot beat and narrows the request | adds a specific scene (Celestia defiance, buffalo/oil town hall) and asks for further lost character traits, with explicit exclusions distinguishing organic growth from mandate-driven regression | second message
+  - model | produces trait-by-trait analysis with reintegration suggestions and summary table | five identified Faustian traits, each paired with its corporate-mandate distortion and a proposed narrative restoration | second response
+  - author | proposes a new scene and asks for validation | a love-letter writing block, Fleur's advice, and a Season 1-style letter to Applejack offered as another catalyst moment | third message
+  - model | validates and analyzes the scene, then offers to continue | confirms the scene's thematic fit across several angles and ends by proposing to explore Applejack's reception of the letter | third response
+- kept:
+  - note 2326 | pasted whole from this reply | keeps the model's phrasing about Twilight consciously choosing to stop holding back her power now that guilt no longer restrains her, placed on a Link node connecting a Twilight/Applejack decompression scene to Twilight Sparkle's character page
+- brought: The author brought four gameplay-derived inspirations from their own Equestria at War playthrough (the republic ending, Applejack as president, defending Tall Tale, an active Twilight) as raw material to be given thematic justification.
+- loop: The author repeatedly brings a personal gameplay detail or a new plot/scene beat and asks the model to certify it as a meaningful rejection of corporate mandate and a return to Faust's original vision; the model supplies an analytic framework and evocative phrasing to fit that thesis, and the planning database keeps one such line verbatim, attaching it to a character/scene link rather than reworking it.

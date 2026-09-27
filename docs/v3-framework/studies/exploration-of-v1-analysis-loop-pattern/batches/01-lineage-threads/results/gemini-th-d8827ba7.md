@@ -1,0 +1,6 @@
+- steps:
+  - the author | propose a tiered rule-set | a three-tier drug hierarchy (Tier 1 elite/no-additive, Tier 2 modular additive platform, Tier 3 fully-synthetic suicide mix) with a rationale for who uses each tier and an open question about further additives and their withdrawal effects | opening message of the exchange
+  - the model | systematize and name the proposal | gives each tier and additive a name, invents specific withdrawal mechanics for each additive, assigns them to particular military/labor roles, and maps the additive withdrawals onto the camp's existing phased-treatment structure and the wider Tzinacatl backstory | single reply to the proposal
+- kept:
+- brought: The author brought an in-progress worldbuilding rule (a drug potency/caste hierarchy tied to existing setting elements like Jaegers, Bauleiters, the love harvester, and Camp Fluttershy) along with unresolved questions about what additives exist and what their withdrawal effects should be.
+- loop: The author supplies a partial mechanic plus explicit open questions, and the model returns a fully elaborated, named system that answers those questions and threads it into existing story infrastructure; since no notes are traced to this stretch, none of this elaboration is shown being carried into the planning database yet.

@@ -1,0 +1,11 @@
+- steps:
+  - the author | supplies material | a full export of the planning database (117,682 words) | opening message of the exchange
+  - the model | diagnoses | names the database's core problem as accumulation without architecture, i.e. 'data bloat' | opening of the response
+  - the model | proposes a framework | a four-pillar bible structure separating world rules, character profiles, theme, and plot | early in the response
+  - the model | proposes a workflow | an entity/note-tagging system with an 'IsIncorporated' checkbox logic for scenes | middle of the response
+  - the model | gives worked examples | concrete merges/condensations for the magic system, the political-economy history, and several character arcs | specific-suggestions section
+  - the model | flags risks | three narrative risks (tech-dump, sympathetic villain credibility, too many endings) each with a fix | literary-analysis section
+  - the model | offers a next step | asks whether to demonstrate the new format on one chosen entity | closing line of the response
+- kept:
+- brought: The author brought the entire current planning database as an export, asking implicitly for a structural review of how it's organized.
+- loop: The author handed over the whole sprawling plan for an outside structural audit, and the model returned a reorganization scheme, a tagging workflow, and specific trims plus risk warnings — but nothing from this exchange was carried back into the planning database, leaving the proposed restructuring unabsorbed at this point.

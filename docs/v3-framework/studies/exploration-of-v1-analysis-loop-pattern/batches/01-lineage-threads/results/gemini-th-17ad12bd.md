@@ -1,0 +1,15 @@
+- steps:
+  - author | brings an interpretation | own reading of how the Stagnation/White Peace chapter should work — Celestia's Nightmare-Moon accusation, Twilight/AJ's safe-ambition defense, the need for proof through action | opening message, asking for the story plan to be reviewed and the reading checked
+  - model | confirms and structures the reading | a three-part breakdown (accusation, defense, proof) tied to named plan elements such as the rifles, the paradrop, the Aquileian intervention and the referendum | first reply
+  - author | poses a specific plot question | asks whether teleporting rifles to every hostage is too harsh and whether it fits the story's themes and Applejack's arc | second message
+  - model | gives a verdict with justification | a thematic and character-arc argument concluding the device is 'exactly harsh enough' | second reply
+  - author | requests a brainstorm | asks for outside-the-box alternatives to the rifle-and-paradrop resolution, with the document reviewed again | third message
+  - model | generates options plus a recommendation | three alternative resolutions (poison, psychic frenzy, mob unmasking) each analysed for thematic fit, ending in a verdict favoring the existing rifle plan | third reply
+  - author | rejects an option and adds new material | dismisses the poison idea as impractical, supplies a demographic breakdown of occupied Canterlot, and proposes Luna secretly contacting civilians in dreams | fourth message
+  - model | analyses the new proposal | a breakdown of the 'dream insurgency' idea across theme, Luna's character arc, plot consequences for Celestia, and the civilian demographics | fourth reply
+  - author | asks for refinement grounded in established arc | requests the existing Luna arc be reviewed and proposes a phased sequence of her dreamwalking — shame, reconnaissance/triage, targeted arming | fifth message
+  - model | structures the proposal into a staged arc | a phase-by-phase account of Luna's arc tied to how it makes the Stagnation chapter's conflict inevitable | fifth reply
+- kept:
+  - note 3005 | pasted from this reply inside the author's own framing | keeps the model's phrasing casting rifle-teleportation as ending the 'nursery,' treating ponies as adults who accept their own fate, and forcing prey to stop being prey; placed on the 'Celestia speaks up against the plan' link under the Stagnation of Harmony period
+- brought: The author brought their own reading of an unwritten plan beat — how the Stagnation/White Peace chapter's ideological standoff between Celestia and Applejack/Twilight should play out — drawn from established plan elements like the parloirs and harmonic capitalism.
+- loop: The author repeatedly brings a plan beat, a hard plot question, or new worldbuilding detail and asks the model to validate, judge, or elaborate it against the existing document; the model returns structured analysis, verdicts, or option sets, which the author accepts, rejects, or builds further from — and the planning database keeps only a single condensed phrase from one of the model's verdicts, filed onto the specific plan node it justifies.

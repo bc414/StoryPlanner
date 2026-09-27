@@ -1,0 +1,10 @@
+- steps:
+  - the author | requests placement + supplies sketch | attached story-plan document, own partial scene idea (Combined Arms setting, Rarity/Twilight/Applejack/Mali/Henri/Fleur, Mali's parloir backstory line) | opening message
+  - the model | confirms placement | validates 'Combined Arms' as the right chapter and explains how it bridges the two cast halves thematically | opening of response
+  - the model | drafts a beat-by-beat scene | full 'Icebreaker Dinner' scene structured into numbered beats: observation, lesson reveal, Rarity's subversion, Mali's backstory, group reaction | main body of response
+  - the model | argues structural payoff | explains how the scene validates Rarity's arc, humanizes Mali, and foreshadows the Love Donator/Camp Fluttershy arcs | after the beat breakdown
+  - the model | proposes a database entry | drafts a structured JSON scene record (title, synopsis, characters, theme) for insertion into the Combined Arms chapter | closing of response
+- kept:
+  - note 1722 | one sentence lifted from this reply | keeps the model's beat of Henri/Fleur teaching the couple and Rarity being asked if she was ever a client, embedded in an author-elaborated dialogue sequence (sleepover joke, Mali's question, Fleur's Coltbert reveal), filed under PlotPoint 'Rarity notices Twilight and Applejack'
+- brought: The author brought a partially formed scene concept — where and how the parloir backstory should be revealed, including setting, cast, and Mali's motivating line — and asked the model to develop and place it within the existing story plan.
+- loop: The author supplies a rough scene sketch and asks for placement guidance; the model returns a fully structured scene (beats, rationale, and a ready-made JSON entry) built on that sketch; the plan keeps one beat from the model's version but re-renders it inside a longer, author-written dialogue sequence filed as a plot point.

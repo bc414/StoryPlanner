@@ -51,7 +51,8 @@ finding.
 
 **Shortcomings**: `- <part>: <what the results showed>`, `<part>` one of `item`,
 `itemizer`, `directions`, `calibration`, `execution`, `corpus`: the item definition that
-cut two things as one, the itemizer that cut short, the reserved class that filled, the
+cut two things as one, the itemizer that cut short or that cut what a rule applying everywhere
+or the study excludes, the reserved class that filled, the
 criterion the results split on, the frozen question the fields cannot answer, the sample
 that never held a case the batch did, the model that ignored a criterion, the corpus that
 is not what CORPORA.md says. Each is a fact about the study's own instrument, never about

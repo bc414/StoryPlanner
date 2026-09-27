@@ -1,0 +1,69 @@
+- steps:
+  - author | pose question | whether the Luna Doctrine is a real policy or Twilight's invention | opening query of the conversation
+  - model | give options analysis with recommendation | three framings of the doctrine's status plus an editorial pick | reply to the opening query
+  - author | ask follow-up | when in the story Twilight forms the cynical theory and Fleur names it | after the doctrine's status is settled
+  - model | give options analysis with recommendation | three chapter placements for the doctrine's formation plus a pick | reply to the timing question
+  - author | request analysis | how three canon episodes' dynamics can support the TwiJack romance | new topic shift to the romance plot
+  - model | give options analysis with summary table | three ways to repurpose canon-episode dynamics plus a comparison table | reply to the canon-episode request
+  - author | request expansion | reasons for Twilight's pre-chapter-4 feelings and her disobedience | follow-up on the romance topic
+  - model | give layered analysis with options and recommendation | psychological pillars of the love, disobedience catalysts, three episode framings, and a pick | reply to the expansion request
+  - author | pose structural question | whether to move the Storm King backstory from chapter 4 to chapter 8 | new structural concern about a repeated flashback
+  - model | analyze current function then offer options | the memory's present purpose plus three relocation options and a recommendation | reply to the Storm King question
+  - author | pose pacing question | whether an early total break with Celestia helps or hurts later narrative weight | follow-up structural concern
+  - model | analyze trade-offs then offer options | weight-increase/decrease analysis, three disillusionment framings, and a pick | reply to the pacing question
+  - author | introduce new character brief | detailed constraints for an unnamed unicorn-volunteer OC and a request for names/backstory/talent | new character-creation topic
+  - model | propose named character options | three full backstories and a recommended pick | reply to the first OC brief
+  - author | correct mechanic assumption | clarifies that special talents need not apply to gun/tank use and restates the enhancer-democratization logic | correction after the first option set
+  - model | revise character options | three revised named options reflecting the corrected mechanic and a pick | reply to the correction
+  - author | redirect personality tone | wants a more active/physical character than a mellow curator, offers alternate backstory seeds | pushback on the second option set
+  - model | propose new options | three grittier named options and a recommendation | reply to the tone redirect
+  - author | redirect tone again | wants a cute/energetic dialed-down-Pinkie personality, favors the supply-chain 'Tally' idea | second pushback on tone
+  - model | propose new options | three Tally-named options and a recommendation | reply to the second tone redirect
+  - author | request research and refine morale role | asks for the etymology of 'Tally', rejects two prior options, wants more etymology-informed choices | follow-up refining the chosen direction
+  - model | deliver etymological research and options | history of the tally stick plus three surname/talent options and a pick | reply to the etymology request
+  - author | confirm choice and request refinement | locks in the chosen name, proposes a reveal scene, asks to refine backstory and confirm the counting-spell | confirmation and next request
+  - model | deliver refined profile | full backstory, named spell mechanic, and a scene-integration proposal | reply to the refinement request
+  - author | note authorial pattern | observes OCs embody 'Liberty' versions of the Elements and flags an unfilled slot | reflective observation opening a new topic
+  - model | analyze pattern and propose fill | pairing analysis plus three mentor options and a pick with a summary table | reply to the pattern observation
+  - author | redirect and supply own plotting | states an existing character already fills the role and lays out a specific two-chapter scene design | correction and detailed plan contribution
+  - model | formalize the plan | thematic framing plus three tactical-epiphany scene options, a pick, and a chapter-flow writeup | reply to the author's scene design
+  - author | correct worldbuilding and rewrite scene | details the drug-tier system precisely and rewrites the two chapter beats in full | correction and detailed rewrite of the plan
+  - model | organize and validate | restates the caste system, reconstructs the two-chapter progression, and tables the character arcs | reply to the rewritten scene
+  - author | ask stylistic question | whether the new OC should share the lead character's accent | small detail question
+  - model | give recommendation | lore and craft justification for a distinct regional accent | reply to the accent question
+  - author | ask for design suggestions | mane/coat color and style options for the OC | follow-up visual-design question
+  - model | propose visual options | three coat/mane palettes and a pick | reply to the design question
+  - author | request comparative analysis | parallels and subversions between the plan and its source-fic inspiration | new analytical topic
+  - model | deliver comparative analysis | multi-point character/thematic comparison | reply to the comparison request
+  - author | request continuation | more orthogonal points of comparison | follow-up request
+  - model | deliver further comparative analysis | additional points on mechanics, sociology, economy, justice, and mythology | reply to the continuation request
+  - author | pose interpretive question with own thesis | assesses the source's antagonist as ego-driven and asks if valid, and how it compares to the plan | new interpretive topic
+  - model | validate and compare | confirms the source assessment with textual support and an initial comparison | reply to the interpretive question
+  - author | correct interpretation | rejects a 'weak' framing, asserts the planned antagonist is more competent, introduces a dual-pillar regime structure | correction of the model's characterization
+  - model | re-analyze with correction | dual-state analysis, a redemption mechanism, and a revised comparison | reply to the correction
+  - author | pose new framing and describe own plan | assesses the antagonist as a background menace in both works and proposes a staged reveal | new structural proposal
+  - model | validate proposal and elaborate | confirms the assessment and details the staged reveal with a recommendation | reply to the proposal
+  - author | raise scheduling problem | notes a key reveal character appears too late and asks whether an earlier reveal is needed | follow-up structural question
+  - model | recommend addition and offer options | three options for an earlier reveal plus a combined recommendation | reply to the scheduling question
+  - author | question plausibility and sequencing | asks how a new character could plausibly reach the front and whether an early reveal is wise | follow-up craft question
+  - model | resolve plausibility and sequencing | three placement scenarios, a pick, and reasoning on reveal timing | reply to the plausibility question
+  - author | correct economic premise | rejects a fragile-economy framing, asserts a robust economy driven by ambition, and fixes a timeline detail | correction of the model's economic model
+  - model | revise economic and character model | reframes the economy, revises the character's field placement, and writes a capture scene | reply to the economic correction
+  - author | request backstory options with new arc | wants a haughty-to-humbled arc and asks for options informed by a lore codex entry | follow-up character request
+  - model | propose backstory options | three named backstory options and a pick with an integration plan | reply to the backstory request
+  - author | correct systemic assumptions | rejects several regime mechanics, endorses one option with a caveat, and questions the character's plausible expertise | further correction of the model's regime logic
+  - model | resolve the corrected logic | explains the demotion mechanism, validates partial knowledge, and finalizes the profile | reply to the correction
+  - author | flag naming conflict | notes the chosen name is already used elsewhere and asks for alternatives | small correction/request
+  - model | propose name options | four etymology-based name options and a pick | reply to the naming conflict
+  - author | propose naming-convention theory | distinguishes old native names from new functional names, asks about generational placement, raises a related character's naming | expansion of worldbuilding theory
+  - model | apply theory | naming-convention analysis, a generational recommendation, and a naming resolution for the related character | reply to the naming-convention theory
+  - author | complicate theory further | questions if the names are too simple given a translation-based labeling lore point, and raises the parenting/upbringing question | further worldbuilding expansion
+  - model | synthesize final answer | naming-contrast options and an upbringing-system proposal with a historical parallel | reply to the final worldbuilding question
+- kept:
+  - note 193 | the author's own words in this record | keeps the author's aside about a character's post-trauma inability to laugh danger away and a companion's callback line, filed to a PlotPoint about that companion's departure
+  - note 3972 | one sentence lifted from this reply | keeps the model's definition of a war-version virtue as a euphemism for blind fealty, filed to a Subject on loyalty and kinship
+  - note 664 | pasted from this reply inside the author's own framing | keeps a mentor character's scripted line calling the enemy feudal poseurs, filed to a PlotPoint about the war-council tactics scene
+  - note 4577 | pasted from this reply inside the author's own framing | keeps the description of the new character's accent as urbanized-rural twang mixed with commercial vocabulary, filed to a Subject entry for that character
+  - note 5212 | one sentence lifted from this reply | keeps a timeline detail about enemy aircraft manufacturing, filed to a Subject on aeronautical engineering
+- brought: The author brought an extensive, already-detailed story plan (chapter order, faction rules, drug/economy mechanics, character roles) and used most turns to correct or redirect the model's suggestions against that existing plan rather than to originate ideas from scratch.
+- loop: The author repeatedly brings a plan fragment, open question, or correction to the model's prior answer, the model responds with multiple labeled options plus a recommendation, and the author either narrows toward one option, overrides the model's premise with plan-consistent detail, or moves to a new question — while the planning database keeps only small crystallized fragments (a single line of dialogue, one definitional sentence, a character-voice description, a timeline detail, or the author's own aside) rather than the surrounding option-analysis.

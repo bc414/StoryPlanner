@@ -1,0 +1,9 @@
+- steps:
+  - the author | delivers a dream-plan | two dreams' contents, their meanings, and a sequencing question about the VOPS reveal | opening of the exchange
+  - the model | analyzes the arc | breaks the two dreams into a psychological progression, links them to the VOPS profile, drafts Trimmel's parting advice, and lays out the Apple Bloom visual payoff | first reply
+  - the author | corrects and redirects | offers own line for Trimmel's advice, objects that the model's version is too direct for Trimmel's characterization, and firms up the sequencing rationale (mercy granted first, Trimmel's motive for talking at all) | second prompt
+  - the model | revises around the correction | adopts the author's line, rebuilds the scene's causal chain, redrafts the advice as 'do not make them look away,' and reworks the visual-payoff synthesis to match | second reply
+- kept:
+  - note 3931 | pasted from this reply with cuts | keeps a compressed line about Applejack wanting to leave leadership behind after the war, filed to a different link pairing her parents-reunion scene with the leadership theme
+- brought: The author brought a drafted two-dream sequence with its intended thematic payoff and a question about whether the sequencing and Trimmel's motivation held together.
+- loop: The author supplies a psychological plan and then tests and corrects the model's dramatization of it against character consistency; the plan keeps only a short thematic distillation of the exchange, relocated to a separate story beat about family and leadership rather than the dream/Trimmel scene itself.

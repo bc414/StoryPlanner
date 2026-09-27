@@ -1,8 +1,14 @@
 # exploration-of-v1-analysis-loop-pattern — leads
 
+- items with results: 746 of 909
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-v1-analysis-loop-pattern/how-many-conversations-left-a-trace-in-the-archive
+### exploration-of-v1-analysis-loop-pattern/leads-1/how-many-conversations-left-a-trace-in-the-archive
 - lead: Over 746 of the batch's 909 conversations and parts — called in one shuffle of the index, so a random
   sample — 398 have at least one v1 archive note traced to one of their messages and 348 have none. By the
   index's description column: 340 of the 664 answered Gemini web threads, 45 of the 69 AI Studio chats and
@@ -12,7 +18,7 @@
 - query:
   - rq1 batch=exploration-of-v1-analysis-loop-pattern/01-lineage-threads answered=746 field=steps view=health
 
-### exploration-of-v1-analysis-loop-pattern/what-the-author-does-in-the-loop
+### exploration-of-v1-analysis-loop-pattern/leads-1/what-the-author-does-in-the-loop
 - lead: The author's moves are named, most often, with question (773 step lines), asks (485), request (254),
   brings (251), proposes (230), poses (206), corrects and correction (325 between them), supplies (139), adds
   (121) and extends (94). The first move of a conversation is most often a request, supplied or attached
@@ -21,7 +27,7 @@
 - query:
   - rq1 batch=exploration-of-v1-analysis-loop-pattern/01-lineage-threads answered=746 field=steps view=health
 
-### exploration-of-v1-analysis-loop-pattern/what-the-model-does-in-the-loop
+### exploration-of-v1-analysis-loop-pattern/leads-1/what-the-model-does-in-the-loop
 - lead: The model's moves are named, most often, with analysis and analyzes (925 between them), elaborates
   (197), delivers (186), verdict (170), validates (155), supplies (148), drafts and draft (229), extends (118),
   builds (108), mechanism (105), proposes (104) and options (103). So the model's side of the loop is mainly
@@ -31,7 +37,7 @@
 - query:
   - rq1 batch=exploration-of-v1-analysis-loop-pattern/01-lineage-threads answered=746 field=steps view=health
 
-### exploration-of-v1-analysis-loop-pattern/what-the-archive-kept-and-how
+### exploration-of-v1-analysis-loop-pattern/leads-1/what-the-archive-kept-and-how
 - lead: The readers listed 1,962 archive notes traced to messages of the 746 conversations. By the relation the
   item gives: pasted whole from the reply 654, the author's own words in the record 553, pasted from the reply
   inside the author's own framing 394, one sentence lifted from the reply 127, pasted from the reply with cuts
@@ -42,7 +48,7 @@
 - query:
   - rq1 batch=exploration-of-v1-analysis-loop-pattern/01-lineage-threads answered=746 field=kept view=health
 
-### exploration-of-v1-analysis-loop-pattern/the-loop-as-the-readers-describe-it
+### exploration-of-v1-analysis-loop-pattern/leads-1/the-loop-as-the-readers-describe-it
 - lead: The loops the readers describe repeat one shape with variations: the author brings a compact lore
   fragment, a constraint, a canon detail or a correction together with a question; the model returns an
   expanded, sectioned analysis or an in-world mechanism; the author affirms, corrects or builds the next

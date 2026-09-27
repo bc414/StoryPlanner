@@ -1,0 +1,14 @@
+- steps:
+  - author | proposes alternate scenario | a reworked causal chain for the leadership-flip timing (weather sabotage, Luna's retreat, officer deaths) | opening message
+  - author | scopes the causal question | explicitly excludes one death as catalyst for the 2nd battle, reassigning its role to hardening a character later | same opening message
+  - author | requests comparison | asks for a comparative analysis of the new scenario against a previously established one, naming that prior logic as the baseline | end of opening message
+  - model | compares strategic rationale | contrasts how a faction leader's decision-making reads under each scenario | early in response
+  - model | compares character arc | contrasts a commander's arrogance-then-shame trajectory against an alternate anger-driven version | response body
+  - model | reframes a causal link | recasts one character's death as a consequence of military failure rather than its trigger | response body
+  - model | compares thematic payoff | contrasts how a third character's battlefield success drives escalation under each scenario | response body
+  - model | drafts | a revised staged timeline integrating the new scenario's events in sequence | later in response
+  - model | delivers verdict | recommends the new scenario and ties it to the story's rational-actor theme | closing of response
+- kept:
+  - note 4591 | the author's own words in this record | recomposes the commander's post-battle psychology (resentment, viewing heroes as dishonorable, wanting a full assault to crush them and force capitulation, requisitioning tank/air divisions) into the character's subject page, drawing on both the author's prompt details and the model's arrogance-arc framing
+- brought: The author brought a fully-worked alternate causal timeline for when the leadership flip occurs, asking the model to compare it against a previously established version of the same turning point.
+- loop: The author brings a rival causal scenario and asks for it to be weighed against the established one; the model returns a multi-angle comparison, a reordered timeline, and a recommendation; what the plan keeps is not the model's comparative language but the author's own restatement of the commander's resulting resentment and war-crushing intent, filed to that character's subject entry.

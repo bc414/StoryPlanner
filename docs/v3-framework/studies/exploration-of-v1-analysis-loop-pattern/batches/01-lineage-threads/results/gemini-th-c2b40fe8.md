@@ -1,0 +1,6 @@
+- steps:
+  - the author | request | asks for an analysis of a romance between two named characters as it stands in an existing story plan | opening turn of the exchange
+  - the model | analysis | a structured breakdown covering core relationship dynamic, thematic/political parallel, narrative arc stages, and symbolic motifs tied to the romance | single reply closing the exchange
+- kept:
+- brought: The author brought the existing story plan (referred to as the 'Super Culled Prompt') as the material to be analysed, without adding new plot content of their own.
+- loop: The author asked the model to synthesize and interpret a relationship already present in the plan, and the model produced a multi-part analytical writeup in response, but nothing from this exchange was traced back into the planning database in this stretch.

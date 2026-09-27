@@ -1,0 +1,13 @@
+- steps:
+  - author | proposes mechanism | new power-source concept for the rifle: earth-pony ambition resonance, ammo that scales with intent, unusable by non-earth-ponies or conscripts | gemini:324 prompt
+  - model | elaborates and systematizes | names the tech 'Resonance Tech', builds the spade-to-rifle lineage, an 'Ambition Lock' rationale, an economic model, a sample scene, and strategic implications; ends by asking about cartridge design | gemini:324 response
+  - author | corrects the model's elaboration | clarifies power parity with unicorns, notes most unicorns need crystal enhancers too, and states the rifle is not tyrant-proof, only supplemented by personal magic | gemini:325 prompt (first part)
+  - author | adds a lore rule | states that a pony's cutie mark discounts the cost of their special talent, so Twilight's talent in magic discounts all her spells | gemini:325 prompt (second part)
+  - author | poses a new question | asks where, in the existing world, the tech to convert and store earth-pony ambition/magic already exists and who invented it | gemini:325 prompt (third part)
+  - model | proposes an answer | suggests the Crystal Heart and Princess Amore as the precedent technology, explains the mechanism and its narrative fit, and asks if this matches the author's vision | gemini:325 response
+  - author | rejects and redirects | sets the Crystal Heart idea aside as usable but not the answer, and supplies a different answer: Chrysalis's love-harvester technology | gemini:326 prompt
+  - model | elaborates on the new premise | works out how the rifle's grip could be reverse-engineered from Chrysalis's harvester, the resulting irony, a hybrid power mechanic, and a thematic synthesis | gemini:326 response
+- kept:
+  - note 1212 | author's own words in this record | keeps the cutie-mark-discount idea recast as a scene beat (Fleur explaining it to Twilight, Twilight's reaction, Rainbow's reaction), filed under the PlotPoint 'Aquileian Cutie Mark Theory'
+- brought: The author brought forward established setting facts (Twilight's crystal-enhancer batteries, Fleur's star-spade invention) to build a new power-source concept for the rifles.
+- loop: The author proposes and then repeatedly corrects or overrules the model's elaborations on a magic-tech mechanism across three rounds, and only when one of those corrections restates a lore rule in the author's own words does the database record it, tucking that phrasing into an existing plot point as a scene beat while the surrounding technology debate itself goes unrecorded.

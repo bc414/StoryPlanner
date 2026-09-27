@@ -1,0 +1,11 @@
+- steps:
+  - author | proposes arc | a full multi-phase character progression for AJ, from imposter syndrome through victory, guilt, a pivot beat, radicalization, and a final pause, with an embedded question about a resentment motivation | opening prompt of the exchange
+  - model | validates | calls the proposed arc excellent and singles out one beat as the missing psychological link | opening of the response
+  - model | phases the arc | restates the author's proposal as five labeled phases, each with a state, action, and analysis | early-to-mid body of the response
+  - model | answers the embedded question | affirms the resentment reading and supplies a character-parallel to justify it | the phase covering the pivot beat
+  - model | extends the phasing | analyzes the later two phases (arming hostages, and the pause at the peace) in the same state/action/analysis format | later body of the response
+  - model | condenses | restates the whole arc as a short numbered progression of interior lines | summary section near the end
+  - model | delivers a verdict | names one beat as the structural linchpin holding the sequence together | closing section of the response
+- kept:
+- brought: The author brought a consolidated, multi-phase draft of a character's arc across a war campaign, including one specific interpretive question about a motivation shift, likely synthesized from earlier planning threads.
+- loop: The author brings a full draft arc plus a pointed interpretive question to the model for review; the model validates it, restructures it into labeled phases with analysis, answers the embedded question, and closes with a condensed summary and verdict, but none of this exchange is captured back into the planning database in this stretch.

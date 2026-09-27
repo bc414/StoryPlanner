@@ -1,0 +1,25 @@
+- steps:
+  - author | attaches source material | a full planning-document export with no visible text | opening message of the thread
+  - model | analyzes theme | reads Cadance/Shining Armor's Crystal Empire policy as a subversion of Celestia's doctrine, framed around trauma vs. innocence | first response
+  - author | requests canon background | asks for the canon backstory of the Crystal Ponies/Sombra plus any 'Equestria at War' game twists | second exchange
+  - model | supplies lore summary | canon Sombra/Crystal Heart backstory, EaW mechanics, and how both feed the author's trauma premise | second response
+  - author | asks a targeted canon question | whether the Crystal Ponies remember their enslavement or have no memory of it | third exchange
+  - model | answers canon question | explains the memory/repression mechanic and links it to the trauma theme already in play | third response
+  - author | proposes a new plot mechanism | Cadance secretly recruits parloir owners to treat millions of traumatized crystal ponies, kept hidden from Celestia, and asks whether Luna should know given her own fresh trauma driving the Tall Tale retreat | fourth exchange
+  - model | elaborates mechanism and gives a verdict | builds out the secret therapy network, rules that Luna knows but misreads its purpose, and ties it to the dreamscape aid network | fourth response
+  - author | poses a branching structural question | offers three ways Cadance could learn of parloir culture and proposes Mali as an early originator seeded at the Tall Tale trench | fifth exchange
+  - model | recommends and drafts a timeline | selects the Mali-origin option and lays out a phased sequence linking Crystal Empire, Tall Tale, and the dreamscape network | fifth response
+  - author | brings in an existing character arc | Mali's planned progression from passive kindness to active pursuit of liberty via Fleur, asks how the new backstory role fits it | sixth exchange
+  - model | integrates the two arcs | maps the Crystal Empire episode onto Mali's arc as a 'proof of concept' phase preceding her later assertiveness | sixth response
+  - author | poses a sequencing question with own pro/con weighing | whether Cadance/Shining Armor knew of parloirs before the Crystal Empire crisis or only after, weighing deus-ex-machina risk against organic growth | seventh exchange
+  - model | recommends a hybrid solution | proposes a staged 'Shadow Scholar' timeline balancing prior theoretical knowledge with later practical engagement | seventh response
+  - author | proposes a new magic-system idea | an Aquileian anti-predator consent spell underlying the wedding shield, tied to both characters' talents and cutie marks | eighth exchange
+  - model | develops and names the mechanism | specifies 'Le Cercle Intime,' reframes the wedding victory as engineering, and explains Celestia's misreading of it | eighth response
+  - author | flags a consistency problem | worries the spell's logic would make it a deus ex machina if usable throughout the later war, asks for a limiting rule | ninth exchange
+  - model | supplies the limiting rule | distinguishes intent-based magic from intent-less industrial war (drugs, armor) to explain why the spell fails later | ninth response
+  - author | extends and confirms the mechanism | adds that conscripts are drugged numb, sadistic officers stay armored in half-tracks, and Chrysalis is an internationalist who reverse-engineered the spell | tenth exchange
+  - model | confirms and systematizes | lays out a full arms-race timeline from wedding to war and offers to move to the next topic | tenth response
+- kept:
+  - note 1588 | one sentence lifted from this reply | keeps a single sentence about a special talent tied to 'making joy happen,' filed under a PlotPoint about studying Pinkie Sense
+- brought: The author brought a full planning-document export at the outset and, across the conversation, kept re-introducing already-established plan elements (Mali's arc progression, Luna's Tall Tale retreat, Fleur's influence) to test new plot ideas against them.
+- loop: The author repeatedly floats a speculative plot or magic-system fix and immediately stress-tests it against continuity concerns (deus ex machina, character arcs, established trauma logic), and the model answers each round with a synthesized mechanism or verdict that reconciles the new idea with prior lore; almost none of this elaborate back-and-forth was captured into the archive, with only a single unrelated sentence fragment landing in the plan database.

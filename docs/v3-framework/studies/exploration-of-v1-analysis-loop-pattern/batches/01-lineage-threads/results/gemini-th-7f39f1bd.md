@@ -1,0 +1,6 @@
+- steps:
+  - the author | dump | a chronological backstory for Trimmel across Vraks, the Winter Revolution, Canterlot, Olenia, the Equestria campaign, and Tall Tale, plus parallel lore for Thranx's diplomatic career and death | opening of the conversation
+  - the model | synthesis | a thematic reading organized into named concepts (asymmetric arrogance, bully's honor, meritocracy vs fraternity, denial of the Schwerpunkt, Thranx as lost potential) plus a five-beat summary of Trimmel's arc | closing response, no further author turn in this stretch
+- kept:
+- brought: The author brought an already-worked-out chronological military backstory for Trimmel and a linked backstory for Thranx, laid out as a sequence of prior conflicts and relationships meant to explain the Tall Tale confrontation and its aftermath.
+- loop: The author supplies a fully formed sequence of backstory beats for the model to interpret, the model returns a labeled thematic framework and arc summary describing what the beats mean, and none of this exchange's text was drawn into the planning database.

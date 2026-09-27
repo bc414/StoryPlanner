@@ -52,8 +52,7 @@ public sealed record BatchSnapshot(
     BatchStages Stages,
     string? LastActivityUtc,
     string? NotBeforeUtc = null,
-    bool Scheduled = false,
-    bool RandomOrder = false);
+    bool Scheduled = false);
 
 /// <summary>
 /// Reads batches from disk: every <c>definition.md</c> under a <c>batches/</c> folder beneath
@@ -162,7 +161,6 @@ public static class BatchCatalog
             Stages: stages,
             LastActivityUtc: lastActivity,
             NotBeforeUtc: live?.NotBefore?.ToString("o"),
-            Scheduled: live is { Started: false, NotBefore: not null },
-            RandomOrder: live?.RandomOrder ?? false);
+            Scheduled: live is { Started: false, NotBefore: not null });
     }
 }

@@ -1,8 +1,14 @@
 # exploration-of-v1-subject-notes-as-scene-sequences — leads
 
+- items with results: 210 of 217
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-v1-subject-notes-as-scene-sequences/how-the-subject-passages-divide
+### exploration-of-v1-subject-notes-as-scene-sequences/leads-1/how-the-subject-passages-divide
 - lead: Over 210 of the archive's 217 note-owning subjects the readers cut 3,718 passages — a median of 13
   per subject, 1 at the least and 137 at the most. Of those, 2,439 lines over 205 subjects are statements
   about the subject, 844 lines over 140 subjects are beats of a scene, and 436 lines over 136 subjects
@@ -16,7 +22,7 @@
   - rq1 batch=exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects answered=210 field=passages where kind~"scene beat" view=cites
   - rq1 batch=exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects answered=210 field=passages where kind~"^(?!.*(statement about the subject|scene beat))" view=cites
 
-### exploration-of-v1-subject-notes-as-scene-sequences/most-scene-beats-carry-no-year
+### exploration-of-v1-subject-notes-as-scene-sequences/leads-1/most-scene-beats-carry-no-year
 - lead: Of the 844 scene beats, only 94 over 39 subjects were named as carrying a year, and 613 over 133
   subjects as carrying none; the rest were named otherwise. The year column holds something other than
   "none" in 428 lines over 111 subjects, and what it holds is often not a year at all but a phrase — "after",
@@ -30,7 +36,7 @@
   - rq1 batch=exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects answered=210 field=passages where year~"^(?!none$)" view=cites
   - rq1 batch=exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects answered=210 field=passages view=terms col=year top=18
 
-### exploration-of-v1-subject-notes-as-scene-sequences/a-third-of-subjects-hold-a-note-that-runs-as-an-ordered-sequence
+### exploration-of-v1-subject-notes-as-scene-sequences/leads-1/a-third-of-subjects-hold-a-note-that-runs-as-an-ordered-sequence
 - lead: 138 notes over 76 of the 210 subjects run as a sequence of beats in the order they happen. What
   marks a sequence is one of a few things: a numbered list with headings ("numbered list 1 to 5 with
   headings"); ages and years counting up ("958 ALB, 14 in 972, 15, 22 in 980, 50 in 1008"); connectives
@@ -43,7 +49,7 @@
   - rq1 batch=exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects answered=210 field=sequences view=health
   - rq1 batch=exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects answered=210 field=sequences sample=8 seed=6 view=list
 
-### exploration-of-v1-subject-notes-as-scene-sequences/which-subjects-hold-the-most-scene-beats
+### exploration-of-v1-subject-notes-as-scene-sequences/leads-1/which-subjects-hold-the-most-scene-beats
 - lead: The subjects densest in scene beats are, in order: Moriset Discret's Aquileia/Coltbert Reforms with
   50 beats over 137 passage lines, The True Actions and Motivations of Chrysalis with 36 over 55, Prince
   Blueblood 29 over 43, Minette 26 over 50, Trimmel 22 over 38, the 1st Aquileian Revolution and
@@ -66,7 +72,7 @@
   - exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects/subject-45
   - exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects/subject-275
 
-### exploration-of-v1-subject-notes-as-scene-sequences/beat-density-by-the-reviews-triage-label
+### exploration-of-v1-subject-notes-as-scene-sequences/leads-1/beat-density-by-the-reviews-triage-label
 - lead: Read against the review labels in the index's description column, the share of passages that are
   scene beats differs by label: Deferred until chapter notes 9 of 17 lines, over 4 subjects; Deferred for
   Minette's Prequel 103 of 312, over 11 subjects; Deferred for Chrysalis's Prequel 39 of 133, over 10;
@@ -80,7 +86,7 @@
   - exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects/subject-45
   - exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects/subject-44
 
-### exploration-of-v1-subject-notes-as-scene-sequences/what-the-readers-named-outside-the-three-kinds
+### exploration-of-v1-subject-notes-as-scene-sequences/leads-1/what-the-readers-named-outside-the-three-kinds
 - lead: 436 lines over 136 subjects carry a name the readers invented rather than one of the three asked
   for. The recurring words are: world (85 lines), real (64), design (56), authorial (55), author (43), open
   question (42), commentary (38), note (35), analogy (29), arc (24), planning (23), historical reference
@@ -91,7 +97,7 @@
 - query:
   - rq1 batch=exploration-of-v1-subject-notes-as-scene-sequences/01-archive-subjects answered=210 field=passages where kind~"^(?!.*(statement about the subject|scene beat))" view=terms col=kind top=16
 
-### exploration-of-v1-subject-notes-as-scene-sequences/a-few-subjects-carry-most-of-the-text
+### exploration-of-v1-subject-notes-as-scene-sequences/leads-1/a-few-subjects-carry-most-of-the-text
 - lead: The passage count per subject runs from 1 to 137, with a median of 13. The Predator's Dilemma holds
   48 notes and 80 passages, Moriset Discret's reforms 20 notes and 137 passages, The True Actions and
   Motivations of Chrysalis 35 notes and 55 passages. So a small number of subjects hold a large share of

@@ -1,0 +1,10 @@
+- steps:
+  - author | requirement-listing | a set of specs for configuring the Gem (author control/no invention, always-consult-Bible, materialist magic not deus ex machina, conversational not rigid-axis tone) plus two technical questions (does Knowledge get checked every turn, does divergent speculation need its own instruction) | opening message of the thread
+  - model | reframing | names the shift being requested as moving the Gem from an idea-generator role to an analytical co-writer role | start of the response
+  - model | technical explanation | answers the retrieval question by describing how Gem routing decides whether to query attached files and why that must be forced explicitly | early in the response
+  - model | drafted artifact | produces a full system-instruction text for the Gem, with a role/prime-directive section, three core directives (canon-sacred, mandatory knowledge retrieval, materialist magic), and a tone/interaction-style section | middle of the response
+  - model | rationale | explains how each clause of the drafted instructions serves the author's stated goals (author control, hard-magic enforcement, conversational flow, later extraction into the 7-axis planner) | after the draft
+  - model | offer | proposes running a test exchange in the new persona if the author pitches a raw idea | end of the response
+- kept:
+- brought: The author brought a set of configuration requirements and open questions for setting up an AI assistant persona (a Gem) to govern future story-planning conversations, referencing existing planning concepts like the Bible and the axis framework without introducing new story content.
+- loop: The author brings meta-level questions about how to instruct the planning tool rather than story material itself, and the model answers with a technical explanation plus a drafted configuration artifact; since this exchange concerns the tool's setup rather than the story, no note from it is traced into the planning database.

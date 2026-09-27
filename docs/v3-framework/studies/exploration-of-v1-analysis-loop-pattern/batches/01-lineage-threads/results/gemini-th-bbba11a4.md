@@ -1,0 +1,9 @@
+- steps:
+  - author | present material and ask | a chapter's existing content plus the intended emotional arc (defiance to realization to new path), with a request to organize, analyze, and order it | opening message of the exchange
+  - model | organize | the chapter's points regrouped into six labeled beats from setup through resolution | first part of the response
+  - model | render verdict on retention | which beats should stay, with reasons tied to character function | second part of the response
+  - model | render verdict on cuts/changes | which points should leave or be reworked, with substitute phrasing suggested | third part of the response
+  - model | propose sequencing | a numbered seven-step order for staging the scene | closing part of the response
+- kept:
+- brought: The author brought the existing draft content and intended arc for a specific chapter, asking for it to be organized and evaluated rather than introducing a new idea.
+- loop: The author brought a chapter's scattered points plus a target emotional arc; the model returned them sorted into beats with a stay/cut verdict and a proposed sequence, but no note from this stretch was traced into the planning database, so nothing of this organizing pass is shown as having been captured back into the plan.

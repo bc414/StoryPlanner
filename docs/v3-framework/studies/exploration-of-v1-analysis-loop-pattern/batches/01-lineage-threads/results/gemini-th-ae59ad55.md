@@ -1,0 +1,17 @@
+- steps:
+  - the author | lore correction | recasts Applejack's parents as living industrialists instead of deceased, asks for reanalysis | opening prompt of the stretch
+  - the model | structural reanalysis | ties the living-parents change to the "Combined Arms" chapter, Celestia's deference, and the White Peace stakes | first response, in three numbered sections plus summary
+  - the author | refinement | adds that the parents keep working the Manehattan factories until the war ends and names the key takeaway himself, that Applejack can now get moral authority from them instead of Celestia | second prompt
+  - the model | thematic elaboration | develops a bottom-up vs top-down moral-authority framing across the same chapter and the White Peace confrontation | second response, closes by offering to explore Celestia's internal reaction
+  - the author | historical analogy question | asks whether Petain's "honest soil" ideology is real and how it links to Leonce du Roc's warlord resentment and Applejack's synthesis | third prompt
+  - the model | historical-thematic mapping | explains Petain's Vichy ideology, maps it onto Leonce's diagnosis of poseur elites, and onto Applejack's "anti-Vichy" arc | third response
+  - the author | original framework | lays out a four-stage schema (Old Catholicism, Protestant Reformation, Enlightenment/secularism, New Catholicism/grassroots spiritualism) tied to the honesty-vs-poseur theme and asks for analysis through the story's lens | fourth prompt
+  - the model | lore integration | maps each of the four stages onto established factions and arcs (Celestia, the Archons, Skyfall, Chrysalis, Kemerskai, Thorax, Applejack) | fourth response, section by section with a structural conclusion
+  - the author | accuracy check | asks whether the real-world historical parallels just given are actually accurate | fifth prompt
+  - the model | validation | confirms the parallels against Weber, Marx, the Social Gospel and Liberation Theology, and praises the materialist framing | fifth response, closing verdict
+- kept:
+  - note 3609 | the plan held this text before this reply | keeps prior plan content on Applejack's parents feeding the army and industry-as-neutral-tool, sitting on the Applejack's Parents/Accelerants link, which the reply drew on rather than originated
+  - note 4667 | pasted from this reply inside the author's own framing | keeps the response's point that reconciling with her parents gives Applejack independent moral grounding and merges industry with farm purity, placed on the Chapter "Combined Arms"
+  - note 5383 | the author's own words in this record | keeps the author's own four-era framework (Old Catholicism as benevolent stagnation, Reformation as democratized rugged individualism, New Catholicism as practiced-not-preached harmony), placed on the Subject "Lion and Eagle"
+- brought: The author brought a lore change to a character's family status and a set of historical analogies and an original four-stage religious/political schema, each offered for the model to weave into or validate against the existing story framework.
+- loop: The author feeds in a small correction, a historical comparison, or a framework sketched in his own words, and the model returns long thematic elaborations connecting it to established lore; only a few fragments come back into the database — a pre-existing note the reply drew on, one chapter-level paste of the response's framing, and the author's own framework text — while most of the model's expansive analysis stays outside the plan.

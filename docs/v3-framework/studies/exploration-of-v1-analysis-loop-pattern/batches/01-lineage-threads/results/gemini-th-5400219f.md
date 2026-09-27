@@ -1,0 +1,14 @@
+- steps:
+  - the author | proposes a synthesis | pairs pink-love donations and job-dignity work to two withdrawal types (opioid/caloric vs stimulant) | opening message of the stretch
+  - the model | validates and elaborates | confirms the pairing, adds a bio-psycho-social breakdown and a Rat Park framing not previously in the question | response to the opening message
+  - the author | seeks confirmation | asks whether the 'sunshine and rainbows' solution is specifically backed by Rat Park chemistry and biology | second message
+  - the model | extends the framing | details the Rat Park experiment, maps it onto Chrysalis's hive vs Fluttershy's camp, and contrasts Fluttershy's method with Celestia's and Twilight's approaches | response to the second message
+  - the author | proposes a structural change | suggests delaying Fluttershy's cure to a gradual discovery, introducing Fleur Bloom and Aquileian scientists whose knowledge comes from Tzinacatl drug lore paralleling real-world khat/betel/opium | third message
+  - the model | drafts a phased arc | lays out a four-phase timeline turning the rehab arc into a scientific-mystery arc parallel to the rifle-development arc, with specific scenes and lines | response to the third message
+  - the author | repeats the idea and adds instructions | restates the previous proposal, asks the model to check chapters 6 and 10 against it, and corrects a lore point that changelings have no hive mind, only individual emotion sense | fourth message
+  - the model | revises chapter outlines and applies the correction | restructures Chapter 6 and Chapter 10 around the corrected lore, adding scene beats, a fictional expert, and a comparison table | response to the fourth message
+  - the author | extends the arc further | links the extraction chapter to a parallel Applejack economic arc ('Tempest') where Tzinacatl artisan drug economies were displaced by the villain's black-market product | fifth message
+  - the model | drafts an interlocking two-arc structure | produces scene beats for both chapters, a letter-based narrative bridge between them, and a summary comparison table | response to the fifth message
+- kept:
+- brought: The author brought forward already-established rehab-arc elements (pink love, weaving jobs, dignity) and existing chapter titles/characters to seek validation and to layer in new worldbuilding connecting chemistry, economics, and lore corrections.
+- loop: The author repeatedly brought partial plan pieces and speculative extensions for the model to validate, elaborate, and restructure into fuller scientific and economic arcs, but none of this exploratory material was captured into the planning database in this stretch.

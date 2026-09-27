@@ -1,0 +1,18 @@
+- steps:
+  - the author | flags a weak point | own diagnosis that Fluttershy's staying is Twilight's order rather than her own act, and that her animal-care phase is still paternalistic 'Stagnation' until the buffalo | opening prompt of the thread
+  - the model | validates and restructures | confirms the diagnosis, reframes the inciting incident as defiance, breaks down the 'mush and blankets' phase as a failing method, casts the buffalo as catalyst, gives a summarized revised arc | reply to the opening prompt
+  - the author | proposes a revision | new beat where Twilight sends Fluttershy away with a message and Fluttershy chooses on her own to stay, with a request to review the existing chapter-5 plan and suggest how to evolve it | second prompt
+  - the model | drafts a scene outline | three-scene breakdown (rejection, walk to the station, return/defiance) reframing the dynamic as agency vs peer pressure, ties it to the other characters' arcs in the chapter, endorses the existing cliffhanger | reply to the second prompt
+  - the author | shifts to a tooling question | asks whether the planning document is too large for the model to reason about effectively | third prompt
+  - the model | reassures and diagnoses format | says size is not the issue, the pseudo-JSON syntax is, recommends markdown or valid JSON | reply to the third prompt
+  - the author | supplies context and reports a discrepancy | explains the pseudo-JSON was used to fit a chat character limit, and notes a warning appears for doc attachments but not for pasted text | fourth prompt
+  - the model | separates two limits | distinguishes the UI paste limit from the model's context window, tells the author to ignore the warning and revert to readable formatting | reply to the fourth prompt
+  - the author | asks a reliability question | whether attachments persist in context for follow-up questions as well as pasted text does | fifth prompt
+  - the model | confirms persistence | says attachments are equally or more reliable and explains why | reply to the fifth prompt
+  - the author | brings a technical detail | describes the custom WPF app with SQLite/EF Core source data and asks for the best representation format | sixth prompt
+  - the model | ranks alternatives | ranks markdown above JSON above YAML, recommends building a markdown exporter, supplies example code | reply to the sixth prompt
+  - the author | asks a background question | asks about markdown's core features, uses, history, and standards | seventh prompt
+  - the model | gives an overview | summarizes markdown's syntax features, usage domains, history, and standardization efforts | reply to the seventh prompt
+- kept:
+- brought: The author brought her own diagnosis of a weakness in Fluttershy's arc and a proposed fix, then later brought details of her planning-document export format and her custom app's data source to work out how best to feed the plan to the model.
+- loop: The author brings a story-arc problem and a proposed revision, receives a worked analysis and scene outline, then pivots to bring a workflow problem about how the plan document itself is formatted and transmitted, receiving technical guidance in return — but nothing from either the story revision or the formatting discussion was traced back into the planning database from this exchange.

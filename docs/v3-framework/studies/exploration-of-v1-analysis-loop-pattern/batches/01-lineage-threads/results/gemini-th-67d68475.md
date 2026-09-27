@@ -1,0 +1,14 @@
+- steps:
+  - the author | supplies source material | link to canon episode 2 transcript | opening message
+  - the author | poses an interpretive premise | thesis that canon's 5-known/1-unknown Elements maps onto their Pink Love/Red Love system, with the unknown element as Ambition suppressed by Celestia and each Mane 6 pony carrying a Faustian foreign 'spark' | same opening message
+  - the model | analyzes the five known elements | reads Honesty/Kindness/Laughter/Generosity/Loyalty as safe, passive virtues of a stagnant status quo | early in the response
+  - the model | analyzes the unknown sixth element | explains Magic/Ambition as historically erased and culturally incomprehensible under the stagnant order | response continues
+  - the model | interprets a scene symbolically | reads Nightmare Moon shattering the stone spheres as the stagnant order's defenselessness against a predator | response continues
+  - the model | extends the framework across the cast | maps a foreign, ambition-derived influence onto each of the six ponies including Twilight | response continues
+  - the model | synthesizes the climax | recasts Twilight's friendship-spark line as the fusion of Ambition and Friendship reaching critical mass | response concludes
+- kept:
+  - note 866 | pasted from this reply inside the author's own framing | keeps the model's account of why the five elements were 'known' as safe passive virtues and why the sixth was historically erased as culturally monstrous; placed on the Elements of Harmony plot point
+  - note 868 | pasted from this reply with cuts | keeps the model's chemical-ignition reading of Twilight's friendship-spark line as Red Love injected with Pink Love; placed on the same plot point
+  - note 869 | pasted whole from this reply | keeps the model's closing synthesis line that the sixth element materialized from combining Ambition with the willingness to share it; placed on the same plot point
+- brought: The author brought a link to the canon transcript together with a thesis reframing the show's known-five/unknown-sixth Elements mystery through their own Pink Love/Red Love ambition system and Faustian character influences.
+- loop: The author supplies canon material plus a ready-made interpretive premise, the model elaborates that premise into a multi-part structural analysis across the episode's beats and cast, and the plan retains three of the model's summary and synthesis passages verbatim or lightly reframed, consolidating them onto a single existing plot-point node.

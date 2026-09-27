@@ -12,7 +12,7 @@ Nothing. It is any hitl session in which Brian asks a question and no activity i
 covers the asking: a session doing no buildout work at all, one reading
 hypothesis files, one building a tool, one revising the method. A question raised inside an
 activity whose own processes write questions is that activity's, and is written there with
-what raised it in that activity's terms — from a leads artifact, from findings, in a plan,
+what raised it in that activity's terms — from a leads file, from findings, in a plan,
 at a promotion, at a baselining. This is the one route for a question that arises where
 none of those is running.
 

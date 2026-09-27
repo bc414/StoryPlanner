@@ -1,0 +1,20 @@
+- steps:
+  - the author | outline dump | full beat-by-beat plan for the chapter (trench encounter, retreat order, crowd reaction, Applejack's defiance speech, garrison holding, machine-gun return) plus the title concept and its source-fic lineage | opening prompt of the exchange
+  - the model | thematic reframing | redefines 'Honesty' as facing brutal reality versus self-deceiving safety, split between Luna and Applejack | early in the response
+  - the model | structural mapping | maps the chapter against an earlier chapter's arc (title vs action vs skill) to show character growth | middle of the response
+  - the model | line-level suggestion | offers a sample exchange of dialogue built around the word 'honest' | dialogue-example section
+  - the model | meta-narrative note | flags how readers of the source fanfic will have their expectations subverted by this title | connection-to-source section
+  - the model | forward hook | proposes brainstorming a title for the following chapter using wargame terminology | closing question of the response
+- kept:
+  - note 698 | the author's own words in this record | keeps the trench-scene beats (warning about the sniper risk, the plea for a plan, the promise to lead from the front), placed on the PlotPoint for the Luna-trench meeting
+  - note 701 | the author's own words in this record | keeps Luna's wordless retreat and Applejack's realization about the casualty reports, placed on the same trench-meeting PlotPoint
+  - note 906 | the author's own words in this record | keeps the detail that the army and Tall Tale garrison split, most leaving but some staying to fight, placed on the PlotPoint for the hard-truth speech
+  - note 1145 | the author's own words in this record | keeps the retreat announcement and the contrast between the cheering unprepared volunteers and the horrified locals, placed on the PlotPoint for the retreat order
+  - note 904 | pasted whole from this reply | keeps the model's phrasing of Applejack's speech as a 'truth bomb' defining the honest choice, placed on the hard-truth-speech PlotPoint
+  - note 2344 | one sentence lifted from this reply | keeps the model's line that Applejack now carries the General title and Element-of-Honesty status whether she likes it or not, repurposed onto an unrelated Henri/Fleur link
+  - note 2458 | pasted whole from this reply | keeps the model's reading of Applejack's use of rank as her first honest self-acknowledgment as a leader, placed on the Luna-confrontation link for Applejack
+  - note 2465 | pasted whole from this reply | keeps the model's reading of Luna's retreat as self-deceiving 'dishonesty' rather than malice, placed on the same confrontation link for Luna
+  - note 2782 | pasted from this reply with cuts | keeps the model's image of Applejack returning to the machine gun with resolve instead of guilt as a growth marker, placed on the trench-battle link for Applejack
+  - note 3528 | pasted from this reply with cuts | keeps the model's contrast between show-honesty (no lying) and war-honesty (facing brutal reality), placed on a link pairing the speech with a 'Honesty vs Poseurs' theme
+- brought: The author brought a complete chapter-by-chapter outline for the 'Honesty' chapter, including its scene beats and its explicit lineage from a chapter of an existing fanfiction that the story is diverging from.
+- loop: The author supplies a self-contained draft outline of a chapter's events, and the model returns thematic and structural commentary plus sample phrasing on top of it; the plan then keeps both sides — filing the author's own beats onto the relevant PlotPoints and pulling specific analytical or phrase-level sentences from the model's reply onto those same PlotPoints and onto several other Links elsewhere in the plan.

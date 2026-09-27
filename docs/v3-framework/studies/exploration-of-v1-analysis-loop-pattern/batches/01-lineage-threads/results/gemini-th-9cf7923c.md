@@ -1,0 +1,34 @@
+- steps:
+  - author | poses a design question | asks whether a Monte-Cristo parody should be a story or legend, and asks for a villain alias for a character | opening exchange of the thread
+  - model | delivers a verdict plus a naming device | recommends a serialized-novel format and coins a Herzlander-sounding alias tied to established lore | response to the opening question
+  - author | extends the premise | proposes that the book inspired a hero character's ideology and was suppressed by a royalist faction, sets an era and an authorial motive | second author turn
+  - model | elaborates and confirms | works out a timeline, a suppression rationale, how the hero character encounters the text, and a foil between hero and villain | response to that extension
+  - author | corrects a lore conflict and offers an alternative | flags that a place name is already an existing sovereign nation, proposes a corporate-shell alternative, asks corporate vs. feudal framing | third author turn
+  - model | revises the naming device | proposes a hybrid corporate-feudal alias and works out the mechanism of the financial grift | response to the correction
+  - author | asks a background question | requests the real-world themes of the source novel and clarification on what serialization meant | fourth author turn
+  - model | supplies an explainer | summarizes the source novel's themes and explains the historical serialization format, tying both back to the invented setting | response to the background question
+  - author | notices a pattern and asks for an explanation | observes that a villain's arc and a hero's arc have converged structurally, asks if this is coincidence | fifth author turn
+  - model | names the underlying structure | labels it a thematic dialectic, cites an existing plan link between the two characters, describes the divergent lessons each draws | response to that observation
+  - author | requests a developmental trace | asks the model to survey prior planning material for how this idea evolved over time | sixth author turn
+  - model | reconstructs a phased history | lays out several phases of idea development said to culminate in the dialectic | response to the trace request
+  - author | requests a term's origin and a definitional check | asks where a specific slur/term was coined for a species and whether the villain qualifies as one | seventh author turn
+  - model | retraces an origin and delivers a verdict | finds the term's earlier coinage in the notes and argues the villain is the term's ultimate example | response to the origin request
+  - author | poses a comparative-analysis prompt | offers four candidate in-universe moments for when the term entered common usage | eighth author turn
+  - model | evaluates the options and proposes a synthesis | weighs the four candidates, then proposes a four-stage pipeline combining all of them | response to the comparative prompt
+  - author | draws a meta-textual parallel and requests review | connects the profit-driven serialization irony to separate notes about a real-world franchise critique, asks the model to check the story plans | ninth author turn
+  - model | maps the parallel | connects the source-novel irony to the franchise-critique framing from the notes | response to that request
+  - author | states a synthesis idea | proposes that a hero ideology functions as a Trojan horse against four rival ideologies at once | tenth author turn
+  - model | builds out the framework | analyzes how the ideology dismantles each of the four rival systems in turn | response to the synthesis idea
+  - author | repeats the same synthesis idea and asks for a plan-grounded analysis | restates the Trojan-horse framing nearly verbatim, asks the model to review the story plans | eleventh author turn
+  - model | reruns the framework analysis | re-delivers the four-part dismantling analysis explicitly tied to the story plans and closes on a meta-narrative summary | response to the repeated request
+- kept:
+  - note 5387 | the author's own words in this record | keeps the author's own reframing of the parody novel's title and island setting, filed under the Subject for the parody novel
+  - note 5350 | pasted from this reply inside the author's own framing | keeps the corporate-feudal alias mechanism and how the debt-and-seizure grift works, filed under the same Subject
+  - note 2900 | the plan held this text before this reply | a pre-existing plan note about the villain's obsession with a hero's paper, on a Link between that plotline and the paper, which the model's reply drew on
+  - note 5389 | pasted whole from this reply | keeps the line that hero and villain factions despise the same target demographic, filed under the parody-novel Subject
+  - note 5390 | pasted from this reply inside the author's own framing | keeps the positive-sum versus zero-sum contrast between the two characters' methods, filed under the same Subject
+  - note 461 | the plan held this text before this reply | a pre-existing PlotPoint note about the villain copying ideas from a rival power, which the model's developmental trace referenced
+  - note 5388 | pasted whole from this reply | keeps the four-stage pipeline for how the term entered common usage, filed under the Subject on that term
+  - note 5386 | pasted whole from this reply | keeps the paragraph synthesizing the ideology-as-Trojan-horse idea against a franchise-critique reference, filed under the Subject on that reference
+- brought: The author repeatedly brought pieces of their own already-established canon into the exchange — a nation's sovereignty that ruled out a proposed name, a slur's earlier in-world coinage, and separate notes on a real-world franchise critique — using them to correct, redirect, or extend what the model proposed.
+- loop: The author brings a worldbuilding question, a speculative addition, or a lore correction, and the model returns an elaborated verdict, naming device, or thematic framework tied back to established canon; the plan then keeps the model's condensed formulations — aliases, mechanisms, dialectics, pipelines — filed onto the relevant subjects and links, while occasionally surfacing pre-existing plan entries back into the conversation as the basis for the model's next synthesis.

@@ -1,8 +1,14 @@
 # exploration-of-v1-scene-notes-content-kinds — leads
 
+- items with results: 379 of 379
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-v1-scene-notes-content-kinds/how-the-passages-divide-between-the-six-kinds
+### exploration-of-v1-scene-notes-content-kinds/leads-1/how-the-passages-divide-between-the-six-kinds
 - lead: Over the 379 TLTT plot points the readers cut 7,020 passages — a median of 14 per plot point, 1 at the
   least and 127 at the most. Of those, 3,220 lines over 373 plot points are a fact of the story's world; 1,117
   over 289 a character's belief or perception; 1,076 over 279 an authorial reading of what something means;
@@ -19,7 +25,7 @@
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where kind~"prose fragment" view=cites
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where kind~"note to self" view=cites
 
-### exploration-of-v1-scene-notes-content-kinds/almost-every-box-holds-more-than-one-kind
+### exploration-of-v1-scene-notes-content-kinds/leads-1/almost-every-box-holds-more-than-one-kind
 - lead: On the separate whole-item question of whether one box — the synopsis, the outcome, the stakes or one
   link's text — holds more than one kind of content, 356 of the 379 plot points say yes and 23 say no. So
   mixing is not the exception in the archive's free-form boxes; a box that holds one kind of content is the
@@ -28,7 +34,7 @@
 - query:
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages view=health
 
-### exploration-of-v1-scene-notes-content-kinds/a-quarter-of-the-worlds-facts-are-carried-in-speech-or-a-document
+### exploration-of-v1-scene-notes-content-kinds/leads-1/a-quarter-of-the-worlds-facts-are-carried-in-speech-or-a-document
 - lead: Of the passages carrying a fact of the story's world, 2,633 state it plainly as true, 812 put it inside
   quoted speech, 103 inside a character's thought and 60 inside a letter, a document, a broadcast or a report.
   So about a quarter of the fabula written into the archive's plot points is written as in-scene delivery
@@ -45,7 +51,7 @@
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where carried~"inside a letter|inside a document|letter or document" view=cites
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where carried~"inside speech" sample=8 seed=5 view=list
 
-### exploration-of-v1-scene-notes-content-kinds/a-belief-is-paired-with-the-truth-it-is-wrong-about-a-third-of-the-time
+### exploration-of-v1-scene-notes-content-kinds/leads-1/a-belief-is-paired-with-the-truth-it-is-wrong-about-a-third-of-the-time
 - lead: Of the 1,107 passages that give a character's belief and carry a verdict on the pairing, 366 over 151
   plot points have the truth that belief is wrong about in the same item, and 741 over 248 plot points do not.
   So the belief and its contradicting truth sit together in a third of the cases and apart in two thirds.
@@ -54,7 +60,7 @@
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where paired~"truth present" view=cites
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where paired~"truth absent" view=cites
 
-### exploration-of-v1-scene-notes-content-kinds/the-point-of-correction-is-named-in-one-belief-in-eight
+### exploration-of-v1-scene-notes-content-kinds/leads-1/the-point-of-correction-is-named-in-one-belief-in-eight
 - lead: Of the 1,107 belief passages, 140 name a scene, a moment or a date at which the character is corrected
   and 967 name none. Almost all the naming happens where the truth is already in the same item: 136 of the 366
   truth-present passages name a correction, against 4 of the 741 truth-absent ones. So where the archive
@@ -64,7 +70,7 @@
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where paired~"none named" view=cites
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where paired~"truth present" view=cites
 
-### exploration-of-v1-scene-notes-content-kinds/drafted-prose-sits-in-the-planning-boxes
+### exploration-of-v1-scene-notes-content-kinds/leads-1/drafted-prose-sits-in-the-planning-boxes
 - lead: 409 passages over 166 plot points are fragments of prose drafted as they would appear on the page: a
   character's counter-argument in her own words; two lines of what is stitched on a uniform; a block of quoted
   dialogue between two characters after a lesson; a line of dialogue asking for an alternative; a drafted line
@@ -75,7 +81,7 @@
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where kind~"prose fragment" view=cites
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages where kind~"prose fragment" sample=5 seed=1 view=list
 
-### exploration-of-v1-scene-notes-content-kinds/where-the-passages-sit
+### exploration-of-v1-scene-notes-content-kinds/leads-1/where-the-passages-sit
 - lead: The where column names the synopsis in 4,108 of the 7,020 lines and a link in 1,403; a codex entry in
   1,000, a character link in 960, a thread link in 542, a theme link in 356. So three passages in five sit in
   the synopsis and the rest are spread over the four link kinds, with codex entries and character links
@@ -84,7 +90,7 @@
 - query:
   - rq1 batch=exploration-of-v1-scene-notes-content-kinds/01-tltt-plot-points answered=379 field=passages view=terms col=where top=12
 
-### exploration-of-v1-scene-notes-content-kinds/authorial-readings-are-as-common-as-characters-beliefs
+### exploration-of-v1-scene-notes-content-kinds/leads-1/authorial-readings-are-as-common-as-characters-beliefs
 - lead: 1,076 passages over 279 plot points are authorial readings — what some fact or event means, written
   from outside the story — against 1,117 passages of a character's belief or perception over 289 plot points.
   The two are almost equally common and sit in the same boxes, and together they outnumber the 820 passages of

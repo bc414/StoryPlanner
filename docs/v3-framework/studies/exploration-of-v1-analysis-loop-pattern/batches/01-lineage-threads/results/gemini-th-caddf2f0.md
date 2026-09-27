@@ -1,0 +1,30 @@
+- steps:
+  - the author | bulk-drafts a chapter-flow refinement | post-battle fate of Synovial, trial logistics, POW legal distinction | opening of the author's message
+  - the author | drafts a new scene sequence | Gaudreau interrupting AJ mid-battle, knightly decorum tradition, summons to Cloudbury | continuing the same message
+  - the author | drafts world-building detail | universal-translator earpieces, Equestrian-speaking griffons, translator carrying tone not just words | mid-message
+  - the author | drafts the press-conference set-piece | Kemerskai's mocking speech, AJ's honesty speech, Henri's upbringing speech, Trimmel's full life-story speech and crowd reaction | mid-message
+  - the author | poses an open craft question | whether Kemerskai's improvised pledge to back Trimmel is too bombastic or would land well | mid-message, right after the speeches
+  - the author | drafts the private interview scene | the 'shudder' beats: brutal tactics normalized for the leads but shocking to Kemerskai, reporters calling it barbaric, AJ's self-recognition as monster | mid-message
+  - the author | drafts the private-party resolution scene | Kemerskai's war-runs-without-me reveal, his realpolitik/emotional pledge of support, Henri and Kemerskai bonding, Henri-Trimmel reconciliation, AJ's translator observation about Henri's voice | mid-message
+  - the author | issues a correcting clarification | explicit statement that ponies did not break the knightly code even though changelings did, distinguishing legal total war from prey-treatment | near end of message
+  - the author | asks a structural sequencing question | whether Trimmel's full backstory reveal belongs in Act 3 here or with AJ after Ch.15, or some mix | closing of the message
+  - the model | organizes the material into a chapter structure | assigns the drafted beats to named chapters (Protocol, Voice) and a three-act breakdown of the conference | start of the response
+  - the model | analyzes a symbolic device | reads the translator as a metaphor for efficiency vs. soul, ties it to AJ's reaction | within the chapter breakdown
+  - the model | answers the sequencing question directly | recommends a mixed approach: tactical truth in the earlier chapter, emotional truth in the Cloudbury chapter | mid-response, section 2
+  - the model | resolves a thematic question | frames the 'barbaric' reaction and AJ's monster realization as a survival-vs-comfort logic, links to Kemerskai's pledge | section 3
+  - the model | runs a verification checklist | confirms the knightly-war contrast, Trimmel's fit, Kemerskai's role, and the translator device all work | final checklist section
+  - the model | closes with a forward-looking question | asks whether to begin drafting or clarify a further detail about a 'Return home' election | end of response
+- kept:
+  - note 515 | the author's own words in this record | keeps the Kemerskai-improvised-pledge question and clarifying detail, filed to the Trimmel-life-story plot point
+  - note 516 | the author's own words in this record | keeps the press-conference description and Kemerskai's mocking speech, filed to the Kemerskai-speech plot point
+  - note 529 | the author's own words in this record | keeps the party dialogue on the war-runs-without-him reveal and Kemerskai's support pledge, filed to the party plot point
+  - note 621 | the author's own words in this record | keeps AJ's reaction to being understood and cheered, filed to the AJ-speech plot point
+  - note 648 | the author's own words in this record | keeps the summons/decorum tradition and invitation of AJ, Henri, Trimmel to speak, filed to the Gaudreau-informs-Applejack plot point
+  - note 858 | the author's own words in this record | keeps the Synovial trial and POW legal-distinction detail, filed to the Synovial's-trial plot point
+  - note 882 | the author's own words in this record | keeps Henri's jovial bonding with Kemerskai, filed to the private-party plot point
+  - note 883 | the author's own words in this record | keeps Trimmel's mood and Henri's olive-branch reconciliation, filed to the private-party plot point
+  - note 884 | the author's own words in this record | keeps AJ's observation on the translator preserving Henri's voice but not his accent, filed to the private-party plot point
+  - note 2391 | the author's own words in this record | keeps the reporters' 'barbaric' remark and AJ's monster self-realization, filed to the press-conference-and-AJ link
+  - note 3477 | the author's own words in this record | keeps Kemerskai's epiphany about specialization vs. firepower cracking his worldview, filed to the press-conference-and-special-talents link
+- brought: The author brought a large batch of newly-envisioned chapter-flow refinements for the post-battle Cloudbury sequence (trial, summons, translator, press conference, private interview, and party) along with an open question about when to place Trimmel's full backstory reveal.
+- loop: The author dumps a wide, multi-scene draft of the Cloudbury arc plus a sequencing question; the model organizes it into a chapter structure and answers the question, but the planning database bypasses that synthesis and instead files the author's own scene-by-scene wording verbatim under the individual plot points and links each beat belongs to.

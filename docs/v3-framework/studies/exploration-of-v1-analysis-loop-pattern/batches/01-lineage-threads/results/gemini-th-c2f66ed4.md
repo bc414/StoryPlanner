@@ -1,0 +1,14 @@
+- steps:
+  - author | thematic question | asks whether AJ should miss Twilight during the attack and feel shame at relying on magic, tying it to the crystal-enhancer theme | opening of the message, part 1
+  - author | praise plus request | compliments the earlier rubber-raft connection and asks for real-world rubber chemistry alongside an in-universe alchemical equivalent | middle of the message, part 2
+  - author | plan statement plus open question | lays out the war-council scene (Maud on unnavigable rapids, Mali on balsa rafts) and asks who else should contribute | end of the message, part 3
+  - model | scene draft | writes the 'phantom limb' beat: AJ's shout for Twilight, the silence, her shame, and how it justifies Twilight's crystal-enhancer work | first section of the response
+  - model | technical explainer | lays out real-world vulcanization chemistry as background | second section of the response
+  - model | worldbuilding invention | proposes a heatless Tzinacatl alchemical curing process and a balsa-rubber composite raft, plus a payoff line for Star Energy engineers | second section, continued
+  - model | roster table | assigns a war-council contribution to each major character for the Bluebell River Spearhead plan | third section of the response
+  - model | thematic framing | adds commentary on the meeting's tone and Celestia's silence as setup for a later conflict | closing section of the response
+- kept:
+  - note 601 | the author's own words in this record | keeps the author's spearhead-planning beats (Maud on the rapids, Mali on balsa rafts) plus an added propulsion detail, filed under the 'Bluebell River Spearhead' plot point
+  - note 1125 | the author's own words in this record | keeps the author's shame/reliance beat and its link to why Twilight stayed behind, filed under the 'Ambush' plot point
+- brought: The author brought a previously established idea (rubber-tied rafts) forward alongside a new emotional beat for the ambush and a new team scene for the war council, posed as three linked questions.
+- loop: The author poses thematic and worldbuilding questions tied to existing plan points; the model answers with elaborate scene drafts, real-world science, an invented in-universe process, and a full character roster, but the planning database keeps none of that language, instead recording the author's own condensed restatements of the two plot beats.

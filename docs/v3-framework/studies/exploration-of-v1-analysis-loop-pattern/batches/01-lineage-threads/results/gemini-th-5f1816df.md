@@ -1,0 +1,25 @@
+- steps:
+  - the author | proposes plot beat | capture and shipping of Synovial, summons to a trial press conference | opening of the author's message
+  - the author | lays out character reactions | AJ, Henri, Trimmel, Gaudreau's differing responses to the summons | early in the author's message
+  - the author | introduces worldbuilding rule | griffon 'civilized war' knightly code vs changeling total-war ethos | mid-message, first lore tangent
+  - the author | frames thematic parallel | Chrysalis's industrial copy of Herzland missing its ethical core | continuing the lore tangent
+  - the author | specifies atrocity logic | changeling infiltrators draining surrendering GR troops as the war-crime basis | continuing the lore tangent
+  - the author | notes character exception | Trimmel never drains ponies, disguised as revolutionary not boyar | aside within the lore tangent
+  - the author | asks continuity question | timeline for Chrysalis's Great Leap Forward and Vraks conquest | timeline sub-section of the message
+  - the author | proposes a timeline resolution | links post-counterrevolution aid, meritocracy, and Chrysalis's crude copying | immediately after the timeline question
+  - the author | synthesizes the tangent | ties civilized-war norms to why Gaudreau permits the recall, contrasts SECEF's brutal tactics | closing the lore tangent
+  - the author | analyzes a character | Synovial as embodiment of deceitful, ego-driven changeling doctrine | after the lore tangent, character-focused section
+  - the author | proposes a scene beat | Kemerskai questioning Henri and Trimmel about their unprecedented tactics | continuing the character-focused section
+  - the author | proposes a thematic beat | mutual 'organic epiphany' shudder between AJ and Kemerskai | continuing the character-focused section
+  - the author | proposes a closing scene | private party where Kemerskai reveals himself as a non-tyrannical, delegating leader | end of the author's message
+  - the model | validates the pivot | frames it as a culture-clash device solving pacing and deepening ideology | opening of the model's response
+  - the model | drafts a timeline | dated sequence from 978 revolution to 1011 present tying Kemerskai's rise to Chrysalis's copying | early in the model's response
+  - the model | elaborates the doctrine contrast | spells out Griffonian knightly-war norms versus SECEF's annihilation doctrine | middle of the model's response
+  - the model | drafts the double-shudder beat | writes out AJ's and Kemerskai's parallel realizations with sample dialogue | middle of the model's response
+  - the model | drafts the party scene | writes sample dialogue of Kemerskai explaining his delegated, self-running system | later in the model's response
+  - the model | drafts the trial framing | recasts Synovial's charges as dishonorable conduct with mockery dialogue from Trimmel | later in the model's response
+  - the model | recaps the arc | numbered summary of the whole sequence from summons to reconciliation | close of the model's response
+- kept:
+  - note 4366 | the author's own words in this record | keeps the author's Synovial paragraph (deceitful embodiment, copied 978 tactics, ego, refusal to teach Trimmel) filed under Subject Synovial, then extends it with a new line that Trimmel suggests Synovial wanted to preserve the griffon rules of war
+- brought: The author brought forward an established cast and setting (AJ, Trimmel, Henri, Gaudreau, Kemerskai, Synovial, Chrysalis, the Herzland/Vraks/Griffonia history) to build a new plot and thematic beat onto it.
+- loop: The author brings a plot beat plus a sprawling worldbuilding and character tangent with an open continuity question; the model validates, resolves the timeline, and drafts out the proposed scenes and dialogue in full, but the plan keeps only a trimmed restatement of the author's own Synovial character-critique, filed as a character note and pushed further with one new twist rather than any of the model's timeline or scene drafting.

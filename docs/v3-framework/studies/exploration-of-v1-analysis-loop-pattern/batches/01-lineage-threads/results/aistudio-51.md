@@ -1,0 +1,11 @@
+- steps:
+  - author | supplies reference material | an attached planning document, uncaptured | opening of the conversation
+  - author | poses a design question | whether Cadance and Shining Armor should help Thorax, and what their emotional stance would be, framed against a canon episode parallel | start of the exchange
+  - model | builds an analytic framework | a staged psychological/ontological justification (trauma baseline, a magic-based test, a mutual-benefit exchange, a role in a rebellion) plus two follow-up questions | response to the author's question
+  - author | corrects the premise and narrows the question | a timeline fact (the rebellion already failed before Thorax flees) and a sharper question about an earlier 1004 outreach and whether it must be rejected | after reading the model's framework
+  - model | reworks the framework to fit the new constraint | a revised staged justification (why the earlier outreach is refused, how that refusal causes the later failure, how the later arrival scene plays out) plus two follow-up questions | closing of the exchange
+- kept:
+  - note 5421 | pasted whole from this reply | keeps the reasoning for why the earlier outreach is refused (military suspicion of infiltration, bio-security risk to a fragile therapy operation), filed under a subject on Aquileian influences on the two characters
+  - note 5596 | pasted whole from this reply | keeps the reasoning for the later arrival scene (a child's biological perception overriding a parent's institutional judgment, and the parents' resulting guilt), filed under the same subject on Aquileian influences on the two characters
+- brought: The author brought a timeline correction to the plan (the rebellion had already collapsed before the fugitive's arrival) to redirect the model's analysis toward an earlier, rejected outreach.
+- loop: The author brings a character-dynamics question, gets back a staged analytic framework, then feeds in a plot constraint that forces the model to rework that framework; the final reworked paragraphs are then pasted whole into the plan's file on the two characters, so the loop runs from a question-plus-correction to a kept analytic passage.

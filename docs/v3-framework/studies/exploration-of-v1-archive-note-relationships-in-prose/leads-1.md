@@ -1,8 +1,14 @@
 # exploration-of-v1-archive-note-relationships-in-prose — leads
 
+- items with results: 379 of 379
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-v1-archive-note-relationships-in-prose/how-many-joints-the-prose-carries
+### exploration-of-v1-archive-note-relationships-in-prose/leads-1/how-many-joints-the-prose-carries
 - lead: Over the 379 TLTT plot points the readers found 2,644 joints between two boxes of one item — a
   median of 8 per plot point, 1 at the least and 41 at the most. Of those, 1,883 are implicit, carried
   only by what the two boxes say, and 658 are explicit, where one box points at the other in words. So
@@ -14,7 +20,7 @@
   - rq1 batch=exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points answered=379 field=relations view=terms col=strength top=8
   - rq1 batch=exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points answered=379 field=relations where strength~^explicit view=cites
 
-### exploration-of-v1-archive-note-relationships-in-prose/what-kinds-of-joint-the-prose-carries
+### exploration-of-v1-archive-note-relationships-in-prose/leads-1/what-kinds-of-joint-the-prose-carries
 - lead: Under the loose alternations, the commonest joint is one box being an instance or an occasion of
   what another states generally: 600 lines over 273 plot points. Then one box giving the cause or reason
   of what another states, 496 lines over 221 plot points; one continuing another in time, 269 lines over
@@ -34,7 +40,7 @@
   - rq1 batch=exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points answered=379 field=relations where kind~"contradict|tension|conflict|disagree|at odds" view=cites
   - rq1 batch=exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points answered=379 field=relations where kind~reader view=cites
 
-### exploration-of-v1-archive-note-relationships-in-prose/the-synopsis-is-one-end-of-most-joints
+### exploration-of-v1-archive-note-relationships-in-prose/leads-1/the-synopsis-is-one-end-of-most-joints
 - lead: The synopsis is named as one end of the joint in 1,186 of the 2,644 lines and as the other end in
   1,039; a codex entry stands at one end in 428 lines and the other in 604, a character link 479 and 460,
   a thread link 291 and 319, a theme link 217 and 192. So the graph the prose carries is mostly a star
@@ -45,7 +51,7 @@
   - rq1 batch=exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points answered=379 field=relations view=terms col=one top=12
   - rq1 batch=exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points answered=379 field=relations view=terms col=other top=12
 
-### exploration-of-v1-archive-note-relationships-in-prose/what-an-explicit-joint-looks-like
+### exploration-of-v1-archive-note-relationships-in-prose/leads-1/what-an-explicit-joint-looks-like
 - lead: An explicit joint is usually carried by a shared proper name or a shared coined term rather than
   by any reference: two links both calling Applejack "Chrysalis's puppet", once for the character and
   once for the doctrine thread; a synopsis and a theme link sharing "poseurs" and "warlords"; a synopsis
@@ -62,7 +68,7 @@
   - exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points/pp-89
   - exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points/pp-148
 
-### exploration-of-v1-archive-note-relationships-in-prose/boxes-that-contradict-each-other-inside-one-plot-point
+### exploration-of-v1-archive-note-relationships-in-prose/leads-1/boxes-that-contradict-each-other-inside-one-plot-point
 - lead: 86 lines over 64 plot points join two boxes by contradiction or tension rather than agreement. One
   has the synopsis use Pinkie's cartoon physics for a gag while the theme link says she drops them;
   another has a character link give Celestia's real reason for staying out while the same link records
@@ -75,7 +81,7 @@
   - exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points/pp-85
   - exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points/pp-89
 
-### exploration-of-v1-archive-note-relationships-in-prose/joints-whose-other-end-is-not-in-the-item
+### exploration-of-v1-archive-note-relationships-in-prose/leads-1/joints-whose-other-end-is-not-in-the-item
 - lead: Beside the joints inside an item, the readers found 2,286 places where a box plainly speaks of
   something the item does not hold — a median of 6 per plot point, up to 18. They point at earlier scenes
   ("first time the princesses hear about it", "the dismissal here"), at a character's history not linked
@@ -89,7 +95,7 @@
   - rq1 batch=exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points answered=379 field=outward view=terms col=points top=22
   - rq1 batch=exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points answered=379 field=outward sample=8 seed=5 view=list
 
-### exploration-of-v1-archive-note-relationships-in-prose/whether-an-items-boxes-read-as-one-design
+### exploration-of-v1-archive-note-relationships-in-prose/leads-1/whether-an-items-boxes-read-as-one-design
 - lead: Asked whether the item's boxes read as one design or as separate entries, the readers said one
   design for 204 of the 379 plot points and separate for 54; the remaining 121 gave an answer of another
   shape, most often that the item holds a single box — a synopsis with no outcome, stakes or links — so
@@ -101,7 +107,7 @@
   - exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points/pp-192
   - exploration-of-v1-archive-note-relationships-in-prose/01-tltt-plot-points/pp-20
 
-### exploration-of-v1-archive-note-relationships-in-prose/the-reader-is-rarely-one-end-of-a-joint
+### exploration-of-v1-archive-note-relationships-in-prose/leads-1/the-reader-is-rarely-one-end-of-a-joint
 - lead: Only 23 lines over 20 plot points join two boxes by one stating the reader's response to what the
   other states, the rarest of the eight kinds named in the directions and a fortieth as common as the
   instance-of joint. The v1 boxes join to each other mostly through the world's causation, not through

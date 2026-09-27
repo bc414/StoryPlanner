@@ -1,8 +1,14 @@
 # exploration-of-v1-scenes-designed-from-non-mane-6-focalizer — leads
 
+- items with results: 379 of 379
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/most-plot-points-do-not-show-whose-side-the-scene-is-seen-from
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/leads-1/most-plot-points-do-not-show-whose-side-the-scene-is-seen-from
 - lead: Of the archive's 379 TLTT plot points, 203 gave the answer undetermined: nothing in the item's own
   words shows whose perception the scene is written from. 132 name one of the six — Applejack in 83, Twilight
   in 25 across her two namings, Fluttershy in 10, Rainbow Dash in 6, Rarity in 4, Pinkie Pie in 2 — and 44
@@ -12,7 +18,7 @@
 - query:
   - rq1 batch=exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points answered=379 field=present view=health
 
-### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/the-forty-four-plot-points-with-a-focalizer-outside-the-six
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/leads-1/the-forty-four-plot-points-with-a-focalizer-outside-the-six
 - lead: 44 plot points name a focalizer outside the six. The recurring names are Trimmel (7: chapters 18
   Honor, 21 Preparation, 24 Intervention, 25 Fraternity twice, 29 Ambition, 30 Resilience), Fleur or Fleur
   Bloom (11: chapters 9 Sabotage, 10 Extraction, 11 Tempest twice, 13 Passion twice, 26 Dilemma, 29 Ambition
@@ -45,7 +51,7 @@
   - exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points/pp-61
   - exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points/pp-212
 
-### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/eighty-four-plot-points-show-no-one-of-the-six-present
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/leads-1/eighty-four-plot-points-show-no-one-of-the-six-present
 - lead: 84 of the 379 plot points show no character of the six as present in the scene at all. They are not
   concentrated in one chapter: chapter 26 Dilemma holds 7 of its 25, chapter 11 Tempest 6 of 15, chapters 7
   Generosity, 21 Preparation and 29 Ambition 5 each, chapter 30 Resilience 4 of its 6. By their index titles
@@ -66,7 +72,7 @@
   - exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points/pp-250
   - exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points/pp-152
 
-### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/no-mane-six-present-and-a-focalizer-outside-the-six-rarely-coincide
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/leads-1/no-mane-six-present-and-a-focalizer-outside-the-six-rarely-coincide
 - lead: The two answers overlap in only 8 plot points: Fleur and Coltbert in chapter 30 Resilience, Henri on
   the ground in Cloudbury in 25 Fraternity, Celestia and the Love Donators in 14 Coordination, a Terrified
   Reservist at Total Mobilization in 7 Generosity, Flowing Current at the Eastern Front conference in 19
@@ -84,7 +90,7 @@
   - exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points/pp-277
   - exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points/pp-288
 
-### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/the-plot-points-record-many-sides-without-naming-one-as-the-focalizer
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/leads-1/the-plot-points-record-many-sides-without-naming-one-as-the-focalizer
 - lead: Beside the focalizer question the readers recorded every passage that gives someone's noticing, feeling
   or judging from their own side: 1,161 such passages over the 379 plot points, a median of 3 per item. The
   side-holders are led by Applejack (342 passages), Twilight (158 across her two namings), Trimmel (57),
@@ -95,7 +101,7 @@
 - query:
   - rq1 batch=exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points answered=379 field=sides view=health
 
-### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/who-is-present-and-who-is-only-named
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/leads-1/who-is-present-and-who-is-only-named
 - lead: The readers found 1,156 characters shown as present across the 379 plot points, a median of 3 per
   item and up to 16, and a further 1,171 named but not shown as present. So on average a plot point names
   about as many characters it does not put in the scene as ones it does; a link to a character does not mean
@@ -105,7 +111,7 @@
   - rq1 batch=exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points answered=379 field=present view=health
   - rq1 batch=exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points answered=379 field=mentioned view=health
 
-### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/mali-is-the-focalizer-of-one-plot-point
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/leads-1/mali-is-the-focalizer-of-one-plot-point
 - lead: Mali is named as the focalizer of one plot point, the arrival and shipment from Ponyville in chapter 6
   Kindness, and holds side passages in 21 places across the archive without being named the focalizer of any
   other.
@@ -113,7 +119,7 @@
 - cites:
   - exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/01-tltt-plot-points/pp-325
 
-### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/the-non-mane-six-focalizers-are-all-in-the-later-chapters
+### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer/leads-1/the-non-mane-six-focalizers-are-all-in-the-later-chapters
 - lead: No plot point of chapters 1 Command to 5 Laughter names a focalizer outside the six. The first is in
   chapter 6 Kindness, and the count per chapter rises toward the end: chapter 29 Ambition holds 5, chapters
   19 Entrenchment and 25 Fraternity 4 each, chapters 10 Extraction, 16 Combined Arms and 28 Kinship 3 each.

@@ -1,0 +1,12 @@
+- steps:
+  - the author | source-feed | a wiki transcript link, request to explain a canon lore item | opening message of the thread
+  - the model | summary | a structured breakdown of the Idol of Boreas from the transcript | reply to the first message
+  - the author | comparative source-feed | a second wiki link, request to analyze how a mod adapted the canon lore | second exchange
+  - the model | comparative analysis | a point-by-point mapping of canon lore onto the mod's expanded history | reply to the second message
+  - the author | plan fragment plus dual question | own worldbuilding premises (composite emperors, Archon monopoly on history, printing press as start of 'real history', a pride-based magic theory) and a request to reconcile the idol with that magic theory | third exchange
+  - the model | synthesis | a mechanism turning the idol into a pride-magic feedback device, extended to the Archons' propaganda use and the printing press as its successor | reply to the third message
+  - the author | revision of own idea | a simpler alternate version of the idol (inert crystal that glimmers with pride) plus a new plan detail (enchantments bound to the forger, explaining griffon greed) | fourth exchange
+  - the model | extended integration | the revised idol mechanism folded into the existing narrative points (propaganda, imperial military strength, the Arimaspi collapse, the printing press transition) | reply to the fourth message
+- kept:
+- brought: The author brought several pieces of an in-progress story plan (composite-emperor history, an Archon class controlling written myth, a printing-press turning point, and a pride-scales-magic system with forger-bound enchantments) and asked the model to reconcile these with canon and fan-made lore about the Idol of Boreas.
+- loop: The author alternated between feeding the model outside lore sources for summary/comparison and feeding it fragments of personal worldbuilding for reconciliation, with the model each time returning a fuller synthesized mechanism that the author then revised or built further on in the next turn; no note from this stretch was traced into the planning database.

@@ -1,8 +1,14 @@
 # exploration-of-v1-theme-commentaries-content — leads
 
+- items with results: 144 of 144
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-v1-theme-commentaries-content/kinds-across-the-commentaries
+### exploration-of-v1-theme-commentaries-content/leads-1/kinds-across-the-commentaries
 - lead: The readers cut the 144 commentaries into 398 passages, a median of 3 per commentary and 12 at
   the most, one commentary holding a single passage. Under the loose alternations: 204 lines over 124
   commentaries carry a bearing-on-the-theme name, 145 lines over 81 commentaries a fabula-content name,
@@ -23,7 +29,7 @@
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages where kind~reader view=cites
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages where kind~"note to self|to self" view=cites
 
-### exploration-of-v1-theme-commentaries-content/commentaries-with-no-statement-of-bearing
+### exploration-of-v1-theme-commentaries-content/leads-1/commentaries-with-no-statement-of-bearing
 - lead: 20 of the 144 commentaries hold no passage the reader named as a statement of the scene's
   bearing on the theme. What they hold instead: a piece of world fact with no mention of the scene (Star
   Energy's strength coming from diversity; how changeling society treats its failures; Eros's creed and
@@ -59,7 +65,7 @@
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-70-theme-19
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-79-theme-18
 
-### exploration-of-v1-theme-commentaries-content/commentaries-that-hold-nothing-but-bearing
+### exploration-of-v1-theme-commentaries-content/leads-1/commentaries-that-hold-nothing-but-bearing
 - lead: 51 of the 144 commentaries hold only passages the reader named as bearing on the theme, and
   nothing else. The other 73 hold a bearing passage together with at least one passage of another kind,
   most often fabula content. So a third of the boxes are pure theme commentary, a seventh hold no theme
@@ -69,7 +75,7 @@
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages where kind~bearing view=cites
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages where kind~"^(?!.*bearing)" view=cites
 
-### exploration-of-v1-theme-commentaries-content/what-the-fabula-passages-hold
+### exploration-of-v1-theme-commentaries-content/leads-1/what-the-fabula-passages-hold
 - lead: The 145 fabula-content lines state things true of the story's world without regard to whether
   this scene shows them: how an institution works (the Manehattan tycoons never promoting a thestral to
   management; the Federalist and Industrialist factions each reading the slogan "clothes" their own way;
@@ -86,7 +92,7 @@
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages where kind~fabula sample=14 seed=7 view=list
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages where kind~fabula|world.?building|lore|history view=cites
 
-### exploration-of-v1-theme-commentaries-content/content-repeated-from-the-synopsis
+### exploration-of-v1-theme-commentaries-content/leads-1/content-repeated-from-the-synopsis
 - lead: 76 lines over 57 of the 144 commentaries restate something the plot point's synopsis already
   says; 317 lines do not. In some the whole commentary is the repetition: one is Applejack's revelation
   speech about abandoned foals and New Mareland copied word for word from the synopsis, another restates
@@ -101,7 +107,7 @@
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-222-theme-14
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-79-theme-18
 
-### exploration-of-v1-theme-commentaries-content/on-page-plans-inside-the-theme-box
+### exploration-of-v1-theme-commentaries-content/leads-1/on-page-plans-inside-the-theme-box
 - lead: 39 lines over 29 commentaries plan what is to appear on the page rather than say anything about
   the theme: staging and the order of events, a line of dialogue to be spoken, an image, an exchange to
   be added to the scene. One commentary is a set of additions to the scene — a dream-and-letter beat for
@@ -114,7 +120,7 @@
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-125-theme-16
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-23-theme-7
 
-### exploration-of-v1-theme-commentaries-content/notes-to-self-and-a-placeholder
+### exploration-of-v1-theme-commentaries-content/leads-1/notes-to-self-and-a-placeholder
 - lead: Only 2 lines in the whole set are notes to self. One commentary is a single-word placeholder
   instruction to analyze the link and holds no analysis of its own; another is a two-word label pointing
   at the beat that carries the link ("Fleur's twist") and says nothing further.
@@ -125,7 +131,7 @@
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-34-theme-21
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-35-theme-18
 
-### exploration-of-v1-theme-commentaries-content/notes-about-the-reader
+### exploration-of-v1-theme-commentaries-content/leads-1/notes-about-the-reader
 - lead: 5 lines over 5 commentaries say what the reader is to feel, believe or take away, as against
   what the scene does for the theme. They are the rarest of the five kinds asked for by name after notes
   to self, which is the opposite of what the theme box's own question would suggest, since a thematic
@@ -134,7 +140,7 @@
 - query:
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages where kind~reader view=cites
 
-### exploration-of-v1-theme-commentaries-content/real-world-parallels-and-canon-inside-the-theme-box
+### exploration-of-v1-theme-commentaries-content/leads-1/real-world-parallels-and-canon-inside-the-theme-box
 - lead: 11 lines over 9 commentaries hold a real-world parallel, an analogy or a statement about the
   source show rather than about the scene: the New Deal coalition's decay after its founding
   generation's trauma faded, a Christianity analogy for the unified Republic absorbing Boreas worship,
@@ -150,7 +156,7 @@
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-233-theme-15
   - exploration-of-v1-theme-commentaries-content/01-theme-commentaries/pp-70-theme-19
 
-### exploration-of-v1-theme-commentaries-content/register-of-the-passages
+### exploration-of-v1-theme-commentaries-content/leads-1/register-of-the-passages
 - lead: The register column names expository prose in 206 of the 398 lines and planning shorthand in 77;
   declarative occurs in 125, statement in 64, terse in 41, flat in 34, plain in 46, thesis in 35. 29
   lines sit in a parenthetical aside and 22 quote the item's own words. So the commentaries read
@@ -160,7 +166,7 @@
 - query:
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages view=terms col=register top=25
 
-### exploration-of-v1-theme-commentaries-content/which-themes-carry-the-commentaries
+### exploration-of-v1-theme-commentaries-content/leads-1/which-themes-carry-the-commentaries
 - lead: Read against the index's description column, the 144 filled commentaries fall on 23 of the
   archive's themes, unevenly: Honesty vs Poseurs carries 21, Bottom Up > Top Down 17, Loyalty and
   Kinship and Accelerants used for Evil can be Repurposed for Good 11 each, P&K Subversion 9, Strong to
@@ -171,7 +177,7 @@
 - query:
   - rq1 batch=exploration-of-v1-theme-commentaries-content/01-theme-commentaries answered=144 field=passages view=health
 
-### exploration-of-v1-theme-commentaries-content/commentaries-that-argue-a-real-world-thesis-in-the-authors-person
+### exploration-of-v1-theme-commentaries-content/leads-1/commentaries-that-argue-a-real-world-thesis-in-the-authors-person
 - lead: Some commentaries leave the story altogether and argue a position in the author's own person:
   one is a short manifesto of the theme as a real-world political-economic argument, specialization and
   harmonic capitalism against standardization and rugged individualism, with no mention of what the

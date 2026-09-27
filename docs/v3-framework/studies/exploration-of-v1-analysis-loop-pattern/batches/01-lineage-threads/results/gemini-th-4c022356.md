@@ -1,0 +1,8 @@
+- steps:
+  - the author | poses design question | asks where to store planned paratext blog-post notes: as CodexEntry, as a final Chapter's PlotPoints, or something else, with pros and cons for each | opens the exchange
+  - the model | lays out CodexEntry option | states pros (clean separation from narrative, built-in categorization, notes collection for brainstorming) and cons (semantic clash with 'Lore Facts' purpose, no built-in sequencing) | first part of the reply
+  - the model | lays out end-Chapter/PlotPoint option | states pros (native ordering via OrderIndex/OrderInChapter, relational links to Themes/Characters/Codex, drafting fields) and cons (model bloat from unused narrative-specific fields, export/compile filtering headaches) | second part of the reply
+  - the model | offers a third alternative | proposes the lightweight Idea model (Text plus IdeaState) as a way to keep paratext fully separate from both lore and narrative structures | closing part of the reply
+- kept:
+- brought: The author brought an existing data-structure design question, referencing the story planner's own schema (CodexEntry, Chapter/PlotPoint, Idea models) to ask where a new kind of note, paratext blog posts, should live.
+- loop: The author brought a structural placement decision about the planning schema itself and the model returned a comparative analysis of three model options, but no note from this exchange was traced into the plan, so the decision-support work here left no recorded trace in the database.

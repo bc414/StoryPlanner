@@ -1,0 +1,35 @@
+- steps:
+  - author | requests an audit | asks whether the worldbuilding-to-character-motivation chain is complete or missing anything | opening exchange
+  - model | delivers a verdict with causal-chain analysis | confirms a materialist-determinism framework and flags two 'polish' gaps (folklore hangover, pace-of-change vertigo) | reply to the audit request
+  - author | proposes a revision to a backstory | recasts Leonce du Roc's defense of Verdame as against Grover I twice, asks about the Petain-style psychology behind forcing Discret to submit | second exchange
+  - model | drafts a two-war backstory | builds a hero-then-cynic arc for Leonce across two Grover I attacks, links it to Synovial's view of Applejack | reply to the revision
+  - author | corrects the draft against established canon | cites the actual Grover I/Grover II lore (idol, brutality, Giselle Discret) and asks for a comparative analysis of how to integrate it | third exchange
+  - model | compares two integration options and recommends one | weighs a 'Grover I twice' model against a 'hero of Grover I, traitor to Grover II' model, synthesizes a revised timeline | reply to the correction
+  - author | tightens the constraints further | rejects the no-independent-Aquileia gap, rejects a literal magic idol, rejects hero-then-subjugated as a false parallel, poses a three-way choice including a new figure, Giselda Discret | fourth exchange
+  - model | revises again and drops an option | discards the 'twice' model, reworks the idol as perceived technology, restructures the Leonce and Giselda arcs | reply
+  - author | narrows the causal mechanism | insists the idol is pure propaganda and supplies the real driver, Herzland's superior grain and lower monster pressure | fifth exchange
+  - model | reworks the conquest explanation | builds a geography-as-destiny account of the war (grain surplus vs. terrain-locked knights) and a strategic-checkmate summary | reply
+  - author | asks for a thematic linkage | requests the best way to connect the story's title to the Petain/collaboration theme | sixth exchange
+  - model | produces a title-meaning synthesis | traces the title from Synovial's slur to Applejack's reclaimed honorific across the Leonce parallel | reply
+  - author | flags a consistency objection and counter-proposes | argues hero-then-subjugated breaks the French-victory/arrogance parallel, proposes Leonce wins the first war then later collaborates | seventh exchange
+  - model | rewrites the timeline to match the counter-proposal | gives a win-then-hubris-then-collaboration arc ('Miracle of Verdame') | reply
+  - author | brings in canon dynastic dates and a plausibility question | lists the official Grover I-V reign lengths and asks how the succession timing works, requesting historical precedent for consecutive long reigns | eighth exchange
+  - model | supplies historical precedents and a dynastic mechanism | cites long-lived monarchs with late heirs, proposes a 'late child' succession cycle | reply
+  - author | asks a comparative-culture question | asks whether the lion/eagle patriarchy is closer to Ottoman or European practice, on paper vs. in practice | ninth exchange
+  - model | builds a hybrid cultural model | combines a European feudal baseline with an Ottoman state-machine solution, gives a paper-vs-practice table | reply
+  - author | extends the comparative question | asks how the same model applies to all-griffon Herzland, which has no minority class, and suggests a Chinese angle | tenth exchange
+  - model | extends the model to Herzland | proposes a Prussian-Chinese synthesis with a caste structure and an account of its failure | reply
+  - author | extends the comparison again | asks about Japanese Bushido and English Hundred Years War influences | eleventh exchange
+  - model | adds two more historical layers | maps a samurai-to-industrialist parallel and an English indenture/chevauchee/longbow parallel onto the setting | reply
+  - author | extends the comparison a third time | asks about Greek and Roman antiquity as further inspiration | twelfth exchange
+  - model | adds a classical layer | maps Roman standardization and Greek caste-of-souls concepts onto the empire, with a summary table | reply
+  - author | shifts to a craft question | asks for a plan to reveal a character's and a region's history in layers across the main story | thirteenth exchange
+  - model | drafts a phased reveal plan | lays out a four-phase, chapter-keyed scheme for unveiling the character's backstory | reply
+  - author | brings a detailed worldbuilding question with self-generated options | asks about a king's professional army's recruitment, drilling, and species-specific training, requesting an analysis of the options and why | final exchange
+  - model | delivers a designed-army analysis | lays out recruitment psychology, per-species suppression tactics, a comparison table against a later military model, and an account of its failure | reply
+- kept:
+  - note 4944 | pasted from this reply inside the author's own framing | keeps the causal-chain framing (history drives economics drives culture drives character) from the audit reply, filed under a subject on subverting predator/king dynamics
+  - note 5008 | pasted from this reply with cuts | keeps the three-caste list (Lions/Eagles/Heretics) from the Herzland-culture reply, trimmed and filed under a subject on a later ruler's enlightenment era
+  - note 4950 | pasted from this reply inside the author's own framing | keeps a summary sentence casting the political factions in Roman-Republic-vs-Empire terms from the antiquity-inspiration reply, filed under a subject on stagnation evolving into republicanism
+- brought: Across most of the exchanges the author brought pre-existing canon facts and dates from the wider plan (the Grover dynasty's conquests, reign lengths, and the Idol of Boreas legend) to correct, constrain, and force further revision of the backstories the model kept drafting.
+- loop: The working loop is iterative constraint-and-redraft: the author repeatedly supplies a canon fact, a logical objection, or a new comparative-culture prompt, the model produces a full narrative or analytical synthesis in response, and the author either rejects it for inconsistency and demands another version or moves on to a new question entirely; only a handful of summary sentences and a caste list from this long back-and-forth were ever carried into the planning database, while the multi-round Leonce/Grover saga, the reveal plan, and the army design were not captured by any traced note.

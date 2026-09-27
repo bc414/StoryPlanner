@@ -1,0 +1,6 @@
+- steps:
+  - the author | brings a grounded worldbuilding question | a real-world research question about how officers, pilots, and tank crews were selected in WWI/WWII armies, framed against the story's changeling army meritocracy and its jaeger elite class | opens the exchange, referencing the story plan document directly
+  - the model | returns a structured historical answer with story mapping | three historical officer-path models (Academy, OCS/'Mustang', battlefield commission), pilot and tank-crew selection norms, and an explicit mapping of each onto the story's factions (Jaegers as aviation cadets, nobles as academy grads, Trimmel as an OCS 'Mustang'), plus a video link | closes the exchange as the sole model turn
+- kept:
+- brought: The author brought a historical-research question, asking how real WWI/WWII armies assigned officer, pilot, and tank-crew roles, in order to model the selection and rank system of the changeling army's jaeger elite and meritocracy already established in the story plan.
+- loop: The author brought a plan-grounded worldbuilding question seeking real-world precedent for a faction's selection system, and the model returned a researched, story-mapped answer, but no note traces back to this exchange, so nothing here was captured into the planning database within this stretch.

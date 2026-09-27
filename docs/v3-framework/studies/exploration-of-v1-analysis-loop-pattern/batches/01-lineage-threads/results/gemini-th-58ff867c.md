@@ -1,0 +1,8 @@
+- steps:
+  - the author | commits and questions | states a chosen set of three drug names and lays out unit-by-unit hypotheses (static trench, charging infantry, tank crews, supply infantry, pilots) with open uncertainties, then asks for other use cases | opening prompt of the exchange
+  - the model | systematizes | turns the hypotheses into a structured dosage protocol per unit type (trench static/charge, tank commander/gunner/loader, meat-grinder infantry, pilots), answers the historical tank-crew questions, and adds new unit categories (engineers, truckers, flamethrower squads) plus a summary table | first response
+  - the author | extends the scenario | asks what drug combo post-breakthrough supply-line infantry should carry, and separately proposes that if the base tier is required and additives can be isolated, conquest's economic strain is reduced | second prompt
+  - the model | elaborates | builds a specific 'march mix' protocol for supply-line infantry and develops the author's economic idea into a full base-plus-additive manufacturing logic with a narrative consequence about conquest being unable to stop | second response
+- kept:
+- brought: The author brought forward an already-decided set of three drug types and a set of speculative assignments of who needs which drug, plus real-world questions about WWII tank crew composition and class, to ground further worldbuilding.
+- loop: The author repeatedly brings partial doctrine (unit-drug pairings, an economic hunch about base-plus-additive drugs) for the model to systematize into fuller protocols and consequences, but nothing from either exchange was traced into the planning database in this stretch.

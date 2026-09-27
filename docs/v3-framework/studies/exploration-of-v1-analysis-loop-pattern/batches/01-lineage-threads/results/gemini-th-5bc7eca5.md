@@ -1,0 +1,73 @@
+- steps:
+  - author | brings worldbuilding concept | earth pony magic as pride-scaled soil-chemistry fertilizer | opening prompt
+  - model | analysis | narrative and thematic breakdown of the magic system | first response
+  - author | follow-up question | asks if P/K/N chemistry is plausible, requests comparison to guano-island history | second prompt
+  - model | validates and extends | confirms P/K logic, proposes a nitrogen tweak, compares to guano-island history | second response
+  - author | proposes revision | splits nitrogen-fixation to pegasi via lightning, adds cover crops | third prompt
+  - model | elaborates | science justification plus thematic and worldbuilding integration of the tribal split | third response
+  - author | brings recalled theory and constraint | names anthropic-principle memory, states fixed-sun-path war-mechanics constraint, drops a prior plot note | fourth prompt
+  - model | identifies and extends | names the anthropic principle, extends it into biosphere and war-stakes implications | fourth response
+  - author | asks confirmation | whether confining weather to Equestria's borders makes sense | fifth prompt
+  - model | confirms and extrapolates | zero-obliquity framing and resulting geopolitical implications | fifth response
+  - author | asks for thematic framing | whether the setup works as climate-change commentary | sixth prompt
+  - model | extended thematic analysis | maps setting mechanics onto climate-change/social-collapse commentary | sixth response
+  - author | research question | asks how Haber-Bosch was discovered and where guano islands fit in history | seventh prompt
+  - model | historical explainer | chronology of pre-guano, guano-era, and Haber-Bosch fertilizer history | seventh response
+  - author | research question | asks for gunpowder evolution and its intersection with fertilizer | eighth prompt
+  - model | historical explainer | phased history linking gunpowder chemistry to nitrogen sourcing | eighth response
+  - author | raises inconsistency | notes earth-pony gunpowder idea conflicts with pegasi handling nitrogen | ninth prompt
+  - model | resolves | shows saltpeter requires both tribes' magic together | ninth response
+  - author | follow-up chemistry question | asks if post-black-powder weapons still need potassium | tenth prompt
+  - model | answers and extrapolates | explains potassium's chemical obsolescence and derives new narrative stakes | tenth response
+  - author | connects concept to plot | proposes phosphorus as Star Energy's secret weapon tied to Comet Shine, asks for lore review and chemistry | eleventh prompt
+  - model | reviews and synthesizes | ties chemistry to Comet Shine, tally-stick economy, and Fleur's role | eleventh response
+  - author | proposes character framing | casts Fleur Bloom as the setting's Fritz Haber | twelfth prompt
+  - model | develops framing | scientific parallel, industrial-paradigm inversion, tragic dual-use destiny | twelfth response
+  - author | adds backstory | gives Fleur's parents' trauma from Aquileian history as motivation | thirteenth prompt
+  - model | analysis | reads Fleur's arc as defiance of inherited trauma, symbolism of her invention | thirteenth response
+  - author | redirects to tool-building | states requirements for a note-taking UI (atomic notes, single view, minimal scrolling) | fourteenth prompt
+  - model | proposes options | three UI layout concepts plus an export-filter mechanic | fourteenth response
+  - author | research question | asks for phosphorus-weapon history, sourcing, and chemistry | fifteenth prompt
+  - model | historical/chemical explainer | breakdown of phosphorus allotropes, sourcing history, and weapon history | fifteenth response
+  - author | proposes plot escalation | voluntary strip-mining then forced extraction, asks about Wonderbolts' air dominance | sixteenth prompt
+  - model | confirms and extends | introduces a 'Phosphorus Trap' concept and ties it to the Luna Nova rifle and Wonderbolts | sixteenth response
+  - author | corrects scope | restricts the command economy to Tall Tale, clarifies volunteers don't run out before rifles arrive | seventeenth prompt
+  - model | reanalysis | reworks implications under the corrected local, non-depleting constraint | seventeenth response
+  - author | structuring question | asks how to reveal the weaponization secret without breaking the planned town-hall reveal | eighteenth prompt
+  - model | proposes solution | asymmetric-knowledge structure with a staggered three-part reveal | eighteenth response
+  - author | requests scene draft | asks for dialogue outside Luna's tent that motivates Applejack's no-retreat decision without revealing the secret | nineteenth prompt
+  - model | drafts scene | writes dual-meaning dialogue and explains its dramatic irony | nineteenth response
+  - author | corrects multiple points | reframes Luna's order as psychological not tactical, fixes phosphorus as non-reverting, reveals a prior Chapter 2 misunderstanding | twentieth prompt
+  - model | incorporates corrections | reworks the irony and Luna's dreamscape motivation accordingly | twentieth response
+  - author | chemistry question | asks how soluble phosphorus becomes weapons-grade white phosphorus, and how it compares to real life | twenty-first prompt
+  - model | explainer plus comparison | gives the extraction pipeline and a better/worse comparative verdict | twenty-first response
+  - author | proposes refinement | replaces overt strip-mining with dual-purpose trench-digging feeding the factories | twenty-second prompt
+  - model | elaborates and rewrites | develops the dual-purpose-dirt logic and rewrites Applejack's speech with two readings | twenty-second response
+  - author | asks confirmation and proposes scene | asks about tank-round chemistry, proposes an explicit factory-tour scene, requests review and synthesis | twenty-third prompt
+  - model | reviews and synthesizes | confirms the tank-round logic and lists the scene's four narrative payoffs | twenty-third response
+  - author | redirects to tool-building | asks for a wrap-panel layout handling variable, unbalanced axis counts with prepopulated bucket names | twenty-fourth prompt
+  - model | proposes design | masonry and continuous-flow layout options with a prepopulation/dirty-check mechanic | twenty-fourth response
+  - author | selects option | picks the continuous-card-flow approach and asks for an implementation path | twenty-fifth prompt
+  - model | delivers | full WPF ViewModel and XAML implementation | twenty-fifth response
+  - author | provides concrete spec | lists the seven exact axis names and asks for color proposals with reasoning | twenty-sixth prompt
+  - model | proposes | dark-theme hex palette with symbolic rationale per axis | twenty-sixth response
+  - author | corrects preference | asks for a light theme instead | twenty-seventh prompt
+  - model | revises | light-theme palette and matching XAML tweaks | twenty-seventh response
+  - author | brings code stub | pastes a PasteBuckets method skeleton and asks for the parsing logic | twenty-eighth prompt
+  - model | delivers | complete JSON-parsing implementation with fuzzy color matching | twenty-eighth response
+- kept:
+  - note 5141 | pasted from this reply inside the author's own framing | keeps the anthropic-principle explanation distinguishing real ecology from the setting's engineered one, filed under Subject "Weather"
+  - note 5140 | pasted from this reply with cuts | keeps the Chrysalis-motive and artificial-seasons-collapse passage, filed under Subject "Weather"
+  - note 5133 | pasted from this reply inside the author's own framing | keeps the standardization-vs-asset-specificity contrast describing Fleur's approach, filed under Subject "Fleur Bloom"
+  - note 5127 | pasted from this reply with cuts | keeps the line on her parents' 'not suffering' trauma-belief, filed under Subject "Fleur Bloom"
+  - note 5132 | pasted from this reply inside the author's own framing | keeps the passage on Fleur crossing moral lines and the tragedy of her arc, filed under Subject "Fleur Bloom"
+  - note 5124 | pasted whole from this reply | keeps the passage on land/pride as asset specificity and volunteering as patriotism, filed under Subject "Earth Pony Magic"
+  - note 5782 | pasted from this reply inside the author's own framing | keeps the point that the stagnation's burden falls on Tall Tale's dedicated citizens, filed under Subject "Stagnation of Harmony (930 ALB - Present)"
+  - note 2322 | pasted whole from this reply | keeps the line on Applejack shifting from seeing war as evil industry to tragic responsibility, filed under a link between the Twilight/Applejack decompression scene and Applejack
+  - note 3938 | pasted whole from this reply | keeps the ticking-clock reasoning for why the Luna Nova rifle must succeed, filed under a link between the Magic of War Revelation and Harmonic Capitalism
+  - note 3067 | pasted whole from this reply | keeps the description of Applejack's speech as pure folksy honesty, filed under a link between Applejack's hard-truth speech and Earth Pony Magic
+  - note 3068 | pasted from this reply with cuts | keeps Comet Shine's misreading of the speech as coded chemical endorsement, same link
+  - note 3069 | pasted from this reply inside the author's own framing | keeps the drafted speech text and Comet Shine's dual interpretation of it, same link
+  - note 2864 | pasted from this reply with cuts | keeps the leaching and thermal-reduction chemistry steps, filed under a link between Comet Shine talking to Applejack and Earth Pony Magic
+- brought: The author brought an already-fixed core of lore (the pride-scaled earth-pony chemistry, Tall Tale's tally-stick economy, and the established arcs of Fleur Bloom, Comet Shine, Applejack, and Luna) that every new question, escalation, or correction had to be checked and built against.
+- loop: The author repeatedly brought a worldbuilding question, plot escalation, or correction anchored in the existing plan (plus, on separate turns, a UI-tool requirement), the model answered with chemistry explainers, thematic analyses, or drafted scenes/code, and the author then accepted, corrected, or redirected; from that exchange only isolated reframed passages, cut fragments, or the model's own coined mechanics were filed as atomic notes onto specific character, subject, or scene-link records, while most explanatory and all tool-building replies left no trace in the database.

@@ -1,0 +1,6 @@
+- steps:
+  - the author | poses a factual research question | WW2-era transatlantic crossing times for various ship classes | opens the conversation
+  - the model | delivers a structured reference answer | categorized breakdown (ocean liners, destroyers, Victory/Liberty ships, convoys) with speeds and day-ranges, a comparison table, a note on weather effects, and two follow-up offers (zigzag maneuvers, Queen Mary history) | closes the single exchange
+- kept:
+- brought: The author brought a standalone factual question about WW2 transatlantic crossing times, apparently for background research rather than from an existing plan document.
+- loop: The author asked a reference question and the model returned a detailed factual answer, but the exchange shows no loop back into the plan — nothing from this stretch was traced into the planning database.

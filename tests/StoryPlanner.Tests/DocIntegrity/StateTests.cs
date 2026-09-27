@@ -45,6 +45,47 @@ public class StateTests
     }
 
     [Fact]
+    public void A_batch_shows_how_many_items_it_answered_out_of_the_cut_order()
+    {
+        using var f = new MapFixture().WithStateTree();
+        File.WriteAllText(Path.Combine(f.BatchDir, "index.md"),
+            "# 01-full — index\n\n- itemizer: tools/StoryPlanner.TestItemizer, 1\n- locator notation: a note id\n\n| item | locator | description |\n|---|---|---|\n| item-01 | n1 | a |\n| item-02 | n2 | b |\n| item-03 | n3 | c |\n| item-04 | n4 | d |\n");
+        string Call(string item) => $"### {item} — call 1\n\n- model: sonnet\n- harness: 2\n- directions hash: d\n- item hash: i\n- prompt hash: p\n- started: t\n- ended: t\n- exit: 0\n- check: ok\n\n";
+        // The cut's order is item-04, item-02, item-01, item-03: item-04 answered in turn, item-03 past the gap at item-02.
+        File.WriteAllText(Path.Combine(f.BatchDir, "calls.md"), "# 01-full — calls\n\n- definition: abc\n\n" + Call("item-04") + Call("item-03"));
+        Assert.Contains($"{MapFixture.Batch} [full, directions-1, executing (2/4), 1 answered out of the cut's order]", Build(f));
+
+        File.AppendAllText(Path.Combine(f.BatchDir, "calls.md"), Call("item-02"));
+        Assert.Contains($"{MapFixture.Batch} [full, directions-1, executing (3/4), 1 answered out of the cut's order]", Build(f));   // item-01 still waits
+        File.AppendAllText(Path.Combine(f.BatchDir, "calls.md"), Call("item-01"));
+        Assert.Contains($"{MapFixture.Batch} [full, directions-1, executed]", Build(f));   // complete: nothing is out of order
+    }
+
+    [Fact]
+    public void A_studys_leads_show_the_highest_numbered_file_its_items_with_results_and_the_latest_next_step()
+    {
+        var dir = Path.Combine(Path.GetTempPath(), "leads-state-" + System.Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(dir);
+        try
+        {
+            File.WriteAllText(Path.Combine(dir, "leads-1.md"), "# s — leads\n\n- items with results: 300 of 900\n- written by: w\n\n## Leads\n\n## Next steps\n\n- 2026-09-20 continue the batch: more\n- 2026-09-28 new directions version: the premise\n");
+            File.WriteAllText(Path.Combine(dir, "leads-2.md"), "# s — leads\n\n- items with results: 900 of 900\n- written by: w\n\n## Leads\n\n## Next steps\n\n- 2026-09-25 stop: enough\n");
+            var summary = StateBuilder.LeadsSummary(Directory.GetFiles(dir));
+            Assert.Contains("- current leads file: leads-2.md, written at 900 of 900 items with results", summary);
+            Assert.Contains("- latest next step: 2026-09-28 new directions version (leads-1.md)", summary);   // the latest date wins, whichever file holds it
+
+            File.WriteAllText(Path.Combine(dir, "leads-2.md"), "# s — leads\n\n- items with results: 900 of 900\n- written by: w\n\n## Leads\n\n## Next steps\n\n- 2026-09-28 stop: enough\n");
+            Assert.Contains("- latest next step: 2026-09-28 stop (leads-2.md)", StateBuilder.LeadsSummary(Directory.GetFiles(dir)));   // a tie goes to the higher file
+
+            File.WriteAllText(Path.Combine(dir, "leads-2.md"), "# s — leads\n\n- items with results: 900 of 900\n- written by: w\n\n## Leads\n");
+            File.WriteAllText(Path.Combine(dir, "leads-1.md"), "# s — leads\n\n- items with results: 300 of 900\n- written by: w\n\n## Leads\n");
+            Assert.Contains("- latest next step: none", StateBuilder.LeadsSummary(Directory.GetFiles(dir)));
+            Assert.Equal("", StateBuilder.LeadsSummary([]));
+        }
+        finally { Directory.Delete(dir, recursive: true); }
+    }
+
+    [Fact]
     public void An_iteration_folder_is_scanned_as_a_sibling_of_studies_and_its_batches_shown()
     {
         using var f = new MapFixture().WithStateTree();

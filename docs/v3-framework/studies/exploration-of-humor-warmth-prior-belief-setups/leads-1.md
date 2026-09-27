@@ -1,8 +1,15 @@
 # exploration-of-humor-warmth-prior-belief-setups — leads
 
+- items with results: 379 of 379
+- written by: a subagent that the session which prepared this study started on 2026-09-18 for this
+  write-up, with a brief naming its inputs; the subagent did not itself plan the study, write its
+  directions, build its itemizer or read its pilot. It read the skill's router, conducting-an-exploration
+  and leads schema, the results tool's README, directions-3, the question list and batch 03's
+  definition, index and tally, and drew its leads from batch 03's results through the results tool
+
 ## Leads
 
-### exploration-of-humor-warmth-prior-belief-setups/three-named-kinds-across-the-plot-points
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/three-named-kinds-across-the-plot-points
 - lead: Of the 1,744 effect lines, 443 carry prior belief as their whole kind name, 306 warmth and 188
   humor; with names that join them to another (warmth/nostalgia, relief/warmth, humor (undercut),
   irony/dark humor and the like) warmth reaches 317 lines and humor 193. Prior belief lines come from
@@ -17,7 +24,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~humor view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~^humor$ view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/plot-points-with-none-of-the-three
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/plot-points-with-none-of-the-three
 - lead: 33 plot points appear in none of the three named kinds' cites. Three carry no effect line at all:
   Vanhoover Reflection, Applejack and Twilight apply their lessons, and Twilight's letter about Magic as
   an Accelerant. The other 30 carry only the readers' own names (dread, tension, suspense, spectacle,
@@ -66,7 +73,7 @@
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-405
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-433
 
-### exploration-of-humor-warmth-prior-belief-setups/where-the-effect-lines-sit
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/where-the-effect-lines-sit
 - lead: The where part names the synopsis in 1,197 lines. 547 lines name no synopsis and sit in link text
   or the outcome: a character link is named in 284 lines, a codex link in 218, a thread link in 151, a
   theme link in 49 (one line may name several). Prior belief lines sit outside the synopsis more often
@@ -87,7 +94,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~^humor$ where where~^(?!.*synopsis) view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects view=health
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-lines-and-what-the-beliefs-are-about
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-lines-and-what-the-beliefs-are-about
 - lead: 443 prior-belief lines over 283 plot points. The where part names the synopsis in 275, a codex
   link in 74, a character link in 72, a thread link in 42, a theme link in 21. Celestia is named in 89
   lines, Chrysalis or the changelings in 90, Applejack in 123. In 48 lines the belief or its overturn
@@ -104,7 +111,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~"\\b(villain\\w*|monster\\w*|evil|traitor\\w*|tyrant|cartoon\\w*|coward\\w*|poseur|poser)\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~"\\b(benevolent|wise|all-powerful|godlike|goddess|divine|mentor|paradise|protector\\w*|heroic|hero)\\b" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-set-and-overturned-in-one-plot-point
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-set-and-overturned-in-one-plot-point
 - lead: Apart from the lines in the next two leads, the belief and what overturns it both lie inside the
   one plot point: a character's claim, a surface reading or a first impression, then the item's own
   correction in the same synopsis or link, by a stated real reason, an "actually", a reveal or a
@@ -117,7 +124,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where marks~"\\b(twist|subver\\w*|recontextuali\\w*|retcon|inver\\w*|reversal)\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where marks~"real reason|actually|the truth|materialist truth" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-built-before-the-plot-point
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-built-before-the-plot-point
 - lead: 31 lines say the belief was built before this plot point, which overturns it: by earlier events or
   an earlier chapter, a thread, a trait established elsewhere, or the reader's having been led to it.
   Among them: the Tzinacatl first taken for neglected batponies, Fleur first taken for an Equestrian
@@ -128,7 +135,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~"\\b(earlier|elsewhere|previously|established|per the thread|from earlier|has been led|had assumed|has taken|has held|has understood|had come to)\\b" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-overturn-placed-beyond-the-plot-point
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-overturn-placed-beyond-the-plot-point
 - lead: In nine plot points the belief is set up here and the item says or signals that its overturn comes
   later: the Star Spade not yet shown to be magical, flagged to be corrected later; Applejack's speech
   about farmers digging trenches through their orchards, "totally recontextualized later"; Luna's stated
@@ -153,7 +160,7 @@
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-260
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-346
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-drawn-from-the-show-and-the-game
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-drawn-from-the-show-and-the-game
 - lead: 29 lines take the belief from My Little Pony: Friendship is Magic or the Equestria at War game
   rather than from the story: a canon episode's lesson or ending (Leap of Faith, Feeling Pinkie Keen,
   the pilot, Applebuck Season, the cider episode, Giggle at the Ghostly), a character's canon trait
@@ -169,7 +176,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~"canon|\\bthe show\\b|original show|franchise|episode|\\bEaW\\b|fandom|\\bMLP\\b|\\bpilot\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~"\\bgenre\\b|\\btrope\\b|convention" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/other-effects-resting-on-the-show-the-game-and-other-works
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/other-effects-resting-on-the-show-the-game-and-other-works
 - lead: Outside prior belief, 14 lines rest on the reader's knowledge of the show or the game: fan
   recognition of an EaW event or a canon episode, a guard from Luna Eclipsed recognized for a laugh, a
   pun on the show's title, a Sisterhooves Social lesson passed along and the season 1–3 friendship-letter
@@ -184,7 +191,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^(?!prior belief$)" where effect~"\\b(canon\\w*|episodes?|season [0-9]|the show|EaW|in-game|franchise|fandom|MLP)\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~nostalg|callback|recogni|echo|continuity|intertext|fan-|meta|resonance|parallel view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-hedged-as-a-possible-reading
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-hedged-as-a-possible-reading
 - lead: 49 prior-belief lines open with "Reader may", "might" or "likely": the belief is one the reader of
   the plan supposes an audience could bring, rather than one the item is shown building. In 23 of them
   the marks quote the item's own denial, a "not", "isn't", "never" or "no longer": Celestia's hands-off
@@ -197,7 +204,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~"^(the )?reader (may|might|likely)" where marks~"\\b(not|isn't|never|no longer)\\b" view=list
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~"^(the )?reader (may|might|likely).*\\bCelestia\\b" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-held-by-characters
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-held-by-characters
 - lead: 146 prior-belief lines do not name the reader. Most give the belief as a character's or a
   group's (Applejack's, Twilight's, Fluttershy's, Rainbow Dash's, Fleur's, Trimmel's, Eros's,
   Kemerskai's, Chrysalis's, the changelings'), corrected in the scene by another character, an event or
@@ -209,7 +216,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~reader view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where effect~"reader.{0,40}\\b(via|through|alongside|with|like|mirroring|aligned|echoing)\\b|\\b(and|with) (the|by extension the) reader|by extension the reader|and reader\\b|\\(and (the )?reader\\)" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-overturn-played-for-a-laugh
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-overturn-played-for-a-laugh
 - lead: In eight plot points a prior-belief line and a humor line fall on one beat, the overturn serving as
   the joke: a telegraph Applejack swoons over as a love letter, read aloud as a rifle report; a love
   letter that becomes a research essay; a feared tyrant's warning to watch one's words that turns out to
@@ -227,7 +234,7 @@
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-14
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-76
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-overturned-into-warmth
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-overturned-into-warmth
 - lead: In seven plot points the overturn is also the warmth line's beat, a fear or a misreading answered
   by affection or pride: Twilight expecting her parents to see a monster and her father saying he is
   proud; Applejack's "just a farmpony" answered by her parents' "you can be anything"; Rarity reading
@@ -245,7 +252,7 @@
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-209
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-262
 
-### exploration-of-humor-warmth-prior-belief-setups/prior-belief-overturned-from-comfort-to-darkness
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/prior-belief-overturned-from-comfort-to-darkness
 - lead: The opposite direction occurs as well, a comforting or wholesome reading overturned into a darker
   one: Applejack's farmers-and-trenches speech later read as approval to process remains into
   munitions; her folksy letter that authorizes a drug operation; earth-pony folklore industrialized into
@@ -265,7 +272,7 @@
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-350
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-223
 
-### exploration-of-humor-warmth-prior-belief-setups/dramatic-irony-the-reader-holds-the-truth
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/dramatic-irony-the-reader-holds-the-truth
 - lead: 19 lines named dramatic irony, alone or joined (with dread, suspense, unease, reassurance,
   foreboding, pathos, hope, privileged perspective, reader-reward), record the reverse of a prior
   belief: the reader is given a truth a character lacks. Celestia's hidden motive or private shame, the
@@ -276,7 +283,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"dramatic irony" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/humor-lines-and-their-shapes
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/humor-lines-and-their-shapes
 - lead: 188 lines name humor alone over 147 plot points (193 with joined names: humor (undercut),
   irony/wry humor, irony/dark humor, intertextual humor, self-deprecating humor/embarrassment). The where
   part names the synopsis in 147 of the 188, a character link in 21, a codex link in 14. The effects
@@ -292,7 +299,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~humor where effect~"\\b(pun\\w*|wordplay|punning|nickname\\w*)\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~humor where effect~"\\bamid\\b|serious|grave|grim|tension|solemn|heavy|dark" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/humor-by-chapter-stretch
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/humor-by-chapter-stretch
 - lead: Read against the index's chapter labels, the 150 plot points with a humor line are about half of
   chapters 5 Laughter to 13 Passion (70 of 128), of 24 Intervention to 26 Dilemma (22 of 41) and of 29
   Ambition to 32 Liberty (16 of 32), and about a fifth of chapters 14 Coordination to 18 Honor (12 of 61)
@@ -303,7 +310,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~humor view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/humor-named-in-the-plot-points-own-words
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/humor-named-in-the-plot-points-own-words
 - lead: In 19 humor lines the marks quote the plot point naming its own joke: "hilarious" or "hillarious"
   in seven plot points, "(lol)", "the funny part", "There should be a joke", "the flutterbat joke", "(the
   joke becomes reality)", "comedic cliffhanger", "tongue in cheek", "silly", "Funny how", a scene called
@@ -313,7 +320,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~humor where marks~"hill?arious|\\(lol\\)|funny part|should be a joke|flutterbat joke|joke becomes reality|comedic cliffhanger|tongue in cheek|called out as satire|fantastic comedic beat|;\\)|calls? the rhyme|described as .silly|Funny how" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/should-directives-in-the-plot-points
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/should-directives-in-the-plot-points
 - lead: 18 lines' marks quote a "should" in the plot point saying what a scene, a character or the plan
   should be, do or feel. Of a scene: "this should be hilarious" and its variants in three plot points (a fourth, "This
   should also be hilarious", falls outside the alternation), "There should be a joke", "It should be
@@ -327,7 +334,7 @@
 - cites:
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-253
 
-### exploration-of-humor-warmth-prior-belief-setups/plot-points-addressing-their-reader
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/plot-points-addressing-their-reader
 - lead: 22 lines' marks point to the plot point speaking to or about a reader of the finished story, or
   to an author's note, aside or authorial statement: "audience should too", "Rarity (and the reader)", "(and the reader)", the
   audience thinking one thing before a twist, "Readers can deduce", "only the reader knows", a gap
@@ -338,7 +345,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where marks~"audience should|\\(and the reader\\)|and the reader\\) looks|audience thinks|Readers can|readers can cite|only the reader|epistemological gap|spoiler|\\(lol\\)|\\(aww\\)|winking emoji|dramatic irony!|author's note|authorial|audience/reader" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/recurring-comic-bits-across-plot-points
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/recurring-comic-bits-across-plot-points
 - lead: Some humor lines name a bit that recurs across plot points: the oath "cross my heart, hope to fly,
   stick a cupcake in my eye" (Pinkie in chapter 12, Applejack in 13, Flurry Heart in 19, Kemerskai in
   28); Twilight or Fleur called an "egghead" (chapters 10, 12, 26); the "Cute Intelligence Agency" for
@@ -353,7 +360,7 @@
 - cites:
   - exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3/pp-190
 
-### exploration-of-humor-warmth-prior-belief-setups/satire-of-real-world-politics
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/satire-of-real-world-politics
 - lead: 14 lines describe satire, parody or caricature, many of them of real-world politics: Gilded Trust
   drawn as a Trump caricature with campaign bluster and slogans (Make Equestria Great Again, Sleepy
   Celestia), a slogan of making Herzland great again beside an aside naming America, a cartel's rebrand
@@ -366,7 +373,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where effect~"satir\\w*|parod\\w*|caricatur\\w*|\\bTrump\\b|Great Again|populist" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/real-world-historical-parallels
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/real-world-historical-parallels
 - lead: 14 lines rest on a real-world historical or economic parallel the plot point names: the Rape of
   Nanjing, Agent Orange, Verdun, a Hitler speech and Hitler's approval of the Ardennes plan, Pétain,
   Eisenhower and "They shall not pass", the liberation of Paris, denazification, the Desert Fox in
@@ -377,7 +384,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where effect~"Nanjing|Agent Orange|Verdun|Hitler|denazif|Petain|Eisenhower|Ardennes|liberation of Paris|WWI|WWII|World War|WW1|WW2|Desert Fox|Keynes|Kurdish|Turkey|Coca|Big Food" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/humor-and-warmth-in-intimacy-scenes
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/humor-and-warmth-in-intimacy-scenes
 - lead: In plot points about sex and intimacy, chiefly chapter 13 Passion's, 17 humor lines carry a word
   of sex, flirting, kissing, intimacy, courtship, parloirs or foals (sex-education banter, deadpan
   answers, the fairy tale of where foals come from, mock-horror at an innocent night, courtship played
@@ -391,7 +398,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~^warmth$ where effect~"\\b(romantic|romance|love confession|intimate|intimacy|cuddl\\w*|kiss\\w*|swoon\\w*)\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~arousal view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/warmth-lines-and-what-they-describe
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/warmth-lines-and-what-they-describe
 - lead: 306 lines name warmth alone over 242 plot points (317 with joined names such as warmth/nostalgia,
   relief/warmth, admiration/warmth). The where part names the synopsis in 237, a character link in 53, a
   thread link in 25 (the TwiJack thread in 10). The lines describe comfort, a hug, cuddling or an
@@ -411,7 +418,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~^warmth$ where effect~"\\b(reunit\\w*|reunion)\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~^warmth$ where marks~"\\b(aww|adorable|wholesome|cute|sweet|cozy|heartwarming|heartfelt|feel.?good|nice|emotional weight|beautiful|touching|moving|so happy|happy)\\b" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/warmth-toward-former-enemies
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/warmth-toward-former-enemies
 - lead: 43 warmth lines name changelings, prisoners of war, conscripts, Trimmel, an enemy, or a former
   enemy or villain: Fluttershy soothing and feeding changeling prisoners and the camp built for them, mercy and a
   second chance offered to enemy soldiers, Trimmel spared and later welcomed, crystal ponies bringing
@@ -420,7 +427,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~^warmth$ where effect~"\\b(changeling\\w*|POWs?|prisoners?|conscripts?|former enem\\w*|enemy|enemies|Trimmel|former vil\\w*|former antagonist)\\b" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/sympathy-toward-antagonists-and-enemies
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/sympathy-toward-antagonists-and-enemies
 - lead: 129 lines carry a name from sympathy, pathos, empathy, pity, poignancy, grief, sorrow, tragic,
   tragedy, sadness or humanization, alone or joined (sympathy for antagonist, sympathy for the
   changelings, empathy for antagonist, pathos for tragic figure and the like). 50 of them name an
@@ -434,7 +441,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~sympath|pathos|empath|pity|poignan|grief|sorrow|tragic|tragedy|sad|humaniz where effect~"\\bCelestia\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~sympath|pathos|empath|pity|poignan|grief|sorrow|tragic|tragedy|sad|humaniz view=terms col=effect top=30
 
-### exploration-of-humor-warmth-prior-belief-setups/moral-names-and-the-protagonists-own-acts
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/moral-names-and-the-protagonists-own-acts
 - lead: 67 lines carry moral as a word of their kind name: moral unease, moral indignation, moral tension,
   moral outrage, moral horror, moral discomfort, moral complexity, moral irony, and single names such as
   moral permission, moral legitimization, moral revulsion. 16 of them name Applejack, most over her own
@@ -446,7 +453,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"\\bmoral\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"\\bmoral\\b" where effect~"\\b(Applejack|AJ)\\b" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/readers-own-kind-names
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/readers-own-kind-names
 - lead: 807 lines carry a name other than the three whole names. The kind column holds 278 distinct words;
   after prior, belief, warmth and humor the most frequent are moral (67 lines), sympathy (64), irony
   (59), dread (57), unease (49), foreboding (39), tension (38), pathos (34), horror (32), admiration
@@ -469,7 +476,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~inspir|hope|uplift|empower|resolve|resilience view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~disillusion|sobering|cautionary view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/dread-and-foreboding-pointing-forward
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/dread-and-foreboding-pointing-forward
 - lead: 106 lines carry dread, foreboding, foreshadowing, ominous or menace, alone or joined (dread/suspense,
   horror/dread, dread/foreshadowing, foreboding/escalation and the like). 41 carry a forward-pointing
   word (later, future, will, sets up, plants, primes, hints, signals, looming, coming, impending): Rainbow
@@ -484,7 +491,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~tension|suspense|alarm|urgency|worry|concern view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~uneas|unsettl|discomfort view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/withheld-information-intrigue-and-anticipation
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/withheld-information-intrigue-and-anticipation
 - lead: 57 lines carry anticipation, intrigue, mystery or curiosity, alone or joined. 28 carry a word of
   withholding or deferral (withheld, unexplained, unresolved, left, mystery, wonder, open question,
   tease, hint, later, future): Applejack's refusal to
@@ -497,7 +504,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~anticipat|intrigue|mystery|curiosity view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~anticipat|intrigue|mystery|curiosity where effect~"\\b(withh\\w*|unexplained|unresolved|left|mystery|wonder\\w*|open question|tease\\w*|hint\\w*|later|future)\\b" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/vindication-satisfaction-and-payoff
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/vindication-satisfaction-and-payoff
 - lead: 82 lines carry vindication, satisfaction, catharsis, triumph, payoff, justice, comeuppance,
   schadenfreude, closure or resolution, alone or joined (vindication/satisfaction, catharsis/vindication,
   poetic justice/satisfaction, narrative payoff, revelatory payoff and the like). 30 carry a word of
@@ -511,7 +518,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~vindicat|satisf|catharsis|triumph|payoff|justice|comeuppance|schadenfreude|closure|resolution where effect~"\\b(earlier|long|finally|pays? off|payoff|confirm\\w*|proven?|validat\\w*|click\\w*)\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~vindicat|satisf|catharsis|triumph|payoff|justice|comeuppance|schadenfreude|closure|resolution where effect~"\\b(Chrysalis|Gilded Trust|Rockfeller|Rockefeller|villain\\w*|antagonist\\w*|Bjornling|Celestia|Synovial|enemy|predators?)\\b" view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/persuasion-and-explanation
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/persuasion-and-explanation
 - lead: 68 lines carry persuasion, ideological, didactic, instructive, explanatory, insight, intellectual,
   worldbuilding, clarity, political, allegory, social commentary or critique names: the reader is meant
   to be convinced of an argument, given an explanation, or satisfied as threads of the world's lore
@@ -525,7 +532,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"persua|ideolog|didactic|instructive|explanat|insight|intellectual|worldbuilding|world-building|clarity|political|allegor|social commentary|critique" where effect~"capitalism|econom\\w*|bonds?|market|industr\\w*|banking|trade|fiat" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"persua|ideolog|didactic|instructive|explanat|insight|intellectual|worldbuilding|world-building|clarity|political|allegor|social commentary|critique" where where~codex view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/admiration-and-awe
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/admiration-and-awe
 - lead: 36 lines carry admiration, awe, respect, esteem or wonder: at a character's courage, competence,
   cleverness or moral authority (Mali's courage, Fluttershy asserting herself, Applejack's tactics and
   leadership, Trimmel's honor, an air-ground tactic, political savvy), or at a spectacle such as
@@ -534,7 +541,7 @@
 - query:
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~admir|awe|respect|esteem|wonder view=cites
 
-### exploration-of-humor-warmth-prior-belief-setups/effects-seen-in-theme-link-text
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/effects-seen-in-theme-link-text
 - lead: The readers located 49 lines in the text of a theme link, though a scene's bearing on a theme was
   set aside: 21 prior belief, 8 warmth, 4 humor, and foreboding, irony, moral names, unease, vindication
   and allegory. The P&K Subversion theme link carries four prior-belief lines and one warmth line;
@@ -548,7 +555,7 @@
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where kind~"^prior belief$" where where~"\\btheme\\b" view=cites
   - rq1 batch=exploration-of-humor-warmth-prior-belief-setups/03-tltt-plot-points-directions-3 answered=379 field=effects where where~"P&K Subversion" view=list
 
-### exploration-of-humor-warmth-prior-belief-setups/link-settings-cited-as-marks
+### exploration-of-humor-warmth-prior-belief-setups/leads-1/link-settings-cited-as-marks
 - lead: 11 lines cite a setting chosen on a link as what marks the effect: a thread's trajectory
   (Positive, Negative, Triumph, Disaster), a character's role tagged Antagonist, CoreValueDemonstration.
   In two the setting and the synopsis point different ways: a peace announcement that reads as relief

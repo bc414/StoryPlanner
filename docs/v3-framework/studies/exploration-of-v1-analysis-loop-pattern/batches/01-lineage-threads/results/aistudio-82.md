@@ -1,0 +1,21 @@
+- steps:
+  - author | attaches | an uncaptured planning document | opening of the conversation, before any written question
+  - author | reports a plan revision | describes replacing old 'Stagnation of Harmony'/'Celestia' entries with new ones built on an 80-year policy-change premise, asks for an audit of what's still valid vs obsolete and the scope of cleanup needed | opening message with the attachment
+  - model | audits | separates load-bearing elements from obsolete ones, maps four plot points needing realignment, adds follow-up questions | first reply to the opening audit request
+  - author | extends the premise | asks whether a specific character believes the old 1000-year timeline and whether history books are sanitized except in a restricted archive | right after the first audit
+  - model | elaborates | works out that character's historical misreading, describes how public history is sanitized, defines what the restricted archive actually holds, adds follow-up questions | reply to the extension question
+  - author | adds a new constraint | proposes that the restricted archive itself lacks the chemistry of earth-pony magic, that folklore is the only belief in Equestria, and that the real science comes from a foreign university and an underground urban scene | after the archive elaboration
+  - model | elaborates | reworks the epistemology of every faction under this science gap, elevates the foreign university and the underground scene into key institutions, recontextualizes an earlier subplot, adds follow-up questions | reply to the new science-gap constraint
+  - author | submits existing plan text | pastes prior planning notes on the ruler's reasoning for skipping a political debate and asks if they're obsolete under the new paradigm | after the science-gap exchange
+  - model | audits | sorts the pasted debate notes into obsolete and still-valid parts, then rewrites the ruler's motivation for the debate absence to fit the new timeline | reply to the debate-notes question
+  - author | submits existing plan text | pastes prior planning notes on the ruler's two-tiered view of an outside group versus her own citizens and a profiteering antagonist, asks if still relevant | after the debate audit
+  - model | audits | judges most of the pasted notes still load-bearing with a tweaked psychological framing, and extends the consequence of a peaceful resolution being read as confirmation bias | final reply of the stretch
+- kept:
+  - note 5767 | pasted from this reply inside the author's own framing | keeps the point about the generational perception gap and the folklore-as-pressure-valve idea, filed under the Stagnation of Harmony subject entry
+  - note 5774 | pasted whole from this reply | keeps the analysis of the historical misreading and the founding-myth fallacy, filed under the Stagnation of Harmony subject entry
+  - note 3353 | pasted whole from this reply | keeps the line about the underground scene smuggling scientific material, filed under the link between the secret lab and the underground scene
+  - note 3354 | pasted whole from this reply | keeps the justification for why the lab had to stay secret, filed under the same link entry
+  - note 5775 | pasted whole from this reply | keeps the same smuggling-material line, filed under the underground-scene subject entry
+  - note 2422 | pasted whole from this reply | keeps the reasoning that the antagonist embodies the class the ruler must keep quarantined, filed under the link between the debate and the ruler
+- brought: The author brought the newly revised paradigm-shift entries plus several previously written planning-database passages on the ruler's psychology and the setting's geopolitics, submitting each in turn for the model to check against the new timeline.
+- loop: The author repeatedly brings a plan revision or a pasted plan passage and asks whether it still holds under the new timeline, and the model returns a structural audit that separates what survives from what's obsolete and rewrites the reasoning to fit; the database keeps back the model's cleanest restatements of that reasoning, whole or lightly framed, filing them into the matching Subject and Link entries.

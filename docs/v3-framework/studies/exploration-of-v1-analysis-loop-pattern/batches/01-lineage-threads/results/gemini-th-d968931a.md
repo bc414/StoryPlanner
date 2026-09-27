@@ -1,0 +1,37 @@
+- steps:
+  - author | poses a branching-lore question | recaps how Rockfeller's awareness of Chrysalis evolved across drafts and asks for pros/cons | opening of the exchange
+  - model | lays out a forked analysis | two named options (knowing collaborator vs. duped partner) each with pros and cons, then a synthesized third option | reply to the Rockfeller-knowledge question
+  - author | poses a tactical-choice question | asks whether the finale should include a surrender ultimatum or go straight to the love-drop | new question after the Rockfeller thread
+  - model | delivers a recommendation | argues for skipping the ultimatum, backed by tactical, thematic, and title-meaning reasoning | reply to the ultimatum-vs-love-drop question
+  - author | poses a consistency-check question | asks whether an established tactic (the ultimatum) still fits two earlier, already-plotted battles given later changes | new question comparing two chapters
+  - model | issues a verdict per chapter | yes for one battle, no for the other, each justified by character and thematic reasoning | reply comparing the two battles
+  - author | brings a revision and a reuse question | reports that one battle's delivery method was changed and asks if the abandoned method can be moved to the other battle | follow-up building on the previous chapter comparison
+  - model | confirms and justifies the swap | approves reusing the discarded tactic elsewhere, framing it as tonal contrast and escalation | reply on reusing the transport-plane tactic
+  - author | poses a worldbuilding-inspiration question | asks for a real-world national analog for a fictional trade nation, offering a guess | new question shifting to worldbuilding
+  - model | supplies a layered analysis | breaks the inspiration into aesthetic, financial, and legal source models with a summary | reply on Skyfall's real-world inspirations
+  - author | poses an analytic request | asks for analysis of an idea (a pre-war economic collaboration government) framed through a game mechanic | new question extending the economic theme
+  - model | produces a mechanism analysis | explains the financial trap, its leverage, character mapping, and strategic payoff | reply on the collaboration-government idea
+  - author | asks for more source material | requests further real collaboration-government inspirations, restricted to Nazi-era cases | follow-up narrowing the inspiration request
+  - model | supplies mapped case studies | four historical collaborator figures each matched to a story character or faction | reply on Nazi-era collaboration analogues
+  - author | poses a craft/POV question | asks whether a character's collaborator dream sequence should be close or distanced narration | new question shifting to prose technique
+  - model | gives a POV recommendation | argues for close narration, tying the choice to thematic payoff and parallel scenes | reply on the POV question
+  - author | asks for more source material again | requests further real collaboration-government inspirations, this time excluding the Nazi era | follow-up broadening the inspiration request beyond the prior set
+  - model | supplies a second set of mapped case studies | four more historical cases matched to characters, plus a summary table | reply on non-Nazi collaboration analogues
+- kept:
+  - note 2889 | the plan held this text before this reply | already-planned intel about forced mass drugging, quoted back into a link between negotiation and combat-drug topics
+  - note 1668 | the plan held this text before this reply | already-planned dialogue on going in without a radio warning, quoted back onto a plot point about a character's account of events
+  - note 1669 | the plan held this text before this reply | already-planned reasoning on why an enemy group can't be spared, quoted back onto the same plot point
+  - note 3102 | pasted whole from this reply | a summary line on how peacetime openness was turned into a weapon, placed on a link between economic arguments and banking
+  - note 3113 | pasted whole from this reply | a general claim about collaborators' self-image, placed on a link between an arrest event and a collaborator-dream thread
+  - note 3114 | pasted whole from this reply | a sample self-justifying line for a collaborating character, placed on the same link
+  - note 3115 | pasted whole from this reply | a line on what the collaboration arrangement spares the occupier from doing, placed on the same link
+  - note 3116 | pasted whole from this reply | a sample rationalization line about currency stability and stewardship, placed on the same link
+  - note 2860 | pasted whole from this reply | reasoning on how close narration lets a dream's emotional residue linger into waking scenes, placed on a link between an arrival scene and a collaborator-dream thread
+  - note 3112 | pasted from this reply inside the author's own framing | the parallel between a dream sequence and a character's real-world rationalizations, reframed in the author's own words on the arrest/collaborator link
+  - note 3117 | pasted whole from this reply | a sample self-justifying line likening a character to a historical intermediary class, placed on the arrest/collaborator link
+  - note 3153 | pasted from this reply inside the author's own framing | the debt-for-conquest historical parallel, reframed with the author's own added detail, placed on a link between spy intel and the economic scheme
+  - note 3154 | pasted whole from this reply | the debt-trap mechanism applied to the tycoons, placed on the same spy-intel/economic-scheme link
+  - note 3155 | pasted whole from this reply | the point that the collaborators act from debt rather than ideology, placed on the same link
+  - note 3156 | pasted from this reply inside the author's own framing | a committee-of-collaborators idea, reframed with the author's own added detail plus the reply's line on how they see themselves, placed on the same link
+- brought: The author brought an evolving set of already-established plan elements — character histories, chapter outlines, a financial-scheme backstory, and prior tactical choices — as the basis for a running series of planning questions across chapters and themes.
+- loop: The author repeatedly brings a plan detail or a plot decision already in progress and asks the model to weigh options, check it against other planned chapters, or supply outside inspiration for it; the model returns structured analyses and historical mappings, and the plan absorbs this mainly as new argument-and-rationale text attached to the economic-scheme and collaborator-dream links, while a few notes simply show the model quoting the plan's own existing lines back at the author.

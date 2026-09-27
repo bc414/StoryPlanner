@@ -10233,3 +10233,131 @@
 - cost: 0.4046
 - turns: 2
 - session: 73ebeb03-b498-4050-9c0f-94ea4a3393f1
+
+### pp-237 — call 2
+
+- model: claude-sonnet-5
+- effort: high
+- harness: 2.1.280 (Claude Code)
+- directions hash: feb68606d61d130547cec14d5b9cde1d3b2379d5ad496eb0fe4c6918bb1c1cda
+- item hash: 7f80498efd459d468929ebaeaf612433530ed83e254288101caefea1f638300f
+- prompt hash: 3b6a9b52be577cd71a60f84ab83a17d9dd4bde3c1cc5630befc92d008937da38
+- started: 2026-09-27T23:18:04.0564078+00:00
+- ended: 2026-09-27T23:18:27.2633707+00:00
+- exit: 0
+- check: ok
+- cost: 0.0325
+- turns: 2
+- session: e73203b6-46c1-434a-9153-8202afd0d763
+
+### subject-41 — call 2
+
+- model: claude-sonnet-5
+- effort: high
+- harness: 2.1.280 (Claude Code)
+- directions hash: feb68606d61d130547cec14d5b9cde1d3b2379d5ad496eb0fe4c6918bb1c1cda
+- item hash: 85cdba7a2677943061d8ff26c7c069e6601f3f407b90bbc18f48bdeac455db48
+- prompt hash: 0da2fa90ef5a70eaa7525131fb01382514f7273d4a8ccb5862032e6dd02d5e58
+- started: 2026-09-27T23:18:04.0572848+00:00
+- ended: 2026-09-27T23:18:43.4184550+00:00
+- exit: 0
+- check: ok
+- cost: 0.0529
+- turns: 2
+- session: e41ab418-93d5-44c6-8b5a-b2d11abab1d1
+
+### pp-177 — call 2
+
+- model: claude-sonnet-5
+- effort: high
+- harness: 2.1.280 (Claude Code)
+- directions hash: feb68606d61d130547cec14d5b9cde1d3b2379d5ad496eb0fe4c6918bb1c1cda
+- item hash: febfed25f5325793b7c29d758590a58571062e02013d1f67c079161c38da5db4
+- prompt hash: 6b0a05c642d22c0f8e3ba37dd899bb5a10503f618b628052b17066b02dbed5a0
+- started: 2026-09-27T23:18:04.0538679+00:00
+- ended: 2026-09-27T23:18:50.3844208+00:00
+- exit: 0
+- check: ok
+- cost: 0.0596
+- turns: 2
+- session: 0ab06eac-557a-4a34-ad73-15713e010422
+
+### pp-317 — call 2
+
+- model: claude-sonnet-5
+- effort: high
+- harness: 2.1.280 (Claude Code)
+- directions hash: feb68606d61d130547cec14d5b9cde1d3b2379d5ad496eb0fe4c6918bb1c1cda
+- item hash: 04c2673dac5cc2ec9f2c87c15e76a8270c6d073f345a5fc3747bfc5149c283d2
+- prompt hash: d55450a414a2eea39b083fb58f3cf2376d5f413b592ed766e3eeb502322bfe34
+- started: 2026-09-27T23:18:51.9990048+00:00
+- ended: 2026-09-27T23:19:40.3966188+00:00
+- exit: 0
+- check: ok
+- cost: 0.0547
+- turns: 2
+- session: 9aaa3ac5-eef6-4b61-bc33-96d74adc082d
+
+### pp-285 — call 2
+
+- model: claude-sonnet-5
+- effort: high
+- harness: 2.1.280 (Claude Code)
+- directions hash: feb68606d61d130547cec14d5b9cde1d3b2379d5ad496eb0fe4c6918bb1c1cda
+- item hash: c0ea55c030722d9cb362afb6e4a0d545426e24c214fcd27c1244dea5a35f119f
+- prompt hash: c81316d60dbc49c7204ac5da2de51c00a9592b6233afb063574e0655c2b3dd29
+- started: 2026-09-27T23:18:04.0551381+00:00
+- ended: 2026-09-27T23:19:57.9373684+00:00
+- exit: 0
+- check: ok
+- cost: 0.1389
+- turns: 2
+- session: 4b2b8b4c-e542-4182-9fa6-afedf7158e88
+
+### pp-93 — call 2
+
+- model: claude-sonnet-5
+- effort: high
+- harness: 2.1.280 (Claude Code)
+- directions hash: feb68606d61d130547cec14d5b9cde1d3b2379d5ad496eb0fe4c6918bb1c1cda
+- item hash: 68a7ccaebeac038d6af4a1fb174fc14e70114e57aff8c80ced8e76552134e054
+- prompt hash: a7abad71342fe5b4fa481502c22f8ca5a75d6fa795aa7b725f54e6cddd9878de
+- started: 2026-09-27T23:19:03.2185449+00:00
+- ended: 2026-09-27T23:20:30.1090013+00:00
+- exit: 0
+- check: ok
+- cost: 0.0940
+- turns: 2
+- session: a77909db-e209-480c-9abb-fe9d9d862c97
+
+### pp-194 — call 2
+
+- model: claude-sonnet-5
+- effort: high
+- harness: 2.1.280 (Claude Code)
+- directions hash: feb68606d61d130547cec14d5b9cde1d3b2379d5ad496eb0fe4c6918bb1c1cda
+- item hash: c0b2919636946acbd0aa325d224342f2bd70671929ac7c0ac21b871118b1de28
+- prompt hash: 608ba7f141417db076be60a1091a36fd20f084688d4ea0582c0f7d87a9c97231
+- started: 2026-09-27T23:18:50.4794518+00:00
+- ended: 2026-09-27T23:22:06.2664971+00:00
+- exit: 0
+- check: ok
+- cost: 0.2318
+- turns: 2
+- session: 55f5cdee-1fc2-452c-9f9d-df9fb415ad00
+
+### pp-303 — call 2
+
+- model: claude-sonnet-5
+- effort: high
+- harness: 2.1.280 (Claude Code)
+- directions hash: feb68606d61d130547cec14d5b9cde1d3b2379d5ad496eb0fe4c6918bb1c1cda
+- item hash: ea443f0bee9565791ce0108ccd8b0118fcea1babca00fd9c20e9249c5180e98c
+- prompt hash: 97667c520708cf4fbf30c7f147b1b0d1254c5ecd5e1cfb8e60e0b0400cf1aabe
+- started: 2026-09-27T23:19:21.9944251+00:00
+- ended: 2026-09-27T23:22:36.5104261+00:00
+- exit: 0
+- check: ok
+- cost: 0.2179
+- turns: 2
+- session: 21bfb792-e786-4170-9db9-998354906173

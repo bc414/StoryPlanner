@@ -1,8 +1,14 @@
 # exploration-of-decisions-against-assistant-leans — leads
 
+- items with results: 698 of 2777
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results at a sample count; written before the rule that
+  leads are written by a fresh session
+
 ## Leads
 
-### exploration-of-decisions-against-assistant-leans/how-the-relation-divides-over-the-sample
+### exploration-of-decisions-against-assistant-leans/leads-1/how-the-relation-divides-over-the-sample
 - lead: Over 698 of the batch's 2,777 exchanges the readers named the relation between what the assistant's
   turn leaned toward and what the user turn decided. 213 exchanges hold no decision — the user turn is a
   question back, a remark or more material — and 114 hold no lean, the assistant having set out options
@@ -18,7 +24,7 @@
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-72522
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-93423
 
-### exploration-of-decisions-against-assistant-leans/the-three-kinds-of-user-turn-behave-differently
+### exploration-of-decisions-against-assistant-leans/leads-1/the-three-kinds-of-user-turn-behave-differently
 - lead: Read against the kind in the index's description column, the sample holds 602 ordinary typed
   messages, 68 answers to a multiple-choice question the assistant put, and 28 verdicts on a proposed plan.
   Of the 602 prompts: 119 took the lean, 58 with a change, 19 another option, 83 something not set out, 18
@@ -31,7 +37,7 @@
 - cites:
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-94958
 
-### exploration-of-decisions-against-assistant-leans/what-taking-something-not-set-out-looks-like
+### exploration-of-decisions-against-assistant-leans/leads-1/what-taking-something-not-set-out-looks-like
 - lead: The 99 exchanges where the decision took something the assistant had not set out fall into a few
   recognisable moves. Asking for a test before deciding: against a lean to create a hypothesis with a
   proposed statement, "neither approved nor rejected the statement; instead directed the assistant to test it
@@ -54,7 +60,7 @@
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-93423
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-86489
 
-### exploration-of-decisions-against-assistant-leans/a-reason-is-given-in-a-quarter-of-the-decisions
+### exploration-of-decisions-against-assistant-leans/leads-1/a-reason-is-given-in-a-quarter-of-the-decisions
 - lead: The grounds field records the reason the user turn gives for its choice in its own words, or none. A
   reason is given in 31 of the 68 multiple-choice answers, 151 of the 602 prompts, and 6 of the 28 verdicts.
   So a posed question draws a stated reason about half the time and an ordinary message about a quarter of the
@@ -68,7 +74,7 @@
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-86489
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-97177
 
-### exploration-of-decisions-against-assistant-leans/a-third-of-exchanges-hold-no-decision-to-compare
+### exploration-of-decisions-against-assistant-leans/leads-1/a-third-of-exchanges-hold-no-decision-to-compare
 - lead: 213 of the 698 exchanges hold no decision at all: the user turn asks something back, remarks, or
   supplies more material without settling anything. A further 114 hold no lean, the assistant having set out
   options without favouring one. So in nearly half the sample there is nothing to compare, which is itself a
@@ -77,36 +83,11 @@
 - cites:
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-123277
 
-### exploration-of-decisions-against-assistant-leans/rejecting-without-settling-is-concentrated-in-the-plan-verdicts
+### exploration-of-decisions-against-assistant-leans/leads-1/rejecting-without-settling-is-concentrated-in-the-plan-verdicts
 - lead: 32 of the 371 comparable exchanges reject without settling on anything. 11 of those 32 are verdicts on
   a proposed plan, though verdicts are only 28 of the 698 exchanges — so a plan verdict is about twenty times
   as likely to be a bare rejection as an ordinary message is.
 - seen in: plan verdicts across the code-sessions archive
-- cites:
-  - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-72522
-
-### exploration-of-decisions-against-assistant-leans/the-relation-over-all-2777-exchanges
-- lead: Over the whole batch, every one of the 2,777 exchanges answered: 914 hold no decision and 481 no lean.
-  Of the 1,381 where both are present, 607 took the lean (44%), 254 took it with a change (18%), 79 took
-  another option the assistant set out (6%), 315 took something the assistant did not set out (23%), and 126
-  rejected without settling (9%). The sample's picture holds at full count: the lean is taken unchanged in a
-  little under half the comparable exchanges, and something outside the offered options is chosen in nearly a
-  quarter.
-- seen in: exchanges from working sessions across the code-sessions archive
-- cites:
-  - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-91557
-  - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-93423
-
-### exploration-of-decisions-against-assistant-leans/plan-verdicts-over-all-2777-exchanges
-- lead: At full count, by the kind in the index's description column: of 2,363 prompts, 470 took the lean, 212
-  with a change, 71 another option, 275 something not set out, 62 rejected, 395 no lean, 878 no decision; of
-  287 answers to a posed question, 98 took the lean, 38 with a change, 7 another option, 33 something not set
-  out, 8 rejected, 75 no lean, 27 no decision; of 127 plan verdicts, 39 took the lean, 4 with a change, 1
-  another option, 7 something not set out, 56 rejected without settling, 11 no lean, 9 no decision. So a
-  verdict on a proposed plan is a bare rejection in 56 of the 107 verdicts that can be compared, where a
-  typed message is one in 18 and an answer to a posed question one in 23. A reason is given in 118 of the
-  287 answers, 577 of the 2,363 prompts and 27 of the 127 verdicts.
-- seen in: prompts, multiple-choice answers and plan verdicts across the code-sessions archive
 - cites:
   - exploration-of-decisions-against-assistant-leans/01-session-decisions/cs-72522
 

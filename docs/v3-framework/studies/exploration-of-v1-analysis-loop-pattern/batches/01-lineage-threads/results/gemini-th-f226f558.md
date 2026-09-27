@@ -1,0 +1,22 @@
+- steps:
+  - the author | presents design question | attached PlotPoint C# model, enum file, description of 4 analysis axes and their theoretical bases | opening message, before any file export existed
+  - the model | justifies and drafts | reasons for including the axes plus abbreviated JSON schema and legend, with sample code | immediately after the opening question
+  - the author | raises a naming conflict | notes custom enum wording chosen for UI vs need for LLM-facing terms, asks about legend mapping | after receiving the schema draft
+  - the model | resolves and updates code | recommends keeping custom words, adding a legend that maps them to academic terms, revises exporter | reply to the naming-conflict question
+  - the author | asks for reconstruction | admits forgetting which frameworks besides MICE/Freytag informed the phase axis, asks model to infer the missing one | after the legend-mapping fix
+  - the model | hypothesizes and offers alternatives | proposes Dwight Swain's Scene & Sequel as the likely source, lists Story Grid and McKee as backups, updates legend | reply to the reconstruction request
+  - the author | proposes own mapping | connects their existing ThreadTrajectory field to McKee's positive/negative value-charge concept | after the Scene & Sequel discussion
+  - the model | confirms and elaborates | validates the McKee mapping, explains its interpretive effect for the LLM, updates legend code | reply to the trajectory mapping
+  - the author | audits coverage | asks whether Conflict Type and Presentation also have academic frameworks or are self-explanatory | after the trajectory confirmation
+  - the model | classifies and lightly extends | explains these are standard literary vocabulary needing no citation, still adds a consistent legend tag, updates code | reply to the coverage audit
+  - the author | surfaces overlooked fields | points out existing Stakes and Outcome fields not yet in the export, asks to add them | after the conflict/presentation audit
+  - the model | justifies and adds | frames Stakes/Outcome as the causal chain around Synopsis, updates code to include them | reply to the Stakes/Outcome request
+  - the author | requests completeness check | asks whether any other useful narrative concepts remain unaddressed | after the Stakes/Outcome addition
+  - the model | finds unexported fields and maps them | identifies CharacterDevImpact and ThemeProminence in the existing enum file, maps to Lie/Truth arc theory and McKee's Controlling Idea, updates code | reply to the completeness check
+  - the author | requests quality check | asks whether the schema now has redundancies or confusing elements | after the completeness addition
+  - the model | finds and fixes a bug, validates the rest | flags Trajectory serializing as a number instead of text and fixes it, confirms other choices (filtering Unset, referencing entities by name) are sound | reply to the quality-check request
+  - the author | submits the artifact for review | attaches the full plan export document for evaluation | after the schema design sequence concludes
+  - the model | delivers a full critical analysis with an alternate draft | produces thematic, character-arc, worldbuilding, and pacing analysis with a letter-grade verdict, plus a second alternate version of the same analysis | reply to the plan-export attachment
+- kept:
+- brought: The author brought their existing PlotPoint model, enum definitions, and unaddressed fields from their own codebase to shape an LLM-export schema, then later brought the completed story plan export itself for literary evaluation.
+- loop: The loop here is technical and evaluative rather than plan-building: the author repeatedly brings pieces of an already-built data model (axes, enums, fields) and asks the model to justify, map to academic frameworks, or debug their inclusion in an export schema, and then separately submits the finished plan for a one-off critical verdict — with no note in the planning database tracing back to any of it.

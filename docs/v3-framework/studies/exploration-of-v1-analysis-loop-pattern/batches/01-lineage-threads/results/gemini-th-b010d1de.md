@@ -1,0 +1,19 @@
+- steps:
+  - author | requests a tool | asks for a script that packages code like a github import tool for LLM upload | opening exchange of the thread
+  - model | delivers a script | provides packager.py with directory/extension ignore lists and usage instructions | opening exchange
+  - author | brings an artifact for review | supplies the first-pass dump output and asks what's unnecessary and what to change | second exchange
+  - model | diagnoses and revises | names .NET build/IDE junk in the dump and returns an updated script with new ignores | second exchange
+  - author | brings an artifact for review | supplies the new dump and asks if it's good or needs more big changes | third exchange
+  - model | diagnoses and revises | flags EF migrations and IDE settings files as remaining noise and gives targeted script additions | third exchange
+  - author | brings an artifact for review | supplies the script plus a sample output again and asks if it's ready or needs big improvements | fourth exchange
+  - model | verdict plus optional upgrades | declares the script ready and offers optional structural improvements (tree view, xml tags, size cap, whitespace trim, gitignore parsing) | fourth exchange
+  - author | brings planning materials and a design question | supplies source code, a database markdown export, a writing-craft reference document, and app screenshots, then describes how notes on entities mix psychology, economics, statecraft and timeline, and asks how to organize fabula for a multi-POV epic | fifth exchange
+  - model | analysis plus proposed schema | frames the problem as entity overloading, proposes orthogonal entity-type roles and additional organizational nuances, ends by asking which system feels most entangled | fifth exchange, first draft response
+  - model | alternate analysis plus proposed schema | reframes the same problem via a god-object analogy and professional-author practice, restates entity roles and nuances in different terms, ends with a different follow-up question | fifth exchange, second draft response
+  - author | pivots to an unrelated technical question | asks for a full technical breakdown of what the retry shorter/longer buttons do | sixth exchange
+  - model | technical explanation | describes meta-prompting, parameter manipulation, global vs inline execution paths, and compute/caching implications | sixth exchange
+  - author | asks a follow-up technical question | asks whether longer can be set as a default and whether shorter/longer feed the current response back in or roll back | seventh exchange
+  - model | technical explanation | states no default toggle exists, offers workarounds, and confirms the mechanism is a rollback rather than feed-forward | seventh exchange
+- kept:
+- brought: The author brought a fabula/syuzhet organization problem into the conversation, supplying source code, a database export, a writing-craft reference document, and app screenshots, describing how notes on entities like Queen Chrysalis currently mix psychology, economics, statecraft and timeline together.
+- loop: The author repeatedly brought artifacts and questions across unrelated topics — a packaging script's output for iterative cleanup, then a large entity-organization design problem, then two technical questions about UI mechanics — and each time the model returned an analysis, revision, or explanation in place, but the archive shows nothing from any of these exchanges was carried back into the planning database.

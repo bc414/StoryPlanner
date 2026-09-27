@@ -1,8 +1,14 @@
 # exploration-of-working-plan-theme-notes-content — leads
 
+- items with results: 105 of 105
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-working-plan-theme-notes-content/kinds-of-claim-across-the-theme-tagged-notes
+### exploration-of-working-plan-theme-notes-content/leads-1/kinds-of-claim-across-the-theme-tagged-notes
 - lead: The readers cut the 105 theme-tagged notes into 281 claims, a median of 3 per note and 8 at the
   most. 149 claims over 78 notes are design commitments — something the author is settling as so. 85
   claims over 65 notes are readings — what some given fact means. 30 claims over 27 notes are
@@ -18,7 +24,7 @@
   - rq1 batch=exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes answered=105 field=claims where kind~"^(?!(design commitment|reading|restatement)$)" view=cites
   - rq1 batch=exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes answered=105 field=claims view=terms col=kind top=14
 
-### exploration-of-working-plan-theme-notes-content/claims-answering-a-question-their-own-track-does-not-ask
+### exploration-of-working-plan-theme-notes-content/leads-1/claims-answering-a-question-their-own-track-does-not-ask
 - lead: Asked whether each claim answers the question its note's own track asks, the readers said yes for
   64 claims over 45 notes, no for 71 claims over 44 notes, and partly for 146 claims over 88 notes. The
   71 that answer something else are dominated by world questions rather than thematic ones: how a spell
@@ -34,7 +40,7 @@
   - rq1 batch=exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes answered=105 field=claims where fits~^partly view=cites
   - rq1 batch=exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes answered=105 field=claims where kind~"^design commitment$" where fits~^no sample=14 seed=3 view=list
 
-### exploration-of-working-plan-theme-notes-content/how-the-notes-stand-to-the-theme-they-carry
+### exploration-of-working-plan-theme-notes-content/leads-1/how-the-notes-stand-to-the-theme-they-carry
 - lead: On the whole-note question of how each note stands to the theme it is tagged with: 41 supply
   evidence for the proposition without arguing it, 20 argue the proposition, 18 name the theme or its
   territory without arguing it, 9 do not touch the theme at all, 3 were read as holding no text of their
@@ -49,7 +55,7 @@
   - exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes/note-2553
   - exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes/note-2
 
-### exploration-of-working-plan-theme-notes-content/notes-that-do-not-touch-the-theme-they-are-tagged-with
+### exploration-of-working-plan-theme-notes-content/leads-1/notes-that-do-not-touch-the-theme-they-are-tagged-with
 - lead: 9 theme-tagged notes were read as not touching their theme at all: the tag is on the note and the
   note says nothing about the proposition. One, on Applejack's Characterization track, describes her
   starting attitude to industry and is tagged with a strength-and-mercy proposition; another states how
@@ -67,7 +73,7 @@
   - exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes/note-2
   - exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes/note-2149
 
-### exploration-of-working-plan-theme-notes-content/notes-that-restate-their-theme-or-a-neighbour
+### exploration-of-working-plan-theme-notes-content/leads-1/notes-that-restate-their-theme-or-a-neighbour
 - lead: 30 claims over 27 notes restate what the theme's own proposition, or a note beside them, already
   says and add nothing. In two the note's whole text is a near-restatement of the proposition on the
   line above it in the item — one reads "The family and material conditions you grew up in determines
@@ -82,7 +88,7 @@
   - exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes/note-2539
   - exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes/note-2469
 
-### exploration-of-working-plan-theme-notes-content/which-tracks-the-theme-tag-sits-in
+### exploration-of-working-plan-theme-notes-content/leads-1/which-tracks-the-theme-tag-sits-in
 - lead: Read against the index's description column, the 105 theme-tagged notes sit in nine tracks:
   Themes 41 and Theme Plan 41 between them carry four fifths, then Scene Theme Evidence 10, Scene Thesis
   4, Reader Prior Belief Clash 4, Scene Thematic Evidence 2, and one each in Theme Evidence, Gap Meaning
@@ -94,14 +100,14 @@
 - cites:
   - exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes/note-2
 
-### exploration-of-working-plan-theme-notes-content/an-empty-note-carrying-a-theme-tag
+### exploration-of-working-plan-theme-notes-content/leads-1/an-empty-note-carrying-a-theme-tag
 - lead: One theme-tagged note has no text at all. The tag, the track and the owner are recorded and the
   note itself is blank.
 - seen in: one theme-tagged note in the working plan
 - cites:
   - exploration-of-working-plan-theme-notes-content/01-theme-tagged-notes/note-398
 
-### exploration-of-working-plan-theme-notes-content/the-questions-the-claims-answer
+### exploration-of-working-plan-theme-notes-content/leads-1/the-questions-the-claims-answer
 - lead: The readers were asked to write, for each claim, the question it answers in one clause of their
   own words. Over 281 claims the column holds 794 distinct words: "what" opens 207 of the lines, "how"
   41, "why" 32, "who" 19, "when" 13, "where" 10. The recurring subjects are technology (21 lines),

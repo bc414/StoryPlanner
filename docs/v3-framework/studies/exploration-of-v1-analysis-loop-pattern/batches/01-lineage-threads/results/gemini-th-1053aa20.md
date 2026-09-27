@@ -1,0 +1,43 @@
+- steps:
+  - author | reinterpretation+worldbuilding clarification | recasts Fleur's giggle as an inside joke tied to Henri's past, adds Coltbert's origin, Celestia's immigration policy, bat pony racism, Luna's culture shock | at gemini:306 prompt
+  - model | elaboration | expands each clarification into scene implications, cultural logic, and a summary thematic arc | at gemini:306 response
+  - author | scene-mechanics addition | specifies the staged dialogue and cover story for the Fleur/Henri exit and how Applejack's distraction makes her miss it | at gemini:307 prompt
+  - model | drafting | writes matching setup and payoff scene prose with dialogue plus a thematic rationale | at gemini:307 response
+  - author | worldbuilding request | asks for deepened cultural nuance for two tribes with named real-world parallels (pre-colonial Americas, Kurdish) | at gemini:308 prompt
+  - model | comparative research | supplies historical parallels and a structured breakdown of both cultures including Applejack's reaction to each | at gemini:308 response
+  - author | synthesis | affirms the material and states its narrative function as a proving ground for the story's economic theme | at gemini:309 prompt
+  - model | affirmation and options | expands on the proving-ground framing and offers directions for further brainstorming | at gemini:309 response
+  - author | plan import and request | pastes prior planning notes on the school and Storm King arc, asks how they explain worldbuilding absences and invites connections | at gemini:310 prompt
+  - model | connective analysis | ties the pasted backstory to the ongoing theme, supplies a canon-sourced name for an unnamed role, offers further scene options | at gemini:310 response
+- kept:
+  - note 96 | the author's own words in this record | keeps the author's drafted exchange of Twilight confronting Celestia about hidden sexuality, filed to the sex-reveal plot point
+  - note 345 | the author's own words in this record | keeps the corrected motive for Fleur's giggle and the delayed-realization structure, filed to the party plot point
+  - note 347 | one sentence lifted from this reply | keeps a single summarizing line framing Fleur's giggle as an inside joke, filed to the same party plot point
+  - note 348 | pasted from this reply with cuts | keeps the model's phrasing of Applejack later grasping the inside joke, trimmed, filed to the same party plot point
+  - note 349 | pasted from this reply with cuts | keeps the model's phrasing of Applejack's realization about Red Love and her own blindness, trimmed, filed to the same party plot point
+  - note 3264 | pasted from this reply with cuts | keeps the model's line that Thestrals prove Stagnation was a deliberate choice, filed to a scene-and-era link
+  - note 4177 | pasted from this reply inside the author's own framing | keeps the model's Day/Night contrast for Celestia and Luna, wrapped in the author's added note on Luna's trauma-driven passivity, filed to the Luna subject
+  - note 346 | the author's own words in this record | keeps the expanded staging of the tech-and-tactics cover story and Applejack's obliviousness, filed to the party plot point
+  - note 4169 | pasted whole from this reply | keeps the model's line on Applejack reading Tzinacatl infighting as dishonesty, filed to the Tzinacatl subject
+  - note 4170 | pasted whole from this reply | keeps the model's Kurdish Ashiret historical parallel, filed to the Temberik subject
+  - note 4171 | pasted from this reply with cuts | keeps the model's description of the Diwan and shared communal labor, trimmed, filed to the Temberik subject
+  - note 4172 | pasted whole from this reply | keeps the model's line on Applejack's mixed respect and frustration toward Temberik isolationism, filed to the Temberik subject
+  - note 4173 | pasted whole from this reply | keeps the model's summary label for the Temberik as order without progress, filed to the Temberik subject
+  - note 4174 | pasted from this reply with cuts | keeps the model's summary label for the Tzinacatl as chaos without purpose, trimmed and extended with the author's own addition, filed to the Tzinacatl subject
+  - note 329 | the author's own words in this record | keeps the original notes on Rainbow's reasons for leaving the school plus an added rhetorical contrast, filed to Rainbow's plot point
+  - note 335 | the author's own words in this record | keeps the notes on Fizzlepop's return and Celestia's rebuke of Twilight, filed to the Zebrica-rescue plot point
+  - note 336 | the author's own words in this record | keeps the notes on Twilight confronting Celestia over past inaction, filed to the same plot point
+  - note 337 | the author's own words in this record | keeps the note on Twilight cancelling the school, filed to the same plot point
+  - note 338 | the author's own words in this record | keeps the note on Twilight rejecting becoming Celestia, filed to the same plot point
+  - note 340 | the author's own words in this record | keeps the notes on Celestia's combat ban and its hidden Nightmare-Moon rationale, filed to the front-disobedience plot point
+  - note 2297 | the author's own words in this record | keeps notes on a Rainbow-and-Pinkie exchange, filed to a Rainbow/Pinkie link
+  - note 4164 | the author's own words in this record | keeps a condensed note on Rainbow's militarization decision, filed to the Wonderbolts subject
+  - note 5051 | the author's own words in this record | keeps the original note on Twilight's founding vision for the school, filed to the School of Friendship subject
+  - note 5052 | the author's own words in this record | keeps the original note on Celestia's restriction of the school, filed to the same subject
+  - note 5053 | the author's own words in this record | keeps the original note on the deer snub, filed to the same subject
+  - note 5054 | the author's own words in this record | keeps the original note on the school's diminished scope, filed to the same subject
+  - note 5055 | the author's own words in this record | keeps the original note on Silverstream's departure, filed to the same subject
+  - note 813 | pasted from this reply with cuts | keeps the model's condensed line on Celestia's pattern of abandonment and Twilight's rejection of it, filed to the Reunion plot point
+  - note 4163 | pasted whole from this reply | keeps the model's Storm-King-as-paper-tiger critique of isolationism, filed to the Isolationism subject
+- brought: The author brought a block of pre-existing planning notes on the School of Friendship and Storm King arc, pasting them in to extend and justify worldbuilding gaps.
+- loop: The author repeatedly feeds precise headcanon corrections, staging details, and cultural-parallel requests, and the model returns extensive elaborations, drafted scene prose, and researched analogies in reply; the database ends up keeping mostly the author's own restated notes for plot mechanics and pasted-and-trimmed model phrasings for thematic or character summaries, distributed across the specific plot points, subjects, and links each passage concerns.

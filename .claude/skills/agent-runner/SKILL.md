@@ -21,11 +21,10 @@ tool's infinite retry of one failing call left 9,245 transcripts in the project 
 ```
 AgentRunner.exe start                                     start the host if none answers; open http://127.0.0.1:5190
 AgentRunner.exe stop [--now]                              stop the host after in-flight calls (--now: kill them)
-AgentRunner.exe dry-run-batch <definition.md> [--random]
+AgentRunner.exe dry-run-batch <definition.md>
                                                           compose every call in memory, write nothing (serverless)
-AgentRunner.exe execute-batch <definition.md> [--at HH:mm|ISO|reset] [--random]
-                                                          one call per item without a result, in index order or, under
-                                                          --random, in one shuffle of it
+AgentRunner.exe execute-batch <definition.md> [--at HH:mm|ISO|reset]
+                                                          one call per item without a result, in the cut's order
 AgentRunner.exe tally-batch   <definition.md> [--group-by item|locator|description]
                                                           print tally.md, writing it first if the host never did
                                                           (serverless); --group-by prints a cross-tab view, writes nothing
@@ -103,8 +102,8 @@ batches/03-scene-notes/
                      (schemas/definition-schema.md): directions by path, kind, calibration, model,
                      effort
   index.md           written by the itemizer or collator, one row per item with its locator
-                     (schemas/index-schema.md); the runner calls the items in its order, or
-                     in one shuffle of it under --random
+                     (schemas/index-schema.md); the runner calls its items in the cut's
+                     order, never the index's own
   items/<item>.md    the item bodies, uncommitted and regenerable by that tool; each call
                      hashes the body it received
   calls.md           written by the runner: the definition's hash at its head, then one entry
@@ -209,11 +208,22 @@ tokens for as long as the model writes.
 resume launching, stop after in-flight, cancel one running call (recorded `cancelled`, exit
 -4), the host's ceiling, the cap, the idle limit. Nothing changes a batch's model, directions
 or items, and nothing calls an item that has answered — those are a new batch, since a
-definition is never edited. Knob changes go to the log with timestamps. The order the pending
-items are called in is harness control too: the index's by default, or one shuffle of it
-drawn when the execution is created under `--random` — an execution's setting, and no call
-is different for it; the execute's answer, the log and the page say "random order" when it
-is in effect.
+definition is never edited. Knob changes go to the log with timestamps.
+
+**The cut's order** (d-2026-09-27-5). Every execution calls its pending items in ascending
+order of the SHA-256 hash of each item's slug, the id its index row carries, taken over the
+slug's UTF-8 bytes; `StoryPlanner.BatchFiles.CutOrder` computes it, and DocIntegrity reads the
+same function. The hash depends on the slug alone, so every batch cut the same way calls its
+items in the same order, whatever the study, the directions version or the execution: a
+directions revision stopped at a given count has answered the same items, a resumed or later
+execution continues the same sequence, a pilot's items are the first of the order for every
+version, and items an itemizer change drops leave the order while the rest keep their places.
+The order spreads the first calls across chapters and stories, which is what the retired
+`--random` shuffle was for; there is no flag and no setting, and the index keeps its natural
+order for reading. An execution may be stopped at any count, by a person or the cap, and a
+later one continues it. Items a batch answered out of the cut's order — by the queue jump, or
+while a failed call waited for the next execution — are derived from the calls file and shown
+per batch in the `v3-buildout` skill's `state.md`.
 
 **The queue jump** (2026-09-15) is the one control that launches: an item pending in the
 live execution, called now, past the ceiling and the cap, taking a slot the gate counts from
@@ -224,7 +234,7 @@ under its number, composed, recorded and checked like any other. An item already
 this execution is refused, since a second call under one number has nowhere to go, so a failed item still
 waits for the next execute-batch; so is an item running or answered. Refused once stop is
 requested; allowed under pause, which holds the loop and not the hand. The jump goes to the
-log and never to the calls file, like the order of calls.
+log and never to the calls file; the item it called shows as answered out of the cut's order.
 
 **A refused launch is not a call** (d-2026-09-15-4). When the subscription limit is reached
 the harness turns a launch away before any work: a `rate_limit_event` with status `rejected`,
@@ -259,7 +269,7 @@ GET  /api/host                              ceilings, idle limit, in flight, hol
 GET  /api/batches                           every batch's summary
 GET  /api/batches/<id>                      one batch: items with state/calls/exit/check/cost/callable, stages
 GET  /api/stream?batch=<id>&item=<item>&tail=N   the last N events of the item's latest call
-POST /api/batches         {"path": "<abs definition.md>", "notBefore": "<ISO>"?, "random": true?}   execute (or schedule)
+POST /api/batches         {"path": "<abs definition.md>", "notBefore": "<ISO>"?}   execute (or schedule)
 POST /api/batch-control   {"batch": "<id>", "action": "pause|resume|stop|cancel|unschedule|call", "item"?}
                                             call is the queue jump; a refusal answers 400 with why
 PUT  /api/host/settings   {"maxParallel"?, "utilizationCap"?, "idleMinutes"?}
@@ -367,6 +377,13 @@ read as a bill.
   page could pause, call one item now and execute a row, the flag encoded a practice the
   controls already served, so it left with its mark, its stage and its refusal of `--random`.
   Calls files from before that date keep their `pilot` lines; the parser ignores them.
+- **A fresh shuffle made partial counts incomparable** (2026-09-27, d-2026-09-27-5).
+  `--random`, added 2026-09-15 so a pilot would not be one story's first chapters, drew an
+  unseeded shuffle at each execution and wrote it only to the log, so two batches of one study
+  stopped at one count answered different items, and leads written at a partial count rested on
+  a set no one could name. The flag left the CLI, the execute route and the page; the cut's order
+  keeps its purpose and is the same every time. Batches executed under it before that date show
+  their answered items out of the cut's order in `state.md`, which is what happened.
 
 ## Two mechanisms, one line between them
 
@@ -402,7 +419,7 @@ that has answered is never called again, and a different answer wants a new batc
 
 `dotnet test tests/StoryPlanner.Tests --filter "FullyQualifiedName~Batch|FullyQualifiedName~Runner|FullyQualifiedName~Tally|FullyQualifiedName~Collator|FullyQualifiedName~Stream|FullyQualifiedName~Head"`
 covers the batch files, the loop under a fake launcher (one call per item, the render, the
-calls file, a later execution, random order, the gate, pause, stop, cancel, the queue jump), the catalog and
+calls file, a later execution, the cut's order, the gate, pause, stop, cancel, the queue jump), the catalog and
 stages, the tally, the collator's items, the stream reader, the JSON routes over a
 loopback listener, and the leaf components under bUnit. The round trip through the real CLI
 is `SmokeTest`, one item in a temporary folder, run with `STORYPLAN_RUNNER_SMOKE=1` set; it

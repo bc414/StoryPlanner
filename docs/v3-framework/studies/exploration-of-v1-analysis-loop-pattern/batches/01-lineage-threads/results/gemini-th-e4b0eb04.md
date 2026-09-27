@@ -1,0 +1,31 @@
+- steps:
+  - author | extend-question | asks which other spells run on the established charitostatic effect | opening prompt of the stretch
+  - model | catalog-analysis | structural breakdown of five spells/artifacts tied to the effect | first response
+  - author | narrow-question | reframes the question to the effect combined with active thymodynamics | second prompt
+  - model | catalog-analysis | expanded breakdown adding new spells/artifacts to the list | second response
+  - author | propose-term | suggests a canon-derived colloquial name for the effect | third prompt
+  - model | validate-elaborate | builds out justification and usage scenarios for the proposed term | third response
+  - author | correct-term | points out the proposed term conflicts with its canon meaning, asks for a better fit | fourth prompt
+  - model | offer-alternatives | lists several candidate terms and argues for one as the winner | fourth response
+  - author | adopt-and-apply | accepts the winning term, asks for it to be mapped onto canon show episodes via an attached transcript document | fifth prompt
+  - model | reinterpret-episodes | walks through several canon episodes reframed under the new term | fifth response
+  - author | apply-to-scene | proposes using the term in a specific siege scene and asks whether the approach works | sixth prompt
+  - model | validate-mechanic | breaks down the mechanic and thematic payoff of the proposed scene | sixth response
+  - author | request-etymology | asks for real-world etymology of the term and adds own observations about its in-universe scope | seventh prompt
+  - model | research-parallel | supplies real-world etymology and draws a thematic parallel to the story | seventh response
+  - author | spot-connection | notices the nursery rhyme's wording parallels an existing spell, proposes it as the in-story origin of the term | eighth prompt
+  - model | map-and-draft | maps rhyme phrases onto spell mechanics and drafts a discovery scene | eighth response
+  - author | request-production-history | asks where the show's writers got the rhyme and the term | ninth prompt
+  - model | research-history | supplies writers'-room adaptation history and repeats real-world etymology, offers an alternate draft answer | ninth response
+  - author | request-precision | asks specifically which episode first used the term versus just the rhyme | tenth prompt
+  - model | research-precision | cites the specific episodes for rhyme-only versus term-coined, with a synthesis and an alternate draft | tenth response
+- kept:
+  - note 3188 | the plan held this text before this reply | keeps the pre-existing research question about the cutie-mark spell, unchanged, on the Unified Theory of Magic link
+  - note 3212 | pasted from this reply with cuts | keeps a trimmed passage on Pinkie Pie's reality-bending tied to the effect, placed on the Pinkie Sense/Charitostatic link
+  - note 933 | the plan held this text before this reply | keeps pre-existing scene text featuring the rhyme, unaffected by this reply, on a PlotPoint
+  - note 1646 | pasted from this reply inside the author's own framing | keeps a short dialogue naming the term, placed under author framing on a Combat Magic Training PlotPoint
+  - note 1700 | the plan held this text before this reply | keeps pre-existing scene text invoking the rhyme/promise, unchanged, on a PlotPoint
+  - note 5541 | one sentence lifted from this reply | keeps one sentence on the term's in-world cultural transmission, placed on the Wings of Dew subject
+  - note 3250 | pasted from this reply inside the author's own framing | keeps the rhyme-to-spell-mechanic breakdown, placed on a Combat Magic Training × Wings of Dew link, with an added tie to another scene folded into the author's framing
+- brought: The author brought forward an already-established magic-system concept from the plan and, partway through, an attached transcript collection of canon show episodes, using both as raw material to extend, rename, and re-derive the concept's in-world terminology and origin.
+- loop: The author kept pushing the model to extend one established magic mechanic outward — first to more spells, then to a fitting colloquial name, then to canon reinterpretation, real-world etymology, and an in-story origin scene — while the model alternated between cataloging, validating, correcting course, and researching; the plan kept only small pieces from this back-and-forth (a trimmed passage, a lifted sentence, two short dialogue/mapping fragments) folded into existing PlotPoint, Link, and Subject entries, alongside several notes that show the plan already held related material before these replies arrived.

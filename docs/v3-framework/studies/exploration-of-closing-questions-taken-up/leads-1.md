@@ -1,8 +1,14 @@
 # exploration-of-closing-questions-taken-up — leads
 
+- items with results: 801 of 1619
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results at a sample count; written before the rule that
+  leads are written by a fresh session
+
 ## Leads
 
-### exploration-of-closing-questions-taken-up/most-closing-questions-are-never-taken-up
+### exploration-of-closing-questions-taken-up/leads-1/most-closing-questions-are-never-taken-up
 - lead: Over 801 of the batch's 1,619 model turns ending in a question, the readers named 1,293 questions
   put to the user. Of those, 868 over 529 exchanges were ignored — the next user turn goes on to something
   else and never touches them; 228 over 144 had no user turn at all, the conversation ending there; 96 over
@@ -20,7 +26,7 @@
   - rq1 batch=exploration-of-closing-questions-taken-up/01-question-endings answered=801 field=questions where outcome~^answered view=cites
   - rq1 batch=exploration-of-closing-questions-taken-up/01-question-endings answered=801 field=questions where outcome~^refused view=cites
 
-### exploration-of-closing-questions-taken-up/the-three-layers-differ-in-how-they-fail-to-answer
+### exploration-of-closing-questions-taken-up/leads-1/the-three-layers-differ-in-how-they-fail-to-answer
 - lead: Read against the item ids, which carry the layer, the rate of ignoring is highest in the Claude
   conversations and lowest in the Gemini web layer, while the rate of conversations simply ending at the
   question is the reverse. Of the Gemini web layer's 419 answered exchanges: 307 question lines ignored
@@ -36,7 +42,7 @@
   - exploration-of-closing-questions-taken-up/01-question-endings/gemini-2015-response
   - exploration-of-closing-questions-taken-up/01-question-endings/aistudio-67-t93
 
-### exploration-of-closing-questions-taken-up/what-the-user-turn-does-instead-is-redirect
+### exploration-of-closing-questions-taken-up/leads-1/what-the-user-turn-does-instead-is-redirect
 - lead: On the separate whole-turn question of what the user turn does, the word that dominates every layer
   is redirect: 167 of the Gemini web layer's turns, 103 of the Claude conversations', 50 of AI Studio's.
   Correcting the model comes next (48, 71, 30), then giving an instruction (55, 28, 5), then ending the
@@ -47,7 +53,7 @@
 - query:
   - rq1 batch=exploration-of-closing-questions-taken-up/01-question-endings answered=801 field=questions view=health
 
-### exploration-of-closing-questions-taken-up/the-user-turns-settle-a-great-deal-that-the-question-did-not-ask
+### exploration-of-closing-questions-taken-up/leads-1/the-user-turns-settle-a-great-deal-that-the-question-did-not-ask
 - lead: Beside the questions, the readers were asked to record every decision about the work itself that the
   user turn settles. Over the 801 exchanges they recorded 1,642 such decisions — 715 in the Claude
   conversations layer, 516 in the Gemini web layer, 411 in AI Studio — roughly two per exchange, against
@@ -57,7 +63,7 @@
 - query:
   - rq1 batch=exploration-of-closing-questions-taken-up/01-question-endings answered=801 field=settles view=health
 
-### exploration-of-closing-questions-taken-up/one-exchange-in-six-has-no-user-turn-after-the-question
+### exploration-of-closing-questions-taken-up/leads-1/one-exchange-in-six-has-no-user-turn-after-the-question
 - lead: 228 question lines over 144 exchanges have no user turn after them: the conversation ends on the
   model's question. This is the second commonest outcome, and it is concentrated in AI Studio (82 lines over
   140 answered exchanges, 28%) and the Gemini web layer (109 over 419, 21%) rather than in the Claude
@@ -66,26 +72,13 @@
 - query:
   - rq1 batch=exploration-of-closing-questions-taken-up/01-question-endings answered=801 field=questions where outcome~"^no user turn" view=cites
 
-### exploration-of-closing-questions-taken-up/how-many-questions-a-closing-turn-puts
+### exploration-of-closing-questions-taken-up/leads-1/how-many-questions-a-closing-turn-puts
 - lead: A model turn that ends in a question puts a median of 2 questions to the author and up to 12; 1,293
   question lines over 801 exchanges. So the closing question is usually a small set rather than one, which
   means the count of ignored questions per turn is higher than the count of turns that ignored something.
 - seen in: model turns across all three layers
 - query:
   - rq1 batch=exploration-of-closing-questions-taken-up/01-question-endings answered=801 field=questions view=health
-
-### exploration-of-closing-questions-taken-up/outcomes-over-1617-of-1619-exchanges
-- lead: Over 1,617 of the batch's 1,619 exchanges — two items never returned a successful call — the readers
-  named 2,612 questions put to the author. 1,762 were ignored (67%), 427 had no user turn after them (16%),
-  189 were partly answered (7%), 166 answered (6%) and 67 refused (3%). By layer: the Gemini web layer's 869
-  exchanges ignored 61% and ended on the question 22% of the time, answering 6%; AI Studio's 274 ignored 67%,
-  ended 22%, answered 1%; the Claude conversations' 474 ignored 72%, ended 7%, answered 8%. The user turns
-  after these questions settled 3,377 decisions about the work, about two per exchange. The sample's picture
-  holds at full count.
-- seen in: model turns across the Gemini web, AI Studio and Claude conversations layers
-- query:
-  - rq1 batch=exploration-of-closing-questions-taken-up/01-question-endings answered=1617 field=questions view=health
-  - rq1 batch=exploration-of-closing-questions-taken-up/01-question-endings answered=1617 field=settles view=health
 
 ## Proposed questions
 

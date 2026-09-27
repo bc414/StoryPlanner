@@ -1,0 +1,14 @@
+- steps:
+  - author | raises a continuity question | whether Rarity's surprise fits given the friends have only spoken by radio and whether the relationship is public or merely publicized | opening of the single prompt
+  - author | poses a timeline question | whether Rarity would have noticed a season-2-era crush and its later suppression | same prompt, second point
+  - author | issues a terminology correction | specifies "parloir" as the term to use, ruling out "boudoir" or "nocturne" | same prompt, mid-point
+  - author | states a plot constraint | notes that Twilight does not know about the matter under discussion | same prompt, mid-point
+  - author | supplies new character backstory | lays out Mali's special talent, motivations, parloir work, and reaction to Luna's return | same prompt, main body
+  - author | adds a naming detail | specifies Mali chose the name "Tempest Wind" herself, which her mother reads as erasure | same prompt, closing lines
+  - model | analyzes an emotional arc across time | splits Rarity's perception into a season-2 spark, a princess-era suppression, and a present-day resurrection, answering the author's first two questions together | first section of the reply
+  - model | interprets a naming and mission choice | frames the self-chosen name as translation rather than erasure and casts the parloir work as grassroots diplomacy | second section of the reply
+  - model | drafts a revised scene | writes out a beat-by-beat "icebreaker" scene showing the visual shock, a parloir-defending exchange, and Mali's testimony | third section of the reply
+  - model | states a thematic payoff | ties Rarity's history, the couple's relationship, and Mali's philosophy into a definition of the story's harmony theme | closing section of the reply
+- kept:
+- brought: The author brought a bundle of continuity questions, a terminology correction, and new backstory/lore for a secondary character (Mali/Tempest Wind) to refine an upcoming reunion scene between Rarity, Twilight, and Applejack.
+- loop: The author supplied corrections and fresh lore in one dense message and the model returned an interpretive analysis plus a drafted scene and thematic statement, but no note in the planning database traces back to this exchange, so whatever came of it left no recorded trace in the plan for this stretch.

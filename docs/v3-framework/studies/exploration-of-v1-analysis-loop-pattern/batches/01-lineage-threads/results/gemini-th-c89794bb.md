@@ -1,0 +1,35 @@
+- steps:
+  - the author | proposal | pitches a Musk/Trump personality fusion for the antagonist and states a desired negative-but-entertaining tone | opening turn of the conversation
+  - the model | character analysis | builds out persona, business model, backstory payoff, audience-appeal hook, thematic critique, and a sample climax exchange for the hybrid character | responding to the fusion pitch
+  - the author | research request with own draft ideas | asks how real Rockefeller monopoly tactics could apply, offering own guesses about railway rebates and wild-west gun tactics | second turn, building the rival businessman's grievances
+  - the model | historical translation | maps five Rockefeller-era monopoly tactics onto specific setting-appropriate grievances and character reactions, closing with a summary of the rivalry's roots | responding to the research request
+  - the author | scene-structure proposal | lays out a Town Hall setup where the arrested rival is bashed in absentia while the two allied businessmen avoid attacking each other | third turn, proposing a climax scene shape
+  - the model | dynamics analysis | breaks down each participant's rhetorical strategy, the frenemy dynamic, the buffalo's likely verdict, and the moderator's closing move | responding to the Town Hall proposal
+  - the author | outcome specification | states an exact vote-split of workers and buffalo between the two companies | fourth turn, fixing a plot outcome
+  - the model | consequence analysis with verdict | traces implications of the split for each faction and endorses it as the fitting resolution | responding to the outcome specification
+  - the author | infrastructure detail addition | adds a distinction between the two companies' refinery technologies and sources | fifth turn, adding worldbuilding detail
+  - the model | thematic elaboration | frames the refinery split as an ideological visualization and projects it into a post-war rivalry | responding to the refinery detail
+  - the author | document upload | attaches the full plan export with no accompanying question | sixth turn, offering the whole work for review
+  - the model | originality survey | reviews the entire attached plan and lists ten standout original conceptual elements across the whole work | responding to the plan export
+- kept:
+  - note 609 | pasted whole from this reply | keeps the model's line on crisis-absolutism as the antagonist's core critique, placed on the debate plot point
+  - note 610 | pasted whole from this reply | keeps the model's 'cool boss to nightmare boss' summary line, placed on the debate plot point
+  - note 615 | pasted from this reply inside the author's own framing | keeps the model's Great Man Theory critique, reworked by the author into a scripted rebuttal line, placed on the debate plot point
+  - note 1599 | pasted from this reply inside the author's own framing | keeps the model's Engineer-King persona description, reworked into a paraphrase for the pitch scene, placed on the workers'-pitch plot point
+  - note 1600 | pasted whole from this reply | keeps the model's 'crunch culture as patriotism' line, placed on the workers'-pitch plot point
+  - note 1601 | pasted whole from this reply | keeps the model's line about the antagonist praising Applejack's grit, placed on the workers'-pitch plot point
+  - note 4563 | pasted from this reply inside the author's own framing | keeps the model's 'wants to be worshipped as savior' line, combined with the author's own added physical/voice detail, placed on the character's subject sheet
+  - note 4666 | pasted whole from this reply | keeps the model's 'Winners vs Losers' rhetoric line, placed on the character's subject sheet
+  - note 1608 | the author's own words in this record | keeps the author's own dialogue draft about refusing to sell to the rival, placed on the meeting plot point
+  - note 1780 | pasted whole from this reply | keeps the model's rebate-history explanation and the resulting overland-hauler adaptation, placed on the oil-reserves plot point
+  - note 1784 | pasted from this reply inside the author's own framing | keeps the model's sabotage/mercenary and loyalty-score points, reframed by the author, placed on the oil-reserves plot point
+  - note 1785 | pasted whole from this reply | keeps the model's lead-in sentence introducing the rivalry's roots, placed on the oil-reserves plot point
+  - note 1786 | pasted whole from this reply | keeps the model's 'Rockfeller cheats' summary line, placed on the oil-reserves plot point
+  - note 1787 | pasted whole from this reply | keeps the model's 'Rockfeller is soft' summary line, placed on the oil-reserves plot point
+  - note 1788 | pasted whole from this reply | keeps the model's 'ultimate insult' summary line, placed on the oil-reserves plot point
+  - note 1791 | pasted whole from this reply | keeps the model's line on why the minority faction matters to future plot, placed on the Town Hall verdict plot point
+  - note 1792 | pasted whole from this reply | keeps the model's description of the minority faction's risk-taking psychology, placed on the Town Hall verdict plot point
+  - note 1793 | pasted whole from this reply | keeps the model's efficiency-argument line about the minority faction, placed on the Town Hall verdict plot point
+  - note 1794 | pasted whole from this reply | keeps the model's projected future-conflict line, placed on the Town Hall verdict plot point
+- brought: The author brought a series of their own character and plot decisions (a personality fusion for the antagonist, a scene structure, exact outcome numbers, and an infrastructure detail) for the model to develop, and finally the full plan document itself for review.
+- loop: The author states a specific story decision or detail and the model expands it into fuller analysis, rhetoric, and phrasing; the planning database then lifts much of that phrasing near-verbatim into the relevant character and plot-point entries, occasionally with the author reframing a line into scripted dialogue or blending it with their own added detail.

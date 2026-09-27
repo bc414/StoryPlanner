@@ -5,7 +5,7 @@
 <h1>Batches</h1>
 @if (note is { } n) { <p class="err">@n</p> }
 <BatchList Batches="batches" OnExecute="Execute" />
-<p class="muted">Every batch whose <code>definition.md</code> sits beneath <code>@Host.WorkingDir</code>. A row's <em>execute</em> calls every item without a successful call — pending or failed — now, in index order; for a start time or random order use the terminal: <code>AgentRunner.exe execute-batch &lt;definition.md&gt; [--at HH:mm] [--random]</code>. The order of a batch in its study is the <a href="/map">process map</a>; the rules of the runner are the agent-runner skill.</p>
+<p class="muted">Every batch whose <code>definition.md</code> sits beneath <code>@Host.WorkingDir</code>. A row's <em>execute</em> calls every item without a successful call — pending or failed — now, in the cut's order (ascending SHA-256 of each item's id, the same for every batch cut the same way); for a start time use the terminal: <code>AgentRunner.exe execute-batch &lt;definition.md&gt; [--at HH:mm]</code>. The order of a batch in its study is the <a href="/map">process map</a>; the rules of the runner are the agent-runner skill.</p>
 
 @code {
     private IReadOnlyList<BatchSnapshot> batches = [];

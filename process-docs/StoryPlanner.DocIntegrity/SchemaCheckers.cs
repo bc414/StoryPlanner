@@ -265,23 +265,48 @@ public static class Registry
 }
 
 /// <summary>
-/// schemas/leads-schema.md on the engine (d-2026-09-13-19 to -35; d-2026-09-15-2 and -3): an
-/// exploration's leads. The engine holds the sections and each lead's typed fields, reported
-/// under `leads.shape` and `leads.entry`; the class's own rules are the title with the folder's
-/// exploration, the heading as the citation token with a unique slug, at least one of `query`
-/// and `cites` on each lead, every query line parsing as the batch's query form and naming a
-/// batch under the study, every cited item token in the index of a batch under the study, the
-/// appended reread lines, and the shortcoming parts. No query is run: the checker reads
-/// governed files and nothing a batch produced.
+/// schemas/leads-schema.md on the engine (d-2026-09-13-19 to -35; d-2026-09-15-2 and -3;
+/// d-2026-09-27-2, -10, -13 and -14): one write-up of one batch at one answered count, the
+/// study's files numbered <c>leads-&lt;N&gt;.md</c> in the order written. The engine holds the
+/// head, the sections and each lead's typed fields, reported under `leads.head`, `leads.shape`
+/// and `leads.entry`; the class's own rules are the file's number with no gap below it, the
+/// `items with results` form, the title with the folder's exploration, the heading as the citation token
+/// <c>&lt;study&gt;/leads-&lt;N&gt;/&lt;slug&gt;</c> with a slug unique in the file, at least one of
+/// `query` and `cites` on each lead, every query line parsing as the batch's query form and naming
+/// a batch under the study, every cited item token in the index of a batch under the study, one
+/// batch across the file, the appended reread lines, the shortcoming parts and the next steps. No
+/// query is run: the checker reads governed files and nothing a batch produced.
 /// </summary>
 public static class Leads
 {
     public const string SchemaId = "leads-schema";
     public const string ExplorationPrefix = "exploration-of-";
-    public static readonly string[] Parts = ["slice", "itemizer", "directions", "consolidation", "execution", "corpus"];
+    public static readonly string[] Parts = ["slice", "itemizer", "directions", "execution", "corpus"];
+    public static readonly string[] Steps = ["continue the batch", "new directions version", "change the itemizer", "new leads file", "new study", "stop"];
+    public static readonly Regex FileName = new(@"^leads-(?<n>[1-9][0-9]*)\.md$", RegexOptions.Compiled);
+    static readonly Regex AnyLeadsFile = new(@"^leads-(?<n>[0-9]+)\.md$", RegexOptions.Compiled);
+    /// <summary>The head key recording how many of the batch's items had a result when the file was written (d-2026-09-27-16).</summary>
+    public const string ItemsWithResults = "items with results";
+    static readonly Regex ItemsWithResultsValue = new(@"^(?<n>[0-9]+) of (?<items>[0-9]+)$", RegexOptions.Compiled);
     static readonly Regex RereadLine = new(@"^- reread: (?<date>\d{4}-\d{2}-\d{2}) (?<what>\S.*)$", RegexOptions.Compiled);
     static readonly Regex ItemCite = new(@"^(?<study>[a-z0-9-]+)/(?<batch>[0-9]{2}-[a-z0-9-]+)/(?<item>[a-z0-9-]+)$", RegexOptions.Compiled);
     static readonly Regex ShortcomingLine = new(@"^(?<part>[a-z]+):\s*\S", RegexOptions.Compiled);
+    static readonly Regex NextStepLine = new(@"^(?<date>\d{4}-\d{2}-\d{2}) (?<step>[a-z][a-z ]*?): (?<why>\S.*)$", RegexOptions.Compiled | RegexOptions.Singleline);
+
+    /// <summary>The number a leads file's name carries, or null when the name is not <c>leads-&lt;N&gt;.md</c> with no leading zero.</summary>
+    public static int? NumberOf(string fileName)
+        => FileName.Match(fileName) is { Success: true } m && int.TryParse(m.Groups["n"].Value, out var n) ? n : null;
+
+    /// <summary>The <c>items with results</c> head line's two numbers, or null when it is not <c>&lt;n&gt; of &lt;items&gt;</c>.</summary>
+    public static (int N, int Items)? ParseItemsWithResults(string? value)
+        => value is not null && ItemsWithResultsValue.Match(value) is { Success: true } m
+           && int.TryParse(m.Groups["n"].Value, out var n) && int.TryParse(m.Groups["items"].Value, out var items)
+            ? (n, items) : null;
+
+    /// <summary>One Next steps line as read, or null when it is off its form.</summary>
+    public static (string Date, string Step, string Why)? ParseNextStep(string text)
+        => NextStepLine.Match(text) is { Success: true } m && Steps.Contains(m.Groups["step"].Value, StringComparer.Ordinal)
+            ? (m.Groups["date"].Value, m.Groups["step"].Value, m.Groups["why"].Value) : null;
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
@@ -290,16 +315,41 @@ public static class Leads
         var study = Path.GetFileName(studyDir)!;
         var findings = new List<Finding>();
 
+        // ---- the file's number ----
+        var number = NumberOf(file);
+        if (number is null)
+            findings.Add(Finding.Fail("leads.version", file, "the file is leads-<N>.md, <N> a number from 1 with no leading zero"));
+        else
+        {
+            var present = Directory.GetFiles(studyDir, "leads-*.md").Select(p => AnyLeadsFile.Match(Path.GetFileName(p)))
+                .Where(m => m.Success).Select(m => int.Parse(m.Groups["n"].Value)).ToHashSet();
+            var missing = Enumerable.Range(1, number.Value - 1).Where(k => !present.Contains(k)).ToList();
+            if (missing.Count > 0)
+                findings.Add(Finding.Fail("leads.version", file, $"the study's leads files are numbered in the order written from 1; {string.Join(", ", missing.Select(k => $"leads-{k}.md"))} is missing below leads-{number}"));
+        }
+
         var engine = EngineCheck.Run(SchemaId, ctx, path);
         if (engine.ShapeUnavailable) { findings.Add(EngineCheck.Unavailable(SchemaId, file)); return findings; }
         foreach (var p in engine.Problems)
         {
             if (p.Key == "reread") continue; // the appended line, held below
-            var id = p.Section == "Leads" && p.Kind is ProblemKind.Missing or ProblemKind.Unknown or ProblemKind.Order or ProblemKind.Type or ProblemKind.Form or ProblemKind.Duplicate
+            var id = p.Section == "head" ? "leads.head"
+                : p.Section == "Leads" && p.Kind is ProblemKind.Missing or ProblemKind.Unknown or ProblemKind.Order or ProblemKind.Type or ProblemKind.Form or ProblemKind.Duplicate
                 ? "leads.entry" : "leads.shape";
             findings.Add(Finding.Fail(id, file, p.Message));
         }
         var doc = engine.Document;
+
+        // ---- the head's answered count ----
+        var countValue = (doc.Root["head"] as JsonObject)?[ItemsWithResults]?.GetValue<string>();
+        if (countValue is not null)
+        {
+            var count = ParseItemsWithResults(countValue);
+            if (count is null)
+                findings.Add(Finding.Fail("leads.head", file, $"{ItemsWithResults} is '<n> of <items>'; found '{countValue}'"));
+            else if (count.Value.N < 1 || count.Value.N > count.Value.Items)
+                findings.Add(Finding.Fail("leads.head", file, $"{ItemsWithResults} is at least 1 and at most the index's item count; found '{countValue}'"));
+        }
 
         // ---- title and study ----
         var title = $"{study} — leads";
@@ -348,6 +398,8 @@ public static class Leads
 
         // ---- the entries ----
         var slugs = new HashSet<string>(StringComparer.Ordinal);
+        var batchesNamed = new List<(string Batch, int Line)>();
+        var tokenPrefix = $"{study}/leads-{number?.ToString() ?? "<N>"}/";
         var arr = doc.Root["Leads"] as JsonArray ?? [];
         for (var i = 0; i < arr.Count; i++)
         {
@@ -355,11 +407,9 @@ public static class Leads
             var pos = i < positions.Count ? positions[i] : null;
             var line = pos?.Line ?? 0;
             var heading = obj[DocumentReader.HeadingProperty]?.GetValue<string>() ?? "";
-            var slash = heading.IndexOf('/');
-            var prefix = slash < 0 ? "" : heading[..slash];
-            var slug = slash < 0 ? heading : heading[(slash + 1)..];
-            if (prefix != study)
-                findings.Add(Finding.Fail("leads.entry", file, $"line {line}: the heading is '{study}/<slug>', the id of the study whose folder holds the file then the slug; found '{heading}'"));
+            var slug = heading.StartsWith(tokenPrefix, StringComparison.Ordinal) ? heading[tokenPrefix.Length..] : null;
+            if (number is null || slug is null)
+                findings.Add(Finding.Fail("leads.entry", file, $"line {line}: the heading is '{tokenPrefix}<slug>', the id of the study whose folder holds the file, the file's own number, then the slug; found '{heading}'"));
             else if (!ClosedSets.IdPattern.IsMatch(slug))
                 findings.Add(Finding.Fail("leads.entry", file, $"line {line}: '{slug}' is not a lowercase slug"));
             else if (!slugs.Add(slug))
@@ -380,6 +430,7 @@ public static class Leads
                 var qSlash = parsed.Batch.IndexOf('/');
                 var qStudy = qSlash < 0 ? "" : parsed.Batch[..qSlash];
                 var qBatch = qSlash < 0 ? parsed.Batch : parsed.Batch[(qSlash + 1)..];
+                batchesNamed.Add((parsed.Batch, qLine));
                 if (qStudy != study)
                     findings.Add(Finding.Fail("leads.query", file, $"line {qLine}: batch '{parsed.Batch}' is outside this study"));
                 else if (!batches.ContainsKey(qBatch))
@@ -395,6 +446,7 @@ public static class Leads
                 var it = ItemCite.Match(cite);
                 if (!it.Success)
                 { findings.Add(Finding.Fail("leads.cites", file, $"line {cLine}: '{cite}' is not '<study>/<batch>/<item>'")); continue; }
+                batchesNamed.Add(($"{it.Groups["study"].Value}/{it.Groups["batch"].Value}", cLine));
                 if (it.Groups["study"].Value != study)
                 { findings.Add(Finding.Fail("leads.cites", file, $"line {cLine}: '{cite}' cites a batch outside this study")); continue; }
                 if (!batches.TryGetValue(it.Groups["batch"].Value, out var items))
@@ -402,6 +454,15 @@ public static class Leads
                 if (!items.Contains(it.Groups["item"].Value, StringComparer.Ordinal))
                     findings.Add(Finding.Fail("leads.cites", file, $"line {cLine}: '{it.Groups["item"].Value}' is not an item of that batch's index"));
             }
+        }
+
+        // ---- one batch across the file ----
+        var distinct = batchesNamed.Select(b => b.Batch).Distinct(StringComparer.Ordinal).ToList();
+        if (distinct.Count > 1)
+        {
+            var first = distinct[0];
+            var other = batchesNamed.First(b => b.Batch != first);
+            findings.Add(Finding.Fail("leads.batch", file, $"line {other.Line}: a leads file is written from one batch; it names {string.Join(" and ", distinct)}"));
         }
 
         // ---- shortcomings ----
@@ -413,6 +474,25 @@ public static class Leads
                 if (!m.Success || !Parts.Contains(m.Groups["part"].Value, StringComparer.Ordinal))
                     findings.Add(Finding.Fail("leads.shortcoming", file, $"a Shortcomings line is '<part>: <what the review found>', the part one of {string.Join(", ", Parts)}; found '{(text.Length <= 60 ? text : text[..60] + "…")}'"));
             }
+
+        // ---- next steps ----
+        if (doc.Root["Next steps"] is JsonArray steps)
+        {
+            string? lastStepDate = null;
+            foreach (var s in steps)
+            {
+                var text = s?.ToString() ?? "";
+                var shown = text.Length <= 60 ? text : text[..60] + "…";
+                var step = ParseNextStep(text);
+                if (step is null)
+                { findings.Add(Finding.Fail("leads.next", file, $"a Next steps line is '<date> <step>: <why>', the step one of {string.Join(", ", Steps)}; found '{shown}'")); continue; }
+                if (!SchemaCheckers.ExactDate(step.Value.Date))
+                { findings.Add(Finding.Fail("leads.next", file, $"'{step.Value.Date}' is not a date; found '{shown}'")); continue; }
+                if (lastStepDate is not null && string.CompareOrdinal(step.Value.Date, lastStepDate) < 0)
+                    findings.Add(Finding.Fail("leads.next", file, $"{step.Value.Date} is earlier than the next step before it, {lastStepDate}"));
+                lastStepDate = step.Value.Date;
+            }
+        }
 
         return findings.DistinctBy(f => (f.CheckId, f.Message)).ToList();
     }

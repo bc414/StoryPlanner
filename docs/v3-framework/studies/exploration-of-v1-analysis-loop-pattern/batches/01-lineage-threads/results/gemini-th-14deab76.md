@@ -1,0 +1,14 @@
+- steps:
+  - the author | research request | ask for internet search on existing fanfics similar to the story plan | opening of the conversation
+  - the model | comparative survey | five categorized fanfic matches, each with a structural rationale and a takeaway for use, plus a closing summary of the plan's unique angle | reply to the first request
+  - the author | scope question | ask what proportion of the plan is a 'war story' versus other kinds of material | second exchange
+  - the model | proportional breakdown | a percentage split across four thematic categories (economics, sociology, hard-magic physics, psychology) with the war framed as an 'audit' of those systems, closing with a question back to the author about pacing between trenches and war-rooms | reply to the second request
+  - the author | narrowed research request | ask for fanfics similar specifically to the Coltbert's-games sub-lore | third exchange
+  - the model | comparative survey | four fics matched to sub-mechanics of Coltbert's games (court seduction, infiltration economics, asset specificity, high-society status games), each with a takeaway | reply to the third request
+  - the author | attachment and cross-analysis request | introduce an older, unrelated canon-FiM story plan about Scootaloo and ask how it parallels the recent TLTT worldbuilding | fourth exchange
+  - the model | cross-work mapping | four-category analysis (worldbuilding, themes, character development, mystery structure) linking Scootaloo-plan elements to TLTT concepts, closing with a question about how the TLTT republic would handle similar cases | reply to the fourth request
+  - the author | second attachment and cross-analysis request | introduce a second older, unrelated canon-FiM story plan about Fluttershy and Rarity and ask for the same kind of parallel analysis | fifth exchange
+  - the model | cross-work mapping | four-category analysis linking the Fluttershy/Rarity plan to TLTT concepts, closing with a suggestion for how to sequence a specific wartime scene using the established philosophy | reply to the fifth request
+- kept:
+- brought: The author brought two previously written, unrelated canon-FiM story plans (a Scootaloo-focused plan and a Fluttershy/Rarity-focused plan) as attachments, asking the model to find parallels between them and the recently developed TLTT worldbuilding, alongside several standalone research and self-assessment questions about the TLTT plan.
+- loop: The author repeatedly brought outward-facing questions and outside material — requests to benchmark the plan against existing fanfics and older personal story plans — and the model returned mapping analyses that translated each new input into the existing TLTT vocabulary (Coltbert's games, Asset Specificity, Stagnation of Harmony, Red Love), but none of this comparative or cross-referential work was captured back into the planning database in this stretch.

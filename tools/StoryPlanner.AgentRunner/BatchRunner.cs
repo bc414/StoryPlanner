@@ -41,8 +41,8 @@ public sealed record RunningCall(string Item, int Call, DateTimeOffset StartUtc,
 /// The call's number is the execution's. Nothing here changes what a call is, and no
 /// execution is a special shape: the method's pilot is an execution paused after its first
 /// launches. The loop takes its launcher and its gate from outside,
-/// walks the index in its order or, under random order, in one shuffle of it drawn at
-/// construction, and accepts harness commands (pause, resume, stop after in-flight, cancel
+/// walks the items in the cut's order (<see cref="CutOrder"/>, d-2026-09-27-5), the same for
+/// every execution of every batch cut the same way, and accepts harness commands (pause, resume, stop after in-flight, cancel
 /// an item, the queue jump) while it runs. The calls file is the batch's state and this
 /// class is its only writer. A launch the API refused at the subscription limit before any
 /// work (d-2026-09-15-4) is not a call: nothing is recorded, the gate is told and holds
@@ -69,9 +69,7 @@ public sealed class BatchRunner
     public string Id => Batch.Id;
     /// <summary>The number every call of this execution carries: one more than the last execution's.</summary>
     public int Execution { get; }
-    /// <summary>Whether this execution walks the index in a shuffle rather than its order — an execution's setting; no call is different for it.</summary>
-    public bool RandomOrder { get; }
-    /// <summary>The sequence the next item is picked from: the index's order, or one shuffle of it drawn at construction under <see cref="RandomOrder"/>.</summary>
+    /// <summary>The sequence the next item is picked from: the cut's order, ascending SHA-256 of each item's slug.</summary>
     public IReadOnlyList<string> Order { get; }
     public bool Paused { get; private set; }
     public bool StopRequested { get; private set; }
@@ -86,7 +84,7 @@ public sealed class BatchRunner
     public event Action? Changed;
     public event Action<string, int>? StreamAdvanced;
 
-    public BatchRunner(Batch batch, IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, string launchDir, bool randomOrder = false)
+    public BatchRunner(Batch batch, IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, string launchDir)
     {
         Batch = batch;
         _launcher = launcher;
@@ -94,10 +92,7 @@ public sealed class BatchRunner
         _log = log;
         _harnessVersion = harnessVersion;
         _launchDir = launchDir;
-        RandomOrder = randomOrder;
-        var order = batch.Items.ToArray();
-        if (randomOrder) Random.Shared.Shuffle(order);
-        Order = order;
+        Order = CutOrder.Of(batch.Items);
         var calls = CallsFile.Read(batch.Definition.CallsPath);
         _calls = new List<CallEntry>(calls.Entries);
         Execution = calls.Executions + 1;
@@ -109,7 +104,7 @@ public sealed class BatchRunner
     /// is unusable, so the CLI and the host report the same message.
     /// </summary>
     public static (BatchRunner? Runner, string? Error) Create(string definitionPath, string workingDir, string launchDir,
-        IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, bool randomOrder = false)
+        IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion)
     {
         var (batch, error) = Batch.Load(definitionPath, workingDir);
         if (batch is null) return (null, error);
@@ -117,7 +112,7 @@ public sealed class BatchRunner
         if (missing.Count > 0) return (null, $"{missing.Count} item(s) have no body under items/ (first: {missing[0]}); the itemizer or collator regenerates them");
         var launchError = Batch.CheckLaunchDir(launchDir, definitionPath);
         if (launchError is not null) return (null, launchError);
-        return (new BatchRunner(batch, launcher, gate, log, harnessVersion, Path.GetFullPath(launchDir), randomOrder), null);
+        return (new BatchRunner(batch, launcher, gate, log, harnessVersion, Path.GetFullPath(launchDir)), null);
     }
 
     // --- harness commands: how the batch runs, never what a call is ---
@@ -203,7 +198,7 @@ public sealed class BatchRunner
     public string Summary()
     {
         var pending = Pending().Count;
-        return $"{Batch.Items.Count} item(s) — {pending} to call, {Batch.Items.Count - pending} skipped as answered" + (RandomOrder ? ", random order" : "");
+        return $"{Batch.Items.Count} item(s) — {pending} to call, {Batch.Items.Count - pending} skipped as answered";
     }
 
     // --- the loop ---

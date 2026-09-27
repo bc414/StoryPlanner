@@ -1,0 +1,12 @@
+- steps:
+  - the author | premise-building | griffon-supremacist theology, Zebrica trade dynamics, an arms-escalation timeline, a dual old/new assembly-line idea, a Rockfeller parallel | opening prompt proposing Chrysalis as arms-trade accelerator
+  - the model | structural analysis | validates the mechanism and elaborates it into a Skyfall shell-company system, a two-tiered production scheme, the Rockfeller parallel, and a geopolitical-humiliation angle | reply to the opening prompt
+  - the author | scene extension plus historical query | a leftover-stockpile detail feeding a human-wave conscript attack at a named battle, and a question about Russian WWI/WWII army parallels | second prompt
+  - the model | fact-check and reframing | separates myth from history on Russian armies, substitutes a better historical analogy, and extends the thematic irony and a POV character's reaction | reply to the second prompt
+  - the author | scene linkage plus new concept | ties the material to a specific post-battle 'we are monsters' scene and introduces a self-colonization framing for Chrysalis | third prompt
+  - the model | synthesis and offer | develops the moral-injury reading, historical parallels for self-colonization, a summary collision between the two arcs, and an offer to draft follow-on dialogue | reply to the third prompt
+- kept:
+  - note 1935 | pasted whole from this reply | keeps the moral-injury passage about the volunteer, the machine gun, and the strategist's realization, placed on the Aftermath-of-the-Spearhead plot point
+  - note 1936 | pasted from this reply with cuts | keeps a condensed line asserting the war has no winners, only survivors, placed on the same Aftermath-of-the-Spearhead plot point
+- brought: The author brought a set of worldbuilding premises about Herzland and Zebrica and a developing narrative idea about Chrysalis's arms dealing, then progressively linked it forward to a specific climactic battle and post-battle scene.
+- loop: The author supplies escalating worldbuilding and scene ideas and asks the model to validate, ground historically, or connect them to a specific plot point; the model returns thematic and historical analysis each time; only the final turn's synthesis of the post-battle moral-injury scene is kept, split into a full passage and a trimmed line on the same plot point.

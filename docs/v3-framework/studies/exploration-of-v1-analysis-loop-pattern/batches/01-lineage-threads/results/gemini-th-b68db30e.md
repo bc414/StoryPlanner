@@ -1,0 +1,8 @@
+- steps:
+  - the author | asks | whether a Polish-inspired meeting/nation exists in a game mod's setting | opens the exchange
+  - the model | surveys | three in-mod factions/regions with Polish-historical parallels, plus a submod pointer, and offers to dig deeper | answers the first question
+  - the author | repeats | the same question in near-identical wording, dropping the earlier typo | opens the second exchange
+  - the model | resurveys | the same three regions again but with different framing and detail, plus minor extra nods, and asks whether this is for a campaign or lore research | answers the second question
+- kept:
+- brought: none
+- loop: The author brought a bare factual question about a game mod's lore, asked it twice in slightly different phrasing, and received two overlapping research surveys from the model each time, none of which the planning database captured.

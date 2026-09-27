@@ -1,0 +1,16 @@
+- steps:
+  - author | poses design question with embedded proposal | idea of chaining multiple phase-0 strategies into an ordered waterfall for phase-1 bucket extraction, plus how to handle non-fitting concepts | opening message
+  - model | names and explains an architecture | describes a cascade/waterfall extraction model and drafts a phase-1 system instruction implementing it | first reply
+  - model | offers next step | proposes drafting the phase-2 instruction next | end of first reply
+  - author | supplies existing artifact and follow-up question | pastes the current phase-0 system instruction, asks how to adapt it and its JSON output for the waterfall | second message
+  - model | analyzes and revises | identifies need for a new schema field carrying a machine-readable extraction rule, revises the phase-0 instruction and JSON schema accordingly | second reply
+  - model | offers next step | reiterates offer to draft phase-2 | end of second reply
+  - author | narrows the request | asks directly for the concrete phase-1 system instruction and input JSON | third message
+  - model | produces deliverable | drafts phase-1 system instruction, an input prompt template, and an output JSON schema | third reply
+  - model | offers next step | again offers to draft phase-2 | end of third reply
+  - author | requests refinement | asks that phase-1 output label which paradigm produced each bucket and flag orphan buckets separately | fourth message
+  - model | revises deliverable | updates the phase-1 system instruction and schema to group buckets under paradigm labels, adds a mapping to downstream code classes | fourth reply
+  - model | offers next step | offers to draft phase-2 again | end of fourth reply
+- kept:
+- brought: The author brought an existing phase-0 system instruction they had already written, asking for it to be updated to support the newly proposed waterfall design.
+- loop: Across four turns the author brings successive pipeline-design asks — a new proposal, then an existing artifact to revise, then a request for a concrete deliverable, then a refinement of that deliverable — and the model answers each with matching analysis, drafts, and a standing offer to move on to the next phase; none of this exchange was captured into the planning database in this stretch.

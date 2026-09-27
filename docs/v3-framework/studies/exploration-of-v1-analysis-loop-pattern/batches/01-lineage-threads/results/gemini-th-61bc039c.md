@@ -1,0 +1,37 @@
+- steps:
+  - the author | proposes a plot mechanism | thestrals as rugged-individualist strikebreakers, parloirs as their safety net, origin of EEEE! | opening prompt of the thread
+  - the model | analyzes | five-part breakdown of thestral false consciousness, factory alienation, parloir function, EEEE! formation, and stakes for Applejack | reply to the opening prompt
+  - the author | revises a premise | reframes the pony factory workers as choosing blank-flank life out of boredom/shame rather than being coerced | second prompt
+  - the model | analyzes | six-part breakdown of the workers as existential rebels, the tycoons' bait-and-switch, accidental class consciousness, resentment of thestral scabs, the parloir validating the choice, and Applejack's resulting arc | reply to the second prompt
+  - the author | adds a worldbuilding rule | cutie marks come partly from nurture/naming/village expectation rather than pure magic | third prompt
+  - the model | analyzes | five-part breakdown recasting the cutie mark as a social contract, the jumpsuit as identity-laundering, Applejack as the 'happy heir', tycoons weaponizing nominative determinism, and the parloir separating talent from trauma | reply to the third prompt
+  - the author | qualifies and extends | softens the nurture rule as non-rigid, then supplies a detailed backstory for Applejack's parents (feud, factory, move to Manehattan) and a theory of how Chrysalis recruited them | fourth prompt
+  - the model | analyzes | six-part breakdown of the parents' motives, Applejack's inverted hero's journey, the canned mash as future war logistics, Chrysalis's selection-bias failure, the model factory bridging union and tycoons, and a revisit of the blank-flank workers | reply to the fourth prompt
+- kept:
+  - note 3584 | pasted whole from this reply | keeps the point that thestrals see the pony union as rivals under a false-consciousness myth, filed to the EEEE!/rugged-individualism plan node
+  - note 3585 | pasted whole from this reply | keeps the point that tycoons cynically use thestrals as a disposable strikebreaking weapon, same node
+  - note 3589 | pasted inside the author's own framing | keeps the reasoning that pony workers reject destiny by covering their marks, filed to the Rejecting Destiny node
+  - note 3590 | pasted whole from this reply | keeps the point that tycoons exploited a genuine desire for growth, same node
+  - note 3591 | pasted whole from this reply | keeps the tycoons' 'modernity' sales pitch to workers
+  - note 3592 | pasted whole from this reply | keeps the contrast between adulthood sought and alienation delivered
+  - note 3593 | pasted whole from this reply | keeps the shame-of-returning-home explanation for why workers stay
+  - note 3594 | pasted whole from this reply | keeps the accidental-class-consciousness point about erased cutie marks
+  - note 3596 | pasted whole from this reply | keeps the framing note that this clarifies pre-parloir friction
+  - note 3597 | pasted whole from this reply | keeps the point that ponies sacrificed cultural identity for modernity
+  - note 3598 | pasted whole from this reply | keeps the point about thestrals undercutting wages without pony 'baggage'
+  - note 3599 | pasted whole from this reply | keeps the resentment dialogue framing between ponies and thestrals
+  - note 3600 | pasted whole from this reply | keeps the section heading on the parloir validating workers' choice
+  - note 3601 | pasted whole from this reply | keeps the elaboration of the parloir as 'promise fulfilled'
+  - note 3602 | pasted whole from this reply | keeps the validation line about adulthood as wine, jazz, and debate
+  - note 3603 | pasted whole from this reply | keeps the healing/'third way' framing of the parloir
+  - note 3587 | one sentence lifted from this reply | keeps the line likening the factory lie to corporate exploitation replacing family tradition, filed to the rugged-individualism node
+  - note 3605 | pasted whole from this reply | keeps the heading on the parloir reclaiming skill from trauma
+  - note 3606 | pasted whole from this reply | keeps the elaboration of separating talent from trauma
+  - note 3607 | pasted whole from this reply | keeps the violin example illustrating redefined talent
+  - note 3608 | pasted whole from this reply | keeps the 'adult mark' reframing of what a cutie mark can mean
+  - note 3926 | pasted inside the author's own framing | keeps the idea that Chrysalis's own cynicism produced her opposition, plus her resentment/ambition recruiting logic, filed to the Applejack-reunites-with-parents/Chrysalis-motivations node
+  - note 3927 | pasted whole from this reply | keeps the identification of Bright Mac and Pear Butter as Chrysalis's targets
+  - note 3928 | pasted whole from this reply | keeps the point that Chrysalis wrongly equated resentment with cruelty
+  - note 3929 | pasted whole from this reply | keeps the point that resentment plus empathy explains how the parents slipped through her plan
+- brought: The author brings established family and setting elements (Bright Mac, Pear Butter, Big Mac, Granny Smith, Sweet Apple Acres, Chrysalis's shell companies) from prior worldbuilding to anchor the new industrial-era backstory being worked out in this thread.
+- loop: The author repeatedly brings a single sociopolitical refinement to the Manehattan/EEEE! backstory, the model returns it as a multi-section thematic analysis with labeled headers and bullet points, and the planning database then extracts many of those individual headers and bullets near-verbatim into separate notes filed under the EEEE!-formation and Chrysalis-motivation plan nodes, so the plan comes to hold the model's analytical framing of each idea rather than the author's original short prompts.

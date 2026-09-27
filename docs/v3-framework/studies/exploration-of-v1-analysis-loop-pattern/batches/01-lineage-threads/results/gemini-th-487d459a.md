@@ -1,0 +1,28 @@
+- steps:
+  - author | request | asks for a user manual for their own planning app's codebase | opening exchange
+  - model | deliver | produces a user manual derived from reading the app's code | same exchange
+  - author | topic shift | asks for an explanation of Gemini's Canvas feature | next exchange
+  - model | explain | describes Canvas's capabilities and how to invoke it | same exchange
+  - author | follow-up question | asks whether Canvas's disappearance from auto-trigger is a setting or an A/B test | next exchange
+  - model | explain | offers a theory of intent-based triggers and A/B test groups, plus workarounds | same exchange
+  - author | follow-up question | asks how to get longer responses without using Canvas | next exchange
+  - model | list options | gives modify-button, deep-think, prompting, and continue techniques | same exchange
+  - author | scenario question | asks whether uploading their story JSON into Canvas with the 'longer' slider yields more complete analysis | next exchange
+  - model | verdict, then reversal | argues 'longer' only pads text not logic, proposes a two-step workflow; a second draft response instead affirms it helps and cites the author's own code file | same exchange
+  - author | correction | points out Deep Think and Canvas are not mutually exclusive and can be combined | next exchange
+  - model | revise position | concedes the combination, describes a 'safe' workflow and warns that quick-action buttons bypass reasoning | same exchange
+  - author | refine goal | asks specifically how to stop the first Deep Think response in Canvas from being truncated | next exchange
+  - model | explain and propose method | attributes truncation to a shared token budget, offers a skeleton-then-expand technique | same exchange
+  - author | probe mechanism | asks whether Canvas retains analysis or intermediate thoughts between prompts or is stateless | next exchange
+  - model | explain | distinguishes a persistent document from ephemeral reasoning, suggests writing reasoning into the document explicitly | same exchange
+  - author | request justification | asks for sources backing the claim that chat and Canvas use different system prompts | next exchange
+  - model | supply citations | lists community and documentation sources for the claimed difference | same exchange
+  - author | broaden scope | asks what other modes might better support inspiring analysis of the story plan | next exchange
+  - model | recommend | proposes NotebookLM, describing its sourcing, audio overview, and note-pinning features, with a hybrid-use recommendation | same exchange
+  - author | unrelated tangent | asks about Capital One's two-factor authentication | next exchange
+  - model | answer | explains implicit risk-based checks versus explicit app verification and passkeys | same exchange
+  - author | request more | asks for other alternatives | next exchange
+  - model | list alternatives | returns to the story-analysis-tool topic, presenting NovelCrafter, Obsidian, and Sudowrite with a comparison and recommendation | closing exchange
+- kept:
+- brought: The author brought their own Windowed Story Planner app and its story-metadata JSON as the concrete case for probing how best to use Gemini's Canvas and Deep Think features on it.
+- loop: The author's requests moved from a direct ask for plan-related documentation into a sustained interrogation of Gemini's own interface mechanics (Canvas, Deep Think, token limits, state, system prompts), correcting the model along the way and eventually asking for alternative tools; none of this tool-research produced anything the planning database kept.

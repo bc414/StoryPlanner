@@ -1,0 +1,14 @@
+- steps:
+  - the author|extends a plan point|emotional rather than strategic motives for Applejack and Rarity backing the drug-tribe plan, plus a Fluttershy check|opening message of the excerpt
+  - the model|analyzes|how the trauma-based motives reshape Applejack's, Rarity's, and Fluttershy's arcs and the theme of harmonic capitalism|reply to the emotional-motive message
+  - the author|poses a structural question|whether Rarity and Flowing Current should join the tribal negotiations early or only for the drug-tribe phase, worried about diluting Applejack's naive arc|follow-up prompt
+  - the model|gives a verdict with staging plan|recommends holding Rarity and Flowing Current back until Phase 3, with a phase-by-phase flow|reply to the timing question
+  - the author|corrects a character premise|Flowing Current is a union/civil-rights foreman, not a business pony, and would trudge through the jungle; also refines what fails and succeeds in Phase 2|follow-up message
+  - the model|reverses its recommendation|now argues the full team can be present from the start via a 'conspiracy of silence' hiding the drug-tribe truth from Applejack|reply to the correction
+  - the author|asks a staging detail|whether Rarity and Flowing Current should already be at the Aquileian conference before Applejack arrives, and introduces the tribes' skepticism over unhonored token reforms|follow-up prompt
+  - the model|elaborates the scene|casts Applejack as the closer who resolves tribal distrust of war bonds through personal pledge, with Rarity/Flowing Current as advance team|reply to the staging question
+  - the author|corrects a worldbuilding fact|there is no Republic yet, Celestia remains princess but inert, so Applejack and Rarity have had to fill the void|final message of the excerpt
+  - the model|reframes the arc|casts Applejack's pledge-making as unknowing exercise of sovereignty, recasting the mission as a 'constitutional genesis'|reply to the sovereignty correction
+- kept:
+- brought: The author brings forward an established plan point (that harmonic capitalism can turn ugly) and builds new character-motive detail on top of it before moving into a run of structural staging questions and worldbuilding corrections.
+- loop: The author repeatedly feeds the model corrections to character premises and worldbuilding facts alongside structural staging questions, and the model returns thematic analyses and staging verdicts that revise its own prior recommendations in response, but none of this exchange is recorded as kept text in the planning database for this stretch.

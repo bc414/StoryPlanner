@@ -1,0 +1,8 @@
+- steps:
+  - the author | asks a definitional question | literal etymology of 'democracy' vs 'republic', with historical connotation excluded | opening of the exchange
+  - the model | gives an analysis | root-word breakdown (Greek 'demos/kratos' vs Latin 'res publica'), a comparison table, and an offer to extend into direct/representative systems | first response
+  - the author | applies the definitions to a scenario | a fantasy premise (a popular revolution ousting a king) and asks what naming the new ruling party 'National Republican' vs 'National Democratic' would literally imply | second prompt
+  - the model | gives a second analysis | side-by-side reading of what each party name emphasizes (source of power vs ownership of the state), a comparison table, and a prompt asking which fits the story, plus an offer to draft founding documents/titles | second response
+- kept:
+- brought: The author brought a hypothetical worldbuilding scenario (a revolution overthrowing a king) invented on the spot to test the etymology distinction, not drawn from an existing plan document.
+- loop: The author used the model as a reference tool to work out a linguistic distinction and then stress-test it against a made-up political naming choice, but none of this exchange was captured into the planning database in this stretch.

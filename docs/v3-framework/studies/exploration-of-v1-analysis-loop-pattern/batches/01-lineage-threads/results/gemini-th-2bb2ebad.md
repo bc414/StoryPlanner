@@ -1,0 +1,27 @@
+- steps:
+  - author | poses a self-checked phonetic observation | contrast between English tr-affrication and German t+rolled-r, asks for a deep dive | gemini:771 prompt
+  - model | delivers a comparative phonetics breakdown | names affrication, contrasts English/German/French/Japanese/Mandarin r-mechanics, gives summary table and video | gemini:771 response
+  - author | asks a ranking follow-up question | whether R is the most mechanically complex sound-category compared to other letters | gemini:772 prompt
+  - model | gives a comparative verdict with runner-ups | rhotics as 'family resemblance', T and vowels as contenders, video | gemini:772 response
+  - author | asks a definitional question | formal linguistic distinction between consonant and vowel | gemini:773 prompt
+  - model | gives a two-lens analysis resolved by a unifying concept | articulatory vs phonological definitions, sonority hierarchy, table, video | gemini:773 response
+  - author | asks for a categorized inventory | English vowels in IPA versus the school short/long teaching | gemini:774 prompt
+  - model | gives an inventory that corrects the school framing | lax/tense vowel tables, diphthong mechanics, r-colored vowels | gemini:774 response
+  - author | brings a naming intuition from the plan for evaluation | comparison of two candidate character names, Tally Mark vs Tally Stock | gemini:775 prompt
+  - model | gives a comparative verdict plus two alternate full analyses | rhythm/pun/theme reasoning favoring one name, sample adjusted dialogue line, two redundant draft write-ups | gemini:775 response and two additional drafts
+  - author | asks a worldbuilding-lore question | naming conventions for German- and French-coded griffon nations in an existing mod | gemini:776 prompt
+  - model | gives a lore breakdown and generates candidate names | per-nation naming formulas, applies them to the author's own OCs | gemini:776 response
+  - author | asks a follow-up on localization practice | how French/German localizations render names, and how pony names are portrayed in turn | gemini:777 prompt
+  - model | extends the lore into concrete narrative hooks | localization behavior per faction, dialogue hooks tied to existing characters and scenes | gemini:777 response
+  - author | brings a new plot-device idea distinguishing two technologies | old literal translator vs new context-aware translator, likened to LLM attention | gemini:778 prompt
+  - model | develops the device into a structured story mechanic | per-name literal mistranslations, dialogue examples, mapping to a political arc, implementation guide | gemini:778 response
+  - author | extends the mechanic to explain a character motivation | asks whether literal translation explains how the villain turns ordinary drones predatory | gemini:779 prompt
+  - model | builds a propaganda-mechanism analysis | per-name literal translations paired with the villain's spin, ties to an earlier scene and the two translators | gemini:779 response
+  - author | extends the framework into a two-part sorting question | infiltrator 'test of character' for one faction vs the language history of infiltrators from another faction | gemini:780 prompt
+  - model | elaborates a tiered hierarchy and applies it to named characters | drone/elite/meritocrat tiers, one character's arc reasoning, scene application | gemini:780 response
+  - author | brings an existing draft document for evaluation | attaches a previously written prequel story, asks for analysis against the language framework | gemini:781 prompt
+  - model | analyzes the attached draft against the established framework | tiered reading of the draft's characters, validation of the two-faction conflict, notes on utility for the main story | gemini:781 response
+- kept:
+  - note 4586 | pasted from this reply inside the author's own framing | keeps the propaganda-mechanism analysis of a villain deliberately using literal translation (with the object-name example) to dehumanize captives, filed under a subject on how names are perceived
+- brought: The author brought a candidate character-name choice, knowledge of an existing mod's naming lore, and a previously written prequel draft into the conversation, using each as material for the model to analyze against a language/translator framework that grew turn by turn.
+- loop: The author moves from open linguistic curiosity to steadily narrower story applications, each time taking the model's prior analytic frame (rhotics, sonority, IPA vowels) and repurposing it into story mechanics (name choice, translator technology, infiltrator psychology), then finally testing the accumulated framework against an existing draft; of all this exchange, the plan kept only one condensed, self-authored restatement of the translator-as-propaganda insight, filed under a note on how names are perceived.

@@ -1,0 +1,20 @@
+- steps:
+  - author | inquiry | asks whether a Gemini gem suits narrative analysis, its purpose, and setup steps | opens the conversation
+  - model | explains and guides | purposes a gem could serve, five-step setup instructions, an example instruction set, and an offer to draft full instructions | reply to the opening inquiry
+  - author | reports problem and requests ideas | describes the self-built note organizer app, flags the Sorter step's incompleteness, asks for innovative ways to leverage the tool | second turn
+  - model | diagnoses and brainstorms | explains the technical cause of incompleteness, offers four thematic analysis workflows, then three code-architecture fixes | reply to the problem report
+  - author | requests more | asks for other ways to use parts of the note organizer | third turn
+  - model | brainstorms further | five more ways to repurpose specific app components for analysis | reply to the follow-up request
+  - author | proposes workflow change | contrasts old chronological note-taking (now unwieldy) with a proposed method of building buckets first via Strategist/Cartographer then skimming a conversation, asks for the impact | fourth turn
+  - model | analyzes impact | four effects of front-loading structure before skimming, framed as filtering, translation, gap detection, and pipeline efficiency | reply to the workflow proposal
+  - author | requests retrieval and comparison | asks to retrieve the 7 axes from the app's source code and compares them against entities and metrics | fifth turn
+  - model | retrieves and compares | lists the 7 axes verbatim from the code, analyzes each system's strengths/drawbacks, gives a pipeline recommendation mapping axes to app tabs | reply to the retrieval request
+  - author | probes further | asks whether the axes are exhaustive, whether they derive from formal literary theory, and whether they overlap with the metrics | sixth turn
+  - model | answers and maps | confirms the axes are hardcoded and notes a missing geographic axis, traces theoretical origins per axis, maps each axis onto MICE/conflict/Freytag | reply to the probing questions
+  - author | requests renaming | asks for more user-friendly alternative names for the axes drawn from the author's personal interests | seventh turn
+  - model | renames | three themed naming schemes (software architecture, grand strategy game, investment/finance) plus an implementation tip | reply to the renaming request
+  - author | requests content | asks for My Little Pony allegories | eighth and final turn
+  - model | generates | a list of six allegories covering political, economic, and philosophical readings of the setting | reply to the allegory request
+- kept:
+- brought: The author brought a self-built note-organizing app (with Strategist, Cartographer, Sorter, and Verifier components and a 7-axis system-instruction scheme) along with a completeness problem in its Sorter step and an old, increasingly unwieldy chronological note-taking habit, using these as the basis for a series of questions about tool design and organizational method rather than drafting story content directly.
+- loop: No notes from this stretch were traced into the planning database; the conversation operated at a meta level, consulting the model on how to build, diagnose, and re-organize the note-taking tool and its categorization schemes (and, at the end, generating free-standing thematic material) rather than producing text that the plan captured.

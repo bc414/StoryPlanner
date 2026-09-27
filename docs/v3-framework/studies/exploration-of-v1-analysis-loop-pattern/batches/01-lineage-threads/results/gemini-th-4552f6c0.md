@@ -1,0 +1,23 @@
+- steps:
+  - author | brings draft dialogue | a soldier-and-Applejack exchange probing her rise from farmhand to general | opening of the long prompt
+  - author | brings draft prose | a scripted scene of Comet Shine and Applejack discussing his industrial background and school ties to Flim and Flam | continuing the prompt
+  - author | brings setting lore | Star Energy's mission and products, and how its no-fee business model overcomes Applejack's hostility | prompt, mid-section
+  - author | brings setting lore | an extended Aquileia backstory: griffon feudalism, earth-pony farming magic, the mechanization fight, and the University of Pridea's secret research | prompt, mid-section
+  - author | brings setting lore | Tall Tale framed as a Silicon Valley analog, Aquileian volunteers, magic-boosted trench digging, and Star Energy's stake in town infrastructure | prompt, later section
+  - author | brings setting lore | the illegal ground-based weather factory and Celestia's rationale for banning it | end of the lore dump
+  - author | requests thematic analysis | asks how these previously-made Chapter 2 'Organization' plans fit the story's existing themes | closing line of the prompt
+  - model | proposes a unifying mechanic | reframes earth-pony magic as scaling with pride and ownership, contrasting conscripts/serfs with volunteers | first section of the response
+  - model | interprets a political theme | reads the illegal weather factory as proof of a Celestia 'stagnation' policy protecting Cloudsdale jobs at Equestria's expense | second section
+  - model | traces a character arc | maps Applejack's Flim-and-Flam bias onto Star Energy's different business model to project her later acceptance of tanks | third section
+  - model | draws a parallel argument | links Thunderbolt Sentinel's rejected border-defense plan to a meritocracy-versus-politics theme for later chapters | fourth section
+  - model | maps lore to game mechanics | converts the pride/magic idea and war support into proposed HOI4-style modifiers | fifth section
+  - model | suggests a dialogue edit | offers a revised line for Applejack's reply to the soldier | sixth section
+  - model | delivers a summary verdict | casts the whole batch as elevating Chapter 2 into a thematic 'manifesto' and restates three claims it now supports | closing of the response
+- kept:
+  - note 267 | the author's own words in this record | keeps the soldier-and-Applejack exchange about her becoming a general, placed on the PlotPoint for that conversation
+  - note 268 | the author's own words in this record | keeps the single line about a soldier investigating military production off-duty, on the same PlotPoint
+  - note 1906 | the author's own words in this record | keeps the 'Tall Tale is like Silicon Valley... Coltfoalnia' line, placed on the PlotPoint for Tall Tale's history
+  - note 2865 | pasted from this reply with cuts | keeps the model's reading of the weather factory as evidence of a Celestia stagnation/Luddism policy, placed on a Link tying the conversation to the Stagnation of Harmony theme
+  - note 3689 | pasted whole from this reply | keeps the model's contrast between Flim and Flam's extractive model and Star Energy's worker-empowering model, placed on a Link tying the conversation to the Harmonic Capitalism theme
+- brought: The author brought a bundle of previously drafted dialogue, prose, and extensive Aquileia/Star Energy/Tall Tale worldbuilding lore intended for Chapter 2, asking the model to analyze how it fits the story's existing themes.
+- loop: The author supplies raw dialogue drafts and dense lore and asks for a thematic fit-check; the model returns an organized analysis built around a unifying magic-and-pride mechanic and a political theme, and the plan keeps back the author's own dialogue lines verbatim onto their plot points while distilling two of the model's thematic contrasts onto new links between those plot points and abstract theme entities.

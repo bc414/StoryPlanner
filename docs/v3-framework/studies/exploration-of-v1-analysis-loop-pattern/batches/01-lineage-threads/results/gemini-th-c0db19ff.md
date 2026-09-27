@@ -1,0 +1,17 @@
+- steps:
+  - the author | requests-context-check | asks model to consult existing plan section on Jaeger draining and the love harvester's origin | opening of the single prompt
+  - the author | flags-inconsistency | argues the 'speedball' side-effect profile is too extreme to be the drug's original, universal form | early in the prompt
+  - the author | proposes-revision | suggests the 986 unification-war drug should mainly numb emotion-sense with mild side effects, justified by economics of fighting primitives with guns | middle of the prompt
+  - the author | poses-open-question | asks what high the natural draining spell produces on an unwilling victim, to serve as the drug's baseline | middle of the prompt
+  - the author | supplies-established-fact | restates that willing-donor draining already gives a slight, stable, low-withdrawal high | middle of the prompt
+  - the author | outlines-escalation-path | sketches refinement of red love into progressively stronger tiers, ending in a speedball form for suicide charges, using Tzinacatl vice drugs as chemical models | later in the prompt
+  - the author | states-purpose | frames the whole revision as making Chrysalis's drug program more economically rational and more terrifying | closing line of the prompt
+  - the model | affirms-and-labels | endorses the framing and gives the overall system a name, 'Synthetic Valor' | opening of the response
+  - the model | defines-baseline | details the mechanics and felt effects of the natural unwilling 'Jaeger High' the drug is built to mimic | first section of the response
+  - the model | builds-tier-one | specifies the 986 'Standard Issue Red' composition, effects, side effects, withdrawal, and troop use | second section of the response
+  - the model | builds-tier-two | specifies an intermediate 'Assault Red' for the Canterlot-era campaign with escalated aggression and withdrawal | third section of the response
+  - the model | builds-tier-three | specifies the terminal 'speedball' variant for Tall Tale conscripts, detailing dissociation, berserker effect, and fatal withdrawal | fourth section of the response
+  - the model | synthesizes-rationale | ties the tier system to Chrysalis's economic logic and to established camp/character details, closing the analysis | closing section of the response
+- kept:
+- brought: The author brought forward the plan's existing lore on Jaeger draining-addiction, the love harvester's invention, and the already-established fact that willing-donor draining gives a mild stable high, using these to argue for and request a revised, tiered drug system.
+- loop: The author raised an internal inconsistency in the existing drug lore and asked for an extrapolated, economically-grounded tier system built from established society and biology facts; the model returned a fully worked-out named tier system, but this exchange shows no note traced into the planning database, so nothing from the model's elaboration was captured back into the plan in this stretch.

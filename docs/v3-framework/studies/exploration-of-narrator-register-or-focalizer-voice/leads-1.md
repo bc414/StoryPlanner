@@ -1,8 +1,14 @@
 # exploration-of-narrator-register-or-focalizer-voice — leads
 
+- items with results: 74 of 74
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-narrator-register-or-focalizer-voice/how-the-renderings-divide-between-the-two-answers
+### exploration-of-narrator-register-or-focalizer-voice/leads-1/how-the-renderings-divide-between-the-two-answers
 - lead: Over the 74 chapters of the six stories the readers named 1,043 stretches of narration that render
   what a character perceives or judges — a median of 14 per chapter, 7 at the least and 25 at the most. Of
   those, 483 lines over 61 chapters are carried in the character's own words, 230 lines over 51 chapters
@@ -16,7 +22,7 @@
   - rq1 batch=exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters answered=74 field=renderings where carrier~^mixed view=cites
   - rq1 batch=exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters answered=74 field=renderings where carrier~narrator view=cites
 
-### exploration-of-narrator-register-or-focalizer-voice/the-answer-differs-by-story-not-by-chapter
+### exploration-of-narrator-register-or-focalizer-voice/leads-1/the-answer-differs-by-story-not-by-chapter
 - lead: The split is a property of the story, not of the chapter. In to-hone-a-leaf-blade 230 lines are the
   character's own words against 9 mixed and 11 in a narrator's register, and the 11 all fall in one
   chapter. In nine-tales-of-liberty the three are level: 81 own words, 81 mixed, 76 narrator's. In
@@ -29,7 +35,7 @@
   - rq1 batch=exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters answered=74 field=renderings where carrier~narrator view=by-story
   - rq1 batch=exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters answered=74 field=renderings view=by-story col=carrier
 
-### exploration-of-narrator-register-or-focalizer-voice/one-story-has-no-narrating-voice-apart-from-its-character
+### exploration-of-narrator-register-or-focalizer-voice/leads-1/one-story-has-no-narrating-voice-apart-from-its-character
 - lead: Asked separately whether the chapter has a narrating voice distinct from every character's, the
   readers answered none for all 21 chapters of to-hone-a-leaf-blade and for one chapter of
   the-ember-and-the-spark, and present for the other 52. The reason given for to-hone-a-leaf-blade is the
@@ -44,7 +50,7 @@
   - exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters/nine-tales-of-liberty-by-bc414-8gqvftrm-ch15
   - exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters/the-ember-and-the-spark-by-bc414-w9hrsy73-ch12
 
-### exploration-of-narrator-register-or-focalizer-voice/what-marks-a-narrators-register
+### exploration-of-narrator-register-or-focalizer-voice/leads-1/what-marks-a-narrators-register
 - lead: Where a rendering was called a narrator's words, the marks named are of a few recurring kinds: an
   aside that knows more than the character ("Little did Helena know that most of the dukes did want a
   cowardly king"); a dry or mocking verdict on the character ("Ludwig lied", "diverted his brainpower to
@@ -57,7 +63,7 @@
 - query:
   - rq1 batch=exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters answered=74 field=renderings where carrier~narrator sample=10 seed=4 view=list
 
-### exploration-of-narrator-register-or-focalizer-voice/whether-the-wording-echoes-the-characters-own-speech
+### exploration-of-narrator-register-or-focalizer-voice/leads-1/whether-the-wording-echoes-the-characters-own-speech
 - lead: Asked whether wording of the same kind appears in that character's own speech or thought elsewhere
   in the same chapter, the readers answered yes for 717 lines over 70 chapters, no for 267 lines over 62
   chapters, and none — the character never speaks or thinks in words in that chapter — for 17 lines over
@@ -69,7 +75,7 @@
   - rq1 batch=exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters answered=74 field=renderings where echoed~^no view=cites
   - rq1 batch=exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters answered=74 field=renderings where echoed~^none view=cites
 
-### exploration-of-narrator-register-or-focalizer-voice/the-distinct-narrator-moves-between-heads
+### exploration-of-narrator-register-or-focalizer-voice/leads-1/the-distinct-narrator-moves-between-heads
 - lead: Several of the chapters where a distinct narrating voice was found describe it as one that moves
   between characters' heads within the chapter: a light comic narrator shifting between Rarity's and
   Fluttershy's with a wry aside ("Meanwhile, in the studio, Fluttershy wished she could trudge away"); a
@@ -85,7 +91,7 @@
   - exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters/wish-by-chlorophyll19-gyqecqhk-ch01
   - exploration-of-narrator-register-or-focalizer-voice/01-own-fiction-chapters/nine-tales-of-liberty-by-bc414-8gqvftrm-ch15
 
-### exploration-of-narrator-register-or-focalizer-voice/how-many-renderings-a-chapter-carries
+### exploration-of-narrator-register-or-focalizer-voice/leads-1/how-many-renderings-a-chapter-carries
 - lead: Read against the index's story and chapter labels, the count of rendered perceptions per chapter is
   steady within a story and differs between them: nine-tales-of-liberty 311 lines over 23 chapters,
   the-ember-and-the-spark 324 over 23, to-hone-a-leaf-blade 280 over 21, green-is-your-color 87 over 5,

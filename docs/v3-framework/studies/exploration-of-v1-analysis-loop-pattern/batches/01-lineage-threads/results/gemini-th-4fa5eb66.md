@@ -1,0 +1,13 @@
+- steps:
+  - author | propose-mechanism | claims tycoons manufacture a zero-sum game by seizing productivity gains and using propaganda plus hired security against unions | opening of the single prompt
+  - author | pose-question | asks what else keeps immigrants in line beyond deportation risk, floating family-threat via warlords | mid-prompt, follow-up question
+  - author | propose-arc | lays out how Chrysalis and her fake Acornage parents hijack the economic system: hit-job capital, 7-year corporate build-up, inheritance after 18 years of partying, industrialization as her non-profit goal | remainder of the prompt
+  - model | validate | affirms the labor-exploitation diagnosis as correct | opening of the response
+  - model | supply-mechanisms | adds two further systemic levers of worker control, a visa-tied deportation trap and a debt-peonage scheme routing threats through warlords | first section of response, answering the immigrant-control question
+  - model | evaluate-arc | walks through the Chrysalis/parents proposal phase by phase, endorsing its internal logic | second section of response
+  - model | add-rationale | supplies an economic explanation for why Chrysalis outcompetes rival tycoons, framing her goal as industrial capacity rather than profit | continuation of the arc evaluation
+  - model | ask-clarifying-question | asks whether the fake parents are disguised ponies or disguised changelings | near end of response
+  - model | offer-next-step | proposes mapping how Chrysalis smuggles industrial output out of Skyfall to the Changeling lands | closing of response
+- kept:
+- brought: The author brought forward an in-progress worldbuilding thread on Skyfall's class economics and Chrysalis's changeling backstory, extending it with a new claim about labor exploitation and a new proposal for how Chrysalis's fake parents build her inheritance.
+- loop: The author brought a combined economic-mechanism claim and a character-origin proposal for validation and elaboration; the model validated, supplied additional mechanisms and rationale, and offered a follow-up direction, but no note in the archive traces back to this exchange, so nothing from it was recorded into the plan.

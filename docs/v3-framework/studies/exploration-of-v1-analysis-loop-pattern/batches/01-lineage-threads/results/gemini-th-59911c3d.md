@@ -1,0 +1,6 @@
+- steps:
+  - the author | request | asks for outside sources or discussions confirming or exploring a prior topic | opens the exchange
+  - the model | survey-and-summarize | three named external items (a Medium essay, a Reddit thread, a GitHub gist) each with what practice they describe, plus a synthesized 'general consensus' line about how writers use agentic AI tools for structural work rather than drafting | closes the exchange
+- kept:
+- brought: none
+- loop: The author asked for external validation of an approach via outside sources, and the model supplied a small annotated bibliography with a summarizing verdict, but nothing from this exchange was traced into the planning database — the inquiry stayed a side lookup that left no mark on the plan.

@@ -77,10 +77,10 @@ public class RunnerHostApiTests : IAsyncLifetime
         var batch = await _http.GetFromJsonAsync<JsonElement>("/api/batches/" + _t.Id);
         Assert.True(batch.GetProperty("live").GetBoolean());
         Assert.Equal(1, batch.GetProperty("inFlight").GetInt32());
-        Assert.Equal("Running", batch.GetProperty("items")[0].GetProperty("state").GetString());
+        Assert.Equal("Running", batch.GetProperty("items")[1].GetProperty("state").GetString());   // item-02, first in the cut's order; the route lists the index's order
         Assert.Equal(TimeSpan.FromMinutes(7), _launcher.Requests.First().IdleLimit);
 
-        var stream = await _http.GetFromJsonAsync<JsonElement>($"/api/stream?batch={_t.Id}&item=item-01&tail=5");
+        var stream = await _http.GetFromJsonAsync<JsonElement>($"/api/stream?batch={_t.Id}&item=item-02&tail=5");
         Assert.Equal("init", stream.GetProperty("events")[0].GetProperty("kind").GetString());
 
         var pause = await _http.PostAsJsonAsync("/api/batch-control", new ControlRequest(_t.Id, "pause"));
@@ -107,16 +107,17 @@ public class RunnerHostApiTests : IAsyncLifetime
     }
 
     [Fact]
-    public async Task Execute_under_random_order_says_so_and_the_batch_route_shows_it()
+    public async Task Execute_calls_in_the_cut_order_and_the_route_offers_no_random_order()
     {
         _t.WriteItems(3);
-        var exec = await _http.PostAsJsonAsync("/api/batches", new ExecuteRequest(_t.DefinitionPath, Random: true));
+        var exec = await _http.PostAsJsonAsync("/api/batches", new ExecuteRequest(_t.DefinitionPath));
         Assert.Equal(HttpStatusCode.OK, exec.StatusCode);
-        Assert.Contains("random order", (await exec.Content.ReadFromJsonAsync<ExecuteResult>())!.Message);
+        Assert.DoesNotContain("random", (await exec.Content.ReadFromJsonAsync<ExecuteResult>())!.Message);
 
         await Wait.Until(() => _host.InFlight == 1, what: "first child");
         var batch = await _http.GetFromJsonAsync<JsonElement>("/api/batches/" + _t.Id);
-        Assert.True(batch.GetProperty("randomOrder").GetBoolean());
+        Assert.False(batch.TryGetProperty("randomOrder", out _));
+        Assert.Equal("item-02", _launcher.Order.First());                 // the first of the cut's order
 
         _launcher.Hold!.Release(); _launcher.Hold.Release(); _launcher.Hold.Release();
         await Wait.Until(() => _host.Batch(_t.Id)!.Completed, what: "batch complete");
@@ -130,7 +131,7 @@ public class RunnerHostApiTests : IAsyncLifetime
         await _http.PostAsJsonAsync("/api/batches", new ExecuteRequest(_t.DefinitionPath));
         await Wait.Until(() => _host.InFlight == 1, what: "first child");
         var before = await _http.GetFromJsonAsync<JsonElement>("/api/batches/" + _t.Id);
-        Assert.False(before.GetProperty("items")[0].GetProperty("callable").GetBoolean());   // running
+        Assert.False(before.GetProperty("items")[1].GetProperty("callable").GetBoolean());   // item-02, first in the cut's order: running
         Assert.True(before.GetProperty("items")[2].GetProperty("callable").GetBoolean());    // pending, not yet called
 
         var jump = await _http.PostAsJsonAsync("/api/batch-control", new ControlRequest(_t.Id, "call", "item-03"));

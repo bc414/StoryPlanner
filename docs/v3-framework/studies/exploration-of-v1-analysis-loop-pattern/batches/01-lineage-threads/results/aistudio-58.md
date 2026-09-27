@@ -1,0 +1,10 @@
+- steps:
+  - author | attaches material | an attached document providing outside context, never captured | at the opening of the exchange, before any typed message
+  - author | poses a sequencing question | asks whether griffon magic or the star spade should be explained first, tying it to Fleur's invention of the star spade as the earth-pony version of griffon magic, and offers his own pros and cons for each order | in the author's second message
+  - model | delivers a structural verdict | argues for griffon-magic-first, laying out an ontological rationale, a thematic payload argument, and a macroeconomic ripple-effect argument for that sequence | in the model's reply to the ordering question
+  - model | appends follow-up questions | poses two character-reaction questions about how Applejack and Celestia would respond to the earth-pony/griffon magic equivalence | at the end of the same model reply
+- kept:
+  - note 5131 | the author's own words in this record | keeps the author's stated premise that Fleur invented the star spade as the earth-pony version of griffon magic, filed as a Subject entry on Applejack's Star Spade
+  - note 1978 | pasted from this reply inside the author's own framing | keeps the model's synthesis argument (the Star Spade applying the griffon pride-mechanic to earth-pony biology) and its Celestia-stagnation reasoning, wrapped in an author-added line for Fleur and filed as a PlotPoint titled 'The Magic of War Revelation'
+- brought: The author brought a plan premise (Fleur's star spade as an earth-pony analogue to griffon magic) together with a self-formulated sequencing question and his own pros and cons for which magic system to reveal first.
+- loop: The author raises a plan question with his own preliminary reasoning, the model returns a structural verdict and thematic argument for one sequence plus new character-reaction questions, and the planning database keeps both the author's original premise line and a reframed version of the model's synthesis argument, filing them separately as a Subject entry and a PlotPoint.

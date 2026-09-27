@@ -1,0 +1,15 @@
+- steps:
+  - author | supplies whole plan | full story-plan export as attachment, no question | opening of the thread
+  - model | evaluates a plot mechanic | pros/cons and a verdict on using alcohol to unlock Applejack's defiance scene, plus staging advice for the sober-up beat | reply to the first attachment
+  - author | resupplies whole plan | a newer, slightly larger full story-plan export, again with no question attached | second exchange
+  - model | evaluates a biology premise | pros/cons and a verdict on a food-plus-love dual-need mechanic for changelings, tied to the addiction allegory and trade themes | reply to the second attachment
+  - author | narrows and corrects the premise | states a prior rejection of love-only survival and poses a sharper either/or question about food-only survival | follow-up after the biology verdict
+  - model | evaluates the narrowed option | verdict against full food-sustainability, introduces a 'husk state' mechanic distinguishing mere survival from full vitality | reply to the narrowed question
+  - author | asks a scoping question | whether the husk state should be the default condition for ordinary (non-jaeger) changelings in the pre-industrial era | follow-up after the husk mechanic is proposed
+  - model | extends the mechanic into history | justifies husk-as-default via a feudal caste model of jaeger lords and dependent drones, and a modern-industrial parallel | reply to the scoping question
+  - author | supplies lore and a hypothesis | recounts an origin story of hives forming for mutual protection from predators, asks whether changelings thrived then, and proposes that jaegers turned on each other once predators were gone | follow-up after the feudal-caste discussion
+  - model | builds a historical arc | lays out a golden age, ecological collapse, and civil-war-by-withdrawal sequence, with a table mapping each character's belief onto this history, and endorses husks as the petty-war-era default | final reply of the stretch
+- kept:
+  - note 1731 | one sentence lifted from this reply | keeps a single beat description from the model's discussion of Applejack's sober-up moment (the 'moment of clarity through the wine' line), placed under the PlotPoint 'Outside the command tent' as part of a short beat list
+- brought: The author brought the evolving full plan document as recurring attachments, and at points brought their own prior worldbuilding positions (a rejection of a love-only diet, a jaeger hunter-protector origin story) to sharpen the questions put to the model.
+- loop: The author repeatedly hands over the whole plan or a piece of established lore and asks the model to stress-test a specific mechanic (alcohol's narrative function, changeling diet, husk defaults, hive origins), and the model returns verdicts and extended frameworks that the author uses to launch the next narrower question; despite five rounds of this reasoning, the archive shows only one small beat-level phrase from the whole stretch actually written back into the plan.

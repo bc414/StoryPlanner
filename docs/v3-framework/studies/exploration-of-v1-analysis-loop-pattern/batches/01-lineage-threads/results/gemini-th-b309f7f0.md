@@ -1,0 +1,8 @@
+- steps:
+  - author | request | asks for canon research on how Cadance became an alicorn, naming a comic as the suspected source | opening message of the exchange
+  - model | canon summary | lays out the origin story: Cadance's pegasus birth, the sorceress Prismia, the love-versus-envy contest, and Celestia's ascension of her | first section of the model's reply
+  - model | thematic mapping | recasts the canon antagonist and mechanic (love-draining amulet) in terms of the author's own invented lore (Love Harvester, Biomantic Synthesis, foundling/bottom-up theme) | middle section of the model's reply
+  - model | integration pitch | drafts a line of dialogue applying the mapped backstory to a specific chapter and character argument, plus a linked video source | closing section of the model's reply
+- kept:
+- brought: The author brought a research question asking the model to confirm and explain Cadance's canon alicorn-ascension story, which they believed came from a comic.
+- loop: The author brought a canon-research question about a side character's origin story; the model returned the canon facts and then folded them into the author's existing invented lore and a chapter argument, but the archive shows nothing from this exchange was kept into the planning database.

@@ -1,0 +1,20 @@
+- steps:
+  - author | requests comparative analysis | asks for parallel between Storm King lore/plans and the rise and fall of ISIS | opening prompt of the thread
+  - model | delivers structured comparative analysis | point-by-point mapping of Storm King narrative beats onto ISIS history and themes | first reply
+  - author | asks a grounding factual question | names the real siege-mountain event and checks it against the invented Mount Aris battle | second prompt
+  - model | confirms and extends the parallel | detailed multi-point mapping of the real siege to the invented battle | second reply
+  - author | escalates the ask with a value judgment and a counterfactual | wants the work framed as critique of Western betrayal of the SDF, poses a Trump-vs-Clinton hypothetical, and asks if in-universe post-war warlordism mirrors real aftermath | third prompt
+  - model | synthesizes plan elements into a thematic critique | ties betrayal, the electoral counterfactual, the post-war canon state, and a proposed economic remedy together | third reply
+  - author | poses a fact-check on real history | asks whether the real militias were genuinely democratic or romanticized, and what happened to them since | fourth prompt
+  - model | gives a historical/political rundown | covers the real militias' origins and current fate, then offers to go deeper | fourth reply
+  - author | reconsiders earlier inspirations | flags prior historical inspirations used for the horde and asks whether the ISIS parallel is stronger, requesting alternatives | fifth prompt
+  - model | evaluates fit and supplies alternatives | weighs strengths/limits of the ISIS model and offers other historical models for the horde | fifth reply
+  - author | assigns a new character-to-history mapping | casts one villain as an East-India-Company style extractor and another as bearer of the crusading ideology, then asks what more to layer on from ISIS onto the already-composite villain | sixth prompt
+  - model | supplies additional traits to layer on | specific ISIS-derived mechanisms proposed for the villain's state apparatus | sixth reply
+  - author | asks a tangential real-world question | whether a named domestic group mirrors ISIS | seventh prompt
+  - model | answers and proposes a narrative application | draws domestic-extremism parallels and suggests adding an internal faction to the story world | seventh reply
+  - author | asks an unrelated community question | nature of a real-world fandom community | eighth prompt
+  - model | gives a culture/community analysis | breakdown of that fandom's engagement with the source game | eighth reply
+- kept:
+- brought: The author brought forward an existing body of lore and thematic framework (the Storm King's conquest, Chrysalis's terror state, prior historical inspirations like Attila/Vikings/Magyars) from earlier planning, and introduced new casting decisions of his own (Chrysalis as an East-India-Company analogue, another villain as bearer of a crusading ideology) for the model to build on.
+- loop: The author repeatedly brings a piece of existing lore or a casting decision and asks the model to validate or extend it against real-world historical/political analogues, and the model returns increasingly detailed comparative syntheses and added material to layer onto the fiction; none of this exchange was captured into the planning database as a traced note.

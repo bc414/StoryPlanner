@@ -1,0 +1,37 @@
+- steps:
+  - author | correct | flags model's confusion between Mali's death in P&K and this story's alternate-timeline fork | opening of gemini:151 prompt
+  - author | supply backstory | adds detail on Mali's belief in Luna's harmony promise, its token-reform failure, and the Tzinacatl/Temberik reactions | gemini:151 prompt
+  - author | propose | offers 'Tempest' as chapter 10's title in place of 'Navigation' | gemini:151 prompt
+  - author | explain | lays out where 'Tempest Wind' and 'Mali' as names come from and why | gemini:151 prompt
+  - author | ask | requests further thematic meanings for 'Tempest' and wants assimilation-vs-acceptance foregrounded | gemini:151 prompt
+  - model | endorse and analyze | validates the title across identity, environment, and politics readings | gemini:151 response
+  - model | develop theme | contrasts Celestia's assimilation stance with Applejack's integration stance | gemini:151 response
+  - model | draft dynamic | reworks Mali/Metlzli relationship into estrangement, with dialogue and a subverted 'letter' beat | gemini:151 response
+  - model | structure | breaks the chapter into four staged scenes | gemini:151 response
+  - model | summarize | recaps the title as a reclaimed word across the chapter's arc | gemini:151 response
+  - author | extend | brings a new beat of Rainbow Dash critiquing jungle weather as a former weather pony | gemini:152 prompt
+  - author | ask | proposes and questions whether the Tzinacatl should ambush the party as spies | gemini:152 prompt
+  - author | ask | requests a way to root raft logistics in established Tzinacatl alchemy and bridge to skeptical tribe members | gemini:152 prompt
+  - author | assert constraint | states the 'Republic' name stays unspoken until after the white peace and restates Applejack's belief in Celestia's implicit trust, asking for a contradiction check | gemini:152 prompt
+  - model | develop beat | elaborates Rainbow Dash's professional-annoyance reaction to unmanaged weather | gemini:152 response
+  - model | confirm and stage | endorses the ambush idea and blocks out the attack scene | gemini:152 response
+  - model | invent solution | proposes an alchemical rubber-sap raft tied to existing rubber-resource lore | gemini:152 response
+  - model | explain | shows how the raft solution gives the skeptical tribe a face-saving reason to join | gemini:152 response
+  - model | verdict | checks the loyalty framing against plan and finds no contradiction, offering an analogy for it | gemini:152 response
+  - model | summarize | recaps the chapter's structure incorporating the new beats | gemini:152 response
+- kept:
+  - note 4416 | the author's own words in this record | keeps the added Mali backstory (harmony belief, token reforms, tribe reactions), filed under Subject 'Mali'
+  - note 573 | pasted whole from this reply | keeps the 'Old Way' Celestia-assimilation framing, filed under the isolationist-tribe meeting plot point
+  - note 574 | pasted whole from this reply | keeps the 'New Way' Applejack-integration framing, same plot point
+  - note 830 | pasted whole from this reply | keeps Metlzli's perspective and dialogue plus the letter-subversion idea, filed under 'Meeting Metzli's Tribe'
+  - note 832 | pasted whole from this reply | keeps Mali's perspective and dialogue on the mask/service split, same plot point
+  - note 833 | pasted whole from this reply | keeps the council debate dialogue between Mali and Metlzli, same plot point
+  - note 2489 | pasted from this reply inside the author's own framing | keeps the name-as-cage analysis with an added author note on Mali's actual temperament, filed under a Mali-related link
+  - note 2491 | pasted whole from this reply | keeps the internal-conflict/tempest-of-the-soul framing, filed under the tribe-meeting link
+  - note 1124 | the author's own words in this record | keeps the ambush idea plus the detail that it's a rival tribe, filed under PlotPoint 'Ambush'
+  - note 1127 | the author's own words in this record | keeps Rainbow's weather-critique idea, filed under the supply-line plot point
+  - note 1129 | the author's own words in this record | keeps the realization that pegasi never controlled the jungle weather, same plot point
+  - note 1128 | pasted whole from this reply | keeps the elaboration of Rainbow's professional-annoyance characterization, same plot point
+  - note 4415 | pasted from this reply with cuts | keeps the alchemical rubber-sap raft solution tied to rubber-resource lore, filed under Subject 'Tzinacatl Magic/Alchemy/Biology'
+- brought: The author brought established prior-canon (P&K) facts about Mali and the Tzinacatl, plus prior plan constraints on Applejack's characterization, to correct and check new chapter ideas against.
+- loop: The author repeatedly brings corrections, backstory, and new scene ideas along with a constraint to verify against the existing plan, and the model turns each into thematic analysis, dialogue, and staged scene structure, which the plan then keeps as plot-point and subject entries and as linked character analyses.

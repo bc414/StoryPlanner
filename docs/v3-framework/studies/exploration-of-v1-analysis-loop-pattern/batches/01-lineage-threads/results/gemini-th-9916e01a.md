@@ -1,0 +1,18 @@
+- steps:
+  - the author | lays out a fork | two competing scenarios for when Comet Shine's ideology reveal happens, with the logic chain each implies for Applejack's defiance | opening prompt of the thread
+  - the model | weighs the fork | pros and cons of both timings, then a recommendation for the later reveal framed around a predator/symbiote theme | first reply
+  - the author | takes the recommendation and asks what breaks | whether the now-orphaned chapter 2 factory scene and Fleur's role still belong in the plan | second prompt
+  - the model | repairs the downstream scene | a repurposed factory scene (practical rather than ideological) and a reduced, competence-only role for Fleur | second reply
+  - the author | adds unstated backstory and poses two questions | Applejack's imposter-syndrome origin, the Henri command-refusal beat, a request to read how she'd see Comet Shine, and a yes/no on a tank prototype | third prompt
+  - the model | reads the character and rules on the prop | an account of Applejack's perception of Comet Shine plus a verdict to keep the tank with framing caveats | third reply
+  - the author | corrects the antagonist's motive | Luna's retreat order comes from emotional/vibes concern for innocence, not logistics | fourth prompt
+  - the model | reworks the conflict on the new premise | conflict reframed as innocence-vs-survival, with revised meaning for the tank and for Applejack's defiance line | fourth reply
+  - the author | corrects a character's identity | flags that the factory character is an original character, not the canon pony of the same surname | fifth prompt
+  - the model | redoes the analysis under the correction | acknowledgment plus a re-run of the scene and dialogue beats for the corrected character | fifth reply
+  - the author | brings a held-back plan detail and proposes a change | the plan to withhold the tool's explanation until a later chapter, now reconsidered to give a crude version earlier since it precedes another character's arrival | sixth prompt
+  - the model | confirms and structures the split | endorsement of a two-tier reveal (practical now, theoretical later) tied to another character's later emotional payoff | sixth reply
+- kept:
+  - note 209 | the author's own words in this record | keeps a short refusal-of-command exchange from the author's backstory description, entered as dialogue on the plot point for the two characters' meeting
+  - note 2249 | one sentence lifted from this reply | keeps the model's phrase about protective treatment functioning as infantilizing, repurposed onto a plot point about one character learning from another's behavior toward a mentor figure
+- brought: The author brought a structural fork already worked out in two versions along with backstory and character details not yet in the conversation, using each exchange to test how a single timing change ripples through adjacent scenes and characters.
+- loop: The author repeatedly brings a plan decision or a correction to it and asks the model to re-derive downstream consequences (scene purpose, character perception, prop symbolism), and the database keeps only small salvage from this back-and-forth: one author-authored dialogue exchange stored as a meeting plot point, and one lifted sentence from the model's reframing repurposed to describe a different character's pattern of behavior.

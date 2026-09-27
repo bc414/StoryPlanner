@@ -1,0 +1,11 @@
+- steps:
+  - author | ask | a naming question: what is the in-universe Aquileian term for 'Aquileian Lioness' | opening message of the thread
+  - model | answer | states the canonical term 'une lionne' and cites two supporting lore instances (a spell name, a line of dialogue) | first response, opening part
+  - model | analyze | unpacks the sociopolitical meaning of the term against the setting's Lion/Eagle dogma | first response, closing part
+  - author | propose | offers an alternative phrasing ('Une Lionne Aquilenne') together with own reasoning that a Herzlander lioness would be deemed heretical | second message
+  - model | validate | affirms the author's proposed reasoning as correct | second response, opening line
+  - model | elaborate | breaks the concept into a structured explanation of the Herzlander dogma's Lion/Eagle roles and how the Aquileian usage subverts them | second response, middle section
+  - model | refine | distinguishes an outsider-facing form of the term from the term as used internally among Aquileians, resolving the author's proposed alternative into a two-register usage | second response, closing section
+- kept:
+- brought: The author brought a terminology question about an in-universe title, then their own proposed variant term along with reasoning tying it to the setting's established ideological dogma.
+- loop: The author raises a naming question and then tests their own proposed refinement of the answer against established lore logic, and the model each time confirms and elaborates the terminology's structural meaning, but the exchange left no trace in the planning database this time.

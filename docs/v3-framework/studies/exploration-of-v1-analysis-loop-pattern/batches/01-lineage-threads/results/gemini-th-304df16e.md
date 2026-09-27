@@ -1,0 +1,38 @@
+- steps:
+  - author | asks technical question | difference between Claude on Nvidia vs Google hardware | opening of conversation
+  - model | gives infrastructure explainer | multi-chip strategy, performance/cost/software tradeoffs | reply to opening question
+  - author | extends question | business relationship between cloud providers and Anthropic | follow-up after explainer
+  - model | maps distribution paths | wholesaler-vs-retailer model for accessing Claude | reply to business question
+  - author | broadens scope | asks where Oracle and other major players fit in | follow-up after distribution explainer
+  - model | surveys industry landscape | Oracle, Microsoft, Meta, IBM roles in AI infrastructure | reply to Oracle question
+  - author | brings hardware constraint | asks if Llama models can handle the 300k-word plan, states own AMD GPU specs | follow-up after landscape survey
+  - model | assesses feasibility | context-window and VRAM limits versus local AMD hardware | reply to hardware question
+  - author | asks clarifying technical question | whether Vulkan in AI context is the same as the graphics API | follow-up after feasibility assessment
+  - model | explains software backend landscape | ROCm vs Vulkan for AMD local AI | reply to Vulkan question
+  - author | states workflow preference and pivots | Google AI Pro is enough for dev, asks parameter counts for Google/Anthropic models | follow-up after Vulkan explainer
+  - model | supplies estimated figures | parameter counts by model generation | reply to parameter question
+  - author | requests expanded synthesis | full historical parameter comparison across three labs, 2022-2026 | follow-up after single-lab figures
+  - model | compiles historical table | parameter evolution across ChatGPT, Gemini, Claude | reply to history request
+  - author | asks pointed question | who uses Gemini Ultra today, is it the Ultra subscription, does Deep Think obsolete it | follow-up after historical table
+  - model | clarifies branding vs architecture | history of Ultra's retirement and Deep Think's test-time-compute advantage | reply to Ultra question
+  - author | states own use case and asks for validation | logic/world-building use not prose, is Deep Think better than old Ultra for this | follow-up after Ultra explainer
+  - model | validates use case and offers a tool | why test-time compute suits logic auditing, drafts a sample constraint | reply to use-case question
+  - author | poses broad authorship question | do real authors carry both delivery and logic duties, compares AI-roleplay users to serious authors, asks for a grounded historical survey since 2022 | follow-up after logic-auditing validation
+  - model | produces dual analysis | delivery/logic distinction plus a timeline of AI-writing communities 2022-2026 | reply to authorship question
+  - author | submits an external document for review | asks the model to review their NotebookLM notebook and relate it to the AI-writing divide | follow-up after historical survey
+  - model | analyzes the author's own work history | traces the author's literary evolution and links it to the delivery/logic divide | reply to notebook submission
+  - author | requests a grounding correction | asks the model to verify against first-principles authorship theory rather than trust the prior conversation | follow-up after notebook analysis
+  - model | supplies a theoretical framework | narratology (Fabula/Syuzhet), Architects/Gardeners, editing-pipeline roles | reply to correction request
+  - author | extends the framework | links serialized-fanfic gardener bias, early AI's extremity, and affordability of long-context editing | follow-up after theory framework
+  - model | validates and elaborates economics | cost of professional developmental editing versus long-context AI access | reply to author's extension
+  - author | requests formalization | asks for a first-principles breakdown of Fabula's components to write stricter system instructions | follow-up after economics discussion
+  - model | delivers a formal framework and draft instruction | four pillars of Fabula plus an anti-pantser system-instruction template | reply to formalization request
+  - author | asks a platform capability question | whether Claude supports system instructions like AI Studio/NotebookLM, whether Gemini Gems are handicapped | follow-up after instruction template
+  - model | compares platform mechanics | Claude Projects/Console versus Gemini Gem's wrapper limitation | reply to platform question
+  - author | asks for an architecture comparison | NotebookLM's RAG/chunking versus AI Studio's full-context approach for developmental editing | follow-up after platform comparison
+  - model | delivers a technical verdict | RAG versus full-context strengths and weaknesses against the four Fabula pillars | reply to RAG question
+  - author | connects tool choice to story theme | asks how the AI Studio approach relates to the story's Honesty-vs-Poseurs theme, contrasts it with early AI-slop monetizers | follow-up after technical verdict
+  - model | draws a thematic analogy | maps the author's methodology and the slop-monetizers onto in-story characters (Applejack/Chrysalis), offers further formalization | reply to theme question
+- kept:
+- brought: The author brought their own hardware specs, workflow preferences, an external NotebookLM literary-influences notebook, and specific story-plan elements (the Honesty-vs-Poseurs theme, Applejack, Chrysalis) into the conversation for the model to analyze against the AI-writing frameworks it was building.
+- loop: The author used this conversation to move from general AI-infrastructure and market questions toward calibrating how to instruct AI tools as a developmental editor, testing the model's frameworks against their own hardware, notebook, and story-plan elements; none of the resulting analyses, tables, or thematic analogies were captured back into the planning database in this stretch.

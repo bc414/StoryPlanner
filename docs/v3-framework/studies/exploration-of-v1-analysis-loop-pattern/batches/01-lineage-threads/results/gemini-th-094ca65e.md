@@ -1,0 +1,10 @@
+- steps:
+  - the author | supplies raw source material | a bare YouTube link with no comment or question attached | opening message of the exchange
+  - the model | frames the task | announces itself as 'worldbuilding consultant and structural editor' and states its intent to deconstruct the video's urban-design critique and integrate it into the story's world | opening of the model's response
+  - the model | maps concept to faction | translates the video's 'Garden City' layout and structural-vulnerability critique onto Twilight Sparkle's rebuilding project and the Zebrica setting | first analysis section
+  - the model | maps concept to faction | translates the video's corporate-eminent-domain and hostile-architecture critique onto the Skyfall Trade Federation and its industrial economy | second analysis section
+  - the model | maps concept to faction | translates the video's sealed-city/enclosure and disease-incubation theory onto Chrysalis's hive system, recasting biological plague as engineered addiction | third analysis section
+  - the model | applies a house rule | invokes the 'Minerva Master Scrolls' principle that characters must have no viable alternatives, using the sealed-city concept to justify tightening the story's environments around Thorax's rebellion and Applejack's tactical position | closing section of the response
+- kept:
+- brought: The author brought an external YouTube video critiquing urban planning and corporate conspiracy themes, offered with no framing, question, or connection stated to the existing plan.
+- loop: The loop here is one-sided: the author drops in outside material and the model performs an extensive speculative mapping of it onto existing factions and a house narrative rule, but none of that integrative work is registered as kept in the plan for this stretch, so the loop shows generation without retention.

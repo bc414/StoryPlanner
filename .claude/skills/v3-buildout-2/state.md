@@ -8,21 +8,25 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 
 - type: exploration
 - artifacts present: directions (2) definition (2) index (2) items (2) calls (2) results (2)
-- batches: 01-chapters [-, directions-1, executing (57/1116)] 02-chapters-directions-2 [-, directions-2, executing (1/1116)]
+- batches: 01-chapters [-, directions-1, executing (57/1116), 57 answered out of the cut's order] 02-chapters-directions-2 [-, directions-2, executing (1/1116), 1 answered out of the cut's order]
 - furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
 
 ### exploration-of-technique-mechanism-goal-co-occurrence
 
 - type: exploration
-- artifacts present: directions (2) definition (2) index (2) items (2) calls (2) results (2)
-- batches: 01-chapters [-, directions-1, executing (24/1116)] 02-chapters-directions-2 [-, directions-2, executing (802/1116)]
-- furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
+- artifacts present: directions (2) definition (2) index (2) items (2) calls (2) results (2) leads (3)
+- batches: 01-chapters [-, directions-1, executing (24/1116), 24 answered out of the cut's order] 02-chapters-directions-2 [-, directions-2, executing (802/1116), 801 answered out of the cut's order]
+- current leads file: leads-3.md, written at 602 of 1116 items with results
+- latest next step: none
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-humor-warmth-prior-belief-setups
 
 - type: exploration
 - artifacts present: directions (3) definition (3) index (3) items (3) calls (3) results (3) tally leads
-- batches: 01-tltt-plot-points [-, directions-1, executing (54/379)] 02-tltt-plot-points-directions-2 [-, directions-2, executing (20/379)] 03-tltt-plot-points-directions-3 [-, directions-3, tallied]
+- batches: 01-tltt-plot-points [-, directions-1, executing (54/379), 54 answered out of the cut's order] 02-tltt-plot-points-directions-2 [-, directions-2, executing (20/379), 20 answered out of the cut's order] 03-tltt-plot-points-directions-3 [-, directions-3, tallied]
+- current leads file: leads-1.md, written at 379 of 379 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-v1-theme-commentaries-content
@@ -30,6 +34,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-theme-commentaries [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 144 of 144 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-characterization-notes-invariant-or-state
@@ -37,6 +43,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-characterization-notes [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 101 of 110 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-working-plan-theme-notes-content
@@ -44,6 +52,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-theme-tagged-notes [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 105 of 105 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-v1-subject-notes-as-scene-sequences
@@ -51,6 +61,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-archive-subjects [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 210 of 217 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-v1-scene-notes-content-kinds
@@ -58,6 +70,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-tltt-plot-points [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 379 of 379 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-v1-scenes-designed-from-non-mane-6-focalizer
@@ -65,6 +79,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-tltt-plot-points [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 379 of 379 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-v1-seed-and-withholding-directives
@@ -72,6 +88,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-tltt-plot-points [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 379 of 379 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-notes-mix-cognitive-modes
@@ -79,6 +97,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-tracked-notes [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 2065 of 2066 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-working-plan-note-relationships-in-prose
@@ -86,6 +106,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-owners [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 351 of 353 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-narrator-register-or-focalizer-voice
@@ -93,6 +115,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-own-fiction-chapters [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 74 of 74 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-v1-archive-note-relationships-in-prose
@@ -100,56 +124,72 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - type: exploration
 - artifacts present: directions definition index items calls results tally leads
 - batches: 01-tltt-plot-points [-, directions-1, tallied]
+- current leads file: leads-1.md, written at 379 of 379 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-closing-questions-taken-up
 
 - type: exploration
-- artifacts present: directions definition index items calls results leads
-- batches: 01-question-endings [-, directions-1, executing (1617/1619)]
+- artifacts present: directions definition index items calls results leads (2)
+- batches: 01-question-endings [-, directions-1, executing (1617/1619), 1603 answered out of the cut's order]
+- current leads file: leads-2.md, written at 1617 of 1619 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-data-strata-named-in-prompts
 
 - type: exploration
-- artifacts present: directions definition index items calls results tally leads
+- artifacts present: directions definition index items calls results tally leads (2)
 - batches: 01-user-turns [-, directions-1, tallied]
+- current leads file: leads-2.md, written at 4093 of 4093 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-follow-up-correction-kinds
 
 - type: exploration
-- artifacts present: directions definition index items calls results tally leads
+- artifacts present: directions definition index items calls results tally leads (2)
 - batches: 01-user-turns [-, directions-1, tallied]
+- current leads file: leads-2.md, written at 4093 of 4093 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-decisions-against-assistant-leans
 
 - type: exploration
-- artifacts present: directions definition index items calls results tally leads
+- artifacts present: directions definition index items calls results tally leads (2)
 - batches: 01-session-decisions [-, directions-1, tallied]
+- current leads file: leads-2.md, written at 2777 of 2777 items with results
+- latest next step: none
 - furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-own-voice-registers-mixed
 
 - type: exploration
-- artifacts present: directions definition index items calls results
-- batches: 01-own-voice-loci [-, directions-1, executing (633/641)]
-- furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
+- artifacts present: directions definition index items calls results leads
+- batches: 01-own-voice-loci [-, directions-1, executing (633/641), 602 answered out of the cut's order]
+- current leads file: leads-1.md, written at 633 of 641 items with results
+- latest next step: none
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-prompts-behind-copied-responses
 
 - type: exploration
-- artifacts present: directions definition index items calls results
-- batches: 01-lineage-prompts [-, directions-1, executing (662/3934)]
-- furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
+- artifacts present: directions definition index items calls results leads
+- batches: 01-lineage-prompts [-, directions-1, executing (662/3934), 662 answered out of the cut's order]
+- current leads file: leads-1.md, written at 662 of 3934 items with results
+- latest next step: none
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ### exploration-of-v1-analysis-loop-pattern
 
 - type: exploration
-- artifacts present: directions definition index items calls results
-- batches: 01-lineage-threads [-, directions-1, executing (746/909)]
-- furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
+- artifacts present: directions definition index items calls results leads
+- batches: 01-lineage-threads [-, directions-1, executing (898/909), 867 answered out of the cut's order]
+- current leads file: leads-1.md, written at 746 of 909 items with results
+- latest next step: none
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ## Iterations
 

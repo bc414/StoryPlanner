@@ -1,8 +1,14 @@
 # exploration-of-own-voice-registers-mixed — leads
 
+- items with results: 633 of 641
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-own-voice-registers-mixed/how-many-registers-one-place-holds
+### exploration-of-own-voice-registers-mixed/leads-1/how-many-registers-one-place-holds
 - lead: Over 633 of the batch's 641 places — 405 plot points read with their links' notes, 208 subjects and 20
   chapters, each carrying only the notes the attribution credits to the author's own voice — the readers cut
   8,016 passages and named a median of 5 registers per place, 10 at the ninetieth percentile and 21 at the
@@ -12,7 +18,7 @@
 - query:
   - rq1 batch=exploration-of-own-voice-registers-mixed/01-own-voice-loci answered=633 field=passages view=health
 
-### exploration-of-own-voice-registers-mixed/registers-change-inside-a-single-note
+### exploration-of-own-voice-registers-mixed/leads-1/registers-change-inside-a-single-note
 - lead: The readers recorded 3,670 places where the register changes inside one note, in 577 of the 633 places
   read. Of the 4,148 notes the passages name, 2,018 carry at least one such change. So a change of register is
   not only between notes written at different times on one place: about half of the own-voice notes change
@@ -21,7 +27,7 @@
 - query:
   - rq1 batch=exploration-of-own-voice-registers-mixed/01-own-voice-loci answered=633 field=shifts view=health
 
-### exploration-of-own-voice-registers-mixed/passages-that-run-into-another-register
+### exploration-of-own-voice-registers-mixed/leads-1/passages-that-run-into-another-register
 - lead: 1,534 of the 8,016 passages run into a passage of another register inside one sentence or with no
   break a reader would notice; 6,481 stand apart. Examples the readers describe: plain descriptive summary
   giving way to quoted dialogue partly by paragraph breaks and partly by parenthetical exclamations fused onto
@@ -37,7 +43,7 @@
   - exploration-of-own-voice-registers-mixed/01-own-voice-loci/subject-623
   - exploration-of-own-voice-registers-mixed/01-own-voice-loci/subject-238
 
-### exploration-of-own-voice-registers-mixed/what-the-readers-named-the-registers
+### exploration-of-own-voice-registers-mixed/leads-1/what-the-readers-named-the-registers
 - lead: The readers named every register in their own terms. The words recurring most in those names are
   summary (1,756 passages, mostly "plot summary"), narrative and narration (865 and 711), expository and
   exposition (619 and 368), aside (446), analytical and analytic (398 and 214), dialogue (382), commentary
@@ -47,7 +53,7 @@
 - query:
   - rq1 batch=exploration-of-own-voice-registers-mixed/01-own-voice-loci answered=633 field=passages view=health
 
-### exploration-of-own-voice-registers-mixed/what-marks-a-change-of-register
+### exploration-of-own-voice-registers-mixed/leads-1/what-marks-a-change-of-register
 - lead: The marks the readers gave for a change of register are, most often, a change of person (656 shift
   lines), of sentence form (641), of tense (469), a parenthesis (438 across parenthesis and parenthetical), a
   return to an earlier register (333), a question (232), a register dropped mid-way (224) and a break (217).

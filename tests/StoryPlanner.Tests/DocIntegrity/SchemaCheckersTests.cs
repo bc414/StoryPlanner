@@ -223,11 +223,15 @@ public class SchemaCheckersTests : IDisposable
 
     const string LeadsStudy = "docs/v3-framework/studies/exploration-of-v1-archive";
 
-    /// <summary>The batch the leads example cites, with the two slices in its index.</summary>
-    string WriteLeadsTree(string text)
+    /// <summary>
+    /// The batch the leads example cites, with the two slices in its index, and a second batch
+    /// under the study that a leads file must not also draw from.
+    /// </summary>
+    string WriteLeadsTree(string text, string name = "leads-1.md")
     {
         Write($"{LeadsStudy}/batches/01-scene-slices/index.md", "# 01-scene-slices — index\n\n- itemizer: tools/StoryPlanner.ArchiveItemizer, 1\n- locator notation: a chapter range\n\n| item | locator | description |\n|---|---|---|\n| slice-01 | ch1-3 | a |\n| slice-02 | ch4-6 | b |\n");
-        return Write($"{LeadsStudy}/leads.md", text);
+        Write($"{LeadsStudy}/batches/03-more-slices/index.md", "# 03-more-slices — index\n\n- itemizer: tools/StoryPlanner.ArchiveItemizer, 2\n- locator notation: a chapter range\n\n| item | locator | description |\n|---|---|---|\n| slice-01 | ch1-3 | a |\n");
+        return Write($"{LeadsStudy}/{name}", text);
     }
 
     [Fact]
@@ -240,14 +244,47 @@ public class SchemaCheckersTests : IDisposable
     [Fact]
     public void A_leads_file_in_a_folder_that_is_not_an_exploration_fails_its_title()
     {
-        var path = Write("docs/v3-framework/studies/verification-of-v1-archive-x/leads.md", SchemaExamples.Block("leads-schema"));
+        var path = Write("docs/v3-framework/studies/verification-of-v1-archive-x/leads-1.md", SchemaExamples.Block("leads-schema"));
         Assert.Contains("leads.title", Rules(Leads.Check(Ctx(), path)));
+    }
+
+    [Theory]
+    [InlineData("leads.md")]
+    [InlineData("leads-01.md")]
+    [InlineData("leads-2.md")]   // leads-1.md absent: a gap below it
+    public void A_leads_file_off_its_number_or_above_a_gap_fails_its_version(string name)
+    {
+        var text = SchemaExamples.Block("leads-schema").Replace("/leads-1/", name == "leads-2.md" ? "/leads-2/" : "/leads-1/");
+        var path = WriteLeadsTree(text, name);
+        Assert.Contains("leads.version", Rules(Leads.Check(Ctx(), path)));
+    }
+
+    [Fact]
+    public void A_second_leads_file_above_the_first_passes_its_version()
+    {
+        WriteLeadsTree(SchemaExamples.Block("leads-schema"));
+        var path = WriteLeadsTree(SchemaExamples.Block("leads-schema").Replace("/leads-1/", "/leads-2/"), "leads-2.md");
+        Assert.Empty(Rules(Leads.Check(Ctx(), path)));
     }
 
     [Theory]
     [InlineData("## Leads\n", "## Findings\n", "leads.shape")]
     [InlineData("- seen in: <whatever it was seen in, in words>\n- cites:\n  - exploration-of-v1-archive/01-scene-slices/slice-02\n\n", "- cites:\n  - exploration-of-v1-archive/01-scene-slices/slice-02\n\n", "leads.entry")]
-    [InlineData("### exploration-of-v1-archive/second-seen-thing", "### exploration-of-lineage/second-seen-thing", "leads.entry")]
+    [InlineData("### exploration-of-v1-archive/leads-1/second-seen-thing", "### exploration-of-lineage/leads-1/second-seen-thing", "leads.entry")]
+    [InlineData("### exploration-of-v1-archive/leads-1/second-seen-thing", "### exploration-of-v1-archive/leads-2/second-seen-thing", "leads.entry")]
+    [InlineData("### exploration-of-v1-archive/leads-1/second-seen-thing", "### exploration-of-v1-archive/second-seen-thing", "leads.entry")]
+    [InlineData("### exploration-of-v1-archive/leads-1/second-seen-thing", "### exploration-of-v1-archive/leads-1/first-seen-thing", "leads.entry")]
+    [InlineData("- items with results: 2 of 2", "- items with results: 3 of 2", "leads.head")]
+    [InlineData("- items with results: 2 of 2", "- items with results: 0 of 2", "leads.head")]
+    [InlineData("- items with results: 2 of 2", "- items with results: two", "leads.head")]
+    [InlineData("- items with results: 2 of 2\n", "", "leads.head")]
+    [InlineData("- items with results: 2 of 2\n- written by:", "- written by:", "leads.head")]
+    [InlineData("01-scene-slices/slice-02\n\n## Proposed", "03-more-slices/slice-01\n\n## Proposed", "leads.batch")]
+    [InlineData("- 2026-09-22 new directions version: <why>", "- 2026-09-22 rerun everything: <why>", "leads.next")]
+    [InlineData("- 2026-09-22 new directions version: <why>", "- new directions version: <why>", "leads.next")]
+    [InlineData("- 2026-09-22 new directions version: <why>", "- 2026-09-22 stop:", "leads.next")]
+    [InlineData("- 2026-09-22 new directions version: <why>", "- 2026-09-22 new directions version: <why>\n- 2026-09-01 stop: <earlier>", "leads.next")]
+    [InlineData("- directions: <what the review found>", "- consolidation: <what the review found>", "leads.shortcoming")]
     [InlineData("01-scene-slices/slice-02\n\n## Proposed", "01-scene-slices/slice-09\n\n## Proposed", "leads.cites")]
     [InlineData("- query:\n  - rq1 batch=exploration-of-v1-archive/01-scene-slices answered=2 field=leads where what~\"<a regex>\" view=list\n", "- query:\n  - rq1 batch=exploration-of-v1-archive/01-scene-slices answered=2 field=leads view=terms\n", "leads.query")]
     [InlineData("rq1 batch=exploration-of-v1-archive/01-scene-slices answered=2", "rq1 batch=exploration-of-v1-archive/02-other answered=2", "leads.query")]
@@ -257,7 +294,7 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("- reread: 2026-09-22 <what the source showed>", "- reread: soon <what the source showed>", "leads.reread")]
     [InlineData("- reread: 2026-09-22 <what the source showed>", "- reread: 2026-09-22 <what the source showed>\n- seen in: <again>", "leads.reread")]
     [InlineData("- reread: 2026-09-22 <what the source showed>", "- reread: 2026-09-22 <what the source showed>\n- reread: 2026-09-01 <earlier>", "leads.reread")]
-    [InlineData("- consolidation: <what the review found>", "- calibration: <what the review found>", "leads.shortcoming")]
+    [InlineData("- directions: <what the review found>", "- calibration: <what the review found>", "leads.shortcoming")]
     public void A_leads_example_with_one_thing_broken_fails_on_that_check(string find, string replace, string check)
     {
         var text = SchemaExamples.Block("leads-schema");

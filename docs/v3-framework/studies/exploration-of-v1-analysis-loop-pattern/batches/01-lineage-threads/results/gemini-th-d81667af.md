@@ -1,0 +1,15 @@
+- steps:
+  - author | sets scene and stakes a claim | post-return chaos, Coltbert's hire, land-reform strategy as a snub to Verany | opening of first prompt
+  - author | poses a four-way analysis request | asks how rural griffons, rural ponies, urban griffons, urban ponies now feel | end of first prompt
+  - author | floats a subsidiary hypothesis | nobles split into obsolete/arrested rent-seekers vs. statist nobles trading land for grand-bourgeois status | close of first prompt
+  - model | returns a five-way faction breakdown | status, views of king/city/other side for each group, plus nobles' split fates | first response
+  - model | offers a summarizing frame | 'donut economy' label for the overall political shape produced | end of first response
+  - author | narrows focus to one group's backstory | asks what the royalist ponies recruited 940-980 were trained and tasked to do for Gerad | opening of second prompt
+  - author | proposes a follow-on inference | argues traumatized city ponies wouldn't return, would instead staff the countryside reforms | second prompt
+  - author | adds a character sketch | describes Moriset as non-intellectual, paranoid, ego-driven, touring for royal-fair adulation while Coltbert handles economics | second prompt
+  - model | confirms and elaborates the migration thesis | curriculum ponies received, reasons for leaving the city, new rural roles (notary, magistrate, agronomist) | second response
+  - model | dramatizes the king's role | royal-fair scene split between Moriset's public praise-bathing and ponies' backstage administration | second response
+  - model | names a cultural outcome | 'snobocracy' label for the resulting inverted town/country prestige order | close of second response
+- kept:
+- brought: The author brought forward an already-decided plan beat — Moriset Discret's return, the hiring of Coltbert, and a land-reform strategy meant to snub Verany — as the starting premise for both rounds of questioning.
+- loop: The author supplies a political premise plus a personal hypothesis and asks the model to work out its social consequences faction by faction; the model returns elaborated, labeled analyses that the author then narrows and builds on in a second question, but nothing from either exchange is recorded as traced into the planning database in this stretch.

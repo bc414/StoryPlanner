@@ -166,6 +166,7 @@ public static class StateBuilder
             sb.Append(any ? "\n" : " none\n");
 
             Batches(sb, repoRoot, doc, folder, cache);
+            LeadsFiles(sb, repoRoot, doc, folder, cache);
 
             string? furthest = null;
             foreach (var p in processes)
@@ -295,12 +296,92 @@ public static class StateBuilder
             try { d = DefinitionFile.Read(path); } catch (IOException) { continue; }
             var directions = d.DirectionsPath is null ? "?" : Path.GetFileNameWithoutExtension(d.DirectionsPath);
             var calls = File.Exists(d.CallsPath) ? CallsFile.Read(d.CallsPath) : null;
-            var items = File.Exists(d.IndexPath) ? IndexFile.Read(d.IndexPath).Rows.Count : 0;
-            var done = calls is null ? 0 : calls.Entries.Where(e => e.Succeeded).Select(e => e.Item).Distinct().Count();
+            var index = File.Exists(d.IndexPath) ? IndexFile.Read(d.IndexPath).Rows.Select(r => r.Item).ToList() : [];
+            var items = index.Count;
+            var answered = calls is null ? new HashSet<string>(StringComparer.Ordinal)
+                : calls.Entries.Where(e => e.Succeeded).Select(e => e.Item).ToHashSet(StringComparer.Ordinal);
+            var done = answered.Count;
             var stage = File.Exists(d.TallyPath) ? "tallied" : calls is not null ? (done == items && items > 0 ? "executed" : $"executing ({done}/{items})") : items > 0 ? "itemized" : "defined";
-            sb.Append($" {d.Batch} [{d.Kind ?? "-"}, {directions}, {stage}]");
+            // d-2026-09-27-5: the answered items that sit after the first unanswered one in the cut's order.
+            var outOfOrder = CutOrder.AnsweredOutOfOrder(index, answered).Count;
+            sb.Append($" {d.Batch} [{d.Kind ?? "-"}, {directions}, {stage}{(outOfOrder > 0 ? $", {outOfOrder} answered out of the cut's order" : "")}]");
         }
         sb.Append('\n');
+    }
+
+    /// <summary>
+    /// A study's current leads file and the latest next step (d-2026-09-27-9, -14): the current
+    /// file is the highest-numbered <c>leads-&lt;N&gt;.md</c>, with the answered count its head
+    /// records; the latest next step is the latest-dated Next steps line across all the study's
+    /// leads files, a tie going to the higher file number and then the later line. Nothing is
+    /// written for a study with no leads file.
+    /// </summary>
+    static void LeadsFiles(StringBuilder sb, string repoRoot, SkillDocument doc, string folder, Dictionary<string, WalkResult> cache)
+    {
+        var row = doc.Artifact(WellKnown.Leads);
+        if (row is null || !ArtifactPath.TryParse(row.Path, out var ap, out _)) return;
+        sb.Append(LeadsSummary(Matches(repoRoot, ap!, folder, cache)));
+    }
+
+    /// <summary>The current-file and latest-next-step lines for one study's leads files, or empty when it has none.</summary>
+    public static string LeadsSummary(IEnumerable<string> leadsFiles)
+    {
+        var files = leadsFiles
+            .Select(p => (N: Leads.NumberOf(Path.GetFileName(p)), Path: p))
+            .Where(x => x.N is not null)
+            .OrderBy(x => x.N)
+            .ToList();
+        if (files.Count == 0) return "";
+
+        var sb = new StringBuilder();
+        var current = files[^1];
+        var count = LeadsHead(File.ReadAllText(current.Path));
+        sb.Append($"- current leads file: {Path.GetFileName(current.Path)}{(count is null ? "" : $", written at {count} items with results")}\n");
+
+        (string Date, int N, int Line, string Step)? latest = null;
+        foreach (var (n, path) in files)
+        {
+            var line = 0;
+            foreach (var entry in NextSteps(File.ReadAllText(path)))
+            {
+                line++;
+                if (Leads.ParseNextStep(entry) is not { } step) continue;
+                (string Date, int N, int Line, string Step) candidate = (step.Date, n!.Value, line, step.Step);
+                if (latest is not { } best
+                    || string.CompareOrdinal(candidate.Date, best.Date) > 0
+                    || (candidate.Date == best.Date && (candidate.N, candidate.Line).CompareTo((best.N, best.Line)) > 0))
+                    latest = candidate;
+            }
+        }
+        sb.Append(latest is { } l ? $"- latest next step: {l.Date} {l.Step} (leads-{l.N}.md)\n" : "- latest next step: none\n");
+        return sb.ToString();
+    }
+
+    /// <summary>The <c>items with results</c> value of a leads file's head, the keyed lines before its first section.</summary>
+    static string? LeadsHead(string text)
+    {
+        var key = $"- {Leads.ItemsWithResults}: ";
+        foreach (var raw in text.Replace("\r\n", "\n").Split('\n'))
+        {
+            if (raw.StartsWith("## ", StringComparison.Ordinal)) return null;
+            if (raw.StartsWith(key, StringComparison.Ordinal)) return raw[key.Length..].Trim();
+        }
+        return null;
+    }
+
+    /// <summary>The one-line entries under a leads file's <c>## Next steps</c>, each without its bullet, continuations joined.</summary>
+    static IReadOnlyList<string> NextSteps(string text)
+    {
+        var result = new List<string>();
+        var inside = false;
+        foreach (var raw in text.Replace("\r\n", "\n").Split('\n'))
+        {
+            if (raw.StartsWith("## ", StringComparison.Ordinal)) { inside = raw.Trim() == "## Next steps"; continue; }
+            if (!inside) continue;
+            if (raw.StartsWith("- ", StringComparison.Ordinal)) result.Add(raw[2..].Trim());
+            else if (raw.StartsWith("  ", StringComparison.Ordinal) && result.Count > 0) result[^1] += "\n" + raw.Trim();
+        }
+        return result;
     }
 
     /// <summary>The registry's entries in order: each <c>- &lt;id&gt;</c> line after the title (d-2026-09-14-11); anything else is the checker's to report.</summary>

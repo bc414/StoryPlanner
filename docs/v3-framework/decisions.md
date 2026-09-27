@@ -6702,3 +6702,522 @@ rules names the old id in prose.
   undocumented, hard-rate-limited request and token refresh; a `rate-limited` check recorded
   on the call, which keeps a trace in the calls file but stops the overnight run at the wall,
   or needs the one-per-execution guard to make an exception.
+
+### The write hook rewrites map.md only; render builds state.md in one pruned walk of each study folder
+
+- id: d-2026-09-27-1
+- date: 2026-09-27
+- raised by: during the autonomous exploration campaign of 2026-09-26 to 27 every Edit or Write
+  to a governed file began taking minutes, and a hook run on one leads file went past seven
+  minutes without finishing. Brian: "Why are tool calls taking a long time now? Is the check hook
+  taking long? Something else?" The session measured `check` on the one file at 0.26 s and on
+  `docs/v3-framework` at 3 min 54 s. After checking the file and the skill folder, the hook rewrote
+  `state.md`, whose builder walked each study folder once per artifact class; the study folders
+  then held 43,261 `attempts/` directories, the runner's per-call streams, local and no artifact
+  class, beside 28,252 item files and 20,543 result files. Brian: "I barely even use state.md,
+  though map.md seems to be useful for understanding the skill that was made. Which is the
+  culprit?" Offered: the hook stops rewriting `state.md`; `state.md` built in one pruned walk; the
+  `attempts/` folders deleted. Brian: "Have a subagent do both 1 and 2."
+- decision: On a passing write the hook rewrites `map.md` only. `state.md` is written whole by
+  `render`, on demand, and may lag the governed files until the next run; the router's sentences
+  and revising-the-method's that said the hook rewrites both say this instead. `render` builds
+  `state.md` from one walk of each root, reused across the artifact classes, that never enters an
+  `attempts` directory and does not list inside `items/` or `results/`, needing only to know they
+  exist and hold files; no artifact class lives inside any of the three. What `state.md` contains is
+  unchanged.
+- not taken: the walk made cheap with `state.md` kept in the hook, which still spends a render at
+  every write on a file Brian reads rarely; the `attempts/` folders deleted, the only record of what
+  happened inside a call, whose inputs the calls file's hashes prove and do not reproduce.
+
+### A leads file is one write-up of one batch at one answered count, leads-N.md in the order written
+
+- id: d-2026-09-27-2
+- date: 2026-09-27
+- supersedes: d-2026-09-09-22
+- raised by: the class held one `studies/<study>/leads.md` per study (d-2026-09-09-22), a shape
+  from when a study was one execution, not widened when d-2026-09-08-3 and d-2026-09-13-41 made a
+  study the life of a set of directions over several batches. Practice outgrew it twice: from
+  2026-09-15 to 17 the co-occurrence study took three write-ups of one batch at 602 of 1,116
+  answered, filed outside the class's path where no check read them; and in the campaign of
+  2026-09-26 to 27 a leads file carried a fault of its batch's directions, so its study needs a
+  second file from a corrected batch. Brian: "So I should be doing the reviewing leads HITL
+  activity for each of these explorations. But if I need to run the whole thing again with new
+  directions, should this be a new study or within the same study? Directions currently have
+  numbers. Should leads have numbers too?"; then "What I meant by 'should leads have numbers too'
+  was 'should leads.md have numbers too?' Which is option 3."; and "I also believe, since there can
+  now be multiple lead files in the study and only the last one is the best current understanding,
+  then we can have leads files written over partial runs." Offered: a numbered file per write-up;
+  one file with a section per write-up; the leads file inside the batch folder; files numbered by
+  batch. Brian: "A sounds good, but 'drawn' is a confusing and abstract term; the term needs to be
+  more intuitive", and he chose `written by` for the field.
+- decision: The class stays `leads`, its schema `schemas/leads-schema.md`; d-2026-09-07-34 keeps
+  the old id as a record. A leads file is one write-up of one batch's results at one answered
+  count, at the study's top as `leads-<N>.md`, N from 1 and the next number in the study in the
+  order the files are written; a study holds any number. Every file is appended, an earlier one
+  included, since the review appends to it after a later one exists; the number is a name, and a
+  later file neither freezes nor replaces an earlier one. After the title the file carries a head
+  of keyed lines: `answered`, `<n> of <items>`, the batch's answered count when the file was
+  written, which the batch no longer shows once it moves on; then `written by`, in words, the
+  session that wrote it and what it could see. The batch is not authored: every query and every
+  cite in the file names one batch, and the file draws from that batch alone. Checks:
+  `leads.version`, N the next number in its study; `leads.head`, the two keys present, in order,
+  `answered` of that form; `leads.batch`, every query and cite naming one batch.
+- not taken: one `leads.md` with a section per write-up, which grows without bound and mixes
+  review lines and currency across sections; the leads file inside the batch folder, which still
+  needs a number when one batch has two write-ups and puts an authored, reviewed file in the
+  runner's record; files numbered by batch, which collide when one batch has a partial and a full
+  write-up; the batch as a head key, which the leads' own pointers give; the key `drawn`, abstract
+  where `written by` is plain.
+
+### An itemizer shortcoming is a cut that departs from its index head, or whose index head says what it should not
+
+- id: d-2026-09-27-3
+- date: 2026-09-27
+- supersedes: d-2026-09-13-22
+- raised by: two faults the campaign found fit no part. The subject-notes cut stated its
+  narrowing, the subjects that own at least one note, and cut exactly that, carrying all 51
+  flagged subject notes past the flagged-note wall; the two lineage cuts keep AI Studio chats 22 to
+  25, which the attribution never indexes, so their items can never be marked. `itemizer` covered
+  only a tool not cutting what it states, and `slice` sends a fault to a new plan and a new study.
+  Brian, on the first wording offered: "I like the intent of A, but the wording you are using is
+  way too confusing. 'fixed' is being used in two different senses: fixed as an invariant by
+  design, and code fixes. Make it more explicit and unambiguous instead of a short hand run on
+  sentence." He chose the two-case wording that followed, for both schemas.
+- decision: A Shortcomings line is `- <part>: <what the review found>`, naming no token, `<part>`
+  one of `slice`, `itemizer`, `directions`, `consolidation`, `execution`, `corpus`, held by
+  `leads.shortcoming`. `slice` is the choice made at the plan of what one slice is, not suiting the
+  reading, a whole corpus read as one item included; the study goes to a new plan and a new
+  exploration. `itemizer`: the itemizer's cut is at fault, in one of two cases. First, the tool
+  does not cut what its index head says: an item dropped, repeated or cut short, or a narrowing or
+  locator the code does not follow. Second, the tool cuts exactly what its index head says, but
+  what it says is wrong: the cut takes items that a rule applying everywhere excludes, such as
+  flagged notes, or keeps items the study cannot use, such as conversations whose replies the
+  attribution never indexes. In both cases the study goes to building-a-tool, where the tool's code
+  is changed. `directions` is the text wanting, where a reader following it faithfully still went
+  wrong; the study gets a new version. `consolidation` is the consolidation not saying what the
+  cited results say. `execution` is a reader not doing what clear directions asked; the question
+  gets a second study under another model or effort. `corpus` is the corpus not being what
+  CORPORA.md says. The schema's descriptions give examples that lead and do not exhaust. A question
+  raised from a shortcoming names the lead that showed it by the lead's token. Findings mirror the
+  meaning: the findings schema's itemizer clause names both cases, the itemizer that cut short, or
+  that cut what a rule or the study excludes; `findings.shortcoming` is unchanged.
+- not taken: a seventh part, `narrowing`, which grows a closed set in two schemas and two checks
+  and invites parts for grain and locators; the two faults under `slice`, which sends them to a
+  new study; `itemizer` widened in the leads schema only, which breaks the mirror with findings.
+
+### A changed itemizer cuts a new batch of the same study, unless what one item is, the corpus or the scope changes
+
+- id: d-2026-09-27-4
+- date: 2026-09-27
+- raised by: d-2026-09-13-41 makes a different model, itemizer or set of a study's own directions
+  a different study and does not say whether a changed itemizer is a different one; for
+  directions, a revision is a new version and a new batch in the same study (rule 4). The faults
+  of d-2026-09-27-3 need a corrected cut run under the same directions. One tool holds several
+  kinds of item: `tools/StoryPlanner.V1Itemizer` cuts plot points, theme commentaries, subjects and
+  own-voice places. An index head already shows a batch's tool and commit (`itemizer`), its
+  selection (`narrowing`, d-2026-09-13-8) and its kind of item (`locator notation`). Brian, on the
+  loop the method is to serve: "Future ones where I'm in the loop could run half the corpus, write
+  preliminary leads, then I do a reviewing leads and fix the directions premise or bug fix the
+  itemizer." Offered: a code change or a removal keeps the study; any change makes a new study;
+  only the kind of item decides. Brian chose the first.
+- decision: A study's itemizer is one tool cutting one kind of item. A change to the tool's code,
+  or a change to its narrowing that only drops items a rule applying everywhere excludes or the
+  study cannot use, the two cases of d-2026-09-27-3, keeps the study: the changed tool cuts into a
+  new batch of the same study, whose index head records the new commit and narrowing. A change of
+  what one item is, of the corpus read, or any other change that widens or shifts which items are
+  taken is a different itemizer and a new study, its id's slug naming the difference. The review
+  that writes the shortcoming judges which of the two a change is. A study's batches may therefore
+  differ in which items they hold as well as in their directions, and their index heads say how.
+  Not decided here: whether a verification's accepted calibration stands after its itemizer
+  changes.
+- not taken: every change to the code, the config or the narrowing a new study, which keeps a
+  study's batches on identical items but spawns a slugged study for each bug fix and puts the
+  corrected leads in another folder; only the kind of item deciding, under which a study's
+  population can drift between batches with only the narrowing line to say so.
+
+### The SHA-256 hash of each item's slug sets the order a batch calls its items in, the same for every batch of the cut
+
+- id: d-2026-09-27-5
+- date: 2026-09-27
+- raised by: leads written at a partial count rest on which items answered. `--random`, added at
+  Brian's request of 2026-09-15, "Please make a change to the agent runner to allow random
+  selection instead of sequential when picking which to run next", draws a fresh, unseeded shuffle
+  at each execution, so two batches of one study stopped at one count answer different items; the
+  order goes only to the host's log; and items called out of turn change what a stopped batch
+  holds. Brian, 2026-09-15: "I went and manually started all the short stories that didn't start
+  randomly, so the one-chapter stories are all done." On this decision: "There should be some
+  nuance to 3. When we are iterating on the directions, shouldn't the same items be run? Therefore
+  the order has to be initially random for an itemizer's cut, but then that random order becomes
+  stable for the study." Offered: the order derived from the item ids; a seed per study; the
+  itemizer writing its index shuffled; a fresh shuffle disclosed in partial leads. Brian: "Order
+  from item ids does make sense, but please verify that leads can still make analytical
+  conclusions where the ids mean something, like chapter order. Alternatively, should we eliminate
+  conflation of roles by strictly making the cut id separate from the data itself, or something
+  like that? What are the ids today?" and "The random flag's intent was to make local quirks have
+  less of an impact on pilots, like chapter 1 quirks or something like that". The session showed
+  that nothing reads the order of calls, the results tool grouping by locator and ordering by the
+  index's rows, and that an index row already holds the item id, the locator and the description
+  apart. Brian chose A.
+- decision: Hashing each item's slug sets the order. `execute-batch` calls a batch's pending items
+  in ascending order of the SHA-256 hash of each item's slug, the id its index row carries, taken
+  over the slug's UTF-8 bytes; this order is called the cut's order. Because the hash depends on
+  the slug alone, every batch cut the same way calls its items in the same order, whatever the
+  study, the directions version or the execution: a directions revision stopped at a given
+  count answers the same items, a resumed execution continues the same sequence, and items an
+  itemizer change drops leave the order while the rest keep their places. The order spreads the
+  first calls across chapters and stories, which was `--random`'s purpose, and the pilot's items
+  are the first of the order, the same for every version. `--random` and its fresh shuffle leave
+  the runner; the index keeps its natural order for reading, and item ids, locators and
+  descriptions are unchanged. The runner still knows no study. The queue jump stays harness
+  control; the items a batch answered out of the cut's order, by a jump or while a failed call
+  waited, are derived and shown for the batch in `state.md`. d-2026-09-15-1's clause that
+  `--random` is refused for nothing lapses with the flag, and the rest of that entry stands.
+- not taken: a seed per study, an authored value every definition repeats under a new check, under
+  which two studies of one cut no longer stop on the same items; the itemizer writing its index in
+  the shuffled order, which loses the index's reading order and changes every itemizer; a fresh
+  shuffle disclosed in partial leads, under which iterations never run the same items; opaque item
+  ids, which make every cite and query string unreadable and change nothing the order needs.
+
+### Leads may be written at any answered count after the pilot; an execution may stop and resume at any count
+
+- id: d-2026-09-27-6
+- date: 2026-09-27
+- supersedes: d-2026-09-13-19
+- raised by: the co-occurrence write-ups were drawn at 602 of 1,116; Brian, 2026-09-15: "What are
+  the pros and cons of running the rest or skipping them and moving on to leads? It uses a lot of
+  usage because this is a lot of text." The campaign of 2026-09-26 to 27 wrote its four largest
+  studies up at about 750 answered each. The method's text read as if leads follow a finished
+  batch. Brian: "Future ones where I'm in the loop could run half the corpus, write preliminary
+  leads, then I do a reviewing leads and fix the directions premise or bug fix the itemizer. So
+  this is just the middle step of a spectrum between pilot and full run. Pilot catches immediate
+  flaws on a very small trial run, the middle step (or full if I have the subscription budget but
+  not the human attention) find flaws that are hard to get without scale and aggregated lead
+  reasoning. Then the full set. But none of these are special cases at all; it's all a spectrum.
+  Sometimes full set isn't needed like in the mechanism/goal study of fimfiction." Offered: any
+  count after the pilot; only a complete batch or one stopped for good; a minimum share. Brian
+  chose the first.
+- decision: `write-leads` stays: a session consolidates every result present into a new leads
+  file, at any answered count once the pilot has been read, so that Brian reads leads and not every
+  result; the file's `answered` line records the count (d-2026-09-27-2). An execution may be
+  stopped at any count, by Brian or by the usage cap, and continued later. The pilot stays a raw
+  read of the first calls, in the cut's order (d-2026-09-27-5). How far to run before writing is a
+  judgment made when the study is prepared or at a review, never a threshold. The set behind a
+  count is the first items of the cut's order, save those called out of turn or still failing. In
+  `review-leads` the session reads any individual result, or the corpus itself, when Brian asks;
+  reading a result traces what a slice reader wrote and checks nothing, the corpus being where a
+  lead is checked. `review-leads` reads `results` and `index` beside what it read.
+- not taken: leads only once a batch is complete or stopped for good, which drops the middle of the
+  spectrum; a minimum share before leads, an arbitrary threshold where Brian wants judgment.
+
+### Sibling write-ups are not standard procedure; a study's write-ups form one sequence
+
+- id: d-2026-09-27-7
+- date: 2026-09-27
+- raised by: the only sibling write-ups are the co-occurrence study's three, of one batch at one
+  count: one by the session that planned the study and built the query tool, 28 leads; one by a
+  fresh session that first read the builder's raw transcript, 33 leads, three slugs and phrasing
+  reused; one by a session with the code-sessions archive removed, 40 leads. Brian, 2026-09-16:
+  "which was done by the session who planned the study and built the query tool" and "which was a
+  fresh session"; 2026-09-17: "I ran a third session that actually did not look at others because
+  I removed code sessions db." The comparison found all three reached the same core tables. Brian,
+  on this decision: "First off, should siblings even be part of standard procedure or not?
+  Whatever is in that first study with the 3 different things was my manual tinkering." Offered:
+  not standard; allowed and optional; required for some studies. Brian chose the first.
+- decision: A study's write-ups form one sequence. A new write-up is written because the batch
+  moved on, the directions or the itemizer changed, or a review found the last write-up at fault,
+  and the latest is current. Comparing how different sessions write up the same results is a
+  question about `write-leads`, taken up through revising-the-method when doubt about it arises;
+  its write-ups are not a study's leads files. `written by` stays, the record of each file's
+  writer.
+- not taken: siblings allowed and optional, the review naming the current one, which makes
+  currency an authored choice each time; siblings required for some studies, a blind write-up
+  beside the planner's, which doubles every write-up and still needs a choice between them.
+
+### A review sitting ends with one next step for the study, appended under Next steps
+
+- id: d-2026-09-27-8
+- date: 2026-09-27
+- supersedes: d-2026-09-13-34
+- raised by: Brian's loop has the review choose what the study does next, and nothing recorded the
+  choice: a study stopped on purpose showed as still executing, as the co-occurrence batch did at
+  802 of 1,116. Brian: "Sometimes full set isn't needed like in the mechanism/goal study of
+  fimfiction." Offered: a line under a new Next steps section of the reviewed leads file; a line in
+  the registry; no record, the study's standing inferred from its files; a stop marker in the
+  batch folder. Brian chose the first.
+- decision: The file is its title `# <study> — leads`; its head (d-2026-09-27-2); `## Leads`,
+  required, entries, which may hold none; `## Proposed questions`, optional, one-line entries;
+  `## Shortcomings`, optional, one-line entries, its heading added with the first shortcoming; and
+  `## Next steps`, optional, last, its heading added with the first next step. Each review sitting
+  ends by appending one line under Next steps, `- <date> <step>: <why>`, `<step>` one of `continue
+  the batch`, `new directions version`, `change the itemizer`, `new study` and `stop`, the dates in
+  order, held by `leads.next`; the why is composed under rule 10. `state.md` shows each study's
+  latest next step. d-2026-09-13-26's refusal of a `reviewed` line is untouched: this line records
+  a ruling, and it has readers.
+- not taken: a line beside the study's id in the registry, which breaks the registry's shape and
+  parts the ruling from its leads; no record, under which a deliberate stop reads as a stall and
+  the reasons live only in transcripts; a stop marker in the batch folder, which covers stopping
+  only and puts an authored file in the runner's record.
+
+### A study's highest-numbered leads file is current, and work built on leads happens in a review sitting
+
+- id: d-2026-09-27-9
+- date: 2026-09-27
+- supersedes: d-2026-09-13-26
+- raised by: a study can hold several leads files (d-2026-09-27-2), written at any count
+  (d-2026-09-27-6), across changes that stay in the study (d-2026-09-27-4), and something must say
+  which one the method builds on. Brian: "Do we also need revised instructions such that only the
+  latest, highest numbered leads file is treated as good enough to base new analysis on and old
+  numbers are historical only?" Offered: the latest file current and derived; the review naming
+  it; no currency rule. Brian: "A works."
+- decision: A study's highest-numbered leads file is its current write-up, derived from the file
+  names and recorded nowhere. An earlier file is history: it keeps its reread lines, shortcomings
+  and next steps and stays the provenance of the questions already raised from it, and nothing new
+  rests on a lead that only an earlier file holds. Work built on leads, a question raised, an
+  itemizer or a verification planned, a hypothesis minted, happens in a review sitting with Brian
+  reading the current file; a lead whose reread line says the source did not bear it out is not
+  built on. The precondition of `review-leads` is that a leads file of the study exists; the review
+  runs any number of times, each sitting leaving its reread lines, shortcomings, questions and its
+  next step; it reads an earlier file only to review it or to explain a shortcoming, and a
+  comparison between two studies reads each study's current file. Nothing records whether a leads
+  file has been reviewed, since only a review sitting raises a question from a lead. The same gap
+  on the findings side is not decided here. `state.md` shows each study's current file, its
+  answered count and its latest next step.
+- not taken: the review naming the current file, an authored copy of what the numbering gives; no
+  currency rule, under which a later session can build on stale leads.
+
+### A lead's heading and token are <study>/leads-<N>/<slug>
+
+- id: d-2026-09-27-10
+- date: 2026-09-27
+- raised by: a lead's heading is its token, `### <study>/<slug>`, the form d-2026-09-13-33 left to
+  be reconsidered at the first real leads file; d-2026-09-15-2, which superseded it, carries no
+  heading clause, and the leads schema holds the form. With several leads files per study a
+  restated lead keeps its slug, and `<study>/<slug>` no longer names one lead. The question list's
+  token form declined a bare slug because a grep cannot tell it from same-named slugs elsewhere.
+  No question cites a lead token yet. Offered: the file number in the token; slugs unique across a
+  study's leads files; a bare number. Brian: "Option A works."
+- decision: A lead is headed `### <study>/leads-<N>/<slug>`, `<N>` its file's own number, and the
+  heading is the token every other file cites. The slug is unique within its file, created with
+  the lead and never changed, and a later file may reuse it for a lead it restates. Under
+  d-2026-09-07-30 a slug is cited joined to its file's own id, which for a leads file is now
+  `<study>/leads-<N>`. `leads.entry` holds the heading's form and its `<N>`. Findings keep
+  `### <study>/<slug>`, a study having one findings file.
+- not taken: the token kept and slugs unique across a study's leads files, which forces a new slug
+  on a restated lead and a search of every file to resolve a token; `<study>/<N>/<slug>`, a bare
+  number that reads as a batch's and does not match the file's name.
+
+### write-leads runs in a fresh session that reads only what write-leads lists
+
+- id: d-2026-09-27-11
+- date: 2026-09-27
+- raised by: in the co-occurrence write-ups (d-2026-09-27-7) a session seeded with the builder's
+  transcript echoed it, and a blind session read further. The practice was Brian's on 2026-09-18,
+  in the session that built the humor study: "Make a tool to parse the results along with
+  instructions on how to use the tool, then have a fresh subagent use that tool to make the
+  leads"; it never reached the skill. In the campaign of 2026-09-26 to 27 one session planned
+  every study, wrote its directions, built its itemizers, read its pilots and wrote its leads, and
+  the cognitive-modes study's directions, which listed ten of the plan's twelve track types,
+  reached its leads as a fact about the plan. Offered: always a fresh session; fresh by default,
+  the planning session writing on Brian's say; any session, recorded. Brian: "Go with A and no
+  view of shortcomings, because shortcomings comes out of HITL reviewing leads. This decision seems
+  to neatly tie into one reason *why* leads is getting a rework - the current, singular leads
+  files have problems because of the lack of this rule that leads be written by a fresh session,
+  which I had concluded on 9-17 but hadn't yet updated the skill with." The code-sessions archive
+  holds the 2026-09-18 line above at 02:32 UTC, the evening of 2026-09-17 in Brian's time.
+- decision: `write-leads` runs in a fresh session: one that did not plan the study, write its
+  directions, build its itemizer or read its pilot. During the write-up it reads only what
+  `write-leads` lists, the definition, the directions, the index, the results through the results
+  tool, the question list, and the skill and the results tool's own documentation or source; it
+  never reads a session transcript, `codesessions.db`, or another leads file of the study, that
+  file's review lines included. What changed since an earlier write-up shows in the new directions,
+  definition and index, and shortcomings come out of the review with Brian. `written by` says so.
+  `write-leads` stays a session process. Not decided here: how a run of autonomous work starts a
+  fresh session for a write-up.
+- not taken: fresh by default with the planning session writing on Brian's say for one study, an
+  exception an autonomous run has no one to grant; any session with `written by` recording which,
+  which leaves the planner's framing free to reach the leads and leaves catching it to the review
+  alone; the fresh writer seeing the earlier file's shortcomings when they are why a new write-up
+  exists, which carries the old framing back in.
+
+### The 22 leads files on disk are conformed to the class once, recording nothing new
+
+- id: d-2026-09-27-12
+- date: 2026-09-27
+- raised by: 22 files predate the class of d-2026-09-27-2 to -11: the humor study's `leads.md`,
+  written on 2026-09-18 by a fresh subagent at 379 of 379; eighteen `leads.md` of the campaign of
+  2026-09-26 to 27, written by the session that planned them, four of which hold leads drawn at a
+  sample count followed by leads appended at the full count; and the co-occurrence study's three
+  files outside the class's path. Rule 9 lets an entry a session wrote be conformed to its class
+  until something relies on it, and nothing cites these leads. The method forbids exempting a file
+  from its class's checks by name, path or date, and writing a one-time migration into an activity
+  file. Offered: conform all once; leave the old files outside the class; move them to the
+  historical folder and write every study up afresh. Brian: "Yes, A is what I want".
+- decision: Carried out once, from this entry, in the unit's edits:
+
+  - each study's single `leads.md` becomes `leads-1.md`;
+  - the four files holding two counts, of exploration-of-closing-questions-taken-up,
+    exploration-of-data-strata-named-in-prompts, exploration-of-follow-up-correction-kinds and
+    exploration-of-decisions-against-assistant-leans, are split with their entries unchanged: the
+    leads drawn at the sample count and the Proposed questions become `leads-1.md`, the leads
+    appended at the full count `leads-2.md`;
+  - the co-occurrence files become `leads-1.md`, `leads-2.md` and `leads-3.md` in the order they
+    were written, the tool builder's, the partially blind, the fully blind, so the fully blind
+    file, the one written as d-2026-09-27-11 now requires, is current;
+  - every file gains its head: `answered` as its queries or its batch give it, and `written by`
+    as its writer was, for the campaign's files the session that planned the study, wrote its
+    directions, built its itemizers and read its pilots, during an autonomous campaign, before
+    d-2026-09-27-11;
+  - every heading becomes `<study>/leads-<N>/<slug>`, its slug unchanged.
+
+  Nothing a file records changes. Faults in what these files say go to reviewing-leads.
+- not taken: the old files left outside the class, two shapes in one class held apart by an
+  exemption by date; the files moved to `docs/v3-framework-historical/` and every study written up
+  afresh, which drops the humor file and the fully blind co-occurrence file, both written as the
+  fresh-session rule requires, and makes every study wait for a fresh write-up before any review.
+
+### A leads shortcoming names a standing part of the instrument; consolidation leaves the parts
+
+- id: d-2026-09-27-13
+- date: 2026-09-27
+- supersedes: d-2026-09-27-3
+- raised by: applying d-2026-09-27-7 and -8 together. Brian: "Where did consolidation as a
+  shortcoming come from? None of this was exercised yet so it's up to being reconciled with the new
+  design of a next steps section". The code-sessions archive showed: the word is his, typed on
+  2026-09-13, "The consolidated leads.md is so that my attention is drained from reading all the
+  individual results, which are already lossy"; the part word `consolidation` was a session's
+  proposal in the frame of d-2026-09-13-22, which he took with `slice` in place of `item`; its route,
+  "`write-leads` through revising-the-method", sat in a later frame's list of what exists, was never
+  an option he ruled, and entered reviewing-leads when that entry was applied; and on 2026-09-15 he
+  typed, of the results tool, "I don't think the leads report needs to consolidate anything. It
+  should just use the tool to draw conclusions." No leads file on disk holds a shortcoming. Brian:
+  "'consolidation' as a flaw or shortcoming is no longer applicable because I already reworked how
+  leads' reasoning and rationale is made - they query over result sets, not make lossy summaries
+  anymore". The session checked the 22 files: 236 of 271 leads carry a query the review can re-run;
+  35, in 16 files, rest on cites alone, as the schema still allows; and a lead's words about a table
+  can still misstate it. Brian: "Ok, this sounds good."
+- decision: A Shortcomings line is `- <part>: <what the review found>`, naming no token, `<part>`
+  one of `slice`, `itemizer`, `directions`, `execution`, `corpus`, held by `leads.shortcoming`. A
+  part is a standing part of the study's instrument, which carries its fault into every later batch
+  until it is changed. `slice` is the choice made at the plan of what one slice is, not suiting the
+  reading, a whole corpus read as one item included; the study goes to a new plan and a new
+  exploration. `itemizer`: the itemizer's cut is at fault, in one of two cases. First, the tool
+  does not cut what its index head says: an item dropped, repeated or cut short, or a narrowing or
+  locator the code does not follow. Second, the tool cuts exactly what its index head says, but
+  what it says is wrong: the cut takes items that a rule applying everywhere excludes, such as
+  flagged notes, or keeps items the study cannot use, such as conversations whose replies the
+  attribution never indexes. In both cases the study goes to building-a-tool, where the tool's code
+  is changed. `directions` is the text wanting, where a reader following it faithfully still went
+  wrong; the study gets a new version. `execution` is a reader not doing what clear directions
+  asked; the question gets a second study under another model or effort. `corpus` is the corpus not
+  being what CORPORA.md says. The schema's descriptions give examples that lead and do not exhaust.
+  A question raised from a shortcoming names the lead that showed it by the lead's token.
+  `consolidation` leaves the parts: a write-up is no standing part, since each is written by a fresh
+  session that never sees an earlier file (d-2026-09-27-11), and a misstatement in one does not
+  carry into the next. A lead that does not say what its re-run query's table or its cited results
+  show takes a reread line saying so, as a dispute over a lead already provides, and is not built on
+  (d-2026-09-27-9); a fault in `write-leads`' own procedure is a finding about the method and goes
+  through revising-the-method. Findings mirror the meaning: the findings schema's itemizer clause
+  names both cases, the itemizer that cut short, or that cut what a rule or the study excludes;
+  `findings.shortcoming` is unchanged, findings never having had `consolidation`.
+- not taken: `consolidation` kept, renamed to what can still fail in a write-up, which records a
+  one-file slip as a fault of the instrument and routes it nowhere a later batch would feel; every
+  lead required to carry a query, which removes the cites-only path a study without a query tool
+  needs and still leaves a lead's words able to misstate its table; `consolidation` routed only
+  through revising-the-method, which sends every writer's slip into a method revision. The not-taken
+  list of d-2026-09-27-3 stands as history.
+
+### A review sitting's next step may be a new leads file
+
+- id: d-2026-09-27-14
+- date: 2026-09-27
+- supersedes: d-2026-09-27-8
+- raised by: d-2026-09-27-7 gives three reasons for a new write-up, "the batch moved on, the
+  directions or the itemizer changed, or a review found the last write-up at fault", and
+  d-2026-09-27-8's five steps name none for the third. The five were a session's wording, drafted
+  from Brian's "Future ones where I'm in the loop could run half the corpus, write preliminary leads,
+  then I do a reviewing leads and fix the directions premise or bug fix the itemizer" and "Sometimes
+  full set isn't needed like in the mechanism/goal study of fimfiction", and were never set against a
+  write-up at fault. Of the 22 leads files, 19 were written by a session d-2026-09-27-11 now rules
+  out, and Brian: "the current, singular leads files have problems because of the lack of this rule
+  that leads be written by a fresh session". Offered: a sixth step; `continue the batch` or `stop`
+  with the why saying a write-up is owed; `state.md` deriving it from a shortcoming; the write-up
+  routed only through revising-the-method. Brian: "Ok, this sounds good."
+- decision: The file is its title `# <study> — leads`; its head (d-2026-09-27-2); `## Leads`,
+  required, entries, which may hold none; `## Proposed questions`, optional, one-line entries;
+  `## Shortcomings`, optional, one-line entries, its heading added with the first shortcoming; and
+  `## Next steps`, optional, last, its heading added with the first next step. Each review sitting
+  ends by appending one line under Next steps, `- <date> <step>: <why>`, `<step>` one of `continue
+  the batch`, `new directions version`, `change the itemizer`, `new leads file`, `new study` and
+  `stop`, the dates in order, held by `leads.next`; the why is composed under rule 10. `new leads
+  file` is the step where the study's next need is a new write-up of results already present: the
+  reread lines show the current file's leads do not say what their queries or cited results show,
+  or the current file was written by a session d-2026-09-27-11 rules out. `state.md` shows each
+  study's latest next step. d-2026-09-13-26's refusal of a `reviewed` line is untouched: this line
+  records a ruling, and it has readers.
+- not taken: `continue the batch` or `stop` with the why saying a write-up is owed, one false on a
+  complete batch and the other false where a rewrite is wanted; `state.md` deriving a write-up owed
+  from a shortcoming, which covers no file written by a session now ruled out; the write-up routed
+  only through revising-the-method, which sends every writer's slip into a method revision; the word
+  `new write-up`, a session's word Brian never typed, where `leads file` is his. The not-taken list
+  of d-2026-09-27-8 stands as history.
+
+### Shortcomings and Next steps both stay; reviewing-leads names the step that answers each part
+
+- id: d-2026-09-27-15
+- date: 2026-09-27
+- raised by: d-2026-09-27-13 and -14 leave a review sitting appending to two sections, and the
+  parts' routes are nearly the steps. Brian: "For all the shortcomings, perhaps it's all to be
+  integrated into next steps, or not?" Offered: both kept with the relation stated; Shortcomings
+  folded into Next steps; shortcomings kept without their part word. Brian: "I'm thinking keep both
+  and state how they relate", and "Ok, this sounds good."
+- decision: A shortcoming records a fact about the study's instrument in the session's words,
+  several per sitting; a next step records Brian's ruling, one per sitting, its why composed under
+  rule 10. They are not merged. reviewing-leads names, per part, the step that answers it: `slice`,
+  `new study`; `itemizer`, `change the itemizer`, or `new study` where d-2026-09-27-4 makes the
+  change a different itemizer; `directions`, `new directions version`; `execution`, `new study`
+  under another model or effort; `corpus`, `change the itemizer` or `new study`, the review judging
+  which. A step taken because of a shortcoming says so in its why. A shortcoming Brian does not act
+  on stays recorded whatever step the sitting records, since only what he raises is acted on
+  (d-2026-09-13-21). No check holds the mapping.
+- not taken: Shortcomings folded into Next steps, which puts a fact in the session's words and a
+  ruling in Brian's into one field against rule 10, records one fault per sitting, keeps a fault he
+  does not act on only if a why mentions it, and breaks the mirror with findings; shortcomings kept
+  without their part word, the routing living only in the step, which leaves a fault's layer
+  uncheckable and breaks the same mirror.
+
+### A leads file's head records its items with results, not an answered count
+
+- id: d-2026-09-27-16
+- date: 2026-09-27
+- supersedes: d-2026-09-27-2
+- raised by: the first file converted under d-2026-09-27-12, the co-occurrence study's `leads-3.md`,
+  shown to Brian with its head `answered: 602 of 1116`. Brian: "'answered' in the heading isn't
+  descriptive of what it actually means. What are the options, to change in the schema?" The
+  code-sessions archive showed he never typed the word in this sense: his one use is of questions,
+  "how would one know which questions were answered and which are new?", the sense `state.md` and
+  the findings schema use; the item sense is a session's, from the runner's "an item has answered"
+  and the results tool's query key `answered=`, carried into the head when d-2026-09-27-2 was drafted.
+  Offered: `items with results`; `results`; `results read`; `answered` kept with the unit named.
+  Brian: "items with results is good".
+- decision: The class stays `leads`, its schema `schemas/leads-schema.md`; d-2026-09-07-34 keeps
+  the old id as a record. A leads file is one write-up of one batch's results at one count of the
+  batch's items with results, at the study's top as `leads-<N>.md`, N from 1 and the next number in
+  the study in the order the files are written; a study holds any number. Every file is appended,
+  an earlier one included, since the review appends to it after a later one exists; the number is a
+  name, and a later file neither freezes nor replaces an earlier one. After the title the file
+  carries a head of keyed lines: `items with results`, `<n> of <items>`, how many of the batch's
+  items had a result when the file was written, which the batch no longer shows once it moves on,
+  out of its index's items; then `written by`, in words, the session that wrote it and what it could
+  see. The batch is not authored: every query and every cite in the file names one batch, and the
+  file draws from that batch alone. Checks: `leads.version`, N the next number in its study;
+  `leads.head`, the two keys present, in order, `items with results` of that form; `leads.batch`,
+  every query and cite naming one batch. Where d-2026-09-27-6, -9 and -12 name the `answered` line or
+  a leads file's answered count, they mean this line and this count, and the conformance of
+  d-2026-09-27-12 writes this key. The leads side's prose says "items with results"; the query
+  string keeps its key `answered=`, the same count, since it is the canonical `rq1` form every query
+  already carries, and the runner keeps its own sense of an item that has answered.
+- not taken: `results`, which reads as 602 of 1116 results where 1116 counts items; `results read`,
+  which describes the writer's input and implies each result was read by eye; `answered` kept with
+  the unit named, which leaves the collision with an answered question in the key itself; the query
+  key renamed, a new `rq2` form and every existing query rewritten. The not-taken list of
+  d-2026-09-27-2 stands as history.

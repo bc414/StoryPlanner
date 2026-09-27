@@ -1,8 +1,14 @@
 # exploration-of-v1-seed-and-withholding-directives — leads
 
+- items with results: 379 of 379
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-v1-seed-and-withholding-directives/half-the-plot-points-instruct-the-page-and-half-do-not
+### exploration-of-v1-seed-and-withholding-directives/leads-1/half-the-plot-points-instruct-the-page-and-half-do-not
 - lead: Of the archive's 379 TLTT plot points, 181 hold no instruction about what the finished page does; the
   other 198 hold 527 between them, a median of 2 per instructing item and up to 12. Of the 527: 106 lines over
   69 plot points are planting — the page is to put something there for the reader to pick up or work out; 66
@@ -17,7 +23,7 @@
   - rq1 batch=exploration-of-v1-seed-and-withholding-directives/01-tltt-plot-points answered=379 field=directives where kind~^withholding view=cites
   - rq1 batch=exploration-of-v1-seed-and-withholding-directives/01-tltt-plot-points answered=379 field=directives where kind~"^(?!(planting|withholding)$)" view=cites
 
-### exploration-of-v1-seed-and-withholding-directives/withholding-is-usually-the-focalizer-not-the-page
+### exploration-of-v1-seed-and-withholding-directives/leads-1/withholding-is-usually-the-focalizer-not-the-page
 - lead: The 66 withholding directives are mostly not about what the page omits but about what a character in
   the scene fails to register while the reader is given it: "Celestia is to see only her little ponies armed
   with soul-draining rifles and is not to grasp the real cause of the paranoia, though the audience is to
@@ -32,7 +38,7 @@
 - query:
   - rq1 batch=exploration-of-v1-seed-and-withholding-directives/01-tltt-plot-points answered=379 field=directives where kind~^withholding sample=10 seed=4 view=list
 
-### exploration-of-v1-seed-and-withholding-directives/what-planting-directives-plant
+### exploration-of-v1-seed-and-withholding-directives/leads-1/what-planting-directives-plant
 - lead: The 106 planting directives ask the page to seed something the reader is to work out, and what they
   point at is a mix of story structure, character psychology and real-world reading: an early seed that
   monarchy is a bad system, for the later republic storyline; Applejack's impostor syndrome, to be inferred
@@ -46,7 +52,7 @@
 - query:
   - rq1 batch=exploration-of-v1-seed-and-withholding-directives/01-tltt-plot-points answered=379 field=directives where kind~^planting sample=8 seed=2 view=list
 
-### exploration-of-v1-seed-and-withholding-directives/a-fifth-of-directives-do-not-say-what-they-point-at
+### exploration-of-v1-seed-and-withholding-directives/leads-1/a-fifth-of-directives-do-not-say-what-they-point-at
 - lead: 119 of the 527 directives, over 73 plot points, answer "not given" in the column asking what fact of
   the story's world is to be inferred or kept back: the item instructs the page without naming the thing the
   instruction is about.
@@ -54,7 +60,7 @@
 - query:
   - rq1 batch=exploration-of-v1-seed-and-withholding-directives/01-tltt-plot-points answered=379 field=directives where points~"^not given" view=cites
 
-### exploration-of-v1-seed-and-withholding-directives/what-else-the-items-instruct-about-the-page
+### exploration-of-v1-seed-and-withholding-directives/leads-1/what-else-the-items-instruct-about-the-page
 - lead: The 357 directives outside the two named kinds were given names of the readers' own, and they cluster:
   characterization (11), point of view (7), framing (7), callback (5), thematic commentary and thematic
   demonstration (7), recontextualization (3), exposition delivery (3), contrast (3), structure, sequencing,
@@ -66,7 +72,7 @@
   - rq1 batch=exploration-of-v1-seed-and-withholding-directives/01-tltt-plot-points answered=379 field=directives where kind~"^(?!(planting|withholding)$)" view=list
   - rq1 batch=exploration-of-v1-seed-and-withholding-directives/01-tltt-plot-points answered=379 field=directives view=terms col=kind top=14
 
-### exploration-of-v1-seed-and-withholding-directives/the-directives-are-written-as-planning-shorthand-and-parenthetical-asides
+### exploration-of-v1-seed-and-withholding-directives/leads-1/the-directives-are-written-as-planning-shorthand-and-parenthetical-asides
 - lead: The register column names planning shorthand in 184 of the 527 lines and expository prose in 175; an
   aside in 120 and a parenthetical in 108; a directive in 92 and a note in 87; a question in 41. The word
   "should" appears in 50 of the register values. So the instructions about the page sit in the same boxes as
@@ -75,7 +81,7 @@
 - query:
   - rq1 batch=exploration-of-v1-seed-and-withholding-directives/01-tltt-plot-points answered=379 field=directives view=terms col=register top=16
 
-### exploration-of-v1-seed-and-withholding-directives/most-plot-points-never-speak-of-the-reader
+### exploration-of-v1-seed-and-withholding-directives/leads-1/most-plot-points-never-speak-of-the-reader
 - lead: On the separate whole-item question of whether the plot point speaks of the reader or the audience at
   all, 321 of the 379 say it does not and 58 say it does. So the seeding and withholding instructions are
   mostly addressed to the page and to the characters rather than framed in terms of the reader, even where

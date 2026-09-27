@@ -1,0 +1,76 @@
+- steps:
+  - author | brings clarifications | Celestia's attack angle, Fleur's family backstory, Henri's redemption-tour/meet-cute backstory | opening of this stretch
+  - model | analysis | frames Fleur as generational rebel, Henri as ronin/trophy, stages the lab meet-cute | reply to the backstory drop
+  - author | introduces new character concept | Rarity-like unicorn Lioness, crystal enhancer, griffon pilot partner, Mount Aris/Temberik/Tall Tale beats, house-pony backstory and reveal timing | new message
+  - model | character profile | names the pair Finesse/Gaston, drafts archetypes, maps scenes to chapters | reply to the concept
+  - author | corrects details | fixes Mount Aris attendees, reframes Gaston as equal partner not thug, adds post-war conception-spell epilogue idea | reply after reading the profile
+  - model | revised analysis | reworks pair as veteran partners, restages Mount Aris, elaborates epilogue scene | reply to the corrections
+  - author | adds biology rule | species inherited from mother, conception spell restricted to same-sex couples, gender-swap mechanic | follow-up message
+  - model | analysis | works out genetic and social implications of the rule and restriction | reply to the biology rule
+  - author | corrects economic framing | spell only fertilizes egg, gestation natural, luxury reframed as affordable subsidy not elite gatekeeping | correction message
+  - model | revised analysis | reframes the spell system as a subsidized utility, contrasts with post-war democratized matrix | reply to the correction
+  - author | asks for options | requests name suggestions for the chasseur couple | short request
+  - model | option list | proposes four naming pairs with rationale and a recommendation | reply to the naming request
+  - author | asks a tooling question | how to summarize the 'The...' sources via NotebookLM Studio options | meta question outside the story
+  - model | tool overview | explains and ranks the summary-format options | reply to the tooling question
+  - author | asks a research question | one warlord per province or a hierarchy, and the French historical model | new research question
+  - model | historical analysis | maps a French Ancien Regime hierarchy onto Aquileia | reply to the hierarchy question
+  - author | corrects premises | Gerad humiliates rather than pampers lords, asks about the tax chain, removes bourgeois managers for royalist intendants | correction message
+  - model | revised analysis | humiliation regime, tax-bypass mechanism, intendant replacement | reply to the corrections
+  - author | asks follow-up questions | do petty lords have house ponies, does Gerad house them by landholding | follow-up questions
+  - model | analysis | petty lords' servant scarcity, Gerad's threat-based selection | reply to the follow-up
+  - author | asks a research question | what feudal taxes existed in the Ancien Regime | new research question
+  - model | historical analysis | catalogs tax types and maps them onto Aquileia's eras | reply to the tax question
+  - author | brings a plot idea | Lord Gaudreau's discipline arc, Cecille's stewardship, Clothes for All failing in Vinovia; asks for analysis | new plot addition
+  - model | analysis | Gaudreau as graduate of the discipline regime, Cecille's reforms, why the slogan failed there | reply to the plot addition
+  - author | adds detail and asks | 2nd-gen Royalist recruitment idea, how old petty lords are handled | follow-up detail and question
+  - model | analysis | recruitment pipeline, shadow-steward sidelining of petty lords | reply to the follow-up
+  - author | asks a causal question | is this only viable due to Gerad's prior 33-year state-building | follow-up question
+  - model | analysis | confirms and traces the economic chain from Gerad's market-building to Gaudreau's reform | reply to the causal question
+  - author | revises the timeline | partial reform in 973, taxes owed until the king's execution, siege economy, land rights only after the counter-revolution | timeline correction
+  - model | revised phase analysis | restructures the history into three phases matching the corrected timeline | reply to the timeline correction
+  - author | brings a sub-plot idea | pressure-valve exodus of agitated serfs, city shaming, humiliated return | new sub-plot idea
+  - model | analysis | develops the exile-and-return arc and its political payoff | reply to the sub-plot idea
+  - author | introduces a new character | Minette in full - backstory, cutie mark, sniper and Lioness arc, Tall Tale role; asks for psychological analysis | new character introduction
+  - model | character analysis | breaks her arc into stages with psychological readings | reply to the introduction
+  - author | introduces a second character | Réni Ducep's backstory and role; asks about his personality and whether loyal serf or returned exile | new character introduction
+  - model | character analysis | works out a Champagne-inspired personality, settles him as a humiliated returnee | reply to the introduction
+  - author | corrects Minette's characterization | rejects trauma reading for flirty/defiant persona, asks why, asks about the taming game's healthiness, Réni-intimacy timing, and effect of witnessing the stallions' game | multi-part correction and questions
+  - model | revised analysis | reworks her psychology as adaptive performance, places the Réni intimacy before the assassination, reframes the taming game as restorative | reply addressing all points
+  - author | asks for elaboration | whether Réni left out of shame or conviction | follow-up question
+  - model | analysis | elaborates Réni's disillusionment with the revolution and his conviction-driven return | reply to the follow-up
+  - author | extends the dynamic | Réni supports Minette's taming, teaches followers manners, recreational intimacy; describes the vanguard's leader-humiliation/follower-recruitment strategy | new detail
+  - model | analysis | explains Réni's aesthetic motivation, his modeling role, and the recreational-intimacy dynamic | reply to the extension
+  - author | refines childhood details | sets the blank-flank age and stages of realization, asks for a themes/character-development analysis | refinement and request
+  - model | analysis | works through the psychological stages and the cutie-mark scene as demanded service from a caged predator | reply to the refinement
+  - author | asks clarifying questions | timing of the name-reveal, post-mark behavior, more hidden thematic meanings | follow-up questions
+  - model | analysis | answers the name logic, describes 'weaponized etiquette,' adds hidden-meaning layers | reply to the questions
+  - author | pushes back on the tone | insists on withheld respect, ties defiance to Lady Gisele and the stallions' shaming, reframes as stepping in front of her parents | strong correction
+  - model | revised analysis | reworks household dynamics (poseur lord, reformed lady) and the confrontation as an aggressive act | reply to the correction
+  - author | reframes the theme | ties scene to 'strong to be merciful,' corrects the coat-fixing framing, wants the lord demanding the parents fix his coat and her stepping in | correction
+  - model | analysis | writes the corrected confrontation scene and its resolution | reply to the reframing
+  - author | asks for a comparative judgment | pros and cons of a 'professional standards' versus 'aggressive shaming' framing | comparative question
+  - model | error | fails to answer | first attempt at the comparative question
+  - author | repeats the question | resubmits the same comparative question | retry after the failure
+  - model | pros/cons analysis | weighs both framings and recommends a synthesis | reply to the retried question
+  - author | restates the aggressive version | elaborates the suicidal, unplanned nature of the explosion, Lady Gisele's precedent, the parent-shielding staging | restatement and elaboration
+  - model | analysis | writes out the full confrontation scene per the aggressive framing and its aftermath | reply to the restatement
+  - author | proposes a revised timeline | full realization at age 10, depression extended to 13-14, cutie mark tied to the later explosion | timeline revision
+  - model | analysis | develops the extended depressive period and the delayed explosion scene | reply to the revision
+  - author | corrects the confrontation's content | scene should be about stepping in front of her parents to demand respect, not the lord demanding coat repair | correction
+  - model | analysis | reworks the confrontation as protection of her parents rather than self-defense | reply to the correction
+  - author | confirms and asks for synthesis | confirms this is the correct version, asks for a full arc/psychology/themes overview | confirmation and request
+  - model | comprehensive profile | full-arc character analysis synthesizing all prior stages and themes | reply to the request
+- kept:
+  - note 1804 | the author's own words in this record | keeps Henri's redemption-tour backstory, filed to the partnership-origin plot point
+  - note 2481 | the author's own words in this record | keeps the reframed Celestia-attack line, filed to the Twilight/Fleur link
+  - note 2295 | the author's own words in this record | keeps the 'only as strong as my crystals' self-assessment, filed to the Temberik-negotiation link
+  - note 2394 | the author's own words in this record | keeps the stated versus real reason for staying in Equestria, filed to the volunteers-return link
+  - note 4958 | pasted from this reply inside the author's own framing | keeps the 2nd-gen-Royalist/shadow-steward mechanism, reframed and filed to the pre-revolution subject
+  - note 4920 | one sentence lifted from this reply | keeps a line on Réni's role as cultured example, filed to Réni's character subject
+  - note 4912 | the author's own words in this record | keeps the parents' name-reveal and household context, filed to Minette's character subject
+  - note 4908 | the author's own words in this record | keeps the full confrontation scene and its aftermath, filed to Minette's character subject
+  - note 4916 | one sentence lifted from this reply | keeps a line on dressed dignity and the 'royalist swagger' persona, filed to Minette's character subject
+  - note 4925 | pasted from this reply inside the author's own framing | keeps a summary characterization line, filed to Minette's character subject
+- brought: The author brought forward already-established Aquileian lore and character sketches (Henri, Fleur, the feudal/class system) to extend with new characters and mechanics, then repeatedly corrected the model's elaborations against details the author already held fixed.
+- loop: The author dropped a backstory beat, a new character sketch, or a correction; the model returned an extended thematic or structural analysis; the author redirected or refined the framing, sometimes across several rounds on the same beat; and the plan kept only small crystallized fragments — mostly the author's own restated wording, occasionally one line lifted or reframed from the model's analysis — filed onto the specific character, subject, or link entries each beat concerned.

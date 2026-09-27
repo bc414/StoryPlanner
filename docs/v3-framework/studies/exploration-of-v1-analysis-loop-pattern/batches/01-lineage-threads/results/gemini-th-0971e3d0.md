@@ -1,0 +1,8 @@
+- steps:
+  - author | propose | a hypothesis that SAA's charity fails because Skyfall shipping tycoons act as a monopsony cartel, plus an alternate plan of shipping to the Griffonian Republic for unusable Rik currency | opening of the first exchange
+  - model | elaborate | a structural breakdown confirming the monopsony/cartel mechanism, detailing the GR pivot, the geopolitical stakes of accepting Riks, and a character-resonance note tying it to Applejack | closing of the first exchange
+  - author | correct | a rejection of the cartel/monopsony framing, replacing it with a decentralized competitive-market mechanism driven by remittance demand, plus an explanation of why tycoons avoid armed conflict (protecting the Skyfall Mark's value) | opening of the second exchange
+  - model | rework | a revised structural analysis built on the corrected mechanism, covering the 'invisible hand' price-floor effect, the Mark-driven 'cold war' among tycoons, the Herzland nobles' role, and a synthesis of how this reshapes multiple factions' arcs | closing of the second exchange
+- kept:
+- brought: The author brought a self-generated economic hypothesis about how SAA's food aid interacts with Skyfall's shipping industry, then a correction to the model's framing of that mechanism, drawing on established worldbuilding elements (Skyfall, Zebrica remittances, Herzland nobles, the Griffonian Republic) rather than any external source.
+- loop: The author proposes an economic mechanism for the story world, the model expands it into a full structural and character-linked analysis, the author corrects the underlying mechanism, and the model reworks the analysis around the correction — but none of this exchange's material was captured into the planning database.

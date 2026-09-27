@@ -1,0 +1,8 @@
+- steps:
+  - the author | request | asks for real-world parallels to a weaponized-language-indoctrination concept from the story, open to any country/language | opens the conversation
+  - the model | comparison-set | offers four historical cases (partition-era Poland, Japanese-occupied Korea, Nazi Germany, Soviet Central Asia), each mapped point-by-point onto the story's Chrysalis/Drone/Rehab/Simplified-Herzlander elements, closed with a one-line summary equating the concept to 'the Flying University meets Newspeak' | first response
+  - the author | narrow-request | redirects the same ask specifically to China | second prompt
+  - the model | comparison-set | offers four China-specific cases (simplified vs traditional script, Mao-era 'wooden language', Nüshu women's script, internet censorship-evasion slang), each mapped onto the same story elements, closed with a summary table and a video recommendation on Nüshu | second response
+- kept:
+- brought: The author brings a request to find real-world historical/linguistic parallels for an existing story concept about weaponized, identity-severing language and covert resistance to it.
+- loop: The author poses an open research question tied to the story's language-as-control concept, the model answers with catalogs of historical analogues mapped onto the story's own terms, and the author's only follow-up is to narrow the geographic scope rather than select or revise anything — and nothing from either exchange was carried into the planning database in this stretch.

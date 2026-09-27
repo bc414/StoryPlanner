@@ -586,8 +586,10 @@ flowchart LR
   leads[/"leads"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
+  skill[/"skill"/]:::artifact
   studies[/"studies"/]:::artifact
   tally[/"tally"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
 
   studies --> continueexplorationbatch
   definition --> continueexplorationbatch
@@ -602,14 +604,16 @@ flowchart LR
   index --> writeleads
   results --> writeleads
   questionlist --> writeleads
+  skill --> writeleads
+  toolsource -.-> writeleads
   writeleads --> leads
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: definition directions index items question-list studies
+- **inputs**: definition directions index items question-list skill studies tool-source
 - **outputs**: calls leads results tally
-- **instruments**: runner
+- **instruments**: runner tool-source
 - **enabled by**: preparing-an-exploration
 - **enables**: reviewing-leads
 
@@ -1063,6 +1067,8 @@ flowchart TD
   index --> writeleads
   results --> writeleads
   questionlist --> writeleads
+  skill --> writeleads
+  toolsource -.-> writeleads
   writeleads --> leads
   questionlist --> exploreplan
   corpora --> exploreplan
@@ -1133,10 +1139,10 @@ flowchart TD
 | calls | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-pipeline-sample-batch continue-exploration-batch assemble-exploration-batch | write-findings review-leads | — |
 | results | assess-reverify-items assess-claim-items assess-referee-items assess-items assess-sample-items assess-pipeline-sample-items explore-items explore-pilot-item | gate-and-commit assemble-referee-batch compose-candidates review-findings write-findings calibrate plan-pipeline-directions collate-pipeline-sample calibrate-pipeline-directions review-leads continue-exploration-batch write-leads | — |
 | tally | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-pipeline-sample-batch continue-exploration-batch | gate-and-commit compose-candidates review-findings write-findings calibrate calibrate-pipeline-directions review-leads | — |
-| skill | revise | verify-plan explore-plan revise | — |
+| skill | revise | verify-plan write-leads explore-plan revise | — |
 | runner-skill | build revise | revise | — |
 | map | revise | revise | — |
-| tool-source | build | build | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize collate-pipeline-sample assemble-exploration-batch |
+| tool-source | build | build | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize collate-pipeline-sample write-leads assemble-exploration-batch |
 | corpus | build | promote review-findings assemble-full-batch verify-plan itemize review-leads explore-plan author-exploration-directions assemble-exploration-batch build | — |
 
 ## Validation

@@ -1,0 +1,14 @@
+- steps:
+  - the author | specifies | four metrics to track (char count, word count, notes needing analysis, notes incorporated) | opening request
+  - the model | drafts | a code method reading EF Core's local note tracker and writing the four metrics to a CSV log | first reply
+  - the author | requests | an SVG image of a pony character trotting | second request, unrelated to the tool
+  - the model | returns | a generated image | response to the SVG request
+  - the author | asks | whether the image can be turned into an animation loop | follow-up on the image request
+  - the model | returns | another generated image | response to the loop request
+  - the author | corrects | clarifies the earlier request meant a true vector graphic, not a raster image | correction of the image requests
+  - the model | returns | a further generated image file | response to the correction
+  - the author | asks | what 'output protocols' means for Gemini | new unrelated question
+  - the model | explains | two possible meanings (the AI API's communication/output formats vs. the separate Gemini internet protocol), with a table and offer to go deeper | response to the protocols question
+- kept:
+- brought: The author brought a concrete coding requirement from their story-planning tool's codebase (which metrics to compute and log for the notes system), then shifted to unrelated image-generation and general-knowledge requests.
+- loop: The author moved through one tool-development request and several unrelated tangents (image generation, a terminology question), each answered directly by the model, but none of this exchange left any trace in the planning database.

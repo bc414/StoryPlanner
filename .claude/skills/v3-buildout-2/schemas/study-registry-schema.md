@@ -28,9 +28,12 @@ An entry is `- <id>`, one per line, in the order the studies were approved. `<id
   another, so the question is the longest slug heading an entry in the list that the id
   carries after `<type>-of-`.
 - `<slug>`, present only for a further study of the same question and type, is a lowercase
-  slug naming what sets the study apart: the model, where the model is what differs; the
-  itemizer or the directions otherwise. The first study of a question and type carries none
-  and is never renamed when a second arrives.
+  slug naming what sets the study apart: the model or effort, where that is what differs; the
+  itemizer, where what one item is, the corpus read or which items are taken differs; the set
+  of directions otherwise. A change to the itemizer's code, or to its narrowing that only drops
+  items a rule applying everywhere excludes or the study cannot use, stays in the study as a new
+  batch and needs no slug. The first study of a question and type carries none and is never
+  renamed when a second arrives.
 
 The id is authored at approval and never changed. Nothing else is authored here: the study's
 type and question are read from the id; its model, effort, itemizer and directions from its

@@ -1,0 +1,16 @@
+- steps:
+  - author | backstory addition | adds reason for Kemerskai's skepticism of ponies (a failed appeal to Celestia, absence of ponies in Herzland) | opening of the single prompt message
+  - author | pacing question | asks whether Kemerskai should flip fast from suspicious to friendly with Trimmel and whether that friendship is the only trait that 'humanizes' him to Applejack | same message, second sub-question
+  - author | ideology recheck | asks whether 'rugged individualism' still fits given the New Deal/big-government/meritocracy basis already set for the Republic, or whether it's really a cover for an unregulated free market | same message, third sub-question
+  - author | characterization correction | rejects a 'soldiers as numbers' portrayal of Kemerskai, asks for a big-personality leader instead, and asks which real-world figure he should be modeled on | same message, closing sub-question
+  - model | archetype grounding | proposes a real-world composite (Chiang Kai-shek, MacArthur, a touch of Napoleon) to answer the who-is-he-based-on question | opening section of the reply
+  - model | terminology refinement | replaces 'rugged individualism' with 'meritocratic nationalism'/'directed ambition' and contrasts it with Aquileia's ethic | second section of the reply
+  - model | grievance drafting | turns the pony-skepticism backstory into a specific grudge and a confrontation line Kemerskai could say to Applejack | third section of the reply
+  - model | relationship drafting | lays out a three-phase arc for the Kemerskai-Trimmel bond (hostility, tactical respect, easy camaraderie) and Applejack's mixed reaction to witnessing it | fourth section of the reply
+  - model | motive explanation | spells out why the big-personality, performative Kemerskai clashes with Applejack's humility | fifth section of the reply
+  - model | role synthesis | closes with a three-way summary of what Kemerskai, Trimmel, and Applejack each represent for the coming act | closing section of the reply
+- kept:
+  - note 642 | the author's own words in this record | keeps the author's own pony-skepticism backstory wording, placed on the SECEF-withdrawal plot point with an added line tying it to Applejack's donation of weapons
+  - note 2523 | pasted from this reply inside the author's own framing | keeps the model's description of Applejack's humility/dislike of spotlight, recast by the author into a growth note on the Applejack-Kemerskai link with an added posture-vs-propaganda framing
+- brought: The author brought a new backstory reason for Kemerskai's anti-pony bias alongside a set of open questions and a correction about his personality, ideology label, and real-world inspiration.
+- loop: The author supplies a fresh backstory detail plus several character/ideology questions and a correction; the model answers with an archetype, a renamed ideology, and drafted scenes; the plan keeps only the author's own backstory phrasing on a plot event and one fragment of the model's characterization, reframed by the author, on a character relationship link.

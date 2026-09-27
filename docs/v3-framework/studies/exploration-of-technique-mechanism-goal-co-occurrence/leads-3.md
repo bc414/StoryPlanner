@@ -1,8 +1,16 @@
 # exploration-of-technique-mechanism-goal-co-occurrence — leads
 
+- items with results: 602 of 1116
+- written by: a Claude Code session opened on 2026-09-16 for this write-up alone, with the
+  code-sessions archive removed from the machine; it did not plan the study, write its directions,
+  build its itemizer or read its pilot. It read the skill's conducting-an-exploration, reviewing-leads
+  and leads schema, the question list and the study registry, batch 02's definition and directions-2,
+  one result file, and the results tool's source and tests, and drew its leads from batch 02's
+  results through the results tool. It read no other write-up of the batch.
+
 ## Leads
 
-### exploration-of-technique-mechanism-goal-co-occurrence/operation-is-the-part-most-often-absent
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/operation-is-the-part-most-often-absent
 - lead: Of the three parts of a moment, the operation on what the reader knows or believes is
   the one most often absent. Over 11070 moment lines from 602 answered chapters, the operation
   part is the word none in 599 lines and opens with none in another 218; the kind part is none
@@ -12,7 +20,7 @@
 - query:
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=health top=40
 
-### exploration-of-technique-mechanism-goal-co-occurrence/no-operation-lines-are-comic-dialect-and-typographic
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/no-operation-lines-are-comic-dialect-and-typographic
 - lead: The lines whose operation is none are dominated by comic techniques (comic, slapstick,
   gag, pun, hyperbolic, bathos, wordplay, non sequitur, comic misdirection, mock-epic), by
   dialect rendering (eye dialect, phonetic dialect, dialect spelling), by typographic emphasis
@@ -33,7 +41,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/twilights-list-ch09
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/unexpected-confessions-ch30
 
-### exploration-of-technique-mechanism-goal-co-occurrence/reinforcing-a-known-trait-written-both-as-none-and-as-an-operation
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/reinforcing-a-known-trait-written-both-as-none-and-as-an-operation
 - lead: Where a reader hedged a none operation, the hedge most often says "none beyond
   reinforcing" or "none beyond reaffirming" an already-established trait, or "none, purely
   tonal". The same reinforcement of what is already known is elsewhere written as an operation
@@ -50,7 +58,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/green-ch36
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/trial-run-ch02
 
-### exploration-of-technique-mechanism-goal-co-occurrence/kind-absent-only-where-there-are-no-words-to-take
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/kind-absent-only-where-there-are-no-words-to-take
 - lead: The kind part is none almost only at scene and section breaks, structural transitions,
   point-of-view shifts marked by a divider, cross-cutting via dividers, and repeated actions
   rather than wordings (a mirrored prank). In those lines the technique is the break or the
@@ -68,7 +76,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/salvation-ch09
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/where-earth-meets-sky-ch01
 
-### exploration-of-technique-mechanism-goal-co-occurrence/experience-absent-only-at-paratext-and-plain-information
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/experience-absent-only-at-paratext-and-plain-information
 - lead: The experience part is none in sixteen lines, and those lines are paratext (a byline
   credit, a music credit list, reader contact information, an editorial bracketed note placing
   the story in the show's timeline), coined in-world terms and idioms, plain expository
@@ -86,7 +94,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/the-last-train-home-ch01
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/twilights-list-ch13
 
-### exploration-of-technique-mechanism-goal-co-occurrence/comic-experience-lines-most-often-carry-no-operation
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/comic-experience-lines-most-often-carry-no-operation
 - lead: Among the lines whose experience is comic, humor, amusement or comedy, none is the most
   frequent opening word of the operation part (468 of 3369), ahead of establishes and reveals.
   Where a comic line does carry an operation, reinforces and characterizes rank higher than
@@ -97,7 +105,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where experience~comic|humor|amusement|comedy view=terms col=moment position=1 top=15
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=terms col=moment position=1 top=60
 
-### exploration-of-technique-mechanism-goal-co-occurrence/comic-experience-in-a-third-of-moments-and-nearly-every-story
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/comic-experience-in-a-third-of-moments-and-nearly-every-story
 - lead: An experience of comedy, humor or amusement is written on 3369 of 11070 moment lines,
   in 110 of the 113 stories. Its technique words are comic, dialogue, aside, banter, gag,
   slapstick, running gag, mock, callback, italicized interior. The stories with the most such
@@ -109,7 +117,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where experience~comic|humor|amusement|comedy view=by-story
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=terms col=experience top=80
 
-### exploration-of-technique-mechanism-goal-co-occurrence/interior-monologue-reveals-free-indirect-establishes
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/interior-monologue-reveals-free-indirect-establishes
 - lead: The two interior techniques differ in which operation leads. Interior monologue, direct
   thought and interior thought lines open their operation with reveals in 88 of 311, far ahead
   of shows (34) and establishes (33); their experiences are private, intimacy, access, irony,
@@ -123,7 +131,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~"free indirect" view=terms col=moment position=1 top=20
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~"free indirect" view=terms col=experience top=25
 
-### exploration-of-technique-mechanism-goal-co-occurrence/dialogue-spans-every-experience-and-operation
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/dialogue-spans-every-experience-and-operation
 - lead: Dialogue is the most frequent technique word (1098 lines) and carries the widest spread
   of the other two parts: experiences of comedy, tension, relief, unease, curiosity, sympathy,
   warmth, dread, suspense, surprise and embarrassment; operations opening establishes (160),
@@ -134,7 +142,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~dialogue view=terms col=experience top=25
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~dialogue view=terms col=moment position=1 top=20
 
-### exploration-of-technique-mechanism-goal-co-occurrence/dramatic-irony-named-as-technique-and-as-experience
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/dramatic-irony-named-as-technique-and-as-experience
 - lead: Dramatic irony is written on both sides of a moment: as the technique in 211 lines and
   as the experience in 219. Where it is the technique, its experience words are reader, gap,
   knowledge, knows, secret, amusement, tension, suspense, anticipation, and its operation opens
@@ -155,7 +163,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/letters-from-a-secret-admirer-ch03
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/those-blue-wings-ch02
 
-### exploration-of-technique-mechanism-goal-co-occurrence/callbacks-and-motifs-reinforce-tie-and-remind
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/callbacks-and-motifs-reinforce-tie-and-remind
 - lead: Callback, echo, motif and parallel lines have recognition as their leading experience
   word (116 of 555), with continuity, closure, satisfaction and pattern; their operations open
   with reinforces (48), confirms (36), ties (28), then none, establishes, reveals, implies,
@@ -173,7 +181,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/ill-always-be-here-for-you-ch21
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/sunny-skies-all-day-long-ch01
 
-### exploration-of-technique-mechanism-goal-co-occurrence/exposition-installs-with-curiosity
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/exposition-installs-with-curiosity
 - lead: Exposition, expository dialogue, backstory and summary narration lines open their
   operation with establishes (157 of 594), then reveals, supplies, adds, informs,
   recontextualizes, reminds, fills, explains, expands; their experiences are curiosity, sense,
@@ -185,7 +193,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~"exposition|expository|backstory|summary narration" view=terms col=experience top=20
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where moment~^establishes view=terms col=technique top=25
 
-### exploration-of-technique-mechanism-goal-co-occurrence/description-establishes-or-does-nothing
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/description-establishes-or-does-nothing
 - lead: Sensory and physical description lines open their operation with establishes (44 of
   254) or none (29), then confirms, reveals, marks, signals; after the comic family this is the
   technique family with the largest share of none. Their experiences are quiet, warmth, unease,
@@ -199,7 +207,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/i-can-hear-you-scream-ch02
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/ill-do-anything-for-you-ch03
 
-### exploration-of-technique-mechanism-goal-co-occurrence/scene-breaks-signal-and-shift
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/scene-breaks-signal-and-shift
 - lead: Scene breaks, section breaks and time skips were listed as moments in their own right.
   Their kind is usually none, their experience is reorientation, a jump in time or place,
   disorientation, a reset of attention, and their operation opens with signals (15 of 83) or
@@ -215,7 +223,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/about-last-night-ch08
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/longest-night-longest-day-ch09
 
-### exploration-of-technique-mechanism-goal-co-occurrence/asides-of-five-kinds-reveal-with-humor
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/asides-of-five-kinds-reveal-with-humor
 - lead: Aside is a technique word on 510 lines, qualified as interior aside, narratorial aside,
   worldbuilding aside, authorial aside, comic aside, private aside, backstory aside, expository
   aside. Their experiences are humor, comic, wry, amusement, irony, quiet, curiosity, unease;
@@ -227,7 +235,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~aside view=terms col=experience top=15
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~aside view=terms col=moment position=1 top=10
 
-### exploration-of-technique-mechanism-goal-co-occurrence/chapter-closings-leave-and-withhold
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/chapter-closings-leave-and-withhold
 - lead: Closing lines, final lines and cliffhangers have experiences of closure, quiet,
   anticipation, suspense, warmth, resolution, unresolved, bittersweet, lingering; their
   operations open with leaves (34 of 280), signals, none, closes, confirms, reveals, resolves,
@@ -245,7 +253,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/not-unless-you-mean-it-ch02
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/twilights-list-ch04
 
-### exploration-of-technique-mechanism-goal-co-occurrence/dialect-rendering-marks-voice-without-operating
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/dialect-rendering-marks-voice-without-operating
 - lead: Dialect rendering (eye dialect, phonetic dialect, dialect spelling, muffled-speech
   spelling) is a technique on 126 lines in 50 stories. Its experience words are voice,
   distinct, folksy, rural, regional, hears, warmth, characterization, comic; its operation
@@ -257,7 +265,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~dialect view=terms col=experience top=15
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~dialect view=terms col=moment position=1 top=10
 
-### exploration-of-technique-mechanism-goal-co-occurrence/operation-parts-open-with-a-few-recurring-verbs
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/operation-parts-open-with-a-few-recurring-verbs
 - lead: The operation part opens with 517 distinct words over 11070 lines, and a few carry
   most lines: establishes 1150, reveals 1038, none 817, confirms 539, signals 529, shows 452,
   reinforces 402, characterizes 261, marks 196, implies 191, introduces 191, plants 179, sets
@@ -270,7 +278,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=terms col=moment position=1 top=60
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=terms col=moment top=60
 
-### exploration-of-technique-mechanism-goal-co-occurrence/seeding-verbs-go-with-foreshadowing-withheld-and-epigraphs
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/seeding-verbs-go-with-foreshadowing-withheld-and-epigraphs
 - lead: Lines whose operation opens with plants, seeds or primes have techniques of
   foreshadowing (35 of 384), dialogue, withheld information, planted detail, aside, epigraph
   (18), dramatic irony, opening, physical detail, unexplained detail, hook, setup. The
@@ -287,7 +295,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/the-princess-and-the-kaiser-ch034
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/you-make-my-whole-life-worthwhile-ch04
 
-### exploration-of-technique-mechanism-goal-co-occurrence/revising-verbs-go-with-reveals-reversals-and-titles
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/revising-verbs-go-with-reveals-reversals-and-titles
 - lead: Lines whose operation opens with recasts, recontextualizes, reframes, retroactively,
   overturns, revises or corrects have techniques of reveal (89 of 519), dialogue, reversal,
   retrospective, tonal, delayed, confession, callback, character, title (17), backstory,
@@ -305,7 +313,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/those-blue-wings-ch10
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/rainbooms-and-royalty-new-ch11
 
-### exploration-of-technique-mechanism-goal-co-occurrence/confirming-verbs-go-with-comic-callback-and-dialect
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/confirming-verbs-go-with-comic-callback-and-dialect
 - lead: Lines whose operation opens with confirms, reinforces or reaffirms have techniques of
   dialogue (97 of 1021), comic (88), callback (55), irony and dramatic irony, character,
   italicized, reveal, aside, description, banter, dialect, running gag, payoff, beat.
@@ -313,7 +321,7 @@
 - query:
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where moment~^(confirms|reinforces|reaffirms) view=terms col=technique top=25
 
-### exploration-of-technique-mechanism-goal-co-occurrence/operations-on-the-world-add-operations-on-bonds-confirm-and-resolve
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/operations-on-the-world-add-operations-on-bonds-confirm-and-resolve
 - lead: Lines whose operation names the world, history, lore, politics, law, society or an
   institution open with establishes (160 of 937), reveals, reinforces, adds (44), implies,
   supplies (39), introduces (33), signals, confirms, builds, expands, recontextualizes. Lines
@@ -326,7 +334,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where moment~"world|history|lore|magic system|politic|law|society|institution" view=terms col=moment position=1 top=25
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where moment~relationship|bond|feelings|attraction|romantic|crush view=terms col=moment position=1 top=25
 
-### exploration-of-technique-mechanism-goal-co-occurrence/world-operations-concentrate-in-a-few-stories
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/world-operations-concentrate-in-a-few-stories
 - lead: Operations naming the world, history, lore, politics, law, society, institutions, war,
   a nation or a regime are written on 1701 lines in 103 stories, and a few stories hold most:
   the-princess-and-the-kaiser 248 of its 1003 lines, clocktower-society-your-safe-word-is-law
@@ -337,7 +345,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where moment~world|history|lore|politic|law|society|institution|war|nation|regime view=by-story
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=by-story
 
-### exploration-of-technique-mechanism-goal-co-occurrence/operations-name-state-the-text-built-earlier
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/operations-name-state-the-text-built-earlier
 - lead: In 1567 lines the operation part names earlier, already, established, prior or
   previous state, and those lines open with reveals (166), confirms (137), reinforces (128),
   establishes, implies, recasts, recontextualizes, signals, reaffirms, resolves,
@@ -347,7 +355,7 @@
 - query:
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where moment~earlier|already|established|prior|previous view=terms col=moment position=1 top=25
 
-### exploration-of-technique-mechanism-goal-co-occurrence/show-canon-named-as-state-brought-to-the-text
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/show-canon-named-as-state-brought-to-the-text
 - lead: In 58 lines the operation part names canon or the show. Their techniques are canon
   callback, intertextual allusion, embedded backstory, worldbuilding aside, author's note,
   continuity-placement cue, first-person testimony; their operations open with establishes,
@@ -369,7 +377,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/clocktower-society-your-safe-word-is-law-ch22
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/the-twilight-hours-ch08
 
-### exploration-of-technique-mechanism-goal-co-occurrence/tension-and-warmth-experiences-share-dialogue-and-interior-techniques
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/tension-and-warmth-experiences-share-dialogue-and-interior-techniques
 - lead: Experiences of dread, unease, tension, suspense and anxiety (2040 lines) have
   techniques of dialogue (291), comic, irony and dramatic irony, withheld (89), italicized
   interior, reveal, narration, description, closing, escalating, confession. Experiences of
@@ -383,7 +391,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where experience~dread|unease|tension|suspense|anxiety view=terms col=technique top=25
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where experience~warmth|tenderness|intimacy|sympathy view=terms col=technique top=25
 
-### exploration-of-technique-mechanism-goal-co-occurrence/technique-names-carry-experience-and-operation-words
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/technique-names-carry-experience-and-operation-words
 - lead: The technique part carries words of experience and of operation. Comic is on 736
   technique parts and is the first word of 522; ironic, tonal, mock and slapstick follow.
   Reveal is on 389, callback 245, withheld 194, delayed 126, planted 92, payoff 89,
@@ -399,7 +407,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~comic|ironic|humor|gag|slapstick|banter view=terms col=experience top=20
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~reveal|withheld|delayed|planted|payoff|callback view=terms col=moment position=1 top=20
 
-### exploration-of-technique-mechanism-goal-co-occurrence/technique-names-most-repeated-across-chapters
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/technique-names-most-repeated-across-chapters
 - lead: The technique two-word runs repeated most across chapters are free indirect (238
   lines), dramatic irony (211), interior monologue (207), italicized interior (127), indirect
   discourse (115), scene break (110), running gag (53), section break (50), expository
@@ -415,7 +423,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=terms col=technique n=2 top=60
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=pairs col=technique top=40
 
-### exploration-of-technique-mechanism-goal-co-occurrence/kind-stated-as-a-contrast-with-a-plain-reading
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/kind-stated-as-a-contrast-with-a-plain-reading
 - lead: The kind part is written as a contrast in 1511 of 11070 lines: the words taken as one
   thing "rather than" plain, literal, plot, ordinary, mere, scene, narration, neutral, new,
   incidental, continuous, sincere, real, casual or stated. "Words taken as" opens 609 kind
@@ -427,7 +435,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=terms col=kind n=2 top=40
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments view=terms col=kind top=60
 
-### exploration-of-technique-mechanism-goal-co-occurrence/narrative-person-and-tense-recorded-mostly-in-kind
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/narrative-person-and-tense-recorded-mostly-in-kind
 - lead: Narrative person and tense are written mostly in the kind part and less in the
   technique part. First person is in the kind part of 198 lines across 57 stories, third
   person 155 lines, present tense 88 lines across 38 stories; in the technique part
@@ -443,7 +451,7 @@
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~second.person view=by-story
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where kind~first.person view=terms col=technique n=2 top=15
 
-### exploration-of-technique-mechanism-goal-co-occurrence/italics-the-marker-named-for-interior-thought
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/italics-the-marker-named-for-interior-thought
 - lead: Italics is the marker named on 304 lines, and the techniques on those lines are
   italicized interior monologue and thought, typographic emphasis, dialogue, embedded insert,
   aside, free indirect, dream, flashback, epigraph, quoted and unattributed inserts.
@@ -461,7 +469,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/the-notebook-ch01
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/head-in-the-clouds-ch03
 
-### exploration-of-technique-mechanism-goal-co-occurrence/letters-in-a-third-of-stories
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/letters-in-a-third-of-stories
 - lead: Letters and epistolary inserts are a technique on 73 lines in 33 of 113 stories, at
   most seven lines in a story. Their kind is a quoted, formal, italicized, verbatim, addressed,
   handwritten, first-person letter or a summary of one; their experiences are intimacy, a shift
@@ -483,7 +491,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/perfect-on-paper-ch18
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/unexpected-confessions-ch21
 
-### exploration-of-technique-mechanism-goal-co-occurrence/dreams-in-a-third-of-stories-with-disorientation-and-reveals
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/dreams-in-a-third-of-stories-with-disorientation-and-reveals
 - lead: Dreams and daydreams are a technique on 89 lines in 32 stories, fourteen of them in
   salvation and eleven in the-moons-apprentice. Their kind is dream narration set against
   waking or real narration, often in present tense or italics, sometimes indistinguishable
@@ -506,7 +514,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/unexpected-confessions-ch21
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/salvation-ch18
 
-### exploration-of-technique-mechanism-goal-co-occurrence/embedded-documents-flashbacks-and-stories-within
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/embedded-documents-flashbacks-and-stories-within
 - lead: Embedded is a technique word on 277 lines: embedded document, embedded flashback,
   embedded backstory, embedded first-person, embedded italicized, story within story,
   embedded legend, anecdote, hindsight, letter, quoted. Found and in-universe documents (25
@@ -530,7 +538,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/on-a-cross-and-arrow-ch11
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/perfect-on-paper-ch08
 
-### exploration-of-technique-mechanism-goal-co-occurrence/songs-and-verse-in-half-the-stories
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/songs-and-verse-in-half-the-stories
 - lead: Songs, lyrics, poems and verse are a technique on 98 lines in 52 of 113 stories, at
   most ten lines in a story (a-delicate-balance), with the-princess-and-the-kaiser,
   flying-high-falling-hard, carrot-top-season and the-best-night-ever next.
@@ -538,7 +546,7 @@
 - query:
   - rq1 batch=exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2 answered=602 field=moments where technique~song|lyric|poem|verse|poetry view=by-story
 
-### exploration-of-technique-mechanism-goal-co-occurrence/paratext-placed-both-as-moments-and-as-unplaced
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/paratext-placed-both-as-moments-and-as-unplaced
 - lead: Author's notes, chapter titles, epigraphs and bylines are written on both sides of the
   results. As moments: author note, paratextual author's note, chapter title, epigraph
   quotation, title echo, authorial aside and direct authorial address on 366 lines, and
@@ -561,7 +569,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/the-twilight-hours-ch08
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/flank-ology-ch01
 
-### exploration-of-technique-mechanism-goal-co-occurrence/epigraphs-and-titles-seed-and-recast
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/epigraphs-and-titles-seed-and-recast
 - lead: Epigraphs appear among the techniques of seeding operations (18 of the 384 lines
   opening plants, seeds or primes), and chapter titles among the techniques of revising
   operations (17 of 519) and of recognition experiences (43 of 532), as title echo, title
@@ -575,7 +583,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/a-delicate-balance-ch21
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/unexpected-confessions-ch25
 
-### exploration-of-technique-mechanism-goal-co-occurrence/unplaced-holds-typos-formatting-and-dividers
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/unplaced-holds-typos-formatting-and-dividers
 - lead: What the readers could place in no part includes apparent typos and editing slips
   (typo 36 lines, slip 36), formatting artifacts (formatting 57, artifact 31, asterisk 33:
   stray bold markers, merged lyric lines, a stray space before a closing italic), typographic
@@ -592,7 +600,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/the-best-night-ever-ch05
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/the-princess-and-the-kaiser-ch037
 
-### exploration-of-technique-mechanism-goal-co-occurrence/unplaced-holds-stray-details-and-outside-references
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/unplaced-holds-stray-details-and-outside-references
 - lead: Unplaced also holds stray, unexplained or dropped details (stray 58 lines, unexplained
   58, a setup noted and never mentioned again), passing continuity nods to unnarrated events,
   real-world and fandom references, show-canon cameos used as in-jokes, a character's name
@@ -613,7 +621,7 @@
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/the-princess-and-the-kaiser-ch020
   - exploration-of-technique-mechanism-goal-co-occurrence/02-chapters-directions-2/unexpected-confessions-ch27
 
-### exploration-of-technique-mechanism-goal-co-occurrence/moments-per-chapter-range-widely
+### exploration-of-technique-mechanism-goal-co-occurrence/leads-3/moments-per-chapter-range-widely
 - lead: The readers listed between 1 and 58 moments per chapter, median 18, over 602 answered
   chapters in 111 stories with at least one line. The stories with the most lines are
   the-princess-and-the-kaiser (1003 lines over 50 chapters), a-delicate-balance (718 over 36),

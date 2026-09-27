@@ -1,0 +1,46 @@
+- steps:
+  - author | draws comparison | TLTT framework vs StarCraft's materialist grounding and SC2's Amon as corporate-mandate villain | opening exchange
+  - model | validating analysis | maps existing TLTT elements (Chrysalis, Twilight, Applejack, Celestia) onto StarCraft factions and tropes | reply to opening comparison
+  - author | asks for historical background | origins of SC1/Brood War worldbuilding, key figures, shift to corporate mandate, whether Wings of Liberty was as earnest | follow-up question
+  - model | historical analysis | breakdown of SC1/Brood War grounded factions and figures, Wings of Liberty's mixed earnestness | reply
+  - author | asks pointed clarifying question | whether Kerrigan had Xel'Naga influence in Brood War | follow-up
+  - model | clarifying analysis | contrasts original Kerrigan's agency with the SC2 retcon | reply
+  - author | asks for plot detail plus own inference | Brood War's ending, notes SC2's keystone premise already breaks hard geopolitics | follow-up
+  - model | narrative recap plus analysis | details the Battle of Omega ending, ties the keystone retcon to the corporate mandate | reply
+  - author | extends comparison to new franchise | asks about Warcraft's shift from Warcraft 3 to World of Warcraft | follow-up
+  - model | parallel analysis | maps Warcraft 3's grounded conflicts against WoW's cosmic escalation, links back to TLTT | reply
+  - author | extends question earlier in timeline | asks about Warcraft 1 and 2 | follow-up
+  - model | historical analysis | frames Warcraft 1/2 as materialist bedrock, ties resource/coalition mechanics to TLTT | reply
+  - author | asks for business history plus own hypotheses | Blizzard's ownership, revenue model, single-player vs multiplayer, competitor/complement dynamic with AoE and C&C | follow-up
+  - model | business history | Blizzard's revenue-model shift, Vivendi/Activision merger, mechanics of the corporate mandate | reply
+  - author | extends framework to new franchise plus own observation | names AoE3's Circle of Ossus as a corporate-mandate anomaly, asks for AoE ownership history | follow-up
+  - model | historical analysis | Ensemble/Microsoft history, Age of Mythology's influence, AoE3's sanitized narrative | reply
+  - author | asks follow-up plus personal anecdote | AoE4's return to historical roots, own lack of interest in the demo | follow-up
+  - model | historical analysis | Forgotten Empires modder story, AoE4's documentary-style approach | reply
+  - author | brings personal gaming history plus question | recounts own childhood C&C titles and favorites, asks for C&C ownership history and a Kane/Kerrigan parallel | follow-up
+  - model | historical analysis | Westwood/EA acquisition history, Generals' sanitization, confirms the Kane-Kerrigan parallel | reply
+  - author | reflective synthesis plus question | notes shared sanitization of RTS games and MLP, asks about Equestria at War fandom overlap and own critical-thinking formation | follow-up
+  - model | validating synthesis | confirms fandom overlap, connects author's TLTT mechanics to their gaming background | reply
+  - author | maps own biographical trajectory | traces personal hobby history from RTS through Civ5/EU4 to Pokemon fanfiction into TLTT, asks about the Scrin as a corporate-mandate seed | follow-up
+  - model | biographical validation plus analysis | frames the hobby history as a training pipeline, confirms the Scrin-as-Amon parallel | reply
+  - author | critiques mechanic design | questions resource placement logic in Generals/Red Alert 2 versus Civ/EU4 complexity, asks if Tiberium harvesters derive from Dune | follow-up
+  - model | historical and design analysis | confirms the Dune-to-Tiberium lineage, explains esports-balance versus worldbuilding tradeoffs | reply
+  - author | corrects earlier framing | states Red Alert 3 is the actual favorite and structurally grounded, critiques the Uprising expansion, asks about its link to C&C4 | follow-up
+  - model | corrected analysis | validates RA3's geopolitical structure, frames Uprising as the bridge to C&C4's mandate | reply
+  - author | summarizes own understanding of meta-narrative timeline | lays out the Red Alert/C&C prequel structure, asks about RA1/Tiberian Dawn storylines and the ore's narrative role | follow-up
+  - model | narrative history plus design critique | recaps Tiberian Dawn and RA1 plots, names ludonarrative dissonance in RA1's ore | reply
+  - author | asks for deeper dive | whether RA1 is a Dune/Tiberian Dawn reskin, Kane's characterization, Westwood's original unrealized plan | follow-up
+  - model | historical analysis | traces Kane's arc across RA1/Tiberian Dawn, his biblical origin, Westwood's Tiberian Sun plan versus EA's retcon | reply
+  - author | shares external artifact | links a YouTube video, asks about its production context and Renegade's place post-acquisition | follow-up
+  - model | contextual history | explains the Westwood parody video and Renegade's dual studio/corporate nature | reply
+  - author | asks for market analysis plus personal preference | Renegade's commercial success, own dislike of FPS, asks for FPS industry economics and studio history | follow-up
+  - model | industry history | traces id Software/Doom origins, Half-Life/CoD/Halo, the console shift, CoD4's monetization pivot | reply
+  - author | extends hardware hypothesis | connects the 3D/hardware jump to narrative dumbing-down across RTS and FPS, asks about Black Ops | follow-up
+  - model | validating analysis | confirms the hardware-demographic hypothesis, analyzes Black Ops as an anomaly | reply
+  - author | draws design conclusion plus new comparison | states spectacle should serve the system, compares Faust/Treyarch/Westwood, asks if Hollywoodization equals the various corporate mandates and the book-versus-screen distinction | follow-up
+  - model | synthesizing analysis | confirms the parallel, contrasts film/TV time constraints against prose's capacity for systemic depth | reply
+  - author | shares personal biographical reflection | own preference for active cognition, hobby trajectory culminating in playing Ingress | follow-up
+  - model | final synthesis | connects Ingress's real-world logistics to TLTT's fictional systems, closing the framework validation | reply
+- kept:
+- brought: The author brought established pieces of their own TLTT lore (Chrysalis's MEFO bills and Red/Pink Love economy, Twilight's Magical Supply Organization, Applejack's combined-arms strategy at the Bluebell River) plus their personal gaming and hobby history as reference points for a running franchise comparison.
+- loop: The author repeatedly brought comparative questions about RTS/FPS franchise history and pieces of personal biography, and the model returned validating analytic essays mapping those materials onto the author's already-established TLTT concepts, but the exchange stayed external commentary and no note from this stretch was traced into the planning database.

@@ -1,8 +1,14 @@
 # exploration-of-notes-mix-cognitive-modes — leads
 
+- items with results: 2065 of 2066
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-notes-mix-cognitive-modes/half-the-claims-sit-outside-their-own-tracks-mode
+### exploration-of-notes-mix-cognitive-modes/leads-1/half-the-claims-sit-outside-their-own-tracks-mode
 - lead: Over 2,065 of the plan's 2,066 tracked notes the readers named 4,862 claims — a median of 2 per
   note, 12 at the most. Asked of each whether the mode it is written in is the one its own track type
   declares, they answered yes for 2,398 lines, no — it is another of the ten — for 1,671, and outside all
@@ -14,7 +20,7 @@
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=claims view=health
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=claims view=terms col=fits top=8
 
-### exploration-of-notes-mix-cognitive-modes/which-modes-the-claims-are-written-in
+### exploration-of-notes-mix-cognitive-modes/leads-1/which-modes-the-claims-are-written-in
 - lead: Of the 4,862 claims: 1,774 over 871 notes are History, an in-universe fact reported; 699 over 416
   are Characterization; 765 over 349 are outside all ten; 369 over 222 are Canon; 314 over 201 Analogies;
   242 over 149 ThematicEvidence; 242 over 166 NarrativeArchitecture; 140 over 89 PageDesign; 134 over 72
@@ -29,7 +35,7 @@
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=claims where mode~^WorldInference$ view=cites
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=claims where mode~outside view=cites
 
-### exploration-of-notes-mix-cognitive-modes/what-the-claims-outside-all-ten-modes-are
+### exploration-of-notes-mix-cognitive-modes/leads-1/what-the-claims-outside-all-ten-modes-are
 - lead: The 765 claims the readers placed outside all ten modes are overwhelmingly one thing, and they
   named it almost identically each time: 570 of the 765 lines carry the word ontology and 503 the word
   rule, most as "world-rule ontology"; 175 add "god mode". They are standing statements of how the world
@@ -44,7 +50,7 @@
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=claims where mode~outside view=terms col=mode top=18
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=claims where mode~outside sample=12 seed=9 view=list
 
-### exploration-of-notes-mix-cognitive-modes/four-tracks-whose-content-is-entirely-outside-the-ten-modes
+### exploration-of-notes-mix-cognitive-modes/leads-1/four-tracks-whose-content-is-entirely-outside-the-ten-modes
 - lead: Read against the track names in the index's description column, the claims outside all ten modes
   are not spread evenly: System Ontology has 348 of its 381 claim lines outside, Function 222 of 238,
   World Truth 110 of 118, and Causality of Creation 24 outside with a further 82 in another of the ten —
@@ -59,7 +65,7 @@
   - exploration-of-notes-mix-cognitive-modes/01-tracked-notes/note-2420
   - exploration-of-notes-mix-cognitive-modes/01-tracked-notes/note-1091
 
-### exploration-of-notes-mix-cognitive-modes/the-planning-tracks-whose-content-belongs-to-another-mode
+### exploration-of-notes-mix-cognitive-modes/leads-1/the-planning-tracks-whose-content-belongs-to-another-mode
 - lead: Read the same way, the tracks with the most claims in another of the ten modes are the planning
   tracks: Storytelling Plan 236 of 253 lines, Usage Plan 145 of 157, Character Appearance Plan 99 of 122,
   Causality of Creation 82 of 131, Reader Opinion 122 of 171, Reader Opinion Plan 78 of 131, Reader
@@ -71,7 +77,7 @@
   - exploration-of-notes-mix-cognitive-modes/01-tracked-notes/note-241
   - exploration-of-notes-mix-cognitive-modes/01-tracked-notes/note-475
 
-### exploration-of-notes-mix-cognitive-modes/claims-drift-toward-history-and-characterization
+### exploration-of-notes-mix-cognitive-modes/leads-1/claims-drift-toward-history-and-characterization
 - lead: Of the 1,671 claims written in another of the ten modes than their own track's, 900 land in
   History and 398 in Characterization — four fifths between them. Then Canon 147, Analogies 63,
   ThematicEvidence 45, NotesToSelf 26, WorldInference 24, PageDesign 23, Allegories 34, and
@@ -85,7 +91,7 @@
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=claims where mode~^Canon$ where fits~^no view=cites
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=claims where mode~^NarrativeArchitecture$ where fits~^no view=cites
 
-### exploration-of-notes-mix-cognitive-modes/every-goal-found-was-named-by-one-of-the-ten-modes
+### exploration-of-notes-mix-cognitive-modes/leads-1/every-goal-found-was-named-by-one-of-the-ten-modes
 - lead: Asked separately whether a note says what the reader is to get out of it, the readers found a goal
   in only 140 of the 2,065 notes, 164 goal lines in all, and for every one of those 164 they named a mode
   of the ten as written for that kind of goal. None was answered "none of them". The modes named are
@@ -97,7 +103,7 @@
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=goals view=terms col=named top=16
   - rq1 batch=exploration-of-notes-mix-cognitive-modes/01-tracked-notes answered=2065 field=goals where named~^none view=cites
 
-### exploration-of-notes-mix-cognitive-modes/worldinference-is-the-rarest-mode-in-the-notes-and-the-commonest-in-the-goals
+### exploration-of-notes-mix-cognitive-modes/leads-1/worldinference-is-the-rarest-mode-in-the-notes-and-the-commonest-in-the-goals
 - lead: WorldInference is the mode the fewest claims are written in — 64 lines of 4,862, a hundredth — and
   at the same time the mode named for the largest share of the goals the notes state, 68 of 164. So the
   plan's tracked notes name what the reader is to infer far more often than they are written in the mode

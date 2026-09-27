@@ -1,0 +1,16 @@
+- steps:
+  - author | pitch+recap | proposes a specific hard-hitting line for AJ and recaps the surrounding timeline of chapters leading to it | opening prompt (504)
+  - model | verdict and design | confirms the line works, explains three narrative purposes it serves, and proposes where and how to sequence it with a draft line | 504 response
+  - author | recall and query | recalls an existing beat (world peace claim answered by Luna's Nightmare Moon reveal) and asks whether it belongs in one chapter or another | 505 prompt
+  - model | comparative split | lays out what each chapter currently holds, recommends dividing the reveal into a physical-danger version and a philosophical-danger version, with a summary table and draft lines for each | 505 response
+  - author | new synthesis request | asks the model to map Applejack's multiple arcs of development and how they intersect with the plot points just discussed | 506 prompt
+  - model | multi-arc mapping | defines three parallel arcs for the character, tracks each across the three chapters in a table, and ties the earlier hard-hitting line back in as their collision point | 506 response
+- kept:
+  - note 2747 | the author's own words in this record | keeps the timeline recap's detail that Celestia is now actively helping via a plan devised with Applejack and others, filed on the link between the dreamscape aid network and Celestia
+  - note 156 | one sentence lifted from this reply | keeps the model's phrasing of Luna's full dream-altering-spell rationale, filed on the plot point for Luna's full-truth reveal
+  - note 159 | the plan held this text before this reply | pre-existing plan text about Nightmare Moon harvesting/inflicting nightmares, quoted back by the model and left on the same plot point
+  - note 1507 | the plan held this text before this reply | pre-existing draft dialogue contrasting changeling uplift with pony restriction ending in the world-peace line, quoted back and left on the meritocracy plot point
+  - note 3430 | the plan held this text before this reply | pre-existing short summary of the dream-spell as harmonic authoritarian extreme, quoted back and left on the link to Bottom Up vs Top Down
+  - note 3655 | the plan held this text before this reply | pre-existing note that the Temberik myth omits the true cause, quoted back and left on the link to the Luna Nova Rifle development
+- brought: The author brought a specific candidate line for Applejack plus recollections of existing chapter beats (the paradrop timeline, the Encirclement/Stagnation world-peace exchange) to test their placement and function against the model's analysis.
+- loop: The author brings a candidate line or a placement question tied to existing chapter beats, the model returns a verdict, a chapter-by-chapter split, or a cross-arc map to justify or relocate it, and the database keeps a mix of the model's new phrasing and the author's own pre-existing plan text (quoted back by the model) attached to the specific plot points and links being negotiated.

@@ -1,0 +1,74 @@
+- steps:
+  - author | opens inquiry | names a formative fanfiction and requests a perspective breakdown with reasons | at the start of the conversation
+  - model | analysis | breakdown of the story's third-person-limited viewpoint, its shift to a second character, and the distinction from omniscience | immediately following
+  - author | personal reflection | recounts when literary devices became meaningful, singling out dramatic irony | after receiving the perspective breakdown
+  - model | analysis | detailed walkthrough of dramatic-irony scenes tied to the romance arc | following the reflection
+  - author | personal reflection | recalls a favorite plot twist and its personal resonance around gender expectations | after the dramatic-irony analysis
+  - model | analysis | breakdown of the twist as subversion of the protector trope and its effect on the protagonist's arc | following
+  - author | terminology request | asks for elaboration on the newly-named device, referencing the earlier memory | after the subversion analysis
+  - model | analysis | expanded breakdown of the subversion device across setup, pivot, reveal, and its extension to the romance | following
+  - author | new material plus question | introduces a second story, shares a memory of weaker characterization, and asks about a specific mechanic's effect on perspective | after finishing the first story's analysis
+  - model | analysis | perspective and device breakdown of the second story, including the mechanic's role and comparison to the first story | following
+  - author | comparative question plus opinion | asks whether the two stories differ in strictness and whether the mechanic breaks the limited viewpoint, offering a personal judgment | after the analysis
+  - model | analysis | comparative strictness breakdown and functional split of the mechanic into two categories | following
+  - author | correction | flags that publication dates don't reflect true writing order | after the comparative analysis
+  - model | revised analysis | redoes the perspective and mechanic breakdown incorporating the corrected timeline | following the correction
+  - author | new material plus memories | introduces a third story with two personal memories about a character and a romance structure | after the revised analysis
+  - model | analysis | perspective, character archetype, and two-phase romance-arc breakdown of the third story | following
+  - author | clarifying redirect | narrows the earlier strictness question to whether the story switches modes or stays fixed | after the analysis
+  - model | revised analysis | reframes as a sliding, variable perspective with zoom-in and zoom-out mechanics | following the redirect
+  - author | new material plus question | introduces a fourth story, states it as a favorite, and asks how its first-person perspective shapes its devices | after the sliding-perspective analysis
+  - model | analysis | breakdown of first-person's effect on dramatic irony, subversion, and an unreliable-narrator reading | following
+  - author | generalizing question | asks whether the unreliable-narrator device also works in third-limited | after the first-person analysis
+  - model | analysis | case-study breakdown of unreliable narration via limited perception and bias in two earlier stories | following
+  - author | generalizing question | asks whether third-limited can match first-person intimacy with more intricacy | after that analysis
+  - model | analysis | comparison of deep third versus first-person intimacy and blind-spot potential | following
+  - author | new material | introduces a fifth story and asks for perspective and device analysis | after the intimacy comparison
+  - model | analysis | breakdown of multiple-first-person use for social drama, meta-fictional framing, and a tonal pivot | following
+  - author | new material | introduces a sixth story, noting its distinctive telepathy-centered, low-romance premise | after the fifth-story analysis
+  - model | analysis | breakdown of a cat-and-mouse multiple-first-person structure, telepathy as a rule-bound system, and satirical voice | following
+  - author | generalizing question | asks for expansion on narrative-voice categories across the works read | after the sixth-story analysis
+  - model | analysis | comparative breakdown of serious, angsty, and satirical narrative voices across three stories | following
+  - author | new material | introduces a seventh story read serially over years, noting its rough start and improvement | after the voice comparison
+  - model | analysis | breakdown of multiple-first-person ensemble use, a time-skip pivot, and tonal maturation alongside the author | following
+  - author | own draft plus history | introduces own first manuscript with its writing timeline and asks how reading history shaped it | after the seventh-story analysis
+  - model | analysis | maps structural and thematic borrowings from prior stories onto the author's manuscript | following
+  - author | self-correction plus reflection | attributes the perspective choice partly to recency of reading and partly to the foundational story's influence, asks for more | after the mapping analysis
+  - model | analysis | deeper breakdown distinguishing structural mimicry from thematic inheritance in the author's manuscript | following
+  - author | new material | introduces an eighth story featuring canon characters, noting a genre shift, with college-era context | after the deeper breakdown
+  - model | analysis | breakdown of an omniscient sitcom perspective and a catalyst-character device | following
+  - author | new material | introduces a ninth story and requests perspective, voice, and device analysis | after the eighth-story analysis
+  - model | analysis | breakdown of a deep-third insecure narrator, a dialogue-formatting convention, and a dense-protagonist pacing device | following
+  - author | new material | introduces a tenth story with the same character pairing and asks for comparative analysis | after the ninth-story analysis
+  - model | analysis | breakdown of the tenth story plus a comparison table across three same-pairing stories | following
+  - author | pointed question | asks specifically whether the two most recent stories break their deep-third perspective or stay consistent | after the comparison
+  - model | analysis | evidence-based comparison of perspective discipline between the two stories | following
+  - author | new material | introduces an eleventh story by the same author and asks for analysis | after the discipline comparison
+  - model | analysis | breakdown of an omniscient ensemble view, flashback structure, and trope deconstruction | following
+  - author | new material | introduces a twelfth story and asks for a comparative perspective, voice, and device analysis | after the eleventh-story analysis
+  - model | analysis | breakdown of a dissonant alternating-limited structure and a physical metaphor for heartbreak | following
+  - author | new material | introduces a thirteenth story, noting a return to original settings, and asks for analysis | after the twelfth-story analysis
+  - model | analysis | breakdown of a cinematic omniscient perspective, a named literary theme, and setting-as-metaphor | following
+  - author | pointed question | asks whether non-battle segments of the thirteenth story use a limited lens or stay detached | after that analysis
+  - model | analysis | breakdown showing variable third-limited technique nested within the omniscient framework, with textual evidence | following
+  - author | theoretical question | asks for the distinction between italicized-thought bias and narration-level bias | after the variable-technique analysis
+  - model | analysis | formal distinction between direct internal monologue and free-indirect narration, with paired examples | following
+  - author | own draft plus history | introduces own second manuscript with its writing context and stated influence choice, asks for formal analysis of the perspective actually used | after the theoretical distinction
+  - model | analysis | identifies the manuscript's perspective as variable-focalization omniscient rather than the strict limited it was meant to imitate, with supporting evidence | following
+  - author | follow-up request | asks for a deeper drill-down into omniscient-versus-limited mechanics in the same manuscript | after the identification
+  - model | analysis | detailed mechanical breakdown of roaming camera, zoom technique, and telepathy as a perspective bridge | following
+  - author | evaluative question | asks whether the identified variable focus is a strength or a weakness and under what conditions | after the mechanical breakdown
+  - model | analysis | breakdown of feature-cases versus detriment-cases for the variable focus, with manuscript examples | following
+  - author | hypothetical | proposes an alternate structural rule of strict alternation only at chapter breaks and asks how it would change non-battle portions | after the feature and detriment breakdown
+  - model | analysis | scene-by-scene projection of how the hypothetical strict structure would alter telepathy, romance, class-divide, and introspection scenes | following
+  - author | synthesis | states an inference connecting differing romantic-arc timing between two works to their differing perspective choices | after the hypothetical projection
+  - model | analysis | confirms and formalizes the inference as a rule linking narrative goal to perspective choice | following
+  - author | generalizing question | asks whether perspective can mix within a work or shift over its course, and whether third person is a spectrum | after the goal-perspective rule
+  - model | analysis | breakdown of zoom-for-effect, style-shift-over-time, and the distinction between strategic shift and accidental leakage, with examples | following
+  - author | new material | introduces a fourteenth story and asks for a full analysis | after the spectrum discussion
+  - model | analysis | full breakdown of a frame-narrative structure, strategic perspective shifts, character diction, and an unreliable-narrator twist | following
+  - author | own draft connection | states that an opening structural choice in own second manuscript was a direct imitation of the fourteenth story's frame device, adding personal reading-timeline context | after the full breakdown
+  - model | analysis | breakdown of the imitated frame technique, in-media-res function, and retrospective narration as applied to the author's manuscript | following, closing this stretch
+- kept:
+- brought: Across the stretch the author brought a chronological catalogue of fanfiction read over roughly a decade, personal memories tied to each title, escalating theoretical questions about narrative perspective, corrections to the record, and drafts of their own two manuscripts, all offered as material for the model's literary analysis.
+- loop: The recurring loop is the author supplying a text, a memory, a correction, or a piece of their own draft along with a pointed question, the model returning a structural literary analysis or comparison in response, and the author then redirecting, generalizing, or applying the new terminology to the next text or to their own writing; no note in the planning database is traced to any message in this stretch, so none of this analytic back-and-forth is shown as having been retained in the plan.

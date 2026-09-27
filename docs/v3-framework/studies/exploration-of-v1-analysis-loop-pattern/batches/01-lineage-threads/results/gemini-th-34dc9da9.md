@@ -1,0 +1,20 @@
+- steps:
+  - author | correction | clarifies Applejack has no pre-existing crush; flips the order of school-founding vs. Storm King; floats a Celestia-mandated restricted-school backstory | opening of gemini:894 prompt
+  - author | rejection | discards the three prior confession options because they all assumed AJ was nursing a hidden crush | closing of gemini:894 prompt
+  - model | analysis | reframes the AJ/Twilight distance as structural (sham curriculum) rather than mere busyness, recasting Twilight as rebel not bureaucrat | opening of gemini:894 response
+  - model | analysis | contrasts Twilight's confession as shock vs. Applejack's confession as discovery, given no pre-existing crush | middle of gemini:894 response
+  - model | draft | dialogue where Applejack processes the revelation and commits to 'figuring it out' rather than declaring love | later part of gemini:894 response
+  - model | rationale | itemized list tying the draft back to the no-crush constraint, the sick-day motif, and the coming separation | close of gemini:894 response
+  - author | endorsement | agrees the 'this feels right' phrasing works, especially linked to shared imposter syndrome | opening of gemini:895 prompt
+  - author | correction | questions and revises when/why Twilight admitted the school was a sham, proposing it ties to Rainbow's departure instead | early gemini:895 prompt
+  - author | elaboration | adds detail that Rainbow leaves teaching to learn to fly a WW1-era plane to defend Silverstream, who returns home to Mount Aris under Storm King threat | mid gemini:895 prompt
+  - author | elaboration | explains the Storm King is routed by a Hippogriff air force, exposing him as a paper tiger and planting Twilight's first doubt about Celestia | mid gemini:895 prompt
+  - author | question | asks whether Applejack should independently recognize the sham, offers competing reasons for Twilight's silence, and notes Twilight's canon pattern of Celestia-driven freakouts | close of gemini:895 prompt
+  - model | analysis | names the dynamic a 'Silent Schism,' explaining how Twilight's internalized guilt and AJ's misreading created the rift | opening of gemini:895 response
+  - model | analysis | traces how the schism pays off structurally in the planned chapter-6 reveal, casting Twilight as a closeted dissident | mid gemini:895 response
+  - model | draft | revised dialogue incorporating the Rainbow/plane and Storm King backstory into Twilight's confession | mid-late gemini:895 response
+  - model | draft | revised Applejack response draft reframed around discovery given the new backstory | continuing same section
+  - model | rationale | itemized list confirming the revised draft still satisfies the no-crush constraint and closes the sham/separation arcs | close of gemini:895 response
+- kept:
+- brought: The author brought a set of corrections and elaborations to the story's established timeline and character backstory (the school-founding/Storm King sequence and Applejack's lack of a hidden crush) that had been used in prior planning.
+- loop: The author repeatedly corrects and layers in backstory details onto a scene premise, and the model responds each time with fresh structural analysis plus a rewritten dialogue draft absorbing the correction, but no note from either exchange was traced into the planning database this round, leaving the revised premise and drafts uncaptured for now.

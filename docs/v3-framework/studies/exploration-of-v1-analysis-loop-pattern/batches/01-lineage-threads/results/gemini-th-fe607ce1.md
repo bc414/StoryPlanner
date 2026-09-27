@@ -1,0 +1,13 @@
+- steps:
+  - author | brings batch of plot/worldbuilding decisions | FJA's crystal-magic economic success, buffalo/batpony integration, and the Cloudbury reveal recasting Kemerskai and the Griffonian Republic | opening prompt
+  - model | frames the conflict | recasts FJA vs GR as a thesis-antithesis-synthesis dialectic rather than good-vs-soulless | opening of response
+  - model | validates worldbuilding fit | confirms the crystal-rifle and buffalo/batpony details as consistent 'harmonic capitalism' lore | section on FJA's success
+  - model | analyzes character reveal | distinguishes FJA 'artistic' soul from GR 'martial/collective' soul to explain why Applejack respects Kemerskai | section on the Cloudbury reveal
+  - model | explains a mechanism | spells out why the GR's solidarity is pragmatic self-interest rather than communism | section on 'greedy solidarity'
+  - model | extrapolates unstated content | infers the kind of realpolitik lesson Kemerskai would give Applejack | section on Kemerskai as mentor
+  - model | resolves an implied tension | gives two justifications (cultural fit, personal loyalty) for why Applejack still backs the FJA despite admiring the GR | section on why AJ still chooses FJA
+  - model | synthesizes into a structural model | proposes a three-faction 'three-legged stool' scheme and states the thematic payoff of diversity over absorption | closing section
+- kept:
+  - note 3728 | pasted from this reply inside the author's own framing | keeps the model's characterization of GR solidarity as a 'hardened family'/'barn-raising on a national scale' rather than soullessness, filed under the link node on Kemerskai's past and perception of the Griffonian Republic
+- brought: The author brought a cluster of already-decided plot and worldbuilding developments (FJA's economic/military success, the Cloudbury chapter reveal about Kemerskai and the Griffonian Republic's history, and Applejack's shift toward respecting realpolitik) for the model to integrate and elaborate on.
+- loop: The author drops a dense batch of finished narrative beats into the conversation, the model returns an extended interpretive scaffold (dialectic framing, mechanism explanations, structural synthesis) around them, and the plan keeps only one compact reframing phrase from that scaffold, filed as a note on how a faction's ethos should be perceived.

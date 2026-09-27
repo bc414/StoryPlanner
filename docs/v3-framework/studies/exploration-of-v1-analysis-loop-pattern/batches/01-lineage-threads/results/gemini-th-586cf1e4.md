@@ -1,0 +1,10 @@
+- steps:
+  - the author | open a conceptual question | asks for the distinction between two named causality models in fiction | first turn of the conversation
+  - the model | define and contrast | gives definitions, examples, a comparison table, and a note on how the two combine and where each fails | reply to the first question
+  - the author | request expansion | asks whether other parallel or orthogonal concepts exist | second turn
+  - the model | catalog analogous frameworks | lists five related dichotomies (Watsonian/Doylist, sim/narrativism, hard/soft worldbuilding, great-man/historicism, discovery/architecture) with a summary matrix and a question back about which fits the author's need | reply to the second question
+  - the author | turn the framework toward tool use | asks whether LLMs specifically are good at taking authorial fiat and generating materialist justification for it | third turn
+  - the model | assess capability and offer to apply it | explains why LLMs excel at retroactive justification, gives worked examples, names a weakness (the 'yes-man' problem), and offers to generate causal justifications for a specific plot point in the author's own story | final reply, closing with a named offer tied to the author's project
+- kept:
+- brought: none
+- loop: The author used the exchange purely to build up a piece of conceptual vocabulary (materialism vs. fiat, and its cousins) through successive requests for definition, expansion, and applicability to LLM use, without introducing or quoting any plan material; the model's closing offer to apply the framework to the author's specific story was not taken up in this stretch, and no text from any of the three exchanges was carried into the planning database.

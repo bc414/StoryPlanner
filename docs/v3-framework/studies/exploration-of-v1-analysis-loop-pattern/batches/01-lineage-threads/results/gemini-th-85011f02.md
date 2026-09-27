@@ -1,0 +1,8 @@
+- steps:
+  - the author | requests | ask for name suggestions for a class of story institutions labeled 'salons' | opens the conversation
+  - the model | proposes | categorized name options for individual salons, grouped by narrative function, with a recommended pick and justification | first response, organized by 'High Society', 'Intimacy & Healing', 'Avant-Garde' categories
+  - the author | redirects | clarifies the request was not for specific salon names but for a replacement blanket/generic term for the institution type itself | second prompt, correcting the scope of the prior answer
+  - the model | proposes | a fresh set of candidate blanket terms with etymology, tonal fit, and class-register notes, plus a recommended pairing of one term for the institution and another for its rooms | second response, closing the exchange
+- kept:
+- brought: The author brought an established but unnamed worldbuilding element from the plan — a category of institutions blending Aquileian and Thestral/night culture, referred to for now as 'salons' — and asked for it to be properly named.
+- loop: The author brought a naming gap in the setting and, after redirecting the model from naming instances to naming the category itself, received two rounds of option-generation with recommendations, but no note in the planning database is traced to either exchange, so nothing from this naming work is recorded as kept in the plan.

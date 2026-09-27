@@ -1,0 +1,13 @@
+- passages:
+  - 4682 | blunt labeling assertion | short unelaborated declarative with no supporting evidence | character called an arrogant intellectual and a bourgeois | apart
+  - 4765 | header label | short title phrase ending in a colon | flags the text that follows as a canon biography | apart
+  - 4765 | mythic encyclopedic narrative | third-person sweeping declaratives, past-tense life-history, grand epithets like 'world-sundering' | Verany's rise as revolutionary leader and his life story | apart
+  - 4765 | casual critical aside | present-tense 'It's clear that', informal phrasing, parenthetical remark | judgment that Verany is a poseur, urban, and falsely universalist | apart
+  - 5074 | analytical political argument | third-person causal claims, worldbuilding jargon such as 'asset specificity' and 'PNdA' | Verany's opportunistic use of rights language and his turn to nationalism | apart
+  - 5074 | aphoristic pronouncement | short generic present-tense maxim with no named subject | general claim that nationalism is the new ruling ideal | run-in
+- shifts:
+  - 4765 | header label | mythic encyclopedic narrative | bare title gives way to full narrative prose across a paragraph break
+  - 4765 | mythic encyclopedic narrative | casual critical aside | third-person mythic description gives way to present-tense judgment opening with 'It's clear that', across a paragraph break
+  - 5074 | analytical political argument | aphoristic pronouncement | the sentence shortens into a generic maxim that drops Verany as its subject, with no paragraph break
+- registers: blunt labeling assertion; header label; mythic encyclopedic narrative; casual critical aside; analytical political argument; aphoristic pronouncement
+- whole: This item holds several distinct registers — a bare judgmental label, an in-world mythic biography with its own header, a looser present-tense critical aside, and a jargon-heavy political analysis that tightens into a maxim — and while most of these sit apart in their own paragraphs, the one note that shifts mid-argument does so with no break at all.

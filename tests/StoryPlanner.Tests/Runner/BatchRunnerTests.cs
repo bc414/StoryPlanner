@@ -7,15 +7,15 @@ namespace StoryPlanner.Tests;
 /// <summary>
 /// Pure-tier tests for the batch loop with a launcher that starts no process: one call per
 /// item without a result, the result rendered from the structured answer, the calls file
-/// appended with its head, a later execution calling only what failed, random order, the
+/// appended with its head, a later execution calling only what failed, the cut's order, the
 /// launch gate, pause/resume, stop-after-in-flight, cancel, the queue jump, and the launch
 /// folder's invariants. Tier: pure (temp folders).
 /// </summary>
 public class BatchRunnerTests
 {
-    private static BatchRunner Make(TempBatch t, FakeLauncher launcher, ILaunchGate? gate = null, bool random = false)
+    private static BatchRunner Make(TempBatch t, FakeLauncher launcher, ILaunchGate? gate = null)
     {
-        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, launcher, gate ?? new OpenGate(), _ => { }, "test", random);
+        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, launcher, gate ?? new OpenGate(), _ => { }, "test");
         Assert.Null(error);
         return runner!;
     }
@@ -98,16 +98,16 @@ public class BatchRunnerTests
     }
 
     [Fact]
-    public async Task Random_order_walks_one_shuffle_of_the_index_and_still_calls_every_item_once()
+    public async Task The_cut_order_is_the_slug_hash_order_and_every_item_is_still_called_once()
     {
         using var t = new TempBatch();
         t.WriteItems(20);
         var launcher = new FakeLauncher { Delay = TimeSpan.FromMilliseconds(5) };
-        var runner = Make(t, launcher, random: true);
-        Assert.True(runner.RandomOrder);
-        Assert.Equal("20 item(s) — 20 to call, 0 skipped as answered, random order", runner.Summary());
+        var runner = Make(t, launcher);
+        Assert.Equal("20 item(s) — 20 to call, 0 skipped as answered", runner.Summary());
+        Assert.Equal(CutOrder.Of(runner.Batch.Items), runner.Order);
         Assert.Equal(runner.Batch.Items.Order(), runner.Order.Order());   // a permutation of the index …
-        Assert.NotEqual(runner.Batch.Items, runner.Order);                 // … and not its order (20! to 1 against)
+        Assert.NotEqual(runner.Batch.Items, runner.Order);                 // … and not its order
 
         await runner.RunAsync(CancellationToken.None);
         Assert.Equal(20, launcher.Launched);
@@ -115,20 +115,27 @@ public class BatchRunnerTests
         var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
         Assert.Equal(20, calls.Entries.Count);
         Assert.All(calls.Entries, c => Assert.True(c.Succeeded));
-
-        // Without the flag the sequence is the index's.
-        Assert.Equal(runner.Batch.Items, Make(t, new FakeLauncher()).Order);
     }
 
     [Fact]
-    public async Task Under_a_ceiling_of_one_the_calls_follow_the_execution_order()
+    public void Every_execution_of_a_batch_cut_the_same_way_walks_the_same_order()
+    {
+        using var t = new TempBatch();
+        t.WriteItems(12);
+        var first = Make(t, new FakeLauncher()).Order;
+        Assert.Equal(first, Make(t, new FakeLauncher()).Order);           // a later execution, the same sequence
+        Assert.Equal(first, CutOrder.Of(first.Reverse()));                 // the index's own order does not matter
+    }
+
+    [Fact]
+    public async Task Under_a_ceiling_of_one_the_calls_follow_the_cut_order()
     {
         using var t = new TempBatch();
         t.WriteItems(3);
         var launcher = new FakeLauncher { Delay = TimeSpan.FromMilliseconds(10) };
-        var runner = Make(t, launcher, new CeilingGate(1), random: true);
+        var runner = Make(t, launcher, new CeilingGate(1));
         await runner.RunAsync(CancellationToken.None);
-        Assert.Equal(runner.Order, launcher.Order.ToList());
+        Assert.Equal(["item-02", "item-01", "item-03"], launcher.Order.ToList());
     }
 
     [Fact]
@@ -136,12 +143,13 @@ public class BatchRunnerTests
     {
         using var t = new TempBatch();
         t.WriteItems(4);
-        var launcher = new FakeLauncher { Hold = new SemaphoreSlim(0), AnswerFor = r => r.Item == "item-01" ? null : """{"class":"a","why":"1"}""" };
+        // The cut's order of item-01..04 is item-04, item-02, item-01, item-03.
+        var launcher = new FakeLauncher { Hold = new SemaphoreSlim(0), AnswerFor = r => r.Item == "item-04" ? null : """{"class":"a","why":"1"}""" };
         var gate = new CeilingGate(1);
         var runner = Make(t, launcher, gate);
         Assert.Equal("not executing", runner.CallNow("item-03"));               // the loop has not started
         var run = runner.RunAsync(CancellationToken.None);
-        await Wait.Until(() => runner.InFlight == 1, what: "item-01 holds the one slot");
+        await Wait.Until(() => runner.InFlight == 1, what: "item-04 holds the one slot");
 
         Assert.True(runner.CanCallNow("item-03"));
         Assert.Null(runner.CallNow("item-03"));                                  // past the ceiling of one
@@ -151,20 +159,20 @@ public class BatchRunnerTests
         Assert.Contains("already running", runner.CallNow("item-03"));
         Assert.Contains("not in the index", runner.CallNow("item-09"));
 
-        launcher.Hold.Release(); launcher.Hold.Release();                        // item-01 fails, item-03 answers
-        await Wait.Until(() => runner.HasSucceeded("item-03") && runner.CallsSnapshot().Any(c => c.Item == "item-01"), what: "both recorded");
+        launcher.Hold.Release(); launcher.Hold.Release();                        // item-04 fails, item-03 answers
+        await Wait.Until(() => runner.HasSucceeded("item-03") && runner.CallsSnapshot().Any(c => c.Item == "item-04"), what: "both recorded");
         Assert.Contains("has answered", runner.CallNow("item-03"));
-        Assert.Contains("already called in execution 1", runner.CallNow("item-01"));
+        Assert.Contains("already called in execution 1", runner.CallNow("item-04"));
 
-        launcher.Hold.Release(); launcher.Hold.Release();                        // the loop finishes item-02 and item-04
+        launcher.Hold.Release(); launcher.Hold.Release();                        // the loop finishes item-02 and item-01
         await run;
         Assert.Equal(4, launcher.Launched);
         var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
         Assert.Equal(4, calls.Entries.Count);
         Assert.All(calls.Entries, c => Assert.Equal(1, c.Call));
         Assert.Equal("ok", calls.Entries.Single(c => c.Item == "item-03").Check);
-        Assert.Equal(["item-01"], runner.Pending());
-        Assert.Equal("not executing", runner.CallNow("item-01"));               // completed
+        Assert.Equal(["item-04"], runner.Pending());
+        Assert.Equal("not executing", runner.CallNow("item-04"));               // completed
     }
 
     [Fact]
@@ -177,8 +185,8 @@ public class BatchRunnerTests
         var run = runner.RunAsync(CancellationToken.None);
         await Wait.Until(() => runner.InFlight == 1);
 
-        runner.Pause();
-        Assert.Null(runner.CallNow("item-02"));                                  // pause holds the loop, not the hand
+        runner.Pause();                                                          // item-02, first in the cut's order, is running
+        Assert.Null(runner.CallNow("item-01"));                                  // pause holds the loop, not the hand
         await Wait.Until(() => launcher.Launched == 2, what: "the jump under pause");
         runner.StopAfterInFlight();
         Assert.Contains("stop requested", runner.CallNow("item-03"));
@@ -341,7 +349,7 @@ public class BatchRunnerTests
         using var t = new TempBatch();
         t.WriteItems(3);
         var refusals = 0;
-        var launcher = new FakeLauncher { Delay = TimeSpan.FromMilliseconds(10), FiveHour = 0.48, RefuseFor = r => r.Item == "item-01" && Interlocked.Increment(ref refusals) == 1 };
+        var launcher = new FakeLauncher { Delay = TimeSpan.FromMilliseconds(10), FiveHour = 0.48, RefuseFor = r => r.Item == "item-02" && Interlocked.Increment(ref refusals) == 1 };   // item-02 is first in the cut's order
         var gate = new CeilingGate(1);
         gate.OnObserve = reading => { if (reading.Rejected) gate.Open = false; };
         var log = new List<string>();
@@ -362,7 +370,7 @@ public class BatchRunnerTests
         gate.Open = true;                                                        // the reset passed
         await run;
         Assert.Equal(4, launcher.Launched);
-        Assert.Equal(["item-01", "item-01", "item-02", "item-03"], launcher.Order);
+        Assert.Equal(["item-02", "item-02", "item-01", "item-03"], launcher.Order);
         var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
         Assert.Equal(3, calls.Entries.Count);
         Assert.All(calls.Entries, c => { Assert.True(c.Succeeded); Assert.Equal(1, c.Call); });

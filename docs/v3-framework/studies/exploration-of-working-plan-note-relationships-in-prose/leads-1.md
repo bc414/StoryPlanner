@@ -1,8 +1,14 @@
 # exploration-of-working-plan-note-relationships-in-prose — leads
 
+- items with results: 351 of 353
+- written by: the Claude Code session that ran the autonomous study campaign of 2026-09-26 to 27,
+  which planned this study, wrote its directions, built or chose its itemizer and read its pilot,
+  and drew these leads from the batch's results; written before the rule that leads are written by
+  a fresh session
+
 ## Leads
 
-### exploration-of-working-plan-note-relationships-in-prose/how-many-joints-the-prose-carries
+### exploration-of-working-plan-note-relationships-in-prose/leads-1/how-many-joints-the-prose-carries
 - lead: Over 351 of the plan's 353 note-owning owners the readers found 2,293 joints between two of that
   owner's notes — a median of 6 per owner, 1 at the least and 56 at the most. Of those, 2,111 are implicit,
   carried only by what the two notes say, and 178 are explicit, where one note points at the other in
@@ -13,7 +19,7 @@
   - rq1 batch=exploration-of-working-plan-note-relationships-in-prose/01-owners answered=351 field=relations view=health
   - rq1 batch=exploration-of-working-plan-note-relationships-in-prose/01-owners answered=351 field=relations view=terms col=strength top=5
 
-### exploration-of-working-plan-note-relationships-in-prose/what-kinds-of-joint-the-prose-carries
+### exploration-of-working-plan-note-relationships-in-prose/leads-1/what-kinds-of-joint-the-prose-carries
 - lead: Under the loose alternations the commonest joint is one note continuing another in time: 382 lines
   over 138 owners. Then one giving the cause or reason of what another states, 341 lines over 147 owners;
   one being an instance or occasion of what another states generally, 254 lines over 143; one stating the
@@ -33,7 +39,7 @@
   - rq1 batch=exploration-of-working-plan-note-relationships-in-prose/01-owners answered=351 field=relations where kind~"presuppos|depends|requires|rests on|does not work without" view=cites
   - rq1 batch=exploration-of-working-plan-note-relationships-in-prose/01-owners answered=351 field=relations where kind~"contradict|tension|conflict|disagree|at odds" view=cites
 
-### exploration-of-working-plan-note-relationships-in-prose/a-third-of-owners-hold-only-one-note
+### exploration-of-working-plan-note-relationships-in-prose/leads-1/a-third-of-owners-hold-only-one-note
 - lead: Read against the index's description column, 109 of the 353 owners hold a single note, so there is
   nothing for their notes to join; 86 hold two or three, 96 hold four to ten, and 62 hold more than ten.
   The 353 owners hold 2,095 notes between them. The readers said so in the whole line for those owners:
@@ -44,7 +50,7 @@
   - exploration-of-working-plan-note-relationships-in-prose/01-owners/link-86
   - exploration-of-working-plan-note-relationships-in-prose/01-owners/subject-108
 
-### exploration-of-working-plan-note-relationships-in-prose/subjects-hang-together-and-scenes-do-not
+### exploration-of-working-plan-note-relationships-in-prose/leads-1/subjects-hang-together-and-scenes-do-not
 - lead: Sorting the whole line by the kind of owner: of the 211 subjects, 117 were read as hanging together
   as one set, 51 as a loose chain or clusters with notes that join none of the others, and 29 hold a single
   note. Of the 89 scene links, 47 hold a single note and 34 hang together. Of the 39 plot points, 26 hold a
@@ -59,7 +65,7 @@
   - exploration-of-working-plan-note-relationships-in-prose/01-owners/link-30
   - exploration-of-working-plan-note-relationships-in-prose/01-owners/chapter-14
 
-### exploration-of-working-plan-note-relationships-in-prose/loose-chains-that-the-notes-do-not-draw
+### exploration-of-working-plan-note-relationships-in-prose/leads-1/loose-chains-that-the-notes-do-not-draw
 - lead: Where a subject's notes were read as a loose chain, the reader's reason is usually that the notes
   are in an order the content implies and nothing states: three notes running from a standard language to
   the first translators to their later exploitation, "though the link between 1821 and 1808 is not drawn
@@ -73,7 +79,7 @@
   - exploration-of-working-plan-note-relationships-in-prose/01-owners/subject-167
   - exploration-of-working-plan-note-relationships-in-prose/01-owners/subject-68
 
-### exploration-of-working-plan-note-relationships-in-prose/a-pair-of-notes-that-is-a-designed-hand-off
+### exploration-of-working-plan-note-relationships-in-prose/leads-1/a-pair-of-notes-that-is-a-designed-hand-off
 - lead: Some joints are a designed hand-off between two tracks of one owner, with the pair reading as one
   unit: a scene link whose two notes are "one sets out what is disclosed on the page about the Archives'
   'dark magic' and the other says what the reader should infer from it." That is a page-design note and a
@@ -84,7 +90,7 @@
 - cites:
   - exploration-of-working-plan-note-relationships-in-prose/01-owners/link-30
 
-### exploration-of-working-plan-note-relationships-in-prose/joints-whose-other-end-is-not-in-the-item
+### exploration-of-working-plan-note-relationships-in-prose/leads-1/joints-whose-other-end-is-not-in-the-item
 - lead: Beside the joints inside an owner, the readers found 1,787 places where a note plainly speaks of
   something the owner does not hold — a median of 4 per owner, up to 24. These point at another subject,
   another scene, another story or a piece of lore held elsewhere in the plan, and are joints whose other
@@ -93,7 +99,7 @@
 - query:
   - rq1 batch=exploration-of-working-plan-note-relationships-in-prose/01-owners answered=351 field=outward view=health
 
-### exploration-of-working-plan-note-relationships-in-prose/notes-in-tension-inside-one-owner
+### exploration-of-working-plan-note-relationships-in-prose/leads-1/notes-in-tension-inside-one-owner
 - lead: 54 lines over 41 owners join two notes by contradiction or tension rather than agreement. One
   chapter's four notes were read as one thread about Applejack's failed expectation with the traditionalists
   "spread across the meeting, the private talk and the later correction, though none of them is tied to a

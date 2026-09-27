@@ -1,0 +1,9 @@
+- steps:
+  - the author | propose | a worldbuilding idea combining a power-ambiguous courtship gesture, a group reputation-tracking competition, and a biological rationale for the practice | opening message of the exchange
+  - the model | dual-reading analysis | lays out two opposing interpretations of who holds power in the courtship gesture | first section of the model's response
+  - the model | mechanism extension | reframes the reputation log as a market and describes a reversal in who pursues whom | middle section of the model's response
+  - the model | contextual justification | explains how a stated biological limitation between the two species enables the social practice to exist | later section of the model's response
+  - the model | synthesis | compiles the separate pieces into one named cyclical model with a summary label | closing section of the model's response
+- kept:
+- brought: none
+- loop: The author floats a fresh speculative social dynamic for the model to work over, and the model returns an elaborate, structured analytical framework naming and organizing its parts, but no note in the planning database is traced back to this exchange, so nothing from this particular round of ideas is shown to have been captured into the plan.

@@ -192,8 +192,8 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | conducting-a-verification | reviewing-findings | One execution of calibrated directions over its itemizer's items for its question, on Brian's approval: the full batch assembled and handed to the host, one call per item, the tally written at completion, and the analysis written as findings |
 | preparing-a-verification | conducting-a-verification | Building the measure with Brian for one question: the itemizer built or picked and run, the directions authored against real items, calibrated on a sample batch he scores blind |
 | preparing-pipeline-directions | surfacing-candidates iterating-a-statement | Preparing the method's pipeline directions, the referee's or claiming's, with Brian: the plan fixing the model, effort and sample, the sample collated, the directions authored against it and calibrated on a sample batch he scores blind; started by the set's first preparation, his general ruling at promotion or baselining, or a change of model |
-| reviewing-leads | preparing-a-verification | Brian and a session over a leads artifact, or two of one question: leads disputed against the source, the differences between explorations read as leads about the readers, and write the questions Brian raises into the question list |
-| conducting-an-exploration | reviewing-leads | Reading its itemizer's items discovery-first with its question in view and no hypothesis targeted: one item that is the whole of what the itemizer cuts, or one per slice, each a call through the runner under the study's directions; the results written as leads |
+| reviewing-leads | preparing-a-verification | Brian and a session over a study's current leads file, or the current files of two studies of one question: leads disputed against the source, the differences between explorations read as leads about the readers, the questions Brian raises written into the question list, and each sitting's next step for the study |
+| conducting-an-exploration | reviewing-leads | Reading its itemizer's items discovery-first with its question in view and no hypothesis targeted: one item that is the whole of what the itemizer cuts, or one per slice, each a call through the runner under the study's directions; the results written up as leads by a fresh session, at any count of items with results once the pilot has been read |
 | preparing-an-exploration | conducting-an-exploration | Scoping an exploration with Brian: its question, the scale, the directions written and, for slices, piloted on the batch's first calls |
 | asking-a-question | preparing-an-exploration preparing-a-verification | A question Brian raises in a session no other activity's processes cover, written into the question list with what raised it; the one route for a question that arises outside the activities that write their own |
 | building-a-tool | preparing-an-exploration preparing-a-verification | Code with tests that carries no judgment: ingests, readers, itemizers, collators, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
@@ -243,10 +243,10 @@ path. Everything closed sits in `docs/v3-framework-historical/`, governed by not
 | hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | [hypothesis-index-schema](schemas/hypothesis-index-schema.md) | Id and slug per hypothesis, id order |
 | question-list | docs/v3-framework/questions.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions, the buildout's one list |
 | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One entry per study, declared at Brian's approval of its plan; the ids every study folder is named by |
-| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study its batches and where it is; per set of pipeline directions, its versions, the accepted one and its calibration batches; the open questions and whether calibrated directions cover them; per hypothesis, its status |
+| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study its batches, the items each answered out of the cut's order, its current leads file with that file's count of items with results, its latest next step and where it is; per set of pipeline directions, its versions, the accepted one and its calibration batches; the open questions and whether calibrated directions cover them; per hypothesis, its status |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
 | decisions | docs/v3-framework/decisions.md | append | [decisions-schema](schemas/decisions-schema.md) | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
-| leads | docs/v3-framework/studies/<study>/leads.md | append | [leads-schema](schemas/leads-schema.md) | What one exploration observed, organised by what was seen |
+| leads | docs/v3-framework/studies/<study>/leads-N.md | append | [leads-schema](schemas/leads-schema.md) | One write-up of one batch's results at one count of its items with results, numbered in the order written; the study's highest number is its current write-up |
 | findings | docs/v3-framework/studies/<study>/findings.md | append | [findings-schema](schemas/findings-schema.md) | What one verification's analysis drew from its results and tally: findings citing the tally sections and items they rest on, each naming the frozen question it answers if one did; what the data raised as proposed questions; what the results showed wrong with the study's own instrument as shortcomings; entries never edited, only withdrawn or superseded at the review |
 | candidates | docs/v3-framework/studies/<study>/candidates.md | in-place | | Generated by compose-candidates through DocIntegrity: the verification's diagnostic candidates, each materialising its finding, verdict, falsifier and outcome, and the non-diagnostic claims at the foot; a view of the claiming and referee results and the outcomes, never hand-edited |
 | declined-candidates | docs/v3-framework/studies/<study>/declined-candidates.md | append | [declined-candidates-schema](schemas/declined-candidates-schema.md) | One entry per diagnostic candidate Brian declined, its (finding, target) heading, the date and his reason; a decline is terminal and never edited |
@@ -282,13 +282,15 @@ the runner and is read in full by any process that invokes it.
   one model and effort, for one question, registered at Brian's approval of its plan, one
   folder holding its batches, a verification's holding also the claiming and referee batches
   its chain runs under the pipeline directions; a different model, itemizer or set of its
-  own directions is a different study, and a question has any number of studies.
+  own directions is a different study, and a question has any number of studies. A study's
+  batches may differ in their directions version, and in the items a changed tool that is
+  still its itemizer cut.
 - **verification**: a study of the verification type, one execution of calibrated
   directions over its itemizer's items for its question, its findings the only source of
   candidates.
 - **exploration**: a study of the exploration type, a discovery-first reading of its
-  itemizer's items with its question in view under piloted directions; its output is a
-  leads artifact.
+  itemizer's items with its question in view under piloted directions; its output is its
+  leads files, one per write-up.
 - **batch**: one execution of a set of items under one definition; a study's batches are
   its calibration samples, its full batches and, for a verification, its claiming and
   referee batches; the pipeline directions' calibration samples sit in their own folders,
@@ -308,7 +310,12 @@ the runner and is read in full by any process that invokes it.
 - **tally**: the runner's counts over a batch's results.
 - **itemizer**: code with tests under `tools/` that cuts corpora into items, run once per
   batch into the batch's folder; it reads corpora and nothing else, and may read several to
-  cut, label and fill the items.
+  cut, label and fill the items. A study's itemizer is one tool cutting one kind of item: a
+  change to the tool's code, or to its narrowing that only drops items a rule applying
+  everywhere excludes or the study cannot use, leaves it the study's itemizer, cutting into a
+  new batch whose index head records the new commit and narrowing; a change of what one item
+  is, of the corpus read, or any other change that widens or shifts which items are taken is a
+  different itemizer.
 - **collator**: code with tests under `tools/` that collates a pipeline batch's items from
   the method's own files its activity names (findings, claiming results, statements,
   evidence entries), run once per batch into the batch's folder.
@@ -319,10 +326,14 @@ the runner and is read in full by any process that invokes it.
   and never a file of the method's other artifact classes.
 - **comparison**: two studies over the same items read against each other: by the tally
   where they share their directions, or at the review for two explorations.
-- **pilot**: the first calls of a batch's execution, as many as the host's ceiling, the
-  execution paused after they launch and their results read by a person before it resumes;
-  a one-item batch needs none. The runner knows no pilot: no flag names one and no call is
-  marked.
+- **cut's order**: the order a batch calls its items in, ascending by the SHA-256 hash of
+  each item's slug taken over its UTF-8 bytes; since the hash depends on the slug alone, every
+  batch cut the same way calls its items in the same order, whatever the study, the directions
+  version or the execution. The index keeps its own order for reading.
+- **pilot**: the first calls of a batch's execution in the cut's order, as many as the host's
+  ceiling, the execution paused after they launch and their results read by a person before it
+  resumes; the same items for every directions version of a cut; a one-item batch needs none.
+  The runner knows no pilot: no flag names one and no call is marked.
 - **dry run**: the checks an execution would make, in memory, with nothing written.
 - **rule**: one of the ten constitutional rules above, cited by number.
 - **check**: one thing the tool holds, named by its id in a schema's Checks section; the
@@ -339,9 +350,12 @@ the runner and is read in full by any process that invokes it.
 - **lead**: what was seen and what it was seen in, in words; the output of exploration,
   drawn from its results and pointing back at them by the queries it rests on, the slices
   it came from, or both; an idea for a question and for what to itemize; never a finding,
-  never names a position inside a slice.
+  never names a position inside a slice. A lead sits in one leads file, a write-up of one
+  batch at one count of its items with results, and is headed and cited
+  `<study>/leads-<N>/<slug>`.
 - **query**: the canonical string a results tool prints for one question put to a batch's
-  results, naming the batch, the answered count it was run over, the field, the filters,
+  results, naming the batch, the count of its items with results it was run over (its
+  `answered=` key), the field, the filters,
   the scope and the view; a lead's pointer to the analytical result of items, re-run at the
   review; a study need have no tool that answers one.
 - **question**: Brian's testable question, in the question list.

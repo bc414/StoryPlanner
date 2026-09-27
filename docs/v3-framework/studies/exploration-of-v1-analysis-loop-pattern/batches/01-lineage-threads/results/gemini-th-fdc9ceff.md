@@ -1,0 +1,17 @@
+- steps:
+  - author | states craft preference | character-driven focus, minimal battle description | opening of the message
+  - author | poses design problem | how to keep AJ and Twilight equally important despite AJ's max-org vs Twilight's max-soft-attack stats | early in the message
+  - author | cites source inspiration | The Princess and the Kaiser / grown-up Flurry Heart's limitless magic as a model for Twilight's power | middle of the message
+  - author | commits to a plot decision | AJ as military governor of Tall Tale, Twilight as weapons researcher at Star Energy Corporation | end of the message
+  - model | validates the framing | naming the governor/researcher split as already solving the power-imbalance problem | opening of the reply
+  - model | proposes a division of labor | Twilight controls the 'how' of weapons, Applejack controls the 'why and when' of their use | section 1 of the reply
+  - model | proposes a character arc | Twilight's shift from panic to emotional disassociation to a tempered resolve, with Applejack pulling her back | section 2 of the reply
+  - model | proposes a recurring dynamic | a 'cost exchange' where Applejack absorbs the political/social fallout of Twilight's magic | section 3 of the reply
+  - model | offers scene concepts | a 'targeting scene' and a 'permission scene' illustrating combined-arms interdependence | section 4 of the reply
+  - model | suggests structural metaphors | HOI4 mechanics (supply, entrenchment, war support) repurposed to pace their relationship | section 5 of the reply
+  - model | closes with a thematic summary | contrasting the story's partnership dynamic with P&K's solitary Flurry Heart, naming AJ and Twilight 'Sword and Shield' | closing of the reply
+- kept:
+  - note 4572 | the author's own words in this record | keeps the author's own elaboration of the P&K-parallel backstory (Luna's retreat order, AJ's refusal, the Petain-style collaborator nightmare) filed under an 'AJ The Collaborator' entry
+  - note 4098 | one sentence lifted from this reply | keeps one sentence from the model's closing P&K-contrast summary, combined with the author's own Petain/Vichy framing, filed under a 'P&K Subversion' entry
+- brought: The author brought an unresolved design problem — how to keep Applejack and Twilight equally important given their asymmetric strengths — together with a concrete decision to make Applejack military governor and Twilight a weapons researcher, framed against the source inspiration The Princess and the Kaiser.
+- loop: The author brings a character-balance problem plus a fresh structural decision and a comparison text to react against; the model returns a multi-part craft framework (role division, arc, recurring dynamic, scene ideas, metaphor system, thematic contrast); the plan keeps only a sliver back — the author's own P&K-backstory elaboration under an AJ collaborator entry, and a single lifted contrast sentence under a P&K-subversion entry — so the bulk of the model's structural proposal is not retained verbatim, only the thematic frame it helped crystallize.

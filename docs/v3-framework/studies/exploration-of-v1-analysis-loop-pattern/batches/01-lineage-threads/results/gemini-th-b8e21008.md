@@ -1,0 +1,10 @@
+- steps:
+  - the author | requests craft reference | asks for real-world examples of free indirect speech and deep third-person POV from K-12 curriculum texts and popular fiction | opening of the conversation
+  - the model | supplies illustrative examples | gives two examples each of free indirect speech and deep third (Austen, Rowling, Martin, Lowry) plus a comparison table and an offer to demonstrate rewriting a sentence | first response
+  - the author | narrows the request | asks specifically for examples of a fluid deep third that transitions the POV lens between characters mid-scene via a bridge | second prompt
+  - the model | supplies technique examples with mechanics | gives two literary examples (Woolf, Herbert) of the 'baton pass' technique, then abstracts two generic bridge mechanisms (sensory gaze, shared object), and offers to draft a demonstration paragraph | second response
+  - the author | requests expansion | asks for a few more examples of the same technique | third prompt
+  - the model | supplies additional technique examples | gives five more examples across genres (Tolstoy, Douglas Adams, action/thriller convention, romance convention, Joyce) each naming its specific bridging device | third response
+- kept:
+- brought: none
+- loop: The author used the conversation purely to research a narrative-craft technique (fluid deep third POV transitions), progressively narrowing and then broadening the request for examples, with the model supplying literary illustrations and abstracted mechanics each time; nothing from this exchange was traced into the planning database.

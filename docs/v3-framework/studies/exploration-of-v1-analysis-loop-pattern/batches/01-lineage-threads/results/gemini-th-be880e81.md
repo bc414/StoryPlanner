@@ -1,0 +1,8 @@
+- steps:
+  - author | proposes a formulated twist | a plot revision (a demographic/political reveal about Aquileia and its bearing on the referendum stakes) plus a request to judge whether it works | opening message of the stretch
+  - model | validates and elaborates the twist | a structured verdict broken into character-conflict, stakes, and scene-level material (imagined confrontation dialogue, a reframing of an in-story slur, and a summary judgment) | the sole reply in this stretch
+- kept:
+  - note 3496 | pasted from this reply with cuts | keeps two lines of scene imagery and a confrontation line from the model's elaboration, filed under a link node for an arrival scene
+  - note 3497 | pasted from this reply inside the author's own framing | keeps the model's reframing of a snub-word's meaning, rewritten in the author's own words, filed under the same link node
+- brought: The author brought a self-drafted plot twist, already reasoned through, and asked the model to judge whether it works rather than to invent it.
+- loop: The author brings a fully worked-out revision for validation; the model turns it into elaborated scene-level material (confrontation dialogue, a term's reframing) alongside its broader strategic verdict; the database keeps only the concrete scene fragments, filing them under a scene/theme link node while leaving the surrounding strategic analysis and verdict untraced.

@@ -6,7 +6,7 @@ Enables conducting-an-exploration.
 |---|---|---|---|---|---|---|
 | explore-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix the question, the scale, one item or slices, the itemizer, the model and effort; the plan approved registers the study; his question written into the list first where it is not there |
 | author-exploration-directions | hitl | | question-list corpus directions | directions | specified | The directions written with Brian against the corpora: what one item is, how to read with the question in view, what to produce as entries; a new numbered version each time |
-| assemble-exploration-batch | session | runner tool-source | directions corpus | definition index items calls | specified | The batch's definition written and its items cut by the itemizer; dry-run-batch; for slices, execute-batch paused as soon as it starts, its first calls the pilot, whose results Brian reads before the rest run |
+| assemble-exploration-batch | session | runner tool-source | directions corpus | definition index items calls | specified | The batch's definition written and its items cut by the itemizer, for a new study, a new directions version or a changed itemizer that stays the study's; dry-run-batch; for slices, execute-batch paused as soon as it starts, its first calls in the cut's order the pilot, whose results Brian reads before the rest run |
 | explore-pilot-item | agent | | directions items | results | specified | A pilot call, one slice read discovery-first under the directions; the only writer of its result |
 
 ## Preconditions
@@ -20,7 +20,8 @@ The session presents the question the study is of and the shape of every corpus 
 itemizer will read, from CORPORA.md, and asks Brian, batched four per call: the scale the
 question calls for, one item that is the whole of what the itemizer cuts, where that or a
 stated narrowing of it fits one call, or slices, as peers, and the itemizer that cuts them;
-the model and effort; and what the exploration does not do. The plan is written against
+the model and effort; what the exploration does not do; and, where Brian has a view, how far
+the batch runs before its first write-up. The plan is written against
 the chain's activity files, conducting-an-exploration and reviewing-leads, read whole here
 rather than each at its own start, since it names what each of them will do for this study.
 Brian approves; the session appends the study's id to `studies.md`, which is its
@@ -44,9 +45,13 @@ for reading it elsewhere. It reads corpora and nothing else, and may read other 
 cut, label and fill the items, as preparing-a-verification § itemize says, stating any
 narrowing in the index head. Then, per the `agent-runner` skill, dry-run-batch, and for
 slices execute-batch, paused on the page as soon as it starts; the calls that launched
-before the pause, as many as the host's ceiling, are the pilot. Brian reads those results
-and says whether the directions produce leads of the shape wanted; directions he sends
-back are a new version and a new batch, since a definition is never edited. A one-item
+before the pause, as many as the host's ceiling and the first in the cut's order, are the
+pilot, the same items for every version. Brian reads those results and says whether the
+directions produce leads of the shape wanted; directions he sends back are a new version and a
+new batch, since a definition is never edited. A review that sends the study to building-a-tool
+for a change that keeps the itemizer the study's comes back here: the changed tool cuts a new
+batch of the same study under its current directions, the index head recording the new commit
+and narrowing. A one-item
 batch needs no pilot: its one call is the exploration, and conducting-an-exploration runs
 it.
 

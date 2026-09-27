@@ -1,0 +1,10 @@
+- steps:
+  - author | process question | asks whether to keep adding ideas or stop planning and start writing, and whether there's a ceiling on themes/characters | opening message
+  - model | verdict | declares the planning phase complete and the writer ready to draft | opening of the response
+  - model | risk framing | names a syndrome for over-planning and warns that more factions or themes would dilute the story's emotional core | early in the response, second section
+  - model | stopping criterion | defines the signal that planning is finished: new ideas no longer solve structural problems | third section of the response
+  - model | transition method | lays out a four-step procedure for shifting from world-system thinking to scene-level drafting | fourth section of the response
+  - model | closing offer | restates the verdict and invites the author to begin structural review of actual Chapter 1 prose next | end of the response
+- kept:
+- brought: The author brought a process question about their own planning practice, implicitly referencing the scale of their existing 32-chapter outline and worldbuilding, rather than any single plan item.
+- loop: The author steps back from the plan's content to ask about the planning process itself, and the model answers with a judgment call and a procedural method for ending planning and starting drafting; no note from this exchange was carried into the planning database.

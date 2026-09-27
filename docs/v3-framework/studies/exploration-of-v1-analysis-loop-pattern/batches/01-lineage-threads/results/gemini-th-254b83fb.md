@@ -1,0 +1,15 @@
+- steps:
+  - author | plan clarification | a multi-beat backstory addition: Twilight's guilt over not outmagicking Flim and Flam, the realization the first cider batch was actually good, the Fleur Bloom earth-pony-magic insight, and an upcoming split from Applejack for duty | opening of the exchange
+  - model | validating analysis | affirms the retcon as dramatically strong, framing the cider-contest memory as the origin of Twilight's fear of industrialization | early in the response
+  - model | scene drafting | writes a sample heart-to-heart dialogue exchange between Twilight and Applejack built around the guilt confession and the 'honesty is magic' line | middle of the response
+  - model | structural reasoning | explains the dramatic logic of splitting the pair (Applejack to the Tzinacatl, Twilight to Tall Tale) and its effect on chapter 10's stakes | later in the response
+  - model | forward extrapolation | proposes a reunion beat for a later chapter built on the separation just established | near the end of the response
+  - model | recap | condenses the whole exchange into a numbered chapter-by-chapter arc summary | closing of the response
+- kept:
+  - note 237 | the author's own words in this record | keeps a separate split-related beat (characters dividing up to return to Tall Tale, study the love harvester, interrogate a POW), filed under its own plot point on splitting
+  - note 245 | the author's own words in this record | keeps the guilt/lucked-out beat about the cider contest, filed under the decompression scene's plot point
+  - note 246 | the author's own words in this record | keeps the 'first batch was actually good' realization that hardens Twilight's resolve never to replicate the spell, filed under the same plot point
+  - note 247 | the author's own words in this record | keeps the Fleur Bloom earth-pony-magic insight and the 'honesty is magic' framing, filed under the same plot point
+  - note 248 | pasted whole from this reply | keeps the model's Trauma/Guilt/Relief breakdown of the retcon's meaning, added onto the same decompression plot point
+- brought: The author brought a clarification adding new causal backstory to an already-planned scene: Twilight's guilt over the cider contest, a revised memory that the first cider batch was good, an earth-pony-magic insight, and an upcoming duty-driven split from Applejack.
+- loop: The author supplies raw emotional/causal beats meant to deepen an existing plotted scene, the model validates and expands them with drafted dialogue and downstream structural consequences, and the plan retains the author's own beats verbatim across several plot-point entries while also absorbing one condensed piece of the model's own thematic breakdown into the same entry.
